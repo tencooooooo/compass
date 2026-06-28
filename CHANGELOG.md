@@ -10,6 +10,8 @@
 - Project Rebranding: AI Growth Hunter was rebranded to Compass.
 - Reserved Growth Hunter as the future growth stock screening engine name.
 - Added Compass Research 01: Explainable Scoring Engine with score explanations, confidence, and evidence.
+- Added Compass Research 02: Market Intelligence Engine with market summary, sector summary, and dashboard JSON.
+- Added Compass Research 03: Discovery Engine for explainable additional research candidate discovery.
 
 ```text
 AI Growth Hunter

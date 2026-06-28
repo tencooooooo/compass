@@ -15,6 +15,10 @@ Analysis
     ↓
 Scoring
     ↓
+Market Intelligence
+    ↓
+Discovery
+    ↓
 Learning
     ↓
 Dashboard
@@ -67,6 +71,8 @@ Future modules should fit the Compass brand architecture:
 - Research Engine: company analysis
 - Growth Hunter: growth stock screening
 - Scoring Engine: scoring and ranking
+- Market Intelligence Engine: market, sector, and market psychology context
+- Discovery Engine: additional research candidate discovery
 - Learning Engine: AI improvement
 - Portfolio Engine: future portfolio research support
 - Dashboard: future user interface

@@ -53,6 +53,8 @@ Analyzers read stored data and Knowledge to produce Markdown reports.
 Engines convert stored facts into explainable research signals.
 
 - `engines/scoring_engine/`: Explainable scoring with reasons, evidence, and confidence
+- `engines/market_intelligence/`: Market and sector context reports
+- `engines/discovery/`: Additional research candidate discovery
 
 ## Reports
 

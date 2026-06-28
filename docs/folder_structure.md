@@ -29,7 +29,7 @@ compass/
 
 - `collectors/`: Scripts that collect market, company, financial, and news data.
 - `analyzers/`: Scripts that generate company and comparative analysis reports.
-- `engines/`: Explainable engines such as scoring.
+- `engines/`: Explainable engines such as scoring, market intelligence, and discovery.
 - `config/`: Ticker list and project settings.
 - `knowledge/`: Human-maintained analysis rules and project knowledge.
 - `prompts/`: Prompt templates separated from Python code.

@@ -50,6 +50,12 @@ jobs:
       - name: Generate explainable scoring reports
         run: python engines/scoring_engine/scoring_engine.py
 
+      - name: Generate market intelligence reports
+        run: python engines/market_intelligence/market_monitor.py
+
+      - name: Generate discovery candidates
+        run: python engines/discovery/discovery_engine.py
+
       - name: Upload generated outputs
         if: always()
         uses: actions/upload-artifact@v4

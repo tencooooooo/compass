@@ -15,6 +15,8 @@ This file tracks possible future capabilities for Compass.
 - Research Engine
 - Growth Hunter
 - Scoring Engine
+- Market Intelligence Engine
+- Discovery Engine
 - Learning Engine
 - Scoring
 - Ranking

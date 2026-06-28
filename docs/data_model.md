@@ -169,6 +169,49 @@ confidence_completeness
 evidence_sources
 ```
 
+## Market Reports
+
+Path:
+
+```text
+reports/market/market_summary.md
+reports/market/sector_summary.md
+reports/market/market_dashboard.json
+```
+
+Purpose:
+
+- Store market and sector summaries
+- Preserve dashboard-ready market structure
+- Support future Growth Hunter screening
+
+Dashboard JSON structure:
+
+```json
+{
+  "market": {},
+  "sectors": [],
+  "top_events": [],
+  "summary": {}
+}
+```
+
+## Discovery Reports
+
+Path:
+
+```text
+reports/discovery/discovery_candidates.md
+reports/discovery/discovery_candidates.json
+reports/discovery/candidate_details/{ticker}.md
+```
+
+Purpose:
+
+- Store additional research candidates
+- Preserve Discovery Score, reasons, watch points, Confidence, and Evidence
+- Provide the foundation for future Growth Hunter screening
+
 ## Future Entity-Based Model
 
 The current model stores data by type. A future version may move toward ticker-based entities:

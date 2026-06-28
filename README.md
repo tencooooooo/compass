@@ -22,6 +22,8 @@ Compass currently supports:
 - Company analysis reports
 - Comparative analysis reports
 - Explainable Scoring Engine
+- Market Intelligence Engine
+- Discovery Engine
 - Human-maintained Knowledge
 - GitHub Actions cloud execution
 - GitHub operation documents
@@ -37,6 +39,8 @@ Compass is designed to support long-term company research.
 - Generate Markdown research reports
 - Compare peer groups across fundamentals, financials, momentum, news, and events
 - Score companies with reasons, evidence, and confidence
+- Understand market and sector context before company discovery
+- Discover additional research candidates without issuing investment decisions
 - Prepare for future ranking, backtesting, dashboard, API, and learning features
 
 The guiding idea is simple: Compass should help humans understand companies, not replace human judgment.
@@ -100,6 +104,8 @@ Future addition
 ```
 
 Growth Hunter remains as the future growth stock screening engine name. It is no longer the whole project brand.
+
+Growth Hunter will run on top of Market Intelligence. Compass first understands the market and sectors, then uses that context for future growth company discovery.
 
 Recommended GitHub repository name:
 
@@ -266,6 +272,7 @@ python collectors/news/build_event_database.py
 python analyzers/company_analysis/generate_company_report.py
 python analyzers/comparative_analysis/generate_comparison_report.py
 python engines/scoring_engine/scoring_engine.py
+python engines/market_intelligence/market_monitor.py
 ```
 
 ## GitHub Actions
@@ -302,6 +309,10 @@ Comparative analysis report generation
 ↓
 Explainable Scoring Engine
 ↓
+Market Intelligence Engine
+↓
+Discovery Engine
+↓
 Artifact upload
 ```
 
@@ -319,6 +330,12 @@ It contains:
 - Scoring methodology
 - Confidence rules
 - Evidence rules
+- Market intelligence
+- Sector analysis rules
+- Discovery engine rules
+- Candidate rules
+- Growth signals
+- False positive patterns
 - Scoring principles
 - Financial analysis rules
 - News and event analysis rules
@@ -340,6 +357,7 @@ Prompts are separated from Python code.
 prompts/company_analysis_prompt.md
 prompts/comparative_analysis_prompt.md
 prompts/scoring_engine_prompt.md
+prompts/market_intelligence_prompt.md
 ```
 
 This makes analysis behavior easier to review and update.
@@ -357,6 +375,12 @@ storage/events/{ticker}_events.json
 reports/scoring/company_scores.csv
 reports/scoring/company_scores.json
 reports/scoring/explanations/{ticker}.md
+reports/market/market_summary.md
+reports/market/sector_summary.md
+reports/market/market_dashboard.json
+reports/discovery/discovery_candidates.md
+reports/discovery/discovery_candidates.json
+reports/discovery/candidate_details/{ticker}.md
 ```
 
 Details: [docs/data_model.md](docs/data_model.md)
@@ -379,6 +403,8 @@ Planned additions:
 - Growth Hunter
 - Research Engine
 - Scoring Engine improvements
+- Market Intelligence Engine
+- Discovery Engine
 - Learning Engine
 - Portfolio Engine
 - Screening
@@ -429,6 +455,60 @@ Low
 ```
 
 The score is not a ranking or investment decision. It is an evidence-based research aid. A high score with low confidence must be reviewed carefully.
+
+## Market Intelligence Engine
+
+Compass Research 02 adds a Market Intelligence Engine.
+
+Output:
+
+```text
+reports/market/market_summary.md
+reports/market/sector_summary.md
+reports/market/market_dashboard.json
+```
+
+It summarizes:
+
+- Covered company count
+- Sector composition
+- Market momentum
+- Notable news
+- Event count
+- Sector averages
+- Rule-based market trends
+- Rule-based market psychology
+
+Market Intelligence does not generate company rankings. It builds the market and sector context that future Growth Hunter screening will use.
+
+## Discovery Engine
+
+Compass Research 03 adds a Discovery Engine.
+
+Output:
+
+```text
+reports/discovery/discovery_candidates.md
+reports/discovery/discovery_candidates.json
+reports/discovery/candidate_details/{ticker}.md
+```
+
+Discovery Engine uses:
+
+- Price
+- Company
+- Financials
+- News
+- Events
+- Company Analysis
+- Comparative Analysis
+- Scoring Engine
+- Market Intelligence
+- Knowledge
+
+It does not generate investment rankings. It identifies companies that may deserve additional research and explains why.
+
+Discovery Engine is the foundation for the future Growth Hunter engine.
 
 ## Git Tag And Release Preparation
 

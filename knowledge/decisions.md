@@ -68,3 +68,19 @@
 - `reports/scoring/company_scores.csv`, `company_scores.json`, `explanations/{ticker}.md` を生成する。
 - 厳密な売上成長率など、現時点で時系列財務が不足する項目は理由とConfidenceへ反映する。
 - スコアはランキングや投資判断ではなく、追加調査候補を整理するための説明可能な補助情報として扱う。
+
+## Compass Research 02 - Market Intelligence Engine
+
+- `engines/market_intelligence/` を追加し、市場、セクター、市場心理を整理する基盤を作成した。
+- `reports/market/market_summary.md`, `sector_summary.md`, `market_dashboard.json` を生成する。
+- 入力には価格、企業情報、決算、ニュース、Event Database、Knowledge、Scoring結果、比較分析レポートを使用する。
+- Growth Hunterはまだ実装せず、将来Growth Hunterが参照する市場・セクター文脈を先に整備する。
+- 企業ランキングは生成せず、市場構造の理解を優先する。
+
+## Compass Research 03 - Discovery Engine
+
+- `engines/discovery/` を追加し、追加調査候補を説明可能な形で抽出する基盤を作成した。
+- Discovery Scoreは投資判断ではなく、候補発見のための補助指標として扱う。
+- 入力には価格、企業情報、決算、ニュース、Events、企業分析、比較分析、Scoring、Market Intelligence、Knowledgeを使用する。
+- 出力は `reports/discovery/discovery_candidates.md`, `discovery_candidates.json`, `candidate_details/{ticker}.md` とした。
+- Growth Hunterはまだ実装せず、Discovery Engineをその土台として位置づけた。
