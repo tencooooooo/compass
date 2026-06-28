@@ -1,0 +1,480 @@
+# 🧭 Compass
+
+Explainable AI Investment Research Platform
+
+`v1.0-alpha`
+
+Compass is an AI investment research platform for US growth stocks.
+
+This project is currently in Alpha. It is a research platform foundation, not a finished investment product.
+
+Compass does not predict stock prices, issue buy/sell calls, set target prices, or provide investment advice. Its purpose is to collect facts, organize company information, and generate explainable research reports that help humans decide what to investigate next.
+
+## Project Overview
+
+Compass currently supports:
+
+- Daily OHLCV market data collection
+- Company profile collection
+- Financial data collection
+- News collection
+- Event Database generation
+- Company analysis reports
+- Comparative analysis reports
+- Explainable Scoring Engine
+- Human-maintained Knowledge
+- GitHub Actions cloud execution
+- GitHub operation documents
+
+Generated data and reports are not tracked by Git. They are created by local runs or GitHub Actions and uploaded as workflow artifacts.
+
+## Purpose
+
+Compass is designed to support long-term company research.
+
+- Collect reusable data for US stocks
+- Maintain Knowledge as human-edited analysis rules and project memory
+- Generate Markdown research reports
+- Compare peer groups across fundamentals, financials, momentum, news, and events
+- Score companies with reasons, evidence, and confidence
+- Prepare for future ranking, backtesting, dashboard, API, and learning features
+
+The guiding idea is simple: Compass should help humans understand companies, not replace human judgment.
+
+## Brand Definition
+
+Formal name:
+
+```text
+🧭 Compass
+```
+
+Subtitle:
+
+```text
+Explainable AI Investment Research Platform
+```
+
+Short name:
+
+```text
+Compass
+```
+
+Brand message:
+
+```text
+答えを出すAIではなく、考える方向を示すAI。
+```
+
+## Brand Architecture
+
+```text
+Compass
+↓
+Brand
+
+Growth Hunter
+↓
+Growth stock screening engine
+
+Research Engine
+↓
+Company analysis
+
+Scoring Engine
+↓
+Scoring
+
+Learning Engine
+↓
+AI improvement
+
+Portfolio Engine
+↓
+Future addition
+
+Dashboard
+↓
+Future addition
+```
+
+Growth Hunter remains as the future growth stock screening engine name. It is no longer the whole project brand.
+
+Recommended GitHub repository name:
+
+```text
+compass
+```
+
+Alternative:
+
+```text
+compass-platform
+```
+
+The project may later move under a GitHub Organization if multiple engines or applications are separated.
+
+## Manifest And Philosophy
+
+The project philosophy is documented separately so it remains visible as the codebase grows.
+
+- [MANIFEST.md](MANIFEST.md): mission, vision, core values, prohibited uses, and long-term goal
+- [PROJECT_PHILOSOPHY.md](PROJECT_PHILOSOPHY.md): why Knowledge, explainability, long-term thinking, and human review matter
+- [docs/branding.md](docs/branding.md): brand concept, naming reason, future brand structure, logo image, and UI image
+- [knowledge/brand_identity.md](knowledge/brand_identity.md): human-maintained brand identity notes
+
+Core values:
+
+- Knowledge First
+- Fact First
+- Human-in-the-loop
+- Continuous Learning
+- Explainability
+
+Prohibited outputs:
+
+- Definitive buy or sell calls
+- Personalized investment advice
+- Black-box AI conclusions
+- Over-optimized short-term signals
+
+## System Architecture
+
+```text
+Collectors
+    ↓
+Storage
+    ↓
+Knowledge
+    ↓
+Analyzers
+    ↓
+Engines
+    ↓
+Reports
+```
+
+Details:
+
+- [docs/architecture.md](docs/architecture.md)
+- [docs/future_architecture.md](docs/future_architecture.md)
+- [docs/data_model.md](docs/data_model.md)
+
+## Roadmap
+
+```text
+Phase1 Foundation
+Complete
+
+Phase2 Intelligence
+In progress
+
+Phase3 Learning
+Planned
+
+Phase4 Compass Platform
+Planned
+```
+
+`v1.0-alpha` marks the first major milestone:
+
+- Phase1 Foundation is complete
+- Phase2 Intelligence has started
+- The project completed its Compass rebranding milestone
+- Project philosophy, documentation, and GitHub operation foundations are organized
+
+Version history is maintained in [CHANGELOG.md](CHANGELOG.md) and [knowledge/project_history.md](knowledge/project_history.md).
+
+## History
+
+```text
+2026
+AI Growth Hunter として開始
+↓
+Compassへリブランド
+```
+
+AI Growth Hunter remains in the history as the original project name. Growth Hunter remains reserved for the future growth stock screening engine.
+
+## Folder Structure
+
+```text
+compass/
+├── analyzers/
+├── backtests/
+├── collectors/
+├── config/
+├── docs/
+├── engines/
+├── knowledge/
+├── prompts/
+├── reports/              # generated, ignored by Git
+├── screeners/
+├── storage/
+│   ├── raw/              # generated, ignored by Git
+│   └── events/           # generated, ignored by Git
+├── tests/
+├── utils/
+├── .github/workflows/
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── MANIFEST.md
+├── PROJECT_PHILOSOPHY.md
+├── README.md
+└── requirements.txt
+```
+
+Details: [docs/folder_structure.md](docs/folder_structure.md)
+
+## Generated Outputs
+
+The following are generated by scripts or GitHub Actions and are intentionally excluded from Git:
+
+```text
+logs/
+storage/raw/
+storage/events/
+reports/
+```
+
+When GitHub Actions runs, generated outputs are uploaded as a workflow artifact named:
+
+```text
+compass-generated-outputs
+```
+
+## Local Setup
+
+Python 3.11 or later is recommended.
+
+```bash
+pip install -r requirements.txt
+```
+
+## Local Execution
+
+Run the pipeline steps manually when developing or checking output locally.
+
+```bash
+python collectors/prices/fetch_prices.py
+python collectors/companies/fetch_company_profiles.py
+python collectors/financials/fetch_financials.py
+python collectors/news/fetch_news.py
+python collectors/news/build_event_database.py
+python analyzers/company_analysis/generate_company_report.py
+python analyzers/comparative_analysis/generate_comparison_report.py
+python engines/scoring_engine/scoring_engine.py
+```
+
+## GitHub Actions
+
+The workflow is defined in:
+
+```text
+.github/workflows/fetch_prices.yml
+```
+
+It runs daily at:
+
+```text
+UTC 22:00
+JST 07:00
+```
+
+Execution order:
+
+```text
+Price collection
+↓
+Company profile collection
+↓
+Financial data collection
+↓
+News collection
+↓
+Event database generation
+↓
+Company analysis report generation
+↓
+Comparative analysis report generation
+↓
+Explainable Scoring Engine
+↓
+Artifact upload
+```
+
+Generated outputs are not committed to the repository. They are available from the workflow artifact.
+
+## Knowledge
+
+`knowledge/` is human-maintained reference material. It is not model training data.
+
+It contains:
+
+- Brand identity
+- Investment rules and philosophy
+- AI design principles
+- Scoring methodology
+- Confidence rules
+- Evidence rules
+- Scoring principles
+- Financial analysis rules
+- News and event analysis rules
+- Market psychology notes
+- Company analysis guidelines
+- Comparative analysis guidelines
+- Peer group definitions
+- Ranking principles
+- Future feature notes
+- Project history and decisions
+
+Future AI analysis should refer to Knowledge as human-authored context. Update Knowledge when project rules, analysis principles, brand rules, or design decisions change.
+
+## Prompts
+
+Prompts are separated from Python code.
+
+```text
+prompts/company_analysis_prompt.md
+prompts/comparative_analysis_prompt.md
+prompts/scoring_engine_prompt.md
+```
+
+This makes analysis behavior easier to review and update.
+
+## Data Model
+
+Current generated data structure:
+
+```text
+storage/raw/prices/{ticker}.csv
+storage/raw/companies/{ticker}.json
+storage/raw/financials/{ticker}.json
+storage/raw/news/{ticker}.json
+storage/events/{ticker}_events.json
+reports/scoring/company_scores.csv
+reports/scoring/company_scores.json
+reports/scoring/explanations/{ticker}.md
+```
+
+Details: [docs/data_model.md](docs/data_model.md)
+
+Future direction:
+
+```text
+storage/entities/{ticker}/company.json
+storage/entities/{ticker}/financials.json
+storage/entities/{ticker}/prices.csv
+storage/entities/{ticker}/news.json
+```
+
+The migration is not implemented yet.
+
+## Future Plans
+
+Planned additions:
+
+- Growth Hunter
+- Research Engine
+- Scoring Engine improvements
+- Learning Engine
+- Portfolio Engine
+- Screening
+- Backtesting
+- Dashboard
+- Watchlist and alerts
+- API
+- LLM integration
+- Better event and market psychology analysis
+- Entity-based storage model
+
+## Explainable Scoring Engine
+
+Compass Research 01 adds an Explainable Scoring Engine.
+
+Output:
+
+```text
+reports/scoring/company_scores.csv
+reports/scoring/company_scores.json
+reports/scoring/explanations/{ticker}.md
+```
+
+The score is 100 points total:
+
+```text
+Growth: 20
+Financial Health: 20
+Valuation: 20
+Momentum: 20
+News: 20
+```
+
+Each score includes:
+
+- Reason
+- Evidence
+- Used metrics
+- Missing data
+- Confidence
+
+Confidence is one of:
+
+```text
+High
+Medium
+Low
+```
+
+The score is not a ranking or investment decision. It is an evidence-based research aid. A high score with low confidence must be reviewed carefully.
+
+## Git Tag And Release Preparation
+
+Recommended Git tag for this milestone:
+
+```bash
+git tag v1.0-alpha
+git push origin v1.0-alpha
+```
+
+Do not create the tag until the repository contents have been reviewed and committed.
+
+Suggested GitHub Release steps:
+
+1. Open the repository on GitHub.
+2. Go to `Releases`.
+3. Select `Draft a new release`.
+4. Choose the `v1.0-alpha` tag.
+5. Use `Compass v1.0-alpha` as the release title.
+6. Summarize that Phase1 Foundation is complete, Phase2 Intelligence has started, and the Compass rebranding milestone is complete.
+7. Note that the project is Alpha and not investment advice.
+
+## GitHub Publication Checklist
+
+Before publishing or pushing:
+
+- No API keys are included
+- `.env` is ignored
+- `.venv/` is ignored
+- `logs/` is ignored
+- `storage/raw/` is ignored
+- `storage/events/` is ignored
+- `reports/` is ignored
+- GitHub Actions workflow is present
+- `LICENSE` is present
+- `README.md` is current
+- `CHANGELOG.md` is current
+- `CONTRIBUTING.md` is present
+- `MANIFEST.md` is present
+- `PROJECT_PHILOSOPHY.md` is present
+- Brand name is consistently Compass
+
+## License
+
+This project is released under the MIT License. See [LICENSE](LICENSE).
+
+## Disclaimer
+
+Compass is a research support tool. It does not guarantee investment results and does not provide investment advice. Final investment decisions are the responsibility of the user.

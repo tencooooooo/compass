@@ -1,0 +1,63 @@
+name: Compass pipeline
+
+on:
+  schedule:
+    # JST 07:00 = UTC 22:00. 米国市場の通常取引終了後に確認しやすい時間です。
+    - cron: "0 22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  fetch-prices:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch daily prices
+        run: python collectors/prices/fetch_prices.py
+
+      - name: Fetch company profiles
+        run: python collectors/companies/fetch_company_profiles.py
+
+      - name: Fetch financial data
+        run: python collectors/financials/fetch_financials.py
+
+      - name: Fetch news
+        run: python collectors/news/fetch_news.py
+
+      - name: Build event database
+        run: python collectors/news/build_event_database.py
+
+      - name: Generate company analysis reports
+        run: python analyzers/company_analysis/generate_company_report.py
+
+      - name: Generate comparative analysis reports
+        run: python analyzers/comparative_analysis/generate_comparison_report.py
+
+      - name: Generate explainable scoring reports
+        run: python engines/scoring_engine/scoring_engine.py
+
+      - name: Upload generated outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: compass-generated-outputs
+          path: |
+            storage/raw/
+            storage/events/
+            reports/
+            logs/
+          if-no-files-found: warn
