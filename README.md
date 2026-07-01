@@ -37,6 +37,7 @@ Compass currently supports:
 - Query Engine
 - Compass MCP Server
 - Time Machine Engine
+- Pattern Intelligence Engine
 - Human-maintained Knowledge
 - GitHub Actions cloud execution
 - GitHub operation documents
@@ -67,6 +68,7 @@ Compass is designed to support long-term company research.
 - Provide a shared Query Engine for Workspace, MCP, Chat Interface, Slack Bot, and Mobile search
 - Provide a thin MCP Server for ChatGPT, Claude, Codex, and future MCP clients
 - Replay historical Compass analysis from a past snapshot date without future data leakage
+- Extract explainable success, failure, sector, market, event, and similarity pattern candidates
 - Prepare for future ranking, backtesting, API, and deeper learning features
 
 The guiding idea is simple: Compass should help humans understand companies, not replace human judgment.
@@ -472,6 +474,9 @@ It contains:
 - Time Machine
 - Historical analysis
 - Snapshot rules
+- Pattern library
+- Pattern confidence
+- Similarity rules
 - Scoring principles
 - Financial analysis rules
 - News and event analysis rules
@@ -504,6 +509,7 @@ prompts/agent_prompt.md
 prompts/query_prompt.md
 prompts/mcp_prompt.md
 prompts/time_machine_prompt.md
+prompts/pattern_prompt.md
 ```
 
 This makes analysis behavior easier to review and update.
@@ -553,6 +559,10 @@ memory/query/history.json
 reports/timemachine/snapshot_YYYY-MM-DD.md
 reports/timemachine/discovery_YYYY-MM-DD.md
 reports/timemachine/market_YYYY-MM-DD.md
+reports/patterns/success_patterns.md
+reports/patterns/failure_patterns.md
+reports/patterns/similarity_report.md
+reports/patterns/pattern_summary.md
 ```
 
 Details: [docs/data_model.md](docs/data_model.md)
@@ -590,6 +600,7 @@ Planned additions:
 - Query Engine
 - Compass MCP Server
 - Time Machine Engine
+- Pattern Intelligence Engine
 - Portfolio Engine
 - Screening
 - Backtesting
@@ -1406,6 +1417,63 @@ Replays what Compass could have known before future outcomes existed.
 ```
 
 The purpose is not prediction. It is to reproduce the research environment and inspect what Compass would have surfaced at that point in time.
+
+## Pattern Intelligence Engine
+
+Compass Lab 02 adds Pattern Intelligence.
+
+Files:
+
+```text
+lab/pattern_intelligence/pattern_engine.py
+lab/pattern_intelligence/pattern_extractor.py
+lab/pattern_intelligence/pattern_classifier.py
+lab/pattern_intelligence/similarity_engine.py
+```
+
+Run:
+
+```python
+from lab.pattern_intelligence.pattern_engine import PatternEngine
+
+PatternEngine.run()
+```
+
+Inputs:
+
+```text
+Discovery History
+Validation History
+Memory
+Learning History
+Time Machine results
+Financials
+Prices
+News
+Market Intelligence
+```
+
+Output:
+
+```text
+reports/patterns/success_patterns.md
+reports/patterns/failure_patterns.md
+reports/patterns/similarity_report.md
+reports/patterns/pattern_summary.md
+```
+
+Pattern groups:
+
+```text
+Success Pattern
+Failure Pattern
+Sector Pattern
+Market Pattern
+Event Pattern
+Similarity Pattern
+```
+
+Pattern Intelligence is connected to Knowledge and Learning, but it does not update either automatically. It creates explainable Knowledge update candidates with evidence and confidence. Human review is required before any pattern becomes Knowledge or influences Learning.
 
 ## Git Tag And Release Preparation
 
