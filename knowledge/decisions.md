@@ -84,3 +84,36 @@
 - 入力には価格、企業情報、決算、ニュース、Events、企業分析、比較分析、Scoring、Market Intelligence、Knowledgeを使用する。
 - 出力は `reports/discovery/discovery_candidates.md`, `discovery_candidates.json`, `candidate_details/{ticker}.md` とした。
 - Growth Hunterはまだ実装せず、Discovery Engineをその土台として位置づけた。
+
+## Compass Research 04 - Backtesting & Validation Engine
+
+- `engines/validation/` を追加し、Discovery候補を保存済み価格データと突き合わせて検証する基盤を作成した。
+- 検証期間は 1w, 1m, 3m, 6m, 1y とし、期間未完了の候補は断定せずNeutralとして扱う。
+- 出力は `reports/validation/validation_summary.md`, `validation_history.csv`, `validation_history.json` とした。
+- ベンチマークは保存済みのSPYまたはS&P500価格データがある場合のみ使用する。
+- Validationは自動学習ではなく、将来のLearning Engineが参照する履歴と根拠を蓄積するための土台として位置づけた。
+
+## Compass Research 05 - Slack Notification Engine
+
+- `integrations/slack/` を追加し、GitHub Actionsの最後にDaily Research Briefを送信できるようにした。
+- Slack Incoming Webhook URLは `SLACK_WEBHOOK_URL` としてGitHub Secretsで管理し、コードや設定ファイルには保存しない。
+- Secrets未設定の場合はSlack通知のみスキップし、Workflow全体は失敗させない。
+- 通知は詳細レポートではなく、実行結果、Discovery、Market Summary、Important News、Validation、Artifact名に絞る。
+- 失敗時は `always()` の通知ステップから最低限の障害情報を送る設計にした。
+
+## Compass Research 06 - Notification Engine
+
+- `engines/notification/` を追加し、重要イベントの検知と通知ルーティングをDaily Reportから分離した。
+- Slackへ直接依存せず、`NotificationRouter` から `SlackConnector` を呼ぶ設計にした。
+- 初期イベントはDiscovery Alert、Score Change Alert、Market Trend Alert、Important News Alert、Validation Alert、Workflow Failureとした。
+- 通知履歴は `storage/notifications/notification_history.json` に保存し、重複通知防止に使用する。
+- GitHub Actions cacheで `storage/notifications/` を復元し、前回スコアと市場トレンドを比較できるようにした。
+- 将来Discord、Teams、LINE、Email、Push通知へ拡張できる構成にした。
+
+## Compass Core 01 - Memory Engine
+
+- `core/memory/` を追加し、Memory API、Provider Interface、LocalProviderを分離した。
+- 現在はLocal JSONのみを実装し、将来S3、Postgres、Supabaseへ移行できる構造にした。
+- Memory保存先は `memory/companies`, `memory/sectors`, `memory/discoveries`, `memory/validations`, `memory/market`, `memory/lessons` とした。
+- GitHub ActionsではValidation後にMemoryを更新し、その後Notification Engineを実行する順序にした。
+- `memory/` はGit管理対象外とし、Actions cacheで復元し、Artifactへ含める運用にした。

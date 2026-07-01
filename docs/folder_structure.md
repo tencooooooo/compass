@@ -6,8 +6,10 @@ compass/
 ├── backtests/
 ├── collectors/
 ├── config/
+├── core/
 ├── docs/
 ├── engines/
+├── integrations/
 ├── knowledge/
 ├── prompts/
 ├── reports/
@@ -29,8 +31,10 @@ compass/
 
 - `collectors/`: Scripts that collect market, company, financial, and news data.
 - `analyzers/`: Scripts that generate company and comparative analysis reports.
-- `engines/`: Explainable engines such as scoring, market intelligence, and discovery.
+- `engines/`: Explainable engines such as scoring, market intelligence, discovery, validation, and notification.
+- `integrations/`: External notification and delivery integrations such as Slack.
 - `config/`: Ticker list and project settings.
+- `core/`: Core platform layers such as Memory.
 - `knowledge/`: Human-maintained analysis rules and project knowledge.
 - `prompts/`: Prompt templates separated from Python code.
 - `docs/`: Documentation for architecture, roadmap, folder structure, and data model.

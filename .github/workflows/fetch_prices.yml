@@ -17,6 +17,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Restore notification history
+        uses: actions/cache@v4
+        with:
+          path: storage/notifications/
+          key: compass-notifications-${{ github.run_id }}
+          restore-keys: |
+            compass-notifications-
+
+      - name: Restore memory layer
+        uses: actions/cache@v4
+        with:
+          path: memory/
+          key: compass-memory-${{ github.run_id }}
+          restore-keys: |
+            compass-memory-
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -56,6 +72,35 @@ jobs:
       - name: Generate discovery candidates
         run: python engines/discovery/discovery_engine.py
 
+      - name: Generate validation reports
+        run: python engines/validation/backtest_engine.py
+
+      - name: Update memory layer
+        run: python core/memory/memory_engine.py
+
+      - name: Run notification engine
+        if: always()
+        continue-on-error: true
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          COMPASS_WORKFLOW_STATUS: ${{ job.status }}
+          COMPASS_FAILED_STEP: Previous pipeline step
+          COMPASS_ERROR: See GitHub Actions logs for details.
+          GITHUB_RUN_NUMBER: ${{ github.run_number }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_WORKFLOW: ${{ github.workflow }}
+        run: python engines/notification/notification_engine.py
+
+      - name: Send daily Slack report
+        if: success()
+        continue-on-error: true
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          GITHUB_RUN_NUMBER: ${{ github.run_number }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_WORKFLOW: ${{ github.workflow }}
+        run: python integrations/slack/slack_notifier.py
+
       - name: Upload generated outputs
         if: always()
         uses: actions/upload-artifact@v4
@@ -64,6 +109,8 @@ jobs:
           path: |
             storage/raw/
             storage/events/
+            storage/notifications/
+            memory/
             reports/
             logs/
           if-no-files-found: warn

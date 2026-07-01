@@ -37,3 +37,31 @@ The project was prepared for GitHub-based long-term operation. Documentation, li
 The first Alpha milestone was prepared. Phase1 Foundation was marked complete, Phase2 Intelligence was marked in progress, and the project philosophy was formalized through the Manifest, Project Philosophy, future architecture, development principles, release strategy, and new Knowledge files.
 
 The project was rebranded from AI Growth Hunter to Compass. AI Growth Hunter remains as the historical original name, while Growth Hunter is reserved for the future growth stock screening engine.
+
+## Compass Research 01
+
+Explainable Scoring Engine was added. Compass began assigning company scores with reasons, evidence, and confidence instead of black-box rankings.
+
+## Compass Research 02
+
+Market Intelligence Engine was added. Compass began summarizing market and sector context before company-level discovery.
+
+## Compass Research 03
+
+Discovery Engine was added. Compass began identifying additional research candidates with Discovery Score, reasons, strengths, watch points, confidence, and evidence.
+
+## Compass Research 04
+
+Backtesting & Validation Engine was added. Compass began comparing Discovery candidates with later price movement and preserving validation history for the future Learning Engine.
+
+## Compass Research 05
+
+Slack Notification Engine was added. Compass can now send a concise Morning Research Brief and workflow failure notification through a Slack Incoming Webhook configured in GitHub Secrets.
+
+## Compass Research 06
+
+Notification Engine was added. Compass can now detect important event-driven alerts, route them through a Notification Router, send them through the Slack Connector, and store notification history for duplicate prevention and next-run comparison.
+
+## Compass Core 01
+
+Memory Engine was added. Compass can now preserve company, sector, discovery, validation, market, and lessons memory through a provider-based Local JSON layer designed for future S3 or database migration.

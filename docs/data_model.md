@@ -212,6 +212,113 @@ Purpose:
 - Preserve Discovery Score, reasons, watch points, Confidence, and Evidence
 - Provide the foundation for future Growth Hunter screening
 
+## Validation Reports
+
+Path:
+
+```text
+reports/validation/validation_summary.md
+reports/validation/validation_history.csv
+reports/validation/validation_history.json
+```
+
+Purpose:
+
+- Compare Discovery candidates with later price performance
+- Store validation results for 1w, 1m, 3m, 6m, and 1y periods
+- Preserve Return, benchmark difference, sector difference, Confidence, and completion status
+- Provide the foundation for the future Learning Engine
+
+Main fields:
+
+```text
+discovery_date
+validation_date
+period
+ticker
+discovery_score
+discovery_reasons
+start_date
+end_date
+start_price
+end_price
+validation_result
+return_percent
+benchmark
+benchmark_return_percent
+benchmark_diff_percent
+sector_average_return_percent
+sector_diff_percent
+confidence
+event_count
+evidence
+period_complete
+```
+
+## Notification History
+
+Path:
+
+```text
+storage/notifications/notification_history.json
+storage/notifications/state/company_scores_latest.json
+storage/notifications/state/market_trends_latest.json
+```
+
+Purpose:
+
+- Store event-driven notification history
+- Prevent duplicate notifications
+- Preserve previous score and market trend snapshots for next-run comparison
+- Support future notification connectors such as Discord, Teams, LINE, Email, and Push
+
+Main fields:
+
+```text
+event_id
+event_type
+priority
+title
+ticker
+detected_at
+recorded_at
+channel
+status
+error
+```
+
+## Memory
+
+Path:
+
+```text
+memory/companies/{ticker}.json
+memory/sectors/{sector}.json
+memory/discoveries/YYYY-MM-DD.json
+memory/validations/YYYY-MM.json
+memory/market/YYYY-MM-DD.json
+memory/lessons/lessons.json
+```
+
+Purpose:
+
+- Store long-term daily analysis snapshots
+- Preserve company, sector, discovery, validation, market, and lessons history
+- Provide future Learning Engine input
+- Allow future provider migration from Local JSON to S3 or Database
+
+Provider API:
+
+```text
+save
+load
+update
+delete
+exists
+list
+search
+```
+
 ## Future Entity-Based Model
 
 The current model stores data by type. A future version may move toward ticker-based entities:

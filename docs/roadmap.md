@@ -18,8 +18,14 @@ Status: In progress
 - v0.7: Comparative analysis reports
 - v0.7.1: GitHub initialization and documentation
 - v1.0-alpha: First milestone, Phase1 complete, Phase2 started, project philosophy organized
-- v0.8: Screening and scoring foundation
-- v0.9: Backtesting foundation
+- Compass Research 01: Explainable Scoring Engine
+- Compass Research 02: Market Intelligence Engine
+- Compass Research 03: Discovery Engine
+- Compass Research 04: Backtesting & Validation Engine
+- Compass Research 05: Slack Notification Engine
+- Compass Research 06: Event-driven Notification Engine
+- Compass Core 01: Memory Engine
+- Future: Growth Hunter screening foundation
 
 ## Phase3 Learning
 
@@ -27,7 +33,7 @@ Status: Planned
 
 - Improve scoring rules using accumulated historical data
 - Expand event and market psychology analysis
-- Add validation workflows for report quality
+- Use Validation history as Learning Engine input
 
 ## Phase4 Compass Platform
 

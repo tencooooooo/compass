@@ -12,6 +12,10 @@
 - Added Compass Research 01: Explainable Scoring Engine with score explanations, confidence, and evidence.
 - Added Compass Research 02: Market Intelligence Engine with market summary, sector summary, and dashboard JSON.
 - Added Compass Research 03: Discovery Engine for explainable additional research candidate discovery.
+- Added Compass Research 04: Backtesting & Validation Engine with validation summary, history tracking, and Learning Engine foundation.
+- Added Compass Research 05: Slack Notification Engine for Daily Research Brief and failure notifications.
+- Added Compass Research 06: Notification Engine with event detection, routing, Slack Connector, and notification history.
+- Added Compass Core 01: Memory Engine with provider interface, LocalProvider, and local JSON memory.
 
 ```text
 AI Growth Hunter

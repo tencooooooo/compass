@@ -13,6 +13,10 @@ Analyzers
     ↓
 Engines
     ↓
+Memory
+    ↓
+Integrations
+    ↓
 Reports
 ```
 
@@ -55,6 +59,21 @@ Engines convert stored facts into explainable research signals.
 - `engines/scoring_engine/`: Explainable scoring with reasons, evidence, and confidence
 - `engines/market_intelligence/`: Market and sector context reports
 - `engines/discovery/`: Additional research candidate discovery
+- `engines/validation/`: Backtesting and validation of Discovery results against later price movement
+- `engines/notification/`: Event detection and notification routing for action-worthy changes
+
+## Memory
+
+Memory stores long-term analysis results through a provider interface.
+
+- `core/memory/`: Memory API, provider interface, and LocalProvider
+- `memory/`: Generated local JSON memory, excluded from Git and restored by GitHub Actions cache
+
+## Integrations
+
+Integrations connect Compass outputs to external tools without changing the research pipeline.
+
+- `integrations/slack/`: Daily Research Brief and workflow failure notifications
 
 ## Reports
 

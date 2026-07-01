@@ -8,6 +8,8 @@ This file tracks possible future capabilities for Compass.
 - Web UI
 - Watchlist
 - Alerts
+- Slack Morning Research Brief
+- Discord / Teams / LINE / Email connectors
 - Company research archive
 
 ## Analysis
@@ -17,6 +19,10 @@ This file tracks possible future capabilities for Compass.
 - Scoring Engine
 - Market Intelligence Engine
 - Discovery Engine
+- Backtesting & Validation Engine
+- Slack Notification Engine
+- Event-driven Notification Engine
+- Memory Engine
 - Learning Engine
 - Scoring
 - Ranking
@@ -36,6 +42,8 @@ This file tracks possible future capabilities for Compass.
 
 - Historical pattern review
 - Backtest integration
+- Validation history review
+- Memory-based learning input
 - Report quality feedback
 - Human review loop
 
