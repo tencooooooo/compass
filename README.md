@@ -40,6 +40,7 @@ Compass currently supports:
 - Pattern Intelligence Engine
 - Theme Intelligence Engine
 - Performance Evaluation Engine
+- Strategy Evaluation Engine
 - Data Expansion Collector Framework
 - Data Source Hub
 - SEC EDGAR Integration
@@ -77,6 +78,7 @@ Compass is designed to support long-term company research.
 - Extract explainable success, failure, sector, market, event, and similarity pattern candidates
 - Analyze long-term investment themes across market, sector, company, Discovery, Pattern, and news context
 - Evaluate Compass's own Discovery, Theme, Pattern, Confidence, Market, and Sector performance over time
+- Simulate research-only virtual strategies from Discovery, Theme, Pattern, Score, Confidence, and Momentum rules
 - Prepare a disabled Collector Framework for future high-quality data source expansion
 - Provide a Provider-based Data Source Hub for API, CSV, PDF, JSON, and future database inputs
 - Collect SEC EDGAR primary filings and metadata before any AI interpretation layer
@@ -497,6 +499,10 @@ It contains:
 - Evaluation policy
 - Benchmark methodology
 - Accuracy definition
+- Strategy library
+- Portfolio metrics
+- Simulation rules
+- Risk management
 - Data sources
 - Collector guidelines
 - Data quality
@@ -544,6 +550,7 @@ prompts/time_machine_prompt.md
 prompts/pattern_prompt.md
 prompts/theme_prompt.md
 prompts/performance_prompt.md
+prompts/strategy_prompt.md
 ```
 
 This makes analysis behavior easier to review and update.
@@ -624,6 +631,12 @@ reports/performance/sector_accuracy.md
 reports/performance/theme_accuracy.md
 reports/performance/dashboard_metrics.json
 memory/performance/history.json
+reports/strategy/strategy_summary.md
+reports/strategy/portfolio_report.md
+reports/strategy/benchmark_report.md
+reports/strategy/strategy_ranking.md
+reports/strategy/dashboard.json
+memory/strategy/strategy_history.json
 ```
 
 Details: [docs/data_model.md](docs/data_model.md)
@@ -664,6 +677,7 @@ Planned additions:
 - Pattern Intelligence Engine
 - Theme Intelligence Engine
 - Performance Evaluation Engine
+- Strategy Evaluation Engine
 - Data Expansion Engine
 - Data Source Hub
 - SEC EDGAR Integration
@@ -1717,6 +1731,91 @@ GitHub Actions:
 The workflow runs weekly and is independent from the daily pipeline.
 
 Performance Evaluation is not Feedback, Decision, or Learning. It is Compass's scorecard. Future Portfolio integration can use these metrics to compare research signals with realized portfolio outcomes.
+
+## Strategy Evaluation Engine
+
+Compass Lab 05 adds Strategy Evaluation.
+
+Files:
+
+```text
+lab/strategy/strategy_engine.py
+lab/strategy/strategy_runner.py
+lab/strategy/strategy_metrics.py
+lab/strategy/portfolio_simulator.py
+lab/strategy/allocation_engine.py
+```
+
+Configuration:
+
+```text
+config/strategy.yaml
+```
+
+Initial strategies:
+
+```text
+Discovery Score 90+
+Discovery Score 85+
+High Confidence Only
+AI Theme
+Semiconductor Theme
+Momentum Top
+Growth Pattern Match
+Composite Strategy
+```
+
+Simulation:
+
+```text
+Initial capital: 100000 USD
+Position sizing: equal weight
+Default holding period: 180 days
+No real orders
+No brokerage connection
+```
+
+Risk and portfolio metrics:
+
+```text
+CAGR
+Total Return
+Win Rate
+Sharpe Ratio
+Max Drawdown
+Alpha
+Beta
+Volatility
+Average Holding Period
+```
+
+Benchmarks:
+
+```text
+S&P500
+Nasdaq100
+```
+
+Output:
+
+```text
+reports/strategy/strategy_summary.md
+reports/strategy/portfolio_report.md
+reports/strategy/benchmark_report.md
+reports/strategy/strategy_ranking.md
+reports/strategy/dashboard.json
+memory/strategy/strategy_history.json
+```
+
+GitHub Actions:
+
+```text
+.github/workflows/strategy_evaluation.yml
+```
+
+The workflow runs weekly and can also be started manually.
+
+Strategy Evaluation is research-only. It evaluates Compass algorithms and rule sets; it is not investment advice, trade execution, or portfolio management.
 
 ## Data Expansion Engine
 

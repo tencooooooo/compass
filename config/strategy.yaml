@@ -1,0 +1,52 @@
+initial_capital: 100000
+
+buy:
+  score: 90
+
+sell:
+  holding_days: 180
+
+position_size: equal_weight
+
+benchmarks:
+  S&P500: SPY
+  Nasdaq100: QQQ
+
+strategies:
+  discovery_score_90:
+    label: Discovery Score 90+
+    type: score_threshold
+    score: 90
+  discovery_score_85:
+    label: Discovery Score 85+
+    type: score_threshold
+    score: 85
+  high_confidence:
+    label: High Confidence Only
+    type: confidence
+    confidence: High
+  ai_theme:
+    label: AI Theme
+    type: theme
+    theme: AI
+  semiconductor_theme:
+    label: Semiconductor Theme
+    type: theme
+    theme: Semiconductor
+  momentum_top:
+    label: Momentum Top
+    type: momentum_top
+    limit: 3
+  growth_pattern:
+    label: Growth Pattern Match
+    type: pattern
+    pattern: growth
+  composite:
+    label: Composite Strategy
+    type: composite
+    score: 70
+    themes:
+      - AI
+      - Semiconductor
+    patterns:
+      - growth
