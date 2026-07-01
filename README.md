@@ -40,6 +40,7 @@ Compass currently supports:
 - Pattern Intelligence Engine
 - Theme Intelligence Engine
 - Data Expansion Collector Framework
+- Data Source Hub
 - Human-maintained Knowledge
 - GitHub Actions cloud execution
 - GitHub operation documents
@@ -73,6 +74,7 @@ Compass is designed to support long-term company research.
 - Extract explainable success, failure, sector, market, event, and similarity pattern candidates
 - Analyze long-term investment themes across market, sector, company, Discovery, Pattern, and news context
 - Prepare a disabled Collector Framework for future high-quality data source expansion
+- Provide a Provider-based Data Source Hub for API, CSV, PDF, JSON, and future database inputs
 - Prepare for future ranking, backtesting, API, and deeper learning features
 
 The guiding idea is simple: Compass should help humans understand companies, not replace human judgment.
@@ -246,6 +248,7 @@ compass/
 ├── collectors/
 ├── config/
 ├── core/
+├── datasources/
 ├── docs/
 ├── engines/
 ├── integrations/
@@ -487,6 +490,9 @@ It contains:
 - Data sources
 - Collector guidelines
 - Data quality
+- Data source architecture
+- API key management
+- Supported data sources
 - Scoring principles
 - Financial analysis rules
 - News and event analysis rules
@@ -543,6 +549,7 @@ storage/raw/etf/
 storage/raw/sentiment/
 storage/raw/trends/
 storage/raw/jobs/
+datasources/cache/
 storage/events/{ticker}_events.json
 reports/scoring/company_scores.csv
 reports/scoring/company_scores.json
@@ -627,6 +634,7 @@ Planned additions:
 - Pattern Intelligence Engine
 - Theme Intelligence Engine
 - Data Expansion Engine
+- Data Source Hub
 - Portfolio Engine
 - Screening
 - Backtesting
@@ -1658,6 +1666,89 @@ GitHub Actions does not run these collectors yet.
 ```
 
 The goal is to improve Compass by improving evidence quality. New collectors should be enabled only after source quality, licensing, cost, rate limits, schema, and retention have been reviewed.
+
+## Data Source Hub
+
+Compass Foundation 03 adds a Provider-based Data Source Hub.
+
+Files:
+
+```text
+datasources/base/datasource.py
+datasources/base/datasource_manager.py
+datasources/base/datasource_registry.py
+datasources/providers/yahoo_finance/
+datasources/providers/sec/
+datasources/providers/fred/
+datasources/providers/finnhub/
+datasources/providers/alpha_vantage/
+datasources/providers/csv/
+datasources/providers/pdf/
+datasources/providers/json/
+datasources/models/
+datasources/cache/
+```
+
+Configuration:
+
+```text
+config/datasources.yaml
+```
+
+Common Provider interface:
+
+```python
+connect()
+fetch()
+normalize()
+validate()
+cache()
+disconnect()
+```
+
+Manager example:
+
+```python
+from datasources.base import DataSourceManager
+
+manager = DataSourceManager()
+sec = manager.get("sec")
+csv_provider = manager.get("csv")
+```
+
+Registry operations:
+
+```python
+register()
+unregister()
+list()
+exists()
+```
+
+Initial providers:
+
+```text
+Yahoo Finance: enabled, connected to existing local Compass collector outputs
+CSV: enabled, local CSV reader
+JSON: enabled, local JSON and Memory reader
+SEC: scaffold
+FRED: scaffold
+Finnhub: scaffold
+Alpha Vantage: scaffold
+PDF: scaffold for future IR material parsing
+```
+
+API Key management:
+
+```text
+GitHub Secrets
+.env
+Runtime environment variables
+```
+
+API keys are never stored in code. Provider configuration stores only environment variable names, such as `FRED_API_KEY`, `FINNHUB_API_KEY`, and `ALPHA_VANTAGE_API_KEY`.
+
+Data Source Hub exists so Compass Core does not need to know whether data came from an API, CSV, PDF, JSON, or future database. New data sources should be added by registering Providers, not by changing analyzers or engines.
 
 ## Git Tag And Release Preparation
 
