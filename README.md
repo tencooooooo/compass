@@ -34,6 +34,7 @@ Compass currently supports:
 - Compass Workspace
 - Compass API
 - Compass Agent Layer
+- Query Engine
 - Human-maintained Knowledge
 - GitHub Actions cloud execution
 - GitHub operation documents
@@ -61,6 +62,7 @@ Compass is designed to support long-term company research.
 - Provide a read-only daily Research Workspace for generated reports and JSON outputs
 - Provide a read-only API for Workspace, Mobile, Slack, MCP, and external AI clients
 - Provide a model-independent Agent Layer for ChatGPT, Codex, Claude, Gemini, MCP, and future AI clients
+- Provide a shared Query Engine for Workspace, MCP, Chat Interface, Slack Bot, and Mobile search
 - Prepare for future ranking, backtesting, API, and deeper learning features
 
 The guiding idea is simple: Compass should help humans understand companies, not replace human judgment.
@@ -455,6 +457,9 @@ It contains:
 - Agent architecture
 - Context design
 - Provider design
+- Query language
+- Query architecture
+- Search strategy
 - Scoring principles
 - Financial analysis rules
 - News and event analysis rules
@@ -484,6 +489,7 @@ prompts/decision_prompt.md
 prompts/learning_prompt.md
 prompts/api_prompt.md
 prompts/agent_prompt.md
+prompts/query_prompt.md
 ```
 
 This makes analysis behavior easier to review and update.
@@ -529,6 +535,7 @@ memory/validations/YYYY-MM.json
 memory/market/YYYY-MM-DD.json
 memory/lessons/lessons.json
 memory/learning/learning_history.json
+memory/query/history.json
 ```
 
 Details: [docs/data_model.md](docs/data_model.md)
@@ -563,6 +570,7 @@ Planned additions:
 - Compass Workspace
 - Compass API
 - Compass Agent Layer
+- Query Engine
 - Portfolio Engine
 - Screening
 - Backtesting
@@ -1175,6 +1183,76 @@ External AI Agents
 ```
 
 The design goal is Compass-centered architecture: AI models can change, but Compass remains the research platform and source of truth.
+
+## Query Engine
+
+Compass Platform 03 adds a shared internal Query Engine.
+
+Files:
+
+```text
+engines/query/query_engine.py
+engines/query/query_parser.py
+engines/query/query_executor.py
+engines/query/query_result_builder.py
+```
+
+Internal API:
+
+```python
+Query.run("Top Discovery")
+Query.run("Company Score", ticker="NVDA")
+```
+
+Initial supported queries:
+
+```text
+Top Discovery
+Top Score
+Latest Validation
+Latest Proposal
+Market Summary
+Sector Summary
+Company History
+Company Score
+Company Discovery
+Company Validation
+```
+
+Search targets:
+
+```text
+Companies
+Scores
+Discovery
+Validation
+Market
+Sectors
+Memory
+Feedback
+Learning
+Notifications
+```
+
+Query responses use:
+
+```json
+{
+  "success": true,
+  "query": "Top Discovery",
+  "data": {},
+  "timestamp": "",
+  "result_count": 0
+}
+```
+
+Query history is saved to:
+
+```text
+memory/query/history.json
+```
+
+Workspace, MCP, Chat Interface, Slack Bot, and Mobile should use Query Engine for search and retrieval instead of each client implementing its own API calls, raw JSON reads, or Markdown parsing.
 
 ## Git Tag And Release Preparation
 
