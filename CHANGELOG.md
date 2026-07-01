@@ -17,6 +17,7 @@
 - Added Compass Research 06: Notification Engine with event detection, routing, Slack Connector, and notification history.
 - Added Compass Core 01: Memory Engine with provider interface, LocalProvider, and local JSON memory.
 - Added Compass Core 02: Feedback Engine with feedback summary, improvement candidates, and feedback history.
+- Added Compass Core 03: Decision Engine with proposal generation, proposal index, review status management, and Knowledge update candidates.
 
 ```text
 AI Growth Hunter

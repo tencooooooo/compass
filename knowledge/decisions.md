@@ -125,3 +125,12 @@
 - 出力は `reports/feedback/feedback_summary.md`, `improvement_candidates.md`, `feedback_history.json` とした。
 - FeedbackはLearning Engineではなく、Knowledge更新候補を人間へ提示する層とした。
 - GitHub ActionsではMemory更新後にFeedback Engineを実行し、その後Notification Engineを実行する順序にした。
+
+## Compass Core 03 - Decision Engine
+
+- `core/decision/` を追加し、Decision Engine、Proposal Generator、Review Managerを分離した。
+- Feedback HistoryとImprovement Candidatesから人間レビュー用Proposalを生成する設計にした。
+- 出力は `reports/proposals/proposal_YYYY-MM-DD.md`, `proposal_index.json`, `reports/knowledge_updates/candidate_YYYY-MM-DD.md` とした。
+- Proposal statusはPending、Approved、Rejected、DeferredでJSON管理する。
+- Decision EngineはKnowledge、Scoring、Ruleを自動更新しない。Knowledge変更権限は人間が持つ。
+- GitHub ActionsではFeedback後にDecision Engineを実行し、その後Notification Engineを実行する順序にした。

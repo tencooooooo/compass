@@ -81,6 +81,9 @@ jobs:
       - name: Generate feedback reports
         run: python core/feedback/feedback_engine.py
 
+      - name: Generate decision proposals
+        run: python core/decision/decision_engine.py
+
       - name: Run notification engine
         if: always()
         continue-on-error: true

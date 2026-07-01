@@ -29,6 +29,7 @@ Compass currently supports:
 - Notification Engine with Slack Connector
 - Memory Engine
 - Feedback Engine
+- Decision Engine
 - Human-maintained Knowledge
 - GitHub Actions cloud execution
 - GitHub operation documents
@@ -51,6 +52,7 @@ Compass is designed to support long-term company research.
 - Send event-driven alerts only when important changes occur
 - Preserve daily analysis results in a provider-based Memory Layer
 - Generate Feedback reports and Knowledge update candidates for human review
+- Generate Decision proposals without changing Knowledge automatically
 - Prepare for future ranking, backtesting, dashboard, API, and learning features
 
 The guiding idea is simple: Compass should help humans understand companies, not replace human judgment.
@@ -291,6 +293,7 @@ python engines/discovery/discovery_engine.py
 python engines/validation/backtest_engine.py
 python core/memory/memory_engine.py
 python core/feedback/feedback_engine.py
+python core/decision/decision_engine.py
 python engines/notification/notification_engine.py --dry-run
 python integrations/slack/slack_notifier.py --dry-run
 ```
@@ -390,6 +393,9 @@ It contains:
 - Improvement patterns
 - Success patterns
 - Failure patterns
+- Decision process
+- Review policy
+- Approval guidelines
 - Scoring principles
 - Financial analysis rules
 - News and event analysis rules
@@ -415,6 +421,7 @@ prompts/market_intelligence_prompt.md
 prompts/validation_prompt.md
 prompts/notification_prompt.md
 prompts/feedback_prompt.md
+prompts/decision_prompt.md
 ```
 
 This makes analysis behavior easier to review and update.
@@ -444,6 +451,9 @@ reports/validation/validation_history.json
 reports/feedback/feedback_summary.md
 reports/feedback/improvement_candidates.md
 reports/feedback/feedback_history.json
+reports/proposals/proposal_YYYY-MM-DD.md
+reports/proposals/proposal_index.json
+reports/knowledge_updates/candidate_YYYY-MM-DD.md
 storage/notifications/notification_history.json
 storage/notifications/state/company_scores_latest.json
 storage/notifications/state/market_trends_latest.json
@@ -482,6 +492,7 @@ Planned additions:
 - Notification Engine
 - Memory Engine
 - Feedback Engine
+- Decision Engine
 - Learning Engine
 - Portfolio Engine
 - Screening
@@ -811,6 +822,49 @@ Feedback Engine compares Discovery results with Validation results and summarize
 Feedback Engine is not the Learning Engine. It does not automatically update Knowledge, scoring rules, or investment rules.
 
 Its role is to generate Knowledge update candidates for human review. Learning Engine should be built later on top of accumulated Feedback History and reviewed Knowledge changes.
+
+## Decision Engine
+
+Compass Core 03 adds a Decision Layer.
+
+Files:
+
+```text
+core/decision/decision_engine.py
+core/decision/proposal_generator.py
+core/decision/review_manager.py
+```
+
+Output:
+
+```text
+reports/proposals/proposal_YYYY-MM-DD.md
+reports/proposals/proposal_index.json
+reports/knowledge_updates/candidate_YYYY-MM-DD.md
+```
+
+Decision Engine converts Feedback improvement candidates into human-reviewable proposals. Each proposal includes:
+
+- Proposal ID
+- Target
+- Reason
+- Evidence
+- Impact scope
+- Expected effect
+- Risk
+- Recommendation
+- Approve / Reject / Review Later options
+
+Proposal status is tracked in JSON with:
+
+```text
+Pending
+Approved
+Rejected
+Deferred
+```
+
+Decision Engine protects Knowledge. It generates proposal and Knowledge update candidate files, but it does not change Knowledge, Scoring, Rules, or prompts automatically.
 
 ## Git Tag And Release Preparation
 

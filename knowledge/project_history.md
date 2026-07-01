@@ -69,3 +69,7 @@ Memory Engine was added. Compass can now preserve company, sector, discovery, va
 ## Compass Core 02
 
 Feedback Engine was added. Compass can now compare Discovery and Validation results, summarize Discovery, Score, Confidence, Sector, and Event accuracy, and generate Knowledge update candidates for human review without automatically changing Knowledge.
+
+## Compass Core 03
+
+Decision Engine was added. Compass can now convert Feedback improvement candidates into human-reviewable proposals, maintain a proposal index with review status, and generate Knowledge update candidate files without automatically changing Knowledge.
