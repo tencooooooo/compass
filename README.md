@@ -33,6 +33,7 @@ Compass currently supports:
 - Learning Engine
 - Compass Workspace
 - Compass API
+- Compass Agent Layer
 - Human-maintained Knowledge
 - GitHub Actions cloud execution
 - GitHub operation documents
@@ -59,6 +60,7 @@ Compass is designed to support long-term company research.
 - Generate Human Approved Learning packages from Approved proposals only
 - Provide a read-only daily Research Workspace for generated reports and JSON outputs
 - Provide a read-only API for Workspace, Mobile, Slack, MCP, and external AI clients
+- Provide a model-independent Agent Layer for ChatGPT, Codex, Claude, Gemini, MCP, and future AI clients
 - Prepare for future ranking, backtesting, API, and deeper learning features
 
 The guiding idea is simple: Compass should help humans understand companies, not replace human judgment.
@@ -225,6 +227,7 @@ AI Growth Hunter remains in the history as the original project name. Growth Hun
 
 ```text
 compass/
+├── agents/
 ├── api/
 ├── analyzers/
 ├── backtests/
@@ -449,6 +452,9 @@ It contains:
 - API design
 - API versioning
 - Integration strategy
+- Agent architecture
+- Context design
+- Provider design
 - Scoring principles
 - Financial analysis rules
 - News and event analysis rules
@@ -477,6 +483,7 @@ prompts/feedback_prompt.md
 prompts/decision_prompt.md
 prompts/learning_prompt.md
 prompts/api_prompt.md
+prompts/agent_prompt.md
 ```
 
 This makes analysis behavior easier to review and update.
@@ -555,13 +562,13 @@ Planned additions:
 - Learning Engine
 - Compass Workspace
 - Compass API
+- Compass Agent Layer
 - Portfolio Engine
 - Screening
 - Backtesting
 - Watchlist and alerts
 - Discord, Teams, LINE, Email, and Push notification connectors
-- API
-- LLM integration
+- MCP, ChatGPT, Codex, Claude, Gemini, and external AI integration
 - Better event and market psychology analysis
 - Entity-based storage model
 
@@ -1095,6 +1102,79 @@ External AI
 ```
 
 The API is intended to become the only public data interface for Compass, so clients do not need to understand local Markdown, JSON, CSV, or future storage layouts.
+
+## Compass Agent Layer
+
+Compass Platform 02 adds a model-independent Agent Layer.
+
+Files:
+
+```text
+agents/base_agent.py
+agents/context_builder.py
+agents/prompt_manager.py
+agents/research_agent.py
+agents/discovery_agent.py
+agents/market_agent.py
+agents/portfolio_agent.py
+agents/providers/
+```
+
+Agent lifecycle:
+
+```text
+load_data()
+↓
+prepare_context()
+↓
+build_prompt()
+↓
+provider.generate()
+↓
+format_response()
+```
+
+Current agents:
+
+```text
+ResearchAgent
+DiscoveryAgent
+MarketAgent
+PortfolioAgent
+```
+
+`PortfolioAgent` is a placeholder. It does not make portfolio decisions.
+
+Current provider:
+
+```text
+DummyProvider
+```
+
+Future providers:
+
+```text
+OpenAIProvider
+ClaudeProvider
+GeminiProvider
+MCPProvider
+```
+
+Agent Layer uses Compass API-facing services and normalized context objects. It does not update Knowledge, Memory, reports, scoring rules, or prompts.
+
+Future clients:
+
+```text
+MCP
+ChatGPT
+Codex
+Claude
+Gemini
+Slack Bot
+External AI Agents
+```
+
+The design goal is Compass-centered architecture: AI models can change, but Compass remains the research platform and source of truth.
 
 ## Git Tag And Release Preparation
 
