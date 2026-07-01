@@ -41,6 +41,7 @@ Compass currently supports:
 - Theme Intelligence Engine
 - Performance Evaluation Engine
 - Strategy Evaluation Engine
+- Experiment Engine
 - Data Expansion Collector Framework
 - Data Source Hub
 - SEC EDGAR Integration
@@ -79,6 +80,7 @@ Compass is designed to support long-term company research.
 - Analyze long-term investment themes across market, sector, company, Discovery, Pattern, and news context
 - Evaluate Compass's own Discovery, Theme, Pattern, Confidence, Market, and Sector performance over time
 - Simulate research-only virtual strategies from Discovery, Theme, Pattern, Score, Confidence, and Momentum rules
+- Compare baseline and candidate Compass changes through reproducible experiments
 - Prepare a disabled Collector Framework for future high-quality data source expansion
 - Provide a Provider-based Data Source Hub for API, CSV, PDF, JSON, and future database inputs
 - Collect SEC EDGAR primary filings and metadata before any AI interpretation layer
@@ -503,6 +505,10 @@ It contains:
 - Portfolio metrics
 - Simulation rules
 - Risk management
+- Experiment design
+- A/B testing policy
+- Evaluation framework
+- Research methodology
 - Data sources
 - Collector guidelines
 - Data quality
@@ -551,6 +557,7 @@ prompts/pattern_prompt.md
 prompts/theme_prompt.md
 prompts/performance_prompt.md
 prompts/strategy_prompt.md
+prompts/experiment_prompt.md
 ```
 
 This makes analysis behavior easier to review and update.
@@ -637,6 +644,11 @@ reports/strategy/benchmark_report.md
 reports/strategy/strategy_ranking.md
 reports/strategy/dashboard.json
 memory/strategy/strategy_history.json
+reports/experiments/experiment_summary.md
+reports/experiments/experiment_results.md
+reports/experiments/experiment_comparison.md
+reports/experiments/dashboard.json
+memory/experiments/registry.json
 ```
 
 Details: [docs/data_model.md](docs/data_model.md)
@@ -678,6 +690,7 @@ Planned additions:
 - Theme Intelligence Engine
 - Performance Evaluation Engine
 - Strategy Evaluation Engine
+- Experiment Engine
 - Data Expansion Engine
 - Data Source Hub
 - SEC EDGAR Integration
@@ -1816,6 +1829,93 @@ GitHub Actions:
 The workflow runs weekly and can also be started manually.
 
 Strategy Evaluation is research-only. It evaluates Compass algorithms and rule sets; it is not investment advice, trade execution, or portfolio management.
+
+## Experiment Engine
+
+Compass Lab 06 adds Experiment Evaluation.
+
+Files:
+
+```text
+lab/experiments/experiment_engine.py
+lab/experiments/experiment_runner.py
+lab/experiments/experiment_registry.py
+lab/experiments/comparator.py
+lab/experiments/experiment_report.py
+```
+
+Configuration:
+
+```text
+config/experiments.yaml
+```
+
+Experiment fields:
+
+```text
+Experiment ID
+Name
+Description
+Target
+Baseline Version
+Candidate Version
+Start Date
+End Date
+Status
+```
+
+Targets:
+
+```text
+Discovery Rule
+Scoring Rule
+Theme Rule
+Pattern Rule
+Learning Rule
+Data Source
+```
+
+Comparison metrics:
+
+```text
+Discovery Success Rate
+Average Return
+Alpha
+Win Rate
+Max Drawdown
+Sharpe Ratio
+Strategy Ranking
+Performance Score
+```
+
+Output:
+
+```text
+reports/experiments/experiment_summary.md
+reports/experiments/experiment_results.md
+reports/experiments/experiment_comparison.md
+reports/experiments/dashboard.json
+memory/experiments/registry.json
+```
+
+Winner:
+
+```text
+Baseline
+Candidate
+Tie
+Inconclusive
+```
+
+GitHub Actions:
+
+```text
+.github/workflows/experiment_evaluation.yml
+```
+
+Experiments run weekly or manually. They are not part of the daily production workflow.
+
+Experiment Engine is Compass's reproducible A/B testing layer. It records whether a change improved Compass, but it does not promote candidates or modify Knowledge automatically.
 
 ## Data Expansion Engine
 
