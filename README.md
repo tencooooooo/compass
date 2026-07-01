@@ -35,6 +35,7 @@ Compass currently supports:
 - Compass API
 - Compass Agent Layer
 - Query Engine
+- Compass MCP Server
 - Human-maintained Knowledge
 - GitHub Actions cloud execution
 - GitHub operation documents
@@ -63,6 +64,7 @@ Compass is designed to support long-term company research.
 - Provide a read-only API for Workspace, Mobile, Slack, MCP, and external AI clients
 - Provide a model-independent Agent Layer for ChatGPT, Codex, Claude, Gemini, MCP, and future AI clients
 - Provide a shared Query Engine for Workspace, MCP, Chat Interface, Slack Bot, and Mobile search
+- Provide a thin MCP Server for ChatGPT, Claude, Codex, and future MCP clients
 - Prepare for future ranking, backtesting, API, and deeper learning features
 
 The guiding idea is simple: Compass should help humans understand companies, not replace human judgment.
@@ -240,6 +242,7 @@ compass/
 ├── engines/
 ├── integrations/
 ├── knowledge/
+├── mcp/
 ├── prompts/
 ├── reports/              # generated, ignored by Git
 ├── screeners/
@@ -460,6 +463,9 @@ It contains:
 - Query language
 - Query architecture
 - Search strategy
+- MCP architecture
+- MCP tools
+- MCP usage examples
 - Scoring principles
 - Financial analysis rules
 - News and event analysis rules
@@ -490,6 +496,7 @@ prompts/learning_prompt.md
 prompts/api_prompt.md
 prompts/agent_prompt.md
 prompts/query_prompt.md
+prompts/mcp_prompt.md
 ```
 
 This makes analysis behavior easier to review and update.
@@ -571,12 +578,13 @@ Planned additions:
 - Compass API
 - Compass Agent Layer
 - Query Engine
+- Compass MCP Server
 - Portfolio Engine
 - Screening
 - Backtesting
 - Watchlist and alerts
 - Discord, Teams, LINE, Email, and Push notification connectors
-- MCP, ChatGPT, Codex, Claude, Gemini, and external AI integration
+- Cursor, VS Code, MCP, ChatGPT, Codex, Claude, Gemini, and external AI integration
 - Better event and market psychology analysis
 - Entity-based storage model
 
@@ -1253,6 +1261,83 @@ memory/query/history.json
 ```
 
 Workspace, MCP, Chat Interface, Slack Bot, and Mobile should use Query Engine for search and retrieval instead of each client implementing its own API calls, raw JSON reads, or Markdown parsing.
+
+## Compass MCP Server
+
+Compass Platform 04 adds a thin MCP Server for AI clients.
+
+Files:
+
+```text
+mcp/server.py
+mcp/tools.py
+mcp/resources.py
+mcp/prompts.py
+mcp/handlers/company_handler.py
+mcp/handlers/discovery_handler.py
+mcp/handlers/market_handler.py
+mcp/handlers/validation_handler.py
+```
+
+Run locally over stdio:
+
+```bash
+python mcp/server.py
+```
+
+Supported AI clients:
+
+```text
+ChatGPT
+Claude
+Codex
+```
+
+Future clients:
+
+```text
+Cursor
+VS Code
+Other MCP-compatible AI clients
+```
+
+Tools:
+
+```text
+company_analysis
+top_discovery
+market_summary
+validation_summary
+company_history
+```
+
+Resources:
+
+```text
+compass://companies
+compass://scores
+compass://discovery
+compass://market
+compass://validation
+compass://learning
+compass://knowledge
+```
+
+MCP Server does not contain analysis logic. It routes requests through:
+
+```text
+MCP Client
+↓
+Compass MCP Server
+↓
+Query Engine
+↓
+Compass API-facing services
+↓
+Compass Core
+```
+
+This keeps AI clients from reading raw JSON, Markdown, CSV, Memory, or API endpoints directly.
 
 ## Git Tag And Release Preparation
 

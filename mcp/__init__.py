@@ -1,0 +1,1 @@
+"""Compass MCP server package."""
