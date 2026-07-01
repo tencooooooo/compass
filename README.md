@@ -32,6 +32,7 @@ Compass currently supports:
 - Decision Engine
 - Learning Engine
 - Compass Workspace
+- Compass API
 - Human-maintained Knowledge
 - GitHub Actions cloud execution
 - GitHub operation documents
@@ -57,6 +58,7 @@ Compass is designed to support long-term company research.
 - Generate Decision proposals without changing Knowledge automatically
 - Generate Human Approved Learning packages from Approved proposals only
 - Provide a read-only daily Research Workspace for generated reports and JSON outputs
+- Provide a read-only API for Workspace, Mobile, Slack, MCP, and external AI clients
 - Prepare for future ranking, backtesting, API, and deeper learning features
 
 The guiding idea is simple: Compass should help humans understand companies, not replace human judgment.
@@ -223,6 +225,7 @@ AI Growth Hunter remains in the history as the original project name. Growth Hun
 
 ```text
 compass/
+├── api/
 ├── analyzers/
 ├── backtests/
 ├── collectors/
@@ -294,6 +297,24 @@ npm run dev
 
 React is used because the Workspace needs responsive, stateful research views across Markdown reports, JSON summaries, filters, status pills, and future API-backed data. The current implementation reads generated JSON, Markdown, and YAML from a synced static data folder. A backend API is intentionally not required yet; the data access layer is isolated so the same UI can later move from local artifacts to API, S3, or database-backed sources.
 
+Compass API is a FastAPI read-only interface.
+
+```bash
+uvicorn api.app:app --reload
+```
+
+Swagger UI:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+OpenAPI JSON:
+
+```text
+http://127.0.0.1:8000/openapi.json
+```
+
 ## Local Execution
 
 Run the pipeline steps manually when developing or checking output locally.
@@ -336,6 +357,8 @@ JST 07:00
 Execution order:
 
 ```text
+API tests
+↓
 Price collection
 ↓
 Company profile collection
@@ -423,6 +446,9 @@ It contains:
 - Learning policy
 - Knowledge versioning
 - Human review process
+- API design
+- API versioning
+- Integration strategy
 - Scoring principles
 - Financial analysis rules
 - News and event analysis rules
@@ -450,6 +476,7 @@ prompts/notification_prompt.md
 prompts/feedback_prompt.md
 prompts/decision_prompt.md
 prompts/learning_prompt.md
+prompts/api_prompt.md
 ```
 
 This makes analysis behavior easier to review and update.
@@ -526,10 +553,11 @@ Planned additions:
 - Feedback Engine
 - Decision Engine
 - Learning Engine
+- Compass Workspace
+- Compass API
 - Portfolio Engine
 - Screening
 - Backtesting
-- Dashboard
 - Watchlist and alerts
 - Discord, Teams, LINE, Email, and Push notification connectors
 - API
@@ -991,6 +1019,82 @@ S3 / Database / Cloud Storage
 ```
 
 The frontend service layer keeps that migration path open without requiring page components to know where Compass data is stored.
+
+## Compass API
+
+Compass Platform 01 adds a read-only FastAPI layer.
+
+Files:
+
+```text
+api/app.py
+api/routes/
+api/services/
+api/models/
+api/schemas/
+tests/api/
+```
+
+Version prefix:
+
+```text
+/api/v1/
+```
+
+Endpoints:
+
+```text
+GET /api/v1/companies
+GET /api/v1/companies/{ticker}
+GET /api/v1/discovery
+GET /api/v1/discovery/top
+GET /api/v1/scores
+GET /api/v1/scores/{ticker}
+GET /api/v1/market
+GET /api/v1/market/sectors
+GET /api/v1/validation
+GET /api/v1/validation/{ticker}
+GET /api/v1/proposals
+GET /api/v1/learning
+GET /api/v1/notifications
+```
+
+All endpoints return JSON through a unified envelope:
+
+```json
+{
+  "success": true,
+  "data": {},
+  "timestamp": "",
+  "version": "v1"
+}
+```
+
+Swagger UI is enabled at:
+
+```text
+/docs
+```
+
+OpenAPI JSON is available at:
+
+```text
+/openapi.json
+```
+
+The API currently reads local generated artifacts and does not require authentication. Future authentication can add API Key, JWT, or OAuth without changing the response envelope.
+
+Future clients:
+
+```text
+Workspace
+Mobile
+Slack Bot
+MCP
+External AI
+```
+
+The API is intended to become the only public data interface for Compass, so clients do not need to understand local Markdown, JSON, CSV, or future storage layouts.
 
 ## Git Tag And Release Preparation
 
