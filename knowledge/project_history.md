@@ -73,3 +73,7 @@ Feedback Engine was added. Compass can now compare Discovery and Validation resu
 ## Compass Core 03
 
 Decision Engine was added. Compass can now convert Feedback improvement candidates into human-reviewable proposals, maintain a proposal index with review status, and generate Knowledge update candidate files without automatically changing Knowledge.
+
+## Compass Core 04
+
+Learning Engine was added. Compass can now load only Approved proposals, generate Human Approved Learning packages, update learning history, produce learning metrics, and maintain Knowledge version templates without automatically rewriting Knowledge.

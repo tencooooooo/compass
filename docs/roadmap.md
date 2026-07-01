@@ -27,6 +27,7 @@ Status: In progress
 - Compass Core 01: Memory Engine
 - Compass Core 02: Feedback Engine
 - Compass Core 03: Decision Engine
+- Compass Core 04: Learning Engine
 - Future: Growth Hunter screening foundation
 
 ## Phase3 Learning
@@ -35,6 +36,7 @@ Status: Planned
 
 - Review Feedback History before Learning Engine implementation
 - Require human-reviewed Decisions before Learning Engine rule changes
+- Use Approved proposals only for Human Approved Learning packages
 - Improve scoring rules using accumulated historical data
 - Expand event and market psychology analysis
 - Use Validation history as Learning Engine input

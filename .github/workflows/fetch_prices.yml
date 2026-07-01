@@ -84,6 +84,9 @@ jobs:
       - name: Generate decision proposals
         run: python core/decision/decision_engine.py
 
+      - name: Generate learning package
+        run: python core/learning/learning_engine.py
+
       - name: Run notification engine
         if: always()
         continue-on-error: true

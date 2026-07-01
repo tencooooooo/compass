@@ -134,3 +134,13 @@
 - Proposal statusはPending、Approved、Rejected、DeferredでJSON管理する。
 - Decision EngineはKnowledge、Scoring、Ruleを自動更新しない。Knowledge変更権限は人間が持つ。
 - GitHub ActionsではFeedback後にDecision Engineを実行し、その後Notification Engineを実行する順序にした。
+
+## Compass Core 04 - Learning Engine
+
+- `core/learning/` を追加し、Learning Engine、Proposal Loader、Learning Package Builder、Learning Historyを分離した。
+- Learning対象はApproved Proposalのみとし、Rejected、Deferred、Pendingは対象外にした。
+- 出力は `reports/learning/learning_package_YYYY-MM-DD.md`, `learning_summary.md`, `learning_metrics.json` とした。
+- Learning Historyは `memory/learning/learning_history.json` に保存する。
+- Knowledge Version雛形として `knowledge/versions/v1.json` と `v2.json` を追加した。
+- Learning EngineはKnowledge、Scoring、Ruleを自動更新しない。Human Approved Learning Package生成までを責務にした。
+- GitHub ActionsではDecision後にLearning Engineを実行し、その後Notification Engineを実行する順序にした。

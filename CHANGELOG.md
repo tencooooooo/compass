@@ -18,6 +18,7 @@
 - Added Compass Core 01: Memory Engine with provider interface, LocalProvider, and local JSON memory.
 - Added Compass Core 02: Feedback Engine with feedback summary, improvement candidates, and feedback history.
 - Added Compass Core 03: Decision Engine with proposal generation, proposal index, review status management, and Knowledge update candidates.
+- Added Compass Core 04: Learning Engine with Human Approved Learning packages, learning history, learning metrics, and Knowledge version templates.
 
 ```text
 AI Growth Hunter

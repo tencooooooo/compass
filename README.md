@@ -30,6 +30,7 @@ Compass currently supports:
 - Memory Engine
 - Feedback Engine
 - Decision Engine
+- Learning Engine
 - Human-maintained Knowledge
 - GitHub Actions cloud execution
 - GitHub operation documents
@@ -53,6 +54,7 @@ Compass is designed to support long-term company research.
 - Preserve daily analysis results in a provider-based Memory Layer
 - Generate Feedback reports and Knowledge update candidates for human review
 - Generate Decision proposals without changing Knowledge automatically
+- Generate Human Approved Learning packages from Approved proposals only
 - Prepare for future ranking, backtesting, dashboard, API, and learning features
 
 The guiding idea is simple: Compass should help humans understand companies, not replace human judgment.
@@ -294,6 +296,7 @@ python engines/validation/backtest_engine.py
 python core/memory/memory_engine.py
 python core/feedback/feedback_engine.py
 python core/decision/decision_engine.py
+python core/learning/learning_engine.py
 python engines/notification/notification_engine.py --dry-run
 python integrations/slack/slack_notifier.py --dry-run
 ```
@@ -341,6 +344,10 @@ Backtesting & Validation Engine
 Memory Engine
 ↓
 Feedback Engine
+↓
+Decision Engine
+↓
+Learning Engine
 ↓
 Notification Engine
 ↓
@@ -396,6 +403,9 @@ It contains:
 - Decision process
 - Review policy
 - Approval guidelines
+- Learning policy
+- Knowledge versioning
+- Human review process
 - Scoring principles
 - Financial analysis rules
 - News and event analysis rules
@@ -422,6 +432,7 @@ prompts/validation_prompt.md
 prompts/notification_prompt.md
 prompts/feedback_prompt.md
 prompts/decision_prompt.md
+prompts/learning_prompt.md
 ```
 
 This makes analysis behavior easier to review and update.
@@ -454,6 +465,9 @@ reports/feedback/feedback_history.json
 reports/proposals/proposal_YYYY-MM-DD.md
 reports/proposals/proposal_index.json
 reports/knowledge_updates/candidate_YYYY-MM-DD.md
+reports/learning/learning_package_YYYY-MM-DD.md
+reports/learning/learning_summary.md
+reports/learning/learning_metrics.json
 storage/notifications/notification_history.json
 storage/notifications/state/company_scores_latest.json
 storage/notifications/state/market_trends_latest.json
@@ -463,6 +477,7 @@ memory/discoveries/YYYY-MM-DD.json
 memory/validations/YYYY-MM.json
 memory/market/YYYY-MM-DD.json
 memory/lessons/lessons.json
+memory/learning/learning_history.json
 ```
 
 Details: [docs/data_model.md](docs/data_model.md)
@@ -865,6 +880,47 @@ Deferred
 ```
 
 Decision Engine protects Knowledge. It generates proposal and Knowledge update candidate files, but it does not change Knowledge, Scoring, Rules, or prompts automatically.
+
+## Learning Engine
+
+Compass Core 04 adds a Human Approved Learning Layer.
+
+Files:
+
+```text
+core/learning/learning_engine.py
+core/learning/proposal_loader.py
+core/learning/learning_package_builder.py
+core/learning/learning_history.py
+```
+
+Output:
+
+```text
+reports/learning/learning_package_YYYY-MM-DD.md
+reports/learning/learning_summary.md
+reports/learning/learning_metrics.json
+memory/learning/learning_history.json
+```
+
+Knowledge version templates:
+
+```text
+knowledge/versions/v1.json
+knowledge/versions/v2.json
+```
+
+Learning Engine only loads proposals with:
+
+```text
+Approved
+```
+
+Rejected, Deferred, and Pending proposals are ignored.
+
+Learning Engine does not rewrite Knowledge, Scoring, Rules, or prompts. It builds a Learning Package that summarizes approved proposals, adoption reasons, expected effects, impact scope, Knowledge candidates, Scoring candidates, and review history.
+
+This keeps Compass explainable, traceable, and rollbackable. Knowledge changes remain human-owned.
 
 ## Git Tag And Release Preparation
 
