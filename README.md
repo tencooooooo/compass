@@ -38,6 +38,7 @@ Compass currently supports:
 - Compass MCP Server
 - Time Machine Engine
 - Pattern Intelligence Engine
+- Theme Intelligence Engine
 - Human-maintained Knowledge
 - GitHub Actions cloud execution
 - GitHub operation documents
@@ -69,6 +70,7 @@ Compass is designed to support long-term company research.
 - Provide a thin MCP Server for ChatGPT, Claude, Codex, and future MCP clients
 - Replay historical Compass analysis from a past snapshot date without future data leakage
 - Extract explainable success, failure, sector, market, event, and similarity pattern candidates
+- Analyze long-term investment themes across market, sector, company, Discovery, Pattern, and news context
 - Prepare for future ranking, backtesting, API, and deeper learning features
 
 The guiding idea is simple: Compass should help humans understand companies, not replace human judgment.
@@ -477,6 +479,9 @@ It contains:
 - Pattern library
 - Pattern confidence
 - Similarity rules
+- Theme library
+- Theme classification
+- Theme analysis rules
 - Scoring principles
 - Financial analysis rules
 - News and event analysis rules
@@ -510,6 +515,7 @@ prompts/query_prompt.md
 prompts/mcp_prompt.md
 prompts/time_machine_prompt.md
 prompts/pattern_prompt.md
+prompts/theme_prompt.md
 ```
 
 This makes analysis behavior easier to review and update.
@@ -563,6 +569,10 @@ reports/patterns/success_patterns.md
 reports/patterns/failure_patterns.md
 reports/patterns/similarity_report.md
 reports/patterns/pattern_summary.md
+reports/themes/theme_summary.md
+reports/themes/theme_ranking.md
+reports/themes/theme_similarity.md
+reports/themes/{Theme}.md
 ```
 
 Details: [docs/data_model.md](docs/data_model.md)
@@ -601,6 +611,7 @@ Planned additions:
 - Compass MCP Server
 - Time Machine Engine
 - Pattern Intelligence Engine
+- Theme Intelligence Engine
 - Portfolio Engine
 - Screening
 - Backtesting
@@ -1474,6 +1485,96 @@ Similarity Pattern
 ```
 
 Pattern Intelligence is connected to Knowledge and Learning, but it does not update either automatically. It creates explainable Knowledge update candidates with evidence and confidence. Human review is required before any pattern becomes Knowledge or influences Learning.
+
+## Theme Intelligence Engine
+
+Compass Lab 03 adds Theme Intelligence.
+
+Files:
+
+```text
+lab/theme_intelligence/theme_engine.py
+lab/theme_intelligence/theme_classifier.py
+lab/theme_intelligence/theme_tracker.py
+lab/theme_intelligence/theme_similarity.py
+```
+
+Theme definitions:
+
+```text
+config/themes.yaml
+```
+
+Run:
+
+```python
+from lab.theme_intelligence.theme_engine import ThemeEngine
+
+ThemeEngine.run()
+```
+
+Inputs:
+
+```text
+Companies
+Financials
+News
+Discovery
+Validation
+Market Intelligence
+Pattern Intelligence
+Memory
+Knowledge
+```
+
+Output:
+
+```text
+reports/themes/theme_summary.md
+reports/themes/theme_ranking.md
+reports/themes/theme_similarity.md
+reports/themes/{Theme}.md
+```
+
+Theme Intelligence organizes Compass research through:
+
+```text
+Theme
+↓
+Market
+↓
+Sector
+↓
+Company
+```
+
+Companies can belong to multiple themes. For example, one company may be classified into AI, Semiconductor, Cloud, and Robotics when the evidence supports more than one long-term lens.
+
+Relationship with Pattern Intelligence:
+
+```text
+Pattern Intelligence
+↓
+Finds repeated success, failure, sector, market, event, and similarity structures.
+
+Theme Intelligence
+↓
+Uses those structures as context for long-term theme-level research.
+```
+
+Relationship with Discovery:
+
+```text
+Discovery
+↓
+Surfaces company candidates.
+
+Theme Intelligence
+↓
+Groups candidates into themes and compares theme-level momentum, validation, news, and confidence.
+```
+
+Theme Intelligence does not update Knowledge automatically. It creates explainable research views that humans can review before deciding whether a theme should become formal Knowledge.
 
 ## Git Tag And Release Preparation
 
