@@ -39,6 +39,7 @@ Compass currently supports:
 - Time Machine Engine
 - Pattern Intelligence Engine
 - Theme Intelligence Engine
+- Data Expansion Collector Framework
 - Human-maintained Knowledge
 - GitHub Actions cloud execution
 - GitHub operation documents
@@ -71,6 +72,7 @@ Compass is designed to support long-term company research.
 - Replay historical Compass analysis from a past snapshot date without future data leakage
 - Extract explainable success, failure, sector, market, event, and similarity pattern candidates
 - Analyze long-term investment themes across market, sector, company, Discovery, Pattern, and news context
+- Prepare a disabled Collector Framework for future high-quality data source expansion
 - Prepare for future ranking, backtesting, API, and deeper learning features
 
 The guiding idea is simple: Compass should help humans understand companies, not replace human judgment.
@@ -482,6 +484,9 @@ It contains:
 - Theme library
 - Theme classification
 - Theme analysis rules
+- Data sources
+- Collector guidelines
+- Data quality
 - Scoring principles
 - Financial analysis rules
 - News and event analysis rules
@@ -529,6 +534,15 @@ storage/raw/prices/{ticker}.csv
 storage/raw/companies/{ticker}.json
 storage/raw/financials/{ticker}.json
 storage/raw/news/{ticker}.json
+storage/raw/macro/
+storage/raw/sec/
+storage/raw/earnings/
+storage/raw/analyst/
+storage/raw/insider/
+storage/raw/etf/
+storage/raw/sentiment/
+storage/raw/trends/
+storage/raw/jobs/
 storage/events/{ticker}_events.json
 reports/scoring/company_scores.csv
 reports/scoring/company_scores.json
@@ -612,6 +626,7 @@ Planned additions:
 - Time Machine Engine
 - Pattern Intelligence Engine
 - Theme Intelligence Engine
+- Data Expansion Engine
 - Portfolio Engine
 - Screening
 - Backtesting
@@ -1575,6 +1590,74 @@ Groups candidates into themes and compares theme-level momentum, validation, new
 ```
 
 Theme Intelligence does not update Knowledge automatically. It creates explainable research views that humans can review before deciding whether a theme should become formal Knowledge.
+
+## Data Expansion Engine
+
+Compass Foundation 2 adds a disabled Collector Framework for future data-source expansion.
+
+Files:
+
+```text
+collectors/data_expansion.py
+collectors/macro/collector.py
+collectors/sec/collector.py
+collectors/earnings/collector.py
+collectors/analyst/collector.py
+collectors/insider/collector.py
+collectors/etf/collector.py
+collectors/sentiment/collector.py
+collectors/trends/collector.py
+collectors/jobs/collector.py
+```
+
+Common interface:
+
+```python
+collect()
+validate()
+normalize()
+save()
+```
+
+Planned data categories:
+
+```text
+Macro: CPI, FOMC, employment, interest rates, VIX
+SEC: 10-K, 10-Q, 8-K
+Earnings: earnings presentations, guidance
+Analyst: consensus, EPS estimates
+Insider: insider buying, insider selling
+ETF: fund flows, holdings weight
+Sentiment: Reddit, X, news sentiment
+Trends: Google Trends
+Jobs: hiring trends and job postings
+```
+
+Future storage:
+
+```text
+storage/raw/macro/
+storage/raw/sec/
+storage/raw/earnings/
+storage/raw/analyst/
+storage/raw/insider/
+storage/raw/etf/
+storage/raw/sentiment/
+storage/raw/trends/
+storage/raw/jobs/
+```
+
+Current state:
+
+```text
+Collectors are scaffolded only.
+Collectors are disabled by default.
+No external API connection is implemented.
+No API key is required.
+GitHub Actions does not run these collectors yet.
+```
+
+The goal is to improve Compass by improving evidence quality. New collectors should be enabled only after source quality, licensing, cost, rate limits, schema, and retention have been reviewed.
 
 ## Git Tag And Release Preparation
 
