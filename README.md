@@ -36,6 +36,7 @@ Compass currently supports:
 - Compass Agent Layer
 - Query Engine
 - Compass MCP Server
+- Time Machine Engine
 - Human-maintained Knowledge
 - GitHub Actions cloud execution
 - GitHub operation documents
@@ -65,6 +66,7 @@ Compass is designed to support long-term company research.
 - Provide a model-independent Agent Layer for ChatGPT, Codex, Claude, Gemini, MCP, and future AI clients
 - Provide a shared Query Engine for Workspace, MCP, Chat Interface, Slack Bot, and Mobile search
 - Provide a thin MCP Server for ChatGPT, Claude, Codex, and future MCP clients
+- Replay historical Compass analysis from a past snapshot date without future data leakage
 - Prepare for future ranking, backtesting, API, and deeper learning features
 
 The guiding idea is simple: Compass should help humans understand companies, not replace human judgment.
@@ -242,6 +244,7 @@ compass/
 ├── engines/
 ├── integrations/
 ├── knowledge/
+├── lab/
 ├── mcp/
 ├── prompts/
 ├── reports/              # generated, ignored by Git
@@ -466,6 +469,9 @@ It contains:
 - MCP architecture
 - MCP tools
 - MCP usage examples
+- Time Machine
+- Historical analysis
+- Snapshot rules
 - Scoring principles
 - Financial analysis rules
 - News and event analysis rules
@@ -497,6 +503,7 @@ prompts/api_prompt.md
 prompts/agent_prompt.md
 prompts/query_prompt.md
 prompts/mcp_prompt.md
+prompts/time_machine_prompt.md
 ```
 
 This makes analysis behavior easier to review and update.
@@ -543,6 +550,9 @@ memory/market/YYYY-MM-DD.json
 memory/lessons/lessons.json
 memory/learning/learning_history.json
 memory/query/history.json
+reports/timemachine/snapshot_YYYY-MM-DD.md
+reports/timemachine/discovery_YYYY-MM-DD.md
+reports/timemachine/market_YYYY-MM-DD.md
 ```
 
 Details: [docs/data_model.md](docs/data_model.md)
@@ -579,6 +589,7 @@ Planned additions:
 - Compass Agent Layer
 - Query Engine
 - Compass MCP Server
+- Time Machine Engine
 - Portfolio Engine
 - Screening
 - Backtesting
@@ -1338,6 +1349,63 @@ Compass Core
 ```
 
 This keeps AI clients from reading raw JSON, Markdown, CSV, Memory, or API endpoints directly.
+
+## Time Machine Engine
+
+Compass Lab 01 adds a Historical Replay engine.
+
+Files:
+
+```text
+lab/time_machine/time_machine.py
+lab/time_machine/snapshot_loader.py
+lab/time_machine/timeline_builder.py
+lab/time_machine/historical_context.py
+```
+
+Run:
+
+```python
+from lab.time_machine.time_machine import TimeMachine
+
+TimeMachine.run(date="2024-03-01")
+```
+
+Output:
+
+```text
+reports/timemachine/snapshot_YYYY-MM-DD.md
+reports/timemachine/discovery_YYYY-MM-DD.md
+reports/timemachine/market_YYYY-MM-DD.md
+```
+
+Time Machine loads only data dated on or before the snapshot date:
+
+```text
+Price
+Company identity metadata
+Financials
+News
+Events
+Knowledge
+Memory
+```
+
+Time-sensitive company metrics without historical dates are excluded from historical scoring. Knowledge versions created after the snapshot date are excluded. Undated Knowledge markdown is only included when an active Knowledge version exists for the snapshot date.
+
+Difference from Backtesting:
+
+```text
+Backtesting
+↓
+Evaluates what happened after a Discovery signal.
+
+Time Machine
+↓
+Replays what Compass could have known before future outcomes existed.
+```
+
+The purpose is not prediction. It is to reproduce the research environment and inspect what Compass would have surfaced at that point in time.
 
 ## Git Tag And Release Preparation
 
