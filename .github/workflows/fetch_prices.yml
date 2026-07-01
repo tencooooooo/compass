@@ -78,6 +78,9 @@ jobs:
       - name: Update memory layer
         run: python core/memory/memory_engine.py
 
+      - name: Generate feedback reports
+        run: python core/feedback/feedback_engine.py
+
       - name: Run notification engine
         if: always()
         continue-on-error: true

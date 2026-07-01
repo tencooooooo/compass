@@ -117,3 +117,11 @@
 - Memory保存先は `memory/companies`, `memory/sectors`, `memory/discoveries`, `memory/validations`, `memory/market`, `memory/lessons` とした。
 - GitHub ActionsではValidation後にMemoryを更新し、その後Notification Engineを実行する順序にした。
 - `memory/` はGit管理対象外とし、Actions cacheで復元し、Artifactへ含める運用にした。
+
+## Compass Core 02 - Feedback Engine
+
+- `core/feedback/` を追加し、Feedback Engine、Feedback Analyzer、Improvement Detectorを分離した。
+- Discovery Memory、Validation Memory、Company Memory、Sector Memory、Knowledge、Scoring結果をFeedback入力にした。
+- 出力は `reports/feedback/feedback_summary.md`, `improvement_candidates.md`, `feedback_history.json` とした。
+- FeedbackはLearning Engineではなく、Knowledge更新候補を人間へ提示する層とした。
+- GitHub ActionsではMemory更新後にFeedback Engineを実行し、その後Notification Engineを実行する順序にした。

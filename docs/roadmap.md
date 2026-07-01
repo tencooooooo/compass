@@ -25,12 +25,14 @@ Status: In progress
 - Compass Research 05: Slack Notification Engine
 - Compass Research 06: Event-driven Notification Engine
 - Compass Core 01: Memory Engine
+- Compass Core 02: Feedback Engine
 - Future: Growth Hunter screening foundation
 
 ## Phase3 Learning
 
 Status: Planned
 
+- Review Feedback History before Learning Engine implementation
 - Improve scoring rules using accumulated historical data
 - Expand event and market psychology analysis
 - Use Validation history as Learning Engine input

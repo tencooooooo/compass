@@ -28,6 +28,7 @@ Compass currently supports:
 - Slack Notification Engine
 - Notification Engine with Slack Connector
 - Memory Engine
+- Feedback Engine
 - Human-maintained Knowledge
 - GitHub Actions cloud execution
 - GitHub operation documents
@@ -49,6 +50,7 @@ Compass is designed to support long-term company research.
 - Send a concise daily Morning Research Brief to Slack
 - Send event-driven alerts only when important changes occur
 - Preserve daily analysis results in a provider-based Memory Layer
+- Generate Feedback reports and Knowledge update candidates for human review
 - Prepare for future ranking, backtesting, dashboard, API, and learning features
 
 The guiding idea is simple: Compass should help humans understand companies, not replace human judgment.
@@ -288,6 +290,7 @@ python engines/market_intelligence/market_monitor.py
 python engines/discovery/discovery_engine.py
 python engines/validation/backtest_engine.py
 python core/memory/memory_engine.py
+python core/feedback/feedback_engine.py
 python engines/notification/notification_engine.py --dry-run
 python integrations/slack/slack_notifier.py --dry-run
 ```
@@ -333,6 +336,8 @@ Discovery Engine
 Backtesting & Validation Engine
 ↓
 Memory Engine
+↓
+Feedback Engine
 ↓
 Notification Engine
 ↓
@@ -381,6 +386,10 @@ It contains:
 - Memory architecture
 - Memory schema
 - Memory retention policy
+- Feedback framework
+- Improvement patterns
+- Success patterns
+- Failure patterns
 - Scoring principles
 - Financial analysis rules
 - News and event analysis rules
@@ -405,6 +414,7 @@ prompts/scoring_engine_prompt.md
 prompts/market_intelligence_prompt.md
 prompts/validation_prompt.md
 prompts/notification_prompt.md
+prompts/feedback_prompt.md
 ```
 
 This makes analysis behavior easier to review and update.
@@ -431,6 +441,9 @@ reports/discovery/candidate_details/{ticker}.md
 reports/validation/validation_summary.md
 reports/validation/validation_history.csv
 reports/validation/validation_history.json
+reports/feedback/feedback_summary.md
+reports/feedback/improvement_candidates.md
+reports/feedback/feedback_history.json
 storage/notifications/notification_history.json
 storage/notifications/state/company_scores_latest.json
 storage/notifications/state/market_trends_latest.json
@@ -468,6 +481,7 @@ Planned additions:
 - Slack Notification Engine
 - Notification Engine
 - Memory Engine
+- Feedback Engine
 - Learning Engine
 - Portfolio Engine
 - Screening
@@ -763,6 +777,40 @@ memory/lessons/
 ```
 
 `memory/` is ignored by Git, restored through GitHub Actions cache, and included in workflow artifacts. This keeps Memory as operational data while allowing future migration to S3 or a database without changing Analyzer or Engine callers.
+
+## Feedback Engine
+
+Compass Core 02 adds a Feedback Layer.
+
+Files:
+
+```text
+core/feedback/feedback_engine.py
+core/feedback/feedback_analyzer.py
+core/feedback/improvement_detector.py
+```
+
+Output:
+
+```text
+reports/feedback/feedback_summary.md
+reports/feedback/improvement_candidates.md
+reports/feedback/feedback_history.json
+```
+
+Feedback Engine compares Discovery results with Validation results and summarizes:
+
+- Discovery Accuracy
+- Score Accuracy
+- Confidence Accuracy
+- Sector Accuracy
+- Event Accuracy
+- Success patterns
+- Failure patterns
+
+Feedback Engine is not the Learning Engine. It does not automatically update Knowledge, scoring rules, or investment rules.
+
+Its role is to generate Knowledge update candidates for human review. Learning Engine should be built later on top of accumulated Feedback History and reviewed Knowledge changes.
 
 ## Git Tag And Release Preparation
 

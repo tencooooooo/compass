@@ -65,3 +65,7 @@ Notification Engine was added. Compass can now detect important event-driven ale
 ## Compass Core 01
 
 Memory Engine was added. Compass can now preserve company, sector, discovery, validation, market, and lessons memory through a provider-based Local JSON layer designed for future S3 or database migration.
+
+## Compass Core 02
+
+Feedback Engine was added. Compass can now compare Discovery and Validation results, summarize Discovery, Score, Confidence, Sector, and Event accuracy, and generate Knowledge update candidates for human review without automatically changing Knowledge.
