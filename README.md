@@ -31,6 +31,7 @@ Compass currently supports:
 - Feedback Engine
 - Decision Engine
 - Learning Engine
+- Compass Workspace
 - Human-maintained Knowledge
 - GitHub Actions cloud execution
 - GitHub operation documents
@@ -55,7 +56,8 @@ Compass is designed to support long-term company research.
 - Generate Feedback reports and Knowledge update candidates for human review
 - Generate Decision proposals without changing Knowledge automatically
 - Generate Human Approved Learning packages from Approved proposals only
-- Prepare for future ranking, backtesting, dashboard, API, and learning features
+- Provide a read-only daily Research Workspace for generated reports and JSON outputs
+- Prepare for future ranking, backtesting, API, and deeper learning features
 
 The guiding idea is simple: Compass should help humans understand companies, not replace human judgment.
 
@@ -108,11 +110,11 @@ Learning Engine
 ↓
 AI improvement
 
-Portfolio Engine
+Workspace
 ↓
-Future addition
+Daily research interface
 
-Dashboard
+Portfolio Engine
 ↓
 Future addition
 ```
@@ -238,6 +240,8 @@ compass/
 │   └── events/           # generated, ignored by Git
 ├── tests/
 ├── utils/
+├── workspace/
+│   └── frontend/         # React read-only research workspace
 ├── .github/workflows/
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md
@@ -261,6 +265,8 @@ storage/events/
 storage/notifications/
 reports/
 memory/
+workspace/frontend/public/compass-data/
+workspace/frontend/dist/
 ```
 
 When GitHub Actions runs, generated outputs are uploaded as a workflow artifact named:
@@ -276,6 +282,17 @@ Python 3.11 or later is recommended.
 ```bash
 pip install -r requirements.txt
 ```
+
+Compass Workspace is a React + TypeScript frontend.
+
+```bash
+cd workspace/frontend
+npm install
+npm run sync-data
+npm run dev
+```
+
+React is used because the Workspace needs responsive, stateful research views across Markdown reports, JSON summaries, filters, status pills, and future API-backed data. The current implementation reads generated JSON, Markdown, and YAML from a synced static data folder. A backend API is intentionally not required yet; the data access layer is isolated so the same UI can later move from local artifacts to API, S3, or database-backed sources.
 
 ## Local Execution
 
@@ -921,6 +938,59 @@ Rejected, Deferred, and Pending proposals are ignored.
 Learning Engine does not rewrite Knowledge, Scoring, Rules, or prompts. It builds a Learning Package that summarizes approved proposals, adoption reasons, expected effects, impact scope, Knowledge candidates, Scoring candidates, and review history.
 
 This keeps Compass explainable, traceable, and rollbackable. Knowledge changes remain human-owned.
+
+## Compass Workspace
+
+Compass Experience 01 adds a read-only Research Workspace for daily use.
+
+Files:
+
+```text
+workspace/frontend/
+workspace/frontend/src/components/
+workspace/frontend/src/pages/
+workspace/frontend/src/services/
+workspace/frontend/src/types/
+workspace/frontend/scripts/sync-data.mjs
+```
+
+Pages:
+
+```text
+Home
+Discovery
+Company
+Comparison
+Validation
+Proposal
+Learning
+Settings
+```
+
+Workspace reads generated artifacts from:
+
+```text
+reports/
+storage/notifications/
+memory/learning/
+config/
+```
+
+`npm run sync-data` copies those files into `workspace/frontend/public/compass-data/` for local Vite serving. That copied folder is ignored by Git because it contains generated operational data.
+
+The Workspace is not a trading dashboard. It is designed as the first screen a researcher opens in the morning: concise summary, discovery candidates, market context, validation evidence, proposals, and learning packages in one place. Editing, approvals, and Knowledge updates remain outside the UI for now.
+
+Future direction:
+
+```text
+Local static artifacts
+↓
+Backend API
+↓
+S3 / Database / Cloud Storage
+```
+
+The frontend service layer keeps that migration path open without requiring page components to know where Compass data is stored.
 
 ## Git Tag And Release Preparation
 
