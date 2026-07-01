@@ -42,6 +42,7 @@ Compass currently supports:
 - Data Expansion Collector Framework
 - Data Source Hub
 - SEC EDGAR Integration
+- Earnings Call Integration
 - Human-maintained Knowledge
 - GitHub Actions cloud execution
 - GitHub operation documents
@@ -77,6 +78,7 @@ Compass is designed to support long-term company research.
 - Prepare a disabled Collector Framework for future high-quality data source expansion
 - Provide a Provider-based Data Source Hub for API, CSV, PDF, JSON, and future database inputs
 - Collect SEC EDGAR primary filings and metadata before any AI interpretation layer
+- Preserve earnings call transcripts and management commentary for future analysis layers
 - Prepare for future ranking, backtesting, API, and deeper learning features
 
 The guiding idea is simple: Compass should help humans understand companies, not replace human judgment.
@@ -498,6 +500,9 @@ It contains:
 - SEC data model
 - Filing types
 - SEC collection rules
+- Earnings call structure
+- Management commentary
+- Transcript analysis rules
 - Scoring principles
 - Financial analysis rules
 - News and event analysis rules
@@ -557,6 +562,9 @@ storage/raw/jobs/
 storage/raw/sec/{ticker}/filings/
 storage/raw/sec/{ticker}/metadata/
 storage/raw/sec/{ticker}/index.json
+storage/raw/earnings/{ticker}/transcripts/
+storage/raw/earnings/{ticker}/metadata/
+storage/raw/earnings/{ticker}/index.json
 datasources/cache/
 storage/events/{ticker}_events.json
 reports/scoring/company_scores.csv
@@ -644,6 +652,7 @@ Planned additions:
 - Data Expansion Engine
 - Data Source Hub
 - SEC EDGAR Integration
+- Earnings Call Integration
 - Portfolio Engine
 - Screening
 - Backtesting
@@ -1738,9 +1747,10 @@ Initial providers:
 
 ```text
 Yahoo Finance: enabled, connected to existing local Compass collector outputs
+SEC: enabled, SEC EDGAR filings provider
+Earnings: enabled, earnings call transcript provider
 CSV: enabled, local CSV reader
 JSON: enabled, local JSON and Memory reader
-SEC: scaffold
 FRED: scaffold
 Finnhub: scaffold
 Alpha Vantage: scaffold
@@ -1841,6 +1851,78 @@ GitHub Actions:
 This workflow is independent from the daily market data pipeline and uploads SEC artifacts separately.
 
 SEC filings are stored as facts. AI summarization, risk extraction, and financial statement interpretation will be implemented in a later layer.
+
+## Earnings Call Integration
+
+Compass Foundation 05 adds earnings call transcript collection.
+
+Files:
+
+```text
+collectors/earnings/fetch_transcripts.py
+collectors/earnings/transcript_client.py
+collectors/earnings/transcript_parser.py
+collectors/earnings/transcript_normalizer.py
+collectors/earnings/transcript_index.py
+datasources/providers/earnings/provider.py
+```
+
+Run locally:
+
+```bash
+python collectors/earnings/fetch_transcripts.py --ticker NVDA --source-path path/to/transcript.txt --fiscal-quarter "FY2026 Q1"
+```
+
+Storage:
+
+```text
+storage/raw/earnings/{ticker}/
+  transcripts/
+  metadata/
+  index.json
+```
+
+Transcript metadata:
+
+```text
+ticker
+company_name
+fiscal_quarter
+earnings_date
+transcript_date
+source
+language
+participants
+ceo_name
+cfo_name
+```
+
+Transcript structure:
+
+```text
+paragraphs
+opening_remarks
+financial_highlights
+guidance
+qa_section
+closing_remarks
+```
+
+Data Source Hub:
+
+```text
+manager.get("earnings")
+```
+
+GitHub Actions:
+
+```text
+.github/workflows/fetch_earnings_transcripts.yml
+```
+
+The workflow is independent from existing collectors. It accepts a ticker and transcript source path or future source URL, then uploads generated transcript artifacts.
+
+Earnings transcripts are preserved as management commentary. AI summarization, sentiment scoring, credibility assessment, and investment interpretation are planned for later layers.
 
 ## Git Tag And Release Preparation
 

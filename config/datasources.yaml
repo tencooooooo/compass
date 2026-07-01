@@ -13,6 +13,12 @@ datasources:
     max_retries: 3
     user_agent_env: SEC_USER_AGENT
 
+  earnings:
+    enabled: true
+    source_type: local
+    source_directory: storage/raw/earnings_sources
+    user_agent_env: EARNINGS_USER_AGENT
+
   fred:
     enabled: false
     api_key_env: FRED_API_KEY

@@ -7,6 +7,7 @@ Planned expansion categories:
 - Macro: CPI, FOMC, employment, interest rates, VIX
 - SEC: 10-K, 10-Q, 8-K
 - Earnings: earnings presentations, guidance
+- Earnings Call Transcripts: management commentary, Q&A, guidance discussion
 - Analyst: consensus, EPS estimates
 - Insider: insider buying, insider selling
 - ETF: fund flows, holdings weight

@@ -1,9 +1,4 @@
-from collectors.data_expansion import DisabledCollector
+from collectors.earnings.fetch_transcripts import EarningsTranscriptCollector
 
 
-class EarningsCollector(DisabledCollector):
-    """Scaffold for earnings presentations and guidance data."""
-
-    category = "earnings"
-    data_categories = ("Earnings Presentations", "Guidance")
-    source_name = "Earnings data providers"
+EarningsCollector = EarningsTranscriptCollector

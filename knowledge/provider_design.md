@@ -46,6 +46,7 @@ AlphaVantageProvider
 CSVProvider
 PDFProvider
 JSONProvider
+EarningsProvider
 ```
 
 Every Data Source provider implements:

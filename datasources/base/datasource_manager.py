@@ -9,6 +9,7 @@ from datasources.base.datasource import REPO_ROOT, BaseDataSource
 from datasources.base.datasource_registry import DataSourceRegistry
 from datasources.providers.alpha_vantage import AlphaVantageProvider
 from datasources.providers.csv import CSVProvider
+from datasources.providers.earnings import EarningsProvider
 from datasources.providers.finnhub import FinnhubProvider
 from datasources.providers.fred import FREDProvider
 from datasources.providers.json import JSONProvider
@@ -49,6 +50,7 @@ class DataSourceManager:
     def _register_defaults(self) -> None:
         self.registry.register("yahoo_finance", YahooFinanceProvider)
         self.registry.register("sec", SECProvider)
+        self.registry.register("earnings", EarningsProvider)
         self.registry.register("fred", FREDProvider)
         self.registry.register("finnhub", FinnhubProvider)
         self.registry.register("alpha_vantage", AlphaVantageProvider)

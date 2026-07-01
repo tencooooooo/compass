@@ -1,0 +1,65 @@
+name: Compass earnings transcripts
+
+on:
+  workflow_dispatch:
+    inputs:
+      ticker:
+        description: "Ticker to fetch"
+        required: true
+        type: string
+      source_path:
+        description: "Local transcript path inside the repository or artifact workspace"
+        required: false
+        type: string
+      source_url:
+        description: "Optional transcript URL for future provider use"
+        required: false
+        type: string
+      fiscal_quarter:
+        description: "Fiscal quarter label, for example FY2026 Q1"
+        required: false
+        default: "Unknown"
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  fetch-earnings-transcript:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run API tests
+        run: python tests/api/test_api.py
+
+      - name: Fetch earnings transcript from local path
+        if: ${{ inputs.source_path != '' }}
+        env:
+          EARNINGS_USER_AGENT: ${{ secrets.EARNINGS_USER_AGENT }}
+        run: python collectors/earnings/fetch_transcripts.py --ticker "${{ inputs.ticker }}" --source-path "${{ inputs.source_path }}" --fiscal-quarter "${{ inputs.fiscal_quarter }}"
+
+      - name: Fetch earnings transcript from URL
+        if: ${{ inputs.source_path == '' && inputs.source_url != '' }}
+        env:
+          EARNINGS_USER_AGENT: ${{ secrets.EARNINGS_USER_AGENT }}
+        run: python collectors/earnings/fetch_transcripts.py --ticker "${{ inputs.ticker }}" --source-url "${{ inputs.source_url }}" --fiscal-quarter "${{ inputs.fiscal_quarter }}"
+
+      - name: Upload earnings transcript artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: compass-earnings-transcripts
+          path: storage/raw/earnings/
+          if-no-files-found: ignore

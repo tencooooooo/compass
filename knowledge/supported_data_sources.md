@@ -3,10 +3,11 @@
 ## Current
 
 - Yahoo Finance
+- SEC EDGAR
+- Earnings call transcripts
 
 ## Prepared
 
-- SEC
 - FRED
 - Finnhub
 - Alpha Vantage
