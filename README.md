@@ -41,6 +41,7 @@ Compass currently supports:
 - Theme Intelligence Engine
 - Data Expansion Collector Framework
 - Data Source Hub
+- SEC EDGAR Integration
 - Human-maintained Knowledge
 - GitHub Actions cloud execution
 - GitHub operation documents
@@ -75,6 +76,7 @@ Compass is designed to support long-term company research.
 - Analyze long-term investment themes across market, sector, company, Discovery, Pattern, and news context
 - Prepare a disabled Collector Framework for future high-quality data source expansion
 - Provide a Provider-based Data Source Hub for API, CSV, PDF, JSON, and future database inputs
+- Collect SEC EDGAR primary filings and metadata before any AI interpretation layer
 - Prepare for future ranking, backtesting, API, and deeper learning features
 
 The guiding idea is simple: Compass should help humans understand companies, not replace human judgment.
@@ -493,6 +495,9 @@ It contains:
 - Data source architecture
 - API key management
 - Supported data sources
+- SEC data model
+- Filing types
+- SEC collection rules
 - Scoring principles
 - Financial analysis rules
 - News and event analysis rules
@@ -549,6 +554,9 @@ storage/raw/etf/
 storage/raw/sentiment/
 storage/raw/trends/
 storage/raw/jobs/
+storage/raw/sec/{ticker}/filings/
+storage/raw/sec/{ticker}/metadata/
+storage/raw/sec/{ticker}/index.json
 datasources/cache/
 storage/events/{ticker}_events.json
 reports/scoring/company_scores.csv
@@ -635,6 +643,7 @@ Planned additions:
 - Theme Intelligence Engine
 - Data Expansion Engine
 - Data Source Hub
+- SEC EDGAR Integration
 - Portfolio Engine
 - Screening
 - Backtesting
@@ -1749,6 +1758,89 @@ Runtime environment variables
 API keys are never stored in code. Provider configuration stores only environment variable names, such as `FRED_API_KEY`, `FINNHUB_API_KEY`, and `ALPHA_VANTAGE_API_KEY`.
 
 Data Source Hub exists so Compass Core does not need to know whether data came from an API, CSV, PDF, JSON, or future database. New data sources should be added by registering Providers, not by changing analyzers or engines.
+
+## SEC EDGAR Integration
+
+Compass Foundation 04 connects the first official primary data source: SEC EDGAR.
+
+Files:
+
+```text
+collectors/sec/fetch_filings.py
+collectors/sec/sec_client.py
+collectors/sec/sec_parser.py
+collectors/sec/sec_normalizer.py
+collectors/sec/filing_index.py
+datasources/providers/sec/provider.py
+```
+
+Supported forms:
+
+```text
+10-K
+10-Q
+8-K
+```
+
+Future forms:
+
+```text
+DEF 14A
+S-1
+Form 4
+```
+
+Run locally:
+
+```bash
+python collectors/sec/fetch_filings.py --ticker NVDA --limit 1
+```
+
+Storage:
+
+```text
+storage/raw/sec/{ticker}/
+  filings/
+  metadata/
+  index.json
+```
+
+Metadata:
+
+```text
+ticker
+company_name
+filing_type
+filing_date
+accession_number
+source_url
+document_title
+```
+
+Rate limit policy:
+
+```text
+User-Agent is declared on every request.
+Default request interval is 0.2 seconds.
+Retries are used for transient HTTP or network failures.
+Duplicate accession numbers are skipped when already saved.
+```
+
+SEC User-Agent can be provided through:
+
+```text
+SEC_USER_AGENT
+```
+
+GitHub Actions:
+
+```text
+.github/workflows/fetch_sec_filings.yml
+```
+
+This workflow is independent from the daily market data pipeline and uploads SEC artifacts separately.
+
+SEC filings are stored as facts. AI summarization, risk extraction, and financial statement interpretation will be implemented in a later layer.
 
 ## Git Tag And Release Preparation
 

@@ -1,0 +1,59 @@
+name: Compass SEC filings
+
+on:
+  workflow_dispatch:
+    inputs:
+      ticker:
+        description: "Optional ticker to fetch. Leave blank to use config/tickers.yaml."
+        required: false
+        type: string
+      limit:
+        description: "Filings per form per ticker"
+        required: false
+        default: "1"
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  fetch-sec-filings:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run API tests
+        run: python tests/api/test_api.py
+
+      - name: Fetch SEC filings for configured tickers
+        if: ${{ inputs.ticker == '' }}
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python collectors/sec/fetch_filings.py --limit "${{ inputs.limit }}"
+
+      - name: Fetch SEC filings for one ticker
+        if: ${{ inputs.ticker != '' }}
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python collectors/sec/fetch_filings.py --ticker "${{ inputs.ticker }}" --limit "${{ inputs.limit }}"
+
+      - name: Upload SEC filings artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: compass-sec-filings
+          path: |
+            storage/raw/sec/
+            datasources/cache/sec/
+          if-no-files-found: ignore

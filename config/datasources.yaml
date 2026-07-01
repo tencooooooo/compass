@@ -3,7 +3,15 @@ datasources:
     enabled: true
 
   sec:
-    enabled: false
+    enabled: true
+    forms:
+      - 10-K
+      - 10-Q
+      - 8-K
+    limit: 1
+    request_interval: 0.2
+    max_retries: 3
+    user_agent_env: SEC_USER_AGENT
 
   fred:
     enabled: false
