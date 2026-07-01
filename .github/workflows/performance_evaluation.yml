@@ -1,0 +1,51 @@
+name: Compass performance evaluation
+
+on:
+  schedule:
+    # Weekly scorecard run. JST Monday 08:00 = UTC Sunday 23:00.
+    - cron: "0 23 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  performance-evaluation:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Restore performance memory
+        uses: actions/cache@v4
+        with:
+          path: memory/performance/
+          key: compass-performance-${{ github.run_id }}
+          restore-keys: |
+            compass-performance-
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run API tests
+        run: python tests/api/test_api.py
+
+      - name: Generate performance scorecard
+        run: python lab/performance/performance_engine.py
+
+      - name: Upload performance artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: compass-performance-evaluation
+          path: |
+            reports/performance/
+            memory/performance/
+          if-no-files-found: ignore

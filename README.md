@@ -39,6 +39,7 @@ Compass currently supports:
 - Time Machine Engine
 - Pattern Intelligence Engine
 - Theme Intelligence Engine
+- Performance Evaluation Engine
 - Data Expansion Collector Framework
 - Data Source Hub
 - SEC EDGAR Integration
@@ -75,6 +76,7 @@ Compass is designed to support long-term company research.
 - Replay historical Compass analysis from a past snapshot date without future data leakage
 - Extract explainable success, failure, sector, market, event, and similarity pattern candidates
 - Analyze long-term investment themes across market, sector, company, Discovery, Pattern, and news context
+- Evaluate Compass's own Discovery, Theme, Pattern, Confidence, Market, and Sector performance over time
 - Prepare a disabled Collector Framework for future high-quality data source expansion
 - Provide a Provider-based Data Source Hub for API, CSV, PDF, JSON, and future database inputs
 - Collect SEC EDGAR primary filings and metadata before any AI interpretation layer
@@ -491,6 +493,10 @@ It contains:
 - Theme library
 - Theme classification
 - Theme analysis rules
+- Performance metrics
+- Evaluation policy
+- Benchmark methodology
+- Accuracy definition
 - Data sources
 - Collector guidelines
 - Data quality
@@ -537,6 +543,7 @@ prompts/mcp_prompt.md
 prompts/time_machine_prompt.md
 prompts/pattern_prompt.md
 prompts/theme_prompt.md
+prompts/performance_prompt.md
 ```
 
 This makes analysis behavior easier to review and update.
@@ -610,6 +617,13 @@ reports/themes/theme_summary.md
 reports/themes/theme_ranking.md
 reports/themes/theme_similarity.md
 reports/themes/{Theme}.md
+reports/performance/performance_summary.md
+reports/performance/discovery_accuracy.md
+reports/performance/benchmark_comparison.md
+reports/performance/sector_accuracy.md
+reports/performance/theme_accuracy.md
+reports/performance/dashboard_metrics.json
+memory/performance/history.json
 ```
 
 Details: [docs/data_model.md](docs/data_model.md)
@@ -649,6 +663,7 @@ Planned additions:
 - Time Machine Engine
 - Pattern Intelligence Engine
 - Theme Intelligence Engine
+- Performance Evaluation Engine
 - Data Expansion Engine
 - Data Source Hub
 - SEC EDGAR Integration
@@ -1616,6 +1631,92 @@ Groups candidates into themes and compares theme-level momentum, validation, new
 ```
 
 Theme Intelligence does not update Knowledge automatically. It creates explainable research views that humans can review before deciding whether a theme should become formal Knowledge.
+
+## Performance Evaluation Engine
+
+Compass Lab 04 adds Performance Evaluation.
+
+Files:
+
+```text
+lab/performance/performance_engine.py
+lab/performance/evaluator.py
+lab/performance/benchmark.py
+lab/performance/metrics.py
+lab/performance/report_generator.py
+```
+
+Run:
+
+```python
+from lab.performance.performance_engine import PerformanceEngine
+
+PerformanceEngine.run()
+```
+
+Evaluation targets:
+
+```text
+Discovery
+Discovery Score
+Confidence
+Theme
+Pattern
+Market Intelligence
+Sector Intelligence
+```
+
+Standard periods:
+
+```text
+30 days
+90 days
+180 days
+365 days
+```
+
+Benchmarks:
+
+```text
+S&P500
+Nasdaq100
+Russell2000
+```
+
+Metrics:
+
+```text
+Discovery Success Rate
+Average Return
+Median Return
+Win Rate
+Loss Rate
+Alpha vs Benchmark
+Max Drawdown
+Average Holding Return
+```
+
+Output:
+
+```text
+reports/performance/performance_summary.md
+reports/performance/discovery_accuracy.md
+reports/performance/benchmark_comparison.md
+reports/performance/sector_accuracy.md
+reports/performance/theme_accuracy.md
+reports/performance/dashboard_metrics.json
+memory/performance/history.json
+```
+
+GitHub Actions:
+
+```text
+.github/workflows/performance_evaluation.yml
+```
+
+The workflow runs weekly and is independent from the daily pipeline.
+
+Performance Evaluation is not Feedback, Decision, or Learning. It is Compass's scorecard. Future Portfolio integration can use these metrics to compare research signals with realized portfolio outcomes.
 
 ## Data Expansion Engine
 

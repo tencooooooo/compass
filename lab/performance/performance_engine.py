@@ -1,0 +1,83 @@
+from __future__ import annotations
+
+import json
+from pathlib import Path
+from typing import Any
+
+from api.services.data_loader import REPO_ROOT
+from lab.performance.evaluator import DEFAULT_PERIODS, Evaluator
+from lab.performance.metrics import PerformanceMetrics
+from lab.performance.report_generator import ReportGenerator
+
+
+class PerformanceEngine:
+    """Builds Compass's long-term analysis performance scorecard."""
+
+    @classmethod
+    def run(cls, periods: tuple[int, ...] = DEFAULT_PERIODS) -> dict[str, Any]:
+        evaluation = Evaluator(periods=periods).evaluate()
+        calculator = PerformanceMetrics()
+        rows = evaluation["rows"]
+        metrics = {
+            "overall": calculator.summarize(rows),
+            "periods": {str(period): calculator.summarize([row for row in rows if row.get("period") == period]) for period in periods},
+            "sector_accuracy": calculator.grouped(rows, "sector"),
+            "theme_accuracy": calculator.grouped(rows, "themes"),
+            "pattern_accuracy": calculator.grouped(rows, "patterns"),
+            "score_accuracy": calculator.grouped(rows, "discovery_score_bucket"),
+            "confidence_accuracy": calculator.grouped(rows, "confidence"),
+            "market_accuracy": calculator.grouped(rows, "market_status"),
+        }
+        metrics["dashboard"] = cls._dashboard(evaluation, metrics)
+        outputs = ReportGenerator().write(evaluation, metrics)
+        history_path = cls._write_history(evaluation, metrics)
+        return {
+            "success": True,
+            "evaluation_date": evaluation["evaluation_date"],
+            "signals": len(evaluation.get("signals", [])),
+            "rows": len(rows),
+            "outputs": outputs,
+            "history": str(history_path.relative_to(REPO_ROOT)),
+        }
+
+    @classmethod
+    def _dashboard(cls, evaluation: dict[str, Any], metrics: dict[str, Any]) -> dict[str, Any]:
+        return {
+            "evaluation_date": evaluation["evaluation_date"],
+            "overall": metrics["overall"],
+            "periods": metrics["periods"],
+            "sector_accuracy": metrics["sector_accuracy"],
+            "theme_accuracy": metrics["theme_accuracy"],
+            "pattern_accuracy": metrics["pattern_accuracy"],
+            "score_accuracy": metrics["score_accuracy"],
+            "confidence_accuracy": metrics["confidence_accuracy"],
+            "market_accuracy": metrics["market_accuracy"],
+        }
+
+    @classmethod
+    def _write_history(cls, evaluation: dict[str, Any], metrics: dict[str, Any]) -> Path:
+        path = REPO_ROOT / "memory" / "performance" / "history.json"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        history = []
+        if path.exists():
+            try:
+                history = json.loads(path.read_text(encoding="utf-8"))
+            except json.JSONDecodeError:
+                history = []
+        for period, summary in metrics["periods"].items():
+            history.append(
+                {
+                    "evaluation_date": evaluation["evaluation_date"],
+                    "period": int(period),
+                    "success_rate": summary.get("discovery_success_rate"),
+                    "average_return": summary.get("average_return"),
+                    "alpha": summary.get("alpha_vs_benchmark"),
+                    "benchmark": "S&P500/Nasdaq100/Russell2000",
+                }
+            )
+        path.write_text(json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8")
+        return path
+
+
+if __name__ == "__main__":
+    print(PerformanceEngine.run())
