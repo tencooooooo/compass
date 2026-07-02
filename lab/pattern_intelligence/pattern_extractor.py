@@ -2,6 +2,7 @@ import csv
 from typing import Any
 
 from api.services.data_loader import REPO_ROOT, list_json_files, read_json
+from utils.price_data import adjusted_close
 
 
 class PatternExtractor:
@@ -107,11 +108,11 @@ class PatternExtractor:
         if len(prices) <= window:
             return None
         try:
-            latest = float(prices[-1]["close"])
-            previous = float(prices[-window - 1]["close"])
+            latest = adjusted_close(prices[-1])
+            previous = adjusted_close(prices[-window - 1])
         except (KeyError, TypeError, ValueError):
             return None
-        if previous == 0:
+        if previous in (None, 0) or latest is None:
             return None
         return round((latest - previous) / previous * 100, 2)
 

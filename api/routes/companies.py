@@ -14,7 +14,10 @@ def list_companies():
 
 @router.get("/{ticker}")
 def company_detail(ticker: str):
-    company = get_company(ticker)
+    try:
+        company = get_company(ticker)
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Invalid ticker")
     if company is None:
         raise HTTPException(status_code=404, detail=f"Company not found: {ticker.upper()}")
     return success_response(company)

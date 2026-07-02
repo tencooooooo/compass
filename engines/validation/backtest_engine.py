@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from datetime import datetime
+from functools import lru_cache
 import json
 from pathlib import Path
 import sys
@@ -18,6 +19,7 @@ from engines.validation.performance_tracker import save_history  # noqa: E402
 from engines.validation.validation_report import render_validation_summary  # noqa: E402
 from utils.config import load_yaml  # noqa: E402
 from utils.logger import get_timezone, setup_logger  # noqa: E402
+from utils.price_data import adjusted_close, normalize_price_frame  # noqa: E402
 
 
 SETTINGS_PATH = PROJECT_ROOT / "config" / "settings.yaml"
@@ -45,6 +47,7 @@ def load_json(path: Path, default: Any) -> Any:
         return json.load(file)
 
 
+@lru_cache(maxsize=None)
 def load_prices(ticker: str) -> pd.DataFrame:
     path = PRICE_DIR / f"{ticker}.csv"
     if not path.exists():
@@ -52,12 +55,7 @@ def load_prices(ticker: str) -> pd.DataFrame:
     prices = pd.read_csv(path)
     if prices.empty or "date" not in prices.columns or "close" not in prices.columns:
         return pd.DataFrame()
-    prices = prices.copy()
-    prices["date"] = pd.to_datetime(prices["date"]).dt.tz_localize(None)
-    prices["close"] = pd.to_numeric(prices["close"], errors="coerce")
-    if "volume" in prices.columns:
-        prices["volume"] = pd.to_numeric(prices["volume"], errors="coerce")
-    return prices.dropna(subset=["date", "close"]).sort_values("date").reset_index(drop=True)
+    return normalize_price_frame(prices)
 
 
 def parse_datetime(value: str | None, timezone) -> datetime:
@@ -86,6 +84,7 @@ def price_on_or_after(prices: pd.DataFrame, target_date: pd.Timestamp) -> tuple[
 
 
 def calculate_return(prices: pd.DataFrame, discovery_date: datetime, period_days: int) -> dict[str, Any]:
+    prices = normalize_price_frame(prices)
     if prices.empty:
         return {
             "start_date": None,
@@ -100,15 +99,27 @@ def calculate_return(prices: pd.DataFrame, discovery_date: datetime, period_days
     start_row = price_on_or_before(prices, discovery_ts)
     if start_row is None:
         start_row = prices.iloc[0]
+        if (pd.Timestamp(start_row["date"]) - discovery_ts).days > 7:
+            return {
+                "start_date": pd.Timestamp(start_row["date"]).date().isoformat(),
+                "end_date": None,
+                "start_price": adjusted_close(start_row),
+                "end_price": None,
+                "return_percent": None,
+                "period_complete": False,
+            }
     target_end = pd.Timestamp(start_row["date"]) + pd.Timedelta(days=period_days)
     end_row, complete = price_on_or_after(prices, target_end)
     if end_row is None:
         end_row = start_row
         complete = False
 
-    start_price = float(start_row["close"])
-    end_price = float(end_row["close"])
-    return_percent = None if start_price == 0 else ((end_price - start_price) / start_price) * 100
+    start_price = adjusted_close(start_row)
+    end_price = adjusted_close(end_row)
+    if start_price is None or end_price is None:
+        return_percent = None
+    else:
+        return_percent = None if start_price == 0 else ((end_price - start_price) / start_price) * 100
     return {
         "start_date": pd.Timestamp(start_row["date"]).date().isoformat(),
         "end_date": pd.Timestamp(end_row["date"]).date().isoformat(),

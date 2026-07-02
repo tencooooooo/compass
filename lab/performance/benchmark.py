@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Any
 
 from api.services.data_loader import REPO_ROOT
+from utils.price_data import adjusted_close
 
 
 DEFAULT_BENCHMARKS = {
@@ -44,9 +45,9 @@ class Benchmark:
         end = self._price_on_or_before(prices, end_date)
         if not start or not end:
             return {"status": "missing_data", "return_percent": None}
-        start_price = float(start["close"])
-        end_price = float(end["close"])
-        if start_price == 0:
+        start_price = adjusted_close(start)
+        end_price = adjusted_close(end)
+        if start_price in (None, 0) or end_price is None:
             return {"status": "invalid_start_price", "return_percent": None}
         return {
             "status": "completed",

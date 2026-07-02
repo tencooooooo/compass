@@ -1,13 +1,19 @@
+from functools import lru_cache
 from pathlib import Path
+import re
 from typing import Any
 
 from api.services.data_loader import list_json_files, read_json, read_text
 
 
 def _ticker(value: str) -> str:
-    return value.upper().strip()
+    ticker = value.upper().strip()
+    if not re.fullmatch(r"[A-Z0-9.\-^]{1,10}", ticker):
+        raise ValueError(f"Invalid ticker: {value}")
+    return ticker
 
 
+@lru_cache(maxsize=1)
 def _score_results() -> list[dict[str, Any]]:
     scoring = read_json("reports/scoring/company_scores.json", {})
     return scoring.get("results", []) if isinstance(scoring, dict) else []
@@ -21,6 +27,7 @@ def _score_by_ticker(ticker: str) -> dict[str, Any] | None:
     return None
 
 
+@lru_cache(maxsize=1)
 def _discovery_candidates() -> list[dict[str, Any]]:
     discovery = read_json("reports/discovery/discovery_candidates.json", {})
     if not isinstance(discovery, dict):
@@ -37,6 +44,7 @@ def _discovery_by_ticker(ticker: str) -> dict[str, Any] | None:
     return None
 
 
+@lru_cache(maxsize=1)
 def _validation_rows() -> list[dict[str, Any]]:
     validation = read_json("reports/validation/validation_history.json", [])
     return validation if isinstance(validation, list) else []

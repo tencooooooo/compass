@@ -5,6 +5,8 @@ from typing import Any
 
 import pandas as pd
 
+from utils.price_data import adjusted_close
+
 
 POSITIVE_NEWS_KEYWORDS = [
     "growth",
@@ -53,8 +55,8 @@ def momentum_for_days(prices: pd.DataFrame, days: int) -> float | None:
     candidates = prices[prices["date"] <= target_date]
     if candidates.empty:
         return None
-    base = safe_float(candidates.iloc[-1].get("close"))
-    latest_close = safe_float(latest.get("close"))
+    base = adjusted_close(candidates.iloc[-1])
+    latest_close = adjusted_close(latest)
     if base in (None, 0) or latest_close is None:
         return None
     return ((latest_close - base) / base) * 100

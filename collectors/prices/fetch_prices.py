@@ -15,12 +15,13 @@ if str(PROJECT_ROOT) not in sys.path:
 from collectors.base import BaseCollector  # noqa: E402
 from utils.config import load_yaml  # noqa: E402
 from utils.logger import get_timezone, setup_logger  # noqa: E402
+from utils.price_data import PRICE_COLUMNS  # noqa: E402
 from utils.tickers import load_tickers  # noqa: E402
 
 
 CONFIG_PATH = PROJECT_ROOT / "config" / "tickers.yaml"
 SETTINGS_PATH = PROJECT_ROOT / "config" / "settings.yaml"
-CSV_COLUMNS = ["date", "open", "high", "low", "close", "volume"]
+CSV_COLUMNS = PRICE_COLUMNS
 
 
 class PriceCollector(BaseCollector):
@@ -59,9 +60,12 @@ class PriceCollector(BaseCollector):
                 "High": "high",
                 "Low": "low",
                 "Close": "close",
+                "Adj Close": "adj_close",
                 "Volume": "volume",
             }
         )
+        if "adj_close" not in prices.columns:
+            prices["adj_close"] = prices["close"]
 
         missing_columns = [column for column in CSV_COLUMNS if column not in prices.columns]
         if missing_columns:
@@ -70,12 +74,14 @@ class PriceCollector(BaseCollector):
         prices = prices[CSV_COLUMNS].copy()
         prices["date"] = pd.to_datetime(prices["date"]).dt.strftime("%Y-%m-%d")
 
-        return prices.dropna(subset=["date", "open", "high", "low", "close", "volume"])
+        return prices.dropna(subset=["date", "open", "high", "low", "close", "adj_close", "volume"])
 
     def merge_with_existing(self, new_data: pd.DataFrame, output_path: Path) -> pd.DataFrame:
         """既存CSVがある場合は結合し、date重複を除いて昇順に並べます。"""
         if output_path.exists():
             existing_data = pd.read_csv(output_path)
+            if "adj_close" not in existing_data.columns and "close" in existing_data.columns:
+                existing_data["adj_close"] = existing_data["close"]
             combined = pd.concat([existing_data, new_data], ignore_index=True)
         else:
             combined = new_data

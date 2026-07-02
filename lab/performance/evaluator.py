@@ -7,6 +7,7 @@ from typing import Any
 
 from api.services.data_loader import REPO_ROOT, list_json_files, read_json
 from lab.performance.benchmark import Benchmark
+from utils.price_data import adjusted_close
 
 
 DEFAULT_PERIODS = (30, 90, 180, 365)
@@ -85,15 +86,26 @@ class Evaluator:
             row.update(
                 {
                     "status": "pending",
-                    "start_price": float(start["close"]) if start else None,
-                    "end_price": float(end["close"]) if end else None,
+                    "start_price": adjusted_close(start) if start else None,
+                    "end_price": adjusted_close(end) if end else None,
                     "return_percent": None,
                     "alpha_percent": None,
                 }
             )
             return row
-        start_price = float(start["close"])
-        end_price = float(end["close"])
+        start_price = adjusted_close(start)
+        end_price = adjusted_close(end)
+        if start_price is None or end_price is None:
+            row.update(
+                {
+                    "status": "missing_price",
+                    "start_price": start_price,
+                    "end_price": end_price,
+                    "return_percent": None,
+                    "alpha_percent": None,
+                }
+            )
+            return row
         return_percent = round((end_price - start_price) / start_price * 100, 2) if start_price else None
         alpha = round(return_percent - benchmark_return, 2) if return_percent is not None and benchmark_return is not None else None
         row.update(

@@ -11,6 +11,7 @@ from api.services.data_loader import REPO_ROOT, read_json
 from lab.strategy.allocation_engine import AllocationEngine
 from lab.strategy.portfolio_simulator import PortfolioSimulator
 from lab.strategy.strategy_metrics import StrategyMetrics
+from utils.price_data import adjusted_close
 
 
 class StrategyRunner:
@@ -136,8 +137,10 @@ class StrategyRunner:
             prices = self._price_rows(str(ticker))
             start = self._price_on_or_before(prices, signal_date)
             end = self._price_on_or_before(prices, end_date)
-            if start and end and float(start["close"]) != 0:
-                values.append(round((float(end["close"]) - float(start["close"])) / float(start["close"]) * 100, 2))
+            start_price = adjusted_close(start) if start else None
+            end_price = adjusted_close(end) if end else None
+            if start_price not in (None, 0) and end_price is not None:
+                values.append(round((end_price - start_price) / start_price * 100, 2))
         return round(sum(values) / len(values), 2) if values else None
 
     def _price_rows(self, ticker: str) -> list[dict[str, str]]:

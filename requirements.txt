@@ -1,12 +1,16 @@
 # Market data and company/financial/news data retrieval
-yfinance
+yfinance>=0.2.50,<0.3
 
 # Data processing and CSV handling
-pandas
+pandas>=2.2,<3
 
 # YAML configuration loading
-pyyaml
+pyyaml>=6,<7
 
 # Read-only Compass API
-fastapi
-uvicorn
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+
+# Test and static checks
+pytest>=8,<9
+ruff>=0.5,<1

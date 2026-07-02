@@ -1,5 +1,7 @@
 from typing import Any
 
+from utils.price_data import adjusted_close
+
 
 class HistoricalContext:
     """Builds replay context from a future-safe snapshot."""
@@ -84,11 +86,11 @@ class HistoricalContext:
         if len(prices) < 22:
             return 8
         try:
-            latest = float(prices[-1]["close"])
-            previous = float(prices[-22]["close"])
+            latest = adjusted_close(prices[-1])
+            previous = adjusted_close(prices[-22])
         except (KeyError, TypeError, ValueError):
             return 8
-        if previous == 0:
+        if previous in (None, 0) or latest is None:
             return 8
         change = (latest - previous) / previous
         if change >= 0.10:

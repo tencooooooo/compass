@@ -18,6 +18,7 @@ from engines.market_intelligence.market_summary import render_market_psychology,
 from engines.market_intelligence.sector_analysis import average, build_sector_summaries, calculate_ticker_momentum, safe_float  # noqa: E402
 from utils.config import load_yaml  # noqa: E402
 from utils.logger import get_timezone, setup_logger  # noqa: E402
+from utils.price_data import normalize_price_frame  # noqa: E402
 from utils.tickers import load_tickers  # noqa: E402
 
 
@@ -49,9 +50,7 @@ def load_prices(path: Path) -> pd.DataFrame:
     prices = pd.read_csv(path)
     if prices.empty or "date" not in prices.columns:
         return pd.DataFrame()
-    prices = prices.copy()
-    prices["date"] = pd.to_datetime(prices["date"])
-    return prices.sort_values("date").reset_index(drop=True)
+    return normalize_price_frame(prices)
 
 
 def load_scoring_rows() -> dict[str, dict[str, Any]]:

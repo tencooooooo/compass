@@ -16,6 +16,7 @@ if str(PROJECT_ROOT) not in sys.path:
 from collectors.base import BaseCollector  # noqa: E402
 from utils.config import load_yaml  # noqa: E402
 from utils.logger import get_timezone, setup_logger  # noqa: E402
+from utils.price_data import adjusted_close, normalize_price_frame  # noqa: E402
 from utils.tickers import load_tickers  # noqa: E402
 
 
@@ -52,9 +53,7 @@ def load_prices(price_path: Path) -> pd.DataFrame:
     if prices.empty or "date" not in prices.columns:
         return pd.DataFrame()
 
-    prices = prices.copy()
-    prices["date"] = pd.to_datetime(prices["date"])
-    return prices.sort_values("date").reset_index(drop=True)
+    return normalize_price_frame(prices)
 
 
 def find_price_row(prices: pd.DataFrame, news_date: pd.Timestamp | None) -> tuple[Any, Any]:
@@ -88,8 +87,8 @@ def build_event(ticker: str, news_item: dict[str, Any], prices: pd.DataFrame) ->
     news_date = parse_news_date(news_item.get("published_at"))
     current_row, previous_row = find_price_row(prices, news_date)
 
-    close_price = safe_float(current_row["close"]) if current_row is not None else None
-    previous_close = safe_float(previous_row["close"]) if previous_row is not None else None
+    close_price = adjusted_close(current_row) if current_row is not None else None
+    previous_close = adjusted_close(previous_row) if previous_row is not None else None
     volume = safe_float(current_row["volume"]) if current_row is not None else None
 
     price_change_percent = None

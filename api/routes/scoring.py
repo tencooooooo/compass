@@ -14,7 +14,10 @@ def scores():
 
 @router.get("/{ticker}")
 def score_detail(ticker: str):
-    score = get_score(ticker)
+    try:
+        score = get_score(ticker)
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Invalid ticker")
     if score is None:
         raise HTTPException(status_code=404, detail=f"Score not found: {ticker.upper()}")
     return success_response(score)

@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Any
 
 from api.services.data_loader import REPO_ROOT
+from utils.price_data import adjusted_close
 
 
 class PortfolioSimulator:
@@ -40,18 +41,22 @@ class PortfolioSimulator:
             if not entry or not exit_row:
                 continue
             allocated = self.initial_capital * weight
-            shares = allocated / float(entry["close"]) if float(entry["close"]) else 0
-            exit_value = shares * float(exit_row["close"])
+            entry_price = adjusted_close(entry)
+            exit_price = adjusted_close(exit_row)
+            if entry_price in (None, 0) or exit_price is None:
+                continue
+            shares = allocated / entry_price
+            exit_value = shares * exit_price
             ending_value += exit_value
             trades.append(
                 {
                     "ticker": ticker,
                     "weight": weight,
                     "entry_date": entry["date"],
-                    "entry_price": float(entry["close"]),
+                    "entry_price": entry_price,
                     "exit_date": exit_row["date"],
                     "target_exit_date": target_exit_date.isoformat(),
-                    "exit_price": float(exit_row["close"]),
+                    "exit_price": exit_price,
                     "shares": round(shares, 6),
                     "allocated": round(allocated, 2),
                     "ending_value": round(exit_value, 2),
