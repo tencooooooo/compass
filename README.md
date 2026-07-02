@@ -2293,6 +2293,86 @@ GitHub Actions:
 
 The daily workflow runs Data Quality after collectors finish and before analysis starts. If the overall Quality Score is below the configured threshold, the workflow emits a warning but does not stop.
 
+## Knowledge Graph Engine
+
+Compass Lab 07 adds a Knowledge Graph Engine for managing relationships between companies, themes, sectors, events, products, technologies, countries, and ETFs.
+
+Files:
+
+```text
+lab/knowledge_graph/graph_engine.py
+lab/knowledge_graph/graph_builder.py
+lab/knowledge_graph/graph_storage.py
+lab/knowledge_graph/graph_query.py
+lab/knowledge_graph/graph_similarity.py
+```
+
+Run locally:
+
+```bash
+python lab/knowledge_graph/graph_engine.py
+```
+
+Storage:
+
+```text
+storage/knowledge_graph/graph.json
+storage/knowledge_graph/nodes.json
+storage/knowledge_graph/edges.json
+```
+
+Reports:
+
+```text
+reports/graph/graph_summary.md
+reports/graph/company_network.md
+reports/graph/theme_network.md
+reports/graph/graph.json
+```
+
+Node types:
+
+```text
+Company
+Theme
+Sector
+Event
+Product
+Technology
+CEO
+Country
+ETF
+```
+
+Relationships:
+
+```text
+BELONGS_TO
+RELATED_TO
+SUPPLIES
+COMPETES_WITH
+PARTNERS_WITH
+USES
+INVESTS_IN
+ACQUIRES
+```
+
+Query API:
+
+```python
+Graph.find_related("NVDA")
+Graph.find_theme("AI")
+Graph.shortest_path("TSMC", "OpenAI")
+```
+
+GitHub Actions:
+
+```text
+.github/workflows/knowledge_graph.yml
+```
+
+The graph is refreshed weekly or manually. It is a Knowledge Layer and does not change scoring, Discovery rules, or Learning automatically.
+
 ## Git Tag And Release Preparation
 
 Recommended Git tag for this milestone:

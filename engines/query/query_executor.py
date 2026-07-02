@@ -17,6 +17,7 @@ from api.services.compass_data import (
 )
 from api.services.data_loader import list_json_files, read_json, read_text
 from engines.query.query_parser import QueryRequest
+from lab.knowledge_graph.graph_query import Graph
 
 
 class QueryExecutor:
@@ -135,3 +136,18 @@ class QueryExecutor:
 
     def _execute_company_validation(self, ticker: str, **kwargs: Any) -> list[dict[str, Any]]:
         return get_validation_for_ticker(ticker)
+
+    def _execute_knowledge_graph(self, **kwargs: Any) -> dict[str, Any]:
+        return read_json("storage/knowledge_graph/graph.json", {"nodes": [], "edges": [], "metadata": {}})
+
+    def _execute_graph_related(self, node: str | None = None, ticker: str | None = None, limit: int = 20, **kwargs: Any) -> list[dict[str, Any]]:
+        target = node or ticker
+        if not target:
+            return []
+        return Graph.find_related(str(target), limit=max(1, int(limit)))
+
+    def _execute_graph_theme(self, theme: str, **kwargs: Any) -> dict[str, Any]:
+        return Graph.find_theme(theme)
+
+    def _execute_graph_path(self, start: str, end: str, **kwargs: Any) -> dict[str, Any]:
+        return {"start": start, "end": end, "path": Graph.shortest_path(start, end)}

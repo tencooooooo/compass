@@ -23,6 +23,10 @@ SUPPORTED_QUERIES = {
     "company score": "company_score",
     "company discovery": "company_discovery",
     "company validation": "company_validation",
+    "knowledge graph": "knowledge_graph",
+    "graph related": "graph_related",
+    "graph theme": "graph_theme",
+    "graph path": "graph_path",
 }
 
 
