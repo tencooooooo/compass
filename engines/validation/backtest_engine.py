@@ -224,7 +224,7 @@ def validation_row(
 
     validation_result = classify_result(result["return_percent"], benchmark_diff, result["period_complete"], period_label)
     events = load_json(EVENT_DIR / f"{ticker}_events.json", [])
-    evidence = sorted(set(candidate.get("evidence", [])) | {"Discovery", "Prices", "Events", "Knowledge", threshold_note(period_label)})
+    evidence = sorted(set(candidate.get("evidence", [])) | {"Discovery", "Prices", "Events", "Knowledge"})
     return {
         "discovery_date": discovery_date.date().isoformat(),
         "validation_date": validation_date.date().isoformat(),
@@ -248,6 +248,7 @@ def validation_row(
         "confidence": candidate.get("confidence"),
         "watch_points": candidate.get("watch_points", []),
         "evidence": evidence,
+        "thresholds": threshold_note(period_label),
         "event_count": len(events) if isinstance(events, list) else None,
         "period_complete": result["period_complete"],
     }

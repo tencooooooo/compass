@@ -21,11 +21,11 @@ class GrowthScoringTest(unittest.TestCase):
                 "operating_income": 25,
                 "research_and_development": 5,
                 "quarterly_financials": [
-                    {"total_revenue": 130, "eps": 2.0},
-                    {"total_revenue": 125, "eps": 1.8},
-                    {"total_revenue": 120, "eps": 1.6},
-                    {"total_revenue": 115, "eps": 1.4},
-                    {"total_revenue": 100, "eps": 1.0},
+                    {"fiscal_quarter": "2026-Q2", "total_revenue": 130, "eps": 2.0},
+                    {"fiscal_quarter": "2026-Q1", "total_revenue": 125, "eps": 1.8},
+                    {"fiscal_quarter": "2025-Q4", "total_revenue": 115, "eps": 1.4},
+                    {"fiscal_quarter": "2025-Q3", "total_revenue": 120, "eps": 1.6},
+                    {"fiscal_quarter": "2025-Q2", "total_revenue": 100, "eps": 1.0},
                 ],
             }
         )

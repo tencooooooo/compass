@@ -66,7 +66,7 @@ class PerformanceMetrics:
         completed = [row for row in rows if row.get("status") == "completed"]
         counts = {"Excellent": 0, "Good": 0, "Neutral": 0, "Poor": 0, "Pending": len(rows) - len(completed)}
         for row in completed:
-            counts[self._validation_result(row.get("return_percent"))] += 1
+            counts[self._validation_result(row)] += 1
         successful = counts["Excellent"] + counts["Good"]
         return {
             "evaluated_count": len(rows),
@@ -75,9 +75,12 @@ class PerformanceMetrics:
             "hit_rate": self._rate(successful, len(completed)),
         }
 
-    def _validation_result(self, return_percent: Any) -> str:
+    def _validation_result(self, row: dict[str, Any]) -> str:
+        existing = row.get("validation_result")
+        if existing in {"Excellent", "Good", "Neutral", "Poor"}:
+            return str(existing)
         try:
-            value = float(return_percent)
+            value = float(row.get("return_percent"))
         except (TypeError, ValueError):
             return "Neutral"
         if value >= 15:

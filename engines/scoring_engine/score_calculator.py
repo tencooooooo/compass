@@ -110,10 +110,20 @@ def score_growth_rate(value: float | None, label: str, points: float, reasons: l
 
 def latest_and_prior_year_quarter(financials: dict[str, Any], key: str) -> tuple[Any, Any]:
     rows = financials.get("quarterly_financials")
-    if not isinstance(rows, list) or len(rows) < 5:
+    if not isinstance(rows, list) or not rows:
         return None, None
     latest = rows[0] if isinstance(rows[0], dict) else {}
-    prior = rows[4] if isinstance(rows[4], dict) else {}
+    latest_quarter = latest.get("fiscal_quarter")
+    if not isinstance(latest_quarter, str) or "-Q" not in latest_quarter:
+        return None, None
+    year_text, quarter = latest_quarter.split("-Q", 1)
+    try:
+        prior_label = f"{int(year_text) - 1}-Q{quarter}"
+    except ValueError:
+        return None, None
+    prior = next((row for row in rows[1:] if isinstance(row, dict) and row.get("fiscal_quarter") == prior_label), None)
+    if prior is None:
+        return None, None
     return latest.get(key), prior.get(key)
 
 
@@ -338,6 +348,11 @@ def calculate_valuation(company: dict[str, Any], sector_companies: list[dict[str
         if value is None:
             missing.append(key)
             reasons.append(f"{label} が取得できないため加点していません。")
+            continue
+        if value <= 0:
+            reasons.append(f"{label} は {value:.2f} で、指標がマイナスのため加点対象外です。")
+            percentile_metrics[f"{key}_percentile"] = None
+            percentile_metrics[f"{key}_peer_count"] = 0
             continue
 
         if use_sector_relative:

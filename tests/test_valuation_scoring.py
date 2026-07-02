@@ -32,6 +32,22 @@ class ValuationScoringTest(unittest.TestCase):
         self.assertEqual(result["metrics"]["sector_peer_count"], 2)
         self.assertTrue(any("固定閾値" in reason for reason in result["reasons"]))
 
+    def test_negative_valuation_metric_is_not_awarded(self):
+        company = {"trailing_pe": -5, "forward_pe": 20, "peg_ratio": 1.5, "price_to_book": 10}
+        peers = [
+            company,
+            {"trailing_pe": 10, "forward_pe": 10, "peg_ratio": 0.8, "price_to_book": 4},
+            {"trailing_pe": 20, "forward_pe": 20, "peg_ratio": 1.2, "price_to_book": 8},
+            {"trailing_pe": 30, "forward_pe": 30, "peg_ratio": 1.8, "price_to_book": 12},
+            {"trailing_pe": 40, "forward_pe": 40, "peg_ratio": 2.5, "price_to_book": 16},
+            {"trailing_pe": 50, "forward_pe": 50, "peg_ratio": 3.0, "price_to_book": 20},
+        ]
+
+        result = calculate_valuation(company, peers)
+
+        self.assertIsNone(result["metrics"]["trailing_pe_percentile"])
+        self.assertTrue(any("指標がマイナスのため加点対象外" in reason for reason in result["reasons"]))
+
 
 if __name__ == "__main__":
     unittest.main()
