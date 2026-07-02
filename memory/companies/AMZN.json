@@ -1,0 +1,796 @@
+{
+  "Company": {
+    "ticker": "AMZN",
+    "company_name": "Amazon.com, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Internet Retail",
+    "country": "United States",
+    "currency": "USD",
+    "exchange": "NMS",
+    "market_cap": 2610427854848,
+    "enterprise_value": 2692444323840,
+    "shares_outstanding": 10757109436,
+    "beta": 1.444,
+    "trailing_pe": 31.76309,
+    "forward_pe": 24.505909,
+    "peg_ratio": 1.83,
+    "price_to_book": 5.9053855,
+    "eps": 7.64,
+    "forward_eps": 9.90251,
+    "dividend_yield": null,
+    "52_week_high": 278.56,
+    "52_week_low": 196.0,
+    "average_volume": 50960822,
+    "employees": 1575000,
+    "website": "https://www.amazon.com",
+    "business_summary": "Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It also manufactures and sells electronic devices, including Kindle, fire tablets, fire TVs, echo, ring, blink, and eero; and develops and produces media content. In addition, the company offers programs that enable sellers to sell their products in its stores; and programs that allow authors, independent publishers, musicians, filmmakers, Twitch streamers, skill and app developers, and others to publish and sell content. Further, it provides compute, storage, Artificial intelligence, database, analytics, machine learning, and other services, as well as advertising services through programs, such as sponsored ads, display, and video advertising. Additionally, the company offers Amazon Prime, a membership program. The company's products offered through its stores include merchandise and content purchased for resale and products offered by third-party sellers. It serves consumers, sellers, developers, enterprises, content creators, advertisers, and employees. The company was incorporated in 1994 and is headquartered in Seattle, Washington."
+  },
+  "History": [
+    {
+      "date": "2026-07-01",
+      "timestamp": "2026-07-01T19:04:07.435680-04:00",
+      "score": 78,
+      "discovery_score": 71,
+      "discovery_status": "Watch Candidate",
+      "validation_results": {
+        "Neutral": 5
+      },
+      "event_count": 10,
+      "news_count": 10,
+      "confidence": {
+        "scoring": "Medium",
+        "discovery": "Medium"
+      }
+    },
+    {
+      "date": "2026-07-02",
+      "timestamp": "2026-07-02T18:57:55.119430-04:00",
+      "score": 74,
+      "discovery_score": 70,
+      "discovery_status": "Watch Candidate",
+      "validation_results": {
+        "Neutral": 5
+      },
+      "event_count": 10,
+      "news_count": 10,
+      "confidence": {
+        "scoring": "Medium",
+        "discovery": "Medium"
+      }
+    }
+  ],
+  "Scores": {
+    "ticker": "AMZN",
+    "company_name": "Amazon.com, Inc.",
+    "total_score": 74,
+    "max_score": 100,
+    "confidence": {
+      "level": "Medium",
+      "completeness_score": 90.0,
+      "reasons": [
+        "利用可能な主要データ領域は5領域中 5 領域です。",
+        "欠損または計算不可の項目数は 2 件です。",
+        "主要データは一定程度ありますが、欠損や未取得項目が残っています。"
+      ]
+    },
+    "scores": {
+      "Growth": {
+        "score": 16,
+        "max_score": 20,
+        "reasons": [
+          "売上規模が大きく、事業規模の強さが確認できます。",
+          "EPS がプラスで確認できるため加点しています。",
+          "純利益 がプラスで確認できるため加点しています。",
+          "営業利益 がプラスで確認できるため加点しています。",
+          "研究開発費が取得できないため、R&D項目は加点していません。",
+          "四半期時系列が不足しているため、Growthは最新値中心の従来ロジックへフォールバックしています。"
+        ],
+        "evidence": [
+          "Financials",
+          "Knowledge"
+        ],
+        "missing_data": [
+          "research_and_development",
+          "revenue_growth"
+        ],
+        "metrics": {
+          "total_revenue": 716924000000.0,
+          "eps": 7.29,
+          "net_income": 77670000000.0,
+          "operating_income": 79975000000.0,
+          "research_and_development": null,
+          "revenue_yoy_growth": null,
+          "eps_yoy_growth": null
+        }
+      },
+      "Financial Health": {
+        "score": 18,
+        "max_score": 20,
+        "reasons": [
+          "現金 がプラスで確認できるため加点しています。",
+          "自己資本がプラスで、財務基盤を確認できます。",
+          "総負債/自己資本が 0.99 倍で、負債負担は相対的に抑えられています。",
+          "長期債務が総負債に対して過度に大きくないため加点しています。",
+          "Current Ratio が 1.05 で、最低限の短期支払余力があります。"
+        ],
+        "evidence": [
+          "Financials",
+          "Knowledge"
+        ],
+        "missing_data": [],
+        "metrics": {
+          "cash": 86810000000.0,
+          "total_liabilities": 406977000000.0,
+          "shareholders_equity": 411065000000.0,
+          "long_term_debt": 65648000000.0,
+          "current_ratio": 1.0508153482718285
+        }
+      },
+      "Valuation": {
+        "score": 16,
+        "max_score": 20,
+        "reasons": [
+          "セクター比較対象が 2 社のため、PER は固定閾値で評価しています。",
+          "PER は 31.76 で、バリュエーション面は中立から注意寄りです。",
+          "セクター比較対象が 2 社のため、Forward PER は固定閾値で評価しています。",
+          "Forward PER は 24.51 で、評価ルール上は過度な割高さが抑えられています。",
+          "セクター比較対象が 2 社のため、PEG は固定閾値で評価しています。",
+          "PEG は 1.83 で、バリュエーション面は中立から注意寄りです。",
+          "セクター比較対象が 2 社のため、PBR は固定閾値で評価しています。",
+          "PBR は 5.91 で、評価ルール上は過度な割高さが抑えられています。",
+          "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
+        ],
+        "evidence": [
+          "Company",
+          "Knowledge"
+        ],
+        "missing_data": [],
+        "metrics": {
+          "trailing_pe": 31.76309,
+          "forward_pe": 24.505909,
+          "peg_ratio": 1.83,
+          "price_to_book": 5.9053855,
+          "sector_peer_count": 2
+        }
+      },
+      "Momentum": {
+        "score": 9,
+        "max_score": 20,
+        "reasons": [
+          "1M は -5.40% と小幅なマイナスです。",
+          "3M が 15.24% と強い上昇を示しています。",
+          "6M が 4.36% とプラス圏です。",
+          "1Y が 10.07% とプラス圏です。",
+          "直近出来高が30日平均の 0.80 倍で、市場関心はやや弱めです。"
+        ],
+        "evidence": [
+          "Prices",
+          "Knowledge"
+        ],
+        "missing_data": [],
+        "metrics": {
+          "1M": -5.399185809254183,
+          "3M": 15.244331922020397,
+          "6M": 4.360727408454811,
+          "1Y": 10.074385729246687,
+          "latest_volume": 44746134.0,
+          "average_volume_30d": 56164411.13333333
+        }
+      },
+      "News": {
+        "score": 15,
+        "max_score": 20,
+        "reasons": [
+          "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
+          "ニュース見出し・要約の簡易分類では、好材料 7 件、悪材料 0 件です。",
+          "イベント後の平均株価反応が 0.40% と中立圏です。"
+        ],
+        "evidence": [
+          "News",
+          "Events",
+          "Knowledge"
+        ],
+        "missing_data": [],
+        "metrics": {
+          "news_count": 10,
+          "event_count": 10,
+          "events_with_price_reaction": 10
+        }
+      }
+    },
+    "evidence_sources": [
+      "Company",
+      "Events",
+      "Financials",
+      "Knowledge",
+      "News",
+      "Prices"
+    ]
+  },
+  "Discovery": {
+    "ticker": "AMZN",
+    "company": "Amazon.com, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Internet Retail",
+    "discovery_score": 70,
+    "status": "Watch Candidate",
+    "discovery_reasons": [
+      "Scoring EngineのGrowthが 16/20 で、成長性の基礎条件が確認できます。",
+      "Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。",
+      "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+      "売上が取得でき、事業規模の確認ができます。",
+      "EPSがプラスで、利益を伴う成長候補として確認できます。",
+      "FCFがプラスで、成長投資を支える現金創出力があります。",
+      "1Mモメンタムは -5.40% と弱めですが、大きな崩れではありません。",
+      "3Mモメンタムが 15.24% と強く、市場関心が確認できます。",
+      "6Mモメンタムが 4.36% とプラス圏です。",
+      "1Yモメンタムが 10.07% とプラス圏です。"
+    ],
+    "strengths": [
+      "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
+      "フリーキャッシュフローがプラスで、現金創出力があります。"
+    ],
+    "watch_points": [
+      "Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+      "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+      "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+      "Consumer Cyclical セクター全体の需要変化と競争環境を確認する必要があります。",
+      "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+      "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+    ],
+    "confidence": "Medium",
+    "evidence": [
+      "Company",
+      "Events",
+      "Financials",
+      "Knowledge",
+      "Market Intelligence",
+      "News",
+      "Prices",
+      "Scoring"
+    ],
+    "missing_data": [
+      "research_and_development"
+    ],
+    "metrics": {
+      "scoring_total": 74.0,
+      "growth_score": 16.0,
+      "financial_health_score": 18.0,
+      "valuation_score": 16.0,
+      "news_score": 15.0,
+      "momentum": {
+        "1m": -5.399185809254183,
+        "3m": 15.244331922020397,
+        "6m": 4.360727408454811,
+        "1y": 10.074385729246687
+      },
+      "positive_news": 7,
+      "watch_news": 0,
+      "event_count": 10,
+      "events_with_reaction": 10,
+      "sector_average_score": 68.5
+    }
+  },
+  "Validation": [
+    {
+      "discovery_date": "2026-07-02",
+      "validation_date": "2026-07-02",
+      "period": "1m",
+      "ticker": "AMZN",
+      "company": "Amazon.com, Inc.",
+      "sector": "Consumer Cyclical",
+      "discovery_score": 70,
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 16/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは -5.40% と弱めですが、大きな崩れではありません。",
+        "3Mモメンタムが 15.24% と強く、市場関心が確認できます。",
+        "6Mモメンタムが 4.36% とプラス圏です。",
+        "1Yモメンタムが 10.07% とプラス圏です。"
+      ],
+      "start_date": "2026-07-02",
+      "end_date": "2026-07-02",
+      "start_price": 242.6699981689453,
+      "end_price": 242.6699981689453,
+      "return_percent": 0.0,
+      "benchmark": null,
+      "benchmark_return_percent": null,
+      "benchmark_diff_percent": null,
+      "sector_average_return_percent": 0.0,
+      "sector_diff_percent": 0.0,
+      "validation_result": "Neutral",
+      "confidence": "Medium",
+      "watch_points": [
+        "Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Consumer Cyclical セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "evidence": [
+        "Company",
+        "Discovery",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "thresholds": "Validation thresholds 1m: Excellent >= 6.0% or benchmark diff >= 4.0%; Good >= 3.0% or benchmark diff >= 2.0%; Poor <= -3.0% or benchmark diff <= -2.0%.",
+      "event_count": 10,
+      "period_complete": false
+    },
+    {
+      "discovery_date": "2026-07-02",
+      "validation_date": "2026-07-02",
+      "period": "1w",
+      "ticker": "AMZN",
+      "company": "Amazon.com, Inc.",
+      "sector": "Consumer Cyclical",
+      "discovery_score": 70,
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 16/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは -5.40% と弱めですが、大きな崩れではありません。",
+        "3Mモメンタムが 15.24% と強く、市場関心が確認できます。",
+        "6Mモメンタムが 4.36% とプラス圏です。",
+        "1Yモメンタムが 10.07% とプラス圏です。"
+      ],
+      "start_date": "2026-07-02",
+      "end_date": "2026-07-02",
+      "start_price": 242.6699981689453,
+      "end_price": 242.6699981689453,
+      "return_percent": 0.0,
+      "benchmark": null,
+      "benchmark_return_percent": null,
+      "benchmark_diff_percent": null,
+      "sector_average_return_percent": 0.0,
+      "sector_diff_percent": 0.0,
+      "validation_result": "Neutral",
+      "confidence": "Medium",
+      "watch_points": [
+        "Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Consumer Cyclical セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "evidence": [
+        "Company",
+        "Discovery",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "thresholds": "Validation thresholds 1w: Excellent >= 3.0% or benchmark diff >= 2.0%; Good >= 1.5% or benchmark diff >= 1.0%; Poor <= -1.5% or benchmark diff <= -1.0%.",
+      "event_count": 10,
+      "period_complete": false
+    },
+    {
+      "discovery_date": "2026-07-02",
+      "validation_date": "2026-07-02",
+      "period": "1y",
+      "ticker": "AMZN",
+      "company": "Amazon.com, Inc.",
+      "sector": "Consumer Cyclical",
+      "discovery_score": 70,
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 16/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは -5.40% と弱めですが、大きな崩れではありません。",
+        "3Mモメンタムが 15.24% と強く、市場関心が確認できます。",
+        "6Mモメンタムが 4.36% とプラス圏です。",
+        "1Yモメンタムが 10.07% とプラス圏です。"
+      ],
+      "start_date": "2026-07-02",
+      "end_date": "2026-07-02",
+      "start_price": 242.6699981689453,
+      "end_price": 242.6699981689453,
+      "return_percent": 0.0,
+      "benchmark": null,
+      "benchmark_return_percent": null,
+      "benchmark_diff_percent": null,
+      "sector_average_return_percent": 0.0,
+      "sector_diff_percent": 0.0,
+      "validation_result": "Neutral",
+      "confidence": "Medium",
+      "watch_points": [
+        "Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Consumer Cyclical セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "evidence": [
+        "Company",
+        "Discovery",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "thresholds": "Validation thresholds 1y: Excellent >= 15.0% or benchmark diff >= 10.0%; Good >= 8.0% or benchmark diff >= 5.0%; Poor <= -8.0% or benchmark diff <= -5.0%.",
+      "event_count": 10,
+      "period_complete": false
+    },
+    {
+      "discovery_date": "2026-07-02",
+      "validation_date": "2026-07-02",
+      "period": "3m",
+      "ticker": "AMZN",
+      "company": "Amazon.com, Inc.",
+      "sector": "Consumer Cyclical",
+      "discovery_score": 70,
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 16/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは -5.40% と弱めですが、大きな崩れではありません。",
+        "3Mモメンタムが 15.24% と強く、市場関心が確認できます。",
+        "6Mモメンタムが 4.36% とプラス圏です。",
+        "1Yモメンタムが 10.07% とプラス圏です。"
+      ],
+      "start_date": "2026-07-02",
+      "end_date": "2026-07-02",
+      "start_price": 242.6699981689453,
+      "end_price": 242.6699981689453,
+      "return_percent": 0.0,
+      "benchmark": null,
+      "benchmark_return_percent": null,
+      "benchmark_diff_percent": null,
+      "sector_average_return_percent": 0.0,
+      "sector_diff_percent": 0.0,
+      "validation_result": "Neutral",
+      "confidence": "Medium",
+      "watch_points": [
+        "Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Consumer Cyclical セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "evidence": [
+        "Company",
+        "Discovery",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "thresholds": "Validation thresholds 3m: Excellent >= 10.0% or benchmark diff >= 7.0%; Good >= 5.0% or benchmark diff >= 3.0%; Poor <= -5.0% or benchmark diff <= -3.0%.",
+      "event_count": 10,
+      "period_complete": false
+    },
+    {
+      "discovery_date": "2026-07-02",
+      "validation_date": "2026-07-02",
+      "period": "6m",
+      "ticker": "AMZN",
+      "company": "Amazon.com, Inc.",
+      "sector": "Consumer Cyclical",
+      "discovery_score": 70,
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 16/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは -5.40% と弱めですが、大きな崩れではありません。",
+        "3Mモメンタムが 15.24% と強く、市場関心が確認できます。",
+        "6Mモメンタムが 4.36% とプラス圏です。",
+        "1Yモメンタムが 10.07% とプラス圏です。"
+      ],
+      "start_date": "2026-07-02",
+      "end_date": "2026-07-02",
+      "start_price": 242.6699981689453,
+      "end_price": 242.6699981689453,
+      "return_percent": 0.0,
+      "benchmark": null,
+      "benchmark_return_percent": null,
+      "benchmark_diff_percent": null,
+      "sector_average_return_percent": 0.0,
+      "sector_diff_percent": 0.0,
+      "validation_result": "Neutral",
+      "confidence": "Medium",
+      "watch_points": [
+        "Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Consumer Cyclical セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "evidence": [
+        "Company",
+        "Discovery",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "thresholds": "Validation thresholds 6m: Excellent >= 13.0% or benchmark diff >= 9.0%; Good >= 7.0% or benchmark diff >= 4.0%; Poor <= -7.0% or benchmark diff <= -4.0%.",
+      "event_count": 10,
+      "period_complete": false
+    }
+  ],
+  "Events": {
+    "count": 10,
+    "latest": [
+      {
+        "event_id": "AMZN_958aab6ed3cd8640",
+        "ticker": "AMZN",
+        "published_at": "2026-07-02T22:13:01+00:00",
+        "title": "Amazon and Walmart rival wants a new $99 membership fee from you",
+        "url": "https://www.thestreet.com/retail/dicks-sporting-goods-joins-amazon-walmart-with-99-membership",
+        "source": "STORY",
+        "close_price": 242.6699981689453,
+        "previous_close": 241.6999969482422,
+        "price_change_percent": 0.4013244654325923,
+        "volume": 44746134.0
+      },
+      {
+        "event_id": "AMZN_8d630f9710ce8b9c",
+        "ticker": "AMZN",
+        "published_at": "2026-07-02T21:14:06+00:00",
+        "title": "Did Amazon’s FTC Identity-Theft Settlement Quietly Reframe Its Data Governance Risk in the AI Era (AMZN)?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/did-amazon-ftc-identity-theft-211406277.html",
+        "source": "STORY",
+        "close_price": 242.6699981689453,
+        "previous_close": 241.6999969482422,
+        "price_change_percent": 0.4013244654325923,
+        "volume": 44746134.0
+      },
+      {
+        "event_id": "AMZN_0a4d6a5c47ee5cf9",
+        "ticker": "AMZN",
+        "published_at": "2026-07-02T20:50:56+00:00",
+        "title": "AMZN Stock Gains On Hitting Satellite Milestone to Launch Starlink Internet Rival This Year",
+        "url": "https://stocktwits.com/news-articles/markets/equity/amzn-stock-gains-on-hitting-satellite-milestone-to-launch-starlink-internet-rival-this-year/cZmewuPR7jI",
+        "source": "STORY",
+        "close_price": 242.6699981689453,
+        "previous_close": 241.6999969482422,
+        "price_change_percent": 0.4013244654325923,
+        "volume": 44746134.0
+      },
+      {
+        "event_id": "AMZN_10264e8751c02146",
+        "ticker": "AMZN",
+        "published_at": "2026-07-02T20:07:00+00:00",
+        "title": "Meta just picked a fight with Amazon's cash cow",
+        "url": "https://www.thestreet.com/markets/meta-just-picked-a-fight-with-amazons-cash-cow",
+        "source": "STORY",
+        "close_price": 242.6699981689453,
+        "previous_close": 241.6999969482422,
+        "price_change_percent": 0.4013244654325923,
+        "volume": 44746134.0
+      },
+      {
+        "event_id": "AMZN_152ae76f12cd7eba",
+        "ticker": "AMZN",
+        "published_at": "2026-07-02T19:33:55+00:00",
+        "title": "Trump Jr.'s 'Amazon of guns' could make millions under new proposed firearm rule  ",
+        "url": "https://finance.yahoo.com/news/trump-jr-amazon-guns-could-193355539.html",
+        "source": "STORY",
+        "close_price": 242.6699981689453,
+        "previous_close": 241.6999969482422,
+        "price_change_percent": 0.4013244654325923,
+        "volume": 44746134.0
+      },
+      {
+        "event_id": "AMZN_b5d4617ca28097c2",
+        "ticker": "AMZN",
+        "published_at": "2026-07-02T19:27:12+00:00",
+        "title": "Anthropic AI Ban Reversal Raises Fresh Investor Questions",
+        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ai-ban-reversal-raises-192712568.html",
+        "source": "STORY",
+        "close_price": 242.6699981689453,
+        "previous_close": 241.6999969482422,
+        "price_change_percent": 0.4013244654325923,
+        "volume": 44746134.0
+      },
+      {
+        "event_id": "AMZN_be85c309b128e079",
+        "ticker": "AMZN",
+        "published_at": "2026-07-02T19:25:15+00:00",
+        "title": "Microsoft Invests $2.5 Billion in New AI Implementation Business",
+        "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-invests-2-5-billion-192515066.html",
+        "source": "STORY",
+        "close_price": 242.6699981689453,
+        "previous_close": 241.6999969482422,
+        "price_change_percent": 0.4013244654325923,
+        "volume": 44746134.0
+      },
+      {
+        "event_id": "AMZN_6e9647c0fa6b0d9f",
+        "ticker": "AMZN",
+        "published_at": "2026-07-02T19:14:46+00:00",
+        "title": "A warning sign about AI’s real cost, courtesy of Google and Amazon",
+        "url": "https://finance.yahoo.com/technology/ai/articles/warning-sign-ai-real-cost-191446544.html",
+        "source": "STORY",
+        "close_price": 242.6699981689453,
+        "previous_close": 241.6999969482422,
+        "price_change_percent": 0.4013244654325923,
+        "volume": 44746134.0
+      },
+      {
+        "event_id": "AMZN_899e8100972a0a2f",
+        "ticker": "AMZN",
+        "published_at": "2026-07-02T19:11:00+00:00",
+        "title": "Americans Hate AI Data Centers. For Stocks, the Trouble Is Just Beginning.",
+        "url": "https://www.barrons.com/articles/ai-data-centers-backlash-stocks-8d564b5f?siteid=yhoof2&yptr=yahoo",
+        "source": "STORY",
+        "close_price": 242.6699981689453,
+        "previous_close": 241.6999969482422,
+        "price_change_percent": 0.4013244654325923,
+        "volume": 44746134.0
+      },
+      {
+        "event_id": "AMZN_8f2531db4974a3d6",
+        "ticker": "AMZN",
+        "published_at": "2026-07-02T12:02:04+00:00",
+        "title": "The average investor is running away from 'Magnificent 7' stocks",
+        "url": "https://finance.yahoo.com/markets/stocks/article/the-average-investor-is-running-away-from-magnificent-7-stocks-120204013.html",
+        "source": "STORY",
+        "close_price": 242.6699981689453,
+        "previous_close": 241.6999969482422,
+        "price_change_percent": 0.4013244654325923,
+        "volume": 44746134.0
+      }
+    ]
+  },
+  "News": {
+    "count": 10,
+    "latest": [
+      {
+        "ticker": "AMZN",
+        "title": "Amazon and Walmart rival wants a new $99 membership fee from you",
+        "summary": "When Amazon Prime launched in 2005, it was a simple proposition. Pay the online retailer $79 per year and get free two-day shipping. That was a clear money-saver for me, as even back then, I ordered regularly from Amazon and either had to pay for shipping, or wait to order until I cleared the ...",
+        "published_at": "2026-07-02T22:13:01+00:00",
+        "publisher": "TheStreet",
+        "url": "https://www.thestreet.com/retail/dicks-sporting-goods-joins-amazon-walmart-with-99-membership",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "Did Amazon’s FTC Identity-Theft Settlement Quietly Reframe Its Data Governance Risk in the AI Era (AMZN)?",
+        "summary": "In late June 2026, Amazon agreed to pay a US$2.25 million civil penalty and accept an order tightening its Fair Credit Reporting Act compliance after the FTC and DOJ alleged it failed to provide required transaction records to identity-theft victims and law enforcement in a timely and consistent manner. The case highlights how Amazon’s customer-data and fraud-handling practices are drawing closer regulatory scrutiny just as it leans more heavily on data-rich services like AWS-driven AI,...",
+        "published_at": "2026-07-02T21:14:06+00:00",
+        "publisher": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/did-amazon-ftc-identity-theft-211406277.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "AMZN Stock Gains On Hitting Satellite Milestone to Launch Starlink Internet Rival This Year",
+        "summary": "Amazon has deployed enough low-Earth orbit satellites to kick off its commercial broadband internet service later this year, achieving a critical milestone to directly compete with SpaceX's Starlink.",
+        "published_at": "2026-07-02T20:50:56+00:00",
+        "publisher": "Stocktwits",
+        "url": "https://stocktwits.com/news-articles/markets/equity/amzn-stock-gains-on-hitting-satellite-milestone-to-launch-starlink-internet-rival-this-year/cZmewuPR7jI",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "Meta just picked a fight with Amazon's cash cow",
+        "summary": "Wall Street does not punish companies for spending money. It punishes them for spending money without a story. Give investors a believable path from this year's bills to next year's profits and they will forgive almost any number on the capital expenditure line. Take that story away, and every ...",
+        "published_at": "2026-07-02T20:07:00+00:00",
+        "publisher": "TheStreet",
+        "url": "https://www.thestreet.com/markets/meta-just-picked-a-fight-with-amazons-cash-cow",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "Trump Jr.'s 'Amazon of guns' could make millions under new proposed firearm rule  ",
+        "summary": "By Dan Rosenzweig-Ziff WASHINGTON, July 1 (Reuters) - Donald Trump Jr. helped take an online retailer known as the “Amazon of guns” public last year.",
+        "published_at": "2026-07-02T19:33:55+00:00",
+        "publisher": "Reuters",
+        "url": "https://finance.yahoo.com/news/trump-jr-amazon-guns-could-193355539.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "Anthropic AI Ban Reversal Raises Fresh Investor Questions",
+        "summary": "US restrictions on Fable 5 and Mythos 5 were lifted after Anthropic addressed government safety concerns.",
+        "published_at": "2026-07-02T19:27:12+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ai-ban-reversal-raises-192712568.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "Microsoft Invests $2.5 Billion in New AI Implementation Business",
+        "summary": "Microsoft (MSFT) is launching a new business unit with a $2.5 billion investment that will help clie",
+        "published_at": "2026-07-02T19:25:15+00:00",
+        "publisher": "MT Newswires",
+        "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-invests-2-5-billion-192515066.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "A warning sign about AI’s real cost, courtesy of Google and Amazon",
+        "summary": "AI has made it a lot harder for tech companies like Amazon and Google to deliver on their net-zero pledges.",
+        "published_at": "2026-07-02T19:14:46+00:00",
+        "publisher": "TechCrunch",
+        "url": "https://finance.yahoo.com/technology/ai/articles/warning-sign-ai-real-cost-191446544.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "Americans Hate AI Data Centers. For Stocks, the Trouble Is Just Beginning.",
+        "summary": "More than six dozen data-center projects were blocked or delayed in the first quarter due to locals’ opposition. Public pushback is becoming a risk factor for AI companies and their shares.",
+        "published_at": "2026-07-02T19:11:00+00:00",
+        "publisher": "Barrons.com",
+        "url": "https://www.barrons.com/articles/ai-data-centers-backlash-stocks-8d564b5f?siteid=yhoof2&yptr=yahoo",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "The average investor is running away from 'Magnificent 7' stocks",
+        "summary": "No retail love for the \"Magnificent Seven\" is persisting.",
+        "published_at": "2026-07-02T12:02:04+00:00",
+        "publisher": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/article/the-average-investor-is-running-away-from-magnificent-7-stocks-120204013.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      }
+    ]
+  },
+  "Confidence": {
+    "scoring": "Medium",
+    "discovery": "Medium"
+  },
+  "Timestamp": "2026-07-02T18:57:55.119430-04:00"
+}
