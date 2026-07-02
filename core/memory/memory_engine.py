@@ -15,6 +15,7 @@ from core.memory.local_provider import LocalProvider  # noqa: E402
 from core.memory.memory_provider import MemoryProvider  # noqa: E402
 from utils.config import load_yaml  # noqa: E402
 from utils.logger import get_timezone, setup_logger  # noqa: E402
+from utils.values import safe_float  # noqa: E402
 
 
 SETTINGS_PATH = PROJECT_ROOT / "config" / "settings.yaml"
@@ -68,13 +69,6 @@ def load_json(path: Path, default: Any) -> Any:
 
 def safe_list(value: Any) -> list[Any]:
     return value if isinstance(value, list) else []
-
-
-def safe_float(value: Any) -> float | None:
-    try:
-        return float(value)
-    except (TypeError, ValueError):
-        return None
 
 
 def replace_daily_snapshot(history: list[dict[str, Any]], snapshot: dict[str, Any], date_key: str) -> list[dict[str, Any]]:

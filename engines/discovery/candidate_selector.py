@@ -7,14 +7,7 @@ import pandas as pd
 
 from utils.news_sentiment import sentiment_counts
 from utils.price_data import trading_day_momentum
-
-
-def safe_float(value: Any) -> float | None:
-    try:
-        number = float(value)
-    except (TypeError, ValueError):
-        return None
-    return None if pd.isna(number) else number
+from utils.values import safe_float
 
 
 def clamp(value: float, minimum: float = 0, maximum: float = 100) -> float:

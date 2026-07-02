@@ -17,3 +17,17 @@ def load_tickers(config_path: Path) -> list[str]:
         raise ValueError("有効な銘柄がありません。config/tickers.yaml を確認してください。")
 
     return cleaned
+
+
+def load_benchmarks(config_path: Path) -> list[str]:
+    """config/tickers.yaml の benchmarks を読み込みます。未定義の場合は空リストです。
+
+    ベンチマークは価格収集のみの対象で、スコアリングやDiscoveryには含めません。
+    """
+    config = load_yaml(config_path)
+
+    benchmarks = config.get("benchmarks", [])
+    if not isinstance(benchmarks, list):
+        return []
+
+    return [str(ticker).strip().upper() for ticker in benchmarks if str(ticker).strip()]

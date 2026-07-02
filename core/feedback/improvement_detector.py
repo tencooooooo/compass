@@ -3,6 +3,8 @@ from __future__ import annotations
 from collections import Counter, defaultdict
 from typing import Any
 
+from utils.values import safe_float
+
 
 SUCCESS_RESULTS = {"Excellent", "Good"}
 FAILURE_RESULTS = {"Poor"}
@@ -19,13 +21,6 @@ def average(values: list[float]) -> float | None:
     if not values:
         return None
     return sum(values) / len(values)
-
-
-def safe_float(value: Any) -> float | None:
-    try:
-        return float(value)
-    except (TypeError, ValueError):
-        return None
 
 
 def classify_reason(text: str) -> str:

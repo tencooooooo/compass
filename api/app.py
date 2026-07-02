@@ -29,10 +29,13 @@ def allowed_origins() -> list[str]:
     return [origin.strip() for origin in configured.split(",") if origin.strip()]
 
 
+_origins = allowed_origins()
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=allowed_origins(),
-    allow_credentials=True,
+    allow_origins=_origins,
+    # ワイルドカード指定時にallow_credentials=Trueだとブラウザ側でCORSが機能しないため無効化します。
+    allow_credentials="*" not in _origins,
     allow_methods=["*"],
     allow_headers=["*"],
 )

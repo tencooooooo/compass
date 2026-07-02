@@ -15,6 +15,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 from utils.config import load_yaml  # noqa: E402
 from utils.logger import get_timezone, setup_logger  # noqa: E402
 from utils.tickers import load_tickers  # noqa: E402
+from utils.values import safe_float  # noqa: E402
 
 
 CONFIG_PATH = PROJECT_ROOT / "config" / "tickers.yaml"
@@ -62,14 +63,6 @@ def sanitize_report_text(value: Any) -> str:
     for pattern, replacement in replacements:
         text = re.sub(pattern, replacement, text, flags=re.IGNORECASE)
     return text
-
-
-def safe_float(value: Any) -> float | None:
-    try:
-        number = float(value)
-    except (TypeError, ValueError):
-        return None
-    return None if pd.isna(number) else number
 
 
 def format_number(value: Any) -> str:

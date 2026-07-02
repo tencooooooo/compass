@@ -6,14 +6,7 @@ from typing import Any
 import pandas as pd
 
 from utils.price_data import trading_day_momentum
-
-
-def safe_float(value: Any) -> float | None:
-    try:
-        number = float(value)
-    except (TypeError, ValueError):
-        return None
-    return None if pd.isna(number) else number
+from utils.values import safe_float
 
 
 def average(values: list[Any]) -> float | None:

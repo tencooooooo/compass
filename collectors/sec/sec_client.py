@@ -17,6 +17,7 @@ class SECClient:
     SEC_ARCHIVES = "https://www.sec.gov/Archives/edgar/data"
     SEC_TICKERS = "https://www.sec.gov/files/company_tickers.json"
     SEC_SUBMISSIONS = "https://data.sec.gov/submissions/CIK{cik}.json"
+    SEC_COMPANY_FACTS = "https://data.sec.gov/api/xbrl/companyfacts/CIK{cik}.json"
 
     def __init__(
         self,
@@ -36,6 +37,9 @@ class SECClient:
 
     def get_submissions(self, cik: str) -> dict[str, Any]:
         return self.get_json(self.SEC_SUBMISSIONS.format(cik=str(cik).zfill(10)))
+
+    def get_company_facts(self, cik: str) -> dict[str, Any]:
+        return self.get_json(self.SEC_COMPANY_FACTS.format(cik=str(cik).zfill(10)))
 
     def download_document(self, cik: str, accession_number: str, document: str) -> str:
         accession_path = accession_number.replace("-", "")

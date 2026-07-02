@@ -52,3 +52,44 @@ def trading_day_momentum(prices: pd.DataFrame, days: int) -> float | None:
     if base in (None, 0) or latest is None:
         return None
     return ((latest - base) / base) * 100
+
+
+# 1日で±50%を超える調整済み終値の変動は、分割未調整やデータ不良の疑いとして警告します。
+EXTREME_DAILY_MOVE_PERCENT = 50.0
+
+
+def validate_price_frame(prices: pd.DataFrame) -> tuple[pd.DataFrame, list[str]]:
+    """OHLCVの不正行を除外し、疑わしい点の警告一覧を返します。
+
+    除外(データとして矛盾): 終値・調整済み終値が0以下、high < low、出来高が負。
+    警告のみ(正しい可能性もある): 前日比±50%超の変動。
+    """
+    prices = normalize_price_frame(prices)
+    issues: list[str] = []
+    if prices.empty:
+        return prices, issues
+
+    invalid = prices["close"] <= 0
+    invalid |= prices["adj_close"] <= 0
+    if "high" in prices.columns and "low" in prices.columns:
+        both_present = prices["high"].notna() & prices["low"].notna()
+        invalid |= both_present & (prices["high"] < prices["low"])
+    if "volume" in prices.columns:
+        invalid |= prices["volume"].notna() & (prices["volume"] < 0)
+
+    dropped = int(invalid.sum())
+    if dropped:
+        dropped_dates = prices.loc[invalid, "date"].dt.strftime("%Y-%m-%d").tolist()
+        issues.append(f"不正なOHLCV行を{dropped}件除外しました: {', '.join(dropped_dates[:5])}")
+        prices = prices[~invalid].reset_index(drop=True)
+
+    if len(prices) >= 2:
+        daily_change = prices["adj_close"].pct_change().abs() * 100
+        extreme = daily_change > EXTREME_DAILY_MOVE_PERCENT
+        for index in prices.index[extreme]:
+            issues.append(
+                f"要確認: {prices.loc[index, 'date'].strftime('%Y-%m-%d')} の前日比変動が "
+                f"{daily_change[index]:.1f}% です(分割未調整またはデータ不良の可能性)"
+            )
+
+    return prices, issues

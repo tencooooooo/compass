@@ -14,6 +14,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 from collectors.base import BaseCollector  # noqa: E402
 from utils.config import load_yaml  # noqa: E402
 from utils.logger import get_timezone, setup_logger  # noqa: E402
+from utils.news_dedup import dedupe_news_items  # noqa: E402
 from utils.tickers import load_tickers  # noqa: E402
 
 
@@ -131,7 +132,8 @@ class NewsCollector(BaseCollector):
             if isinstance(news_item, dict):
                 normalized.append(normalize_news_item(ticker, news_item))
 
-        return normalized
+        # 同一ニュースの配信違いを除き、件数ベースの評価が水増しされないようにします。
+        return dedupe_news_items(normalized)
 
     def save_news(self, ticker: str) -> tuple[bool, str]:
         """1銘柄分のニュースを取得し、JSONへ上書き保存します。"""

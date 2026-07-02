@@ -16,6 +16,7 @@ from utils.config import load_yaml  # noqa: E402
 from utils.logger import get_timezone, setup_logger  # noqa: E402
 from utils.price_data import adjusted_close, normalize_price_frame  # noqa: E402
 from utils.tickers import load_tickers  # noqa: E402
+from utils.values import safe_float  # noqa: E402
 
 
 CONFIG_PATH = PROJECT_ROOT / "config" / "tickers.yaml"
@@ -29,15 +30,26 @@ def make_event_id(ticker: str, published_at: Any, title: Any, url: Any) -> str:
     return f"{ticker}_{digest}"
 
 
+MARKET_TIMEZONE = "America/New_York"
+MARKET_CLOSE_HOUR = 16
+
+
 def parse_news_date(published_at: Any) -> pd.Timestamp | None:
-    """published_atから日付を取り出します。"""
+    """published_atから、株価反応を観測すべき取引日を求めます。
+
+    米国市場の引け(16:00 ET)以降に出たニュースの反応は翌営業日に現れるため、
+    ET基準で16時以降は翌日に帰属させます。
+    """
     if not published_at:
         return None
     try:
         parsed = pd.to_datetime(published_at, utc=True)
         if pd.isna(parsed):
             return None
-        return parsed.tz_convert(None).normalize()
+        eastern = parsed.tz_convert(MARKET_TIMEZONE)
+        if eastern.hour >= MARKET_CLOSE_HOUR:
+            eastern = eastern + pd.Timedelta(days=1)
+        return eastern.tz_localize(None).normalize()
     except Exception:
         return None
 
@@ -69,15 +81,6 @@ def find_price_row(prices: pd.DataFrame, news_date: pd.Timestamp | None) -> tupl
     previous_row = prices.loc[previous_index] if previous_index >= 0 else None
 
     return current_row, previous_row
-
-
-def safe_float(value: Any) -> float | None:
-    """数値化できない場合はNoneを返します。"""
-    try:
-        number = float(value)
-    except (TypeError, ValueError):
-        return None
-    return None if pd.isna(number) else number
 
 
 def build_event(ticker: str, news_item: dict[str, Any], prices: pd.DataFrame) -> dict[str, Any]:

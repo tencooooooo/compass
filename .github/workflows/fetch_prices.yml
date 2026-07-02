@@ -65,6 +65,13 @@ jobs:
       - name: Fetch financial data
         run: python -m collectors.financials.fetch_financials
 
+      - name: Enrich financials with SEC EDGAR quarterly data
+        # SEC APIの一時障害で日次パイプライン全体を止めないため、失敗時はyfinance系列のまま継続します。
+        continue-on-error: true
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python -m collectors.financials.fetch_sec_financials
+
       - name: Fetch news
         run: python -m collectors.news.fetch_news
 

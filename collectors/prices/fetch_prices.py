@@ -13,8 +13,8 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 from collectors.base import BaseCollector  # noqa: E402
 from utils.config import load_yaml  # noqa: E402
 from utils.logger import get_timezone, setup_logger  # noqa: E402
-from utils.price_data import PRICE_COLUMNS  # noqa: E402
-from utils.tickers import load_tickers  # noqa: E402
+from utils.price_data import PRICE_COLUMNS, validate_price_frame  # noqa: E402
+from utils.tickers import load_benchmarks, load_tickers  # noqa: E402
 
 
 CONFIG_PATH = PROJECT_ROOT / "config" / "tickers.yaml"
@@ -98,11 +98,17 @@ class PriceCollector(BaseCollector):
         try:
             new_data = self.fetch_daily_prices(ticker)
             merged_data = self.merge_with_existing(new_data, output_path)
-            merged_data.to_csv(output_path, index=False)
+
+            validated, issues = validate_price_frame(merged_data)
+            for issue in issues:
+                self.logger.warning("%s: %s", ticker, issue)
+            validated = validated[CSV_COLUMNS].copy()
+            validated["date"] = validated["date"].dt.strftime("%Y-%m-%d")
+            validated.to_csv(output_path, index=False)
 
             return True, (
                 f"{ticker}: 保存完了 "
-                f"({len(new_data)}件取得 / {len(merged_data)}件保存) -> {output_path}"
+                f"({len(new_data)}件取得 / {len(validated)}件保存 / 警告{len(issues)}件) -> {output_path}"
             )
         except Exception as error:
             return False, f"{ticker}: エラー - {error}"
@@ -120,10 +126,16 @@ class PriceCollector(BaseCollector):
         self.logger.info("取得間隔: %s", self.interval)
 
         try:
-            tickers = load_tickers(self.config_path)
+            watch_tickers = load_tickers(self.config_path)
+            benchmarks = load_benchmarks(self.config_path)
         except Exception as error:
             self.logger.exception("設定読み込みエラー: %s", error)
             return 1
+
+        # ベンチマークはBacktest・Market Intelligenceの比較用に価格のみ収集します。
+        tickers = watch_tickers + [ticker for ticker in benchmarks if ticker not in watch_tickers]
+        if benchmarks:
+            self.logger.info("ベンチマーク銘柄: %s", ", ".join(benchmarks))
 
         successful_tickers: list[str] = []
         failed_tickers: list[str] = []

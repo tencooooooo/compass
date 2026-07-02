@@ -2,6 +2,12 @@
 
 ## v1.0-alpha
 
+- Added benchmark price collection: `config/tickers.yaml` now defines a `benchmarks` list (SPY and sector ETFs) collected for prices only, enabling the previously inactive benchmark comparison in validation.
+- Changed Event Database news attribution: news published after the US market close (16:00 ET) is now attributed to the next trading day so event price reactions measure the correct session.
+- Added news deduplication: syndicated duplicates are removed at collection and before News scoring so coverage points are not inflated.
+- Added SEC vs yfinance revenue cross-check: quarterly revenue gaps above 10 percent are recorded as `quarterly_cross_check` data quality warnings.
+- Added SEC EDGAR quarterly financials enrichment: XBRL companyfacts now replace yfinance quarterly time series when at least five quarters are available, with the yfinance series preserved as a fallback reference.
+- Added OHLCV validation on price collection: contradictory rows (negative prices, high below low, negative volume) are dropped with warnings, and extreme daily moves are flagged for review.
 - Changed Scoring methodology: Growth now uses quarterly revenue and EPS YoY growth when available, with latest-value fallback when time series data is missing.
 - Changed News scoring: sentiment keyword classification is centralized with word-boundary matching, phrase overrides, negation handling, and labeled accuracy tests.
 - Changed Valuation scoring: PER, Forward PER, PEG, and PBR now prefer sector-relative percentile scoring when at least five sector peers are available.

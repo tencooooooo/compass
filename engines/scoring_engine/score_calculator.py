@@ -4,8 +4,10 @@ from typing import Any
 
 import pandas as pd
 
+from utils.news_dedup import dedupe_news_items
 from utils.news_sentiment import sentiment_counts
 from utils.price_data import trading_day_momentum
+from utils.values import safe_float
 
 
 GROWTH_THRESHOLDS = {
@@ -20,14 +22,6 @@ VALUATION_RULES = [
     ("peg_ratio", "PEG", 5, [(0, 1, 5), (1, 2, 3), (2, 4, 1)]),
     ("price_to_book", "PBR", 5, [(0, 8, 5), (8, 20, 3), (20, 50, 1)]),
 ]
-
-
-def safe_float(value: Any) -> float | None:
-    try:
-        number = float(value)
-    except (TypeError, ValueError):
-        return None
-    return None if pd.isna(number) else number
 
 
 def clamp(value: float, minimum: float = 0, maximum: float = 20) -> float:
@@ -460,6 +454,8 @@ def calculate_momentum(prices: pd.DataFrame) -> dict[str, Any]:
 
 
 def calculate_news(news_items: list[dict[str, Any]], events: list[dict[str, Any]]) -> dict[str, Any]:
+    # 保存済みデータに再配信の重複が残っている場合に備え、評価前にも重複排除します。
+    news_items = dedupe_news_items(news_items)
     reasons: list[str] = []
     missing: list[str] = []
     score = 0.0

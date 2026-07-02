@@ -6,6 +6,8 @@ import json
 from pathlib import Path
 from typing import Any
 
+from utils.values import safe_float
+
 
 IMPORTANT_NEWS_KEYWORDS = {
     "M&A": ["acquire", "acquisition", "merger", "buyout", "takeover", "買収", "合併"],
@@ -30,13 +32,6 @@ def load_json(path: Path, default: Any) -> Any:
 
 def safe_list(value: Any) -> list[Any]:
     return value if isinstance(value, list) else []
-
-
-def safe_float(value: Any) -> float | None:
-    try:
-        return float(value)
-    except (TypeError, ValueError):
-        return None
 
 
 def event_id(*parts: Any) -> str:
