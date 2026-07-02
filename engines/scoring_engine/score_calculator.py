@@ -4,7 +4,7 @@ from typing import Any
 
 import pandas as pd
 
-from utils.price_data import adjusted_close
+from utils.price_data import trading_day_momentum
 
 
 POSITIVE_KEYWORDS = [
@@ -73,18 +73,7 @@ def score_positive_number(value: Any, points: float, label: str, reasons: list[s
 
 
 def momentum_for_days(prices: pd.DataFrame, days: int) -> float | None:
-    if prices.empty or len(prices) < 2:
-        return None
-    latest = prices.iloc[-1]
-    target_date = latest["date"] - pd.Timedelta(days=days)
-    candidates = prices[prices["date"] <= target_date]
-    if candidates.empty:
-        return None
-    base = adjusted_close(candidates.iloc[-1])
-    latest_close = adjusted_close(latest)
-    if base in (None, 0) or latest_close is None:
-        return None
-    return ((latest_close - base) / base) * 100
+    return trading_day_momentum(prices, days)
 
 
 def score_return(change_percent: float | None, label: str, reasons: list[str], missing: list[str]) -> float:

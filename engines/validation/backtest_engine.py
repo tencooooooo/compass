@@ -37,6 +37,14 @@ VALIDATION_PERIODS = {
     "1y": 365,
 }
 
+VALIDATION_THRESHOLDS = {
+    "1w": {"excellent": 3.0, "good": 1.5, "poor": -1.5, "benchmark_excellent": 2.0, "benchmark_good": 1.0, "benchmark_poor": -1.0},
+    "1m": {"excellent": 6.0, "good": 3.0, "poor": -3.0, "benchmark_excellent": 4.0, "benchmark_good": 2.0, "benchmark_poor": -2.0},
+    "3m": {"excellent": 10.0, "good": 5.0, "poor": -5.0, "benchmark_excellent": 7.0, "benchmark_good": 3.0, "benchmark_poor": -3.0},
+    "6m": {"excellent": 13.0, "good": 7.0, "poor": -7.0, "benchmark_excellent": 9.0, "benchmark_good": 4.0, "benchmark_poor": -4.0},
+    "1y": {"excellent": 15.0, "good": 8.0, "poor": -8.0, "benchmark_excellent": 10.0, "benchmark_good": 5.0, "benchmark_poor": -5.0},
+}
+
 BENCHMARK_CANDIDATES = ["SPY", "^GSPC"]
 
 
@@ -168,14 +176,25 @@ def sector_returns(
     return sum(returns) / len(returns)
 
 
-def classify_result(return_percent: float | None, benchmark_diff: float | None, period_complete: bool) -> str:
+def threshold_note(period_label: str) -> str:
+    threshold = VALIDATION_THRESHOLDS[period_label]
+    return (
+        "Validation thresholds "
+        f"{period_label}: Excellent >= {threshold['excellent']}% or benchmark diff >= {threshold['benchmark_excellent']}%; "
+        f"Good >= {threshold['good']}% or benchmark diff >= {threshold['benchmark_good']}%; "
+        f"Poor <= {threshold['poor']}% or benchmark diff <= {threshold['benchmark_poor']}%."
+    )
+
+
+def classify_result(return_percent: float | None, benchmark_diff: float | None, period_complete: bool, period_label: str) -> str:
     if return_percent is None or not period_complete:
         return "Neutral"
-    if return_percent >= 15 or (benchmark_diff is not None and benchmark_diff >= 10):
+    threshold = VALIDATION_THRESHOLDS[period_label]
+    if return_percent >= threshold["excellent"] or (benchmark_diff is not None and benchmark_diff >= threshold["benchmark_excellent"]):
         return "Excellent"
-    if return_percent >= 5 or (benchmark_diff is not None and benchmark_diff >= 3):
+    if return_percent >= threshold["good"] or (benchmark_diff is not None and benchmark_diff >= threshold["benchmark_good"]):
         return "Good"
-    if return_percent <= -5:
+    if return_percent <= threshold["poor"] or (benchmark_diff is not None and benchmark_diff <= threshold["benchmark_poor"]):
         return "Poor"
     return "Neutral"
 
@@ -205,8 +224,9 @@ def validation_row(
     if result["return_percent"] is not None and sector_average is not None:
         sector_diff = float(result["return_percent"]) - sector_average
 
-    validation_result = classify_result(result["return_percent"], benchmark_diff, result["period_complete"])
+    validation_result = classify_result(result["return_percent"], benchmark_diff, result["period_complete"], period_label)
     events = load_json(EVENT_DIR / f"{ticker}_events.json", [])
+    evidence = sorted(set(candidate.get("evidence", [])) | {"Discovery", "Prices", "Events", "Knowledge", threshold_note(period_label)})
     return {
         "discovery_date": discovery_date.date().isoformat(),
         "validation_date": validation_date.date().isoformat(),
@@ -229,7 +249,7 @@ def validation_row(
         "validation_result": validation_result,
         "confidence": candidate.get("confidence"),
         "watch_points": candidate.get("watch_points", []),
-        "evidence": sorted(set(candidate.get("evidence", [])) | {"Discovery", "Prices", "Events", "Knowledge"}),
+        "evidence": evidence,
         "event_count": len(events) if isinstance(events, list) else None,
         "period_complete": result["period_complete"],
     }

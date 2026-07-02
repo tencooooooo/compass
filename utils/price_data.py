@@ -6,6 +6,12 @@ import pandas as pd
 
 
 PRICE_COLUMNS = ["date", "open", "high", "low", "close", "adj_close", "volume"]
+TRADING_DAY_WINDOWS = {
+    30: 21,
+    90: 63,
+    180: 126,
+    365: 252,
+}
 
 
 def normalize_price_frame(prices: pd.DataFrame) -> pd.DataFrame:
@@ -34,3 +40,15 @@ def adjusted_close(row: Any) -> float | None:
         return None
     return None if pd.isna(number) else number
 
+
+def trading_day_momentum(prices: pd.DataFrame, days: int) -> float | None:
+    """Calculate momentum using trading-row counts instead of calendar-day offsets."""
+    prices = normalize_price_frame(prices)
+    window = TRADING_DAY_WINDOWS.get(days, days)
+    if prices.empty or len(prices) <= window:
+        return None
+    latest = adjusted_close(prices.iloc[-1])
+    base = adjusted_close(prices.iloc[-window - 1])
+    if base in (None, 0) or latest is None:
+        return None
+    return ((latest - base) / base) * 100

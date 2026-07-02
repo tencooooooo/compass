@@ -5,7 +5,7 @@ from typing import Any
 
 import pandas as pd
 
-from utils.price_data import adjusted_close
+from utils.price_data import trading_day_momentum
 
 
 POSITIVE_NEWS_KEYWORDS = [
@@ -48,18 +48,7 @@ def clamp(value: float, minimum: float = 0, maximum: float = 100) -> float:
 
 
 def momentum_for_days(prices: pd.DataFrame, days: int) -> float | None:
-    if prices.empty or len(prices) < 2:
-        return None
-    latest = prices.iloc[-1]
-    target_date = latest["date"] - pd.Timedelta(days=days)
-    candidates = prices[prices["date"] <= target_date]
-    if candidates.empty:
-        return None
-    base = adjusted_close(candidates.iloc[-1])
-    latest_close = adjusted_close(latest)
-    if base in (None, 0) or latest_close is None:
-        return None
-    return ((latest_close - base) / base) * 100
+    return trading_day_momentum(prices, days)
 
 
 def extract_section(markdown: str, start_heading: str, stop_headings: list[str]) -> str:

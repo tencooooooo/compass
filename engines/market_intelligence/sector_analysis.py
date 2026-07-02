@@ -5,7 +5,7 @@ from typing import Any
 
 import pandas as pd
 
-from utils.price_data import adjusted_close
+from utils.price_data import trading_day_momentum
 
 
 def safe_float(value: Any) -> float | None:
@@ -25,18 +25,7 @@ def average(values: list[Any]) -> float | None:
 
 
 def momentum_for_days(prices: pd.DataFrame, days: int) -> float | None:
-    if prices.empty or len(prices) < 2:
-        return None
-    latest = prices.iloc[-1]
-    target_date = latest["date"] - pd.Timedelta(days=days)
-    candidates = prices[prices["date"] <= target_date]
-    if candidates.empty:
-        return None
-    base = adjusted_close(candidates.iloc[-1])
-    latest_close = adjusted_close(latest)
-    if base in (None, 0) or latest_close is None:
-        return None
-    return ((latest_close - base) / base) * 100
+    return trading_day_momentum(prices, days)
 
 
 def calculate_ticker_momentum(prices: pd.DataFrame) -> dict[str, float | None]:
