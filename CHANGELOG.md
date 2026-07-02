@@ -2,6 +2,10 @@
 
 ## v1.0-alpha
 
+- Changed Scoring methodology: Growth now uses quarterly revenue and EPS YoY growth when available, with latest-value fallback when time series data is missing.
+- Changed News scoring: sentiment keyword classification is centralized with word-boundary matching, phrase overrides, negation handling, and labeled accuracy tests.
+- Changed Valuation scoring: PER, Forward PER, PEG, and PBR now prefer sector-relative percentile scoring when at least five sector peers are available.
+- Added Discovery universe recording and Performance confidence-level validation result distribution. These scoring changes intentionally break direct continuity with older generated score reports.
 - Marked the first Alpha milestone for Compass.
 - Documented Phase1 Foundation as complete and Phase2 Intelligence as started.
 - Added `MANIFEST.md` and `PROJECT_PHILOSOPHY.md`.

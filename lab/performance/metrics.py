@@ -48,6 +48,12 @@ class PerformanceMetrics:
                 output.setdefault(str(value), []).append(row)
         return {name: self.summarize(items) for name, items in sorted(output.items())}
 
+    def validation_distribution_by(self, rows: list[dict[str, Any]], key: str) -> dict[str, dict[str, Any]]:
+        groups: dict[str, list[dict[str, Any]]] = {}
+        for row in rows:
+            groups.setdefault(str(row.get(key) or "Unknown"), []).append(row)
+        return {name: self._validation_distribution(items) for name, items in sorted(groups.items())}
+
     def _rate(self, numerator: int, denominator: int) -> float | None:
         if denominator == 0:
             return None
@@ -55,6 +61,32 @@ class PerformanceMetrics:
 
     def _average(self, values: list[float]) -> float | None:
         return round(mean(values), 2) if values else None
+
+    def _validation_distribution(self, rows: list[dict[str, Any]]) -> dict[str, Any]:
+        completed = [row for row in rows if row.get("status") == "completed"]
+        counts = {"Excellent": 0, "Good": 0, "Neutral": 0, "Poor": 0, "Pending": len(rows) - len(completed)}
+        for row in completed:
+            counts[self._validation_result(row.get("return_percent"))] += 1
+        successful = counts["Excellent"] + counts["Good"]
+        return {
+            "evaluated_count": len(rows),
+            "completed_count": len(completed),
+            "validation_results": counts,
+            "hit_rate": self._rate(successful, len(completed)),
+        }
+
+    def _validation_result(self, return_percent: Any) -> str:
+        try:
+            value = float(return_percent)
+        except (TypeError, ValueError):
+            return "Neutral"
+        if value >= 15:
+            return "Excellent"
+        if value >= 5:
+            return "Good"
+        if value >= -5:
+            return "Neutral"
+        return "Poor"
 
     def _max_drawdown(self, rows: list[dict[str, Any]]) -> float | None:
         values = [float(row["return_percent"]) for row in rows if isinstance(row.get("return_percent"), (int, float))]

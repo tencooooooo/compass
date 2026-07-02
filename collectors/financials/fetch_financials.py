@@ -107,6 +107,30 @@ def get_fiscal_quarter(column: Any) -> str | None:
     return f"{timestamp.year}-Q{quarter}"
 
 
+def build_quarterly_financials(statement: pd.DataFrame, limit: int = 5) -> list[dict[str, Any]]:
+    """直近4四半期と前年同期を、成長率計算しやすい形で保存します。"""
+    if statement.empty:
+        return []
+
+    rows: list[dict[str, Any]] = []
+    for column in list(statement.columns)[:limit]:
+        rows.append(
+            {
+                "period_end": normalize_value(column),
+                "fiscal_quarter": get_fiscal_quarter(column),
+                "total_revenue": get_statement_value(statement, ["Total Revenue"], column),
+                "net_income": get_statement_value(statement, ["Net Income", "Net Income Common Stockholders"], column),
+                "operating_income": get_statement_value(statement, ["Operating Income", "Operating Income Loss"], column),
+                "eps": get_statement_value(
+                    statement,
+                    ["Basic EPS", "Diluted EPS", "Basic EPS From Continuing Operations", "Diluted EPS From Continuing Operations"],
+                    column,
+                ),
+            }
+        )
+    return rows
+
+
 class FinancialCollector(BaseCollector):
     """yfinanceから決算データを取得し、銘柄ごとにJSON保存するcollectorです。"""
 
@@ -128,7 +152,7 @@ class FinancialCollector(BaseCollector):
         balance_sheet = get_statement(ticker_obj, ["balance_sheet"])
         cashflow = get_statement(ticker_obj, ["cashflow"])
 
-        if income_statement.empty and balance_sheet.empty and cashflow.empty:
+        if income_statement.empty and quarterly_income_statement.empty and balance_sheet.empty and cashflow.empty:
             raise ValueError("決算データの取得結果が空でした。")
 
         income_column = latest_column(income_statement)
@@ -227,6 +251,7 @@ class FinancialCollector(BaseCollector):
                 balance_column,
             ),
             "current_ratio": safe_ratio(current_assets, current_liabilities),
+            "quarterly_financials": build_quarterly_financials(quarterly_income_statement),
         }
 
         return {key: normalize_value(value) for key, value in financials.items()}

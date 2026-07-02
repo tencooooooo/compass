@@ -5,34 +5,8 @@ from typing import Any
 
 import pandas as pd
 
+from utils.news_sentiment import sentiment_counts
 from utils.price_data import trading_day_momentum
-
-
-POSITIVE_NEWS_KEYWORDS = [
-    "growth",
-    "demand",
-    "record",
-    "strong",
-    "partnership",
-    "contract",
-    "launch",
-    "ai",
-    "beat",
-    "profit",
-    "buyback",
-]
-
-WATCH_NEWS_KEYWORDS = [
-    "risk",
-    "lawsuit",
-    "probe",
-    "regulation",
-    "downgrade",
-    "bubble",
-    "weak",
-    "tariff",
-    "delay",
-]
 
 
 def safe_float(value: Any) -> float | None:
@@ -85,15 +59,8 @@ def extract_analysis_points(markdown: str) -> dict[str, list[str]]:
 
 
 def news_signal(news_items: list[dict[str, Any]]) -> tuple[int, int]:
-    positive = 0
-    watch = 0
-    for item in news_items:
-        text = f"{item.get('title') or ''} {item.get('summary') or ''}".lower()
-        if any(keyword in text for keyword in POSITIVE_NEWS_KEYWORDS):
-            positive += 1
-        if any(keyword in text for keyword in WATCH_NEWS_KEYWORDS):
-            watch += 1
-    return positive, watch
+    counts = sentiment_counts(news_items)
+    return counts["positive"], counts["negative"]
 
 
 def event_reaction(events: list[dict[str, Any]]) -> dict[str, Any]:

@@ -4,38 +4,21 @@ from typing import Any
 
 import pandas as pd
 
+from utils.news_sentiment import sentiment_counts
 from utils.price_data import trading_day_momentum
 
 
-POSITIVE_KEYWORDS = [
-    "growth",
-    "beat",
-    "beats",
-    "record",
-    "strong",
-    "demand",
-    "partnership",
-    "launch",
-    "upgrade",
-    "profit",
-    "ai",
-    "contract",
-    "buyback",
-]
+GROWTH_THRESHOLDS = {
+    "excellent": 30.0,
+    "good": 15.0,
+    "positive": 0.0,
+}
 
-NEGATIVE_KEYWORDS = [
-    "miss",
-    "lawsuit",
-    "probe",
-    "regulation",
-    "downgrade",
-    "weak",
-    "fall",
-    "falls",
-    "risk",
-    "tariff",
-    "loss",
-    "cut",
+VALUATION_RULES = [
+    ("trailing_pe", "PER", 5, [(0, 25, 5), (25, 40, 3), (40, 70, 1)]),
+    ("forward_pe", "Forward PER", 5, [(0, 25, 5), (25, 40, 3), (40, 70, 1)]),
+    ("peg_ratio", "PEG", 5, [(0, 1, 5), (1, 2, 3), (2, 4, 1)]),
+    ("price_to_book", "PBR", 5, [(0, 8, 5), (8, 20, 3), (20, 50, 1)]),
 ]
 
 
@@ -95,18 +78,46 @@ def score_return(change_percent: float | None, label: str, reasons: list[str], m
 
 
 def classify_news(news_items: list[dict[str, Any]]) -> tuple[int, int]:
-    positive = 0
-    negative = 0
-    for item in news_items:
-        text = f"{item.get('title') or ''} {item.get('summary') or ''}".lower()
-        if any(keyword in text for keyword in POSITIVE_KEYWORDS):
-            positive += 1
-        if any(keyword in text for keyword in NEGATIVE_KEYWORDS):
-            negative += 1
-    return positive, negative
+    counts = sentiment_counts(news_items)
+    return counts["positive"], counts["negative"]
 
 
-def calculate_growth(financials: dict[str, Any]) -> dict[str, Any]:
+def yoy_growth(latest: Any, prior: Any) -> float | None:
+    latest_value = safe_float(latest)
+    prior_value = safe_float(prior)
+    if latest_value is None or prior_value in (None, 0):
+        return None
+    return round((latest_value - prior_value) / abs(prior_value) * 100, 2)
+
+
+def score_growth_rate(value: float | None, label: str, points: float, reasons: list[str], missing: list[str]) -> float:
+    if value is None:
+        missing.append(label)
+        reasons.append(f"{label} が計算できないため、成長率項目は加点していません。")
+        return 0
+    if value >= GROWTH_THRESHOLDS["excellent"]:
+        reasons.append(f"{label} は {value:.2f}% で、+{GROWTH_THRESHOLDS['excellent']:.0f}%以上の高成長です。")
+        return points
+    if value >= GROWTH_THRESHOLDS["good"]:
+        reasons.append(f"{label} は {value:.2f}% で、+{GROWTH_THRESHOLDS['good']:.0f}%以上の成長です。")
+        return points * 0.65
+    if value >= GROWTH_THRESHOLDS["positive"]:
+        reasons.append(f"{label} は {value:.2f}% で、プラス成長を維持しています。")
+        return points * 0.35
+    reasons.append(f"{label} は {value:.2f}% で、前年同期比ではマイナスです。")
+    return 0
+
+
+def latest_and_prior_year_quarter(financials: dict[str, Any], key: str) -> tuple[Any, Any]:
+    rows = financials.get("quarterly_financials")
+    if not isinstance(rows, list) or len(rows) < 5:
+        return None, None
+    latest = rows[0] if isinstance(rows[0], dict) else {}
+    prior = rows[4] if isinstance(rows[4], dict) else {}
+    return latest.get(key), prior.get(key)
+
+
+def calculate_growth_fallback(financials: dict[str, Any], extra_missing: list[str] | None = None) -> dict[str, Any]:
     reasons: list[str] = []
     missing: list[str] = []
     score = 0.0
@@ -138,7 +149,10 @@ def calculate_growth(financials: dict[str, Any]) -> dict[str, Any]:
     else:
         reasons.append("研究開発費が確認できないため、R&D項目の加点を抑えています。")
 
-    reasons.append("現時点の財務データは最新値中心のため、厳密な売上成長率は今後の時系列財務で改善予定です。")
+    for label in extra_missing or []:
+        if label not in missing:
+            missing.append(label)
+    reasons.append("四半期時系列が不足しているため、Growthは最新値中心の従来ロジックへフォールバックしています。")
     return {
         "score": rounded_score(score),
         "max_score": 20,
@@ -151,6 +165,64 @@ def calculate_growth(financials: dict[str, Any]) -> dict[str, Any]:
             "net_income": financials.get("net_income"),
             "operating_income": financials.get("operating_income"),
             "research_and_development": financials.get("research_and_development"),
+            "revenue_yoy_growth": None,
+            "eps_yoy_growth": None,
+        },
+    }
+
+
+def calculate_growth(financials: dict[str, Any]) -> dict[str, Any]:
+    reasons: list[str] = []
+    missing: list[str] = []
+    score = 0.0
+
+    revenue_latest, revenue_prior = latest_and_prior_year_quarter(financials, "total_revenue")
+    eps_latest, eps_prior = latest_and_prior_year_quarter(financials, "eps")
+    revenue_growth = yoy_growth(revenue_latest, revenue_prior)
+    eps_growth = yoy_growth(eps_latest, eps_prior)
+    if revenue_growth is None and eps_growth is None:
+        return calculate_growth_fallback(financials, ["revenue_growth"])
+
+    score += score_growth_rate(revenue_growth, "revenue_growth", 5, reasons, missing)
+    score += score_growth_rate(eps_growth, "eps_growth", 5, reasons, missing)
+    score += score_positive_number(financials.get("net_income"), 3, "純利益", reasons, missing)
+    score += score_positive_number(financials.get("operating_income"), 2, "営業利益", reasons, missing)
+
+    rnd = safe_float(financials.get("research_and_development"))
+    if rnd is None:
+        missing.append("research_and_development")
+        reasons.append("研究開発費が取得できないため、R&D項目は加点していません。")
+    elif rnd > 0:
+        score += 4
+        reasons.append("研究開発費が確認でき、将来成長への投資が続いています。")
+    else:
+        reasons.append("研究開発費が確認できないため、R&D項目の加点を抑えています。")
+
+    revenue = safe_float(financials.get("total_revenue"))
+    if revenue is None:
+        missing.append("total_revenue")
+        reasons.append("売上規模データが取得できないため、規模項目は加点していません。")
+    elif revenue >= 100_000_000_000:
+        score += 3
+        reasons.append("売上規模が大きく、事業規模の強さが確認できます。")
+    elif revenue > 0:
+        score += 1.5
+        reasons.append("売上がプラスで確認できます。")
+
+    return {
+        "score": rounded_score(score),
+        "max_score": 20,
+        "reasons": reasons,
+        "evidence": ["Financials", "Knowledge"],
+        "missing_data": missing,
+        "metrics": {
+            "total_revenue": financials.get("total_revenue"),
+            "eps": financials.get("eps"),
+            "net_income": financials.get("net_income"),
+            "operating_income": financials.get("operating_income"),
+            "research_and_development": financials.get("research_and_development"),
+            "revenue_yoy_growth": revenue_growth,
+            "eps_yoy_growth": eps_growth,
         },
     }
 
@@ -235,36 +307,68 @@ def calculate_financial_health(financials: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def calculate_valuation(company: dict[str, Any]) -> dict[str, Any]:
+def fixed_valuation_points(value: float, bands: list[tuple[int, int, int]]) -> int:
+    for lower, upper, band_points in bands:
+        if lower < value <= upper:
+            return band_points
+    return 0
+
+
+def percentile_rank_lower_is_better(value: float, values: list[float]) -> float | None:
+    clean_values = sorted(item for item in values if item > 0)
+    if len(clean_values) < 2:
+        return None
+    lower_count = sum(1 for item in clean_values if item < value)
+    equal_count = sum(1 for item in clean_values if item == value)
+    percentile = (lower_count + (equal_count - 1) / 2) / (len(clean_values) - 1) * 100
+    return round(max(0, min(100, percentile)), 2)
+
+
+def calculate_valuation(company: dict[str, Any], sector_companies: list[dict[str, Any]] | None = None) -> dict[str, Any]:
     reasons: list[str] = []
     missing: list[str] = []
     score = 0.0
 
-    valuation_rules = [
-        ("trailing_pe", "PER", 5, [(0, 25, 5), (25, 40, 3), (40, 70, 1)]),
-        ("forward_pe", "Forward PER", 5, [(0, 25, 5), (25, 40, 3), (40, 70, 1)]),
-        ("peg_ratio", "PEG", 5, [(0, 1, 5), (1, 2, 3), (2, 4, 1)]),
-        ("price_to_book", "PBR", 5, [(0, 8, 5), (8, 20, 3), (20, 50, 1)]),
-    ]
+    sector_peers = sector_companies or []
+    use_sector_relative = len(sector_peers) >= 5
+    percentile_metrics: dict[str, Any] = {}
 
-    for key, label, points, bands in valuation_rules:
+    for key, label, points, bands in VALUATION_RULES:
         value = safe_float(company.get(key))
         if value is None:
             missing.append(key)
             reasons.append(f"{label} が取得できないため加点していません。")
             continue
-        awarded = 0
-        for lower, upper, band_points in bands:
-            if lower < value <= upper:
-                awarded = band_points
-                break
-        score += min(points, awarded)
-        if awarded >= 4:
-            reasons.append(f"{label} は {value:.2f} で、評価ルール上は過度な割高さが抑えられています。")
-        elif awarded > 0:
-            reasons.append(f"{label} は {value:.2f} で、バリュエーション面は中立から注意寄りです。")
+
+        if use_sector_relative:
+            peer_values = [number for peer in sector_peers if (number := safe_float(peer.get(key))) is not None and number > 0]
+            percentile = percentile_rank_lower_is_better(value, peer_values)
+            if percentile is None or len(peer_values) < 5:
+                awarded = fixed_valuation_points(value, bands)
+                reasons.append(f"{label} はセクター内有効データが {len(peer_values)} 件のため、固定閾値へフォールバックしています。")
+            elif percentile <= 25:
+                awarded = points
+                reasons.append(f"{label} はセクター内 {percentile:.2f} パーセンタイル / 母数 {len(peer_values)} で、相対的に割安寄りです。")
+            elif percentile <= 75:
+                awarded = 3
+                reasons.append(f"{label} はセクター内 {percentile:.2f} パーセンタイル / 母数 {len(peer_values)} で、中位レンジです。")
+            else:
+                awarded = 0
+                reasons.append(f"{label} はセクター内 {percentile:.2f} パーセンタイル / 母数 {len(peer_values)} で、相対的な加点は抑えています。")
+            percentile_metrics[f"{key}_percentile"] = percentile
+            percentile_metrics[f"{key}_peer_count"] = len(peer_values)
         else:
-            reasons.append(f"{label} は {value:.2f} で、バリュエーション面の加点は抑えています。")
+            awarded = fixed_valuation_points(value, bands)
+            reasons.append(f"セクター比較対象が {len(sector_peers)} 社のため、{label} は固定閾値で評価しています。")
+
+        score += min(points, awarded)
+        if not use_sector_relative or percentile_metrics.get(f"{key}_percentile") is None:
+            if awarded >= 4:
+                reasons.append(f"{label} は {value:.2f} で、評価ルール上は過度な割高さが抑えられています。")
+            elif awarded > 0:
+                reasons.append(f"{label} は {value:.2f} で、バリュエーション面は中立から注意寄りです。")
+            else:
+                reasons.append(f"{label} は {value:.2f} で、バリュエーション面の加点は抑えています。")
 
     reasons.append("バリュエーションは割安判断ではなく、追加調査のための相対評価です。")
     return {
@@ -278,6 +382,8 @@ def calculate_valuation(company: dict[str, Any]) -> dict[str, Any]:
             "forward_pe": company.get("forward_pe"),
             "peg_ratio": company.get("peg_ratio"),
             "price_to_book": company.get("price_to_book"),
+            "sector_peer_count": len(sector_peers),
+            **percentile_metrics,
         },
     }
 
@@ -442,11 +548,12 @@ def calculate_company_score(
     news_items: list[dict[str, Any]],
     events: list[dict[str, Any]],
     prices: pd.DataFrame,
+    sector_companies: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
     parts = {
         "Growth": calculate_growth(financials),
         "Financial Health": calculate_financial_health(financials),
-        "Valuation": calculate_valuation(company),
+        "Valuation": calculate_valuation(company, sector_companies),
         "Momentum": calculate_momentum(prices),
         "News": calculate_news(news_items, events),
     }

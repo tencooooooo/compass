@@ -116,6 +116,11 @@ def main() -> int:
         "engine": "Discovery Engine",
         "version": settings.get("project_version", "v1.0-alpha"),
         "generated_at": generated_at,
+        "universe": {
+            "source": "config/tickers.yaml",
+            "count": len(tickers),
+            "tickers": tickers,
+        },
         "market": market_dashboard.get("market", {}),
         "candidates": selected,
         "all_companies": candidates,

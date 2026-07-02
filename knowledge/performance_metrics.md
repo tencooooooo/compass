@@ -12,6 +12,7 @@ Core metrics:
 - Alpha vs Benchmark
 - Max Drawdown
 - Average Holding Return
+- Confidence-level validation result distribution
 
 Standard periods:
 
@@ -21,3 +22,15 @@ Standard periods:
 - 365 days
 
 Rows should remain pending until the full evaluation period has elapsed and price data is available.
+
+Confidence calibration is measured, not automatically adjusted.
+
+Compass groups evaluated Discovery signals by High / Medium / Low confidence and records the distribution of:
+
+- Excellent
+- Good
+- Neutral
+- Poor
+- Pending
+
+Humans review these distributions before changing scoring, Confidence, or Knowledge rules.

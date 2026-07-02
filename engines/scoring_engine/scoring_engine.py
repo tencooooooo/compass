@@ -53,6 +53,19 @@ def load_ticker_inputs(ticker: str) -> dict[str, Any]:
     }
 
 
+def sector_companies_for(ticker: str, inputs_by_ticker: dict[str, dict[str, Any]]) -> list[dict[str, Any]]:
+    company = inputs_by_ticker.get(ticker, {}).get("company", {})
+    sector = company.get("sector")
+    if not sector:
+        return []
+    peers = []
+    for inputs in inputs_by_ticker.values():
+        peer = inputs.get("company", {})
+        if peer.get("sector") == sector:
+            peers.append(peer)
+    return peers
+
+
 def csv_row(score_result: dict[str, Any]) -> dict[str, Any]:
     scores = score_result["scores"]
     return {
@@ -101,10 +114,11 @@ def main() -> int:
     results: list[dict[str, Any]] = []
     successful_tickers: list[str] = []
     failed_tickers: list[str] = []
+    inputs_by_ticker = {ticker: load_ticker_inputs(ticker) for ticker in tickers}
 
     for ticker in tickers:
         try:
-            inputs = load_ticker_inputs(ticker)
+            inputs = inputs_by_ticker[ticker]
             score_result = calculate_company_score(
                 ticker=ticker,
                 company=inputs["company"],
@@ -112,6 +126,7 @@ def main() -> int:
                 news_items=inputs["news"] if isinstance(inputs["news"], list) else [],
                 events=inputs["events"] if isinstance(inputs["events"], list) else [],
                 prices=inputs["prices"],
+                sector_companies=sector_companies_for(ticker, inputs_by_ticker),
             )
             results.append(score_result)
             explanation = render_explanation(score_result)

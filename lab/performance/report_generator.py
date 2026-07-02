@@ -85,10 +85,33 @@ class ReportGenerator:
         lines.append(self._group_report("Score Buckets", metrics.get("score_accuracy", {})))
         lines.extend(["", "## Confidence Accuracy", ""])
         lines.append(self._group_report("Confidence", metrics.get("confidence_accuracy", {})))
+        lines.extend(["", "## Confidence Validation Result Distribution", ""])
+        lines.append(self._confidence_distribution_report(metrics.get("confidence_result_distribution", {})))
         lines.extend(["", "## Pattern Accuracy", ""])
         lines.append(self._group_report("Patterns", metrics.get("pattern_accuracy", {})))
         lines.extend(["", "## Market Intelligence Accuracy", ""])
         lines.append(self._group_report("Market", metrics.get("market_accuracy", {})))
+        return "\n".join(lines)
+
+    def _confidence_distribution_report(self, grouped: dict[str, Any]) -> str:
+        lines = ["# Confidence Result Distribution", ""]
+        for confidence, item in grouped.items():
+            distribution = item.get("validation_results", {})
+            lines.extend(
+                [
+                    f"## {confidence}",
+                    "",
+                    f"- Evaluated: {item.get('evaluated_count', 0)}",
+                    f"- Completed: {item.get('completed_count', 0)}",
+                    f"- Hit Rate: {self._fmt(item.get('hit_rate'))}",
+                    f"- Excellent: {distribution.get('Excellent', 0)}",
+                    f"- Good: {distribution.get('Good', 0)}",
+                    f"- Neutral: {distribution.get('Neutral', 0)}",
+                    f"- Poor: {distribution.get('Poor', 0)}",
+                    f"- Pending: {distribution.get('Pending', 0)}",
+                    "",
+                ]
+            )
         return "\n".join(lines)
 
     def _benchmark_report(self, evaluation: dict[str, Any]) -> str:
