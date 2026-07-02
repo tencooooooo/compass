@@ -308,12 +308,22 @@ When GitHub Actions runs, generated outputs are uploaded as a workflow artifact 
 compass-generated-outputs
 ```
 
+Long-lived operational data is also persisted to the dedicated `compass-data` branch:
+
+```text
+memory/
+storage/notifications/
+```
+
+The workflow still restores the previous GitHub Actions cache for one release as a fallback, then overlays the `compass-data` branch when available. At the end of data-producing workflows, Memory and notification history are committed back to `compass-data` with `if: always()` so partial updates are not lost when a later step fails.
+
 ## Local Setup
 
 Python 3.11 or later is recommended.
 
 ```bash
 pip install -r requirements.txt
+pip install -e .
 ```
 
 Compass Workspace is a React + TypeScript frontend.
@@ -350,23 +360,23 @@ http://127.0.0.1:8000/openapi.json
 Run the pipeline steps manually when developing or checking output locally.
 
 ```bash
-python collectors/prices/fetch_prices.py
-python collectors/companies/fetch_company_profiles.py
-python collectors/financials/fetch_financials.py
-python collectors/news/fetch_news.py
-python collectors/news/build_event_database.py
-python analyzers/company_analysis/generate_company_report.py
-python analyzers/comparative_analysis/generate_comparison_report.py
-python engines/scoring_engine/scoring_engine.py
-python engines/market_intelligence/market_monitor.py
-python engines/discovery/discovery_engine.py
-python engines/validation/backtest_engine.py
-python core/memory/memory_engine.py
-python core/feedback/feedback_engine.py
-python core/decision/decision_engine.py
-python core/learning/learning_engine.py
-python engines/notification/notification_engine.py --dry-run
-python integrations/slack/slack_notifier.py --dry-run
+python -m collectors.prices.fetch_prices
+python -m collectors.companies.fetch_company_profiles
+python -m collectors.financials.fetch_financials
+python -m collectors.news.fetch_news
+python -m collectors.news.build_event_database
+python -m analyzers.company_analysis.generate_company_report
+python -m analyzers.comparative_analysis.generate_comparison_report
+python -m engines.scoring_engine.scoring_engine
+python -m engines.market_intelligence.market_monitor
+python -m engines.discovery.discovery_engine
+python -m engines.validation.backtest_engine
+python -m core.memory.memory_engine
+python -m core.feedback.feedback_engine
+python -m core.decision.decision_engine
+python -m core.learning.learning_engine
+python -m engines.notification.notification_engine --dry-run
+python -m integrations.slack.slack_notifier --dry-run
 ```
 
 ## GitHub Actions
@@ -933,7 +943,7 @@ Event history is saved to:
 storage/notifications/notification_history.json
 ```
 
-The workflow restores `storage/notifications/` through GitHub Actions cache so Score Change and Market Trend alerts can compare with the previous run. The folder is ignored by Git and uploaded as part of the generated artifact.
+The workflow restores `storage/notifications/` from the `compass-data` branch so Score Change and Market Trend alerts can compare with the previous run. GitHub Actions cache is kept temporarily as a fallback for one release. The folder is ignored by the main Git branch and uploaded as part of the generated artifact.
 
 Notification Engine is intentionally selective. It sends alerts for action-worthy changes, not every data point.
 
@@ -986,7 +996,7 @@ memory/market/
 memory/lessons/
 ```
 
-`memory/` is ignored by Git, restored through GitHub Actions cache, and included in workflow artifacts. This keeps Memory as operational data while allowing future migration to S3 or a database without changing Analyzer or Engine callers.
+`memory/` is ignored by the main Git branch, restored from the dedicated `compass-data` branch, committed back at the end of data-producing workflows, and included in workflow artifacts. GitHub Actions cache remains as a one-release fallback during the migration. This keeps Memory as durable operational data while allowing future migration to S3 or a database without changing Analyzer or Engine callers.
 
 ## Feedback Engine
 
@@ -1398,7 +1408,7 @@ mcp/handlers/validation_handler.py
 Run locally over stdio:
 
 ```bash
-python mcp/server.py
+python -m mcp.server
 ```
 
 Supported AI clients:
@@ -2103,7 +2113,7 @@ Form 4
 Run locally:
 
 ```bash
-python collectors/sec/fetch_filings.py --ticker NVDA --limit 1
+python -m collectors.sec.fetch_filings --ticker NVDA --limit 1
 ```
 
 Storage:
@@ -2170,7 +2180,7 @@ datasources/providers/earnings/provider.py
 Run locally:
 
 ```bash
-python collectors/earnings/fetch_transcripts.py --ticker NVDA --source-path path/to/transcript.txt --fiscal-quarter "FY2026 Q1"
+python -m collectors.earnings.fetch_transcripts --ticker NVDA --source-path path/to/transcript.txt --fiscal-quarter "FY2026 Q1"
 ```
 
 Storage:
@@ -2242,7 +2252,7 @@ foundation/data_quality/quality_report.py
 Run locally:
 
 ```bash
-python foundation/data_quality/quality_engine.py
+python -m foundation.data_quality.quality_engine
 ```
 
 Evaluation targets:
@@ -2310,7 +2320,7 @@ lab/knowledge_graph/graph_similarity.py
 Run locally:
 
 ```bash
-python lab/knowledge_graph/graph_engine.py
+python -m lab.knowledge_graph.graph_engine
 ```
 
 Storage:

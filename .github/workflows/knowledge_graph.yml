@@ -32,13 +32,15 @@ jobs:
           cache: "pip"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          pip install -e .
 
       - name: Run API tests
-        run: python tests/api/test_api.py
+        run: python -m unittest tests.api.test_api
 
       - name: Build knowledge graph
-        run: python lab/knowledge_graph/graph_engine.py
+        run: python -m lab.knowledge_graph.graph_engine
 
       - name: Upload graph artifacts
         if: always()
@@ -49,4 +51,3 @@ jobs:
             storage/knowledge_graph/
             reports/graph/
           if-no-files-found: ignore
-

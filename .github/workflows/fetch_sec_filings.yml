@@ -31,22 +31,24 @@ jobs:
           cache: "pip"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          pip install -e .
 
       - name: Run API tests
-        run: python tests/api/test_api.py
+        run: python -m unittest tests.api.test_api
 
       - name: Fetch SEC filings for configured tickers
         if: ${{ inputs.ticker == '' }}
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
-        run: python collectors/sec/fetch_filings.py --limit "${{ inputs.limit }}"
+        run: python -m collectors.sec.fetch_filings --limit "${{ inputs.limit }}"
 
       - name: Fetch SEC filings for one ticker
         if: ${{ inputs.ticker != '' }}
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
-        run: python collectors/sec/fetch_filings.py --ticker "${{ inputs.ticker }}" --limit "${{ inputs.limit }}"
+        run: python -m collectors.sec.fetch_filings --ticker "${{ inputs.ticker }}" --limit "${{ inputs.limit }}"
 
       - name: Upload SEC filings artifact
         if: always()

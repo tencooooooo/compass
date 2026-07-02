@@ -11,8 +11,6 @@ import pandas as pd
 
 # このファイル(engines/market_intelligence/market_monitor.py)から見て2つ上がプロジェクトルートです。
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
 
 from engines.market_intelligence.market_summary import render_market_psychology, render_market_summary, render_sector_summary  # noqa: E402
 from engines.market_intelligence.sector_analysis import average, build_sector_summaries, calculate_ticker_momentum, safe_float  # noqa: E402

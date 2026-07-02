@@ -10,8 +10,6 @@ from typing import Any
 
 # このファイル(core/memory/memory_engine.py)から見て2つ上がプロジェクトルートです。
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
 
 from core.memory.local_provider import LocalProvider  # noqa: E402
 from core.memory.memory_provider import MemoryProvider  # noqa: E402

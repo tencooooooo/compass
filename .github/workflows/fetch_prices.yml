@@ -9,9 +9,15 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: compass-data-persistence
+  cancel-in-progress: false
+
 jobs:
   fetch-prices:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -33,6 +39,9 @@ jobs:
           restore-keys: |
             compass-memory-
 
+      - name: Restore persistent Compass data
+        run: bash scripts/restore_persistent_data.sh
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -40,58 +49,60 @@ jobs:
           cache: "pip"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          pip install -e .
 
       - name: Run API tests
-        run: python tests/api/test_api.py
+        run: python -m unittest tests.api.test_api
 
       - name: Fetch daily prices
-        run: python collectors/prices/fetch_prices.py
+        run: python -m collectors.prices.fetch_prices
 
       - name: Fetch company profiles
-        run: python collectors/companies/fetch_company_profiles.py
+        run: python -m collectors.companies.fetch_company_profiles
 
       - name: Fetch financial data
-        run: python collectors/financials/fetch_financials.py
+        run: python -m collectors.financials.fetch_financials
 
       - name: Fetch news
-        run: python collectors/news/fetch_news.py
+        run: python -m collectors.news.fetch_news
 
       - name: Build event database
-        run: python collectors/news/build_event_database.py
+        run: python -m collectors.news.build_event_database
 
       - name: Evaluate data quality
-        run: python foundation/data_quality/quality_engine.py
+        run: python -m foundation.data_quality.quality_engine
 
       - name: Generate company analysis reports
-        run: python analyzers/company_analysis/generate_company_report.py
+        run: python -m analyzers.company_analysis.generate_company_report
 
       - name: Generate comparative analysis reports
-        run: python analyzers/comparative_analysis/generate_comparison_report.py
+        run: python -m analyzers.comparative_analysis.generate_comparison_report
 
       - name: Generate explainable scoring reports
-        run: python engines/scoring_engine/scoring_engine.py
+        run: python -m engines.scoring_engine.scoring_engine
 
       - name: Generate market intelligence reports
-        run: python engines/market_intelligence/market_monitor.py
+        run: python -m engines.market_intelligence.market_monitor
 
       - name: Generate discovery candidates
-        run: python engines/discovery/discovery_engine.py
+        run: python -m engines.discovery.discovery_engine
 
       - name: Generate validation reports
-        run: python engines/validation/backtest_engine.py
+        run: python -m engines.validation.backtest_engine
 
       - name: Update memory layer
-        run: python core/memory/memory_engine.py
+        run: python -m core.memory.memory_engine
 
       - name: Generate feedback reports
-        run: python core/feedback/feedback_engine.py
+        run: python -m core.feedback.feedback_engine
 
       - name: Generate decision proposals
-        run: python core/decision/decision_engine.py
+        run: python -m core.decision.decision_engine
 
       - name: Generate learning package
-        run: python core/learning/learning_engine.py
+        run: python -m core.learning.learning_engine
 
       - name: Run notification engine
         if: always()
@@ -104,7 +115,7 @@ jobs:
           GITHUB_RUN_NUMBER: ${{ github.run_number }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_WORKFLOW: ${{ github.workflow }}
-        run: python engines/notification/notification_engine.py
+        run: python -m engines.notification.notification_engine
 
       - name: Send daily Slack report
         if: success()
@@ -114,7 +125,7 @@ jobs:
           GITHUB_RUN_NUMBER: ${{ github.run_number }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_WORKFLOW: ${{ github.workflow }}
-        run: python integrations/slack/slack_notifier.py
+        run: python -m integrations.slack.slack_notifier
 
       - name: Upload generated outputs
         if: always()
@@ -130,3 +141,7 @@ jobs:
             reports/
             logs/
           if-no-files-found: warn
+
+      - name: Persist memory and notifications
+        if: always()
+        run: bash scripts/persist_persistent_data.sh

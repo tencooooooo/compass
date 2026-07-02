@@ -39,22 +39,24 @@ jobs:
           cache: "pip"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          pip install -e .
 
       - name: Run API tests
-        run: python tests/api/test_api.py
+        run: python -m unittest tests.api.test_api
 
       - name: Fetch earnings transcript from local path
         if: ${{ inputs.source_path != '' }}
         env:
           EARNINGS_USER_AGENT: ${{ secrets.EARNINGS_USER_AGENT }}
-        run: python collectors/earnings/fetch_transcripts.py --ticker "${{ inputs.ticker }}" --source-path "${{ inputs.source_path }}" --fiscal-quarter "${{ inputs.fiscal_quarter }}"
+        run: python -m collectors.earnings.fetch_transcripts --ticker "${{ inputs.ticker }}" --source-path "${{ inputs.source_path }}" --fiscal-quarter "${{ inputs.fiscal_quarter }}"
 
       - name: Fetch earnings transcript from URL
         if: ${{ inputs.source_path == '' && inputs.source_url != '' }}
         env:
           EARNINGS_USER_AGENT: ${{ secrets.EARNINGS_USER_AGENT }}
-        run: python collectors/earnings/fetch_transcripts.py --ticker "${{ inputs.ticker }}" --source-url "${{ inputs.source_url }}" --fiscal-quarter "${{ inputs.fiscal_quarter }}"
+        run: python -m collectors.earnings.fetch_transcripts --ticker "${{ inputs.ticker }}" --source-url "${{ inputs.source_url }}" --fiscal-quarter "${{ inputs.fiscal_quarter }}"
 
       - name: Upload earnings transcript artifact
         if: always()

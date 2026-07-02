@@ -1,27 +1,25 @@
 from __future__ import annotations
 
 import argparse
-from datetime import datetime
 import json
-import logging
 import os
 from pathlib import Path
 import sys
 from typing import Any
 from urllib import request
-from urllib.error import URLError
+from urllib.error import HTTPError, URLError
 
 
 # このファイル(integrations/slack/slack_notifier.py)から見て2つ上がプロジェクトルートです。
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
 
-from integrations.slack.slack_formatter import build_failure_text, build_payload, build_success_text, current_timestamp  # noqa: E402
+from integrations.slack.slack_formatter import build_failure_text, build_payload, build_success_text, current_timestamp
+from utils.config import load_yaml
+from utils.logger import setup_logger
 
 
 CONFIG_PATH = PROJECT_ROOT / "config" / "notification.yaml"
-LOG_DIR = PROJECT_ROOT / "logs"
+SETTINGS_PATH = PROJECT_ROOT / "config" / "settings.yaml"
 
 
 DEFAULT_CONFIG = {
@@ -34,71 +32,19 @@ DEFAULT_CONFIG = {
 }
 
 
-def setup_simple_logger() -> logging.Logger:
-    LOG_DIR.mkdir(parents=True, exist_ok=True)
-    logger = logging.getLogger("compass.slack")
-    logger.setLevel(logging.INFO)
-    logger.handlers.clear()
-    logger.propagate = False
-
-    formatter = logging.Formatter("%(asctime)s [%(levelname)s] %(message)s")
-    file_handler = logging.FileHandler(LOG_DIR / f"{datetime.now().strftime('%Y-%m-%d')}.log", encoding="utf-8")
-    file_handler.setFormatter(formatter)
-    logger.addHandler(file_handler)
-
-    console_handler = logging.StreamHandler(sys.stdout)
-    console_handler.setFormatter(formatter)
-    logger.addHandler(console_handler)
-    return logger
-
-
-def parse_scalar(value: str) -> Any:
-    normalized = value.strip()
-    if normalized.lower() == "true":
-        return True
-    if normalized.lower() == "false":
-        return False
-    try:
-        return int(normalized)
-    except ValueError:
-        return normalized
-
-
 def load_notification_config(path: Path) -> dict[str, Any]:
-    """PyYAMLがない失敗ケースでも通知できるように、最小YAMLを自前で読めるようにします。"""
     config = json.loads(json.dumps(DEFAULT_CONFIG))
     if not path.exists():
         return config
 
-    try:
-        import yaml  # type: ignore
+    import yaml
 
-        with path.open("r", encoding="utf-8") as file:
-            loaded = yaml.safe_load(file) or {}
-        if isinstance(loaded, dict):
-            config.update(loaded)
-        if isinstance(loaded.get("slack"), dict):
-            config["slack"] = {**DEFAULT_CONFIG["slack"], **loaded["slack"]}
-        return config
-    except Exception:
-        pass
-
-    current_section: str | None = None
-    for line in path.read_text(encoding="utf-8").splitlines():
-        stripped = line.strip()
-        if not stripped or stripped.startswith("#") or ":" not in stripped:
-            continue
-        key, value = stripped.split(":", 1)
-        if not value.strip():
-            current_section = key.strip()
-            config.setdefault(current_section, {})
-            continue
-        parsed_value = parse_scalar(value)
-        if line.startswith(" ") and current_section and isinstance(config.get(current_section), dict):
-            config[current_section][key.strip()] = parsed_value
-        else:
-            config[key.strip()] = parsed_value
-            current_section = None
+    with path.open("r", encoding="utf-8") as file:
+        loaded = yaml.safe_load(file) or {}
+    if isinstance(loaded, dict):
+        config.update(loaded)
+    if isinstance(loaded.get("slack"), dict):
+        config["slack"] = {**DEFAULT_CONFIG["slack"], **loaded["slack"]}
     return config
 
 
@@ -111,8 +57,7 @@ def post_to_slack(webhook_url: str, payload: dict[str, Any]) -> None:
         method="POST",
     )
     with request.urlopen(slack_request, timeout=20) as response:
-        if response.status >= 400:
-            raise RuntimeError(f"Slack webhook returned HTTP {response.status}")
+        response.read()
 
 
 def build_context(args: argparse.Namespace) -> dict[str, str]:
@@ -138,7 +83,8 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> int:
     args = parse_args()
-    logger = setup_simple_logger()
+    settings = load_yaml(SETTINGS_PATH)
+    logger = setup_logger(PROJECT_ROOT, settings, "compass.slack")
     config = load_notification_config(CONFIG_PATH)
     slack_config = config.get("slack", {}) if isinstance(config.get("slack"), dict) else {}
 
@@ -172,7 +118,10 @@ def main() -> int:
 
     try:
         post_to_slack(webhook_url, payload)
-    except (RuntimeError, TimeoutError, URLError) as error:
+    except HTTPError as error:
+        logger.error("Slack通知に失敗しました: HTTP %s", error.code)
+        return 0
+    except (TimeoutError, URLError) as error:
         logger.error("Slack通知に失敗しました: %s", error)
         return 0
 

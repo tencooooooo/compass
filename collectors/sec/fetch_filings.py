@@ -4,13 +4,10 @@ import argparse
 import json
 import os
 from pathlib import Path
-import sys
 from typing import Any
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
 
 from collectors.sec.filing_index import FilingIndex  # noqa: E402
 from collectors.sec.sec_client import SECClient  # noqa: E402

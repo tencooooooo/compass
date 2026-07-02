@@ -1,10 +1,14 @@
-from fastapi import FastAPI, Request
+import os
+
+from fastapi import Depends, FastAPI, Request
 from fastapi.exceptions import RequestValidationError
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from starlette.exceptions import HTTPException as StarletteHTTPException
 
 from api.routes import companies, discovery, learning, market, notifications, proposals, scoring, validation
 from api.schemas.response import error_response, success_response
+from api.services.auth import optional_api_key_auth
 
 
 API_PREFIX = "/api/v1"
@@ -17,6 +21,20 @@ app = FastAPI(
     docs_url="/docs",
     redoc_url="/redoc",
     openapi_url="/openapi.json",
+)
+
+
+def allowed_origins() -> list[str]:
+    configured = os.getenv("COMPASS_API_ALLOWED_ORIGINS", "http://localhost:5173,http://127.0.0.1:5173")
+    return [origin.strip() for origin in configured.split(",") if origin.strip()]
+
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=allowed_origins(),
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 
@@ -40,11 +58,13 @@ def health():
     return success_response({"status": "ok", "api_version": "v1"})
 
 
-app.include_router(companies.router, prefix=API_PREFIX)
-app.include_router(discovery.router, prefix=API_PREFIX)
-app.include_router(scoring.router, prefix=API_PREFIX)
-app.include_router(market.router, prefix=API_PREFIX)
-app.include_router(validation.router, prefix=API_PREFIX)
-app.include_router(proposals.router, prefix=API_PREFIX)
-app.include_router(learning.router, prefix=API_PREFIX)
-app.include_router(notifications.router, prefix=API_PREFIX)
+PROTECTED_DEPENDENCIES = [Depends(optional_api_key_auth)]
+
+app.include_router(companies.router, prefix=API_PREFIX, dependencies=PROTECTED_DEPENDENCIES)
+app.include_router(discovery.router, prefix=API_PREFIX, dependencies=PROTECTED_DEPENDENCIES)
+app.include_router(scoring.router, prefix=API_PREFIX, dependencies=PROTECTED_DEPENDENCIES)
+app.include_router(market.router, prefix=API_PREFIX, dependencies=PROTECTED_DEPENDENCIES)
+app.include_router(validation.router, prefix=API_PREFIX, dependencies=PROTECTED_DEPENDENCIES)
+app.include_router(proposals.router, prefix=API_PREFIX, dependencies=PROTECTED_DEPENDENCIES)
+app.include_router(learning.router, prefix=API_PREFIX, dependencies=PROTECTED_DEPENDENCIES)
+app.include_router(notifications.router, prefix=API_PREFIX, dependencies=PROTECTED_DEPENDENCIES)

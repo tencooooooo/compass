@@ -11,8 +11,6 @@ import pandas as pd
 
 # このファイル(engines/scoring_engine/scoring_engine.py)から見て2つ上がプロジェクトルートです。
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
 
 from engines.scoring_engine.score_calculator import calculate_company_score  # noqa: E402
 from engines.scoring_engine.score_explainer import render_explanation  # noqa: E402

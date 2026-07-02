@@ -12,8 +12,6 @@ from typing import Any
 
 # このファイル(engines/notification/notification_engine.py)から見て2つ上がプロジェクトルートです。
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
 
 from engines.notification.event_detector import (  # noqa: E402
     current_market_snapshot,

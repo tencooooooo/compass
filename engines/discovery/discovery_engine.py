@@ -11,8 +11,6 @@ import pandas as pd
 
 # このファイル(engines/discovery/discovery_engine.py)から見て2つ上がプロジェクトルートです。
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
 
 from engines.discovery.candidate_selector import build_candidate, select_candidates  # noqa: E402
 from engines.discovery.discovery_report import render_candidate_detail, render_candidates_report  # noqa: E402

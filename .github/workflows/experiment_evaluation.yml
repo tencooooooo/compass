@@ -9,9 +9,15 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: compass-data-persistence
+  cancel-in-progress: false
+
 jobs:
   experiment-evaluation:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -25,6 +31,9 @@ jobs:
           restore-keys: |
             compass-experiments-
 
+      - name: Restore persistent Compass data
+        run: bash scripts/restore_persistent_data.sh
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -32,13 +41,15 @@ jobs:
           cache: "pip"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          pip install -e .
 
       - name: Run API tests
-        run: python tests/api/test_api.py
+        run: python -m unittest tests.api.test_api
 
       - name: Generate experiment reports
-        run: python lab/experiments/experiment_engine.py
+        run: python -m lab.experiments.experiment_engine
 
       - name: Upload experiment artifacts
         if: always()
@@ -49,3 +60,7 @@ jobs:
             reports/experiments/
             memory/experiments/
           if-no-files-found: ignore
+
+      - name: Persist memory and notifications
+        if: always()
+        run: bash scripts/persist_persistent_data.sh
