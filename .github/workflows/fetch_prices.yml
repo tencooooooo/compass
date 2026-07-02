@@ -60,6 +60,9 @@ jobs:
       - name: Build event database
         run: python collectors/news/build_event_database.py
 
+      - name: Evaluate data quality
+        run: python foundation/data_quality/quality_engine.py
+
       - name: Generate company analysis reports
         run: python analyzers/company_analysis/generate_company_report.py
 
@@ -121,6 +124,7 @@ jobs:
           path: |
             storage/raw/
             storage/events/
+            storage/quality/
             storage/notifications/
             memory/
             reports/

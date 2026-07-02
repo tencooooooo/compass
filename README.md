@@ -2224,6 +2224,75 @@ The workflow is independent from existing collectors. It accepts a ticker and tr
 
 Earnings transcripts are preserved as management commentary. AI summarization, sentiment scoring, credibility assessment, and investment interpretation are planned for later layers.
 
+## Data Quality Engine
+
+Compass Foundation 06 adds a Data Quality Engine that evaluates input data before analysis begins.
+
+Files:
+
+```text
+foundation/data_quality/quality_engine.py
+foundation/data_quality/quality_checker.py
+foundation/data_quality/freshness_checker.py
+foundation/data_quality/duplicate_detector.py
+foundation/data_quality/reliability_scorer.py
+foundation/data_quality/quality_report.py
+```
+
+Run locally:
+
+```bash
+python foundation/data_quality/quality_engine.py
+```
+
+Evaluation targets:
+
+```text
+Prices
+Companies
+Financials
+News
+Events
+SEC
+Earnings
+Macro
+ETF
+Insider
+Analyst
+Trends
+Future Providers
+```
+
+Quality Score:
+
+```text
+Freshness
+Completeness
+Reliability
+Duplicate risk
+Consistency
+```
+
+Outputs:
+
+```text
+storage/quality/provider_scores.json
+storage/quality/history.json
+storage/quality/issues.json
+reports/data_quality/quality_summary.md
+reports/data_quality/provider_ranking.md
+reports/data_quality/detected_issues.md
+reports/data_quality/dashboard.json
+```
+
+GitHub Actions:
+
+```text
+.github/workflows/fetch_prices.yml
+```
+
+The daily workflow runs Data Quality after collectors finish and before analysis starts. If the overall Quality Score is below the configured threshold, the workflow emits a warning but does not stop.
+
 ## Git Tag And Release Preparation
 
 Recommended Git tag for this milestone:
