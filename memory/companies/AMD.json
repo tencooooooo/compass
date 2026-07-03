@@ -8,19 +8,19 @@
     "currency": "USD",
     "exchange": "NMS",
     "market_cap": 844357632000,
-    "enterprise_value": 873483272192,
+    "enterprise_value": 835881598976,
     "shares_outstanding": 1630600639,
     "beta": 2.492,
-    "trailing_pe": 174.35017,
+    "trailing_pe": 172.60667,
     "forward_pe": 39.297142,
     "peg_ratio": 1.3,
     "price_to_book": 13.093787,
-    "eps": 2.97,
+    "eps": 3.0,
     "forward_eps": 13.17704,
     "dividend_yield": null,
     "52_week_high": 584.73,
     "52_week_low": 133.5,
-    "average_volume": 36993570,
+    "average_volume": 36853079,
     "employees": 31000,
     "website": "https://www.amd.com",
     "business_summary": "Advanced Micro Devices, Inc. operates as a semiconductor company internationally. It operates in three segments: Data Center, Client and Gaming, and Embedded. The company offers artificial intelligence (AI) accelerators, microprocessors, and graphics processing units (GPUs) as standalone devices or as incorporated into accelerated processing units, chipsets, and data center and professional GPUs; and embedded processors and semi-custom system-on-chip (SoC) products, microprocessor and SoC development services and technology, data processing units, field programmable gate arrays (FPGA), system on modules, AI network interface cards, and adaptive SoC products. It provides processors under the AMD Ryzen, AMD Ryzen AI, AMD Ryzen PRO, AMD Ryzen Threadripper, AMD Ryzen Threadripper PRO, AMD Athlon, and AMD PRO A-Series brands; graphics under the AMD Radeon graphics and AMD Embedded Radeon graphics; professional graphics under the AMD Radeon Pro graphics brand; and AI and general-purpose compute infrastructure for hyperscale providers. The company offers data center graphics under the AMD Instinct accelerators and Radeon PRO V-series brands; server microprocessors under the AMD EPYC brand; low power solutions under the AMD Athlon, AMD Geode, AMD Ryzen, AMD EPYC, and AMD R-Series and G-Series brands; FPGA products under the Virtex-6, Virtex-7, Virtex UltraScale+, Kintex-7, Kintex UltraScale, Kintex UltraScale+, Artix-7, Artix UltraScale+, Spartan-6, and Spartan-7 brands; adaptive SOCs under the Zynq-7000, Zynq UltraScale+ MPSoC, Zynq UltraScale+ RFSoCs, Versal HBM, Versal Premium, Versal Prime, Versal AI Core, Versal AI Edge, Vitis, and Vivado brands; and compute and network acceleration board products under the Alveo and Pensando brands. It serves original equipment and design manufacturers, public cloud service providers, system integrators, distributors, and add-in-board manufacturers. The company was incorporated in 1969 and is headquartered in Santa Clara, California."
@@ -57,49 +57,78 @@
         "scoring": "Medium",
         "discovery": "Medium"
       }
+    },
+    {
+      "date": "2026-07-03",
+      "timestamp": "2026-07-03T04:36:59.856978-04:00",
+      "score": 75,
+      "discovery_score": 77,
+      "discovery_status": "Primary Candidate",
+      "validation_results": {
+        "Neutral": 5
+      },
+      "event_count": 10,
+      "news_count": 10,
+      "confidence": {
+        "scoring": "High",
+        "discovery": "High"
+      }
     }
   ],
   "Scores": {
     "ticker": "AMD",
     "company_name": "Advanced Micro Devices, Inc.",
-    "total_score": 71,
+    "total_score": 75,
     "max_score": 100,
     "confidence": {
-      "level": "Medium",
-      "completeness_score": 95.0,
+      "level": "High",
+      "completeness_score": 100,
       "reasons": [
         "利用可能な主要データ領域は5領域中 5 領域です。",
-        "欠損または計算不可の項目数は 1 件です。",
-        "主要データは一定程度ありますが、欠損や未取得項目が残っています。"
+        "欠損または計算不可の項目数は 0 件です。",
+        "主要データが比較的そろっており、説明可能性は高めです。"
       ]
     },
     "scores": {
       "Growth": {
-        "score": 18,
+        "score": 20,
         "max_score": 20,
         "reasons": [
-          "売上がプラスで確認できます。",
-          "EPS がプラスで確認できるため加点しています。",
+          "revenue_growth(直近4四半期平均) は 35.26% で、+30%以上の高成長です。",
+          "eps_growth(直近4四半期平均) は 229.14% で、+30%以上の高成長です。",
+          "eps_growth は直近四半期が前四半期より +31.34pt 高く、成長の加速がみられます。",
           "純利益 がプラスで確認できるため加点しています。",
           "営業利益 がプラスで確認できるため加点しています。",
           "研究開発費が確認でき、将来成長への投資が続いています。",
-          "四半期時系列が不足しているため、Growthは最新値中心の従来ロジックへフォールバックしています。"
+          "売上がプラスで確認できます。"
         ],
         "evidence": [
           "Financials",
           "Knowledge"
         ],
-        "missing_data": [
-          "revenue_growth"
-        ],
+        "missing_data": [],
         "metrics": {
           "total_revenue": 34639000000.0,
           "eps": 2.67,
           "net_income": 4335000000.0,
           "operating_income": 3694000000.0,
           "research_and_development": 8091000000.0,
-          "revenue_yoy_growth": null,
-          "eps_yoy_growth": null
+          "revenue_yoy_growth": 37.85,
+          "eps_yoy_growth": 90.91,
+          "revenue_yoy_growth_avg": 35.26,
+          "eps_yoy_growth_avg": 229.14,
+          "revenue_growth_quarters": [
+            "2026-Q1",
+            "2025-Q3",
+            "2025-Q2",
+            "2025-Q1"
+          ],
+          "eps_growth_quarters": [
+            "2026-Q1",
+            "2025-Q3",
+            "2025-Q2",
+            "2025-Q1"
+          ]
         }
       },
       "Financial Health": {
@@ -130,7 +159,7 @@
         "max_score": 20,
         "reasons": [
           "セクター比較対象が 4 社のため、PER は固定閾値で評価しています。",
-          "PER は 174.35 で、バリュエーション面の加点は抑えています。",
+          "PER は 172.61 で、バリュエーション面の加点は抑えています。",
           "セクター比較対象が 4 社のため、Forward PER は固定閾値で評価しています。",
           "Forward PER は 39.30 で、バリュエーション面は中立から注意寄りです。",
           "セクター比較対象が 4 社のため、PEG は固定閾値で評価しています。",
@@ -145,7 +174,7 @@
         ],
         "missing_data": [],
         "metrics": {
-          "trailing_pe": 174.35017,
+          "trailing_pe": 172.60667,
           "forward_pe": 39.297142,
           "peg_ratio": 1.3,
           "price_to_book": 13.093787,
@@ -153,14 +182,14 @@
         }
       },
       "Momentum": {
-        "score": 13,
+        "score": 14,
         "max_score": 20,
         "reasons": [
-          "1M は -0.71% と小幅なマイナスです。",
-          "3M が 146.33% と強い上昇を示しています。",
-          "6M が 140.47% と強い上昇を示しています。",
-          "1Y が 280.44% と強い上昇を示しています。",
-          "直近出来高が30日平均の 0.86 倍で、通常水準の流動性があります。"
+          "1M の対SPY超過リターンは +0.98pt で、市場並み以上です。",
+          "3M の対SPY超過リターンが +132.38pt と、市場を大きく上回っています。",
+          "6M の対SPY超過リターンが +131.48pt と、市場を大きく上回っています。",
+          "1Y の対SPY超過リターンが +258.52pt と、市場を大きく上回っています。",
+          "直近出来高が30日平均の 0.88 倍で、通常水準の流動性があります。"
         ],
         "evidence": [
           "Prices",
@@ -172,16 +201,29 @@
           "3M": 146.3346133797821,
           "6M": 140.46624692595694,
           "1Y": 280.44229299991423,
-          "latest_volume": 27272794.0,
-          "average_volume_30d": 31807933.133333333
+          "benchmark": "SPY",
+          "benchmark_returns": {
+            "1M": -1.69,
+            "3M": 13.96,
+            "6M": 8.99,
+            "1Y": 21.92
+          },
+          "excess_returns": {
+            "1M": 0.98,
+            "3M": 132.38,
+            "6M": 131.48,
+            "1Y": 258.52
+          },
+          "latest_volume": 28142500.0,
+          "average_volume_30d": 31836923.333333332
         }
       },
       "News": {
-        "score": 11,
+        "score": 12,
         "max_score": 20,
         "reasons": [
           "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-          "ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 0 件です。",
+          "ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
           "イベント後の平均株価反応が -4.26% と弱く、注意が必要です。"
         ],
         "evidence": [
@@ -192,8 +234,11 @@
         "missing_data": [],
         "metrics": {
           "news_count": 10,
+          "positive_count": 3,
+          "negative_count": 0,
+          "sentiment_net_ratio": 1.0,
           "event_count": 10,
-          "events_with_price_reaction": 10
+          "events_with_price_reaction": 6
         }
       }
     },
@@ -211,19 +256,19 @@
     "company": "Advanced Micro Devices, Inc.",
     "sector": "Technology",
     "industry": "Semiconductors",
-    "discovery_score": 70,
-    "status": "Watch Candidate",
+    "discovery_score": 77,
+    "status": "Primary Candidate",
     "discovery_reasons": [
-      "Scoring EngineのGrowthが 18/20 で、成長性の基礎条件が確認できます。",
+      "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
       "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
-      "Newsスコアが 11/20 で、材料の量と市場関心を候補評価に反映しています。",
+      "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
       "売上が取得でき、事業規模の確認ができます。",
       "EPSがプラスで、利益を伴う成長候補として確認できます。",
       "研究開発費が確認でき、将来成長への投資シグナルがあります。",
       "FCFがプラスで、成長投資を支える現金創出力があります。",
-      "1Mモメンタムは -0.71% と弱めですが、大きな崩れではありません。",
-      "3Mモメンタムが 146.33% と強く、市場関心が確認できます。",
-      "6Mモメンタムが 140.47% と強く、市場関心が確認できます。"
+      "1Mモメンタムは対SPYで +0.98pt と、市場並み以上です。",
+      "3Mモメンタムは対SPYで +132.38pt と、市場を大きく上回っています。",
+      "6Mモメンタムは対SPYで +131.48pt と、市場を大きく上回っています。"
     ],
     "strengths": [
       "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
@@ -239,7 +284,7 @@
       "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
       "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
     ],
-    "confidence": "Medium",
+    "confidence": "High",
     "evidence": [
       "Company",
       "Events",
@@ -252,57 +297,64 @@
     ],
     "missing_data": [],
     "metrics": {
-      "scoring_total": 71.0,
-      "growth_score": 18.0,
+      "scoring_total": 75.0,
+      "growth_score": 20.0,
       "financial_health_score": 20.0,
       "valuation_score": 9.0,
-      "news_score": 11.0,
+      "news_score": 12.0,
       "momentum": {
         "1m": -0.7132666449071265,
         "3m": 146.3346133797821,
         "6m": 140.46624692595694,
         "1y": 280.44229299991423
       },
+      "benchmark": "SPY",
+      "excess_momentum": {
+        "1m": 0.98,
+        "3m": 132.38,
+        "6m": 131.48,
+        "1y": 258.52
+      },
       "positive_news": 3,
       "watch_news": 0,
       "event_count": 10,
-      "events_with_reaction": 10,
-      "sector_average_score": 72.25
+      "events_with_reaction": 6,
+      "sector_average_score": 71.5
     }
   },
   "Validation": [
     {
-      "discovery_date": "2026-07-02",
-      "validation_date": "2026-07-02",
+      "discovery_date": "2026-07-03",
+      "validation_date": "2026-07-03",
       "period": "1m",
       "ticker": "AMD",
       "company": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
-      "discovery_score": 70,
+      "discovery_score": 77,
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 18/20 で、成長性の基礎条件が確認できます。",
+        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 11/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは -0.71% と弱めですが、大きな崩れではありません。",
-        "3Mモメンタムが 146.33% と強く、市場関心が確認できます。",
-        "6Mモメンタムが 140.47% と強く、市場関心が確認できます。"
+        "1Mモメンタムは対SPYで +0.98pt と、市場並み以上です。",
+        "3Mモメンタムは対SPYで +132.38pt と、市場を大きく上回っています。",
+        "6Mモメンタムは対SPYで +131.48pt と、市場を大きく上回っています。"
       ],
       "start_date": "2026-07-02",
       "end_date": "2026-07-02",
       "start_price": 517.8200073242188,
       "end_price": 517.8200073242188,
       "return_percent": 0.0,
-      "benchmark": null,
-      "benchmark_return_percent": null,
-      "benchmark_diff_percent": null,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "Medium",
+      "confidence": "High",
       "watch_points": [
         "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
@@ -328,37 +380,37 @@
       "period_complete": false
     },
     {
-      "discovery_date": "2026-07-02",
-      "validation_date": "2026-07-02",
+      "discovery_date": "2026-07-03",
+      "validation_date": "2026-07-03",
       "period": "1w",
       "ticker": "AMD",
       "company": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
-      "discovery_score": 70,
+      "discovery_score": 77,
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 18/20 で、成長性の基礎条件が確認できます。",
+        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 11/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは -0.71% と弱めですが、大きな崩れではありません。",
-        "3Mモメンタムが 146.33% と強く、市場関心が確認できます。",
-        "6Mモメンタムが 140.47% と強く、市場関心が確認できます。"
+        "1Mモメンタムは対SPYで +0.98pt と、市場並み以上です。",
+        "3Mモメンタムは対SPYで +132.38pt と、市場を大きく上回っています。",
+        "6Mモメンタムは対SPYで +131.48pt と、市場を大きく上回っています。"
       ],
       "start_date": "2026-07-02",
       "end_date": "2026-07-02",
       "start_price": 517.8200073242188,
       "end_price": 517.8200073242188,
       "return_percent": 0.0,
-      "benchmark": null,
-      "benchmark_return_percent": null,
-      "benchmark_diff_percent": null,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "Medium",
+      "confidence": "High",
       "watch_points": [
         "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
@@ -384,37 +436,37 @@
       "period_complete": false
     },
     {
-      "discovery_date": "2026-07-02",
-      "validation_date": "2026-07-02",
+      "discovery_date": "2026-07-03",
+      "validation_date": "2026-07-03",
       "period": "1y",
       "ticker": "AMD",
       "company": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
-      "discovery_score": 70,
+      "discovery_score": 77,
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 18/20 で、成長性の基礎条件が確認できます。",
+        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 11/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは -0.71% と弱めですが、大きな崩れではありません。",
-        "3Mモメンタムが 146.33% と強く、市場関心が確認できます。",
-        "6Mモメンタムが 140.47% と強く、市場関心が確認できます。"
+        "1Mモメンタムは対SPYで +0.98pt と、市場並み以上です。",
+        "3Mモメンタムは対SPYで +132.38pt と、市場を大きく上回っています。",
+        "6Mモメンタムは対SPYで +131.48pt と、市場を大きく上回っています。"
       ],
       "start_date": "2026-07-02",
       "end_date": "2026-07-02",
       "start_price": 517.8200073242188,
       "end_price": 517.8200073242188,
       "return_percent": 0.0,
-      "benchmark": null,
-      "benchmark_return_percent": null,
-      "benchmark_diff_percent": null,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "Medium",
+      "confidence": "High",
       "watch_points": [
         "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
@@ -440,37 +492,37 @@
       "period_complete": false
     },
     {
-      "discovery_date": "2026-07-02",
-      "validation_date": "2026-07-02",
+      "discovery_date": "2026-07-03",
+      "validation_date": "2026-07-03",
       "period": "3m",
       "ticker": "AMD",
       "company": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
-      "discovery_score": 70,
+      "discovery_score": 77,
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 18/20 で、成長性の基礎条件が確認できます。",
+        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 11/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは -0.71% と弱めですが、大きな崩れではありません。",
-        "3Mモメンタムが 146.33% と強く、市場関心が確認できます。",
-        "6Mモメンタムが 140.47% と強く、市場関心が確認できます。"
+        "1Mモメンタムは対SPYで +0.98pt と、市場並み以上です。",
+        "3Mモメンタムは対SPYで +132.38pt と、市場を大きく上回っています。",
+        "6Mモメンタムは対SPYで +131.48pt と、市場を大きく上回っています。"
       ],
       "start_date": "2026-07-02",
       "end_date": "2026-07-02",
       "start_price": 517.8200073242188,
       "end_price": 517.8200073242188,
       "return_percent": 0.0,
-      "benchmark": null,
-      "benchmark_return_percent": null,
-      "benchmark_diff_percent": null,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "Medium",
+      "confidence": "High",
       "watch_points": [
         "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
@@ -496,37 +548,37 @@
       "period_complete": false
     },
     {
-      "discovery_date": "2026-07-02",
-      "validation_date": "2026-07-02",
+      "discovery_date": "2026-07-03",
+      "validation_date": "2026-07-03",
       "period": "6m",
       "ticker": "AMD",
       "company": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
-      "discovery_score": 70,
+      "discovery_score": 77,
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 18/20 で、成長性の基礎条件が確認できます。",
+        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 11/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは -0.71% と弱めですが、大きな崩れではありません。",
-        "3Mモメンタムが 146.33% と強く、市場関心が確認できます。",
-        "6Mモメンタムが 140.47% と強く、市場関心が確認できます。"
+        "1Mモメンタムは対SPYで +0.98pt と、市場並み以上です。",
+        "3Mモメンタムは対SPYで +132.38pt と、市場を大きく上回っています。",
+        "6Mモメンタムは対SPYで +131.48pt と、市場を大きく上回っています。"
       ],
       "start_date": "2026-07-02",
       "end_date": "2026-07-02",
       "start_price": 517.8200073242188,
       "end_price": 517.8200073242188,
       "return_percent": 0.0,
-      "benchmark": null,
-      "benchmark_return_percent": null,
-      "benchmark_diff_percent": null,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "Medium",
+      "confidence": "High",
       "watch_points": [
         "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
@@ -556,16 +608,28 @@
     "count": 10,
     "latest": [
       {
+        "event_id": "AMD_661ebcb0904733e5",
+        "ticker": "AMD",
+        "published_at": "2026-07-03T03:00:24+00:00",
+        "title": "Intel, Marvell Technology, and AMD Stocks Trade Down, What You Need To Know",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/intel-marvell-technology-amd-stocks-030024777.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
         "event_id": "AMD_23b27e6279605190",
         "ticker": "AMD",
         "published_at": "2026-07-02T21:47:00+00:00",
         "title": "Wall Street flees software plays for triple-digit chipmaker boom",
         "url": "https://www.thestreet.com/investing/stocks/mu-intc-amd-wall-street-flees-software-for-chipmaker-boom",
         "source": "STORY",
-        "close_price": 517.8200073242188,
-        "previous_close": 540.8800048828125,
-        "price_change_percent": -4.263422080760768,
-        "volume": 27272794.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
         "event_id": "AMD_e55f582a5c8c1aac",
@@ -574,10 +638,10 @@
         "title": "Marvell Stock: A Faster Lane On The Same Highway",
         "url": "https://www.trefis.com/articles/605378/marvell-stock-a-faster-lane-on-the-same-highway/2026-07-02",
         "source": "STORY",
-        "close_price": 517.8200073242188,
-        "previous_close": 540.8800048828125,
-        "price_change_percent": -4.263422080760768,
-        "volume": 27272794.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
         "event_id": "AMD_7b564150c949a489",
@@ -586,10 +650,10 @@
         "title": "Jim Cramer Just Named His Favorite Stock, and It’s the Comeback Nobody Saw Coming",
         "url": "https://247wallst.com/investing/2026/07/02/jim-cramer-just-named-his-favorite-stock-and-its-the-comeback-nobody-saw-coming/",
         "source": "STORY",
-        "close_price": 517.8200073242188,
-        "previous_close": 540.8800048828125,
-        "price_change_percent": -4.263422080760768,
-        "volume": 27272794.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
         "event_id": "AMD_55b7084dc651abb6",
@@ -601,7 +665,7 @@
         "close_price": 517.8200073242188,
         "previous_close": 540.8800048828125,
         "price_change_percent": -4.263422080760768,
-        "volume": 27272794.0
+        "volume": 28142500.0
       },
       {
         "event_id": "AMD_53f144b534688d5e",
@@ -613,7 +677,7 @@
         "close_price": 517.8200073242188,
         "previous_close": 540.8800048828125,
         "price_change_percent": -4.263422080760768,
-        "volume": 27272794.0
+        "volume": 28142500.0
       },
       {
         "event_id": "AMD_2b86daf3dcb82d49",
@@ -625,7 +689,7 @@
         "close_price": 517.8200073242188,
         "previous_close": 540.8800048828125,
         "price_change_percent": -4.263422080760768,
-        "volume": 27272794.0
+        "volume": 28142500.0
       },
       {
         "event_id": "AMD_9d7775caab425d8d",
@@ -637,7 +701,7 @@
         "close_price": 517.8200073242188,
         "previous_close": 540.8800048828125,
         "price_change_percent": -4.263422080760768,
-        "volume": 27272794.0
+        "volume": 28142500.0
       },
       {
         "event_id": "AMD_6cd006f2d0b8f1d4",
@@ -649,7 +713,7 @@
         "close_price": 517.8200073242188,
         "previous_close": 540.8800048828125,
         "price_change_percent": -4.263422080760768,
-        "volume": 27272794.0
+        "volume": 28142500.0
       },
       {
         "event_id": "AMD_bd39e7b8902570b2",
@@ -661,25 +725,24 @@
         "close_price": 517.8200073242188,
         "previous_close": 540.8800048828125,
         "price_change_percent": -4.263422080760768,
-        "volume": 27272794.0
-      },
-      {
-        "event_id": "AMD_6badad930cb77391",
-        "ticker": "AMD",
-        "published_at": "2026-07-02T15:52:18+00:00",
-        "title": "The Nasdaq Was Up 26% in the First Half of 2026 — These 3 AI Stocks Are Just Getting Started",
-        "url": "https://247wallst.com/investing/2026/07/02/the-nasdaq-was-up-26-in-the-first-half-of-2026-these-3-ai-stocks-are-just-getting-started/",
-        "source": "STORY",
-        "close_price": 517.8200073242188,
-        "previous_close": 540.8800048828125,
-        "price_change_percent": -4.263422080760768,
-        "volume": 27272794.0
+        "volume": 28142500.0
       }
     ]
   },
   "News": {
     "count": 10,
     "latest": [
+      {
+        "ticker": "AMD",
+        "title": "Intel, Marvell Technology, and AMD Stocks Trade Down, What You Need To Know",
+        "summary": "A number of stocks fell in the afternoon session after the semiconductor sector pulled back amid fears that AI-driven chip demand may be cooling.",
+        "published_at": "2026-07-03T03:00:24+00:00",
+        "publisher": "StockStory",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/intel-marvell-technology-amd-stocks-030024777.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
       {
         "ticker": "AMD",
         "title": "Wall Street flees software plays for triple-digit chipmaker boom",
@@ -778,23 +841,12 @@
         "language": null,
         "source": "STORY",
         "related_tickers": null
-      },
-      {
-        "ticker": "AMD",
-        "title": "The Nasdaq Was Up 26% in the First Half of 2026 — These 3 AI Stocks Are Just Getting Started",
-        "summary": "The first half of 2026 handed investors a split-screen market. The Dow rose roughly 8% in the first half of 2026, while the Nasdaq-100 gained about 26% in Q2, powered almost entirely by the AI infrastructure trade. The question now is which names have the fundamental firepower to keep compounding into the back half. Growth ... The Nasdaq Was Up 26% in the First Half of 2026 — These 3 AI Stocks Are Just Getting Started",
-        "published_at": "2026-07-02T15:52:18+00:00",
-        "publisher": "24/7 Wall St.",
-        "url": "https://247wallst.com/investing/2026/07/02/the-nasdaq-was-up-26-in-the-first-half-of-2026-these-3-ai-stocks-are-just-getting-started/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
       }
     ]
   },
   "Confidence": {
-    "scoring": "Medium",
-    "discovery": "Medium"
+    "scoring": "High",
+    "discovery": "High"
   },
-  "Timestamp": "2026-07-02T18:57:55.119430-04:00"
+  "Timestamp": "2026-07-03T04:36:59.856978-04:00"
 }

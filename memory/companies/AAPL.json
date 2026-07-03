@@ -8,7 +8,7 @@
     "currency": "USD",
     "exchange": "NMS",
     "market_cap": 4532958920704,
-    "enterprise_value": 4339867844608,
+    "enterprise_value": 4549162565632,
     "shares_outstanding": 14687356000,
     "beta": 1.086,
     "trailing_pe": 37.319225,
@@ -17,13 +17,13 @@
     "price_to_book": 42.511017,
     "eps": 8.27,
     "forward_eps": 9.60892,
-    "dividend_yield": 0.37,
+    "dividend_yield": 0.35,
     "52_week_high": 317.4,
     "52_week_low": 201.5,
-    "average_volume": 53586159,
+    "average_volume": 53938116,
     "employees": 166000,
     "website": "https://www.apple.com",
-    "business_summary": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allows customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California."
+    "business_summary": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers exclusive original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California."
   },
   "History": [
     {
@@ -57,49 +57,77 @@
         "scoring": "Medium",
         "discovery": "Medium"
       }
+    },
+    {
+      "date": "2026-07-03",
+      "timestamp": "2026-07-03T04:36:59.856978-04:00",
+      "score": 65,
+      "discovery_score": 66,
+      "discovery_status": "Watch Candidate",
+      "validation_results": {
+        "Neutral": 5
+      },
+      "event_count": 10,
+      "news_count": 10,
+      "confidence": {
+        "scoring": "High",
+        "discovery": "High"
+      }
     }
   ],
   "Scores": {
     "ticker": "AAPL",
     "company_name": "Apple Inc.",
-    "total_score": 67,
+    "total_score": 65,
     "max_score": 100,
     "confidence": {
-      "level": "Medium",
-      "completeness_score": 95.0,
+      "level": "High",
+      "completeness_score": 100,
       "reasons": [
         "利用可能な主要データ領域は5領域中 5 領域です。",
-        "欠損または計算不可の項目数は 1 件です。",
-        "主要データは一定程度ありますが、欠損や未取得項目が残っています。"
+        "欠損または計算不可の項目数は 0 件です。",
+        "主要データが比較的そろっており、説明可能性は高めです。"
       ]
     },
     "scores": {
       "Growth": {
-        "score": 20,
+        "score": 17,
         "max_score": 20,
         "reasons": [
-          "売上規模が大きく、事業規模の強さが確認できます。",
-          "EPS がプラスで確認できるため加点しています。",
+          "revenue_growth(直近4四半期平均) は 11.74% で、プラス成長を維持しています。",
+          "eps_growth(直近4四半期平均) は 15.03% で、+15%以上の成長です。",
           "純利益 がプラスで確認できるため加点しています。",
           "営業利益 がプラスで確認できるため加点しています。",
           "研究開発費が確認でき、将来成長への投資が続いています。",
-          "四半期時系列が不足しているため、Growthは最新値中心の従来ロジックへフォールバックしています。"
+          "売上規模が大きく、事業規模の強さが確認できます。"
         ],
         "evidence": [
           "Financials",
           "Knowledge"
         ],
-        "missing_data": [
-          "revenue_growth"
-        ],
+        "missing_data": [],
         "metrics": {
           "total_revenue": 416161000000.0,
           "eps": 7.49,
           "net_income": 112010000000.0,
           "operating_income": 133050000000.0,
           "research_and_development": 34550000000.0,
-          "revenue_yoy_growth": null,
-          "eps_yoy_growth": null
+          "revenue_yoy_growth": 16.6,
+          "eps_yoy_growth": 21.82,
+          "revenue_yoy_growth_avg": 11.74,
+          "eps_yoy_growth_avg": 15.03,
+          "revenue_growth_quarters": [
+            "2026-Q1",
+            "2025-Q4",
+            "2025-Q2",
+            "2025-Q1"
+          ],
+          "eps_growth_quarters": [
+            "2026-Q1",
+            "2025-Q4",
+            "2025-Q2",
+            "2025-Q1"
+          ]
         }
       },
       "Financial Health": {
@@ -156,11 +184,11 @@
         "score": 12,
         "max_score": 20,
         "reasons": [
-          "1M は -2.08% と小幅なマイナスです。",
-          "3M が 20.84% と強い上昇を示しています。",
-          "6M が 13.23% とプラス圏です。",
-          "1Y が 49.10% と強い上昇を示しています。",
-          "直近出来高が30日平均の 1.16 倍で、通常水準の流動性があります。"
+          "1M の対SPY超過リターンは -0.39pt と、市場を小幅に下回っています。",
+          "3M の対SPY超過リターンは +6.89pt で、市場並み以上です。",
+          "6M の対SPY超過リターンは +4.24pt で、市場並み以上です。",
+          "1Y の対SPY超過リターンが +27.18pt と、市場を大きく上回っています。",
+          "直近出来高が30日平均の 1.21 倍で、市場関心の高まりが確認できます。"
         ],
         "evidence": [
           "Prices",
@@ -170,18 +198,31 @@
         "metrics": {
           "1M": -2.0843931058934744,
           "3M": 20.844326829970964,
-          "6M": 13.228157269229005,
+          "6M": 13.228144592104677,
           "1Y": 49.09748897103782,
-          "latest_volume": 71900726.0,
-          "average_volume_30d": 62159290.86666667
+          "benchmark": "SPY",
+          "benchmark_returns": {
+            "1M": -1.69,
+            "3M": 13.96,
+            "6M": 8.99,
+            "1Y": 21.92
+          },
+          "excess_returns": {
+            "1M": -0.39,
+            "3M": 6.89,
+            "6M": 4.24,
+            "1Y": 27.18
+          },
+          "latest_volume": 75352800.0,
+          "average_volume_30d": 62274360.0
         }
       },
       "News": {
-        "score": 15,
+        "score": 16,
         "max_score": 20,
         "reasons": [
           "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-          "ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 2 件です。",
+          "ニュース見出し・要約の簡易分類では、好材料 6 件、悪材料 1 件(純比率 +0.71)で、センチメントは 6.8 点です。",
           "イベント後の平均株価反応が 4.84% とプラスです。"
         ],
         "evidence": [
@@ -192,8 +233,11 @@
         "missing_data": [],
         "metrics": {
           "news_count": 10,
+          "positive_count": 6,
+          "negative_count": 1,
+          "sentiment_net_ratio": 0.71,
           "event_count": 10,
-          "events_with_price_reaction": 10
+          "events_with_price_reaction": 1
         }
       }
     },
@@ -211,19 +255,19 @@
     "company": "Apple Inc.",
     "sector": "Technology",
     "industry": "Consumer Electronics",
-    "discovery_score": 68,
+    "discovery_score": 66,
     "status": "Watch Candidate",
     "discovery_reasons": [
-      "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
+      "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
       "Financial Healthが 12/20 で、継続調査に必要な財務基盤を評価しています。",
-      "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+      "Newsスコアが 16/20 で、材料の量と市場関心を候補評価に反映しています。",
       "売上が取得でき、事業規模の確認ができます。",
       "EPSがプラスで、利益を伴う成長候補として確認できます。",
       "研究開発費が確認でき、将来成長への投資シグナルがあります。",
       "FCFがプラスで、成長投資を支える現金創出力があります。",
-      "1Mモメンタムは -2.08% と弱めですが、大きな崩れではありません。",
-      "3Mモメンタムが 20.84% と強く、市場関心が確認できます。",
-      "6Mモメンタムが 13.23% とプラス圏です。"
+      "1Mモメンタムは対SPYで -0.39pt と、市場を小幅に下回っています。",
+      "3Mモメンタムは対SPYで +6.89pt と、市場並み以上です。",
+      "6Mモメンタムは対SPYで +4.24pt と、市場並み以上です。"
     ],
     "strengths": [
       "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
@@ -231,7 +275,7 @@
       "純利益率が高く、売上から利益を残す力があります。"
     ],
     "watch_points": [
-      "注意材料になり得るニュース表現が 2 件あります。",
+      "注意材料になり得るニュース表現が 1 件あります。",
       "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
       "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
       "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -239,7 +283,7 @@
       "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
       "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
     ],
-    "confidence": "Medium",
+    "confidence": "High",
     "evidence": [
       "Company",
       "Events",
@@ -252,59 +296,66 @@
     ],
     "missing_data": [],
     "metrics": {
-      "scoring_total": 67.0,
-      "growth_score": 20.0,
+      "scoring_total": 65.0,
+      "growth_score": 17.0,
       "financial_health_score": 12.0,
       "valuation_score": 8.0,
-      "news_score": 15.0,
+      "news_score": 16.0,
       "momentum": {
         "1m": -2.0843931058934744,
         "3m": 20.844326829970964,
-        "6m": 13.228157269229005,
+        "6m": 13.228144592104677,
         "1y": 49.09748897103782
       },
-      "positive_news": 4,
-      "watch_news": 2,
+      "benchmark": "SPY",
+      "excess_momentum": {
+        "1m": -0.39,
+        "3m": 6.89,
+        "6m": 4.24,
+        "1y": 27.18
+      },
+      "positive_news": 6,
+      "watch_news": 1,
       "event_count": 10,
-      "events_with_reaction": 10,
-      "sector_average_score": 72.25
+      "events_with_reaction": 1,
+      "sector_average_score": 71.5
     }
   },
   "Validation": [
     {
-      "discovery_date": "2026-07-02",
-      "validation_date": "2026-07-02",
+      "discovery_date": "2026-07-03",
+      "validation_date": "2026-07-03",
       "period": "1m",
       "ticker": "AAPL",
       "company": "Apple Inc.",
       "sector": "Technology",
-      "discovery_score": 68,
+      "discovery_score": 66,
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
+        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 12/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 16/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは -2.08% と弱めですが、大きな崩れではありません。",
-        "3Mモメンタムが 20.84% と強く、市場関心が確認できます。",
-        "6Mモメンタムが 13.23% とプラス圏です。"
+        "1Mモメンタムは対SPYで -0.39pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +6.89pt と、市場並み以上です。",
+        "6Mモメンタムは対SPYで +4.24pt と、市場並み以上です。"
       ],
       "start_date": "2026-07-02",
       "end_date": "2026-07-02",
       "start_price": 308.6300048828125,
       "end_price": 308.6300048828125,
       "return_percent": 0.0,
-      "benchmark": null,
-      "benchmark_return_percent": null,
-      "benchmark_diff_percent": null,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "Medium",
+      "confidence": "High",
       "watch_points": [
-        "注意材料になり得るニュース表現が 2 件あります。",
+        "注意材料になり得るニュース表現が 1 件あります。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -328,39 +379,39 @@
       "period_complete": false
     },
     {
-      "discovery_date": "2026-07-02",
-      "validation_date": "2026-07-02",
+      "discovery_date": "2026-07-03",
+      "validation_date": "2026-07-03",
       "period": "1w",
       "ticker": "AAPL",
       "company": "Apple Inc.",
       "sector": "Technology",
-      "discovery_score": 68,
+      "discovery_score": 66,
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
+        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 12/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 16/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは -2.08% と弱めですが、大きな崩れではありません。",
-        "3Mモメンタムが 20.84% と強く、市場関心が確認できます。",
-        "6Mモメンタムが 13.23% とプラス圏です。"
+        "1Mモメンタムは対SPYで -0.39pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +6.89pt と、市場並み以上です。",
+        "6Mモメンタムは対SPYで +4.24pt と、市場並み以上です。"
       ],
       "start_date": "2026-07-02",
       "end_date": "2026-07-02",
       "start_price": 308.6300048828125,
       "end_price": 308.6300048828125,
       "return_percent": 0.0,
-      "benchmark": null,
-      "benchmark_return_percent": null,
-      "benchmark_diff_percent": null,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "Medium",
+      "confidence": "High",
       "watch_points": [
-        "注意材料になり得るニュース表現が 2 件あります。",
+        "注意材料になり得るニュース表現が 1 件あります。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -384,39 +435,39 @@
       "period_complete": false
     },
     {
-      "discovery_date": "2026-07-02",
-      "validation_date": "2026-07-02",
+      "discovery_date": "2026-07-03",
+      "validation_date": "2026-07-03",
       "period": "1y",
       "ticker": "AAPL",
       "company": "Apple Inc.",
       "sector": "Technology",
-      "discovery_score": 68,
+      "discovery_score": 66,
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
+        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 12/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 16/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは -2.08% と弱めですが、大きな崩れではありません。",
-        "3Mモメンタムが 20.84% と強く、市場関心が確認できます。",
-        "6Mモメンタムが 13.23% とプラス圏です。"
+        "1Mモメンタムは対SPYで -0.39pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +6.89pt と、市場並み以上です。",
+        "6Mモメンタムは対SPYで +4.24pt と、市場並み以上です。"
       ],
       "start_date": "2026-07-02",
       "end_date": "2026-07-02",
       "start_price": 308.6300048828125,
       "end_price": 308.6300048828125,
       "return_percent": 0.0,
-      "benchmark": null,
-      "benchmark_return_percent": null,
-      "benchmark_diff_percent": null,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "Medium",
+      "confidence": "High",
       "watch_points": [
-        "注意材料になり得るニュース表現が 2 件あります。",
+        "注意材料になり得るニュース表現が 1 件あります。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -440,39 +491,39 @@
       "period_complete": false
     },
     {
-      "discovery_date": "2026-07-02",
-      "validation_date": "2026-07-02",
+      "discovery_date": "2026-07-03",
+      "validation_date": "2026-07-03",
       "period": "3m",
       "ticker": "AAPL",
       "company": "Apple Inc.",
       "sector": "Technology",
-      "discovery_score": 68,
+      "discovery_score": 66,
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
+        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 12/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 16/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは -2.08% と弱めですが、大きな崩れではありません。",
-        "3Mモメンタムが 20.84% と強く、市場関心が確認できます。",
-        "6Mモメンタムが 13.23% とプラス圏です。"
+        "1Mモメンタムは対SPYで -0.39pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +6.89pt と、市場並み以上です。",
+        "6Mモメンタムは対SPYで +4.24pt と、市場並み以上です。"
       ],
       "start_date": "2026-07-02",
       "end_date": "2026-07-02",
       "start_price": 308.6300048828125,
       "end_price": 308.6300048828125,
       "return_percent": 0.0,
-      "benchmark": null,
-      "benchmark_return_percent": null,
-      "benchmark_diff_percent": null,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "Medium",
+      "confidence": "High",
       "watch_points": [
-        "注意材料になり得るニュース表現が 2 件あります。",
+        "注意材料になり得るニュース表現が 1 件あります。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -496,39 +547,39 @@
       "period_complete": false
     },
     {
-      "discovery_date": "2026-07-02",
-      "validation_date": "2026-07-02",
+      "discovery_date": "2026-07-03",
+      "validation_date": "2026-07-03",
       "period": "6m",
       "ticker": "AAPL",
       "company": "Apple Inc.",
       "sector": "Technology",
-      "discovery_score": 68,
+      "discovery_score": 66,
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
+        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 12/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 16/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは -2.08% と弱めですが、大きな崩れではありません。",
-        "3Mモメンタムが 20.84% と強く、市場関心が確認できます。",
-        "6Mモメンタムが 13.23% とプラス圏です。"
+        "1Mモメンタムは対SPYで -0.39pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +6.89pt と、市場並み以上です。",
+        "6Mモメンタムは対SPYで +4.24pt と、市場並み以上です。"
       ],
       "start_date": "2026-07-02",
       "end_date": "2026-07-02",
       "start_price": 308.6300048828125,
       "end_price": 308.6300048828125,
       "return_percent": 0.0,
-      "benchmark": null,
-      "benchmark_return_percent": null,
-      "benchmark_diff_percent": null,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "Medium",
+      "confidence": "High",
       "watch_points": [
-        "注意材料になり得るニュース表現が 2 件あります。",
+        "注意材料になり得るニュース表現が 1 件あります。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -556,64 +607,100 @@
     "count": 10,
     "latest": [
       {
-        "event_id": "AAPL_0f56c00bb37fcc48",
+        "event_id": "AAPL_53130fb0752ff8d7",
         "ticker": "AAPL",
-        "published_at": "2026-07-02T22:32:26+00:00",
-        "title": "Dow Jones Futures: Dow Hits High But AI Tumbles; Apple, Robinhood Are Buys As Tesla, Sandisk Dive",
-        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-tumbles-apple-robinhood-buy-signals-tesla-sandisk-dive/?src=A00220&yptr=yahoo",
+        "published_at": "2026-07-03T08:22:00+00:00",
+        "title": "Apple Just Made a Controversial Move. Is the Stock One to Avoid or Is Now the Time to Buy?",
+        "url": "https://www.fool.com/investing/2026/07/03/apple-just-made-a-controversial-move-is-the-stock/",
         "source": "STORY",
-        "close_price": 308.6300048828125,
-        "previous_close": 294.3800048828125,
-        "price_change_percent": 4.840682031265226,
-        "volume": 71900726.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "AAPL_a53dbf07fd2805c5",
+        "event_id": "AAPL_db27fbc21c823050",
         "ticker": "AAPL",
-        "published_at": "2026-07-02T21:33:00+00:00",
+        "published_at": "2026-07-03T08:18:40+00:00",
+        "title": "Jim Cramer on Apple: “We Need to See the Quarter and Hear What They Say”",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-apple-see-quarter-081840061.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AAPL_22a2aa103e2538ee",
+        "ticker": "AAPL",
+        "published_at": "2026-07-03T03:07:18+00:00",
+        "title": "AMP Says Bonds No Longer a Hedge, Cuts From Some Pension Funds",
+        "url": "https://finance.yahoo.com/markets/options/articles/amp-says-bonds-no-longer-030718382.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AAPL_40b990656fe3b62c",
+        "ticker": "AAPL",
+        "published_at": "2026-07-03T03:00:28+00:00",
+        "title": "Dow Jones Futures Rise After Tesla, Sandisk, AI Stocks Dive; Apple, Robinhood Flash Buy Signals",
+        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-tumbles-apple-robinhood-buy-signals-tesla-sandisk-dive/?src=A00220&yptr=yahoo",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AAPL_f86a5350423885c1",
+        "ticker": "AAPL",
+        "published_at": "2026-07-03T02:16:25+00:00",
+        "title": "Why Apple Stock Rallied Today",
+        "url": "https://www.fool.com/investing/2026/07/02/why-apple-stock-is-up-today/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AAPL_3fb684f6153c3683",
+        "ticker": "AAPL",
+        "published_at": "2026-07-02T23:59:59+00:00",
+        "title": "Chip Industry Urges US to Avoid Moves That Distort Memory Market",
+        "url": "https://finance.yahoo.com/technology/articles/chip-industry-urges-us-avoid-235959366.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AAPL_d4ca7c86cac250f8",
+        "ticker": "AAPL",
+        "published_at": "2026-07-02T23:22:00+00:00",
         "title": "Trump’s Brokerage Accounts Made Big Trades Around ‘Liberation Day’ Tariffs",
         "url": "https://www.wsj.com/finance/stocks/trumps-brokerage-accounts-made-big-trades-around-liberation-day-tariffs-06e92290?siteid=yhoof2&yptr=yahoo",
         "source": "STORY",
-        "close_price": 308.6300048828125,
-        "previous_close": 294.3800048828125,
-        "price_change_percent": 4.840682031265226,
-        "volume": 71900726.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "AAPL_fd628b7cc450fda8",
+        "event_id": "AAPL_057db6b4d4f7fef8",
         "ticker": "AAPL",
-        "published_at": "2026-07-02T21:02:06+00:00",
-        "title": "Stock Market Today: Dow Runs 590 Points To New High But Meta, Chip, Optical Stocks Slammed",
-        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-jobs-report-tesla-deliveries-tsla-stock/?src=A00220&yptr=yahoo",
+        "published_at": "2026-07-02T23:16:24+00:00",
+        "title": "Why Apple (AAPL) Stock Is Trading Up Today",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-apple-aapl-stock-trading-231624171.html",
         "source": "STORY",
-        "close_price": 308.6300048828125,
-        "previous_close": 294.3800048828125,
-        "price_change_percent": 4.840682031265226,
-        "volume": 71900726.0
-      },
-      {
-        "event_id": "AAPL_130fc2c3f199829a",
-        "ticker": "AAPL",
-        "published_at": "2026-07-02T20:57:58+00:00",
-        "title": "Update: Dow Rises to Record as Wall Street Logs Weekly Gains",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/dow-rises-record-wall-street-205758332.html",
-        "source": "STORY",
-        "close_price": 308.6300048828125,
-        "previous_close": 294.3800048828125,
-        "price_change_percent": 4.840682031265226,
-        "volume": 71900726.0
-      },
-      {
-        "event_id": "AAPL_268bc1bcea5f04fa",
-        "ticker": "AAPL",
-        "published_at": "2026-07-02T20:38:15+00:00",
-        "title": "Update: US Equity Indexes Mixed as Weak Jobs Data Trigger Rotation Out of Growth Stocks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-weak-203815003.html",
-        "source": "STORY",
-        "close_price": 308.6300048828125,
-        "previous_close": 294.3800048828125,
-        "price_change_percent": 4.840682031265226,
-        "volume": 71900726.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
         "event_id": "AAPL_bcf7182957fc2b1f",
@@ -622,46 +709,10 @@
         "title": "Inside Securitize's SPAC IPO and tokenization strategy",
         "url": "https://finance.yahoo.com/video/inside-securitizes-spac-ipo-tokenization-203100628.html",
         "source": "VIDEO",
-        "close_price": 308.6300048828125,
-        "previous_close": 294.3800048828125,
-        "price_change_percent": 4.840682031265226,
-        "volume": 71900726.0
-      },
-      {
-        "event_id": "AAPL_6c7c573420f775f4",
-        "ticker": "AAPL",
-        "published_at": "2026-07-02T20:23:32+00:00",
-        "title": "US Equity Indexes Rise This Week as Mag-7 Gains Help Offset Chipmakers-Led Decline in Technology",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-week-202332283.html",
-        "source": "STORY",
-        "close_price": 308.6300048828125,
-        "previous_close": 294.3800048828125,
-        "price_change_percent": 4.840682031265226,
-        "volume": 71900726.0
-      },
-      {
-        "event_id": "AAPL_d3a5b2b2de821ed9",
-        "ticker": "AAPL",
-        "published_at": "2026-07-02T20:13:27+00:00",
-        "title": "US Equity Markets Mixed Amid Weak Jobs Data",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-mixed-amid-201327723.html",
-        "source": "STORY",
-        "close_price": 308.6300048828125,
-        "previous_close": 294.3800048828125,
-        "price_change_percent": 4.840682031265226,
-        "volume": 71900726.0
-      },
-      {
-        "event_id": "AAPL_adb9a4f791f0c0b1",
-        "ticker": "AAPL",
-        "published_at": "2026-07-02T20:10:00+00:00",
-        "title": "Berkshire Stock Gets a Lift as Mag 7 Trading Cools",
-        "url": "https://www.barrons.com/articles/berkshire-hathaway-stock-warren-buffett-magnificent-seven-ec26be5f?siteid=yhoof2&yptr=yahoo",
-        "source": "STORY",
-        "close_price": 308.6300048828125,
-        "previous_close": 294.3800048828125,
-        "price_change_percent": 4.840682031265226,
-        "volume": 71900726.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
         "event_id": "AAPL_0da844574efd4970",
@@ -673,7 +724,7 @@
         "close_price": 308.6300048828125,
         "previous_close": 294.3800048828125,
         "price_change_percent": 4.840682031265226,
-        "volume": 71900726.0
+        "volume": 75352800.0
       }
     ]
   },
@@ -682,9 +733,42 @@
     "latest": [
       {
         "ticker": "AAPL",
-        "title": "Dow Jones Futures: Dow Hits High But AI Tumbles; Apple, Robinhood Are Buys As Tesla, Sandisk Dive",
+        "title": "Apple Just Made a Controversial Move. Is the Stock One to Avoid or Is Now the Time to Buy?",
+        "summary": "Investors sanctioned Apple stock after the news.",
+        "published_at": "2026-07-03T08:22:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/07/03/apple-just-made-a-controversial-move-is-the-stock/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AAPL",
+        "title": "Jim Cramer on Apple: “We Need to See the Quarter and Hear What They Say”",
+        "summary": "Apple Inc. (NASDAQ:AAPL) was among the stocks on Jim Cramer’s Mad Money radar as he taught investors how to profit from the upcoming wave of takeovers. Cramer highlighted the effect of rising cost of components on the company’s stock, as he remarked: Fourth, Apple was down over 7% in June thanks to the skyrocketing cost […]",
+        "published_at": "2026-07-03T08:18:40+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-apple-see-quarter-081840061.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AAPL",
+        "title": "AMP Says Bonds No Longer a Hedge, Cuts From Some Pension Funds",
+        "summary": "(Bloomberg) -- AMP Ltd., one of Australia’s top asset managers, has ditched bonds from some of its retirement funds with sovereign debt no longer offering the diversification investors have relied on for decades as a ballast against stock volatility.Most Read from BloombergExxon to Change Name for First Time in Decades After RedomicileGermany Rejects Trump’s Demands for NATO Loyalty to WashingtonMeta Is Planning a Cloud Business to Sell AI Computing PowerRussia Indicates Ukraine Fired Long-Range",
+        "published_at": "2026-07-03T03:07:18+00:00",
+        "publisher": "Bloomberg",
+        "url": "https://finance.yahoo.com/markets/options/articles/amp-says-bonds-no-longer-030718382.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AAPL",
+        "title": "Dow Jones Futures Rise After Tesla, Sandisk, AI Stocks Dive; Apple, Robinhood Flash Buy Signals",
         "summary": "The stock market had strong weekly gains, but it didn't feel that way with Sandisk and other AI plays selling off Thursday.",
-        "published_at": "2026-07-02T22:32:26+00:00",
+        "published_at": "2026-07-03T03:00:28+00:00",
         "publisher": "Investor's Business Daily",
         "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-tumbles-apple-robinhood-buy-signals-tesla-sandisk-dive/?src=A00220&yptr=yahoo",
         "language": null,
@@ -693,9 +777,31 @@
       },
       {
         "ticker": "AAPL",
+        "title": "Why Apple Stock Rallied Today",
+        "summary": "The tech giant may have a solution to its memory problem.",
+        "published_at": "2026-07-03T02:16:25+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/07/02/why-apple-stock-is-up-today/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AAPL",
+        "title": "Chip Industry Urges US to Avoid Moves That Distort Memory Market",
+        "summary": "(Bloomberg) -- Government attempts to address the global memory chip shortage by influencing prices or production capacity would worsen a historic squeeze on supply driven by the artificial intelligence boom, a semiconductor industry group warned the Trump administration. Most Read from BloombergExxon to Change Name for First Time in Decades After RedomicileGermany Rejects Trump’s Demands for NATO Loyalty to WashingtonMeta Is Planning a Cloud Business to Sell AI Computing PowerRussia Indicates U",
+        "published_at": "2026-07-02T23:59:59+00:00",
+        "publisher": "Bloomberg",
+        "url": "https://finance.yahoo.com/technology/articles/chip-industry-urges-us-avoid-235959366.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AAPL",
         "title": "Trump’s Brokerage Accounts Made Big Trades Around ‘Liberation Day’ Tariffs",
-        "summary": "President Trump’s “Liberation Day” tariffs in April 2025 pushed financial markets into a tailspin, sending Wall Street and everyday investors scrambling to shield themselves from the fallout.  In a series of trades on April 3 and April 4—the days after Trump announced global tariffs in the Rose Garden—his investment accounts bought and sold hundreds of individual stocks, according to financial disclosures released this week.  Trump posted on social media the next morning that it was “a great time to buy” and paused much of his tariff regimen that afternoon.",
-        "published_at": "2026-07-02T21:33:00+00:00",
+        "summary": "President Trump’s “Liberation Day” tariffs in April 2025 pushed financial markets into a tailspin, sending Wall Street and everyday investors scrambling to shield themselves from the fallout.  In a series of trades on April 3 and April 4—the days after Trump announced global tariffs in the Rose Garden—his investment accounts bought and sold hundreds of individual stocks, according to financial disclosures released this week.  The strategy shifted somewhat on April 8, when his accounts only purchased 327 individual stocks, spending more than $3.6 million to scoop up Apple,  Berkshire Hathaway  and other blue chips.",
+        "published_at": "2026-07-02T23:22:00+00:00",
         "publisher": "The Wall Street Journal",
         "url": "https://www.wsj.com/finance/stocks/trumps-brokerage-accounts-made-big-trades-around-liberation-day-tariffs-06e92290?siteid=yhoof2&yptr=yahoo",
         "language": null,
@@ -704,33 +810,11 @@
       },
       {
         "ticker": "AAPL",
-        "title": "Stock Market Today: Dow Runs 590 Points To New High But Meta, Chip, Optical Stocks Slammed",
-        "summary": "Stock Market Today: The Dow Jones index bolts higher in a mixed finish Thursday. Tesla stock skids despite strong quarterly deliveries.",
-        "published_at": "2026-07-02T21:02:06+00:00",
-        "publisher": "Investor's Business Daily",
-        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-jobs-report-tesla-deliveries-tsla-stock/?src=A00220&yptr=yahoo",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "AAPL",
-        "title": "Update: Dow Rises to Record as Wall Street Logs Weekly Gains",
-        "summary": "(Updates with market moves at the end of the day.) The Dow Jones Industrial Average rose to a rec",
-        "published_at": "2026-07-02T20:57:58+00:00",
-        "publisher": "MT Newswires",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/dow-rises-record-wall-street-205758332.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "AAPL",
-        "title": "Update: US Equity Indexes Mixed as Weak Jobs Data Trigger Rotation Out of Growth Stocks",
-        "summary": "(Updates with index/price moves, macroeconomic data, and company news from the first paragraph.)",
-        "published_at": "2026-07-02T20:38:15+00:00",
-        "publisher": "MT Newswires",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-weak-203815003.html",
+        "title": "Why Apple (AAPL) Stock Is Trading Up Today",
+        "summary": "Shares of iPhone and iPad maker Apple (NASDAQ:AAPL) jumped 4.1% in the morning session after reports it plans an aggressive launch of at least five new iPhone models and has increased production targets for its first foldable device.",
+        "published_at": "2026-07-02T23:16:24+00:00",
+        "publisher": "StockStory",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-apple-aapl-stock-trading-231624171.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
@@ -748,39 +832,6 @@
       },
       {
         "ticker": "AAPL",
-        "title": "US Equity Indexes Rise This Week as Mag-7 Gains Help Offset Chipmakers-Led Decline in Technology",
-        "summary": "US equity indexes rose this week as gains in communication services and consumer cyclicals helped of",
-        "published_at": "2026-07-02T20:23:32+00:00",
-        "publisher": "MT Newswires",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-rise-week-202332283.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "AAPL",
-        "title": "US Equity Markets Mixed Amid Weak Jobs Data",
-        "summary": "US equity indexes were mixed Thursday after nonfarm payrolls data showed a decline in new jobs. *",
-        "published_at": "2026-07-02T20:13:27+00:00",
-        "publisher": "MT Newswires",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-mixed-amid-201327723.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "AAPL",
-        "title": "Berkshire Stock Gets a Lift as Mag 7 Trading Cools",
-        "summary": "Berkshire is the ultimate defensive play given its diverse earnings stream of more than $40 billion annually.",
-        "published_at": "2026-07-02T20:10:00+00:00",
-        "publisher": "Barrons.com",
-        "url": "https://www.barrons.com/articles/berkshire-hathaway-stock-warren-buffett-magnificent-seven-ec26be5f?siteid=yhoof2&yptr=yahoo",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "AAPL",
         "title": "Here's how much more expensive your devices have gotten thanks to AI",
         "summary": "The AI price increase is coming for your wallet.",
         "published_at": "2026-07-02T12:11:00+00:00",
@@ -793,8 +844,8 @@
     ]
   },
   "Confidence": {
-    "scoring": "Medium",
-    "discovery": "Medium"
+    "scoring": "High",
+    "discovery": "High"
   },
-  "Timestamp": "2026-07-02T18:57:55.119430-04:00"
+  "Timestamp": "2026-07-03T04:36:59.856978-04:00"
 }
