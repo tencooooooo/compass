@@ -10,12 +10,12 @@
     "market_cap": 1477689606144,
     "enterprise_value": 1449522495488,
     "shares_outstanding": 3755723871,
-    "beta": 1.798,
-    "trailing_pe": 354.45947,
+    "beta": 1.802,
+    "trailing_pe": 357.68182,
     "forward_pe": 154.47221,
     "peg_ratio": 6.16,
     "price_to_book": 17.968216,
-    "eps": 1.11,
+    "eps": 1.1,
     "forward_eps": 2.54706,
     "dividend_yield": null,
     "52_week_high": 498.83,
@@ -60,31 +60,32 @@
     },
     {
       "date": "2026-07-03",
-      "timestamp": "2026-07-03T04:36:59.856978-04:00",
-      "score": 54,
+      "timestamp": "2026-07-03T18:55:51.673507-04:00",
+      "score": 55,
       "discovery_score": 52,
       "discovery_status": "Not Selected",
       "validation_results": {},
       "event_count": 10,
       "news_count": 10,
       "confidence": {
-        "scoring": "High",
-        "discovery": "High"
+        "scoring": "Medium",
+        "discovery": "Medium"
       }
     }
   ],
   "Scores": {
     "ticker": "TSLA",
     "company_name": "Tesla, Inc.",
-    "total_score": 54,
+    "total_score": 55,
     "max_score": 100,
     "confidence": {
-      "level": "High",
-      "completeness_score": 100,
+      "level": "Medium",
+      "completeness_score": 95.0,
       "reasons": [
         "利用可能な主要データ領域は5領域中 5 領域です。",
-        "欠損または計算不可の項目数は 0 件です。",
-        "主要データが比較的そろっており、説明可能性は高めです。"
+        "欠損または計算不可の項目数は 1 件です。",
+        "主要データは一定程度ありますが、欠損や未取得項目が残っています。",
+        "イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。"
       ]
     },
     "scores": {
@@ -157,7 +158,7 @@
         "max_score": 20,
         "reasons": [
           "セクター比較対象が 2 社のため、PER は固定閾値で評価しています。",
-          "PER は 354.46 で、バリュエーション面の加点は抑えています。",
+          "PER は 357.68 で、バリュエーション面の加点は抑えています。",
           "セクター比較対象が 2 社のため、Forward PER は固定閾値で評価しています。",
           "Forward PER は 154.47 で、バリュエーション面の加点は抑えています。",
           "セクター比較対象が 2 社のため、PEG は固定閾値で評価しています。",
@@ -172,7 +173,7 @@
         ],
         "missing_data": [],
         "metrics": {
-          "trailing_pe": 354.45947,
+          "trailing_pe": 357.68182,
           "forward_pe": 154.47221,
           "peg_ratio": 6.16,
           "price_to_book": 17.968216,
@@ -212,31 +213,33 @@
             "6M": -22.4,
             "1Y": 8.92
           },
-          "latest_volume": 73717700.0,
-          "average_volume_30d": 47270366.666666664
+          "latest_volume": 73915800.0,
+          "average_volume_30d": 47276970.0
         }
       },
       "News": {
-        "score": 12,
+        "score": 13,
         "max_score": 20,
         "reasons": [
           "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-          "ニュース見出し・要約の簡易分類では、好材料 8 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
-          "イベント後の平均株価反応が -7.49% と弱く、注意が必要です。"
+          "ニュース見出し・要約の簡易分類では、好材料 9 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
+          "イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。"
         ],
         "evidence": [
           "News",
           "Events",
           "Knowledge"
         ],
-        "missing_data": [],
+        "missing_data": [
+          "event_price_reaction"
+        ],
         "metrics": {
           "news_count": 10,
-          "positive_count": 8,
+          "positive_count": 9,
           "negative_count": 0,
           "sentiment_net_ratio": 1.0,
           "event_count": 10,
-          "events_with_price_reaction": 1
+          "events_with_price_reaction": 0
         }
       }
     },
@@ -259,7 +262,7 @@
     "discovery_reasons": [
       "Scoring EngineのGrowthが 12/20 で、成長性の基礎条件が確認できます。",
       "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
-      "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
+      "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
       "売上が取得でき、事業規模の確認ができます。",
       "EPSがプラスで、利益を伴う成長候補として確認できます。",
       "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -275,7 +278,7 @@
     ],
     "watch_points": [
       "バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。",
-      "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+      "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
       "Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
       "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
       "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -283,7 +286,7 @@
       "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
       "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
     ],
-    "confidence": "High",
+    "confidence": "Medium",
     "evidence": [
       "Company",
       "Events",
@@ -296,11 +299,11 @@
     ],
     "missing_data": [],
     "metrics": {
-      "scoring_total": 54.0,
+      "scoring_total": 55.0,
       "growth_score": 12.0,
       "financial_health_score": 20.0,
       "valuation_score": 3.0,
-      "news_score": 12.0,
+      "news_score": 13.0,
       "momentum": {
         "1m": -7.148246265496441,
         "3m": 3.197293744208831,
@@ -314,10 +317,10 @@
         "6m": -22.4,
         "1y": 8.92
       },
-      "positive_news": 8,
+      "positive_news": 9,
       "watch_news": 0,
       "event_count": 10,
-      "events_with_reaction": 1,
+      "events_with_reaction": 0,
       "sector_average_score": 62.0
     }
   },
@@ -326,11 +329,11 @@
     "count": 10,
     "latest": [
       {
-        "event_id": "TSLA_dc3e0f4ac53a1be6",
+        "event_id": "TSLA_9bca8b3631c65a8c",
         "ticker": "TSLA",
-        "published_at": "2026-07-03T08:23:56+00:00",
-        "title": "Jim Cramer Explains How NVIDIA Can Change “Direction of the Price”",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explains-nvidia-change-082356845.html",
+        "published_at": "2026-07-03T22:02:00+00:00",
+        "title": "SpaceX's Next Big Business Isn't Rockets. It's Computer Chips.",
+        "url": "https://www.fool.com/investing/2026/07/03/spacexs-next-big-business-isnt-rockets-its-compute/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -338,9 +341,33 @@
         "volume": null
       },
       {
-        "event_id": "TSLA_9501c50e615b6386",
+        "event_id": "TSLA_beb9a921aa89c938",
         "ticker": "TSLA",
-        "published_at": "2026-07-03T08:15:53+00:00",
+        "published_at": "2026-07-03T20:53:55+00:00",
+        "title": "Dow Jones Futures: Techs' Rise Signal AI Trend Isn't Over; Apple, Robinhood Flash Buy Signals",
+        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-tumbles-apple-robinhood-buy-signals-tesla-sandisk-dive/?src=A00220&yptr=yahoo",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "TSLA_6c8b6535d644ca5b",
+        "ticker": "TSLA",
+        "published_at": "2026-07-03T19:31:21+00:00",
+        "title": "Elon Musk's X Money — New Details On Bank Killer Super App",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/elon-musks-x-money-details-193121263.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "TSLA_b762e7942ff3f35e",
+        "ticker": "TSLA",
+        "published_at": "2026-07-03T18:05:53+00:00",
         "title": "Jim Cramer on Tesla: “I Think It’ll Be Bought By SpaceX Sooner Rather Than Later”",
         "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-tesla-think-ll-081553609.html",
         "source": "STORY",
@@ -350,11 +377,11 @@
         "volume": null
       },
       {
-        "event_id": "TSLA_5895070d9147da2b",
+        "event_id": "TSLA_e132f2529b4fe8f6",
         "ticker": "TSLA",
-        "published_at": "2026-07-03T07:25:00+00:00",
-        "title": "Tesla, BYD, or Rivian: Which Stock Currently Has the EV Crown?",
-        "url": "https://www.fool.com/investing/2026/07/03/tesla-byd-or-rivian-which-stock-currently-has-the/",
+        "published_at": "2026-07-03T17:44:56+00:00",
+        "title": "Jim Cramer Explains Why You Need to Own NVIDIA Now",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explains-nvidia-change-082356845.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -362,11 +389,11 @@
         "volume": null
       },
       {
-        "event_id": "TSLA_08e708adcf638ac5",
+        "event_id": "TSLA_57b3cd262dc302fc",
         "ticker": "TSLA",
-        "published_at": "2026-07-03T06:55:00+00:00",
-        "title": "Tesla beat the Street and was still punished. Here's why",
-        "url": "https://www.proactiveinvestors.com/companies/news/1094902/tesla-beat-the-street-and-was-still-punished-here-s-why-1094902.html",
+        "published_at": "2026-07-03T17:41:00+00:00",
+        "title": "Worried About Tesla's 7% Slump Post Solid Q2 Deliveries? Grab These ETFs",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/worried-teslas-7-slump-post-174100263.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -374,11 +401,11 @@
         "volume": null
       },
       {
-        "event_id": "TSLA_8f7071ef3a40067b",
+        "event_id": "TSLA_561d9f50541ddd74",
         "ticker": "TSLA",
-        "published_at": "2026-07-03T03:50:38+00:00",
-        "title": "Burry Called a Bubble Days Ago and Now AI & EV Stocks Are Already Cracking",
-        "url": "https://beincrypto.com/burry-ai-bubble-bet-chip-stocks-crack/",
+        "published_at": "2026-07-03T16:35:00+00:00",
+        "title": "Meet the Major Artificial Intelligence (AI) CPU Player That Just Joined Nvidia, Tesla, and Palantir as One of the Most Popular Stocks on Robinhood",
+        "url": "https://www.fool.com/investing/2026/07/03/major-artificial-intelligence-ai-cpu-play-amd/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -386,11 +413,11 @@
         "volume": null
       },
       {
-        "event_id": "TSLA_639706b17c826ab7",
+        "event_id": "TSLA_ddc8c1afbd4ae1fb",
         "ticker": "TSLA",
-        "published_at": "2026-07-03T03:00:28+00:00",
-        "title": "Dow Jones Futures Rise After Tesla, Sandisk, AI Stocks Dive; Apple, Robinhood Flash Buy Signals",
-        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-tumbles-apple-robinhood-buy-signals-tesla-sandisk-dive/?src=A00220&yptr=yahoo",
+        "published_at": "2026-07-03T16:34:59+00:00",
+        "title": "Tesla Vs. SpaceX: Here’s Which Will Outperform the Other by the End of July",
+        "url": "https://247wallst.com/investing/2026/07/03/tesla-vs-spacex-heres-which-will-outperform-the-other-by-the-end-of-july/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -398,11 +425,11 @@
         "volume": null
       },
       {
-        "event_id": "TSLA_f195573d8bf9f9b0",
+        "event_id": "TSLA_a1dacac7c15c121c",
         "ticker": "TSLA",
-        "published_at": "2026-07-03T02:31:08+00:00",
-        "title": "Trillionaire Elon Musk Says Neuralink Could Deliver 'Jesus-Level' Miracles: Here's What He Means",
-        "url": "https://tech.yahoo.com/ai/meta-ai/articles/trillionaire-elon-musk-says-neuralink-023108720.html",
+        "published_at": "2026-07-03T16:29:43+00:00",
+        "title": "Elon Musk Has Mojo Back, As Tesla Deliveries Skyrocket",
+        "url": "https://247wallst.com/investing/2026/07/03/elon-musk-has-mojo-back-as-tesla-deliveries-skyrocket/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -410,40 +437,16 @@
         "volume": null
       },
       {
-        "event_id": "TSLA_996f829f9d6bd7bf",
+        "event_id": "TSLA_0e690f1428033ddd",
         "ticker": "TSLA",
-        "published_at": "2026-07-03T02:29:34+00:00",
-        "title": "Why Did Tesla’s Stock Drop 7% Despite a Record Delivery Quarter?",
-        "url": "https://beincrypto.com/tesla-stock-drop-record-deliveries-fsd/",
+        "published_at": "2026-07-03T16:21:50+00:00",
+        "title": "Tesla Caps Staff AI Spending",
+        "url": "https://finance.yahoo.com/technology/ai/articles/tesla-caps-staff-ai-spending-162150424.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
         "price_change_percent": null,
         "volume": null
-      },
-      {
-        "event_id": "TSLA_d727f09e1e2c2a99",
-        "ticker": "TSLA",
-        "published_at": "2026-07-03T00:31:36+00:00",
-        "title": "TSLA Stock Clocks Worst Day In 11 Months After Q2 Delivery Blows Past Estimates — Investors And Experts Weigh In",
-        "url": "https://stocktwits.com/news-articles/markets/equity/tsla-stock-clocks-worst-day-in-11-months-after-q2-delivery-blows-past-estimates/cZm97iXR7jO",
-        "source": "STORY",
-        "close_price": null,
-        "previous_close": null,
-        "price_change_percent": null,
-        "volume": null
-      },
-      {
-        "event_id": "TSLA_9ada558a75cdc293",
-        "ticker": "TSLA",
-        "published_at": "2026-07-01T22:31:36+00:00",
-        "title": "Stock market today: Dow notches fresh record, Nasdaq slides as Tesla sinks, semiconductors extend decline",
-        "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-july-2-223136955.html",
-        "source": "STORY",
-        "close_price": 393.4500122070313,
-        "previous_close": 425.2999877929688,
-        "price_change_percent": -7.488825887632451,
-        "volume": 73717700.0
       }
     ]
   },
@@ -452,64 +455,20 @@
     "latest": [
       {
         "ticker": "TSLA",
-        "title": "Jim Cramer Explains How NVIDIA Can Change “Direction of the Price”",
-        "summary": "NVIDIA Corporation (NASDAQ:NVDA) was among the stocks on Jim Cramer’s Mad Money radar as he taught investors how to profit from the upcoming wave of takeovers. Discussing stocks that have declined in the second quarter, Cramer mentioned the company and its possible competitors. Six: NVIDIA. NVIDIA, down just over 5% this month. At these levels, […]",
-        "published_at": "2026-07-03T08:23:56+00:00",
-        "publisher": "Insider Monkey",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explains-nvidia-change-082356845.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "TSLA",
-        "title": "Jim Cramer on Tesla: “I Think It’ll Be Bought By SpaceX Sooner Rather Than Later”",
-        "summary": "Tesla, Inc. (NASDAQ:TSLA) was among the stocks on Jim Cramer’s Mad Money radar as he taught investors how to profit from the upcoming wave of takeovers. Cramer made a prediction about the company during the episode, as he said: Finally, there’s Tesla. No issues here. I think it’ll be bought by SpaceX sooner rather than […]",
-        "published_at": "2026-07-03T08:15:53+00:00",
-        "publisher": "Insider Monkey",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-tesla-think-ll-081553609.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "TSLA",
-        "title": "Tesla, BYD, or Rivian: Which Stock Currently Has the EV Crown?",
-        "summary": "The EV race is about more than vehicle sales.",
-        "published_at": "2026-07-03T07:25:00+00:00",
+        "title": "SpaceX's Next Big Business Isn't Rockets. It's Computer Chips.",
+        "summary": "The newly public space company is quietly buying its way into the AI hardware race.",
+        "published_at": "2026-07-03T22:02:00+00:00",
         "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/07/03/tesla-byd-or-rivian-which-stock-currently-has-the/",
+        "url": "https://www.fool.com/investing/2026/07/03/spacexs-next-big-business-isnt-rockets-its-compute/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "TSLA",
-        "title": "Tesla beat the Street and was still punished. Here's why",
-        "summary": "Tesla Inc (NASDAQ:TSLA) delivered 480,126 vehicles in the second quarter, a 25% jump on a year earlier and a decisive beat against a consensus of roughly 406,000. On any conventional reading, it was the rebound the company badly needed after a bruising start to the year. The stock fell about...",
-        "published_at": "2026-07-03T06:55:00+00:00",
-        "publisher": "Proactive",
-        "url": "https://www.proactiveinvestors.com/companies/news/1094902/tesla-beat-the-street-and-was-still-punished-here-s-why-1094902.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "TSLA",
-        "title": "Burry Called a Bubble Days Ago and Now AI & EV Stocks Are Already Cracking",
-        "summary": "Michael Burry warned of an AI bubble on June 30. Days later, memory and storage stocks, and Tesla are sliding on fresh valuation fears.",
-        "published_at": "2026-07-03T03:50:38+00:00",
-        "publisher": "BeInCrypto",
-        "url": "https://beincrypto.com/burry-ai-bubble-bet-chip-stocks-crack/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "TSLA",
-        "title": "Dow Jones Futures Rise After Tesla, Sandisk, AI Stocks Dive; Apple, Robinhood Flash Buy Signals",
+        "title": "Dow Jones Futures: Techs' Rise Signal AI Trend Isn't Over; Apple, Robinhood Flash Buy Signals",
         "summary": "The stock market had strong weekly gains, but it didn't feel that way with Sandisk and other AI plays selling off Thursday.",
-        "published_at": "2026-07-03T03:00:28+00:00",
+        "published_at": "2026-07-03T20:53:55+00:00",
         "publisher": "Investor's Business Daily",
         "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-tumbles-apple-robinhood-buy-signals-tesla-sandisk-dive/?src=A00220&yptr=yahoo",
         "language": null,
@@ -518,44 +477,88 @@
       },
       {
         "ticker": "TSLA",
-        "title": "Trillionaire Elon Musk Says Neuralink Could Deliver 'Jesus-Level' Miracles: Here's What He Means",
-        "summary": "Trillionaire Elon Musk, who is the CEO of Space Exploration Technologies Corp. and Tesla Inc., affirmed that the Brain-Chip Interface (BCI) company Neuralink can enable Jesus-level miracles with its technology. Neuralink Can Restore Sight, Enable Limb Function In a post...",
-        "published_at": "2026-07-03T02:31:08+00:00",
+        "title": "Elon Musk's X Money — New Details On Bank Killer Super App",
+        "summary": "Elon Musk’s X Money is rolling out with an aggressive feature set, likely making legacy banks nervous. Powered by a metal Visa card and a deeply integrated wallet inside the X app, the so‑called \"bank killer\" now has hard numbers...",
+        "published_at": "2026-07-03T19:31:21+00:00",
         "publisher": "Benzinga",
-        "url": "https://tech.yahoo.com/ai/meta-ai/articles/trillionaire-elon-musk-says-neuralink-023108720.html",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/elon-musks-x-money-details-193121263.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "TSLA",
-        "title": "Why Did Tesla’s Stock Drop 7% Despite a Record Delivery Quarter?",
-        "summary": "Tesla stock sank 7% despite crushing Q2 delivery estimates, reversing an 8% FSD-driven rally from days earlier.",
-        "published_at": "2026-07-03T02:29:34+00:00",
-        "publisher": "BeInCrypto",
-        "url": "https://beincrypto.com/tesla-stock-drop-record-deliveries-fsd/",
+        "title": "Jim Cramer on Tesla: “I Think It’ll Be Bought By SpaceX Sooner Rather Than Later”",
+        "summary": "Tesla, Inc. (NASDAQ:TSLA) was among the stocks on Jim Cramer’s Mad Money radar as he taught investors how to profit from the upcoming wave of takeovers. Cramer made a prediction about the company during the episode, as he said: Finally, there’s Tesla. No issues here. I think it’ll be bought by SpaceX sooner rather than […]",
+        "published_at": "2026-07-03T18:05:53+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-tesla-think-ll-081553609.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "TSLA",
-        "title": "TSLA Stock Clocks Worst Day In 11 Months After Q2 Delivery Blows Past Estimates — Investors And Experts Weigh In",
-        "summary": "Earlier on Thursday, Tesla said that it delivered 480,126 vehicles in Q2 2026, beating the sell-side consensus of around 406,000 by roughly 18%.",
-        "published_at": "2026-07-03T00:31:36+00:00",
-        "publisher": "Stocktwits",
-        "url": "https://stocktwits.com/news-articles/markets/equity/tsla-stock-clocks-worst-day-in-11-months-after-q2-delivery-blows-past-estimates/cZm97iXR7jO",
+        "title": "Jim Cramer Explains Why You Need to Own NVIDIA Now",
+        "summary": "NVIDIA Corporation (NASDAQ:NVDA) was among the stocks on Jim Cramer’s Mad Money radar as he taught investors how to profit from the upcoming wave of takeovers. Discussing stocks that have declined in the second quarter, Cramer mentioned the company and its possible competitors. Six: NVIDIA. NVIDIA, down just over 5% this month. At these levels, […]",
+        "published_at": "2026-07-03T17:44:56+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explains-nvidia-change-082356845.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "TSLA",
-        "title": "Stock market today: Dow notches fresh record, Nasdaq slides as Tesla sinks, semiconductors extend decline",
-        "summary": "Stocks advanced as Wall Street reviewed the June jobs report, which came in below expectations.",
-        "published_at": "2026-07-01T22:31:36+00:00",
-        "publisher": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-july-2-223136955.html",
+        "title": "Worried About Tesla's 7% Slump Post Solid Q2 Deliveries? Grab These ETFs",
+        "summary": "TSLA's shares slide 7.5% even after record Q2 deliveries, but ETFs may offer a diversified way to capture its long-term robotics potential.",
+        "published_at": "2026-07-03T17:41:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/worried-teslas-7-slump-post-174100263.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "TSLA",
+        "title": "Meet the Major Artificial Intelligence (AI) CPU Player That Just Joined Nvidia, Tesla, and Palantir as One of the Most Popular Stocks on Robinhood",
+        "summary": "Robinhood keeps an updated list of its 10-most owned stocks on the platform.",
+        "published_at": "2026-07-03T16:35:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/07/03/major-artificial-intelligence-ai-cpu-play-amd/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "TSLA",
+        "title": "Tesla Vs. SpaceX: Here’s Which Will Outperform the Other by the End of July",
+        "summary": "Tesla (NASDAQ: TSLA) and SpaceX (NASDAQ: SPCX) sit on opposite ends of Elon Musk’s empire this July. Tesla is walking into a July 22 Q2 earnings report with vehicle margins under a microscope. SpaceX is fresh off its historic June IPO, riding institutional rotation into launch, Starlink, and its newly folded-in xAI compute segment. Tesla ... Tesla Vs. SpaceX: Here’s Which Will Outperform the Other by the End of July",
+        "published_at": "2026-07-03T16:34:59+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/07/03/tesla-vs-spacex-heres-which-will-outperform-the-other-by-the-end-of-july/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "TSLA",
+        "title": "Elon Musk Has Mojo Back, As Tesla Deliveries Skyrocket",
+        "summary": "Tesla’s (NASDAQ:TSLA) blowout Q2 delivery report is a legitimate win for the bulls. However, I’d argue that this beat does not settle the bigger debate around the stock. What is this debate, you might ask? Well, there’s a near-term and long-term view of how Tesla’s sales and deliveries have grown (or not) over time, and ... Elon Musk Has Mojo Back, As Tesla Deliveries Skyrocket",
+        "published_at": "2026-07-03T16:29:43+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/07/03/elon-musk-has-mojo-back-as-tesla-deliveries-skyrocket/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "TSLA",
+        "title": "Tesla Caps Staff AI Spending",
+        "summary": "The company is limiting weekly AI tool costs as employee token use rises.",
+        "published_at": "2026-07-03T16:21:50+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/technology/ai/articles/tesla-caps-staff-ai-spending-162150424.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
@@ -563,8 +566,8 @@
     ]
   },
   "Confidence": {
-    "scoring": "High",
-    "discovery": "High"
+    "scoring": "Medium",
+    "discovery": "Medium"
   },
-  "Timestamp": "2026-07-03T04:36:59.856978-04:00"
+  "Timestamp": "2026-07-03T18:55:51.673507-04:00"
 }

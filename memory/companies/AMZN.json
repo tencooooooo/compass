@@ -10,7 +10,7 @@
     "market_cap": 2610427854848,
     "enterprise_value": 2702878703616,
     "shares_outstanding": 10757109436,
-    "beta": 1.444,
+    "beta": 1.461,
     "trailing_pe": 31.638851,
     "forward_pe": 24.505909,
     "peg_ratio": 1.83,
@@ -60,9 +60,9 @@
     },
     {
       "date": "2026-07-03",
-      "timestamp": "2026-07-03T04:36:59.856978-04:00",
-      "score": 70,
-      "discovery_score": 59,
+      "timestamp": "2026-07-03T18:55:51.673507-04:00",
+      "score": 69,
+      "discovery_score": 57,
       "discovery_status": "Not Selected",
       "validation_results": {},
       "event_count": 10,
@@ -76,15 +76,16 @@
   "Scores": {
     "ticker": "AMZN",
     "company_name": "Amazon.com, Inc.",
-    "total_score": 70,
+    "total_score": 69,
     "max_score": 100,
     "confidence": {
       "level": "Medium",
-      "completeness_score": 95.0,
+      "completeness_score": 90.0,
       "reasons": [
         "利用可能な主要データ領域は5領域中 5 領域です。",
-        "欠損または計算不可の項目数は 1 件です。",
-        "主要データは一定程度ありますが、欠損や未取得項目が残っています。"
+        "欠損または計算不可の項目数は 2 件です。",
+        "主要データは一定程度ありますが、欠損や未取得項目が残っています。",
+        "イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。"
       ]
     },
     "scores": {
@@ -214,31 +215,33 @@
             "6M": -4.62,
             "1Y": -11.84
           },
-          "latest_volume": 48246400.0,
-          "average_volume_30d": 56281086.666666664
+          "latest_volume": 48298100.0,
+          "average_volume_30d": 56282810.0
         }
       },
       "News": {
-        "score": 14,
+        "score": 13,
         "max_score": 20,
         "reasons": [
           "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-          "ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 1 件(純比率 +0.67)で、センチメントは 6.7 点です。",
-          "イベント後の平均株価反応が 0.40% と中立圏です。"
+          "ニュース見出し・要約の簡易分類では、好材料 7 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
+          "イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。"
         ],
         "evidence": [
           "News",
           "Events",
           "Knowledge"
         ],
-        "missing_data": [],
+        "missing_data": [
+          "event_price_reaction"
+        ],
         "metrics": {
           "news_count": 10,
-          "positive_count": 5,
-          "negative_count": 1,
-          "sentiment_net_ratio": 0.67,
+          "positive_count": 7,
+          "negative_count": 0,
+          "sentiment_net_ratio": 1.0,
           "event_count": 10,
-          "events_with_price_reaction": 1
+          "events_with_price_reaction": 0
         }
       }
     },
@@ -256,12 +259,12 @@
     "company": "Amazon.com, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Internet Retail",
-    "discovery_score": 59,
+    "discovery_score": 57,
     "status": "Not Selected",
     "discovery_reasons": [
       "Scoring EngineのGrowthが 15/20 で、成長性の基礎条件が確認できます。",
       "Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。",
-      "Newsスコアが 14/20 で、材料の量と市場関心を候補評価に反映しています。",
+      "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
       "売上が取得でき、事業規模の確認ができます。",
       "EPSがプラスで、利益を伴う成長候補として確認できます。",
       "FCFがプラスで、成長投資を支える現金創出力があります。",
@@ -275,7 +278,7 @@
       "フリーキャッシュフローがプラスで、現金創出力があります。"
     ],
     "watch_points": [
-      "注意材料になり得るニュース表現が 1 件あります。",
+      "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
       "Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
       "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
       "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -298,11 +301,11 @@
       "research_and_development"
     ],
     "metrics": {
-      "scoring_total": 70.0,
+      "scoring_total": 69.0,
       "growth_score": 15.0,
       "financial_health_score": 18.0,
       "valuation_score": 16.0,
-      "news_score": 14.0,
+      "news_score": 13.0,
       "momentum": {
         "1m": -5.399185809254183,
         "3m": 15.244331922020397,
@@ -316,10 +319,10 @@
         "6m": -4.62,
         "1y": -11.84
       },
-      "positive_news": 5,
-      "watch_news": 1,
+      "positive_news": 7,
+      "watch_news": 0,
       "event_count": 10,
-      "events_with_reaction": 1,
+      "events_with_reaction": 0,
       "sector_average_score": 62.0
     }
   },
@@ -328,22 +331,10 @@
     "count": 10,
     "latest": [
       {
-        "event_id": "AMZN_25b9da18e988a433",
+        "event_id": "AMZN_10d651fd280996dc",
         "ticker": "AMZN",
-        "published_at": "2026-07-03T08:18:47+00:00",
-        "title": "Jim Cramer Says Alphabet Is “Getting Very Little Credit for YouTube, Google Cloud, or Even Search”",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-alphabet-getting-081847382.html",
-        "source": "STORY",
-        "close_price": null,
-        "previous_close": null,
-        "price_change_percent": null,
-        "volume": null
-      },
-      {
-        "event_id": "AMZN_df511f1cbaf04b15",
-        "ticker": "AMZN",
-        "published_at": "2026-07-03T08:18:22+00:00",
-        "title": "Jim Cramer on Amazon: “We Need to See a Bountiful Return, or the Declines Will Continue”",
+        "published_at": "2026-07-03T17:50:22+00:00",
+        "title": "Here’s Why Jim Cramer Thinks Amazon (AMZN) is Punished by the Markets",
         "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-amazon-see-bountiful-081822860.html",
         "source": "STORY",
         "close_price": null,
@@ -352,11 +343,11 @@
         "volume": null
       },
       {
-        "event_id": "AMZN_c49792e942ca8977",
+        "event_id": "AMZN_90665d1f35a1325f",
         "ticker": "AMZN",
-        "published_at": "2026-07-03T07:49:21+00:00",
-        "title": "Walmart and Amazon remain at the top of US retail in 2026 rankings",
-        "url": "https://www.retail-insight-network.com/news/walmart-and-amazon-remain-at-the-top-of-us-retail-in-2026-rankings/",
+        "published_at": "2026-07-03T17:45:47+00:00",
+        "title": "Here’s Why Jim Cramer Thinks Alphabet Is Still Cheap",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-alphabet-getting-081847382.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -364,11 +355,11 @@
         "volume": null
       },
       {
-        "event_id": "AMZN_1e63c8e514ba9e04",
+        "event_id": "AMZN_30431adc182ffb0f",
         "ticker": "AMZN",
-        "published_at": "2026-07-03T07:19:56+00:00",
-        "title": "Exclusive-World's biggest domain seller fears India's fake site crackdown could damage internet",
-        "url": "https://sg.finance.yahoo.com/news/exclusive-worlds-biggest-domain-seller-071956740.html",
+        "published_at": "2026-07-03T17:06:00+00:00",
+        "title": "3 Core Artificial Intelligence (AI) Market Leaders to Buy with $1,000 Right Now and Hold for the Next 20 Years",
+        "url": "https://www.fool.com/investing/2026/07/03/3-core-artificial-intelligence-ai-market-leaders-t/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -376,76 +367,88 @@
         "volume": null
       },
       {
-        "event_id": "AMZN_295903c45162801e",
+        "event_id": "AMZN_2d5edb7fb35147e7",
         "ticker": "AMZN",
-        "published_at": "2026-07-03T07:04:12+00:00",
-        "title": "Trump Jr.'s 'Amazon of guns' could benefit from proposed firearm rule",
-        "url": "https://finance.yahoo.com/video/trump-jr-amazon-guns-could-070412954.html",
+        "published_at": "2026-07-03T16:33:48+00:00",
+        "title": "Early Snowflake Investor Nails a 50% Rebound That May Only Be Warming Up",
+        "url": "https://247wallst.com/ai-portfolio/2026/07/03/early-snowflake-investor-nails-a-50-rebound-that-may-only-be-warming-up/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AMZN_5bfc8c6f2c708efc",
+        "ticker": "AMZN",
+        "published_at": "2026-07-03T16:33:00+00:00",
+        "title": "Amazon is finally taking the fight to Starlink",
+        "url": "https://www.thestreet.com/markets/amazon-taking-satellite-internet-fight-to-starlink",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AMZN_18e09838a2b984ac",
+        "ticker": "AMZN",
+        "published_at": "2026-07-03T15:11:01+00:00",
+        "title": "The Bull Case For Airbnb (ABNB) Could Change Following Its AI-Powered Shift Toward an ‘Amazon for Services’",
+        "url": "https://finance.yahoo.com/technology/ai/articles/bull-case-airbnb-abnb-could-151101896.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AMZN_82402e72884cfcdc",
+        "ticker": "AMZN",
+        "published_at": "2026-07-03T14:59:13+00:00",
+        "title": "Tesla rolls out robotaxi service in Miami",
+        "url": "https://finance.yahoo.com/technology/ai/articles/tesla-rolls-robotaxi-miami-145913748.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AMZN_1000a73d2bc58e7b",
+        "ticker": "AMZN",
+        "published_at": "2026-07-03T13:00:06+00:00",
+        "title": "Investors Heavily Search Amazon.com, Inc. (AMZN): Here is What You Need to Know",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-amazon-com-130006149.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AMZN_c378e7d8e0c9228c",
+        "ticker": "AMZN",
+        "published_at": "2026-07-03T12:51:56+00:00",
+        "title": "Wall Street Is Split on Meta’s Secret Cloud Move, and One Side Is Very Wrong",
+        "url": "https://247wallst.com/investing/2026/07/03/wall-street-is-split-on-metas-secret-cloud-move-and-one-side-is-very-wrong/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AMZN_59e0fce0c50b11c4",
+        "ticker": "AMZN",
+        "published_at": "2026-07-03T12:00:00+00:00",
+        "title": "Tokenmaxxing is out, but companies are still spending on AI. What's changed?",
+        "url": "https://finance.yahoo.com/video/tokenmaxxing-companies-still-spending-ai-120000127.html",
         "source": "VIDEO",
         "close_price": null,
         "previous_close": null,
         "price_change_percent": null,
         "volume": null
-      },
-      {
-        "event_id": "AMZN_6f0021cf4c81da4d",
-        "ticker": "AMZN",
-        "published_at": "2026-07-03T07:00:00+00:00",
-        "title": "AI Is Straining Big Tech’s Climate Goals",
-        "url": "https://www.barrons.com/articles/google-amazon-ai-data-centers-climate-099a7197?siteid=yhoof2&yptr=yahoo",
-        "source": "STORY",
-        "close_price": null,
-        "previous_close": null,
-        "price_change_percent": null,
-        "volume": null
-      },
-      {
-        "event_id": "AMZN_f654521f8d9a3f99",
-        "ticker": "AMZN",
-        "published_at": "2026-07-03T02:03:00+00:00",
-        "title": "Bank of America doubles down on Amazon stock after Prime Day",
-        "url": "https://www.thestreet.com/investing/bank-of-america-doubles-down-on-amazon-stock-after-prime-day",
-        "source": "STORY",
-        "close_price": null,
-        "previous_close": null,
-        "price_change_percent": null,
-        "volume": null
-      },
-      {
-        "event_id": "AMZN_63790a4a853328cb",
-        "ticker": "AMZN",
-        "published_at": "2026-07-03T01:48:00+00:00",
-        "title": "Meta Wants In on the Cloud. Is Amazon Stock Still a Buy?",
-        "url": "https://www.fool.com/investing/2026/07/02/meta-wants-in-on-the-cloud-is-amazon-stock-still-a/",
-        "source": "STORY",
-        "close_price": null,
-        "previous_close": null,
-        "price_change_percent": null,
-        "volume": null
-      },
-      {
-        "event_id": "AMZN_1d72cd00e0d0f1f7",
-        "ticker": "AMZN",
-        "published_at": "2026-07-03T01:00:00+00:00",
-        "title": "How Bezos Learned to Love Trump—and Win More Contracts for Blue Origin",
-        "url": "https://www.wsj.com/business/jeff-bezos-donald-trump-relationship-7e6a742e?siteid=yhoof2&yptr=yahoo",
-        "source": "STORY",
-        "close_price": null,
-        "previous_close": null,
-        "price_change_percent": null,
-        "volume": null
-      },
-      {
-        "event_id": "AMZN_8f2531db4974a3d6",
-        "ticker": "AMZN",
-        "published_at": "2026-07-02T12:02:04+00:00",
-        "title": "The average investor is running away from 'Magnificent 7' stocks",
-        "url": "https://finance.yahoo.com/markets/stocks/article/the-average-investor-is-running-away-from-magnificent-7-stocks-120204013.html",
-        "source": "STORY",
-        "close_price": 242.6699981689453,
-        "previous_close": 241.6999969482422,
-        "price_change_percent": 0.4013244654325923,
-        "volume": 48246400.0
       }
     ]
   },
@@ -454,20 +457,9 @@
     "latest": [
       {
         "ticker": "AMZN",
-        "title": "Jim Cramer Says Alphabet Is “Getting Very Little Credit for YouTube, Google Cloud, or Even Search”",
-        "summary": "Alphabet Inc. (NASDAQ:GOOGL) was among the stocks on Jim Cramer’s Mad Money radar as he taught investors how to profit from the upcoming wave of takeovers. Cramer explained why the stock declined in the second quarter, as he commented: Speaking of Google, parent company Alphabet was able to do a giant fundraise not long ago. […]",
-        "published_at": "2026-07-03T08:18:47+00:00",
-        "publisher": "Insider Monkey",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-alphabet-getting-081847382.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "AMZN",
-        "title": "Jim Cramer on Amazon: “We Need to See a Bountiful Return, or the Declines Will Continue”",
+        "title": "Here’s Why Jim Cramer Thinks Amazon (AMZN) is Punished by the Markets",
         "summary": "Amazon.com, Inc. (NASDAQ:AMZN) was among the stocks on Jim Cramer’s Mad Money radar as he taught investors how to profit from the upcoming wave of takeovers. Cramer noted why the stock “could be punished,” as he commented: Second worst performer, Amazon, off 12% from June. My Trust owns Microsoft; it owns this Amazon. This is […]",
-        "published_at": "2026-07-03T08:18:22+00:00",
+        "published_at": "2026-07-03T17:50:22+00:00",
         "publisher": "Insider Monkey",
         "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-amazon-see-bountiful-081822860.html",
         "language": null,
@@ -476,90 +468,101 @@
       },
       {
         "ticker": "AMZN",
-        "title": "Walmart and Amazon remain at the top of US retail in 2026 rankings",
-        "summary": "The 2026 Top 100 Retailers ranking from the National Retail Federation confirms that Walmart and Amazon remain the two leading forces in US retail by sales.",
-        "published_at": "2026-07-03T07:49:21+00:00",
-        "publisher": "Retail Insight Network",
-        "url": "https://www.retail-insight-network.com/news/walmart-and-amazon-remain-at-the-top-of-us-retail-in-2026-rankings/",
+        "title": "Here’s Why Jim Cramer Thinks Alphabet Is Still Cheap",
+        "summary": "Alphabet Inc. (NASDAQ:GOOGL) was among the stocks on Jim Cramer’s Mad Money radar as he taught investors how to profit from the upcoming wave of takeovers. Cramer explained why the stock declined in the second quarter, as he commented: Speaking of Google, parent company Alphabet was able to do a giant fundraise not long ago. […]",
+        "published_at": "2026-07-03T17:45:47+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-alphabet-getting-081847382.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "AMZN",
-        "title": "Exclusive-World's biggest domain seller fears India's fake site crackdown could damage internet",
-        "summary": "By Aditya Kalra, Arpan Chaturvedi and Munsif Vengattil NEW DELHI, July 3 (Reuters) - The world's biggest internet domain seller, GoDaddy, has warned that India's crackdown on fake websites",
-        "published_at": "2026-07-03T07:19:56+00:00",
+        "title": "3 Core Artificial Intelligence (AI) Market Leaders to Buy with $1,000 Right Now and Hold for the Next 20 Years",
+        "summary": "Finding stocks you can comfortably buy and hold for two decades isn't easy.",
+        "published_at": "2026-07-03T17:06:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/07/03/3-core-artificial-intelligence-ai-market-leaders-t/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "Early Snowflake Investor Nails a 50% Rebound That May Only Be Warming Up",
+        "summary": "Snowflake has quietly become one of the loudest AI-software rebounds of the year. Shares changed hands at $260 on Wednesday, up ~54% from the $169 close on February 25, when the Q4 print landed into a nervous SaaS tape. The recovery accelerated after May, when management delivered a quarter that changed the conversation from “consumption ... Early Snowflake Investor Nails a 50% Rebound That May Only Be Warming Up",
+        "published_at": "2026-07-03T16:33:48+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/ai-portfolio/2026/07/03/early-snowflake-investor-nails-a-50-rebound-that-may-only-be-warming-up/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "Amazon is finally taking the fight to Starlink",
+        "summary": "Every monopoly looks permanent right up until it isn't. Standard Oil looked untouchable. AT&T (T) owned the telephone for most of a century. In markets, dominance is usually a lease rather than a deed, and the rent comes due the moment a competitor with deeper pockets decides the prize is worth ...",
+        "published_at": "2026-07-03T16:33:00+00:00",
+        "publisher": "TheStreet",
+        "url": "https://www.thestreet.com/markets/amazon-taking-satellite-internet-fight-to-starlink",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "The Bull Case For Airbnb (ABNB) Could Change Following Its AI-Powered Shift Toward an ‘Amazon for Services’",
+        "summary": "In recent months, Airbnb has moved beyond its core home-sharing business by adding independent hotels, car rentals, grocery delivery, and luggage storage, while rolling out AI review summaries and a voice-enabled chatbot aimed at improving user experience and resolving booking issues. This push toward becoming an “Amazon for services,” underpinned by new AI capabilities, signals an effort to deepen engagement across many everyday service categories, not just travel. We’ll now examine how...",
+        "published_at": "2026-07-03T15:11:01+00:00",
+        "publisher": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/bull-case-airbnb-abnb-could-151101896.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "Tesla rolls out robotaxi service in Miami",
+        "summary": "Tesla said on Friday its robotaxi was available in Miami, ‌as the electric vehicle maker looks ‌to expand its autonomous ride-hailing operations.  The expansion highlights ​Tesla's efforts to increase adoption of its self-driving software, a version of which it uses in the robotaxis and a key ‌part of CEO ⁠Elon Musk's shift from EVs to AI and robotics.  Tesla's move comes ​as the ​robotaxi sector gains ​momentum, with competitors ‌such as Alphabet's Waymo and Amazon's Zoox accelerating their expansion efforts.",
+        "published_at": "2026-07-03T14:59:13+00:00",
         "publisher": "Reuters",
-        "url": "https://sg.finance.yahoo.com/news/exclusive-worlds-biggest-domain-seller-071956740.html",
+        "url": "https://finance.yahoo.com/technology/ai/articles/tesla-rolls-robotaxi-miami-145913748.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "AMZN",
-        "title": "Trump Jr.'s 'Amazon of guns' could benefit from proposed firearm rule",
-        "summary": "<body><p>STORY: :: Archive</p><p>Licensed dealers in the U.S. may soon be able to ship firearms directly to people's homes...</p><p>and the shift could reap a windfall for U.S. President Donald Trump's son, Donald Trump Jr., who is a shareholder and board member at&nbsp;online retailer GrabAGun.</p><p>:: Archive</p><p>The proposed rule change at the Bureau of Alcohol, Tobacco, Firearms and Explosives would allow licensed dealers to ship firearms directly to in-state residents.</p><p>That would&nbsp;be after undergoing an online identity verification and background check, along with a seven-day waiting period after notifying local law enforcement.&nbsp;</p><p>Currently, online buyers must pick up firearms at physical stores and undergo in-person background checks unless they have a permit.</p><p>If finalized, the rule would be among the most consequential changes to U.S. gun policy in two decades.</p><p>Some gun shop owners, industry officials and gun control advocates argue it poses significant public safety and security risks.</p><p>The change could benefit Trump Jr., whose shares in GrabAGun are worth around $700,000 – down from more than $5 million last year.</p><p>A spokesperson for the president’s son said he had \"zero involvement\" in the new proposal.</p><p>ATF chief counsel Robert Leider said that Trump Jr had no influence on the proposed rule, while declining to say whether the White House had any role in the proposal.</p><p>The White House said it had no record or knowledge of any \"interaction with the president's son on any of these topics.\"</p></body>",
-        "published_at": "2026-07-03T07:04:12+00:00",
-        "publisher": "Reuters Videos",
-        "url": "https://finance.yahoo.com/video/trump-jr-amazon-guns-could-070412954.html",
+        "title": "Investors Heavily Search Amazon.com, Inc. (AMZN): Here is What You Need to Know",
+        "summary": "Zacks.com users have recently been watching Amazon (AMZN) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects.",
+        "published_at": "2026-07-03T13:00:06+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-amazon-com-130006149.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "Wall Street Is Split on Meta’s Secret Cloud Move, and One Side Is Very Wrong",
+        "summary": "Meta Platforms (NASDAQ:META) is reportedly considering renting idle GPU capacity as a cloud business, and the market has picked sides. Meta shares climbed 7% in the past five days, while CoreWeave (NASDAQ:CRWV) shed 14% over just the past five days. A recent “Diet TBPN” panel laid out three framings for what is happening. At least ... Wall Street Is Split on Meta’s Secret Cloud Move, and One Side Is Very Wrong",
+        "published_at": "2026-07-03T12:51:56+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/07/03/wall-street-is-split-on-metas-secret-cloud-move-and-one-side-is-very-wrong/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "Tokenmaxxing is out, but companies are still spending on AI. What's changed?",
+        "summary": "In just a short amount of time, corporate policy on \"tokenmaxxing\" — or excessively using AI models to inflate usage on internal leaderboards — has already peaked and valleyed. After seeing their bill for AI tokens, many companies have shifted toward a more efficient outlook on AI spending. Tabs CEO Ali Hussain discusses what's changed within corporate AI pricing and what this pivot may mean for OpenAI (OPAI.PVT) and Anthropic (ANTH.PVT) ahead of their mega-IPOs.",
+        "published_at": "2026-07-03T12:00:00+00:00",
+        "publisher": "Yahoo Finance Video",
+        "url": "https://finance.yahoo.com/video/tokenmaxxing-companies-still-spending-ai-120000127.html",
         "language": null,
         "source": "VIDEO",
-        "related_tickers": null
-      },
-      {
-        "ticker": "AMZN",
-        "title": "AI Is Straining Big Tech’s Climate Goals",
-        "summary": "The AI data center buildout is causing carbon emissions to spike, according to the latest environmental reports from tech giants Google and  Amazon  Both companies have ambitious climate goals, but are now facing higher hurdles to achieve them as they put up data centers around the country.  Many new data centers are powered by carbon-emitting sources like natural gas, at least in part.  Data centers’ environmental impact is one of the biggest knocks against them.",
-        "published_at": "2026-07-03T07:00:00+00:00",
-        "publisher": "Barrons.com",
-        "url": "https://www.barrons.com/articles/google-amazon-ai-data-centers-climate-099a7197?siteid=yhoof2&yptr=yahoo",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "AMZN",
-        "title": "Bank of America doubles down on Amazon stock after Prime Day",
-        "summary": "Bank of America isn’t backing away from Amazon (AMZN) stock after Prime Day. For the most part, investors went into the event looking for cracks. The concerns pertained to deal fatigue, softer shopping baskets, and an evolving sales calendar, making Amazon’s retail momentum look less clean ...",
-        "published_at": "2026-07-03T02:03:00+00:00",
-        "publisher": "TheStreet",
-        "url": "https://www.thestreet.com/investing/bank-of-america-doubles-down-on-amazon-stock-after-prime-day",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "AMZN",
-        "title": "Meta Wants In on the Cloud. Is Amazon Stock Still a Buy?",
-        "summary": "A reported new rival is coming for the cloud computing king's most profitable business.",
-        "published_at": "2026-07-03T01:48:00+00:00",
-        "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/07/02/meta-wants-in-on-the-cloud-is-amazon-stock-still-a/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "AMZN",
-        "title": "How Bezos Learned to Love Trump—and Win More Contracts for Blue Origin",
-        "summary": "The space company has booked rapid growth under this administration, after the founder spent president’s first term being ‘hated.’",
-        "published_at": "2026-07-03T01:00:00+00:00",
-        "publisher": "The Wall Street Journal",
-        "url": "https://www.wsj.com/business/jeff-bezos-donald-trump-relationship-7e6a742e?siteid=yhoof2&yptr=yahoo",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "AMZN",
-        "title": "The average investor is running away from 'Magnificent 7' stocks",
-        "summary": "No retail love for the \"Magnificent Seven\" is persisting.",
-        "published_at": "2026-07-02T12:02:04+00:00",
-        "publisher": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/stocks/article/the-average-investor-is-running-away-from-magnificent-7-stocks-120204013.html",
-        "language": null,
-        "source": "STORY",
         "related_tickers": null
       }
     ]
@@ -568,5 +571,5 @@
     "scoring": "Medium",
     "discovery": "Medium"
   },
-  "Timestamp": "2026-07-03T04:36:59.856978-04:00"
+  "Timestamp": "2026-07-03T18:55:51.673507-04:00"
 }

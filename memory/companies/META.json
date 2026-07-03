@@ -10,10 +10,10 @@
     "market_cap": 1479647035392,
     "enterprise_value": 1485235945472,
     "shares_outstanding": 2196045588,
-    "beta": 1.229,
+    "beta": 1.246,
     "trailing_pe": 21.18866,
     "forward_pe": 15.82777,
-    "peg_ratio": 0.81,
+    "peg_ratio": 0.84,
     "price_to_book": 6.071053,
     "eps": 27.51,
     "forward_eps": 36.82768,
@@ -60,31 +60,34 @@
     },
     {
       "date": "2026-07-03",
-      "timestamp": "2026-07-03T04:36:59.856978-04:00",
-      "score": 72,
-      "discovery_score": 59,
-      "discovery_status": "Not Selected",
-      "validation_results": {},
+      "timestamp": "2026-07-03T18:55:51.673507-04:00",
+      "score": 74,
+      "discovery_score": 60,
+      "discovery_status": "Watch Candidate",
+      "validation_results": {
+        "Neutral": 5
+      },
       "event_count": 10,
       "news_count": 10,
       "confidence": {
-        "scoring": "High",
-        "discovery": "High"
+        "scoring": "Medium",
+        "discovery": "Medium"
       }
     }
   ],
   "Scores": {
     "ticker": "META",
     "company_name": "Meta Platforms, Inc.",
-    "total_score": 72,
+    "total_score": 74,
     "max_score": 100,
     "confidence": {
-      "level": "High",
-      "completeness_score": 100,
+      "level": "Medium",
+      "completeness_score": 95.0,
       "reasons": [
         "利用可能な主要データ領域は5領域中 5 領域です。",
-        "欠損または計算不可の項目数は 0 件です。",
-        "主要データが比較的そろっており、説明可能性は高めです。"
+        "欠損または計算不可の項目数は 1 件です。",
+        "主要データは一定程度ありますが、欠損や未取得項目が残っています。",
+        "イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。"
       ]
     },
     "scores": {
@@ -162,7 +165,7 @@
           "セクター比較対象が 2 社のため、Forward PER は固定閾値で評価しています。",
           "Forward PER は 15.83 で、評価ルール上は過度な割高さが抑えられています。",
           "セクター比較対象が 2 社のため、PEG は固定閾値で評価しています。",
-          "PEG は 0.81 で、評価ルール上は過度な割高さが抑えられています。",
+          "PEG は 0.84 で、評価ルール上は過度な割高さが抑えられています。",
           "セクター比較対象が 2 社のため、PBR は固定閾値で評価しています。",
           "PBR は 6.07 で、評価ルール上は過度な割高さが抑えられています。",
           "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
@@ -175,7 +178,7 @@
         "metrics": {
           "trailing_pe": 21.18866,
           "forward_pe": 15.82777,
-          "peg_ratio": 0.81,
+          "peg_ratio": 0.84,
           "price_to_book": 6.071053,
           "sector_peer_count": 2
         }
@@ -213,31 +216,33 @@
             "6M": -21.3,
             "1Y": -40.61
           },
-          "latest_volume": 21705900.0,
-          "average_volume_30d": 19096833.333333332
+          "latest_volume": 21750500.0,
+          "average_volume_30d": 19098320.0
         }
       },
       "News": {
-        "score": 11,
+        "score": 13,
         "max_score": 20,
         "reasons": [
           "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-          "ニュース見出し・要約の簡易分類では、好材料 7 件、悪材料 1 件(純比率 +0.75)で、センチメントは 7.0 点です。",
-          "イベント後の平均株価反応が -4.90% と弱く、注意が必要です。"
+          "ニュース見出し・要約の簡易分類では、好材料 8 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
+          "イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。"
         ],
         "evidence": [
           "News",
           "Events",
           "Knowledge"
         ],
-        "missing_data": [],
+        "missing_data": [
+          "event_price_reaction"
+        ],
         "metrics": {
           "news_count": 10,
-          "positive_count": 7,
-          "negative_count": 1,
-          "sentiment_net_ratio": 0.75,
+          "positive_count": 8,
+          "negative_count": 0,
+          "sentiment_net_ratio": 1.0,
           "event_count": 10,
-          "events_with_price_reaction": 2
+          "events_with_price_reaction": 0
         }
       }
     },
@@ -255,12 +260,12 @@
     "company": "Meta Platforms, Inc.",
     "sector": "Communication Services",
     "industry": "Internet Content & Information",
-    "discovery_score": 59,
-    "status": "Not Selected",
+    "discovery_score": 60,
+    "status": "Watch Candidate",
     "discovery_reasons": [
       "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
       "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
-      "Newsスコアが 11/20 で、材料の量と市場関心を候補評価に反映しています。",
+      "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
       "売上が取得でき、事業規模の確認ができます。",
       "EPSがプラスで、利益を伴う成長候補として確認できます。",
       "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -275,8 +280,7 @@
       "純利益率が高く、売上から利益を残す力があります。"
     ],
     "watch_points": [
-      "注意材料になり得るニュース表現が 1 件あります。",
-      "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+      "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
       "Communication ServicesのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
       "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
       "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -284,7 +288,7 @@
       "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
       "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
     ],
-    "confidence": "High",
+    "confidence": "Medium",
     "evidence": [
       "Company",
       "Events",
@@ -297,11 +301,11 @@
     ],
     "missing_data": [],
     "metrics": {
-      "scoring_total": 72.0,
+      "scoring_total": 74.0,
       "growth_score": 17.0,
       "financial_health_score": 20.0,
       "valuation_score": 20.0,
-      "news_score": 11.0,
+      "news_score": 13.0,
       "momentum": {
         "1m": -2.3743309866605715,
         "3m": 0.7268715938935488,
@@ -315,23 +319,304 @@
         "6m": -21.3,
         "1y": -40.61
       },
-      "positive_news": 7,
-      "watch_news": 1,
+      "positive_news": 8,
+      "watch_news": 0,
       "event_count": 10,
-      "events_with_reaction": 2,
-      "sector_average_score": 72.0
+      "events_with_reaction": 0,
+      "sector_average_score": 72.5
     }
   },
-  "Validation": [],
+  "Validation": [
+    {
+      "discovery_date": "2026-07-03",
+      "validation_date": "2026-07-03",
+      "period": "1m",
+      "ticker": "META",
+      "company": "Meta Platforms, Inc.",
+      "sector": "Communication Services",
+      "discovery_score": 60,
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで -0.68pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで -13.23pt と弱く、候補評価では注意点です。",
+        "6Mモメンタムは対SPYで -21.30pt と弱く、候補評価では注意点です。"
+      ],
+      "start_date": "2026-07-02",
+      "end_date": "2026-07-02",
+      "start_price": 582.9000244140625,
+      "end_price": 582.9000244140625,
+      "return_percent": 0.0,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
+      "sector_average_return_percent": 0.0,
+      "sector_diff_percent": 0.0,
+      "validation_result": "Neutral",
+      "confidence": "Medium",
+      "watch_points": [
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
+        "Communication ServicesのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "evidence": [
+        "Company",
+        "Discovery",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "thresholds": "Validation thresholds 1m: Excellent >= 6.0% or benchmark diff >= 4.0%; Good >= 3.0% or benchmark diff >= 2.0%; Poor <= -3.0% or benchmark diff <= -2.0%.",
+      "event_count": 10,
+      "period_complete": false
+    },
+    {
+      "discovery_date": "2026-07-03",
+      "validation_date": "2026-07-03",
+      "period": "1w",
+      "ticker": "META",
+      "company": "Meta Platforms, Inc.",
+      "sector": "Communication Services",
+      "discovery_score": 60,
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで -0.68pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで -13.23pt と弱く、候補評価では注意点です。",
+        "6Mモメンタムは対SPYで -21.30pt と弱く、候補評価では注意点です。"
+      ],
+      "start_date": "2026-07-02",
+      "end_date": "2026-07-02",
+      "start_price": 582.9000244140625,
+      "end_price": 582.9000244140625,
+      "return_percent": 0.0,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
+      "sector_average_return_percent": 0.0,
+      "sector_diff_percent": 0.0,
+      "validation_result": "Neutral",
+      "confidence": "Medium",
+      "watch_points": [
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
+        "Communication ServicesのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "evidence": [
+        "Company",
+        "Discovery",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "thresholds": "Validation thresholds 1w: Excellent >= 3.0% or benchmark diff >= 2.0%; Good >= 1.5% or benchmark diff >= 1.0%; Poor <= -1.5% or benchmark diff <= -1.0%.",
+      "event_count": 10,
+      "period_complete": false
+    },
+    {
+      "discovery_date": "2026-07-03",
+      "validation_date": "2026-07-03",
+      "period": "1y",
+      "ticker": "META",
+      "company": "Meta Platforms, Inc.",
+      "sector": "Communication Services",
+      "discovery_score": 60,
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで -0.68pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで -13.23pt と弱く、候補評価では注意点です。",
+        "6Mモメンタムは対SPYで -21.30pt と弱く、候補評価では注意点です。"
+      ],
+      "start_date": "2026-07-02",
+      "end_date": "2026-07-02",
+      "start_price": 582.9000244140625,
+      "end_price": 582.9000244140625,
+      "return_percent": 0.0,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
+      "sector_average_return_percent": 0.0,
+      "sector_diff_percent": 0.0,
+      "validation_result": "Neutral",
+      "confidence": "Medium",
+      "watch_points": [
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
+        "Communication ServicesのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "evidence": [
+        "Company",
+        "Discovery",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "thresholds": "Validation thresholds 1y: Excellent >= 15.0% or benchmark diff >= 10.0%; Good >= 8.0% or benchmark diff >= 5.0%; Poor <= -8.0% or benchmark diff <= -5.0%.",
+      "event_count": 10,
+      "period_complete": false
+    },
+    {
+      "discovery_date": "2026-07-03",
+      "validation_date": "2026-07-03",
+      "period": "3m",
+      "ticker": "META",
+      "company": "Meta Platforms, Inc.",
+      "sector": "Communication Services",
+      "discovery_score": 60,
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで -0.68pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで -13.23pt と弱く、候補評価では注意点です。",
+        "6Mモメンタムは対SPYで -21.30pt と弱く、候補評価では注意点です。"
+      ],
+      "start_date": "2026-07-02",
+      "end_date": "2026-07-02",
+      "start_price": 582.9000244140625,
+      "end_price": 582.9000244140625,
+      "return_percent": 0.0,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
+      "sector_average_return_percent": 0.0,
+      "sector_diff_percent": 0.0,
+      "validation_result": "Neutral",
+      "confidence": "Medium",
+      "watch_points": [
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
+        "Communication ServicesのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "evidence": [
+        "Company",
+        "Discovery",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "thresholds": "Validation thresholds 3m: Excellent >= 10.0% or benchmark diff >= 7.0%; Good >= 5.0% or benchmark diff >= 3.0%; Poor <= -5.0% or benchmark diff <= -3.0%.",
+      "event_count": 10,
+      "period_complete": false
+    },
+    {
+      "discovery_date": "2026-07-03",
+      "validation_date": "2026-07-03",
+      "period": "6m",
+      "ticker": "META",
+      "company": "Meta Platforms, Inc.",
+      "sector": "Communication Services",
+      "discovery_score": 60,
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで -0.68pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで -13.23pt と弱く、候補評価では注意点です。",
+        "6Mモメンタムは対SPYで -21.30pt と弱く、候補評価では注意点です。"
+      ],
+      "start_date": "2026-07-02",
+      "end_date": "2026-07-02",
+      "start_price": 582.9000244140625,
+      "end_price": 582.9000244140625,
+      "return_percent": 0.0,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
+      "sector_average_return_percent": 0.0,
+      "sector_diff_percent": 0.0,
+      "validation_result": "Neutral",
+      "confidence": "Medium",
+      "watch_points": [
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
+        "Communication ServicesのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "evidence": [
+        "Company",
+        "Discovery",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "thresholds": "Validation thresholds 6m: Excellent >= 13.0% or benchmark diff >= 9.0%; Good >= 7.0% or benchmark diff >= 4.0%; Poor <= -7.0% or benchmark diff <= -4.0%.",
+      "event_count": 10,
+      "period_complete": false
+    }
+  ],
   "Events": {
     "count": 10,
     "latest": [
       {
-        "event_id": "META_cc9d9f9021ee1900",
+        "event_id": "META_984af039a5e41c1e",
         "ticker": "META",
-        "published_at": "2026-07-03T08:18:47+00:00",
-        "title": "Jim Cramer Says Alphabet Is “Getting Very Little Credit for YouTube, Google Cloud, or Even Search”",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-alphabet-getting-081847382.html",
+        "published_at": "2026-07-03T21:55:00+00:00",
+        "title": "Meta Platforms Will Spend $135 Billion on AI in 2026. There Might Only Be 1 Reason Why.",
+        "url": "https://www.fool.com/investing/2026/07/03/meta-135-billion-ai-capex-2026-one-reason/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -339,10 +624,46 @@
         "volume": null
       },
       {
-        "event_id": "META_5c7af4806bc17481",
+        "event_id": "META_90517ec7f7ade63f",
         "ticker": "META",
-        "published_at": "2026-07-03T08:18:29+00:00",
-        "title": "Jim Cramer Says Meta’s Spending “Hasn’t Been Explained Well”",
+        "published_at": "2026-07-03T21:31:05+00:00",
+        "title": "Meta Defends WhatsApp Usernames After India Raises Cybercrime Concerns and Seeks an Explanation",
+        "url": "https://finance.yahoo.com/technology/ai/articles/meta-defends-whatsapp-usernames-india-213105934.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "META_71ad55637f46d86d",
+        "ticker": "META",
+        "published_at": "2026-07-03T21:13:44+00:00",
+        "title": "This TSX stock jumped 17% on the week and could buck its discount status on massive Alberta power centre project, analyst says",
+        "url": "https://financialpost.com/investing/tsx-stock-jumped-17-this-week-discount",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "META_ab44395483baeb45",
+        "ticker": "META",
+        "published_at": "2026-07-03T18:47:11+00:00",
+        "title": "Top Invesco Analyst: The AI Trade That “Lifted All Boats” Is Over. Now Profitability Decides Winners As “Capacity Will Catch Up”",
+        "url": "https://247wallst.com/investing/2026/07/03/top-invesco-analyst-the-ai-trade-that-lifted-all-boats-is-over-now-profitability-decides-winners-as-capacity-will-catch-up/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "META_8f6e635cdef82544",
+        "ticker": "META",
+        "published_at": "2026-07-03T17:48:29+00:00",
+        "title": "Here is Why Jim Cramer Thinks Meta Platforms (META) is Misunderstood",
         "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-meta-spending-081829530.html",
         "source": "STORY",
         "close_price": null,
@@ -351,11 +672,11 @@
         "volume": null
       },
       {
-        "event_id": "META_9562841b88ae286b",
+        "event_id": "META_5e21e8e072c7c28f",
         "ticker": "META",
-        "published_at": "2026-07-03T06:31:17+00:00",
-        "title": "Australian prime minister condemns delay of changes to child social media ban",
-        "url": "https://www.yahoo.com/news/world/articles/australian-prime-minister-condemns-delay-063117557.html",
+        "published_at": "2026-07-03T17:45:47+00:00",
+        "title": "Here’s Why Jim Cramer Thinks Alphabet Is Still Cheap",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-alphabet-getting-081847382.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -363,11 +684,11 @@
         "volume": null
       },
       {
-        "event_id": "META_fd69ee18aa871539",
+        "event_id": "META_3c3a53f7dcc867d0",
         "ticker": "META",
-        "published_at": "2026-07-03T03:16:24+00:00",
-        "title": "FormFactor and Allegro MicroSystems Shares Plummet, What You Need To Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/formfactor-allegro-microsystems-shares-plummet-031624838.html",
+        "published_at": "2026-07-03T17:39:31+00:00",
+        "title": "These Investors Say Buy Meta Platforms (META) and Ignore SpaceX Hype",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/investors-buy-meta-platforms-meta-132231039.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -375,11 +696,11 @@
         "volume": null
       },
       {
-        "event_id": "META_9633ae0015e53636",
+        "event_id": "META_f8261634fb54754a",
         "ticker": "META",
-        "published_at": "2026-07-03T03:08:24+00:00",
-        "title": "Why Dell (DELL) Shares Are Plunging Today",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-dell-dell-shares-plunging-030824605.html",
+        "published_at": "2026-07-03T17:06:00+00:00",
+        "title": "3 Core Artificial Intelligence (AI) Market Leaders to Buy with $1,000 Right Now and Hold for the Next 20 Years",
+        "url": "https://www.fool.com/investing/2026/07/03/3-core-artificial-intelligence-ai-market-leaders-t/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -387,11 +708,11 @@
         "volume": null
       },
       {
-        "event_id": "META_3ab7adde98677772",
+        "event_id": "META_05e242518f1c8c68",
         "ticker": "META",
-        "published_at": "2026-07-03T03:00:24+00:00",
-        "title": "onsemi, Skyworks Solutions, and Microchip Technology Shares Plummet, What You Need To Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/onsemi-skyworks-solutions-microchip-technology-030024466.html",
+        "published_at": "2026-07-03T16:58:53+00:00",
+        "title": "Meta Could Hand Samsung Its Biggest AI Chip Order Yet in $6.5 Billion Deal",
+        "url": "https://finance.yahoo.com/technology/ai/articles/meta-could-hand-samsung-biggest-165853956.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -399,52 +720,16 @@
         "volume": null
       },
       {
-        "event_id": "META_2170f2d0b7250f8b",
+        "event_id": "META_1ccf1c53a8c1c6ad",
         "ticker": "META",
-        "published_at": "2026-07-03T03:00:24+00:00",
-        "title": "Intel, Marvell Technology, and AMD Stocks Trade Down, What You Need To Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/intel-marvell-technology-amd-stocks-030024777.html",
+        "published_at": "2026-07-03T16:58:18+00:00",
+        "title": "Meta's AI Payoff Timeline Looks Messier",
+        "url": "https://finance.yahoo.com/technology/ai/articles/metas-ai-payoff-timeline-looks-165818735.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
         "price_change_percent": null,
         "volume": null
-      },
-      {
-        "event_id": "META_f3fea84a596c13ce",
-        "ticker": "META",
-        "published_at": "2026-07-03T02:58:16+00:00",
-        "title": "AI Memory and Storage Glut Fears Loom as SanDisk, Micron, Seagate All Plunge",
-        "url": "https://beincrypto.com/sandisk-micron-seagate-memory-glut-fears/",
-        "source": "STORY",
-        "close_price": null,
-        "previous_close": null,
-        "price_change_percent": null,
-        "volume": null
-      },
-      {
-        "event_id": "META_4195b6b82ad9290c",
-        "ticker": "META",
-        "published_at": "2026-07-02T13:51:25+00:00",
-        "title": "Stock analysts may be setting up the market for a summer failure",
-        "url": "https://finance.yahoo.com/markets/article/stock-analysts-may-be-setting-up-the-market-for-a-summer-failure-135125532.html",
-        "source": "STORY",
-        "close_price": 582.9000244140625,
-        "previous_close": 612.9099731445312,
-        "price_change_percent": -4.89630615349639,
-        "volume": 21705900.0
-      },
-      {
-        "event_id": "META_7f9e1f71de30eb02",
-        "ticker": "META",
-        "published_at": "2026-07-02T12:02:04+00:00",
-        "title": "The average investor is running away from 'Magnificent 7' stocks",
-        "url": "https://finance.yahoo.com/markets/stocks/article/the-average-investor-is-running-away-from-magnificent-7-stocks-120204013.html",
-        "source": "STORY",
-        "close_price": 582.9000244140625,
-        "previous_close": 612.9099731445312,
-        "price_change_percent": -4.89630615349639,
-        "volume": 21705900.0
       }
     ]
   },
@@ -453,20 +738,53 @@
     "latest": [
       {
         "ticker": "META",
-        "title": "Jim Cramer Says Alphabet Is “Getting Very Little Credit for YouTube, Google Cloud, or Even Search”",
-        "summary": "Alphabet Inc. (NASDAQ:GOOGL) was among the stocks on Jim Cramer’s Mad Money radar as he taught investors how to profit from the upcoming wave of takeovers. Cramer explained why the stock declined in the second quarter, as he commented: Speaking of Google, parent company Alphabet was able to do a giant fundraise not long ago. […]",
-        "published_at": "2026-07-03T08:18:47+00:00",
-        "publisher": "Insider Monkey",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-alphabet-getting-081847382.html",
+        "title": "Meta Platforms Will Spend $135 Billion on AI in 2026. There Might Only Be 1 Reason Why.",
+        "summary": "Like its hyperscaler peers, the social media juggernaut is sparing no expense to become a leader in artificial intelligence.",
+        "published_at": "2026-07-03T21:55:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/07/03/meta-135-billion-ai-capex-2026-one-reason/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "META",
-        "title": "Jim Cramer Says Meta’s Spending “Hasn’t Been Explained Well”",
+        "title": "Meta Defends WhatsApp Usernames After India Raises Cybercrime Concerns and Seeks an Explanation",
+        "summary": "The Government of India has expressed concerns over Meta Platforms Inc. introducing usernames on its messaging platform, WhatsApp, citing a potential increase in cybercrime. Despite the backlash, Meta defended its decision. Meta’s WhatsApp introduced the username feature on Monday, touting...",
+        "published_at": "2026-07-03T21:31:05+00:00",
+        "publisher": "Benzinga",
+        "url": "https://finance.yahoo.com/technology/ai/articles/meta-defends-whatsapp-usernames-india-213105934.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "META",
+        "title": "This TSX stock jumped 17% on the week and could buck its discount status on massive Alberta power centre project, analyst says",
+        "summary": "The Week in Stocks: Rosenberg's picks for the year's second half, oil patch candidates as conflict eases in the Mideast and more",
+        "published_at": "2026-07-03T21:13:44+00:00",
+        "publisher": "Financial Post",
+        "url": "https://financialpost.com/investing/tsx-stock-jumped-17-this-week-discount",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "META",
+        "title": "Top Invesco Analyst: The AI Trade That “Lifted All Boats” Is Over. Now Profitability Decides Winners As “Capacity Will Catch Up”",
+        "summary": "Invesco’s Fiona Lim says the AI-fueled semiconductor surge is shifting from a broad, momentum-driven rally to a tougher phase where stock picking and profitability will separate winners from laggards. Speaking on Bloomberg’s Insight with Haslinda Amin on July 3, Lim, who manages Asia ex-Japan equities, warned that the easy gains are likely behind investors: “The ... Top Invesco Analyst: The AI Trade That “Lifted All Boats” Is Over. Now Profitability Decides Winners As “Capacity Will Catch Up”",
+        "published_at": "2026-07-03T18:47:11+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/07/03/top-invesco-analyst-the-ai-trade-that-lifted-all-boats-is-over-now-profitability-decides-winners-as-capacity-will-catch-up/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "META",
+        "title": "Here is Why Jim Cramer Thinks Meta Platforms (META) is Misunderstood",
         "summary": "Meta Platforms, Inc. (NASDAQ:META) was among the stocks on Jim Cramer’s Mad Money radar as he taught investors how to profit from the upcoming wave of takeovers. Cramer noted how people view the stock, as he said: Third, Meta, down 11% this month. Meta is going out of style because it’s now viewed as nothing […]",
-        "published_at": "2026-07-03T08:18:29+00:00",
+        "published_at": "2026-07-03T17:48:29+00:00",
         "publisher": "Insider Monkey",
         "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-meta-spending-081829530.html",
         "language": null,
@@ -475,88 +793,55 @@
       },
       {
         "ticker": "META",
-        "title": "Australian prime minister condemns delay of changes to child social media ban",
-        "summary": "Australian Prime Minister Anthony Albanese on Friday condemned senators who blocked changes to a world-first social media ban for children, saying tech giants would use the delay to destroy incriminating documents that could be used as evidence against them.  The government this week introduced to Parliament amendments aimed at increasing powers of the eSafety Commissioner Julie Inman Grant, Australia’s online safety watchdog, to enforce the ban on Australian children younger than 16 from holding accounts on platforms including Facebook, Instagram, and YouTube that has been in place since December.  The amendments would have given Inman Grant power to demand documents as well as information from platforms about their efforts to exclude young children.",
-        "published_at": "2026-07-03T06:31:17+00:00",
-        "publisher": "Associated Press",
-        "url": "https://www.yahoo.com/news/world/articles/australian-prime-minister-condemns-delay-063117557.html",
+        "title": "Here’s Why Jim Cramer Thinks Alphabet Is Still Cheap",
+        "summary": "Alphabet Inc. (NASDAQ:GOOGL) was among the stocks on Jim Cramer’s Mad Money radar as he taught investors how to profit from the upcoming wave of takeovers. Cramer explained why the stock declined in the second quarter, as he commented: Speaking of Google, parent company Alphabet was able to do a giant fundraise not long ago. […]",
+        "published_at": "2026-07-03T17:45:47+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-alphabet-getting-081847382.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "META",
-        "title": "FormFactor and Allegro MicroSystems Shares Plummet, What You Need To Know",
-        "summary": "A number of stocks fell in the afternoon session after the semiconductor sector pulled back amid fears that AI-driven chip demand may be cooling.",
-        "published_at": "2026-07-03T03:16:24+00:00",
-        "publisher": "StockStory",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/formfactor-allegro-microsystems-shares-plummet-031624838.html",
+        "title": "These Investors Say Buy Meta Platforms (META) and Ignore SpaceX Hype",
+        "summary": "We just covered Avoid SpaceX and Buy These 11 Stocks Instead. Meta Platforms (NASDAQ:META) ranks #2 (see Avoid SpaceX and Buy These 5 Stocks Instead). Number of Hedge Fund Investors: 262 Meta Platforms (NASDAQ:META) is down about 17% so far this year amid fears that Mark Zuckerberg’s AI spending spree might not result in returns. […]",
+        "published_at": "2026-07-03T17:39:31+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/investors-buy-meta-platforms-meta-132231039.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "META",
-        "title": "Why Dell (DELL) Shares Are Plunging Today",
-        "summary": "Shares of computer hardware and IT solutions company Dell (NYSE:DELL) fell 8.6% in the afternoon session after AI-linked stocks pulled back amid fears that AI-driven chip demand may be cooling.",
-        "published_at": "2026-07-03T03:08:24+00:00",
-        "publisher": "StockStory",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-dell-dell-shares-plunging-030824605.html",
+        "title": "3 Core Artificial Intelligence (AI) Market Leaders to Buy with $1,000 Right Now and Hold for the Next 20 Years",
+        "summary": "Finding stocks you can comfortably buy and hold for two decades isn't easy.",
+        "published_at": "2026-07-03T17:06:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/07/03/3-core-artificial-intelligence-ai-market-leaders-t/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "META",
-        "title": "onsemi, Skyworks Solutions, and Microchip Technology Shares Plummet, What You Need To Know",
-        "summary": "A number of stocks fell in the afternoon session after the semiconductor sector pulled back amid fears that AI-driven chip demand may be cooling.",
-        "published_at": "2026-07-03T03:00:24+00:00",
-        "publisher": "StockStory",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/onsemi-skyworks-solutions-microchip-technology-030024466.html",
+        "title": "Meta Could Hand Samsung Its Biggest AI Chip Order Yet in $6.5 Billion Deal",
+        "summary": "Meta Could Ditch TSMC for Samsung in Massive $6.5 Billion AI Chip Bet",
+        "published_at": "2026-07-03T16:58:53+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/technology/ai/articles/meta-could-hand-samsung-biggest-165853956.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "META",
-        "title": "Intel, Marvell Technology, and AMD Stocks Trade Down, What You Need To Know",
-        "summary": "A number of stocks fell in the afternoon session after the semiconductor sector pulled back amid fears that AI-driven chip demand may be cooling.",
-        "published_at": "2026-07-03T03:00:24+00:00",
-        "publisher": "StockStory",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/intel-marvell-technology-amd-stocks-030024777.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "META",
-        "title": "AI Memory and Storage Glut Fears Loom as SanDisk, Micron, Seagate All Plunge",
-        "summary": "SanDisk sinks 14%, Micron falls 5%, and Seagate drops 10% as investors price in a looming AI memory and storage supply glut.",
-        "published_at": "2026-07-03T02:58:16+00:00",
-        "publisher": "BeInCrypto",
-        "url": "https://beincrypto.com/sandisk-micron-seagate-memory-glut-fears/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "META",
-        "title": "Stock analysts may be setting up the market for a summer failure",
-        "summary": "There is such a thing as being too bullish.",
-        "published_at": "2026-07-02T13:51:25+00:00",
-        "publisher": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/article/stock-analysts-may-be-setting-up-the-market-for-a-summer-failure-135125532.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "META",
-        "title": "The average investor is running away from 'Magnificent 7' stocks",
-        "summary": "No retail love for the \"Magnificent Seven\" is persisting.",
-        "published_at": "2026-07-02T12:02:04+00:00",
-        "publisher": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/stocks/article/the-average-investor-is-running-away-from-magnificent-7-stocks-120204013.html",
+        "title": "Meta's AI Payoff Timeline Looks Messier",
+        "summary": "Zuckerberg says progress has lagged internal expectations",
+        "published_at": "2026-07-03T16:58:18+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/technology/ai/articles/metas-ai-payoff-timeline-looks-165818735.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
@@ -564,8 +849,8 @@
     ]
   },
   "Confidence": {
-    "scoring": "High",
-    "discovery": "High"
+    "scoring": "Medium",
+    "discovery": "Medium"
   },
-  "Timestamp": "2026-07-03T04:36:59.856978-04:00"
+  "Timestamp": "2026-07-03T18:55:51.673507-04:00"
 }

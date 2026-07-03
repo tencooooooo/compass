@@ -10,10 +10,10 @@
     "market_cap": 4391827931136,
     "enterprise_value": 4329705570304,
     "shares_outstanding": 5867155790,
-    "beta": 1.237,
+    "beta": 1.247,
     "trailing_pe": 27.474045,
     "forward_pe": 24.722982,
-    "peg_ratio": 1.41,
+    "peg_ratio": 1.42,
     "price_to_book": 9.1084175,
     "eps": 13.1,
     "forward_eps": 14.55771,
@@ -60,9 +60,9 @@
     },
     {
       "date": "2026-07-03",
-      "timestamp": "2026-07-03T04:36:59.856978-04:00",
-      "score": 72,
-      "discovery_score": 72,
+      "timestamp": "2026-07-03T18:55:51.673507-04:00",
+      "score": 71,
+      "discovery_score": 70,
       "discovery_status": "Watch Candidate",
       "validation_results": {
         "Neutral": 5
@@ -78,24 +78,26 @@
   "Scores": {
     "ticker": "GOOGL",
     "company_name": "Alphabet Inc.",
-    "total_score": 72,
+    "total_score": 71,
     "max_score": 100,
     "confidence": {
       "level": "Medium",
-      "completeness_score": 95.0,
+      "completeness_score": 90.0,
       "reasons": [
         "利用可能な主要データ領域は5領域中 5 領域です。",
-        "欠損または計算不可の項目数は 1 件です。",
-        "主要データは一定程度ありますが、欠損や未取得項目が残っています。"
+        "欠損または計算不可の項目数は 2 件です。",
+        "主要データは一定程度ありますが、欠損や未取得項目が残っています。",
+        "イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。"
       ]
     },
     "scores": {
       "Growth": {
-        "score": 19,
+        "score": 20,
         "max_score": 20,
         "reasons": [
-          "revenue_growth(直近1四半期平均) は 12.04% で、プラス成長を維持しています。",
+          "revenue_growth(直近4四半期平均) は 15.89% で、+15%以上の成長です。",
           "eps_growth(直近4四半期平均) は 47.03% で、+30%以上の高成長です。",
+          "revenue_growth は直近四半期が前四半期より +5.84pt 高く、成長の加速がみられます。",
           "eps_growth は直近四半期が前四半期より +46.47pt 高く、成長の加速がみられます。",
           "純利益 がプラスで確認できるため加点しています。",
           "営業利益 がプラスで確認できるため加点しています。",
@@ -113,11 +115,14 @@
           "net_income": 132170000000.0,
           "operating_income": 129039000000.0,
           "research_and_development": 61087000000.0,
-          "revenue_yoy_growth": 12.04,
+          "revenue_yoy_growth": 21.79,
           "eps_yoy_growth": 81.85,
-          "revenue_yoy_growth_avg": 12.04,
+          "revenue_yoy_growth_avg": 15.89,
           "eps_yoy_growth_avg": 47.03,
           "revenue_growth_quarters": [
+            "2026-Q1",
+            "2025-Q3",
+            "2025-Q2",
             "2025-Q1"
           ],
           "eps_growth_quarters": [
@@ -162,7 +167,7 @@
           "セクター比較対象が 2 社のため、Forward PER は固定閾値で評価しています。",
           "Forward PER は 24.72 で、評価ルール上は過度な割高さが抑えられています。",
           "セクター比較対象が 2 社のため、PEG は固定閾値で評価しています。",
-          "PEG は 1.41 で、バリュエーション面は中立から注意寄りです。",
+          "PEG は 1.42 で、バリュエーション面は中立から注意寄りです。",
           "セクター比較対象が 2 社のため、PBR は固定閾値で評価しています。",
           "PBR は 9.11 で、バリュエーション面は中立から注意寄りです。",
           "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
@@ -175,7 +180,7 @@
         "metrics": {
           "trailing_pe": 27.474045,
           "forward_pe": 24.722982,
-          "peg_ratio": 1.41,
+          "peg_ratio": 1.42,
           "price_to_book": 9.1084175,
           "sector_peer_count": 2
         }
@@ -199,7 +204,7 @@
           "1M": -0.47672481310795767,
           "3M": 21.09517972937632,
           "6M": 14.82506639166232,
-          "1Y": 105.26431485741796,
+          "1Y": 105.26429699447458,
           "benchmark": "SPY",
           "benchmark_returns": {
             "1M": -1.69,
@@ -213,31 +218,33 @@
             "6M": 5.84,
             "1Y": 83.35
           },
-          "latest_volume": 25974800.0,
-          "average_volume_30d": 36585820.0
+          "latest_volume": 25999300.0,
+          "average_volume_30d": 36586636.666666664
         }
       },
       "News": {
-        "score": 15,
+        "score": 13,
         "max_score": 20,
         "reasons": [
           "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-          "ニュース見出し・要約の簡易分類では、好材料 7 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
-          "イベント後の平均株価反応が -0.36% と中立圏です。"
+          "ニュース見出し・要約の簡易分類では、好材料 10 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
+          "イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。"
         ],
         "evidence": [
           "News",
           "Events",
           "Knowledge"
         ],
-        "missing_data": [],
+        "missing_data": [
+          "event_price_reaction"
+        ],
         "metrics": {
           "news_count": 10,
-          "positive_count": 7,
+          "positive_count": 10,
           "negative_count": 0,
           "sentiment_net_ratio": 1.0,
           "event_count": 10,
-          "events_with_price_reaction": 2
+          "events_with_price_reaction": 0
         }
       }
     },
@@ -255,12 +262,12 @@
     "company": "Alphabet Inc.",
     "sector": "Communication Services",
     "industry": "Internet Content & Information",
-    "discovery_score": 72,
+    "discovery_score": 70,
     "status": "Watch Candidate",
     "discovery_reasons": [
-      "Scoring EngineのGrowthが 19/20 で、成長性の基礎条件が確認できます。",
+      "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
       "Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。",
-      "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+      "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
       "売上が取得でき、事業規模の確認ができます。",
       "EPSがプラスで、利益を伴う成長候補として確認できます。",
       "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -275,7 +282,7 @@
       "純利益率が高く、売上から利益を残す力があります。"
     ],
     "watch_points": [
-      "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+      "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
       "Communication ServicesのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
       "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
       "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -296,16 +303,16 @@
     ],
     "missing_data": [],
     "metrics": {
-      "scoring_total": 72.0,
-      "growth_score": 19.0,
+      "scoring_total": 71.0,
+      "growth_score": 20.0,
       "financial_health_score": 14.0,
       "valuation_score": 14.0,
-      "news_score": 15.0,
+      "news_score": 13.0,
       "momentum": {
         "1m": -0.47672481310795767,
         "3m": 21.09517972937632,
         "6m": 14.82506639166232,
-        "1y": 105.26431485741796
+        "1y": 105.26429699447458
       },
       "benchmark": "SPY",
       "excess_momentum": {
@@ -314,11 +321,11 @@
         "6m": 5.84,
         "1y": 83.35
       },
-      "positive_news": 7,
+      "positive_news": 10,
       "watch_news": 0,
       "event_count": 10,
-      "events_with_reaction": 2,
-      "sector_average_score": 72.0
+      "events_with_reaction": 0,
+      "sector_average_score": 72.5
     }
   },
   "Validation": [
@@ -329,11 +336,11 @@
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
       "sector": "Communication Services",
-      "discovery_score": 72,
+      "discovery_score": 70,
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 19/20 で、成長性の基礎条件が確認できます。",
+        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -355,7 +362,7 @@
       "validation_result": "Neutral",
       "confidence": "Medium",
       "watch_points": [
-        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
         "Communication ServicesのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -385,11 +392,11 @@
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
       "sector": "Communication Services",
-      "discovery_score": 72,
+      "discovery_score": 70,
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 19/20 で、成長性の基礎条件が確認できます。",
+        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -411,7 +418,7 @@
       "validation_result": "Neutral",
       "confidence": "Medium",
       "watch_points": [
-        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
         "Communication ServicesのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -441,11 +448,11 @@
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
       "sector": "Communication Services",
-      "discovery_score": 72,
+      "discovery_score": 70,
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 19/20 で、成長性の基礎条件が確認できます。",
+        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -467,7 +474,7 @@
       "validation_result": "Neutral",
       "confidence": "Medium",
       "watch_points": [
-        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
         "Communication ServicesのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -497,11 +504,11 @@
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
       "sector": "Communication Services",
-      "discovery_score": 72,
+      "discovery_score": 70,
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 19/20 で、成長性の基礎条件が確認できます。",
+        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -523,7 +530,7 @@
       "validation_result": "Neutral",
       "confidence": "Medium",
       "watch_points": [
-        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
         "Communication ServicesのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -553,11 +560,11 @@
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
       "sector": "Communication Services",
-      "discovery_score": 72,
+      "discovery_score": 70,
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 19/20 で、成長性の基礎条件が確認できます。",
+        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -579,7 +586,7 @@
       "validation_result": "Neutral",
       "confidence": "Medium",
       "watch_points": [
-        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
         "Communication ServicesのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -607,11 +614,11 @@
     "count": 10,
     "latest": [
       {
-        "event_id": "GOOGL_14102697c68d3822",
+        "event_id": "GOOGL_6871d109a7e7cbe3",
         "ticker": "GOOGL",
-        "published_at": "2026-07-03T08:18:47+00:00",
-        "title": "Jim Cramer Says Alphabet Is “Getting Very Little Credit for YouTube, Google Cloud, or Even Search”",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-alphabet-getting-081847382.html",
+        "published_at": "2026-07-03T18:51:00+00:00",
+        "title": "Better Artificial Intelligence (AI) Stock: Alphabet vs. Micron Technology (the Winner May Surprise You)",
+        "url": "https://www.fool.com/investing/2026/07/03/better-artificial-intelligence-ai-stock-alphabet-v/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -619,10 +626,22 @@
         "volume": null
       },
       {
-        "event_id": "GOOGL_cae56434da51d61c",
+        "event_id": "GOOGL_97b31886c5b81425",
         "ticker": "GOOGL",
-        "published_at": "2026-07-03T08:18:40+00:00",
-        "title": "Jim Cramer on Apple: “We Need to See the Quarter and Hear What They Say”",
+        "published_at": "2026-07-03T18:11:57+00:00",
+        "title": "Is Reddit (RDDT) The Best Cheap AI Stock to Buy?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/reddit-rddt-best-cheap-ai-212857097.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "GOOGL_c0739d65a62e3771",
+        "ticker": "GOOGL",
+        "published_at": "2026-07-03T17:47:40+00:00",
+        "title": "Jim Cramer’s Latest Thought on Apple Inc. (AAPL)",
         "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-apple-see-quarter-081840061.html",
         "source": "STORY",
         "close_price": null,
@@ -631,11 +650,11 @@
         "volume": null
       },
       {
-        "event_id": "GOOGL_ff9114b5fbc3c250",
+        "event_id": "GOOGL_5d0ae86858f91186",
         "ticker": "GOOGL",
-        "published_at": "2026-07-03T07:05:11+00:00",
-        "title": "EU’s top court confirms Google’s $4.7bn Android antitrust fine",
-        "url": "https://www.verdict.co.uk/eus-top-court-confirms-googles-4-7bn-android-antitrust-fine/",
+        "published_at": "2026-07-03T17:45:47+00:00",
+        "title": "Here’s Why Jim Cramer Thinks Alphabet Is Still Cheap",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-alphabet-getting-081847382.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -643,11 +662,11 @@
         "volume": null
       },
       {
-        "event_id": "GOOGL_3da52fb6b93f08aa",
+        "event_id": "GOOGL_b6205a583e3e7569",
         "ticker": "GOOGL",
-        "published_at": "2026-07-03T07:00:00+00:00",
-        "title": "AI Is Straining Big Tech’s Climate Goals",
-        "url": "https://www.barrons.com/articles/google-amazon-ai-data-centers-climate-099a7197?siteid=yhoof2&yptr=yahoo",
+        "published_at": "2026-07-03T16:58:18+00:00",
+        "title": "Meta's AI Payoff Timeline Looks Messier",
+        "url": "https://finance.yahoo.com/technology/ai/articles/metas-ai-payoff-timeline-looks-165818735.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -655,11 +674,11 @@
         "volume": null
       },
       {
-        "event_id": "GOOGL_3fd88a37f3cdef35",
+        "event_id": "GOOGL_afd5e7cbcb6c2a39",
         "ticker": "GOOGL",
-        "published_at": "2026-07-03T05:25:00+00:00",
-        "title": "Alphabet Joined the Dow and Became a Top Holding in Berkshire Hathaway's Portfolio. But This Stock Could Be an Even Better Buy.",
-        "url": "https://www.fool.com/investing/2026/07/03/alphabet-joined-the-dow-and-became-a-top-holding-i/",
+        "published_at": "2026-07-03T16:34:59+00:00",
+        "title": "Tesla Vs. SpaceX: Here’s Which Will Outperform the Other by the End of July",
+        "url": "https://247wallst.com/investing/2026/07/03/tesla-vs-spacex-heres-which-will-outperform-the-other-by-the-end-of-july/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -667,11 +686,11 @@
         "volume": null
       },
       {
-        "event_id": "GOOGL_a33c89a693c3c77b",
+        "event_id": "GOOGL_5e2416471b1bccc1",
         "ticker": "GOOGL",
-        "published_at": "2026-07-03T03:07:18+00:00",
-        "title": "AMP Says Bonds No Longer a Hedge, Cuts From Some Pension Funds",
-        "url": "https://finance.yahoo.com/markets/options/articles/amp-says-bonds-no-longer-030718382.html",
+        "published_at": "2026-07-03T16:28:58+00:00",
+        "title": "Markets Delivered Their Strongest Quarter Since 2020 — These 3 Stocks Still Have Massive Room to Run",
+        "url": "https://247wallst.com/investing/2026/07/03/markets-delivered-their-strongest-quarter-since-2020-these-3-stocks-still-have-massive-room-to-run/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -679,11 +698,11 @@
         "volume": null
       },
       {
-        "event_id": "GOOGL_e9d3687a2c7ece3f",
+        "event_id": "GOOGL_3a76b60e50c74b4e",
         "ticker": "GOOGL",
-        "published_at": "2026-07-03T01:51:56+00:00",
-        "title": "Alphabet’s dividend history, yield & future prospects explained",
-        "url": "https://www.thestreet.com/investing/stocks/alphabet-dividend",
+        "published_at": "2026-07-03T16:27:53+00:00",
+        "title": "The Economy Is Losing Steam After Adding Just 57,000 Jobs in June — But I’m Still Bullish On These 3 Unstoppable AI Stocks",
+        "url": "https://247wallst.com/investing/2026/07/03/the-economy-is-losing-steam-after-adding-just-57000-jobs-in-june-but-im-still-bullish-on-these-3-unstoppable-ai-stocks/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -691,11 +710,11 @@
         "volume": null
       },
       {
-        "event_id": "GOOGL_2a834f32794ecc9f",
+        "event_id": "GOOGL_f3893d05d1088141",
         "ticker": "GOOGL",
-        "published_at": "2026-07-03T01:48:00+00:00",
-        "title": "Meta Wants In on the Cloud. Is Amazon Stock Still a Buy?",
-        "url": "https://www.fool.com/investing/2026/07/02/meta-wants-in-on-the-cloud-is-amazon-stock-still-a/",
+        "published_at": "2026-07-03T15:15:01+00:00",
+        "title": "Dear Google Stock Fans, Mark Your Calendars for July 22",
+        "url": "https://www.barchart.com/story/news/3117520/dear-google-stock-fans-mark-your-calendars-for-july-22",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -703,28 +722,16 @@
         "volume": null
       },
       {
-        "event_id": "GOOGL_90ab71a0f1328a6b",
+        "event_id": "GOOGL_f27b226816a1d2eb",
         "ticker": "GOOGL",
-        "published_at": "2026-07-02T12:02:04+00:00",
-        "title": "The average investor is running away from 'Magnificent 7' stocks",
-        "url": "https://finance.yahoo.com/markets/stocks/article/the-average-investor-is-running-away-from-magnificent-7-stocks-120204013.html",
-        "source": "STORY",
-        "close_price": 359.9100036621094,
-        "previous_close": 361.2099914550781,
-        "price_change_percent": -0.3598980714049332,
-        "volume": 25974800.0
-      },
-      {
-        "event_id": "GOOGL_489406e85283ff2e",
-        "ticker": "GOOGL",
-        "published_at": "2026-07-02T10:00:00+00:00",
-        "title": "How Axon is replacing guns with tech",
-        "url": "https://finance.yahoo.com/video/axon-replacing-guns-tech-100000686.html",
+        "published_at": "2026-07-03T12:00:00+00:00",
+        "title": "Tokenmaxxing is out, but companies are still spending on AI. What's changed?",
+        "url": "https://finance.yahoo.com/video/tokenmaxxing-companies-still-spending-ai-120000127.html",
         "source": "VIDEO",
-        "close_price": 359.9100036621094,
-        "previous_close": 361.2099914550781,
-        "price_change_percent": -0.3598980714049332,
-        "volume": 25974800.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       }
     ]
   },
@@ -733,20 +740,31 @@
     "latest": [
       {
         "ticker": "GOOGL",
-        "title": "Jim Cramer Says Alphabet Is “Getting Very Little Credit for YouTube, Google Cloud, or Even Search”",
-        "summary": "Alphabet Inc. (NASDAQ:GOOGL) was among the stocks on Jim Cramer’s Mad Money radar as he taught investors how to profit from the upcoming wave of takeovers. Cramer explained why the stock declined in the second quarter, as he commented: Speaking of Google, parent company Alphabet was able to do a giant fundraise not long ago. […]",
-        "published_at": "2026-07-03T08:18:47+00:00",
-        "publisher": "Insider Monkey",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-alphabet-getting-081847382.html",
+        "title": "Better Artificial Intelligence (AI) Stock: Alphabet vs. Micron Technology (the Winner May Surprise You)",
+        "summary": "Both tech companies are compelling AI investments.",
+        "published_at": "2026-07-03T18:51:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/07/03/better-artificial-intelligence-ai-stock-alphabet-v/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "GOOGL",
-        "title": "Jim Cramer on Apple: “We Need to See the Quarter and Hear What They Say”",
+        "title": "Is Reddit (RDDT) The Best Cheap AI Stock to Buy?",
+        "summary": "We just covered Avoid SpaceX and Buy These 11 Stocks Instead. Reddit (NYSE:RDDT) ranks #6 (see Avoid SpaceX and Buy These 5 Stocks Instead). Number of Hedge Fund Investors: 70 Reddit (NYSE:RDDT) stock has real long-term growth catalysts that most investors are missing. The company is not just a social media platform anymore. It’s become […]",
+        "published_at": "2026-07-03T18:11:57+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/technology/ai/articles/reddit-rddt-best-cheap-ai-212857097.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "GOOGL",
+        "title": "Jim Cramer’s Latest Thought on Apple Inc. (AAPL)",
         "summary": "Apple Inc. (NASDAQ:AAPL) was among the stocks on Jim Cramer’s Mad Money radar as he taught investors how to profit from the upcoming wave of takeovers. Cramer highlighted the effect of rising cost of components on the company’s stock, as he remarked: Fourth, Apple was down over 7% in June thanks to the skyrocketing cost […]",
-        "published_at": "2026-07-03T08:18:40+00:00",
+        "published_at": "2026-07-03T17:47:40+00:00",
         "publisher": "Insider Monkey",
         "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-apple-see-quarter-081840061.html",
         "language": null,
@@ -755,88 +773,77 @@
       },
       {
         "ticker": "GOOGL",
-        "title": "EU’s top court confirms Google’s $4.7bn Android antitrust fine",
-        "summary": "The judgment concludes a legal dispute that began after the European Commission fined Google in 2018 for abusing market dominance.",
-        "published_at": "2026-07-03T07:05:11+00:00",
-        "publisher": "Verdict",
-        "url": "https://www.verdict.co.uk/eus-top-court-confirms-googles-4-7bn-android-antitrust-fine/",
+        "title": "Here’s Why Jim Cramer Thinks Alphabet Is Still Cheap",
+        "summary": "Alphabet Inc. (NASDAQ:GOOGL) was among the stocks on Jim Cramer’s Mad Money radar as he taught investors how to profit from the upcoming wave of takeovers. Cramer explained why the stock declined in the second quarter, as he commented: Speaking of Google, parent company Alphabet was able to do a giant fundraise not long ago. […]",
+        "published_at": "2026-07-03T17:45:47+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-alphabet-getting-081847382.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "GOOGL",
-        "title": "AI Is Straining Big Tech’s Climate Goals",
-        "summary": "The AI data center buildout is causing carbon emissions to spike, according to the latest environmental reports from tech giants Google and  Amazon  Both companies have ambitious climate goals, but are now facing higher hurdles to achieve them as they put up data centers around the country.  Many new data centers are powered by carbon-emitting sources like natural gas, at least in part.  Data centers’ environmental impact is one of the biggest knocks against them.",
-        "published_at": "2026-07-03T07:00:00+00:00",
-        "publisher": "Barrons.com",
-        "url": "https://www.barrons.com/articles/google-amazon-ai-data-centers-climate-099a7197?siteid=yhoof2&yptr=yahoo",
+        "title": "Meta's AI Payoff Timeline Looks Messier",
+        "summary": "Zuckerberg says progress has lagged internal expectations",
+        "published_at": "2026-07-03T16:58:18+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/technology/ai/articles/metas-ai-payoff-timeline-looks-165818735.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "GOOGL",
-        "title": "Alphabet Joined the Dow and Became a Top Holding in Berkshire Hathaway's Portfolio. But This Stock Could Be an Even Better Buy.",
-        "summary": "This under-the-radar healthcare stock just made its biggest acquisition ever -- and it could easily outperform many of Wall Street's favorite names.",
-        "published_at": "2026-07-03T05:25:00+00:00",
-        "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/07/03/alphabet-joined-the-dow-and-became-a-top-holding-i/",
+        "title": "Tesla Vs. SpaceX: Here’s Which Will Outperform the Other by the End of July",
+        "summary": "Tesla (NASDAQ: TSLA) and SpaceX (NASDAQ: SPCX) sit on opposite ends of Elon Musk’s empire this July. Tesla is walking into a July 22 Q2 earnings report with vehicle margins under a microscope. SpaceX is fresh off its historic June IPO, riding institutional rotation into launch, Starlink, and its newly folded-in xAI compute segment. Tesla ... Tesla Vs. SpaceX: Here’s Which Will Outperform the Other by the End of July",
+        "published_at": "2026-07-03T16:34:59+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/07/03/tesla-vs-spacex-heres-which-will-outperform-the-other-by-the-end-of-july/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "GOOGL",
-        "title": "AMP Says Bonds No Longer a Hedge, Cuts From Some Pension Funds",
-        "summary": "(Bloomberg) -- AMP Ltd., one of Australia’s top asset managers, has ditched bonds from some of its retirement funds with sovereign debt no longer offering the diversification investors have relied on for decades as a ballast against stock volatility.Most Read from BloombergExxon to Change Name for First Time in Decades After RedomicileGermany Rejects Trump’s Demands for NATO Loyalty to WashingtonMeta Is Planning a Cloud Business to Sell AI Computing PowerRussia Indicates Ukraine Fired Long-Range",
-        "published_at": "2026-07-03T03:07:18+00:00",
-        "publisher": "Bloomberg",
-        "url": "https://finance.yahoo.com/markets/options/articles/amp-says-bonds-no-longer-030718382.html",
+        "title": "Markets Delivered Their Strongest Quarter Since 2020 — These 3 Stocks Still Have Massive Room to Run",
+        "summary": "Markets just logged their best quarter since 2020. When I read that headline initially, my brain almost exploded. You know, given the souring sentiment we’re seeing prevailing in many headlines of late. That said, certain pockets of tech have taken over growth leadership, and the market has found a way to continue to hover around ... Markets Delivered Their Strongest Quarter Since 2020 — These 3 Stocks Still Have Massive Room to Run",
+        "published_at": "2026-07-03T16:28:58+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/07/03/markets-delivered-their-strongest-quarter-since-2020-these-3-stocks-still-have-massive-room-to-run/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "GOOGL",
-        "title": "Alphabet’s dividend history, yield & future prospects explained",
-        "summary": "Alphabet, the parent company of Google and YouTube, is the world’s second-largest company by market capitalization, worth more than $4.3 trillion as of mid 2026. The company has generated more than $100 billion in annual profit in recent years, and it's returned some of this cash to shareholders as ...",
-        "published_at": "2026-07-03T01:51:56+00:00",
-        "publisher": "TheStreet",
-        "url": "https://www.thestreet.com/investing/stocks/alphabet-dividend",
+        "title": "The Economy Is Losing Steam After Adding Just 57,000 Jobs in June — But I’m Still Bullish On These 3 Unstoppable AI Stocks",
+        "summary": "June’s jobs report was weak. That’s perhaps understating it. In an economy of more than 300 million people, the U.S. economy was only able to eke out 57,000 jobs this past month. And on top of those numbers, revisions to prior month estimates hit investors in the face, suggesting that the consumer could be slowing ... The Economy Is Losing Steam After Adding Just 57,000 Jobs in June — But I’m Still Bullish On These 3 Unstoppable AI Stocks",
+        "published_at": "2026-07-03T16:27:53+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/07/03/the-economy-is-losing-steam-after-adding-just-57000-jobs-in-june-but-im-still-bullish-on-these-3-unstoppable-ai-stocks/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "GOOGL",
-        "title": "Meta Wants In on the Cloud. Is Amazon Stock Still a Buy?",
-        "summary": "A reported new rival is coming for the cloud computing king's most profitable business.",
-        "published_at": "2026-07-03T01:48:00+00:00",
-        "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/07/02/meta-wants-in-on-the-cloud-is-amazon-stock-still-a/",
+        "title": "Dear Google Stock Fans, Mark Your Calendars for July 22",
+        "summary": "As Alphabet preps to release its latest earnings ink, will its AI push and cloud momentum continue to power the stock higher?",
+        "published_at": "2026-07-03T15:15:01+00:00",
+        "publisher": "Barchart",
+        "url": "https://www.barchart.com/story/news/3117520/dear-google-stock-fans-mark-your-calendars-for-july-22",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "GOOGL",
-        "title": "The average investor is running away from 'Magnificent 7' stocks",
-        "summary": "No retail love for the \"Magnificent Seven\" is persisting.",
-        "published_at": "2026-07-02T12:02:04+00:00",
-        "publisher": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/stocks/article/the-average-investor-is-running-away-from-magnificent-7-stocks-120204013.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "GOOGL",
-        "title": "How Axon is replacing guns with tech",
-        "summary": "Axon founder and CEO Rick Smith sits down with Yahoo Finance Executive Editor Brian Sozzi to explore the company's wild evolution from a scrappy garage startup into a $40 billion public safety tech empire driven by tasers, AI, and drones, all united under a moonshot mission to make the bullet obsolete.",
-        "published_at": "2026-07-02T10:00:00+00:00",
+        "title": "Tokenmaxxing is out, but companies are still spending on AI. What's changed?",
+        "summary": "In just a short amount of time, corporate policy on \"tokenmaxxing\" — or excessively using AI models to inflate usage on internal leaderboards — has already peaked and valleyed. After seeing their bill for AI tokens, many companies have shifted toward a more efficient outlook on AI spending. Tabs CEO Ali Hussain discusses what's changed within corporate AI pricing and what this pivot may mean for OpenAI (OPAI.PVT) and Anthropic (ANTH.PVT) ahead of their mega-IPOs.",
+        "published_at": "2026-07-03T12:00:00+00:00",
         "publisher": "Yahoo Finance Video",
-        "url": "https://finance.yahoo.com/video/axon-replacing-guns-tech-100000686.html",
+        "url": "https://finance.yahoo.com/video/tokenmaxxing-companies-still-spending-ai-120000127.html",
         "language": null,
         "source": "VIDEO",
         "related_tickers": null
@@ -847,5 +854,5 @@
     "scoring": "Medium",
     "discovery": "Medium"
   },
-  "Timestamp": "2026-07-03T04:36:59.856978-04:00"
+  "Timestamp": "2026-07-03T18:55:51.673507-04:00"
 }

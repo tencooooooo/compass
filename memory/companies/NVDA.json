@@ -10,12 +10,12 @@
     "market_cap": 4718977351680,
     "enterprise_value": 4674528215040,
     "shares_outstanding": 24221000000,
-    "beta": 2.202,
-    "trailing_pe": 29.881903,
+    "beta": 2.211,
+    "trailing_pe": 29.83614,
     "forward_pe": 15.26351,
     "peg_ratio": 0.61,
     "price_to_book": 24.142504,
-    "eps": 6.52,
+    "eps": 6.53,
     "forward_eps": 12.76443,
     "dividend_yield": 0.51,
     "52_week_high": 236.54,
@@ -23,7 +23,7 @@
     "average_volume": 158961883,
     "employees": 42000,
     "website": "https://www.nvidia.com",
-    "business_summary": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation has a strategic collaboration with Palantir Technologies Inc. to deliver an intelligent engine for running NVIDIA AI and Nemotron open models in sovereign environments. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California."
+    "business_summary": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California."
   },
   "History": [
     {
@@ -60,9 +60,9 @@
     },
     {
       "date": "2026-07-03",
-      "timestamp": "2026-07-03T04:36:59.856978-04:00",
-      "score": 70,
-      "discovery_score": 60,
+      "timestamp": "2026-07-03T18:55:51.673507-04:00",
+      "score": 74,
+      "discovery_score": 66,
       "discovery_status": "Watch Candidate",
       "validation_results": {
         "Neutral": 5
@@ -78,7 +78,7 @@
   "Scores": {
     "ticker": "NVDA",
     "company_name": "NVIDIA Corporation",
-    "total_score": 70,
+    "total_score": 74,
     "max_score": 100,
     "confidence": {
       "level": "Medium",
@@ -86,16 +86,18 @@
       "reasons": [
         "利用可能な主要データ領域は5領域中 5 領域です。",
         "欠損または計算不可の項目数は 1 件です。",
-        "主要データは一定程度ありますが、欠損や未取得項目が残っています。"
+        "主要データは一定程度ありますが、欠損や未取得項目が残っています。",
+        "イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。"
       ]
     },
     "scores": {
       "Growth": {
-        "score": 17,
+        "score": 20,
         "max_score": 20,
         "reasons": [
-          "revenue_growth が計算できないため、成長率項目は加点していません。",
+          "revenue_growth(直近4四半期平均) は 68.12% で、+30%以上の高成長です。",
           "eps_growth(直近4四半期平均) は 92.25% で、+30%以上の高成長です。",
+          "revenue_growth は直近四半期が前四半期より +22.74pt 高く、成長の加速がみられます。",
           "eps_growth は直近四半期が前四半期より +147.80pt 高く、成長の加速がみられます。",
           "純利益 がプラスで確認できるため加点しています。",
           "営業利益 がプラスで確認できるため加点しています。",
@@ -106,20 +108,23 @@
           "Financials",
           "Knowledge"
         ],
-        "missing_data": [
-          "revenue_growth"
-        ],
+        "missing_data": [],
         "metrics": {
           "total_revenue": 215938000000.0,
           "eps": 4.93,
           "net_income": 120067000000.0,
           "operating_income": 130387000000.0,
           "research_and_development": 18497000000.0,
-          "revenue_yoy_growth": null,
+          "revenue_yoy_growth": 85.23,
           "eps_yoy_growth": 214.47,
-          "revenue_yoy_growth_avg": null,
+          "revenue_yoy_growth_avg": 68.12,
           "eps_yoy_growth_avg": 92.25,
-          "revenue_growth_quarters": [],
+          "revenue_growth_quarters": [
+            "2026-Q2",
+            "2025-Q4",
+            "2025-Q3",
+            "2025-Q2"
+          ],
           "eps_growth_quarters": [
             "2026-Q2",
             "2025-Q4",
@@ -156,7 +161,7 @@
         "max_score": 20,
         "reasons": [
           "セクター比較対象が 4 社のため、PER は固定閾値で評価しています。",
-          "PER は 29.88 で、バリュエーション面は中立から注意寄りです。",
+          "PER は 29.84 で、バリュエーション面は中立から注意寄りです。",
           "セクター比較対象が 4 社のため、Forward PER は固定閾値で評価しています。",
           "Forward PER は 15.26 で、評価ルール上は過度な割高さが抑えられています。",
           "セクター比較対象が 4 社のため、PEG は固定閾値で評価しています。",
@@ -171,7 +176,7 @@
         ],
         "missing_data": [],
         "metrics": {
-          "trailing_pe": 29.881903,
+          "trailing_pe": 29.83614,
           "forward_pe": 15.26351,
           "peg_ratio": 0.61,
           "price_to_book": 24.142504,
@@ -197,7 +202,7 @@
           "1M": -12.459799754993442,
           "3M": 10.985528848427196,
           "6M": 4.013881465656128,
-          "1Y": 27.259950734080146,
+          "1Y": 27.259938050329573,
           "benchmark": "SPY",
           "benchmark_returns": {
             "1M": -1.69,
@@ -211,31 +216,33 @@
             "6M": -4.97,
             "1Y": 5.34
           },
-          "latest_volume": 142068700.0,
-          "average_volume_30d": 168586403.33333334
+          "latest_volume": 142385500.0,
+          "average_volume_30d": 168596963.33333334
         }
       },
       "News": {
-        "score": 12,
+        "score": 13,
         "max_score": 20,
         "reasons": [
           "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
           "ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
-          "イベント後の平均株価反応が -1.39% と弱く、注意が必要です。"
+          "イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。"
         ],
         "evidence": [
           "News",
           "Events",
           "Knowledge"
         ],
-        "missing_data": [],
+        "missing_data": [
+          "event_price_reaction"
+        ],
         "metrics": {
           "news_count": 10,
           "positive_count": 4,
           "negative_count": 0,
           "sentiment_net_ratio": 1.0,
           "event_count": 10,
-          "events_with_price_reaction": 1
+          "events_with_price_reaction": 0
         }
       }
     },
@@ -253,12 +260,12 @@
     "company": "NVIDIA Corporation",
     "sector": "Technology",
     "industry": "Semiconductors",
-    "discovery_score": 60,
+    "discovery_score": 66,
     "status": "Watch Candidate",
     "discovery_reasons": [
-      "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
+      "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
       "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
-      "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
+      "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
       "売上が取得でき、事業規模の確認ができます。",
       "EPSがプラスで、利益を伴う成長候補として確認できます。",
       "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -273,7 +280,7 @@
       "純利益率が高く、売上から利益を残す力があります。"
     ],
     "watch_points": [
-      "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+      "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
       "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
       "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
       "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -294,16 +301,16 @@
     ],
     "missing_data": [],
     "metrics": {
-      "scoring_total": 70.0,
-      "growth_score": 17.0,
+      "scoring_total": 74.0,
+      "growth_score": 20.0,
       "financial_health_score": 20.0,
       "valuation_score": 14.0,
-      "news_score": 12.0,
+      "news_score": 13.0,
       "momentum": {
         "1m": -12.459799754993442,
         "3m": 10.985528848427196,
         "6m": 4.013881465656128,
-        "1y": 27.259950734080146
+        "1y": 27.259938050329573
       },
       "benchmark": "SPY",
       "excess_momentum": {
@@ -315,8 +322,8 @@
       "positive_news": 4,
       "watch_news": 0,
       "event_count": 10,
-      "events_with_reaction": 1,
-      "sector_average_score": 71.5
+      "events_with_reaction": 0,
+      "sector_average_score": 72.0
     }
   },
   "Validation": [
@@ -327,11 +334,11 @@
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
       "sector": "Technology",
-      "discovery_score": 60,
+      "discovery_score": 66,
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
+        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -353,7 +360,7 @@
       "validation_result": "Neutral",
       "confidence": "Medium",
       "watch_points": [
-        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -383,11 +390,11 @@
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
       "sector": "Technology",
-      "discovery_score": 60,
+      "discovery_score": 66,
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
+        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -409,7 +416,7 @@
       "validation_result": "Neutral",
       "confidence": "Medium",
       "watch_points": [
-        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -439,11 +446,11 @@
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
       "sector": "Technology",
-      "discovery_score": 60,
+      "discovery_score": 66,
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
+        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -465,7 +472,7 @@
       "validation_result": "Neutral",
       "confidence": "Medium",
       "watch_points": [
-        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -495,11 +502,11 @@
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
       "sector": "Technology",
-      "discovery_score": 60,
+      "discovery_score": 66,
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
+        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -521,7 +528,7 @@
       "validation_result": "Neutral",
       "confidence": "Medium",
       "watch_points": [
-        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -551,11 +558,11 @@
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
       "sector": "Technology",
-      "discovery_score": 60,
+      "discovery_score": 66,
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
+        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -577,7 +584,7 @@
       "validation_result": "Neutral",
       "confidence": "Medium",
       "watch_points": [
-        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -605,11 +612,11 @@
     "count": 10,
     "latest": [
       {
-        "event_id": "NVDA_512e655ce766b0a4",
+        "event_id": "NVDA_cf61b5ea5312ecca",
         "ticker": "NVDA",
-        "published_at": "2026-07-03T08:23:56+00:00",
-        "title": "Jim Cramer Explains How NVIDIA Can Change “Direction of the Price”",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explains-nvidia-change-082356845.html",
+        "published_at": "2026-07-03T22:35:00+00:00",
+        "title": "Forget AI Stocks: This Defense Giant Has Raised Its Dividend Each of the Last 10 Years and Currently Pays a 2.75% Yield",
+        "url": "https://www.fool.com/investing/2026/07/03/forget-ai-stock-defense-giant-raised-dividend/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -617,11 +624,11 @@
         "volume": null
       },
       {
-        "event_id": "NVDA_5e2496f162470e70",
+        "event_id": "NVDA_f26b1df24c109d2d",
         "ticker": "NVDA",
-        "published_at": "2026-07-03T08:22:00+00:00",
-        "title": "Apple Just Made a Controversial Move. Is the Stock One to Avoid or Is Now the Time to Buy?",
-        "url": "https://www.fool.com/investing/2026/07/03/apple-just-made-a-controversial-move-is-the-stock/",
+        "published_at": "2026-07-03T22:17:12+00:00",
+        "title": "Brookfield (TSX:BN) Stock Looks Stretched On Fresh AI Data Center Expansion",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/brookfield-tsx-bn-stock-looks-221712426.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -629,11 +636,11 @@
         "volume": null
       },
       {
-        "event_id": "NVDA_373d63adeab366d5",
+        "event_id": "NVDA_84c6fb03a035a8fe",
         "ticker": "NVDA",
-        "published_at": "2026-07-03T08:20:00+00:00",
-        "title": "Members of Congress Are Loading Up on Johnson & Johnson and UnitedHealth. Here's Why Retail Investors Should Pay Attention.",
-        "url": "https://www.fool.com/investing/2026/07/03/congress-members-are-loading-up-on-johnson-johnson/",
+        "published_at": "2026-07-03T22:02:00+00:00",
+        "title": "SpaceX's Next Big Business Isn't Rockets. It's Computer Chips.",
+        "url": "https://www.fool.com/investing/2026/07/03/spacexs-next-big-business-isnt-rockets-its-compute/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -641,11 +648,11 @@
         "volume": null
       },
       {
-        "event_id": "NVDA_7822a3ba901868ce",
+        "event_id": "NVDA_bc611003ba95344f",
         "ticker": "NVDA",
-        "published_at": "2026-07-03T08:17:54+00:00",
-        "title": "Jim Cramer Says If Jensen Huang Is Right, Marvell Has “A Lot More Upside”",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-jensen-huang-081754859.html",
+        "published_at": "2026-07-03T21:55:00+00:00",
+        "title": "Meta Platforms Will Spend $135 Billion on AI in 2026. There Might Only Be 1 Reason Why.",
+        "url": "https://www.fool.com/investing/2026/07/03/meta-135-billion-ai-capex-2026-one-reason/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -653,11 +660,11 @@
         "volume": null
       },
       {
-        "event_id": "NVDA_ea54c87682948c76",
+        "event_id": "NVDA_91e9d6e1200fa13b",
         "ticker": "NVDA",
-        "published_at": "2026-07-03T08:13:29+00:00",
-        "title": "Bitdeer (BTDR) Signs Major Norway AI Data Center Lease As Business Focus Shifts",
-        "url": "https://finance.yahoo.com/technology/ai/articles/bitdeer-btdr-signs-major-norway-081329142.html",
+        "published_at": "2026-07-03T21:43:00+00:00",
+        "title": "Apple Is About 4% Away From Overtaking Nvidia as the World's Most Valuable Company. Could It Happen This Month?",
+        "url": "https://www.fool.com/investing/2026/07/03/apple-is-about-4-away-from-overtaking-nvidia-as-th/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -665,11 +672,11 @@
         "volume": null
       },
       {
-        "event_id": "NVDA_784f6d96cb7179ea",
+        "event_id": "NVDA_cc19b506f19129d2",
         "ticker": "NVDA",
-        "published_at": "2026-07-03T08:12:00+00:00",
-        "title": "Here Are the Average 401(k) Balances at Ages 55, 60, 65, and 70 -- How Do You Stack Up?",
-        "url": "https://www.fool.com/retirement/2026/07/03/here-are-the-average-401k-balances-at-ages-55-60-6/",
+        "published_at": "2026-07-03T21:35:00+00:00",
+        "title": "Dividend ETFs vs. Bond ETFs: Which Is the Better Investment in 2026?",
+        "url": "https://www.fool.com/investing/2026/07/03/dividend-etf-vs-bond-etf-better-invest-schd-bnd/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -677,11 +684,11 @@
         "volume": null
       },
       {
-        "event_id": "NVDA_576ef992512534ce",
+        "event_id": "NVDA_f00ce91f2beef862",
         "ticker": "NVDA",
-        "published_at": "2026-07-03T08:05:00+00:00",
-        "title": "SpaceX Stock Could Jump by 19%, According to Wall Street",
-        "url": "https://www.fool.com/investing/2026/07/03/spacex-stock-could-jump-by-19-according-to-wall-st/",
+        "published_at": "2026-07-03T21:20:00+00:00",
+        "title": "Better EV Stock: Rivian vs. Lucid",
+        "url": "https://www.fool.com/investing/2026/07/03/better-ev-stock-rivian-vs-lucid/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -689,11 +696,11 @@
         "volume": null
       },
       {
-        "event_id": "NVDA_4f07a476e8a7a60f",
+        "event_id": "NVDA_0411458cc9c61dd7",
         "ticker": "NVDA",
-        "published_at": "2026-07-03T07:59:19+00:00",
-        "title": "Why Universal Technical Institute Stock Crushed it This Week",
-        "url": "https://www.fool.com/investing/2026/07/03/why-universal-technical-institute-stock-crushed-it/",
+        "published_at": "2026-07-03T21:03:04+00:00",
+        "title": "Is This $17.5 Billion Nuclear Stock Your Ticket to Future Riches?",
+        "url": "https://www.fool.com/investing/2026/07/03/is-this-x-nuclear-stock-your-ticket-to-future-rich/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -701,11 +708,11 @@
         "volume": null
       },
       {
-        "event_id": "NVDA_6a5c2eb6ea2c7804",
+        "event_id": "NVDA_e1d65c561d1adde1",
         "ticker": "NVDA",
-        "published_at": "2026-07-03T07:25:00+00:00",
-        "title": "Tesla, BYD, or Rivian: Which Stock Currently Has the EV Crown?",
-        "url": "https://www.fool.com/investing/2026/07/03/tesla-byd-or-rivian-which-stock-currently-has-the/",
+        "published_at": "2026-07-03T20:37:00+00:00",
+        "title": "3 Reasons You Should Buy Carnival Stock in July",
+        "url": "https://www.fool.com/investing/2026/07/03/reasons-you-should-buy-carnival-stock-in-july/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -713,16 +720,16 @@
         "volume": null
       },
       {
-        "event_id": "NVDA_2b786fc52eb704b5",
+        "event_id": "NVDA_97cf8472f9c50add",
         "ticker": "NVDA",
-        "published_at": "2026-07-02T14:12:51+00:00",
-        "title": "Palantir stock jumps on analyst upgrade 'as profits have soared'",
-        "url": "https://finance.yahoo.com/markets/stocks/article/palantir-stock-jumps-on-analyst-upgrade-as-profits-have-soared-141251986.html",
+        "published_at": "2026-07-03T20:29:54+00:00",
+        "title": "How to Buy Pre-IPO Shares in Anthropic and OpenAI (And Why You Might Not Want To)",
+        "url": "https://www.fool.com/investing/2026/07/03/how-to-buy-pre-ipo-shares-in-anthropic-and-openai/",
         "source": "STORY",
-        "close_price": 194.8300018310547,
-        "previous_close": 197.5800018310547,
-        "price_change_percent": -1.3918412665829665,
-        "volume": 142068700.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       }
     ]
   },
@@ -731,110 +738,110 @@
     "latest": [
       {
         "ticker": "NVDA",
-        "title": "Jim Cramer Explains How NVIDIA Can Change “Direction of the Price”",
-        "summary": "NVIDIA Corporation (NASDAQ:NVDA) was among the stocks on Jim Cramer’s Mad Money radar as he taught investors how to profit from the upcoming wave of takeovers. Discussing stocks that have declined in the second quarter, Cramer mentioned the company and its possible competitors. Six: NVIDIA. NVIDIA, down just over 5% this month. At these levels, […]",
-        "published_at": "2026-07-03T08:23:56+00:00",
-        "publisher": "Insider Monkey",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explains-nvidia-change-082356845.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "NVDA",
-        "title": "Apple Just Made a Controversial Move. Is the Stock One to Avoid or Is Now the Time to Buy?",
-        "summary": "Investors sanctioned Apple stock after the news.",
-        "published_at": "2026-07-03T08:22:00+00:00",
+        "title": "Forget AI Stocks: This Defense Giant Has Raised Its Dividend Each of the Last 10 Years and Currently Pays a 2.75% Yield",
+        "summary": "Lockheed Martin is a durable dividend growth stock that may be just what the doctor ordered for tech-heavy portfolios.",
+        "published_at": "2026-07-03T22:35:00+00:00",
         "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/07/03/apple-just-made-a-controversial-move-is-the-stock/",
+        "url": "https://www.fool.com/investing/2026/07/03/forget-ai-stock-defense-giant-raised-dividend/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "NVDA",
-        "title": "Members of Congress Are Loading Up on Johnson & Johnson and UnitedHealth. Here's Why Retail Investors Should Pay Attention.",
-        "summary": "Politicians serve on committees that set healthcare policy, monitor government contracts, and shape regulatory frameworks.",
-        "published_at": "2026-07-03T08:20:00+00:00",
-        "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/07/03/congress-members-are-loading-up-on-johnson-johnson/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "NVDA",
-        "title": "Jim Cramer Says If Jensen Huang Is Right, Marvell Has “A Lot More Upside”",
-        "summary": "Marvell Technology, Inc. (NASDAQ:MRVL) was among the stocks on Jim Cramer’s Mad Money radar as he taught investors how to profit from the upcoming wave of takeovers. Cramer highlighted NVIDIA CEO’s endorsement of the company, as he remarked: Marvell Tech’s next. It got optical networking, and most important is the endorsement of NVIDIA CEO Jensen […]",
-        "published_at": "2026-07-03T08:17:54+00:00",
-        "publisher": "Insider Monkey",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-jensen-huang-081754859.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "NVDA",
-        "title": "Bitdeer (BTDR) Signs Major Norway AI Data Center Lease As Business Focus Shifts",
-        "summary": "Bitdeer Technologies Group (NasdaqCM:BTDR) has signed a major colocation lease for its Tydal, Norway AI data center. The facility is planned as one of Europe's largest AI data centers by installed capacity and is designed for Nvidia's Vera Rubin platform. The agreement marks a key step in Bitdeer's move from Bitcoin mining toward a focused hyperscale AI infrastructure business. Bitdeer Technologies Group is moving deeper into AI infrastructure, with the new colocation lease in Tydal putting...",
-        "published_at": "2026-07-03T08:13:29+00:00",
+        "title": "Brookfield (TSX:BN) Stock Looks Stretched On Fresh AI Data Center Expansion",
+        "summary": "Brookfield stock has returned very large gains of around 117.7% over the past three years, yet its shares now screen as expensive on broader valuation checks. This creates a clear tension between past returns and what the current price may be baking in. Around 117.7% three year returns suggest Brookfield has rewarded investors willing to hold through recent years. This raises the bar for what the current price may already reflect. Brookfield's push into AI focused infrastructure, including...",
+        "published_at": "2026-07-03T22:17:12+00:00",
         "publisher": "Simply Wall St.",
-        "url": "https://finance.yahoo.com/technology/ai/articles/bitdeer-btdr-signs-major-norway-081329142.html",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/brookfield-tsx-bn-stock-looks-221712426.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "NVDA",
-        "title": "Here Are the Average 401(k) Balances at Ages 55, 60, 65, and 70 -- How Do You Stack Up?",
-        "summary": "Find out if your 401(k) retirement saving is on track.",
-        "published_at": "2026-07-03T08:12:00+00:00",
+        "title": "SpaceX's Next Big Business Isn't Rockets. It's Computer Chips.",
+        "summary": "The newly public space company is quietly buying its way into the AI hardware race.",
+        "published_at": "2026-07-03T22:02:00+00:00",
         "publisher": "Motley Fool",
-        "url": "https://www.fool.com/retirement/2026/07/03/here-are-the-average-401k-balances-at-ages-55-60-6/",
+        "url": "https://www.fool.com/investing/2026/07/03/spacexs-next-big-business-isnt-rockets-its-compute/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "NVDA",
-        "title": "SpaceX Stock Could Jump by 19%, According to Wall Street",
-        "summary": "Is The Street being too optimistic?",
-        "published_at": "2026-07-03T08:05:00+00:00",
+        "title": "Meta Platforms Will Spend $135 Billion on AI in 2026. There Might Only Be 1 Reason Why.",
+        "summary": "Like its hyperscaler peers, the social media juggernaut is sparing no expense to become a leader in artificial intelligence.",
+        "published_at": "2026-07-03T21:55:00+00:00",
         "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/07/03/spacex-stock-could-jump-by-19-according-to-wall-st/",
+        "url": "https://www.fool.com/investing/2026/07/03/meta-135-billion-ai-capex-2026-one-reason/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "NVDA",
-        "title": "Why Universal Technical Institute Stock Crushed it This Week",
-        "summary": "It tapped a higher education veteran for the new campus it's set to open in 2027.",
-        "published_at": "2026-07-03T07:59:19+00:00",
+        "title": "Apple Is About 4% Away From Overtaking Nvidia as the World's Most Valuable Company. Could It Happen This Month?",
+        "summary": "Two giants are separated by a gap that a single earnings report could close.",
+        "published_at": "2026-07-03T21:43:00+00:00",
         "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/07/03/why-universal-technical-institute-stock-crushed-it/",
+        "url": "https://www.fool.com/investing/2026/07/03/apple-is-about-4-away-from-overtaking-nvidia-as-th/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "NVDA",
-        "title": "Tesla, BYD, or Rivian: Which Stock Currently Has the EV Crown?",
-        "summary": "The EV race is about more than vehicle sales.",
-        "published_at": "2026-07-03T07:25:00+00:00",
+        "title": "Dividend ETFs vs. Bond ETFs: Which Is the Better Investment in 2026?",
+        "summary": "Both are great portfolio diversifiers.",
+        "published_at": "2026-07-03T21:35:00+00:00",
         "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/07/03/tesla-byd-or-rivian-which-stock-currently-has-the/",
+        "url": "https://www.fool.com/investing/2026/07/03/dividend-etf-vs-bond-etf-better-invest-schd-bnd/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "NVDA",
-        "title": "Palantir stock jumps on analyst upgrade 'as profits have soared'",
-        "summary": "Palantir stock extended gains on Thursay after an upgrade at DA Davidson.",
-        "published_at": "2026-07-02T14:12:51+00:00",
-        "publisher": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/stocks/article/palantir-stock-jumps-on-analyst-upgrade-as-profits-have-soared-141251986.html",
+        "title": "Better EV Stock: Rivian vs. Lucid",
+        "summary": "Rivian and Lucid are both fighting an uphill battle, but Rivian appears to have a far better strategy for winning.",
+        "published_at": "2026-07-03T21:20:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/07/03/better-ev-stock-rivian-vs-lucid/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "NVDA",
+        "title": "Is This $17.5 Billion Nuclear Stock Your Ticket to Future Riches?",
+        "summary": "BWX Technologies is still a best in breed play on the nuclear market.",
+        "published_at": "2026-07-03T21:03:04+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/07/03/is-this-x-nuclear-stock-your-ticket-to-future-rich/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "NVDA",
+        "title": "3 Reasons You Should Buy Carnival Stock in July",
+        "summary": "The leading cruise line operator is poised to be a winner in the coming years.",
+        "published_at": "2026-07-03T20:37:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/07/03/reasons-you-should-buy-carnival-stock-in-july/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "NVDA",
+        "title": "How to Buy Pre-IPO Shares in Anthropic and OpenAI (And Why You Might Not Want To)",
+        "summary": "Investors who chase these two hot AI stocks today are taking on some massive risks.",
+        "published_at": "2026-07-03T20:29:54+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/07/03/how-to-buy-pre-ipo-shares-in-anthropic-and-openai/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
@@ -845,5 +852,5 @@
     "scoring": "Medium",
     "discovery": "Medium"
   },
-  "Timestamp": "2026-07-03T04:36:59.856978-04:00"
+  "Timestamp": "2026-07-03T18:55:51.673507-04:00"
 }

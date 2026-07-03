@@ -10,7 +10,7 @@
     "market_cap": 2900729528320,
     "enterprise_value": 2947933536256,
     "shares_outstanding": 7428434704,
-    "beta": 1.103,
+    "beta": 1.13,
     "trailing_pe": 23.257294,
     "forward_pe": 20.160732,
     "peg_ratio": 1.15,
@@ -60,9 +60,9 @@
     },
     {
       "date": "2026-07-03",
-      "timestamp": "2026-07-03T04:36:59.856978-04:00",
-      "score": 76,
-      "discovery_score": 64,
+      "timestamp": "2026-07-03T18:55:51.673507-04:00",
+      "score": 72,
+      "discovery_score": 60,
       "discovery_status": "Watch Candidate",
       "validation_results": {
         "Neutral": 5
@@ -70,23 +70,24 @@
       "event_count": 10,
       "news_count": 10,
       "confidence": {
-        "scoring": "High",
-        "discovery": "High"
+        "scoring": "Medium",
+        "discovery": "Medium"
       }
     }
   ],
   "Scores": {
     "ticker": "MSFT",
     "company_name": "Microsoft Corporation",
-    "total_score": 76,
+    "total_score": 72,
     "max_score": 100,
     "confidence": {
-      "level": "High",
-      "completeness_score": 100,
+      "level": "Medium",
+      "completeness_score": 95.0,
       "reasons": [
         "利用可能な主要データ領域は5領域中 5 領域です。",
-        "欠損または計算不可の項目数は 0 件です。",
-        "主要データが比較的そろっており、説明可能性は高めです。"
+        "欠損または計算不可の項目数は 1 件です。",
+        "主要データは一定程度ありますが、欠損や未取得項目が残っています。",
+        "イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。"
       ]
     },
     "scores": {
@@ -199,8 +200,8 @@
         "metrics": {
           "1M": -11.515716300415619,
           "3M": 5.946813864422997,
-          "6M": -19.539475885063652,
-          "1Y": -20.006286678936196,
+          "6M": -19.53948094454322,
+          "1Y": -20.006281677993236,
           "benchmark": "SPY",
           "benchmark_returns": {
             "1M": -1.69,
@@ -214,31 +215,33 @@
             "6M": -28.52,
             "1Y": -41.93
           },
-          "latest_volume": 42128900.0,
-          "average_volume_30d": 45862040.0
+          "latest_volume": 42194400.0,
+          "average_volume_30d": 45864223.333333336
         }
       },
       "News": {
-        "score": 17,
+        "score": 13,
         "max_score": 20,
         "reasons": [
           "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
           "ニュース見出し・要約の簡易分類では、好材料 8 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
-          "イベント後の平均株価反応が 1.62% とプラスです。"
+          "イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。"
         ],
         "evidence": [
           "News",
           "Events",
           "Knowledge"
         ],
-        "missing_data": [],
+        "missing_data": [
+          "event_price_reaction"
+        ],
         "metrics": {
           "news_count": 10,
           "positive_count": 8,
           "negative_count": 0,
           "sentiment_net_ratio": 1.0,
           "event_count": 10,
-          "events_with_price_reaction": 2
+          "events_with_price_reaction": 0
         }
       }
     },
@@ -256,12 +259,12 @@
     "company": "Microsoft Corporation",
     "sector": "Technology",
     "industry": "Software - Infrastructure",
-    "discovery_score": 64,
+    "discovery_score": 60,
     "status": "Watch Candidate",
     "discovery_reasons": [
       "Scoring EngineのGrowthが 18/20 で、成長性の基礎条件が確認できます。",
       "Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。",
-      "Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。",
+      "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
       "売上が取得でき、事業規模の確認ができます。",
       "EPSがプラスで、利益を伴う成長候補として確認できます。",
       "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -276,6 +279,7 @@
       "純利益率が高く、売上から利益を残す力があります。"
     ],
     "watch_points": [
+      "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
       "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
       "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
       "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -283,7 +287,7 @@
       "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
       "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
     ],
-    "confidence": "High",
+    "confidence": "Medium",
     "evidence": [
       "Company",
       "Events",
@@ -296,16 +300,16 @@
     ],
     "missing_data": [],
     "metrics": {
-      "scoring_total": 76.0,
+      "scoring_total": 72.0,
       "growth_score": 18.0,
       "financial_health_score": 18.0,
       "valuation_score": 18.0,
-      "news_score": 17.0,
+      "news_score": 13.0,
       "momentum": {
         "1m": -11.515716300415619,
         "3m": 5.946813864422997,
-        "6m": -19.539475885063652,
-        "1y": -20.006286678936196
+        "6m": -19.53948094454322,
+        "1y": -20.006281677993236
       },
       "benchmark": "SPY",
       "excess_momentum": {
@@ -317,8 +321,8 @@
       "positive_news": 8,
       "watch_news": 0,
       "event_count": 10,
-      "events_with_reaction": 2,
-      "sector_average_score": 71.5
+      "events_with_reaction": 0,
+      "sector_average_score": 72.0
     }
   },
   "Validation": [
@@ -329,11 +333,11 @@
       "ticker": "MSFT",
       "company": "Microsoft Corporation",
       "sector": "Technology",
-      "discovery_score": 64,
+      "discovery_score": 60,
       "discovery_reasons": [
         "Scoring EngineのGrowthが 18/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -353,8 +357,9 @@
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "High",
+      "confidence": "Medium",
       "watch_points": [
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -384,11 +389,11 @@
       "ticker": "MSFT",
       "company": "Microsoft Corporation",
       "sector": "Technology",
-      "discovery_score": 64,
+      "discovery_score": 60,
       "discovery_reasons": [
         "Scoring EngineのGrowthが 18/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -408,8 +413,9 @@
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "High",
+      "confidence": "Medium",
       "watch_points": [
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -439,11 +445,11 @@
       "ticker": "MSFT",
       "company": "Microsoft Corporation",
       "sector": "Technology",
-      "discovery_score": 64,
+      "discovery_score": 60,
       "discovery_reasons": [
         "Scoring EngineのGrowthが 18/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -463,8 +469,9 @@
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "High",
+      "confidence": "Medium",
       "watch_points": [
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -494,11 +501,11 @@
       "ticker": "MSFT",
       "company": "Microsoft Corporation",
       "sector": "Technology",
-      "discovery_score": 64,
+      "discovery_score": 60,
       "discovery_reasons": [
         "Scoring EngineのGrowthが 18/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -518,8 +525,9 @@
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "High",
+      "confidence": "Medium",
       "watch_points": [
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -549,11 +557,11 @@
       "ticker": "MSFT",
       "company": "Microsoft Corporation",
       "sector": "Technology",
-      "discovery_score": 64,
+      "discovery_score": 60,
       "discovery_reasons": [
         "Scoring EngineのGrowthが 18/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -573,8 +581,9 @@
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "High",
+      "confidence": "Medium",
       "watch_points": [
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -602,11 +611,11 @@
     "count": 10,
     "latest": [
       {
-        "event_id": "MSFT_e5f01d62b2db0613",
+        "event_id": "MSFT_7080eafb4de6e995",
         "ticker": "MSFT",
-        "published_at": "2026-07-03T08:18:47+00:00",
-        "title": "Jim Cramer Says Alphabet Is “Getting Very Little Credit for YouTube, Google Cloud, or Even Search”",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-alphabet-getting-081847382.html",
+        "published_at": "2026-07-03T21:01:00+00:00",
+        "title": "Microsoft Had Its Worst Month in More Than 25 Years. Should Investors Buy the Crash?",
+        "url": "https://www.fool.com/investing/2026/07/03/is-microsoft-a-buy-after-worst-month-in-25-years/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -614,11 +623,11 @@
         "volume": null
       },
       {
-        "event_id": "MSFT_cb6b7bb87c2a0816",
+        "event_id": "MSFT_604b455b66fe273c",
         "ticker": "MSFT",
-        "published_at": "2026-07-03T08:18:22+00:00",
-        "title": "Jim Cramer on Amazon: “We Need to See a Bountiful Return, or the Declines Will Continue”",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-amazon-see-bountiful-081822860.html",
+        "published_at": "2026-07-03T20:11:39+00:00",
+        "title": "Microsoft (MSFT) Launches $2.5 Billion Frontier Company For Enterprise AI Adoption",
+        "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-launches-2-5-201139635.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -626,9 +635,9 @@
         "volume": null
       },
       {
-        "event_id": "MSFT_15bd9c8c8f33f5e0",
+        "event_id": "MSFT_4ced20c9ad2d8a56",
         "ticker": "MSFT",
-        "published_at": "2026-07-03T08:18:13+00:00",
+        "published_at": "2026-07-03T17:51:13+00:00",
         "title": "Jim Cramer Explains What Microsoft Needs to Do to “Reverse Its Fortunes”",
         "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explains-microsoft-needs-081813422.html",
         "source": "STORY",
@@ -638,11 +647,11 @@
         "volume": null
       },
       {
-        "event_id": "MSFT_5f1c98ded18ce55b",
+        "event_id": "MSFT_fd484f77b27cf25b",
         "ticker": "MSFT",
-        "published_at": "2026-07-03T07:55:42+00:00",
-        "title": "Microsoft launches Microsoft Frontier Company with $2.5bn investment",
-        "url": "https://www.verdict.co.uk/microsoft-launches-microsoft-frontier-company/",
+        "published_at": "2026-07-03T17:50:22+00:00",
+        "title": "Here’s Why Jim Cramer Thinks Amazon (AMZN) is Punished by the Markets",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-amazon-see-bountiful-081822860.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -650,11 +659,11 @@
         "volume": null
       },
       {
-        "event_id": "MSFT_f0f1fed6ffa83363",
+        "event_id": "MSFT_4e884e3ca7f54231",
         "ticker": "MSFT",
-        "published_at": "2026-07-03T04:25:35+00:00",
-        "title": "Microsoft Commits $2.5 Billion to New AI Deployment Business",
-        "url": "https://beincrypto.com/microsoft-frontier-company-enterprise-ai/",
+        "published_at": "2026-07-03T17:45:47+00:00",
+        "title": "Here’s Why Jim Cramer Thinks Alphabet Is Still Cheap",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-alphabet-getting-081847382.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -662,11 +671,11 @@
         "volume": null
       },
       {
-        "event_id": "MSFT_ce9bd38b47348e25",
+        "event_id": "MSFT_38d9611060c7198b",
         "ticker": "MSFT",
-        "published_at": "2026-07-03T01:48:00+00:00",
-        "title": "Meta Wants In on the Cloud. Is Amazon Stock Still a Buy?",
-        "url": "https://www.fool.com/investing/2026/07/02/meta-wants-in-on-the-cloud-is-amazon-stock-still-a/",
+        "published_at": "2026-07-03T17:35:15+00:00",
+        "title": "Veteran Tech Analyst: The Market Has Wrongly Left Software for Dead in the AI Rotation",
+        "url": "https://247wallst.com/investing/2026/07/03/veteran-tech-analyst-the-market-has-wrongly-left-software-for-dead-in-the-ai-rotation/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -674,11 +683,11 @@
         "volume": null
       },
       {
-        "event_id": "MSFT_d6699798e01752a0",
+        "event_id": "MSFT_1d04c5b909a8120b",
         "ticker": "MSFT",
-        "published_at": "2026-07-03T01:32:24+00:00",
-        "title": "Kyndryl (KD) Stock Trades Up, Here Is Why",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/kyndryl-kd-stock-trades-why-013224265.html",
+        "published_at": "2026-07-03T17:35:00+00:00",
+        "title": "This Tech ETF Is Quietly Outperforming QQQ in 2026 -- Is There Still Time to Buy?",
+        "url": "https://www.fool.com/investing/2026/07/03/tech-etf-vgt-quietly-outperform-qqq-2026-buy/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -686,11 +695,11 @@
         "volume": null
       },
       {
-        "event_id": "MSFT_fa5838a41274e598",
+        "event_id": "MSFT_a67c50499af1cc2e",
         "ticker": "MSFT",
-        "published_at": "2026-07-03T01:24:24+00:00",
-        "title": "Why Genpact (G) Stock Is Up Today",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-genpact-g-stock-today-012424080.html",
+        "published_at": "2026-07-03T17:31:23+00:00",
+        "title": "Microsoft to Announce Fresh Layoffs Impacting Thousands as AI Investment Surge Reshapes Workforce: Report (UPDATED)",
+        "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-announce-fresh-layoffs-impacting-173123093.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -698,28 +707,28 @@
         "volume": null
       },
       {
-        "event_id": "MSFT_c713e306ad02b71a",
+        "event_id": "MSFT_a713101383ffe871",
         "ticker": "MSFT",
-        "published_at": "2026-07-02T13:51:25+00:00",
-        "title": "Stock analysts may be setting up the market for a summer failure",
-        "url": "https://finance.yahoo.com/markets/article/stock-analysts-may-be-setting-up-the-market-for-a-summer-failure-135125532.html",
+        "published_at": "2026-07-03T17:06:00+00:00",
+        "title": "3 Core Artificial Intelligence (AI) Market Leaders to Buy with $1,000 Right Now and Hold for the Next 20 Years",
+        "url": "https://www.fool.com/investing/2026/07/03/3-core-artificial-intelligence-ai-market-leaders-t/",
         "source": "STORY",
-        "close_price": 390.489990234375,
-        "previous_close": 384.2799987792969,
-        "price_change_percent": 1.6160069415022307,
-        "volume": 42128900.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "MSFT_0156079e0a1cf097",
+        "event_id": "MSFT_13eac862ef710160",
         "ticker": "MSFT",
-        "published_at": "2026-07-02T12:02:04+00:00",
-        "title": "The average investor is running away from 'Magnificent 7' stocks",
-        "url": "https://finance.yahoo.com/markets/stocks/article/the-average-investor-is-running-away-from-magnificent-7-stocks-120204013.html",
-        "source": "STORY",
-        "close_price": 390.489990234375,
-        "previous_close": 384.2799987792969,
-        "price_change_percent": 1.6160069415022307,
-        "volume": 42128900.0
+        "published_at": "2026-07-03T12:00:00+00:00",
+        "title": "Tokenmaxxing is out, but companies are still spending on AI. What's changed?",
+        "url": "https://finance.yahoo.com/video/tokenmaxxing-companies-still-spending-ai-120000127.html",
+        "source": "VIDEO",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       }
     ]
   },
@@ -728,22 +737,22 @@
     "latest": [
       {
         "ticker": "MSFT",
-        "title": "Jim Cramer Says Alphabet Is “Getting Very Little Credit for YouTube, Google Cloud, or Even Search”",
-        "summary": "Alphabet Inc. (NASDAQ:GOOGL) was among the stocks on Jim Cramer’s Mad Money radar as he taught investors how to profit from the upcoming wave of takeovers. Cramer explained why the stock declined in the second quarter, as he commented: Speaking of Google, parent company Alphabet was able to do a giant fundraise not long ago. […]",
-        "published_at": "2026-07-03T08:18:47+00:00",
-        "publisher": "Insider Monkey",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-alphabet-getting-081847382.html",
+        "title": "Microsoft Had Its Worst Month in More Than 25 Years. Should Investors Buy the Crash?",
+        "summary": "The software giant declined nearly 20% in June, the company's worst month since the dot-com bubble.",
+        "published_at": "2026-07-03T21:01:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/07/03/is-microsoft-a-buy-after-worst-month-in-25-years/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "MSFT",
-        "title": "Jim Cramer on Amazon: “We Need to See a Bountiful Return, or the Declines Will Continue”",
-        "summary": "Amazon.com, Inc. (NASDAQ:AMZN) was among the stocks on Jim Cramer’s Mad Money radar as he taught investors how to profit from the upcoming wave of takeovers. Cramer noted why the stock “could be punished,” as he commented: Second worst performer, Amazon, off 12% from June. My Trust owns Microsoft; it owns this Amazon. This is […]",
-        "published_at": "2026-07-03T08:18:22+00:00",
-        "publisher": "Insider Monkey",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-amazon-see-bountiful-081822860.html",
+        "title": "Microsoft (MSFT) Launches $2.5 Billion Frontier Company For Enterprise AI Adoption",
+        "summary": "Microsoft has announced the launch of Microsoft Frontier Company with a planned investment of $2.5b. The new unit will embed 6,000 AI engineers and specialists directly with enterprise customers. The initiative aims to accelerate large scale AI adoption across industries in partnership with firms such as Accenture and KPMG. For investors tracking Microsoft, NasdaqGS:MSFT, this move represents a material expansion of its AI services effort rather than a routine product update. The stock last...",
+        "published_at": "2026-07-03T20:11:39+00:00",
+        "publisher": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-launches-2-5-201139635.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
@@ -752,7 +761,7 @@
         "ticker": "MSFT",
         "title": "Jim Cramer Explains What Microsoft Needs to Do to “Reverse Its Fortunes”",
         "summary": "Microsoft Corporation (NASDAQ:MSFT) was among the stocks on Jim Cramer’s Mad Money radar as he taught investors how to profit from the upcoming wave of takeovers. Cramer highlighted the company stock’s decline during the second quarter, as he stated: We need to go over what the heck happened to these losing stocks in the month […]",
-        "published_at": "2026-07-03T08:18:13+00:00",
+        "published_at": "2026-07-03T17:51:13+00:00",
         "publisher": "Insider Monkey",
         "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explains-microsoft-needs-081813422.html",
         "language": null,
@@ -761,86 +770,86 @@
       },
       {
         "ticker": "MSFT",
-        "title": "Microsoft launches Microsoft Frontier Company with $2.5bn investment",
-        "summary": "The new company will focus on integrating enterprise AI, offering tailored support and protecting client data and intellectual property.",
-        "published_at": "2026-07-03T07:55:42+00:00",
-        "publisher": "Verdict",
-        "url": "https://www.verdict.co.uk/microsoft-launches-microsoft-frontier-company/",
+        "title": "Here’s Why Jim Cramer Thinks Amazon (AMZN) is Punished by the Markets",
+        "summary": "Amazon.com, Inc. (NASDAQ:AMZN) was among the stocks on Jim Cramer’s Mad Money radar as he taught investors how to profit from the upcoming wave of takeovers. Cramer noted why the stock “could be punished,” as he commented: Second worst performer, Amazon, off 12% from June. My Trust owns Microsoft; it owns this Amazon. This is […]",
+        "published_at": "2026-07-03T17:50:22+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-amazon-see-bountiful-081822860.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "MSFT",
-        "title": "Microsoft Commits $2.5 Billion to New AI Deployment Business",
-        "summary": "Microsoft is investing $2.5 billion to embed 6,000 AI engineers inside enterprise customers, joining Amazon and OpenAI.",
-        "published_at": "2026-07-03T04:25:35+00:00",
-        "publisher": "BeInCrypto",
-        "url": "https://beincrypto.com/microsoft-frontier-company-enterprise-ai/",
+        "title": "Here’s Why Jim Cramer Thinks Alphabet Is Still Cheap",
+        "summary": "Alphabet Inc. (NASDAQ:GOOGL) was among the stocks on Jim Cramer’s Mad Money radar as he taught investors how to profit from the upcoming wave of takeovers. Cramer explained why the stock declined in the second quarter, as he commented: Speaking of Google, parent company Alphabet was able to do a giant fundraise not long ago. […]",
+        "published_at": "2026-07-03T17:45:47+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-alphabet-getting-081847382.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "MSFT",
-        "title": "Meta Wants In on the Cloud. Is Amazon Stock Still a Buy?",
-        "summary": "A reported new rival is coming for the cloud computing king's most profitable business.",
-        "published_at": "2026-07-03T01:48:00+00:00",
+        "title": "Veteran Tech Analyst: The Market Has Wrongly Left Software for Dead in the AI Rotation",
+        "summary": "Richard Windsor, founder of Radio Free Mobile, pushed back against the panic gripping AI stocks in a recent episode of Bloomberg Horizons Middle East & Africa. His argument is that the semiconductor tumble reflects rate sensitivity in richly valued names, and the market has overshot on software incumbents by assuming AI will hollow out application ... Veteran Tech Analyst: The Market Has Wrongly Left Software for Dead in the AI Rotation",
+        "published_at": "2026-07-03T17:35:15+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/07/03/veteran-tech-analyst-the-market-has-wrongly-left-software-for-dead-in-the-ai-rotation/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MSFT",
+        "title": "This Tech ETF Is Quietly Outperforming QQQ in 2026 -- Is There Still Time to Buy?",
+        "summary": "Shareholders of the Invesco QQQ ETF (QQQ) aren't getting the tech exposure they think they are. This pure-play ETF is better.",
+        "published_at": "2026-07-03T17:35:00+00:00",
         "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/07/02/meta-wants-in-on-the-cloud-is-amazon-stock-still-a/",
+        "url": "https://www.fool.com/investing/2026/07/03/tech-etf-vgt-quietly-outperform-qqq-2026-buy/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "MSFT",
-        "title": "Kyndryl (KD) Stock Trades Up, Here Is Why",
-        "summary": "Shares of IT infrastructure services provider Kyndryl (NYSE:KD) jumped 3.2% in the afternoon session after it continued a rally that began after the company announced an expanded partnership with Microsoft to help clients meet data residency and regulatory requirements.",
-        "published_at": "2026-07-03T01:32:24+00:00",
-        "publisher": "StockStory",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/kyndryl-kd-stock-trades-why-013224265.html",
+        "title": "Microsoft to Announce Fresh Layoffs Impacting Thousands as AI Investment Surge Reshapes Workforce: Report (UPDATED)",
+        "summary": "Microsoft Corp. is reportedly preparing to announce another round of layoffs next week, with thousands of employees across sales, consulting and its Xbox gaming business expected to be affected. Microsoft Reportedly Preparing Smaller Layoffs Than Last Year Microsoft is planning...",
+        "published_at": "2026-07-03T17:31:23+00:00",
+        "publisher": "Benzinga",
+        "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-announce-fresh-layoffs-impacting-173123093.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "MSFT",
-        "title": "Why Genpact (G) Stock Is Up Today",
-        "summary": "Shares of business transformation services company Genpact (NYSE:G) jumped 2.9% in the afternoon session after the company launched an AI agent-powered platform designed to help consumer goods companies automate and improve the recovery of lost revenue.",
-        "published_at": "2026-07-03T01:24:24+00:00",
-        "publisher": "StockStory",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-genpact-g-stock-today-012424080.html",
+        "title": "3 Core Artificial Intelligence (AI) Market Leaders to Buy with $1,000 Right Now and Hold for the Next 20 Years",
+        "summary": "Finding stocks you can comfortably buy and hold for two decades isn't easy.",
+        "published_at": "2026-07-03T17:06:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/07/03/3-core-artificial-intelligence-ai-market-leaders-t/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "MSFT",
-        "title": "Stock analysts may be setting up the market for a summer failure",
-        "summary": "There is such a thing as being too bullish.",
-        "published_at": "2026-07-02T13:51:25+00:00",
-        "publisher": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/article/stock-analysts-may-be-setting-up-the-market-for-a-summer-failure-135125532.html",
+        "title": "Tokenmaxxing is out, but companies are still spending on AI. What's changed?",
+        "summary": "In just a short amount of time, corporate policy on \"tokenmaxxing\" — or excessively using AI models to inflate usage on internal leaderboards — has already peaked and valleyed. After seeing their bill for AI tokens, many companies have shifted toward a more efficient outlook on AI spending. Tabs CEO Ali Hussain discusses what's changed within corporate AI pricing and what this pivot may mean for OpenAI (OPAI.PVT) and Anthropic (ANTH.PVT) ahead of their mega-IPOs.",
+        "published_at": "2026-07-03T12:00:00+00:00",
+        "publisher": "Yahoo Finance Video",
+        "url": "https://finance.yahoo.com/video/tokenmaxxing-companies-still-spending-ai-120000127.html",
         "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "MSFT",
-        "title": "The average investor is running away from 'Magnificent 7' stocks",
-        "summary": "No retail love for the \"Magnificent Seven\" is persisting.",
-        "published_at": "2026-07-02T12:02:04+00:00",
-        "publisher": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/stocks/article/the-average-investor-is-running-away-from-magnificent-7-stocks-120204013.html",
-        "language": null,
-        "source": "STORY",
+        "source": "VIDEO",
         "related_tickers": null
       }
     ]
   },
   "Confidence": {
-    "scoring": "High",
-    "discovery": "High"
+    "scoring": "Medium",
+    "discovery": "Medium"
   },
-  "Timestamp": "2026-07-03T04:36:59.856978-04:00"
+  "Timestamp": "2026-07-03T18:55:51.673507-04:00"
 }
