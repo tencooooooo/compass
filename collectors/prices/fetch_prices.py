@@ -14,7 +14,7 @@ from collectors.base import BaseCollector  # noqa: E402
 from utils.config import load_yaml  # noqa: E402
 from utils.logger import get_timezone, setup_logger  # noqa: E402
 from utils.price_data import PRICE_COLUMNS, validate_price_frame  # noqa: E402
-from utils.tickers import load_benchmarks, load_tickers  # noqa: E402
+from utils.tickers import load_benchmarks, load_required_benchmarks, load_tickers  # noqa: E402
 
 
 CONFIG_PATH = PROJECT_ROOT / "config" / "tickers.yaml"
@@ -128,6 +128,7 @@ class PriceCollector(BaseCollector):
         try:
             watch_tickers = load_tickers(self.config_path)
             benchmarks = load_benchmarks(self.config_path)
+            required_benchmarks = set(load_required_benchmarks(self.config_path))
         except Exception as error:
             self.logger.exception("設定読み込みエラー: %s", error)
             return 1
@@ -136,33 +137,47 @@ class PriceCollector(BaseCollector):
         tickers = watch_tickers + [ticker for ticker in benchmarks if ticker not in watch_tickers]
         if benchmarks:
             self.logger.info("ベンチマーク銘柄: %s", ", ".join(benchmarks))
+        if required_benchmarks:
+            self.logger.info("必須ベンチマーク: %s", ", ".join(sorted(required_benchmarks)))
 
         successful_tickers: list[str] = []
-        failed_tickers: list[str] = []
+        failed_watch_tickers: list[str] = []
+        failed_required_benchmarks: list[str] = []
+        failed_optional_benchmarks: list[str] = []
 
         for ticker in tickers:
             ok, message = self.save_ticker_prices(ticker)
             if ok:
                 successful_tickers.append(ticker)
                 self.logger.info("[OK] %s", message)
-            else:
-                failed_tickers.append(ticker)
+            elif ticker in watch_tickers:
+                failed_watch_tickers.append(ticker)
                 self.logger.error("[NG] %s", message)
+            elif ticker in required_benchmarks:
+                failed_required_benchmarks.append(ticker)
+                self.logger.error("[NG] %s", message)
+            else:
+                # 任意ベンチマークは前日までのCSVで代替できるため、警告に留めて処理を続けます。
+                failed_optional_benchmarks.append(ticker)
+                self.logger.warning("[NG] %s (任意ベンチマークのため継続)", message)
+
+        failed_critical = failed_watch_tickers + failed_required_benchmarks
 
         finished_at = datetime.now(timezone)
         self.logger.info("終了時刻: %s", finished_at.strftime("%Y-%m-%d %H:%M:%S"))
         self.logger.info("取得成功銘柄: %s", ", ".join(successful_tickers) or "なし")
-        self.logger.info("失敗銘柄: %s", ", ".join(failed_tickers) or "なし")
+        self.logger.info("失敗銘柄(必須): %s", ", ".join(failed_critical) or "なし")
+        self.logger.info("失敗銘柄(任意ベンチマーク): %s", ", ".join(failed_optional_benchmarks) or "なし")
         self.logger.info(
             "処理結果: 成功 %s / 失敗 %s / 合計 %s",
             len(successful_tickers),
-            len(failed_tickers),
+            len(failed_critical) + len(failed_optional_benchmarks),
             len(tickers),
         )
 
-        # GitHub Actionsで失敗に気づきやすいよう、1銘柄でも失敗したら終了コード1にします。
-        # ただし、処理自体は最後の銘柄まで継続します。
-        return 1 if failed_tickers else 0
+        # GitHub Actionsで失敗に気づきやすいよう、監視銘柄か必須ベンチマークが
+        # 1つでも失敗したら終了コード1にします。処理自体は最後の銘柄まで継続します。
+        return 1 if failed_critical else 0
 
 
 def main() -> int:

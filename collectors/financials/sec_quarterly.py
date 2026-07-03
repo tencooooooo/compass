@@ -43,7 +43,13 @@ def _is_quarterly_duration(entry: dict[str, Any]) -> bool:
 
 
 def _quarterly_values(facts: dict[str, Any], tag_candidates: list[str], unit_keys: list[str]) -> dict[str, dict[str, Any]]:
-    """タグ候補から四半期値を period_end 文字列 -> {val, filed} で返します。"""
+    """タグ候補から四半期値を period_end 文字列 -> {val, filed} で返します。
+
+    タグは年度や企業で切り替わる(例: ASC 606移行で Revenues -> RevenueFromContractWith...)ため、
+    先頭一致で打ち切らず period_end 単位でマージします。同じ period_end が複数タグにある場合は
+    候補リストの優先順位が高いタグの値を採用します。
+    """
+    merged: dict[str, dict[str, Any]] = {}
     for tag in tag_candidates:
         concept = facts.get(tag)
         if not isinstance(concept, dict):
@@ -67,9 +73,9 @@ def _quarterly_values(facts: dict[str, Any], tag_candidates: list[str], unit_key
             existing = values.get(end)
             if existing is None or filed > existing["filed"]:
                 values[end] = {"val": float(value), "filed": filed}
-        if values:
-            return values
-    return {}
+        for end, item in values.items():
+            merged.setdefault(end, item)
+    return merged
 
 
 def extract_quarterly_financials(company_facts: dict[str, Any], max_quarters: int = MAX_QUARTERS) -> list[dict[str, Any]]:

@@ -15,3 +15,8 @@ benchmarks:
   - XLK
   - XLY
   - XLC
+
+# 取得失敗時にパイプラインを失敗させるベンチマークです。
+# SPY は相対モメンタム計算の基準のため必須、セクターETFは前日までのCSVで代替できるため任意です。
+required_benchmarks:
+  - SPY

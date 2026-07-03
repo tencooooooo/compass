@@ -31,3 +31,18 @@ def load_benchmarks(config_path: Path) -> list[str]:
         return []
 
     return [str(ticker).strip().upper() for ticker in benchmarks if str(ticker).strip()]
+
+
+def load_required_benchmarks(config_path: Path) -> list[str]:
+    """config/tickers.yaml の required_benchmarks を読み込みます。未定義の場合は空リストです。
+
+    ここに列挙したベンチマークは、取得失敗時に価格収集を失敗(終了コード1)扱いにします。
+    それ以外のベンチマークは一時失敗しても前日までのCSVで代替できるため、警告に留めます。
+    """
+    config = load_yaml(config_path)
+
+    required = config.get("required_benchmarks", [])
+    if not isinstance(required, list):
+        return []
+
+    return [str(ticker).strip().upper() for ticker in required if str(ticker).strip()]

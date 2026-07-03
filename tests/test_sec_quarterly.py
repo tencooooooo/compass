@@ -67,6 +67,58 @@ class SecQuarterlyTest(unittest.TestCase):
         self.assertEqual(extract_quarterly_financials({}), [])
         self.assertEqual(extract_quarterly_financials({"facts": {"us-gaap": {}}}), [])
 
+    def test_merges_quarters_across_revenue_tags(self):
+        # ASC 606移行などでタグが切り替わった企業を想定します。
+        # 優先タグが直近2四半期しか持たなくても、旧タグの四半期を捨てないことを確認します。
+        facts = {
+            "facts": {
+                "us-gaap": {
+                    "RevenueFromContractWithCustomerExcludingAssessedTax": {
+                        "units": {
+                            "USD": [
+                                usd_entry("2026-01-01", "2026-03-31", 120.0, "2026-04-25"),
+                                usd_entry("2025-10-01", "2025-12-31", 115.0, "2026-01-25"),
+                            ]
+                        }
+                    },
+                    "Revenues": {
+                        "units": {
+                            "USD": [
+                                usd_entry("2025-07-01", "2025-09-30", 110.0, "2025-10-25"),
+                                usd_entry("2025-04-01", "2025-06-30", 105.0, "2025-07-25"),
+                                usd_entry("2025-01-01", "2025-03-31", 100.0, "2025-04-25"),
+                            ]
+                        }
+                    },
+                }
+            }
+        }
+
+        rows = extract_quarterly_financials(facts)
+
+        self.assertEqual(len(rows), 5)
+        self.assertEqual(rows[0]["total_revenue"], 120.0)
+        self.assertEqual(rows[4]["total_revenue"], 100.0)
+
+    def test_same_period_prefers_higher_priority_tag(self):
+        facts = {
+            "facts": {
+                "us-gaap": {
+                    "RevenueFromContractWithCustomerExcludingAssessedTax": {
+                        "units": {"USD": [usd_entry("2026-01-01", "2026-03-31", 120.0, "2026-04-25")]}
+                    },
+                    "Revenues": {
+                        "units": {"USD": [usd_entry("2026-01-01", "2026-03-31", 999.0, "2026-04-25")]}
+                    },
+                }
+            }
+        }
+
+        rows = extract_quarterly_financials(facts)
+
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]["total_revenue"], 120.0)
+
     def test_limits_to_max_quarters(self):
         entries = [
             usd_entry(f"{year}-01-01", f"{year}-03-31", float(year), f"{year}-04-25")
