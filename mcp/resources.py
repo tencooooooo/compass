@@ -1,5 +1,4 @@
 import json
-from pathlib import Path
 from typing import Any
 
 from api.services.data_loader import REPO_ROOT

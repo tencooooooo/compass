@@ -37,6 +37,7 @@ Momentum:
 - 3M
 - 6M
 - 1Y
+- Scored on excess return versus the SPY benchmark when benchmark prices are available, using the same relative-strength rule as the Scoring Engine. Falls back to absolute returns and records `benchmark_prices` in missing data otherwise.
 
 News:
 

@@ -27,6 +27,9 @@ DETAIL_DIR = REPORT_DIR / "candidate_details"
 SCORING_JSON_PATH = PROJECT_ROOT / "reports" / "scoring" / "company_scores.json"
 MARKET_DASHBOARD_PATH = PROJECT_ROOT / "reports" / "market" / "market_dashboard.json"
 
+# モメンタムの相対評価に使う市場ベンチマーク。Scoring Engineと同じ優先順です。
+BENCHMARK_CANDIDATES = ["SPY", "^GSPC"]
+
 
 def load_json(path: Path, default: Any) -> Any:
     if not path.exists():
@@ -48,6 +51,14 @@ def load_prices(path: Path) -> pd.DataFrame:
     if prices.empty or "date" not in prices.columns:
         return pd.DataFrame()
     return normalize_price_frame(prices)
+
+
+def load_benchmark_prices() -> tuple[str | None, pd.DataFrame]:
+    for ticker in BENCHMARK_CANDIDATES:
+        prices = load_prices(PROJECT_ROOT / "storage" / "raw" / "prices" / f"{ticker}.csv")
+        if not prices.empty:
+            return ticker, prices
+    return None, pd.DataFrame()
 
 
 def scoring_by_ticker() -> dict[str, dict[str, Any]]:
@@ -81,6 +92,11 @@ def main() -> int:
 
     scores = scoring_by_ticker()
     market_dashboard = load_json(MARKET_DASHBOARD_PATH, {})
+    benchmark_name, benchmark_prices = load_benchmark_prices()
+    if benchmark_name:
+        logger.info("モメンタムベンチマーク: %s", benchmark_name)
+    else:
+        logger.warning("ベンチマーク価格が見つからないため、モメンタムは絶対リターンで評価します。")
     candidates: list[dict[str, Any]] = []
     failed_tickers: list[str] = []
 
@@ -102,6 +118,8 @@ def main() -> int:
                 score_result=scores.get(ticker, {}),
                 company_report=company_report,
                 market_dashboard=market_dashboard,
+                benchmark_prices=benchmark_prices,
+                benchmark_name=benchmark_name,
             )
             candidates.append(candidate)
             logger.info("[OK] %s: discovery_score=%s status=%s", ticker, candidate["discovery_score"], candidate["status"])

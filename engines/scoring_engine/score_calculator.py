@@ -526,7 +526,10 @@ def calculate_momentum(
         "metrics": {
             **returns,
             "benchmark": benchmark_name if use_benchmark else None,
-            "benchmark_returns": benchmark_returns,
+            "benchmark_returns": {
+                label: round(value, 2) if value is not None else None
+                for label, value in benchmark_returns.items()
+            },
             "excess_returns": excess_returns,
             "latest_volume": latest_volume,
             "average_volume_30d": average_volume,

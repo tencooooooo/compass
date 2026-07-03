@@ -3,6 +3,7 @@
 ## v1.0-alpha
 
 - Changed Momentum scoring: each window (1M/3M/6M/1Y) is now scored on the excess return versus the SPY benchmark when benchmark prices are available, with absolute-return fallback recorded in missing data. This separates stock-specific strength from market-wide direction.
+- Changed Discovery momentum: candidate momentum now uses the same benchmark-relative excess-return rule as the Scoring Engine, keeping Discovery Score consistent with scoring signals.
 - Changed Growth scoring: revenue and EPS YoY growth are now averaged across up to the latest four quarters with prior-year comparisons to reduce single-quarter noise, with acceleration and deceleration noted in reasons.
 - Changed News scoring: sentiment now uses the net ratio of positive minus negative items over classified items instead of raw count differences, removing the coverage-volume bias toward heavily reported companies.
 

@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import re
 from typing import Any
 
 import pandas as pd
@@ -101,6 +100,21 @@ def score_from_momentum(value: float | None, points: float, label: str, reasons:
     return 0
 
 
+def score_from_relative_momentum(excess: float, benchmark_name: str, points: float, label: str, reasons: list[str]) -> float:
+    """Scoring Engineと同じ基準で、ベンチマーク超過リターンからモメンタムを採点します。"""
+    if excess >= 10:
+        reasons.append(f"{label}モメンタムは対{benchmark_name}で {excess:+.2f}pt と、市場を大きく上回っています。")
+        return points
+    if excess >= 0:
+        reasons.append(f"{label}モメンタムは対{benchmark_name}で {excess:+.2f}pt と、市場並み以上です。")
+        return points * 0.65
+    if excess >= -10:
+        reasons.append(f"{label}モメンタムは対{benchmark_name}で {excess:+.2f}pt と、市場を小幅に下回っています。")
+        return points * 0.25
+    reasons.append(f"{label}モメンタムは対{benchmark_name}で {excess:+.2f}pt と弱く、候補評価では注意点です。")
+    return 0
+
+
 def build_candidate(
     ticker: str,
     company: dict[str, Any],
@@ -111,6 +125,8 @@ def build_candidate(
     score_result: dict[str, Any],
     company_report: str,
     market_dashboard: dict[str, Any],
+    benchmark_prices: pd.DataFrame | None = None,
+    benchmark_name: str | None = None,
 ) -> dict[str, Any]:
     reasons: list[str] = []
     watch_points: list[str] = []
@@ -177,16 +193,32 @@ def build_candidate(
     else:
         missing.append("free_cash_flow")
 
+    benchmark = benchmark_prices if benchmark_prices is not None else pd.DataFrame()
+    use_benchmark = benchmark_name is not None and not benchmark.empty
     momentum = {
         "1m": momentum_for_days(prices, 30),
         "3m": momentum_for_days(prices, 90),
         "6m": momentum_for_days(prices, 180),
         "1y": momentum_for_days(prices, 365),
     }
-    discovery_score += score_from_momentum(momentum["1m"], 4, "1M", reasons, missing)
-    discovery_score += score_from_momentum(momentum["3m"], 5, "3M", reasons, missing)
-    discovery_score += score_from_momentum(momentum["6m"], 5, "6M", reasons, missing)
-    discovery_score += score_from_momentum(momentum["1y"], 8, "1Y", reasons, missing)
+    benchmark_momentum = {
+        key: momentum_for_days(benchmark, days) if use_benchmark else None
+        for key, days in (("1m", 30), ("3m", 90), ("6m", 180), ("1y", 365))
+    }
+    excess_momentum: dict[str, float | None] = {}
+    for key, label, points in (("1m", "1M", 4), ("3m", "3M", 5), ("6m", "6M", 5), ("1y", "1Y", 8)):
+        value = momentum[key]
+        benchmark_return = benchmark_momentum[key]
+        if value is not None and benchmark_return is not None:
+            excess = value - benchmark_return
+            excess_momentum[key] = round(excess, 2)
+            discovery_score += score_from_relative_momentum(excess, str(benchmark_name), points, label, reasons)
+        else:
+            excess_momentum[key] = None
+            discovery_score += score_from_momentum(value, points, label, reasons, missing)
+    if not use_benchmark:
+        missing.append("benchmark_prices")
+        watch_points.append("ベンチマーク価格が無いため、モメンタムは絶対リターンで評価しています。")
 
     positive_news, watch_news = news_signal(news_items)
     if positive_news:
@@ -277,6 +309,8 @@ def build_candidate(
             "valuation_score": valuation_score,
             "news_score": news_score,
             "momentum": momentum,
+            "benchmark": benchmark_name if use_benchmark else None,
+            "excess_momentum": excess_momentum,
             "positive_news": positive_news,
             "watch_news": watch_news,
             "event_count": reaction["count"],
