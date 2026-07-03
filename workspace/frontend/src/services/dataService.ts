@@ -8,7 +8,8 @@ import type {
   WorkspaceManifest,
 } from "../types/compass";
 
-const ROOT = "/compass-data";
+// 開発時は "/"、ビルド時は vite.config.ts の base("./")が入るため、サブパス配信でも解決できます。
+const ROOT = `${import.meta.env.BASE_URL}compass-data`;
 
 async function getJson<T>(path: string, fallback: T): Promise<T> {
   try {
