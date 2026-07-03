@@ -102,23 +102,54 @@ def score_growth_rate(value: float | None, label: str, points: float, reasons: l
     return 0
 
 
-def latest_and_prior_year_quarter(financials: dict[str, Any], key: str) -> tuple[Any, Any]:
+def prior_year_quarter_label(label: Any) -> str | None:
+    if not isinstance(label, str) or "-Q" not in label:
+        return None
+    year_text, quarter = label.split("-Q", 1)
+    try:
+        return f"{int(year_text) - 1}-Q{quarter}"
+    except ValueError:
+        return None
+
+
+# 単一四半期のYoYはノイズが大きいため、前年同期が揃う直近最大4四半期を平滑化に使います。
+GROWTH_SMOOTHING_QUARTERS = 4
+
+
+def yoy_growth_series(financials: dict[str, Any], key: str, max_quarters: int = GROWTH_SMOOTHING_QUARTERS) -> list[dict[str, Any]]:
+    """直近四半期から順に、前年同期が存在する四半期のYoY成長率一覧を返します。"""
     rows = financials.get("quarterly_financials")
     if not isinstance(rows, list) or not rows:
-        return None, None
-    latest = rows[0] if isinstance(rows[0], dict) else {}
-    latest_quarter = latest.get("fiscal_quarter")
-    if not isinstance(latest_quarter, str) or "-Q" not in latest_quarter:
-        return None, None
-    year_text, quarter = latest_quarter.split("-Q", 1)
-    try:
-        prior_label = f"{int(year_text) - 1}-Q{quarter}"
-    except ValueError:
-        return None, None
-    prior = next((row for row in rows[1:] if isinstance(row, dict) and row.get("fiscal_quarter") == prior_label), None)
-    if prior is None:
-        return None, None
-    return latest.get(key), prior.get(key)
+        return []
+    by_quarter = {row.get("fiscal_quarter"): row for row in rows if isinstance(row, dict)}
+    series: list[dict[str, Any]] = []
+    for row in rows[:max_quarters]:
+        if not isinstance(row, dict):
+            continue
+        label = row.get("fiscal_quarter")
+        prior = by_quarter.get(prior_year_quarter_label(label))
+        if prior is None:
+            continue
+        growth = yoy_growth(row.get(key), prior.get(key))
+        if growth is not None:
+            series.append({"fiscal_quarter": label, "yoy_growth": growth})
+    return series
+
+
+def smoothed_growth(series: list[dict[str, Any]]) -> float | None:
+    if not series:
+        return None
+    return round(sum(item["yoy_growth"] for item in series) / len(series), 2)
+
+
+def append_growth_trend_reason(series: list[dict[str, Any]], label: str, reasons: list[str]) -> None:
+    if len(series) < 2:
+        return
+    delta = series[0]["yoy_growth"] - series[1]["yoy_growth"]
+    if delta >= 5:
+        reasons.append(f"{label} は直近四半期が前四半期より {delta:+.2f}pt 高く、成長の加速がみられます。")
+    elif delta <= -5:
+        reasons.append(f"{label} は直近四半期が前四半期より {delta:+.2f}pt 低く、成長の減速に注意が必要です。")
 
 
 def calculate_growth_fallback(financials: dict[str, Any], extra_missing: list[str] | None = None) -> dict[str, Any]:
@@ -180,15 +211,21 @@ def calculate_growth(financials: dict[str, Any]) -> dict[str, Any]:
     missing: list[str] = []
     score = 0.0
 
-    revenue_latest, revenue_prior = latest_and_prior_year_quarter(financials, "total_revenue")
-    eps_latest, eps_prior = latest_and_prior_year_quarter(financials, "eps")
-    revenue_growth = yoy_growth(revenue_latest, revenue_prior)
-    eps_growth = yoy_growth(eps_latest, eps_prior)
-    if revenue_growth is None and eps_growth is None:
+    revenue_series = yoy_growth_series(financials, "total_revenue")
+    eps_series = yoy_growth_series(financials, "eps")
+    revenue_growth = revenue_series[0]["yoy_growth"] if revenue_series else None
+    eps_growth = eps_series[0]["yoy_growth"] if eps_series else None
+    revenue_growth_avg = smoothed_growth(revenue_series)
+    eps_growth_avg = smoothed_growth(eps_series)
+    if revenue_growth_avg is None and eps_growth_avg is None:
         return calculate_growth_fallback(financials, ["revenue_growth"])
 
-    score += score_growth_rate(revenue_growth, "revenue_growth", 5, reasons, missing)
-    score += score_growth_rate(eps_growth, "eps_growth", 5, reasons, missing)
+    revenue_label = f"revenue_growth(直近{len(revenue_series)}四半期平均)" if revenue_series else "revenue_growth"
+    eps_label = f"eps_growth(直近{len(eps_series)}四半期平均)" if eps_series else "eps_growth"
+    score += score_growth_rate(revenue_growth_avg, revenue_label, 5, reasons, missing)
+    score += score_growth_rate(eps_growth_avg, eps_label, 5, reasons, missing)
+    append_growth_trend_reason(revenue_series, "revenue_growth", reasons)
+    append_growth_trend_reason(eps_series, "eps_growth", reasons)
     score += score_positive_number(financials.get("net_income"), 3, "純利益", reasons, missing)
     score += score_positive_number(financials.get("operating_income"), 2, "営業利益", reasons, missing)
 
@@ -227,6 +264,10 @@ def calculate_growth(financials: dict[str, Any]) -> dict[str, Any]:
             "research_and_development": financials.get("research_and_development"),
             "revenue_yoy_growth": revenue_growth,
             "eps_yoy_growth": eps_growth,
+            "revenue_yoy_growth_avg": revenue_growth_avg,
+            "eps_yoy_growth_avg": eps_growth_avg,
+            "revenue_growth_quarters": [item["fiscal_quarter"] for item in revenue_series],
+            "eps_growth_quarters": [item["fiscal_quarter"] for item in eps_series],
         },
     }
 
@@ -397,7 +438,25 @@ def calculate_valuation(company: dict[str, Any], sector_companies: list[dict[str
     }
 
 
-def calculate_momentum(prices: pd.DataFrame) -> dict[str, Any]:
+def score_excess_return(excess: float, benchmark_name: str, label: str, reasons: list[str]) -> float:
+    if excess >= 10:
+        reasons.append(f"{label} の対{benchmark_name}超過リターンが {excess:+.2f}pt と、市場を大きく上回っています。")
+        return 3
+    if excess >= 0:
+        reasons.append(f"{label} の対{benchmark_name}超過リターンは {excess:+.2f}pt で、市場並み以上です。")
+        return 2
+    if excess >= -10:
+        reasons.append(f"{label} の対{benchmark_name}超過リターンは {excess:+.2f}pt と、市場を小幅に下回っています。")
+        return 1
+    reasons.append(f"{label} の対{benchmark_name}超過リターンは {excess:+.2f}pt と、市場を大きく下回っています。")
+    return 0
+
+
+def calculate_momentum(
+    prices: pd.DataFrame,
+    benchmark_prices: pd.DataFrame | None = None,
+    benchmark_name: str | None = None,
+) -> dict[str, Any]:
     reasons: list[str] = []
     missing: list[str] = []
     score = 0.0
@@ -412,6 +471,9 @@ def calculate_momentum(prices: pd.DataFrame) -> dict[str, Any]:
             "metrics": {},
         }
 
+    benchmark = benchmark_prices if benchmark_prices is not None else pd.DataFrame()
+    use_benchmark = benchmark_name is not None and not benchmark.empty
+
     prices = prices.sort_values("date").reset_index(drop=True)
     returns = {
         "1M": momentum_for_days(prices, 30),
@@ -419,8 +481,24 @@ def calculate_momentum(prices: pd.DataFrame) -> dict[str, Any]:
         "6M": momentum_for_days(prices, 180),
         "1Y": momentum_for_days(prices, 365),
     }
+    benchmark_returns = {
+        label: momentum_for_days(benchmark, days) if use_benchmark else None
+        for label, days in (("1M", 30), ("3M", 90), ("6M", 180), ("1Y", 365))
+    }
+    excess_returns: dict[str, float | None] = {}
     for label, value in returns.items():
-        score += score_return(value, label, reasons, missing)
+        benchmark_return = benchmark_returns[label]
+        if value is not None and benchmark_return is not None:
+            excess = value - benchmark_return
+            excess_returns[label] = round(excess, 2)
+            score += score_excess_return(excess, str(benchmark_name), label, reasons)
+        else:
+            excess_returns[label] = None
+            score += score_return(value, label, reasons, missing)
+
+    if not use_benchmark:
+        missing.append("benchmark_prices")
+        reasons.append("ベンチマーク価格が取得できないため、Momentumは絶対リターンで評価しています。")
 
     latest_volume = safe_float(prices.iloc[-1].get("volume"))
     average_volume = safe_float(prices.tail(30)["volume"].mean())
@@ -447,6 +525,9 @@ def calculate_momentum(prices: pd.DataFrame) -> dict[str, Any]:
         "missing_data": missing,
         "metrics": {
             **returns,
+            "benchmark": benchmark_name if use_benchmark else None,
+            "benchmark_returns": benchmark_returns,
+            "excess_returns": excess_returns,
             "latest_volume": latest_volume,
             "average_volume_30d": average_volume,
         },
@@ -460,6 +541,8 @@ def calculate_news(news_items: list[dict[str, Any]], events: list[dict[str, Any]
     missing: list[str] = []
     score = 0.0
 
+    positive = negative = 0
+    sentiment_net_ratio: float | None = None
     if not news_items:
         missing.append("news")
         reasons.append("ニュースが取得できないため、News項目は評価を控えています。")
@@ -469,9 +552,19 @@ def calculate_news(news_items: list[dict[str, Any]], events: list[dict[str, Any]
         score += coverage_points
         reasons.append(f"ニュース件数は {len(news_items)} 件で、情報量に応じて {coverage_points:.1f} 点を加点しています。")
 
-        sentiment_score = max(0, min(8, 4 + positive - negative))
+        classified = positive + negative
+        if classified == 0:
+            sentiment_score = 4.0
+            reasons.append("見出し・要約から好悪材料を分類できなかったため、センチメントは中立の4.0点としています。")
+        else:
+            # 生の件数差は報道量の多い銘柄ほど振れるため、分類済み件数に対する純比率で正規化します。
+            sentiment_net_ratio = round((positive - negative) / classified, 2)
+            sentiment_score = clamp(4 + 4 * sentiment_net_ratio, 0, 8)
+            reasons.append(
+                f"ニュース見出し・要約の簡易分類では、好材料 {positive} 件、悪材料 {negative} 件"
+                f"(純比率 {sentiment_net_ratio:+.2f})で、センチメントは {sentiment_score:.1f} 点です。"
+            )
         score += sentiment_score
-        reasons.append(f"ニュース見出し・要約の簡易分類では、好材料 {positive} 件、悪材料 {negative} 件です。")
 
     event_changes = [safe_float(event.get("price_change_percent")) for event in events]
     event_changes = [value for value in event_changes if value is not None]
@@ -502,6 +595,9 @@ def calculate_news(news_items: list[dict[str, Any]], events: list[dict[str, Any]
         "missing_data": missing,
         "metrics": {
             "news_count": len(news_items),
+            "positive_count": positive,
+            "negative_count": negative,
+            "sentiment_net_ratio": sentiment_net_ratio,
             "event_count": len(events),
             "events_with_price_reaction": len(event_changes),
         },
@@ -560,12 +656,14 @@ def calculate_company_score(
     events: list[dict[str, Any]],
     prices: pd.DataFrame,
     sector_companies: list[dict[str, Any]] | None = None,
+    benchmark_prices: pd.DataFrame | None = None,
+    benchmark_name: str | None = None,
 ) -> dict[str, Any]:
     parts = {
         "Growth": calculate_growth(financials),
         "Financial Health": calculate_financial_health(financials),
         "Valuation": calculate_valuation(company, sector_companies),
-        "Momentum": calculate_momentum(prices),
+        "Momentum": calculate_momentum(prices, benchmark_prices, benchmark_name),
         "News": calculate_news(news_items, events),
     }
     total_score = sum(part["score"] for part in parts.values())

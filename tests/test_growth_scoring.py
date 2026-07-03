@@ -34,6 +34,34 @@ class GrowthScoringTest(unittest.TestCase):
         self.assertEqual(result["metrics"]["eps_yoy_growth"], 100.0)
         self.assertNotIn("revenue_growth", result["missing_data"])
 
+    def test_calculate_growth_smooths_multiple_quarter_yoy(self):
+        result = calculate_growth(
+            {
+                "total_revenue": 150,
+                "eps": 1.5,
+                "net_income": 20,
+                "operating_income": 25,
+                "research_and_development": 5,
+                "quarterly_financials": [
+                    {"fiscal_quarter": "2026-Q2", "total_revenue": 150, "eps": 1.5},
+                    {"fiscal_quarter": "2026-Q1", "total_revenue": 120, "eps": 1.2},
+                    {"fiscal_quarter": "2025-Q4", "total_revenue": 110, "eps": 1.1},
+                    {"fiscal_quarter": "2025-Q3", "total_revenue": 105, "eps": 1.05},
+                    {"fiscal_quarter": "2025-Q2", "total_revenue": 100, "eps": 1.0},
+                    {"fiscal_quarter": "2025-Q1", "total_revenue": 100, "eps": 1.0},
+                    {"fiscal_quarter": "2024-Q4", "total_revenue": 100, "eps": 1.0},
+                    {"fiscal_quarter": "2024-Q3", "total_revenue": 100, "eps": 1.0},
+                ],
+            }
+        )
+
+        # 直近四半期は50%成長だが、スコアは直近4四半期平均(21.25%)で評価される
+        self.assertEqual(result["metrics"]["revenue_yoy_growth"], 50.0)
+        self.assertEqual(result["metrics"]["revenue_yoy_growth_avg"], 21.25)
+        self.assertEqual(len(result["metrics"]["revenue_growth_quarters"]), 4)
+        self.assertTrue(any("直近4四半期平均" in reason for reason in result["reasons"]))
+        self.assertTrue(any("加速" in reason for reason in result["reasons"]))
+
     def test_calculate_growth_falls_back_when_quarterly_series_missing(self):
         result = calculate_growth(
             {

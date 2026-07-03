@@ -26,6 +26,9 @@ PROMPT_PATH = PROJECT_ROOT / "prompts" / "scoring_engine_prompt.md"
 REPORT_DIR = PROJECT_ROOT / "reports" / "scoring"
 EXPLANATION_DIR = REPORT_DIR / "explanations"
 
+# Momentumの相対評価に使う市場ベンチマーク。validation の backtest_engine と同じ優先順です。
+BENCHMARK_CANDIDATES = ["SPY", "^GSPC"]
+
 
 def load_json(path: Path, default: Any) -> Any:
     if not path.exists():
@@ -51,6 +54,14 @@ def load_ticker_inputs(ticker: str) -> dict[str, Any]:
         "events": load_json(PROJECT_ROOT / "storage" / "events" / f"{ticker}_events.json", []),
         "prices": load_prices(PROJECT_ROOT / "storage" / "raw" / "prices" / f"{ticker}.csv"),
     }
+
+
+def load_benchmark_prices() -> tuple[str | None, pd.DataFrame]:
+    for ticker in BENCHMARK_CANDIDATES:
+        prices = load_prices(PROJECT_ROOT / "storage" / "raw" / "prices" / f"{ticker}.csv")
+        if not prices.empty:
+            return ticker, prices
+    return None, pd.DataFrame()
 
 
 def sector_companies_for(ticker: str, inputs_by_ticker: dict[str, dict[str, Any]]) -> list[dict[str, Any]]:
@@ -115,6 +126,11 @@ def main() -> int:
     successful_tickers: list[str] = []
     failed_tickers: list[str] = []
     inputs_by_ticker = {ticker: load_ticker_inputs(ticker) for ticker in tickers}
+    benchmark_name, benchmark_prices = load_benchmark_prices()
+    if benchmark_name:
+        logger.info("Momentumベンチマーク: %s", benchmark_name)
+    else:
+        logger.warning("ベンチマーク価格が見つからないため、Momentumは絶対リターンで評価します。")
 
     for ticker in tickers:
         try:
@@ -127,6 +143,8 @@ def main() -> int:
                 events=inputs["events"] if isinstance(inputs["events"], list) else [],
                 prices=inputs["prices"],
                 sector_companies=sector_companies_for(ticker, inputs_by_ticker),
+                benchmark_prices=benchmark_prices,
+                benchmark_name=benchmark_name,
             )
             results.append(score_result)
             explanation = render_explanation(score_result)

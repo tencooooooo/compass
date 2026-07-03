@@ -2,6 +2,10 @@
 
 ## v1.0-alpha
 
+- Changed Momentum scoring: each window (1M/3M/6M/1Y) is now scored on the excess return versus the SPY benchmark when benchmark prices are available, with absolute-return fallback recorded in missing data. This separates stock-specific strength from market-wide direction.
+- Changed Growth scoring: revenue and EPS YoY growth are now averaged across up to the latest four quarters with prior-year comparisons to reduce single-quarter noise, with acceleration and deceleration noted in reasons.
+- Changed News scoring: sentiment now uses the net ratio of positive minus negative items over classified items instead of raw count differences, removing the coverage-volume bias toward heavily reported companies.
+
 - Added benchmark price collection: `config/tickers.yaml` now defines a `benchmarks` list (SPY and sector ETFs) collected for prices only, enabling the previously inactive benchmark comparison in validation.
 - Changed Event Database news attribution: news published after the US market close (16:00 ET) is now attributed to the next trading day so event price reactions measure the correct session.
 - Added news deduplication: syndicated duplicates are removed at collection and before News scoring so coverage points are not inflated.

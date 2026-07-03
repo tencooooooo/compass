@@ -32,7 +32,8 @@ Method:
 
 - The financial collector stores the latest four quarters plus the prior-year comparison quarter when available.
 - Growth scoring uses revenue YoY growth and EPS YoY growth against the same quarter one year earlier.
-- Revenue YoY of +30% or more receives the strongest growth credit; +15% or more receives partial credit; negative growth receives no growth-rate credit.
+- To reduce single-quarter noise, YoY growth is averaged across up to the latest four quarters that have a prior-year comparison quarter. The latest-quarter YoY is still reported in metrics, and acceleration or deceleration of 5 points or more versus the previous quarter is noted in reasons.
+- Average YoY of +30% or more receives the strongest growth credit; +15% or more receives partial credit; negative growth receives no growth-rate credit.
 - If quarterly time series data is unavailable, Compass falls back to the previous latest-value logic and records `revenue_growth` in missing data so Confidence reflects the gap.
 
 ## Financial Health
@@ -72,7 +73,14 @@ Uses:
 - 3 month price change
 - 6 month price change
 - 1 year price change
+- Benchmark (SPY) price change over the same windows
 - Volume
+
+Method:
+
+- When benchmark prices are available, each window is scored on the excess return versus the benchmark (relative strength): +10pt or more over the benchmark receives full credit, at or above the benchmark receives partial credit, and small underperformance receives minimal credit.
+- This removes market-wide direction from the signal: in a broad rally, only stocks that outperform the market receive strong momentum credit.
+- When benchmark prices are unavailable, Compass falls back to absolute return scoring and records `benchmark_prices` in missing data so Confidence reflects the gap.
 
 Momentum is context, not a standalone decision rule.
 
@@ -85,6 +93,8 @@ Uses:
 - Event Database price reaction when available
 
 News classification uses shared rules with word-boundary matching, phrase overrides such as cost cuts versus guidance cuts, and simple negation handling. A labeled fixture is used to measure classification accuracy and prevent silent degradation.
+
+Sentiment scoring uses the net ratio of positive minus negative items over all classified items, not raw counts. This keeps sentiment comparable between heavily covered mega caps and lightly covered companies: 10 positive and 8 negative headlines is a mixed signal, not a strong positive one. When no item can be classified, sentiment is treated as neutral.
 
 ## Explainability Rule
 
