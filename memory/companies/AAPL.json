@@ -20,7 +20,7 @@
     "dividend_yield": 0.35,
     "52_week_high": 317.4,
     "52_week_low": 201.5,
-    "average_volume": 53938116,
+    "average_volume": 53938887,
     "employees": 166000,
     "website": "https://www.apple.com",
     "business_summary": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers exclusive original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California."
@@ -73,20 +73,37 @@
         "scoring": "High",
         "discovery": "High"
       }
+    },
+    {
+      "date": "2026-07-04",
+      "timestamp": "2026-07-04T18:49:29.080784-04:00",
+      "score": 61,
+      "discovery_score": 61,
+      "discovery_status": "Watch Candidate",
+      "validation_results": {
+        "Neutral": 5
+      },
+      "event_count": 10,
+      "news_count": 10,
+      "confidence": {
+        "scoring": "Medium",
+        "discovery": "Medium"
+      }
     }
   ],
   "Scores": {
     "ticker": "AAPL",
     "company_name": "Apple Inc.",
-    "total_score": 66,
+    "total_score": 61,
     "max_score": 100,
     "confidence": {
-      "level": "High",
-      "completeness_score": 100,
+      "level": "Medium",
+      "completeness_score": 95.0,
       "reasons": [
         "利用可能な主要データ領域は5領域中 5 領域です。",
-        "欠損または計算不可の項目数は 0 件です。",
-        "主要データが比較的そろっており、説明可能性は高めです。"
+        "欠損または計算不可の項目数は 1 件です。",
+        "主要データは一定程度ありますが、欠損や未取得項目が残っています。",
+        "イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。"
       ]
     },
     "scores": {
@@ -198,7 +215,7 @@
         "metrics": {
           "1M": -2.0843931058934744,
           "3M": 20.844326829970964,
-          "6M": 13.228157269229005,
+          "6M": 13.228144592104677,
           "1Y": 49.09748897103782,
           "benchmark": "SPY",
           "benchmark_returns": {
@@ -213,31 +230,33 @@
             "6M": 4.24,
             "1Y": 27.18
           },
-          "latest_volume": 75400600.0,
-          "average_volume_30d": 62275953.333333336
+          "latest_volume": 75352800.0,
+          "average_volume_30d": 62274360.0
         }
       },
       "News": {
-        "score": 17,
+        "score": 12,
         "max_score": 20,
         "reasons": [
           "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-          "ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
-          "イベント後の平均株価反応が 4.84% とプラスです。"
+          "ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 1 件(純比率 +0.67)で、センチメントは 6.7 点です。",
+          "イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。"
         ],
         "evidence": [
           "News",
           "Events",
           "Knowledge"
         ],
-        "missing_data": [],
+        "missing_data": [
+          "event_price_reaction"
+        ],
         "metrics": {
           "news_count": 10,
-          "positive_count": 4,
-          "negative_count": 0,
-          "sentiment_net_ratio": 1.0,
+          "positive_count": 5,
+          "negative_count": 1,
+          "sentiment_net_ratio": 0.67,
           "event_count": 10,
-          "events_with_price_reaction": 1
+          "events_with_price_reaction": 0
         }
       }
     },
@@ -255,12 +274,12 @@
     "company": "Apple Inc.",
     "sector": "Technology",
     "industry": "Consumer Electronics",
-    "discovery_score": 65,
+    "discovery_score": 61,
     "status": "Watch Candidate",
     "discovery_reasons": [
       "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
       "Financial Healthが 12/20 で、継続調査に必要な財務基盤を評価しています。",
-      "Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。",
+      "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
       "売上が取得でき、事業規模の確認ができます。",
       "EPSがプラスで、利益を伴う成長候補として確認できます。",
       "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -275,6 +294,8 @@
       "純利益率が高く、売上から利益を残す力があります。"
     ],
     "watch_points": [
+      "注意材料になり得るニュース表現が 1 件あります。",
+      "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
       "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
       "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
       "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -282,7 +303,7 @@
       "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
       "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
     ],
-    "confidence": "High",
+    "confidence": "Medium",
     "evidence": [
       "Company",
       "Events",
@@ -295,15 +316,15 @@
     ],
     "missing_data": [],
     "metrics": {
-      "scoring_total": 66.0,
+      "scoring_total": 61.0,
       "growth_score": 17.0,
       "financial_health_score": 12.0,
       "valuation_score": 8.0,
-      "news_score": 17.0,
+      "news_score": 12.0,
       "momentum": {
         "1m": -2.0843931058934744,
         "3m": 20.844326829970964,
-        "6m": 13.228157269229005,
+        "6m": 13.228144592104677,
         "1y": 49.09748897103782
       },
       "benchmark": "SPY",
@@ -313,26 +334,26 @@
         "6m": 4.24,
         "1y": 27.18
       },
-      "positive_news": 4,
-      "watch_news": 0,
+      "positive_news": 5,
+      "watch_news": 1,
       "event_count": 10,
-      "events_with_reaction": 1,
-      "sector_average_score": 72.0
+      "events_with_reaction": 0,
+      "sector_average_score": 69.75
     }
   },
   "Validation": [
     {
-      "discovery_date": "2026-07-03",
-      "validation_date": "2026-07-03",
+      "discovery_date": "2026-07-04",
+      "validation_date": "2026-07-04",
       "period": "1m",
       "ticker": "AAPL",
       "company": "Apple Inc.",
       "sector": "Technology",
-      "discovery_score": 65,
+      "discovery_score": 61,
       "discovery_reasons": [
         "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 12/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -352,8 +373,10 @@
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "High",
+      "confidence": "Medium",
       "watch_points": [
+        "注意材料になり得るニュース表現が 1 件あります。",
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -377,17 +400,17 @@
       "period_complete": false
     },
     {
-      "discovery_date": "2026-07-03",
-      "validation_date": "2026-07-03",
+      "discovery_date": "2026-07-04",
+      "validation_date": "2026-07-04",
       "period": "1w",
       "ticker": "AAPL",
       "company": "Apple Inc.",
       "sector": "Technology",
-      "discovery_score": 65,
+      "discovery_score": 61,
       "discovery_reasons": [
         "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 12/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -407,8 +430,10 @@
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "High",
+      "confidence": "Medium",
       "watch_points": [
+        "注意材料になり得るニュース表現が 1 件あります。",
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -432,17 +457,17 @@
       "period_complete": false
     },
     {
-      "discovery_date": "2026-07-03",
-      "validation_date": "2026-07-03",
+      "discovery_date": "2026-07-04",
+      "validation_date": "2026-07-04",
       "period": "1y",
       "ticker": "AAPL",
       "company": "Apple Inc.",
       "sector": "Technology",
-      "discovery_score": 65,
+      "discovery_score": 61,
       "discovery_reasons": [
         "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 12/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -462,8 +487,10 @@
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "High",
+      "confidence": "Medium",
       "watch_points": [
+        "注意材料になり得るニュース表現が 1 件あります。",
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -487,17 +514,17 @@
       "period_complete": false
     },
     {
-      "discovery_date": "2026-07-03",
-      "validation_date": "2026-07-03",
+      "discovery_date": "2026-07-04",
+      "validation_date": "2026-07-04",
       "period": "3m",
       "ticker": "AAPL",
       "company": "Apple Inc.",
       "sector": "Technology",
-      "discovery_score": 65,
+      "discovery_score": 61,
       "discovery_reasons": [
         "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 12/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -517,8 +544,10 @@
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "High",
+      "confidence": "Medium",
       "watch_points": [
+        "注意材料になり得るニュース表現が 1 件あります。",
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -542,17 +571,17 @@
       "period_complete": false
     },
     {
-      "discovery_date": "2026-07-03",
-      "validation_date": "2026-07-03",
+      "discovery_date": "2026-07-04",
+      "validation_date": "2026-07-04",
       "period": "6m",
       "ticker": "AAPL",
       "company": "Apple Inc.",
       "sector": "Technology",
-      "discovery_score": 65,
+      "discovery_score": 61,
       "discovery_reasons": [
         "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 12/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -572,8 +601,10 @@
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "High",
+      "confidence": "Medium",
       "watch_points": [
+        "注意材料になり得るニュース表現が 1 件あります。",
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -601,11 +632,11 @@
     "count": 10,
     "latest": [
       {
-        "event_id": "AAPL_6bd69fd85562bd9f",
+        "event_id": "AAPL_7a33b83435286dfd",
         "ticker": "AAPL",
-        "published_at": "2026-07-03T21:43:00+00:00",
-        "title": "Apple Is About 4% Away From Overtaking Nvidia as the World's Most Valuable Company. Could It Happen This Month?",
-        "url": "https://www.fool.com/investing/2026/07/03/apple-is-about-4-away-from-overtaking-nvidia-as-th/",
+        "published_at": "2026-07-04T20:37:00+00:00",
+        "title": "Apple Is Reportedly Planning 5 New iPhones -- Including a $2,500 Foldable. Here's What It Means for the Stock.",
+        "url": "https://www.fool.com/investing/2026/07/04/apple-is-reportedly-planning-5-new-iphones-includi/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -613,11 +644,11 @@
         "volume": null
       },
       {
-        "event_id": "AAPL_4f6b012cce2f02aa",
+        "event_id": "AAPL_dfd234eb880fc072",
         "ticker": "AAPL",
-        "published_at": "2026-07-03T20:53:55+00:00",
-        "title": "Dow Jones Futures: Techs' Rise Signal AI Trend Isn't Over; Apple, Robinhood Flash Buy Signals",
-        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-tumbles-apple-robinhood-buy-signals-tesla-sandisk-dive/?src=A00220&yptr=yahoo",
+        "published_at": "2026-07-04T19:20:00+00:00",
+        "title": "Warren Buffett's Berkshire Hathaway Owns $41 Billion of Alphabet Stock: Here Are 3 Possible Reasons Why",
+        "url": "https://www.fool.com/investing/2026/07/04/warren-buffett-berkshire-owns-alphabet-stock/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -625,11 +656,11 @@
         "volume": null
       },
       {
-        "event_id": "AAPL_ebf019a6dcc2d074",
+        "event_id": "AAPL_33f0c4f53a2acb59",
         "ticker": "AAPL",
-        "published_at": "2026-07-03T18:43:00+00:00",
-        "title": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
-        "url": "https://tech.yahoo.com/computing/articles/browser-wars-heat-hottest-alternatives-183852323.html",
+        "published_at": "2026-07-04T19:10:27+00:00",
+        "title": "Apple (AAPL) Plans 10 Million Foldables And An iPhone Ultra Push",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-plans-10-million-191027338.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -637,11 +668,11 @@
         "volume": null
       },
       {
-        "event_id": "AAPL_45976792cc05848d",
+        "event_id": "AAPL_83cffcc082a36719",
         "ticker": "AAPL",
-        "published_at": "2026-07-03T17:47:40+00:00",
-        "title": "Jim Cramer’s Latest Thought on Apple Inc. (AAPL)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-apple-see-quarter-081840061.html",
+        "published_at": "2026-07-04T17:57:00+00:00",
+        "title": "AI Can't Thrive Without This Stock (Hint: It's Not Nvidia)",
+        "url": "https://www.fool.com/investing/2026/07/04/ai-cant-thrive-without-ceg-stock-not-nvidia/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -649,11 +680,11 @@
         "volume": null
       },
       {
-        "event_id": "AAPL_b220c3cc88407a84",
+        "event_id": "AAPL_df4a8fd4b38299c4",
         "ticker": "AAPL",
-        "published_at": "2026-07-03T17:35:00+00:00",
-        "title": "This Tech ETF Is Quietly Outperforming QQQ in 2026 -- Is There Still Time to Buy?",
-        "url": "https://www.fool.com/investing/2026/07/03/tech-etf-vgt-quietly-outperform-qqq-2026-buy/",
+        "published_at": "2026-07-04T17:21:57+00:00",
+        "title": "DGRO vs. VIG: Which Dividend-Growth ETF Compounds Your Income Faster?",
+        "url": "https://247wallst.com/investing/etf/2026/07/04/dgro-vs-vig-which-dividend-growth-etf-compounds-your-income-faster/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -661,11 +692,11 @@
         "volume": null
       },
       {
-        "event_id": "AAPL_28011d11867eb9e1",
+        "event_id": "AAPL_ff957d49fdcff0a5",
         "ticker": "AAPL",
-        "published_at": "2026-07-03T16:41:22+00:00",
-        "title": "Saylor makes a bold claim about MSTR and it involves Apple and Nvidia",
-        "url": "https://www.thestreet.com/crypto/markets/saylor-makes-a-bold-claim-about-mstr-and-it-involves-apple-and-nvidia",
+        "published_at": "2026-07-04T17:07:00+00:00",
+        "title": "Apple's 2027 hardware refresh sends Wall Street a warning",
+        "url": "https://www.thestreet.com/investing/apple-2027-new-ipad-pro-macbook-pro-sends-wall-street-warning",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -673,11 +704,11 @@
         "volume": null
       },
       {
-        "event_id": "AAPL_31d78d845db93b4c",
+        "event_id": "AAPL_4edd6de294d43a03",
         "ticker": "AAPL",
-        "published_at": "2026-07-03T16:34:06+00:00",
-        "title": "3 Nasdaq 100 Stocks to Research Further",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-nasdaq-100-stocks-research-163406811.html",
+        "published_at": "2026-07-04T16:05:00+00:00",
+        "title": "1 Unstoppable Stock to Buy Before It Joins Google, Apple, Microsoft, and Nvidia in the $3 Trillion Club",
+        "url": "https://www.fool.com/investing/2026/07/04/1-unstoppable-stock-to-buy-before-it-joins-tril/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -685,11 +716,11 @@
         "volume": null
       },
       {
-        "event_id": "AAPL_067fdf17dca61791",
+        "event_id": "AAPL_4190eb9a4b36af40",
         "ticker": "AAPL",
-        "published_at": "2026-07-03T16:00:02+00:00",
-        "title": "AI Exuberance Warning Hits Investors",
-        "url": "https://finance.yahoo.com/technology/ai/articles/ai-exuberance-warning-hits-investors-160002940.html",
+        "published_at": "2026-07-04T14:30:00+00:00",
+        "title": "Tennessee deputy spent seized drug money on Apple gear for his family — now he owes $339K in pension clawbacks",
+        "url": "https://finance.yahoo.com/economy/policy/articles/tennessee-deputy-spent-seized-drug-143000228.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -697,11 +728,11 @@
         "volume": null
       },
       {
-        "event_id": "AAPL_6f8583fd38e2f1f6",
+        "event_id": "AAPL_c985414aaeb349dc",
         "ticker": "AAPL",
-        "published_at": "2026-07-03T13:35:47+00:00",
-        "title": "Could SpaceX Really Disrupt the Telecoms?",
-        "url": "https://247wallst.com/investing/2026/07/03/could-spacex-really-disrupt-the-telecoms/",
+        "published_at": "2026-07-04T14:10:46+00:00",
+        "title": "Evercore ISI Maintains Outperform Rating on Apple (AAPL) Stock",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/evercore-isi-maintains-outperform-rating-141046629.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -709,16 +740,16 @@
         "volume": null
       },
       {
-        "event_id": "AAPL_0da844574efd4970",
+        "event_id": "AAPL_d11154a428e93351",
         "ticker": "AAPL",
-        "published_at": "2026-07-02T12:11:00+00:00",
-        "title": "Here's how much more expensive your devices have gotten thanks to AI",
-        "url": "https://finance.yahoo.com/technology/article/heres-how-much-more-expensive-your-devices-have-gotten-thanks-to-ai-121100267.html",
+        "published_at": "2026-07-04T14:08:39+00:00",
+        "title": "Microsoft (MSFT): One of the Best AI and Technology Stocks to Buy Now",
+        "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-one-best-ai-140839126.html",
         "source": "STORY",
-        "close_price": 308.6300048828125,
-        "previous_close": 294.3800048828125,
-        "price_change_percent": 4.840682031265226,
-        "volume": 75400600.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       }
     ]
   },
@@ -727,110 +758,110 @@
     "latest": [
       {
         "ticker": "AAPL",
-        "title": "Apple Is About 4% Away From Overtaking Nvidia as the World's Most Valuable Company. Could It Happen This Month?",
-        "summary": "Two giants are separated by a gap that a single earnings report could close.",
-        "published_at": "2026-07-03T21:43:00+00:00",
+        "title": "Apple Is Reportedly Planning 5 New iPhones -- Including a $2,500 Foldable. Here's What It Means for the Stock.",
+        "summary": "Can a busy year for Apple product releases move the needle for a company of this size?",
+        "published_at": "2026-07-04T20:37:00+00:00",
         "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/07/03/apple-is-about-4-away-from-overtaking-nvidia-as-th/",
+        "url": "https://www.fool.com/investing/2026/07/04/apple-is-reportedly-planning-5-new-iphones-includi/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "AAPL",
-        "title": "Dow Jones Futures: Techs' Rise Signal AI Trend Isn't Over; Apple, Robinhood Flash Buy Signals",
-        "summary": "The stock market had strong weekly gains, but it didn't feel that way with Sandisk and other AI plays selling off Thursday.",
-        "published_at": "2026-07-03T20:53:55+00:00",
-        "publisher": "Investor's Business Daily",
-        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-tumbles-apple-robinhood-buy-signals-tesla-sandisk-dive/?src=A00220&yptr=yahoo",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "AAPL",
-        "title": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
-        "summary": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
-        "published_at": "2026-07-03T18:43:00+00:00",
-        "publisher": "TechCrunch",
-        "url": "https://tech.yahoo.com/computing/articles/browser-wars-heat-hottest-alternatives-183852323.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "AAPL",
-        "title": "Jim Cramer’s Latest Thought on Apple Inc. (AAPL)",
-        "summary": "Apple Inc. (NASDAQ:AAPL) was among the stocks on Jim Cramer’s Mad Money radar as he taught investors how to profit from the upcoming wave of takeovers. Cramer highlighted the effect of rising cost of components on the company’s stock, as he remarked: Fourth, Apple was down over 7% in June thanks to the skyrocketing cost […]",
-        "published_at": "2026-07-03T17:47:40+00:00",
-        "publisher": "Insider Monkey",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-apple-see-quarter-081840061.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "AAPL",
-        "title": "This Tech ETF Is Quietly Outperforming QQQ in 2026 -- Is There Still Time to Buy?",
-        "summary": "Shareholders of the Invesco QQQ ETF (QQQ) aren't getting the tech exposure they think they are. This pure-play ETF is better.",
-        "published_at": "2026-07-03T17:35:00+00:00",
+        "title": "Warren Buffett's Berkshire Hathaway Owns $41 Billion of Alphabet Stock: Here Are 3 Possible Reasons Why",
+        "summary": "The Omaha-based conglomerate now has sizable exposure to artificial intelligence.",
+        "published_at": "2026-07-04T19:20:00+00:00",
         "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/07/03/tech-etf-vgt-quietly-outperform-qqq-2026-buy/",
+        "url": "https://www.fool.com/investing/2026/07/04/warren-buffett-berkshire-owns-alphabet-stock/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "AAPL",
-        "title": "Saylor makes a bold claim about MSTR and it involves Apple and Nvidia",
-        "summary": "Michael Saylor has never been short on confidence when it comes to Strategy's standing in financial markets. His latest post on X took that a step further, with a pointed rhetorical question and a chart to answer it. \"Which stock is MoST inteResting?\" Saylor wrote in the post, the deliberate ...",
-        "published_at": "2026-07-03T16:41:22+00:00",
-        "publisher": "TheStreet",
-        "url": "https://www.thestreet.com/crypto/markets/saylor-makes-a-bold-claim-about-mstr-and-it-involves-apple-and-nvidia",
+        "title": "Apple (AAPL) Plans 10 Million Foldables And An iPhone Ultra Push",
+        "summary": "Apple (NasdaqGS:AAPL) is planning a major expansion of its iPhone lineup between H2 2026 and H1 2027, including at least five new models. The company is preparing its first foldable iPhone and is targeting production of around 10 million units. Apple also plans to introduce a premium iPhone Ultra model at the top of the range. To address memory chip supply constraints, Apple is diversifying to Chinese suppliers that are on a Pentagon blacklist, despite political and reputational risks. For...",
+        "published_at": "2026-07-04T19:10:27+00:00",
+        "publisher": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-plans-10-million-191027338.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "AAPL",
-        "title": "3 Nasdaq 100 Stocks to Research Further",
-        "summary": "The biggest names in tech, e-commerce, and digital transformation are in the Nasdaq 100 (^NDX), but only a few are leading the pack. Some companies in this index are proving their resilience and expanding their competitive advantages.",
-        "published_at": "2026-07-03T16:34:06+00:00",
-        "publisher": "StockStory",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-nasdaq-100-stocks-research-163406811.html",
+        "title": "AI Can't Thrive Without This Stock (Hint: It's Not Nvidia)",
+        "summary": "This under-the-radar company doesn't get the recognition that semiconductor specialists receive -- but it certainly should.",
+        "published_at": "2026-07-04T17:57:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/07/04/ai-cant-thrive-without-ceg-stock-not-nvidia/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "AAPL",
-        "title": "AI Exuberance Warning Hits Investors",
-        "summary": "Allianz's Ludovic Subran says markets may be too optimistic on AI's real-economy productivity impact.",
-        "published_at": "2026-07-03T16:00:02+00:00",
-        "publisher": "GuruFocus.com",
-        "url": "https://finance.yahoo.com/technology/ai/articles/ai-exuberance-warning-hits-investors-160002940.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "AAPL",
-        "title": "Could SpaceX Really Disrupt the Telecoms?",
-        "summary": "It’s getting tougher to reach for yields within the telecom sector, especially when you have a company like Space Exploration Technologies (NASDAQ:SPCX) out there with its disruptive satellite connectivity business, Starlink, which might just be the cash cow the firm needs to fuel its other, more ambitious voyages. In its current state, it feels like ... Could SpaceX Really Disrupt the Telecoms?",
-        "published_at": "2026-07-03T13:35:47+00:00",
+        "title": "DGRO vs. VIG: Which Dividend-Growth ETF Compounds Your Income Faster?",
+        "summary": "The iShares Core Dividend Growth ETF (NYSEARCA:DGRO) and the Vanguard Dividend Appreciation ETF (NYSEARCA:VIG) look like siblings on any fund screener: both hunt large-cap U.S. companies with a history of raising dividends, both charge single-digit basis points, and both distribute quarterly. The real divergence sits in the fine print of their index rules, and that ... DGRO vs. VIG: Which Dividend-Growth ETF Compounds Your Income Faster?",
+        "published_at": "2026-07-04T17:21:57+00:00",
         "publisher": "24/7 Wall St.",
-        "url": "https://247wallst.com/investing/2026/07/03/could-spacex-really-disrupt-the-telecoms/",
+        "url": "https://247wallst.com/investing/etf/2026/07/04/dgro-vs-vig-which-dividend-growth-etf-compounds-your-income-faster/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "AAPL",
-        "title": "Here's how much more expensive your devices have gotten thanks to AI",
-        "summary": "The AI price increase is coming for your wallet.",
-        "published_at": "2026-07-02T12:11:00+00:00",
-        "publisher": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/technology/article/heres-how-much-more-expensive-your-devices-have-gotten-thanks-to-ai-121100267.html",
+        "title": "Apple's 2027 hardware refresh sends Wall Street a warning",
+        "summary": "Apple (AAPL) is reportedly prepping for a 2027 hardware push that will go beyond the usual chip refresh. The Cupertino giant is testing new iPad Pro models and working on a redesigned MacBook Pro, a Bloomberg report cited by Seeking Alpha noted, setting up what could become one of its more ...",
+        "published_at": "2026-07-04T17:07:00+00:00",
+        "publisher": "TheStreet",
+        "url": "https://www.thestreet.com/investing/apple-2027-new-ipad-pro-macbook-pro-sends-wall-street-warning",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AAPL",
+        "title": "1 Unstoppable Stock to Buy Before It Joins Google, Apple, Microsoft, and Nvidia in the $3 Trillion Club",
+        "summary": "TSMC builds key components of the AI revolution, and that unique position could make it the next company to join the exclusive $3 trillion market-cap club.",
+        "published_at": "2026-07-04T16:05:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/07/04/1-unstoppable-stock-to-buy-before-it-joins-tril/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AAPL",
+        "title": "Tennessee deputy spent seized drug money on Apple gear for his family — now he owes $339K in pension clawbacks",
+        "summary": "A retired Knox County Sheriff's Office (KCSO) Assistant Chief Deputy was ordered to repay $339,015 to the Knox County Retirement System within 60 days.",
+        "published_at": "2026-07-04T14:30:00+00:00",
+        "publisher": "Moneywise",
+        "url": "https://finance.yahoo.com/economy/policy/articles/tennessee-deputy-spent-seized-drug-143000228.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AAPL",
+        "title": "Evercore ISI Maintains Outperform Rating on Apple (AAPL) Stock",
+        "summary": "Apple Inc. (NASDAQ:AAPL) is one of the Best AI and Technology Stocks to Buy Now. On June 25, Evercore ISI maintained an “Outperform” rating on the company’s stock with a price objective of $365. This comes after the company announced price increases throughout select Mac, iPad, and home devices. Apple Inc. (NASDAQ:AAPL) increased the prices across the […]",
+        "published_at": "2026-07-04T14:10:46+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/evercore-isi-maintains-outperform-rating-141046629.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AAPL",
+        "title": "Microsoft (MSFT): One of the Best AI and Technology Stocks to Buy Now",
+        "summary": "Microsoft Corporation (NASDAQ:MSFT) is one of the Best AI and Technology Stocks to Buy Now. On June 25, CNBC reported that Microsoft Corporation (NASDAQ:MSFT) will be increasing the price of Xbox game consoles. This comes after Apple announced an increase in prices for MacBooks and iPads. Starting August 1, Xbox Series S consoles, which have 512GB of […]",
+        "published_at": "2026-07-04T14:08:39+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-one-best-ai-140839126.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
@@ -838,8 +869,8 @@
     ]
   },
   "Confidence": {
-    "scoring": "High",
-    "discovery": "High"
+    "scoring": "Medium",
+    "discovery": "Medium"
   },
-  "Timestamp": "2026-07-03T18:55:51.673507-04:00"
+  "Timestamp": "2026-07-04T18:49:29.080784-04:00"
 }
