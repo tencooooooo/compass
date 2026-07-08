@@ -7,20 +7,20 @@
     "country": "United States",
     "currency": "USD",
     "exchange": "NMS",
-    "market_cap": 4478710317056,
-    "enterprise_value": 4409065472000,
+    "market_cap": 4416355172352,
+    "enterprise_value": 4415971393536,
     "shares_outstanding": 5867155790,
     "beta": 1.247,
-    "trailing_pe": 27.974848,
-    "forward_pe": 25.21207,
+    "trailing_pe": 27.627481,
+    "forward_pe": 24.860695,
     "peg_ratio": 1.44,
-    "price_to_book": 9.288607,
-    "eps": 13.12,
-    "forward_eps": 14.55771,
-    "dividend_yield": null,
+    "price_to_book": 9.159286,
+    "eps": 13.1,
+    "forward_eps": 14.55792,
+    "dividend_yield": 0.24,
     "52_week_high": 408.61,
     "52_week_low": 172.77,
-    "average_volume": 31796745,
+    "average_volume": 31645019,
     "employees": 194668,
     "website": "https://abc.xyz",
     "business_summary": "Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in Google Play and YouTube; and devices, as well as the provision of YouTube consumer subscription services, such as YouTube TV, YouTube Music and Premium, NFL Sunday Ticket, and Google One. The Google Cloud segment offers consumption-based fees and subscriptions for AI solutions, including AI infrastructure, Vertex AI platform, and Gemini enterprise. It also provides cybersecurity, and data and analytics services; Google Workspace that include cloud-based communication and collaboration tools for enterprises, such as Calendar, Gmail, Docs, Drive, and Meet; and other enterprise services. The Other Bets segment sells transportation and internet services. Alphabet Inc. was incorporated in 1998 and is headquartered in Mountain View, California."
@@ -137,20 +137,36 @@
         "scoring": "Medium",
         "discovery": "Medium"
       }
+    },
+    {
+      "date": "2026-07-08",
+      "timestamp": "2026-07-08T18:57:22.213166-04:00",
+      "score": 75,
+      "discovery_score": 74,
+      "discovery_status": "Watch Candidate",
+      "validation_results": {
+        "Neutral": 5
+      },
+      "event_count": 10,
+      "news_count": 10,
+      "confidence": {
+        "scoring": "High",
+        "discovery": "High"
+      }
     }
   ],
   "Scores": {
     "ticker": "GOOGL",
     "company_name": "Alphabet Inc.",
-    "total_score": 68,
+    "total_score": 75,
     "max_score": 100,
     "confidence": {
-      "level": "Medium",
-      "completeness_score": 95.0,
+      "level": "High",
+      "completeness_score": 100,
       "reasons": [
         "利用可能な主要データ領域は5領域中 5 領域です。",
-        "欠損または計算不可の項目数は 1 件です。",
-        "主要データは一定程度ありますが、欠損や未取得項目が残っています。"
+        "欠損または計算不可の項目数は 0 件です。",
+        "主要データが比較的そろっており、説明可能性は高めです。"
       ]
     },
     "scores": {
@@ -197,42 +213,40 @@
         }
       },
       "Financial Health": {
-        "score": 14,
+        "score": 20,
         "max_score": 20,
         "reasons": [
           "現金 がプラスで確認できるため加点しています。",
           "自己資本がプラスで、財務基盤を確認できます。",
-          "総負債が取得できないため、負債項目は加点していません。",
-          "長期債務が確認できるため、返済負担の継続確認が必要です。",
+          "総負債/自己資本が 0.43 倍で、負債負担は相対的に抑えられています。",
+          "長期債務が総負債に対して過度に大きくないため加点しています。",
           "Current Ratio が 2.01 で、短期支払余力が確認できます。"
         ],
         "evidence": [
           "Financials",
           "Knowledge"
         ],
-        "missing_data": [
-          "total_liabilities"
-        ],
+        "missing_data": [],
         "metrics": {
           "cash": 30708000000.0,
-          "total_liabilities": null,
+          "total_liabilities": 180016000000.0,
           "shareholders_equity": 415265000000.0,
           "long_term_debt": 46547000000.0,
           "current_ratio": 2.005333592875566
         }
       },
       "Valuation": {
-        "score": 12,
+        "score": 14,
         "max_score": 20,
         "reasons": [
           "セクター比較対象が 2 社のため、PER は固定閾値で評価しています。",
-          "PER は 27.97 で、バリュエーション面は中立から注意寄りです。",
+          "PER は 27.63 で、バリュエーション面は中立から注意寄りです。",
           "セクター比較対象が 2 社のため、Forward PER は固定閾値で評価しています。",
-          "Forward PER は 25.21 で、バリュエーション面は中立から注意寄りです。",
+          "Forward PER は 24.86 で、評価ルール上は過度な割高さが抑えられています。",
           "セクター比較対象が 2 社のため、PEG は固定閾値で評価しています。",
           "PEG は 1.44 で、バリュエーション面は中立から注意寄りです。",
           "セクター比較対象が 2 社のため、PBR は固定閾値で評価しています。",
-          "PBR は 9.29 で、バリュエーション面は中立から注意寄りです。",
+          "PBR は 9.16 で、バリュエーション面は中立から注意寄りです。",
           "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
         ],
         "evidence": [
@@ -241,10 +255,10 @@
         ],
         "missing_data": [],
         "metrics": {
-          "trailing_pe": 27.974848,
-          "forward_pe": 25.21207,
+          "trailing_pe": 27.627481,
+          "forward_pe": 24.860695,
           "peg_ratio": 1.44,
-          "price_to_book": 9.288607,
+          "price_to_book": 9.159286,
           "sector_peer_count": 2
         }
       },
@@ -252,11 +266,11 @@
         "score": 9,
         "max_score": 20,
         "reasons": [
-          "1M の対SPY超過リターンは -0.34pt と、市場を小幅に下回っています。",
-          "3M の対SPY超過リターンは +8.65pt で、市場並み以上です。",
-          "6M の対SPY超過リターンは +6.58pt で、市場並み以上です。",
-          "1Y の対SPY超過リターンが +84.13pt と、市場を大きく上回っています。",
-          "直近出来高が30日平均の 0.66 倍で、市場関心はやや弱めです。"
+          "1M の対SPY超過リターンは -3.06pt と、市場を小幅に下回っています。",
+          "3M の対SPY超過リターンは +5.19pt で、市場並み以上です。",
+          "6M の対SPY超過リターンは +5.52pt で、市場並み以上です。",
+          "1Y の対SPY超過リターンが +83.88pt と、市場を大きく上回っています。",
+          "直近出来高が30日平均の 0.60 倍で、市場関心はやや弱めです。"
         ],
         "evidence": [
           "Prices",
@@ -264,34 +278,34 @@
         ],
         "missing_data": [],
         "metrics": {
-          "1M": -1.327489969760372,
-          "3M": 22.420493304088556,
-          "6M": 16.613603066299117,
-          "1Y": 105.02256608090035,
+          "1M": -1.734947238254863,
+          "3M": 18.554376549107907,
+          "6M": 14.485091514069207,
+          "1Y": 105.30149785989103,
           "benchmark": "SPY",
           "benchmark_returns": {
-            "1M": -0.98,
-            "3M": 13.77,
-            "6M": 10.03,
-            "1Y": 20.89
+            "1M": 1.32,
+            "3M": 13.36,
+            "6M": 8.96,
+            "1Y": 21.42
           },
           "excess_returns": {
-            "1M": -0.34,
-            "3M": 8.65,
-            "6M": 6.58,
-            "1Y": 84.13
+            "1M": -3.06,
+            "3M": 5.19,
+            "6M": 5.52,
+            "1Y": 83.88
           },
-          "latest_volume": 23978816.0,
-          "average_volume_30d": 36395733.86666667
+          "latest_volume": 21880821.0,
+          "average_volume_30d": 36445917.36666667
         }
       },
       "News": {
-        "score": 13,
+        "score": 12,
         "max_score": 20,
         "reasons": [
           "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-          "ニュース見出し・要約の簡易分類では、好材料 6 件、悪材料 2 件(純比率 +0.50)で、センチメントは 6.0 点です。",
-          "イベント後の平均株価反応が 0.16% と中立圏です。"
+          "ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
+          "イベント後の平均株価反応が -1.39% と弱く、注意が必要です。"
         ],
         "evidence": [
           "News",
@@ -301,11 +315,11 @@
         "missing_data": [],
         "metrics": {
           "news_count": 10,
-          "positive_count": 6,
-          "negative_count": 2,
-          "sentiment_net_ratio": 0.5,
+          "positive_count": 4,
+          "negative_count": 0,
+          "sentiment_net_ratio": 1.0,
           "event_count": 10,
-          "events_with_price_reaction": 3
+          "events_with_price_reaction": 6
         }
       }
     },
@@ -323,19 +337,19 @@
     "company": "Alphabet Inc.",
     "sector": "Communication Services",
     "industry": "Internet Content & Information",
-    "discovery_score": 69,
+    "discovery_score": 74,
     "status": "Watch Candidate",
     "discovery_reasons": [
       "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
-      "Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。",
-      "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
+      "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
+      "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
       "売上が取得でき、事業規模の確認ができます。",
       "EPSがプラスで、利益を伴う成長候補として確認できます。",
       "研究開発費が確認でき、将来成長への投資シグナルがあります。",
       "FCFがプラスで、成長投資を支える現金創出力があります。",
-      "1Mモメンタムは対SPYで -0.34pt と、市場を小幅に下回っています。",
-      "3Mモメンタムは対SPYで +8.65pt と、市場並み以上です。",
-      "6Mモメンタムは対SPYで +6.58pt と、市場並み以上です。"
+      "1Mモメンタムは対SPYで -3.06pt と、市場を小幅に下回っています。",
+      "3Mモメンタムは対SPYで +5.19pt と、市場並み以上です。",
+      "6Mモメンタムは対SPYで +5.52pt と、市場並み以上です。"
     ],
     "strengths": [
       "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
@@ -343,15 +357,14 @@
       "純利益率が高く、売上から利益を残す力があります。"
     ],
     "watch_points": [
-      "注意材料になり得るニュース表現が 2 件あります。",
-      "Communication ServicesのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+      "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
       "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
       "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
       "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
       "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
       "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
     ],
-    "confidence": "Medium",
+    "confidence": "High",
     "evidence": [
       "Company",
       "Events",
@@ -364,56 +377,56 @@
     ],
     "missing_data": [],
     "metrics": {
-      "scoring_total": 68.0,
+      "scoring_total": 75.0,
       "growth_score": 20.0,
-      "financial_health_score": 14.0,
-      "valuation_score": 12.0,
-      "news_score": 13.0,
+      "financial_health_score": 20.0,
+      "valuation_score": 14.0,
+      "news_score": 12.0,
       "momentum": {
-        "1m": -1.327489969760372,
-        "3m": 22.420493304088556,
-        "6m": 16.613603066299117,
-        "1y": 105.02256608090035
+        "1m": -1.734947238254863,
+        "3m": 18.554376549107907,
+        "6m": 14.485091514069207,
+        "1y": 105.30149785989103
       },
       "benchmark": "SPY",
       "excess_momentum": {
-        "1m": -0.34,
-        "3m": 8.65,
-        "6m": 6.58,
-        "1y": 84.13
+        "1m": -3.06,
+        "3m": 5.19,
+        "6m": 5.52,
+        "1y": 83.88
       },
-      "positive_news": 6,
-      "watch_news": 2,
+      "positive_news": 4,
+      "watch_news": 0,
       "event_count": 10,
-      "events_with_reaction": 3,
-      "sector_average_score": 73.5
+      "events_with_reaction": 6,
+      "sector_average_score": 74.0
     }
   },
   "Validation": [
     {
-      "discovery_date": "2026-07-07",
-      "validation_date": "2026-07-07",
+      "discovery_date": "2026-07-08",
+      "validation_date": "2026-07-08",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
       "sector": "Communication Services",
-      "discovery_score": 69,
+      "discovery_score": 74,
       "discovery_reasons": [
         "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで -0.34pt と、市場を小幅に下回っています。",
-        "3Mモメンタムは対SPYで +8.65pt と、市場並み以上です。",
-        "6Mモメンタムは対SPYで +6.58pt と、市場並み以上です。"
+        "1Mモメンタムは対SPYで -3.06pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +5.19pt と、市場並み以上です。",
+        "6Mモメンタムは対SPYで +5.52pt と、市場並み以上です。"
       ],
-      "start_date": "2026-07-07",
-      "end_date": "2026-07-07",
-      "start_price": 367.0299987792969,
-      "end_price": 367.0299987792969,
+      "start_date": "2026-07-08",
+      "end_date": "2026-07-08",
+      "start_price": 361.9200134277344,
+      "end_price": 361.9200134277344,
       "return_percent": 0.0,
       "benchmark": "SPY",
       "benchmark_return_percent": 0.0,
@@ -421,10 +434,9 @@
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "Medium",
+      "confidence": "High",
       "watch_points": [
-        "注意材料になり得るニュース表現が 2 件あります。",
-        "Communication ServicesのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
         "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
@@ -447,29 +459,29 @@
       "period_complete": false
     },
     {
-      "discovery_date": "2026-07-07",
-      "validation_date": "2026-07-07",
+      "discovery_date": "2026-07-08",
+      "validation_date": "2026-07-08",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
       "sector": "Communication Services",
-      "discovery_score": 69,
+      "discovery_score": 74,
       "discovery_reasons": [
         "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで -0.34pt と、市場を小幅に下回っています。",
-        "3Mモメンタムは対SPYで +8.65pt と、市場並み以上です。",
-        "6Mモメンタムは対SPYで +6.58pt と、市場並み以上です。"
+        "1Mモメンタムは対SPYで -3.06pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +5.19pt と、市場並み以上です。",
+        "6Mモメンタムは対SPYで +5.52pt と、市場並み以上です。"
       ],
-      "start_date": "2026-07-07",
-      "end_date": "2026-07-07",
-      "start_price": 367.0299987792969,
-      "end_price": 367.0299987792969,
+      "start_date": "2026-07-08",
+      "end_date": "2026-07-08",
+      "start_price": 361.9200134277344,
+      "end_price": 361.9200134277344,
       "return_percent": 0.0,
       "benchmark": "SPY",
       "benchmark_return_percent": 0.0,
@@ -477,10 +489,9 @@
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "Medium",
+      "confidence": "High",
       "watch_points": [
-        "注意材料になり得るニュース表現が 2 件あります。",
-        "Communication ServicesのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
         "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
@@ -503,29 +514,29 @@
       "period_complete": false
     },
     {
-      "discovery_date": "2026-07-07",
-      "validation_date": "2026-07-07",
+      "discovery_date": "2026-07-08",
+      "validation_date": "2026-07-08",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
       "sector": "Communication Services",
-      "discovery_score": 69,
+      "discovery_score": 74,
       "discovery_reasons": [
         "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで -0.34pt と、市場を小幅に下回っています。",
-        "3Mモメンタムは対SPYで +8.65pt と、市場並み以上です。",
-        "6Mモメンタムは対SPYで +6.58pt と、市場並み以上です。"
+        "1Mモメンタムは対SPYで -3.06pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +5.19pt と、市場並み以上です。",
+        "6Mモメンタムは対SPYで +5.52pt と、市場並み以上です。"
       ],
-      "start_date": "2026-07-07",
-      "end_date": "2026-07-07",
-      "start_price": 367.0299987792969,
-      "end_price": 367.0299987792969,
+      "start_date": "2026-07-08",
+      "end_date": "2026-07-08",
+      "start_price": 361.9200134277344,
+      "end_price": 361.9200134277344,
       "return_percent": 0.0,
       "benchmark": "SPY",
       "benchmark_return_percent": 0.0,
@@ -533,10 +544,9 @@
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "Medium",
+      "confidence": "High",
       "watch_points": [
-        "注意材料になり得るニュース表現が 2 件あります。",
-        "Communication ServicesのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
         "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
@@ -559,29 +569,29 @@
       "period_complete": false
     },
     {
-      "discovery_date": "2026-07-07",
-      "validation_date": "2026-07-07",
+      "discovery_date": "2026-07-08",
+      "validation_date": "2026-07-08",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
       "sector": "Communication Services",
-      "discovery_score": 69,
+      "discovery_score": 74,
       "discovery_reasons": [
         "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで -0.34pt と、市場を小幅に下回っています。",
-        "3Mモメンタムは対SPYで +8.65pt と、市場並み以上です。",
-        "6Mモメンタムは対SPYで +6.58pt と、市場並み以上です。"
+        "1Mモメンタムは対SPYで -3.06pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +5.19pt と、市場並み以上です。",
+        "6Mモメンタムは対SPYで +5.52pt と、市場並み以上です。"
       ],
-      "start_date": "2026-07-07",
-      "end_date": "2026-07-07",
-      "start_price": 367.0299987792969,
-      "end_price": 367.0299987792969,
+      "start_date": "2026-07-08",
+      "end_date": "2026-07-08",
+      "start_price": 361.9200134277344,
+      "end_price": 361.9200134277344,
       "return_percent": 0.0,
       "benchmark": "SPY",
       "benchmark_return_percent": 0.0,
@@ -589,10 +599,9 @@
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "Medium",
+      "confidence": "High",
       "watch_points": [
-        "注意材料になり得るニュース表現が 2 件あります。",
-        "Communication ServicesのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
         "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
@@ -615,29 +624,29 @@
       "period_complete": false
     },
     {
-      "discovery_date": "2026-07-07",
-      "validation_date": "2026-07-07",
+      "discovery_date": "2026-07-08",
+      "validation_date": "2026-07-08",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
       "sector": "Communication Services",
-      "discovery_score": 69,
+      "discovery_score": 74,
       "discovery_reasons": [
         "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで -0.34pt と、市場を小幅に下回っています。",
-        "3Mモメンタムは対SPYで +8.65pt と、市場並み以上です。",
-        "6Mモメンタムは対SPYで +6.58pt と、市場並み以上です。"
+        "1Mモメンタムは対SPYで -3.06pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +5.19pt と、市場並み以上です。",
+        "6Mモメンタムは対SPYで +5.52pt と、市場並み以上です。"
       ],
-      "start_date": "2026-07-07",
-      "end_date": "2026-07-07",
-      "start_price": 367.0299987792969,
-      "end_price": 367.0299987792969,
+      "start_date": "2026-07-08",
+      "end_date": "2026-07-08",
+      "start_price": 361.9200134277344,
+      "end_price": 361.9200134277344,
       "return_percent": 0.0,
       "benchmark": "SPY",
       "benchmark_return_percent": 0.0,
@@ -645,10 +654,9 @@
       "sector_average_return_percent": 0.0,
       "sector_diff_percent": 0.0,
       "validation_result": "Neutral",
-      "confidence": "Medium",
+      "confidence": "High",
       "watch_points": [
-        "注意材料になり得るニュース表現が 2 件あります。",
-        "Communication ServicesのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
         "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
@@ -675,11 +683,11 @@
     "count": 10,
     "latest": [
       {
-        "event_id": "GOOGL_ae392275310b7e82",
+        "event_id": "GOOGL_9dee8b156301980d",
         "ticker": "GOOGL",
-        "published_at": "2026-07-07T22:33:15+00:00",
-        "title": "Netflix, Disney, YouTube target $2B FIFA rights package for next World Cups - CNBC",
-        "url": "https://finance.yahoo.com/media-advertising/articles/netflix-disney-youtube-target-2b-223315313.html",
+        "published_at": "2026-07-08T22:25:00+00:00",
+        "title": "The Stock Market Just Flashed a Warning Sign Only Seen Once Before in 155 Years -- and History is Very Clear About What Happens Next.",
+        "url": "https://www.fool.com/investing/2026/07/08/the-stock-market-just-flashed-a-warning-sign-only/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -687,11 +695,11 @@
         "volume": null
       },
       {
-        "event_id": "GOOGL_383ab87fd33e7a86",
+        "event_id": "GOOGL_1eb37ae1434764ca",
         "ticker": "GOOGL",
-        "published_at": "2026-07-07T21:29:52+00:00",
-        "title": "Amazon Stocks Climbs As AI Push Drives $25 Billion Bond Sale",
-        "url": "https://www.investors.com/news/technology/amazon-stock-25-billion-bond-ai-costs-rising/?src=A00220&yptr=yahoo",
+        "published_at": "2026-07-08T21:20:00+00:00",
+        "title": "Alphabet's Artificial Intelligence (AI) Spending Spree Is Great News for Nvidia",
+        "url": "https://www.fool.com/investing/2026/07/08/alphabets-artificial-intelligence-ai-spending-spre/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -699,11 +707,11 @@
         "volume": null
       },
       {
-        "event_id": "GOOGL_a88c57675e825e36",
+        "event_id": "GOOGL_75533228bf875743",
         "ticker": "GOOGL",
-        "published_at": "2026-07-07T21:18:31+00:00",
-        "title": "A Circuit Board Problem Just Delayed Nvidia’s Next AI System to 2028 And Chip Stocks Are Already Feeling the Fallout",
-        "url": "https://247wallst.com/investing/2026/07/07/a-circuit-board-problem-just-delayed-nvidias-next-ai-system-to-2028-and-chip-stocks-are-already-feeling-the-fallout/",
+        "published_at": "2026-07-08T21:03:00+00:00",
+        "title": "Why SpaceX’s Multi-Billion Dollar Debt Sale Is Already Losing Money for Investors",
+        "url": "https://www.barrons.com/articles/spacex-bonds-debt-sale-stock-ecb75ccc?siteid=yhoof2&yptr=yahoo",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -711,11 +719,11 @@
         "volume": null
       },
       {
-        "event_id": "GOOGL_3457c8019ff03ac3",
+        "event_id": "GOOGL_0ef29cde59e56922",
         "ticker": "GOOGL",
-        "published_at": "2026-07-07T20:35:00+00:00",
-        "title": "SpaceX Joins the Nasdaq-100. Why the Stock Dropped.",
-        "url": "https://www.barrons.com/articles/spacex-stock-price-nasdaq-100-addition-a0ab3e4d?siteid=yhoof2&yptr=yahoo",
+        "published_at": "2026-07-08T20:25:00+00:00",
+        "title": "The Reason Behind Blue Origin’s Eye-Popping Valuation",
+        "url": "https://www.barrons.com/articles/blue-origin-valuation-spacex-stock-2fa424ae?siteid=yhoof2&yptr=yahoo",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -723,76 +731,76 @@
         "volume": null
       },
       {
-        "event_id": "GOOGL_7a5d9e9e1a818393",
+        "event_id": "GOOGL_dea744c72188347d",
         "ticker": "GOOGL",
-        "published_at": "2026-07-07T20:34:00+00:00",
-        "title": "SpaceX Just Got 14 New Buy Ratings—and 1 Crazy Price Target",
-        "url": "https://www.barrons.com/articles/spacex-stock-price-analyst-ratings-buy-6935428c?siteid=yhoof2&yptr=yahoo",
+        "published_at": "2026-07-08T19:36:29+00:00",
+        "title": "The MediaTek Ghost Story Just Dropped the World’s Most Powerful Custom-Silicon Juggernaut Into a 25% Discount Zone",
+        "url": "https://247wallst.com/investing/2026/07/08/the-mediatek-ghost-story-just-dropped-the-worlds-most-powerful-custom-silicon-juggernaut-into-a-25-discount-zone/",
         "source": "STORY",
-        "close_price": null,
-        "previous_close": null,
-        "price_change_percent": null,
-        "volume": null
+        "close_price": 361.9200134277344,
+        "previous_close": 367.0299987792969,
+        "price_change_percent": -1.39225277730915,
+        "volume": 21880821.0
       },
       {
-        "event_id": "GOOGL_d28def08b5f7db6a",
+        "event_id": "GOOGL_34a4d0a4ead4e5b1",
         "ticker": "GOOGL",
-        "published_at": "2026-07-07T20:33:13+00:00",
-        "title": "DeepSeek looks to reduce reliance on Nvidia with own AI chip",
-        "url": "https://finance.yahoo.com/video/deepseek-looks-to-reduce-reliance-on-nvidia-with-own-ai-chip-203313261.html",
+        "published_at": "2026-07-08T19:28:38+00:00",
+        "title": "Amazon’s $25 billion ‘surprise’ bond sale dangled extra yield to lure in buyers—and flashed a warning sign about the AI boom",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-25-billion-surprise-bond-192838890.html",
+        "source": "STORY",
+        "close_price": 361.9200134277344,
+        "previous_close": 367.0299987792969,
+        "price_change_percent": -1.39225277730915,
+        "volume": 21880821.0
+      },
+      {
+        "event_id": "GOOGL_c35b02851c119085",
+        "ticker": "GOOGL",
+        "published_at": "2026-07-08T19:16:05+00:00",
+        "title": "Google Paid Him $986,000 in a Single Year. Here’s Why He Still Left: ‘Life-Changing Money’",
+        "url": "https://www.entrepreneur.com/business-news/google-paid-him-986000-in-a-single-year-heres-why-he-still-left",
+        "source": "STORY",
+        "close_price": 361.9200134277344,
+        "previous_close": 367.0299987792969,
+        "price_change_percent": -1.39225277730915,
+        "volume": 21880821.0
+      },
+      {
+        "event_id": "GOOGL_45c15b94d2cfcf68",
+        "ticker": "GOOGL",
+        "published_at": "2026-07-08T18:25:00+00:00",
+        "title": "Sterling Infrastructure Should Regain Momentum Soon",
+        "url": "https://www.fool.com/investing/2026/07/08/sterling-infrastructure-should-regain-momentum-soo/",
+        "source": "STORY",
+        "close_price": 361.9200134277344,
+        "previous_close": 367.0299987792969,
+        "price_change_percent": -1.39225277730915,
+        "volume": 21880821.0
+      },
+      {
+        "event_id": "GOOGL_df0e5a63ce86e009",
+        "ticker": "GOOGL",
+        "published_at": "2026-07-08T18:12:00+00:00",
+        "title": "Google Bans Prediction Market Transactions Amid Backlash",
+        "url": "https://www.cryptoprowl.com/releases/google-bans-prediction-market-transactions-amid-backlash-6104",
+        "source": "STORY",
+        "close_price": 361.9200134277344,
+        "previous_close": 367.0299987792969,
+        "price_change_percent": -1.39225277730915,
+        "volume": 21880821.0
+      },
+      {
+        "event_id": "GOOGL_e7ece7b435c7449c",
+        "ticker": "GOOGL",
+        "published_at": "2026-07-08T12:00:00+00:00",
+        "title": "AI spending is becoming more capital market 'sensitive': Portfolio mgr.",
+        "url": "https://finance.yahoo.com/video/ai-spending-becoming-more-capital-120000916.html",
         "source": "VIDEO",
-        "close_price": null,
-        "previous_close": null,
-        "price_change_percent": null,
-        "volume": null
-      },
-      {
-        "event_id": "GOOGL_f856c723460f0ae3",
-        "ticker": "GOOGL",
-        "published_at": "2026-07-07T20:09:46+00:00",
-        "title": "US Equity Markets Lower as Semiconductor Stocks Fall, Crude Oil Prices Rise",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-lower-semiconductor-200946448.html",
-        "source": "STORY",
-        "close_price": null,
-        "previous_close": null,
-        "price_change_percent": null,
-        "volume": null
-      },
-      {
-        "event_id": "GOOGL_d6820c5f33d688b3",
-        "ticker": "GOOGL",
-        "published_at": "2026-07-07T19:48:25+00:00",
-        "title": "Google Co-Founder Worth $280 Billion Flees NYC Real Estate at 94% Loss Ahead of Mamdani’s Rent Freeze",
-        "url": "https://247wallst.com/investing/2026/07/07/google-co-founder-worth-280-billion-flees-nyc-real-estate-at-94-loss-ahead-of-mamdanis-rent-freeze/",
-        "source": "STORY",
-        "close_price": 367.0299987792969,
-        "previous_close": 366.4599914550781,
-        "price_change_percent": 0.15554421697044202,
-        "volume": 23978816.0
-      },
-      {
-        "event_id": "GOOGL_a94fd805dfb9e9f8",
-        "ticker": "GOOGL",
-        "published_at": "2026-07-07T19:22:27+00:00",
-        "title": "Amazon Plans $25 Billion Bond Sale",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-plans-25-billion-bond-192227995.html",
-        "source": "STORY",
-        "close_price": 367.0299987792969,
-        "previous_close": 366.4599914550781,
-        "price_change_percent": 0.15554421697044202,
-        "volume": 23978816.0
-      },
-      {
-        "event_id": "GOOGL_d14771f645cc1ee2",
-        "ticker": "GOOGL",
-        "published_at": "2026-07-07T13:31:55+00:00",
-        "title": "Who will be the AI trade's real winners: The makers vs. the takers?",
-        "url": "https://finance.yahoo.com/video/who-will-be-the-ai-trades-real-winners-the-makers-vs-the-takers-133155603.html",
-        "source": "VIDEO",
-        "close_price": 367.0299987792969,
-        "previous_close": 366.4599914550781,
-        "price_change_percent": 0.15554421697044202,
-        "volume": 23978816.0
+        "close_price": 361.9200134277344,
+        "previous_close": 367.0299987792969,
+        "price_change_percent": -1.39225277730915,
+        "volume": 21880821.0
       }
     ]
   },
@@ -801,110 +809,110 @@
     "latest": [
       {
         "ticker": "GOOGL",
-        "title": "Netflix, Disney, YouTube target $2B FIFA rights package for next World Cups - CNBC",
-        "summary": "Investing.com -- A massive bidding war is brewing over the U.S. broadcast rights for the 2030 and 2034 FIFA World Cups, as streaming and legacy media giants look to sideline incumbent Fox Corp (NASDAQ:FOX). According to a recent report from CNBC, heavyweights Netflix Inc (NASDAQ:NFLX), Walt Disney Company (NYSE:DIS), and Alphabet’s (NASDAQ:GOOGL) YouTube are all actively exploring bids for the coveted soccer package. Discussions between FIFA and prospective media partners are slated to kick off",
-        "published_at": "2026-07-07T22:33:15+00:00",
-        "publisher": "Investing.com",
-        "url": "https://finance.yahoo.com/media-advertising/articles/netflix-disney-youtube-target-2b-223315313.html",
+        "title": "The Stock Market Just Flashed a Warning Sign Only Seen Once Before in 155 Years -- and History is Very Clear About What Happens Next.",
+        "summary": "Will the S&P 500's gains continue?",
+        "published_at": "2026-07-08T22:25:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/07/08/the-stock-market-just-flashed-a-warning-sign-only/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "GOOGL",
-        "title": "Amazon Stocks Climbs As AI Push Drives $25 Billion Bond Sale",
-        "summary": "Amazon stock climbed Tuesday, following reports the tech giant is raising at least $25 billion through a bond offering to support its big investments into AI-related infrastructure.  The Seattle-based Amazon is raising the funds through an eight-part bond sale, according to reports in Bloomberg and the Wall Street Journal.  Amazon disclosed plans for the bond sale in regulatory filings Tuesday but did not disclose the amount.",
-        "published_at": "2026-07-07T21:29:52+00:00",
-        "publisher": "Investor's Business Daily",
-        "url": "https://www.investors.com/news/technology/amazon-stock-25-billion-bond-ai-costs-rising/?src=A00220&yptr=yahoo",
+        "title": "Alphabet's Artificial Intelligence (AI) Spending Spree Is Great News for Nvidia",
+        "summary": "The AI tailwind isn't over yet.",
+        "published_at": "2026-07-08T21:20:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/07/08/alphabets-artificial-intelligence-ai-spending-spre/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "GOOGL",
-        "title": "A Circuit Board Problem Just Delayed Nvidia’s Next AI System to 2028 And Chip Stocks Are Already Feeling the Fallout",
-        "summary": "A printed circuit board just pushed NVIDIA’s most powerful AI system into 2028 — at least according to one research firm. Semiconductor research firm SemiAnalysis reported on July 5–6, 2026 that NVIDIA’s Kyber NVL144 rack-scale AI system has been delayed, from its planned 2027 launch to 2028. CNBC cited the SemiAnalysis post. NVIDIA publicly disputed ... A Circuit Board Problem Just Delayed Nvidia’s Next AI System to 2028 And Chip Stocks Are Already Feeling the Fallout",
-        "published_at": "2026-07-07T21:18:31+00:00",
-        "publisher": "24/7 Wall St.",
-        "url": "https://247wallst.com/investing/2026/07/07/a-circuit-board-problem-just-delayed-nvidias-next-ai-system-to-2028-and-chip-stocks-are-already-feeling-the-fallout/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "GOOGL",
-        "title": "SpaceX Joins the Nasdaq-100. Why the Stock Dropped.",
-        "summary": "SpaceX  trading losses on Tuesday didn’t appear to have much to do with space fundamentals.  Elon Musk’s AI and space company entered the  one of the best-known large-cap growth indexes that tracks the largest nonfinancial companies listed on Nasdaq.  A stock pop was possible, as passive funds snap up shares.",
-        "published_at": "2026-07-07T20:35:00+00:00",
+        "title": "Why SpaceX’s Multi-Billion Dollar Debt Sale Is Already Losing Money for Investors",
+        "summary": "SpaceX’s  $25 billion bond deal in late June has proven to be a dud amid apparent investor concern that the company will rely on the debt markets for its massive projected capital spending over the coming years.  In a widely hyped sale, SpaceX sold the $25 billion of debt following its IPO in five bond tranches with maturities ranging from five years to 30 years.  There were reports that the deal was more than three times oversubscribed and SpaceX was able to price the bonds at narrower yield premiums above U.S. Treasuries than had been expected.",
+        "published_at": "2026-07-08T21:03:00+00:00",
         "publisher": "Barrons.com",
-        "url": "https://www.barrons.com/articles/spacex-stock-price-nasdaq-100-addition-a0ab3e4d?siteid=yhoof2&yptr=yahoo",
+        "url": "https://www.barrons.com/articles/spacex-bonds-debt-sale-stock-ecb75ccc?siteid=yhoof2&yptr=yahoo",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "GOOGL",
-        "title": "SpaceX Just Got 14 New Buy Ratings—and 1 Crazy Price Target",
-        "summary": "The wait is over for  SpaceX  Shares have picked up a bevy of new ratings following the company’s IPO in June.  Wall Street is very bullish on Elon Musk’s rocket and artificial-intelligence company—especially Raymond James.  The most surprising target comes from Raymond James’ Brian Gesuale.",
-        "published_at": "2026-07-07T20:34:00+00:00",
+        "title": "The Reason Behind Blue Origin’s Eye-Popping Valuation",
+        "summary": "Space is the hot new sector on Wall Street, and market optimism has sent Jeff Bezos’ Blue Origin valuation to the moon.  Wednesday, CNBC reported that Blue Origin raised $10 billion, valuing the rocket company at $130 billion.  Blue Origin didn’t return a request for comment.",
+        "published_at": "2026-07-08T20:25:00+00:00",
         "publisher": "Barrons.com",
-        "url": "https://www.barrons.com/articles/spacex-stock-price-analyst-ratings-buy-6935428c?siteid=yhoof2&yptr=yahoo",
+        "url": "https://www.barrons.com/articles/blue-origin-valuation-spacex-stock-2fa424ae?siteid=yhoof2&yptr=yahoo",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "GOOGL",
-        "title": "DeepSeek looks to reduce reliance on Nvidia with own AI chip",
-        "summary": "Yahoo Finance's Dan Howley joins Josh Lipton to examine DeepSeek's development of a custom AI chip to bypass U.S. export restrictions and reduce its reliance on Nvidia.",
-        "published_at": "2026-07-07T20:33:13+00:00",
-        "publisher": "Yahoo Finance Video",
-        "url": "https://finance.yahoo.com/video/deepseek-looks-to-reduce-reliance-on-nvidia-with-own-ai-chip-203313261.html",
-        "language": null,
-        "source": "VIDEO",
-        "related_tickers": null
-      },
-      {
-        "ticker": "GOOGL",
-        "title": "US Equity Markets Lower as Semiconductor Stocks Fall, Crude Oil Prices Rise",
-        "summary": "US equity indexes closed lower on Tuesday as semiconductor stocks pulled technology stocks lower and",
-        "published_at": "2026-07-07T20:09:46+00:00",
-        "publisher": "MT Newswires",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-lower-semiconductor-200946448.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "GOOGL",
-        "title": "Google Co-Founder Worth $280 Billion Flees NYC Real Estate at 94% Loss Ahead of Mamdani’s Rent Freeze",
-        "summary": "The world’s third-richest person just accepted a 94% loss to walk away from New York City real estate. Google co-founder Sergey Brin, worth roughly $280 billion, sold his stake in a Manhattan multifamily fund for six cents on the dollar, according to Bloomberg. The direction of that trade matters more than the dollar figure to ... Google Co-Founder Worth $280 Billion Flees NYC Real Estate at 94% Loss Ahead of Mamdani’s Rent Freeze",
-        "published_at": "2026-07-07T19:48:25+00:00",
+        "title": "The MediaTek Ghost Story Just Dropped the World’s Most Powerful Custom-Silicon Juggernaut Into a 25% Discount Zone",
+        "summary": "Broadcom (NASDAQ:AVGO) and Marvell Technology (NASDAQ:MRVL) both sell custom AI silicon and networking chips to hyperscalers. Broadcom trades near $370, roughly 25% below its 52-week high after a Google diversification scare. Marvell has quietly tripled off spring lows. The businesses tell very different stories. Broadcom Posts Records While Marvell Reaccelerates Broadcom’s Q2 FY2026 landed at ... The MediaTek Ghost Story Just Dropped the World’s Most Powerful Custom-Silicon Juggernaut Into a 25",
+        "published_at": "2026-07-08T19:36:29+00:00",
         "publisher": "24/7 Wall St.",
-        "url": "https://247wallst.com/investing/2026/07/07/google-co-founder-worth-280-billion-flees-nyc-real-estate-at-94-loss-ahead-of-mamdanis-rent-freeze/",
+        "url": "https://247wallst.com/investing/2026/07/08/the-mediatek-ghost-story-just-dropped-the-worlds-most-powerful-custom-silicon-juggernaut-into-a-25-discount-zone/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "GOOGL",
-        "title": "Amazon Plans $25 Billion Bond Sale",
-        "summary": "The debt offering comes as large tech companies keep funding AI and data-center expansion.",
-        "published_at": "2026-07-07T19:22:27+00:00",
-        "publisher": "GuruFocus.com",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-plans-25-billion-bond-192227995.html",
+        "title": "Amazon’s $25 billion ‘surprise’ bond sale dangled extra yield to lure in buyers—and flashed a warning sign about the AI boom",
+        "summary": "Hyperscalers have sold an estimated $194 billion in AI-related bonds this year, and widening spreads on Amazon’s latest bond issuance show the market wants tech giants to pony up.",
+        "published_at": "2026-07-08T19:28:38+00:00",
+        "publisher": "Fortune",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-25-billion-surprise-bond-192838890.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "GOOGL",
-        "title": "Who will be the AI trade's real winners: The makers vs. the takers?",
-        "summary": "Samsung Electronics (005930.KS) released preliminary second quarter earnings results on Tuesday, reporting a 19-fold profit jump from a year ago, amounting to $58 billion. Morning Brief Host Julie Hyman welcomes Yahoo Finance Senior Business Reporter Ines Ferré and Interactive Brokers chief strategist Steve Sosnick to help break down whether Samsung's breakout numbers still weren't enough to impress Wall Street investors and what it signifies for the broader chip space.",
-        "published_at": "2026-07-07T13:31:55+00:00",
+        "title": "Google Paid Him $986,000 in a Single Year. Here’s Why He Still Left: ‘Life-Changing Money’",
+        "summary": "Nearly $1 million in pay wasn’t enough to keep this former Google employee at the company.",
+        "published_at": "2026-07-08T19:16:05+00:00",
+        "publisher": "Entrepreneur",
+        "url": "https://www.entrepreneur.com/business-news/google-paid-him-986000-in-a-single-year-heres-why-he-still-left",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "GOOGL",
+        "title": "Sterling Infrastructure Should Regain Momentum Soon",
+        "summary": "The 30% drop in Sterling Infrastructure does not align with its fundamentals.",
+        "published_at": "2026-07-08T18:25:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/07/08/sterling-infrastructure-should-regain-momentum-soo/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "GOOGL",
+        "title": "Google Bans Prediction Market Transactions Amid Backlash",
+        "summary": "Google parent company Alphabet (NASDAQ: $GOOGL) has updated its Chrome Web Store to prohibit prediction market tran...",
+        "published_at": "2026-07-08T18:12:00+00:00",
+        "publisher": "CryptoProwl",
+        "url": "https://www.cryptoprowl.com/releases/google-bans-prediction-market-transactions-amid-backlash-6104",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "GOOGL",
+        "title": "AI spending is becoming more capital market 'sensitive': Portfolio mgr.",
+        "summary": "Northwestern Mutual Wealth Management chief portfolio manager Matt Stucky comes on Market Domination Overtime to comment on what this signifies in capital market conditions and AI spending \"intentions\" for 2027.",
+        "published_at": "2026-07-08T12:00:00+00:00",
         "publisher": "Yahoo Finance Video",
-        "url": "https://finance.yahoo.com/video/who-will-be-the-ai-trades-real-winners-the-makers-vs-the-takers-133155603.html",
+        "url": "https://finance.yahoo.com/video/ai-spending-becoming-more-capital-120000916.html",
         "language": null,
         "source": "VIDEO",
         "related_tickers": null
@@ -912,8 +920,8 @@
     ]
   },
   "Confidence": {
-    "scoring": "Medium",
-    "discovery": "Medium"
+    "scoring": "High",
+    "discovery": "High"
   },
-  "Timestamp": "2026-07-07T18:52:52.060530-04:00"
+  "Timestamp": "2026-07-08T18:57:22.213166-04:00"
 }
