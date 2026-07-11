@@ -16,7 +16,8 @@ from utils.logger import get_timezone, setup_logger  # noqa: E402
 
 SETTINGS_PATH = PROJECT_ROOT / "config" / "settings.yaml"
 REPORT_DIR = PROJECT_ROOT / "reports" / "feedback"
-HISTORY_PATH = REPORT_DIR / "feedback_history.json"
+REPORT_HISTORY_PATH = REPORT_DIR / "feedback_history.json"
+MEMORY_HISTORY_PATH = PROJECT_ROOT / "memory" / "feedback" / "feedback_history.json"
 
 
 def fmt_percent(value: Any) -> str:
@@ -165,11 +166,14 @@ def render_improvement_candidates(analysis: dict[str, Any]) -> str:
 
 
 def load_history() -> list[dict[str, Any]]:
-    if not HISTORY_PATH.exists():
-        return []
-    with HISTORY_PATH.open("r", encoding="utf-8") as file:
-        data = json.load(file)
-    return data if isinstance(data, list) else []
+    for path in (MEMORY_HISTORY_PATH, REPORT_HISTORY_PATH):
+        if not path.exists():
+            continue
+        with path.open("r", encoding="utf-8") as file:
+            data = json.load(file)
+        if isinstance(data, list):
+            return data
+    return []
 
 
 def save_outputs(analysis: dict[str, Any]) -> None:
@@ -184,7 +188,10 @@ def save_outputs(analysis: dict[str, Any]) -> None:
             "improvement_candidates": analysis.get("improvement_candidates"),
         }
     )
-    HISTORY_PATH.write_text(json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8")
+    serialized = json.dumps(history, ensure_ascii=False, indent=2)
+    MEMORY_HISTORY_PATH.parent.mkdir(parents=True, exist_ok=True)
+    MEMORY_HISTORY_PATH.write_text(serialized, encoding="utf-8")
+    REPORT_HISTORY_PATH.write_text(serialized, encoding="utf-8")
 
 
 def main() -> int:

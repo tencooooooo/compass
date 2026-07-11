@@ -27,7 +27,8 @@ from utils.logger import get_timezone, setup_logger  # noqa: E402
 
 SETTINGS_PATH = PROJECT_ROOT / "config" / "settings.yaml"
 PROPOSAL_DIR = PROJECT_ROOT / "reports" / "proposals"
-PROPOSAL_INDEX_PATH = PROPOSAL_DIR / "proposal_index.json"
+PROPOSAL_INDEX_PATH = PROJECT_ROOT / "memory" / "decision" / "proposal_index.json"
+PROPOSAL_REPORT_INDEX_PATH = PROPOSAL_DIR / "proposal_index.json"
 KNOWLEDGE_UPDATE_DIR = PROJECT_ROOT / "reports" / "knowledge_updates"
 LEARNING_REPORT_DIR = PROJECT_ROOT / "reports" / "learning"
 LEARNING_HISTORY_PATH = PROJECT_ROOT / "memory" / "learning" / "learning_history.json"
@@ -47,8 +48,9 @@ def main() -> int:
     date_key = now.strftime("%Y-%m-%d")
 
     logger.info("Compass Core 04 - Learning Engine")
-    approved = approved_proposals(PROPOSAL_INDEX_PATH)
-    status_counts = proposal_status_counts(PROPOSAL_INDEX_PATH)
+    proposal_index_path = PROPOSAL_INDEX_PATH if PROPOSAL_INDEX_PATH.exists() else PROPOSAL_REPORT_INDEX_PATH
+    approved = approved_proposals(proposal_index_path)
+    status_counts = proposal_status_counts(proposal_index_path)
 
     history = append_learning_rows(LEARNING_HISTORY_PATH, approved, now.isoformat(), KNOWLEDGE_VERSION)
     proposal_details = {

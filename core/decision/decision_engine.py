@@ -21,9 +21,11 @@ from utils.logger import get_timezone, setup_logger  # noqa: E402
 
 SETTINGS_PATH = PROJECT_ROOT / "config" / "settings.yaml"
 FEEDBACK_HISTORY_PATH = PROJECT_ROOT / "reports" / "feedback" / "feedback_history.json"
+FEEDBACK_MEMORY_PATH = PROJECT_ROOT / "memory" / "feedback" / "feedback_history.json"
 PROPOSAL_DIR = PROJECT_ROOT / "reports" / "proposals"
 KNOWLEDGE_UPDATE_DIR = PROJECT_ROOT / "reports" / "knowledge_updates"
 PROPOSAL_INDEX_PATH = PROPOSAL_DIR / "proposal_index.json"
+PROPOSAL_STATE_PATH = PROJECT_ROOT / "memory" / "decision" / "proposal_index.json"
 
 
 def load_json(path: Path, default: Any) -> Any:
@@ -42,7 +44,7 @@ def main() -> int:
     date_key = now.strftime("%Y-%m-%d")
 
     logger.info("Compass Core 03 - Decision Engine")
-    feedback_history = load_json(FEEDBACK_HISTORY_PATH, [])
+    feedback_history = load_json(FEEDBACK_MEMORY_PATH, load_json(FEEDBACK_HISTORY_PATH, []))
     if not isinstance(feedback_history, list):
         feedback_history = []
 
@@ -56,7 +58,7 @@ def main() -> int:
     candidate_path = KNOWLEDGE_UPDATE_DIR / f"candidate_{date_key}.md"
     candidate_path.write_text(render_knowledge_update_candidate(proposals, date_key), encoding="utf-8")
 
-    review_manager = ReviewManager(PROPOSAL_INDEX_PATH)
+    review_manager = ReviewManager(PROPOSAL_INDEX_PATH, PROPOSAL_STATE_PATH)
     for proposal in proposals:
         review_manager.upsert_pending(proposal)
 

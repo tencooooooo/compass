@@ -2,6 +2,11 @@
 
 ## v1.0-alpha
 
+- Fixed durable Validation tracking: each daily run now reevaluates all Discovery Memory snapshots, merges prior monthly Validation rows, and partitions the ledger by Discovery month so 1w/1m/3m/6m/1y outcomes can mature across runners.
+- Expanded `compass-data` persistence to include the minimal raw data and generated reports required by weekly Performance, Strategy, Experiment, and Knowledge Graph jobs. Scheduled jobs now fail clearly when restored inputs are empty.
+- Made Feedback History and Proposal Review state durable under `memory/`, with report JSON mirrors for Workspace and API readers. Approved review state now survives daily runners and remains available to Learning.
+- Added deduplicated News and Event histories to Company Memory. Important-news alerts now require a high-signal pattern within 36 hours, and the daily pipeline runs on weekdays.
+- Changed Performance Evaluation to evaluate all durable Discovery snapshots instead of only the latest report.
 - Changed Momentum scoring: each window (1M/3M/6M/1Y) is now scored on the excess return versus the SPY benchmark when benchmark prices are available, with absolute-return fallback recorded in missing data. This separates stock-specific strength from market-wide direction.
 - Changed Discovery momentum: candidate momentum now uses the same benchmark-relative excess-return rule as the Scoring Engine, keeping Discovery Score consistent with scoring signals.
 - Changed Growth scoring: revenue and EPS YoY growth are now averaged across up to the latest four quarters with prior-year comparisons to reduce single-quarter noise, with acceleration and deceleration noted in reasons.

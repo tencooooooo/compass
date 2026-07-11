@@ -168,6 +168,7 @@ def main() -> int:
     config = load_notification_config()
     rules = config.get("notification", DEFAULT_RULES)
     max_news = int(config.get("max_news", 5))
+    important_news_max_age_hours = int(config.get("important_news_max_age_hours", 36))
     history = load_json(HISTORY_PATH, [])
     if not isinstance(history, list):
         history = []
@@ -185,7 +186,14 @@ def main() -> int:
     else:
         previous_scores = load_json(SCORE_STATE_PATH, {})
         previous_market = load_json(MARKET_STATE_PATH, {})
-        events = detect_events(PROJECT_ROOT, rules, previous_scores, previous_market, max_news)
+        events = detect_events(
+            PROJECT_ROOT,
+            rules,
+            previous_scores,
+            previous_market,
+            max_news,
+            important_news_max_age_hours,
+        )
 
     already_sent = sent_event_ids(history)
     fresh_events = [event for event in events if event.get("event_id") not in already_sent]

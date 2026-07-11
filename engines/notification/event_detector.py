@@ -1,25 +1,26 @@
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 import hashlib
 import json
 from pathlib import Path
+import re
 from typing import Any
 
 from utils.values import safe_float
 
 
-IMPORTANT_NEWS_KEYWORDS = {
-    "M&A": ["acquire", "acquisition", "merger", "buyout", "takeover", "買収", "合併"],
-    "決算": ["earnings", "revenue", "eps", "guidance", "quarter", "決算", "売上", "利益"],
-    "CEO交代": ["ceo", "cfo", "resign", "steps down", "appointed", "交代", "辞任"],
-    "大型契約": ["contract", "deal", "partnership", "agreement", "cloud", "government", "契約"],
-    "新製品": ["launch", "unveil", "new product", "platform", "chip", "service", "発表", "新製品"],
-    "配当": ["dividend", "増配", "減配", "配当"],
-    "自社株買い": ["buyback", "repurchase", "自社株買い"],
-    "規制": ["regulation", "probe", "antitrust", "export", "ban", "規制", "調査"],
-    "訴訟": ["lawsuit", "settlement", "court", "patent", "訴訟", "和解"],
-    "設備投資": ["factory", "data center", "capex", "facility", "investment", "設備投資"],
+IMPORTANT_NEWS_PATTERNS = {
+    "M&A": [r"\b(acquire[sd]?|acquisition|merger|buyout|takeover)\b", r"買収|合併"],
+    "決算": [r"\b(earnings|guidance|quarterly results|revenue forecast|eps forecast)\b", r"決算|業績予想"],
+    "CEO交代": [r"\b(ceo|cfo)\b.{0,30}\b(resign|steps down|appointed|named)\b", r"交代|辞任|就任"],
+    "大型契約": [r"\b(major contract|multi-year deal|strategic partnership|government contract)\b", r"大型契約|戦略的提携"],
+    "新製品": [r"\b(launches|unveils|new product|new chip|platform launch)\b", r"新製品|正式発表"],
+    "配当": [r"\b(dividend increase|dividend cut|special dividend)\b", r"増配|減配|特別配当"],
+    "自社株買い": [r"\b(buyback|share repurchase)\b", r"自社株買い"],
+    "規制": [r"\b(antitrust|regulatory probe|export ban|government investigation)\b", r"規制|当局調査"],
+    "訴訟": [r"\b(lawsuit|legal settlement|court ruling|patent dispute)\b", r"訴訟|和解|判決"],
+    "設備投資": [r"\b(new factory|data center investment|capital expenditure|new facility)\b", r"設備投資|新工場"],
 }
 
 
@@ -168,19 +169,45 @@ def detect_market_trend_alerts(project_root: Path, rules: dict[str, Any], previo
 def classify_news(item: dict[str, Any]) -> list[str]:
     text = f"{item.get('title') or ''} {item.get('summary') or ''}".lower()
     categories = []
-    for category, keywords in IMPORTANT_NEWS_KEYWORDS.items():
-        if any(keyword.lower() in text for keyword in keywords):
+    for category, patterns in IMPORTANT_NEWS_PATTERNS.items():
+        if any(re.search(pattern, text, flags=re.IGNORECASE) for pattern in patterns):
             categories.append(category)
     return categories
 
 
-def detect_important_news_alerts(project_root: Path, rules: dict[str, Any], max_news: int) -> list[dict[str, Any]]:
+def is_recent_news(item: dict[str, Any], max_age_hours: int, now: datetime | None = None) -> bool:
+    published_at = item.get("published_at")
+    if not published_at:
+        return False
+    try:
+        published = datetime.fromisoformat(str(published_at).replace("Z", "+00:00"))
+    except ValueError:
+        return False
+    if published.tzinfo is None:
+        published = published.replace(tzinfo=timezone.utc)
+    current = now or datetime.now(timezone.utc)
+    if current.tzinfo is None:
+        current = current.replace(tzinfo=timezone.utc)
+    return current - timedelta(hours=max_age_hours) <= published <= current + timedelta(minutes=5)
+
+
+def detect_important_news_alerts(
+    project_root: Path,
+    rules: dict[str, Any],
+    max_news: int,
+    max_age_hours: int = 36,
+    now: datetime | None = None,
+) -> list[dict[str, Any]]:
     if not rules.get("important_news", True):
         return []
     news_dir = project_root / "storage" / "raw" / "news"
     news_items: list[dict[str, Any]] = []
     for path in news_dir.glob("*.json"):
-        news_items.extend(item for item in safe_list(load_json(path, [])) if isinstance(item, dict))
+        news_items.extend(
+            item
+            for item in safe_list(load_json(path, []))
+            if isinstance(item, dict) and is_recent_news(item, max_age_hours, now)
+        )
     news_items.sort(key=lambda item: item.get("published_at") or "", reverse=True)
 
     events: list[dict[str, Any]] = []
@@ -265,11 +292,12 @@ def detect_events(
     previous_scores: dict[str, Any],
     previous_market: dict[str, Any],
     max_news: int,
+    important_news_max_age_hours: int = 36,
 ) -> list[dict[str, Any]]:
     events: list[dict[str, Any]] = []
     events.extend(detect_discovery_alerts(project_root, rules))
     events.extend(detect_score_change_alerts(project_root, rules, previous_scores))
     events.extend(detect_market_trend_alerts(project_root, rules, previous_market))
-    events.extend(detect_important_news_alerts(project_root, rules, max_news))
+    events.extend(detect_important_news_alerts(project_root, rules, max_news, important_news_max_age_hours))
     events.extend(detect_validation_alerts(project_root, rules))
     return events

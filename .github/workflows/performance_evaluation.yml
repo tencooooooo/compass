@@ -48,6 +48,9 @@ jobs:
       - name: Run API tests
         run: python -m unittest tests.api.test_api
 
+      - name: Validate restored performance inputs
+        run: python -m utils.operational_inputs performance
+
       - name: Generate performance scorecard
         run: python -m lab.performance.performance_engine
 

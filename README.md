@@ -313,9 +313,19 @@ Long-lived operational data is also persisted to the dedicated `compass-data` br
 ```text
 memory/
 storage/notifications/
+storage/raw/{prices,companies,financials,news}/
+storage/events/
+storage/knowledge_graph/
+reports/{discovery,scoring,market,validation}/
+reports/{feedback,proposals,knowledge_updates,learning}/
+reports/{performance,strategy,experiments,graph}/
 ```
 
-The workflow still restores the previous GitHub Actions cache for one release as a fallback, then overlays the `compass-data` branch when available. At the end of data-producing workflows, Memory and notification history are committed back to `compass-data` with `if: always()` so partial updates are not lost when a later step fails.
+The workflow still restores the previous GitHub Actions cache as a migration fallback, then overlays the `compass-data` branch when available. At the end of data-producing workflows, durable operational data is committed back to `compass-data` with `if: always()` so partial updates are not lost when a later step fails.
+
+Validation reevaluates every dated snapshot in `memory/discoveries/` and merges results by Discovery date, ticker, and period. Weekly Performance, Strategy, Experiment, and Knowledge Graph jobs restore the same operational dataset and validate required inputs before generating reports. An empty scorecard is therefore treated as an input failure instead of a successful evaluation.
+
+Feedback History is stored in `memory/feedback/feedback_history.json`, and Proposal review state is stored in `memory/decision/proposal_index.json`. Matching files under `reports/` are read-only mirrors used by Workspace and API clients.
 
 ## Local Setup
 
@@ -943,7 +953,7 @@ Event history is saved to:
 storage/notifications/notification_history.json
 ```
 
-The workflow restores `storage/notifications/` from the `compass-data` branch so Score Change and Market Trend alerts can compare with the previous run. GitHub Actions cache is kept temporarily as a fallback for one release. The folder is ignored by the main Git branch and uploaded as part of the generated artifact.
+The workflow restores `storage/notifications/` from the `compass-data` branch so Score Change and Market Trend alerts can compare with the previous run. Important News alerts are limited to high-signal patterns published within the previous 36 hours, and the scheduled pipeline runs on weekdays. GitHub Actions cache is kept temporarily as a migration fallback. The folder is ignored by the main Git branch and uploaded as part of the generated artifact.
 
 Notification Engine is intentionally selective. It sends alerts for action-worthy changes, not every data point.
 
@@ -994,9 +1004,11 @@ memory/discoveries/
 memory/validations/
 memory/market/
 memory/lessons/
+memory/feedback/
+memory/decision/
 ```
 
-`memory/` is ignored by the main Git branch, restored from the dedicated `compass-data` branch, committed back at the end of data-producing workflows, and included in workflow artifacts. GitHub Actions cache remains as a one-release fallback during the migration. This keeps Memory as durable operational data while allowing future migration to S3 or a database without changing Analyzer or Engine callers.
+`memory/` is ignored by the main Git branch, restored from the dedicated `compass-data` branch, committed back at the end of data-producing workflows, and included in workflow artifacts. Company Memory accumulates deduplicated News and Event history instead of retaining only the latest batch. GitHub Actions cache remains a migration fallback, not the system of record. This keeps Memory as durable operational data while allowing future migration to S3 or a database without changing Analyzer or Engine callers.
 
 ## Feedback Engine
 

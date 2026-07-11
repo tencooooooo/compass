@@ -48,6 +48,15 @@ jobs:
       - name: Run API tests
         run: python -m unittest tests.api.test_api
 
+      - name: Validate restored strategy inputs
+        run: python -m utils.operational_inputs strategy
+
+      - name: Refresh weekly pattern intelligence
+        run: python -m lab.pattern_intelligence.pattern_engine
+
+      - name: Refresh weekly theme intelligence
+        run: python -m lab.theme_intelligence.theme_engine
+
       - name: Generate strategy simulation reports
         run: python -m lab.strategy.strategy_engine
 

@@ -48,6 +48,9 @@ jobs:
       - name: Run API tests
         run: python -m unittest tests.api.test_api
 
+      - name: Validate restored experiment inputs
+        run: python -m utils.operational_inputs experiment
+
       - name: Generate experiment reports
         run: python -m lab.experiments.experiment_engine
 

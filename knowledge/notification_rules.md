@@ -35,6 +35,9 @@ notification:
 
 - `knowledge/news_analysis_rules.md` にある分類を参考に、重要ニュースのみ通知する。
 - 初期分類はM&A、決算、CEO交代、大型契約、新製品、配当、自社株買い、規制、訴訟、設備投資。
+- 通知対象は原則として直近36時間以内のNewsに限定する。
+- `revenue`、`quarter`、`cloud` などの一般語単独では通知せず、決算発表、Guidance変更、大型契約など高シグナルの複合表現を必要とする。
+- 同一Ticker、公開時刻、Titleの組み合わせは再通知しない。
 
 ## Validation Alert
 

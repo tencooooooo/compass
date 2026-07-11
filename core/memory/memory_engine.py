@@ -120,6 +120,24 @@ def latest_items(items: list[dict[str, Any]], limit: int = 10) -> list[dict[str,
     return sorted(items, key=lambda item: str(item.get("published_at") or item.get("date") or ""), reverse=True)[:limit]
 
 
+def item_history_key(item: dict[str, Any]) -> str:
+    for field in ("event_id", "id", "uuid", "url"):
+        if item.get(field):
+            return f"{field}:{item[field]}"
+    return "|".join(
+        str(item.get(field) or "")
+        for field in ("ticker", "published_at", "date", "title", "event_type")
+    )
+
+
+def merge_item_history(existing_items: list[dict[str, Any]], current_items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    merged: dict[str, dict[str, Any]] = {}
+    for item in [*existing_items, *current_items]:
+        if isinstance(item, dict):
+            merged[item_history_key(item)] = item
+    return latest_items(list(merged.values()), limit=len(merged))
+
+
 def build_company_memory(timestamp: str, date_key: str) -> int:
     companies = company_profiles()
     scores = scoring_by_ticker()
@@ -134,6 +152,17 @@ def build_company_memory(timestamp: str, date_key: str) -> int:
         validation_rows = validations.get(ticker, [])
         events = safe_list(load_json(PROJECT_ROOT / "storage" / "events" / f"{ticker}_events.json", []))
         news = safe_list(load_json(PROJECT_ROOT / "storage" / "raw" / "news" / f"{ticker}.json", []))
+        existing = Memory.load("companies", ticker, default={})
+        existing_events = existing.get("Events", {}) if isinstance(existing, dict) else {}
+        existing_news = existing.get("News", {}) if isinstance(existing, dict) else {}
+        event_history = merge_item_history(
+            safe_list(existing_events.get("history")) or safe_list(existing_events.get("latest")),
+            events,
+        )
+        news_history = merge_item_history(
+            safe_list(existing_news.get("history")) or safe_list(existing_news.get("latest")),
+            news,
+        )
         confidence = {
             "scoring": (score.get("confidence") or {}).get("level") if isinstance(score.get("confidence"), dict) else None,
             "discovery": discovery.get("confidence"),
@@ -149,7 +178,6 @@ def build_company_memory(timestamp: str, date_key: str) -> int:
             "news_count": len(news),
             "confidence": confidence,
         }
-        existing = Memory.load("companies", ticker, default={})
         history = safe_list(existing.get("History")) if isinstance(existing, dict) else []
         payload = {
             "Company": company,
@@ -157,8 +185,18 @@ def build_company_memory(timestamp: str, date_key: str) -> int:
             "Scores": score,
             "Discovery": discovery,
             "Validation": validation_rows,
-            "Events": {"count": len(events), "latest": latest_items(events)},
-            "News": {"count": len(news), "latest": latest_items(news)},
+            "Events": {
+                "count": len(events),
+                "latest": latest_items(event_history),
+                "history_count": len(event_history),
+                "history": event_history,
+            },
+            "News": {
+                "count": len(news),
+                "latest": latest_items(news_history),
+                "history_count": len(news_history),
+                "history": news_history,
+            },
             "Confidence": confidence,
             "Timestamp": timestamp,
         }
@@ -215,6 +253,8 @@ def build_discovery_memory(timestamp: str, date_key: str) -> None:
         "date": date_key,
         "timestamp": timestamp,
         "generated_at": data.get("generated_at"),
+        "universe": data.get("universe", {}),
+        "market": data.get("market", {}),
         "candidates": [
             {
                 "ticker": item.get("ticker"),
@@ -223,6 +263,11 @@ def build_discovery_memory(timestamp: str, date_key: str) -> None:
                 "confidence": item.get("confidence"),
                 "reasons": item.get("discovery_reasons"),
                 "status": item.get("status"),
+                "sector": item.get("sector"),
+                "industry": item.get("industry"),
+                "metrics": item.get("metrics", {}),
+                "evidence": item.get("evidence", []),
+                "watch_points": item.get("watch_points", []),
             }
             for item in safe_list(data.get("candidates"))
         ],
@@ -230,23 +275,30 @@ def build_discovery_memory(timestamp: str, date_key: str) -> None:
     Memory.save("discoveries", date_key, payload)
 
 
-def build_validation_memory(timestamp: str, month_key: str) -> None:
+def build_validation_memory(timestamp: str) -> int:
     rows = safe_list(load_json(PROJECT_ROOT / "reports" / "validation" / "validation_history.json", []))
-    month_rows = [row for row in rows if str(row.get("validation_date") or "").startswith(month_key)]
-    returns = [safe_float(row.get("return_percent")) for row in month_rows]
-    returns = [value for value in returns if value is not None]
-    counts = Counter(row.get("validation_result") for row in month_rows)
-    payload = {
-        "month": month_key,
-        "timestamp": timestamp,
-        "Excellent": counts.get("Excellent", 0),
-        "Good": counts.get("Good", 0),
-        "Neutral": counts.get("Neutral", 0),
-        "Poor": counts.get("Poor", 0),
-        "average_return": sum(returns) / len(returns) if returns else None,
-        "rows": month_rows,
-    }
-    Memory.save("validations", month_key, payload)
+    grouped: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for row in rows:
+        month_key = str(row.get("discovery_date") or row.get("validation_date") or "")[:7]
+        if len(month_key) == 7:
+            grouped[month_key].append(row)
+
+    for month_key, month_rows in grouped.items():
+        returns = [safe_float(row.get("return_percent")) for row in month_rows if row.get("period_complete")]
+        returns = [value for value in returns if value is not None]
+        counts = Counter(row.get("validation_result") for row in month_rows)
+        payload = {
+            "month": month_key,
+            "timestamp": timestamp,
+            "Excellent": counts.get("Excellent", 0),
+            "Good": counts.get("Good", 0),
+            "Neutral": counts.get("Neutral", 0),
+            "Poor": counts.get("Poor", 0),
+            "average_return": sum(returns) / len(returns) if returns else None,
+            "rows": month_rows,
+        }
+        Memory.save("validations", month_key, payload)
+    return len(grouped)
 
 
 def build_market_memory(timestamp: str, date_key: str) -> None:
@@ -295,7 +347,6 @@ def main() -> int:
     now = datetime.now(timezone)
     timestamp = now.isoformat()
     date_key = now.strftime("%Y-%m-%d")
-    month_key = now.strftime("%Y-%m")
 
     logger.info("Compass Core 01 - Memory Engine")
     logger.info("開始時刻: %s", now.strftime("%Y-%m-%d %H:%M:%S"))
@@ -304,12 +355,13 @@ def main() -> int:
     company_count = build_company_memory(timestamp, date_key)
     sector_count = build_sector_memory(timestamp, date_key)
     build_discovery_memory(timestamp, date_key)
-    build_validation_memory(timestamp, month_key)
+    validation_month_count = build_validation_memory(timestamp)
     build_market_memory(timestamp, date_key)
     build_lessons_memory(timestamp)
 
     logger.info("Company Memory保存: %s 件", company_count)
     logger.info("Sector Memory保存: %s 件", sector_count)
+    logger.info("Validation Memory保存: %s か月", validation_month_count)
     logger.info("保存先: %s", MEMORY_ROOT)
     logger.info("終了時刻: %s", datetime.now(timezone).strftime("%Y-%m-%d %H:%M:%S"))
     return 0

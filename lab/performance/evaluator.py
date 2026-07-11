@@ -2,10 +2,11 @@ from __future__ import annotations
 
 import csv
 from datetime import date, datetime, timedelta
+import json
 from pathlib import Path
 from typing import Any
 
-from api.services.data_loader import REPO_ROOT, list_json_files, read_json
+from api.services.data_loader import REPO_ROOT
 from lab.performance.benchmark import Benchmark
 from utils.price_data import adjusted_close
 
@@ -35,37 +36,75 @@ class Evaluator:
         }
 
     def _signals(self) -> list[dict[str, Any]]:
-        latest = read_json("reports/discovery/discovery_candidates.json", {})
-        candidates = latest.get("candidates", []) if isinstance(latest, dict) else []
-        generated_at = latest.get("generated_at") if isinstance(latest, dict) else None
-        discovery_date = self._date_from_datetime(generated_at) or date.today()
         theme_map = self._themes_by_ticker()
         pattern_map = self._patterns_by_ticker()
+        company_map = self._companies_by_ticker()
         signals = []
-        for candidate in candidates:
-            ticker = str(candidate.get("ticker", "")).upper()
-            if not ticker:
-                continue
-            signals.append(
-                {
-                    "ticker": ticker,
-                    "company": candidate.get("company") or ticker,
-                    "sector": candidate.get("sector") or "Unknown",
-                    "industry": candidate.get("industry") or "Unknown",
-                    "discovery_date": discovery_date.isoformat(),
-                    "discovery_score": candidate.get("discovery_score"),
-                    "discovery_score_bucket": self._score_bucket(candidate.get("discovery_score")),
-                    "confidence": candidate.get("confidence") or "Unknown",
-                    "themes": theme_map.get(ticker, []),
-                    "patterns": pattern_map.get(ticker, []),
-                    "market_status": self._market_status(latest.get("market", {})),
-                    "market_intelligence": latest.get("market", {}),
-                    "sector_intelligence": {
-                        "sector_average_score": candidate.get("metrics", {}).get("sector_average_score"),
-                    },
-                }
-            )
+        seen: set[tuple[str, str]] = set()
+        for snapshot in self._discovery_snapshots():
+            generated_at = snapshot.get("date") or snapshot.get("generated_at") or snapshot.get("timestamp")
+            discovery_date = self._date_from_datetime(generated_at) or date.today()
+            market = snapshot.get("market", {}) if isinstance(snapshot, dict) else {}
+            for candidate in snapshot.get("candidates", []):
+                ticker = str(candidate.get("ticker", "")).upper()
+                key = (discovery_date.isoformat(), ticker)
+                if not ticker or key in seen:
+                    continue
+                seen.add(key)
+                company = company_map.get(ticker, {})
+                score = candidate.get("discovery_score", candidate.get("score"))
+                signals.append(
+                    {
+                        "ticker": ticker,
+                        "company": candidate.get("company") or company.get("company_name") or ticker,
+                        "sector": candidate.get("sector") or company.get("sector") or "Unknown",
+                        "industry": candidate.get("industry") or company.get("industry") or "Unknown",
+                        "discovery_date": discovery_date.isoformat(),
+                        "discovery_score": score,
+                        "discovery_score_bucket": self._score_bucket(score),
+                        "confidence": candidate.get("confidence") or "Unknown",
+                        "themes": theme_map.get(ticker, []),
+                        "patterns": pattern_map.get(ticker, []),
+                        "market_status": self._market_status(market),
+                        "market_intelligence": market,
+                        "sector_intelligence": {
+                            "sector_average_score": candidate.get("metrics", {}).get("sector_average_score"),
+                        },
+                    }
+                )
         return signals
+
+    def _discovery_snapshots(self) -> list[dict[str, Any]]:
+        memory_root = self.repo_root / "memory" / "discoveries"
+        snapshots = []
+        if memory_root.exists():
+            for path in sorted(memory_root.glob("*.json")):
+                data = self._read_json_path(path, {})
+                if isinstance(data, dict) and data.get("candidates"):
+                    snapshots.append(data)
+        if snapshots:
+            return snapshots
+        latest = self._read_json_path(self.repo_root / "reports" / "discovery" / "discovery_candidates.json", {})
+        return [latest] if isinstance(latest, dict) and latest.get("candidates") else []
+
+    def _companies_by_ticker(self) -> dict[str, dict[str, Any]]:
+        output: dict[str, dict[str, Any]] = {}
+        root = self.repo_root / "storage" / "raw" / "companies"
+        if not root.exists():
+            return output
+        for path in root.glob("*.json"):
+            data = self._read_json_path(path, {})
+            if isinstance(data, dict):
+                output[str(data.get("ticker") or path.stem).upper()] = data
+        return output
+
+    def _read_json_path(self, path: Path, default: Any) -> Any:
+        if not path.exists():
+            return default
+        try:
+            return json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            return default
 
     def _evaluate_signal(self, signal: dict[str, Any], period: int) -> dict[str, Any]:
         start_date = date.fromisoformat(signal["discovery_date"])
@@ -177,7 +216,8 @@ class Evaluator:
         return output
 
     def _known_tickers(self) -> set[str]:
-        tickers = {path.stem.upper() for path in list_json_files("storage/raw/companies")}
+        company_root = self.repo_root / "storage" / "raw" / "companies"
+        tickers = {path.stem.upper() for path in company_root.glob("*.json")} if company_root.exists() else set()
         price_root = self.repo_root / "storage" / "raw" / "prices"
         if price_root.exists():
             tickers.update(path.stem.upper() for path in price_root.glob("*.csv"))

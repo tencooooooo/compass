@@ -1,11 +1,35 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# memory/ と storage/notifications/ をデータ専用ブランチへ保存します。
+# Memoryと再現に必要な運用データをデータ専用ブランチへ保存します。
 # メインの作業ツリーはブランチ切替せず、git worktreeで隔離したコピー上で操作します。
 
 DATA_BRANCH="${COMPASS_DATA_BRANCH:-compass-data}"
 WORKTREE_DIR="$(mktemp -d)"
+PERSISTENT_PATHS=(
+  memory
+  storage/notifications
+  storage/raw/prices
+  storage/raw/companies
+  storage/raw/financials
+  storage/raw/news
+  storage/events
+  storage/knowledge_graph
+  reports/discovery
+  reports/scoring
+  reports/market
+  reports/validation
+  reports/feedback
+  reports/proposals
+  reports/knowledge_updates
+  reports/learning
+  reports/themes
+  reports/patterns
+  reports/performance
+  reports/strategy
+  reports/experiments
+  reports/graph
+)
 
 cleanup() {
   git worktree remove --force "${WORKTREE_DIR}" 2>/dev/null || true
@@ -27,25 +51,21 @@ else
   git worktree add "${WORKTREE_DIR}" "${DATA_BRANCH}"
 fi
 
-rm -rf "${WORKTREE_DIR}/memory" "${WORKTREE_DIR}/storage/notifications"
-mkdir -p "${WORKTREE_DIR}/storage"
+mkdir -p "${WORKTREE_DIR}/memory" "${WORKTREE_DIR}/storage" "${WORKTREE_DIR}/reports"
+for path in "${PERSISTENT_PATHS[@]}"; do
+  if [ ! -e "${path}" ]; then
+    continue
+  fi
+  target="${WORKTREE_DIR}/${path}"
+  rm -rf "${target}"
+  mkdir -p "$(dirname "${target}")"
+  cp -R "${path}" "${target}"
+done
 
-if [ -d memory ]; then
-  cp -R memory "${WORKTREE_DIR}/memory"
-else
-  mkdir -p "${WORKTREE_DIR}/memory"
-fi
-
-if [ -d storage/notifications ]; then
-  cp -R storage/notifications "${WORKTREE_DIR}/storage/notifications"
-else
-  mkdir -p "${WORKTREE_DIR}/storage/notifications"
-fi
-
-git -C "${WORKTREE_DIR}" add -f memory storage/notifications
+git -C "${WORKTREE_DIR}" add -A -f -- memory storage reports
 if git -C "${WORKTREE_DIR}" diff --cached --quiet; then
   echo "No persistent Compass data changes to commit."
 else
-  git -C "${WORKTREE_DIR}" commit -m "Persist Compass memory data ${GITHUB_RUN_ID:-local}"
+  git -C "${WORKTREE_DIR}" commit -m "Persist Compass operational data ${GITHUB_RUN_ID:-local}"
   git -C "${WORKTREE_DIR}" push origin "${DATA_BRANCH}"
 fi

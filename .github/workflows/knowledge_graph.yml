@@ -9,9 +9,15 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: compass-data-persistence
+  cancel-in-progress: false
+
 jobs:
   knowledge-graph:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -24,6 +30,9 @@ jobs:
           key: compass-knowledge-graph-${{ github.run_id }}
           restore-keys: |
             compass-knowledge-graph-
+
+      - name: Restore persistent Compass data
+        run: bash scripts/restore_persistent_data.sh
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -39,6 +48,9 @@ jobs:
       - name: Run API tests
         run: python -m unittest tests.api.test_api
 
+      - name: Validate restored graph inputs
+        run: python -m utils.operational_inputs graph
+
       - name: Build knowledge graph
         run: python -m lab.knowledge_graph.graph_engine
 
@@ -51,3 +63,7 @@ jobs:
             storage/knowledge_graph/
             reports/graph/
           if-no-files-found: ignore
+
+      - name: Persist graph and operational data
+        if: always()
+        run: bash scripts/persist_persistent_data.sh

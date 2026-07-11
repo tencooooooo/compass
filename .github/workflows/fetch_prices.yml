@@ -3,7 +3,7 @@ name: Compass pipeline
 on:
   schedule:
     # JST 07:00 = UTC 22:00. 米国市場の通常取引終了後に確認しやすい時間です。
-    - cron: "0 22 * * *"
+    - cron: "0 22 * * 1-5"
   workflow_dispatch:
 
 permissions:

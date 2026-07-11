@@ -144,3 +144,11 @@
 - Knowledge Version雛形として `knowledge/versions/v1.json` と `v2.json` を追加した。
 - Learning EngineはKnowledge、Scoring、Ruleを自動更新しない。Human Approved Learning Package生成までを責務にした。
 - GitHub ActionsではDecision後にLearning Engineを実行し、その後Notification Engineを実行する順序にした。
+
+## 2026-07-11 - Operational Data Persistence Revision
+
+- Actions cacheをMemoryの正本とする過去方針を廃止し、`compass-data` ブランチを正本とする。
+- Validationは全Discovery Memoryを再評価し、Discovery日、Ticker、期間をキーに結果を更新する。
+- 週次Engineに必要な価格、企業、財務、Discovery、主要レポートを `compass-data` から復元する。
+- Feedback HistoryとProposal Review状態は `memory/feedback/` と `memory/decision/` を正本とし、`reports/` へ閲覧用ミラーを生成する。
+- Company MemoryへNews/Event本文を重複排除して蓄積し、重要ニュース通知は直近36時間の高シグナル表現へ限定する。

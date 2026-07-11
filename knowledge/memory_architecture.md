@@ -47,7 +47,11 @@ Memory.search()
 memory/
 ```
 
-GitHub Actionsでは `memory/` をcacheで復元し、Artifactへ含めます。
+GitHub Actionsでは `compass-data` ブランチからMemoryを復元し、Artifactにも含めます。cacheは移行時のフォールバックであり、正本ではありません。
+
+再現に必要な価格、企業、財務、News、Eventと主要レポートも `compass-data` に保存します。これにより、独立した週次Runnerでも同じ入力からPerformance、Strategy、Experiment、Knowledge Graphを再計算できます。
+
+Validationは最新Discoveryだけではなく、`memory/discoveries/` の全日付を再評価します。結果はDiscovery月単位のValidation Memoryへ保存し、同じDiscovery日・Ticker・期間の行を更新します。
 
 ## Design Principle
 

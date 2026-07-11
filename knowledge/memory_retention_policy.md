@@ -10,12 +10,15 @@ Memoryは現在、無期限で保持します。
 - Validation Memory: 無期限
 - Market Memory: 無期限
 - Lessons Memory: 無期限
+- Feedback History: 無期限
+- Proposal Review State: 無期限
+- Company News/Event History: 無期限（重複排除）
 
 ## Storage
 
 現在はLocal JSONで保存します。
 
-GitHub Actionsでは `memory/` をcacheで復元し、Artifactにも含めます。
+GitHub Actionsでは `memory/` と再現に必要な運用データを専用の `compass-data` ブランチへ保存し、Artifactにも含めます。Actions cacheは正本として使用しません。
 
 ## Future Policy
 

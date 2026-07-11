@@ -22,6 +22,8 @@ from utils.price_data import adjusted_close, normalize_price_frame  # noqa: E402
 
 SETTINGS_PATH = PROJECT_ROOT / "config" / "settings.yaml"
 DISCOVERY_PATH = PROJECT_ROOT / "reports" / "discovery" / "discovery_candidates.json"
+DISCOVERY_MEMORY_DIR = PROJECT_ROOT / "memory" / "discoveries"
+VALIDATION_MEMORY_DIR = PROJECT_ROOT / "memory" / "validations"
 REPORT_DIR = PROJECT_ROOT / "reports" / "validation"
 PRICE_DIR = PROJECT_ROOT / "storage" / "raw" / "prices"
 COMPANY_DIR = PROJECT_ROOT / "storage" / "raw" / "companies"
@@ -51,6 +53,48 @@ def load_json(path: Path, default: Any) -> Any:
         return default
     with path.open("r", encoding="utf-8") as file:
         return json.load(file)
+
+
+def normalize_memory_candidate(candidate: dict[str, Any]) -> dict[str, Any]:
+    """Convert the compact Discovery Memory schema to the live report schema."""
+    normalized = dict(candidate)
+    normalized.setdefault("discovery_score", candidate.get("score"))
+    normalized.setdefault("discovery_reasons", candidate.get("reasons", []))
+    return normalized
+
+
+def discovery_snapshots(timezone) -> list[tuple[datetime, list[dict[str, Any]]]]:
+    """Load every durable Discovery snapshot and overlay today's live report."""
+    snapshots: dict[str, tuple[datetime, list[dict[str, Any]]]] = {}
+    if DISCOVERY_MEMORY_DIR.exists():
+        for path in sorted(DISCOVERY_MEMORY_DIR.glob("*.json")):
+            data = load_json(path, {})
+            if not isinstance(data, dict):
+                continue
+            candidates = [normalize_memory_candidate(item) for item in data.get("candidates", []) if isinstance(item, dict)]
+            if not candidates:
+                continue
+            generated_at = data.get("date") or data.get("generated_at") or data.get("timestamp")
+            parsed = parse_datetime(str(generated_at) if generated_at else None, timezone)
+            snapshots[parsed.date().isoformat()] = (parsed, candidates)
+
+    live = load_json(DISCOVERY_PATH, {})
+    live_candidates = live.get("candidates", []) if isinstance(live, dict) else []
+    if live_candidates:
+        parsed = parse_datetime(live.get("generated_at"), timezone)
+        snapshots[parsed.date().isoformat()] = (parsed, [item for item in live_candidates if isinstance(item, dict)])
+    return [snapshots[key] for key in sorted(snapshots)]
+
+
+def validation_memory_rows() -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    if not VALIDATION_MEMORY_DIR.exists():
+        return rows
+    for path in sorted(VALIDATION_MEMORY_DIR.glob("*.json")):
+        data = load_json(path, {})
+        if isinstance(data, dict):
+            rows.extend(item for item in data.get("rows", []) if isinstance(item, dict))
+    return rows
 
 
 @lru_cache(maxsize=None)
@@ -270,45 +314,46 @@ def main() -> int:
     logger.info("開始時刻: %s", started_at.strftime("%Y-%m-%d %H:%M:%S"))
     logger.info("保存先: %s", REPORT_DIR)
 
-    discovery = load_json(DISCOVERY_PATH, {})
-    candidates = discovery.get("candidates", []) if isinstance(discovery, dict) else []
-    if not candidates:
-        logger.warning("Discovery候補が見つかりません: %s", DISCOVERY_PATH)
+    snapshots = discovery_snapshots(timezone)
+    if not snapshots:
+        logger.warning("Discovery候補が見つかりません: %s / %s", DISCOVERY_PATH, DISCOVERY_MEMORY_DIR)
         return 0
 
-    discovery_date = parse_datetime(discovery.get("generated_at"), timezone)
     validation_date = datetime.now(timezone)
     benchmark_name, benchmark_prices = load_benchmark()
     companies = companies_by_ticker()
     rows: list[dict[str, Any]] = []
 
-    for candidate in candidates:
-        for period_label, period_days in VALIDATION_PERIODS.items():
-            try:
-                row = validation_row(
-                    candidate=candidate,
-                    period_label=period_label,
-                    period_days=period_days,
-                    discovery_date=discovery_date,
-                    validation_date=validation_date,
-                    benchmark_name=benchmark_name,
-                    benchmark_prices=benchmark_prices,
-                    companies=companies,
-                )
-                rows.append(row)
-                logger.info(
-                    "[OK] %s %s: result=%s return=%s complete=%s",
-                    row["ticker"],
-                    period_label,
-                    row["validation_result"],
-                    row["return_percent"],
-                    row["period_complete"],
-                )
-            except Exception as error:
-                logger.exception("[NG] %s %s: エラー - %s", candidate.get("ticker"), period_label, error)
+    for discovery_date, candidates in snapshots:
+        for candidate in candidates:
+            for period_label, period_days in VALIDATION_PERIODS.items():
+                try:
+                    row = validation_row(
+                        candidate=candidate,
+                        period_label=period_label,
+                        period_days=period_days,
+                        discovery_date=discovery_date,
+                        validation_date=validation_date,
+                        benchmark_name=benchmark_name,
+                        benchmark_prices=benchmark_prices,
+                        companies=companies,
+                    )
+                    rows.append(row)
+                    logger.info(
+                        "[OK] %s %s %s: result=%s return=%s complete=%s",
+                        row["discovery_date"],
+                        row["ticker"],
+                        period_label,
+                        row["validation_result"],
+                        row["return_percent"],
+                        row["period_complete"],
+                    )
+                except Exception as error:
+                    logger.exception("[NG] %s %s: エラー - %s", candidate.get("ticker"), period_label, error)
 
-    history = save_history(REPORT_DIR, rows)
-    summary = render_validation_summary(rows, validation_date.isoformat(), VALIDATION_PERIODS, benchmark_name)
+    history = save_history(REPORT_DIR, rows, persistent_rows=validation_memory_rows())
+    history_rows = load_json(REPORT_DIR / "validation_history.json", [])
+    summary = render_validation_summary(history_rows, validation_date.isoformat(), VALIDATION_PERIODS, benchmark_name)
     (REPORT_DIR / "validation_summary.md").write_text(summary, encoding="utf-8")
 
     finished_at = datetime.now(timezone)
@@ -316,7 +361,7 @@ def main() -> int:
     logger.info("Validation History CSV保存: %s", REPORT_DIR / "validation_history.csv")
     logger.info("Validation History JSON保存: %s", REPORT_DIR / "validation_history.json")
     logger.info("終了時刻: %s", finished_at.strftime("%Y-%m-%d %H:%M:%S"))
-    logger.info("処理結果: 新規 %s / 履歴合計 %s", len(rows), len(history))
+    logger.info("処理結果: Discovery日 %s / 再評価 %s / 履歴合計 %s", len(snapshots), len(rows), len(history))
     return 0
 
 

@@ -11,19 +11,27 @@ VALID_STATUSES = {"Pending", "Approved", "Rejected", "Deferred"}
 class ReviewManager:
     """Proposal indexをJSONで管理するReview管理層です。"""
 
-    def __init__(self, index_path: Path):
+    def __init__(self, index_path: Path, state_path: Path | None = None):
         self.index_path = index_path
+        self.state_path = state_path
 
     def load_index(self) -> list[dict[str, Any]]:
-        if not self.index_path.exists():
-            return []
-        with self.index_path.open("r", encoding="utf-8") as file:
-            data = json.load(file)
-        return data if isinstance(data, list) else []
+        for path in (self.state_path, self.index_path):
+            if path is None or not path.exists():
+                continue
+            with path.open("r", encoding="utf-8") as file:
+                data = json.load(file)
+            if isinstance(data, list):
+                return data
+        return []
 
     def save_index(self, proposals: list[dict[str, Any]]) -> None:
+        serialized = json.dumps(proposals, ensure_ascii=False, indent=2)
         self.index_path.parent.mkdir(parents=True, exist_ok=True)
-        self.index_path.write_text(json.dumps(proposals, ensure_ascii=False, indent=2), encoding="utf-8")
+        self.index_path.write_text(serialized, encoding="utf-8")
+        if self.state_path is not None:
+            self.state_path.parent.mkdir(parents=True, exist_ok=True)
+            self.state_path.write_text(serialized, encoding="utf-8")
 
     def upsert_pending(self, proposal: dict[str, Any]) -> None:
         proposals = self.load_index()

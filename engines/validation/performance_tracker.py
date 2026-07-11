@@ -42,12 +42,17 @@ def normalize_history_rows(rows: list[dict[str, Any]]) -> pd.DataFrame:
     return pd.DataFrame(normalized_rows, columns=TRACKING_COLUMNS)
 
 
-def merge_with_existing(history_path: Path, rows: list[dict[str, Any]]) -> pd.DataFrame:
+def merge_with_existing(
+    history_path: Path,
+    rows: list[dict[str, Any]],
+    persistent_rows: list[dict[str, Any]] | None = None,
+) -> pd.DataFrame:
     """同じDiscovery日・銘柄・期間の履歴は最新結果で上書きします。"""
-    current = normalize_history_rows(rows)
+    current = normalize_history_rows(persistent_rows or [])
     if history_path.exists():
         existing = pd.read_csv(history_path)
         current = pd.concat([existing, current], ignore_index=True)
+    current = pd.concat([current, normalize_history_rows(rows)], ignore_index=True)
 
     if current.empty:
         return current
@@ -58,7 +63,11 @@ def merge_with_existing(history_path: Path, rows: list[dict[str, Any]]) -> pd.Da
     return current.sort_values(["discovery_date", "ticker", "period"]).reset_index(drop=True)
 
 
-def merge_json_history(json_path: Path, rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def merge_json_history(
+    json_path: Path,
+    rows: list[dict[str, Any]],
+    persistent_rows: list[dict[str, Any]] | None = None,
+) -> list[dict[str, Any]]:
     """JSON履歴は詳細な理由やEvidenceを保ったまま蓄積します。"""
     existing_rows: list[dict[str, Any]] = []
     if json_path.exists():
@@ -68,21 +77,25 @@ def merge_json_history(json_path: Path, rows: list[dict[str, Any]]) -> list[dict
             existing_rows = [item for item in data if isinstance(item, dict)]
 
     merged: dict[tuple[str, str, str], dict[str, Any]] = {}
-    for row in [*existing_rows, *rows]:
+    for row in [*existing_rows, *(persistent_rows or []), *rows]:
         key = (str(row.get("discovery_date")), str(row.get("ticker")), str(row.get("period")))
         merged[key] = row
 
     return [merged[key] for key in sorted(merged)]
 
 
-def save_history(report_dir: Path, rows: list[dict[str, Any]]) -> pd.DataFrame:
+def save_history(
+    report_dir: Path,
+    rows: list[dict[str, Any]],
+    persistent_rows: list[dict[str, Any]] | None = None,
+) -> pd.DataFrame:
     """Validation履歴をCSVとJSONの両方で保存します。"""
     report_dir.mkdir(parents=True, exist_ok=True)
     csv_path = report_dir / "validation_history.csv"
     json_path = report_dir / "validation_history.json"
 
-    history = merge_with_existing(csv_path, rows)
+    history = merge_with_existing(csv_path, rows, persistent_rows)
     history.to_csv(csv_path, index=False)
-    json_history = merge_json_history(json_path, rows)
+    json_history = merge_json_history(json_path, rows, persistent_rows)
     json_path.write_text(json.dumps(json_history, ensure_ascii=False, indent=2), encoding="utf-8")
     return history
