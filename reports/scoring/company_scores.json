@@ -1,0 +1,1422 @@
+{
+  "project": "Compass",
+  "engine": "Explainable Scoring Engine",
+  "version": "v1.0-alpha",
+  "generated_at": "2026-07-13T18:46:41.586685-04:00",
+  "max_score": 100,
+  "category_max_score": 20,
+  "results": [
+    {
+      "ticker": "AAPL",
+      "company_name": "Apple Inc.",
+      "total_score": 64,
+      "max_score": 100,
+      "confidence": {
+        "level": "High",
+        "completeness_score": 100,
+        "reasons": [
+          "利用可能な主要データ領域は5領域中 5 領域です。",
+          "欠損または計算不可の項目数は 0 件です。",
+          "主要データが比較的そろっており、説明可能性は高めです。"
+        ]
+      },
+      "scores": {
+        "Growth": {
+          "score": 17,
+          "max_score": 20,
+          "reasons": [
+            "revenue_growth(直近4四半期平均) は 11.74% で、プラス成長を維持しています。",
+            "eps_growth(直近4四半期平均) は 15.03% で、+15%以上の成長です。",
+            "純利益 がプラスで確認できるため加点しています。",
+            "営業利益 がプラスで確認できるため加点しています。",
+            "研究開発費が確認でき、将来成長への投資が続いています。",
+            "売上規模が大きく、事業規模の強さが確認できます。"
+          ],
+          "evidence": [
+            "Financials",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "total_revenue": 416161000000.0,
+            "eps": 7.49,
+            "net_income": 112010000000.0,
+            "operating_income": 133050000000.0,
+            "research_and_development": 34550000000.0,
+            "revenue_yoy_growth": 16.6,
+            "eps_yoy_growth": 21.82,
+            "revenue_yoy_growth_avg": 11.74,
+            "eps_yoy_growth_avg": 15.03,
+            "revenue_growth_quarters": [
+              "2026-Q1",
+              "2025-Q4",
+              "2025-Q2",
+              "2025-Q1"
+            ],
+            "eps_growth_quarters": [
+              "2026-Q1",
+              "2025-Q4",
+              "2025-Q2",
+              "2025-Q1"
+            ]
+          }
+        },
+        "Financial Health": {
+          "score": 12,
+          "max_score": 20,
+          "reasons": [
+            "現金 がプラスで確認できるため加点しています。",
+            "自己資本がプラスで、財務基盤を確認できます。",
+            "総負債/自己資本が 3.87 倍で、負債負担の確認が必要です。",
+            "長期債務が総負債に対して過度に大きくないため加点しています。",
+            "Current Ratio が 0.89 で、短期支払余力は追加確認が必要です。"
+          ],
+          "evidence": [
+            "Financials",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "cash": 35934000000.0,
+            "total_liabilities": 285508000000.0,
+            "shareholders_equity": 73733000000.0,
+            "long_term_debt": 78328000000.0,
+            "current_ratio": 0.8932929222186667
+          }
+        },
+        "Valuation": {
+          "score": 8,
+          "max_score": 20,
+          "reasons": [
+            "セクター比較対象が 4 社のため、PER は固定閾値で評価しています。",
+            "PER は 38.42 で、バリュエーション面は中立から注意寄りです。",
+            "セクター比較対象が 4 社のため、Forward PER は固定閾値で評価しています。",
+            "Forward PER は 33.01 で、バリュエーション面は中立から注意寄りです。",
+            "セクター比較対象が 4 社のため、PEG は固定閾値で評価しています。",
+            "PEG は 2.55 で、バリュエーション面は中立から注意寄りです。",
+            "セクター比較対象が 4 社のため、PBR は固定閾値で評価しています。",
+            "PBR は 43.71 で、バリュエーション面は中立から注意寄りです。",
+            "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
+          ],
+          "evidence": [
+            "Company",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "trailing_pe": 38.415253,
+            "forward_pe": 33.00932,
+            "peg_ratio": 2.55,
+            "price_to_book": 43.70661,
+            "sector_peer_count": 4
+          }
+        },
+        "Momentum": {
+          "score": 12,
+          "max_score": 20,
+          "reasons": [
+            "1M の対SPY超過リターンは +5.29pt で、市場並み以上です。",
+            "3M の対SPY超過リターンが +11.39pt と、市場を大きく上回っています。",
+            "6M の対SPY超過リターンが +13.49pt と、市場を大きく上回っています。",
+            "1Y の対SPY超過リターンが +28.94pt と、市場を大きく上回っています。",
+            "直近出来高が30日平均の 0.67 倍で、市場関心はやや弱めです。"
+          ],
+          "evidence": [
+            "Prices",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "1M": 8.82434054847283,
+            "3M": 21.92964639793458,
+            "6M": 22.72217279422958,
+            "1Y": 49.978258980296026,
+            "benchmark": "SPY",
+            "benchmark_returns": {
+              "1M": 3.54,
+              "3M": 10.54,
+              "6M": 9.23,
+              "1Y": 21.04
+            },
+            "excess_returns": {
+              "1M": 5.29,
+              "3M": 11.39,
+              "6M": 13.49,
+              "1Y": 28.94
+            },
+            "latest_volume": 41376714.0,
+            "average_volume_30d": 61925030.46666667
+          }
+        },
+        "News": {
+          "score": 15,
+          "max_score": 20,
+          "reasons": [
+            "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
+            "ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
+            "イベント後の平均株価反応が 0.63% と中立圏です。"
+          ],
+          "evidence": [
+            "News",
+            "Events",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "news_count": 10,
+            "positive_count": 5,
+            "negative_count": 0,
+            "sentiment_net_ratio": 1.0,
+            "event_count": 10,
+            "events_with_price_reaction": 1
+          }
+        }
+      },
+      "evidence_sources": [
+        "Company",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "News",
+        "Prices"
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "total_score": 74,
+      "max_score": 100,
+      "confidence": {
+        "level": "High",
+        "completeness_score": 100,
+        "reasons": [
+          "利用可能な主要データ領域は5領域中 5 領域です。",
+          "欠損または計算不可の項目数は 0 件です。",
+          "主要データが比較的そろっており、説明可能性は高めです。"
+        ]
+      },
+      "scores": {
+        "Growth": {
+          "score": 18,
+          "max_score": 20,
+          "reasons": [
+            "revenue_growth(直近4四半期平均) は 16.68% で、+15%以上の成長です。",
+            "eps_growth(直近4四半期平均) は 28.39% で、+15%以上の成長です。",
+            "eps_growth は直近四半期が前四半期より -36.34pt 低く、成長の減速に注意が必要です。",
+            "純利益 がプラスで確認できるため加点しています。",
+            "営業利益 がプラスで確認できるため加点しています。",
+            "研究開発費が確認でき、将来成長への投資が続いています。",
+            "売上規模が大きく、事業規模の強さが確認できます。"
+          ],
+          "evidence": [
+            "Financials",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "total_revenue": 281724000000.0,
+            "eps": 13.7,
+            "net_income": 101832000000.0,
+            "operating_income": 128528000000.0,
+            "research_and_development": 32488000000.0,
+            "revenue_yoy_growth": 18.3,
+            "eps_yoy_growth": 23.41,
+            "revenue_yoy_growth_avg": 16.68,
+            "eps_yoy_growth_avg": 28.39,
+            "revenue_growth_quarters": [
+              "2026-Q1",
+              "2025-Q4",
+              "2025-Q3",
+              "2025-Q1"
+            ],
+            "eps_growth_quarters": [
+              "2026-Q1",
+              "2025-Q4",
+              "2025-Q3",
+              "2025-Q1"
+            ]
+          }
+        },
+        "Financial Health": {
+          "score": 18,
+          "max_score": 20,
+          "reasons": [
+            "現金 がプラスで確認できるため加点しています。",
+            "自己資本がプラスで、財務基盤を確認できます。",
+            "総負債/自己資本が 0.80 倍で、負債負担は相対的に抑えられています。",
+            "長期債務が総負債に対して過度に大きくないため加点しています。",
+            "Current Ratio が 1.35 で、最低限の短期支払余力があります。"
+          ],
+          "evidence": [
+            "Financials",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "cash": 30242000000.0,
+            "total_liabilities": 275524000000.0,
+            "shareholders_equity": 343479000000.0,
+            "long_term_debt": 40152000000.0,
+            "current_ratio": 1.3534464445042416
+          }
+        },
+        "Valuation": {
+          "score": 18,
+          "max_score": 20,
+          "reasons": [
+            "セクター比較対象が 4 社のため、PER は固定閾値で評価しています。",
+            "PER は 23.29 で、評価ルール上は過度な割高さが抑えられています。",
+            "セクター比較対象が 4 社のため、Forward PER は固定閾値で評価しています。",
+            "Forward PER は 20.20 で、評価ルール上は過度な割高さが抑えられています。",
+            "セクター比較対象が 4 社のため、PEG は固定閾値で評価しています。",
+            "PEG は 1.19 で、バリュエーション面は中立から注意寄りです。",
+            "セクター比較対象が 4 社のため、PBR は固定閾値で評価しています。",
+            "PBR は 7.01 で、評価ルール上は過度な割高さが抑えられています。",
+            "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
+          ],
+          "evidence": [
+            "Company",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "trailing_pe": 23.287073,
+            "forward_pe": 20.195818,
+            "peg_ratio": 1.19,
+            "price_to_book": 7.009878,
+            "sector_peer_count": 4
+          }
+        },
+        "Momentum": {
+          "score": 3,
+          "max_score": 20,
+          "reasons": [
+            "1M の対SPY超過リターンは -5.14pt と、市場を小幅に下回っています。",
+            "3M の対SPY超過リターンは -4.89pt と、市場を小幅に下回っています。",
+            "6M の対SPY超過リターンは -27.09pt と、市場を大きく下回っています。",
+            "1Y の対SPY超過リターンは -42.45pt と、市場を大きく下回っています。",
+            "直近出来高が30日平均の 0.61 倍で、市場関心はやや弱めです。"
+          ],
+          "evidence": [
+            "Prices",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "1M": -1.6030791604624395,
+            "3M": 5.653415472550642,
+            "6M": -17.857565779708974,
+            "1Y": -21.410016181171212,
+            "benchmark": "SPY",
+            "benchmark_returns": {
+              "1M": 3.54,
+              "3M": 10.54,
+              "6M": 9.23,
+              "1Y": 21.04
+            },
+            "excess_returns": {
+              "1M": -5.14,
+              "3M": -4.89,
+              "6M": -27.09,
+              "1Y": -42.45
+            },
+            "latest_volume": 27505099.0,
+            "average_volume_30d": 45344219.96666667
+          }
+        },
+        "News": {
+          "score": 17,
+          "max_score": 20,
+          "reasons": [
+            "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
+            "ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
+            "イベント後の平均株価反応が 1.53% とプラスです。"
+          ],
+          "evidence": [
+            "News",
+            "Events",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "news_count": 10,
+            "positive_count": 5,
+            "negative_count": 0,
+            "sentiment_net_ratio": 1.0,
+            "event_count": 10,
+            "events_with_price_reaction": 7
+          }
+        }
+      },
+      "evidence_sources": [
+        "Company",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "News",
+        "Prices"
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "company_name": "NVIDIA Corporation",
+      "total_score": 72,
+      "max_score": 100,
+      "confidence": {
+        "level": "High",
+        "completeness_score": 100,
+        "reasons": [
+          "利用可能な主要データ領域は5領域中 5 領域です。",
+          "欠損または計算不可の項目数は 0 件です。",
+          "主要データが比較的そろっており、説明可能性は高めです。"
+        ]
+      },
+      "scores": {
+        "Growth": {
+          "score": 20,
+          "max_score": 20,
+          "reasons": [
+            "revenue_growth(直近4四半期平均) は 68.12% で、+30%以上の高成長です。",
+            "eps_growth(直近4四半期平均) は 92.25% で、+30%以上の高成長です。",
+            "revenue_growth は直近四半期が前四半期より +22.74pt 高く、成長の加速がみられます。",
+            "eps_growth は直近四半期が前四半期より +147.80pt 高く、成長の加速がみられます。",
+            "純利益 がプラスで確認できるため加点しています。",
+            "営業利益 がプラスで確認できるため加点しています。",
+            "研究開発費が確認でき、将来成長への投資が続いています。",
+            "売上規模が大きく、事業規模の強さが確認できます。"
+          ],
+          "evidence": [
+            "Financials",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "total_revenue": 215938000000.0,
+            "eps": 4.93,
+            "net_income": 120067000000.0,
+            "operating_income": 130387000000.0,
+            "research_and_development": 18497000000.0,
+            "revenue_yoy_growth": 85.23,
+            "eps_yoy_growth": 214.47,
+            "revenue_yoy_growth_avg": 68.12,
+            "eps_yoy_growth_avg": 92.25,
+            "revenue_growth_quarters": [
+              "2026-Q2",
+              "2025-Q4",
+              "2025-Q3",
+              "2025-Q2"
+            ],
+            "eps_growth_quarters": [
+              "2026-Q2",
+              "2025-Q4",
+              "2025-Q3",
+              "2025-Q2"
+            ]
+          }
+        },
+        "Financial Health": {
+          "score": 20,
+          "max_score": 20,
+          "reasons": [
+            "現金 がプラスで確認できるため加点しています。",
+            "自己資本がプラスで、財務基盤を確認できます。",
+            "総負債/自己資本が 0.31 倍で、負債負担は相対的に抑えられています。",
+            "長期債務が総負債に対して過度に大きくないため加点しています。",
+            "Current Ratio が 3.91 で、短期支払余力が確認できます。"
+          ],
+          "evidence": [
+            "Financials",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "cash": 10605000000.0,
+            "total_liabilities": 49510000000.0,
+            "shareholders_equity": 157293000000.0,
+            "long_term_debt": 7469000000.0,
+            "current_ratio": 3.905263812455306
+          }
+        },
+        "Valuation": {
+          "score": 14,
+          "max_score": 20,
+          "reasons": [
+            "セクター比較対象が 4 社のため、PER は固定閾値で評価しています。",
+            "PER は 31.12 で、バリュエーション面は中立から注意寄りです。",
+            "セクター比較対象が 4 社のため、Forward PER は固定閾値で評価しています。",
+            "Forward PER は 15.91 で、評価ルール上は過度な割高さが抑えられています。",
+            "セクター比較対象が 4 社のため、PEG は固定閾値で評価しています。",
+            "PEG は 0.65 で、評価ルール上は過度な割高さが抑えられています。",
+            "セクター比較対象が 4 社のため、PBR は固定閾値で評価しています。",
+            "PBR は 25.22 で、バリュエーション面は中立から注意寄りです。",
+            "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
+          ],
+          "evidence": [
+            "Company",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "trailing_pe": 31.120794,
+            "forward_pe": 15.912429,
+            "peg_ratio": 0.65,
+            "price_to_book": 25.220572,
+            "sector_peer_count": 4
+          }
+        },
+        "Momentum": {
+          "score": 7,
+          "max_score": 20,
+          "reasons": [
+            "1M の対SPY超過リターンは -1.99pt と、市場を小幅に下回っています。",
+            "3M の対SPY超過リターンは -2.52pt と、市場を小幅に下回っています。",
+            "6M の対SPY超過リターンは +0.90pt で、市場並み以上です。",
+            "1Y の対SPY超過リターンは +3.16pt で、市場並み以上です。",
+            "直近出来高が30日平均の 0.71 倍で、市場関心はやや弱めです。"
+          ],
+          "evidence": [
+            "Prices",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "1M": 1.5517416618924262,
+            "3M": 8.024812788490763,
+            "6M": 10.12658593632153,
+            "1Y": 24.193221455969947,
+            "benchmark": "SPY",
+            "benchmark_returns": {
+              "1M": 3.54,
+              "3M": 10.54,
+              "6M": 9.23,
+              "1Y": 21.04
+            },
+            "excess_returns": {
+              "1M": -1.99,
+              "3M": -2.52,
+              "6M": 0.9,
+              "1Y": 3.16
+            },
+            "latest_volume": 113202886.0,
+            "average_volume_30d": 159205572.86666667
+          }
+        },
+        "News": {
+          "score": 11,
+          "max_score": 20,
+          "reasons": [
+            "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
+            "ニュース見出し・要約の簡易分類では、好材料 6 件、悪材料 1 件(純比率 +0.71)で、センチメントは 6.8 点です。",
+            "イベント後の平均株価反応が -3.52% と弱く、注意が必要です。"
+          ],
+          "evidence": [
+            "News",
+            "Events",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "news_count": 10,
+            "positive_count": 6,
+            "negative_count": 1,
+            "sentiment_net_ratio": 0.71,
+            "event_count": 10,
+            "events_with_price_reaction": 1
+          }
+        }
+      },
+      "evidence_sources": [
+        "Company",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "News",
+        "Prices"
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "company_name": "Advanced Micro Devices, Inc.",
+      "total_score": 72,
+      "max_score": 100,
+      "confidence": {
+        "level": "High",
+        "completeness_score": 100,
+        "reasons": [
+          "利用可能な主要データ領域は5領域中 5 領域です。",
+          "欠損または計算不可の項目数は 0 件です。",
+          "主要データが比較的そろっており、説明可能性は高めです。"
+        ]
+      },
+      "scores": {
+        "Growth": {
+          "score": 20,
+          "max_score": 20,
+          "reasons": [
+            "revenue_growth(直近4四半期平均) は 35.26% で、+30%以上の高成長です。",
+            "eps_growth(直近4四半期平均) は 229.14% で、+30%以上の高成長です。",
+            "eps_growth は直近四半期が前四半期より +31.34pt 高く、成長の加速がみられます。",
+            "純利益 がプラスで確認できるため加点しています。",
+            "営業利益 がプラスで確認できるため加点しています。",
+            "研究開発費が確認でき、将来成長への投資が続いています。",
+            "売上がプラスで確認できます。"
+          ],
+          "evidence": [
+            "Financials",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "total_revenue": 34639000000.0,
+            "eps": 2.67,
+            "net_income": 4335000000.0,
+            "operating_income": 3694000000.0,
+            "research_and_development": 8091000000.0,
+            "revenue_yoy_growth": 37.85,
+            "eps_yoy_growth": 90.91,
+            "revenue_yoy_growth_avg": 35.26,
+            "eps_yoy_growth_avg": 229.14,
+            "revenue_growth_quarters": [
+              "2026-Q1",
+              "2025-Q3",
+              "2025-Q2",
+              "2025-Q1"
+            ],
+            "eps_growth_quarters": [
+              "2026-Q1",
+              "2025-Q3",
+              "2025-Q2",
+              "2025-Q1"
+            ]
+          }
+        },
+        "Financial Health": {
+          "score": 20,
+          "max_score": 20,
+          "reasons": [
+            "現金 がプラスで確認できるため加点しています。",
+            "自己資本がプラスで、財務基盤を確認できます。",
+            "総負債/自己資本が 0.22 倍で、負債負担は相対的に抑えられています。",
+            "長期債務が総負債に対して過度に大きくないため加点しています。",
+            "Current Ratio が 2.85 で、短期支払余力が確認できます。"
+          ],
+          "evidence": [
+            "Financials",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "cash": 5539000000.0,
+            "total_liabilities": 13927000000.0,
+            "shareholders_equity": 62999000000.0,
+            "long_term_debt": 2348000000.0,
+            "current_ratio": 2.850026441036489
+          }
+        },
+        "Valuation": {
+          "score": 7,
+          "max_score": 20,
+          "reasons": [
+            "セクター比較対象が 4 社のため、PER は固定閾値で評価しています。",
+            "PER は 177.54 で、バリュエーション面の加点は抑えています。",
+            "セクター比較対象が 4 社のため、Forward PER は固定閾値で評価しています。",
+            "Forward PER は 40.24 で、バリュエーション面は中立から注意寄りです。",
+            "セクター比較対象が 4 社のため、PEG は固定閾値で評価しています。",
+            "PEG は 1.34 で、バリュエーション面は中立から注意寄りです。",
+            "セクター比較対象が 4 社のため、PBR は固定閾値で評価しています。",
+            "PBR は 13.51 で、バリュエーション面は中立から注意寄りです。",
+            "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
+          ],
+          "evidence": [
+            "Company",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "trailing_pe": 177.53821,
+            "forward_pe": 40.235817,
+            "peg_ratio": 1.34,
+            "price_to_book": 13.512782,
+            "sector_peer_count": 4
+          }
+        },
+        "Momentum": {
+          "score": 13,
+          "max_score": 20,
+          "reasons": [
+            "1M の対SPY超過リターンが +14.58pt と、市場を大きく上回っています。",
+            "3M の対SPY超過リターンが +107.54pt と、市場を大きく上回っています。",
+            "6M の対SPY超過リターンが +151.86pt と、市場を大きく上回っています。",
+            "1Y の対SPY超過リターンが +249.66pt と、市場を大きく上回っています。",
+            "直近出来高が30日平均の 0.74 倍で、市場関心はやや弱めです。"
+          ],
+          "evidence": [
+            "Prices",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "1M": 18.123347006656594,
+            "3M": 118.0827739512836,
+            "6M": 161.08561352888358,
+            "1Y": 270.6922870930081,
+            "benchmark": "SPY",
+            "benchmark_returns": {
+              "1M": 3.54,
+              "3M": 10.54,
+              "6M": 9.23,
+              "1Y": 21.04
+            },
+            "excess_returns": {
+              "1M": 14.58,
+              "3M": 107.54,
+              "6M": 151.86,
+              "1Y": 249.66
+            },
+            "latest_volume": 22515725.0,
+            "average_volume_30d": 30439950.833333332
+          }
+        },
+        "News": {
+          "score": 12,
+          "max_score": 20,
+          "reasons": [
+            "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
+            "ニュース見出し・要約の簡易分類では、好材料 7 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
+            "イベント後の平均株価反応が -4.21% と弱く、注意が必要です。"
+          ],
+          "evidence": [
+            "News",
+            "Events",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "news_count": 10,
+            "positive_count": 7,
+            "negative_count": 0,
+            "sentiment_net_ratio": 1.0,
+            "event_count": 10,
+            "events_with_price_reaction": 5
+          }
+        }
+      },
+      "evidence_sources": [
+        "Company",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "News",
+        "Prices"
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "company_name": "Alphabet Inc.",
+      "total_score": 74,
+      "max_score": 100,
+      "confidence": {
+        "level": "High",
+        "completeness_score": 100,
+        "reasons": [
+          "利用可能な主要データ領域は5領域中 5 領域です。",
+          "欠損または計算不可の項目数は 0 件です。",
+          "主要データが比較的そろっており、説明可能性は高めです。"
+        ]
+      },
+      "scores": {
+        "Growth": {
+          "score": 20,
+          "max_score": 20,
+          "reasons": [
+            "revenue_growth(直近4四半期平均) は 15.89% で、+15%以上の成長です。",
+            "eps_growth(直近4四半期平均) は 47.03% で、+30%以上の高成長です。",
+            "revenue_growth は直近四半期が前四半期より +5.84pt 高く、成長の加速がみられます。",
+            "eps_growth は直近四半期が前四半期より +46.47pt 高く、成長の加速がみられます。",
+            "純利益 がプラスで確認できるため加点しています。",
+            "営業利益 がプラスで確認できるため加点しています。",
+            "研究開発費が確認でき、将来成長への投資が続いています。",
+            "売上規模が大きく、事業規模の強さが確認できます。"
+          ],
+          "evidence": [
+            "Financials",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "total_revenue": 402836000000.0,
+            "eps": 10.91,
+            "net_income": 132170000000.0,
+            "operating_income": 129039000000.0,
+            "research_and_development": 61087000000.0,
+            "revenue_yoy_growth": 21.79,
+            "eps_yoy_growth": 81.85,
+            "revenue_yoy_growth_avg": 15.89,
+            "eps_yoy_growth_avg": 47.03,
+            "revenue_growth_quarters": [
+              "2026-Q1",
+              "2025-Q3",
+              "2025-Q2",
+              "2025-Q1"
+            ],
+            "eps_growth_quarters": [
+              "2026-Q1",
+              "2025-Q3",
+              "2025-Q2",
+              "2025-Q1"
+            ]
+          }
+        },
+        "Financial Health": {
+          "score": 20,
+          "max_score": 20,
+          "reasons": [
+            "現金 がプラスで確認できるため加点しています。",
+            "自己資本がプラスで、財務基盤を確認できます。",
+            "総負債/自己資本が 0.43 倍で、負債負担は相対的に抑えられています。",
+            "長期債務が総負債に対して過度に大きくないため加点しています。",
+            "Current Ratio が 2.01 で、短期支払余力が確認できます。"
+          ],
+          "evidence": [
+            "Financials",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "cash": 30708000000.0,
+            "total_liabilities": 180016000000.0,
+            "shareholders_equity": 415265000000.0,
+            "long_term_debt": 46547000000.0,
+            "current_ratio": 2.005333592875566
+          }
+        },
+        "Valuation": {
+          "score": 14,
+          "max_score": 20,
+          "reasons": [
+            "セクター比較対象が 2 社のため、PER は固定閾値で評価しています。",
+            "PER は 26.89 で、バリュエーション面は中立から注意寄りです。",
+            "セクター比較対象が 2 社のため、Forward PER は固定閾値で評価しています。",
+            "Forward PER は 24.09 で、評価ルール上は過度な割高さが抑えられています。",
+            "セクター比較対象が 2 社のため、PEG は固定閾値で評価しています。",
+            "PEG は 1.41 で、バリュエーション面は中立から注意寄りです。",
+            "セクター比較対象が 2 社のため、PBR は固定閾値で評価しています。",
+            "PBR は 8.92 で、バリュエーション面は中立から注意寄りです。",
+            "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
+          ],
+          "evidence": [
+            "Company",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "trailing_pe": 26.888636,
+            "forward_pe": 24.088179,
+            "peg_ratio": 1.41,
+            "price_to_book": 8.921143,
+            "sector_peer_count": 2
+          }
+        },
+        "Momentum": {
+          "score": 8,
+          "max_score": 20,
+          "reasons": [
+            "1M の対SPY超過リターンは -4.62pt と、市場を小幅に下回っています。",
+            "3M の対SPY超過リターンは +0.64pt で、市場並み以上です。",
+            "6M の対SPY超過リターンは -0.77pt と、市場を小幅に下回っています。",
+            "1Y の対SPY超過リターンが +77.99pt と、市場を大きく上回っています。",
+            "直近出来高が30日平均の 0.42 倍で、市場関心はやや弱めです。"
+          ],
+          "evidence": [
+            "Prices",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "1M": -1.0859181391111041,
+            "3M": 11.184138398699023,
+            "6M": 8.458966090164886,
+            "1Y": 99.02920467047286,
+            "benchmark": "SPY",
+            "benchmark_returns": {
+              "1M": 3.54,
+              "3M": 10.54,
+              "6M": 9.23,
+              "1Y": 21.04
+            },
+            "excess_returns": {
+              "1M": -4.62,
+              "3M": 0.64,
+              "6M": -0.77,
+              "1Y": 77.99
+            },
+            "latest_volume": 15013162.0,
+            "average_volume_30d": 35876255.4
+          }
+        },
+        "News": {
+          "score": 12,
+          "max_score": 20,
+          "reasons": [
+            "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
+            "ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
+            "イベント後の平均株価反応が -1.31% と弱く、注意が必要です。"
+          ],
+          "evidence": [
+            "News",
+            "Events",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "news_count": 10,
+            "positive_count": 4,
+            "negative_count": 0,
+            "sentiment_net_ratio": 1.0,
+            "event_count": 10,
+            "events_with_price_reaction": 2
+          }
+        }
+      },
+      "evidence_sources": [
+        "Company",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "News",
+        "Prices"
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "company_name": "Amazon.com, Inc.",
+      "total_score": 68,
+      "max_score": 100,
+      "confidence": {
+        "level": "Medium",
+        "completeness_score": 95.0,
+        "reasons": [
+          "利用可能な主要データ領域は5領域中 5 領域です。",
+          "欠損または計算不可の項目数は 1 件です。",
+          "主要データは一定程度ありますが、欠損や未取得項目が残っています。"
+        ]
+      },
+      "scores": {
+        "Growth": {
+          "score": 15,
+          "max_score": 20,
+          "reasons": [
+            "revenue_growth(直近4四半期平均) は 12.99% で、プラス成長を維持しています。",
+            "eps_growth(直近4四半期平均) は 51.69% で、+30%以上の高成長です。",
+            "eps_growth は直近四半期が前四半期より +38.48pt 高く、成長の加速がみられます。",
+            "純利益 がプラスで確認できるため加点しています。",
+            "営業利益 がプラスで確認できるため加点しています。",
+            "研究開発費が取得できないため、R&D項目は加点していません。",
+            "売上規模が大きく、事業規模の強さが確認できます。"
+          ],
+          "evidence": [
+            "Financials",
+            "Knowledge"
+          ],
+          "missing_data": [
+            "research_and_development"
+          ],
+          "metrics": {
+            "total_revenue": 716924000000.0,
+            "eps": 7.29,
+            "net_income": 77670000000.0,
+            "operating_income": 79975000000.0,
+            "research_and_development": null,
+            "revenue_yoy_growth": 16.61,
+            "eps_yoy_growth": 74.84,
+            "revenue_yoy_growth_avg": 12.99,
+            "eps_yoy_growth_avg": 51.69,
+            "revenue_growth_quarters": [
+              "2026-Q1",
+              "2025-Q3",
+              "2025-Q2",
+              "2025-Q1"
+            ],
+            "eps_growth_quarters": [
+              "2026-Q1",
+              "2025-Q3",
+              "2025-Q2",
+              "2025-Q1"
+            ]
+          }
+        },
+        "Financial Health": {
+          "score": 18,
+          "max_score": 20,
+          "reasons": [
+            "現金 がプラスで確認できるため加点しています。",
+            "自己資本がプラスで、財務基盤を確認できます。",
+            "総負債/自己資本が 0.99 倍で、負債負担は相対的に抑えられています。",
+            "長期債務が総負債に対して過度に大きくないため加点しています。",
+            "Current Ratio が 1.05 で、最低限の短期支払余力があります。"
+          ],
+          "evidence": [
+            "Financials",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "cash": 86810000000.0,
+            "total_liabilities": 406977000000.0,
+            "shareholders_equity": 411065000000.0,
+            "long_term_debt": 65648000000.0,
+            "current_ratio": 1.0508153482718285
+          }
+        },
+        "Valuation": {
+          "score": 14,
+          "max_score": 20,
+          "reasons": [
+            "セクター比較対象が 2 社のため、PER は固定閾値で評価しています。",
+            "PER は 29.55 で、バリュエーション面は中立から注意寄りです。",
+            "セクター比較対象が 2 社のため、Forward PER は固定閾値で評価しています。",
+            "Forward PER は 25.02 で、バリュエーション面は中立から注意寄りです。",
+            "セクター比較対象が 2 社のため、PEG は固定閾値で評価しています。",
+            "PEG は 1.41 で、バリュエーション面は中立から注意寄りです。",
+            "セクター比較対象が 2 社のため、PBR は固定閾値で評価しています。",
+            "PBR は 6.02 で、評価ルール上は過度な割高さが抑えられています。",
+            "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
+          ],
+          "evidence": [
+            "Company",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "trailing_pe": 29.547192,
+            "forward_pe": 25.0154,
+            "peg_ratio": 1.41,
+            "price_to_book": 6.0183,
+            "sector_peer_count": 2
+          }
+        },
+        "Momentum": {
+          "score": 6,
+          "max_score": 20,
+          "reasons": [
+            "1M の対SPY超過リターンは +0.37pt で、市場並み以上です。",
+            "3M の対SPY超過リターンは -6.80pt と、市場を小幅に下回っています。",
+            "6M の対SPY超過リターンは -8.82pt と、市場を小幅に下回っています。",
+            "1Y の対SPY超過リターンは -9.77pt と、市場を小幅に下回っています。",
+            "直近出来高が30日平均の 0.59 倍で、市場関心はやや弱めです。"
+          ],
+          "evidence": [
+            "Prices",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "1M": 3.9117636800813953,
+            "3M": 3.74611649167941,
+            "6M": 0.4141476715523301,
+            "1Y": 11.270585652330386,
+            "benchmark": "SPY",
+            "benchmark_returns": {
+              "1M": 3.54,
+              "3M": 10.54,
+              "6M": 9.23,
+              "1Y": 21.04
+            },
+            "excess_returns": {
+              "1M": 0.37,
+              "3M": -6.8,
+              "6M": -8.82,
+              "1Y": -9.77
+            },
+            "latest_volume": 33220841.0,
+            "average_volume_30d": 56129831.36666667
+          }
+        },
+        "News": {
+          "score": 15,
+          "max_score": 20,
+          "reasons": [
+            "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
+            "ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
+            "イベント後の平均株価反応が 0.80% と中立圏です。"
+          ],
+          "evidence": [
+            "News",
+            "Events",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "news_count": 10,
+            "positive_count": 4,
+            "negative_count": 0,
+            "sentiment_net_ratio": 1.0,
+            "event_count": 10,
+            "events_with_price_reaction": 8
+          }
+        }
+      },
+      "evidence_sources": [
+        "Company",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "News",
+        "Prices"
+      ]
+    },
+    {
+      "ticker": "META",
+      "company_name": "Meta Platforms, Inc.",
+      "total_score": 76,
+      "max_score": 100,
+      "confidence": {
+        "level": "High",
+        "completeness_score": 100,
+        "reasons": [
+          "利用可能な主要データ領域は5領域中 5 領域です。",
+          "欠損または計算不可の項目数は 0 件です。",
+          "主要データが比較的そろっており、説明可能性は高めです。"
+        ]
+      },
+      "scores": {
+        "Growth": {
+          "score": 17,
+          "max_score": 20,
+          "reasons": [
+            "revenue_growth(直近4四半期平均) は 24.25% で、+15%以上の成長です。",
+            "eps_growth(直近4四半期平均) は 13.66% で、プラス成長を維持しています。",
+            "revenue_growth は直近四半期が前四半期より +6.83pt 高く、成長の加速がみられます。",
+            "eps_growth は直近四半期が前四半期より +144.95pt 高く、成長の加速がみられます。",
+            "純利益 がプラスで確認できるため加点しています。",
+            "営業利益 がプラスで確認できるため加点しています。",
+            "研究開発費が確認でき、将来成長への投資が続いています。",
+            "売上規模が大きく、事業規模の強さが確認できます。"
+          ],
+          "evidence": [
+            "Financials",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "total_revenue": 200966000000.0,
+            "eps": 23.98,
+            "net_income": 60458000000.0,
+            "operating_income": 83276000000.0,
+            "research_and_development": 57372000000.0,
+            "revenue_yoy_growth": 33.08,
+            "eps_yoy_growth": 62.36,
+            "revenue_yoy_growth_avg": 24.25,
+            "eps_yoy_growth_avg": 13.66,
+            "revenue_growth_quarters": [
+              "2026-Q1",
+              "2025-Q3",
+              "2025-Q2",
+              "2025-Q1"
+            ],
+            "eps_growth_quarters": [
+              "2026-Q1",
+              "2025-Q3",
+              "2025-Q2",
+              "2025-Q1"
+            ]
+          }
+        },
+        "Financial Health": {
+          "score": 20,
+          "max_score": 20,
+          "reasons": [
+            "現金 がプラスで確認できるため加点しています。",
+            "自己資本がプラスで、財務基盤を確認できます。",
+            "総負債/自己資本が 0.68 倍で、負債負担は相対的に抑えられています。",
+            "長期債務が総負債に対して過度に大きくないため加点しています。",
+            "Current Ratio が 2.60 で、短期支払余力が確認できます。"
+          ],
+          "evidence": [
+            "Financials",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "cash": 35873000000.0,
+            "total_liabilities": 148778000000.0,
+            "shareholders_equity": 217243000000.0,
+            "long_term_debt": 58744000000.0,
+            "current_ratio": 2.5987666124868536
+          }
+        },
+        "Valuation": {
+          "score": 20,
+          "max_score": 20,
+          "reasons": [
+            "セクター比較対象が 2 社のため、PER は固定閾値で評価しています。",
+            "PER は 23.88 で、評価ルール上は過度な割高さが抑えられています。",
+            "セクター比較対象が 2 社のため、Forward PER は固定閾値で評価しています。",
+            "Forward PER は 18.08 で、評価ルール上は過度な割高さが抑えられています。",
+            "セクター比較対象が 2 社のため、PEG は固定閾値で評価しています。",
+            "PEG は 0.97 で、評価ルール上は過度な割高さが抑えられています。",
+            "セクター比較対象が 2 社のため、PBR は固定閾値で評価しています。",
+            "PBR は 6.84 で、評価ルール上は過度な割高さが抑えられています。",
+            "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
+          ],
+          "evidence": [
+            "Company",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "trailing_pe": 23.88109,
+            "forward_pe": 18.077312,
+            "peg_ratio": 0.97,
+            "price_to_book": 6.840011,
+            "sector_peer_count": 2
+          }
+        },
+        "Momentum": {
+          "score": 8,
+          "max_score": 20,
+          "reasons": [
+            "1M の対SPY超過リターンが +11.59pt と、市場を大きく上回っています。",
+            "3M の対SPY超過リターンは -6.18pt と、市場を小幅に下回っています。",
+            "6M の対SPY超過リターンは -7.40pt と、市場を小幅に下回っています。",
+            "1Y の対SPY超過リターンは -30.44pt と、市場を大きく下回っています。",
+            "直近出来高が30日平均の 0.87 倍で、通常水準の流動性があります。"
+          ],
+          "evidence": [
+            "Prices",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "1M": 15.124636833886958,
+            "3M": 4.3626667908171335,
+            "6M": 1.832872918634222,
+            "1Y": -9.39959124890032,
+            "benchmark": "SPY",
+            "benchmark_returns": {
+              "1M": 3.54,
+              "3M": 10.54,
+              "6M": 9.23,
+              "1Y": 21.04
+            },
+            "excess_returns": {
+              "1M": 11.59,
+              "3M": -6.18,
+              "6M": -7.4,
+              "1Y": -30.44
+            },
+            "latest_volume": 18010409.0,
+            "average_volume_30d": 20643360.3
+          }
+        },
+        "News": {
+          "score": 11,
+          "max_score": 20,
+          "reasons": [
+            "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
+            "ニュース見出し・要約の簡易分類では、好材料 6 件、悪材料 1 件(純比率 +0.71)で、センチメントは 6.8 点です。",
+            "イベント後の平均株価反応が -1.86% と弱く、注意が必要です。"
+          ],
+          "evidence": [
+            "News",
+            "Events",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "news_count": 10,
+            "positive_count": 6,
+            "negative_count": 1,
+            "sentiment_net_ratio": 0.71,
+            "event_count": 10,
+            "events_with_price_reaction": 5
+          }
+        }
+      },
+      "evidence_sources": [
+        "Company",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "News",
+        "Prices"
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "company_name": "Tesla, Inc.",
+      "total_score": 53,
+      "max_score": 100,
+      "confidence": {
+        "level": "High",
+        "completeness_score": 100,
+        "reasons": [
+          "利用可能な主要データ領域は5領域中 5 領域です。",
+          "欠損または計算不可の項目数は 0 件です。",
+          "主要データが比較的そろっており、説明可能性は高めです。"
+        ]
+      },
+      "scores": {
+        "Growth": {
+          "score": 12,
+          "max_score": 20,
+          "reasons": [
+            "revenue_growth(直近4四半期平均) は 1.59% で、プラス成長を維持しています。",
+            "eps_growth(直近4四半期平均) は -29.25% で、前年同期比ではマイナスです。",
+            "eps_growth は直近四半期が前四半期より +45.43pt 高く、成長の加速がみられます。",
+            "純利益 がプラスで確認できるため加点しています。",
+            "営業利益 がプラスで確認できるため加点しています。",
+            "研究開発費が確認でき、将来成長への投資が続いています。",
+            "売上がプラスで確認できます。"
+          ],
+          "evidence": [
+            "Financials",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "total_revenue": 94827000000.0,
+            "eps": 1.176525,
+            "net_income": 3794000000.0,
+            "operating_income": 4849000000.0,
+            "research_and_development": 6411000000.0,
+            "revenue_yoy_growth": 15.78,
+            "eps_yoy_growth": 8.33,
+            "revenue_yoy_growth_avg": 1.59,
+            "eps_yoy_growth_avg": -29.25,
+            "revenue_growth_quarters": [
+              "2026-Q1",
+              "2025-Q3",
+              "2025-Q2",
+              "2025-Q1"
+            ],
+            "eps_growth_quarters": [
+              "2026-Q1",
+              "2025-Q3",
+              "2025-Q2",
+              "2025-Q1"
+            ]
+          }
+        },
+        "Financial Health": {
+          "score": 20,
+          "max_score": 20,
+          "reasons": [
+            "現金 がプラスで確認できるため加点しています。",
+            "自己資本がプラスで、財務基盤を確認できます。",
+            "総負債/自己資本が 0.67 倍で、負債負担は相対的に抑えられています。",
+            "長期債務が総負債に対して過度に大きくないため加点しています。",
+            "Current Ratio が 2.16 で、短期支払余力が確認できます。"
+          ],
+          "evidence": [
+            "Financials",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "cash": 16513000000.0,
+            "total_liabilities": 54941000000.0,
+            "shareholders_equity": 82137000000.0,
+            "long_term_debt": 6584000000.0,
+            "current_ratio": 2.1644068865485275
+          }
+        },
+        "Valuation": {
+          "score": 3,
+          "max_score": 20,
+          "reasons": [
+            "セクター比較対象が 2 社のため、PER は固定閾値で評価しています。",
+            "PER は 358.87 で、バリュエーション面の加点は抑えています。",
+            "セクター比較対象が 2 社のため、Forward PER は固定閾値で評価しています。",
+            "Forward PER は 153.15 で、バリュエーション面の加点は抑えています。",
+            "セクター比較対象が 2 社のため、PEG は固定閾値で評価しています。",
+            "PEG は 5.11 で、バリュエーション面の加点は抑えています。",
+            "セクター比較対象が 2 社のため、PBR は固定閾値で評価しています。",
+            "PBR は 18.03 で、バリュエーション面は中立から注意寄りです。",
+            "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
+          ],
+          "evidence": [
+            "Company",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "trailing_pe": 358.87274,
+            "forward_pe": 153.15082,
+            "peg_ratio": 5.11,
+            "price_to_book": 18.028042,
+            "sector_peer_count": 2
+          }
+        },
+        "Momentum": {
+          "score": 6,
+          "max_score": 20,
+          "reasons": [
+            "1M の対SPY超過リターンは -0.09pt と、市場を小幅に下回っています。",
+            "3M の対SPY超過リターンは +2.58pt で、市場並み以上です。",
+            "6M の対SPY超過リターンは -18.65pt と、市場を大きく下回っています。",
+            "1Y の対SPY超過リターンは +6.36pt で、市場並み以上です。",
+            "直近出来高が30日平均の 0.70 倍で、市場関心はやや弱めです。"
+          ],
+          "evidence": [
+            "Prices",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "1M": 3.451351857786277,
+            "3M": 13.127954135566783,
+            "6M": -9.417159058489984,
+            "1Y": 27.3953645032116,
+            "benchmark": "SPY",
+            "benchmark_returns": {
+              "1M": 3.54,
+              "3M": 10.54,
+              "6M": 9.23,
+              "1Y": 21.04
+            },
+            "excess_returns": {
+              "1M": -0.09,
+              "3M": 2.58,
+              "6M": -18.65,
+              "1Y": 6.36
+            },
+            "latest_volume": 32685743.0,
+            "average_volume_30d": 46399258.1
+          }
+        },
+        "News": {
+          "score": 12,
+          "max_score": 20,
+          "reasons": [
+            "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
+            "ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
+            "イベント後の平均株価反応が -3.19% と弱く、注意が必要です。"
+          ],
+          "evidence": [
+            "News",
+            "Events",
+            "Knowledge"
+          ],
+          "missing_data": [],
+          "metrics": {
+            "news_count": 10,
+            "positive_count": 3,
+            "negative_count": 0,
+            "sentiment_net_ratio": 1.0,
+            "event_count": 10,
+            "events_with_price_reaction": 5
+          }
+        }
+      },
+      "evidence_sources": [
+        "Company",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "News",
+        "Prices"
+      ]
+    }
+  ]
+}
