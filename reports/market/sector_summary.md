@@ -6,15 +6,15 @@
 
 - 銘柄数: 2
 - 銘柄: GOOGL, META
-- 平均スコア: 77.50
-- 平均PER: 25.72
+- 平均スコア: 81.00
+- 平均PER: 26.52
 - 平均EPS: 20.31
-- 平均1Mモメンタム: 8.44%
+- 平均1Mモメンタム: 11.70%
 - ニュース件数: 20
 
 ### Trend
 
-- Momentum: Positive
+- Momentum: Strong
 - News: High
 - Financial Health: Good
 
@@ -22,17 +22,17 @@
 
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| GOOGL | Alphabet Inc. | 79.00 | 27.42 | 13.11 | 0.49% | 10 |
-| META | Meta Platforms, Inc. | 76.00 | 24.02 | 27.52 | 16.40% | 10 |
+| GOOGL | Alphabet Inc. | 80.00 | 28.27 | 13.12 | 3.13% | 10 |
+| META | Meta Platforms, Inc. | 82.00 | 24.77 | 27.50 | 20.28% | 10 |
 
 ## Consumer Cyclical
 
 - 銘柄数: 2
 - 銘柄: AMZN, TSLA
-- 平均スコア: 61.50
-- 平均PER: 193.26
-- 平均EPS: 4.73
-- 平均1Mモメンタム: 0.87%
+- 平均スコア: 62.50
+- 平均PER: 192.92
+- 平均EPS: 4.74
+- 平均1Mモメンタム: 1.97%
 - ニュース件数: 20
 
 ### Trend
@@ -45,17 +45,17 @@
 
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| AMZN | Amazon.com, Inc. | 67.00 | 29.60 | 8.36 | 2.48% | 10 |
-| TSLA | Tesla, Inc. | 56.00 | 356.92 | 1.11 | -0.74% | 10 |
+| AMZN | Amazon.com, Inc. | 70.00 | 30.46 | 8.37 | 6.88% | 10 |
+| TSLA | Tesla, Inc. | 55.00 | 355.37 | 1.11 | -2.95% | 10 |
 
 ## Technology
 
 - 銘柄数: 4
 - 銘柄: AAPL, MSFT, NVDA, AMD
-- 平均スコア: 70.25
-- 平均PER: 69.22
-- 平均EPS: 8.63
-- 平均1Mモメンタム: 5.18%
+- 平均スコア: 73.50
+- 平均PER: 67.92
+- 平均EPS: 8.64
+- 平均1Mモメンタム: 5.19%
 - ニュース件数: 40
 
 ### Trend
@@ -68,7 +68,7 @@
 
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| AAPL | Apple Inc. | 59.00 | 38.16 | 8.25 | 6.50% | 10 |
-| MSFT | Microsoft Corporation | 69.00 | 22.95 | 16.77 | -1.39% | 10 |
-| NVDA | NVIDIA Corporation | 76.00 | 32.43 | 6.53 | 3.38% | 10 |
-| AMD | Advanced Micro Devices, Inc. | 77.00 | 183.32 | 2.99 | 12.22% | 10 |
+| AAPL | Apple Inc. | 69.00 | 39.70 | 8.25 | 12.49% | 10 |
+| MSFT | Microsoft Corporation | 73.00 | 23.58 | 16.78 | 1.25% | 10 |
+| NVDA | NVIDIA Corporation | 77.00 | 32.59 | 6.52 | 3.56% | 10 |
+| AMD | Advanced Micro Devices, Inc. | 75.00 | 175.79 | 3.01 | 3.43% | 10 |

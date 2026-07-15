@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 8
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 4.92%
+- 市場全体の1Mモメンタム平均: 6.01%
 - ニュース件数: 80
 - Event数: 80
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,39 +21,39 @@
 
 ### 注目ニュース
 
-- 2026-07-14T22:36:42+00:00 / NVDA / Investor's Business Daily: Dow Jones Futures: Goldman, CrowdStrike Jump, But AI Stocks Need To Do This
-- 2026-07-14T22:30:00+00:00 / NVDA / Motley Fool: Warren Buffett Has Recommended This Surprising Investment for All Investors During Any Market Environment. Here's How It's Turned Out, According to History.
-- 2026-07-14T22:25:00+00:00 / NVDA / Motley Fool: SoundHound AI Stock Is Down 37% in 2026. Is This the Ultimate Buying Opportunity, or Is More Downside Ahead?
-- 2026-07-14T22:19:01+00:00 / NVDA / Motley Fool: Oil Climbs to a 1-Month High as the U.S. and Iran Trade Attacks in the Strait of Hormuz. Here's What it Means for Energy Investors.
-- 2026-07-14T22:14:22+00:00 / GOOGL / Simply Wall St.: Should UK Search Data Portability Rules For Google Reshape Alphabet’s Competitive Moat (GOOGL) Narrative?
+- 2026-07-15T22:36:49+00:00 / AAPL / Investor's Business Daily: Dow Jones Futures: Apple, Google Mask Dell, Sandisk, Micron Sell-Off; J.B. Hunt Jumps Late
+- 2026-07-15T22:36:49+00:00 / NVDA / Investor's Business Daily: Dow Jones Futures: Apple, Google Mask Dell, Sandisk, Micron Sell-Off; J.B. Hunt Jumps Late
+- 2026-07-15T22:36:49+00:00 / GOOGL / Investor's Business Daily: Dow Jones Futures: Apple, Google Mask Dell, Sandisk, Micron Sell-Off; J.B. Hunt Jumps Late
+- 2026-07-15T22:30:00+00:00 / NVDA / Motley Fool: Here's What IBM's Profit Warning Tells Us About the AI Market Right Now -- and What It Means for Investors
+- 2026-07-15T22:11:23+00:00 / AAPL / BeInCrypto: Warren Buffett Says Alphabet (GOOGL) Can Beat 95% of Wall Street Stock Picks
 
 ### 注目イベント
 
-- 2026-07-14T19:46:04+00:00 / AMD: Sector Update: Tech Stocks Rise Late Afternoon (株価反応: 2.57%, 出来高: 21.09M)
-- 2026-07-14T19:07:00+00:00 / AMD: AMD Stock Jumps. Why This Analyst Sees 31% Upside. (株価反応: 2.57%, 出来高: 21.09M)
-- 2026-07-14T15:00:33+00:00 / GOOGL: Meta expands Louisiana data center to 5GW in new AI push (株価反応: 1.99%, 出来高: 18.17M)
-- 2026-07-13T12:47:17+00:00 / META: Tech stocks live updates: Tech stocks fall as AI trade faces scrutiny, SK Hynix falls (株価反応: -1.86%, 出来高: 19.84M)
-- 2026-07-14T19:46:04+00:00 / MSFT: Sector Update: Tech Stocks Rise Late Afternoon (株価反応: -1.55%, 出来高: 27.74M)
+- 2026-07-15T14:51:01+00:00 / AAPL: Does the PayPal takeover deal make any sense? (株価反応: 4.01%, 出来高: 60.78M)
+- 2026-07-15T12:00:00+00:00 / AAPL: The US won't adopt Chinese memory — but it will win the AI race: Strategist (株価反応: 4.01%, 出来高: 60.78M)
+- 2026-07-15T19:13:00+00:00 / AMD: AMD’s hidden AI weapon may finally be exposed (株価反応: -3.46%, 出来高: 27.73M)
+- 2026-07-15T18:46:52+00:00 / AMD: Bank of America Says Long Semiconductors is the “Most Crowded Trade Ever” (株価反応: -3.46%, 出来高: 27.73M)
+- 2026-07-15T18:42:48+00:00 / AMD: Arista, Seagate and Astera Lead AI Picks (株価反応: -3.46%, 出来高: 27.73M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 2 | 77.50 | 25.72 | 20.31 | 8.44% | 20 |
-| Consumer Cyclical | 2 | 61.50 | 193.26 | 4.73 | 0.87% | 20 |
-| Technology | 4 | 70.25 | 69.22 | 8.63 | 5.18% | 40 |
+| Communication Services | 2 | 81.00 | 26.52 | 20.31 | 11.70% | 20 |
+| Consumer Cyclical | 2 | 62.50 | 192.92 | 4.74 | 1.97% | 20 |
+| Technology | 4 | 73.50 | 67.92 | 8.64 | 5.19% | 40 |
 
 ## 市場トレンド
 
 | セクター | Momentum | News | Financial Health |
 | --- | --- | --- | --- |
-| Communication Services | Positive | High | Good |
+| Communication Services | Strong | High | Good |
 | Consumer Cyclical | Positive | High | Good |
 | Technology | Positive | High | Good |
 
 ## 市場心理
 
-市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 80 件で、ポジティブなモメンタムのセクターは 3/3 です。
+市場はややリスクオン傾向と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 80 件で、ポジティブなモメンタムのセクターは 3/3 です。
 
 参照Knowledge: market_psychology.md
 
