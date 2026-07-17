@@ -6,8 +6,8 @@
 
 - 対象企業数: 8
 - セクター数: 3
-- 市場平均スコア: 69.375
-- 1M市場モメンタム平均: 0.8189092814654574
+- 市場平均スコア: 67.75
+- 1M市場モメンタム平均: 0.27322125507018236
 - ニュース件数: 80
 - Event数: 80
 
@@ -17,10 +17,8 @@
 | --- | --- | --- | --- | --- | --- |
 | AMD | Advanced Micro Devices, Inc. | Technology | 76 | Primary Candidate | High |
 | GOOGL | Alphabet Inc. | Communication Services | 71 | Watch Candidate | High |
-| AAPL | Apple Inc. | Technology | 70 | Watch Candidate | High |
+| AAPL | Apple Inc. | Technology | 68 | Watch Candidate | High |
 | NVDA | NVIDIA Corporation | Technology | 65 | Watch Candidate | High |
-| MSFT | Microsoft Corporation | Technology | 64 | Watch Candidate | High |
-| META | Meta Platforms, Inc. | Communication Services | 61 | Watch Candidate | High |
 
 ## Top Candidate
 
@@ -30,7 +28,7 @@ AMD
 
 - Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 11/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 

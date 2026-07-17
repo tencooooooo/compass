@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 8
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 0.82%
+- 市場全体の1Mモメンタム平均: 0.27%
 - ニュース件数: 80
 - Event数: 80
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-07-16T22:37:43+00:00 / GOOGL / Investor's Business Daily: Dow Jones Futures: Micron, Sandisk, Google Lead AI Sell-Off, Netflix Dives Late; SpaceX Starship Launch Due
-- 2026-07-16T22:32:02+00:00 / NVDA / Motley Fool: Why AtaiBeckley Stock Soared Today
-- 2026-07-16T22:31:00+00:00 / NVDA / Motley Fool: Is IBM's Crash Really a Buying Opportunity?
-- 2026-07-16T22:20:00+00:00 / NVDA / Motley Fool: Meet the Company Supplying 56% of the World's AI Memory Chips
-- 2026-07-16T21:53:00+00:00 / NVDA / Motley Fool: 1 Critical Reason to Buy Broadcom Stock on the Dip
+- 2026-07-17T22:07:00+00:00 / TSLA / TheStreet: Waymo wears out its welcome in major U.S. city as mayor responds
+- 2026-07-17T21:59:01+00:00 / NVDA / Motley Fool: CrowdStrike vs. NVIDIA: Which Growth Tech Stock Is a Better Buy in 2026, the Cybersecurity Giant or AI Leader?
+- 2026-07-17T21:44:00+00:00 / NVDA / Motley Fool: UiPath Vs. ServiceNow: Which Agentic AI Stock Is the Better Buy?
+- 2026-07-17T21:33:59+00:00 / NVDA / Motley Fool: Stock Market Today, July 17: Stocks Slide as Semiconductor Rout Deepens
+- 2026-07-17T21:33:59+00:00 / AMD / Motley Fool: Stock Market Today, July 17: Stocks Slide as Semiconductor Rout Deepens
 
 ### 注目イベント
 
-- 2026-07-16T19:49:00+00:00 / AMD: AI Has Upended Chip Stocks. This Chart Shows How Much. (株価反応: -5.33%, 出来高: 26.93M)
-- 2026-07-16T19:21:22+00:00 / AMD: Q1 Rundown: AMD (NASDAQ:AMD) Vs Other Processors and Graphics Chips Stocks (株価反応: -5.33%, 出来高: 26.93M)
-- 2026-07-16T19:07:45+00:00 / AMD: UBS Raises AMD Target on Stronger AI Outlook (株価反応: -5.33%, 出来高: 26.93M)
-- 2026-07-16T19:00:00+00:00 / AMD: Everyone's Buying NVIDIA, but 2 Smaller AI Stocks Could Soar Higher (株価反応: -5.33%, 出来高: 26.93M)
-- 2026-07-16T18:06:31+00:00 / AMD: Marvell Stock's AI Bet Is Even Bigger Than You Think (株価反応: -5.33%, 出来高: 26.93M)
+- 2026-07-17T19:31:35+00:00 / META: Sector Update: Tech Stocks Fall Late Afternoon (株価反応: -2.79%, 出来高: 20.97M)
+- 2026-07-17T18:52:00+00:00 / META: Meta’s Next $10 Billion Deal? Why Anthropic May Rent AI Hardware From Zuckerberg. (株価反応: -2.79%, 出来高: 20.97M)
+- 2026-07-17T19:16:52+00:00 / TSLA: TSLA Stock Slips — Investors Await Tesla’s Q2 Earnings And Semi Progress (株価反応: -2.61%, 出来高: 29.96M)
+- 2026-07-17T13:09:20+00:00 / NVDA: Semiconductor stocks trim losses as investors buy the dip (株価反応: -2.21%, 出来高: 138.21M)
+- 2026-07-17T13:18:09+00:00 / GOOGL: Oracle's stock crash looks embarrassing for billionaire founder Larry Ellison (株価反応: -2.17%, 出来高: 29.85M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 2 | 74.50 | 25.61 | 20.30 | 3.97% | 20 |
-| Consumer Cyclical | 2 | 60.50 | 192.70 | 4.73 | -1.66% | 20 |
-| Technology | 4 | 71.25 | 65.50 | 8.64 | 0.48% | 40 |
+| Communication Services | 2 | 74.50 | 24.96 | 20.32 | 0.27% | 20 |
+| Consumer Cyclical | 2 | 59.00 | 189.47 | 4.73 | -2.69% | 20 |
+| Technology | 4 | 68.75 | 64.90 | 8.65 | 1.76% | 40 |
 
 ## 市場トレンド
 

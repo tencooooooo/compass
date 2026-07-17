@@ -7,9 +7,9 @@
 - 銘柄数: 2
 - 銘柄: GOOGL, META
 - 平均スコア: 74.50
-- 平均PER: 25.61
-- 平均EPS: 20.30
-- 平均1Mモメンタム: 3.97%
+- 平均PER: 24.96
+- 平均EPS: 20.32
+- 平均1Mモメンタム: 0.27%
 - ニュース件数: 20
 
 ### Trend
@@ -22,17 +22,17 @@
 
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| GOOGL | Alphabet Inc. | 75.00 | 27.08 | 13.09 | -4.03% | 10 |
-| META | Meta Platforms, Inc. | 74.00 | 24.15 | 27.52 | 11.97% | 10 |
+| GOOGL | Alphabet Inc. | 75.00 | 26.43 | 13.12 | -7.09% | 10 |
+| META | Meta Platforms, Inc. | 74.00 | 23.48 | 27.51 | 7.63% | 10 |
 
 ## Consumer Cyclical
 
 - 銘柄数: 2
 - 銘柄: AMZN, TSLA
-- 平均スコア: 60.50
-- 平均PER: 192.70
+- 平均スコア: 59.00
+- 平均PER: 189.47
 - 平均EPS: 4.73
-- 平均1Mモメンタム: -1.66%
+- 平均1Mモメンタム: -2.69%
 - ニュース件数: 20
 
 ### Trend
@@ -45,17 +45,17 @@
 
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| AMZN | Amazon.com, Inc. | 66.00 | 29.89 | 8.36 | 1.57% | 10 |
-| TSLA | Tesla, Inc. | 55.00 | 355.51 | 1.10 | -4.89% | 10 |
+| AMZN | Amazon.com, Inc. | 67.00 | 29.54 | 8.37 | 0.50% | 10 |
+| TSLA | Tesla, Inc. | 51.00 | 349.39 | 1.09 | -5.89% | 10 |
 
 ## Technology
 
 - 銘柄数: 4
 - 銘柄: AAPL, MSFT, NVDA, AMD
-- 平均スコア: 71.25
-- 平均PER: 65.50
-- 平均EPS: 8.64
-- 平均1Mモメンタム: 0.48%
+- 平均スコア: 68.75
+- 平均PER: 64.90
+- 平均EPS: 8.65
+- 平均1Mモメンタム: 1.76%
 - ニュース件数: 40
 
 ### Trend
@@ -68,7 +68,7 @@
 
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| AAPL | Apple Inc. | 65.00 | 40.40 | 8.25 | 12.43% | 10 |
-| MSFT | Microsoft Corporation | 74.00 | 23.92 | 16.77 | 0.34% | 10 |
-| NVDA | NVIDIA Corporation | 72.00 | 31.81 | 6.52 | -2.38% | 10 |
-| AMD | Advanced Micro Devices, Inc. | 74.00 | 165.87 | 3.02 | -8.46% | 10 |
+| AAPL | Apple Inc. | 62.00 | 40.40 | 8.26 | 11.53% | 10 |
+| MSFT | Microsoft Corporation | 68.00 | 23.43 | 16.81 | -0.00% | 10 |
+| NVDA | NVIDIA Corporation | 72.00 | 31.06 | 6.53 | -2.22% | 10 |
+| AMD | Advanced Micro Devices, Inc. | 73.00 | 164.70 | 3.01 | -2.27% | 10 |
