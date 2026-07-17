@@ -40,13 +40,12 @@ def render_validation_summary(
     periods: dict[str, int],
     benchmark_name: str | None,
 ) -> str:
-    result_counts = Counter(row.get("validation_result") for row in rows)
     complete_rows = [row for row in rows if row.get("period_complete")]
     incomplete_count = len(rows) - len(complete_rows)
-    average_return = None
-    if rows:
-        returns = [row.get("return_percent") for row in rows if row.get("return_percent") is not None]
-        average_return = sum(returns) / len(returns) if returns else None
+    # 未完了期間はNeutral扱いで保存されるため、集計は完了分のみで行い未完了は別掲する。
+    result_counts = Counter(row.get("validation_result") for row in complete_rows)
+    returns = [row.get("return_percent") for row in complete_rows if row.get("return_percent") is not None]
+    average_return = sum(returns) / len(returns) if returns else None
 
     ticker_rows = [
         [
@@ -63,8 +62,8 @@ def render_validation_summary(
         for row in rows
     ]
 
-    good_features = collect_repeated_points(rows, {"Excellent", "Good"}, "discovery_reasons")
-    improvement_features = collect_repeated_points(rows, {"Neutral", "Poor"}, "watch_points")
+    good_features = collect_repeated_points(complete_rows, {"Excellent", "Good"}, "discovery_reasons")
+    improvement_features = collect_repeated_points(complete_rows, {"Neutral", "Poor"}, "watch_points")
     if incomplete_count:
         improvement_features.insert(0, "検証期間が未完了の候補があり、十分な株価推移をまだ確認できません。")
 
@@ -81,13 +80,14 @@ def render_validation_summary(
         f"- 期間完了済み: {len(complete_rows)}",
         f"- 期間未完了: {incomplete_count}",
         f"- ベンチマーク: {benchmark_name or 'N/A'}",
-        f"- 平均騰落率: {fmt_percent(average_return)}",
+        f"- 平均騰落率(期間完了分): {fmt_percent(average_return)}",
         "",
-        "## Result Counts",
+        "## Result Counts(期間完了分)",
         "",
     ]
     for result in RESULT_ORDER:
         lines.append(f"- {result}: {result_counts.get(result, 0)}")
+    lines.append(f"- Pending(期間未完了): {incomplete_count}")
 
     lines.extend(
         [

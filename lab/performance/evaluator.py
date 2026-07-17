@@ -11,7 +11,7 @@ from lab.performance.benchmark import Benchmark
 from utils.price_data import adjusted_close
 
 
-DEFAULT_PERIODS = (30, 90, 180, 365)
+DEFAULT_PERIODS = (7, 30, 90, 180, 365)
 
 
 class Evaluator:
