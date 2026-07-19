@@ -6,19 +6,19 @@
 
 ## 7
 
-- Evaluated: 88
-- Completed: 46
-- Pending: 42
-- Success Rate: 65.22%
-- Average Return: 1.64%
-- Win Rate: 65.22%
-- Alpha vs Benchmark: 1.28%
+- Evaluated: 92
+- Completed: 63
+- Pending: 29
+- Success Rate: 60.32%
+- Average Return: 1.79%
+- Win Rate: 60.32%
+- Alpha vs Benchmark: 1.35%
 
 ## 30
 
-- Evaluated: 88
+- Evaluated: 92
 - Completed: 0
-- Pending: 88
+- Pending: 92
 - Success Rate: N/A
 - Average Return: N/A
 - Win Rate: N/A
@@ -26,9 +26,9 @@
 
 ## 90
 
-- Evaluated: 88
+- Evaluated: 92
 - Completed: 0
-- Pending: 88
+- Pending: 92
 - Success Rate: N/A
 - Average Return: N/A
 - Win Rate: N/A
@@ -36,9 +36,9 @@
 
 ## 180
 
-- Evaluated: 88
+- Evaluated: 92
 - Completed: 0
-- Pending: 88
+- Pending: 92
 - Success Rate: N/A
 - Average Return: N/A
 - Win Rate: N/A
@@ -46,9 +46,9 @@
 
 ## 365
 
-- Evaluated: 88
+- Evaluated: 92
 - Completed: 0
-- Pending: 88
+- Pending: 92
 - Success Rate: N/A
 - Average Return: N/A
 - Win Rate: N/A
@@ -61,33 +61,33 @@
 
 ## 60-69
 
-- Evaluated: 260
-- Completed: 27
-- Pending: 233
-- Success Rate: 74.07%
-- Average Return: 2.94%
-- Win Rate: 74.07%
-- Alpha vs Benchmark: 2.63%
+- Evaluated: 270
+- Completed: 38
+- Pending: 232
+- Success Rate: 68.42%
+- Average Return: 2.93%
+- Win Rate: 68.42%
+- Alpha vs Benchmark: 2.46%
 
 ## 70-79
 
-- Evaluated: 155
-- Completed: 16
-- Pending: 139
-- Success Rate: 56.25%
-- Average Return: 0.32%
-- Win Rate: 56.25%
-- Alpha vs Benchmark: -0.12%
+- Evaluated: 165
+- Completed: 21
+- Pending: 144
+- Success Rate: 52.38%
+- Average Return: 1.03%
+- Win Rate: 52.38%
+- Alpha vs Benchmark: 0.56%
 
 ## 80+
 
 - Evaluated: 25
-- Completed: 3
-- Pending: 22
-- Success Rate: 33.33%
-- Average Return: -3.10%
-- Win Rate: 33.33%
-- Alpha vs Benchmark: -3.38%
+- Completed: 4
+- Pending: 21
+- Success Rate: 25.00%
+- Average Return: -5.11%
+- Win Rate: 25.00%
+- Alpha vs Benchmark: -4.94%
 
 
 ## Confidence Accuracy
@@ -96,23 +96,23 @@
 
 ## High
 
-- Evaluated: 265
-- Completed: 25
-- Pending: 240
-- Success Rate: 60.00%
-- Average Return: 1.13%
-- Win Rate: 60.00%
-- Alpha vs Benchmark: 0.91%
+- Evaluated: 285
+- Completed: 31
+- Pending: 254
+- Success Rate: 51.61%
+- Average Return: 0.24%
+- Win Rate: 51.61%
+- Alpha vs Benchmark: 0.33%
 
 ## Medium
 
 - Evaluated: 175
-- Completed: 21
-- Pending: 154
-- Success Rate: 71.43%
-- Average Return: 2.24%
-- Win Rate: 71.43%
-- Alpha vs Benchmark: 1.73%
+- Completed: 32
+- Pending: 143
+- Success Rate: 68.75%
+- Average Return: 3.29%
+- Win Rate: 68.75%
+- Alpha vs Benchmark: 2.35%
 
 
 ## Confidence Validation Result Distribution
@@ -121,40 +121,50 @@
 
 ## High
 
-- Evaluated: 265
-- Completed: 25
-- Hit Rate: 24.00%
-- Excellent: 0
-- Good: 6
-- Neutral: 16
-- Poor: 3
-- Pending: 240
+- Evaluated: 285
+- Completed: 31
+- Hit Rate: 48.39%
+- Excellent: 12
+- Good: 3
+- Neutral: 2
+- Poor: 14
+- Pending: 254
 
 ## Medium
 
 - Evaluated: 175
-- Completed: 21
-- Hit Rate: 23.81%
-- Excellent: 0
-- Good: 5
-- Neutral: 16
-- Poor: 0
-- Pending: 154
+- Completed: 32
+- Hit Rate: 59.38%
+- Excellent: 13
+- Good: 6
+- Neutral: 3
+- Poor: 10
+- Pending: 143
 
 
 ## Pattern Accuracy
 
 # Patterns
 
-## Unknown
+## failure patterns
 
-- Evaluated: 440
-- Completed: 46
-- Pending: 394
-- Success Rate: 65.22%
-- Average Return: 1.64%
-- Win Rate: 65.22%
-- Alpha vs Benchmark: 1.28%
+- Evaluated: 175
+- Completed: 25
+- Pending: 150
+- Success Rate: 36.00%
+- Average Return: -0.80%
+- Win Rate: 36.00%
+- Alpha vs Benchmark: -1.15%
+
+## success patterns
+
+- Evaluated: 460
+- Completed: 63
+- Pending: 397
+- Success Rate: 60.32%
+- Average Return: 1.79%
+- Win Rate: 60.32%
+- Alpha vs Benchmark: 1.35%
 
 
 ## Market Intelligence Accuracy
@@ -163,9 +173,9 @@
 
 ## Neutral
 
-- Evaluated: 55
+- Evaluated: 75
 - Completed: 0
-- Pending: 55
+- Pending: 75
 - Success Rate: N/A
 - Average Return: N/A
 - Win Rate: N/A
@@ -184,9 +194,9 @@
 ## Unknown
 
 - Evaluated: 315
-- Completed: 46
-- Pending: 269
-- Success Rate: 65.22%
-- Average Return: 1.64%
-- Win Rate: 65.22%
-- Alpha vs Benchmark: 1.28%
+- Completed: 63
+- Pending: 252
+- Success Rate: 60.32%
+- Average Return: 1.79%
+- Win Rate: 60.32%
+- Alpha vs Benchmark: 1.35%
