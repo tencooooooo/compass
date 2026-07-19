@@ -1,9 +1,10 @@
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 import json
 
-from engines.notification.event_detector import classify_news, detect_important_news_alerts, is_recent_news
+from engines.notification.event_detector import classify_news, detect_important_news_alerts, is_recent_news, workflow_failure_event
+from engines.notification.notification_engine import prune_history, sent_event_ids
 
 
 def test_broad_financial_words_are_not_automatically_important():
@@ -55,3 +56,45 @@ def test_important_news_alerts_exclude_old_and_low_signal_items(tmp_path):
     assert len(events) == 1
     assert events[0]["ticker"] == "AAPL"
     assert "buyback" in events[0]["summary"].lower()
+
+
+def history_record(event_id: str, status: str, recorded_at: str) -> dict:
+    return {"event_id": event_id, "status": status, "recorded_at": recorded_at}
+
+
+def test_recent_skipped_events_are_resendable_but_stale_ones_are_not():
+    now = datetime(2026, 7, 19, 12, tzinfo=timezone.utc)
+    history = [
+        history_record("sent-1", "sent", "2026-07-19T08:00:00+00:00"),
+        history_record("skipped-fresh", "skipped_no_webhook", "2026-07-18T08:00:00+00:00"),
+        history_record("skipped-stale", "skipped_no_webhook", "2026-07-10T08:00:00+00:00"),
+        history_record("skipped-unparseable", "skipped_no_webhook", "invalid"),
+    ]
+
+    ids = sent_event_ids(history, now=now)
+
+    assert "sent-1" in ids
+    assert "skipped-fresh" not in ids
+    assert "skipped-stale" in ids
+    assert "skipped-unparseable" in ids
+
+
+def test_prune_history_keeps_only_recent_records():
+    now = datetime(2026, 7, 19, 12, tzinfo=timezone.utc)
+    history = [
+        history_record("recent", "sent", (now - timedelta(days=10)).isoformat()),
+        history_record("old", "sent", (now - timedelta(days=120)).isoformat()),
+        history_record("broken", "sent", "invalid"),
+    ]
+
+    pruned = prune_history(history, now=now)
+
+    assert [record["event_id"] for record in pruned] == ["recent"]
+
+
+def test_workflow_failure_event_includes_run_url_when_available():
+    event = workflow_failure_event("failure", "42", "", "", run_url="https://github.com/example/repo/actions/runs/123")
+    assert any("actions/runs/123" in detail for detail in event["details"])
+
+    event = workflow_failure_event("failure", "42", "", "")
+    assert not any(detail.startswith("Run:") for detail in event["details"])

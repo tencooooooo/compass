@@ -69,3 +69,15 @@ else
   git -C "${WORKTREE_DIR}" commit -m "Persist Compass operational data ${GITHUB_RUN_ID:-local}"
   git -C "${WORKTREE_DIR}" push origin "${DATA_BRANCH}"
 fi
+
+# データブランチの履歴は保存媒体としてのみ使うため、コミットが溜まりすぎたら
+# 最新ツリーだけの1コミットへ畳み、リポジトリの肥大化を防ぎます。
+# 400コミット ≒ 日次+週次で約1年分。concurrencyグループで直列化されている前提です。
+SQUASH_THRESHOLD="${COMPASS_DATA_SQUASH_THRESHOLD:-400}"
+COMMIT_COUNT="$(git -C "${WORKTREE_DIR}" rev-list --count HEAD)"
+if [ "${COMMIT_COUNT}" -gt "${SQUASH_THRESHOLD}" ]; then
+  SQUASHED="$(git -C "${WORKTREE_DIR}" commit-tree "HEAD^{tree}" -m "Squash Compass data history (${COMMIT_COUNT} commits)")"
+  git -C "${WORKTREE_DIR}" reset --hard "${SQUASHED}"
+  git -C "${WORKTREE_DIR}" push --force origin "${DATA_BRANCH}"
+  echo "Squashed ${DATA_BRANCH} history: ${COMMIT_COUNT} commits -> 1."
+fi

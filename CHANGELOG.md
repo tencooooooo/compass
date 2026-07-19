@@ -2,6 +2,10 @@
 
 ## v1.0-alpha
 
+- Fixed notification loss on missing webhook: events skipped because SLACK_WEBHOOK_URL was absent are now resent once the webhook is restored, unless the skip is older than 48 hours.
+- Added notification history retention (90 days) with a permanent lightweight sent-ID ledger so long-lived alerts such as validation results are not resent after pruning.
+- Added automatic squash of the compass-data branch history when it exceeds 400 commits to keep repository size bounded.
+- Added the GitHub Actions run URL to workflow failure alerts and removed the misleading fixed step name.
 - Changed Feedback result counts to count completed periods only with pending reported separately, matching the Validation Summary basis. The summary overview now shows completed result counts.
 - Fixed Feedback History duplication: same-day reruns now replace the existing entry instead of appending a duplicate.
 - Staggered the weekly strategy evaluation to UTC Monday 00:30 so it no longer shares the exact start time with the knowledge graph job in the same concurrency group, which could cancel a queued run.

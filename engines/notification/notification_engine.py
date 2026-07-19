@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import argparse
-from datetime import datetime
+from datetime import datetime, timedelta
 import json
 import logging
 import os
@@ -27,8 +27,16 @@ LOG_DIR = PROJECT_ROOT / "logs"
 STORAGE_DIR = PROJECT_ROOT / "storage" / "notifications"
 STATE_DIR = STORAGE_DIR / "state"
 HISTORY_PATH = STORAGE_DIR / "notification_history.json"
+SENT_IDS_PATH = STATE_DIR / "sent_event_ids.json"
 SCORE_STATE_PATH = STATE_DIR / "company_scores_latest.json"
 MARKET_STATE_PATH = STATE_DIR / "market_trends_latest.json"
+
+# 詳細履歴は90日で刈り込む。送信済みIDは軽量な台帳(SENT_IDS_PATH)へ無期限に残し、
+# 履歴の刈り込み後もValidation Alertなど再検知され続けるイベントの重複送信を防ぐ。
+HISTORY_RETENTION_DAYS = 90
+# webhook欠落でskippedになったイベントは復旧後に再送する。ただしこの時間を超えた
+# 古いものまで一斉再送しないよう、期限切れは送信済み扱いにする。
+RESEND_SKIPPED_WITHIN_HOURS = 48
 
 
 DEFAULT_RULES = {
@@ -115,13 +123,40 @@ def load_notification_config() -> dict[str, Any]:
     return data
 
 
-def sent_event_ids(history: list[dict[str, Any]]) -> set[str]:
-    sent_statuses = {"sent", "dry_run", "skipped_no_webhook"}
+def parse_recorded_at(value: Any) -> datetime | None:
+    try:
+        parsed = datetime.fromisoformat(str(value))
+    except (TypeError, ValueError):
+        return None
+    return parsed if parsed.tzinfo is not None else None
+
+
+def sent_event_ids(history: list[dict[str, Any]], now: datetime | None = None) -> set[str]:
+    current = now or datetime.now().astimezone()
     ids: set[str] = set()
     for record in history:
-        if record.get("status") in sent_statuses and record.get("event_id"):
-            ids.add(str(record["event_id"]))
+        event_id = record.get("event_id")
+        if not event_id:
+            continue
+        status = record.get("status")
+        if status in {"sent", "dry_run"}:
+            ids.add(str(event_id))
+        elif status == "skipped_no_webhook":
+            recorded = parse_recorded_at(record.get("recorded_at"))
+            if recorded is None or current - recorded > timedelta(hours=RESEND_SKIPPED_WITHIN_HOURS):
+                ids.add(str(event_id))
     return ids
+
+
+def prune_history(history: list[dict[str, Any]], now: datetime | None = None) -> list[dict[str, Any]]:
+    current = now or datetime.now().astimezone()
+    cutoff = current - timedelta(days=HISTORY_RETENTION_DAYS)
+    pruned: list[dict[str, Any]] = []
+    for record in history:
+        recorded = parse_recorded_at(record.get("recorded_at"))
+        if recorded is not None and recorded >= cutoff:
+            pruned.append(record)
+    return pruned
 
 
 def append_history(history: list[dict[str, Any]], event: dict[str, Any], route_results: list[dict[str, Any]]) -> None:
@@ -175,12 +210,16 @@ def main() -> int:
 
     status = args.status or os.getenv("COMPASS_WORKFLOW_STATUS", "success")
     if status != "success":
+        repository = os.getenv("GITHUB_REPOSITORY", "")
+        run_id = os.getenv("GITHUB_RUN_ID", "")
+        run_url = f"https://github.com/{repository}/actions/runs/{run_id}" if repository and run_id else ""
         events = [
             workflow_failure_event(
                 status=status,
                 run_number=os.getenv("GITHUB_RUN_NUMBER") or os.getenv("COMPASS_RUN_NUMBER") or "N/A",
                 failed_step=args.failed_step or os.getenv("COMPASS_FAILED_STEP", ""),
                 error=args.error or os.getenv("COMPASS_ERROR", ""),
+                run_url=run_url,
             )
         ]
     else:
@@ -195,7 +234,8 @@ def main() -> int:
             important_news_max_age_hours,
         )
 
-    already_sent = sent_event_ids(history)
+    sent_ledger = {str(item) for item in load_json(SENT_IDS_PATH, []) if item}
+    already_sent = sent_ledger | sent_event_ids(history)
     fresh_events = [event for event in events if event.get("event_id") not in already_sent]
     router = NotificationRouter(channels=["slack"])
 
@@ -210,7 +250,11 @@ def main() -> int:
             ", ".join(f"{result.get('channel')}={result.get('status')}" for result in route_results),
         )
 
+    # 台帳は刈り込み前の履歴から更新し、90日を超えて履歴が消えても送信済みIDだけは残す。
+    sent_ledger |= sent_event_ids(history)
+    history = prune_history(history)
     write_json(HISTORY_PATH, history)
+    write_json(SENT_IDS_PATH, sorted(sent_ledger))
     if status == "success":
         save_state_snapshots()
 

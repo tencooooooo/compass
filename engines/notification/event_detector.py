@@ -268,18 +268,21 @@ def detect_validation_alerts(project_root: Path, rules: dict[str, Any]) -> list[
     return events
 
 
-def workflow_failure_event(status: str, run_number: str, failed_step: str, error: str) -> dict[str, Any]:
+def workflow_failure_event(status: str, run_number: str, failed_step: str, error: str, run_url: str = "") -> dict[str, Any]:
+    details = [
+        f"Step: {failed_step or 'Unknown'}",
+        f"Error: {error or 'See GitHub Actions logs for details.'}",
+        f"GitHub Actions Run Number: {run_number or 'N/A'}",
+    ]
+    if run_url:
+        details.append(f"Run: {run_url}")
     event = base_event(
         event_type="workflow_failure",
         priority="Emergency",
         title="Compass Workflow Failed",
         summary=f"Workflow status: {status}",
         emoji="❌",
-        details=[
-            f"Step: {failed_step or 'Unknown'}",
-            f"Error: {error or 'See GitHub Actions logs for details.'}",
-            f"GitHub Actions Run Number: {run_number or 'N/A'}",
-        ],
+        details=details,
         evidence=["GitHub Actions"],
     )
     event["event_id"] = event_id(event["event_type"], run_number, status, failed_step)

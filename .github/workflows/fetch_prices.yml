@@ -117,9 +117,8 @@ jobs:
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           COMPASS_WORKFLOW_STATUS: ${{ job.status }}
-          COMPASS_FAILED_STEP: Previous pipeline step
-          COMPASS_ERROR: See GitHub Actions logs for details.
           GITHUB_RUN_NUMBER: ${{ github.run_number }}
+          GITHUB_RUN_ID: ${{ github.run_id }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_WORKFLOW: ${{ github.workflow }}
         run: python -m engines.notification.notification_engine
