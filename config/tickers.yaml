@@ -8,6 +8,42 @@ tickers:
   - META
   - TSLA
 
+# ピア銘柄は「価格 + 企業プロファイル」のみ収集します(財務・ニュース・スコアリング・Discovery対象外)。
+# 用途: (1) Valuationのセクター相対percentile評価の母集団 (2) Validationのセクター平均リターンの母集団。
+# 監視銘柄が属する3セクターについて、それぞれ比較に足る大型株を並べています。
+peer_tickers:
+  # Technology
+  - AVGO
+  - ORCL
+  - CRM
+  - ADBE
+  - CSCO
+  - ACN
+  - TXN
+  - QCOM
+  - INTC
+  - NOW
+  - AMAT
+  - MU
+  # Communication Services
+  - NFLX
+  - DIS
+  - CMCSA
+  - TMUS
+  - VZ
+  - T
+  - CHTR
+  - EA
+  # Consumer Cyclical
+  - HD
+  - MCD
+  - NKE
+  - LOW
+  - SBUX
+  - BKNG
+  - TJX
+  - ORLY
+
 # ベンチマーク・セクターETFは価格のみ収集します(スコアリング・Discovery対象外)。
 # SPY: S&P500 / XLK: Technology / XLY: Consumer Discretionary / XLC: Communication Services
 benchmarks:
@@ -20,3 +56,10 @@ benchmarks:
 # SPY は相対モメンタム計算の基準のため必須、セクターETFは前日までのCSVで代替できるため任意です。
 required_benchmarks:
   - SPY
+
+# Validationのセクター相対リターン計算に使うセクターETFの対応表です。
+# キーはyfinanceのsector名(企業プロファイルのsectorフィールド)と一致させます。
+sector_benchmarks:
+  Technology: XLK
+  Communication Services: XLC
+  Consumer Cyclical: XLY

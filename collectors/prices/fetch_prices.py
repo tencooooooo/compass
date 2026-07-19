@@ -14,7 +14,7 @@ from collectors.base import BaseCollector  # noqa: E402
 from utils.config import load_yaml  # noqa: E402
 from utils.logger import get_timezone, setup_logger  # noqa: E402
 from utils.price_data import PRICE_COLUMNS, validate_price_frame  # noqa: E402
-from utils.tickers import load_benchmarks, load_required_benchmarks, load_tickers  # noqa: E402
+from utils.tickers import load_benchmarks, load_peer_tickers, load_required_benchmarks, load_tickers  # noqa: E402
 
 
 CONFIG_PATH = PROJECT_ROOT / "config" / "tickers.yaml"
@@ -127,14 +127,19 @@ class PriceCollector(BaseCollector):
 
         try:
             watch_tickers = load_tickers(self.config_path)
+            peer_tickers = load_peer_tickers(self.config_path)
             benchmarks = load_benchmarks(self.config_path)
             required_benchmarks = set(load_required_benchmarks(self.config_path))
         except Exception as error:
             self.logger.exception("設定読み込みエラー: %s", error)
             return 1
 
+        # ピア銘柄はValuationのセクター相対評価とValidationのセクター平均の母集団として価格のみ収集します。
         # ベンチマークはBacktest・Market Intelligenceの比較用に価格のみ収集します。
-        tickers = watch_tickers + [ticker for ticker in benchmarks if ticker not in watch_tickers]
+        tickers = watch_tickers + peer_tickers
+        tickers += [ticker for ticker in benchmarks if ticker not in tickers]
+        if peer_tickers:
+            self.logger.info("ピア銘柄: %s", ", ".join(peer_tickers))
         if benchmarks:
             self.logger.info("ベンチマーク銘柄: %s", ", ".join(benchmarks))
         if required_benchmarks:
@@ -157,9 +162,9 @@ class PriceCollector(BaseCollector):
                 failed_required_benchmarks.append(ticker)
                 self.logger.error("[NG] %s", message)
             else:
-                # 任意ベンチマークは前日までのCSVで代替できるため、警告に留めて処理を続けます。
+                # ピア銘柄と任意ベンチマークは前日までのCSVで代替できるため、警告に留めて処理を続けます。
                 failed_optional_benchmarks.append(ticker)
-                self.logger.warning("[NG] %s (任意ベンチマークのため継続)", message)
+                self.logger.warning("[NG] %s (ピア/任意ベンチマークのため継続)", message)
 
         failed_critical = failed_watch_tickers + failed_required_benchmarks
 
@@ -167,7 +172,7 @@ class PriceCollector(BaseCollector):
         self.logger.info("終了時刻: %s", finished_at.strftime("%Y-%m-%d %H:%M:%S"))
         self.logger.info("取得成功銘柄: %s", ", ".join(successful_tickers) or "なし")
         self.logger.info("失敗銘柄(必須): %s", ", ".join(failed_critical) or "なし")
-        self.logger.info("失敗銘柄(任意ベンチマーク): %s", ", ".join(failed_optional_benchmarks) or "なし")
+        self.logger.info("失敗銘柄(ピア/任意ベンチマーク): %s", ", ".join(failed_optional_benchmarks) or "なし")
         self.logger.info(
             "処理結果: 成功 %s / 失敗 %s / 合計 %s",
             len(successful_tickers),

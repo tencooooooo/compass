@@ -15,7 +15,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 from collectors.base import BaseCollector  # noqa: E402
 from utils.config import load_yaml  # noqa: E402
 from utils.logger import get_timezone, setup_logger  # noqa: E402
-from utils.tickers import load_tickers  # noqa: E402
+from utils.tickers import load_peer_tickers, load_tickers  # noqa: E402
 
 
 CONFIG_PATH = PROJECT_ROOT / "config" / "tickers.yaml"
@@ -111,35 +111,47 @@ class CompanyProfileCollector(BaseCollector):
         self.logger.info("保存先: %s", self.output_dir)
 
         try:
-            tickers = load_tickers(self.config_path)
+            watch_tickers = load_tickers(self.config_path)
+            peer_tickers = load_peer_tickers(self.config_path)
         except Exception as error:
             self.logger.exception("設定読み込みエラー: %s", error)
             return 1
 
+        # ピア銘柄はValuationのセクター相対評価の母集団としてプロファイルのみ収集します。
+        tickers = watch_tickers + peer_tickers
+        if peer_tickers:
+            self.logger.info("ピア銘柄: %s", ", ".join(peer_tickers))
+
         successful_tickers: list[str] = []
-        failed_tickers: list[str] = []
+        failed_watch_tickers: list[str] = []
+        failed_peer_tickers: list[str] = []
 
         for ticker in tickers:
             ok, message = self.save_company_profile(ticker)
             if ok:
                 successful_tickers.append(ticker)
                 self.logger.info("[OK] %s", message)
-            else:
-                failed_tickers.append(ticker)
+            elif ticker in watch_tickers:
+                failed_watch_tickers.append(ticker)
                 self.logger.error("[NG] %s", message)
+            else:
+                # ピア銘柄は前回保存分のプロファイルで代替できるため、警告に留めて処理を続けます。
+                failed_peer_tickers.append(ticker)
+                self.logger.warning("[NG] %s (ピア銘柄のため継続)", message)
 
         finished_at = datetime.now(timezone)
         self.logger.info("終了時刻: %s", finished_at.strftime("%Y-%m-%d %H:%M:%S"))
         self.logger.info("取得成功銘柄: %s", ", ".join(successful_tickers) or "なし")
-        self.logger.info("失敗銘柄: %s", ", ".join(failed_tickers) or "なし")
+        self.logger.info("失敗銘柄(監視): %s", ", ".join(failed_watch_tickers) or "なし")
+        self.logger.info("失敗銘柄(ピア): %s", ", ".join(failed_peer_tickers) or "なし")
         self.logger.info(
             "処理結果: 成功 %s / 失敗 %s / 合計 %s",
             len(successful_tickers),
-            len(failed_tickers),
+            len(failed_watch_tickers) + len(failed_peer_tickers),
             len(tickers),
         )
 
-        return 1 if failed_tickers else 0
+        return 1 if failed_watch_tickers else 0
 
 
 def main() -> int:

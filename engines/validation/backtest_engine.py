@@ -24,9 +24,11 @@ from engines.validation.validation_report import render_validation_summary  # no
 from utils.config import load_yaml  # noqa: E402
 from utils.logger import get_timezone, setup_logger  # noqa: E402
 from utils.price_data import adjusted_close, normalize_price_frame  # noqa: E402
+from utils.tickers import load_sector_benchmarks  # noqa: E402
 
 
 SETTINGS_PATH = PROJECT_ROOT / "config" / "settings.yaml"
+TICKERS_CONFIG_PATH = PROJECT_ROOT / "config" / "tickers.yaml"
 DISCOVERY_PATH = PROJECT_ROOT / "reports" / "discovery" / "discovery_candidates.json"
 DISCOVERY_MEMORY_DIR = PROJECT_ROOT / "memory" / "discoveries"
 VALIDATION_MEMORY_DIR = PROJECT_ROOT / "memory" / "validations"
@@ -223,6 +225,7 @@ def validation_row(
     validation_date: datetime,
     benchmark_name: str | None,
     companies: dict[str, dict[str, Any]],
+    sector_benchmarks: dict[str, str] | None = None,
 ) -> dict[str, Any]:
     ticker = str(candidate.get("ticker", "")).upper()
     company = companies.get(ticker, {})
@@ -239,6 +242,14 @@ def validation_row(
     sector_diff = None
     if result["return_percent"] is not None and sector_average is not None:
         sector_diff = float(result["return_percent"]) - sector_average
+
+    # ピア平均は母数が少なくノイズが大きいため、セクターETFとの相対リターンも併記します。
+    sector_etf = (sector_benchmarks or {}).get(str(sector)) if sector else None
+    sector_etf_result = ticker_period_return(sector_etf, discovery_iso, period_days) if sector_etf else {}
+    sector_etf_return = sector_etf_result.get("return_percent")
+    sector_etf_diff = None
+    if result["return_percent"] is not None and sector_etf_return is not None:
+        sector_etf_diff = float(result["return_percent"]) - float(sector_etf_return)
 
     validation_result = classify_result(result["return_percent"], benchmark_diff, result["period_complete"], period_label)
     events = load_json(EVENT_DIR / f"{ticker}_events.json", [])
@@ -262,6 +273,9 @@ def validation_row(
         "benchmark_diff_percent": benchmark_diff,
         "sector_average_return_percent": sector_average,
         "sector_diff_percent": sector_diff,
+        "sector_benchmark": sector_etf,
+        "sector_benchmark_return_percent": sector_etf_return,
+        "sector_benchmark_diff_percent": sector_etf_diff,
         "validation_result": validation_result,
         "confidence": candidate.get("confidence"),
         "watch_points": candidate.get("watch_points", []),
@@ -296,6 +310,12 @@ def main() -> int:
     validation_date = datetime.now(timezone)
     benchmark_name, _ = load_benchmark()
     companies = companies_by_ticker()
+    try:
+        sector_benchmarks = load_sector_benchmarks(TICKERS_CONFIG_PATH)
+    except Exception:
+        sector_benchmarks = {}
+    if sector_benchmarks:
+        logger.info("セクターETF対応表: %s", sector_benchmarks)
     rows: list[dict[str, Any]] = []
 
     for discovery_date, candidates in snapshots:
@@ -310,6 +330,7 @@ def main() -> int:
                         validation_date=validation_date,
                         benchmark_name=benchmark_name,
                         companies=companies,
+                        sector_benchmarks=sector_benchmarks,
                     )
                     rows.append(row)
                     logger.info(

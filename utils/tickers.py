@@ -33,6 +33,42 @@ def load_benchmarks(config_path: Path) -> list[str]:
     return [str(ticker).strip().upper() for ticker in benchmarks if str(ticker).strip()]
 
 
+def load_peer_tickers(config_path: Path) -> list[str]:
+    """config/tickers.yaml の peer_tickers を読み込みます。未定義の場合は空リストです。
+
+    ピア銘柄は価格と企業プロファイルのみ収集する比較用の母集団で、
+    財務・ニュース収集やスコアリング・Discoveryには含めません。
+    """
+    config = load_yaml(config_path)
+
+    peers = config.get("peer_tickers", [])
+    if not isinstance(peers, list):
+        return []
+
+    watch = {str(ticker).strip().upper() for ticker in config.get("tickers", []) if str(ticker).strip()}
+    cleaned: list[str] = []
+    for ticker in peers:
+        normalized = str(ticker).strip().upper()
+        if normalized and normalized not in watch and normalized not in cleaned:
+            cleaned.append(normalized)
+    return cleaned
+
+
+def load_sector_benchmarks(config_path: Path) -> dict[str, str]:
+    """config/tickers.yaml の sector_benchmarks(セクター名→ETF)を読み込みます。未定義の場合は空辞書です。"""
+    config = load_yaml(config_path)
+
+    mapping = config.get("sector_benchmarks", {})
+    if not isinstance(mapping, dict):
+        return {}
+
+    return {
+        str(sector).strip(): str(etf).strip().upper()
+        for sector, etf in mapping.items()
+        if str(sector).strip() and str(etf).strip()
+    }
+
+
 def load_required_benchmarks(config_path: Path) -> list[str]:
     """config/tickers.yaml の required_benchmarks を読み込みます。未定義の場合は空リストです。
 

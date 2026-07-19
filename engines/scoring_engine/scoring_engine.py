@@ -64,17 +64,29 @@ def load_benchmark_prices() -> tuple[str | None, pd.DataFrame]:
     return None, pd.DataFrame()
 
 
-def sector_companies_for(ticker: str, inputs_by_ticker: dict[str, dict[str, Any]]) -> list[dict[str, Any]]:
+def load_company_profile_pool() -> list[dict[str, Any]]:
+    """保存済みの全企業プロファイル(監視銘柄+ピア銘柄)をセクター相対評価の母集団として読み込みます。"""
+    pool: list[dict[str, Any]] = []
+    company_dir = PROJECT_ROOT / "storage" / "raw" / "companies"
+    if not company_dir.exists():
+        return pool
+    for path in sorted(company_dir.glob("*.json")):
+        data = load_json(path, {})
+        if isinstance(data, dict) and data.get("sector"):
+            pool.append(data)
+    return pool
+
+
+def sector_companies_for(
+    ticker: str,
+    inputs_by_ticker: dict[str, dict[str, Any]],
+    profile_pool: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
     company = inputs_by_ticker.get(ticker, {}).get("company", {})
     sector = company.get("sector")
     if not sector:
         return []
-    peers = []
-    for inputs in inputs_by_ticker.values():
-        peer = inputs.get("company", {})
-        if peer.get("sector") == sector:
-            peers.append(peer)
-    return peers
+    return [peer for peer in profile_pool if peer.get("sector") == sector]
 
 
 def csv_row(score_result: dict[str, Any]) -> dict[str, Any]:
@@ -126,6 +138,8 @@ def main() -> int:
     successful_tickers: list[str] = []
     failed_tickers: list[str] = []
     inputs_by_ticker = {ticker: load_ticker_inputs(ticker) for ticker in tickers}
+    profile_pool = load_company_profile_pool()
+    logger.info("セクター相対評価の母集団: %s 社(ピア銘柄を含む)", len(profile_pool))
     benchmark_name, benchmark_prices = load_benchmark_prices()
     if benchmark_name:
         logger.info("Momentumベンチマーク: %s", benchmark_name)
@@ -142,7 +156,7 @@ def main() -> int:
                 news_items=inputs["news"] if isinstance(inputs["news"], list) else [],
                 events=inputs["events"] if isinstance(inputs["events"], list) else [],
                 prices=inputs["prices"],
-                sector_companies=sector_companies_for(ticker, inputs_by_ticker),
+                sector_companies=sector_companies_for(ticker, inputs_by_ticker, profile_pool),
                 benchmark_prices=benchmark_prices,
                 benchmark_name=benchmark_name,
             )

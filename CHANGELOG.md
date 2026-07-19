@@ -2,6 +2,9 @@
 
 ## v1.0-alpha
 
+- Added peer tickers (28 large caps across Technology, Communication Services, and Consumer Cyclical) collected for prices and company profiles only. They act as the comparison population for sector-relative Valuation percentiles and Validation sector averages without entering scoring, discovery, or news collection.
+- Changed sector-relative Valuation to draw peers from all stored company profiles, activating the percentile evaluation that previously never triggered with the 8-ticker watch list.
+- Added sector ETF comparison to Validation rows (XLK/XLC/XLY via a `sector_benchmarks` config map): each row now records the sector ETF return and the candidate's difference against it, alongside the noisier peer-average diff.
 - Fixed notification loss on missing webhook: events skipped because SLACK_WEBHOOK_URL was absent are now resent once the webhook is restored, unless the skip is older than 48 hours.
 - Added notification history retention (90 days) with a permanent lightweight sent-ID ledger so long-lived alerts such as validation results are not resent after pruning.
 - Added automatic squash of the compass-data branch history when it exceeds 400 commits to keep repository size bounded.
