@@ -2,6 +2,17 @@
 
 ## v1.0-alpha
 
+- Changed Feedback result counts to count completed periods only with pending reported separately, matching the Validation Summary basis. The summary overview now shows completed result counts.
+- Fixed Feedback History duplication: same-day reruns now replace the existing entry instead of appending a duplicate.
+- Staggered the weekly strategy evaluation to UTC Monday 00:30 so it no longer shares the exact start time with the knowledge graph job in the same concurrency group, which could cancel a queued run.
+- Replaced the Performance scorecard's pseudo max drawdown (computed over cross-sectional returns, not an equity curve) with an honest worst-return metric. Experiment comparisons now use the Strategy engine's real equity-curve drawdown only.
+- Fixed Performance evaluation completion: rows whose target date fell on a non-trading day (weekend or holiday) stayed pending forever even after prices passed the target. Completion is now based on whether price data has reached the target date.
+- Unified start-price convention: the Performance Evaluator and its benchmark comparison now use the last close on or before the discovery date, matching the Validation Engine so both report the same returns for the same signal.
+- Fixed Validation Summary rules section to render the actual period-specific thresholds instead of a stale fixed 15%/5%/-5% description.
+- Fixed Performance confidence distribution fallback to classify with the same period-specific thresholds as the Validation Engine (7-day rows were previously judged against the 1-year 15% bar).
+- Fixed performance history duplication: re-running the weekly scorecard on the same date now overwrites the existing entry per evaluation date and period.
+- Changed Memory validation counts (company snapshots, sector snapshots, monthly Validation Memory) to count completed periods only, with pending periods reported separately, matching the Validation Summary.
+- Improved Validation Engine performance by caching per ticker/discovery-date/period return calculations reused across sector peer averages and the benchmark.
 - Fixed durable Validation tracking: each daily run now reevaluates all Discovery Memory snapshots, merges prior monthly Validation rows, and partitions the ledger by Discovery month so 1w/1m/3m/6m/1y outcomes can mature across runners.
 - Expanded `compass-data` persistence to include the minimal raw data and generated reports required by weekly Performance, Strategy, Experiment, and Knowledge Graph jobs. Scheduled jobs now fail clearly when restored inputs are empty.
 - Made Feedback History and Proposal Review state durable under `memory/`, with report JSON mirrors for Workspace and API readers. Approved review state now survives daily runners and remains available to Learning.

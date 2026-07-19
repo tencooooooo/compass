@@ -51,6 +51,12 @@ class ValidationSummaryTest(unittest.TestCase):
         self.assertIn("完了済みの注意点", summary)
         self.assertNotIn("未完了のみの注意点", summary)
 
+    def test_validation_rules_reflect_period_specific_thresholds(self):
+        summary = render_validation_summary([make_row()], "2026-07-17", {"1w": 7, "1m": 30}, "SPY")
+        self.assertIn("- 1w: Excellent 騰落率 3.0%以上 または ベンチマーク超過 2.0%以上", summary)
+        self.assertIn("- 1m: Excellent 騰落率 6.0%以上", summary)
+        self.assertNotIn("騰落率が15%以上", summary)
+
 
 if __name__ == "__main__":
     unittest.main()

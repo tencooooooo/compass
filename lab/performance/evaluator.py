@@ -110,8 +110,12 @@ class Evaluator:
         start_date = date.fromisoformat(signal["discovery_date"])
         target_date = start_date + timedelta(days=period)
         prices = self._prices(signal["ticker"])
-        start = self._price_on_or_after(prices, start_date)
+        # Discoveryスコアが参照したのはDiscovery日以前の最後の終値なので、Validation Engineと同じく開始点はon-or-beforeで取る。
+        start = self._price_on_or_before(prices, start_date) or self._price_on_or_after(prices, start_date)
         end = self._price_on_or_before(prices, target_date)
+        # 期限が休場日(週末・祝日)の場合、end["date"]は必ず期限より前になる。
+        # 完了判定は「価格データが期限日以降まで到達しているか」で行わないと永久にpendingのままになる。
+        latest_date = date.fromisoformat(prices[-1]["date"]) if prices else None
         benchmark = self.benchmark.compare(start_date, target_date)
         benchmark_return = benchmark.get("average_return_percent")
         row = {
@@ -121,7 +125,7 @@ class Evaluator:
             "benchmark": benchmark,
             "benchmark_return_percent": benchmark_return,
         }
-        if not start or not end or date.fromisoformat(end["date"]) < target_date:
+        if not start or not end or latest_date is None or latest_date < target_date:
             row.update(
                 {
                     "status": "pending",

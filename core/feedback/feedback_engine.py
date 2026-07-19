@@ -81,7 +81,7 @@ def render_feedback_summary(analysis: dict[str, Any]) -> str:
         f"- 未完了Validation: {overview.get('pending_count')}",
         f"- 成功率: {fmt_percent(overview.get('success_rate'))}",
         f"- 失敗率: {fmt_percent(overview.get('failure_rate'))}",
-        f"- Result Counts: {overview.get('result_counts')}",
+        f"- Result Counts(期間完了分): {overview.get('completed_result_counts')}",
         "",
         "## Discovery Accuracy",
         "",
@@ -181,6 +181,9 @@ def save_outputs(analysis: dict[str, Any]) -> None:
     (REPORT_DIR / "feedback_summary.md").write_text(render_feedback_summary(analysis), encoding="utf-8")
     (REPORT_DIR / "improvement_candidates.md").write_text(render_improvement_candidates(analysis), encoding="utf-8")
     history = load_history()
+    # 同日の再実行・リトライで履歴が重複しないよう、同じ日付のエントリは最新結果で置き換える。
+    date_key = str(analysis.get("generated_at") or "")[:10]
+    history = [item for item in history if str(item.get("generated_at") or "")[:10] != date_key]
     history.append(
         {
             "generated_at": analysis.get("generated_at"),

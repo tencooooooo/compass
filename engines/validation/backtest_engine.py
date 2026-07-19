@@ -14,6 +14,12 @@ import pandas as pd
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 from engines.validation.performance_tracker import save_history  # noqa: E402
+from engines.validation.thresholds import (  # noqa: E402
+    VALIDATION_PERIODS,
+    VALIDATION_THRESHOLDS,
+    classify_result,
+    threshold_note,
+)
 from engines.validation.validation_report import render_validation_summary  # noqa: E402
 from utils.config import load_yaml  # noqa: E402
 from utils.logger import get_timezone, setup_logger  # noqa: E402
@@ -28,22 +34,6 @@ REPORT_DIR = PROJECT_ROOT / "reports" / "validation"
 PRICE_DIR = PROJECT_ROOT / "storage" / "raw" / "prices"
 COMPANY_DIR = PROJECT_ROOT / "storage" / "raw" / "companies"
 EVENT_DIR = PROJECT_ROOT / "storage" / "events"
-
-VALIDATION_PERIODS = {
-    "1w": 7,
-    "1m": 30,
-    "3m": 90,
-    "6m": 180,
-    "1y": 365,
-}
-
-VALIDATION_THRESHOLDS = {
-    "1w": {"excellent": 3.0, "good": 1.5, "poor": -1.5, "benchmark_excellent": 2.0, "benchmark_good": 1.0, "benchmark_poor": -1.0},
-    "1m": {"excellent": 6.0, "good": 3.0, "poor": -3.0, "benchmark_excellent": 4.0, "benchmark_good": 2.0, "benchmark_poor": -2.0},
-    "3m": {"excellent": 10.0, "good": 5.0, "poor": -5.0, "benchmark_excellent": 7.0, "benchmark_good": 3.0, "benchmark_poor": -3.0},
-    "6m": {"excellent": 13.0, "good": 7.0, "poor": -7.0, "benchmark_excellent": 9.0, "benchmark_good": 4.0, "benchmark_poor": -4.0},
-    "1y": {"excellent": 15.0, "good": 8.0, "poor": -8.0, "benchmark_excellent": 10.0, "benchmark_good": 5.0, "benchmark_poor": -5.0},
-}
 
 BENCHMARK_CANDIDATES = ["SPY", "^GSPC"]
 
@@ -180,6 +170,12 @@ def calculate_return(prices: pd.DataFrame, discovery_date: datetime, period_days
     }
 
 
+@lru_cache(maxsize=None)
+def ticker_period_return(ticker: str, discovery_date_iso: str, period_days: int) -> dict[str, Any]:
+    """同じ銘柄・Discovery日・期間の再計算をキャッシュします(ピア平均で同一計算が候補数×期間分繰り返されるため)。"""
+    return calculate_return(load_prices(ticker), datetime.fromisoformat(discovery_date_iso), period_days)
+
+
 def load_benchmark() -> tuple[str | None, pd.DataFrame]:
     for ticker in BENCHMARK_CANDIDATES:
         prices = load_prices(ticker)
@@ -207,38 +203,16 @@ def sector_returns(
     if not sector:
         return None
     returns: list[float] = []
+    discovery_iso = discovery_date.date().isoformat()
     for peer_ticker, company in companies.items():
         if peer_ticker == ticker or company.get("sector") != sector:
             continue
-        result = calculate_return(load_prices(peer_ticker), discovery_date, period_days)
+        result = ticker_period_return(peer_ticker, discovery_iso, period_days)
         if result["return_percent"] is not None:
             returns.append(float(result["return_percent"]))
     if not returns:
         return None
     return sum(returns) / len(returns)
-
-
-def threshold_note(period_label: str) -> str:
-    threshold = VALIDATION_THRESHOLDS[period_label]
-    return (
-        "Validation thresholds "
-        f"{period_label}: Excellent >= {threshold['excellent']}% or benchmark diff >= {threshold['benchmark_excellent']}%; "
-        f"Good >= {threshold['good']}% or benchmark diff >= {threshold['benchmark_good']}%; "
-        f"Poor <= {threshold['poor']}% or benchmark diff <= {threshold['benchmark_poor']}%."
-    )
-
-
-def classify_result(return_percent: float | None, benchmark_diff: float | None, period_complete: bool, period_label: str) -> str:
-    if return_percent is None or not period_complete:
-        return "Neutral"
-    threshold = VALIDATION_THRESHOLDS[period_label]
-    if return_percent >= threshold["excellent"] or (benchmark_diff is not None and benchmark_diff >= threshold["benchmark_excellent"]):
-        return "Excellent"
-    if return_percent >= threshold["good"] or (benchmark_diff is not None and benchmark_diff >= threshold["benchmark_good"]):
-        return "Good"
-    if return_percent <= threshold["poor"] or (benchmark_diff is not None and benchmark_diff <= threshold["benchmark_poor"]):
-        return "Poor"
-    return "Neutral"
 
 
 def validation_row(
@@ -248,14 +222,14 @@ def validation_row(
     discovery_date: datetime,
     validation_date: datetime,
     benchmark_name: str | None,
-    benchmark_prices: pd.DataFrame,
     companies: dict[str, dict[str, Any]],
 ) -> dict[str, Any]:
     ticker = str(candidate.get("ticker", "")).upper()
     company = companies.get(ticker, {})
     sector = candidate.get("sector") or company.get("sector")
-    result = calculate_return(load_prices(ticker), discovery_date, period_days)
-    benchmark_result = calculate_return(benchmark_prices, discovery_date, period_days) if benchmark_name else {}
+    discovery_iso = discovery_date.date().isoformat()
+    result = ticker_period_return(ticker, discovery_iso, period_days)
+    benchmark_result = ticker_period_return(benchmark_name, discovery_iso, period_days) if benchmark_name else {}
     benchmark_return = benchmark_result.get("return_percent")
     benchmark_diff = None
     if result["return_percent"] is not None and benchmark_return is not None:
@@ -320,7 +294,7 @@ def main() -> int:
         return 0
 
     validation_date = datetime.now(timezone)
-    benchmark_name, benchmark_prices = load_benchmark()
+    benchmark_name, _ = load_benchmark()
     companies = companies_by_ticker()
     rows: list[dict[str, Any]] = []
 
@@ -335,7 +309,6 @@ def main() -> int:
                         discovery_date=discovery_date,
                         validation_date=validation_date,
                         benchmark_name=benchmark_name,
-                        benchmark_prices=benchmark_prices,
                         companies=companies,
                     )
                     rows.append(row)

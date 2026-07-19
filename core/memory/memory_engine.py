@@ -116,6 +116,15 @@ def company_profiles() -> dict[str, dict[str, Any]]:
     return companies
 
 
+def validation_result_counts(rows: list[dict[str, Any]]) -> dict[str, int]:
+    """期間完了分のみを結果として数え、未完了はPendingとして別掲します(Validation Summaryと同じ基準)。"""
+    completed = [row for row in rows if row.get("period_complete")]
+    counts = Counter(row.get("validation_result") for row in completed)
+    result = {key: counts.get(key, 0) for key in ("Excellent", "Good", "Neutral", "Poor")}
+    result["Pending"] = len(rows) - len(completed)
+    return result
+
+
 def latest_items(items: list[dict[str, Any]], limit: int = 10) -> list[dict[str, Any]]:
     return sorted(items, key=lambda item: str(item.get("published_at") or item.get("date") or ""), reverse=True)[:limit]
 
@@ -173,7 +182,7 @@ def build_company_memory(timestamp: str, date_key: str) -> int:
             "score": score.get("total_score"),
             "discovery_score": discovery.get("discovery_score"),
             "discovery_status": discovery.get("status"),
-            "validation_results": Counter(row.get("validation_result") for row in validation_rows),
+            "validation_results": validation_result_counts(validation_rows),
             "event_count": len(events),
             "news_count": len(news),
             "confidence": confidence,
@@ -219,7 +228,7 @@ def build_sector_memory(timestamp: str, date_key: str) -> int:
         tickers = [ticker for ticker, company in companies.items() if company.get("sector") == sector_name]
         validation_rows = [row for ticker in tickers for row in validations.get(ticker, [])]
         discovery_count = sum(1 for ticker in tickers if ticker in discoveries)
-        result_counts = Counter(row.get("validation_result") for row in validation_rows)
+        result_counts = validation_result_counts(validation_rows)
         major_news = [event for event in top_events if event.get("ticker") in tickers][:5]
         snapshot = {
             "date": date_key,
@@ -286,14 +295,15 @@ def build_validation_memory(timestamp: str) -> int:
     for month_key, month_rows in grouped.items():
         returns = [safe_float(row.get("return_percent")) for row in month_rows if row.get("period_complete")]
         returns = [value for value in returns if value is not None]
-        counts = Counter(row.get("validation_result") for row in month_rows)
+        counts = validation_result_counts(month_rows)
         payload = {
             "month": month_key,
             "timestamp": timestamp,
-            "Excellent": counts.get("Excellent", 0),
-            "Good": counts.get("Good", 0),
-            "Neutral": counts.get("Neutral", 0),
-            "Poor": counts.get("Poor", 0),
+            "Excellent": counts["Excellent"],
+            "Good": counts["Good"],
+            "Neutral": counts["Neutral"],
+            "Poor": counts["Poor"],
+            "Pending": counts["Pending"],
             "average_return": sum(returns) / len(returns) if returns else None,
             "rows": month_rows,
         }

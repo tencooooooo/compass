@@ -53,7 +53,8 @@ class ExperimentRunner:
             "average_return": overall.get("average_return"),
             "alpha": overall.get("alpha_vs_benchmark") or (best_strategy.get("metrics", {}) or {}).get("alpha"),
             "win_rate": overall.get("win_rate") or (best_strategy.get("metrics", {}) or {}).get("win_rate"),
-            "max_drawdown": overall.get("max_drawdown") or (best_strategy.get("metrics", {}) or {}).get("max_drawdown"),
+            # Performance側のmax_drawdownは銘柄横断リターンの疑似値だったため廃止。実際のエクイティカーブに基づくStrategy側のみ使う。
+            "max_drawdown": (best_strategy.get("metrics", {}) or {}).get("max_drawdown"),
             "sharpe_ratio": (best_strategy.get("metrics", {}) or {}).get("sharpe_ratio"),
             "strategy_ranking": self._strategy_rank_score(strategy),
             "performance_score": self._performance_score(overall, best_strategy),

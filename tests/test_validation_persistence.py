@@ -82,6 +82,8 @@ def test_validation_memory_is_partitioned_by_discovery_month(tmp_path, monkeypat
     june = json.loads((tmp_path / "memory" / "validations" / "2026-06.json").read_text(encoding="utf-8"))
     july = json.loads((tmp_path / "memory" / "validations" / "2026-07.json").read_text(encoding="utf-8"))
     assert june["Good"] == 1
+    assert june["Pending"] == 0
     assert june["average_return"] == 4.0
-    assert july["Neutral"] == 1
+    assert july["Neutral"] == 0
+    assert july["Pending"] == 1
     assert july["average_return"] is None

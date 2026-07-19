@@ -5,8 +5,26 @@ from typing import Any
 
 import pandas as pd
 
+from engines.validation.thresholds import VALIDATION_THRESHOLDS
+
 
 RESULT_ORDER = ["Excellent", "Good", "Neutral", "Poor"]
+
+
+def validation_rule_lines(periods: dict[str, int]) -> list[str]:
+    """実際の分類に使う期間別閾値(VALIDATION_THRESHOLDS)からルール説明を生成します。"""
+    lines = []
+    for label in periods:
+        threshold = VALIDATION_THRESHOLDS.get(label)
+        if not threshold:
+            continue
+        lines.append(
+            f"- {label}: Excellent 騰落率 {threshold['excellent']}%以上 または ベンチマーク超過 {threshold['benchmark_excellent']}%以上 / "
+            f"Good {threshold['good']}%以上 または {threshold['benchmark_good']}%以上 / "
+            f"Poor {threshold['poor']}%以下 または ベンチマーク差 {threshold['benchmark_poor']}%以下。"
+        )
+    lines.append("- Neutral: 上記のいずれにも該当しない、または検証期間が未完了で判断材料が不足している状態。")
+    return lines
 
 
 def fmt_percent(value: Any) -> str:
@@ -119,12 +137,9 @@ def render_validation_summary(
     lines.extend(
         [
             "",
-            "## Validation Rules",
+            "## Validation Rules(期間別閾値)",
             "",
-            "- Excellent: 検証期間が完了し、騰落率が15%以上、またはベンチマーク超過が10%以上。",
-            "- Good: 検証期間が完了し、騰落率が5%以上、またはベンチマーク超過が3%以上。",
-            "- Neutral: 騰落率が-5%超、または検証期間が未完了で判断材料が不足している状態。",
-            "- Poor: 検証期間が完了し、騰落率が-5%以下。",
+            *validation_rule_lines(periods),
             "",
             "## Notes",
             "",

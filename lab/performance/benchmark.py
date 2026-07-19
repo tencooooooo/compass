@@ -41,7 +41,8 @@ class Benchmark:
             return list(csv.DictReader(handle))
 
     def _return(self, prices: list[dict[str, Any]], start_date: date, end_date: date) -> dict[str, Any]:
-        start = self._price_on_or_after(prices, start_date)
+        # 個別銘柄の評価(Evaluator)と同じ窓で比較するため、開始点はon-or-beforeで取る。
+        start = self._price_on_or_before(prices, start_date) or self._price_on_or_after(prices, start_date)
         end = self._price_on_or_before(prices, end_date)
         if not start or not end:
             return {"status": "missing_data", "return_percent": None}

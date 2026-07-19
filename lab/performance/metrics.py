@@ -3,6 +3,8 @@ from __future__ import annotations
 from statistics import mean, median
 from typing import Any
 
+from engines.validation.thresholds import classify_result, period_label_for_days
+
 
 class PerformanceMetrics:
     """Calculates Compass performance metrics from evaluated rows."""
@@ -33,7 +35,7 @@ class PerformanceMetrics:
             "loss_rate": self._rate(len(losses), len(completed)),
             "alpha_vs_benchmark": self._average(alpha_values),
             "benchmark_average_return": self._average(benchmark_returns),
-            "max_drawdown": self._max_drawdown(completed),
+            "worst_return": round(min(returns), 2) if returns else None,
             "average_holding_return": self._average(returns),
         }
 
@@ -83,21 +85,12 @@ class PerformanceMetrics:
             value = float(row.get("return_percent"))
         except (TypeError, ValueError):
             return "Neutral"
-        if value >= 15:
-            return "Excellent"
-        if value >= 5:
-            return "Good"
-        if value >= -5:
-            return "Neutral"
-        return "Poor"
+        alpha = row.get("alpha_percent")
+        benchmark_diff = float(alpha) if isinstance(alpha, (int, float)) else None
+        # Validation Engineと同じ期間別閾値で分類する。7日行を1y基準(15%)で判定しないため。
+        try:
+            days = int(row.get("period"))
+        except (TypeError, ValueError):
+            days = 365
+        return classify_result(value, benchmark_diff, True, period_label_for_days(days))
 
-    def _max_drawdown(self, rows: list[dict[str, Any]]) -> float | None:
-        values = [float(row["return_percent"]) for row in rows if isinstance(row.get("return_percent"), (int, float))]
-        if not values:
-            return None
-        peak = values[0]
-        max_drawdown = 0.0
-        for value in values:
-            peak = max(peak, value)
-            max_drawdown = min(max_drawdown, value - peak)
-        return round(max_drawdown, 2)

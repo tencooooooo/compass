@@ -50,7 +50,7 @@ class ReportGenerator:
             f"- Win Rate: {self._fmt(overall.get('win_rate'))}",
             f"- Loss Rate: {self._fmt(overall.get('loss_rate'))}",
             f"- Alpha vs Benchmark: {self._fmt(overall.get('alpha_vs_benchmark'))}",
-            f"- Max Drawdown: {self._fmt(overall.get('max_drawdown'))}",
+            f"- Worst Return: {self._fmt(overall.get('worst_return'))}",
             "",
             "## Note",
             "",

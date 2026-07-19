@@ -66,17 +66,22 @@ class PerformanceEngine:
                 history = json.loads(path.read_text(encoding="utf-8"))
             except json.JSONDecodeError:
                 history = []
+        # 同日の再実行(workflow_dispatch/retry)で重複行が溜まらないよう、評価日+期間で最新結果に上書きする。
+        merged: dict[tuple[str, int], dict[str, Any]] = {}
+        for item in history:
+            if isinstance(item, dict) and item.get("evaluation_date") is not None and item.get("period") is not None:
+                merged[(str(item["evaluation_date"]), int(item["period"]))] = item
         for period, summary in metrics["periods"].items():
-            history.append(
-                {
-                    "evaluation_date": evaluation["evaluation_date"],
-                    "period": int(period),
-                    "success_rate": summary.get("discovery_success_rate"),
-                    "average_return": summary.get("average_return"),
-                    "alpha": summary.get("alpha_vs_benchmark"),
-                    "benchmark": "S&P500/Nasdaq100/Russell2000",
-                }
-            )
+            entry = {
+                "evaluation_date": evaluation["evaluation_date"],
+                "period": int(period),
+                "success_rate": summary.get("discovery_success_rate"),
+                "average_return": summary.get("average_return"),
+                "alpha": summary.get("alpha_vs_benchmark"),
+                "benchmark": "S&P500/Nasdaq100/Russell2000",
+            }
+            merged[(str(entry["evaluation_date"]), entry["period"])] = entry
+        history = [merged[key] for key in sorted(merged)]
         path.write_text(json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8")
         return path
 

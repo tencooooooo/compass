@@ -61,13 +61,16 @@ def aggregate_reason_categories(rows: list[dict[str, Any]], result_filter: set[s
 
 
 def result_counts(rows: list[dict[str, Any]]) -> dict[str, int]:
-    counter = Counter(row.get("validation_result", "Unknown") for row in rows)
+    """期間完了分のみを結果として数え、未完了はPendingとして別掲します(Validation Summaryと同じ基準)。"""
+    completed = [row for row in rows if row.get("period_complete")]
+    counter = Counter(row.get("validation_result", "Unknown") for row in completed)
     return {
         "Excellent": counter.get("Excellent", 0),
         "Good": counter.get("Good", 0),
         "Neutral": counter.get("Neutral", 0),
         "Poor": counter.get("Poor", 0),
         "Unknown": counter.get("Unknown", 0),
+        "Pending": len(rows) - len(completed),
     }
 
 

@@ -2,8 +2,10 @@ name: Compass strategy evaluation
 
 on:
   schedule:
-    # Weekly strategy simulation. JST Monday 09:00 = UTC Monday 00:00.
-    - cron: "0 0 * * 1"
+    # Weekly strategy simulation. JST Monday 09:30 = UTC Monday 00:30.
+    # knowledge_graph(UTC月曜00:00)と同時刻を避ける: 共有concurrencyグループは
+    # 「実行中1 + 待機1」までしか保持せず、3本重なると待機中のランがキャンセルされるため。
+    - cron: "30 0 * * 1"
   workflow_dispatch:
 
 permissions:
