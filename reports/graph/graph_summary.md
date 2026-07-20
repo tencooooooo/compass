@@ -2,9 +2,9 @@
 
 Knowledge Graph is an independent Compass knowledge layer. It stores relationships between companies, themes, sectors, events, technologies, products, countries, and ETFs.
 
-- Generated at: 2026-07-17T12:38:39.775796+00:00
+- Generated at: 2026-07-20T03:17:24.490328+00:00
 - Nodes: 194
-- Edges: 319
+- Edges: 342
 
 ## Node Types
 
@@ -19,8 +19,8 @@ Knowledge Graph is an independent Compass knowledge layer. It stores relationshi
 
 ## Relationships
 
-- BELONGS_TO: 52
+- BELONGS_TO: 59
 - COMPETES_WITH: 56
-- INVESTS_IN: 3
-- RELATED_TO: 175
-- USES: 33
+- RELATED_TO: 186
+- SUPPLIES: 3
+- USES: 38
