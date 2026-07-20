@@ -59,6 +59,13 @@ def confidence_accuracy(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return sorted(grouped, key=lambda item: expected_order.get(item.get("confidence"), 9))
 
 
+def signal_strength_accuracy(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Confidence(データ充足度)と分離したシグナル強度別の成績。分離導入(2026-07-20)以前の行はUnknownに入ります。"""
+    grouped = group_rows(rows, "signal_strength")
+    expected_order = {"Strong": 0, "Moderate": 1, "Weak": 2, "Unknown": 3}
+    return sorted(grouped, key=lambda item: expected_order.get(item.get("signal_strength"), 9))
+
+
 def event_accuracy(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     buckets = {"Has Events": [], "No Events": []}
     for row in rows:
@@ -120,6 +127,7 @@ def analyze_feedback(project_root: Path, generated_at: str) -> dict[str, Any]:
         "discovery_accuracy": group_rows(rows, "validation_result"),
         "score_accuracy": score_buckets(rows, scoring),
         "confidence_accuracy": confidence_accuracy(rows),
+        "signal_strength_accuracy": signal_strength_accuracy(rows),
         "sector_accuracy": group_rows(rows, "sector"),
         "event_accuracy": event_accuracy(rows),
         "success_patterns": aggregate_reason_categories(completed_rows, {"Excellent", "Good"}),

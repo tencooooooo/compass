@@ -31,6 +31,7 @@ TRACKING_COLUMNS = [
     "sector_benchmark_return_percent",
     "sector_benchmark_diff_percent",
     "confidence",
+    "signal_strength",
     "event_count",
     "evidence",
     "period_complete",

@@ -19,6 +19,7 @@ export function ValidationPage({ data }: { data: WorkspaceData }) {
             { label: "Score", render: (row) => row.discovery_score },
             { label: "Result", render: (row) => <StatusPill value={row.validation_result} /> },
             { label: "Confidence", render: (row) => row.confidence },
+            { label: "Signal", render: (row) => row.signal_strength ?? "N/A" },
           ]}
         />
       </section>

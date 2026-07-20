@@ -87,14 +87,18 @@ class ReportGenerator:
         lines.append(self._group_report("Confidence", metrics.get("confidence_accuracy", {})))
         lines.extend(["", "## Confidence Validation Result Distribution", ""])
         lines.append(self._confidence_distribution_report(metrics.get("confidence_result_distribution", {})))
+        lines.extend(["", "## Signal Strength Accuracy", ""])
+        lines.append(self._group_report("Signal Strength", metrics.get("signal_strength_accuracy", {})))
+        lines.extend(["", "## Signal Strength Validation Result Distribution", ""])
+        lines.append(self._confidence_distribution_report(metrics.get("signal_strength_result_distribution", {}), "Signal Strength Result Distribution"))
         lines.extend(["", "## Pattern Accuracy", ""])
         lines.append(self._group_report("Patterns", metrics.get("pattern_accuracy", {})))
         lines.extend(["", "## Market Intelligence Accuracy", ""])
         lines.append(self._group_report("Market", metrics.get("market_accuracy", {})))
         return "\n".join(lines)
 
-    def _confidence_distribution_report(self, grouped: dict[str, Any]) -> str:
-        lines = ["# Confidence Result Distribution", ""]
+    def _confidence_distribution_report(self, grouped: dict[str, Any], title: str = "Confidence Result Distribution") -> str:
+        lines = [f"# {title}", ""]
         for confidence, item in grouped.items():
             distribution = item.get("validation_results", {})
             lines.extend(

@@ -176,6 +176,10 @@ def build_company_memory(timestamp: str, date_key: str) -> int:
             "scoring": (score.get("confidence") or {}).get("level") if isinstance(score.get("confidence"), dict) else None,
             "discovery": discovery.get("confidence"),
         }
+        signal_strength = {
+            "scoring": (score.get("signal_strength") or {}).get("level") if isinstance(score.get("signal_strength"), dict) else None,
+            "discovery": discovery.get("signal_strength"),
+        }
         snapshot = {
             "date": date_key,
             "timestamp": timestamp,
@@ -186,6 +190,7 @@ def build_company_memory(timestamp: str, date_key: str) -> int:
             "event_count": len(events),
             "news_count": len(news),
             "confidence": confidence,
+            "signal_strength": signal_strength,
         }
         history = safe_list(existing.get("History")) if isinstance(existing, dict) else []
         payload = {
@@ -207,6 +212,7 @@ def build_company_memory(timestamp: str, date_key: str) -> int:
                 "history": news_history,
             },
             "Confidence": confidence,
+            "SignalStrength": signal_strength,
             "Timestamp": timestamp,
         }
         Memory.save("companies", ticker, payload)
@@ -270,6 +276,8 @@ def build_discovery_memory(timestamp: str, date_key: str) -> None:
                 "company": item.get("company"),
                 "score": item.get("discovery_score"),
                 "confidence": item.get("confidence"),
+                "signal_strength": item.get("signal_strength"),
+                "signal_rate": item.get("signal_rate"),
                 "reasons": item.get("discovery_reasons"),
                 "status": item.get("status"),
                 "sector": item.get("sector"),

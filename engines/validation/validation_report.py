@@ -77,6 +77,7 @@ def render_validation_summary(
             row.get("validation_result"),
             "Yes" if row.get("period_complete") else "No",
             row.get("confidence"),
+            row.get("signal_strength"),
         ]
         for row in rows
     ]
@@ -125,6 +126,7 @@ def render_validation_summary(
                     "Result",
                     "Complete",
                     "Confidence",
+                    "Signal",
                 ],
                 ticker_rows,
             ),

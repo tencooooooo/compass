@@ -25,6 +25,7 @@ def render_candidates_report(candidates: list[dict[str, Any]], market_summary: d
             candidate["discovery_score"],
             candidate["status"],
             candidate["confidence"],
+            candidate.get("signal_strength"),
         ]
         for candidate in candidates
     ]
@@ -45,7 +46,7 @@ def render_candidates_report(candidates: list[dict[str, Any]], market_summary: d
         "",
         "## Candidate Summary",
         "",
-        markdown_table(["Ticker", "Company", "Sector", "Discovery Score", "Status", "Confidence"], rows),
+        markdown_table(["Ticker", "Company", "Sector", "Discovery Score", "Status", "Confidence", "Signal"], rows),
         "",
     ]
     if top:
@@ -62,6 +63,10 @@ def render_candidates_report(candidates: list[dict[str, Any]], market_summary: d
                 "Confidence",
                 "",
                 top["confidence"],
+                "",
+                "Signal Strength",
+                "",
+                str(top.get("signal_strength") or "N/A"),
                 "",
                 "Evidence",
                 "",
@@ -113,6 +118,10 @@ def render_candidate_detail(candidate: dict[str, Any]) -> str:
         "## Confidence",
         "",
         candidate["confidence"],
+        "",
+        "## Signal Strength",
+        "",
+        f"{candidate.get('signal_strength') or 'N/A'}(シグナル充足率: {candidate.get('signal_rate') if candidate.get('signal_rate') is not None else 'N/A'}%)",
         "",
         "## Evidence",
         "",

@@ -27,6 +27,8 @@ class PerformanceEngine:
             "score_accuracy": calculator.grouped(rows, "discovery_score_bucket"),
             "confidence_accuracy": calculator.grouped(rows, "confidence"),
             "confidence_result_distribution": calculator.validation_distribution_by(rows, "confidence"),
+            "signal_strength_accuracy": calculator.grouped(rows, "signal_strength"),
+            "signal_strength_result_distribution": calculator.validation_distribution_by(rows, "signal_strength"),
             "market_accuracy": calculator.grouped(rows, "market_status"),
         }
         metrics["dashboard"] = cls._dashboard(evaluation, metrics)
@@ -53,6 +55,8 @@ class PerformanceEngine:
             "score_accuracy": metrics["score_accuracy"],
             "confidence_accuracy": metrics["confidence_accuracy"],
             "confidence_result_distribution": metrics["confidence_result_distribution"],
+            "signal_strength_accuracy": metrics["signal_strength_accuracy"],
+            "signal_strength_result_distribution": metrics["signal_strength_result_distribution"],
             "market_accuracy": metrics["market_accuracy"],
         }
 

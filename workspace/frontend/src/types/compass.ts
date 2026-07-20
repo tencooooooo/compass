@@ -1,5 +1,7 @@
 export type Confidence = "High" | "Medium" | "Low" | string;
 
+export type SignalStrength = "Strong" | "Moderate" | "Weak" | string;
+
 export interface DiscoveryCandidate {
   ticker: string;
   company: string;
@@ -8,6 +10,8 @@ export interface DiscoveryCandidate {
   discovery_score: number;
   status: string;
   confidence: Confidence;
+  signal_strength?: SignalStrength;
+  signal_rate?: number | null;
   discovery_reasons: string[];
 }
 
@@ -26,6 +30,7 @@ export interface ValidationRow {
   discovery_score: number;
   validation_result: string;
   confidence: Confidence;
+  signal_strength?: SignalStrength;
   return_percent?: number;
   period_complete?: boolean;
 }

@@ -59,6 +59,17 @@ def render_feedback_summary(analysis: dict[str, Any]) -> str:
         ]
         for item in analysis.get("confidence_accuracy", [])
     ]
+    signal_rows = [
+        [
+            item.get("signal_strength"),
+            item.get("total_count"),
+            item.get("completed_count"),
+            fmt_percent(item.get("success_rate")),
+            fmt_percent(item.get("failure_rate")),
+            item.get("result_counts", {}).get("Neutral", 0),
+        ]
+        for item in analysis.get("signal_strength_accuracy", [])
+    ]
     score_rows = [
         [item.get("bucket"), item.get("total_count"), item.get("completed_count"), item.get("result_counts")]
         for item in analysis.get("score_accuracy", [])
@@ -106,6 +117,12 @@ def render_feedback_summary(analysis: dict[str, Any]) -> str:
         "## Confidence Accuracy",
         "",
         markdown_table(["Confidence", "Total", "Completed", "Success Rate", "Failure Rate", "Neutral"], confidence_rows),
+        "",
+        "## Signal Strength Accuracy",
+        "",
+        "Confidence(データ充足度)と分離したシグナル強度別の成績です。分離導入前の検証行はUnknownに集計されます。",
+        "",
+        markdown_table(["Signal Strength", "Total", "Completed", "Success Rate", "Failure Rate", "Neutral"], signal_rows),
         "",
         "## Sector Accuracy",
         "",

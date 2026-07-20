@@ -278,6 +278,7 @@ def validation_row(
         "sector_benchmark_diff_percent": sector_etf_diff,
         "validation_result": validation_result,
         "confidence": candidate.get("confidence"),
+        "signal_strength": candidate.get("signal_strength"),
         "watch_points": candidate.get("watch_points", []),
         "evidence": evidence,
         "thresholds": threshold_note(period_label),

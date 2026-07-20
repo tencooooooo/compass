@@ -52,6 +52,7 @@ export function DiscoveryPage({ data }: { data: WorkspaceData }) {
           { label: "Sector", render: (row) => row.sector },
           { label: "Discovery Score", render: (row) => row.discovery_score },
           { label: "Confidence", render: (row) => <StatusPill value={row.confidence} /> },
+          { label: "Signal", render: (row) => row.signal_strength ?? "N/A" },
           { label: "Reason", render: (row) => row.discovery_reasons?.[0] ?? "N/A" },
         ]}
       />

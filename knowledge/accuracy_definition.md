@@ -14,6 +14,14 @@ Confidence accuracy:
 High, Medium, and Low confidence groups should show different realized outcomes over time.
 ```
 
+Signal strength accuracy:
+
+```text
+Strong, Moderate, and Weak signal groups should show different realized outcomes over time.
+Confidence measures data availability; signal strength measures how strong the observed signals are.
+The two are measured separately since 2026-07-20.
+```
+
 Theme and sector accuracy:
 
 ```text

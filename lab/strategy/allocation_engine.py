@@ -12,6 +12,8 @@ class AllocationEngine:
             selected = [row for row in candidates if self._num(row.get("discovery_score")) >= self._num(strategy.get("score"))]
         elif strategy_type == "confidence":
             selected = [row for row in candidates if row.get("confidence") == strategy.get("confidence")]
+        elif strategy_type == "signal_strength":
+            selected = [row for row in candidates if row.get("signal_strength") == strategy.get("signal_strength")]
         elif strategy_type == "theme":
             selected = [row for row in candidates if strategy.get("theme") in row.get("themes", [])]
         elif strategy_type == "momentum_top":

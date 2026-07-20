@@ -607,22 +607,48 @@ def calculate_news(news_items: list[dict[str, Any]], events: list[dict[str, Any]
     }
 
 
-def confidence_from_missing(parts: dict[str, dict[str, Any]], prices: pd.DataFrame, news_items: list[dict[str, Any]]) -> dict[str, Any]:
+# Confidence(データ充足度)とSignal Strength(シグナル強度)を分離して評価します。
+# 従来はスコアが0点の領域を「データ無し」とみなしていたため、弱いシグナルがConfidenceを下げていました。
+SIGNAL_STRENGTH_THRESHOLDS = {"strong": 65.0, "moderate": 40.0}
+
+GROWTH_DATA_KEYS = ("total_revenue", "eps", "net_income", "operating_income", "research_and_development")
+FINANCIAL_HEALTH_DATA_KEYS = ("cash", "total_liabilities", "shareholders_equity", "long_term_debt", "current_ratio")
+VALUATION_DATA_KEYS = ("trailing_pe", "forward_pe", "peg_ratio", "price_to_book")
+
+
+def signal_strength_level(signal_rate: float | None) -> str:
+    if signal_rate is None:
+        return "Weak"
+    if signal_rate >= SIGNAL_STRENGTH_THRESHOLDS["strong"]:
+        return "Strong"
+    if signal_rate >= SIGNAL_STRENGTH_THRESHOLDS["moderate"]:
+        return "Moderate"
+    return "Weak"
+
+
+def has_metric_data(part: dict[str, Any], keys: tuple[str, ...]) -> bool:
+    metrics = part.get("metrics", {})
+    return any(safe_float(metrics.get(key)) is not None for key in keys)
+
+
+def data_availability(parts: dict[str, dict[str, Any]], prices: pd.DataFrame, news_items: list[dict[str, Any]]) -> dict[str, bool]:
+    """スコアの高低ではなく、実データの有無だけで各評価領域の利用可否を判定します。"""
+    return {
+        "Growth": has_metric_data(parts["Growth"], GROWTH_DATA_KEYS),
+        "Financial Health": has_metric_data(parts["Financial Health"], FINANCIAL_HEALTH_DATA_KEYS),
+        "Valuation": has_metric_data(parts["Valuation"], VALUATION_DATA_KEYS),
+        "Momentum": not prices.empty and len(prices) >= 120,
+        "News": len(news_items) >= 5,
+    }
+
+
+def confidence_from_missing(parts: dict[str, dict[str, Any]], availability: dict[str, bool]) -> dict[str, Any]:
+    """Confidenceはデータ充足度のみを表します。シグナルの強弱は signal_strength_from_parts が扱います。"""
     total_missing = sum(len(part.get("missing_data", [])) for part in parts.values())
     missing_labels = {label for part in parts.values() for label in part.get("missing_data", [])}
-    available_sections = 0
-    if not prices.empty and len(prices) >= 120:
-        available_sections += 1
-    if parts["Growth"]["score"] > 0:
-        available_sections += 1
-    if parts["Financial Health"]["score"] > 0:
-        available_sections += 1
-    if parts["Valuation"]["score"] > 0:
-        available_sections += 1
-    if len(news_items) >= 5:
-        available_sections += 1
+    available_sections = sum(1 for available in availability.values() if available)
 
-    completeness = (available_sections / 5) * 100 - min(35, total_missing * 5)
+    completeness = (available_sections / len(availability)) * 100 - min(35, total_missing * 5)
     has_event_reaction_gap = "event_price_reaction" in missing_labels
     if completeness >= 85 and total_missing == 0 and not has_event_reaction_gap:
         level = "High"
@@ -632,9 +658,12 @@ def confidence_from_missing(parts: dict[str, dict[str, Any]], prices: pd.DataFra
         level = "Low"
 
     reasons = [
-        f"利用可能な主要データ領域は5領域中 {available_sections} 領域です。",
+        f"利用可能な主要データ領域は{len(availability)}領域中 {available_sections} 領域です。",
         f"欠損または計算不可の項目数は {total_missing} 件です。",
     ]
+    unavailable = [name for name, available in availability.items() if not available]
+    if unavailable:
+        reasons.append(f"データが不足している領域: {', '.join(unavailable)}。")
     if level == "Low":
         reasons.append("欠損が多いため、スコアは参考度を下げて扱う必要があります。")
     elif level == "Medium":
@@ -643,10 +672,42 @@ def confidence_from_missing(parts: dict[str, dict[str, Any]], prices: pd.DataFra
         reasons.append("主要データが比較的そろっており、説明可能性は高めです。")
     if has_event_reaction_gap:
         reasons.append("イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。")
+    reasons.append("Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。")
 
     return {
         "level": level,
         "completeness_score": round(max(0, min(100, completeness)), 2),
+        "reasons": reasons,
+    }
+
+
+def signal_strength_from_parts(parts: dict[str, dict[str, Any]], availability: dict[str, bool]) -> dict[str, Any]:
+    """データが確認できた領域に限定し、獲得スコア/満点の比率でシグナル強度を評価します。"""
+    earned = 0.0
+    evaluated_max = 0.0
+    for name, part in parts.items():
+        if availability.get(name):
+            earned += part["score"]
+            evaluated_max += part["max_score"]
+
+    if evaluated_max == 0:
+        return {
+            "level": "Weak",
+            "signal_rate": None,
+            "evaluated_max_score": 0,
+            "reasons": ["データが確認できた評価領域が無いため、シグナル強度は評価できません。"],
+        }
+
+    signal_rate = round(earned / evaluated_max * 100, 2)
+    level = signal_strength_level(signal_rate)
+    reasons = [
+        f"データが確認できた {int(evaluated_max)} 点満点のうち {earned:.0f} 点を獲得し、シグナル充足率は {signal_rate:.1f}% です。",
+        f"シグナル強度は {level}(Strong: {SIGNAL_STRENGTH_THRESHOLDS['strong']:.0f}%以上 / Moderate: {SIGNAL_STRENGTH_THRESHOLDS['moderate']:.0f}%以上)です。",
+    ]
+    return {
+        "level": level,
+        "signal_rate": signal_rate,
+        "evaluated_max_score": int(evaluated_max),
         "reasons": reasons,
     }
 
@@ -670,7 +731,9 @@ def calculate_company_score(
         "News": calculate_news(news_items, events),
     }
     total_score = sum(part["score"] for part in parts.values())
-    confidence = confidence_from_missing(parts, prices, news_items)
+    availability = data_availability(parts, prices, news_items)
+    confidence = confidence_from_missing(parts, availability)
+    signal_strength = signal_strength_from_parts(parts, availability)
     evidence_sources = sorted({source for part in parts.values() for source in part["evidence"]})
 
     return {
@@ -679,6 +742,7 @@ def calculate_company_score(
         "total_score": total_score,
         "max_score": 100,
         "confidence": confidence,
+        "signal_strength": signal_strength,
         "scores": parts,
         "evidence_sources": evidence_sources,
     }

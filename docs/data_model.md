@@ -166,6 +166,8 @@ momentum_score
 news_score
 confidence
 confidence_completeness
+signal_strength
+signal_rate
 evidence_sources
 ```
 
@@ -250,6 +252,7 @@ benchmark_diff_percent
 sector_average_return_percent
 sector_diff_percent
 confidence
+signal_strength
 event_count
 evidence
 period_complete

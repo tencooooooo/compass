@@ -63,6 +63,7 @@ class Evaluator:
                         "discovery_score": score,
                         "discovery_score_bucket": self._score_bucket(score),
                         "confidence": candidate.get("confidence") or "Unknown",
+                        "signal_strength": candidate.get("signal_strength") or "Unknown",
                         "themes": theme_map.get(ticker, []),
                         "patterns": pattern_map.get(ticker, []),
                         "market_status": self._market_status(market),

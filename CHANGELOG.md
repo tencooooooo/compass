@@ -2,6 +2,7 @@
 
 ## v1.0-alpha
 
+- Separated Confidence into data confidence and signal strength. Confidence now measures data availability only (a section counts as available when its underlying data exists, not when its score is positive), and negative-but-present fundamentals (EPS, FCF, revenue, R&D) no longer lower Discovery confidence — they are recorded as `weak_signals` instead. A new `signal_strength` (Strong/Moderate/Weak) with `signal_rate` (earned points over the maximum achievable with available data) is reported alongside Confidence in scoring, discovery, validation rows, memory snapshots, feedback, performance, strategy, Slack, and the workspace. Confidence and signal-strength groupings change basis from this date; validation rows from before 2026-07-20 have no signal strength and aggregate as Unknown.
 - Added peer tickers (28 large caps across Technology, Communication Services, and Consumer Cyclical) collected for prices and company profiles only. They act as the comparison population for sector-relative Valuation percentiles and Validation sector averages without entering scoring, discovery, or news collection.
 - Changed sector-relative Valuation to draw peers from all stored company profiles, activating the percentile evaluation that previously never triggered with the 8-ticker watch list.
 - Added sector ETF comparison to Validation rows (XLK/XLC/XLY via a `sector_benchmarks` config map): each row now records the sector ETF return and the candidate's difference against it, alongside the noisier peer-average diff.

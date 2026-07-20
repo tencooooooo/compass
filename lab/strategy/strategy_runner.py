@@ -75,6 +75,7 @@ class StrategyRunner:
                     "industry": row.get("industry") or "Unknown",
                     "discovery_score": row.get("discovery_score"),
                     "confidence": row.get("confidence") or "Unknown",
+                    "signal_strength": row.get("signal_strength") or "Unknown",
                     "themes": themes.get(ticker, []),
                     "patterns": patterns.get(ticker, []),
                     "momentum_3m": momentum.get("3m"),

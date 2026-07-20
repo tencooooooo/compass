@@ -102,6 +102,8 @@ def csv_row(score_result: dict[str, Any]) -> dict[str, Any]:
         "news_score": scores["News"]["score"],
         "confidence": score_result["confidence"]["level"],
         "confidence_completeness": score_result["confidence"]["completeness_score"],
+        "signal_strength": score_result["signal_strength"]["level"],
+        "signal_rate": score_result["signal_strength"]["signal_rate"],
         "evidence_sources": ", ".join(score_result["evidence_sources"]),
     }
 
@@ -164,7 +166,13 @@ def main() -> int:
             explanation = render_explanation(score_result)
             (EXPLANATION_DIR / f"{ticker}.md").write_text(explanation, encoding="utf-8")
             successful_tickers.append(ticker)
-            logger.info("[OK] %s: score=%s confidence=%s", ticker, score_result["total_score"], score_result["confidence"]["level"])
+            logger.info(
+                "[OK] %s: score=%s confidence=%s signal=%s",
+                ticker,
+                score_result["total_score"],
+                score_result["confidence"]["level"],
+                score_result["signal_strength"]["level"],
+            )
         except Exception as error:
             failed_tickers.append(ticker)
             logger.exception("[NG] %s: エラー - %s", ticker, error)

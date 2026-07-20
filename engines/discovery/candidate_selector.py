@@ -4,6 +4,7 @@ from typing import Any
 
 import pandas as pd
 
+from engines.scoring_engine.score_calculator import signal_strength_level
 from utils.news_sentiment import sentiment_counts
 from utils.price_data import trading_day_momentum
 from utils.values import safe_float
@@ -11,6 +12,24 @@ from utils.values import safe_float
 
 def clamp(value: float, minimum: float = 0, maximum: float = 100) -> float:
     return max(minimum, min(maximum, value))
+
+
+class SignalTally:
+    """シグナル評価が可能だった項目の獲得点と満点を集計します(データ欠損で評価できない項目は分母に含めません)。"""
+
+    def __init__(self) -> None:
+        self.earned = 0.0
+        self.max_points = 0.0
+
+    def add(self, earned: float, maximum: float) -> float:
+        self.earned += earned
+        self.max_points += maximum
+        return earned
+
+    def rate(self) -> float | None:
+        if self.max_points == 0:
+            return None
+        return round(self.earned / self.max_points * 100, 2)
 
 
 def momentum_for_days(prices: pd.DataFrame, days: int) -> float | None:
@@ -68,6 +87,7 @@ def event_reaction(events: list[dict[str, Any]]) -> dict[str, Any]:
 
 
 def confidence_level(missing_count: int, scoring_confidence: str | None, market_available: bool) -> str:
+    """Confidenceはデータ充足度のみを表します。missing_countには「データはあるがシグナルが弱い」項目を含めません。"""
     if missing_count == 0 and scoring_confidence == "High" and market_available:
         return "High"
     if missing_count <= 3 and scoring_confidence in {"High", "Medium"}:
@@ -132,6 +152,9 @@ def build_candidate(
     watch_points: list[str] = []
     evidence = {"Company", "Financials", "Prices", "News", "Events", "Scoring", "Market Intelligence", "Knowledge"}
     missing: list[str] = []
+    # データはあるがシグナルが弱い項目。従来はmissing扱いでConfidenceを下げていたが、分離して記録する。
+    weak_signals: list[str] = []
+    signals = SignalTally()
 
     score_parts = score_result.get("scores", {})
     scoring_total = safe_float(score_result.get("total_score")) or 0
@@ -146,24 +169,24 @@ def build_candidate(
     if growth_score is None:
         missing.append("Growth score")
     else:
-        discovery_score += (growth_score / 20) * 15
+        discovery_score += signals.add((growth_score / 20) * 15, 15)
         reasons.append(f"Scoring EngineのGrowthが {growth_score:.0f}/20 で、成長性の基礎条件が確認できます。")
 
     if financial_health_score is None:
         missing.append("Financial Health score")
     else:
-        discovery_score += (financial_health_score / 20) * 12
+        discovery_score += signals.add((financial_health_score / 20) * 12, 12)
         reasons.append(f"Financial Healthが {financial_health_score:.0f}/20 で、継続調査に必要な財務基盤を評価しています。")
 
     if valuation_score is not None:
-        discovery_score += (valuation_score / 20) * 6
+        discovery_score += signals.add((valuation_score / 20) * 6, 6)
         if valuation_score < 8:
             watch_points.append("バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。")
     else:
         missing.append("Valuation score")
 
     if news_score is not None:
-        discovery_score += (news_score / 20) * 6
+        discovery_score += signals.add((news_score / 20) * 6, 6)
         reasons.append(f"Newsスコアが {news_score:.0f}/20 で、材料の量と市場関心を候補評価に反映しています。")
     else:
         missing.append("News score")
@@ -172,26 +195,38 @@ def build_candidate(
     fcf = safe_float(financials.get("free_cash_flow"))
     eps = safe_float(financials.get("eps") or company.get("eps"))
     revenue = safe_float(financials.get("total_revenue"))
-    if revenue and revenue > 0:
-        discovery_score += 2
+    if revenue is None:
+        missing.append("total_revenue")
+    elif revenue > 0:
+        discovery_score += signals.add(2, 2)
         reasons.append("売上が取得でき、事業規模の確認ができます。")
     else:
-        missing.append("total_revenue")
-    if eps and eps > 0:
-        discovery_score += 2
+        signals.add(0, 2)
+        weak_signals.append("total_revenue")
+    if eps is None:
+        missing.append("eps")
+    elif eps > 0:
+        discovery_score += signals.add(2, 2)
         reasons.append("EPSがプラスで、利益を伴う成長候補として確認できます。")
     else:
-        missing.append("eps")
-    if rnd and rnd > 0:
-        discovery_score += 3
+        signals.add(0, 2)
+        weak_signals.append("eps")
+    if rnd is None:
+        missing.append("research_and_development")
+    elif rnd > 0:
+        discovery_score += signals.add(3, 3)
         reasons.append("研究開発費が確認でき、将来成長への投資シグナルがあります。")
     else:
-        missing.append("research_and_development")
-    if fcf and fcf > 0:
-        discovery_score += 3
+        signals.add(0, 3)
+        weak_signals.append("research_and_development")
+    if fcf is None:
+        missing.append("free_cash_flow")
+    elif fcf > 0:
+        discovery_score += signals.add(3, 3)
         reasons.append("FCFがプラスで、成長投資を支える現金創出力があります。")
     else:
-        missing.append("free_cash_flow")
+        signals.add(0, 3)
+        weak_signals.append("free_cash_flow")
 
     benchmark = benchmark_prices if benchmark_prices is not None else pd.DataFrame()
     use_benchmark = benchmark_name is not None and not benchmark.empty
@@ -212,18 +247,20 @@ def build_candidate(
         if value is not None and benchmark_return is not None:
             excess = value - benchmark_return
             excess_momentum[key] = round(excess, 2)
-            discovery_score += score_from_relative_momentum(excess, str(benchmark_name), points, label, reasons)
+            discovery_score += signals.add(score_from_relative_momentum(excess, str(benchmark_name), points, label, reasons), points)
         else:
             excess_momentum[key] = None
-            discovery_score += score_from_momentum(value, points, label, reasons, missing)
+            awarded = score_from_momentum(value, points, label, reasons, missing)
+            discovery_score += signals.add(awarded, points) if value is not None else awarded
     if not use_benchmark:
         missing.append("benchmark_prices")
         watch_points.append("ベンチマーク価格が無いため、モメンタムは絶対リターンで評価しています。")
 
     positive_news, watch_news = news_signal(news_items)
-    if positive_news:
-        discovery_score += min(4, positive_news * 0.75)
-        reasons.append(f"ニュース内に好材料候補が {positive_news} 件あり、追加調査の入口になります。")
+    if news_items:
+        discovery_score += signals.add(min(4, positive_news * 0.75), 4)
+        if positive_news:
+            reasons.append(f"ニュース内に好材料候補が {positive_news} 件あり、追加調査の入口になります。")
     if watch_news:
         watch_points.append(f"注意材料になり得るニュース表現が {watch_news} 件あります。")
     if len(news_items) >= 5:
@@ -235,12 +272,13 @@ def build_candidate(
     reaction = event_reaction(events)
     if reaction["with_reaction"]:
         if reaction["average"] and reaction["average"] > 0:
-            discovery_score += 3
+            discovery_score += signals.add(3, 3)
             reasons.append(f"イベント後の平均株価反応が {reaction['average']:.2f}% とプラスです。")
         else:
-            discovery_score += 1
+            discovery_score += signals.add(1, 3)
             watch_points.append("イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。")
     elif events:
+        # 株価反応データが無いため、シグナル評価には含めません。
         discovery_score += 1
         watch_points.append("Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。")
     else:
@@ -252,15 +290,22 @@ def build_candidate(
     if sector_data:
         trend = sector_data.get("trend", {})
         sector_avg_score = safe_float(sector_data.get("average_score"))
-        if sector_avg_score and scoring_total >= sector_avg_score:
-            discovery_score += 3
-            reasons.append(f"{sector}内の平均スコア以上で、セクター内でも追加調査候補になり得ます。")
-        if trend.get("news") == "High":
-            discovery_score += 1
-            reasons.append(f"{sector}はニュース量がHighで、市場関心が高いセクターです。")
-        if trend.get("financial_health") == "Good":
-            discovery_score += 2
-            reasons.append(f"{sector}のFinancial Health傾向はGoodで、セクター文脈は比較的安定しています。")
+        if sector_avg_score:
+            if scoring_total >= sector_avg_score:
+                discovery_score += signals.add(3, 3)
+                reasons.append(f"{sector}内の平均スコア以上で、セクター内でも追加調査候補になり得ます。")
+            else:
+                signals.add(0, 3)
+        if trend.get("news"):
+            awarded = 1 if trend.get("news") == "High" else 0
+            discovery_score += signals.add(awarded, 1)
+            if awarded:
+                reasons.append(f"{sector}はニュース量がHighで、市場関心が高いセクターです。")
+        if trend.get("financial_health"):
+            awarded = 2 if trend.get("financial_health") == "Good" else 0
+            discovery_score += signals.add(awarded, 2)
+            if awarded:
+                reasons.append(f"{sector}のFinancial Health傾向はGoodで、セクター文脈は比較的安定しています。")
         if trend.get("momentum") in {"Risk-Off", "Weak"}:
             watch_points.append(f"{sector}のセクターモメンタムは{trend.get('momentum')}で、短期環境は慎重に見る必要があります。")
     else:
@@ -274,13 +319,20 @@ def build_candidate(
     watch_points.extend(analysis_points["risks"])
 
     if scoring_total >= 75:
-        discovery_score += 2
+        discovery_score += signals.add(2, 2)
         reasons.append("総合スコアが75点以上で、追加調査候補としての基礎点が高いです。")
     elif scoring_total >= 65:
-        discovery_score += 1
+        discovery_score += signals.add(1, 2)
         reasons.append("総合スコアが65点以上で、候補として確認する価値があります。")
+    else:
+        signals.add(0, 2)
+
+    if weak_signals:
+        watch_points.append("データは取得済みですがシグナルが弱い項目: " + ", ".join(weak_signals))
 
     confidence = confidence_level(len(missing), scoring_confidence, market_available)
+    signal_rate = signals.rate()
+    signal_strength = signal_strength_level(signal_rate)
     discovery_score = int(round(clamp(discovery_score)))
     if discovery_score >= 75:
         status = "Primary Candidate"
@@ -300,10 +352,16 @@ def build_candidate(
         "strengths": strengths or ["企業分析レポートから明確な強みを抽出できませんでした。"],
         "watch_points": list(dict.fromkeys(watch_points))[:8] or ["現時点では主要なWatch Pointを抽出できませんでした。"],
         "confidence": confidence,
+        "signal_strength": signal_strength,
+        "signal_rate": signal_rate,
         "evidence": sorted(evidence),
         "missing_data": missing,
         "metrics": {
             "scoring_total": scoring_total,
+            "signal_earned_points": round(signals.earned, 2),
+            "signal_max_points": round(signals.max_points, 2),
+            "weak_signals": weak_signals,
+            "scoring_signal_strength": (score_result.get("signal_strength") or {}).get("level"),
             "growth_score": growth_score,
             "financial_health_score": financial_health_score,
             "valuation_score": valuation_score,

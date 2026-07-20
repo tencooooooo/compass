@@ -37,7 +37,8 @@ def format_top_candidates(discovery_data: dict[str, Any], limit: int) -> tuple[i
         ticker = fmt_value(candidate.get("ticker"))
         score = fmt_value(candidate.get("discovery_score"))
         confidence = fmt_value(candidate.get("confidence"))
-        lines.append(f"{index}. {ticker} ({score}) - Confidence: {confidence}")
+        signal = fmt_value(candidate.get("signal_strength"))
+        lines.append(f"{index}. {ticker} ({score}) - Confidence: {confidence} / Signal: {signal}")
     return len(candidates), lines or ["初回実行またはDiscovery候補なし"]
 
 

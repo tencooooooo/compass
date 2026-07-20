@@ -24,6 +24,7 @@ def metric_lines(metrics: dict[str, Any]) -> list[str]:
 def render_explanation(score_result: dict[str, Any]) -> str:
     ticker = score_result["ticker"]
     company_name = score_result.get("company_name") or ticker
+    signal_strength = score_result.get("signal_strength") or {}
     lines = [
         f"# {ticker} Scoring Explanation",
         "",
@@ -34,6 +35,7 @@ def render_explanation(score_result: dict[str, Any]) -> str:
         f"- Company: {company_name}",
         f"- Total Score: {score_result['total_score']} / {score_result['max_score']}",
         f"- Confidence: {score_result['confidence']['level']}",
+        f"- Signal Strength: {signal_strength.get('level', 'N/A')}",
         f"- Evidence: {', '.join(score_result['evidence_sources'])}",
         "",
         "## Confidence",
@@ -43,6 +45,14 @@ def render_explanation(score_result: dict[str, Any]) -> str:
         "理由",
         "",
         *bullet_lines(score_result["confidence"]["reasons"]),
+        "",
+        "## Signal Strength",
+        "",
+        signal_strength.get("level", "N/A"),
+        "",
+        "理由",
+        "",
+        *bullet_lines(signal_strength.get("reasons", [])),
         "",
     ]
 
