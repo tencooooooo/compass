@@ -1,40 +1,38 @@
 # Energy
 
-- Target companies: 5
-- Average Score: 68.60
-- Average Discovery: 66.50
-- Momentum: 5.18
+- Target companies: 3
+- Average Score: 62.33
+- Average Discovery: 68.00
+- Momentum: 11.53
 - Confidence: Medium
 
 ## Companies
 
 - AAPL - Apple Inc. (Low): Keyword: oil
-- GOOGL - Alphabet Inc. (Low): Keyword: oil
 - META - Meta Platforms, Inc. (Low): Keyword: oil
-- MSFT - Microsoft Corporation (Low): Keyword: oil
-- TSLA - Tesla, Inc. (High): Keyword: energy; Keyword: battery; Keyword: solar; Keyword: oil
+- TSLA - Tesla, Inc. (Medium): Keyword: energy; Keyword: battery; Keyword: solar
 
 ## Market
 
-- Communication Services: score 74.50, momentum 3.97, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
-- Consumer Cyclical: score 60.50, momentum -1.66, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Technology: score 71.25, momentum 0.48, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 74.50, momentum 0.27, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 59.00, momentum -2.69, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 68.75, momentum 1.76, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- AAPL: Why Apple’s ‘Standard Oil’ Strategy Is Driving the Stock to All-Time Highs
-- META: Why Apple’s ‘Standard Oil’ Strategy Is Driving the Stock to All-Time Highs
-- MSFT: Why Apple’s ‘Standard Oil’ Strategy Is Driving the Stock to All-Time Highs
-- TSLA: Stock Market Today, July 16: Lucid Group Surges on CEO's Denial of Bankruptcy and Take-Private Rumors
+- TSLA: Waymo wears out its welcome in major U.S. city as mayor responds
+- TSLA: Tesla and Alphabet Earnings: The Metrics That Matter Most
 - AAPL: Tech, Media & Telecom Roundup: Market Talk
+- META: Meta in talks to rent some of its billions in AI infrastructure to Anthropic
+- META: Update: US Equity Indexes Drop as Chipmakers Head for Bear Market, Crude Oil Surges After Iran Expands Attack in Middle East
 
 ## Similar Themes
 
-- Space: 0.985 (Shared companies: GOOGL, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
-- AI: 0.96 (Shared companies: AAPL, GOOGL, META, MSFT, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Cloud: 0.948 (Shared companies: AAPL, GOOGL, META, MSFT; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.925 (Shared companies: AAPL, GOOGL; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
-- EV: 0.869 (Shared companies: TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
+- EV: 0.996 (Shared companies: META, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
+- Robotics: 0.99 (Shared companies: TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
+- Cloud: 0.955 (Shared companies: AAPL, META; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
+- Semiconductor: 0.955 (Shared companies: AAPL, META; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
+- AI: 0.937 (Shared companies: AAPL, META, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
 
 ## Review Note
 

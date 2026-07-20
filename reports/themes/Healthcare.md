@@ -1,9 +1,9 @@
 # Healthcare
 
 - Target companies: 1
-- Average Score: 74.00
-- Average Discovery: 64.00
-- Momentum: 0.34
+- Average Score: 68.00
+- Average Discovery: N/A
+- Momentum: N/A
 - Confidence: Medium
 
 ## Companies
@@ -12,21 +12,21 @@
 
 ## Market
 
-- Technology: score 71.25, momentum 0.48, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 68.75, momentum 1.76, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- MSFT: Why Apple’s ‘Standard Oil’ Strategy Is Driving the Stock to All-Time Highs
-- MSFT: Silicon Valley Midas Investor Michael Moritz on AI, Venture Capital, and Just About Everything
-- MSFT: Wall Street explores tokenization of assets
+- MSFT: Meta in talks to rent some of its billions in AI infrastructure to Anthropic
+- MSFT: US stocks sink this week, semiconductors walloped amid sell-off
+- MSFT: Oracle's stock crash looks embarrassing for billionaire founder Larry Ellison
 
 ## Similar Themes
 
-- Cybersecurity: 0.919 (Shared companies: MSFT; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- EV: 0.684 (Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Robotics: 0.655 (Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Energy: 0.645 (Shared companies: MSFT; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Space: 0.589 (Shared sectors: Technology)
+- Cybersecurity: 0.714 (Shared companies: MSFT; Shared sectors: Technology; Similar short-term momentum)
+- Space: 0.557 (Shared companies: MSFT; Shared sectors: Technology; Similar short-term momentum)
+- Robotics: 0.518 (Shared sectors: Technology; Similar short-term momentum)
+- AI: 0.471 (Shared companies: MSFT; Shared sectors: Technology; Similar short-term momentum)
+- EV: 0.453 (Shared sectors: Technology; Similar short-term momentum)
 
 ## Review Note
 

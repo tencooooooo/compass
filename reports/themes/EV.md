@@ -1,36 +1,39 @@
 # EV
 
-- Target companies: 2
-- Average Score: 63.50
+- Target companies: 4
+- Average Score: 66.00
 - Average Discovery: 65.00
-- Momentum: -2.38
+- Momentum: -2.22
 - Confidence: Medium
 
 ## Companies
 
+- AMZN - Amazon.com, Inc. (Medium): Keyword: ev; Sector alignment: Consumer Cyclical
+- META - Meta Platforms, Inc. (Low): Keyword: ev
 - NVDA - NVIDIA Corporation (Low): Keyword: electric vehicle
-- TSLA - Tesla, Inc. (High): Keyword: ev; Keyword: electric vehicles; Keyword: battery; Sector alignment: Consumer Cyclical
+- TSLA - Tesla, Inc. (High): Keyword: ev; Keyword: electric vehicles; Keyword: battery; Keyword: autonomous driving; Sector alignment: Consumer Cyclical
 
 ## Market
 
-- Consumer Cyclical: score 60.50, momentum -1.66, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Technology: score 71.25, momentum 0.48, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 74.50, momentum 0.27, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 59.00, momentum -2.69, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 68.75, momentum 1.76, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- NVDA: Why AtaiBeckley Stock Soared Today
-- TSLA: Stock Market Today, July 16: Lucid Group Surges on CEO's Denial of Bankruptcy and Take-Private Rumors
-- TSLA: Silicon Valley Midas Investor Michael Moritz on AI, Venture Capital, and Just About Everything
-- NVDA: TSMC raises capex and revenue forecast, highlighting growing AI chip demand
-- NVDA: $3.2 trillion rotation from chips to the 'Magnificent 7' has left the S&P 500 going nowhere: Chart of the Day
+- TSLA: Waymo wears out its welcome in major U.S. city as mayor responds
+- NVDA: CrowdStrike vs. NVIDIA: Which Growth Tech Stock Is a Better Buy in 2026, the Cybersecurity Giant or AI Leader?
+- NVDA: UiPath Vs. ServiceNow: Which Agentic AI Stock Is the Better Buy?
+- TSLA: Tesla and Alphabet Earnings: The Metrics That Matter Most
+- AMZN: Meta in talks to rent some of its billions in AI infrastructure to Anthropic
 
 ## Similar Themes
 
-- Robotics: 0.97 (Shared companies: NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.931 (Shared companies: NVDA; Shared sectors: Consumer Cyclical, Technology; Similar short-term momentum)
-- Space: 0.92 (Shared companies: NVDA, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar short-term momentum)
-- Cloud: 0.893 (Shared companies: NVDA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- AI: 0.876 (Shared companies: NVDA, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Energy: 0.996 (Shared companies: META, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
+- Robotics: 0.987 (Shared companies: AMZN, NVDA, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cloud: 0.969 (Shared companies: AMZN, META, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Semiconductor: 0.969 (Shared companies: AMZN, META, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- AI: 0.952 (Shared companies: AMZN, META, NVDA, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
 
 ## Review Note
 

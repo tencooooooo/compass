@@ -5,15 +5,15 @@ Theme Intelligence connects market, sector, company, Discovery, and Pattern cont
 ## AI
 
 - Target companies: 8
-- Average Score: 69.38
-- Average Discovery: 67.83
+- Average Score: 67.75
+- Average Discovery: 70.00
 - Market status: Communication Services Positive, Consumer Cyclical Weak, Technology Positive
 - Representative companies: AMD, GOOGL, AAPL
 - Confidence: High
 - Major news:
-  - NVDA: Why AtaiBeckley Stock Soared Today
-  - AAPL: Why Apple’s ‘Standard Oil’ Strategy Is Driving the Stock to All-Time Highs
-  - AMZN: Amazon: A Deeper Look at the Cloud Growth Story (NASDAQ:AMZN)
+  - TSLA: Waymo wears out its welcome in major U.S. city as mayor responds
+  - NVDA: CrowdStrike vs. NVIDIA: Which Growth Tech Stock Is a Better Buy in 2026, the Cybersecurity Giant or AI Leader?
+  - NVDA: UiPath Vs. ServiceNow: Which Agentic AI Stock Is the Better Buy?
 
 ## Biotechnology
 
@@ -27,54 +27,54 @@ Theme Intelligence connects market, sector, company, Discovery, and Pattern cont
 ## Cloud
 
 - Target companies: 7
-- Average Score: 71.43
-- Average Discovery: 67.83
+- Average Score: 70.14
+- Average Discovery: 70.00
 - Market status: Communication Services Positive, Consumer Cyclical Weak, Technology Positive
 - Representative companies: AMD, GOOGL, AAPL
 - Confidence: High
 - Major news:
-  - NVDA: Why AtaiBeckley Stock Soared Today
-  - AAPL: Why Apple’s ‘Standard Oil’ Strategy Is Driving the Stock to All-Time Highs
-  - AMZN: Amazon: A Deeper Look at the Cloud Growth Story (NASDAQ:AMZN)
+  - NVDA: CrowdStrike vs. NVIDIA: Which Growth Tech Stock Is a Better Buy in 2026, the Cybersecurity Giant or AI Leader?
+  - NVDA: UiPath Vs. ServiceNow: Which Agentic AI Stock Is the Better Buy?
+  - AMD: Stock Market Today, July 17: Stocks Slide as Semiconductor Rout Deepens
 
 ## Cybersecurity
 
-- Target companies: 2
-- Average Score: 74.50
-- Average Discovery: 67.50
+- Target companies: 3
+- Average Score: 71.67
+- Average Discovery: 68.00
 - Market status: Communication Services Positive, Technology Positive
-- Representative companies: GOOGL, MSFT
+- Representative companies: GOOGL, NVDA, MSFT
 - Confidence: Medium
 - Major news:
-  - MSFT: Why Apple’s ‘Standard Oil’ Strategy Is Driving the Stock to All-Time Highs
-  - MSFT: Silicon Valley Midas Investor Michael Moritz on AI, Venture Capital, and Just About Everything
-  - MSFT: Wall Street explores tokenization of assets
+  - NVDA: CrowdStrike vs. NVIDIA: Which Growth Tech Stock Is a Better Buy in 2026, the Cybersecurity Giant or AI Leader?
+  - NVDA: UiPath Vs. ServiceNow: Which Agentic AI Stock Is the Better Buy?
+  - GOOGL: Stock Market Today, July 17: Stocks Slide as Semiconductor Rout Deepens
 
 ## EV
 
-- Target companies: 2
-- Average Score: 63.50
+- Target companies: 4
+- Average Score: 66.00
 - Average Discovery: 65.00
-- Market status: Consumer Cyclical Weak, Technology Positive
-- Representative companies: NVDA, TSLA
+- Market status: Communication Services Positive, Consumer Cyclical Weak, Technology Positive
+- Representative companies: NVDA, META, AMZN
 - Confidence: Medium
 - Major news:
-  - NVDA: Why AtaiBeckley Stock Soared Today
-  - TSLA: Stock Market Today, July 16: Lucid Group Surges on CEO's Denial of Bankruptcy and Take-Private Rumors
-  - TSLA: Silicon Valley Midas Investor Michael Moritz on AI, Venture Capital, and Just About Everything
+  - TSLA: Waymo wears out its welcome in major U.S. city as mayor responds
+  - NVDA: CrowdStrike vs. NVIDIA: Which Growth Tech Stock Is a Better Buy in 2026, the Cybersecurity Giant or AI Leader?
+  - NVDA: UiPath Vs. ServiceNow: Which Agentic AI Stock Is the Better Buy?
 
 ## Energy
 
-- Target companies: 5
-- Average Score: 68.60
-- Average Discovery: 66.50
+- Target companies: 3
+- Average Score: 62.33
+- Average Discovery: 68.00
 - Market status: Communication Services Positive, Consumer Cyclical Weak, Technology Positive
-- Representative companies: GOOGL, AAPL, MSFT
+- Representative companies: AAPL, META, TSLA
 - Confidence: Medium
 - Major news:
-  - AAPL: Why Apple’s ‘Standard Oil’ Strategy Is Driving the Stock to All-Time Highs
-  - META: Why Apple’s ‘Standard Oil’ Strategy Is Driving the Stock to All-Time Highs
-  - MSFT: Why Apple’s ‘Standard Oil’ Strategy Is Driving the Stock to All-Time Highs
+  - TSLA: Waymo wears out its welcome in major U.S. city as mayor responds
+  - TSLA: Tesla and Alphabet Earnings: The Metrics That Matter Most
+  - AAPL: Tech, Media & Telecom Roundup: Market Talk
 
 ## Fintech
 
@@ -88,15 +88,15 @@ Theme Intelligence connects market, sector, company, Discovery, and Pattern cont
 ## Healthcare
 
 - Target companies: 1
-- Average Score: 74.00
-- Average Discovery: 64.00
+- Average Score: 68.00
+- Average Discovery: N/A
 - Market status: Technology Positive
 - Representative companies: MSFT
 - Confidence: Medium
 - Major news:
-  - MSFT: Why Apple’s ‘Standard Oil’ Strategy Is Driving the Stock to All-Time Highs
-  - MSFT: Silicon Valley Midas Investor Michael Moritz on AI, Venture Capital, and Just About Everything
-  - MSFT: Wall Street explores tokenization of assets
+  - MSFT: Meta in talks to rent some of its billions in AI infrastructure to Anthropic
+  - MSFT: US stocks sink this week, semiconductors walloped amid sell-off
+  - MSFT: Oracle's stock crash looks embarrassing for billionaire founder Larry Ellison
 
 ## Quantum Computing
 
@@ -109,39 +109,39 @@ Theme Intelligence connects market, sector, company, Discovery, and Pattern cont
 
 ## Robotics
 
-- Target companies: 1
-- Average Score: 72.00
+- Target companies: 3
+- Average Score: 63.33
 - Average Discovery: 65.00
-- Market status: Technology Positive
-- Representative companies: NVDA
+- Market status: Consumer Cyclical Weak, Technology Positive
+- Representative companies: NVDA, AMZN, TSLA
 - Confidence: Medium
 - Major news:
-  - NVDA: Why AtaiBeckley Stock Soared Today
-  - NVDA: TSMC raises capex and revenue forecast, highlighting growing AI chip demand
-  - NVDA: $3.2 trillion rotation from chips to the 'Magnificent 7' has left the S&P 500 going nowhere: Chart of the Day
+  - TSLA: Waymo wears out its welcome in major U.S. city as mayor responds
+  - NVDA: CrowdStrike vs. NVIDIA: Which Growth Tech Stock Is a Better Buy in 2026, the Cybersecurity Giant or AI Leader?
+  - NVDA: UiPath Vs. ServiceNow: Which Agentic AI Stock Is the Better Buy?
 
 ## Semiconductor
 
-- Target companies: 5
-- Average Score: 70.40
-- Average Discovery: 70.50
+- Target companies: 7
+- Average Score: 70.14
+- Average Discovery: 70.00
 - Market status: Communication Services Positive, Consumer Cyclical Weak, Technology Positive
 - Representative companies: AMD, GOOGL, AAPL
 - Confidence: High
 - Major news:
-  - NVDA: Why AtaiBeckley Stock Soared Today
-  - AAPL: Why Apple’s ‘Standard Oil’ Strategy Is Driving the Stock to All-Time Highs
-  - AMZN: Amazon: A Deeper Look at the Cloud Growth Story (NASDAQ:AMZN)
+  - NVDA: CrowdStrike vs. NVIDIA: Which Growth Tech Stock Is a Better Buy in 2026, the Cybersecurity Giant or AI Leader?
+  - NVDA: UiPath Vs. ServiceNow: Which Agentic AI Stock Is the Better Buy?
+  - AMD: Stock Market Today, July 17: Stocks Slide as Semiconductor Rout Deepens
 
 ## Space
 
-- Target companies: 5
-- Average Score: 68.40
+- Target companies: 7
+- Average Score: 68.57
 - Average Discovery: 70.67
 - Market status: Communication Services Positive, Consumer Cyclical Weak, Technology Positive
 - Representative companies: AMD, GOOGL, NVDA
-- Confidence: Medium
+- Confidence: High
 - Major news:
-  - NVDA: Why AtaiBeckley Stock Soared Today
-  - AMZN: Amazon: A Deeper Look at the Cloud Growth Story (NASDAQ:AMZN)
-  - TSLA: Stock Market Today, July 16: Lucid Group Surges on CEO's Denial of Bankruptcy and Take-Private Rumors
+  - TSLA: Waymo wears out its welcome in major U.S. city as mayor responds
+  - NVDA: CrowdStrike vs. NVIDIA: Which Growth Tech Stock Is a Better Buy in 2026, the Cybersecurity Giant or AI Leader?
+  - NVDA: UiPath Vs. ServiceNow: Which Agentic AI Stock Is the Better Buy?

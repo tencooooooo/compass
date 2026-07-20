@@ -6,7 +6,7 @@ Pattern candidates require human review before Knowledge updates.
 
 - Confidence: Low
 - Evidence: High news volume with negative 1M momentum may indicate temporary attention.
-- Companies: AMD, GOOGL, TSLA
+- Companies: AMD, GOOGL, MSFT, NVDA, TSLA
 - Knowledge update: candidate only
 
 ## Elevated valuation

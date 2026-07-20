@@ -24,41 +24,33 @@
 
 ### Holdings
 
-- AMD: weight 0.166667, score 76, confidence High
-- GOOGL: weight 0.166667, score 71, confidence High
-- AAPL: weight 0.166667, score 70, confidence High
-- NVDA: weight 0.166667, score 65, confidence High
-- MSFT: weight 0.166667, score 64, confidence High
-- META: weight 0.166667, score 61, confidence High
+- AMD: weight 0.25, score 76, confidence High
+- GOOGL: weight 0.25, score 71, confidence High
+- AAPL: weight 0.25, score 68, confidence High
+- NVDA: weight 0.25, score 65, confidence High
 
 ### Trades
 
-- AMD: 2026-07-16 -> 2026-07-16 (target 2027-01-12, partial), return 0.0%
-- GOOGL: 2026-07-16 -> 2026-07-16 (target 2027-01-12, partial), return 0.0%
-- AAPL: 2026-07-16 -> 2026-07-16 (target 2027-01-12, partial), return 0.0%
-- NVDA: 2026-07-16 -> 2026-07-16 (target 2027-01-12, partial), return 0.0%
-- MSFT: 2026-07-16 -> 2026-07-16 (target 2027-01-12, partial), return 0.0%
-- META: 2026-07-16 -> 2026-07-16 (target 2027-01-12, partial), return 0.0%
+- AMD: 2026-07-17 -> 2026-07-17 (target 2027-01-13, partial), return 0.0%
+- GOOGL: 2026-07-17 -> 2026-07-17 (target 2027-01-13, partial), return 0.0%
+- AAPL: 2026-07-17 -> 2026-07-17 (target 2027-01-13, partial), return 0.0%
+- NVDA: 2026-07-17 -> 2026-07-17 (target 2027-01-13, partial), return 0.0%
 
 ## AI Theme
 
 ### Holdings
 
-- AMD: weight 0.166667, score 76, confidence High
-- GOOGL: weight 0.166667, score 71, confidence High
-- AAPL: weight 0.166667, score 70, confidence High
-- NVDA: weight 0.166667, score 65, confidence High
-- MSFT: weight 0.166667, score 64, confidence High
-- META: weight 0.166667, score 61, confidence High
+- AMD: weight 0.25, score 76, confidence High
+- GOOGL: weight 0.25, score 71, confidence High
+- AAPL: weight 0.25, score 68, confidence High
+- NVDA: weight 0.25, score 65, confidence High
 
 ### Trades
 
-- AMD: 2026-07-16 -> 2026-07-16 (target 2027-01-12, partial), return 0.0%
-- GOOGL: 2026-07-16 -> 2026-07-16 (target 2027-01-12, partial), return 0.0%
-- AAPL: 2026-07-16 -> 2026-07-16 (target 2027-01-12, partial), return 0.0%
-- NVDA: 2026-07-16 -> 2026-07-16 (target 2027-01-12, partial), return 0.0%
-- MSFT: 2026-07-16 -> 2026-07-16 (target 2027-01-12, partial), return 0.0%
-- META: 2026-07-16 -> 2026-07-16 (target 2027-01-12, partial), return 0.0%
+- AMD: 2026-07-17 -> 2026-07-17 (target 2027-01-13, partial), return 0.0%
+- GOOGL: 2026-07-17 -> 2026-07-17 (target 2027-01-13, partial), return 0.0%
+- AAPL: 2026-07-17 -> 2026-07-17 (target 2027-01-13, partial), return 0.0%
+- NVDA: 2026-07-17 -> 2026-07-17 (target 2027-01-13, partial), return 0.0%
 
 ## Semiconductor Theme
 
@@ -66,29 +58,29 @@
 
 - AMD: weight 0.25, score 76, confidence High
 - GOOGL: weight 0.25, score 71, confidence High
-- AAPL: weight 0.25, score 70, confidence High
+- AAPL: weight 0.25, score 68, confidence High
 - NVDA: weight 0.25, score 65, confidence High
 
 ### Trades
 
-- AMD: 2026-07-16 -> 2026-07-16 (target 2027-01-12, partial), return 0.0%
-- GOOGL: 2026-07-16 -> 2026-07-16 (target 2027-01-12, partial), return 0.0%
-- AAPL: 2026-07-16 -> 2026-07-16 (target 2027-01-12, partial), return 0.0%
-- NVDA: 2026-07-16 -> 2026-07-16 (target 2027-01-12, partial), return 0.0%
+- AMD: 2026-07-17 -> 2026-07-17 (target 2027-01-13, partial), return 0.0%
+- GOOGL: 2026-07-17 -> 2026-07-17 (target 2027-01-13, partial), return 0.0%
+- AAPL: 2026-07-17 -> 2026-07-17 (target 2027-01-13, partial), return 0.0%
+- NVDA: 2026-07-17 -> 2026-07-17 (target 2027-01-13, partial), return 0.0%
 
 ## Momentum Top
 
 ### Holdings
 
 - AMD: weight 0.333333, score 76, confidence High
-- AAPL: weight 0.333333, score 70, confidence High
+- AAPL: weight 0.333333, score 68, confidence High
 - GOOGL: weight 0.333333, score 71, confidence High
 
 ### Trades
 
-- AMD: 2026-07-16 -> 2026-07-16 (target 2027-01-12, partial), return 0.0%
-- AAPL: 2026-07-16 -> 2026-07-16 (target 2027-01-12, partial), return 0.0%
-- GOOGL: 2026-07-16 -> 2026-07-16 (target 2027-01-12, partial), return 0.0%
+- AMD: 2026-07-17 -> 2026-07-17 (target 2027-01-13, partial), return 0.0%
+- AAPL: 2026-07-17 -> 2026-07-17 (target 2027-01-13, partial), return 0.0%
+- GOOGL: 2026-07-17 -> 2026-07-17 (target 2027-01-13, partial), return 0.0%
 
 ## Growth Pattern Match
 
@@ -104,12 +96,10 @@
 
 ### Holdings
 
-- AMD: weight 0.333333, score 76, confidence High
-- GOOGL: weight 0.333333, score 71, confidence High
-- AAPL: weight 0.333333, score 70, confidence High
+- AMD: weight 0.5, score 76, confidence High
+- GOOGL: weight 0.5, score 71, confidence High
 
 ### Trades
 
-- AMD: 2026-07-16 -> 2026-07-16 (target 2027-01-12, partial), return 0.0%
-- GOOGL: 2026-07-16 -> 2026-07-16 (target 2027-01-12, partial), return 0.0%
-- AAPL: 2026-07-16 -> 2026-07-16 (target 2027-01-12, partial), return 0.0%
+- AMD: 2026-07-17 -> 2026-07-17 (target 2027-01-13, partial), return 0.0%
+- GOOGL: 2026-07-17 -> 2026-07-17 (target 2027-01-13, partial), return 0.0%

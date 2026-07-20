@@ -1,36 +1,37 @@
 # Cybersecurity
 
-- Target companies: 2
-- Average Score: 74.50
-- Average Discovery: 67.50
-- Momentum: -1.85
+- Target companies: 3
+- Average Score: 71.67
+- Average Discovery: 68.00
+- Momentum: -4.66
 - Confidence: Medium
 
 ## Companies
 
 - GOOGL - Alphabet Inc. (Low): Keyword: cybersecurity
-- MSFT - Microsoft Corporation (Medium): Keyword: security; Sector alignment: Technology
+- MSFT - Microsoft Corporation (Medium): Keyword: cybersecurity; Keyword: security; Sector alignment: Technology
+- NVDA - NVIDIA Corporation (Medium): Keyword: cybersecurity; Sector alignment: Technology
 
 ## Market
 
-- Communication Services: score 74.50, momentum 3.97, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
-- Technology: score 71.25, momentum 0.48, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 74.50, momentum 0.27, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 68.75, momentum 1.76, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- MSFT: Why Apple’s ‘Standard Oil’ Strategy Is Driving the Stock to All-Time Highs
-- MSFT: Silicon Valley Midas Investor Michael Moritz on AI, Venture Capital, and Just About Everything
-- MSFT: Wall Street explores tokenization of assets
-- GOOGL: Meta's data center plans could help solve its AI spending problems
-- GOOGL: Stock market today: Dow, S&P 500, Nasdaq drop as chip stocks tumble, Alphabet stock sinks
+- NVDA: CrowdStrike vs. NVIDIA: Which Growth Tech Stock Is a Better Buy in 2026, the Cybersecurity Giant or AI Leader?
+- NVDA: UiPath Vs. ServiceNow: Which Agentic AI Stock Is the Better Buy?
+- GOOGL: Stock Market Today, July 17: Stocks Slide as Semiconductor Rout Deepens
+- MSFT: Meta in talks to rent some of its billions in AI infrastructure to Anthropic
+- GOOGL: How Starlink is SpaceX's key to making big 'star bucks'
 
 ## Similar Themes
 
-- Healthcare: 0.919 (Shared companies: MSFT; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Energy: 0.792 (Shared companies: GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score)
-- Space: 0.703 (Shared companies: GOOGL; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
-- EV: 0.638 (Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- AI: 0.59 (Shared companies: GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- Space: 0.956 (Shared companies: GOOGL, MSFT, NVDA; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- AI: 0.912 (Shared companies: GOOGL, MSFT, NVDA; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cloud: 0.898 (Shared companies: GOOGL, MSFT, NVDA; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- Semiconductor: 0.898 (Shared companies: GOOGL, MSFT, NVDA; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- Robotics: 0.891 (Shared companies: NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
 
 ## Review Note
 

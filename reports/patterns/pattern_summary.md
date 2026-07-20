@@ -6,7 +6,7 @@
 - Sector patterns: 3
 - Market patterns: 1
 - Event patterns: 1
-- Discovery history snapshots: 15
+- Discovery history snapshots: 16
 - Time Machine reports: 0
 - Learning history entries: 0
 
