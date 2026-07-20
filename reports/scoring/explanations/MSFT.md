@@ -7,6 +7,7 @@
 - Company: Microsoft Corporation
 - Total Score: 68 / 100
 - Confidence: High
+- Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
@@ -18,6 +19,16 @@ High
 - 利用可能な主要データ領域は5領域中 5 領域です。
 - 欠損または計算不可の項目数は 0 件です。
 - 主要データが比較的そろっており、説明可能性は高めです。
+- Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
+
+## Signal Strength
+
+Strong
+
+理由
+
+- データが確認できた 100 点満点のうち 68 点を獲得し、シグナル充足率は 68.0% です。
+- シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
@@ -79,18 +90,14 @@ Evidence
 
 ## Valuation
 
-18点
+12点
 
 理由
 
-- セクター比較対象が 4 社のため、PER は固定閾値で評価しています。
-- PER は 23.43 で、評価ルール上は過度な割高さが抑えられています。
-- セクター比較対象が 4 社のため、Forward PER は固定閾値で評価しています。
-- Forward PER は 20.32 で、評価ルール上は過度な割高さが抑えられています。
-- セクター比較対象が 4 社のため、PEG は固定閾値で評価しています。
-- PEG は 1.19 で、バリュエーション面は中立から注意寄りです。
-- セクター比較対象が 4 社のため、PBR は固定閾値で評価しています。
-- PBR は 7.06 で、評価ルール上は過度な割高さが抑えられています。
+- PER はセクター内 42.86 パーセンタイル / 母数 15 で、中位レンジです。
+- Forward PER はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。
+- PEG はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。
+- PBR はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -100,23 +107,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 23.4277
-- forward_pe: 20.3246
-- peg_ratio: 1.1900
-- price_to_book: 7.0606
-- sector_peer_count: 4
+- trailing_pe: 23.9744
+- forward_pe: 20.7569
+- peg_ratio: 1.2100
+- price_to_book: 7.2125
+- sector_peer_count: 16
+- trailing_pe_percentile: 42.8600
+- trailing_pe_peer_count: 15
+- forward_pe_percentile: 53.3300
+- forward_pe_peer_count: 16
+- peg_ratio_percentile: 66.6700
+- peg_ratio_peer_count: 16
+- price_to_book_percentile: 26.6700
+- price_to_book_peer_count: 16
 
 ## Momentum
 
-3点
+4点
 
 理由
 
-- 1M の対SPY超過リターンは +0.68pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -12.29pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -22.13pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -41.88pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.77 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは +5.76pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -9.41pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -19.28pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -40.22pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.65 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -125,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: -0.0025
-- 3M: -6.0884
-- 6M: -13.8896
-- 1Y: -21.4893
+- 1M: 6.1703
+- 3M: -4.6427
+- 6M: -11.5137
+- 1Y: -20.7537
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.68, '3M': 6.21, '6M': 8.24, '1Y': 20.39}
-- excess_returns: {'1M': 0.68, '3M': -12.29, '6M': -22.13, '1Y': -41.88}
-- latest_volume: 32,987,687.0000
-- average_volume_30d: 42,884,399.5667
+- benchmark_returns: {'1M': 0.41, '3M': 4.77, '6M': 7.77, '1Y': 19.47}
+- excess_returns: {'1M': 5.76, '3M': -9.41, '6M': -19.28, '1Y': -40.22}
+- latest_volume: 27,729,614.0000
+- average_volume_30d: 42,912,823.8000
 
 ## News
 
-11点
+16点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 7 件、悪材料 1 件(純比率 +0.75)で、センチメントは 7.0 点です。
-- イベント後の平均株価反応が -1.82% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 6 件、悪材料 1 件(純比率 +0.71)で、センチメントは 6.8 点です。
+- イベント後の平均株価反応が 2.15% とプラスです。
 
 Evidence
 
@@ -154,11 +169,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 7
+- positive_count: 6
 - negative_count: 1
-- sentiment_net_ratio: 0.7500
+- sentiment_net_ratio: 0.7100
 - event_count: 10
-- events_with_price_reaction: 1
+- events_with_price_reaction: 3
 
 ## Note
 

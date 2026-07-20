@@ -5,8 +5,9 @@
 ## Summary
 
 - Company: Apple Inc.
-- Total Score: 62 / 100
+- Total Score: 56 / 100
 - Confidence: High
+- Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
@@ -18,6 +19,16 @@ High
 - 利用可能な主要データ領域は5領域中 5 領域です。
 - 欠損または計算不可の項目数は 0 件です。
 - 主要データが比較的そろっており、説明可能性は高めです。
+- Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
+
+## Signal Strength
+
+Moderate
+
+理由
+
+- データが確認できた 100 点満点のうち 56 点を獲得し、シグナル充足率は 56.0% です。
+- シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
@@ -78,18 +89,14 @@ Evidence
 
 ## Valuation
 
-6点
+3点
 
 理由
 
-- セクター比較対象が 4 社のため、PER は固定閾値で評価しています。
-- PER は 40.40 で、バリュエーション面は中立から注意寄りです。
-- セクター比較対象が 4 社のため、Forward PER は固定閾値で評価しています。
-- Forward PER は 34.63 で、バリュエーション面は中立から注意寄りです。
-- セクター比較対象が 4 社のため、PEG は固定閾値で評価しています。
-- PEG は 2.54 で、バリュエーション面は中立から注意寄りです。
-- セクター比較対象が 4 社のため、PBR は固定閾値で評価しています。
-- PBR は 45.97 で、バリュエーション面は中立から注意寄りです。
+- PER はセクター内 64.29 パーセンタイル / 母数 15 で、中位レンジです。
+- Forward PER はセクター内 86.67 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
+- PEG はセクター内 100.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
+- PBR はセクター内 100.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -99,23 +106,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 40.4044
-- forward_pe: 34.6250
-- peg_ratio: 2.5400
-- price_to_book: 45.9697
-- sector_peer_count: 4
+- trailing_pe: 39.6347
+- forward_pe: 33.8816
+- peg_ratio: 2.6900
+- price_to_book: 44.9848
+- sector_peer_count: 16
+- trailing_pe_percentile: 64.2900
+- trailing_pe_peer_count: 15
+- forward_pe_percentile: 86.6700
+- forward_pe_peer_count: 16
+- peg_ratio_percentile: 100
+- peg_ratio_peer_count: 16
+- price_to_book_percentile: 100
+- price_to_book_peer_count: 16
 
 ## Momentum
 
-15点
+14点
 
 理由
 
-- 1M の対SPY超過リターンが +12.21pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンが +20.62pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +20.38pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンが +39.04pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 1.02 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +9.94pt で、市場並み以上です。
+- 3M の対SPY超過リターンが +16.20pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +18.95pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンが +36.65pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.82 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -124,25 +139,25 @@ Evidence
 
 使用データ
 
-- 1M: 11.5292
-- 3M: 26.8214
-- 6M: 28.6198
-- 1Y: 59.4328
+- 1M: 10.3531
+- 3M: 20.9677
+- 6M: 26.7173
+- 1Y: 56.1211
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.68, '3M': 6.21, '6M': 8.24, '1Y': 20.39}
-- excess_returns: {'1M': 12.21, '3M': 20.62, '6M': 20.38, '1Y': 39.04}
-- latest_volume: 63,325,386.0000
-- average_volume_30d: 62,299,142.8667
+- benchmark_returns: {'1M': 0.41, '3M': 4.77, '6M': 7.77, '1Y': 19.47}
+- excess_returns: {'1M': 9.94, '3M': 16.2, '6M': 18.95, '1Y': 36.65}
+- latest_volume: 51,014,085.0000
+- average_volume_30d: 62,505,306.1667
 
 ## News
 
-12点
+10点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 2 件(純比率 +0.20)で、センチメントは 4.8 点です。
-- イベント後の平均株価反応が 0.14% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 2 件(純比率 +0.43)で、センチメントは 5.7 点です。
+- イベント後の平均株価反応が -2.14% と弱く、注意が必要です。
 
 Evidence
 
@@ -153,11 +168,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 3
+- positive_count: 5
 - negative_count: 2
-- sentiment_net_ratio: 0.2000
+- sentiment_net_ratio: 0.4300
 - event_count: 10
-- events_with_price_reaction: 1
+- events_with_price_reaction: 5
 
 ## Note
 

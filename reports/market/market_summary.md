@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 8
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 0.27%
+- 市場全体の1Mモメンタム平均: 2.89%
 - ニュース件数: 80
 - Event数: 80
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-07-17T22:07:00+00:00 / TSLA / TheStreet: Waymo wears out its welcome in major U.S. city as mayor responds
-- 2026-07-17T21:59:01+00:00 / NVDA / Motley Fool: CrowdStrike vs. NVIDIA: Which Growth Tech Stock Is a Better Buy in 2026, the Cybersecurity Giant or AI Leader?
-- 2026-07-17T21:44:00+00:00 / NVDA / Motley Fool: UiPath Vs. ServiceNow: Which Agentic AI Stock Is the Better Buy?
-- 2026-07-17T21:33:59+00:00 / NVDA / Motley Fool: Stock Market Today, July 17: Stocks Slide as Semiconductor Rout Deepens
-- 2026-07-17T21:33:59+00:00 / AMD / Motley Fool: Stock Market Today, July 17: Stocks Slide as Semiconductor Rout Deepens
+- 2026-07-20T22:30:00+00:00 / NVDA / Motley Fool: Moderna Is Up 109% in 2026. Jim Cramer Just Called It 'Finally Investable Again.' Is the Stock a No-Brainer Buy on Its Recent Pullback?
+- 2026-07-20T22:17:56+00:00 / AMD / Motley Fool: Stock Market Today, July 20: Hut 8  Surges 10% as Geopolitical Tensions Weigh on Broader Market
+- 2026-07-20T22:17:56+00:00 / GOOGL / Motley Fool: Stock Market Today, July 20: Hut 8  Surges 10% as Geopolitical Tensions Weigh on Broader Market
+- 2026-07-20T22:17:22+00:00 / NVDA / Motley Fool: Is Domino's Pizza a Buy After Its Latest Earnings Report?
+- 2026-07-20T22:15:00+00:00 / AAPL / Yahoo Finance Video: Is the collectibles market in a bubble? Realest CEO says memorabilia is 'wildly undervalued'
 
 ### 注目イベント
 
-- 2026-07-17T19:31:35+00:00 / META: Sector Update: Tech Stocks Fall Late Afternoon (株価反応: -2.79%, 出来高: 20.97M)
-- 2026-07-17T18:52:00+00:00 / META: Meta’s Next $10 Billion Deal? Why Anthropic May Rent AI Hardware From Zuckerberg. (株価反応: -2.79%, 出来高: 20.97M)
-- 2026-07-17T19:16:52+00:00 / TSLA: TSLA Stock Slips — Investors Await Tesla’s Q2 Earnings And Semi Progress (株価反応: -2.61%, 出来高: 29.96M)
-- 2026-07-17T13:09:20+00:00 / NVDA: Semiconductor stocks trim losses as investors buy the dip (株価反応: -2.21%, 出来高: 138.21M)
-- 2026-07-17T13:18:09+00:00 / GOOGL: Oracle's stock crash looks embarrassing for billionaire founder Larry Ellison (株価反応: -2.17%, 出来高: 29.85M)
+- 2026-07-20T14:47:35+00:00 / TSLA: Tesla earnings review: 2 key things to watch (株価反応: -2.96%, 出来高: 32.89M)
+- 2026-07-20T11:53:24+00:00 / TSLA: Earnings live: AMC stock soars 26% on 'superb' Q2, Domino's stock rises (株価反応: -2.96%, 出来高: 32.89M)
+- 2026-07-20T00:00:00+00:00 / TSLA: Tesla, Alphabet, Intel, GM: Earnings to watch this week (株価反応: -2.96%, 出来高: 32.89M)
+- 2026-07-20T16:55:52+00:00 / MSFT: Why it's time to retire the 'Magnificent 7' name: Strategist (株価反応: 2.15%, 出来高: 27.73M)
+- 2026-07-20T16:43:34+00:00 / MSFT: Tech stocks live: Chip stocks recover from last week's losses on Google, AMD news (株価反応: 2.15%, 出来高: 27.73M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 2 | 74.50 | 24.96 | 20.32 | 0.27% | 20 |
-| Consumer Cyclical | 2 | 59.00 | 189.47 | 4.73 | -2.69% | 20 |
-| Technology | 4 | 68.75 | 64.90 | 8.65 | 1.76% | 40 |
+| Communication Services | 2 | 63.50 | 25.16 | 20.31 | 5.27% | 20 |
+| Consumer Cyclical | 2 | 57.00 | 182.94 | 4.73 | -0.75% | 20 |
+| Technology | 4 | 66.50 | 65.37 | 8.64 | 3.53% | 40 |
 
 ## 市場トレンド
 
