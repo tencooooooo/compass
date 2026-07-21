@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 8
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 2.89%
+- 市場全体の1Mモメンタム平均: 2.04%
 - ニュース件数: 80
 - Event数: 80
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-07-20T22:30:00+00:00 / NVDA / Motley Fool: Moderna Is Up 109% in 2026. Jim Cramer Just Called It 'Finally Investable Again.' Is the Stock a No-Brainer Buy on Its Recent Pullback?
-- 2026-07-20T22:17:56+00:00 / AMD / Motley Fool: Stock Market Today, July 20: Hut 8  Surges 10% as Geopolitical Tensions Weigh on Broader Market
-- 2026-07-20T22:17:56+00:00 / GOOGL / Motley Fool: Stock Market Today, July 20: Hut 8  Surges 10% as Geopolitical Tensions Weigh on Broader Market
-- 2026-07-20T22:17:22+00:00 / NVDA / Motley Fool: Is Domino's Pizza a Buy After Its Latest Earnings Report?
-- 2026-07-20T22:15:00+00:00 / AAPL / Yahoo Finance Video: Is the collectibles market in a bubble? Realest CEO says memorabilia is 'wildly undervalued'
+- 2026-07-21T22:35:00+00:00 / NVDA / Motley Fool: Jamie Dimon's Latest Warning Sends Shockwaves Through Wall Street. History Is Very Clear About What Happens Next.
+- 2026-07-21T22:30:00+00:00 / NVDA / Motley Fool: Prediction: MercadoLibre Stock Could Soar in the Next 5 Years if This Happens
+- 2026-07-21T22:21:48+00:00 / MSFT / Investing.com: Nvidia Vera Rubin shown to provide 10x more throughput per megawatt than Blackwell
+- 2026-07-21T22:21:48+00:00 / NVDA / Investing.com: Nvidia Vera Rubin shown to provide 10x more throughput per megawatt than Blackwell
+- 2026-07-21T22:20:44+00:00 / NVDA / Motley Fool: Why Tutor Perini Stock Trounced the Market on Tuesday
 
 ### 注目イベント
 
-- 2026-07-20T14:47:35+00:00 / TSLA: Tesla earnings review: 2 key things to watch (株価反応: -2.96%, 出来高: 32.89M)
-- 2026-07-20T11:53:24+00:00 / TSLA: Earnings live: AMC stock soars 26% on 'superb' Q2, Domino's stock rises (株価反応: -2.96%, 出来高: 32.89M)
-- 2026-07-20T00:00:00+00:00 / TSLA: Tesla, Alphabet, Intel, GM: Earnings to watch this week (株価反応: -2.96%, 出来高: 32.89M)
-- 2026-07-20T16:55:52+00:00 / MSFT: Why it's time to retire the 'Magnificent 7' name: Strategist (株価反応: 2.15%, 出来高: 27.73M)
-- 2026-07-20T16:43:34+00:00 / MSFT: Tech stocks live: Chip stocks recover from last week's losses on Google, AMD news (株価反応: 2.15%, 出来高: 27.73M)
+- 2026-07-21T19:12:00+00:00 / AMD: Chip Stocks Are Rebounding - Should Investors Buy Intel (INTC) Before Q2 Earnings? (株価反応: 8.11%, 出来高: 27.22M)
+- 2026-07-21T19:00:00+00:00 / AMD: NVIDIA Isn't Leading AI Stocks in 2026 - These 2 Are Up Over 180% (株価反応: 8.11%, 出来高: 27.22M)
+- 2026-07-21T18:27:00+00:00 / AMD: TSMC Is Raising Prices. Can Big Tech’s AI Boom Afford the Bill? (株価反応: 8.11%, 出来高: 27.22M)
+- 2026-07-21T18:03:00+00:00 / AMD: AMD just landed its biggest AI deal yet (株価反応: 8.11%, 出来高: 27.22M)
+- 2026-07-21T13:47:16+00:00 / TSLA: GM earnings & outlook impressed, thanks to lower tariffs. But don't get too comfortable. (株価反応: 2.53%, 出来高: 31.14M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 2 | 63.50 | 25.16 | 20.31 | 5.27% | 20 |
-| Consumer Cyclical | 2 | 57.00 | 182.94 | 4.73 | -0.75% | 20 |
-| Technology | 4 | 66.50 | 65.37 | 8.64 | 3.53% | 40 |
+| Communication Services | 2 | 63.00 | 24.96 | 20.30 | 2.93% | 20 |
+| Consumer Cyclical | 2 | 61.00 | 191.89 | 4.71 | -2.05% | 20 |
+| Technology | 4 | 64.00 | 68.85 | 8.65 | 3.63% | 40 |
 
 ## 市場トレンド
 

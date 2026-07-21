@@ -6,8 +6,8 @@
 
 - 対象企業数: 8
 - セクター数: 3
-- 市場平均スコア: 63.375
-- 1M市場モメンタム平均: 2.8946396046755614
+- 市場平均スコア: 63.0
+- 1M市場モメンタム平均: 2.0356631006159294
 - ニュース件数: 80
 - Event数: 80
 
@@ -15,12 +15,10 @@
 
 | Ticker | Company | Sector | Discovery Score | Status | Confidence | Signal |
 | --- | --- | --- | --- | --- | --- | --- |
-| AMD | Advanced Micro Devices, Inc. | Technology | 77 | Primary Candidate | High | Strong |
-| GOOGL | Alphabet Inc. | Communication Services | 68 | Watch Candidate | High | Strong |
-| NVDA | NVIDIA Corporation | Technology | 66 | Watch Candidate | High | Strong |
-| AAPL | Apple Inc. | Technology | 64 | Watch Candidate | High | Strong |
-| MSFT | Microsoft Corporation | Technology | 63 | Watch Candidate | High | Strong |
-| AMZN | Amazon.com, Inc. | Consumer Cyclical | 61 | Watch Candidate | Medium | Strong |
+| AMD | Advanced Micro Devices, Inc. | Technology | 81 | Primary Candidate | High | Strong |
+| AAPL | Apple Inc. | Technology | 67 | Watch Candidate | High | Strong |
+| GOOGL | Alphabet Inc. | Communication Services | 62 | Watch Candidate | Medium | Strong |
+| META | Meta Platforms, Inc. | Communication Services | 62 | Watch Candidate | High | Strong |
 
 ## Top Candidate
 
