@@ -6,33 +6,10 @@
 
 - 銘柄数: 2
 - 銘柄: GOOGL, META
-- 平均スコア: 63.00
-- 平均PER: 24.96
-- 平均EPS: 20.30
-- 平均1Mモメンタム: 2.93%
-- ニュース件数: 20
-
-### Trend
-
-- Momentum: Positive
-- News: High
-- Financial Health: Good
-
-### Companies
-
-| Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
-| --- | --- | --- | --- | --- | --- | --- |
-| GOOGL | Alphabet Inc. | 59.00 | 26.52 | 13.09 | -5.67% | 10 |
-| META | Meta Platforms, Inc. | 67.00 | 23.40 | 27.51 | 11.54% | 10 |
-
-## Consumer Cyclical
-
-- 銘柄数: 2
-- 銘柄: AMZN, TSLA
-- 平均スコア: 61.00
-- 平均PER: 191.89
-- 平均EPS: 4.71
-- 平均1Mモメンタム: -2.05%
+- 平均スコア: 60.00
+- 平均PER: 19.00
+- 平均EPS: 23.70
+- 平均1Mモメンタム: -0.20%
 - ニュース件数: 20
 
 ### Trend
@@ -45,17 +22,40 @@
 
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| AMZN | Amazon.com, Inc. | 69.00 | 29.65 | 8.35 | 1.29% | 10 |
-| TSLA | Tesla, Inc. | 53.00 | 354.14 | 1.07 | -5.38% | 10 |
+| GOOGL | Alphabet Inc. | 57.00 | 15.93 | 19.94 | -8.22% | 10 |
+| META | Meta Platforms, Inc. | 63.00 | 22.06 | 27.47 | 7.81% | 10 |
+
+## Consumer Cyclical
+
+- 銘柄数: 2
+- 銘柄: AMZN, TSLA
+- 平均スコア: 57.00
+- 平均PER: 162.00
+- 平均EPS: 4.71
+- 平均1Mモメンタム: -8.21%
+- ニュース件数: 20
+
+### Trend
+
+- Momentum: Weak
+- News: High
+- Financial Health: Good
+
+### Companies
+
+| Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
+| --- | --- | --- | --- | --- | --- | --- |
+| AMZN | Amazon.com, Inc. | 65.00 | 27.98 | 8.35 | -0.19% | 10 |
+| TSLA | Tesla, Inc. | 49.00 | 296.01 | 1.08 | -16.23% | 10 |
 
 ## Technology
 
 - 銘柄数: 4
 - 銘柄: AAPL, MSFT, NVDA, AMD
-- 平均スコア: 64.00
-- 平均PER: 68.85
-- 平均EPS: 8.65
-- 平均1Mモメンタム: 3.63%
+- 平均スコア: 63.00
+- 平均PER: 68.70
+- 平均EPS: 8.63
+- 平均1Mモメンタム: 4.88%
 - ニュース件数: 40
 
 ### Trend
@@ -68,7 +68,7 @@
 
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| AAPL | Apple Inc. | 58.00 | 39.68 | 8.26 | 9.98% | 10 |
-| MSFT | Microsoft Corporation | 62.00 | 23.70 | 16.78 | 4.84% | 10 |
-| NVDA | NVIDIA Corporation | 61.00 | 31.74 | 6.53 | -1.61% | 10 |
-| AMD | Advanced Micro Devices, Inc. | 75.00 | 180.27 | 3.02 | 1.31% | 10 |
+| AAPL | Apple Inc. | 53.00 | 38.99 | 8.25 | 9.30% | 10 |
+| MSFT | Microsoft Corporation | 63.00 | 22.74 | 16.78 | 2.04% | 10 |
+| NVDA | NVIDIA Corporation | 65.00 | 31.97 | 6.53 | 4.36% | 10 |
+| AMD | Advanced Micro Devices, Inc. | 71.00 | 181.10 | 2.98 | 3.82% | 10 |

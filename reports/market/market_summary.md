@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 8
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 2.04%
+- 市場全体の1Mモメンタム平均: 0.34%
 - ニュース件数: 80
 - Event数: 80
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,39 +21,39 @@
 
 ### 注目ニュース
 
-- 2026-07-21T22:35:00+00:00 / NVDA / Motley Fool: Jamie Dimon's Latest Warning Sends Shockwaves Through Wall Street. History Is Very Clear About What Happens Next.
-- 2026-07-21T22:30:00+00:00 / NVDA / Motley Fool: Prediction: MercadoLibre Stock Could Soar in the Next 5 Years if This Happens
-- 2026-07-21T22:21:48+00:00 / MSFT / Investing.com: Nvidia Vera Rubin shown to provide 10x more throughput per megawatt than Blackwell
-- 2026-07-21T22:21:48+00:00 / NVDA / Investing.com: Nvidia Vera Rubin shown to provide 10x more throughput per megawatt than Blackwell
-- 2026-07-21T22:20:44+00:00 / NVDA / Motley Fool: Why Tutor Perini Stock Trounced the Market on Tuesday
+- 2026-07-23T22:34:00+00:00 / AMD / Stocktwits: S&P 500, Dow, Nasdaq End Lower Over Capex Concerns, Surging Oil — CBRS, AMD, GOOGL, TSLA, MSTR In Focus
+- 2026-07-23T22:34:00+00:00 / GOOGL / Stocktwits: S&P 500, Dow, Nasdaq End Lower Over Capex Concerns, Surging Oil — CBRS, AMD, GOOGL, TSLA, MSTR In Focus
+- 2026-07-23T22:34:00+00:00 / TSLA / Stocktwits: S&P 500, Dow, Nasdaq End Lower Over Capex Concerns, Surging Oil — CBRS, AMD, GOOGL, TSLA, MSTR In Focus
+- 2026-07-23T22:28:54+00:00 / AAPL / Axios: Europe just fined Google $1 billion, the day before Trump is expected to announce tariffs
+- 2026-07-23T22:28:54+00:00 / GOOGL / Axios: Europe just fined Google $1 billion, the day before Trump is expected to announce tariffs
 
 ### 注目イベント
 
-- 2026-07-21T19:12:00+00:00 / AMD: Chip Stocks Are Rebounding - Should Investors Buy Intel (INTC) Before Q2 Earnings? (株価反応: 8.11%, 出来高: 27.22M)
-- 2026-07-21T19:00:00+00:00 / AMD: NVIDIA Isn't Leading AI Stocks in 2026 - These 2 Are Up Over 180% (株価反応: 8.11%, 出来高: 27.22M)
-- 2026-07-21T18:27:00+00:00 / AMD: TSMC Is Raising Prices. Can Big Tech’s AI Boom Afford the Bill? (株価反応: 8.11%, 出来高: 27.22M)
-- 2026-07-21T18:03:00+00:00 / AMD: AMD just landed its biggest AI deal yet (株価反応: 8.11%, 出来高: 27.22M)
-- 2026-07-21T13:47:16+00:00 / TSLA: GM earnings & outlook impressed, thanks to lower tariffs. But don't get too comfortable. (株価反応: 2.53%, 出来高: 31.14M)
+- 2026-07-23T15:15:00+00:00 / TSLA: How Tesla's robotaxi struggle is akin to the Apple vs. Google Maps rivalry (株価反応: -14.52%, 出来高: 115.04M)
+- 2026-07-23T14:09:18+00:00 / TSLA: Earnings: Negative cash flows make Big Tech more 'economically sensitive' (株価反応: -14.52%, 出来高: 115.04M)
+- 2026-07-22T23:22:40+00:00 / TSLA: Tesla-SpaceX merger? Musk cites 'more and more overlap' (株価反応: -14.52%, 出来高: 115.04M)
+- 2026-07-23T16:08:00+00:00 / GOOGL: Google, Amazon, Meta, & Microsoft will spend 'unprecedented' $1T on AI capex in 2027: Analyst (株価反応: -7.13%, 出来高: 69.06M)
+- 2026-07-23T14:26:45+00:00 / GOOGL: Wonder CEO Marc Lore on $650M funding round, $9B valuation (株価反応: -7.13%, 出来高: 69.06M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 2 | 63.00 | 24.96 | 20.30 | 2.93% | 20 |
-| Consumer Cyclical | 2 | 61.00 | 191.89 | 4.71 | -2.05% | 20 |
-| Technology | 4 | 64.00 | 68.85 | 8.65 | 3.63% | 40 |
+| Communication Services | 2 | 60.00 | 19.00 | 23.70 | -0.20% | 20 |
+| Consumer Cyclical | 2 | 57.00 | 162.00 | 4.71 | -8.21% | 20 |
+| Technology | 4 | 63.00 | 68.70 | 8.63 | 4.88% | 40 |
 
 ## 市場トレンド
 
 | セクター | Momentum | News | Financial Health |
 | --- | --- | --- | --- |
-| Communication Services | Positive | High | Good |
+| Communication Services | Weak | High | Good |
 | Consumer Cyclical | Weak | High | Good |
 | Technology | Positive | High | Good |
 
 ## 市場心理
 
-市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 80 件で、ポジティブなモメンタムのセクターは 2/3 です。
+市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 80 件で、ポジティブなモメンタムのセクターは 1/3 です。
 
 参照Knowledge: market_psychology.md
 

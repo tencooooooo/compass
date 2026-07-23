@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Alphabet Inc.
-- Total Score: 59 / 100
+- Total Score: 57 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 59 点を獲得し、シグナル充足率は 59.0% です。
+- データが確認できた 100 点満点のうち 57 点を獲得し、シグナル充足率は 57.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -36,10 +36,9 @@ Moderate
 
 理由
 
-- revenue_growth(直近4四半期平均) は 15.89% で、+15%以上の成長です。
-- eps_growth(直近4四半期平均) は 47.03% で、+30%以上の高成長です。
-- revenue_growth は直近四半期が前四半期より +5.84pt 高く、成長の加速がみられます。
-- eps_growth は直近四半期が前四半期より +46.47pt 高く、成長の加速がみられます。
+- revenue_growth(直近4四半期平均) は 18.94% で、+15%以上の成長です。
+- eps_growth(直近4四半期平均) は 108.46% で、+30%以上の高成長です。
+- eps_growth は直近四半期が前四半期より +212.52pt 高く、成長の加速がみられます。
 - 純利益 がプラスで確認できるため加点しています。
 - 営業利益 がプラスで確認できるため加点しています。
 - 研究開発費が確認でき、将来成長への投資が続いています。
@@ -57,12 +56,12 @@ Evidence
 - net_income: 132,170,000,000.0000
 - operating_income: 129,039,000,000.0000
 - research_and_development: 61,087,000,000.0000
-- revenue_yoy_growth: 21.7900
-- eps_yoy_growth: 81.8500
-- revenue_yoy_growth_avg: 15.8900
-- eps_yoy_growth_avg: 47.0300
-- revenue_growth_quarters: ['2026-Q1', '2025-Q3', '2025-Q2', '2025-Q1']
-- eps_growth_quarters: ['2026-Q1', '2025-Q3', '2025-Q2', '2025-Q1']
+- revenue_yoy_growth: 24.2300
+- eps_yoy_growth: 294.3700
+- revenue_yoy_growth_avg: 18.9400
+- eps_yoy_growth_avg: 108.4600
+- revenue_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
+- eps_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
 
 ## Financial Health
 
@@ -95,13 +94,13 @@ Evidence
 
 ## Valuation
 
-3点
+6点
 
 理由
 
-- PER はセクター内 88.89 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
-- Forward PER はセクター内 100.00 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
-- PEG はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
+- PER はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
+- Forward PER はセクター内 88.89 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
+- PEG はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
 - PBR はセクター内 88.89 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -112,31 +111,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 26.5202
-- forward_pe: 23.6980
+- trailing_pe: 15.9323
+- forward_pe: 21.5338
 - peg_ratio: 1.3700
-- price_to_book: 8.7855
+- price_to_book: 8.0399
 - sector_peer_count: 10
-- trailing_pe_percentile: 88.8900
+- trailing_pe_percentile: 55.5600
 - trailing_pe_peer_count: 10
-- forward_pe_percentile: 100
+- forward_pe_percentile: 88.8900
 - forward_pe_peer_count: 10
-- peg_ratio_percentile: 66.6700
+- peg_ratio_percentile: 55.5600
 - peg_ratio_peer_count: 10
 - price_to_book_percentile: 88.8900
 - price_to_book_peer_count: 10
 
 ## Momentum
 
-7点
+8点
 
 理由
 
-- 1M の対SPY超過リターンは -5.88pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -2.91pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -3.43pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンが +67.57pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.68 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -8.84pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -10.38pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -11.40pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンが +47.82pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 2.00 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -145,25 +144,25 @@ Evidence
 
 使用データ
 
-- 1M: -5.6735
-- 3M: 2.9451
-- 6M: 5.3339
-- 1Y: 88.1229
+- 1M: -8.2166
+- 3M: -6.3186
+- 6M: -3.1294
+- 1Y: 66.5079
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.21, '3M': 5.85, '6M': 8.76, '1Y': 20.55}
-- excess_returns: {'1M': -5.88, '3M': -2.91, '6M': -3.43, '1Y': 67.57}
-- latest_volume: 22,327,729.0000
-- average_volume_30d: 32,714,460.9667
+- benchmark_returns: {'1M': 0.63, '3M': 4.06, '6M': 8.27, '1Y': 18.68}
+- excess_returns: {'1M': -8.84, '3M': -10.38, '6M': -11.4, '1Y': 47.82}
+- latest_volume: 69,055,767.0000
+- average_volume_30d: 34,446,272.2333
 
 ## News
 
-15点
+9点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 2 件(純比率 +0.43)で、センチメントは 5.7 点です。
-- イベント後の平均株価反応が 1.51% とプラスです。
+- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 3 件(純比率 +0.14)で、センチメントは 4.6 点です。
+- イベント後の平均株価反応が -3.55% と弱く、注意が必要です。
 
 Evidence
 
@@ -174,11 +173,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 5
-- negative_count: 2
-- sentiment_net_ratio: 0.4300
+- positive_count: 4
+- negative_count: 3
+- sentiment_net_ratio: 0.1400
 - event_count: 10
-- events_with_price_reaction: 1
+- events_with_price_reaction: 4
 
 ## Note
 
