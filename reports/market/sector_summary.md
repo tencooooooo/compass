@@ -6,10 +6,10 @@
 
 - 銘柄数: 2
 - 銘柄: GOOGL, META
-- 平均スコア: 60.00
-- 平均PER: 19.00
-- 平均EPS: 23.70
-- 平均1Mモメンタム: -0.20%
+- 平均スコア: 60.50
+- 平均PER: 18.84
+- 平均EPS: 23.72
+- 平均1Mモメンタム: -0.34%
 - ニュース件数: 20
 
 ### Trend
@@ -22,17 +22,17 @@
 
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| GOOGL | Alphabet Inc. | 57.00 | 15.93 | 19.94 | -8.22% | 10 |
-| META | Meta Platforms, Inc. | 63.00 | 22.06 | 27.47 | 7.81% | 10 |
+| GOOGL | Alphabet Inc. | 62.00 | 16.05 | 19.92 | -7.40% | 10 |
+| META | Meta Platforms, Inc. | 59.00 | 21.63 | 27.52 | 6.73% | 10 |
 
 ## Consumer Cyclical
 
 - 銘柄数: 2
 - 銘柄: AMZN, TSLA
-- 平均スコア: 57.00
-- 平均PER: 162.00
-- 平均EPS: 4.71
-- 平均1Mモメンタム: -8.21%
+- 平均スコア: 57.50
+- 平均PER: 182.16
+- 平均EPS: 4.65
+- 平均1Mモメンタム: -8.78%
 - ニュース件数: 20
 
 ### Trend
@@ -45,17 +45,17 @@
 
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| AMZN | Amazon.com, Inc. | 65.00 | 27.98 | 8.35 | -0.19% | 10 |
-| TSLA | Tesla, Inc. | 49.00 | 296.01 | 1.08 | -16.23% | 10 |
+| AMZN | Amazon.com, Inc. | 64.00 | 27.73 | 8.37 | -0.92% | 10 |
+| TSLA | Tesla, Inc. | 51.00 | 336.59 | 0.93 | -16.64% | 10 |
 
 ## Technology
 
 - 銘柄数: 4
 - 銘柄: AAPL, MSFT, NVDA, AMD
-- 平均スコア: 63.00
-- 平均PER: 68.70
-- 平均EPS: 8.63
-- 平均1Mモメンタム: 4.88%
+- 平均スコア: 66.00
+- 平均PER: 66.88
+- 平均EPS: 8.65
+- 平均1Mモメンタム: 5.61%
 - ニュース件数: 40
 
 ### Trend
@@ -68,7 +68,7 @@
 
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| AAPL | Apple Inc. | 53.00 | 38.99 | 8.25 | 9.30% | 10 |
-| MSFT | Microsoft Corporation | 63.00 | 22.74 | 16.78 | 2.04% | 10 |
-| NVDA | NVIDIA Corporation | 65.00 | 31.97 | 6.53 | 4.36% | 10 |
-| AMD | Advanced Micro Devices, Inc. | 71.00 | 181.10 | 2.98 | 3.82% | 10 |
+| AAPL | Apple Inc. | 59.00 | 40.27 | 8.27 | 13.63% | 10 |
+| MSFT | Microsoft Corporation | 66.00 | 22.73 | 16.79 | 4.44% | 10 |
+| NVDA | NVIDIA Corporation | 68.00 | 31.68 | 6.53 | 3.94% | 10 |
+| AMD | Advanced Micro Devices, Inc. | 71.00 | 172.83 | 3.02 | 0.43% | 10 |

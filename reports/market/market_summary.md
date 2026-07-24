@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 8
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 0.34%
+- 市場全体の1Mモメンタム平均: 0.52%
 - ニュース件数: 80
 - Event数: 80
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-07-23T22:34:00+00:00 / AMD / Stocktwits: S&P 500, Dow, Nasdaq End Lower Over Capex Concerns, Surging Oil — CBRS, AMD, GOOGL, TSLA, MSTR In Focus
-- 2026-07-23T22:34:00+00:00 / GOOGL / Stocktwits: S&P 500, Dow, Nasdaq End Lower Over Capex Concerns, Surging Oil — CBRS, AMD, GOOGL, TSLA, MSTR In Focus
-- 2026-07-23T22:34:00+00:00 / TSLA / Stocktwits: S&P 500, Dow, Nasdaq End Lower Over Capex Concerns, Surging Oil — CBRS, AMD, GOOGL, TSLA, MSTR In Focus
-- 2026-07-23T22:28:54+00:00 / AAPL / Axios: Europe just fined Google $1 billion, the day before Trump is expected to announce tariffs
-- 2026-07-23T22:28:54+00:00 / GOOGL / Axios: Europe just fined Google $1 billion, the day before Trump is expected to announce tariffs
+- 2026-07-24T22:34:00+00:00 / NVDA / Motley Fool: Elon Musk Wouldn't Rule Out a Tesla-SpaceX Merger on the July 22 Earnings Call. Here's What It Would Mean for the Shares You Own Today.
+- 2026-07-24T22:34:00+00:00 / TSLA / Motley Fool: Elon Musk Wouldn't Rule Out a Tesla-SpaceX Merger on the July 22 Earnings Call. Here's What It Would Mean for the Shares You Own Today.
+- 2026-07-24T22:27:47+00:00 / NVDA / Motley Fool: Why Shattuck Labs Stock Flew Nearly 5% Higher on Friday
+- 2026-07-24T22:27:19+00:00 / NVDA / Insider Monkey: Here’s Why Nebius Group N.V. (NBIS) Is a Speculative Growth Play Backed by Nvidia’s $2 Billion Investment
+- 2026-07-24T22:27:03+00:00 / NVDA / 24/7 Wall St.: When One Spouse Dies, One Social Security Check Disappears. These 3 ETFs Protect the Survivor
 
 ### 注目イベント
 
-- 2026-07-23T15:15:00+00:00 / TSLA: How Tesla's robotaxi struggle is akin to the Apple vs. Google Maps rivalry (株価反応: -14.52%, 出来高: 115.04M)
-- 2026-07-23T14:09:18+00:00 / TSLA: Earnings: Negative cash flows make Big Tech more 'economically sensitive' (株価反応: -14.52%, 出来高: 115.04M)
-- 2026-07-22T23:22:40+00:00 / TSLA: Tesla-SpaceX merger? Musk cites 'more and more overlap' (株価反応: -14.52%, 出来高: 115.04M)
-- 2026-07-23T16:08:00+00:00 / GOOGL: Google, Amazon, Meta, & Microsoft will spend 'unprecedented' $1T on AI capex in 2027: Analyst (株価反応: -7.13%, 出来高: 69.06M)
-- 2026-07-23T14:26:45+00:00 / GOOGL: Wonder CEO Marc Lore on $650M funding round, $9B valuation (株価反応: -7.13%, 出来高: 69.06M)
+- 2026-07-24T19:56:58+00:00 / AAPL: AI spending restraint will reward Magnificent 7 shares, expert says (株価反応: 3.53%, 出来高: 47.40M)
+- 2026-07-24T19:31:36+00:00 / AAPL: Sector Update: Tech Stocks Fall Late Afternoon (株価反応: 3.53%, 出来高: 47.40M)
+- 2026-07-24T18:04:29+00:00 / AAPL: FDVV’s 2.8% yield hides tech mega-cap risk in dividend portfolio (株価反応: 3.53%, 出来高: 47.40M)
+- 2026-07-24T19:49:01+00:00 / AMD: Advanced Micro Devices vs. Alphabet: What Do the Revenue Trajectories of These Artificial Intelligence Companies Tell Investors? (株価反応: -3.29%, 出来高: 27.09M)
+- 2026-07-24T19:04:00+00:00 / AMD: Nvidia Stock Has Been a Chip Stock Outperformer in July. Why Its Rally Is at Risk. (株価反応: -3.29%, 出来高: 27.09M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 2 | 60.00 | 19.00 | 23.70 | -0.20% | 20 |
-| Consumer Cyclical | 2 | 57.00 | 162.00 | 4.71 | -8.21% | 20 |
-| Technology | 4 | 63.00 | 68.70 | 8.63 | 4.88% | 40 |
+| Communication Services | 2 | 60.50 | 18.84 | 23.72 | -0.34% | 20 |
+| Consumer Cyclical | 2 | 57.50 | 182.16 | 4.65 | -8.78% | 20 |
+| Technology | 4 | 66.00 | 66.88 | 8.65 | 5.61% | 40 |
 
 ## 市場トレンド
 
