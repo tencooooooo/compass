@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from typing import Any
 
+from utils.report_text import sanitize_report_text
+
 
 def format_number(value: Any) -> str:
     if value is None:
@@ -83,7 +85,7 @@ def top_news_lines(top_news: list[dict[str, Any]]) -> list[str]:
         return ["- 注目ニュースは取得できていません。"]
     lines = []
     for item in top_news:
-        title = item.get("title") or "タイトル不明"
+        title = sanitize_report_text(item.get("title")) or "タイトル不明"
         ticker = item.get("ticker") or "N/A"
         publisher = item.get("publisher") or "N/A"
         published_at = item.get("published_at") or "N/A"
@@ -100,7 +102,7 @@ def top_event_lines(top_events: list[dict[str, Any]]) -> list[str]:
         volume = format_number(event.get("volume"))
         lines.append(
             f"- {event.get('published_at') or 'N/A'} / {event.get('ticker') or 'N/A'}: "
-            f"{event.get('title') or 'タイトル不明'} "
+            f"{sanitize_report_text(event.get('title')) or 'タイトル不明'} "
             f"(株価反応: {change}, 出来高: {volume})"
         )
     return lines
