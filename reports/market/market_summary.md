@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 8
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 0.52%
+- 市場全体の1Mモメンタム平均: 1.85%
 - ニュース件数: 80
 - Event数: 80
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,39 +21,39 @@
 
 ### 注目ニュース
 
-- 2026-07-24T22:34:00+00:00 / NVDA / Motley Fool: Elon Musk Wouldn't Rule Out a Tesla-SpaceX Merger on the July 22 Earnings Call. Here's What It Would Mean for the Shares You Own Today.
-- 2026-07-24T22:34:00+00:00 / TSLA / Motley Fool: Elon Musk Wouldn't Rule Out a Tesla-SpaceX Merger on the July 22 Earnings Call. Here's What It Would Mean for the Shares You Own Today.
-- 2026-07-24T22:27:47+00:00 / NVDA / Motley Fool: Why Shattuck Labs Stock Flew Nearly 5% Higher on Friday
-- 2026-07-24T22:27:19+00:00 / NVDA / Insider Monkey: Here’s Why Nebius Group N.V. (NBIS) Is a Speculative Growth Play Backed by Nvidia’s $2 Billion Investment
-- 2026-07-24T22:27:03+00:00 / NVDA / 24/7 Wall St.: When One Spouse Dies, One Social Security Check Disappears. These 3 ETFs Protect the Survivor
+- 2026-07-27T22:13:34+00:00 / NVDA / Investor's Business Daily: Dow Jones Futures: U.S.-Iran Peace Hopes Send Oil Prices Plunging; Nvidia, Micron, Sandisk, SpaceX, Tesla 投資判断表現 Off
+- 2026-07-27T22:13:34+00:00 / TSLA / Investor's Business Daily: Dow Jones Futures: U.S.-Iran Peace Hopes Send Oil Prices Plunging; Nvidia, Micron, Sandisk, SpaceX, Tesla 投資判断表現 Off
+- 2026-07-27T22:10:20+00:00 / AAPL / Trefis: What Wall Street Pushed GOOGL To Explain
+- 2026-07-27T22:10:20+00:00 / MSFT / Trefis: What Wall Street Pushed GOOGL To Explain
+- 2026-07-27T22:10:20+00:00 / GOOGL / Trefis: What Wall Street Pushed GOOGL To Explain
 
 ### 注目イベント
 
-- 2026-07-24T19:56:58+00:00 / AAPL: AI spending restraint will reward Magnificent 7 shares, expert says (株価反応: 3.53%, 出来高: 47.40M)
-- 2026-07-24T19:31:36+00:00 / AAPL: Sector Update: Tech Stocks Fall Late Afternoon (株価反応: 3.53%, 出来高: 47.40M)
-- 2026-07-24T18:04:29+00:00 / AAPL: FDVV’s 2.8% yield hides tech mega-cap risk in dividend portfolio (株価反応: 3.53%, 出来高: 47.40M)
-- 2026-07-24T19:49:01+00:00 / AMD: Advanced Micro Devices vs. Alphabet: What Do the Revenue Trajectories of These Artificial Intelligence Companies Tell Investors? (株価反応: -3.29%, 出来高: 27.09M)
-- 2026-07-24T19:04:00+00:00 / AMD: Nvidia Stock Has Been a Chip Stock Outperformer in July. Why Its Rally Is at Risk. (株価反応: -3.29%, 出来高: 27.09M)
+- 2026-07-27T19:33:09+00:00 / AMD: Nvidia drops nearly 5%, leading chip stocks lower amid renewed worries of circular financing (株価反応: -5.17%, 出来高: 31.64M)
+- 2026-07-27T19:17:30+00:00 / AMD: AMD Data Center Growth Seen Beating Expectations Through 2027 (株価反応: -5.17%, 出来高: 31.64M)
+- 2026-07-27T19:15:03+00:00 / AMD: AMD’s Microsoft Partnership Validates This Transition So I’m Loading Up (株価反応: -5.17%, 出来高: 31.64M)
+- 2026-07-27T19:05:09+00:00 / AMD: Chip Stocks Tank While Software Shines (株価反応: -5.17%, 出来高: 31.64M)
+- 2026-07-27T14:54:40+00:00 / NVDA: Semiconductor stock charts just formed this bearish shape that signals more potential losses (株価反応: -4.99%, 出来高: 153.41M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 2 | 60.50 | 18.84 | 23.72 | -0.34% | 20 |
-| Consumer Cyclical | 2 | 57.50 | 182.16 | 4.65 | -8.78% | 20 |
-| Technology | 4 | 66.00 | 66.88 | 8.65 | 5.61% | 40 |
+| Communication Services | 2 | 64.00 | 18.99 | 23.71 | 2.20% | 20 |
+| Consumer Cyclical | 2 | 57.50 | 154.39 | 4.73 | -7.82% | 20 |
+| Technology | 4 | 65.50 | 65.03 | 8.64 | 6.51% | 40 |
 
 ## 市場トレンド
 
 | セクター | Momentum | News | Financial Health |
 | --- | --- | --- | --- |
-| Communication Services | Weak | High | Good |
+| Communication Services | Positive | High | Good |
 | Consumer Cyclical | Weak | High | Good |
 | Technology | Positive | High | Good |
 
 ## 市場心理
 
-市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 80 件で、ポジティブなモメンタムのセクターは 1/3 です。
+市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 80 件で、ポジティブなモメンタムのセクターは 2/3 です。
 
 参照Knowledge: market_psychology.md
 
