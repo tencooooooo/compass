@@ -15,7 +15,6 @@ POSITIVE_PATTERNS = [
     r"launch(?:es|ed|ing)?",
     r"upgrade(?:s|d)?",
     r"profit(?:s|able|ability)?",
-    r"\bai\b",
     r"buyback",
     r"cost cuts?",
     r"cuts? costs?",
@@ -58,23 +57,40 @@ def _has_negation_before(text: str, start: int, window: int = 3) -> bool:
     return any(token in NEGATIONS for token in previous)
 
 
-def _score_matches(text: str, patterns: list[re.Pattern[str]], direction: int) -> int:
-    score = 0
+def _tally_matches(text: str, patterns: list[re.Pattern[str]], direction: int) -> tuple[int, int]:
+    """好材料・悪材料それぞれのヒット数を返します。否定表現の直後は符号を反転させます。"""
+    positive_hits = 0
+    negative_hits = 0
     for pattern in patterns:
         for match in pattern.finditer(text):
-            score += -direction if _has_negation_before(text, match.start()) else direction
-    return score
+            effective = -direction if _has_negation_before(text, match.start()) else direction
+            if effective > 0:
+                positive_hits += 1
+            else:
+                negative_hits += 1
+    return positive_hits, negative_hits
 
 
 def classify_text(text: str) -> str:
+    """見出しを positive / negative / neutral に分類します。
+
+    好悪が拮抗した場合は negative を優先します。実際の見出しは
+    "record loss amid weak demand" のように好材料語と悪材料語が同居することが多く、
+    単純な加算では悪材料が中立に薄まって News スコアが甘くなるためです。
+    悪材料語が1つも無い場合は、この優先ルールは働きません。
+    """
     normalized = " ".join(str(text or "").lower().split())
     if not normalized:
         return "neutral"
-    score = _score_matches(normalized, COMPILED_POSITIVE, 1)
-    score += _score_matches(normalized, COMPILED_NEGATIVE, -1)
-    if score > 0:
+
+    positive_hits, negative_hits = _tally_matches(normalized, COMPILED_POSITIVE, 1)
+    negated_positive, negated_negative = _tally_matches(normalized, COMPILED_NEGATIVE, -1)
+    positive_hits += negated_positive
+    negative_hits += negated_negative
+
+    if positive_hits > negative_hits:
         return "positive"
-    if score < 0:
+    if negative_hits > 0:
         return "negative"
     return "neutral"
 
