@@ -53,20 +53,33 @@ def momentum_for_days(prices: pd.DataFrame, days: int) -> float | None:
     return trading_day_momentum(prices, days)
 
 
-def score_return(change_percent: float | None, label: str, reasons: list[str], missing: list[str]) -> float:
+# Momentumの配点: 4期間 x MOMENTUM_PERIOD_POINTS + 出来高 MOMENTUM_VOLUME_POINTS = 20点。
+# 以前は1期間あたり最大3点で合計16点にしかならず、max_score(20)に構造的に到達できませんでした。
+# 段階の比率(1.0 / 0.65 / 0.25 / 0)は Discovery の score_from_momentum と揃えています。
+MOMENTUM_PERIOD_POINTS = 4.0
+MOMENTUM_VOLUME_POINTS = 4.0
+
+
+def score_return(
+    change_percent: float | None,
+    label: str,
+    reasons: list[str],
+    missing: list[str],
+    points: float = MOMENTUM_PERIOD_POINTS,
+) -> float:
     if change_percent is None:
         missing.append(label)
         reasons.append(f"{label} の騰落率が計算できないため加点していません。")
         return 0
     if change_percent >= 15:
         reasons.append(f"{label} が {change_percent:.2f}% と強い上昇を示しています。")
-        return 3
+        return points
     if change_percent >= 0:
         reasons.append(f"{label} が {change_percent:.2f}% とプラス圏です。")
-        return 2
+        return points * 0.65
     if change_percent >= -10:
         reasons.append(f"{label} は {change_percent:.2f}% と小幅なマイナスです。")
-        return 1
+        return points * 0.25
     reasons.append(f"{label} は {change_percent:.2f}% と大きめの下落です。")
     return 0
 
@@ -378,6 +391,10 @@ def calculate_valuation(company: dict[str, Any], sector_companies: list[dict[str
     use_sector_relative = len(sector_peers) >= 5
     percentile_metrics: dict[str, Any] = {}
 
+    # 母集団不足の説明は指標ごとに繰り返さず、1回だけ出します。
+    if not use_sector_relative:
+        reasons.append(f"セクター比較対象が {len(sector_peers)} 社のため、バリュエーションは固定閾値で評価しています。")
+
     for key, label, points, bands in VALUATION_RULES:
         value = safe_float(company.get(key))
         if value is None:
@@ -409,7 +426,6 @@ def calculate_valuation(company: dict[str, Any], sector_companies: list[dict[str
             percentile_metrics[f"{key}_peer_count"] = len(peer_values)
         else:
             awarded = fixed_valuation_points(value, bands)
-            reasons.append(f"セクター比較対象が {len(sector_peers)} 社のため、{label} は固定閾値で評価しています。")
 
         score += min(points, awarded)
         if not use_sector_relative or percentile_metrics.get(f"{key}_percentile") is None:
@@ -438,16 +454,22 @@ def calculate_valuation(company: dict[str, Any], sector_companies: list[dict[str
     }
 
 
-def score_excess_return(excess: float, benchmark_name: str, label: str, reasons: list[str]) -> float:
+def score_excess_return(
+    excess: float,
+    benchmark_name: str,
+    label: str,
+    reasons: list[str],
+    points: float = MOMENTUM_PERIOD_POINTS,
+) -> float:
     if excess >= 10:
         reasons.append(f"{label} の対{benchmark_name}超過リターンが {excess:+.2f}pt と、市場を大きく上回っています。")
-        return 3
+        return points
     if excess >= 0:
         reasons.append(f"{label} の対{benchmark_name}超過リターンは {excess:+.2f}pt で、市場並み以上です。")
-        return 2
+        return points * 0.65
     if excess >= -10:
         reasons.append(f"{label} の対{benchmark_name}超過リターンは {excess:+.2f}pt と、市場を小幅に下回っています。")
-        return 1
+        return points * 0.25
     reasons.append(f"{label} の対{benchmark_name}超過リターンは {excess:+.2f}pt と、市場を大きく下回っています。")
     return 0
 
@@ -500,21 +522,23 @@ def calculate_momentum(
         missing.append("benchmark_prices")
         reasons.append("ベンチマーク価格が取得できないため、Momentumは絶対リターンで評価しています。")
 
-    latest_volume = safe_float(prices.iloc[-1].get("volume"))
-    average_volume = safe_float(prices.tail(30)["volume"].mean())
+    # volume列が無いCSV(取引所や取得元によっては欠落する)でもKeyErrorで銘柄ごと落とさないようにします。
+    has_volume_column = "volume" in prices.columns
+    latest_volume = safe_float(prices.iloc[-1].get("volume")) if has_volume_column else None
+    average_volume = safe_float(prices.tail(30)["volume"].mean()) if has_volume_column else None
     if latest_volume is None or average_volume in (None, 0):
         missing.append("volume")
         reasons.append("出来高データが不足しているため、Volume項目は加点していません。")
     else:
         volume_ratio = latest_volume / average_volume
         if volume_ratio >= 1.2:
-            score += 4
+            score += MOMENTUM_VOLUME_POINTS
             reasons.append(f"直近出来高が30日平均の {volume_ratio:.2f} 倍で、市場関心の高まりが確認できます。")
         elif volume_ratio >= 0.8:
-            score += 3
+            score += MOMENTUM_VOLUME_POINTS * 0.75
             reasons.append(f"直近出来高が30日平均の {volume_ratio:.2f} 倍で、通常水準の流動性があります。")
         else:
-            score += 1
+            score += MOMENTUM_VOLUME_POINTS * 0.25
             reasons.append(f"直近出来高が30日平均の {volume_ratio:.2f} 倍で、市場関心はやや弱めです。")
 
     return {
