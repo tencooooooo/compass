@@ -1,7 +1,6 @@
 from datetime import datetime
 import json
 from pathlib import Path
-import re
 import sys
 from textwrap import shorten
 from typing import Any
@@ -14,6 +13,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 from utils.config import load_yaml  # noqa: E402
 from utils.logger import get_timezone, setup_logger  # noqa: E402
+from utils.report_text import sanitize_report_text  # noqa: E402
 from utils.tickers import load_tickers  # noqa: E402
 from utils.values import safe_float  # noqa: E402
 
@@ -93,22 +93,6 @@ def format_ratio_as_percent(value: Any) -> str:
     except (TypeError, ValueError):
         return str(value)
     return f"{number:.2f}%"
-
-
-def sanitize_report_text(value: Any) -> str:
-    """レポート本文では投資判断に見える表現を中立化します。"""
-    text = "" if value is None else str(value)
-    replacements = [
-        (r"\bBuy(?:ing)?\b", "投資判断表現"),
-        (r"\bSell(?:ing)?\b", "投資判断表現"),
-        (r"\bHold(?:ing)?\b", "投資判断表現"),
-        (r"買い", "投資判断表現"),
-        (r"売り", "投資判断表現"),
-        (r"目標株価", "価格水準"),
-    ]
-    for pattern, replacement in replacements:
-        text = re.sub(pattern, replacement, text, flags=re.IGNORECASE)
-    return text
 
 
 def load_prices(path: Path) -> pd.DataFrame:
