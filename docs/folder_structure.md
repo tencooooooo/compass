@@ -37,7 +37,7 @@ compass/
 - `core/`: Core platform layers such as Memory.
 - `knowledge/`: Human-maintained analysis rules and project knowledge.
 - `prompts/`: Prompt templates separated from Python code.
-- `docs/`: Documentation for architecture, roadmap, folder structure, and data model.
+- `docs/`: Documentation for architecture, roadmap, folder structure, and data model. `docs/engines/` holds the per-engine reference split out of README.md by layer.
 - `storage/`: Generated runtime data. Raw data and events are not tracked by Git.
 - `reports/`: Generated Markdown reports. Reports are not tracked by Git.
 - `utils/`: Shared helper code.
