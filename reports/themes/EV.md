@@ -1,39 +1,38 @@
 # EV
 
 - Target companies: 4
-- Average Score: 66.00
+- Average Score: 59.50
 - Average Discovery: 65.00
-- Momentum: -2.22
+- Momentum: 3.94
 - Confidence: Medium
 
 ## Companies
 
-- AMZN - Amazon.com, Inc. (Medium): Keyword: ev; Sector alignment: Consumer Cyclical
-- META - Meta Platforms, Inc. (Low): Keyword: ev
 - NVDA - NVIDIA Corporation (Low): Keyword: electric vehicle
-- TSLA - Tesla, Inc. (High): Keyword: ev; Keyword: electric vehicles; Keyword: battery; Keyword: autonomous driving; Sector alignment: Consumer Cyclical
+- ORLY - O'Reilly Automotive, Inc. (Medium): Keyword: battery; Sector alignment: Consumer Cyclical
+- TSLA - Tesla, Inc. (Medium): Keyword: electric vehicles; Keyword: battery; Sector alignment: Consumer Cyclical
+- TXN - Texas Instruments Incorporated (Low): Keyword: battery
 
 ## Market
 
-- Communication Services: score 74.50, momentum 0.27, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
-- Consumer Cyclical: score 59.00, momentum -2.69, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Technology: score 68.75, momentum 1.76, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 57.50, momentum -8.78, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 66.00, momentum 5.61, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- TSLA: Waymo wears out its welcome in major U.S. city as mayor responds
-- NVDA: CrowdStrike vs. NVIDIA: Which Growth Tech Stock Is a Better Buy in 2026, the Cybersecurity Giant or AI Leader?
-- NVDA: UiPath Vs. ServiceNow: Which Agentic AI Stock Is the Better Buy?
-- TSLA: Tesla and Alphabet Earnings: The Metrics That Matter Most
-- AMZN: Meta in talks to rent some of its billions in AI infrastructure to Anthropic
+- TSLA: Elon Musk Wouldn't Rule Out a Tesla-SpaceX Merger on the July 22 Earnings Call. Here's What It Would Mean for the Shares You Own Today.
+- TSLA: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
+- NVDA: OpenAI president Greg Brockman: 'We will remain in this compute shortage no matter what'
+- TSLA: Why Big Tech barnings could define the market next week
+- NVDA: Is Wall Street buying Intel's comeback story after blowout Q2 earnings?
 
 ## Similar Themes
 
-- Energy: 0.996 (Shared companies: META, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
-- Robotics: 0.987 (Shared companies: AMZN, NVDA, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Cloud: 0.969 (Shared companies: AMZN, META, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.969 (Shared companies: AMZN, META, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- AI: 0.952 (Shared companies: AMZN, META, NVDA, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Space: 0.973 (Shared companies: NVDA, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Biotechnology: 0.952 (Shared companies: NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Robotics: 0.95 (Shared companies: NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Cloud: 0.92 (Shared companies: NVDA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Semiconductor: 0.906 (Shared companies: NVDA, TXN; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
 
 ## Review Note
 

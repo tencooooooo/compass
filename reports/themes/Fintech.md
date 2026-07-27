@@ -1,17 +1,18 @@
 # Fintech
 
-- Target companies: 0
+- Target companies: 1
 - Average Score: N/A
 - Average Discovery: N/A
 - Momentum: N/A
-- Confidence: Low
+- Confidence: Medium
 
 ## Companies
 
-No companies are classified into this theme yet.
+- ACN - Accenture plc (Medium): Keyword: banking; Sector alignment: Technology
 
 ## Market
 
+- Technology: score 66.00, momentum 5.61, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
@@ -19,11 +20,11 @@ No theme news available yet.
 
 ## Similar Themes
 
-- AI: 0.0 (Similar short-term momentum)
-- Biotechnology: 0.0 (Similar average Discovery score; Similar short-term momentum)
-- Cloud: 0.0 (Similar short-term momentum)
-- Cybersecurity: 0.0 (Similar short-term momentum)
-- EV: 0.0 (Similar short-term momentum)
+- Robotics: 0.432 (Shared companies: ACN; Shared sectors: Technology; Similar short-term momentum)
+- Cybersecurity: 0.324 (Shared companies: ACN; Shared sectors: Technology; Similar short-term momentum)
+- Cloud: 0.31 (Shared companies: ACN; Shared sectors: Technology; Similar short-term momentum)
+- AI: 0.299 (Shared companies: ACN; Shared sectors: Technology; Similar short-term momentum)
+- Healthcare: 0.266 (Shared sectors: Technology; Similar short-term momentum)
 
 ## Review Note
 

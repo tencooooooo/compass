@@ -4,99 +4,103 @@ Theme Intelligence connects market, sector, company, Discovery, and Pattern cont
 
 ## AI
 
-- Target companies: 8
-- Average Score: 67.75
-- Average Discovery: 70.00
-- Market status: Communication Services Positive, Consumer Cyclical Weak, Technology Positive
-- Representative companies: AMD, GOOGL, AAPL
+- Target companies: 18
+- Average Score: 62.50
+- Average Discovery: 66.60
+- Market status: Communication Services Weak, Consumer Cyclical Weak, Technology Positive
+- Representative companies: AMD, AAPL, NVDA
 - Confidence: High
 - Major news:
-  - TSLA: Waymo wears out its welcome in major U.S. city as mayor responds
-  - NVDA: CrowdStrike vs. NVIDIA: Which Growth Tech Stock Is a Better Buy in 2026, the Cybersecurity Giant or AI Leader?
-  - NVDA: UiPath Vs. ServiceNow: Which Agentic AI Stock Is the Better Buy?
+  - TSLA: Elon Musk Wouldn't Rule Out a Tesla-SpaceX Merger on the July 22 Earnings Call. Here's What It Would Mean for the Shares You Own Today.
+  - GOOGL: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
+  - META: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
 
 ## Biotechnology
 
-- Target companies: 0
-- Average Score: N/A
-- Average Discovery: N/A
-- Market status: Unknown
-- Representative companies: None
-- Confidence: Low
+- Target companies: 1
+- Average Score: 68.00
+- Average Discovery: 65.00
+- Market status: Technology Positive
+- Representative companies: NVDA
+- Confidence: Medium
+- Major news:
+  - NVDA: OpenAI president Greg Brockman: 'We will remain in this compute shortage no matter what'
+  - NVDA: Is Wall Street buying Intel's comeback story after blowout Q2 earnings?
+  - NVDA: Tech stocks live: Huang, Nadella, and other CEOs defend open-source AI as US threatens crackdown
 
 ## Cloud
 
-- Target companies: 7
-- Average Score: 70.14
-- Average Discovery: 70.00
-- Market status: Communication Services Positive, Consumer Cyclical Weak, Technology Positive
-- Representative companies: AMD, GOOGL, AAPL
+- Target companies: 15
+- Average Score: 65.00
+- Average Discovery: 66.60
+- Market status: Communication Services Weak, Consumer Cyclical Weak, Technology Positive
+- Representative companies: AMD, AAPL, NVDA
 - Confidence: High
 - Major news:
-  - NVDA: CrowdStrike vs. NVIDIA: Which Growth Tech Stock Is a Better Buy in 2026, the Cybersecurity Giant or AI Leader?
-  - NVDA: UiPath Vs. ServiceNow: Which Agentic AI Stock Is the Better Buy?
-  - AMD: Stock Market Today, July 17: Stocks Slide as Semiconductor Rout Deepens
+  - GOOGL: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
+  - MSFT: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
+  - AAPL: TSMC might set up a price hike that could come straight for your next phone, laptop, or tablet
 
 ## Cybersecurity
 
-- Target companies: 3
-- Average Score: 71.67
-- Average Discovery: 68.00
-- Market status: Communication Services Positive, Technology Positive
-- Representative companies: GOOGL, NVDA, MSFT
-- Confidence: Medium
+- Target companies: 10
+- Average Score: 61.75
+- Average Discovery: 63.33
+- Market status: Communication Services Weak, Consumer Cyclical Weak, Technology Positive
+- Representative companies: NVDA, GOOGL, MSFT
+- Confidence: High
 - Major news:
-  - NVDA: CrowdStrike vs. NVIDIA: Which Growth Tech Stock Is a Better Buy in 2026, the Cybersecurity Giant or AI Leader?
-  - NVDA: UiPath Vs. ServiceNow: Which Agentic AI Stock Is the Better Buy?
-  - GOOGL: Stock Market Today, July 17: Stocks Slide as Semiconductor Rout Deepens
+  - TSLA: Elon Musk Wouldn't Rule Out a Tesla-SpaceX Merger on the July 22 Earnings Call. Here's What It Would Mean for the Shares You Own Today.
+  - GOOGL: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
+  - MSFT: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
 
 ## EV
 
 - Target companies: 4
-- Average Score: 66.00
+- Average Score: 59.50
 - Average Discovery: 65.00
-- Market status: Communication Services Positive, Consumer Cyclical Weak, Technology Positive
-- Representative companies: NVDA, META, AMZN
+- Market status: Consumer Cyclical Weak, Technology Positive
+- Representative companies: NVDA, TSLA, ORLY
 - Confidence: Medium
 - Major news:
-  - TSLA: Waymo wears out its welcome in major U.S. city as mayor responds
-  - NVDA: CrowdStrike vs. NVIDIA: Which Growth Tech Stock Is a Better Buy in 2026, the Cybersecurity Giant or AI Leader?
-  - NVDA: UiPath Vs. ServiceNow: Which Agentic AI Stock Is the Better Buy?
+  - TSLA: Elon Musk Wouldn't Rule Out a Tesla-SpaceX Merger on the July 22 Earnings Call. Here's What It Would Mean for the Shares You Own Today.
+  - TSLA: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
+  - NVDA: OpenAI president Greg Brockman: 'We will remain in this compute shortage no matter what'
 
 ## Energy
 
-- Target companies: 3
-- Average Score: 62.33
-- Average Discovery: 68.00
-- Market status: Communication Services Positive, Consumer Cyclical Weak, Technology Positive
-- Representative companies: AAPL, META, TSLA
+- Target companies: 7
+- Average Score: 61.33
+- Average Discovery: 69.50
+- Market status: Communication Services Weak, Consumer Cyclical Weak, Technology Positive
+- Representative companies: AMD, GOOGL, TSLA
 - Confidence: Medium
 - Major news:
-  - TSLA: Waymo wears out its welcome in major U.S. city as mayor responds
-  - TSLA: Tesla and Alphabet Earnings: The Metrics That Matter Most
-  - AAPL: Tech, Media & Telecom Roundup: Market Talk
+  - TSLA: Elon Musk Wouldn't Rule Out a Tesla-SpaceX Merger on the July 22 Earnings Call. Here's What It Would Mean for the Shares You Own Today.
+  - GOOGL: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
+  - TSLA: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
 
 ## Fintech
 
-- Target companies: 0
+- Target companies: 1
 - Average Score: N/A
 - Average Discovery: N/A
-- Market status: Unknown
-- Representative companies: None
-- Confidence: Low
+- Market status: Technology Positive
+- Representative companies: ACN
+- Confidence: Medium
 
 ## Healthcare
 
-- Target companies: 1
-- Average Score: 68.00
-- Average Discovery: N/A
+- Target companies: 3
+- Average Score: 66.00
+- Average Discovery: 61.00
 - Market status: Technology Positive
-- Representative companies: MSFT
+- Representative companies: MSFT, CRM, NOW
 - Confidence: Medium
 - Major news:
-  - MSFT: Meta in talks to rent some of its billions in AI infrastructure to Anthropic
-  - MSFT: US stocks sink this week, semiconductors walloped amid sell-off
-  - MSFT: Oracle's stock crash looks embarrassing for billionaire founder Larry Ellison
+  - MSFT: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
+  - MSFT: AMD CEO Lisa Su isn't worried about an AI house of cards
+  - MSFT: OpenAI president Greg Brockman: 'We will remain in this compute shortage no matter what'
 
 ## Quantum Computing
 
@@ -109,39 +113,39 @@ Theme Intelligence connects market, sector, company, Discovery, and Pattern cont
 
 ## Robotics
 
-- Target companies: 3
-- Average Score: 63.33
+- Target companies: 7
+- Average Score: 68.00
 - Average Discovery: 65.00
-- Market status: Consumer Cyclical Weak, Technology Positive
-- Representative companies: NVDA, AMZN, TSLA
+- Market status: Technology Positive
+- Representative companies: NVDA, ACN, AMAT
 - Confidence: Medium
 - Major news:
-  - TSLA: Waymo wears out its welcome in major U.S. city as mayor responds
-  - NVDA: CrowdStrike vs. NVIDIA: Which Growth Tech Stock Is a Better Buy in 2026, the Cybersecurity Giant or AI Leader?
-  - NVDA: UiPath Vs. ServiceNow: Which Agentic AI Stock Is the Better Buy?
+  - NVDA: OpenAI president Greg Brockman: 'We will remain in this compute shortage no matter what'
+  - NVDA: Is Wall Street buying Intel's comeback story after blowout Q2 earnings?
+  - NVDA: Tech stocks live: Huang, Nadella, and other CEOs defend open-source AI as US threatens crackdown
 
 ## Semiconductor
 
-- Target companies: 7
-- Average Score: 70.14
-- Average Discovery: 70.00
-- Market status: Communication Services Positive, Consumer Cyclical Weak, Technology Positive
-- Representative companies: AMD, GOOGL, AAPL
+- Target companies: 13
+- Average Score: 64.14
+- Average Discovery: 66.60
+- Market status: Communication Services Weak, Consumer Cyclical Weak, Technology Positive
+- Representative companies: AMD, AAPL, NVDA
 - Confidence: High
 - Major news:
-  - NVDA: CrowdStrike vs. NVIDIA: Which Growth Tech Stock Is a Better Buy in 2026, the Cybersecurity Giant or AI Leader?
-  - NVDA: UiPath Vs. ServiceNow: Which Agentic AI Stock Is the Better Buy?
-  - AMD: Stock Market Today, July 17: Stocks Slide as Semiconductor Rout Deepens
+  - GOOGL: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
+  - META: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
+  - MSFT: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
 
 ## Space
 
-- Target companies: 7
-- Average Score: 68.57
-- Average Discovery: 70.67
-- Market status: Communication Services Positive, Consumer Cyclical Weak, Technology Positive
-- Representative companies: AMD, GOOGL, NVDA
-- Confidence: High
+- Target companies: 4
+- Average Score: 59.33
+- Average Discovery: 65.00
+- Market status: Communication Services Weak, Consumer Cyclical Weak, Technology Positive
+- Representative companies: NVDA, META, TSLA
+- Confidence: Medium
 - Major news:
-  - TSLA: Waymo wears out its welcome in major U.S. city as mayor responds
-  - NVDA: CrowdStrike vs. NVIDIA: Which Growth Tech Stock Is a Better Buy in 2026, the Cybersecurity Giant or AI Leader?
-  - NVDA: UiPath Vs. ServiceNow: Which Agentic AI Stock Is the Better Buy?
+  - TSLA: Elon Musk Wouldn't Rule Out a Tesla-SpaceX Merger on the July 22 Earnings Call. Here's What It Would Mean for the Shares You Own Today.
+  - META: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
+  - TSLA: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence

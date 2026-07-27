@@ -1,43 +1,53 @@
 # AI
 
-- Target companies: 8
-- Average Score: 67.75
-- Average Discovery: 70.00
-- Momentum: -0.01
+- Target companies: 18
+- Average Score: 62.50
+- Average Discovery: 66.60
+- Momentum: 3.01
 - Confidence: High
 
 ## Companies
 
 - AAPL - Apple Inc. (Medium): Keyword: ai; Keyword: artificial intelligence; Sector alignment: Technology
+- ACN - Accenture plc (Medium): Keyword: ai; Sector alignment: Technology
+- ADBE - Adobe Inc. (Medium): Keyword: ai; Sector alignment: Technology
 - AMD - Advanced Micro Devices, Inc. (High): Keyword: ai; Keyword: artificial intelligence; Keyword: data center; Sector alignment: Technology
 - AMZN - Amazon.com, Inc. (Medium): Keyword: ai; Keyword: artificial intelligence; Keyword: machine learning
+- AVGO - Broadcom Inc. (High): Keyword: ai; Keyword: artificial intelligence; Keyword: data center; Sector alignment: Technology
+- CRM - Salesforce, Inc. (Medium): Keyword: ai; Sector alignment: Technology
+- CSCO - Cisco Systems, Inc. (Medium): Keyword: data center; Sector alignment: Technology
 - GOOGL - Alphabet Inc. (Medium): Keyword: ai; Sector alignment: Communication Services
-- META - Meta Platforms, Inc. (Medium): Keyword: ai; Sector alignment: Communication Services
-- MSFT - Microsoft Corporation (Medium): Keyword: ai; Sector alignment: Technology
+- INTC - Intel Corporation (Medium): Keyword: ai; Keyword: data center; Sector alignment: Technology
+- META - Meta Platforms, Inc. (Medium): Keyword: ai; Keyword: artificial intelligence; Sector alignment: Communication Services
+- MSFT - Microsoft Corporation (Medium): Keyword: ai; Keyword: artificial intelligence; Sector alignment: Technology
+- MU - Micron Technology, Inc. (Medium): Keyword: data center; Sector alignment: Technology
+- NOW - ServiceNow, Inc. (Medium): Keyword: ai; Sector alignment: Technology
 - NVDA - NVIDIA Corporation (High): Keyword: ai; Keyword: artificial intelligence; Keyword: data center; Sector alignment: Technology
+- ORCL - Oracle Corporation (Medium): Keyword: ai; Keyword: machine learning; Sector alignment: Technology
+- QCOM - QUALCOMM Incorporated (Medium): Keyword: artificial intelligence; Keyword: data center; Sector alignment: Technology
 - TSLA - Tesla, Inc. (Medium): Keyword: ai; Keyword: artificial intelligence
 
 ## Market
 
-- Communication Services: score 74.50, momentum 0.27, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
-- Consumer Cyclical: score 59.00, momentum -2.69, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Technology: score 68.75, momentum 1.76, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 60.50, momentum -0.34, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 57.50, momentum -8.78, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 66.00, momentum 5.61, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- TSLA: Waymo wears out its welcome in major U.S. city as mayor responds
-- NVDA: CrowdStrike vs. NVIDIA: Which Growth Tech Stock Is a Better Buy in 2026, the Cybersecurity Giant or AI Leader?
-- NVDA: UiPath Vs. ServiceNow: Which Agentic AI Stock Is the Better Buy?
-- AMD: Stock Market Today, July 17: Stocks Slide as Semiconductor Rout Deepens
-- GOOGL: Stock Market Today, July 17: Stocks Slide as Semiconductor Rout Deepens
+- TSLA: Elon Musk Wouldn't Rule Out a Tesla-SpaceX Merger on the July 22 Earnings Call. Here's What It Would Mean for the Shares You Own Today.
+- GOOGL: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
+- META: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
+- MSFT: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
+- TSLA: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
 
 ## Similar Themes
 
-- Cloud: 0.997 (Shared companies: AAPL, AMD, AMZN, GOOGL, META; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.997 (Shared companies: AAPL, AMD, AMZN, GOOGL, META; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Space: 0.989 (Shared companies: AMD, AMZN, GOOGL, META, MSFT; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- EV: 0.952 (Shared companies: AMZN, META, NVDA, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Energy: 0.937 (Shared companies: AAPL, META, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
+- Cloud: 0.997 (Shared companies: AAPL, ACN, AMD, AMZN, AVGO; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Semiconductor: 0.997 (Shared companies: AAPL, AMD, AMZN, AVGO, GOOGL; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Space: 0.96 (Shared companies: META, NVDA, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cybersecurity: 0.943 (Shared companies: ACN, AVGO, CSCO, GOOGL, MSFT; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Energy: 0.919 (Shared companies: ACN, AMD, AVGO, GOOGL, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
 
 ## Review Note
 
