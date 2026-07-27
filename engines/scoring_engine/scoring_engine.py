@@ -185,6 +185,7 @@ def main() -> int:
         "generated_at": generated_at,
         "max_score": 100,
         "category_max_score": 20,
+        "failed_tickers": failed_tickers,
         "results": results,
     }
 
@@ -202,7 +203,15 @@ def main() -> int:
     logger.info("失敗銘柄: %s", ", ".join(failed_tickers) or "なし")
     logger.info("処理結果: 成功 %s / 失敗 %s / 合計 %s", len(successful_tickers), len(failed_tickers), len(tickers))
 
-    return 1 if failed_tickers else 0
+    # 1銘柄の失敗で日次パイプライン全体(=Workspaceのデプロイまで)を止めないため、
+    # 部分失敗は終了コード0のままERRORログとJSONのfailed_tickersで可視化します。
+    # スコアが1件も生成できなかった場合だけ、下流に不完全な入力を渡さないよう終了コード1にします。
+    if failed_tickers:
+        logger.error("スコア生成に失敗した銘柄があります: %s", ", ".join(failed_tickers))
+    if not results:
+        logger.error("スコアを1件も生成できませんでした。下流エンジンの入力が揃いません。")
+        return 1
+    return 0
 
 
 if __name__ == "__main__":
