@@ -37,8 +37,29 @@ class MomentumScoringTest(unittest.TestCase):
         for label in ("1M", "3M", "6M", "1Y"):
             self.assertIsNotNone(result["metrics"]["excess_returns"][label])
         self.assertTrue(any("超過リターン" in reason for reason in result["reasons"]))
-        # 全期間で市場を大きく上回る(各3点)+通常水準の出来高(3点)
-        self.assertEqual(result["score"], 15)
+        # 全期間で市場を大きく上回る(各4点=16点)+通常水準の出来高(4点x0.75=3点)
+        self.assertEqual(result["score"], 19)
+
+    def test_max_score_is_actually_reachable(self):
+        """max_score(20)が到達可能であることを保証します(以前は上限16点で構造的に到達不能でした)。"""
+        closes = rising_closes()
+        stock = price_frame(closes)
+        # 直近1日だけ出来高を増やし、30日平均比1.2倍以上の満点条件を作ります。
+        stock.loc[stock.index[-1], "volume"] = 100_000_000
+        benchmark = price_frame(flat_closes())
+
+        result = calculate_momentum(stock, benchmark, "SPY")
+
+        self.assertEqual(result["score"], result["max_score"])
+
+    def test_missing_volume_column_does_not_raise(self):
+        """volume列を持たない価格CSVでも、銘柄ごと例外で落とさないことを確認します。"""
+        stock = price_frame(rising_closes()).drop(columns=["volume"])
+
+        result = calculate_momentum(stock, price_frame(flat_closes()), "SPY")
+
+        self.assertIn("volume", result["missing_data"])
+        self.assertGreater(result["score"], 0)
 
     def test_missing_benchmark_falls_back_to_absolute_returns(self):
         stock = price_frame(rising_closes())
