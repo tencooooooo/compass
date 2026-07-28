@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 8
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 1.85%
+- 市場全体の1Mモメンタム平均: 0.22%
 - ニュース件数: 80
 - Event数: 80
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-07-27T22:13:34+00:00 / NVDA / Investor's Business Daily: Dow Jones Futures: U.S.-Iran Peace Hopes Send Oil Prices Plunging; Nvidia, Micron, Sandisk, SpaceX, Tesla 投資判断表現 Off
-- 2026-07-27T22:13:34+00:00 / TSLA / Investor's Business Daily: Dow Jones Futures: U.S.-Iran Peace Hopes Send Oil Prices Plunging; Nvidia, Micron, Sandisk, SpaceX, Tesla 投資判断表現 Off
-- 2026-07-27T22:10:20+00:00 / AAPL / Trefis: What Wall Street Pushed GOOGL To Explain
-- 2026-07-27T22:10:20+00:00 / MSFT / Trefis: What Wall Street Pushed GOOGL To Explain
-- 2026-07-27T22:10:20+00:00 / GOOGL / Trefis: What Wall Street Pushed GOOGL To Explain
+- 2026-07-28T22:36:25+00:00 / AMD / Investor's Business Daily: Dow Jones Futures: Market Strong Outside AI; Seagate, SK Hynix, KLA, Bloom Energy Earnings Late
+- 2026-07-28T22:35:00+00:00 / NVDA / Motley Fool: Down 25%, Is It Finally Time to 投資判断表現 Netflix (NFLX) Stock?
+- 2026-07-28T22:35:00+00:00 / AMZN / Motley Fool: Down 25%, Is It Finally Time to 投資判断表現 Netflix (NFLX) Stock?
+- 2026-07-28T22:33:00+00:00 / TSLA / TheStreet: Deutsche Bank doubles down on Tesla at a lower price
+- 2026-07-28T22:31:19+00:00 / MSFT / Stocktwits: MSFT Stock Faces A Bigger Test Than Earnings, Gene Munster Says — Why The ‘Bot Boogeyman’ Won’t Go Away
 
 ### 注目イベント
 
-- 2026-07-27T19:33:09+00:00 / AMD: Nvidia drops nearly 5%, leading chip stocks lower amid renewed worries of circular financing (株価反応: -5.17%, 出来高: 31.64M)
-- 2026-07-27T19:17:30+00:00 / AMD: AMD Data Center Growth Seen Beating Expectations Through 2027 (株価反応: -5.17%, 出来高: 31.64M)
-- 2026-07-27T19:15:03+00:00 / AMD: AMD’s Microsoft Partnership Validates This Transition So I’m Loading Up (株価反応: -5.17%, 出来高: 31.64M)
-- 2026-07-27T19:05:09+00:00 / AMD: Chip Stocks Tank While Software Shines (株価反応: -5.17%, 出来高: 31.64M)
-- 2026-07-27T14:54:40+00:00 / NVDA: Semiconductor stock charts just formed this bearish shape that signals more potential losses (株価反応: -4.99%, 出来高: 153.41M)
+- 2026-07-28T12:56:22+00:00 / AMD: Micron, SK Hynix stocks sink as AI chip 投資判断表現-off deepens (株価反応: -8.15%, 出来高: 35.83M)
+- 2026-07-28T13:40:13+00:00 / GOOGL: Apple tops $5 trillion market cap, only second company to hit the milestone (株価反応: 2.19%, 出来高: 27.16M)
+- 2026-07-28T12:00:00+00:00 / GOOGL: Meta, Amazon: Why this analyst feels 'less confident' in one (株価反応: 2.19%, 出来高: 27.16M)
+- 2026-07-27T13:46:11+00:00 / GOOGL: Tech stocks today: Big Tech earnings this week mark a pivotal moment for the AI trade (株価反応: 2.13%, 出来高: 28.47M)
+- 2026-07-27T11:52:07+00:00 / GOOGL: Earnings live: Avis stock plunges as earnings fall short amid the summer travel season, Ford stock gains (株価反応: 2.13%, 出来高: 28.47M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 2 | 64.00 | 18.99 | 23.71 | 2.20% | 20 |
-| Consumer Cyclical | 2 | 57.50 | 154.39 | 4.73 | -7.82% | 20 |
-| Technology | 4 | 65.50 | 65.03 | 8.64 | 6.51% | 40 |
+| Communication Services | 2 | 64.00 | 19.17 | 23.71 | 3.38% | 20 |
+| Consumer Cyclical | 2 | 58.50 | 156.16 | 4.71 | -9.91% | 20 |
+| Technology | 4 | 67.00 | 61.34 | 8.65 | 3.70% | 40 |
 
 ## 市場トレンド
 

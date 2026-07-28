@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Alphabet Inc.
-- Total Score: 63 / 100
+- Total Score: 61 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 63 点を獲得し、シグナル充足率は 63.0% です。
+- データが確認できた 100 点満点のうち 61 点を獲得し、シグナル充足率は 61.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -111,10 +111,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 16.3936
-- forward_pe: 22.2060
-- peg_ratio: 1.2600
-- price_to_book: 6.4162
+- trailing_pe: 16.7525
+- forward_pe: 22.6716
+- peg_ratio: 1.2700
+- price_to_book: 6.5567
 - sector_peer_count: 10
 - trailing_pe_percentile: 55.5600
 - trailing_pe_peer_count: 10
@@ -127,15 +127,15 @@ Evidence
 
 ## Momentum
 
-10点
+8点
 
 理由
 
-- 1M の対SPY超過リターンは -5.64pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -8.91pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -8.09pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンが +52.63pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.83 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -2.72pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -8.55pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -7.25pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンが +55.66pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.79 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -144,15 +144,15 @@ Evidence
 
 使用データ
 
-- 1M: -4.9897
-- 3M: -5.1234
-- 6M: -0.2881
-- 1Y: 70.4177
+- 1M: -1.0907
+- 3M: -4.6899
+- 6M: 0.2654
+- 1Y: 73.2384
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.65, '3M': 3.79, '6M': 7.8, '1Y': 17.79}
-- excess_returns: {'1M': -5.64, '3M': -8.91, '6M': -8.09, '1Y': 52.63}
-- latest_volume: 28,340,389.0000
-- average_volume_30d: 34,197,926.3000
+- benchmark_returns: {'1M': 1.63, '3M': 3.86, '6M': 7.52, '1Y': 17.57}
+- excess_returns: {'1M': -2.72, '3M': -8.55, '6M': -7.25, '1Y': 55.66}
+- latest_volume: 27,157,077.0000
+- average_volume_30d: 34,286,249.2333
 
 ## News
 
@@ -162,7 +162,7 @@ Evidence
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
 - ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 1 件(純比率 +0.00)で、センチメントは 4.0 点です。
-- イベント後の平均株価反応が 2.13% とプラスです。
+- イベント後の平均株価反応が 2.16% とプラスです。
 
 Evidence
 
