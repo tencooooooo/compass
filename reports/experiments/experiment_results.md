@@ -4,22 +4,22 @@
 
 ### Baseline Metrics
 
-- discovery_success_rate: 60.32
-- average_return: 1.79
-- alpha: 1.35
-- win_rate: 60.32
+- discovery_success_rate: 51.09
+- average_return: 0.76
+- alpha: 0.77
+- win_rate: 51.09
 - max_drawdown: 0.0
 - sharpe_ratio: N/A
 - strategy_ranking: 0.0
-- performance_score: 15.87
+- performance_score: 13.16
 
 ### Candidate Metrics
 
-- discovery_success_rate: 60.32
-- average_return: 1.79
-- alpha: 1.35
-- win_rate: 60.32
+- discovery_success_rate: 51.09
+- average_return: 0.76
+- alpha: 0.77
+- win_rate: 51.09
 - max_drawdown: 0.0
 - sharpe_ratio: N/A
 - strategy_ranking: 0.0
-- performance_score: 15.87
+- performance_score: 13.16
