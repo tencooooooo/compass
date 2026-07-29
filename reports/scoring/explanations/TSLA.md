@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Tesla, Inc.
-- Total Score: 53 / 100
+- Total Score: 45 / 100
 - Confidence: High
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 53 点を獲得し、シグナル充足率は 53.0% です。
+- データが確認できた 100 点満点のうち 45 点を獲得し、シグナル充足率は 45.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -108,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 284.6667
-- forward_pe: 138.2697
+- trailing_pe: 276.2222
+- forward_pe: 134.5268
 - peg_ratio: 4.4000
-- price_to_book: 13.7244
+- price_to_book: 13.6238
 - sector_peer_count: 10
 - trailing_pe_percentile: 100
 - trailing_pe_peer_count: 10
@@ -128,10 +128,10 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -20.66pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -22.67pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -36.87pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -20.30pt と、市場を大きく下回っています。
+- 1M の対SPY超過リターンは -26.01pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -23.42pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -36.21pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -24.17pt と、市場を大きく下回っています。
 - 直近出来高が30日平均の 0.88 倍で、通常水準の流動性があります。
 
 Evidence
@@ -141,25 +141,25 @@ Evidence
 
 使用データ
 
-- 1M: -19.0329
-- 3M: -18.8106
-- 6M: -29.3566
-- 1Y: -2.7273
+- 1M: -27.5641
+- 3M: -20.6638
+- 6M: -30.7682
+- 1Y: -8.3756
 - benchmark: SPY
-- benchmark_returns: {'1M': 1.63, '3M': 3.86, '6M': 7.52, '1Y': 17.57}
-- excess_returns: {'1M': -20.66, '3M': -22.67, '6M': -36.87, '1Y': -20.3}
-- latest_volume: 38,773,921.0000
-- average_volume_30d: 44,242,800.7000
+- benchmark_returns: {'1M': -1.56, '3M': 2.76, '6M': 5.44, '1Y': 15.79}
+- excess_returns: {'1M': -26.01, '3M': -23.42, '6M': -36.21, '1Y': -24.17}
+- latest_volume: 38,734,788.0000
+- average_volume_30d: 44,047,559.6000
 
 ## News
 
-15点
+7点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が -0.58% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 2 件(純比率 -0.33)で、センチメントは 2.7 点です。
+- イベント後の平均株価反応が -2.67% と弱く、注意が必要です。
 
 Evidence
 
@@ -171,10 +171,10 @@ Evidence
 
 - news_count: 10
 - positive_count: 1
-- negative_count: 0
-- sentiment_net_ratio: 1.0000
+- negative_count: 2
+- sentiment_net_ratio: -0.3300
 - event_count: 10
-- events_with_price_reaction: 2
+- events_with_price_reaction: 6
 
 ## Note
 

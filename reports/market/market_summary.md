@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 8
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 0.22%
+- 市場全体の1Mモメンタム平均: -3.85%
 - ニュース件数: 80
 - Event数: 80
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,39 +21,39 @@
 
 ### 注目ニュース
 
-- 2026-07-28T22:36:25+00:00 / AMD / Investor's Business Daily: Dow Jones Futures: Market Strong Outside AI; Seagate, SK Hynix, KLA, Bloom Energy Earnings Late
-- 2026-07-28T22:35:00+00:00 / NVDA / Motley Fool: Down 25%, Is It Finally Time to 投資判断表現 Netflix (NFLX) Stock?
-- 2026-07-28T22:35:00+00:00 / AMZN / Motley Fool: Down 25%, Is It Finally Time to 投資判断表現 Netflix (NFLX) Stock?
-- 2026-07-28T22:33:00+00:00 / TSLA / TheStreet: Deutsche Bank doubles down on Tesla at a lower price
-- 2026-07-28T22:31:19+00:00 / MSFT / Stocktwits: MSFT Stock Faces A Bigger Test Than Earnings, Gene Munster Says — Why The ‘Bot Boogeyman’ Won’t Go Away
+- 2026-07-29T22:43:00+00:00 / MSFT / The Wall Street Journal: Microsoft Profits Jump 31% as Azure Cloud Sales Surpass $100 Billion
+- 2026-07-29T22:38:47+00:00 / NVDA / Motley Fool: Why Garmin Stock Soared Today
+- 2026-07-29T22:37:50+00:00 / MSFT / Investor's Business Daily: Dow Jones Futures: Stock Market Tumbles, Oil Prices Soar On Trump's Iran Threats; Microsoft, Meta, Fortinet Earnings Late
+- 2026-07-29T22:37:50+00:00 / META / Investor's Business Daily: Dow Jones Futures: Stock Market Tumbles, Oil Prices Soar On Trump's Iran Threats; Microsoft, Meta, Fortinet Earnings Late
+- 2026-07-29T22:34:21+00:00 / NVDA / Moby: SoFi Technologies, Inc. Q2 2026 Earnings Call Summary
 
 ### 注目イベント
 
-- 2026-07-28T12:56:22+00:00 / AMD: Micron, SK Hynix stocks sink as AI chip 投資判断表現-off deepens (株価反応: -8.15%, 出来高: 35.83M)
-- 2026-07-28T13:40:13+00:00 / GOOGL: Apple tops $5 trillion market cap, only second company to hit the milestone (株価反応: 2.19%, 出来高: 27.16M)
-- 2026-07-28T12:00:00+00:00 / GOOGL: Meta, Amazon: Why this analyst feels 'less confident' in one (株価反応: 2.19%, 出来高: 27.16M)
-- 2026-07-27T13:46:11+00:00 / GOOGL: Tech stocks today: Big Tech earnings this week mark a pivotal moment for the AI trade (株価反応: 2.13%, 出来高: 28.47M)
-- 2026-07-27T11:52:07+00:00 / GOOGL: Earnings live: Avis stock plunges as earnings fall short amid the summer travel season, Ford stock gains (株価反応: 2.13%, 出来高: 28.47M)
+- 2026-07-29T19:13:00+00:00 / AMD: AMD's Core Scientific deal is bigger than the headline number (株価反応: -5.51%, 出来高: 31.47M)
+- 2026-07-29T18:36:08+00:00 / AMD: AMD Stock Drops 5.7% as AI Rout Overwhelms 2.5-Gigawatt Deal (株価反応: -5.51%, 出来高: 31.47M)
+- 2026-07-29T18:31:29+00:00 / AMD: Nasdaq, S&P 500 Fall 1%, Dow Sinks 900 Points Ahead of Fed Decision (株価反応: -5.51%, 出来高: 31.47M)
+- 2026-07-29T18:30:00+00:00 / AMD: Why AMD and Core Scientific's $14 billion AI partnership is a turning point (株価反応: -5.51%, 出来高: 31.47M)
+- 2026-07-29T18:22:55+00:00 / AMD: Nvidia, AMD, Micron Lead Chip Stocks Selloff as SK hynix Earnings Disappoint (株価反応: -5.51%, 出来高: 31.47M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 2 | 64.00 | 19.17 | 23.71 | 3.38% | 20 |
-| Consumer Cyclical | 2 | 58.50 | 156.16 | 4.71 | -9.91% | 20 |
-| Technology | 4 | 67.00 | 61.34 | 8.65 | 3.70% | 40 |
+| Communication Services | 2 | 65.50 | 19.11 | 23.70 | -0.35% | 20 |
+| Consumer Cyclical | 2 | 53.50 | 151.67 | 4.72 | -16.59% | 20 |
+| Technology | 4 | 66.25 | 59.13 | 8.64 | 0.77% | 40 |
 
 ## 市場トレンド
 
 | セクター | Momentum | News | Financial Health |
 | --- | --- | --- | --- |
-| Communication Services | Positive | High | Good |
-| Consumer Cyclical | Weak | High | Good |
+| Communication Services | Weak | High | Good |
+| Consumer Cyclical | Risk-Off | High | Good |
 | Technology | Positive | High | Good |
 
 ## 市場心理
 
-市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 80 件で、ポジティブなモメンタムのセクターは 2/3 です。
+市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 80 件で、ポジティブなモメンタムのセクターは 1/3 です。
 
 参照Knowledge: market_psychology.md
 

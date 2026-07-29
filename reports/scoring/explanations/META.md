@@ -5,9 +5,9 @@
 ## Summary
 
 - Company: Meta Platforms, Inc.
-- Total Score: 67 / 100
+- Total Score: 64 / 100
 - Confidence: High
-- Signal Strength: Strong
+- Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
@@ -23,12 +23,12 @@ High
 
 ## Signal Strength
 
-Strong
+Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 67 点を獲得し、シグナル充足率は 67.0% です。
-- シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
+- データが確認できた 100 点満点のうち 64 点を獲得し、シグナル充足率は 64.0% です。
+- シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
@@ -108,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 21.5785
-- forward_pe: 16.0329
+- trailing_pe: 21.3182
+- forward_pe: 15.8222
 - peg_ratio: 0.8700
-- price_to_book: 6.1805
+- price_to_book: 6.0993
 - sector_peer_count: 10
 - trailing_pe_percentile: 77.7800
 - trailing_pe_peer_count: 10
@@ -124,15 +124,15 @@ Evidence
 
 ## Momentum
 
-4点
+6点
 
 理由
 
-- 1M の対SPY超過リターンは +6.22pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -16.33pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -19.10pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -34.04pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.60 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは +5.65pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -15.45pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -18.27pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -33.92pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.08 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,25 +141,25 @@ Evidence
 
 使用データ
 
-- 1M: 7.8437
-- 3M: -12.4753
-- 6M: -11.5848
-- 1Y: -16.4625
+- 1M: 4.0899
+- 3M: -12.6891
+- 6M: -12.8260
+- 1Y: -18.1292
 - benchmark: SPY
-- benchmark_returns: {'1M': 1.63, '3M': 3.86, '6M': 7.52, '1Y': 17.57}
-- excess_returns: {'1M': 6.22, '3M': -16.33, '6M': -19.1, '1Y': -34.04}
-- latest_volume: 10,870,647.0000
-- average_volume_30d: 18,237,658.2333
+- benchmark_returns: {'1M': -1.56, '3M': 2.76, '6M': 5.44, '1Y': 15.79}
+- excess_returns: {'1M': 5.65, '3M': -15.45, '6M': -18.27, '1Y': -33.92}
+- latest_volume: 19,895,887.0000
+- average_volume_30d: 18,350,366.2333
 
 ## News
 
-15点
+10点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が -0.08% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 3 件(純比率 -0.20)で、センチメントは 3.2 点です。
+- イベント後の平均株価反応が -0.77% と中立圏です。
 
 Evidence
 
@@ -170,11 +170,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 3
-- negative_count: 0
-- sentiment_net_ratio: 1.0000
+- positive_count: 2
+- negative_count: 3
+- sentiment_net_ratio: -0.2000
 - event_count: 10
-- events_with_price_reaction: 3
+- events_with_price_reaction: 2
 
 ## Note
 
