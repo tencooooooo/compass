@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Tesla, Inc.
-- Total Score: 45 / 100
+- Total Score: 48 / 100
 - Confidence: High
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 45 点を獲得し、シグナル充足率は 45.0% です。
+- データが確認できた 100 点満点のうち 48 点を獲得し、シグナル充足率は 48.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -108,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 276.2222
-- forward_pe: 134.5268
+- trailing_pe: 288.6448
+- forward_pe: 139.2753
 - peg_ratio: 4.4000
-- price_to_book: 13.6238
+- price_to_book: 13.7873
 - sector_peer_count: 10
 - trailing_pe_percentile: 100
 - trailing_pe_peer_count: 10
@@ -128,11 +128,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -26.01pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -23.42pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -36.21pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -24.17pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.88 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -25.89pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -21.65pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -35.64pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -21.89pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.83 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,25 +141,25 @@ Evidence
 
 使用データ
 
-- 1M: -27.5641
-- 3M: -20.6638
-- 6M: -30.7682
-- 1Y: -8.3756
+- 1M: -26.5692
+- 3M: -17.1540
+- 6M: -28.4175
+- 1Y: -3.8450
 - benchmark: SPY
-- benchmark_returns: {'1M': -1.56, '3M': 2.76, '6M': 5.44, '1Y': 15.79}
-- excess_returns: {'1M': -26.01, '3M': -23.42, '6M': -36.21, '1Y': -24.17}
-- latest_volume: 38,734,788.0000
-- average_volume_30d: 44,047,559.6000
+- benchmark_returns: {'1M': -0.68, '3M': 4.5, '6M': 7.22, '1Y': 18.05}
+- excess_returns: {'1M': -25.89, '3M': -21.65, '6M': -35.64, '1Y': -21.89}
+- latest_volume: 36,553,979.0000
+- average_volume_30d: 43,948,949.3000
 
 ## News
 
-7点
+10点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 2 件(純比率 -0.33)で、センチメントは 2.7 点です。
-- イベント後の平均株価反応が -2.67% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 1 件(純比率 +0.60)で、センチメントは 6.4 点です。
+- イベント後の平均株価反応が -2.97% と弱く、注意が必要です。
 
 Evidence
 
@@ -170,11 +170,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 1
-- negative_count: 2
-- sentiment_net_ratio: -0.3300
+- positive_count: 4
+- negative_count: 1
+- sentiment_net_ratio: 0.6000
 - event_count: 10
-- events_with_price_reaction: 6
+- events_with_price_reaction: 1
 
 ## Note
 

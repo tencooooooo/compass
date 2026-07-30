@@ -14,6 +14,11 @@
 - 候補: Consumer Cyclical セクターのMomentum補正または評価条件を見直す。
 - 理由: 完了済みValidationの失敗率が 50.0% です。
 
+### Score Accuracy / High
+
+- 候補: 高スコア企業の評価でValuationまたはMomentumの重みを再確認する。
+- 理由: High Score bucketでPoorが成功件数を上回っています。
+
 ### Momentum / Low
 
 - 候補: Momentum に関する失敗パターンをKnowledgeへ追加候補としてレビューする。

@@ -5,9 +5,9 @@
 ## Summary
 
 - Company: Apple Inc.
-- Total Score: 65 / 100
+- Total Score: 63 / 100
 - Confidence: High
-- Signal Strength: Strong
+- Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
@@ -23,12 +23,12 @@ High
 
 ## Signal Strength
 
-Strong
+Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 65 点を獲得し、シグナル充足率は 65.0% です。
-- シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
+- データが確認できた 100 点満点のうち 63 点を獲得し、シグナル充足率は 63.0% です。
+- シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
@@ -94,7 +94,7 @@ Evidence
 理由
 
 - PER はセクター内 64.29 パーセンタイル / 母数 15 で、中位レンジです。
-- Forward PER はセクター内 93.33 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
+- Forward PER はセクター内 86.67 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - PEG はセクター内 100.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - PBR はセクター内 100.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
@@ -106,14 +106,14 @@ Evidence
 
 使用データ
 
-- trailing_pe: 40.9431
-- forward_pe: 35.0205
-- peg_ratio: 2.7100
-- price_to_book: 46.5826
+- trailing_pe: 40.4158
+- forward_pe: 34.5276
+- peg_ratio: 2.7200
+- price_to_book: 45.9270
 - sector_peer_count: 16
 - trailing_pe_percentile: 64.2900
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 93.3300
+- forward_pe_percentile: 86.6700
 - forward_pe_peer_count: 16
 - peg_ratio_percentile: 100
 - peg_ratio_peer_count: 16
@@ -126,11 +126,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンが +21.59pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンが +22.28pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +25.75pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンが +42.83pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.81 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンが +15.91pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンが +19.03pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +23.04pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンが +40.40pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.91 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -139,25 +139,25 @@ Evidence
 
 使用データ
 
-- 1M: 20.0362
-- 3M: 25.0421
-- 6M: 31.1877
-- 1Y: 58.6226
+- 1M: 15.2302
+- 3M: 23.5286
+- 6M: 30.2642
+- 1Y: 58.4479
 - benchmark: SPY
-- benchmark_returns: {'1M': -1.56, '3M': 2.76, '6M': 5.44, '1Y': 15.79}
-- excess_returns: {'1M': 21.59, '3M': 22.28, '6M': 25.75, '1Y': 42.83}
-- latest_volume: 48,852,885.0000
-- average_volume_30d: 60,106,239.5000
+- benchmark_returns: {'1M': -0.68, '3M': 4.5, '6M': 7.22, '1Y': 18.05}
+- excess_returns: {'1M': 15.91, '3M': 19.03, '6M': 23.04, '1Y': 40.4}
+- latest_volume: 55,501,839.0000
+- average_volume_30d: 60,868,417.9667
 
 ## News
 
-14点
+12点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 1 件(純比率 +0.67)で、センチメントは 6.7 点です。
-- イベント後の平均株価反応が -0.56% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 2 件(純比率 +0.20)で、センチメントは 4.8 点です。
+- イベント後の平均株価反応が -0.12% と中立圏です。
 
 Evidence
 
@@ -168,11 +168,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 5
-- negative_count: 1
-- sentiment_net_ratio: 0.6700
+- positive_count: 3
+- negative_count: 2
+- sentiment_net_ratio: 0.2000
 - event_count: 10
-- events_with_price_reaction: 3
+- events_with_price_reaction: 2
 
 ## Note
 

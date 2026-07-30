@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 8
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: -3.85%
+- 市場全体の1Mモメンタム平均: -2.69%
 - ニュース件数: 80
 - Event数: 80
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-07-29T22:43:00+00:00 / MSFT / The Wall Street Journal: Microsoft Profits Jump 31% as Azure Cloud Sales Surpass $100 Billion
-- 2026-07-29T22:38:47+00:00 / NVDA / Motley Fool: Why Garmin Stock Soared Today
-- 2026-07-29T22:37:50+00:00 / MSFT / Investor's Business Daily: Dow Jones Futures: Stock Market Tumbles, Oil Prices Soar On Trump's Iran Threats; Microsoft, Meta, Fortinet Earnings Late
-- 2026-07-29T22:37:50+00:00 / META / Investor's Business Daily: Dow Jones Futures: Stock Market Tumbles, Oil Prices Soar On Trump's Iran Threats; Microsoft, Meta, Fortinet Earnings Late
-- 2026-07-29T22:34:21+00:00 / NVDA / Moby: SoFi Technologies, Inc. Q2 2026 Earnings Call Summary
+- 2026-07-30T22:51:00+00:00 / AAPL / Yahoo Finance Video: Tim Cook's final earnings call as Apple CEO
+- 2026-07-30T22:39:59+00:00 / AMZN / AFP: Amazon beats expectations with cloud and AI growth
+- 2026-07-30T22:39:53+00:00 / AAPL / Investor's Business Daily: Dow Jones Futures: Apple, Amazon Diverge Late; What To Do After AI Stocks Surge
+- 2026-07-30T22:39:53+00:00 / MSFT / Investor's Business Daily: Dow Jones Futures: Apple, Amazon Diverge Late; What To Do After AI Stocks Surge
+- 2026-07-30T22:39:53+00:00 / AMZN / Investor's Business Daily: Dow Jones Futures: Apple, Amazon Diverge Late; What To Do After AI Stocks Surge
 
 ### 注目イベント
 
-- 2026-07-29T19:13:00+00:00 / AMD: AMD's Core Scientific deal is bigger than the headline number (株価反応: -5.51%, 出来高: 31.47M)
-- 2026-07-29T18:36:08+00:00 / AMD: AMD Stock Drops 5.7% as AI Rout Overwhelms 2.5-Gigawatt Deal (株価反応: -5.51%, 出来高: 31.47M)
-- 2026-07-29T18:31:29+00:00 / AMD: Nasdaq, S&P 500 Fall 1%, Dow Sinks 900 Points Ahead of Fed Decision (株価反応: -5.51%, 出来高: 31.47M)
-- 2026-07-29T18:30:00+00:00 / AMD: Why AMD and Core Scientific's $14 billion AI partnership is a turning point (株価反応: -5.51%, 出来高: 31.47M)
-- 2026-07-29T18:22:55+00:00 / AMD: Nvidia, AMD, Micron Lead Chip Stocks Selloff as SK hynix Earnings Disappoint (株価反応: -5.51%, 出来高: 31.47M)
+- 2026-07-30T17:30:00+00:00 / MSFT: Meta's & Microsoft's massive AI spending: Why only one is getting rewarded (株価反応: 15.51%, 出来高: 109.34M)
+- 2026-07-30T16:00:00+00:00 / MSFT: Microsoft and Meta boost AI spending, but only one stock pays the price (株価反応: 15.51%, 出来高: 109.34M)
+- 2026-07-30T14:06:56+00:00 / MSFT: Chip stocks are rebounding — except for Qualcomm: Why it might just be a 'one off' (株価反応: 15.51%, 出来高: 109.34M)
+- 2026-07-30T19:53:43+00:00 / AMD: TSMC's next AI chip move sends Intel stock soaring (株価反応: 13.00%, 出来高: 35.11M)
+- 2026-07-30T19:44:00+00:00 / AMD: AMD Stock Has Surged 364% in 5 Years. History Suggests That It Will Become a Multibagger By 2030 (株価反応: 13.00%, 出来高: 35.11M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 2 | 65.50 | 19.11 | 23.70 | -0.35% | 20 |
-| Consumer Cyclical | 2 | 53.50 | 151.67 | 4.72 | -16.59% | 20 |
-| Technology | 4 | 66.25 | 59.13 | 8.64 | 0.77% | 40 |
+| Communication Services | 2 | 65.00 | 18.53 | 23.23 | -5.47% | 20 |
+| Consumer Cyclical | 2 | 57.50 | 158.41 | 4.71 | -13.88% | 20 |
+| Technology | 4 | 71.25 | 64.15 | 8.94 | 4.30% | 40 |
 
 ## 市場トレンド
 
