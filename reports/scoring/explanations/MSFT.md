@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Microsoft Corporation
-- Total Score: 76 / 100
+- Total Score: 75 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 76 点を獲得し、シグナル充足率は 76.0% です。
+- データが確認できた 100 点満点のうち 75 点を獲得し、シグナル充足率は 75.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -51,11 +51,11 @@ Evidence
 
 使用データ
 
-- total_revenue: 281,724,000,000.0000
-- eps: 13.7000
-- net_income: 101,832,000,000.0000
-- operating_income: 128,528,000,000.0000
-- research_and_development: 32,488,000,000.0000
+- total_revenue: 331,839,000,000.0000
+- eps: 18.0000
+- net_income: 133,749,000,000.0000
+- operating_income: 155,237,000,000.0000
+- research_and_development: 35,562,000,000.0000
 - revenue_yoy_growth: 18.3000
 - eps_yoy_growth: 23.4100
 - revenue_yoy_growth_avg: 16.6800
@@ -71,9 +71,9 @@ Evidence
 
 - 現金 がプラスで確認できるため加点しています。
 - 自己資本がプラスで、財務基盤を確認できます。
-- 総負債/自己資本が 0.80 倍で、負債負担は相対的に抑えられています。
+- 総負債/自己資本が 0.71 倍で、負債負担は相対的に抑えられています。
 - 長期債務が総負債に対して過度に大きくないため加点しています。
-- Current Ratio が 1.35 で、最低限の短期支払余力があります。
+- Current Ratio が 1.23 で、最低限の短期支払余力があります。
 
 Evidence
 
@@ -82,11 +82,11 @@ Evidence
 
 使用データ
 
-- cash: 30,242,000,000.0000
-- total_liabilities: 275,524,000,000.0000
-- shareholders_equity: 343,479,000,000.0000
-- long_term_debt: 40,152,000,000.0000
-- current_ratio: 1.3534
+- cash: 20,935,000,000.0000
+- total_liabilities: 315,989,000,000.0000
+- shareholders_equity: 442,387,000,000.0000
+- long_term_debt: 31,067,000,000.0000
+- current_ratio: 1.2303
 
 ## Valuation
 
@@ -96,7 +96,7 @@ Evidence
 
 - PER はセクター内 42.86 パーセンタイル / 母数 15 で、中位レンジです。
 - Forward PER はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。
-- PEG はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。
+- PEG はセクター内 73.33 パーセンタイル / 母数 16 で、中位レンジです。
 - PBR はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -107,31 +107,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 25.1169
-- forward_pe: 19.5410
+- trailing_pe: 25.8897
+- forward_pe: 19.9647
 - peg_ratio: 1.2100
-- price_to_book: 8.0876
+- price_to_book: 7.8019
 - sector_peer_count: 16
 - trailing_pe_percentile: 42.8600
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 46.6700
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 66.6700
+- peg_ratio_percentile: 73.3300
 - peg_ratio_peer_count: 16
 - price_to_book_percentile: 26.6700
 - price_to_book_peer_count: 16
 
 ## Momentum
 
-11点
+12点
 
 理由
 
-- 1M の対SPY超過リターンが +21.61pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンは +2.01pt で、市場並み以上です。
-- 6M の対SPY超過リターンは -13.14pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -29.34pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 2.46 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンが +20.76pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンは +9.99pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -0.53pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは -27.78pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.26 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -140,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: 20.9319
-- 3M: 6.5064
-- 6M: -5.9218
-- 1Y: -11.2895
+- 1M: 20.9327
+- 3M: 14.2102
+- 6M: 7.6792
+- 1Y: -8.7304
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.68, '3M': 4.5, '6M': 7.22, '1Y': 18.05}
-- excess_returns: {'1M': 21.61, '3M': 2.01, '6M': -13.14, '1Y': -29.34}
-- latest_volume: 109,342,280.0000
-- average_volume_30d: 44,468,012.6667
+- benchmark_returns: {'1M': 0.17, '3M': 4.22, '6M': 8.21, '1Y': 19.05}
+- excess_returns: {'1M': 20.76, '3M': 9.99, '6M': -0.53, '1Y': -27.78}
+- latest_volume: 56,468,734.0000
+- average_volume_30d: 44,977,991.1333
 
 ## News
 
-17点
+15点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が 9.91% とプラスです。
+- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。
+- イベント後の平均株価反応が 3.02% とプラスです。
 
 Evidence
 
@@ -169,11 +169,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 5
-- negative_count: 0
-- sentiment_net_ratio: 1.0000
+- positive_count: 3
+- negative_count: 1
+- sentiment_net_ratio: 0.5000
 - event_count: 10
-- events_with_price_reaction: 5
+- events_with_price_reaction: 3
 
 ## Note
 

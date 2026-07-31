@@ -5,20 +5,20 @@
 ## Summary
 
 - Company: Alphabet Inc.
-- Total Score: 65 / 100
-- Confidence: Medium
+- Total Score: 71 / 100
+- Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
 
-Medium
+High
 
 理由
 
 - 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 1 件です。
-- 主要データは一定程度ありますが、欠損や未取得項目が残っています。
+- 欠損または計算不可の項目数は 0 件です。
+- 主要データが比較的そろっており、説明可能性は高めです。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 65 点を獲得し、シグナル充足率は 65.0% です。
+- データが確認できた 100 点満点のうち 71 点を獲得し、シグナル充足率は 71.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -65,14 +65,14 @@ Evidence
 
 ## Financial Health
 
-14点
+20点
 
 理由
 
 - 現金 がプラスで確認できるため加点しています。
 - 自己資本がプラスで、財務基盤を確認できます。
-- 総負債が取得できないため、負債項目は加点していません。
-- 長期債務が確認できるため、返済負担の継続確認が必要です。
+- 総負債/自己資本が 0.43 倍で、負債負担は相対的に抑えられています。
+- 長期債務が総負債に対して過度に大きくないため加点しています。
 - Current Ratio が 2.01 で、短期支払余力が確認できます。
 
 Evidence
@@ -83,14 +83,10 @@ Evidence
 使用データ
 
 - cash: 30,708,000,000.0000
-- total_liabilities: N/A
+- total_liabilities: 180,016,000,000.0000
 - shareholders_equity: 415,265,000,000.0000
 - long_term_debt: 46,547,000,000.0000
 - current_ratio: 2.0053
-
-欠損・計算不可
-
-- total_liabilities
 
 ## Valuation
 
@@ -111,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 16.7416
-- forward_pe: 22.6449
+- trailing_pe: 17.8780
+- forward_pe: 24.1699
 - peg_ratio: 0.9100
-- price_to_book: 6.5557
+- price_to_book: 6.9972
 - sector_peer_count: 10
 - trailing_pe_percentile: 55.5600
 - trailing_pe_peer_count: 10
@@ -131,11 +127,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -5.95pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -9.10pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -7.79pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンが +52.89pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.87 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -1.58pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -11.61pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -2.78pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンが +62.68pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 1.31 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -144,15 +140,15 @@ Evidence
 
 使用データ
 
-- 1M: -6.6346
-- 3M: -4.5953
-- 6M: -0.5701
-- 1Y: 70.9384
+- 1M: -1.4064
+- 3M: -7.3953
+- 6M: 5.4231
+- 1Y: 81.7259
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.68, '3M': 4.5, '6M': 7.22, '1Y': 18.05}
-- excess_returns: {'1M': -5.95, '3M': -9.1, '6M': -7.79, '1Y': 52.89}
-- latest_volume: 29,924,768.0000
-- average_volume_30d: 34,525,502.2667
+- benchmark_returns: {'1M': 0.17, '3M': 4.22, '6M': 8.21, '1Y': 19.05}
+- excess_returns: {'1M': -1.58, '3M': -11.61, '6M': -2.78, '1Y': 62.68}
+- latest_volume: 46,347,613.0000
+- average_volume_30d: 35,260,410.4333
 
 ## News
 
@@ -161,8 +157,8 @@ Evidence
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 6 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が 0.11% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。
+- イベント後の平均株価反応が 6.73% とプラスです。
 
 Evidence
 
@@ -173,11 +169,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 6
-- negative_count: 0
-- sentiment_net_ratio: 1.0000
+- positive_count: 3
+- negative_count: 1
+- sentiment_net_ratio: 0.5000
 - event_count: 10
-- events_with_price_reaction: 3
+- events_with_price_reaction: 4
 
 ## Note
 

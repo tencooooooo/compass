@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 8
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: -2.69%
+- 市場全体の1Mモメンタム平均: -1.19%
 - ニュース件数: 80
 - Event数: 80
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,34 +21,34 @@
 
 ### 注目ニュース
 
-- 2026-07-30T22:51:00+00:00 / AAPL / Yahoo Finance Video: Tim Cook's final earnings call as Apple CEO
-- 2026-07-30T22:39:59+00:00 / AMZN / AFP: Amazon beats expectations with cloud and AI growth
-- 2026-07-30T22:39:53+00:00 / AAPL / Investor's Business Daily: Dow Jones Futures: Apple, Amazon Diverge Late; What To Do After AI Stocks Surge
-- 2026-07-30T22:39:53+00:00 / MSFT / Investor's Business Daily: Dow Jones Futures: Apple, Amazon Diverge Late; What To Do After AI Stocks Surge
-- 2026-07-30T22:39:53+00:00 / AMZN / Investor's Business Daily: Dow Jones Futures: Apple, Amazon Diverge Late; What To Do After AI Stocks Surge
+- 2026-07-31T22:41:41+00:00 / AAPL / Reuters Videos: Wall Street ends higher as Amazon soothes AI jitters
+- 2026-07-31T22:41:41+00:00 / MSFT / Reuters Videos: Wall Street ends higher as Amazon soothes AI jitters
+- 2026-07-31T22:41:41+00:00 / AMZN / Reuters Videos: Wall Street ends higher as Amazon soothes AI jitters
+- 2026-07-31T22:14:22+00:00 / NVDA / Motley Fool: Why SPS Commerce Stock Crushed it on Friday
+- 2026-07-31T22:09:21+00:00 / TSLA / MT Newswires: Market Chatter: Musk's Fortune Falls Below Pre-SpaceX IPO Levels, Bloomberg Reports
 
 ### 注目イベント
 
-- 2026-07-30T17:30:00+00:00 / MSFT: Meta's & Microsoft's massive AI spending: Why only one is getting rewarded (株価反応: 15.51%, 出来高: 109.34M)
-- 2026-07-30T16:00:00+00:00 / MSFT: Microsoft and Meta boost AI spending, but only one stock pays the price (株価反応: 15.51%, 出来高: 109.34M)
-- 2026-07-30T14:06:56+00:00 / MSFT: Chip stocks are rebounding — except for Qualcomm: Why it might just be a 'one off' (株価反応: 15.51%, 出来高: 109.34M)
-- 2026-07-30T19:53:43+00:00 / AMD: TSMC's next AI chip move sends Intel stock soaring (株価反応: 13.00%, 出来高: 35.11M)
-- 2026-07-30T19:44:00+00:00 / AMD: AMD Stock Has Surged 364% in 5 Years. History Suggests That It Will Become a Multibagger By 2030 (株価反応: 13.00%, 出来高: 35.11M)
+- 2026-07-31T14:38:24+00:00 / AMZN: Amazon's AWS business has taken on a life of its own: Earnings call takeaways (株価反応: 15.32%, 出来高: 125.92M)
+- 2026-07-31T13:30:05+00:00 / AMZN: Amazon's surging cloud business is growing at a breakneck pace: Chart (株価反応: 15.32%, 出来高: 125.92M)
+- 2026-07-31T12:24:56+00:00 / AMZN: Amazon stock soars 15% as e-commerce giant's AWS cloud business booms in 'home run' quarter (株価反応: 15.32%, 出来高: 125.92M)
+- 2026-07-31T10:00:00+00:00 / AMZN: The AI spending boom is forcing a rethink on stock buybacks: One Big Investment Idea (株価反応: 15.32%, 出来高: 125.92M)
+- 2026-07-31T14:31:05+00:00 / AAPL: Apple's iPhone leasing program: How it works, what to consider (株価反応: -7.35%, 出来高: 127.40M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 2 | 65.00 | 18.53 | 23.23 | -5.47% | 20 |
-| Consumer Cyclical | 2 | 57.50 | 158.41 | 4.71 | -13.88% | 20 |
-| Technology | 4 | 71.25 | 64.15 | 8.94 | 4.30% | 40 |
+| Communication Services | 2 | 70.50 | 19.42 | 23.25 | -5.29% | 20 |
+| Consumer Cyclical | 2 | 66.00 | 155.00 | 6.75 | -7.23% | 20 |
+| Technology | 4 | 70.00 | 62.54 | 9.06 | 3.88% | 40 |
 
 ## 市場トレンド
 
 | セクター | Momentum | News | Financial Health |
 | --- | --- | --- | --- |
 | Communication Services | Weak | High | Good |
-| Consumer Cyclical | Risk-Off | High | Good |
+| Consumer Cyclical | Weak | High | Good |
 | Technology | Positive | High | Good |
 
 ## 市場心理

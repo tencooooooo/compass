@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Apple Inc.
-- Total Score: 63 / 100
+- Total Score: 61 / 100
 - Confidence: High
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 63 点を獲得し、シグナル充足率は 63.0% です。
+- データが確認できた 100 点満点のうち 61 点を獲得し、シグナル充足率は 61.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -36,8 +36,9 @@ Moderate
 
 理由
 
-- revenue_growth(直近4四半期平均) は 11.74% で、プラス成長を維持しています。
-- eps_growth(直近4四半期平均) は 15.03% で、+15%以上の成長です。
+- revenue_growth(直近4四半期平均) は 14.56% で、プラス成長を維持しています。
+- eps_growth(直近4四半期平均) は 20.24% で、+15%以上の成長です。
+- eps_growth は直近四半期が前四半期より +6.84pt 高く、成長の加速がみられます。
 - 純利益 がプラスで確認できるため加点しています。
 - 営業利益 がプラスで確認できるため加点しています。
 - 研究開発費が確認でき、将来成長への投資が続いています。
@@ -55,12 +56,12 @@ Evidence
 - net_income: 112,010,000,000.0000
 - operating_income: 133,050,000,000.0000
 - research_and_development: 34,550,000,000.0000
-- revenue_yoy_growth: 16.6000
-- eps_yoy_growth: 21.8200
-- revenue_yoy_growth_avg: 11.7400
-- eps_yoy_growth_avg: 15.0300
-- revenue_growth_quarters: ['2026-Q1', '2025-Q4', '2025-Q2', '2025-Q1']
-- eps_growth_quarters: ['2026-Q1', '2025-Q4', '2025-Q2', '2025-Q1']
+- revenue_yoy_growth: 16.3600
+- eps_yoy_growth: 28.6600
+- revenue_yoy_growth_avg: 14.5600
+- eps_yoy_growth_avg: 20.2400
+- revenue_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q4', '2025-Q2']
+- eps_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q4', '2025-Q2']
 
 ## Financial Health
 
@@ -93,7 +94,7 @@ Evidence
 
 理由
 
-- PER はセクター内 64.29 パーセンタイル / 母数 15 で、中位レンジです。
+- PER はセクター内 57.14 パーセンタイル / 母数 15 で、中位レンジです。
 - Forward PER はセクター内 86.67 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - PEG はセクター内 100.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - PBR はセクター内 100.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
@@ -106,12 +107,12 @@ Evidence
 
 使用データ
 
-- trailing_pe: 40.4158
-- forward_pe: 34.5276
+- trailing_pe: 35.3444
+- forward_pe: 32.2769
 - peg_ratio: 2.7200
-- price_to_book: 45.9270
+- price_to_book: 42.5496
 - sector_peer_count: 16
-- trailing_pe_percentile: 64.2900
+- trailing_pe_percentile: 57.1400
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 86.6700
 - forward_pe_peer_count: 16
@@ -122,15 +123,15 @@ Evidence
 
 ## Momentum
 
-19点
+17点
 
 理由
 
-- 1M の対SPY超過リターンが +15.91pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンが +19.03pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +23.04pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンが +40.40pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.91 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +4.77pt で、市場並み以上です。
+- 3M の対SPY超過リターンは +9.73pt で、市場並み以上です。
+- 6M の対SPY超過リターンが +11.62pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンが +29.31pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 1.98 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -139,15 +140,15 @@ Evidence
 
 使用データ
 
-- 1M: 15.2302
-- 3M: 23.5286
-- 6M: 30.2642
-- 1Y: 58.4479
+- 1M: 4.9358
+- 3M: 13.9468
+- 6M: 19.8250
+- 1Y: 48.3547
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.68, '3M': 4.5, '6M': 7.22, '1Y': 18.05}
-- excess_returns: {'1M': 15.91, '3M': 19.03, '6M': 23.04, '1Y': 40.4}
-- latest_volume: 55,501,839.0000
-- average_volume_30d: 60,868,417.9667
+- benchmark_returns: {'1M': 0.17, '3M': 4.22, '6M': 8.21, '1Y': 19.05}
+- excess_returns: {'1M': 4.77, '3M': 9.73, '6M': 11.62, '1Y': 29.31}
+- latest_volume: 127,398,021.0000
+- average_volume_30d: 64,334,047.3667
 
 ## News
 
@@ -156,8 +157,8 @@ Evidence
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 2 件(純比率 +0.20)で、センチメントは 4.8 点です。
-- イベント後の平均株価反応が -0.12% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が -5.09% と弱く、注意が必要です。
 
 Evidence
 
@@ -168,11 +169,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 3
-- negative_count: 2
-- sentiment_net_ratio: 0.2000
+- positive_count: 1
+- negative_count: 0
+- sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 2
+- events_with_price_reaction: 3
 
 ## Note
 

@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Amazon.com, Inc.
-- Total Score: 67 / 100
+- Total Score: 82 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -17,9 +17,8 @@ Medium
 理由
 
 - 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 2 件です。
+- 欠損または計算不可の項目数は 1 件です。
 - 主要データは一定程度ありますが、欠損や未取得項目が残っています。
-- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
@@ -28,18 +27,18 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 67 点を獲得し、シグナル充足率は 67.0% です。
+- データが確認できた 100 点満点のうち 82 点を獲得し、シグナル充足率は 82.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
-15点
+16点
 
 理由
 
-- revenue_growth(直近4四半期平均) は 12.99% で、プラス成長を維持しています。
-- eps_growth(直近4四半期平均) は 51.69% で、+30%以上の高成長です。
-- eps_growth は直近四半期が前四半期より +38.48pt 高く、成長の加速がみられます。
+- revenue_growth(直近4四半期平均) は 15.74% で、+15%以上の成長です。
+- eps_growth(直近4四半期平均) は 96.70% で、+30%以上の高成長です。
+- eps_growth は直近四半期が前四半期より +167.42pt 高く、成長の加速がみられます。
 - 純利益 がプラスで確認できるため加点しています。
 - 営業利益 がプラスで確認できるため加点しています。
 - 研究開発費が取得できないため、R&D項目は加点していません。
@@ -57,12 +56,12 @@ Evidence
 - net_income: 77,670,000,000.0000
 - operating_income: 79,975,000,000.0000
 - research_and_development: N/A
-- revenue_yoy_growth: 16.6100
-- eps_yoy_growth: 74.8400
-- revenue_yoy_growth_avg: 12.9900
-- eps_yoy_growth_avg: 51.6900
-- revenue_growth_quarters: ['2026-Q1', '2025-Q3', '2025-Q2', '2025-Q1']
-- eps_growth_quarters: ['2026-Q1', '2025-Q3', '2025-Q2', '2025-Q1']
+- revenue_yoy_growth: 19.6200
+- eps_yoy_growth: 242.2600
+- revenue_yoy_growth_avg: 15.7400
+- eps_yoy_growth_avg: 96.7000
+- revenue_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
+- eps_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
 
 欠損・計算不可
 
@@ -95,12 +94,12 @@ Evidence
 
 ## Valuation
 
-16点
+18点
 
 理由
 
-- PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
-- Forward PER はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
+- PER はセクター内 22.22 パーセンタイル / 母数 10 で、相対的に割安寄りです。
+- Forward PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
 - PEG はセクター内 11.11 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - PBR はセクター内 25.00 パーセンタイル / 母数 5 で、相対的に割安寄りです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
@@ -112,14 +111,14 @@ Evidence
 
 使用データ
 
-- trailing_pe: 28.1699
-- forward_pe: 23.7127
-- peg_ratio: 1.2200
-- price_to_book: 5.7309
+- trailing_pe: 21.8488
+- forward_pe: 26.7337
+- peg_ratio: 1.2400
+- price_to_book: 6.6089
 - sector_peer_count: 10
-- trailing_pe_percentile: 66.6700
+- trailing_pe_percentile: 22.2200
 - trailing_pe_peer_count: 10
-- forward_pe_percentile: 55.5600
+- forward_pe_percentile: 66.6700
 - forward_pe_peer_count: 10
 - peg_ratio_percentile: 11.1100
 - peg_ratio_peer_count: 10
@@ -128,15 +127,15 @@ Evidence
 
 ## Momentum
 
-5点
+13点
 
 理由
 
-- 1M の対SPY超過リターンは -0.51pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -14.97pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -10.31pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -16.10pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.43 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンが +12.19pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンは -1.76pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは +4.14pt で、市場並み以上です。
+- 1Y の対SPY超過リターンは -1.07pt と、市場を小幅に下回っています。
+- 直近出来高が30日平均の 2.15 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -145,25 +144,25 @@ Evidence
 
 使用データ
 
-- 1M: -1.1916
-- 3M: -10.4699
-- 6M: -3.0904
-- 1Y: 1.9436
+- 1M: 12.3624
+- 3M: 2.4598
+- 6M: 12.3485
+- 1Y: 17.9808
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.68, '3M': 4.5, '6M': 7.22, '1Y': 18.05}
-- excess_returns: {'1M': -0.51, '3M': -14.97, '6M': -10.31, '1Y': -16.1}
-- latest_volume: 78,755,052.0000
-- average_volume_30d: 55,014,325.0667
+- benchmark_returns: {'1M': 0.17, '3M': 4.22, '6M': 8.21, '1Y': 19.05}
+- excess_returns: {'1M': 12.19, '3M': -1.76, '6M': 4.14, '1Y': -1.07}
+- latest_volume: 125,921,078.0000
+- average_volume_30d: 58,488,492.6000
 
 ## News
 
-13点
+17点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 7 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
+- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が 15.32% とプラスです。
 
 Evidence
 
@@ -174,15 +173,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 7
+- positive_count: 3
 - negative_count: 0
 - sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 0
-
-欠損・計算不可
-
-- event_price_reaction
+- events_with_price_reaction: 4
 
 ## Note
 

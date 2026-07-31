@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-62 / 100
+77 / 100
 
 ## Discovery Reasons
 
-- Scoring EngineのGrowthが 15/20 で、成長性の基礎条件が確認できます。
+- Scoring EngineのGrowthが 16/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで +1.28pt と、市場並み以上です。
-- 3Mモメンタムは対SPYで -16.14pt と弱く、候補評価では注意点です。
-- 6Mモメンタムは対SPYで -11.05pt と弱く、候補評価では注意点です。
-- 1Yモメンタムは対SPYで -18.15pt と弱く、候補評価では注意点です。
+- 1Mモメンタムは対SPYで +12.19pt と、市場を大きく上回っています。
+- 3Mモメンタムは対SPYで -1.76pt と、市場を小幅に下回っています。
+- 6Mモメンタムは対SPYで +4.14pt と、市場並み以上です。
+- 1Yモメンタムは対SPYで -1.07pt と、市場を小幅に下回っています。
 
 ## Strengths
 
@@ -32,7 +32,6 @@
 
 ## Watch Points
 
-- イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。
 - Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
@@ -46,7 +45,7 @@ Medium
 
 ## Signal Strength
 
-Moderate(シグナル充足率: 63.76%)
+Strong(シグナル充足率: 79.12%)
 
 ## Evidence
 
@@ -65,20 +64,20 @@ Moderate(シグナル充足率: 63.76%)
 
 ## Metrics
 
-- scoring_total: 68.0
-- signal_earned_points: 61.85
+- scoring_total: 82.0
+- signal_earned_points: 76.75
 - signal_max_points: 97.0
 - weak_signals: []
 - scoring_signal_strength: Strong
-- growth_score: 15.0
+- growth_score: 16.0
 - financial_health_score: 18.0
-- valuation_score: 16.0
-- news_score: 15.0
-- momentum: {'1m': 1.9294326191794946, '3m': -12.348949600620733, '6m': -3.2488727853669657, '1y': -0.36170880305923614}
+- valuation_score: 18.0
+- news_score: 17.0
+- momentum: {'1m': 12.362428631069433, '3m': 2.4598162958296395, '6m': 12.348484413316827, '1y': 17.98079138619193}
 - benchmark: SPY
-- excess_momentum: {'1m': 1.28, '3m': -16.14, '6m': -11.05, '1y': -18.15}
+- excess_momentum: {'1m': 12.19, '3m': -1.76, '6m': 4.14, '1y': -1.07}
 - positive_news: 3
 - watch_news: 0
 - event_count: 10
-- events_with_reaction: 2
-- sector_average_score: 57.5
+- events_with_reaction: 4
+- sector_average_score: 66.0

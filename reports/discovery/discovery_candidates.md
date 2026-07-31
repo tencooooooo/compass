@@ -6,8 +6,8 @@
 
 - 対象企業数: 8
 - セクター数: 3
-- 市場平均スコア: 66.25
-- 1M市場モメンタム平均: -2.6883963052107354
+- 市場平均スコア: 69.125
+- 1M市場モメンタム平均: -1.1917199516432109
 - ニュース件数: 80
 - Event数: 80
 
@@ -15,12 +15,13 @@
 
 | Ticker | Company | Sector | Discovery Score | Status | Confidence | Signal |
 | --- | --- | --- | --- | --- | --- | --- |
-| AMD | AMD | Technology | 88 | Primary Candidate | High | Strong |
-| MSFT | Microsoft Corporation | Technology | 77 | Primary Candidate | High | Strong |
-| GOOGL | Alphabet Inc. | Communication Services | 76 | Primary Candidate | Medium | Strong |
-| AAPL | Apple Inc. | Technology | 71 | Watch Candidate | High | Strong |
-| NVDA | NVIDIA Corporation | Technology | 66 | Watch Candidate | Medium | Strong |
-| META | Meta Platforms, Inc. | Communication Services | 62 | Watch Candidate | High | Moderate |
+| AMD | Advanced Micro Devices, Inc. | Technology | 81 | Primary Candidate | High | Strong |
+| GOOGL | Alphabet Inc. | Communication Services | 77 | Primary Candidate | High | Strong |
+| AMZN | Amazon.com, Inc. | Consumer Cyclical | 77 | Primary Candidate | Medium | Strong |
+| MSFT | Microsoft Corporation | Technology | 76 | Primary Candidate | High | Strong |
+| NVDA | NVIDIA Corporation | Technology | 74 | Watch Candidate | High | Strong |
+| AAPL | Apple Inc. | Technology | 66 | Watch Candidate | High | Strong |
+| META | Meta Platforms, Inc. | Communication Services | 65 | Watch Candidate | High | Strong |
 
 ## Top Candidate
 
@@ -30,7 +31,7 @@ AMD
 
 - Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 10/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 

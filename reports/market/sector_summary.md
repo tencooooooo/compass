@@ -6,10 +6,10 @@
 
 - 銘柄数: 2
 - 銘柄: GOOGL, META
-- 平均スコア: 65.00
-- 平均PER: 18.53
-- 平均EPS: 23.23
-- 平均1Mモメンタム: -5.47%
+- 平均スコア: 70.50
+- 平均PER: 19.42
+- 平均EPS: 23.25
+- 平均1Mモメンタム: -5.29%
 - ニュース件数: 20
 
 ### Trend
@@ -22,22 +22,22 @@
 
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| GOOGL | Alphabet Inc. | 65.00 | 16.74 | 19.93 | -6.63% | 10 |
-| META | Meta Platforms, Inc. | 65.00 | 20.32 | 26.53 | -4.31% | 10 |
+| GOOGL | Alphabet Inc. | 71.00 | 17.88 | 19.92 | -1.41% | 10 |
+| META | Meta Platforms, Inc. | 70.00 | 20.95 | 26.57 | -9.17% | 10 |
 
 ## Consumer Cyclical
 
 - 銘柄数: 2
 - 銘柄: AMZN, TSLA
-- 平均スコア: 57.50
-- 平均PER: 158.41
-- 平均EPS: 4.71
-- 平均1Mモメンタム: -13.88%
+- 平均スコア: 66.00
+- 平均PER: 155.00
+- 平均EPS: 6.75
+- 平均1Mモメンタム: -7.23%
 - ニュース件数: 20
 
 ### Trend
 
-- Momentum: Risk-Off
+- Momentum: Weak
 - News: High
 - Financial Health: Good
 
@@ -45,17 +45,17 @@
 
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| AMZN | Amazon.com, Inc. | 67.00 | 28.17 | 8.36 | -1.19% | 10 |
-| TSLA | Tesla, Inc. | 48.00 | 288.64 | 1.07 | -26.57% | 10 |
+| AMZN | Amazon.com, Inc. | 82.00 | 21.85 | 12.43 | 12.36% | 10 |
+| TSLA | Tesla, Inc. | 50.00 | 288.16 | 1.08 | -26.83% | 10 |
 
 ## Technology
 
 - 銘柄数: 4
 - 銘柄: AAPL, MSFT, NVDA, AMD
-- 平均スコア: 71.25
-- 平均PER: 64.15
-- 平均EPS: 8.94
-- 平均1Mモメンタム: 4.30%
+- 平均スコア: 70.00
+- 平均PER: 62.54
+- 平均EPS: 9.06
+- 平均1Mモメンタム: 3.88%
 - ニュース件数: 40
 
 ### Trend
@@ -68,7 +68,7 @@
 
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| AAPL | Apple Inc. | 63.00 | 40.42 | 8.25 | 15.23% | 10 |
-| MSFT | Microsoft Corporation | 76.00 | 25.12 | 17.96 | 20.93% | 10 |
-| NVDA | NVIDIA Corporation | 68.00 | 29.82 | 6.54 | -2.52% | 10 |
-| AMD | N/A | 78.00 | 161.26 | 3.01 | -16.44% | 10 |
+| AAPL | Apple Inc. | 61.00 | 35.34 | 8.74 | 4.94% | 10 |
+| MSFT | Microsoft Corporation | 75.00 | 25.89 | 17.95 | 20.93% | 10 |
+| NVDA | NVIDIA Corporation | 73.00 | 30.74 | 6.53 | 1.60% | 10 |
+| AMD | Advanced Micro Devices, Inc. | 71.00 | 158.19 | 3.01 | -11.97% | 10 |
