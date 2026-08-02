@@ -2,90 +2,100 @@
 
 ## AI
 
-- Evaluated: 550
-- Completed: 92
-- Pending: 458
-- Success Rate: 51.09%
-- Average Return: 0.76%
-- Win Rate: 51.09%
-- Alpha vs Benchmark: 0.77%
+- Evaluated: 700
+- Completed: 118
+- Pending: 582
+- Success Rate: 47.46%
+- Average Return: 0.15%
+- Win Rate: 47.46%
+- Alpha vs Benchmark: 0.14%
+
+## Biotechnology
+
+- Evaluated: 110
+- Completed: 19
+- Pending: 91
+- Success Rate: 63.16%
+- Average Return: 1.86%
+- Win Rate: 63.16%
+- Alpha vs Benchmark: 1.78%
 
 ## Cloud
 
-- Evaluated: 525
-- Completed: 87
-- Pending: 438
-- Success Rate: 52.87%
-- Average Return: 1.04%
-- Win Rate: 52.87%
-- Alpha vs Benchmark: 1.03%
+- Evaluated: 590
+- Completed: 98
+- Pending: 492
+- Success Rate: 50.00%
+- Average Return: 0.49%
+- Win Rate: 50.00%
+- Alpha vs Benchmark: 0.44%
 
 ## Cybersecurity
 
-- Evaluated: 235
-- Completed: 39
-- Pending: 196
-- Success Rate: 35.90%
-- Average Return: -0.08%
-- Win Rate: 35.90%
-- Alpha vs Benchmark: -0.14%
+- Evaluated: 330
+- Completed: 56
+- Pending: 274
+- Success Rate: 33.93%
+- Average Return: -0.42%
+- Win Rate: 33.93%
+- Alpha vs Benchmark: -0.48%
 
 ## EV
 
-- Evaluated: 215
-- Completed: 38
-- Pending: 177
-- Success Rate: 60.53%
-- Average Return: 1.62%
-- Win Rate: 60.53%
-- Alpha vs Benchmark: 1.71%
+- Evaluated: 135
+- Completed: 25
+- Pending: 110
+- Success Rate: 52.00%
+- Average Return: -0.48%
+- Win Rate: 52.00%
+- Alpha vs Benchmark: -0.50%
 
 ## Energy
 
-- Evaluated: 185
-- Completed: 32
-- Pending: 153
-- Success Rate: 59.38%
-- Average Return: 1.57%
-- Win Rate: 59.38%
-- Alpha vs Benchmark: 1.66%
+- Evaluated: 260
+- Completed: 45
+- Pending: 215
+- Success Rate: 28.89%
+- Average Return: -2.57%
+- Win Rate: 28.89%
+- Alpha vs Benchmark: -2.56%
 
 ## Healthcare
 
-- Evaluated: 55
-- Completed: 9
-- Pending: 46
-- Success Rate: 11.11%
-- Average Return: -1.14%
-- Win Rate: 11.11%
-- Alpha vs Benchmark: -1.36%
+- Evaluated: 80
+- Completed: 12
+- Pending: 68
+- Success Rate: 25.00%
+- Average Return: 2.43%
+- Win Rate: 25.00%
+- Alpha vs Benchmark: 2.19%
 
 ## Robotics
 
-- Evaluated: 150
-- Completed: 26
-- Pending: 124
-- Success Rate: 65.38%
-- Average Return: 1.06%
-- Win Rate: 65.38%
-- Alpha vs Benchmark: 1.12%
+- Evaluated: 110
+- Completed: 19
+- Pending: 91
+- Success Rate: 63.16%
+- Average Return: 1.86%
+- Win Rate: 63.16%
+- Alpha vs Benchmark: 1.78%
 
 ## Semiconductor
 
-- Evaluated: 525
-- Completed: 87
-- Pending: 438
-- Success Rate: 52.87%
-- Average Return: 1.04%
-- Win Rate: 52.87%
-- Alpha vs Benchmark: 1.03%
+- Evaluated: 675
+- Completed: 112
+- Pending: 563
+- Success Rate: 49.11%
+- Average Return: 0.58%
+- Win Rate: 49.11%
+- Alpha vs Benchmark: 0.56%
 
 ## Space
 
-- Evaluated: 455
-- Completed: 77
-- Pending: 378
-- Success Rate: 45.45%
-- Average Return: 0.43%
-- Win Rate: 45.45%
-- Alpha vs Benchmark: 0.44%
+- Evaluated: 220
+- Completed: 39
+- Pending: 181
+- Success Rate: 48.72%
+- Average Return: 0.13%
+- Win Rate: 48.72%
+- Alpha vs Benchmark: 0.18%

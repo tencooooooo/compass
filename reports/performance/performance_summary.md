@@ -2,18 +2,18 @@
 
 Performance Evaluation is Compass's scorecard. It measures outcomes without changing Feedback, Learning, Knowledge, or Scoring.
 
-- Evaluation date: 2026-07-26
-- Signals: 110
-- Evaluation rows: 550
-- Completed rows: 92
-- Pending rows: 458
-- Discovery Success Rate: 51.09%
-- Average Return: 0.76%
-- Median Return: 0.41%
-- Win Rate: 51.09%
-- Loss Rate: 48.91%
-- Alpha vs Benchmark: 0.77%
-- Worst Return: -11.14%
+- Evaluation date: 2026-08-02
+- Signals: 140
+- Evaluation rows: 700
+- Completed rows: 118
+- Pending rows: 582
+- Discovery Success Rate: 47.46%
+- Average Return: 0.15%
+- Median Return: -0.21%
+- Win Rate: 47.46%
+- Loss Rate: 52.54%
+- Alpha vs Benchmark: 0.14%
+- Worst Return: -26.83%
 
 ## Note
 
