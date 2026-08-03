@@ -6,15 +6,15 @@
 
 - 銘柄数: 2
 - 銘柄: GOOGL, META
-- 平均スコア: 70.50
-- 平均PER: 19.42
+- 平均スコア: 68.50
+- 平均PER: 20.48
 - 平均EPS: 23.25
-- 平均1Mモメンタム: -5.29%
+- 平均1Mモメンタム: 2.52%
 - ニュース件数: 20
 
 ### Trend
 
-- Momentum: Weak
+- Momentum: Positive
 - News: High
 - Financial Health: Good
 
@@ -22,17 +22,17 @@
 
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| GOOGL | Alphabet Inc. | 71.00 | 17.88 | 19.92 | -1.41% | 10 |
-| META | Meta Platforms, Inc. | 70.00 | 20.95 | 26.57 | -9.17% | 10 |
+| GOOGL | Alphabet Inc. | 70.00 | 18.73 | 19.94 | 3.78% | 10 |
+| META | Meta Platforms, Inc. | 67.00 | 22.22 | 26.56 | 1.26% | 10 |
 
 ## Consumer Cyclical
 
 - 銘柄数: 2
 - 銘柄: AMZN, TSLA
-- 平均スコア: 66.00
-- 平均PER: 155.00
-- 平均EPS: 6.75
-- 平均1Mモメンタム: -7.23%
+- 平均スコア: 64.00
+- 平均PER: 159.16
+- 平均EPS: 6.76
+- 平均1Mモメンタム: -0.55%
 - ニュース件数: 20
 
 ### Trend
@@ -45,17 +45,17 @@
 
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| AMZN | Amazon.com, Inc. | 82.00 | 21.85 | 12.43 | 12.36% | 10 |
-| TSLA | Tesla, Inc. | 50.00 | 288.16 | 1.08 | -26.83% | 10 |
+| AMZN | Amazon.com, Inc. | 78.00 | 22.83 | 12.44 | 17.04% | 10 |
+| TSLA | Tesla, Inc. | 50.00 | 295.49 | 1.09 | -18.14% | 10 |
 
 ## Technology
 
 - 銘柄数: 4
 - 銘柄: AAPL, MSFT, NVDA, AMD
 - 平均スコア: 70.00
-- 平均PER: 62.54
-- 平均EPS: 9.06
-- 平均1Mモメンタム: 3.88%
+- 平均PER: 63.81
+- 平均EPS: 9.04
+- 平均1Mモメンタム: 5.71%
 - ニュース件数: 40
 
 ### Trend
@@ -68,7 +68,7 @@
 
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| AAPL | Apple Inc. | 61.00 | 35.34 | 8.74 | 4.94% | 10 |
-| MSFT | Microsoft Corporation | 75.00 | 25.89 | 17.95 | 20.93% | 10 |
-| NVDA | NVIDIA Corporation | 73.00 | 30.74 | 6.53 | 1.60% | 10 |
-| AMD | Advanced Micro Devices, Inc. | 71.00 | 158.19 | 3.01 | -11.97% | 10 |
+| AAPL | Apple Inc. | 55.00 | 34.84 | 8.71 | -1.69% | 10 |
+| MSFT | Microsoft Corporation | 77.00 | 27.18 | 17.94 | 24.88% | 10 |
+| NVDA | NVIDIA Corporation | 71.00 | 31.69 | 6.52 | 6.06% | 10 |
+| AMD | N/A | 77.00 | 161.55 | 3.00 | -6.41% | 10 |
