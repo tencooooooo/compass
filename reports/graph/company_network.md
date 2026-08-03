@@ -2,9 +2,10 @@
 
 ## Apple Inc.
 
-- BELONGS_TO: AI (Keyword: ai; Keyword: artificial intelligence; Sector alignment: Technology)
-- BELONGS_TO: Cloud (Keyword: cloud; Sector alignment: Technology)
-- BELONGS_TO: Semiconductor (Keyword: chip; Sector alignment: Technology)
+- BELONGS_TO: AI (Keyword: ai; Keyword: data center; Sector alignment: Technology)
+- BELONGS_TO: Cloud (Keyword: cloud; Keyword: data center; Sector alignment: Technology)
+- BELONGS_TO: Fintech (Keyword: payments; Sector alignment: Technology)
+- BELONGS_TO: Semiconductor (Keyword: chip; Keyword: chips; Keyword: memory; Sector alignment: Technology)
 - BELONGS_TO: Technology (Company profile sector)
 - BELONGS_TO: United States (Company profile country)
 - COMPETES_WITH: ACN (Same sector)
@@ -17,11 +18,10 @@
 - COMPETES_WITH: CSCO (Same sector)
 - COMPETES_WITH: GOOGL (Same theme)
 - COMPETES_WITH: INTC (Same theme)
-- COMPETES_WITH: META (Same theme)
-- RELATED_TO: event:AAPL:ai-spending-restraint-will-reward-magnificent-7-shares-expert-says (Event database)
-- RELATED_TO: event:AAPL:dow-jones-futures-apple-earnings-iran-news-fed-meeting-loom-as-ai-stocks-sell-of (Event database)
-- RELATED_TO: event:AAPL:fdvv-s-2-8-yield-hides-tech-mega-cap-risk-in-dividend-portfolio (Event database)
-- RELATED_TO: event:AAPL:like-it-or-not-apple-built-a-perfect-mousetrap-so-i-keep-on-buying (Event database)
+- COMPETES_WITH: MU (Same theme)
+- COMPETES_WITH: NVDA (Same theme)
+- RELATED_TO: event:AAPL:amazon-and-apple-deliver-the-drama-to-close-a-turbulent-month (Event database)
+- RELATED_TO: event:AAPL:amazon-stock-has-best-day-since-2012 (Event database)
 
 ## Accenture plc
 
@@ -86,11 +86,11 @@
 - COMPETES_WITH: AVGO (Same sector)
 - COMPETES_WITH: CRM (Same sector)
 - COMPETES_WITH: CSCO (Same sector)
-- COMPETES_WITH: GOOGL (Same theme)
 - COMPETES_WITH: INTC (Same theme)
-- COMPETES_WITH: META (Same theme)
+- COMPETES_WITH: MU (Same theme)
 - COMPETES_WITH: NOW (Same theme)
 - COMPETES_WITH: NVDA (Same theme)
+- COMPETES_WITH: ORCL (Same theme)
 
 ## Advanced Micro Devices, Inc.
 
@@ -100,8 +100,8 @@
 - COMPETES_WITH: AMAT (Same sector)
 - BELONGS_TO: AI (Keyword: ai; Keyword: artificial intelligence; Keyword: data center; Sector alignment: Technology)
 - BELONGS_TO: Cloud (Keyword: cloud; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology)
-- BELONGS_TO: Energy (Keyword: oil)
-- BELONGS_TO: Semiconductor (Keyword: semiconductor; Keyword: semiconductors; Keyword: chip; Keyword: chips; Keyword: foundry; Sector alignment: Technology)
+- BELONGS_TO: Semiconductor (Keyword: semiconductor; Keyword: semiconductors; Keyword: chip; Keyword: chips; Sector alignment: Technology)
+- BELONGS_TO: Space (Keyword: spacex)
 - BELONGS_TO: Technology (Company profile sector)
 - BELONGS_TO: United States (Company profile country)
 - COMPETES_WITH: AAPL (Same sector)
@@ -112,8 +112,8 @@
 - COMPETES_WITH: AVGO (Same sector)
 - COMPETES_WITH: CRM (Same sector)
 - COMPETES_WITH: CSCO (Same sector)
+- COMPETES_WITH: DIS (Same theme)
 - COMPETES_WITH: GOOGL (Same theme)
-- COMPETES_WITH: INTC (Same theme)
 
 ## Amazon.com, Inc.
 
@@ -122,10 +122,10 @@
 - COMPETES_WITH: ADBE (Same theme)
 - COMPETES_WITH: AMAT (Same theme)
 - COMPETES_WITH: AMD (Same theme)
-- BELONGS_TO: AI (Keyword: ai; Keyword: artificial intelligence; Keyword: machine learning)
-- BELONGS_TO: Cloud (Keyword: azure; Keyword: aws)
+- BELONGS_TO: AI (Keyword: ai; Keyword: artificial intelligence; Keyword: machine learning; Keyword: data center)
+- BELONGS_TO: Cloud (Keyword: cloud; Keyword: aws; Keyword: data center)
 - BELONGS_TO: Consumer Cyclical (Company profile sector)
-- BELONGS_TO: Semiconductor (Keyword: chip)
+- BELONGS_TO: Semiconductor (Keyword: chips)
 - BELONGS_TO: United States (Company profile country)
 - COMPETES_WITH: AAPL (Same theme)
 - COMPETES_WITH: ACN (Same theme)
@@ -268,11 +268,13 @@
 
 ## The Walt Disney Company
 
+- COMPETES_WITH: AMD (Same theme)
 - COMPETES_WITH: CHTR (Same sector)
 - COMPETES_WITH: CMCSA (Same sector)
 - BELONGS_TO: Communication Services (Company profile sector)
 - BELONGS_TO: Space (Keyword: satellite; Sector alignment: Communication Services)
 - BELONGS_TO: United States (Company profile country)
+- COMPETES_WITH: AMD (Same theme)
 - COMPETES_WITH: CHTR (Same sector)
 - COMPETES_WITH: CMCSA (Same sector)
 - COMPETES_WITH: EA (Same sector)
@@ -286,8 +288,6 @@
 - COMPETES_WITH: EA (Same sector)
 - COMPETES_WITH: GOOGL (Same sector)
 - COMPETES_WITH: META (Same sector)
-- COMPETES_WITH: NFLX (Same sector)
-- COMPETES_WITH: NVDA (Same theme)
 
 ## Electronic Arts Inc.
 
@@ -313,7 +313,6 @@
 
 - COMPETES_WITH: AAPL (Same theme)
 - COMPETES_WITH: ACN (Same theme)
-- COMPETES_WITH: AMAT (Same theme)
 - COMPETES_WITH: AMD (Same theme)
 - COMPETES_WITH: AMZN (Same theme)
 - COMPETES_WITH: AVGO (Same theme)
@@ -327,10 +326,11 @@
 - BELONGS_TO: Cloud (Keyword: cloud; Keyword: google cloud; Keyword: infrastructure; Sector alignment: Communication Services)
 - BELONGS_TO: Communication Services (Company profile sector)
 - BELONGS_TO: Cybersecurity (Keyword: cybersecurity)
-- BELONGS_TO: Energy (Keyword: energy)
-- BELONGS_TO: Semiconductor (Keyword: chip; Keyword: chips; Keyword: memory)
+- BELONGS_TO: Quantum Computing (Keyword: quantum; Keyword: quantum computing)
 - BELONGS_TO: United States (Company profile country)
 - COMPETES_WITH: AAPL (Same theme)
+- COMPETES_WITH: ACN (Same theme)
+- COMPETES_WITH: AMD (Same theme)
 
 ## The Home Depot, Inc.
 
@@ -359,7 +359,6 @@
 - COMPETES_WITH: AMD (Same theme)
 - COMPETES_WITH: AMZN (Same theme)
 - COMPETES_WITH: AVGO (Same theme)
-- COMPETES_WITH: GOOGL (Same theme)
 - BELONGS_TO: AI (Keyword: ai; Keyword: data center; Sector alignment: Technology)
 - BELONGS_TO: Cloud (Keyword: cloud; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology)
 - BELONGS_TO: Semiconductor (Keyword: semiconductors; Keyword: foundry; Sector alignment: Technology)
@@ -370,10 +369,11 @@
 - COMPETES_WITH: AMD (Same theme)
 - COMPETES_WITH: AMZN (Same theme)
 - COMPETES_WITH: AVGO (Same theme)
-- COMPETES_WITH: GOOGL (Same theme)
-- COMPETES_WITH: META (Same theme)
+- COMPETES_WITH: MU (Same theme)
+- COMPETES_WITH: NVDA (Same theme)
 - USES: AI (Company profile or news keyword match)
 - USES: Cloud (Company profile or news keyword match)
+- USES: GPU (Company profile or news keyword match)
 
 ## Lowe's Companies, Inc.
 
@@ -416,26 +416,26 @@
 
 ## Meta Platforms, Inc.
 
-- COMPETES_WITH: AAPL (Same theme)
-- COMPETES_WITH: AMAT (Same theme)
-- COMPETES_WITH: AMD (Same theme)
-- COMPETES_WITH: AMZN (Same theme)
-- COMPETES_WITH: AVGO (Same theme)
 - COMPETES_WITH: CHTR (Same sector)
 - COMPETES_WITH: CMCSA (Same sector)
 - COMPETES_WITH: DIS (Same sector)
 - COMPETES_WITH: EA (Same sector)
 - COMPETES_WITH: GOOGL (Same sector)
-- COMPETES_WITH: INTC (Same theme)
-- BELONGS_TO: AI (Keyword: ai; Keyword: artificial intelligence; Sector alignment: Communication Services)
+- BELONGS_TO: AI (Keyword: ai; Sector alignment: Communication Services)
+- BELONGS_TO: Cloud (Keyword: cloud; Sector alignment: Communication Services)
 - BELONGS_TO: Communication Services (Company profile sector)
-- BELONGS_TO: Semiconductor (Keyword: chip; Keyword: chips)
-- BELONGS_TO: Space (Keyword: launch; Sector alignment: Communication Services)
 - BELONGS_TO: United States (Company profile country)
-- COMPETES_WITH: AAPL (Same theme)
-- COMPETES_WITH: AMAT (Same theme)
-- COMPETES_WITH: AMD (Same theme)
-- COMPETES_WITH: AMZN (Same theme)
+- COMPETES_WITH: CHTR (Same sector)
+- COMPETES_WITH: CMCSA (Same sector)
+- COMPETES_WITH: DIS (Same sector)
+- COMPETES_WITH: EA (Same sector)
+- COMPETES_WITH: GOOGL (Same sector)
+- COMPETES_WITH: NFLX (Same sector)
+- COMPETES_WITH: T (Same sector)
+- INVESTS_IN: Investment Event (Investment keyword in news)
+- RELATED_TO: event:META:5-lessons-from-an-exhausting-week-in-tech-and-2-big-winners (Event database)
+- RELATED_TO: event:META:amazon-and-apple-deliver-the-drama-to-close-a-turbulent-month (Event database)
+- RELATED_TO: event:META:amazon-apple-microsoft-micron-roblox-reddit-sk-hynix-and-more-stocks-that-explai (Event database)
 
 ## Microsoft Corporation
 
@@ -444,11 +444,10 @@
 - COMPETES_WITH: CRM (Same theme)
 - COMPETES_WITH: CSCO (Same theme)
 - COMPETES_WITH: GOOGL (Same theme)
-- BELONGS_TO: AI (Keyword: ai; Keyword: artificial intelligence; Sector alignment: Technology)
-- BELONGS_TO: Cloud (Keyword: cloud; Keyword: azure; Keyword: infrastructure; Sector alignment: Technology)
+- BELONGS_TO: AI (Keyword: ai; Keyword: data center; Sector alignment: Technology)
+- BELONGS_TO: Cloud (Keyword: cloud; Keyword: azure; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology)
 - BELONGS_TO: Cybersecurity (Keyword: security; Sector alignment: Technology)
 - BELONGS_TO: Healthcare (Keyword: healthcare)
-- BELONGS_TO: Semiconductor (Keyword: chip; Keyword: chips; Keyword: memory; Sector alignment: Technology)
 - BELONGS_TO: Technology (Company profile sector)
 - BELONGS_TO: United States (Company profile country)
 - COMPETES_WITH: ACN (Same theme)
@@ -457,16 +456,30 @@
 - COMPETES_WITH: CSCO (Same theme)
 - COMPETES_WITH: GOOGL (Same theme)
 - COMPETES_WITH: NOW (Same theme)
-- COMPETES_WITH: NVDA (Same theme)
 - COMPETES_WITH: QCOM (Same theme)
+- COMPETES_WITH: VZ (Same theme)
+- INVESTS_IN: Investment Event (Investment keyword in news)
 
 ## Micron Technology, Inc.
 
+- COMPETES_WITH: AAPL (Same theme)
+- COMPETES_WITH: AMAT (Same theme)
+- COMPETES_WITH: AMD (Same theme)
+- COMPETES_WITH: AMZN (Same theme)
+- COMPETES_WITH: AVGO (Same theme)
+- COMPETES_WITH: INTC (Same theme)
 - BELONGS_TO: AI (Keyword: data center; Sector alignment: Technology)
 - BELONGS_TO: Cloud (Keyword: cloud; Keyword: data center; Sector alignment: Technology)
 - BELONGS_TO: Semiconductor (Keyword: semiconductor; Keyword: semiconductors; Keyword: memory; Sector alignment: Technology)
 - BELONGS_TO: Technology (Company profile sector)
 - BELONGS_TO: United States (Company profile country)
+- COMPETES_WITH: AAPL (Same theme)
+- COMPETES_WITH: AMAT (Same theme)
+- COMPETES_WITH: AMD (Same theme)
+- COMPETES_WITH: AMZN (Same theme)
+- COMPETES_WITH: AVGO (Same theme)
+- COMPETES_WITH: INTC (Same theme)
+- COMPETES_WITH: NVDA (Same theme)
 - USES: AI (Company profile or news keyword match)
 - USES: Cloud (Company profile or news keyword match)
 
@@ -535,26 +548,26 @@
 
 ## NVIDIA Corporation
 
+- COMPETES_WITH: AAPL (Same theme)
 - COMPETES_WITH: ACN (Same theme)
 - COMPETES_WITH: AMAT (Same theme)
+- COMPETES_WITH: AMD (Same theme)
+- COMPETES_WITH: AMZN (Same theme)
 - COMPETES_WITH: AVGO (Same theme)
 - COMPETES_WITH: CRM (Same theme)
-- COMPETES_WITH: CSCO (Same theme)
 - COMPETES_WITH: DIS (Same theme)
-- COMPETES_WITH: GOOGL (Same theme)
-- COMPETES_WITH: META (Same theme)
-- COMPETES_WITH: MSFT (Same theme)
+- COMPETES_WITH: INTC (Same theme)
+- COMPETES_WITH: MU (Same theme)
 - COMPETES_WITH: NOW (Same theme)
 - BELONGS_TO: AI (Keyword: ai; Keyword: artificial intelligence; Keyword: data center; Sector alignment: Technology)
-- BELONGS_TO: Biotechnology (Keyword: biotech)
 - BELONGS_TO: Cloud (Keyword: cloud; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology)
-- BELONGS_TO: Cybersecurity (Keyword: security; Sector alignment: Technology)
 - BELONGS_TO: EV (Keyword: electric vehicle)
 - BELONGS_TO: Robotics (Keyword: autonomous; Sector alignment: Technology)
-- BELONGS_TO: Semiconductor (Keyword: semiconductors; Sector alignment: Technology)
+- BELONGS_TO: Semiconductor (Keyword: semiconductors; Keyword: chip; Keyword: chips; Keyword: memory; Sector alignment: Technology)
 - BELONGS_TO: Space (Keyword: spacex)
 - BELONGS_TO: Technology (Company profile sector)
 - BELONGS_TO: United States (Company profile country)
+- COMPETES_WITH: AAPL (Same theme)
 
 ## Oracle Corporation
 
@@ -582,11 +595,9 @@
 ## O'Reilly Automotive, Inc.
 
 - COMPETES_WITH: ACN (Same theme)
-- COMPETES_WITH: AMD (Same theme)
 - COMPETES_WITH: AMZN (Same sector)
 - COMPETES_WITH: AVGO (Same theme)
 - COMPETES_WITH: BKNG (Same sector)
-- COMPETES_WITH: GOOGL (Same theme)
 - COMPETES_WITH: HD (Same sector)
 - COMPETES_WITH: LOW (Same sector)
 - COMPETES_WITH: MCD (Same sector)
@@ -597,10 +608,12 @@
 - BELONGS_TO: Energy (Keyword: battery; Keyword: oil)
 - BELONGS_TO: United States (Company profile country)
 - COMPETES_WITH: ACN (Same theme)
-- COMPETES_WITH: AMD (Same theme)
 - COMPETES_WITH: AMZN (Same sector)
 - COMPETES_WITH: AVGO (Same theme)
 - COMPETES_WITH: BKNG (Same sector)
+- COMPETES_WITH: HD (Same sector)
+- COMPETES_WITH: LOW (Same sector)
+- COMPETES_WITH: MCD (Same sector)
 
 ## QUALCOMM Incorporated
 
@@ -610,7 +623,6 @@
 - COMPETES_WITH: GOOGL (Same theme)
 - COMPETES_WITH: MSFT (Same theme)
 - COMPETES_WITH: NOW (Same theme)
-- COMPETES_WITH: NVDA (Same theme)
 - BELONGS_TO: AI (Keyword: artificial intelligence; Keyword: data center; Sector alignment: Technology)
 - BELONGS_TO: Cloud (Keyword: cloud; Keyword: data center; Sector alignment: Technology)
 - BELONGS_TO: Cybersecurity (Keyword: security; Sector alignment: Technology)
@@ -623,7 +635,8 @@
 - COMPETES_WITH: GOOGL (Same theme)
 - COMPETES_WITH: MSFT (Same theme)
 - COMPETES_WITH: NOW (Same theme)
-- COMPETES_WITH: NVDA (Same theme)
+- COMPETES_WITH: VZ (Same theme)
+- USES: AI (Company profile or news keyword match)
 
 ## Starbucks Corporation
 
@@ -683,29 +696,27 @@
 - COMPETES_WITH: AMD (Same theme)
 - COMPETES_WITH: AVGO (Same theme)
 - COMPETES_WITH: DIS (Same theme)
-- COMPETES_WITH: GOOGL (Same theme)
-- COMPETES_WITH: META (Same theme)
 - COMPETES_WITH: NVDA (Same theme)
 - COMPETES_WITH: ORLY (Same theme)
-- BELONGS_TO: AI (Keyword: ai; Keyword: artificial intelligence)
+- BELONGS_TO: AI (Keyword: artificial intelligence)
 - BELONGS_TO: Consumer Cyclical (Company profile sector)
-- BELONGS_TO: Cybersecurity (Keyword: threat)
-- BELONGS_TO: EV (Keyword: electric vehicles; Keyword: battery; Sector alignment: Consumer Cyclical)
+- BELONGS_TO: EV (Keyword: ev; Keyword: electric vehicles; Keyword: battery; Sector alignment: Consumer Cyclical)
 - BELONGS_TO: Energy (Keyword: energy; Keyword: battery; Keyword: solar)
-- BELONGS_TO: Space (Keyword: spacex)
+- BELONGS_TO: Space (Keyword: space; Keyword: spacex)
 - BELONGS_TO: United States (Company profile country)
 - COMPETES_WITH: ACN (Same theme)
 - COMPETES_WITH: AMD (Same theme)
 - COMPETES_WITH: AVGO (Same theme)
 - COMPETES_WITH: DIS (Same theme)
-- COMPETES_WITH: GOOGL (Same theme)
+- COMPETES_WITH: NVDA (Same theme)
+- COMPETES_WITH: ORLY (Same theme)
+- COMPETES_WITH: TXN (Same theme)
+- RELATED_TO: event:TSLA:elon-musk-cools-off-tesla-spacex-merger-speculation-as-spacex-stock-hits-record- (Event database)
 
 ## Texas Instruments Incorporated
 
 - COMPETES_WITH: ACN (Same theme)
-- COMPETES_WITH: AMD (Same theme)
 - COMPETES_WITH: AVGO (Same theme)
-- COMPETES_WITH: GOOGL (Same theme)
 - COMPETES_WITH: NVDA (Same theme)
 - COMPETES_WITH: ORLY (Same theme)
 - COMPETES_WITH: TSLA (Same theme)
@@ -715,18 +726,31 @@
 - BELONGS_TO: Technology (Company profile sector)
 - BELONGS_TO: United States (Company profile country)
 - COMPETES_WITH: ACN (Same theme)
-- COMPETES_WITH: AMD (Same theme)
 - COMPETES_WITH: AVGO (Same theme)
-- COMPETES_WITH: GOOGL (Same theme)
 - COMPETES_WITH: NVDA (Same theme)
 - COMPETES_WITH: ORLY (Same theme)
 - COMPETES_WITH: TSLA (Same theme)
 - USES: AI (Company profile or news keyword match)
+- USES: EV Battery (Company profile or news keyword match)
 
 ## Verizon Communications Inc.
 
+- COMPETES_WITH: ACN (Same theme)
+- COMPETES_WITH: AVGO (Same theme)
+- COMPETES_WITH: CSCO (Same theme)
+- COMPETES_WITH: GOOGL (Same theme)
+- COMPETES_WITH: MSFT (Same theme)
+- COMPETES_WITH: NOW (Same theme)
+- COMPETES_WITH: QCOM (Same theme)
 - BELONGS_TO: Communication Services (Company profile sector)
 - BELONGS_TO: Cybersecurity (Keyword: security)
 - BELONGS_TO: United States (Company profile country)
+- COMPETES_WITH: ACN (Same theme)
+- COMPETES_WITH: AVGO (Same theme)
+- COMPETES_WITH: CSCO (Same theme)
+- COMPETES_WITH: GOOGL (Same theme)
+- COMPETES_WITH: MSFT (Same theme)
+- COMPETES_WITH: NOW (Same theme)
+- COMPETES_WITH: QCOM (Same theme)
 - USES: AI (Company profile or news keyword match)
 - USES: Cybersecurity (Company profile or news keyword match)
