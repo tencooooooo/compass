@@ -1,48 +1,44 @@
 # Semiconductor
 
-- Target companies: 13
-- Average Score: 64.14
-- Average Discovery: 66.60
-- Momentum: 3.01
+- Target companies: 10
+- Average Score: 71.75
+- Average Discovery: 74.50
+- Momentum: 1.73
 - Confidence: High
 
 ## Companies
 
-- AAPL - Apple Inc. (Medium): Keyword: chip; Sector alignment: Technology
+- AAPL - Apple Inc. (High): Keyword: chip; Keyword: chips; Keyword: memory; Sector alignment: Technology
 - AMAT - Applied Materials, Inc. (Medium): Keyword: semiconductor; Keyword: chips; Sector alignment: Technology
-- AMD - Advanced Micro Devices, Inc. (High): Keyword: semiconductor; Keyword: semiconductors; Keyword: chip; Keyword: chips; Keyword: foundry; Sector alignment: Technology
-- AMZN - Amazon.com, Inc. (Low): Keyword: chip
+- AMD - Advanced Micro Devices, Inc. (High): Keyword: semiconductor; Keyword: semiconductors; Keyword: chip; Keyword: chips; Sector alignment: Technology
+- AMZN - Amazon.com, Inc. (Low): Keyword: chips
 - AVGO - Broadcom Inc. (Medium): Keyword: semiconductor; Keyword: semiconductors; Sector alignment: Technology
-- GOOGL - Alphabet Inc. (Medium): Keyword: chip; Keyword: chips; Keyword: memory
 - INTC - Intel Corporation (Medium): Keyword: semiconductors; Keyword: foundry; Sector alignment: Technology
-- META - Meta Platforms, Inc. (Medium): Keyword: chip; Keyword: chips
-- MSFT - Microsoft Corporation (High): Keyword: chip; Keyword: chips; Keyword: memory; Sector alignment: Technology
 - MU - Micron Technology, Inc. (High): Keyword: semiconductor; Keyword: semiconductors; Keyword: memory; Sector alignment: Technology
-- NVDA - NVIDIA Corporation (Medium): Keyword: semiconductors; Sector alignment: Technology
+- NVDA - NVIDIA Corporation (High): Keyword: semiconductors; Keyword: chip; Keyword: chips; Keyword: memory; Sector alignment: Technology
 - QCOM - QUALCOMM Incorporated (Medium): Keyword: semiconductors; Sector alignment: Technology
 - TXN - Texas Instruments Incorporated (Medium): Keyword: semiconductor; Keyword: semiconductors; Sector alignment: Technology
 
 ## Market
 
-- Communication Services: score 60.50, momentum -0.34, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Consumer Cyclical: score 57.50, momentum -8.78, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Technology: score 66.00, momentum 5.61, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 66.00, momentum -7.23, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 70.00, momentum 3.88, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- GOOGL: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
-- META: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
-- MSFT: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
-- AAPL: TSMC might set up a price hike that could come straight for your next phone, laptop, or tablet
-- AAPL: Visa and Apple: Cash-Generating Machines
+- NVDA: Why SPS Commerce Stock Crushed it on Friday
+- AMD: Weekly Wrap: Crypto Stays Rangebound Amid Market Volatility
+- NVDA: AI trade is a combination of 'perception and reality': Bradley Tusk
+- AMD: Amazon, Apple, Microsoft, Micron, Roblox, Reddit, SK Hynix, and More Stocks That Explain Today’s Market
+- AMD: Dow Jones Futures: Market Rebounds, Now Watch For This; SpaceX, AMD, Sandisk, Eli Lilly Earnings Loom
 
 ## Similar Themes
 
-- AI: 0.997 (Shared companies: AAPL, AMD, AMZN, AVGO, GOOGL; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Cloud: 0.996 (Shared companies: AAPL, AMD, AMZN, AVGO, GOOGL; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Space: 0.973 (Shared companies: META, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Cybersecurity: 0.926 (Shared companies: AVGO, GOOGL, MSFT, NVDA, QCOM; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- EV: 0.906 (Shared companies: NVDA, TXN; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cloud: 0.952 (Shared companies: AAPL, AMD, AMZN, AVGO, INTC; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Space: 0.949 (Shared companies: AMD, NVDA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
+- AI: 0.94 (Shared companies: AAPL, AMD, AMZN, AVGO, INTC; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- EV: 0.929 (Shared companies: NVDA, TXN; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Fintech: 0.909 (Shared companies: AAPL; Shared sectors: Technology; Similar short-term momentum)
 
 ## Review Note
 

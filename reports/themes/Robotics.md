@@ -1,9 +1,9 @@
 # Robotics
 
 - Target companies: 7
-- Average Score: 68.00
-- Average Discovery: 65.00
-- Momentum: 3.94
+- Average Score: 73.00
+- Average Discovery: 74.00
+- Momentum: 1.60
 - Confidence: Medium
 
 ## Companies
@@ -18,21 +18,21 @@
 
 ## Market
 
-- Technology: score 66.00, momentum 5.61, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 70.00, momentum 3.88, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- NVDA: OpenAI president Greg Brockman: 'We will remain in this compute shortage no matter what'
-- NVDA: Is Wall Street buying Intel's comeback story after blowout Q2 earnings?
-- NVDA: Tech stocks live: Huang, Nadella, and other CEOs defend open-source AI as US threatens crackdown
+- NVDA: Why SPS Commerce Stock Crushed it on Friday
+- NVDA: AI trade is a combination of 'perception and reality': Bradley Tusk
+- NVDA: Apple CEO Tim Cook says this '100-year flood' won't be receding anytime soon
 
 ## Similar Themes
 
-- EV: 0.95 (Shared companies: NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Biotechnology: 0.929 (Shared companies: NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Space: 0.866 (Shared companies: NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Cloud: 0.82 (Shared companies: ACN, AVGO, CRM, NOW, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.781 (Shared companies: AMAT, AVGO, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- EV: 0.947 (Shared companies: NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Fintech: 0.916 (Shared companies: ACN; Shared sectors: Technology; Similar short-term momentum)
+- Semiconductor: 0.882 (Shared companies: AMAT, AVGO, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Space: 0.86 (Shared companies: NVDA; Shared sectors: Technology; Similar average Discovery score)
+- Healthcare: 0.845 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar average Discovery score)
 
 ## Review Note
 

@@ -1,9 +1,9 @@
 # Healthcare
 
 - Target companies: 3
-- Average Score: 66.00
-- Average Discovery: 61.00
-- Momentum: 4.44
+- Average Score: 75.00
+- Average Discovery: 76.00
+- Momentum: 20.93
 - Confidence: Medium
 
 ## Companies
@@ -14,21 +14,21 @@
 
 ## Market
 
-- Technology: score 66.00, momentum 5.61, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 70.00, momentum 3.88, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- MSFT: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
-- MSFT: AMD CEO Lisa Su isn't worried about an AI house of cards
-- MSFT: OpenAI president Greg Brockman: 'We will remain in this compute shortage no matter what'
+- MSFT: Apple stock plunges: CEO Tim Cook explains weak revenue forecast
+- MSFT: Apple is growing without the AI spending spree engulfing Big Tech: Chart of the Day
+- MSFT: The AI spending boom is forcing a rethink on stock buybacks: One Big Investment Idea
 
 ## Similar Themes
 
-- Energy: 0.809 (Shared sectors: Technology)
-- Cybersecurity: 0.77 (Shared companies: MSFT, NOW; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- EV: 0.746 (Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Robotics: 0.705 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Space: 0.678 (Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Quantum Computing: 0.91 (Similar average Discovery score)
+- Cybersecurity: 0.872 (Shared companies: MSFT, NOW; Shared sectors: Technology; Similar average Discovery score)
+- EV: 0.863 (Shared sectors: Technology; Similar average Discovery score)
+- Robotics: 0.845 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar average Discovery score)
+- Energy: 0.762 (Shared sectors: Technology)
 
 ## Review Note
 

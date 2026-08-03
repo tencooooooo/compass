@@ -1,39 +1,39 @@
 # Space
 
 - Target companies: 4
-- Average Score: 59.33
-- Average Discovery: 65.00
-- Momentum: 3.94
+- Average Score: 64.67
+- Average Discovery: 77.50
+- Momentum: -5.18
 - Confidence: Medium
 
 ## Companies
 
+- AMD - Advanced Micro Devices, Inc. (Low): Keyword: spacex
 - DIS - The Walt Disney Company (Medium): Keyword: satellite; Sector alignment: Communication Services
-- META - Meta Platforms, Inc. (Medium): Keyword: launch; Sector alignment: Communication Services
 - NVDA - NVIDIA Corporation (Low): Keyword: spacex
-- TSLA - Tesla, Inc. (Low): Keyword: spacex
+- TSLA - Tesla, Inc. (Medium): Keyword: space; Keyword: spacex
 
 ## Market
 
-- Communication Services: score 60.50, momentum -0.34, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Consumer Cyclical: score 57.50, momentum -8.78, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Technology: score 66.00, momentum 5.61, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 70.50, momentum -5.29, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 66.00, momentum -7.23, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 70.00, momentum 3.88, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- TSLA: Elon Musk Wouldn't Rule Out a Tesla-SpaceX Merger on the July 22 Earnings Call. Here's What It Would Mean for the Shares You Own Today.
-- META: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
-- TSLA: What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence
-- META: Dow Jones Futures: Apple Earnings, Iran News, Fed Meeting Loom As AI Stocks Sell Off
-- META: Earnings Are Crushing It. Stocks Are Getting Crushed.
+- NVDA: Why SPS Commerce Stock Crushed it on Friday
+- TSLA: Market Chatter: Musk's Fortune Falls Below Pre-SpaceX IPO Levels, Bloomberg Reports
+- AMD: Weekly Wrap: Crypto Stays Rangebound Amid Market Volatility
+- NVDA: AI trade is a combination of 'perception and reality': Bradley Tusk
+- AMD: Amazon, Apple, Microsoft, Micron, Roblox, Reddit, SK Hynix, and More Stocks That Explain Today’s Market
 
 ## Similar Themes
 
-- EV: 0.973 (Shared companies: NVDA, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.973 (Shared companies: META, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Cloud: 0.972 (Shared companies: NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- AI: 0.96 (Shared companies: META, NVDA, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Cybersecurity: 0.9 (Shared companies: NVDA, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cloud: 0.978 (Shared companies: AMD, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
+- AI: 0.974 (Shared companies: AMD, NVDA, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
+- EV: 0.972 (Shared companies: NVDA, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
+- Semiconductor: 0.949 (Shared companies: AMD, NVDA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
+- Robotics: 0.86 (Shared companies: NVDA; Shared sectors: Technology; Similar average Discovery score)
 
 ## Review Note
 
