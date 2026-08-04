@@ -6,8 +6,8 @@
 
 - 対象企業数: 8
 - セクター数: 3
-- 市場平均スコア: 68.125
-- 1M市場モメンタム平均: 3.3481896116109247
+- 市場平均スコア: 67.125
+- 1M市場モメンタム平均: 2.662234975348319
 - ニュース件数: 80
 - Event数: 80
 
@@ -15,13 +15,13 @@
 
 | Ticker | Company | Sector | Discovery Score | Status | Confidence | Signal |
 | --- | --- | --- | --- | --- | --- | --- |
-| AMD | AMD | Technology | 88 | Primary Candidate | High | Strong |
-| MSFT | Microsoft Corporation | Technology | 80 | Primary Candidate | High | Strong |
-| AMZN | Amazon.com, Inc. | Consumer Cyclical | 79 | Primary Candidate | Medium | Strong |
-| GOOGL | Alphabet Inc. | Communication Services | 78 | Primary Candidate | Medium | Strong |
-| NVDA | NVIDIA Corporation | Technology | 72 | Watch Candidate | Medium | Strong |
-| AAPL | Apple Inc. | Technology | 64 | Watch Candidate | High | Moderate |
-| META | Meta Platforms, Inc. | Communication Services | 63 | Watch Candidate | High | Moderate |
+| AMD | Advanced Micro Devices, Inc. | Technology | 90 | Primary Candidate | High | Strong |
+| GOOGL | Alphabet Inc. | Communication Services | 81 | Primary Candidate | High | Strong |
+| MSFT | Microsoft Corporation | Technology | 77 | Primary Candidate | High | Strong |
+| AMZN | Amazon.com, Inc. | Consumer Cyclical | 70 | Watch Candidate | Medium | Strong |
+| AAPL | Apple Inc. | Technology | 68 | Watch Candidate | High | Strong |
+| NVDA | NVIDIA Corporation | Technology | 66 | Watch Candidate | Medium | Strong |
+| META | Meta Platforms, Inc. | Communication Services | 64 | Watch Candidate | High | Moderate |
 
 ## Top Candidate
 
@@ -31,7 +31,7 @@ AMD
 
 - Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 

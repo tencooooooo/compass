@@ -4,8 +4,8 @@
 
 ## Summary
 
-- Company: AMD
-- Total Score: 77 / 100
+- Company: Advanced Micro Devices, Inc.
+- Total Score: 80 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 77 点を獲得し、シグナル充足率は 77.0% です。
+- データが確認できた 100 点満点のうち 80 点を獲得し、シグナル充足率は 80.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -107,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 161.5467
-- forward_pe: 34.8222
+- trailing_pe: 172.8600
+- forward_pe: 37.2609
 - peg_ratio: 1.1200
-- price_to_book: 12.2548
+- price_to_book: 13.1130
 - sector_peer_count: 16
 - trailing_pe_percentile: 100
 - trailing_pe_peer_count: 15
@@ -123,15 +123,15 @@ Evidence
 
 ## Momentum
 
-16点
+17点
 
 理由
 
-- 1M の対SPY超過リターンは -8.14pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンが +29.01pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +94.65pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンが +153.68pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.84 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -8.73pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンが +44.13pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +99.07pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンが +176.59pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 1.28 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -140,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: -6.4076
-- 3M: 34.4206
-- 6M: 104.7227
-- 1Y: 174.8795
+- 1M: -6.0629
+- 3M: 51.8358
+- 6M: 110.5738
+- 1Y: 202.0268
 - benchmark: SPY
-- benchmark_returns: {'1M': 1.73, '3M': 5.41, '6M': 10.08, '1Y': 21.2}
-- excess_returns: {'1M': -8.14, '3M': 29.01, '6M': 94.65, '1Y': 153.68}
-- latest_volume: 24,086,408.0000
-- average_volume_30d: 28,736,346.9333
+- benchmark_returns: {'1M': 2.67, '3M': 7.7, '6M': 11.51, '1Y': 25.44}
+- excess_returns: {'1M': -8.73, '3M': 44.13, '6M': 99.07, '1Y': 176.59}
+- latest_volume: 37,266,340.0000
+- average_volume_30d: 29,126,988.0000
 
 ## News
 
-15点
+17点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 1 件(純比率 +0.60)で、センチメントは 6.4 点です。
-- イベント後の平均株価反応が 1.78% とプラスです。
+- ニュース見出し・要約の簡易分類では、好材料 6 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が 4.39% とプラスです。
 
 Evidence
 
@@ -169,11 +169,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 4
-- negative_count: 1
-- sentiment_net_ratio: 0.6000
+- positive_count: 6
+- negative_count: 0
+- sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 4
+- events_with_price_reaction: 2
 
 ## Note
 

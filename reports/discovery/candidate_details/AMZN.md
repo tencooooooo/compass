@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-79 / 100
+70 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 16/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 8/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで +15.31pt と、市場を大きく上回っています。
-- 3Mモメンタムは対SPYで +0.47pt と、市場並み以上です。
-- 6Mモメンタムは対SPYで +8.61pt と、市場並み以上です。
-- 1Yモメンタムは対SPYで +0.12pt と、市場並み以上です。
+- 1Mモメンタムは対SPYで +10.95pt と、市場を大きく上回っています。
+- 3Mモメンタムは対SPYで -5.73pt と、市場を小幅に下回っています。
+- 6Mモメンタムは対SPYで +2.68pt と、市場並み以上です。
+- 1Yモメンタムは対SPYで +3.74pt と、市場並み以上です。
 
 ## Strengths
 
@@ -32,6 +32,8 @@
 
 ## Watch Points
 
+- 注意材料になり得るニュース表現が 2 件あります。
+- イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。
 - Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
@@ -45,7 +47,7 @@ Medium
 
 ## Signal Strength
 
-Strong(シグナル充足率: 81.6%)
+Strong(シグナル充足率: 71.65%)
 
 ## Evidence
 
@@ -64,20 +66,20 @@ Strong(シグナル充足率: 81.6%)
 
 ## Metrics
 
-- scoring_total: 78.0
-- signal_earned_points: 79.15
+- scoring_total: 69.0
+- signal_earned_points: 69.5
 - signal_max_points: 97.0
 - weak_signals: []
 - scoring_signal_strength: Strong
 - growth_score: 16.0
 - financial_health_score: 18.0
-- valuation_score: 11.0
-- news_score: 17.0
-- momentum: {'1m': 17.039597460226197, '3m': 5.874889537883841, '6m': 18.68783342733249, '1y': 21.319033049933463}
+- valuation_score: 14.0
+- news_score: 8.0
+- momentum: {'1m': 13.622218736387811, '3m': 1.9739113676609454, '6m': 14.18340704709091, '1y': 29.18277691629074}
 - benchmark: SPY
-- excess_momentum: {'1m': 15.31, '3m': 0.47, '6m': 8.61, '1y': 0.12}
-- positive_news: 3
-- watch_news: 0
+- excess_momentum: {'1m': 10.95, '3m': -5.73, '6m': 2.68, '1y': 3.74}
+- positive_news: 2
+- watch_news: 2
 - event_count: 10
-- events_with_reaction: 3
-- sector_average_score: 64.0
+- events_with_reaction: 4
+- sector_average_score: 58.5

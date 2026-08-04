@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Apple Inc.
-- Total Score: 55 / 100
+- Total Score: 59 / 100
 - Confidence: High
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 55 点を獲得し、シグナル充足率は 55.0% です。
+- データが確認できた 100 点満点のうち 59 点を獲得し、シグナル充足率は 59.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -107,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 34.8358
-- forward_pe: 31.8951
+- trailing_pe: 35.5201
+- forward_pe: 32.5216
 - peg_ratio: 2.4600
-- price_to_book: 41.2255
+- price_to_book: 42.0353
 - sector_peer_count: 16
 - trailing_pe_percentile: 57.1400
 - trailing_pe_peer_count: 15
@@ -127,11 +127,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -3.42pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは +3.00pt で、市場並み以上です。
-- 6M の対SPY超過リターンは +7.07pt で、市場並み以上です。
-- 1Y の対SPY超過リターンが +25.56pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 1.12 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -3.72pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは +4.16pt で、市場並み以上です。
+- 6M の対SPY超過リターンは +3.29pt で、市場並み以上です。
+- 1Y の対SPY超過リターンが +28.04pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 1.04 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -140,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: -1.6881
-- 3M: 8.4099
-- 6M: 17.1511
-- 1Y: 46.7571
+- 1M: -1.0491
+- 3M: 11.8611
+- 6M: 14.7938
+- 1Y: 53.4773
 - benchmark: SPY
-- benchmark_returns: {'1M': 1.73, '3M': 5.41, '6M': 10.08, '1Y': 21.2}
-- excess_returns: {'1M': -3.42, '3M': 3.0, '6M': 7.07, '1Y': 25.56}
-- latest_volume: 71,988,041.0000
-- average_volume_30d: 64,030,818.0333
+- benchmark_returns: {'1M': 2.67, '3M': 7.7, '6M': 11.51, '1Y': 25.44}
+- excess_returns: {'1M': -3.72, '3M': 4.16, '6M': 3.29, '1Y': 28.04}
+- latest_volume: 67,778,746.0000
+- average_volume_30d: 64,903,371.5333
 
 ## News
 
-10点
+14点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 1 件(純比率 +0.60)で、センチメントは 6.4 点です。
-- イベント後の平均株価反応が -1.78% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 1 件(純比率 +0.33)で、センチメントは 5.3 点です。
+- イベント後の平均株価反応が 1.96% とプラスです。
 
 Evidence
 
@@ -169,11 +169,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 4
+- positive_count: 2
 - negative_count: 1
-- sentiment_net_ratio: 0.6000
+- sentiment_net_ratio: 0.3300
 - event_count: 10
-- events_with_price_reaction: 1
+- events_with_price_reaction: 4
 
 ## Note
 

@@ -7,9 +7,9 @@
 - 銘柄数: 2
 - 銘柄: GOOGL, META
 - 平均スコア: 68.50
-- 平均PER: 20.48
+- 平均PER: 20.53
 - 平均EPS: 23.25
-- 平均1Mモメンタム: 2.52%
+- 平均1Mモメンタム: 0.50%
 - ニュース件数: 20
 
 ### Trend
@@ -22,17 +22,17 @@
 
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| GOOGL | Alphabet Inc. | 70.00 | 18.73 | 19.94 | 3.78% | 10 |
-| META | Meta Platforms, Inc. | 67.00 | 22.22 | 26.56 | 1.26% | 10 |
+| GOOGL | Alphabet Inc. | 72.00 | 18.93 | 19.95 | 3.05% | 10 |
+| META | Meta Platforms, Inc. | 65.00 | 22.14 | 26.56 | -2.06% | 10 |
 
 ## Consumer Cyclical
 
 - 銘柄数: 2
 - 銘柄: AMZN, TSLA
-- 平均スコア: 64.00
-- 平均PER: 159.16
-- 平均EPS: 6.76
-- 平均1Mモメンタム: -0.55%
+- 平均スコア: 58.50
+- 平均PER: 159.95
+- 平均EPS: 6.77
+- 平均1Mモメンタム: -4.20%
 - ニュース件数: 20
 
 ### Trend
@@ -45,17 +45,17 @@
 
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| AMZN | Amazon.com, Inc. | 78.00 | 22.83 | 12.44 | 17.04% | 10 |
-| TSLA | Tesla, Inc. | 50.00 | 295.49 | 1.09 | -18.14% | 10 |
+| AMZN | Amazon.com, Inc. | 69.00 | 22.30 | 12.44 | 13.62% | 10 |
+| TSLA | Tesla, Inc. | 48.00 | 297.59 | 1.10 | -22.02% | 10 |
 
 ## Technology
 
 - 銘柄数: 4
 - 銘柄: AAPL, MSFT, NVDA, AMD
-- 平均スコア: 70.00
-- 平均PER: 63.81
+- 平均スコア: 70.75
+- 平均PER: 67.09
 - 平均EPS: 9.04
-- 平均1Mモメンタム: 5.71%
+- 平均1Mモメンタム: 7.17%
 - ニュース件数: 40
 
 ### Trend
@@ -68,7 +68,7 @@
 
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| AAPL | Apple Inc. | 55.00 | 34.84 | 8.71 | -1.69% | 10 |
-| MSFT | Microsoft Corporation | 77.00 | 27.18 | 17.94 | 24.88% | 10 |
-| NVDA | NVIDIA Corporation | 71.00 | 31.69 | 6.52 | 6.06% | 10 |
-| AMD | N/A | 77.00 | 161.55 | 3.00 | -6.41% | 10 |
+| AAPL | Apple Inc. | 59.00 | 35.52 | 8.71 | -1.05% | 10 |
+| MSFT | Microsoft Corporation | 74.00 | 27.45 | 17.95 | 27.43% | 10 |
+| NVDA | NVIDIA Corporation | 70.00 | 32.51 | 6.52 | 8.38% | 10 |
+| AMD | Advanced Micro Devices, Inc. | 80.00 | 172.86 | 3.00 | -6.06% | 10 |

@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 8
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 3.35%
+- 市場全体の1Mモメンタム平均: 2.66%
 - ニュース件数: 80
 - Event数: 80
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-08-03T22:40:27+00:00 / NVDA / Motley Fool: Why Sally Beauty Stock Popped Today
-- 2026-08-03T22:26:00+00:00 / AAPL / Motley Fool: Investing in the "Magnificent Seven?" Pick Your Poison: Negative Free Cash Flow or an Unjustifiable Valuation.
-- 2026-08-03T22:26:00+00:00 / MSFT / Motley Fool: Investing in the "Magnificent Seven?" Pick Your Poison: Negative Free Cash Flow or an Unjustifiable Valuation.
-- 2026-08-03T22:26:00+00:00 / NVDA / Motley Fool: Investing in the "Magnificent Seven?" Pick Your Poison: Negative Free Cash Flow or an Unjustifiable Valuation.
-- 2026-08-03T22:26:00+00:00 / GOOGL / Motley Fool: Investing in the "Magnificent Seven?" Pick Your Poison: Negative Free Cash Flow or an Unjustifiable Valuation.
+- 2026-08-04T22:41:36+00:00 / NVDA / Moby: Merck & Co., Inc. Q2 2026 Earnings Call Summary
+- 2026-08-04T22:40:13+00:00 / NVDA / Moby: LGI Homes, Inc. Q2 2026 Earnings Call Summary
+- 2026-08-04T22:34:14+00:00 / NVDA / Moby: Zebra Technologies Corporation Q2 2026 Earnings Call Summary
+- 2026-08-04T22:32:45+00:00 / AMD / Investor's Business Daily: Dow Jones Futures: SpaceX, AMD, Arista Lead Earnings Movers After S&P 500 Jumps To High
+- 2026-08-04T22:32:45+00:00 / TSLA / Investor's Business Daily: Dow Jones Futures: SpaceX, AMD, Arista Lead Earnings Movers After S&P 500 Jumps To High
 
 ### 注目イベント
 
-- 2026-08-03T19:54:00+00:00 / META: Cerebras Systems: A Leading AI Semiconductor Company (株価反応: 6.02%, 出来高: 24.17M)
-- 2026-08-03T19:52:57+00:00 / META: Why Microsoft, Amazon, & other Big Tech stocks are soaring post-earnings (株価反応: 6.02%, 出来高: 24.17M)
-- 2026-08-03T14:00:00+00:00 / META: Open-weight AI models add new spark to China, Silicon Valley's AI race (株価反応: 6.02%, 出来高: 24.17M)
-- 2026-08-03T12:09:18+00:00 / META: Tech stock investors have a $1 trillion problem that won't improve until at least 2028 (株価反応: 6.02%, 出来高: 24.17M)
-- 2026-08-03T18:14:59+00:00 / MSFT: Big Tech's cloud backlog just hit $2.3 trillion — and it's feeding AI capex plans (株価反応: 4.93%, 出来高: 61.68M)
+- 2026-08-04T12:00:00+00:00 / AMD: SpaceX's first earnings, AMD Q2 results, JOLTS data: What to Watch (株価反応: 7.00%, 出来高: 37.27M)
+- 2026-08-03T14:04:19+00:00 / META: Tech stocks today: SpaceX and AMD post quarterly results; investors weren't impressed. (株価反応: 6.02%, 出来高: 25.94M)
+- 2026-08-03T14:04:19+00:00 / GOOGL: Tech stocks today: SpaceX and AMD post quarterly results; investors weren't impressed. (株価反応: 4.88%, 出来高: 38.67M)
+- 2026-08-03T13:23:23+00:00 / TSLA: SpaceX's Q2 results top estimates but stock drops on AI capex costs (株価反応: 3.49%, 出来高: 38.28M)
+- 2026-08-04T19:59:42+00:00 / AMZN: The Unusual Cash Offer Sitting In IBM Stock (株価反応: -2.32%, 出来高: 69.52M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 2 | 68.50 | 20.48 | 23.25 | 2.52% | 20 |
-| Consumer Cyclical | 2 | 64.00 | 159.16 | 6.76 | -0.55% | 20 |
-| Technology | 4 | 70.00 | 63.81 | 9.04 | 5.71% | 40 |
+| Communication Services | 2 | 68.50 | 20.53 | 23.25 | 0.50% | 20 |
+| Consumer Cyclical | 2 | 58.50 | 159.95 | 6.77 | -4.20% | 20 |
+| Technology | 4 | 70.75 | 67.09 | 9.04 | 7.17% | 40 |
 
 ## 市場トレンド
 
