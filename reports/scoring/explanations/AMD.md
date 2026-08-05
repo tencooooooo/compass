@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Advanced Micro Devices, Inc.
-- Total Score: 80 / 100
+- Total Score: 71 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 80 点を獲得し、シグナル充足率は 80.0% です。
+- データが確認できた 100 点満点のうち 71 点を獲得し、シグナル充足率は 71.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -36,9 +36,10 @@ Strong
 
 理由
 
-- revenue_growth(直近4四半期平均) は 35.26% で、+30%以上の高成長です。
-- eps_growth(直近4四半期平均) は 229.14% で、+30%以上の高成長です。
-- eps_growth は直近四半期が前四半期より +31.34pt 高く、成長の加速がみられます。
+- revenue_growth(直近4四半期平均) は 38.82% で、+30%以上の高成長です。
+- eps_growth(直近4四半期平均) は 135.88% で、+30%以上の高成長です。
+- revenue_growth は直近四半期が前四半期より +12.26pt 高く、成長の加速がみられます。
+- eps_growth は直近四半期が前四半期より +64.65pt 高く、成長の加速がみられます。
 - 純利益 がプラスで確認できるため加点しています。
 - 営業利益 がプラスで確認できるため加点しています。
 - 研究開発費が確認でき、将来成長への投資が続いています。
@@ -56,12 +57,12 @@ Evidence
 - net_income: 4,335,000,000.0000
 - operating_income: 3,694,000,000.0000
 - research_and_development: 8,091,000,000.0000
-- revenue_yoy_growth: 37.8500
-- eps_yoy_growth: 90.9100
-- revenue_yoy_growth_avg: 35.2600
-- eps_yoy_growth_avg: 229.1400
-- revenue_growth_quarters: ['2026-Q1', '2025-Q3', '2025-Q2', '2025-Q1']
-- eps_growth_quarters: ['2026-Q1', '2025-Q3', '2025-Q2', '2025-Q1']
+- revenue_yoy_growth: 50.1100
+- eps_yoy_growth: 155.5600
+- revenue_yoy_growth_avg: 38.8200
+- eps_yoy_growth_avg: 135.8800
+- revenue_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
+- eps_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
 
 ## Financial Health
 
@@ -95,7 +96,7 @@ Evidence
 理由
 
 - PER はセクター内 100.00 パーセンタイル / 母数 15 で、相対的な加点は抑えています。
-- Forward PER はセクター内 93.33 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
+- Forward PER はセクター内 86.67 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - PEG はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。
 - PBR はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
@@ -107,14 +108,14 @@ Evidence
 
 使用データ
 
-- trailing_pe: 172.8600
-- forward_pe: 37.2609
-- peg_ratio: 1.1200
-- price_to_book: 13.1130
+- trailing_pe: 160.6833
+- forward_pe: 32.1693
+- peg_ratio: 1.1400
+- price_to_book: 12.1893
 - sector_peer_count: 16
 - trailing_pe_percentile: 100
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 93.3300
+- forward_pe_percentile: 86.6700
 - forward_pe_peer_count: 16
 - peg_ratio_percentile: 53.3300
 - peg_ratio_peer_count: 16
@@ -127,11 +128,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -8.73pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンが +44.13pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +99.07pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンが +176.59pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 1.28 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは -9.55pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンが +29.06pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +86.87pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンが +149.37pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 1.58 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -140,25 +141,25 @@ Evidence
 
 使用データ
 
-- 1M: -6.0629
-- 3M: 51.8358
-- 6M: 110.5738
-- 1Y: 202.0268
+- 1M: -6.5994
+- 3M: 35.6893
+- 6M: 99.1037
+- 1Y: 172.6836
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.67, '3M': 7.7, '6M': 11.51, '1Y': 25.44}
-- excess_returns: {'1M': -8.73, '3M': 44.13, '6M': 99.07, '1Y': 176.59}
-- latest_volume: 37,266,340.0000
-- average_volume_30d: 29,126,988.0000
+- benchmark_returns: {'1M': 2.95, '3M': 6.63, '6M': 12.23, '1Y': 23.31}
+- excess_returns: {'1M': -9.55, '3M': 29.06, '6M': 86.87, '1Y': 149.37}
+- latest_volume: 47,435,209.0000
+- average_volume_30d: 30,074,843.6333
 
 ## News
 
-17点
+8点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 6 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が 4.39% とプラスです。
+- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 1 件(純比率 +0.00)で、センチメントは 4.0 点です。
+- イベント後の平均株価反応が -7.04% と弱く、注意が必要です。
 
 Evidence
 
@@ -169,11 +170,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 6
-- negative_count: 0
-- sentiment_net_ratio: 1.0000
+- positive_count: 1
+- negative_count: 1
+- sentiment_net_ratio: 0.0000
 - event_count: 10
-- events_with_price_reaction: 2
+- events_with_price_reaction: 1
 
 ## Note
 

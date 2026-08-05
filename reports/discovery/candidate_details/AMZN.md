@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-70 / 100
+72 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 16/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 8/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで +10.95pt と、市場を大きく上回っています。
-- 3Mモメンタムは対SPYで -5.73pt と、市場を小幅に下回っています。
-- 6Mモメンタムは対SPYで +2.68pt と、市場並み以上です。
-- 1Yモメンタムは対SPYで +3.74pt と、市場並み以上です。
+- 1Mモメンタムは対SPYで +7.89pt と、市場並み以上です。
+- 3Mモメンタムは対SPYで -6.96pt と、市場を小幅に下回っています。
+- 6Mモメンタムは対SPYで +2.03pt と、市場並み以上です。
+- 1Yモメンタムは対SPYで +5.51pt と、市場並み以上です。
 
 ## Strengths
 
@@ -32,7 +32,6 @@
 
 ## Watch Points
 
-- 注意材料になり得るニュース表現が 2 件あります。
 - イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。
 - Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
@@ -47,7 +46,7 @@ Medium
 
 ## Signal Strength
 
-Strong(シグナル充足率: 71.65%)
+Strong(シグナル充足率: 74.23%)
 
 ## Evidence
 
@@ -66,20 +65,20 @@ Strong(シグナル充足率: 71.65%)
 
 ## Metrics
 
-- scoring_total: 69.0
-- signal_earned_points: 69.5
+- scoring_total: 72.0
+- signal_earned_points: 72.0
 - signal_max_points: 97.0
 - weak_signals: []
 - scoring_signal_strength: Strong
 - growth_score: 16.0
 - financial_health_score: 18.0
-- valuation_score: 14.0
-- news_score: 8.0
-- momentum: {'1m': 13.622218736387811, '3m': 1.9739113676609454, '6m': 14.18340704709091, '1y': 29.18277691629074}
+- valuation_score: 16.0
+- news_score: 12.0
+- momentum: {'1m': 10.842344350020436, '3m': -0.32900527751641456, '6m': 14.261168165134094, '1y': 28.821167852163686}
 - benchmark: SPY
-- excess_momentum: {'1m': 10.95, '3m': -5.73, '6m': 2.68, '1y': 3.74}
-- positive_news: 2
-- watch_news: 2
+- excess_momentum: {'1m': 7.89, '3m': -6.96, '6m': 2.03, '1y': 5.51}
+- positive_news: 4
+- watch_news: 0
 - event_count: 10
-- events_with_reaction: 4
-- sector_average_score: 58.5
+- events_with_reaction: 1
+- sector_average_score: 59.5

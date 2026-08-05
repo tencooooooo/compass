@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 8
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 2.66%
+- 市場全体の1Mモメンタム平均: 1.90%
 - ニュース件数: 80
 - Event数: 80
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,39 +21,39 @@
 
 ### 注目ニュース
 
-- 2026-08-04T22:41:36+00:00 / NVDA / Moby: Merck & Co., Inc. Q2 2026 Earnings Call Summary
-- 2026-08-04T22:40:13+00:00 / NVDA / Moby: LGI Homes, Inc. Q2 2026 Earnings Call Summary
-- 2026-08-04T22:34:14+00:00 / NVDA / Moby: Zebra Technologies Corporation Q2 2026 Earnings Call Summary
-- 2026-08-04T22:32:45+00:00 / AMD / Investor's Business Daily: Dow Jones Futures: SpaceX, AMD, Arista Lead Earnings Movers After S&P 500 Jumps To High
-- 2026-08-04T22:32:45+00:00 / TSLA / Investor's Business Daily: Dow Jones Futures: SpaceX, AMD, Arista Lead Earnings Movers After S&P 500 Jumps To High
+- 2026-08-05T22:35:00+00:00 / NVDA / Motley Fool: Should You Forget Tesla Stock Near a 52-Week Low?
+- 2026-08-05T22:35:00+00:00 / TSLA / Motley Fool: Should You Forget Tesla Stock Near a 52-Week Low?
+- 2026-08-05T22:32:07+00:00 / NVDA / Moby: Owens Corning Q2 2026 Earnings Call Summary
+- 2026-08-05T22:26:54+00:00 / NVDA / Moby: NNN REIT, Inc. Q2 2026 Earnings Call Summary
+- 2026-08-05T22:26:51+00:00 / NVDA / Moby: Recursion Pharmaceuticals, Inc. Q2 2026 Earnings Call Summary
 
 ### 注目イベント
 
-- 2026-08-04T12:00:00+00:00 / AMD: SpaceX's first earnings, AMD Q2 results, JOLTS data: What to Watch (株価反応: 7.00%, 出来高: 37.27M)
-- 2026-08-03T14:04:19+00:00 / META: Tech stocks today: SpaceX and AMD post quarterly results; investors weren't impressed. (株価反応: 6.02%, 出来高: 25.94M)
-- 2026-08-03T14:04:19+00:00 / GOOGL: Tech stocks today: SpaceX and AMD post quarterly results; investors weren't impressed. (株価反応: 4.88%, 出来高: 38.67M)
-- 2026-08-03T13:23:23+00:00 / TSLA: SpaceX's Q2 results top estimates but stock drops on AI capex costs (株価反応: 3.49%, 出来高: 38.28M)
-- 2026-08-04T19:59:42+00:00 / AMZN: The Unusual Cash Offer Sitting In IBM Stock (株価反応: -2.32%, 出来高: 69.52M)
+- 2026-08-05T14:06:05+00:00 / AMD: The companies defying macro uncertainty and raising guidance: AlphaCheck (株価反応: -7.04%, 出来高: 47.44M)
+- 2026-08-03T14:04:19+00:00 / GOOGL: Tech stocks today: Google shakes up AI leadership, SpaceX plunges (株価反応: 4.88%, 出来高: 38.67M)
+- 2026-08-05T13:08:24+00:00 / GOOGL: This SpaceX number is spooking already skittish investors (株価反応: -4.03%, 出来高: 46.33M)
+- 2026-08-05T10:00:00+00:00 / GOOGL: AI CapEx fears: Is big tech overspending? (株価反応: -4.03%, 出来高: 46.33M)
+- 2026-08-03T13:23:23+00:00 / TSLA: SpaceX stock hits new all-time low as AI capex jumps in Q2 (株価反応: 3.49%, 出来高: 38.28M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 2 | 68.50 | 20.53 | 23.25 | 0.50% | 20 |
-| Consumer Cyclical | 2 | 58.50 | 159.95 | 6.77 | -4.20% | 20 |
-| Technology | 4 | 70.75 | 67.09 | 9.04 | 7.17% | 40 |
+| Communication Services | 2 | 64.50 | 20.17 | 23.26 | -2.80% | 20 |
+| Consumer Cyclical | 2 | 59.50 | 159.82 | 6.76 | -4.67% | 20 |
+| Technology | 4 | 66.00 | 63.96 | 9.27 | 7.55% | 40 |
 
 ## 市場トレンド
 
 | セクター | Momentum | News | Financial Health |
 | --- | --- | --- | --- |
-| Communication Services | Positive | High | Good |
+| Communication Services | Weak | High | Good |
 | Consumer Cyclical | Weak | High | Good |
 | Technology | Positive | High | Good |
 
 ## 市場心理
 
-市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 80 件で、ポジティブなモメンタムのセクターは 2/3 です。
+市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 80 件で、ポジティブなモメンタムのセクターは 1/3 です。
 
 参照Knowledge: market_psychology.md
 

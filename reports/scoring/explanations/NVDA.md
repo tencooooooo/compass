@@ -5,21 +5,20 @@
 ## Summary
 
 - Company: NVIDIA Corporation
-- Total Score: 70 / 100
-- Confidence: Medium
+- Total Score: 76 / 100
+- Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
 
-Medium
+High
 
 理由
 
 - 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 1 件です。
-- 主要データは一定程度ありますが、欠損や未取得項目が残っています。
-- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
+- 欠損または計算不可の項目数は 0 件です。
+- 主要データが比較的そろっており、説明可能性は高めです。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
@@ -28,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 70 点を獲得し、シグナル充足率は 70.0% です。
+- データが確認できた 100 点満点のうち 76 点を獲得し、シグナル充足率は 76.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -109,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 32.5061
-- forward_pe: 16.4417
-- peg_ratio: 0.5500
-- price_to_book: 26.2627
+- trailing_pe: 33.5712
+- forward_pe: 17.0064
+- peg_ratio: 0.5700
+- price_to_book: 27.1648
 - sector_peer_count: 16
 - trailing_pe_percentile: 50.0000
 - trailing_pe_peer_count: 15
@@ -125,15 +124,15 @@ Evidence
 
 ## Momentum
 
-10点
+12点
 
 理由
 
-- 1M の対SPY超過リターンは +5.71pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -0.80pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは +2.82pt で、市場並み以上です。
-- 1Y の対SPY超過リターンは -3.28pt と、市場を小幅に下回っています。
-- 直近出来高が30日平均の 0.96 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +8.37pt で、市場並み以上です。
+- 3M の対SPY超過リターンは +5.06pt で、市場並み以上です。
+- 6M の対SPY超過リターンは +9.47pt で、市場並み以上です。
+- 1Y の対SPY超過リターンは -1.36pt と、市場を小幅に下回っています。
+- 直近出来高が30日平均の 1.15 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -142,25 +141,25 @@ Evidence
 
 使用データ
 
-- 1M: 8.3815
-- 3M: 6.9060
-- 6M: 14.3249
-- 1Y: 22.1634
+- 1M: 11.3187
+- 3M: 11.6924
+- 6M: 21.7075
+- 1Y: 21.9511
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.67, '3M': 7.7, '6M': 11.51, '1Y': 25.44}
-- excess_returns: {'1M': 5.71, '3M': -0.8, '6M': 2.82, '1Y': -3.28}
-- latest_volume: 130,429,698.0000
-- average_volume_30d: 135,363,513.2667
+- benchmark_returns: {'1M': 2.95, '3M': 6.63, '6M': 12.23, '1Y': 23.31}
+- excess_returns: {'1M': 8.37, '3M': 5.06, '6M': 9.47, '1Y': -1.36}
+- latest_volume: 156,378,175.0000
+- average_volume_30d: 135,609,322.5000
 
 ## News
 
-9点
+13点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
 - 見出し・要約から好悪材料を分類できなかったため、センチメントは中立の4.0点としています。
-- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
+- イベント後の平均株価反応が 3.43% とプラスです。
 
 Evidence
 
@@ -175,11 +174,7 @@ Evidence
 - negative_count: 0
 - sentiment_net_ratio: N/A
 - event_count: 10
-- events_with_price_reaction: 0
-
-欠損・計算不可
-
-- event_price_reaction
+- events_with_price_reaction: 2
 
 ## Note
 

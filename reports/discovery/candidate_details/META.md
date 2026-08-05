@@ -21,9 +21,9 @@
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで -4.73pt と、市場を小幅に下回っています。
-- 3Mモメンタムは対SPYで -11.29pt と弱く、候補評価では注意点です。
-- 6Mモメンタムは対SPYで -28.13pt と弱く、候補評価では注意点です。
+- 1Mモメンタムは対SPYで -7.31pt と、市場を小幅に下回っています。
+- 3Mモメンタムは対SPYで -9.22pt と、市場を小幅に下回っています。
+- 6Mモメンタムは対SPYで -26.96pt と弱く、候補評価では注意点です。
 
 ## Strengths
 
@@ -34,6 +34,7 @@
 ## Watch Points
 
 - 注意材料になり得るニュース表現が 1 件あります。
+- Communication ServicesのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Communication Services セクター全体の需要変化と競争環境を確認する必要があります。
@@ -46,7 +47,7 @@ High
 
 ## Signal Strength
 
-Moderate(シグナル充足率: 64.4%)
+Moderate(シグナル充足率: 64.15%)
 
 ## Evidence
 
@@ -65,20 +66,20 @@ Moderate(シグナル充足率: 64.4%)
 
 ## Metrics
 
-- scoring_total: 65.0
-- signal_earned_points: 64.4
+- scoring_total: 64.0
+- signal_earned_points: 64.15
 - signal_max_points: 100.0
 - weak_signals: []
-- scoring_signal_strength: Strong
+- scoring_signal_strength: Moderate
 - growth_score: 17.0
 - financial_health_score: 20.0
 - valuation_score: 11.0
 - news_score: 13.0
-- momentum: {'1m': -2.057334961100241, '3m': -3.5918623232870255, '6m': -16.622243234175915, '1y': -21.352118844342282}
+- momentum: {'1m': -4.35524169308453, '3m': -2.5860069293703694, '6m': -14.728887607332439, '1y': -23.91517855593552}
 - benchmark: SPY
-- excess_momentum: {'1m': -4.73, '3m': -11.29, '6m': -28.13, '1y': -46.79}
+- excess_momentum: {'1m': -7.31, '3m': -9.22, '6m': -26.96, '1y': -47.23}
 - positive_news: 4
 - watch_news: 1
 - event_count: 10
-- events_with_reaction: 7
-- sector_average_score: 68.5
+- events_with_reaction: 2
+- sector_average_score: 64.5
