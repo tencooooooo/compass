@@ -100,7 +100,7 @@ Evidence
 
 - PER はセクター内 22.22 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - Forward PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
-- PEG はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。
+- PEG はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
 - PBR はセクター内 25.00 パーセンタイル / 母数 5 で、相対的に割安寄りです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -111,16 +111,16 @@ Evidence
 
 使用データ
 
-- trailing_pe: 21.9172
-- forward_pe: 26.3442
-- peg_ratio: 1.4600
-- price_to_book: 5.3298
+- trailing_pe: 21.9035
+- forward_pe: 26.3589
+- peg_ratio: 1.9800
+- price_to_book: 5.3222
 - sector_peer_count: 10
 - trailing_pe_percentile: 22.2200
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 66.6700
 - forward_pe_peer_count: 10
-- peg_ratio_percentile: 33.3300
+- peg_ratio_percentile: 66.6700
 - peg_ratio_peer_count: 10
 - price_to_book_percentile: 25.0000
 - price_to_book_peer_count: 5
@@ -131,11 +131,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは +7.89pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -6.96pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは +2.03pt で、市場並み以上です。
-- 1Y の対SPY超過リターンは +5.51pt で、市場並み以上です。
-- 直近出来高が30日平均の 0.72 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは +8.65pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -6.00pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは +4.26pt で、市場並み以上です。
+- 1Y の対SPY超過リターンは +3.63pt で、市場並み以上です。
+- 直近出来高が30日平均の 0.49 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -144,15 +144,15 @@ Evidence
 
 使用データ
 
-- 1M: 10.8423
-- 3M: -0.3290
-- 6M: 14.2612
-- 1Y: 28.8212
+- 1M: 11.7560
+- 3M: -0.9928
+- 6M: 16.8548
+- 1Y: 27.3731
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.95, '3M': 6.63, '6M': 12.23, '1Y': 23.31}
-- excess_returns: {'1M': 7.89, '3M': -6.96, '6M': 2.03, '1Y': 5.51}
-- latest_volume: 42,366,662.0000
-- average_volume_30d: 58,540,932.0667
+- benchmark_returns: {'1M': 3.11, '3M': 5.0, '6M': 12.6, '1Y': 23.74}
+- excess_returns: {'1M': 8.65, '3M': -6.0, '6M': 4.26, '1Y': 3.63}
+- latest_volume: 27,906,615.0000
+- average_volume_30d: 57,220,170.5000
 
 ## News
 
@@ -161,8 +161,8 @@ Evidence
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が -1.72% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 2 件(純比率 +0.20)で、センチメントは 4.8 点です。
+- イベント後の平均株価反応が -0.14% と中立圏です。
 
 Evidence
 
@@ -173,11 +173,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 4
-- negative_count: 0
-- sentiment_net_ratio: 1.0000
+- positive_count: 3
+- negative_count: 2
+- sentiment_net_ratio: 0.2000
 - event_count: 10
-- events_with_price_reaction: 1
+- events_with_price_reaction: 5
 
 ## Note
 

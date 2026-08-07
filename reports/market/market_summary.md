@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 8
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 1.90%
+- 市場全体の1Mモメンタム平均: 2.68%
 - ニュース件数: 80
 - Event数: 80
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-08-05T22:35:00+00:00 / NVDA / Motley Fool: Should You Forget Tesla Stock Near a 52-Week Low?
-- 2026-08-05T22:35:00+00:00 / TSLA / Motley Fool: Should You Forget Tesla Stock Near a 52-Week Low?
-- 2026-08-05T22:32:07+00:00 / NVDA / Moby: Owens Corning Q2 2026 Earnings Call Summary
-- 2026-08-05T22:26:54+00:00 / NVDA / Moby: NNN REIT, Inc. Q2 2026 Earnings Call Summary
-- 2026-08-05T22:26:51+00:00 / NVDA / Moby: Recursion Pharmaceuticals, Inc. Q2 2026 Earnings Call Summary
+- 2026-08-07T01:04:23+00:00 / GOOGL / Reuters: Exclusive-Alibaba plans to charge big users of its next open-source AI model, sources say
+- 2026-08-07T00:37:00+00:00 / NVDA / TheStreet: Jamie Dimon makes huge call on AI and U.S. economy
+- 2026-08-07T00:37:00+00:00 / GOOGL / TheStreet: Jamie Dimon makes huge call on AI and U.S. economy
+- 2026-08-07T00:37:00+00:00 / AMZN / TheStreet: Jamie Dimon makes huge call on AI and U.S. economy
+- 2026-08-07T00:25:00+00:00 / MSFT / Motley Fool: 2 Energy Stocks With More Hype Than Fundamentals Right Now
 
 ### 注目イベント
 
-- 2026-08-05T14:06:05+00:00 / AMD: The companies defying macro uncertainty and raising guidance: AlphaCheck (株価反応: -7.04%, 出来高: 47.44M)
-- 2026-08-03T14:04:19+00:00 / GOOGL: Tech stocks today: Google shakes up AI leadership, SpaceX plunges (株価反応: 4.88%, 出来高: 38.67M)
-- 2026-08-05T13:08:24+00:00 / GOOGL: This SpaceX number is spooking already skittish investors (株価反応: -4.03%, 出来高: 46.33M)
-- 2026-08-05T10:00:00+00:00 / GOOGL: AI CapEx fears: Is big tech overspending? (株価反応: -4.03%, 出来高: 46.33M)
-- 2026-08-03T13:23:23+00:00 / TSLA: SpaceX stock hits new all-time low as AI capex jumps in Q2 (株価反応: 3.49%, 出来高: 38.28M)
+- 2026-08-03T14:04:19+00:00 / GOOGL: Tech stocks today: SpaceX lockup ends, Google faces AI leadership shakeup (株価反応: 4.88%, 出来高: 38.67M)
+- 2026-08-06T19:37:32+00:00 / MSFT: Microsoft is starting to show its payoff on major AI plays (株価反応: 2.54%, 出来高: 32.79M)
+- 2026-08-06T19:54:38+00:00 / AMD: Advanced Micro Devices vs. Sandisk: Comparing the Latest Quarterly Revenue Trends as AI Demand Spikes Sales (株価反応: 1.50%, 出来高: 23.89M)
+- 2026-08-06T18:20:55+00:00 / AMD: AI Workloads Drive CPU Demand as AMD Discusses Longer-Term China Deals (株価反応: 1.50%, 出来高: 23.89M)
+- 2026-08-06T18:09:35+00:00 / AMD: Qualcomm's Largest Revenue Line Is Shrinking From Both Sides (株価反応: 1.50%, 出来高: 23.89M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 2 | 64.50 | 20.17 | 23.26 | -2.80% | 20 |
-| Consumer Cyclical | 2 | 59.50 | 159.82 | 6.76 | -4.67% | 20 |
-| Technology | 4 | 66.00 | 63.96 | 9.27 | 7.55% | 40 |
+| Communication Services | 2 | 62.00 | 20.08 | 23.24 | -1.67% | 20 |
+| Consumer Cyclical | 2 | 57.50 | 157.53 | 6.76 | -3.58% | 20 |
+| Technology | 4 | 66.50 | 55.68 | 9.27 | 7.98% | 40 |
 
 ## 市場トレンド
 
