@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 8
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 2.68%
+- 市場全体の1Mモメンタム平均: 1.55%
 - ニュース件数: 80
 - Event数: 80
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-08-07T01:04:23+00:00 / GOOGL / Reuters: Exclusive-Alibaba plans to charge big users of its next open-source AI model, sources say
-- 2026-08-07T00:37:00+00:00 / NVDA / TheStreet: Jamie Dimon makes huge call on AI and U.S. economy
-- 2026-08-07T00:37:00+00:00 / GOOGL / TheStreet: Jamie Dimon makes huge call on AI and U.S. economy
-- 2026-08-07T00:37:00+00:00 / AMZN / TheStreet: Jamie Dimon makes huge call on AI and U.S. economy
-- 2026-08-07T00:25:00+00:00 / MSFT / Motley Fool: 2 Energy Stocks With More Hype Than Fundamentals Right Now
+- 2026-08-07T22:08:00+00:00 / NVDA / Motley Fool: More Than Half of Cloudflare's Network Traffic Is No Longer Human. The Stock Broke to a Record on It.
+- 2026-08-07T22:04:56+00:00 / NVDA / Motley Fool: Why Calumet Stock Flopped on Friday
+- 2026-08-07T21:56:39+00:00 / NVDA / Moby: PPL Corporation Q2 2026 Earnings Call Summary
+- 2026-08-07T21:48:08+00:00 / NVDA / Moby: Construction Partners, Inc. Q3 2026 Earnings Call Summary
+- 2026-08-07T21:36:21+00:00 / NVDA / Motley Fool: Why Redwire Stock Keeps Gaining
 
 ### 注目イベント
 
-- 2026-08-03T14:04:19+00:00 / GOOGL: Tech stocks today: SpaceX lockup ends, Google faces AI leadership shakeup (株価反応: 4.88%, 出来高: 38.67M)
-- 2026-08-06T19:37:32+00:00 / MSFT: Microsoft is starting to show its payoff on major AI plays (株価反応: 2.54%, 出来高: 32.79M)
-- 2026-08-06T19:54:38+00:00 / AMD: Advanced Micro Devices vs. Sandisk: Comparing the Latest Quarterly Revenue Trends as AI Demand Spikes Sales (株価反応: 1.50%, 出来高: 23.89M)
-- 2026-08-06T18:20:55+00:00 / AMD: AI Workloads Drive CPU Demand as AMD Discusses Longer-Term China Deals (株価反応: 1.50%, 出来高: 23.89M)
-- 2026-08-06T18:09:35+00:00 / AMD: Qualcomm's Largest Revenue Line Is Shrinking From Both Sides (株価反応: 1.50%, 出来高: 23.89M)
+- 2026-08-03T14:04:19+00:00 / GOOGL: Tech stocks today: Shares climb after rocky week (株価反応: 4.88%, 出来高: 38.67M)
+- 2026-08-07T19:29:26+00:00 / TSLA: Tesla Stock Jumps Nearly 4% as $16.8 Billion Terafab Breaks Ground (株価反応: 2.83%, 出来高: 38.84M)
+- 2026-08-07T19:14:04+00:00 / TSLA: Tesla Jumps as Rate Fears Ease (株価反応: 2.83%, 出来高: 38.84M)
+- 2026-08-07T18:27:19+00:00 / TSLA: SpaceX’s Texas Terafab Could Become World’s Largest Building (株価反応: 2.83%, 出来高: 38.84M)
+- 2026-08-07T16:57:43+00:00 / TSLA: Musk's SpaceX, Tesla to build $16.8B Terafab chip factory in Texas (株価反応: 2.83%, 出来高: 38.84M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 2 | 62.00 | 20.08 | 23.24 | -1.67% | 20 |
-| Consumer Cyclical | 2 | 57.50 | 157.53 | 6.76 | -3.58% | 20 |
-| Technology | 4 | 66.50 | 55.68 | 9.27 | 7.98% | 40 |
+| Communication Services | 2 | 62.00 | 20.04 | 23.24 | -3.76% | 20 |
+| Consumer Cyclical | 2 | 62.50 | 161.76 | 6.76 | -4.04% | 20 |
+| Technology | 4 | 67.00 | 55.43 | 9.28 | 7.01% | 40 |
 
 ## 市場トレンド
 

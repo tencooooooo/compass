@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Apple Inc.
-- Total Score: 50 / 100
+- Total Score: 53 / 100
 - Confidence: High
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 50 点を獲得し、シグナル充足率は 50.0% です。
+- データが確認できた 100 点満点のうち 53 点を獲得し、シグナル充足率は 53.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -95,7 +95,7 @@ Evidence
 理由
 
 - PER はセクター内 57.14 パーセンタイル / 母数 15 で、中位レンジです。
-- Forward PER はセクター内 86.67 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
+- Forward PER はセクター内 93.33 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - PEG はセクター内 100.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - PBR はセクター内 100.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
@@ -107,14 +107,14 @@ Evidence
 
 使用データ
 
-- trailing_pe: 35.8680
-- forward_pe: 32.8401
-- peg_ratio: 2.4100
-- price_to_book: 42.4470
+- trailing_pe: 35.9323
+- forward_pe: 32.9368
+- peg_ratio: 2.5200
+- price_to_book: 42.5720
 - sector_peer_count: 16
 - trailing_pe_percentile: 57.1400
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 86.6700
+- forward_pe_percentile: 93.3300
 - forward_pe_peer_count: 16
 - peg_ratio_percentile: 100
 - peg_ratio_peer_count: 16
@@ -123,15 +123,15 @@ Evidence
 
 ## Momentum
 
-11点
+10点
 
 理由
 
-- 1M の対SPY超過リターンは -3.42pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは +3.76pt で、市場並み以上です。
-- 6M の対SPY超過リターンは +0.60pt で、市場並み以上です。
-- 1Y の対SPY超過リターンが +30.82pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.70 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -3.78pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは +3.14pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -0.95pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンが +23.96pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.55 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -140,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: -0.3127
-- 3M: 8.7607
-- 6M: 13.2014
-- 1Y: 54.5680
+- 1M: -0.9139
+- 3M: 9.1075
+- 6M: 13.7734
+- 1Y: 47.5137
 - benchmark: SPY
-- benchmark_returns: {'1M': 3.11, '3M': 5.0, '6M': 12.6, '1Y': 23.74}
-- excess_returns: {'1M': -3.42, '3M': 3.76, '6M': 0.6, '1Y': 30.82}
-- latest_volume: 45,392,526.0000
-- average_volume_30d: 64,568,730.8667
+- benchmark_returns: {'1M': 2.87, '3M': 5.97, '6M': 14.72, '1Y': 23.55}
+- excess_returns: {'1M': -3.78, '3M': 3.14, '6M': -0.95, '1Y': 23.96}
+- latest_volume: 34,331,108.0000
+- average_volume_30d: 62,170,890.2667
 
 ## News
 
-7点
+11点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 0 件、悪材料 3 件(純比率 -1.00)で、センチメントは 0.0 点です。
-- イベント後の平均株価反応が 0.45% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 2 件(純比率 +0.00)で、センチメントは 4.0 点です。
+- イベント後の平均株価反応が 0.29% と中立圏です。
 
 Evidence
 
@@ -169,11 +169,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 0
-- negative_count: 3
-- sentiment_net_ratio: -1.0000
+- positive_count: 2
+- negative_count: 2
+- sentiment_net_ratio: 0.0000
 - event_count: 10
-- events_with_price_reaction: 7
+- events_with_price_reaction: 5
 
 ## Note
 
