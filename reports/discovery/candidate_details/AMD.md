@@ -4,13 +4,13 @@
 
 ## Company
 
-- Company: AMD
+- Company: Advanced Micro Devices, Inc.
 - Sector: Technology
 - Industry: Semiconductors
 
 ## Discovery Score
 
-81 / 100
+79 / 100
 
 ## Discovery Reasons
 
@@ -21,9 +21,9 @@
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで -14.46pt と弱く、候補評価では注意点です。
-- 3Mモメンタムは対SPYで +12.37pt と、市場を大きく上回っています。
-- 6Mモメンタムは対SPYで +136.38pt と、市場を大きく上回っています。
+- 1Mモメンタムは対SPYで -18.23pt と弱く、候補評価では注意点です。
+- 3Mモメンタムは対SPYで -1.91pt と、市場を小幅に下回っています。
+- 6Mモメンタムは対SPYで +112.75pt と、市場を大きく上回っています。
 
 ## Strengths
 
@@ -47,7 +47,7 @@ High
 
 ## Signal Strength
 
-Strong(シグナル充足率: 80.95%)
+Strong(シグナル充足率: 78.7%)
 
 ## Evidence
 
@@ -66,8 +66,8 @@ Strong(シグナル充足率: 80.95%)
 
 ## Metrics
 
-- scoring_total: 73.0
-- signal_earned_points: 80.95
+- scoring_total: 68.0
+- signal_earned_points: 78.7
 - signal_max_points: 100.0
 - weak_signals: []
 - scoring_signal_strength: Strong
@@ -75,11 +75,11 @@ Strong(シグナル充足率: 80.95%)
 - financial_health_score: 20.0
 - valuation_score: 6.0
 - news_score: 12.0
-- momentum: {'1m': -11.589111198933626, '3m': 18.337167767561336, '6m': 151.09609628652598, '1y': 196.32172622633448}
+- momentum: {'1m': -15.832872926665697, '3m': 3.1569223928720183, '6m': 125.27345617863823, '1y': 172.36659755367262}
 - benchmark: SPY
-- excess_momentum: {'1m': -14.46, '3m': 12.37, '6m': 136.38, '1y': 172.77}
-- positive_news: 3
+- excess_momentum: {'1m': -18.23, '3m': -1.91, '6m': 112.75, '1y': 148.75}
+- positive_news: 5
 - watch_news: 0
 - event_count: 10
-- events_with_reaction: 7
-- sector_average_score: 67.0
+- events_with_reaction: 6
+- sector_average_score: 65.25

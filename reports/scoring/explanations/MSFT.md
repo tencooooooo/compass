@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Microsoft Corporation
-- Total Score: 71 / 100
+- Total Score: 75 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 71 点を獲得し、シグナル充足率は 71.0% です。
+- データが確認できた 100 点満点のうち 75 点を獲得し、シグナル充足率は 75.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -107,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 27.8701
-- forward_pe: 21.2996
-- peg_ratio: 1.5900
-- price_to_book: 8.3940
+- trailing_pe: 28.1928
+- forward_pe: 21.5581
+- peg_ratio: 1.6300
+- price_to_book: 8.4959
 - sector_peer_count: 16
 - trailing_pe_percentile: 42.8600
 - trailing_pe_peer_count: 15
@@ -123,15 +123,15 @@ Evidence
 
 ## Momentum
 
-13点
+15点
 
 理由
 
-- 1M の対SPY超過リターンが +27.22pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンが +13.12pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +12.85pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -27.55pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.55 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンが +29.02pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンが +17.10pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +14.19pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -25.68pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.81 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -140,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: 30.0838
-- 3M: 19.0848
-- 6M: 27.5730
-- 1Y: -3.9921
+- 1M: 31.4100
+- 3M: 22.1710
+- 6M: 26.7173
+- 1Y: -2.0616
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.87, '3M': 5.97, '6M': 14.72, '1Y': 23.55}
-- excess_returns: {'1M': 27.22, '3M': 13.12, '6M': 12.85, '1Y': -27.55}
-- latest_volume: 24,137,816.0000
-- average_volume_30d: 43,622,700.5333
+- benchmark_returns: {'1M': 2.39, '3M': 5.07, '6M': 12.53, '1Y': 23.62}
+- excess_returns: {'1M': 29.02, '3M': 17.1, '6M': 14.19, '1Y': -25.68}
+- latest_volume: 31,137,345.0000
+- average_volume_30d: 38,609,898.1667
 
 ## News
 
-13点
+15点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 1 件(純比率 +0.60)で、センチメントは 6.4 点です。
-- イベント後の平均株価反応が 0.03% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。
+- イベント後の平均株価反応が 1.21% とプラスです。
 
 Evidence
 
@@ -169,11 +169,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 4
+- positive_count: 3
 - negative_count: 1
-- sentiment_net_ratio: 0.6000
+- sentiment_net_ratio: 0.5000
 - event_count: 10
-- events_with_price_reaction: 6
+- events_with_price_reaction: 9
 
 ## Note
 

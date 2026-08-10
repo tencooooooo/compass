@@ -4,8 +4,8 @@
 
 ## Summary
 
-- Company: AMD
-- Total Score: 73 / 100
+- Company: Advanced Micro Devices, Inc.
+- Total Score: 68 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 73 点を獲得し、シグナル充足率は 73.0% です。
+- データが確認できた 100 点満点のうち 68 点を獲得し、シグナル充足率は 68.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -97,8 +97,8 @@ Evidence
 
 - PER はセクター内 100.00 パーセンタイル / 母数 15 で、相対的な加点は抑えています。
 - Forward PER はセクター内 80.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
-- PEG はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。
-- PBR はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。
+- PEG はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。
+- PBR はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -108,31 +108,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 123.6215
-- forward_pe: 31.2655
-- peg_ratio: 1.1300
-- price_to_book: 11.7346
+- trailing_pe: 119.7857
+- forward_pe: 30.3728
+- peg_ratio: 1.0400
+- price_to_book: 11.3996
 - sector_peer_count: 16
 - trailing_pe_percentile: 100
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 80.0000
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 53.3300
+- peg_ratio_percentile: 46.6700
 - peg_ratio_peer_count: 16
-- price_to_book_percentile: 66.6700
+- price_to_book_percentile: 60.0000
 - price_to_book_peer_count: 16
 
 ## Momentum
 
-15点
+10点
 
 理由
 
-- 1M の対SPY超過リターンは -14.46pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンが +12.37pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +136.38pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンが +172.77pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.85 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -18.23pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -1.91pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンが +112.75pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンが +148.75pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.67 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: -11.5891
-- 3M: 18.3372
-- 6M: 151.0961
-- 1Y: 196.3217
+- 1M: -15.8329
+- 3M: 3.1569
+- 6M: 125.2735
+- 1Y: 172.3666
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.87, '3M': 5.97, '6M': 14.72, '1Y': 23.55}
-- excess_returns: {'1M': -14.46, '3M': 12.37, '6M': 136.38, '1Y': 172.77}
-- latest_volume: 25,504,058.0000
-- average_volume_30d: 30,034,188.6000
+- benchmark_returns: {'1M': 2.39, '3M': 5.07, '6M': 12.53, '1Y': 23.62}
+- excess_returns: {'1M': -18.23, '3M': -1.91, '6M': 112.75, '1Y': 148.75}
+- latest_volume: 19,283,602.0000
+- average_volume_30d: 28,955,336.7333
 
 ## News
 
@@ -158,8 +158,8 @@ Evidence
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が -1.21% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が -2.86% と弱く、注意が必要です。
 
 Evidence
 
@@ -170,11 +170,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 3
+- positive_count: 5
 - negative_count: 0
 - sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 7
+- events_with_price_reaction: 6
 
 ## Note
 

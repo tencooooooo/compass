@@ -6,8 +6,8 @@
 
 - 対象企業数: 8
 - セクター数: 3
-- 市場平均スコア: 64.625
-- 1M市場モメンタム平均: 1.5549417234909813
+- 市場平均スコア: 62.625
+- 1M市場モメンタム平均: -0.006175704987136044
 - ニュース件数: 80
 - Event数: 80
 
@@ -15,23 +15,22 @@
 
 | Ticker | Company | Sector | Discovery Score | Status | Confidence | Signal |
 | --- | --- | --- | --- | --- | --- | --- |
-| AMD | AMD | Technology | 81 | Primary Candidate | High | Strong |
-| MSFT | Microsoft Corporation | Technology | 79 | Primary Candidate | High | Strong |
-| NVDA | NVIDIA Corporation | Technology | 79 | Primary Candidate | Medium | Strong |
-| GOOGL | Alphabet Inc. | Communication Services | 72 | Watch Candidate | Medium | Strong |
-| AMZN | Amazon.com, Inc. | Consumer Cyclical | 71 | Watch Candidate | Medium | Strong |
-| AAPL | Apple Inc. | Technology | 64 | Watch Candidate | High | Moderate |
-| META | Meta Platforms, Inc. | Communication Services | 64 | Watch Candidate | High | Moderate |
+| MSFT | Microsoft Corporation | Technology | 81 | Primary Candidate | High | Strong |
+| AMD | Advanced Micro Devices, Inc. | Technology | 79 | Primary Candidate | High | Strong |
+| AMZN | Amazon.com, Inc. | Consumer Cyclical | 76 | Primary Candidate | Medium | Strong |
+| NVDA | NVIDIA Corporation | Technology | 71 | Watch Candidate | High | Strong |
+| META | Meta Platforms, Inc. | Communication Services | 67 | Watch Candidate | High | Strong |
+| GOOGL | Alphabet Inc. | Communication Services | 66 | Watch Candidate | Medium | Strong |
 
 ## Top Candidate
 
-AMD
+MSFT
 
 理由
 
-- Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。
-- Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。
+- Scoring EngineのGrowthが 18/20 で、成長性の基礎条件が確認できます。
+- Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。
+- Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 

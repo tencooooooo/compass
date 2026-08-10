@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 8
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 1.55%
+- 市場全体の1Mモメンタム平均: -0.01%
 - ニュース件数: 80
 - Event数: 80
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-08-07T22:08:00+00:00 / NVDA / Motley Fool: More Than Half of Cloudflare's Network Traffic Is No Longer Human. The Stock Broke to a Record on It.
-- 2026-08-07T22:04:56+00:00 / NVDA / Motley Fool: Why Calumet Stock Flopped on Friday
-- 2026-08-07T21:56:39+00:00 / NVDA / Moby: PPL Corporation Q2 2026 Earnings Call Summary
-- 2026-08-07T21:48:08+00:00 / NVDA / Moby: Construction Partners, Inc. Q3 2026 Earnings Call Summary
-- 2026-08-07T21:36:21+00:00 / NVDA / Motley Fool: Why Redwire Stock Keeps Gaining
+- 2026-08-10T22:13:52+00:00 / NVDA / Motley Fool: Why Eli Lilly Topped the Market Today
+- 2026-08-10T22:00:00+00:00 / GOOGL / Yahoo Finance Video: The loneliness epidemic is growing — can FeedIRL help solve it?
+- 2026-08-10T21:50:00+00:00 / NVDA / Motley Fool: Airbnb Is Starting To Think Like Amazon's Jeff Bezos, And It's Paying Off
+- 2026-08-10T21:50:00+00:00 / AMZN / Motley Fool: Airbnb Is Starting To Think Like Amazon's Jeff Bezos, And It's Paying Off
+- 2026-08-10T21:47:25+00:00 / AMZN / Investor's Business Daily: Amazon, IBD Stock Of The Day, Rides Cloud Momentum To $3 Trillion Milestone
 
 ### 注目イベント
 
-- 2026-08-03T14:04:19+00:00 / GOOGL: Tech stocks today: Shares climb after rocky week (株価反応: 4.88%, 出来高: 38.67M)
-- 2026-08-07T19:29:26+00:00 / TSLA: Tesla Stock Jumps Nearly 4% as $16.8 Billion Terafab Breaks Ground (株価反応: 2.83%, 出来高: 38.84M)
-- 2026-08-07T19:14:04+00:00 / TSLA: Tesla Jumps as Rate Fears Ease (株価反応: 2.83%, 出来高: 38.84M)
-- 2026-08-07T18:27:19+00:00 / TSLA: SpaceX’s Texas Terafab Could Become World’s Largest Building (株価反応: 2.83%, 出来高: 38.84M)
-- 2026-08-07T16:57:43+00:00 / TSLA: Musk's SpaceX, Tesla to build $16.8B Terafab chip factory in Texas (株価反応: 2.83%, 出来高: 38.84M)
+- 2026-08-10T16:29:00+00:00 / NVDA: SpaceX’s next chapter: How AI is reshaping the company (株価反応: -2.86%, 出来高: 108.14M)
+- 2026-08-10T14:34:00+00:00 / NVDA: Memory chip crunch could last 2 more years, JPMorgan says (株価反応: -2.86%, 出来高: 108.14M)
+- 2026-08-10T19:45:58+00:00 / AMD: AMD Brings Meta's New AI Model to PCs (株価反応: -2.86%, 出来高: 19.28M)
+- 2026-08-10T18:11:51+00:00 / AMD: What Advanced Micro Devices (AMD)'s New Instinct Coder AI Stack and Data Center Push Means For Shareholders (株価反応: -2.86%, 出来高: 19.28M)
+- 2026-08-10T16:16:00+00:00 / AMD: Taalas Buyout Boosts AMD's AI Inference Abilities Against NVDA & GOOGL (株価反応: -2.86%, 出来高: 19.28M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 2 | 62.00 | 20.04 | 23.24 | -3.76% | 20 |
-| Consumer Cyclical | 2 | 62.50 | 161.76 | 6.76 | -4.04% | 20 |
-| Technology | 4 | 67.00 | 55.43 | 9.28 | 7.01% | 40 |
+| Communication Services | 2 | 61.50 | 20.17 | 23.24 | -5.50% | 20 |
+| Consumer Cyclical | 2 | 58.50 | 164.37 | 6.75 | -2.75% | 20 |
+| Technology | 4 | 65.25 | 54.16 | 9.28 | 4.12% | 40 |
 
 ## 市場トレンド
 
