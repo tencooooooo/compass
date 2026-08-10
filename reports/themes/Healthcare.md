@@ -1,34 +1,31 @@
 # Healthcare
 
-- Target companies: 3
-- Average Score: 75.00
-- Average Discovery: 76.00
-- Momentum: 20.93
+- Target companies: 2
+- Average Score: N/A
+- Average Discovery: N/A
+- Momentum: N/A
 - Confidence: Medium
 
 ## Companies
 
-- CRM - Salesforce, Inc. (Low): Keyword: healthcare
-- MSFT - Microsoft Corporation (Low): Keyword: healthcare
+- CRM - CRM (Low): Keyword: healthcare
 - NOW - ServiceNow, Inc. (Low): Keyword: healthcare
 
 ## Market
 
-- Technology: score 70.00, momentum 3.88, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 67.00, momentum 7.01, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- MSFT: Apple stock plunges: CEO Tim Cook explains weak revenue forecast
-- MSFT: Apple is growing without the AI spending spree engulfing Big Tech: Chart of the Day
-- MSFT: The AI spending boom is forcing a rethink on stock buybacks: One Big Investment Idea
+No theme news available yet.
 
 ## Similar Themes
 
-- Quantum Computing: 0.91 (Similar average Discovery score)
-- Cybersecurity: 0.872 (Shared companies: MSFT, NOW; Shared sectors: Technology; Similar average Discovery score)
-- EV: 0.863 (Shared sectors: Technology; Similar average Discovery score)
-- Robotics: 0.845 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar average Discovery score)
-- Energy: 0.762 (Shared sectors: Technology)
+- Fintech: 1.0 (Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Energy: 0.352 (Shared sectors: Technology)
+- Robotics: 0.244 (Shared companies: CRM, NOW; Shared sectors: Technology)
+- Semiconductor: 0.185 (Shared sectors: Technology; Similar short-term momentum)
+- Cybersecurity: 0.18 (Shared companies: NOW; Shared sectors: Technology)
 
 ## Review Note
 
