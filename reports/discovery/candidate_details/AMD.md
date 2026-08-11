@@ -4,26 +4,26 @@
 
 ## Company
 
-- Company: Advanced Micro Devices, Inc.
+- Company: AMD
 - Sector: Technology
 - Industry: Semiconductors
 
 ## Discovery Score
 
-79 / 100
+83 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで -18.23pt と弱く、候補評価では注意点です。
-- 3Mモメンタムは対SPYで -1.91pt と、市場を小幅に下回っています。
-- 6Mモメンタムは対SPYで +112.75pt と、市場を大きく上回っています。
+- 1Mモメンタムは対SPYで -14.10pt と弱く、候補評価では注意点です。
+- 3Mモメンタムは対SPYで -1.11pt と、市場を小幅に下回っています。
+- 6Mモメンタムは対SPYで +107.96pt と、市場を大きく上回っています。
 
 ## Strengths
 
@@ -34,7 +34,6 @@
 ## Watch Points
 
 - バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。
-- イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Technology セクター全体の需要変化と競争環境を確認する必要があります。
@@ -47,7 +46,7 @@ High
 
 ## Signal Strength
 
-Strong(シグナル充足率: 78.7%)
+Strong(シグナル充足率: 82.95%)
 
 ## Evidence
 
@@ -66,20 +65,20 @@ Strong(シグナル充足率: 78.7%)
 
 ## Metrics
 
-- scoring_total: 68.0
-- signal_earned_points: 78.7
+- scoring_total: 73.0
+- signal_earned_points: 82.95
 - signal_max_points: 100.0
 - weak_signals: []
 - scoring_signal_strength: Strong
 - growth_score: 20.0
 - financial_health_score: 20.0
 - valuation_score: 6.0
-- news_score: 12.0
-- momentum: {'1m': -15.832872926665697, '3m': 3.1569223928720183, '6m': 125.27345617863823, '1y': 172.36659755367262}
+- news_score: 17.0
+- momentum: {'1m': -11.240855120344516, '3m': 3.3849906253519317, '6m': 119.59259598343463, '1y': 174.55430794508996}
 - benchmark: SPY
-- excess_momentum: {'1m': -18.23, '3m': -1.91, '6m': 112.75, '1y': 148.75}
-- positive_news: 5
+- excess_momentum: {'1m': -14.1, '3m': -1.11, '6m': 107.96, '1y': 152.28}
+- positive_news: 4
 - watch_news: 0
 - event_count: 10
-- events_with_reaction: 6
-- sector_average_score: 65.25
+- events_with_reaction: 7
+- sector_average_score: 63.75

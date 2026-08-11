@@ -1,9 +1,9 @@
-# Learning Summary - 2026-08-10
+# Learning Summary - 2026-08-11
 
 > Learning SummaryはApproved Proposalの取り込み状況を示します。Knowledge本体は自動更新していません。
 
 - 学習件数: 0
-- Proposal数: 104
+- Proposal数: 110
 - 採用率: 0.0%
 - Knowledge Version: v1
 
@@ -12,7 +12,7 @@
 - Approved: 0
 - Rejected: 0
 - Deferred: 0
-- Pending: 104
+- Pending: 110
 
 ## 対象カテゴリ
 

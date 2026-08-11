@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 8
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: -0.01%
+- 市場全体の1Mモメンタム平均: 0.48%
 - ニュース件数: 80
 - Event数: 80
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-08-10T22:13:52+00:00 / NVDA / Motley Fool: Why Eli Lilly Topped the Market Today
-- 2026-08-10T22:00:00+00:00 / GOOGL / Yahoo Finance Video: The loneliness epidemic is growing — can FeedIRL help solve it?
-- 2026-08-10T21:50:00+00:00 / NVDA / Motley Fool: Airbnb Is Starting To Think Like Amazon's Jeff Bezos, And It's Paying Off
-- 2026-08-10T21:50:00+00:00 / AMZN / Motley Fool: Airbnb Is Starting To Think Like Amazon's Jeff Bezos, And It's Paying Off
-- 2026-08-10T21:47:25+00:00 / AMZN / Investor's Business Daily: Amazon, IBD Stock Of The Day, Rides Cloud Momentum To $3 Trillion Milestone
+- 2026-08-11T22:19:47+00:00 / GOOGL / Insider Monkey: Alphabet Inc. (GOOGL) vs. Meta Platforms, Inc. (META): Washington and Brussels Both Turn Up the Heat on AI Safety
+- 2026-08-11T22:19:47+00:00 / META / Insider Monkey: Alphabet Inc. (GOOGL) vs. Meta Platforms, Inc. (META): Washington and Brussels Both Turn Up the Heat on AI Safety
+- 2026-08-11T22:17:29+00:00 / NVDA / Investor's Business Daily: CoreWeave Earnings Beat Amid Operating Margin Upside
+- 2026-08-11T22:15:38+00:00 / NVDA / Investor's Business Daily: Dow Jones Futures: Stocks Pause Before CPI Inflation; 3 Nvidia Partners Lead Earnings Movers Late
+- 2026-08-11T22:15:15+00:00 / NVDA / Motley Fool: Why Fermi Stock Soared Today
 
 ### 注目イベント
 
-- 2026-08-10T16:29:00+00:00 / NVDA: SpaceX’s next chapter: How AI is reshaping the company (株価反応: -2.86%, 出来高: 108.14M)
-- 2026-08-10T14:34:00+00:00 / NVDA: Memory chip crunch could last 2 more years, JPMorgan says (株価反応: -2.86%, 出来高: 108.14M)
-- 2026-08-10T19:45:58+00:00 / AMD: AMD Brings Meta's New AI Model to PCs (株価反応: -2.86%, 出来高: 19.28M)
-- 2026-08-10T18:11:51+00:00 / AMD: What Advanced Micro Devices (AMD)'s New Instinct Coder AI Stack and Data Center Push Means For Shareholders (株価反応: -2.86%, 出来高: 19.28M)
-- 2026-08-10T16:16:00+00:00 / AMD: Taalas Buyout Boosts AMD's AI Inference Abilities Against NVDA & GOOGL (株価反応: -2.86%, 出来高: 19.28M)
+- 2026-08-11T14:49:12+00:00 / GOOGL: Can SpaceX really reach $100B in annual recurring revenue by 2027? (株価反応: -3.84%, 出来高: 28.66M)
+- 2026-08-11T19:32:00+00:00 / AMZN: Jabil upgraded by UBS as AI demand, healthcare growth support outlook (株価反応: -2.09%, 出来高: 29.51M)
+- 2026-08-10T13:56:05+00:00 / AAPL: Tech stocks today: CoreWeave and Supermicro results win over investors (株価反応: -1.53%, 出来高: 44.81M)
+- 2026-08-10T13:56:05+00:00 / AMZN: Tech stocks today: CoreWeave and Supermicro results win over investors (株価反応: 1.32%, 出来高: 35.73M)
+- 2026-08-10T13:56:05+00:00 / MSFT: Tech stocks today: CoreWeave and Supermicro results win over investors (株価反応: 1.21%, 出来高: 31.21M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 2 | 61.50 | 20.17 | 23.24 | -5.50% | 20 |
-| Consumer Cyclical | 2 | 58.50 | 164.37 | 6.75 | -2.75% | 20 |
-| Technology | 4 | 65.25 | 54.16 | 9.28 | 4.12% | 40 |
+| Communication Services | 2 | 62.00 | 19.93 | 23.22 | -5.62% | 20 |
+| Consumer Cyclical | 2 | 62.00 | 163.62 | 6.76 | -2.80% | 20 |
+| Technology | 4 | 63.75 | 54.48 | 9.28 | 5.16% | 40 |
 
 ## 市場トレンド
 
