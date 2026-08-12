@@ -5,9 +5,9 @@
 ## Summary
 
 - Company: Meta Platforms, Inc.
-- Total Score: 65 / 100
+- Total Score: 60 / 100
 - Confidence: High
-- Signal Strength: Strong
+- Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
@@ -23,12 +23,12 @@ High
 
 ## Signal Strength
 
-Strong
+Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 65 点を獲得し、シグナル充足率は 65.0% です。
-- シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
+- データが確認できた 100 点満点のうち 60 点を獲得し、シグナル充足率は 60.0% です。
+- シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
@@ -36,10 +36,10 @@ Strong
 
 理由
 
-- revenue_growth(直近4四半期平均) は 24.25% で、+15%以上の成長です。
-- eps_growth(直近4四半期平均) は 13.66% で、プラス成長を維持しています。
-- revenue_growth は直近四半期が前四半期より +6.83pt 高く、成長の加速がみられます。
-- eps_growth は直近四半期が前四半期より +144.95pt 高く、成長の加速がみられます。
+- revenue_growth(直近4四半期平均) は 27.22% で、+15%以上の成長です。
+- eps_growth(直近4四半期平均) は 1.17% で、プラス成長を維持しています。
+- revenue_growth は直近四半期が前四半期より -5.12pt 低く、成長の減速に注意が必要です。
+- eps_growth は直近四半期が前四半期より -75.81pt 低く、成長の減速に注意が必要です。
 - 純利益 がプラスで確認できるため加点しています。
 - 営業利益 がプラスで確認できるため加点しています。
 - 研究開発費が確認でき、将来成長への投資が続いています。
@@ -57,12 +57,12 @@ Evidence
 - net_income: 60,458,000,000.0000
 - operating_income: 83,276,000,000.0000
 - research_and_development: 57,372,000,000.0000
-- revenue_yoy_growth: 33.0800
-- eps_yoy_growth: 62.3600
-- revenue_yoy_growth_avg: 24.2500
-- eps_yoy_growth_avg: 13.6600
-- revenue_growth_quarters: ['2026-Q1', '2025-Q3', '2025-Q2', '2025-Q1']
-- eps_growth_quarters: ['2026-Q1', '2025-Q3', '2025-Q2', '2025-Q1']
+- revenue_yoy_growth: 27.9600
+- eps_yoy_growth: -13.4500
+- revenue_yoy_growth_avg: 27.2200
+- eps_yoy_growth_avg: 1.1700
+- revenue_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
+- eps_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
 
 ## Financial Health
 
@@ -108,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 22.5827
-- forward_pe: 17.1741
+- trailing_pe: 21.8105
+- forward_pe: 16.5931
 - peg_ratio: 0.8900
-- price_to_book: 5.8439
+- price_to_book: 5.6462
 - sector_peer_count: 10
 - trailing_pe_percentile: 77.7800
 - trailing_pe_peer_count: 10
@@ -124,15 +124,15 @@ Evidence
 
 ## Momentum
 
-2点
+4点
 
 理由
 
-- 1M の対SPY超過リターンは -11.63pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -4.36pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -23.00pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -44.14pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.64 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -15.18pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -8.83pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -25.75pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -46.99pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.83 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,25 +141,25 @@ Evidence
 
 使用データ
 
-- 1M: -8.7722
-- 3M: 0.1361
-- 6M: -11.3746
-- 1Y: -21.8662
+- 1M: -12.4334
+- 3M: -3.9160
+- 6M: -13.5433
+- 1Y: -24.1716
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.86, '3M': 4.5, '6M': 11.63, '1Y': 22.27}
-- excess_returns: {'1M': -11.63, '3M': -4.36, '6M': -23.0, '1Y': -44.14}
-- latest_volume: 12,274,440.0000
-- average_volume_30d: 19,154,994.6667
+- benchmark_returns: {'1M': 2.75, '3M': 4.92, '6M': 12.21, '1Y': 22.82}
+- excess_returns: {'1M': -15.18, '3M': -8.83, '6M': -25.75, '1Y': -46.99}
+- latest_volume: 15,847,495.0000
+- average_volume_30d: 19,108,623.1667
 
 ## News
 
-15点
+8点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が 0.71% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 1 件(純比率 +0.00)で、センチメントは 4.0 点です。
+- イベント後の平均株価反応が -2.90% と弱く、注意が必要です。
 
 Evidence
 
@@ -170,11 +170,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 3
-- negative_count: 0
-- sentiment_net_ratio: 1.0000
+- positive_count: 1
+- negative_count: 1
+- sentiment_net_ratio: 0.0000
 - event_count: 10
-- events_with_price_reaction: 3
+- events_with_price_reaction: 8
 
 ## Note
 

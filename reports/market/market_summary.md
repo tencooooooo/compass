@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 8
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 0.48%
+- 市場全体の1Mモメンタム平均: -1.04%
 - ニュース件数: 80
 - Event数: 80
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-08-11T22:19:47+00:00 / GOOGL / Insider Monkey: Alphabet Inc. (GOOGL) vs. Meta Platforms, Inc. (META): Washington and Brussels Both Turn Up the Heat on AI Safety
-- 2026-08-11T22:19:47+00:00 / META / Insider Monkey: Alphabet Inc. (GOOGL) vs. Meta Platforms, Inc. (META): Washington and Brussels Both Turn Up the Heat on AI Safety
-- 2026-08-11T22:17:29+00:00 / NVDA / Investor's Business Daily: CoreWeave Earnings Beat Amid Operating Margin Upside
-- 2026-08-11T22:15:38+00:00 / NVDA / Investor's Business Daily: Dow Jones Futures: Stocks Pause Before CPI Inflation; 3 Nvidia Partners Lead Earnings Movers Late
-- 2026-08-11T22:15:15+00:00 / NVDA / Motley Fool: Why Fermi Stock Soared Today
+- 2026-08-12T22:21:27+00:00 / NVDA / 24/7 Wall St.: AMD, Intel, and NVIDIA All Rally Wednesday After Series of Blockbuster AI Earnings Reports
+- 2026-08-12T22:21:27+00:00 / AMD / 24/7 Wall St.: AMD, Intel, and NVIDIA All Rally Wednesday After Series of Blockbuster AI Earnings Reports
+- 2026-08-12T22:14:32+00:00 / NVDA / Stocktwits: CBRS Stock Tanks 15% After-Hours — Touted As Nvidia Rival, Cerebras’ Wafer Tech Finds Fewer Buyers
+- 2026-08-12T22:12:56+00:00 / NVDA / Motley Fool: Why Borr Drilling Stock Withered on Wednesday
+- 2026-08-12T22:09:44+00:00 / AMD / Motley Fool: Adobe vs. Advanced Micro Devices: Which Technology Stock Is a Better 投資判断表現 in 2026?
 
 ### 注目イベント
 
-- 2026-08-11T14:49:12+00:00 / GOOGL: Can SpaceX really reach $100B in annual recurring revenue by 2027? (株価反応: -3.84%, 出来高: 28.66M)
-- 2026-08-11T19:32:00+00:00 / AMZN: Jabil upgraded by UBS as AI demand, healthcare growth support outlook (株価反応: -2.09%, 出来高: 29.51M)
-- 2026-08-10T13:56:05+00:00 / AAPL: Tech stocks today: CoreWeave and Supermicro results win over investors (株価反応: -1.53%, 出来高: 44.81M)
-- 2026-08-10T13:56:05+00:00 / AMZN: Tech stocks today: CoreWeave and Supermicro results win over investors (株価反応: 1.32%, 出来高: 35.73M)
-- 2026-08-10T13:56:05+00:00 / MSFT: Tech stocks today: CoreWeave and Supermicro results win over investors (株価反応: 1.21%, 出来高: 31.21M)
+- 2026-08-12T19:41:00+00:00 / META: Alphabet, Amazon, Meta Platforms, and Microsoft: One of These Stocks Looks Like It Has the Least Upside Over the Next 12 Months, but There's a Catch (株価反応: -3.38%, 出来高: 15.85M)
+- 2026-08-12T19:40:00+00:00 / META: Online Influencer ‘K Money’ Sentenced to 2 Years for Ponzi Scheme (株価反応: -3.38%, 出来高: 15.85M)
+- 2026-08-12T19:01:00+00:00 / META: Meta PR Goes Back to Playing Offense (株価反応: -3.38%, 出来高: 15.85M)
+- 2026-08-12T17:24:55+00:00 / META: Meta Stock Drops While $1.4 Trillion Trial Opens (株価反応: -3.38%, 出来高: 15.85M)
+- 2026-08-12T16:58:05+00:00 / META: The Sign Before Alphabet Stock's Surge Was Google Cloud's Margin, Not Its Growth (株価反応: -3.38%, 出来高: 15.85M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 2 | 62.00 | 19.93 | 23.22 | -5.62% | 20 |
-| Consumer Cyclical | 2 | 62.00 | 163.62 | 6.76 | -2.80% | 20 |
-| Technology | 4 | 63.75 | 54.48 | 9.28 | 5.16% | 40 |
+| Communication Services | 2 | 62.00 | 19.52 | 23.24 | -8.44% | 20 |
+| Consumer Cyclical | 2 | 57.50 | 165.23 | 6.75 | -4.67% | 20 |
+| Technology | 4 | 65.50 | 54.76 | 9.28 | 4.48% | 40 |
 
 ## 市場トレンド
 
