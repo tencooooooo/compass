@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 8
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: -1.04%
+- 市場全体の1Mモメンタム平均: -1.62%
 - ニュース件数: 80
 - Event数: 80
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-08-12T22:21:27+00:00 / NVDA / 24/7 Wall St.: AMD, Intel, and NVIDIA All Rally Wednesday After Series of Blockbuster AI Earnings Reports
-- 2026-08-12T22:21:27+00:00 / AMD / 24/7 Wall St.: AMD, Intel, and NVIDIA All Rally Wednesday After Series of Blockbuster AI Earnings Reports
-- 2026-08-12T22:14:32+00:00 / NVDA / Stocktwits: CBRS Stock Tanks 15% After-Hours — Touted As Nvidia Rival, Cerebras’ Wafer Tech Finds Fewer Buyers
-- 2026-08-12T22:12:56+00:00 / NVDA / Motley Fool: Why Borr Drilling Stock Withered on Wednesday
-- 2026-08-12T22:09:44+00:00 / AMD / Motley Fool: Adobe vs. Advanced Micro Devices: Which Technology Stock Is a Better 投資判断表現 in 2026?
+- 2026-08-13T22:13:39+00:00 / NVDA / Motley Fool: Why Dillard's Stock Dipped Today
+- 2026-08-13T22:13:22+00:00 / AAPL / Simply Wall St.: How Apple’s New Houston AI Manufacturing Hub Could Reshape the AAPL Investment Narrative
+- 2026-08-13T22:10:46+00:00 / NVDA / 24/7 Wall St.: The Investment Company of America, AIVSX, Has Outlasted Nearly Every Fund Launched Beside It
+- 2026-08-13T22:10:46+00:00 / GOOGL / 24/7 Wall St.: The Investment Company of America, AIVSX, Has Outlasted Nearly Every Fund Launched Beside It
+- 2026-08-13T22:03:00+00:00 / AAPL / The Wall Street Journal: Apple Showcases Texas Mac Mini Factory, New Manufacturing School
 
 ### 注目イベント
 
-- 2026-08-12T19:41:00+00:00 / META: Alphabet, Amazon, Meta Platforms, and Microsoft: One of These Stocks Looks Like It Has the Least Upside Over the Next 12 Months, but There's a Catch (株価反応: -3.38%, 出来高: 15.85M)
-- 2026-08-12T19:40:00+00:00 / META: Online Influencer ‘K Money’ Sentenced to 2 Years for Ponzi Scheme (株価反応: -3.38%, 出来高: 15.85M)
-- 2026-08-12T19:01:00+00:00 / META: Meta PR Goes Back to Playing Offense (株価反応: -3.38%, 出来高: 15.85M)
-- 2026-08-12T17:24:55+00:00 / META: Meta Stock Drops While $1.4 Trillion Trial Opens (株価反応: -3.38%, 出来高: 15.85M)
-- 2026-08-12T16:58:05+00:00 / META: The Sign Before Alphabet Stock's Surge Was Google Cloud's Margin, Not Its Growth (株価反応: -3.38%, 出来高: 15.85M)
+- 2026-08-13T19:47:00+00:00 / TSLA: The Winners and Losers From Shipping’s Rough Seas (株価反応: 3.80%, 出来高: 33.33M)
+- 2026-08-13T18:59:37+00:00 / TSLA: Tesla $10 Billion Solar Bet Could Change Its Energy Game (株価反応: 3.80%, 出来高: 33.33M)
+- 2026-08-13T16:31:14+00:00 / TSLA: Tesla paid Elon Musk 2.5m times more as CEO than its average worker in 2025 (株価反応: 3.80%, 出来高: 33.33M)
+- 2026-08-13T15:35:35+00:00 / TSLA: New Study Reveals Strongest State Economies, Only 1 State Was Better Than Texas (株価反応: 3.80%, 出来高: 33.33M)
+- 2026-08-13T15:30:21+00:00 / TSLA: More Analysts Say 投資判断表現 Than 投資判断表現 on Tesla. The Price Target Went Up Anyway. (株価反応: 3.80%, 出来高: 33.33M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 2 | 62.00 | 19.52 | 23.24 | -8.44% | 20 |
-| Consumer Cyclical | 2 | 57.50 | 165.23 | 6.75 | -4.67% | 20 |
-| Technology | 4 | 65.50 | 54.76 | 9.28 | 4.48% | 40 |
+| Communication Services | 2 | 64.50 | 19.89 | 23.25 | -9.65% | 20 |
+| Consumer Cyclical | 2 | 62.50 | 168.05 | 6.75 | -4.91% | 20 |
+| Technology | 4 | 66.00 | 55.17 | 9.29 | 4.05% | 40 |
 
 ## 市場トレンド
 

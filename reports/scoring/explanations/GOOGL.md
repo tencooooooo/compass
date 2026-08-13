@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Alphabet Inc.
-- Total Score: 64 / 100
+- Total Score: 62 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 64 点を獲得し、シグナル充足率は 64.0% です。
+- データが確認できた 100 点満点のうち 62 点を獲得し、シグナル充足率は 62.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -111,10 +111,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 17.2287
-- forward_pe: 23.3083
+- trailing_pe: 17.3788
+- forward_pe: 23.4997
 - peg_ratio: 0.9700
-- price_to_book: 6.7498
+- price_to_book: 6.8052
 - sector_peer_count: 10
 - trailing_pe_percentile: 44.4400
 - trailing_pe_peer_count: 10
@@ -127,15 +127,15 @@ Evidence
 
 ## Momentum
 
-9点
+7点
 
 理由
 
-- 1M の対SPY超過リターンは -7.19pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -16.17pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -4.23pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンが +48.58pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.80 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -9.68pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -18.98pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -1.49pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンが +48.45pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.60 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -144,15 +144,15 @@ Evidence
 
 使用データ
 
-- 1M: -4.4422
-- 3M: -11.2572
-- 6M: 7.9751
-- 1Y: 71.4030
+- 1M: -6.6214
+- 3M: -13.9221
+- 6M: 11.5291
+- 1Y: 70.8213
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.75, '3M': 4.92, '6M': 12.21, '1Y': 22.82}
-- excess_returns: {'1M': -7.19, '3M': -16.17, '6M': -4.23, '1Y': 48.58}
-- latest_volume: 23,857,798.0000
-- average_volume_30d: 29,711,749.9333
+- benchmark_returns: {'1M': 3.06, '3M': 5.06, '6M': 13.01, '1Y': 22.38}
+- excess_returns: {'1M': -9.68, '3M': -18.98, '6M': -1.49, '1Y': 48.45}
+- latest_volume: 17,607,761.0000
+- average_volume_30d: 29,445,935.3667
 
 ## News
 
@@ -162,7 +162,7 @@ Evidence
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
 - ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が -0.08% と中立圏です。
+- イベント後の平均株価反応が 0.82% と中立圏です。
 
 Evidence
 
@@ -177,7 +177,7 @@ Evidence
 - negative_count: 0
 - sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 6
+- events_with_price_reaction: 4
 
 ## Note
 
