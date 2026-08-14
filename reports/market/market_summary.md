@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 8
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: -1.62%
+- 市場全体の1Mモメンタム平均: 0.70%
 - ニュース件数: 80
 - Event数: 80
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-08-13T22:13:39+00:00 / NVDA / Motley Fool: Why Dillard's Stock Dipped Today
-- 2026-08-13T22:13:22+00:00 / AAPL / Simply Wall St.: How Apple’s New Houston AI Manufacturing Hub Could Reshape the AAPL Investment Narrative
-- 2026-08-13T22:10:46+00:00 / NVDA / 24/7 Wall St.: The Investment Company of America, AIVSX, Has Outlasted Nearly Every Fund Launched Beside It
-- 2026-08-13T22:10:46+00:00 / GOOGL / 24/7 Wall St.: The Investment Company of America, AIVSX, Has Outlasted Nearly Every Fund Launched Beside It
-- 2026-08-13T22:03:00+00:00 / AAPL / The Wall Street Journal: Apple Showcases Texas Mac Mini Factory, New Manufacturing School
+- 2026-08-14T22:02:45+00:00 / NVDA / Motley Fool: Why Oracle Stock Got Trounced Today
+- 2026-08-14T21:57:59+00:00 / NVDA / Motley Fool: Why REalloys Stock Soared Today
+- 2026-08-14T21:56:38+00:00 / AMD / Investing.com: Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows
+- 2026-08-14T21:56:38+00:00 / AMZN / Investing.com: Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows
+- 2026-08-14T21:54:16+00:00 / MSFT / Reuters: Institutional investors reveal cautious approach to tech favorites in US quarterly 13F filings
 
 ### 注目イベント
 
-- 2026-08-13T19:47:00+00:00 / TSLA: The Winners and Losers From Shipping’s Rough Seas (株価反応: 3.80%, 出来高: 33.33M)
-- 2026-08-13T18:59:37+00:00 / TSLA: Tesla $10 Billion Solar Bet Could Change Its Energy Game (株価反応: 3.80%, 出来高: 33.33M)
-- 2026-08-13T16:31:14+00:00 / TSLA: Tesla paid Elon Musk 2.5m times more as CEO than its average worker in 2025 (株価反応: 3.80%, 出来高: 33.33M)
-- 2026-08-13T15:35:35+00:00 / TSLA: New Study Reveals Strongest State Economies, Only 1 State Was Better Than Texas (株価反応: 3.80%, 出来高: 33.33M)
-- 2026-08-13T15:30:21+00:00 / TSLA: More Analysts Say 投資判断表現 Than 投資判断表現 on Tesla. The Price Target Went Up Anyway. (株価反応: 3.80%, 出来高: 33.33M)
+- 2026-08-14T19:41:00+00:00 / AMD: Kulicke and Soffa, AMD, Intel, and Nvidia Shares Are Soaring, What You Need To Know (株価反応: 6.50%, 出来高: 24.93M)
+- 2026-08-14T19:16:26+00:00 / AMD: AMD Stock Jumps 5.6% While $4.75 Billion Debt Deal Lands (株価反応: 6.50%, 出来高: 24.93M)
+- 2026-08-14T19:14:13+00:00 / AMD: What Separates AVGO From Its Peers Right Now (株価反応: 6.50%, 出来高: 24.93M)
+- 2026-08-14T18:25:32+00:00 / AMD: Soros Capital Loads Up On MU, AMAT, AMD And TSM In Massive Semiconductor Pivot (株価反応: 6.50%, 出来高: 24.93M)
+- 2026-08-14T18:07:38+00:00 / AMD: Broadcom Sinks 6% as BofA Flags $370B in AI Debt, AMD Climbs 4% on Baird’s $1,250 Call (株価反応: 6.50%, 出来高: 24.93M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 2 | 64.50 | 19.89 | 23.25 | -9.65% | 20 |
-| Consumer Cyclical | 2 | 62.50 | 168.05 | 6.75 | -4.91% | 20 |
-| Technology | 4 | 66.00 | 55.17 | 9.29 | 4.05% | 40 |
+| Communication Services | 2 | 61.50 | 19.79 | 23.23 | -6.83% | 20 |
+| Consumer Cyclical | 2 | 62.00 | 167.57 | 6.76 | -3.69% | 20 |
+| Technology | 4 | 65.50 | 57.17 | 9.28 | 6.66% | 40 |
 
 ## 市場トレンド
 
