@@ -2,30 +2,30 @@
 
 ## Communication Services
 
-- Evaluated: 250
-- Completed: 54
-- Pending: 196
-- Success Rate: 33.33%
-- Average Return: 0.36%
-- Win Rate: 33.33%
-- Alpha vs Benchmark: -0.62%
+- Evaluated: 290
+- Completed: 74
+- Pending: 216
+- Success Rate: 28.38%
+- Average Return: -0.96%
+- Win Rate: 28.38%
+- Alpha vs Benchmark: -2.18%
 
 ## Consumer Cyclical
 
-- Evaluated: 95
-- Completed: 20
-- Pending: 75
-- Success Rate: 55.00%
-- Average Return: -1.94%
-- Win Rate: 55.00%
-- Alpha vs Benchmark: -2.44%
+- Evaluated: 120
+- Completed: 30
+- Pending: 90
+- Success Rate: 46.67%
+- Average Return: -2.27%
+- Win Rate: 46.67%
+- Alpha vs Benchmark: -3.20%
 
 ## Technology
 
-- Evaluated: 530
-- Completed: 116
-- Pending: 414
-- Success Rate: 61.21%
-- Average Return: 2.85%
-- Win Rate: 61.21%
-- Alpha vs Benchmark: 1.72%
+- Evaluated: 620
+- Completed: 153
+- Pending: 467
+- Success Rate: 58.17%
+- Average Return: 2.36%
+- Win Rate: 58.17%
+- Alpha vs Benchmark: 1.08%

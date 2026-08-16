@@ -20,21 +20,21 @@ Benchmarks: S&P500, Nasdaq100, Russell2000.
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## GOOGL - 180 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## GOOGL - 365 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## AMD - 7 days
@@ -55,21 +55,21 @@ Benchmarks: S&P500, Nasdaq100, Russell2000.
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## AMD - 180 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## AMD - 365 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## META - 7 days
@@ -90,21 +90,21 @@ Benchmarks: S&P500, Nasdaq100, Russell2000.
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## META - 180 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## META - 365 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## AMZN - 7 days
@@ -125,21 +125,21 @@ Benchmarks: S&P500, Nasdaq100, Russell2000.
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## AMZN - 180 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## AMZN - 365 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## TSLA - 7 days
@@ -160,21 +160,21 @@ Benchmarks: S&P500, Nasdaq100, Russell2000.
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## TSLA - 180 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## TSLA - 365 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## AAPL - 7 days
@@ -195,21 +195,21 @@ Benchmarks: S&P500, Nasdaq100, Russell2000.
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## AAPL - 180 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## AAPL - 365 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## MSFT - 7 days
@@ -230,21 +230,21 @@ Benchmarks: S&P500, Nasdaq100, Russell2000.
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## MSFT - 180 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## MSFT - 365 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## NVDA - 7 days
@@ -265,21 +265,21 @@ Benchmarks: S&P500, Nasdaq100, Russell2000.
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## NVDA - 180 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## NVDA - 365 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.69%
+- Benchmark average: 4.10%
 - Alpha: N/A
 
 ## NVDA - 7 days
@@ -300,21 +300,21 @@ Benchmarks: S&P500, Nasdaq100, Russell2000.
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.82%
+- Benchmark average: 4.24%
 - Alpha: N/A
 
 ## NVDA - 180 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.82%
+- Benchmark average: 4.24%
 - Alpha: N/A
 
 ## NVDA - 365 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.82%
+- Benchmark average: 4.24%
 - Alpha: N/A
 
 ## AMD - 7 days
@@ -335,19 +335,19 @@ Benchmarks: S&P500, Nasdaq100, Russell2000.
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.82%
+- Benchmark average: 4.24%
 - Alpha: N/A
 
 ## AMD - 180 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.82%
+- Benchmark average: 4.24%
 - Alpha: N/A
 
 ## AMD - 365 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 3.82%
+- Benchmark average: 4.24%
 - Alpha: N/A
