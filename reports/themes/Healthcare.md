@@ -13,7 +13,7 @@
 
 ## Market
 
-- Technology: score 67.00, momentum 7.01, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 65.50, momentum 6.66, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
@@ -22,10 +22,10 @@ No theme news available yet.
 ## Similar Themes
 
 - Fintech: 1.0 (Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Energy: 0.352 (Shared sectors: Technology)
-- Robotics: 0.244 (Shared companies: CRM, NOW; Shared sectors: Technology)
-- Semiconductor: 0.185 (Shared sectors: Technology; Similar short-term momentum)
-- Cybersecurity: 0.18 (Shared companies: NOW; Shared sectors: Technology)
+- Energy: 0.195 (Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Cybersecurity: 0.168 (Shared companies: NOW; Shared sectors: Technology)
+- Robotics: 0.148 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar short-term momentum)
+- EV: 0.111 (Shared sectors: Technology)
 
 ## Review Note
 

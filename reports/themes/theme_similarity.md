@@ -2,96 +2,96 @@
 
 ## AI
 
-- Cloud: 0.997 (Shared companies: AAPL, ACN, AMD, AMZN, AVGO; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Quantum Computing: 0.992 (Shared companies: AMZN, GOOGL, META, MSFT; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.989 (Shared companies: AMD, AVGO, INTC, MU, NVDA; Shared sectors: Consumer Cyclical, Technology)
-- Space: 0.989 (Shared companies: GOOGL, NVDA, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Cybersecurity: 0.987 (Shared companies: ACN, AVGO, CSCO, GOOGL, META; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cloud: 0.999 (Shared companies: AAPL, ACN, AMD, AMZN, AVGO; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Robotics: 0.991 (Shared companies: ACN, AVGO, CRM, GOOGL, NOW; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
+- Space: 0.987 (Shared companies: AMD, AMZN, GOOGL, META, MSFT; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cybersecurity: 0.985 (Shared companies: ACN, AVGO, CSCO, GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score)
+- Semiconductor: 0.985 (Shared companies: AMD, AMZN, AVGO, INTC, META; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
 
 ## Biotechnology
 
 - AI: 0.0 (Similar short-term momentum)
-- Cloud: 0.0 (Theme metric similarity)
+- Cloud: 0.0 (Similar short-term momentum)
 - Cybersecurity: 0.0 (Theme metric similarity)
 - EV: 0.0 (Theme metric similarity)
-- Energy: 0.0 (Theme metric similarity)
+- Energy: 0.0 (Similar average Discovery score; Similar short-term momentum)
 
 ## Cloud
 
-- AI: 0.997 (Shared companies: AAPL, ACN, AMD, AMZN, AVGO; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.991 (Shared companies: AMD, AVGO, INTC, MU, NVDA; Shared sectors: Consumer Cyclical, Technology)
-- Space: 0.99 (Shared companies: GOOGL, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Quantum Computing: 0.988 (Shared companies: AMZN, GOOGL, MSFT; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Cybersecurity: 0.979 (Shared companies: ACN, AVGO, CSCO, GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- AI: 0.999 (Shared companies: AAPL, ACN, AMD, AMZN, AVGO; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Robotics: 0.994 (Shared companies: ACN, AVGO, CRM, GOOGL, NOW; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
+- Semiconductor: 0.99 (Shared companies: AMD, AMZN, AVGO, INTC, META; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
+- Cybersecurity: 0.982 (Shared companies: ACN, AVGO, CSCO, GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score)
+- Space: 0.982 (Shared companies: AMD, AMZN, GOOGL, META, MSFT; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
 
 ## Cybersecurity
 
-- Quantum Computing: 0.992 (Shared companies: GOOGL, META, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.989 (Shared companies: AVGO, QCOM; Shared sectors: Technology)
-- AI: 0.987 (Shared companies: ACN, AVGO, CSCO, GOOGL, META; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
-- Space: 0.987 (Shared companies: GOOGL; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
-- Cloud: 0.979 (Shared companies: ACN, AVGO, CSCO, GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- Robotics: 0.986 (Shared companies: ACN, AVGO, GOOGL, NOW; Shared sectors: Communication Services, Technology; Similar average Discovery score)
+- AI: 0.985 (Shared companies: ACN, AVGO, CSCO, GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score)
+- Space: 0.983 (Shared companies: GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cloud: 0.982 (Shared companies: ACN, AVGO, CSCO, GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score)
+- Semiconductor: 0.965 (Shared companies: AVGO, MSFT, QCOM; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
 
 ## EV
 
-- Robotics: 0.975 (Shared companies: NVDA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.961 (Shared companies: NVDA, TSLA, TXN; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
-- Space: 0.957 (Shared companies: NVDA, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
-- Cloud: 0.942 (Shared companies: NVDA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Quantum Computing: 0.929 (Shared sectors: Consumer Cyclical, Technology; Similar short-term momentum)
+- Semiconductor: 0.949 (Shared companies: NVDA, TXN; Shared sectors: Consumer Cyclical, Technology; Similar short-term momentum)
+- Robotics: 0.93 (Shared companies: NVDA, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
+- Cloud: 0.897 (Shared companies: NVDA; Shared sectors: Consumer Cyclical, Technology; Similar short-term momentum)
+- AI: 0.883 (Shared companies: NVDA, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar short-term momentum)
+- Cybersecurity: 0.871 (Shared sectors: Technology; Similar short-term momentum)
 
 ## Energy
 
-- Cybersecurity: 0.896 (Shared companies: ACN, AVGO; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.893 (Shared companies: AVGO, TSLA, TXN; Shared sectors: Consumer Cyclical, Technology)
-- EV: 0.885 (Shared companies: ORLY, TSLA, TXN; Shared sectors: Consumer Cyclical, Technology; Similar short-term momentum)
-- Space: 0.872 (Shared companies: TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
-- Quantum Computing: 0.857 (Shared companies: AMZN; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Space: 0.962 (Shared companies: META, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology)
+- Cybersecurity: 0.949 (Shared companies: ACN, AVGO; Shared sectors: Communication Services, Technology)
+- AI: 0.926 (Shared companies: ACN, AVGO, META, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
+- Cloud: 0.915 (Shared companies: ACN, AVGO, META; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
+- Robotics: 0.899 (Shared companies: ACN, AVGO, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
 
 ## Fintech
 
 - Healthcare: 1.0 (Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Energy: 0.352 (Shared companies: ACN; Shared sectors: Technology)
-- Robotics: 0.244 (Shared companies: ACN; Shared sectors: Technology)
-- Semiconductor: 0.185 (Shared sectors: Technology; Similar short-term momentum)
-- Cybersecurity: 0.18 (Shared companies: ACN; Shared sectors: Technology)
+- Energy: 0.195 (Shared companies: ACN; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Cybersecurity: 0.168 (Shared companies: ACN; Shared sectors: Technology)
+- Robotics: 0.148 (Shared companies: ACN; Shared sectors: Technology; Similar short-term momentum)
+- EV: 0.111 (Shared sectors: Technology)
 
 ## Healthcare
 
 - Fintech: 1.0 (Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Energy: 0.352 (Shared sectors: Technology)
-- Robotics: 0.244 (Shared companies: CRM, NOW; Shared sectors: Technology)
-- Semiconductor: 0.185 (Shared sectors: Technology; Similar short-term momentum)
-- Cybersecurity: 0.18 (Shared companies: NOW; Shared sectors: Technology)
+- Energy: 0.195 (Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Cybersecurity: 0.168 (Shared companies: NOW; Shared sectors: Technology)
+- Robotics: 0.148 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar short-term momentum)
+- EV: 0.111 (Shared sectors: Technology)
 
 ## Quantum Computing
 
-- Space: 0.996 (Shared companies: GOOGL; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- AI: 0.992 (Shared companies: AMZN, GOOGL, META, MSFT; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Cybersecurity: 0.992 (Shared companies: GOOGL, META, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.989 (Shared sectors: Consumer Cyclical, Technology)
-- Cloud: 0.988 (Shared companies: AMZN, GOOGL, MSFT; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- AI: 0.0 (Similar short-term momentum)
+- Biotechnology: 0.0 (Similar average Discovery score; Similar short-term momentum)
+- Cloud: 0.0 (Similar short-term momentum)
+- Cybersecurity: 0.0 (Theme metric similarity)
+- EV: 0.0 (Theme metric similarity)
 
 ## Robotics
 
-- EV: 0.975 (Shared companies: NVDA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.902 (Shared companies: AMAT, AVGO, NVDA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
-- Cloud: 0.887 (Shared companies: ACN, AMZN, AVGO, CRM, NOW; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Space: 0.885 (Shared companies: NVDA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
-- AI: 0.854 (Shared companies: ACN, AMZN, AVGO, CRM, NOW; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
+- Semiconductor: 0.995 (Shared companies: AMAT, AVGO, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology)
+- Cloud: 0.994 (Shared companies: ACN, AVGO, CRM, GOOGL, NOW; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
+- AI: 0.991 (Shared companies: ACN, AVGO, CRM, GOOGL, NOW; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
+- Cybersecurity: 0.986 (Shared companies: ACN, AVGO, GOOGL, NOW; Shared sectors: Communication Services, Technology; Similar average Discovery score)
+- Space: 0.965 (Shared companies: GOOGL, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
 
 ## Semiconductor
 
-- Space: 0.995 (Shared companies: NVDA, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
-- Cloud: 0.991 (Shared companies: AMD, AVGO, INTC, MU, NVDA; Shared sectors: Consumer Cyclical, Technology)
-- AI: 0.989 (Shared companies: AMD, AVGO, INTC, MU, NVDA; Shared sectors: Consumer Cyclical, Technology)
-- Cybersecurity: 0.989 (Shared companies: AVGO, QCOM; Shared sectors: Technology)
-- Quantum Computing: 0.989 (Shared sectors: Consumer Cyclical, Technology)
+- Robotics: 0.995 (Shared companies: AMAT, AVGO, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology)
+- Cloud: 0.99 (Shared companies: AMD, AMZN, AVGO, INTC, META; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
+- AI: 0.985 (Shared companies: AMD, AMZN, AVGO, INTC, META; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
+- Cybersecurity: 0.965 (Shared companies: AVGO, MSFT, QCOM; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- EV: 0.949 (Shared companies: NVDA, TXN; Shared sectors: Consumer Cyclical, Technology; Similar short-term momentum)
 
 ## Space
 
-- Quantum Computing: 0.996 (Shared companies: GOOGL; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.995 (Shared companies: NVDA, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
-- Cloud: 0.99 (Shared companies: GOOGL, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- AI: 0.989 (Shared companies: GOOGL, NVDA, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Cybersecurity: 0.987 (Shared companies: GOOGL; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- AI: 0.987 (Shared companies: AMD, AMZN, GOOGL, META, MSFT; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cybersecurity: 0.983 (Shared companies: GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cloud: 0.982 (Shared companies: AMD, AMZN, GOOGL, META, MSFT; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Robotics: 0.965 (Shared companies: GOOGL, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
+- Energy: 0.962 (Shared companies: META, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology)

@@ -5,15 +5,15 @@ Theme Intelligence connects market, sector, company, Discovery, and Pattern cont
 ## AI
 
 - Target companies: 18
-- Average Score: 64.62
-- Average Discovery: 72.86
+- Average Score: 63.62
+- Average Discovery: 71.17
 - Market status: Communication Services Weak, Consumer Cyclical Weak, Technology Positive
-- Representative companies: AMD, MSFT, NVDA
+- Representative companies: AMD, MSFT, AMZN
 - Confidence: High
 - Major news:
-  - NVDA: More Than Half of Cloudflare's Network Traffic Is No Longer Human. The Stock Broke to a Record on It.
-  - GOOGL: Oracle Surges: What's Driving the Sudden Rally
-  - AMD: News of the day: Interfor's move to U.S., job gains, AMD buying Taalas, interest rate expectations, short-term investing and more
+  - AMD: Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows
+  - AMZN: Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows
+  - META: Institutional investors reveal cautious approach to tech favorites in US quarterly 13F filings
 
 ## Biotechnology
 
@@ -26,55 +26,55 @@ Theme Intelligence connects market, sector, company, Discovery, and Pattern cont
 
 ## Cloud
 
-- Target companies: 15
-- Average Score: 66.67
-- Average Discovery: 74.33
+- Target companies: 16
+- Average Score: 65.71
+- Average Discovery: 71.17
 - Market status: Communication Services Weak, Consumer Cyclical Weak, Technology Positive
-- Representative companies: AMD, MSFT, NVDA
+- Representative companies: AMD, MSFT, AMZN
 - Confidence: High
 - Major news:
-  - NVDA: More Than Half of Cloudflare's Network Traffic Is No Longer Human. The Stock Broke to a Record on It.
-  - GOOGL: Oracle Surges: What's Driving the Sudden Rally
-  - AMD: News of the day: Interfor's move to U.S., job gains, AMD buying Taalas, interest rate expectations, short-term investing and more
+  - AMD: Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows
+  - AMZN: Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows
+  - META: Institutional investors reveal cautious approach to tech favorites in US quarterly 13F filings
 
 ## Cybersecurity
 
-- Target companies: 9
-- Average Score: 65.00
-- Average Discovery: 71.67
+- Target companies: 8
+- Average Score: 66.00
+- Average Discovery: 71.00
 - Market status: Communication Services Weak, Technology Positive
-- Representative companies: MSFT, GOOGL, META
+- Representative companies: MSFT, GOOGL, ACN
 - Confidence: High
 - Major news:
-  - GOOGL: Oracle Surges: What's Driving the Sudden Rally
-  - MSFT: C3.ai vs. Applied Digital: Which Artificial Intelligence Stock Is a Better Buy in 2026?
-  - META: META Stock Returns To Familiar Ground
+  - MSFT: Institutional investors reveal cautious approach to tech favorites in US quarterly 13F filings
+  - GOOGL: Berkshire Boosted Alphabet, Delta Stakes in 2nd Quarter, Sold Bank of America
+  - GOOGL: Alphabet Just Borrowed $25 Billion, and $2.5 Billion of It Isn't Due Until 2066
 
 ## EV
 
 - Target companies: 4
-- Average Score: 63.00
-- Average Discovery: 79.00
+- Average Score: 55.50
+- Average Discovery: 64.00
 - Market status: Consumer Cyclical Weak, Technology Positive
 - Representative companies: NVDA, TSLA, ORLY
 - Confidence: Medium
 - Major news:
-  - NVDA: More Than Half of Cloudflare's Network Traffic Is No Longer Human. The Stock Broke to a Record on It.
-  - NVDA: Nvidia ends week up more than 10% as AI chip fears ease
-  - TSLA: Tesla Stock Rises to End Good Week. Thank the Usual Suspects.
+  - NVDA: Berkshire ups Alphabet stake under Greg Abel, making it a top-3 holding
+  - TSLA: Stock Market Today, Aug. 14: Tesla Gains on TD Cowen Buy Reiteration and $460 Target
+  - TSLA: Tesla owners in California have until Sept. 25 to claim this settlement money
 
 ## Energy
 
 - Target companies: 6
-- Average Score: 62.50
-- Average Discovery: 71.00
-- Market status: Consumer Cyclical Weak, Technology Positive
-- Representative companies: AMZN, TSLA, ACN
+- Average Score: 55.00
+- Average Discovery: N/A
+- Market status: Communication Services Weak, Consumer Cyclical Weak, Technology Positive
+- Representative companies: META, TSLA, ACN
 - Confidence: Medium
 - Major news:
-  - AMZN: Wonder Takes a Gamble on Robots, Drones and AI-Generated Menus
-  - AMZN: Amazon vs. Celsius: Which Consumer Stock Is a Better Buy in 2026?
-  - TSLA: Tesla Stock Rises to End Good Week. Thank the Usual Suspects.
+  - META: Institutional investors reveal cautious approach to tech favorites in US quarterly 13F filings
+  - META: Reddit Stock's Pullback Is Tempting, But Don't Ignore The User Question
+  - TSLA: Stock Market Today, Aug. 14: Tesla Gains on TD Cowen Buy Reiteration and $460 Target
 
 ## Fintech
 
@@ -96,52 +96,48 @@ Theme Intelligence connects market, sector, company, Discovery, and Pattern cont
 
 ## Quantum Computing
 
-- Target companies: 4
-- Average Score: 66.25
-- Average Discovery: 71.50
-- Market status: Communication Services Weak, Consumer Cyclical Weak, Technology Positive
-- Representative companies: MSFT, GOOGL, AMZN
-- Confidence: Medium
-- Major news:
-  - GOOGL: Oracle Surges: What's Driving the Sudden Rally
-  - AMZN: Wonder Takes a Gamble on Robots, Drones and AI-Generated Menus
-  - MSFT: C3.ai vs. Applied Digital: Which Artificial Intelligence Stock Is a Better Buy in 2026?
+- Target companies: 0
+- Average Score: N/A
+- Average Discovery: N/A
+- Market status: Unknown
+- Representative companies: None
+- Confidence: Low
 
 ## Robotics
 
-- Target companies: 8
-- Average Score: 70.50
-- Average Discovery: 75.00
-- Market status: Consumer Cyclical Weak, Technology Positive
-- Representative companies: NVDA, AMZN, ACN
+- Target companies: 9
+- Average Score: 57.67
+- Average Discovery: 66.00
+- Market status: Communication Services Weak, Consumer Cyclical Weak, Technology Positive
+- Representative companies: GOOGL, NVDA, TSLA
 - Confidence: Medium
 - Major news:
-  - NVDA: More Than Half of Cloudflare's Network Traffic Is No Longer Human. The Stock Broke to a Record on It.
-  - AMZN: Wonder Takes a Gamble on Robots, Drones and AI-Generated Menus
-  - AMZN: Amazon vs. Celsius: Which Consumer Stock Is a Better Buy in 2026?
+  - GOOGL: Berkshire Boosted Alphabet, Delta Stakes in 2nd Quarter, Sold Bank of America
+  - GOOGL: Alphabet Just Borrowed $25 Billion, and $2.5 Billion of It Isn't Due Until 2066
+  - GOOGL: Berkshire ups Alphabet stake under Greg Abel, making it a top-3 holding
 
 ## Semiconductor
 
-- Target companies: 9
-- Average Score: 66.33
-- Average Discovery: 80.00
-- Market status: Consumer Cyclical Weak, Technology Positive
-- Representative companies: AMD, NVDA, TSLA
+- Target companies: 11
+- Average Score: 68.80
+- Average Discovery: 74.00
+- Market status: Communication Services Weak, Consumer Cyclical Weak, Technology Positive
+- Representative companies: AMD, MSFT, AMZN
 - Confidence: High
 - Major news:
-  - NVDA: More Than Half of Cloudflare's Network Traffic Is No Longer Human. The Stock Broke to a Record on It.
-  - AMD: News of the day: Interfor's move to U.S., job gains, AMD buying Taalas, interest rate expectations, short-term investing and more
-  - AMD: A Volatile Week for Tech Revealed New Stock Narratives—and 1 Bargain
+  - AMD: Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows
+  - AMZN: Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows
+  - META: Institutional investors reveal cautious approach to tech favorites in US quarterly 13F filings
 
 ## Space
 
-- Target companies: 4
-- Average Score: 62.67
-- Average Discovery: 75.50
+- Target companies: 7
+- Average Score: 65.50
+- Average Discovery: 75.00
 - Market status: Communication Services Weak, Consumer Cyclical Weak, Technology Positive
-- Representative companies: NVDA, GOOGL, TSLA
+- Representative companies: AMD, MSFT, AMZN
 - Confidence: Medium
 - Major news:
-  - NVDA: More Than Half of Cloudflare's Network Traffic Is No Longer Human. The Stock Broke to a Record on It.
-  - GOOGL: Oracle Surges: What's Driving the Sudden Rally
-  - NVDA: Nvidia ends week up more than 10% as AI chip fears ease
+  - AMD: Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows
+  - AMZN: Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows
+  - META: Institutional investors reveal cautious approach to tech favorites in US quarterly 13F filings

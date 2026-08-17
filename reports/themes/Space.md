@@ -1,39 +1,42 @@
 # Space
 
-- Target companies: 4
-- Average Score: 62.67
-- Average Discovery: 75.50
-- Momentum: 4.58
+- Target companies: 7
+- Average Score: 65.50
+- Average Discovery: 75.00
+- Momentum: 7.22
 - Confidence: Medium
 
 ## Companies
 
+- AMD - AMD (Low): Keyword: space
+- AMZN - Amazon.com, Inc. (Medium): Keyword: space; Keyword: rocket; Keyword: spacex
 - DIS - DIS (Medium): Keyword: satellite; Sector alignment: Communication Services
-- GOOGL - Alphabet Inc. (Medium): Keyword: launch; Sector alignment: Communication Services
-- NVDA - NVIDIA Corporation (Low): Keyword: spacex
+- GOOGL - Alphabet Inc. (Medium): Keyword: spacex; Sector alignment: Communication Services
+- META - Meta Platforms, Inc. (Medium): Keyword: spacex; Sector alignment: Communication Services
+- MSFT - Microsoft Corporation (Low): Keyword: spacex
 - TSLA - Tesla, Inc. (Low): Keyword: spacex
 
 ## Market
 
-- Communication Services: score 62.00, momentum -3.76, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Consumer Cyclical: score 62.50, momentum -4.04, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Technology: score 67.00, momentum 7.01, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 61.50, momentum -6.83, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 62.00, momentum -3.69, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 65.50, momentum 6.66, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- NVDA: More Than Half of Cloudflare's Network Traffic Is No Longer Human. The Stock Broke to a Record on It.
-- GOOGL: Oracle Surges: What's Driving the Sudden Rally
-- NVDA: Nvidia ends week up more than 10% as AI chip fears ease
-- TSLA: Tesla Stock Rises to End Good Week. Thank the Usual Suspects.
-- TSLA: 2 Reasons Tesla Could Monopolize the U.S. Robotaxi Market
+- AMD: Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows
+- AMZN: Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows
+- META: Institutional investors reveal cautious approach to tech favorites in US quarterly 13F filings
+- MSFT: Institutional investors reveal cautious approach to tech favorites in US quarterly 13F filings
+- GOOGL: Berkshire Boosted Alphabet, Delta Stakes in 2nd Quarter, Sold Bank of America
 
 ## Similar Themes
 
-- Quantum Computing: 0.996 (Shared companies: GOOGL; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.995 (Shared companies: NVDA, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
-- Cloud: 0.99 (Shared companies: GOOGL, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- AI: 0.989 (Shared companies: GOOGL, NVDA, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Cybersecurity: 0.987 (Shared companies: GOOGL; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- AI: 0.987 (Shared companies: AMD, AMZN, GOOGL, META, MSFT; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cybersecurity: 0.983 (Shared companies: GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cloud: 0.982 (Shared companies: AMD, AMZN, GOOGL, META, MSFT; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Robotics: 0.965 (Shared companies: GOOGL, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
+- Energy: 0.962 (Shared companies: META, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology)
 
 ## Review Note
 
