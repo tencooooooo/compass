@@ -59,6 +59,10 @@ def main() -> int:
     candidate_path.write_text(render_knowledge_update_candidate(proposals, date_key), encoding="utf-8")
 
     review_manager = ReviewManager(PROPOSAL_INDEX_PATH, PROPOSAL_STATE_PATH)
+    # 日付入りIDで日次複製された過去の重複を先に畳み込む(重複がなければ何もしない)。
+    compacted = review_manager.compact()
+    if compacted:
+        logger.info("Compacted %s duplicated proposals.", compacted)
     for proposal in proposals:
         review_manager.upsert_pending(proposal)
 

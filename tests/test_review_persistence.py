@@ -45,3 +45,58 @@ def test_durable_state_wins_and_upsert_does_not_reset_approval(tmp_path):
     assert rows[0]["status"] == "Approved"
     assert rows[0]["reviewer"] == "human"
     assert rows[0]["title"] == "Refreshed title"
+
+
+def test_upsert_dedupes_same_content_with_new_dated_id(tmp_path):
+    # proposal_idは日付入りのため毎日変わる。同一内容(title+target)は新規追加せず既存行を更新する。
+    manager = ReviewManager(tmp_path / "proposal_index.json")
+    manager.upsert_pending({**proposal("PROP-2026-07-10-scoring-abc"), "updated": "2026-07-10T00:00:00+00:00"})
+    manager.upsert_pending({**proposal("PROP-2026-07-11-scoring-abc"), "updated": "2026-07-11T00:00:00+00:00"})
+
+    rows = manager.load_index()
+    assert len(rows) == 1
+    assert rows[0]["proposal_id"] == "PROP-2026-07-10-scoring-abc"
+    assert rows[0]["updated"] == "2026-07-11T00:00:00+00:00"
+
+
+def test_upsert_does_not_reopen_rejected_content(tmp_path):
+    manager = ReviewManager(tmp_path / "proposal_index.json")
+    manager.upsert_pending(proposal("PROP-A"))
+    manager.update_status("PROP-A", "Rejected", reviewer="human")
+
+    manager.upsert_pending(proposal("PROP-B"))
+
+    rows = manager.load_index()
+    assert len(rows) == 1
+    assert rows[0]["status"] == "Rejected"
+
+
+def test_compact_collapses_daily_duplicates_and_keeps_review_status(tmp_path):
+    index_path = tmp_path / "proposal_index.json"
+    rows = [
+        {**proposal("PROP-1"), "status": "Pending", "reviewer": "", "created": "2026-07-10", "updated": "2026-07-10"},
+        {**proposal("PROP-2"), "status": "Approved", "reviewer": "human", "created": "2026-07-11", "updated": "2026-07-11"},
+        {**proposal("PROP-3"), "status": "Pending", "reviewer": "", "created": "2026-07-12", "updated": "2026-07-12"},
+        {
+            "proposal_id": "PROP-OTHER",
+            "title": "Another proposal",
+            "target": "Validation",
+            "status": "Pending",
+            "reviewer": "",
+            "created": "2026-07-13",
+            "updated": "2026-07-13",
+        },
+    ]
+    index_path.write_text(json.dumps(rows), encoding="utf-8")
+    manager = ReviewManager(index_path)
+
+    removed = manager.compact()
+
+    assert removed == 2
+    compacted = manager.load_index()
+    assert len(compacted) == 2
+    merged = next(row for row in compacted if row["title"] == "Test proposal")
+    assert merged["status"] == "Approved"
+    assert merged["reviewer"] == "human"
+    assert merged["created"] == "2026-07-10"
+    assert merged["updated"] == "2026-07-12"

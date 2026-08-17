@@ -36,8 +36,19 @@ class ReviewManager:
     def upsert_pending(self, proposal: dict[str, Any]) -> None:
         proposals = self.load_index()
         proposal_id = proposal["proposal_id"]
-        existing = next((item for item in proposals if item.get("proposal_id") == proposal_id), None)
+        # proposal_idは日付入りのため、同じ内容でも毎日新IDになる。IDに加えて内容(title+target)でも
+        # 照合しないと、同一提案が日次で複製されてレビューキューが際限なく膨らむ。
+        existing = next(
+            (
+                item
+                for item in proposals
+                if item.get("proposal_id") == proposal_id
+                or (item.get("title") == proposal["title"] and item.get("target") == proposal["target"])
+            ),
+            None,
+        )
         if existing:
+            # Rejected/Deferred済みの提案が同じ内容で再生成されてもPendingへ戻さない(人間の判断を上書きしない)。
             existing.update(
                 {
                     "title": proposal["title"],
@@ -60,6 +71,34 @@ class ReviewManager:
                 }
             )
         self.save_index(sorted(proposals, key=lambda item: item.get("created", "")))
+
+    def compact(self) -> int:
+        """既存indexの同一内容(title+target)の重複を、最初のエントリに畳み込みます。
+
+        日付入りIDで日次複製されていた過去分の一括整理用。人間がレビュー済みのエントリ
+        (Pending以外)があればその判断を残し、created最古・updated最新へ寄せます。
+        戻り値は削除した重複件数。
+        """
+        proposals = self.load_index()
+        merged: dict[tuple[str, str], dict[str, Any]] = {}
+        removed = 0
+        for item in proposals:
+            key = (str(item.get("title")), str(item.get("target")))
+            kept = merged.get(key)
+            if kept is None:
+                merged[key] = item
+                continue
+            removed += 1
+            if kept.get("status") == "Pending" and item.get("status") != "Pending":
+                kept["status"] = item.get("status")
+                kept["reviewer"] = item.get("reviewer", "")
+            kept["created"] = min(str(kept.get("created", "")), str(item.get("created", "")))
+            if str(item.get("updated", "")) > str(kept.get("updated", "")):
+                kept["updated"] = item["updated"]
+                kept["source_feedback"] = item.get("source_feedback")
+        if removed:
+            self.save_index(sorted(merged.values(), key=lambda item: item.get("created", "")))
+        return removed
 
     def update_status(self, proposal_id: str, status: str, reviewer: str = "", updated: str = "") -> dict[str, Any]:
         if status not in VALID_STATUSES:
