@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Apple Inc.
-- Total Score: 54 / 100
+- Total Score: 56 / 100
 - Confidence: High
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 54 点を獲得し、シグナル充足率は 54.0% です。
+- データが確認できた 100 点満点のうち 56 点を獲得し、シグナル充足率は 56.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -107,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 35.0435
-- forward_pe: 32.1770
-- peg_ratio: 2.4900
-- price_to_book: 41.5666
+- trailing_pe: 35.0447
+- forward_pe: 32.1413
+- peg_ratio: 2.4700
+- price_to_book: 41.5204
 - sector_peer_count: 16
 - trailing_pe_percentile: 64.2900
 - trailing_pe_peer_count: 15
@@ -123,15 +123,15 @@ Evidence
 
 ## Momentum
 
-7点
+9点
 
 理由
 
-- 1M の対SPY超過リターンは -11.53pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -1.36pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは +2.54pt で、市場並み以上です。
-- 1Y の対SPY超過リターンは +9.88pt で、市場並み以上です。
-- 直近出来高が30日平均の 0.51 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -12.31pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -2.93pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは +5.75pt で、市場並み以上です。
+- 1Y の対SPY超過リターンが +10.63pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.65 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -140,15 +140,15 @@ Evidence
 
 使用データ
 
-- 1M: -8.1216
-- 3M: 2.6773
-- 6M: 17.0962
-- 1Y: 31.5991
+- 1M: -8.3557
+- 3M: 1.8731
+- 6M: 19.6870
+- 1Y: 31.7634
 - benchmark: SPY
-- benchmark_returns: {'1M': 3.41, '3M': 4.03, '6M': 14.56, '1Y': 21.72}
-- excess_returns: {'1M': -11.53, '3M': -1.36, '6M': 2.54, '1Y': 9.88}
-- latest_volume: 26,072,932.0000
-- average_volume_30d: 51,226,077.7333
+- benchmark_returns: {'1M': 3.95, '3M': 4.8, '6M': 13.94, '1Y': 21.13}
+- excess_returns: {'1M': -12.31, '3M': -2.93, '6M': 5.75, '1Y': 10.63}
+- latest_volume: 32,743,947.0000
+- average_volume_30d: 50,601,668.2333
 
 ## News
 
@@ -157,8 +157,8 @@ Evidence
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が 0.22% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が -0.11% と中立圏です。
 
 Evidence
 
@@ -169,11 +169,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 3
+- positive_count: 2
 - negative_count: 0
 - sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 8
+- events_with_price_reaction: 3
 
 ## Note
 
