@@ -65,6 +65,22 @@ def render_validation_summary(
     returns = [row.get("return_percent") for row in complete_rows if row.get("return_percent") is not None]
     average_return = sum(returns) / len(returns) if returns else None
 
+    # 同一銘柄が毎日再発掘されると行単位の平均はその銘柄に支配されるため、銘柄等重みを併記する。
+    returns_by_ticker: dict[str, list[float]] = {}
+    alpha_by_ticker: dict[str, list[float]] = {}
+    for row in complete_rows:
+        ticker = str(row.get("ticker") or "")
+        if not ticker:
+            continue
+        if row.get("return_percent") is not None:
+            returns_by_ticker.setdefault(ticker, []).append(float(row["return_percent"]))
+        if row.get("benchmark_diff_percent") is not None:
+            alpha_by_ticker.setdefault(ticker, []).append(float(row["benchmark_diff_percent"]))
+    ticker_mean_returns = [sum(values) / len(values) for values in returns_by_ticker.values()]
+    ticker_mean_alphas = [sum(values) / len(values) for values in alpha_by_ticker.values()]
+    equal_weight_return = sum(ticker_mean_returns) / len(ticker_mean_returns) if ticker_mean_returns else None
+    equal_weight_alpha = sum(ticker_mean_alphas) / len(ticker_mean_alphas) if ticker_mean_alphas else None
+
     ticker_rows = [
         [
             row.get("ticker"),
@@ -101,6 +117,9 @@ def render_validation_summary(
         f"- 期間未完了: {incomplete_count}",
         f"- ベンチマーク: {benchmark_name or 'N/A'}",
         f"- 平均騰落率(期間完了分): {fmt_percent(average_return)}",
+        f"- ユニーク銘柄数(期間完了分): {len(returns_by_ticker)}",
+        f"- 銘柄等重み平均騰落率(期間完了分): {fmt_percent(equal_weight_return)}",
+        f"- 銘柄等重みベンチマーク超過(期間完了分): {fmt_percent(equal_weight_alpha)}",
         "",
         "## Result Counts(期間完了分)",
         "",
@@ -148,6 +167,10 @@ def render_validation_summary(
             "## Notes",
             "",
             "Validationは自動学習ではありません。結果を蓄積し、将来のLearning EngineがスコアリングやDiscoveryルールを検証するための土台です。",
+            "",
+            "Confidence列はDiscovery時点のデータ充足度を示すラベルで、シグナルの強さや的中期待を表しません。精度の軸としてはSignal列(Signal Strength)を参照してください。",
+            "",
+            "銘柄等重み指標は、同一銘柄が連日再発掘されることによる擬似反復(繰り返し行が平均を支配する歪み)を除いた参考値です。",
             "",
         ]
     )

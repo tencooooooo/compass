@@ -37,6 +37,34 @@ class PerformanceMetrics:
             "benchmark_average_return": self._average(benchmark_returns),
             "worst_return": round(min(returns), 2) if returns else None,
             "average_holding_return": self._average(returns),
+            **self._ticker_equal_weight(rows, completed),
+        }
+
+    def _ticker_equal_weight(self, rows: list[dict[str, Any]], completed: list[dict[str, Any]]) -> dict[str, Any]:
+        """同一銘柄の連続Discoveryによる擬似反復を除いた銘柄等重みの指標。
+
+        行単位の平均は繰り返し発掘された銘柄(例: 高スコアを連発した1銘柄)に支配されるため、
+        銘柄ごとの平均を先に取ってから銘柄間で等重み平均する。行単位指標と併記して解釈する。
+        """
+        returns_by_ticker: dict[str, list[float]] = {}
+        alpha_by_ticker: dict[str, list[float]] = {}
+        for row in completed:
+            ticker = row.get("ticker")
+            if not ticker:
+                continue
+            if isinstance(row.get("return_percent"), (int, float)):
+                returns_by_ticker.setdefault(str(ticker), []).append(float(row["return_percent"]))
+            if isinstance(row.get("alpha_percent"), (int, float)):
+                alpha_by_ticker.setdefault(str(ticker), []).append(float(row["alpha_percent"]))
+        ticker_mean_returns = [mean(values) for values in returns_by_ticker.values()]
+        ticker_mean_alphas = [mean(values) for values in alpha_by_ticker.values()]
+        ticker_wins = [value for value in ticker_mean_returns if value > 0]
+        return {
+            "unique_ticker_count": len({str(row["ticker"]) for row in rows if row.get("ticker")}),
+            "completed_ticker_count": len(returns_by_ticker),
+            "ticker_equal_weight_average_return": self._average(ticker_mean_returns),
+            "ticker_equal_weight_alpha": self._average(ticker_mean_alphas),
+            "ticker_equal_weight_win_rate": self._rate(len(ticker_wins), len(ticker_mean_returns)),
         }
 
     def grouped(self, rows: list[dict[str, Any]], key: str) -> dict[str, dict[str, Any]]:

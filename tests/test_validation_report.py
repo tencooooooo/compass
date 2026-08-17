@@ -51,6 +51,19 @@ class ValidationSummaryTest(unittest.TestCase):
         self.assertIn("完了済みの注意点", summary)
         self.assertNotIn("未完了のみの注意点", summary)
 
+    def test_ticker_equal_weight_counts_each_ticker_once(self):
+        # AAPLが3回再発掘されても、銘柄等重みではAAPL(平均+9%)とMSFT(-3%)が1票ずつになる。
+        rows = [
+            make_row(return_percent=10.0, benchmark_diff_percent=8.0),
+            make_row(return_percent=9.0, benchmark_diff_percent=9.0),
+            make_row(return_percent=8.0, benchmark_diff_percent=10.0),
+            make_row(ticker="MSFT", validation_result="Poor", return_percent=-3.0, benchmark_diff_percent=-4.0),
+        ]
+        summary = render_validation_summary(rows, "2026-07-17", {"1w": 7}, "SPY")
+        self.assertIn("ユニーク銘柄数(期間完了分): 2", summary)
+        self.assertIn("銘柄等重み平均騰落率(期間完了分): 3.00%", summary)
+        self.assertIn("銘柄等重みベンチマーク超過(期間完了分): 2.50%", summary)
+
     def test_validation_rules_reflect_period_specific_thresholds(self):
         summary = render_validation_summary([make_row()], "2026-07-17", {"1w": 7, "1m": 30}, "SPY")
         self.assertIn("- 1w: Excellent 騰落率 3.0%以上 または ベンチマーク超過 2.0%以上", summary)

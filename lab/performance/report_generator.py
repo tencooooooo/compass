@@ -52,6 +52,16 @@ class ReportGenerator:
             f"- Alpha vs Benchmark: {self._fmt(overall.get('alpha_vs_benchmark'))}",
             f"- Worst Return: {self._fmt(overall.get('worst_return'))}",
             "",
+            "## Ticker Equal Weight (pseudo-replication adjusted)",
+            "",
+            "Row-level averages overweight tickers that are re-discovered day after day. The metrics below average within each ticker first, then across tickers, so one repeatedly discovered ticker counts once.",
+            "",
+            f"- Unique Tickers: {overall.get('unique_ticker_count', 0)}",
+            f"- Completed Tickers: {overall.get('completed_ticker_count', 0)}",
+            f"- Equal-Weight Average Return: {self._fmt(overall.get('ticker_equal_weight_average_return'))}",
+            f"- Equal-Weight Alpha: {self._fmt(overall.get('ticker_equal_weight_alpha'))}",
+            f"- Equal-Weight Win Rate: {self._fmt(overall.get('ticker_equal_weight_win_rate'))}",
+            "",
             "## Note",
             "",
             "Rows remain pending until the full evaluation period has elapsed and price data is available.",
@@ -73,6 +83,8 @@ class ReportGenerator:
                     f"- Average Return: {self._fmt(item.get('average_return'))}",
                     f"- Win Rate: {self._fmt(item.get('win_rate'))}",
                     f"- Alpha vs Benchmark: {self._fmt(item.get('alpha_vs_benchmark'))}",
+                    f"- Unique Tickers: {item.get('unique_ticker_count', 0)} (completed: {item.get('completed_ticker_count', 0)})",
+                    f"- Equal-Weight Alpha: {self._fmt(item.get('ticker_equal_weight_alpha'))}",
                     "",
                 ]
             )
@@ -83,7 +95,12 @@ class ReportGenerator:
         lines.append(self._group_report("Periods", metrics["periods"]))
         lines.extend(["", "## Discovery Score Accuracy", ""])
         lines.append(self._group_report("Score Buckets", metrics.get("score_accuracy", {})))
-        lines.extend(["", "## Confidence Accuracy", ""])
+        lines.extend(["", "## Confidence (Data Sufficiency) Accuracy", ""])
+        lines.append(
+            "Note: Confidence measures data sufficiency only — how complete the input data was at discovery time. "
+            "It is not a signal-quality tier, so High vs Medium here compares data coverage, not conviction. "
+            "Use Signal Strength below for accuracy by signal quality.\n"
+        )
         lines.append(self._group_report("Confidence", metrics.get("confidence_accuracy", {})))
         lines.extend(["", "## Confidence Validation Result Distribution", ""])
         lines.append(self._confidence_distribution_report(metrics.get("confidence_result_distribution", {})))
