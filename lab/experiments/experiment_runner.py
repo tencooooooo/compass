@@ -30,6 +30,13 @@ class ExperimentRunner:
         }
 
     def _baseline_metrics(self, definition: dict[str, Any]) -> dict[str, Any]:
+        # 候補と同じ選定基準で再計算したbaselineが指定されていればそれを使う。
+        # ダッシュボード全体平均と候補選定の比較は基準が揃わないため。
+        baseline_path = definition.get("baseline_metrics_path")
+        if baseline_path:
+            data = read_json(str(baseline_path), {})
+            if data:
+                return data
         performance = read_json("reports/performance/dashboard_metrics.json", {})
         strategy = read_json("reports/strategy/dashboard.json", {})
         return self._extract_metrics(performance, strategy)

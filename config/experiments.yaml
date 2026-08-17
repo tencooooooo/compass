@@ -8,3 +8,48 @@ experiments:
     start_date: 2026-07-02
     end_date: null
     status: Pending
+
+  # 以下3件はValidation実績(2026-07〜08)で観測された「高スコア帯ほど成績が悪い」逆転への候補ルール検証。
+  # lab/experiments/candidate_replay.py がDiscoveryスナップショットを再採点してメトリクスを生成する。
+  # 本番スコアリングは変更しない。採用判断はWinner確定後に人間が行う。
+  - experiment_id: EXP-MOM-TAPER-001
+    name: Momentum Overextension Taper
+    description: >-
+      Tapers momentum awards when excess (or absolute) momentum exceeds +30, treating overextended
+      moves as caution (0.25x tier) instead of full points. Hypothesis from 1m mean reversion of
+      high-momentum discoveries in validation history.
+    target: Discovery Rule
+    baseline_version: primary-selection-current
+    candidate_version: primary-selection-momentum-taper
+    baseline_metrics_path: reports/experiments/candidates/EXP-MOM-TAPER-001_baseline.json
+    candidate_metrics_path: reports/experiments/candidates/EXP-MOM-TAPER-001_candidate.json
+    start_date: 2026-08-17
+    end_date: null
+    status: Pending
+
+  - experiment_id: EXP-NEWS-CAP-001
+    name: News Score Cap
+    description: >-
+      Caps the News score contribution at 16/20. Hypothesis: extreme news attention (17-20) marked
+      crowded names that underperformed at 1m in validation history.
+    target: Discovery Rule
+    baseline_version: primary-selection-current
+    candidate_version: primary-selection-news-cap
+    baseline_metrics_path: reports/experiments/candidates/EXP-NEWS-CAP-001_baseline.json
+    candidate_metrics_path: reports/experiments/candidates/EXP-NEWS-CAP-001_candidate.json
+    start_date: 2026-08-17
+    end_date: null
+    status: Pending
+
+  - experiment_id: EXP-OVEREXT-001
+    name: Overextension Guard (Taper + News Cap)
+    description: >-
+      Combined rule of EXP-MOM-TAPER-001 and EXP-NEWS-CAP-001, the actual proposed discovery change.
+    target: Discovery Rule
+    baseline_version: primary-selection-current
+    candidate_version: primary-selection-overextension-guard
+    baseline_metrics_path: reports/experiments/candidates/EXP-OVEREXT-001_baseline.json
+    candidate_metrics_path: reports/experiments/candidates/EXP-OVEREXT-001_candidate.json
+    start_date: 2026-08-17
+    end_date: null
+    status: Pending
