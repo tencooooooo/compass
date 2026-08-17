@@ -1,44 +1,51 @@
+# 監視銘柄(フル収集: 価格・財務・ニュース・スコアリング・Discovery対象)。
+# 2026-08-17: 8銘柄 -> 24銘柄へ拡大。Validationの完了ユニーク銘柄が8では、スコア帯・Confidence等の
+# 精度集計が少数銘柄(例: AMD)の個別事情に支配され、学習ループが統計的に成立しないため。
+# 追加分は既存3セクター内のピアからの昇格で、セクターETF・ピア母集団のインフラ変更は不要。
 tickers:
+  # Technology
   - AAPL
   - MSFT
   - NVDA
   - AMD
-  - GOOGL
-  - AMZN
-  - META
-  - TSLA
-
-# ピア銘柄は「価格 + 企業プロファイル」のみ収集します(財務・ニュース・スコアリング・Discovery対象外)。
-# 用途: (1) Valuationのセクター相対percentile評価の母集団 (2) Validationのセクター平均リターンの母集団。
-# 監視銘柄が属する3セクターについて、それぞれ比較に足る大型株を並べています。
-peer_tickers:
-  # Technology
   - AVGO
   - ORCL
   - CRM
   - ADBE
-  - CSCO
-  - ACN
-  - TXN
   - QCOM
-  - INTC
+  - TXN
   - NOW
   - AMAT
-  - MU
   # Communication Services
+  - GOOGL
+  - META
   - NFLX
   - DIS
   - CMCSA
   - TMUS
+  # Consumer Cyclical
+  - AMZN
+  - TSLA
+  - HD
+  - MCD
+  - NKE
+  - LOW
+
+# ピア銘柄は「価格 + 企業プロファイル」のみ収集します(財務・ニュース・スコアリング・Discovery対象外)。
+# 用途: (1) Valuationのセクター相対percentile評価の母集団 (2) Validationのセクター平均リターンの母集団。
+# 母集団には監視銘柄自身も含まれるため、昇格でセクター比較の母数は減りません。
+peer_tickers:
+  # Technology
+  - CSCO
+  - ACN
+  - INTC
+  - MU
+  # Communication Services
   - VZ
   - T
   - CHTR
   - EA
   # Consumer Cyclical
-  - HD
-  - MCD
-  - NKE
-  - LOW
   - SBUX
   - BKNG
   - TJX
