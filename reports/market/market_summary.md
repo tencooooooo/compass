@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 2.86%
+- 市場全体の1Mモメンタム平均: 2.79%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-08-17T21:50:01+00:00 / NVDA / Motley Fool: Nvidia Lines Up $105 Billion For OpenAI. Here's What it Means For Investors.
-- 2026-08-17T21:42:00+00:00 / AAPL / Barrons.com: Financial Advisors Love Warren Buffett, but They Don’t Always Agree With Him
-- 2026-08-17T21:42:00+00:00 / GOOGL / Barrons.com: Financial Advisors Love Warren Buffett, but They Don’t Always Agree With Him
-- 2026-08-17T21:31:45+00:00 / NVDA / Insider Monkey: BlackRock (BLK) & NVIDIA Corporation (NVDA): BlackRock’s Larry Fink Says the US Alone Needs 70 Gigawatts of Power for AI
-- 2026-08-17T21:30:24+00:00 / META / Motley Fool: Stock Market Today, Aug. 17: Markets Inch Lower and Treasury Yields Rise as Investors Wait for Retail Earnings
+- 2026-08-18T21:54:58+00:00 / META / Yahoo Finance: Meta social media addiction trial kicks off with major implications for company's future
+- 2026-08-18T21:50:00+00:00 / NVDA / Motley Fool: Rocket Lab Wins One of Its Biggest Contracts Ever
+- 2026-08-18T21:41:00+00:00 / NVDA / Motley Fool: Is Palantir the Next Trillion-Dollar Stock?
+- 2026-08-18T21:32:01+00:00 / MSFT / Motley Fool: Prediction: Microsoft Will Be Worth $5 Trillion by 2029. Here's the Math.
+- 2026-08-18T21:32:01+00:00 / NVDA / Motley Fool: Prediction: Microsoft Will Be Worth $5 Trillion by 2029. Here's the Math.
 
 ### 注目イベント
 
-- 2026-08-17T19:47:38+00:00 / AMAT: Why Applied Materials (AMAT) Could Be a Major Winner of the AI Memory Surge (株価反応: 5.55%, 出来高: 8.05M)
-- 2026-08-17T16:39:00+00:00 / AMAT: Is ASML Stock a 投資判断表現 as Rapid Growth Tests Its Premium Valuation? (株価反応: 5.55%, 出来高: 8.05M)
-- 2026-08-17T16:38:20+00:00 / AMAT: 3 Market-Beating Stocks to Keep an Eye On (株価反応: 5.55%, 出来高: 8.05M)
-- 2026-08-17T13:38:00+00:00 / AMAT: Stock Market News for Aug 17, 2026 (株価反応: 5.55%, 出来高: 8.05M)
-- 2026-08-17T12:49:13+00:00 / AMAT: KLA Corporation Had a Tough Month: 60% Returns Will Come According to This Wall Street Stalwart (株価反応: 5.55%, 出来高: 8.05M)
+- 2026-08-17T19:47:38+00:00 / AMAT: Why Applied Materials (AMAT) Could Be a Major Winner of the AI Memory Surge (株価反応: 5.55%, 出来高: 9.62M)
+- 2026-08-17T18:45:00+00:00 / NOW: Workday Stock Is Downgraded After Buyout Report as Growth Expectations Are ‘Too Optimistic’ (株価反応: -5.08%, 出来高: 20.20M)
+- 2026-08-17T17:00:03+00:00 / NOW: Prediction: This AI Stock Could Double in 12 Months (株価反応: -5.08%, 出来高: 20.20M)
+- 2026-08-17T15:15:35+00:00 / NOW: ServiceNow (NOW) Is Spending $7.75 Billion On AI Security (株価反応: -5.08%, 出来高: 20.20M)
+- 2026-08-17T14:09:01+00:00 / NOW: ServiceNow (NOW) Stock Still Looks Expensive Despite A 30% Fall (株価反応: -5.08%, 出来高: 20.20M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 53.17 | 18.49 | 11.20 | 0.76% | 60 |
-| Consumer Cyclical | 6 | 51.17 | 68.65 | 8.97 | -2.16% | 60 |
-| Technology | 12 | 65.42 | 44.51 | 8.63 | 6.41% | 120 |
+| Communication Services | 6 | 54.67 | 18.52 | 11.20 | 1.40% | 60 |
+| Consumer Cyclical | 6 | 52.17 | 68.81 | 8.98 | -0.97% | 60 |
+| Technology | 12 | 65.08 | 43.70 | 8.64 | 5.37% | 120 |
 
 ## 市場トレンド
 

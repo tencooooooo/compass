@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Meta Platforms, Inc.
-- Total Score: 58 / 100
+- Total Score: 61 / 100
 - Confidence: High
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 58 点を獲得し、シグナル充足率は 58.0% です。
+- データが確認できた 100 点満点のうち 61 点を獲得し、シグナル充足率は 61.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -91,11 +91,11 @@ Evidence
 
 ## Valuation
 
-11点
+14点
 
 理由
 
-- PER はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
+- PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
 - PEG はセクター内 11.11 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - PBR はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
@@ -108,12 +108,12 @@ Evidence
 
 使用データ
 
-- trailing_pe: 21.4382
-- forward_pe: 16.3099
+- trailing_pe: 20.4618
+- forward_pe: 15.5846
 - peg_ratio: 0.8800
-- price_to_book: 5.5498
+- price_to_book: 5.3031
 - sector_peer_count: 10
-- trailing_pe_percentile: 77.7800
+- trailing_pe_percentile: 66.6700
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 66.6700
 - forward_pe_peer_count: 10
@@ -124,15 +124,15 @@ Evidence
 
 ## Momentum
 
-3点
+4点
 
 理由
 
-- 1M の対SPY超過リターンは -15.88pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -12.08pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -24.85pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -48.15pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.97 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -19.24pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -15.13pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -27.79pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -51.13pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.49 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -141,25 +141,25 @@ Evidence
 
 使用データ
 
-- 1M: -11.9255
-- 3M: -7.2827
-- 6M: -10.9078
-- 1Y: -27.0154
+- 1M: -15.8210
+- 3M: -10.9678
+- 6M: -14.8055
+- 1Y: -30.5360
 - benchmark: SPY
-- benchmark_returns: {'1M': 3.95, '3M': 4.8, '6M': 13.94, '1Y': 21.13}
-- excess_returns: {'1M': -15.88, '3M': -12.08, '6M': -24.85, '1Y': -48.15}
-- latest_volume: 17,080,805.0000
-- average_volume_30d: 17,521,946.8333
+- benchmark_returns: {'1M': 3.42, '3M': 4.17, '6M': 12.99, '1Y': 20.59}
+- excess_returns: {'1M': -19.24, '3M': -15.13, '6M': -27.79, '1Y': -51.13}
+- latest_volume: 26,550,374.0000
+- average_volume_30d: 17,793,972.4667
 
 ## News
 
-7点
+6点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 2 件(純比率 -0.33)で、センチメントは 2.7 点です。
-- イベント後の平均株価反応が -3.54% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 4 件(純比率 -0.60)で、センチメントは 1.6 点です。
+- イベント後の平均株価反応が -4.14% と弱く、注意が必要です。
 
 Evidence
 
@@ -171,10 +171,10 @@ Evidence
 
 - news_count: 10
 - positive_count: 1
-- negative_count: 2
-- sentiment_net_ratio: -0.3300
+- negative_count: 4
+- sentiment_net_ratio: -0.6000
 - event_count: 10
-- events_with_price_reaction: 6
+- events_with_price_reaction: 3
 
 ## Note
 

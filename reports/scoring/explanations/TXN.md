@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Texas Instruments Incorporated
-- Total Score: 71 / 100
+- Total Score: 70 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 71 点を獲得し、シグナル充足率は 71.0% です。
+- データが確認できた 100 点満点のうち 70 点を獲得し、シグナル充足率は 70.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -107,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 43.0609
-- forward_pe: 27.1902
+- trailing_pe: 41.3111
+- forward_pe: 26.1647
 - peg_ratio: 1.2300
-- price_to_book: 14.3442
+- price_to_book: 13.8032
 - sector_peer_count: 16
 - trailing_pe_percentile: 71.4300
 - trailing_pe_peer_count: 15
@@ -123,15 +123,15 @@ Evidence
 
 ## Momentum
 
-10点
+11点
 
 理由
 
-- 1M の対SPY超過リターンは -3.83pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -10.87pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンが +12.43pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンが +28.70pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.67 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -7.09pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -13.14pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは +8.87pt で、市場並み以上です。
+- 1Y の対SPY超過リターンが +22.95pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.98 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -140,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: 0.1192
-- 3M: -6.0686
-- 6M: 26.3722
-- 1Y: 49.8304
+- 1M: -3.6738
+- 3M: -8.9708
+- 6M: 21.8593
+- 1Y: 43.5423
 - benchmark: SPY
-- benchmark_returns: {'1M': 3.95, '3M': 4.8, '6M': 13.94, '1Y': 21.13}
-- excess_returns: {'1M': -3.83, '3M': -10.87, '6M': 12.43, '1Y': 28.7}
-- latest_volume: 4,889,362.0000
-- average_volume_30d: 7,298,735.4000
+- benchmark_returns: {'1M': 3.42, '3M': 4.17, '6M': 12.99, '1Y': 20.59}
+- excess_returns: {'1M': -7.09, '3M': -13.14, '6M': 8.87, '1Y': 22.95}
+- latest_volume: 7,155,678.0000
+- average_volume_30d: 7,297,879.2667
 
 ## News
 
-15点
+13点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 2 件(純比率 +0.43)で、センチメントは 5.7 点です。
-- イベント後の平均株価反応が 1.40% とプラスです。
+- ニュース見出し・要約の簡易分類では、好材料 6 件、悪材料 2 件(純比率 +0.50)で、センチメントは 6.0 点です。
+- イベント後の平均株価反応が -0.30% と中立圏です。
 
 Evidence
 
@@ -169,9 +169,9 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 5
+- positive_count: 6
 - negative_count: 2
-- sentiment_net_ratio: 0.4300
+- sentiment_net_ratio: 0.5000
 - event_count: 10
 - events_with_price_reaction: 10
 

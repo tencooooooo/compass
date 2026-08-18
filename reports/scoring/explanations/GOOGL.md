@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Alphabet Inc.
-- Total Score: 62 / 100
+- Total Score: 59 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 62 点を獲得し、シグナル充足率は 62.0% です。
+- データが確認できた 100 点満点のうち 59 点を獲得し、シグナル充足率は 59.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -111,10 +111,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 17.2691
-- forward_pe: 23.3281
+- trailing_pe: 17.2791
+- forward_pe: 23.3416
 - peg_ratio: 0.9400
-- price_to_book: 6.7589
+- price_to_book: 6.7628
 - sector_peer_count: 10
 - trailing_pe_percentile: 44.4400
 - trailing_pe_peer_count: 10
@@ -127,15 +127,15 @@ Evidence
 
 ## Momentum
 
-7点
+9点
 
 理由
 
-- 1M の対SPY超過リターンは -4.75pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -18.05pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -1.27pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンが +48.86pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.63 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -5.63pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -17.40pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは +1.13pt で、市場並み以上です。
+- 1Y の対SPY超過リターンが +48.70pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.67 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -144,25 +144,25 @@ Evidence
 
 使用データ
 
-- 1M: -0.7988
-- 3M: -13.2503
-- 6M: 12.6677
-- 1Y: 69.9918
+- 1M: -2.2131
+- 3M: -13.2348
+- 6M: 14.1143
+- 1Y: 69.2898
 - benchmark: SPY
-- benchmark_returns: {'1M': 3.95, '3M': 4.8, '6M': 13.94, '1Y': 21.13}
-- excess_returns: {'1M': -4.75, '3M': -18.05, '6M': -1.27, '1Y': 48.86}
-- latest_volume: 18,214,810.0000
-- average_volume_30d: 28,890,463.6667
+- benchmark_returns: {'1M': 3.42, '3M': 4.17, '6M': 12.99, '1Y': 20.59}
+- excess_returns: {'1M': -5.63, '3M': -17.4, '6M': 1.13, '1Y': 48.7}
+- latest_volume: 19,171,000.0000
+- average_volume_30d: 28,732,370.0000
 
 ## News
 
-15点
+10点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が -0.55% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 3 件(純比率 -0.20)で、センチメントは 3.2 点です。
+- イベント後の平均株価反応が 0.06% と中立圏です。
 
 Evidence
 
@@ -173,11 +173,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 1
-- negative_count: 0
-- sentiment_net_ratio: 1.0000
+- positive_count: 2
+- negative_count: 3
+- sentiment_net_ratio: -0.2000
 - event_count: 10
-- events_with_price_reaction: 2
+- events_with_price_reaction: 6
 
 ## Note
 

@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: NVIDIA Corporation
-- Total Score: 72 / 100
+- Total Score: 71 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 72 点を獲得し、シグナル充足率は 72.0% です。
+- データが確認できた 100 点満点のうち 71 点を獲得し、シグナル充足率は 71.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -108,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 34.4579
-- forward_pe: 17.5812
+- trailing_pe: 33.6508
+- forward_pe: 17.1217
 - peg_ratio: 0.6200
-- price_to_book: 27.8823
+- price_to_book: 27.2292
 - sector_peer_count: 16
 - trailing_pe_percentile: 57.1400
 - trailing_pe_peer_count: 15
@@ -124,15 +124,15 @@ Evidence
 
 ## Momentum
 
-10点
+12点
 
 理由
 
-- 1M の対SPY超過リターンは +6.99pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -4.82pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは +9.30pt で、市場並み以上です。
-- 1Y の対SPY超過リターンは +2.65pt で、市場並み以上です。
-- 直近出来高が30日平均の 0.66 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは +4.68pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -5.21pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは +5.96pt で、市場並み以上です。
+- 1Y の対SPY超過リターンは +1.34pt で、市場並み以上です。
+- 直近出来高が30日平均の 0.84 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,25 +141,25 @@ Evidence
 
 使用データ
 
-- 1M: 10.9462
-- 3M: -0.0212
-- 6M: 23.2342
-- 1Y: 23.7829
+- 1M: 8.0972
+- 3M: -1.0453
+- 6M: 18.9425
+- 1Y: 21.9355
 - benchmark: SPY
-- benchmark_returns: {'1M': 3.95, '3M': 4.8, '6M': 13.94, '1Y': 21.13}
-- excess_returns: {'1M': 6.99, '3M': -4.82, '6M': 9.3, '1Y': 2.65}
-- latest_volume: 81,442,206.0000
-- average_volume_30d: 122,607,436.8667
+- benchmark_returns: {'1M': 3.42, '3M': 4.17, '6M': 12.99, '1Y': 20.59}
+- excess_returns: {'1M': 4.68, '3M': -5.21, '6M': 5.96, '1Y': 1.34}
+- latest_volume: 102,376,166.0000
+- average_volume_30d: 122,295,268.8667
 
 ## News
 
-11点
+8点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
 - ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 1 件(純比率 +0.00)で、センチメントは 4.0 点です。
-- イベント後の平均株価反応が -0.07% と中立圏です。
+- イベント後の平均株価反応が -2.34% と弱く、注意が必要です。
 
 Evidence
 
@@ -174,7 +174,7 @@ Evidence
 - negative_count: 1
 - sentiment_net_ratio: 0.0000
 - event_count: 10
-- events_with_price_reaction: 2
+- events_with_price_reaction: 1
 
 ## Note
 

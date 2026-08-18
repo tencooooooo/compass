@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: QUALCOMM Incorporated
-- Total Score: 67 / 100
+- Total Score: 66 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 67 点を獲得し、シグナル充足率は 67.0% です。
+- データが確認できた 100 点満点のうち 66 点を獲得し、シグナル充足率は 66.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -107,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 18.5349
-- forward_pe: 15.8970
+- trailing_pe: 18.2865
+- forward_pe: 15.7019
 - peg_ratio: 0.7100
-- price_to_book: 6.1979
+- price_to_book: 6.1218
 - sector_peer_count: 16
 - trailing_pe_percentile: 14.2900
 - trailing_pe_peer_count: 15
@@ -123,15 +123,15 @@ Evidence
 
 ## Momentum
 
-5点
+7点
 
 理由
 
-- 1M の対SPY超過リターンは -9.54pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -24.01pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは +2.50pt で、市場並み以上です。
-- 1Y の対SPY超過リターンは -16.38pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.72 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -9.37pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -25.21pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは +0.46pt で、市場並み以上です。
+- 1Y の対SPY超過リターンは -16.97pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.88 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -140,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: -5.5885
-- 3M: -19.2124
-- 6M: 16.4351
-- 1Y: 4.7494
+- 1M: -5.9476
+- 3M: -21.0461
+- 6M: 13.4501
+- 1Y: 3.6214
 - benchmark: SPY
-- benchmark_returns: {'1M': 3.95, '3M': 4.8, '6M': 13.94, '1Y': 21.13}
-- excess_returns: {'1M': -9.54, '3M': -24.01, '6M': 2.5, '1Y': -16.38}
-- latest_volume: 8,447,626.0000
-- average_volume_30d: 11,794,697.5333
+- benchmark_returns: {'1M': 3.42, '3M': 4.17, '6M': 12.99, '1Y': 20.59}
+- excess_returns: {'1M': -9.37, '3M': -25.21, '6M': 0.46, '1Y': -16.97}
+- latest_volume: 10,228,120.0000
+- average_volume_30d: 11,611,300.6667
 
 ## News
 
-12点
+9点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
 - ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 2 件(純比率 +0.33)で、センチメントは 5.3 点です。
-- イベント後の平均株価反応が -0.94% と中立圏です。
+- イベント後の平均株価反応が -1.51% と弱く、注意が必要です。
 
 Evidence
 
@@ -173,7 +173,7 @@ Evidence
 - negative_count: 2
 - sentiment_net_ratio: 0.3300
 - event_count: 10
-- events_with_price_reaction: 9
+- events_with_price_reaction: 10
 
 ## Note
 
