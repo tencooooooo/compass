@@ -11,24 +11,24 @@
       "end_date": null,
       "status": "Completed",
       "baseline_metrics": {
-        "discovery_success_rate": 52.63,
-        "average_return": 1.64,
-        "alpha": 0.62,
-        "win_rate": 52.63,
+        "discovery_success_rate": 48.25,
+        "average_return": 0.87,
+        "alpha": -0.36,
+        "win_rate": 48.25,
         "max_drawdown": 0.0,
         "sharpe_ratio": null,
         "strategy_ranking": 0.0,
-        "performance_score": 13.72
+        "performance_score": 12.19
       },
       "candidate_metrics": {
-        "discovery_success_rate": 52.63,
-        "average_return": 1.64,
-        "alpha": 0.62,
-        "win_rate": 52.63,
+        "discovery_success_rate": 48.25,
+        "average_return": 0.87,
+        "alpha": -0.36,
+        "win_rate": 48.25,
         "max_drawdown": 0.0,
         "sharpe_ratio": null,
         "strategy_ranking": 0.0,
-        "performance_score": 13.72
+        "performance_score": 12.19
       },
       "winner": "Tie",
       "winner_reason": "Baseline and candidate are tied on comparable metrics.",
@@ -39,26 +39,26 @@
         "candidate_score": 0.0,
         "comparisons": {
           "discovery_success_rate": {
-            "baseline": 52.63,
-            "candidate": 52.63,
+            "baseline": 48.25,
+            "candidate": 48.25,
             "winner": "Tie",
             "reason": "Metric is equal."
           },
           "average_return": {
-            "baseline": 1.64,
-            "candidate": 1.64,
+            "baseline": 0.87,
+            "candidate": 0.87,
             "winner": "Tie",
             "reason": "Metric is equal."
           },
           "alpha": {
-            "baseline": 0.62,
-            "candidate": 0.62,
+            "baseline": -0.36,
+            "candidate": -0.36,
             "winner": "Tie",
             "reason": "Metric is equal."
           },
           "win_rate": {
-            "baseline": 52.63,
-            "candidate": 52.63,
+            "baseline": 48.25,
+            "candidate": 48.25,
             "winner": "Tie",
             "reason": "Metric is equal."
           },
@@ -81,10 +81,307 @@
             "reason": "Metric is equal."
           },
           "performance_score": {
-            "baseline": 13.72,
-            "candidate": 13.72,
+            "baseline": 12.19,
+            "candidate": 12.19,
             "winner": "Tie",
             "reason": "Metric is equal."
+          }
+        }
+      }
+    },
+    {
+      "experiment_id": "EXP-MOM-TAPER-001",
+      "name": "Momentum Overextension Taper",
+      "description": "Tapers momentum awards when excess (or absolute) momentum exceeds +30, treating overextended moves as caution (0.25x tier) instead of full points. Hypothesis from 1m mean reversion of high-momentum discoveries in validation history.",
+      "target": "Discovery Rule",
+      "baseline_version": "primary-selection-current",
+      "candidate_version": "primary-selection-momentum-taper",
+      "baseline_metrics_path": "reports/experiments/candidates/EXP-MOM-TAPER-001_baseline.json",
+      "candidate_metrics_path": "reports/experiments/candidates/EXP-MOM-TAPER-001_candidate.json",
+      "start_date": "2026-08-17",
+      "end_date": null,
+      "status": "Completed",
+      "baseline_metrics": {
+        "discovery_success_rate": 43.28,
+        "average_return": -1.16,
+        "alpha": -2.72,
+        "win_rate": 43.28,
+        "max_drawdown": null,
+        "sharpe_ratio": null,
+        "strategy_ranking": null,
+        "performance_score": 13.13,
+        "selected_rows": 310,
+        "completed_rows": 67,
+        "unique_tickers": 8,
+        "ticker_equal_weight_alpha": -3.85
+      },
+      "candidate_metrics": {
+        "discovery_success_rate": 41.67,
+        "average_return": -1.53,
+        "alpha": -2.82,
+        "win_rate": 41.67,
+        "max_drawdown": null,
+        "sharpe_ratio": null,
+        "strategy_ranking": null,
+        "performance_score": 12.44,
+        "selected_rows": 175,
+        "completed_rows": 36,
+        "unique_tickers": 7,
+        "ticker_equal_weight_alpha": -3.16
+      },
+      "winner": "Baseline",
+      "winner_reason": "Baseline wins 5.0 metrics vs candidate 0.0.",
+      "comparison": {
+        "winner": "Baseline",
+        "reason": "Baseline wins 5.0 metrics vs candidate 0.0.",
+        "baseline_score": 5.0,
+        "candidate_score": 0.0,
+        "comparisons": {
+          "discovery_success_rate": {
+            "baseline": 43.28,
+            "candidate": 41.67,
+            "winner": "Baseline",
+            "reason": "Baseline metric is higher."
+          },
+          "average_return": {
+            "baseline": -1.16,
+            "candidate": -1.53,
+            "winner": "Baseline",
+            "reason": "Baseline metric is higher."
+          },
+          "alpha": {
+            "baseline": -2.72,
+            "candidate": -2.82,
+            "winner": "Baseline",
+            "reason": "Baseline metric is higher."
+          },
+          "win_rate": {
+            "baseline": 43.28,
+            "candidate": 41.67,
+            "winner": "Baseline",
+            "reason": "Baseline metric is higher."
+          },
+          "max_drawdown": {
+            "baseline": null,
+            "candidate": null,
+            "winner": "Inconclusive",
+            "reason": "Metric is not available for both versions."
+          },
+          "sharpe_ratio": {
+            "baseline": null,
+            "candidate": null,
+            "winner": "Inconclusive",
+            "reason": "Metric is not available for both versions."
+          },
+          "strategy_ranking": {
+            "baseline": null,
+            "candidate": null,
+            "winner": "Inconclusive",
+            "reason": "Metric is not available for both versions."
+          },
+          "performance_score": {
+            "baseline": 13.13,
+            "candidate": 12.44,
+            "winner": "Baseline",
+            "reason": "Baseline metric is higher."
+          }
+        }
+      }
+    },
+    {
+      "experiment_id": "EXP-NEWS-CAP-001",
+      "name": "News Score Cap",
+      "description": "Caps the News score contribution at 16/20. Hypothesis: extreme news attention (17-20) marked crowded names that underperformed at 1m in validation history.",
+      "target": "Discovery Rule",
+      "baseline_version": "primary-selection-current",
+      "candidate_version": "primary-selection-news-cap",
+      "baseline_metrics_path": "reports/experiments/candidates/EXP-NEWS-CAP-001_baseline.json",
+      "candidate_metrics_path": "reports/experiments/candidates/EXP-NEWS-CAP-001_candidate.json",
+      "start_date": "2026-08-17",
+      "end_date": null,
+      "status": "Completed",
+      "baseline_metrics": {
+        "discovery_success_rate": 43.28,
+        "average_return": -1.16,
+        "alpha": -2.72,
+        "win_rate": 43.28,
+        "max_drawdown": null,
+        "sharpe_ratio": null,
+        "strategy_ranking": null,
+        "performance_score": 13.13,
+        "selected_rows": 310,
+        "completed_rows": 67,
+        "unique_tickers": 8,
+        "ticker_equal_weight_alpha": -3.85
+      },
+      "candidate_metrics": {
+        "discovery_success_rate": 43.28,
+        "average_return": -1.16,
+        "alpha": -2.72,
+        "win_rate": 43.28,
+        "max_drawdown": null,
+        "sharpe_ratio": null,
+        "strategy_ranking": null,
+        "performance_score": 13.13,
+        "selected_rows": 310,
+        "completed_rows": 67,
+        "unique_tickers": 8,
+        "ticker_equal_weight_alpha": -3.85
+      },
+      "winner": "Tie",
+      "winner_reason": "Baseline and candidate are tied on comparable metrics.",
+      "comparison": {
+        "winner": "Tie",
+        "reason": "Baseline and candidate are tied on comparable metrics.",
+        "baseline_score": 0.0,
+        "candidate_score": 0.0,
+        "comparisons": {
+          "discovery_success_rate": {
+            "baseline": 43.28,
+            "candidate": 43.28,
+            "winner": "Tie",
+            "reason": "Metric is equal."
+          },
+          "average_return": {
+            "baseline": -1.16,
+            "candidate": -1.16,
+            "winner": "Tie",
+            "reason": "Metric is equal."
+          },
+          "alpha": {
+            "baseline": -2.72,
+            "candidate": -2.72,
+            "winner": "Tie",
+            "reason": "Metric is equal."
+          },
+          "win_rate": {
+            "baseline": 43.28,
+            "candidate": 43.28,
+            "winner": "Tie",
+            "reason": "Metric is equal."
+          },
+          "max_drawdown": {
+            "baseline": null,
+            "candidate": null,
+            "winner": "Inconclusive",
+            "reason": "Metric is not available for both versions."
+          },
+          "sharpe_ratio": {
+            "baseline": null,
+            "candidate": null,
+            "winner": "Inconclusive",
+            "reason": "Metric is not available for both versions."
+          },
+          "strategy_ranking": {
+            "baseline": null,
+            "candidate": null,
+            "winner": "Inconclusive",
+            "reason": "Metric is not available for both versions."
+          },
+          "performance_score": {
+            "baseline": 13.13,
+            "candidate": 13.13,
+            "winner": "Tie",
+            "reason": "Metric is equal."
+          }
+        }
+      }
+    },
+    {
+      "experiment_id": "EXP-OVEREXT-001",
+      "name": "Overextension Guard (Taper + News Cap)",
+      "description": "Combined rule of EXP-MOM-TAPER-001 and EXP-NEWS-CAP-001, the actual proposed discovery change.",
+      "target": "Discovery Rule",
+      "baseline_version": "primary-selection-current",
+      "candidate_version": "primary-selection-overextension-guard",
+      "baseline_metrics_path": "reports/experiments/candidates/EXP-OVEREXT-001_baseline.json",
+      "candidate_metrics_path": "reports/experiments/candidates/EXP-OVEREXT-001_candidate.json",
+      "start_date": "2026-08-17",
+      "end_date": null,
+      "status": "Completed",
+      "baseline_metrics": {
+        "discovery_success_rate": 43.28,
+        "average_return": -1.16,
+        "alpha": -2.72,
+        "win_rate": 43.28,
+        "max_drawdown": null,
+        "sharpe_ratio": null,
+        "strategy_ranking": null,
+        "performance_score": 13.13,
+        "selected_rows": 310,
+        "completed_rows": 67,
+        "unique_tickers": 8,
+        "ticker_equal_weight_alpha": -3.85
+      },
+      "candidate_metrics": {
+        "discovery_success_rate": 41.67,
+        "average_return": -1.53,
+        "alpha": -2.82,
+        "win_rate": 41.67,
+        "max_drawdown": null,
+        "sharpe_ratio": null,
+        "strategy_ranking": null,
+        "performance_score": 12.44,
+        "selected_rows": 170,
+        "completed_rows": 36,
+        "unique_tickers": 6,
+        "ticker_equal_weight_alpha": -3.16
+      },
+      "winner": "Baseline",
+      "winner_reason": "Baseline wins 5.0 metrics vs candidate 0.0.",
+      "comparison": {
+        "winner": "Baseline",
+        "reason": "Baseline wins 5.0 metrics vs candidate 0.0.",
+        "baseline_score": 5.0,
+        "candidate_score": 0.0,
+        "comparisons": {
+          "discovery_success_rate": {
+            "baseline": 43.28,
+            "candidate": 41.67,
+            "winner": "Baseline",
+            "reason": "Baseline metric is higher."
+          },
+          "average_return": {
+            "baseline": -1.16,
+            "candidate": -1.53,
+            "winner": "Baseline",
+            "reason": "Baseline metric is higher."
+          },
+          "alpha": {
+            "baseline": -2.72,
+            "candidate": -2.82,
+            "winner": "Baseline",
+            "reason": "Baseline metric is higher."
+          },
+          "win_rate": {
+            "baseline": 43.28,
+            "candidate": 41.67,
+            "winner": "Baseline",
+            "reason": "Baseline metric is higher."
+          },
+          "max_drawdown": {
+            "baseline": null,
+            "candidate": null,
+            "winner": "Inconclusive",
+            "reason": "Metric is not available for both versions."
+          },
+          "sharpe_ratio": {
+            "baseline": null,
+            "candidate": null,
+            "winner": "Inconclusive",
+            "reason": "Metric is not available for both versions."
+          },
+          "strategy_ranking": {
+            "baseline": null,
+            "candidate": null,
+            "winner": "Inconclusive",
+            "reason": "Metric is not available for both versions."
+          },
+          "performance_score": {
+            "baseline": 13.13,
+            "candidate": 12.44,
+            "winner": "Baseline",
+            "reason": "Baseline metric is higher."
           }
         }
       }

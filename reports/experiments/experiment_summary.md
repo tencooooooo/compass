@@ -10,3 +10,30 @@ Experiment Engine compares baseline and candidate Compass versions using reprodu
 - Status: Completed
 - Winner: Tie
 - Reason: Baseline and candidate are tied on comparable metrics.
+
+## EXP-MOM-TAPER-001 - Momentum Overextension Taper
+
+- Target: Discovery Rule
+- Baseline: primary-selection-current
+- Candidate: primary-selection-momentum-taper
+- Status: Completed
+- Winner: Baseline
+- Reason: Baseline wins 5.0 metrics vs candidate 0.0.
+
+## EXP-NEWS-CAP-001 - News Score Cap
+
+- Target: Discovery Rule
+- Baseline: primary-selection-current
+- Candidate: primary-selection-news-cap
+- Status: Completed
+- Winner: Tie
+- Reason: Baseline and candidate are tied on comparable metrics.
+
+## EXP-OVEREXT-001 - Overextension Guard (Taper + News Cap)
+
+- Target: Discovery Rule
+- Baseline: primary-selection-current
+- Candidate: primary-selection-overextension-guard
+- Status: Completed
+- Winner: Baseline
+- Reason: Baseline wins 5.0 metrics vs candidate 0.0.
