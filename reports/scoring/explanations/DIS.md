@@ -4,8 +4,8 @@
 
 ## Summary
 
-- Company: The Walt Disney Company
-- Total Score: 47 / 100
+- Company: DIS
+- Total Score: 52 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 47 点を獲得し、シグナル充足率は 47.0% です。
+- データが確認できた 100 点満点のうち 52 点を獲得し、シグナル充足率は 52.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -111,10 +111,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 21.4330
-- forward_pe: 13.9917
+- trailing_pe: 22.0474
+- forward_pe: 14.3929
 - peg_ratio: 2.6500
-- price_to_book: 1.6344
+- price_to_book: 1.6812
 - sector_peer_count: 10
 - trailing_pe_percentile: 77.7800
 - trailing_pe_peer_count: 10
@@ -127,15 +127,15 @@ Evidence
 
 ## Momentum
 
-5点
+6点
 
 理由
 
-- 1M の対SPY超過リターンは +4.40pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -3.36pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -13.64pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -29.20pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.57 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは +8.45pt で、市場並み以上です。
+- 3M の対SPY超過リターンは +0.25pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -12.05pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -27.80pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.73 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -144,25 +144,25 @@ Evidence
 
 使用データ
 
-- 1M: 7.8208
-- 3M: 0.8050
-- 6M: -0.6577
-- 1Y: -8.6097
+- 1M: 11.2232
+- 3M: 5.3371
+- 6M: 0.6063
+- 1Y: -6.9255
 - benchmark: SPY
-- benchmark_returns: {'1M': 3.42, '3M': 4.17, '6M': 12.99, '1Y': 20.59}
-- excess_returns: {'1M': 4.4, '3M': -3.36, '6M': -13.64, '1Y': -29.2}
-- latest_volume: 6,053,398.0000
-- average_volume_30d: 10,698,639.9333
+- benchmark_returns: {'1M': 2.78, '3M': 5.09, '6M': 12.66, '1Y': 20.87}
+- excess_returns: {'1M': 8.45, '3M': 0.25, '6M': -12.05, '1Y': -27.8}
+- latest_volume: 7,825,738.0000
+- average_volume_30d: 10,672,021.2667
 
 ## News
 
-10点
+14点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 2 件(純比率 -0.33)で、センチメントは 2.7 点です。
-- イベント後の平均株価反応が 0.43% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 1 件(純比率 +0.33)で、センチメントは 5.3 点です。
+- イベント後の平均株価反応が 1.89% とプラスです。
 
 Evidence
 
@@ -173,9 +173,9 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 1
-- negative_count: 2
-- sentiment_net_ratio: -0.3300
+- positive_count: 2
+- negative_count: 1
+- sentiment_net_ratio: 0.3300
 - event_count: 10
 - events_with_price_reaction: 10
 

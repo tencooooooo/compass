@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 2.79%
+- 市場全体の1Mモメンタム平均: 3.51%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,39 +21,39 @@
 
 ### 注目ニュース
 
-- 2026-08-18T21:54:58+00:00 / META / Yahoo Finance: Meta social media addiction trial kicks off with major implications for company's future
-- 2026-08-18T21:50:00+00:00 / NVDA / Motley Fool: Rocket Lab Wins One of Its Biggest Contracts Ever
-- 2026-08-18T21:41:00+00:00 / NVDA / Motley Fool: Is Palantir the Next Trillion-Dollar Stock?
-- 2026-08-18T21:32:01+00:00 / MSFT / Motley Fool: Prediction: Microsoft Will Be Worth $5 Trillion by 2029. Here's the Math.
-- 2026-08-18T21:32:01+00:00 / NVDA / Motley Fool: Prediction: Microsoft Will Be Worth $5 Trillion by 2029. Here's the Math.
+- 2026-08-19T22:06:02+00:00 / AVGO / StockStory: Why Broadcom (AVGO) Stock Is Trading Lower Today
+- 2026-08-19T22:06:02+00:00 / GOOGL / StockStory: Why Broadcom (AVGO) Stock Is Trading Lower Today
+- 2026-08-19T22:04:17+00:00 / NVDA / GuruFocus.com: Broadcom Gets Fresh Google Warning
+- 2026-08-19T22:04:17+00:00 / AVGO / GuruFocus.com: Broadcom Gets Fresh Google Warning
+- 2026-08-19T22:04:17+00:00 / GOOGL / GuruFocus.com: Broadcom Gets Fresh Google Warning
 
 ### 注目イベント
 
-- 2026-08-17T19:47:38+00:00 / AMAT: Why Applied Materials (AMAT) Could Be a Major Winner of the AI Memory Surge (株価反応: 5.55%, 出来高: 9.62M)
-- 2026-08-17T18:45:00+00:00 / NOW: Workday Stock Is Downgraded After Buyout Report as Growth Expectations Are ‘Too Optimistic’ (株価反応: -5.08%, 出来高: 20.20M)
-- 2026-08-17T17:00:03+00:00 / NOW: Prediction: This AI Stock Could Double in 12 Months (株価反応: -5.08%, 出来高: 20.20M)
-- 2026-08-17T15:15:35+00:00 / NOW: ServiceNow (NOW) Is Spending $7.75 Billion On AI Security (株価反応: -5.08%, 出来高: 20.20M)
-- 2026-08-17T14:09:01+00:00 / NOW: ServiceNow (NOW) Stock Still Looks Expensive Despite A 30% Fall (株価反応: -5.08%, 出来高: 20.20M)
+- 2026-08-19T19:10:29+00:00 / NOW: Is ServiceNow (NOW) Quietly Becoming the Default Orchestrator for Enterprise AI Automation? (株価反応: 6.45%, 出来高: 22.40M)
+- 2026-08-19T18:18:07+00:00 / NOW: Why ServiceNow Stock Rallied Today (株価反応: 6.45%, 出来高: 22.40M)
+- 2026-08-19T18:15:00+00:00 / NOW: Software Stocks Are Bouncing Back From AI Fears. BofA Sees More Gains Ahead. (株価反応: 6.45%, 出来高: 22.40M)
+- 2026-08-19T17:18:00+00:00 / NOW: UiPath Stock Rises 44% in 6 Months: Should You 投資判断表現, 投資判断表現 or 投資判断表現? (株価反応: 6.45%, 出来高: 22.40M)
+- 2026-08-19T15:37:00+00:00 / NOW: Can Strong AI Adoption Help Atlassian Challenge CRM & NOW? (株価反応: 6.45%, 出来高: 22.40M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 54.67 | 18.52 | 11.20 | 1.40% | 60 |
-| Consumer Cyclical | 6 | 52.17 | 68.81 | 8.98 | -0.97% | 60 |
-| Technology | 12 | 65.08 | 43.70 | 8.64 | 5.37% | 120 |
+| Communication Services | 6 | 56.17 | 18.79 | 11.20 | 3.24% | 60 |
+| Consumer Cyclical | 6 | 53.67 | 71.74 | 9.01 | 1.59% | 60 |
+| Technology | 12 | 67.17 | 43.47 | 8.63 | 4.61% | 120 |
 
 ## 市場トレンド
 
 | セクター | Momentum | News | Financial Health |
 | --- | --- | --- | --- |
 | Communication Services | Positive | High | Good |
-| Consumer Cyclical | Weak | High | Neutral |
+| Consumer Cyclical | Positive | High | Neutral |
 | Technology | Positive | High | Good |
 
 ## 市場心理
 
-市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 240 件で、ポジティブなモメンタムのセクターは 2/3 です。
+市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 240 件で、ポジティブなモメンタムのセクターは 3/3 です。
 
 参照Knowledge: market_psychology.md
 
