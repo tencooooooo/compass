@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 3.51%
+- 市場全体の1Mモメンタム平均: 3.96%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-08-19T22:06:02+00:00 / AVGO / StockStory: Why Broadcom (AVGO) Stock Is Trading Lower Today
-- 2026-08-19T22:06:02+00:00 / GOOGL / StockStory: Why Broadcom (AVGO) Stock Is Trading Lower Today
-- 2026-08-19T22:04:17+00:00 / NVDA / GuruFocus.com: Broadcom Gets Fresh Google Warning
-- 2026-08-19T22:04:17+00:00 / AVGO / GuruFocus.com: Broadcom Gets Fresh Google Warning
-- 2026-08-19T22:04:17+00:00 / GOOGL / GuruFocus.com: Broadcom Gets Fresh Google Warning
+- 2026-08-20T22:05:00+00:00 / NVDA / Motley Fool: Moderna's Comeback Is Finally Taking Shape -- and There May Be More Upside Ahead
+- 2026-08-20T22:04:41+00:00 / AAPL / TheStreet: History of TSMC & its stock: Company timeline, facts & milestones
+- 2026-08-20T22:04:41+00:00 / NVDA / TheStreet: History of TSMC & its stock: Company timeline, facts & milestones
+- 2026-08-20T22:04:41+00:00 / AMD / TheStreet: History of TSMC & its stock: Company timeline, facts & milestones
+- 2026-08-20T22:04:41+00:00 / AVGO / TheStreet: History of TSMC & its stock: Company timeline, facts & milestones
 
 ### 注目イベント
 
-- 2026-08-19T19:10:29+00:00 / NOW: Is ServiceNow (NOW) Quietly Becoming the Default Orchestrator for Enterprise AI Automation? (株価反応: 6.45%, 出来高: 22.40M)
-- 2026-08-19T18:18:07+00:00 / NOW: Why ServiceNow Stock Rallied Today (株価反応: 6.45%, 出来高: 22.40M)
-- 2026-08-19T18:15:00+00:00 / NOW: Software Stocks Are Bouncing Back From AI Fears. BofA Sees More Gains Ahead. (株価反応: 6.45%, 出来高: 22.40M)
-- 2026-08-19T17:18:00+00:00 / NOW: UiPath Stock Rises 44% in 6 Months: Should You 投資判断表現, 投資判断表現 or 投資判断表現? (株価反応: 6.45%, 出来高: 22.40M)
-- 2026-08-19T15:37:00+00:00 / NOW: Can Strong AI Adoption Help Atlassian Challenge CRM & NOW? (株価反応: 6.45%, 出来高: 22.40M)
+- 2026-08-19T19:10:29+00:00 / NOW: Is ServiceNow (NOW) Quietly Becoming the Default Orchestrator for Enterprise AI Automation? (株価反応: 6.45%, 出来高: 22.50M)
+- 2026-08-19T18:18:07+00:00 / NOW: Why ServiceNow Stock Rallied Today (株価反応: 6.45%, 出来高: 22.50M)
+- 2026-08-19T18:15:00+00:00 / NOW: Software Stocks Are Bouncing Back From AI Fears. BofA Sees More Gains Ahead. (株価反応: 6.45%, 出来高: 22.50M)
+- 2026-08-19T17:18:00+00:00 / NOW: UiPath Stock Rises 44% in 6 Months: Should You 投資判断表現, 投資判断表現 or 投資判断表現? (株価反応: 6.45%, 出来高: 22.50M)
+- 2026-08-19T15:37:00+00:00 / NOW: Can Strong AI Adoption Help Atlassian Challenge CRM & NOW? (株価反応: 6.45%, 出来高: 22.50M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 56.17 | 18.79 | 11.20 | 3.24% | 60 |
-| Consumer Cyclical | 6 | 53.67 | 71.74 | 9.01 | 1.59% | 60 |
-| Technology | 12 | 67.17 | 43.47 | 8.63 | 4.61% | 120 |
+| Communication Services | 6 | 54.00 | 18.74 | 11.20 | 3.79% | 60 |
+| Consumer Cyclical | 6 | 50.50 | 70.06 | 9.01 | 0.53% | 60 |
+| Technology | 12 | 65.33 | 43.52 | 8.64 | 5.77% | 120 |
 
 ## 市場トレンド
 

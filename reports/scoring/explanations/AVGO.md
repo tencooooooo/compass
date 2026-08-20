@@ -5,20 +5,21 @@
 ## Summary
 
 - Company: Broadcom Inc.
-- Total Score: 61 / 100
-- Confidence: High
+- Total Score: 60 / 100
+- Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
 
-High
+Medium
 
 理由
 
 - 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 0 件です。
-- 主要データが比較的そろっており、説明可能性は高めです。
+- 欠損または計算不可の項目数は 1 件です。
+- 主要データは一定程度ありますが、欠損や未取得項目が残っています。
+- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
@@ -27,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 61 点を獲得し、シグナル充足率は 61.0% です。
+- データが確認できた 100 点満点のうち 60 点を獲得し、シグナル充足率は 60.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -108,10 +109,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 60.4133
-- forward_pe: 18.5580
-- peg_ratio: 0.4400
-- price_to_book: 19.6679
+- trailing_pe: 60.4701
+- forward_pe: 18.6374
+- peg_ratio: 0.4100
+- price_to_book: 19.7520
 - sector_peer_count: 16
 - trailing_pe_percentile: 85.7100
 - trailing_pe_peer_count: 15
@@ -128,11 +129,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -8.99pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -16.77pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -3.57pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンは -1.45pt と、市場を小幅に下回っています。
-- 直近出来高が30日平均の 1.78 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは -10.29pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -15.87pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -2.61pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは +3.83pt で、市場並み以上です。
+- 直近出来高が30日平均の 1.02 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,25 +142,25 @@ Evidence
 
 使用データ
 
-- 1M: -6.2147
-- 3M: -11.6808
-- 6M: 9.0868
-- 1Y: 19.4191
+- 1M: -8.2609
+- 3M: -12.7235
+- 6M: 9.3958
+- 1Y: 24.3421
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.78, '3M': 5.09, '6M': 12.66, '1Y': 20.87}
-- excess_returns: {'1M': -8.99, '3M': -16.77, '6M': -3.57, '1Y': -1.45}
-- latest_volume: 34,787,245.0000
-- average_volume_30d: 19,562,061.5000
+- benchmark_returns: {'1M': 2.03, '3M': 3.15, '6M': 12.01, '1Y': 20.51}
+- excess_returns: {'1M': -10.29, '3M': -15.87, '6M': -2.61, '1Y': 3.83}
+- latest_volume: 19,689,176.0000
+- average_volume_30d: 19,292,705.8667
 
 ## News
 
-10点
+9点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。
-- イベント後の平均株価反応が -4.61% と弱く、注意が必要です。
+- 見出し・要約から好悪材料を分類できなかったため、センチメントは中立の4.0点としています。
+- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
 
 Evidence
 
@@ -170,11 +171,15 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 3
-- negative_count: 1
-- sentiment_net_ratio: 0.5000
+- positive_count: 0
+- negative_count: 0
+- sentiment_net_ratio: N/A
 - event_count: 10
-- events_with_price_reaction: 4
+- events_with_price_reaction: 0
+
+欠損・計算不可
+
+- event_price_reaction
 
 ## Note
 
