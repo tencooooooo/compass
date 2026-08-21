@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Microsoft Corporation
-- Total Score: 69 / 100
+- Total Score: 70 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 69 点を獲得し、シグナル充足率は 69.0% です。
+- データが確認できた 100 点満点のうち 70 点を獲得し、シグナル充足率は 70.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -107,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 26.7752
-- forward_pe: 20.4108
+- trailing_pe: 26.9214
+- forward_pe: 20.4995
 - peg_ratio: 1.5700
-- price_to_book: 8.0777
+- price_to_book: 8.1128
 - sector_peer_count: 16
 - trailing_pe_percentile: 42.8600
 - trailing_pe_peer_count: 15
@@ -123,15 +123,15 @@ Evidence
 
 ## Momentum
 
-12点
+13点
 
 理由
 
-- 1M の対SPY超過リターンが +21.23pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンが +11.37pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンは +9.01pt で、市場並み以上です。
-- 1Y の対SPY超過リターンは -25.37pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.58 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンが +23.15pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンが +12.16pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +10.49pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -24.83pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.63 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -140,15 +140,15 @@ Evidence
 
 使用データ
 
-- 1M: 23.2643
-- 3M: 14.5186
-- 6M: 21.0139
-- 1Y: -4.8604
+- 1M: 26.8803
+- 3M: 15.5240
+- 6M: 22.1454
+- 1Y: -3.5006
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.03, '3M': 3.15, '6M': 12.01, '1Y': 20.51}
-- excess_returns: {'1M': 21.23, '3M': 11.37, '6M': 9.01, '1Y': -25.37}
-- latest_volume: 20,003,604.0000
-- average_volume_30d: 34,550,230.1333
+- benchmark_returns: {'1M': 3.73, '3M': 3.36, '6M': 11.66, '1Y': 21.33}
+- excess_returns: {'1M': 23.15, '3M': 12.16, '6M': 10.49, '1Y': -24.83}
+- latest_volume: 21,856,586.0000
+- average_volume_30d: 34,457,869.5333
 
 ## News
 
@@ -158,7 +158,7 @@ Evidence
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
 - ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 1 件(純比率 +0.33)で、センチメントは 5.3 点です。
-- イベント後の平均株価反応が -0.65% と中立圏です。
+- イベント後の平均株価反応が 0.43% と中立圏です。
 
 Evidence
 
@@ -173,7 +173,7 @@ Evidence
 - negative_count: 1
 - sentiment_net_ratio: 0.3300
 - event_count: 10
-- events_with_price_reaction: 7
+- events_with_price_reaction: 3
 
 ## Note
 

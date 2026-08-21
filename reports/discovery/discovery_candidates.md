@@ -6,8 +6,8 @@
 
 - 対象企業数: 24
 - セクター数: 3
-- 市場平均スコア: 58.791666666666664
-- 1M市場モメンタム平均: 3.9633550183453585
+- 市場平均スコア: 60.833333333333336
+- 1M市場モメンタム平均: 8.542549816383795
 - ニュース件数: 240
 - Event数: 240
 
@@ -15,26 +15,30 @@
 
 | Ticker | Company | Sector | Discovery Score | Status | Confidence | Signal |
 | --- | --- | --- | --- | --- | --- | --- |
-| AMAT | Applied Materials, Inc. | Technology | 79 | Primary Candidate | High | Strong |
-| AMD | AMD | Technology | 75 | Primary Candidate | High | Strong |
-| TXN | Texas Instruments Incorporated | Technology | 75 | Primary Candidate | High | Strong |
-| NVDA | NVIDIA Corporation | Technology | 73 | Watch Candidate | Medium | Strong |
-| NOW | ServiceNow, Inc. | Technology | 73 | Watch Candidate | High | Strong |
-| MSFT | Microsoft Corporation | Technology | 72 | Watch Candidate | High | Strong |
-| CRM | CRM | Technology | 72 | Watch Candidate | High | Strong |
-| ADBE | Adobe Inc. | Technology | 70 | Watch Candidate | High | Strong |
-| AMZN | Amazon.com, Inc. | Consumer Cyclical | 67 | Watch Candidate | Medium | Strong |
-| QCOM | QUALCOMM Incorporated | Technology | 62 | Watch Candidate | High | Moderate |
-| AAPL | Apple Inc. | Technology | 61 | Watch Candidate | High | Moderate |
-| GOOGL | Alphabet Inc. | Communication Services | 61 | Watch Candidate | Medium | Moderate |
+| AMD | AMD | Technology | 83 | Primary Candidate | High | Strong |
+| MSFT | Microsoft Corporation | Technology | 77 | Primary Candidate | High | Strong |
+| AMAT | Applied Materials, Inc. | Technology | 76 | Primary Candidate | High | Strong |
+| CRM | CRM | Technology | 75 | Primary Candidate | High | Strong |
+| TXN | Texas Instruments Incorporated | Technology | 74 | Watch Candidate | High | Strong |
+| AVGO | Broadcom Inc. | Technology | 72 | Watch Candidate | High | Strong |
+| ADBE | Adobe Inc. | Technology | 72 | Watch Candidate | High | Strong |
+| AMZN | Amazon.com, Inc. | Consumer Cyclical | 69 | Watch Candidate | Medium | Strong |
+| GOOGL | Alphabet Inc. | Communication Services | 68 | Watch Candidate | Medium | Strong |
+| NOW | ServiceNow, Inc. | Technology | 67 | Watch Candidate | High | Strong |
+| META | Meta Platforms, Inc. | Communication Services | 64 | Watch Candidate | High | Moderate |
+| NVDA | NVIDIA Corporation | Technology | 63 | Watch Candidate | Medium | Moderate |
+| QCOM | QUALCOMM Incorporated | Technology | 63 | Watch Candidate | High | Moderate |
+| AAPL | Apple Inc. | Technology | 62 | Watch Candidate | High | Moderate |
+| ORCL | Oracle Corporation | Technology | 62 | Watch Candidate | High | Moderate |
+| CMCSA | Comcast Corporation | Communication Services | 61 | Watch Candidate | Medium | Moderate |
 
 ## Top Candidate
 
-AMAT
+AMD
 
 理由
 
-- Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。
+- Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。
 - Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。

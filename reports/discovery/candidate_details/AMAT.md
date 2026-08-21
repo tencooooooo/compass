@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-79 / 100
+76 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 14/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで -12.45pt と弱く、候補評価では注意点です。
-- 3Mモメンタムは対SPYで +13.25pt と、市場を大きく上回っています。
-- 6Mモメンタムは対SPYで +22.33pt と、市場を大きく上回っています。
+- 1Mモメンタムは対SPYで -16.16pt と弱く、候補評価では注意点です。
+- 3Mモメンタムは対SPYで +11.96pt と、市場を大きく上回っています。
+- 6Mモメンタムは対SPYで +19.80pt と、市場を大きく上回っています。
 
 ## Strengths
 
@@ -34,7 +34,7 @@
 ## Watch Points
 
 - バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。
-- 注意材料になり得るニュース表現が 2 件あります。
+- 注意材料になり得るニュース表現が 1 件あります。
 - イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
@@ -48,7 +48,7 @@ High
 
 ## Signal Strength
 
-Strong(シグナル充足率: 79.2%)
+Strong(シグナル充足率: 76.35%)
 
 ## Evidence
 
@@ -67,20 +67,20 @@ Strong(シグナル充足率: 79.2%)
 
 ## Metrics
 
-- scoring_total: 68.0
-- signal_earned_points: 79.2
+- scoring_total: 67.0
+- signal_earned_points: 76.35
 - signal_max_points: 100.0
 - weak_signals: []
 - scoring_signal_strength: Strong
 - growth_score: 17.0
 - financial_health_score: 20.0
 - valuation_score: 3.0
-- news_score: 13.0
-- momentum: {'1m': -10.418470760322519, '3m': 16.39378469932038, '6m': 34.33926201107079, '1y': 208.1309628826691}
+- news_score: 14.0
+- momentum: {'1m': -12.429550763131072, '3m': 15.32348724770305, '6m': 31.455892031792242, '1y': 208.4380254802035}
 - benchmark: SPY
-- excess_momentum: {'1m': -12.45, '3m': 13.25, '6m': 22.33, '1y': 187.62}
-- positive_news: 6
-- watch_news: 2
+- excess_momentum: {'1m': -16.16, '3m': 11.96, '6m': 19.8, '1y': 187.11}
+- positive_news: 5
+- watch_news: 1
 - event_count: 10
-- events_with_reaction: 7
-- sector_average_score: 65.33333333333333
+- events_with_reaction: 10
+- sector_average_score: 67.16666666666667

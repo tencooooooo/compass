@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: CRM
-- Total Score: 74 / 100
+- Total Score: 72 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 74 点を獲得し、シグナル充足率は 74.0% です。
+- データが確認できた 100 点満点のうち 72 点を獲得し、シグナル充足率は 72.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -107,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 23.7766
-- forward_pe: 13.2380
+- trailing_pe: 24.2375
+- forward_pe: 13.4790
 - peg_ratio: 0.8600
-- price_to_book: 4.9145
+- price_to_book: 5.0039
 - sector_peer_count: 16
 - trailing_pe_percentile: 28.5700
 - trailing_pe_peer_count: 15
@@ -127,11 +127,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンが +24.00pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンが +11.21pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンは -0.57pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンは -36.30pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.91 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンが +29.56pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンが +15.58pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンは +1.89pt で、市場並み以上です。
+- 1Y の対SPY超過リターンは -35.74pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.66 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -140,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: 26.0307
-- 3M: 14.3588
-- 6M: 11.4336
-- 1Y: -15.7851
+- 1M: 33.2887
+- 3M: 18.9438
+- 6M: 13.5420
+- 1Y: -14.4085
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.03, '3M': 3.15, '6M': 12.01, '1Y': 20.51}
-- excess_returns: {'1M': 24.0, '3M': 11.21, '6M': -0.57, '1Y': -36.3}
-- latest_volume: 11,481,329.0000
-- average_volume_30d: 12,662,037.6333
+- benchmark_returns: {'1M': 3.73, '3M': 3.36, '6M': 11.66, '1Y': 21.33}
+- excess_returns: {'1M': 29.56, '3M': 15.58, '6M': 1.89, '1Y': -35.74}
+- latest_volume: 8,348,520.0000
+- average_volume_30d: 12,662,970.6667
 
 ## News
 
-15点
+13点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が -0.32% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 1 件(純比率 +0.00)で、センチメントは 4.0 点です。
+- イベント後の平均株価反応が 1.82% とプラスです。
 
 Evidence
 
@@ -169,11 +169,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 3
-- negative_count: 0
-- sentiment_net_ratio: 1.0000
+- positive_count: 1
+- negative_count: 1
+- sentiment_net_ratio: 0.0000
 - event_count: 10
-- events_with_price_reaction: 8
+- events_with_price_reaction: 9
 
 ## Note
 

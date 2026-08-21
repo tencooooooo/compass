@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: AMD
-- Total Score: 65 / 100
+- Total Score: 71 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 65 点を獲得し、シグナル充足率は 65.0% です。
+- データが確認できた 100 点満点のうち 71 点を獲得し、シグナル充足率は 71.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -108,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 119.7589
-- forward_pe: 30.2950
+- trailing_pe: 120.1142
+- forward_pe: 30.5599
 - peg_ratio: 1.0000
-- price_to_book: 11.3970
+- price_to_book: 11.4892
 - sector_peer_count: 16
 - trailing_pe_percentile: 100
 - trailing_pe_peer_count: 15
@@ -128,11 +128,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -17.04pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは +1.74pt で、市場並み以上です。
-- 6M の対SPY超過リターンが +118.83pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンが +161.36pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.57 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -16.04pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは +1.90pt で、市場並み以上です。
+- 6M の対SPY超過リターンが +124.79pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンが +165.14pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.54 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -141,25 +141,25 @@ Evidence
 
 使用データ
 
-- 1M: -15.0046
-- 3M: 4.8874
-- 6M: 130.8379
-- 1Y: 181.8703
+- 1M: -12.3108
+- 3M: 5.2626
+- 6M: 136.4477
+- 1Y: 186.4709
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.03, '3M': 3.15, '6M': 12.01, '1Y': 20.51}
-- excess_returns: {'1M': -17.04, '3M': 1.74, '6M': 118.83, '1Y': 161.36}
-- latest_volume: 15,144,568.0000
-- average_volume_30d: 26,669,695.6000
+- benchmark_returns: {'1M': 3.73, '3M': 3.36, '6M': 11.66, '1Y': 21.33}
+- excess_returns: {'1M': -16.04, '3M': 1.9, '6M': 124.79, '1Y': 165.14}
+- latest_volume: 14,195,919.0000
+- average_volume_30d: 26,453,887.3000
 
 ## News
 
-7点
+13点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 0 件、悪材料 1 件(純比率 -1.00)で、センチメントは 0.0 点です。
-- イベント後の平均株価反応が 0.65% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 1 件(純比率 +0.60)で、センチメントは 6.4 点です。
+- イベント後の平均株価反応が 0.81% と中立圏です。
 
 Evidence
 
@@ -170,11 +170,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 0
+- positive_count: 4
 - negative_count: 1
-- sentiment_net_ratio: -1.0000
+- sentiment_net_ratio: 0.6000
 - event_count: 10
-- events_with_price_reaction: 6
+- events_with_price_reaction: 5
 
 ## Note
 

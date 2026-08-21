@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 3.96%
+- 市場全体の1Mモメンタム平均: 8.54%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,39 +21,39 @@
 
 ### 注目ニュース
 
-- 2026-08-20T22:05:00+00:00 / NVDA / Motley Fool: Moderna's Comeback Is Finally Taking Shape -- and There May Be More Upside Ahead
-- 2026-08-20T22:04:41+00:00 / AAPL / TheStreet: History of TSMC & its stock: Company timeline, facts & milestones
-- 2026-08-20T22:04:41+00:00 / NVDA / TheStreet: History of TSMC & its stock: Company timeline, facts & milestones
-- 2026-08-20T22:04:41+00:00 / AMD / TheStreet: History of TSMC & its stock: Company timeline, facts & milestones
-- 2026-08-20T22:04:41+00:00 / AVGO / TheStreet: History of TSMC & its stock: Company timeline, facts & milestones
+- 2026-08-21T22:00:54+00:00 / NVDA / Motley Fool: Why Amylyx Pharmaceuticals Blasted Nearly 79% Higher This Week
+- 2026-08-21T21:57:52+00:00 / NVDA / Motley Fool: Why Ross Stores Stock Is Up Today
+- 2026-08-21T21:53:01+00:00 / AAPL / Motley Fool: Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines.
+- 2026-08-21T21:53:01+00:00 / NVDA / Motley Fool: Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines.
+- 2026-08-21T21:53:01+00:00 / GOOGL / Motley Fool: Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines.
 
 ### 注目イベント
 
-- 2026-08-19T19:10:29+00:00 / NOW: Is ServiceNow (NOW) Quietly Becoming the Default Orchestrator for Enterprise AI Automation? (株価反応: 6.45%, 出来高: 22.50M)
-- 2026-08-19T18:18:07+00:00 / NOW: Why ServiceNow Stock Rallied Today (株価反応: 6.45%, 出来高: 22.50M)
-- 2026-08-19T18:15:00+00:00 / NOW: Software Stocks Are Bouncing Back From AI Fears. BofA Sees More Gains Ahead. (株価反応: 6.45%, 出来高: 22.50M)
-- 2026-08-19T17:18:00+00:00 / NOW: UiPath Stock Rises 44% in 6 Months: Should You 投資判断表現, 投資判断表現 or 投資判断表現? (株価反応: 6.45%, 出来高: 22.50M)
-- 2026-08-19T15:37:00+00:00 / NOW: Can Strong AI Adoption Help Atlassian Challenge CRM & NOW? (株価反応: 6.45%, 出来高: 22.50M)
+- 2026-08-21T19:00:43+00:00 / TSLA: Tesla vs. SpaceX: Which Musk Stock Offers the Better Bet on the Future? (株価反応: 5.14%, 出来高: 57.81M)
+- 2026-08-21T18:22:20+00:00 / TSLA: Tesla Jumps 3.6% as Semi Launch and Robotaxi Expansion Accelerate (株価反応: 5.14%, 出来高: 57.81M)
+- 2026-08-21T18:16:00+00:00 / TSLA: Cathie Wood's Ark Invest Held $1.16 Billion of Tesla Stock as of the End of the Second Quarter, Even as It Trails Every Other "Magnificent Seven" Stock in 2026. Is Her Conviction Still Justified? (株価反応: 5.14%, 出来高: 57.81M)
+- 2026-08-19T19:50:02+00:00 / ADBE: Stocks making big moves yesterday: ADP, Northrop Grumman, Bath and Body Works, DoorDash, and Adobe (株価反応: 3.55%, 出来高: 5.54M)
+- 2026-08-19T18:15:00+00:00 / ADBE: Software Stocks Are Bouncing Back From AI Fears. BofA Sees More Gains Ahead. (株価反応: 3.55%, 出来高: 5.54M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 54.00 | 18.74 | 11.20 | 3.79% | 60 |
-| Consumer Cyclical | 6 | 50.50 | 70.06 | 9.01 | 0.53% | 60 |
-| Technology | 12 | 65.33 | 43.52 | 8.64 | 5.77% | 120 |
+| Communication Services | 6 | 56.50 | 18.84 | 11.20 | 10.13% | 60 |
+| Consumer Cyclical | 6 | 52.50 | 73.86 | 9.00 | 6.18% | 60 |
+| Technology | 12 | 67.17 | 43.59 | 8.63 | 8.93% | 120 |
 
 ## 市場トレンド
 
 | セクター | Momentum | News | Financial Health |
 | --- | --- | --- | --- |
-| Communication Services | Positive | High | Good |
+| Communication Services | Strong | High | Good |
 | Consumer Cyclical | Positive | High | Neutral |
 | Technology | Positive | High | Good |
 
 ## 市場心理
 
-市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 240 件で、ポジティブなモメンタムのセクターは 3/3 です。
+市場はややリスクオン傾向と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 240 件で、ポジティブなモメンタムのセクターは 3/3 です。
 
 参照Knowledge: market_psychology.md
 

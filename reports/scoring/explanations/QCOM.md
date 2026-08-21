@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: QUALCOMM Incorporated
-- Total Score: 65 / 100
+- Total Score: 67 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 65 点を獲得し、シグナル充足率は 65.0% です。
+- データが確認できた 100 点満点のうち 67 点を獲得し、シグナル充足率は 67.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -107,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 18.3913
-- forward_pe: 15.7558
+- trailing_pe: 18.3924
+- forward_pe: 15.7568
 - peg_ratio: 0.7100
-- price_to_book: 6.1429
+- price_to_book: 6.1432
 - sector_peer_count: 16
 - trailing_pe_percentile: 14.2900
 - trailing_pe_peer_count: 15
@@ -123,14 +123,14 @@ Evidence
 
 ## Momentum
 
-4点
+5点
 
 理由
 
-- 1M の対SPY超過リターンは -10.51pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -23.48pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは +2.93pt で、市場並み以上です。
-- 1Y の対SPY超過リターンは -15.47pt と、市場を大きく下回っています。
+- 1M の対SPY超過リターンは -9.79pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -27.76pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは +1.99pt で、市場並み以上です。
+- 1Y の対SPY超過リターンは -15.73pt と、市場を大きく下回っています。
 - 直近出来高が30日平均の 0.74 倍で、市場関心はやや弱めです。
 
 Evidence
@@ -140,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: -8.4780
-- 3M: -20.3330
-- 6M: 14.9356
-- 1Y: 5.0419
+- 1M: -6.0546
+- 3M: -24.3973
+- 6M: 13.6476
+- 1Y: 5.5958
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.03, '3M': 3.15, '6M': 12.01, '1Y': 20.51}
-- excess_returns: {'1M': -10.51, '3M': -23.48, '6M': 2.93, '1Y': -15.47}
-- latest_volume: 8,503,585.0000
-- average_volume_30d: 11,419,382.8333
+- benchmark_returns: {'1M': 3.73, '3M': 3.36, '6M': 11.66, '1Y': 21.33}
+- excess_returns: {'1M': -9.79, '3M': -27.76, '6M': 1.99, '1Y': -15.73}
+- latest_volume: 8,515,558.0000
+- average_volume_30d: 11,467,978.6000
 
 ## News
 
-11点
+12点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 3 件(純比率 +0.00)で、センチメントは 4.0 点です。
-- イベント後の平均株価反応が -0.72% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 2 件(純比率 +0.20)で、センチメントは 4.8 点です。
+- イベント後の平均株価反応が -0.40% と中立圏です。
 
 Evidence
 
@@ -170,10 +170,10 @@ Evidence
 
 - news_count: 10
 - positive_count: 3
-- negative_count: 3
-- sentiment_net_ratio: 0.0000
+- negative_count: 2
+- sentiment_net_ratio: 0.2000
 - event_count: 10
-- events_with_price_reaction: 8
+- events_with_price_reaction: 9
 
 ## Note
 
