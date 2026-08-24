@@ -1,42 +1,41 @@
 # Space
 
-- Target companies: 7
-- Average Score: 65.50
-- Average Discovery: 75.00
-- Momentum: 7.22
+- Target companies: 6
+- Average Score: 59.33
+- Average Discovery: 74.00
+- Momentum: 3.61
 - Confidence: Medium
 
 ## Companies
 
-- AMD - AMD (Low): Keyword: space
-- AMZN - Amazon.com, Inc. (Medium): Keyword: space; Keyword: rocket; Keyword: spacex
+- AAPL - Apple Inc. (Low): Keyword: launch
+- AMD - AMD (Low): Keyword: spacex
 - DIS - DIS (Medium): Keyword: satellite; Sector alignment: Communication Services
-- GOOGL - Alphabet Inc. (Medium): Keyword: spacex; Sector alignment: Communication Services
-- META - Meta Platforms, Inc. (Medium): Keyword: spacex; Sector alignment: Communication Services
-- MSFT - Microsoft Corporation (Low): Keyword: spacex
-- TSLA - Tesla, Inc. (Low): Keyword: spacex
+- MSFT - Microsoft Corporation (Low): Keyword: launch
+- TMUS - T-Mobile US, Inc. (Medium): Keyword: satellite; Keyword: spacex; Sector alignment: Communication Services
+- TSLA - Tesla, Inc. (Medium): Keyword: spacex; Keyword: launch
 
 ## Market
 
-- Communication Services: score 61.50, momentum -6.83, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Consumer Cyclical: score 62.00, momentum -3.69, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Technology: score 65.50, momentum 6.66, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 56.50, momentum 10.13, trend {'momentum': 'Strong', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 52.50, momentum 6.18, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 67.17, momentum 8.93, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- AMD: Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows
-- AMZN: Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows
-- META: Institutional investors reveal cautious approach to tech favorites in US quarterly 13F filings
-- MSFT: Institutional investors reveal cautious approach to tech favorites in US quarterly 13F filings
-- GOOGL: Berkshire Boosted Alphabet, Delta Stakes in 2nd Quarter, Sold Bank of America
+- AAPL: Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines.
+- TSLA: US Stock Indices End Week Lower On Pressure From Elevated Long-Duration Treasury Yields — PSKY, MSTR, WMT, TSLA, NVDA In Focus
+- TSLA: Why Is Tesla Stock Up Today?
+- TSLA: Stock Market Today, Aug. 21: Tesla Gains on Nevada Robotaxi Permit Approval
+- AAPL: Jefferies Just Said Sell Apple (AAPL). Here’s the iPhone Feature That Got Canceled
 
 ## Similar Themes
 
-- AI: 0.987 (Shared companies: AMD, AMZN, GOOGL, META, MSFT; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Cybersecurity: 0.983 (Shared companies: GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
-- Cloud: 0.982 (Shared companies: AMD, AMZN, GOOGL, META, MSFT; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Robotics: 0.965 (Shared companies: GOOGL, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
-- Energy: 0.962 (Shared companies: META, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology)
+- AI: 0.996 (Shared companies: AAPL, AMD, MSFT, TMUS, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Semiconductor: 0.996 (Shared companies: AMD, MSFT, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cybersecurity: 0.994 (Shared companies: MSFT; Shared sectors: Communication Services, Technology)
+- Cloud: 0.989 (Shared companies: AAPL, AMD, MSFT, TMUS; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Fintech: 0.988 (Shared companies: AAPL; Shared sectors: Technology)
 
 ## Review Note
 

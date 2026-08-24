@@ -1,44 +1,43 @@
 # Robotics
 
 - Target companies: 9
-- Average Score: 57.67
-- Average Discovery: 66.00
-- Momentum: 3.07
+- Average Score: 64.00
+- Average Discovery: 68.14
+- Momentum: 10.80
 - Confidence: Medium
 
 ## Companies
 
+- AAPL - Apple Inc. (Medium): Keyword: autonomous; Keyword: autonomous driving; Sector alignment: Technology
 - ACN - Accenture plc (Medium): Keyword: robotics; Keyword: automation; Sector alignment: Technology
 - AMAT - Applied Materials, Inc. (Medium): Keyword: automation; Sector alignment: Technology
 - AVGO - Broadcom Inc. (Medium): Keyword: automation; Sector alignment: Technology
 - CRM - CRM (Medium): Keyword: autonomous; Sector alignment: Technology
-- GOOGL - Alphabet Inc. (Low): Keyword: autonomous
 - NOW - ServiceNow, Inc. (Medium): Keyword: autonomous; Keyword: automation; Sector alignment: Technology
-- NVDA - NVIDIA Corporation (Medium): Keyword: robotics; Keyword: autonomous; Sector alignment: Technology
+- NVDA - NVIDIA Corporation (Medium): Keyword: autonomous; Sector alignment: Technology
 - ORCL - Oracle Corporation (Medium): Keyword: autonomous; Sector alignment: Technology
-- TSLA - Tesla, Inc. (Medium): Keyword: autonomous; Sector alignment: Consumer Cyclical
+- TSLA - Tesla, Inc. (Medium): Keyword: autonomous; Keyword: autonomous driving; Sector alignment: Consumer Cyclical
 
 ## Market
 
-- Communication Services: score 61.50, momentum -6.83, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Consumer Cyclical: score 62.00, momentum -3.69, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Technology: score 65.50, momentum 6.66, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 52.50, momentum 6.18, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 67.17, momentum 8.93, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- GOOGL: Berkshire Boosted Alphabet, Delta Stakes in 2nd Quarter, Sold Bank of America
-- GOOGL: Alphabet Just Borrowed $25 Billion, and $2.5 Billion of It Isn't Due Until 2066
-- GOOGL: Berkshire ups Alphabet stake under Greg Abel, making it a top-3 holding
-- NVDA: Berkshire ups Alphabet stake under Greg Abel, making it a top-3 holding
-- TSLA: Stock Market Today, Aug. 14: Tesla Gains on TD Cowen Buy Reiteration and $460 Target
+- AAPL: Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines.
+- TSLA: US Stock Indices End Week Lower On Pressure From Elevated Long-Duration Treasury Yields — PSKY, MSTR, WMT, TSLA, NVDA In Focus
+- TSLA: Why Is Tesla Stock Up Today?
+- TSLA: Stock Market Today, Aug. 21: Tesla Gains on Nevada Robotaxi Permit Approval
+- AAPL: Jefferies Just Said Sell Apple (AAPL). Here’s the iPhone Feature That Got Canceled
 
 ## Similar Themes
 
-- Semiconductor: 0.995 (Shared companies: AMAT, AVGO, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology)
-- Cloud: 0.994 (Shared companies: ACN, AVGO, CRM, GOOGL, NOW; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
-- AI: 0.991 (Shared companies: ACN, AVGO, CRM, GOOGL, NOW; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
-- Cybersecurity: 0.986 (Shared companies: ACN, AVGO, GOOGL, NOW; Shared sectors: Communication Services, Technology; Similar average Discovery score)
-- Space: 0.965 (Shared companies: GOOGL, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
+- EV: 0.998 (Shared companies: AAPL, NVDA, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
+- Cloud: 0.98 (Shared companies: AAPL, ACN, AMAT, AVGO, CRM; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Semiconductor: 0.966 (Shared companies: AMAT, AVGO, CRM, NVDA, ORCL; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
+- AI: 0.964 (Shared companies: AAPL, ACN, AMAT, AVGO, CRM; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Fintech: 0.95 (Shared companies: AAPL, ACN; Shared sectors: Technology)
 
 ## Review Note
 

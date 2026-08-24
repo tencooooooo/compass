@@ -1,9 +1,9 @@
 # Healthcare
 
 - Target companies: 2
-- Average Score: N/A
-- Average Discovery: N/A
-- Momentum: N/A
+- Average Score: 68.50
+- Average Discovery: 71.00
+- Momentum: 36.52
 - Confidence: Medium
 
 ## Companies
@@ -13,19 +13,23 @@
 
 ## Market
 
-- Technology: score 65.50, momentum 6.66, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 67.17, momentum 8.93, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-No theme news available yet.
+- CRM: Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia, CrowdStrike, Warsh In Focus
+- CRM: Warsh at Jackson Hole, Nvidia Earnings: What to Watch Next Week
+- CRM: Microsoft Stock Gets Cheaper Only If The Forecast Arrives
+- NOW: Is UiPath's Expanding ARR Strengthening Its Long-Term Growth Story?
+- NOW: ServiceNow investors must consider latest alert from Bank of America
 
 ## Similar Themes
 
-- Fintech: 1.0 (Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Energy: 0.195 (Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Cybersecurity: 0.168 (Shared companies: NOW; Shared sectors: Technology)
-- Robotics: 0.148 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar short-term momentum)
-- EV: 0.111 (Shared sectors: Technology)
+- Quantum Computing: 0.995 (Shared companies: NOW; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Energy: 0.657 (Shared sectors: Technology; Similar average Discovery score)
+- Fintech: 0.233 (Shared sectors: Technology)
+- Biotechnology: 0.219 (Shared sectors: Technology)
+- Robotics: 0.147 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar average Discovery score)
 
 ## Review Note
 

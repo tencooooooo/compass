@@ -6,14 +6,14 @@ Pattern candidates require human review before Knowledge updates.
 
 - Confidence: Low
 - Evidence: High news volume with negative 1M momentum may indicate temporary attention.
-- Companies: AAPL, AMD, GOOGL, META, TSLA
+- Companies: AAPL, AMAT, AMD, AVGO, META, NKE, QCOM, TMUS, TSLA, TXN
 - Knowledge update: candidate only
 
 ## Elevated valuation
 
 - Confidence: Low
 - Evidence: Trailing PER above 80 suggests valuation sensitivity.
-- Companies: AMD, TSLA
+- Companies: AMD, NOW, TSLA
 - Knowledge update: candidate only
 
 ## Thin profit margin

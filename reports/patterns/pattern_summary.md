@@ -4,9 +4,9 @@
 - Success patterns: 3
 - Failure patterns: 3
 - Sector patterns: 3
-- Market patterns: 1
+- Market patterns: 0
 - Event patterns: 1
-- Discovery history snapshots: 35
+- Discovery history snapshots: 40
 - Time Machine reports: 0
 - Learning history entries: 0
 
@@ -32,7 +32,6 @@ Validation history is still limited. Patterns are candidates for human review, n
 - Technology cluster: Medium confidence
 
 ### Market Patterns
-- Weak sector momentum: Medium confidence
 
 ### Event Patterns
 - High event density: Low confidence

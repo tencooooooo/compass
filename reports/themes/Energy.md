@@ -1,41 +1,42 @@
 # Energy
 
-- Target companies: 6
-- Average Score: 55.00
-- Average Discovery: N/A
-- Momentum: N/A
+- Target companies: 8
+- Average Score: 58.33
+- Average Discovery: 69.33
+- Momentum: 3.04
 - Confidence: Medium
 
 ## Companies
 
 - ACN - Accenture plc (Low): Keyword: energy
-- AVGO - Broadcom Inc. (Low): Keyword: energy
-- META - Meta Platforms, Inc. (Low): Keyword: gas
+- AVGO - Broadcom Inc. (Medium): Keyword: energy; Keyword: oil
+- HD - HD (Low): Keyword: gas
+- LOW - LOW (Low): Keyword: gas
+- ORCL - Oracle Corporation (Low): Keyword: energy
 - ORLY - O'Reilly Automotive, Inc. (Medium): Keyword: battery; Keyword: oil
 - TSLA - Tesla, Inc. (Medium): Keyword: energy; Keyword: battery; Keyword: solar
 - TXN - Texas Instruments Incorporated (Low): Keyword: battery
 
 ## Market
 
-- Communication Services: score 61.50, momentum -6.83, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Consumer Cyclical: score 62.00, momentum -3.69, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Technology: score 65.50, momentum 6.66, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 52.50, momentum 6.18, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 67.17, momentum 8.93, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- META: Institutional investors reveal cautious approach to tech favorites in US quarterly 13F filings
-- META: Reddit Stock's Pullback Is Tempting, But Don't Ignore The User Question
-- TSLA: Stock Market Today, Aug. 14: Tesla Gains on TD Cowen Buy Reiteration and $460 Target
-- META: Tiger Global Management cuts stakes in Big Tech, buys into SpaceX
-- TSLA: Tesla owners in California have until Sept. 25 to claim this settlement money
+- TSLA: US Stock Indices End Week Lower On Pressure From Elevated Long-Duration Treasury Yields — PSKY, MSTR, WMT, TSLA, NVDA In Focus
+- TSLA: Why Is Tesla Stock Up Today?
+- HD: The Toughest Questions HD Faced On Its Latest Call
+- LOW: The Toughest Questions HD Faced On Its Latest Call
+- TSLA: Stock Market Today, Aug. 21: Tesla Gains on Nevada Robotaxi Permit Approval
 
 ## Similar Themes
 
-- Space: 0.962 (Shared companies: META, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology)
-- Cybersecurity: 0.949 (Shared companies: ACN, AVGO; Shared sectors: Communication Services, Technology)
-- AI: 0.926 (Shared companies: ACN, AVGO, META, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
-- Cloud: 0.915 (Shared companies: ACN, AVGO, META; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
-- Robotics: 0.899 (Shared companies: ACN, AVGO, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
+- Fintech: 0.686 (Shared companies: ACN; Shared sectors: Technology)
+- Cybersecurity: 0.68 (Shared companies: ACN, AVGO; Shared sectors: Technology; Similar average Discovery score)
+- Healthcare: 0.657 (Shared sectors: Technology; Similar average Discovery score)
+- Space: 0.62 (Shared companies: TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Quantum Computing: 0.608 (Shared sectors: Technology; Similar average Discovery score)
 
 ## Review Note
 

@@ -1,51 +1,54 @@
 # Cloud
 
-- Target companies: 16
-- Average Score: 65.71
-- Average Discovery: 71.17
-- Momentum: 4.89
+- Target companies: 19
+- Average Score: 64.33
+- Average Discovery: 70.08
+- Momentum: 7.43
 - Confidence: High
 
 ## Companies
 
-- AAPL - Apple Inc. (Medium): Keyword: cloud; Sector alignment: Technology
+- AAPL - Apple Inc. (Medium): Keyword: cloud; Keyword: infrastructure; Sector alignment: Technology
 - ACN - Accenture plc (High): Keyword: cloud; Keyword: aws; Keyword: infrastructure; Sector alignment: Technology
+- AMAT - Applied Materials, Inc. (Medium): Keyword: infrastructure; Sector alignment: Technology
 - AMD - AMD (High): Keyword: cloud; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology
-- AMZN - Amazon.com, Inc. (Low): Keyword: aws
+- AMZN - Amazon.com, Inc. (Medium): Keyword: aws; Keyword: infrastructure
 - AVGO - Broadcom Inc. (High): Keyword: cloud; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology
 - CRM - CRM (Medium): Keyword: cloud; Sector alignment: Technology
 - CSCO - Cisco Systems, Inc. (Medium): Keyword: cloud; Keyword: data center; Sector alignment: Technology
 - GOOGL - Alphabet Inc. (High): Keyword: cloud; Keyword: google cloud; Keyword: infrastructure; Sector alignment: Communication Services
 - INTC - Intel Corporation (High): Keyword: cloud; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology
-- META - Meta Platforms, Inc. (Medium): Keyword: infrastructure; Sector alignment: Communication Services
-- MSFT - Microsoft Corporation (Medium): Keyword: cloud; Keyword: infrastructure; Sector alignment: Technology
+- MSFT - Microsoft Corporation (High): Keyword: cloud; Keyword: azure; Keyword: infrastructure; Sector alignment: Technology
 - MU - MU (Medium): Keyword: cloud; Keyword: data center; Sector alignment: Technology
+- NFLX - Netflix, Inc. (Medium): Keyword: cloud; Sector alignment: Communication Services
 - NOW - ServiceNow, Inc. (Medium): Keyword: cloud; Keyword: infrastructure; Sector alignment: Technology
 - NVDA - NVIDIA Corporation (High): Keyword: cloud; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology
-- ORCL - Oracle Corporation (Medium): Keyword: cloud; Keyword: infrastructure; Sector alignment: Technology
+- ORCL - Oracle Corporation (High): Keyword: cloud; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology
 - QCOM - QUALCOMM Incorporated (Medium): Keyword: cloud; Keyword: data center; Sector alignment: Technology
+- TMUS - T-Mobile US, Inc. (Medium): Keyword: data center; Sector alignment: Communication Services
+- TXN - Texas Instruments Incorporated (Medium): Keyword: data center; Sector alignment: Technology
 
 ## Market
 
-- Communication Services: score 61.50, momentum -6.83, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Consumer Cyclical: score 62.00, momentum -3.69, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Technology: score 65.50, momentum 6.66, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 56.50, momentum 10.13, trend {'momentum': 'Strong', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 52.50, momentum 6.18, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 67.17, momentum 8.93, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- AMD: Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows
-- AMZN: Druckenmiller loads up on Amazon and AMD while dumping some chipmakers, 13F shows
-- META: Institutional investors reveal cautious approach to tech favorites in US quarterly 13F filings
-- MSFT: Institutional investors reveal cautious approach to tech favorites in US quarterly 13F filings
-- AAPL: Berkshire Boosted Alphabet, Delta Stakes in 2nd Quarter, Sold Bank of America
+- AAPL: Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines.
+- GOOGL: Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines.
+- GOOGL: Why Is Tesla Stock Up Today?
+- AMZN: The Toughest Questions HD Faced On Its Latest Call
+- NFLX: Consumer Subscription Stocks Q2 Results: Benchmarking Netflix (NASDAQ:NFLX)
 
 ## Similar Themes
 
-- AI: 0.999 (Shared companies: AAPL, ACN, AMD, AMZN, AVGO; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Robotics: 0.994 (Shared companies: ACN, AVGO, CRM, GOOGL, NOW; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
-- Semiconductor: 0.99 (Shared companies: AMD, AMZN, AVGO, INTC, META; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
-- Cybersecurity: 0.982 (Shared companies: ACN, AVGO, CSCO, GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score)
-- Space: 0.982 (Shared companies: AMD, AMZN, GOOGL, META, MSFT; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Semiconductor: 0.998 (Shared companies: AMAT, AMD, AMZN, AVGO, CRM; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- AI: 0.997 (Shared companies: AAPL, ACN, AMAT, AMD, AMZN; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Space: 0.989 (Shared companies: AAPL, AMD, MSFT, TMUS; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- EV: 0.98 (Shared companies: AAPL, NVDA, TXN; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
+- Robotics: 0.98 (Shared companies: AAPL, ACN, AMAT, AVGO, CRM; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
 
 ## Review Note
 
