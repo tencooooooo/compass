@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 8.54%
+- 市場全体の1Mモメンタム平均: 7.20%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,33 +21,33 @@
 
 ### 注目ニュース
 
-- 2026-08-21T22:00:54+00:00 / NVDA / Motley Fool: Why Amylyx Pharmaceuticals Blasted Nearly 79% Higher This Week
-- 2026-08-21T21:57:52+00:00 / NVDA / Motley Fool: Why Ross Stores Stock Is Up Today
-- 2026-08-21T21:53:01+00:00 / AAPL / Motley Fool: Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines.
-- 2026-08-21T21:53:01+00:00 / NVDA / Motley Fool: Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines.
-- 2026-08-21T21:53:01+00:00 / GOOGL / Motley Fool: Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines.
+- 2026-08-24T22:03:00+00:00 / MSFT / TheStreet: Nvidia customers face 15% AI price shock
+- 2026-08-24T22:03:00+00:00 / NVDA / TheStreet: Nvidia customers face 15% AI price shock
+- 2026-08-24T22:03:00+00:00 / ORCL / TheStreet: Nvidia customers face 15% AI price shock
+- 2026-08-24T22:03:00+00:00 / GOOGL / TheStreet: Nvidia customers face 15% AI price shock
+- 2026-08-24T22:01:01+00:00 / NVDA / Motley Fool: Prediction: Not Micron. This Artificial Intelligence (AI) Stock Could Be the Biggest Winner of the Next Infrastructure Bottleneck
 
 ### 注目イベント
 
-- 2026-08-21T19:00:43+00:00 / TSLA: Tesla vs. SpaceX: Which Musk Stock Offers the Better Bet on the Future? (株価反応: 5.14%, 出来高: 57.81M)
-- 2026-08-21T18:22:20+00:00 / TSLA: Tesla Jumps 3.6% as Semi Launch and Robotaxi Expansion Accelerate (株価反応: 5.14%, 出来高: 57.81M)
-- 2026-08-21T18:16:00+00:00 / TSLA: Cathie Wood's Ark Invest Held $1.16 Billion of Tesla Stock as of the End of the Second Quarter, Even as It Trails Every Other "Magnificent Seven" Stock in 2026. Is Her Conviction Still Justified? (株価反応: 5.14%, 出来高: 57.81M)
-- 2026-08-19T19:50:02+00:00 / ADBE: Stocks making big moves yesterday: ADP, Northrop Grumman, Bath and Body Works, DoorDash, and Adobe (株価反応: 3.55%, 出来高: 5.54M)
-- 2026-08-19T18:15:00+00:00 / ADBE: Software Stocks Are Bouncing Back From AI Fears. BofA Sees More Gains Ahead. (株価反応: 3.55%, 出来高: 5.54M)
+- 2026-08-24T18:50:40+00:00 / TSLA: Tesla stops 投資判断表現 solar roofs a decade after launch (株価反応: -3.83%, 出来高: 39.02M)
+- 2026-08-24T18:31:48+00:00 / TSLA: Tesla Just Took a Blow to Its AI Chip Plans (株価反応: -3.83%, 出来高: 39.02M)
+- 2026-08-24T18:15:37+00:00 / TSLA: Why Tesla (TSLA) Is Up 6.9% After Robotaxi Approvals And 500 Semi Deal News - And What's Next (株価反応: -3.83%, 出来高: 39.02M)
+- 2026-08-24T17:34:35+00:00 / TSLA: Tesla's Biggest Robotaxi Test Arrives Sept. 3 (株価反応: -3.83%, 出来高: 39.02M)
+- 2026-08-24T17:27:45+00:00 / TSLA: Tesla Stock Fans Just Got Bad News From China (株価反応: -3.83%, 出来高: 39.02M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 56.50 | 18.84 | 11.20 | 10.13% | 60 |
-| Consumer Cyclical | 6 | 52.50 | 73.86 | 9.00 | 6.18% | 60 |
-| Technology | 12 | 67.17 | 43.59 | 8.63 | 8.93% | 120 |
+| Communication Services | 6 | 59.50 | 19.04 | 11.20 | 9.35% | 60 |
+| Consumer Cyclical | 6 | 54.00 | 70.79 | 9.01 | 5.15% | 60 |
+| Technology | 12 | 63.83 | 42.83 | 8.63 | 7.15% | 120 |
 
 ## 市場トレンド
 
 | セクター | Momentum | News | Financial Health |
 | --- | --- | --- | --- |
-| Communication Services | Strong | High | Good |
+| Communication Services | Positive | High | Good |
 | Consumer Cyclical | Positive | High | Neutral |
 | Technology | Positive | High | Good |
 

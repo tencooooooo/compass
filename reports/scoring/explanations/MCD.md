@@ -4,7 +4,7 @@
 
 ## Summary
 
-- Company: MCD
+- Company: McDonald's Corporation
 - Total Score: 40 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
@@ -101,7 +101,7 @@ Evidence
 - PER はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。
 - PEG はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
-- PBR は -187.38 で、指標がマイナスのため加点対象外です。
+- PBR は -188.48 で、指標がマイナスのため加点対象外です。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -111,10 +111,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 22.0285
-- forward_pe: 19.3558
-- peg_ratio: 2.4900
-- price_to_book: -187.3790
+- trailing_pe: 22.1577
+- forward_pe: 19.4694
+- peg_ratio: 2.5300
+- price_to_book: -188.4786
 - sector_peer_count: 10
 - trailing_pe_percentile: 33.3300
 - trailing_pe_peer_count: 10
@@ -131,11 +131,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -0.63pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -7.37pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -28.34pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -32.68pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.84 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -0.38pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -5.45pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -30.00pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -32.33pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.92 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -144,15 +144,15 @@ Evidence
 
 使用データ
 
-- 1M: 3.1012
-- 3M: -4.0089
-- 6M: -16.6809
-- 1Y: -11.3568
+- 1M: 2.9385
+- 3M: -2.7922
+- 6M: -17.5271
+- 1Y: -10.8764
 - benchmark: SPY
-- benchmark_returns: {'1M': 3.73, '3M': 3.36, '6M': 11.66, '1Y': 21.33}
-- excess_returns: {'1M': -0.63, '3M': -7.37, '6M': -28.34, '1Y': -32.68}
-- latest_volume: 3,774,172.0000
-- average_volume_30d: 4,479,002.4000
+- benchmark_returns: {'1M': 3.32, '3M': 2.66, '6M': 12.48, '1Y': 21.46}
+- excess_returns: {'1M': -0.38, '3M': -5.45, '6M': -30.0, '1Y': -32.33}
+- latest_volume: 4,111,699.0000
+- average_volume_30d: 4,477,133.3000
 
 ## News
 
@@ -161,8 +161,8 @@ Evidence
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 2 件(純比率 +0.33)で、センチメントは 5.3 点です。
-- イベント後の平均株価反応が 0.64% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 3 件(純比率 +0.14)で、センチメントは 4.6 点です。
+- イベント後の平均株価反応が 0.62% と中立圏です。
 
 Evidence
 
@@ -174,8 +174,8 @@ Evidence
 
 - news_count: 10
 - positive_count: 4
-- negative_count: 2
-- sentiment_net_ratio: 0.3300
+- negative_count: 3
+- sentiment_net_ratio: 0.1400
 - event_count: 10
 - events_with_price_reaction: 10
 
