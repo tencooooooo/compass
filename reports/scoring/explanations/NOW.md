@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: ServiceNow, Inc.
-- Total Score: 65 / 100
+- Total Score: 67 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 65 点を獲得し、シグナル充足率は 65.0% です。
+- データが確認できた 100 点満点のうち 67 点を獲得し、シグナル充足率は 67.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -107,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 79.5342
-- forward_pe: 25.5818
+- trailing_pe: 79.3750
+- forward_pe: 25.3720
 - peg_ratio: 1.1500
-- price_to_book: 10.5774
+- price_to_book: 10.4907
 - sector_peer_count: 16
 - trailing_pe_percentile: 92.8600
 - trailing_pe_peer_count: 15
@@ -127,11 +127,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンが +26.31pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンが +22.72pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +14.56pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -48.45pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.40 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンが +16.68pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンが +24.80pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +11.89pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -48.39pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.55 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -140,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: 29.6315
-- 3M: 25.3794
-- 6M: 27.0337
-- 1Y: -26.9929
+- 1M: 20.3107
+- 3M: 27.1017
+- 6M: 23.9145
+- 1Y: -28.3902
 - benchmark: SPY
-- benchmark_returns: {'1M': 3.32, '3M': 2.66, '6M': 12.48, '1Y': 21.46}
-- excess_returns: {'1M': 26.31, '3M': 22.72, '6M': 14.56, '1Y': -48.45}
-- latest_volume: 8,930,312.0000
-- average_volume_30d: 22,492,497.0667
+- benchmark_returns: {'1M': 3.63, '3M': 2.3, '6M': 12.02, '1Y': 20.0}
+- excess_returns: {'1M': 16.68, '3M': 24.8, '6M': 11.89, '1Y': -48.39}
+- latest_volume: 12,253,929.0000
+- average_volume_30d: 22,129,444.3000
 
 ## News
 
-13点
+15点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 1 件(純比率 +0.60)で、センチメントは 6.4 点です。
-- イベント後の平均株価反応が -0.72% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が -0.67% と中立圏です。
 
 Evidence
 
@@ -170,8 +170,8 @@ Evidence
 
 - news_count: 10
 - positive_count: 4
-- negative_count: 1
-- sentiment_net_ratio: 0.6000
+- negative_count: 0
+- sentiment_net_ratio: 1.0000
 - event_count: 10
 - events_with_price_reaction: 10
 

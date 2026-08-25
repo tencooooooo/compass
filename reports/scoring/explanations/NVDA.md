@@ -5,30 +5,30 @@
 ## Summary
 
 - Company: NVIDIA Corporation
-- Total Score: 56 / 100
-- Confidence: Medium
-- Signal Strength: Moderate
+- Total Score: 77 / 100
+- Confidence: High
+- Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
 
-Medium
+High
 
 理由
 
 - 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 1 件です。
-- 主要データは一定程度ありますが、欠損や未取得項目が残っています。
+- 欠損または計算不可の項目数は 0 件です。
+- 主要データが比較的そろっており、説明可能性は高めです。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
 
-Moderate
+Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 56 点を獲得し、シグナル充足率は 56.0% です。
-- シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
+- データが確認できた 100 点満点のうち 77 点を獲得し、シグナル充足率は 77.0% です。
+- シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
@@ -66,14 +66,14 @@ Evidence
 
 ## Financial Health
 
-14点
+20点
 
 理由
 
 - 現金 がプラスで確認できるため加点しています。
 - 自己資本がプラスで、財務基盤を確認できます。
-- 総負債が取得できないため、負債項目は加点していません。
-- 長期債務が確認できるため、返済負担の継続確認が必要です。
+- 総負債/自己資本が 0.31 倍で、負債負担は相対的に抑えられています。
+- 長期債務が総負債に対して過度に大きくないため加点しています。
 - Current Ratio が 3.91 で、短期支払余力が確認できます。
 
 Evidence
@@ -84,14 +84,10 @@ Evidence
 使用データ
 
 - cash: 10,605,000,000.0000
-- total_liabilities: N/A
+- total_liabilities: 49,510,000,000.0000
 - shareholders_equity: 157,293,000,000.0000
 - long_term_debt: 7,469,000,000.0000
 - current_ratio: 3.9053
-
-欠損・計算不可
-
-- total_liabilities
 
 ## Valuation
 
@@ -112,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 31.9265
-- forward_pe: 15.9865
+- trailing_pe: 32.6263
+- forward_pe: 16.3369
 - peg_ratio: 0.5900
-- price_to_book: 25.8340
+- price_to_book: 26.4002
 - sector_peer_count: 16
 - trailing_pe_percentile: 50.0000
 - trailing_pe_peer_count: 15
@@ -128,15 +124,15 @@ Evidence
 
 ## Momentum
 
-7点
+9点
 
 理由
 
-- 1M の対SPY超過リターンは -2.53pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -5.72pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -3.51pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンは -2.15pt と、市場を小幅に下回っています。
-- 直近出来高が30日平均の 1.14 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +4.79pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -3.03pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -1.41pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは -0.15pt と、市場を小幅に下回っています。
+- 直近出来高が30日平均の 1.02 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -145,25 +141,25 @@ Evidence
 
 使用データ
 
-- 1M: 0.7929
-- 3M: -3.0683
-- 6M: 8.9712
-- 1Y: 19.3037
+- 1M: 8.4169
+- 3M: -0.7268
+- 6M: 10.6092
+- 1Y: 19.8572
 - benchmark: SPY
-- benchmark_returns: {'1M': 3.32, '3M': 2.66, '6M': 12.48, '1Y': 21.46}
-- excess_returns: {'1M': -2.53, '3M': -5.72, '6M': -3.51, '1Y': -2.15}
-- latest_volume: 134,405,887.0000
-- average_volume_30d: 118,084,246.2333
+- benchmark_returns: {'1M': 3.63, '3M': 2.3, '6M': 12.02, '1Y': 20.0}
+- excess_returns: {'1M': 4.79, '3M': -3.03, '6M': -1.41, '1Y': -0.15}
+- latest_volume: 120,441,439.0000
+- average_volume_30d: 117,989,811.3000
 
 ## News
 
-4点
+17点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 0 件、悪材料 2 件(純比率 -1.00)で、センチメントは 0.0 点です。
-- イベント後の平均株価反応が -2.91% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が 1.17% とプラスです。
 
 Evidence
 
@@ -174,11 +170,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 0
-- negative_count: 2
-- sentiment_net_ratio: -1.0000
+- positive_count: 3
+- negative_count: 0
+- sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 3
+- events_with_price_reaction: 5
 
 ## Note
 

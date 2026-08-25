@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Amazon.com, Inc.
-- Total Score: 72 / 100
+- Total Score: 74 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 72 点を獲得し、シグナル充足率は 72.0% です。
+- データが確認できた 100 点満点のうち 74 点を獲得し、シグナル充足率は 74.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -111,10 +111,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 21.0667
-- forward_pe: 25.2221
+- trailing_pe: 21.0193
+- forward_pe: 25.1248
 - peg_ratio: 1.3800
-- price_to_book: 5.1230
+- price_to_book: 5.1032
 - sector_peer_count: 10
 - trailing_pe_percentile: 22.2200
 - trailing_pe_peer_count: 10
@@ -131,11 +131,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは +9.59pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -4.25pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンが +15.19pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -3.38pt と、市場を小幅に下回っています。
-- 直近出来高が30日平均の 0.63 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは +9.19pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -3.90pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンが +13.15pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -5.92pt と、市場を小幅に下回っています。
+- 直近出来高が30日平均の 0.58 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -144,25 +144,25 @@ Evidence
 
 使用データ
 
-- 1M: 12.9077
-- 3M: -1.5958
-- 6M: 27.6709
-- 1Y: 18.0761
+- 1M: 12.8225
+- 3M: -1.5945
+- 6M: 25.1726
+- 1Y: 14.0797
 - benchmark: SPY
-- benchmark_returns: {'1M': 3.32, '3M': 2.66, '6M': 12.48, '1Y': 21.46}
-- excess_returns: {'1M': 9.59, '3M': -4.25, '6M': 15.19, '1Y': -3.38}
-- latest_volume: 27,975,466.0000
-- average_volume_30d: 44,280,922.2000
+- benchmark_returns: {'1M': 3.63, '3M': 2.3, '6M': 12.02, '1Y': 20.0}
+- excess_returns: {'1M': 9.19, '3M': -3.9, '6M': 13.15, '1Y': -5.92}
+- latest_volume: 25,452,240.0000
+- average_volume_30d: 44,131,231.3333
 
 ## News
 
-13点
+15点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 1 件(純比率 +0.00)で、センチメントは 4.0 点です。
-- イベント後の平均株価反応が 1.33% とプラスです。
+- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が -0.39% と中立圏です。
 
 Evidence
 
@@ -173,11 +173,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 1
-- negative_count: 1
-- sentiment_net_ratio: 0.0000
+- positive_count: 4
+- negative_count: 0
+- sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 6
+- events_with_price_reaction: 4
 
 ## Note
 
