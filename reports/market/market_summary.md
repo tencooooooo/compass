@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 6.21%
+- 市場全体の1Mモメンタム平均: 5.06%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-08-25T22:08:00+00:00 / MSFT / Zacks: Is Marvell (MRVL) Stock Poised for Another AI-Fueled Rally as Q2 Earnings Approach?
-- 2026-08-25T22:08:00+00:00 / AMD / Zacks: Is Marvell (MRVL) Stock Poised for Another AI-Fueled Rally as Q2 Earnings Approach?
-- 2026-08-25T22:08:00+00:00 / AVGO / Zacks: Is Marvell (MRVL) Stock Poised for Another AI-Fueled Rally as Q2 Earnings Approach?
-- 2026-08-25T22:08:00+00:00 / AMZN / Zacks: Is Marvell (MRVL) Stock Poised for Another AI-Fueled Rally as Q2 Earnings Approach?
-- 2026-08-25T22:05:00+00:00 / CRM / Motley Fool: Salesforce's AI Agent Business Is Growing Over 200%, But Will It Show Up in Its Order Book?
+- 2026-08-27T02:14:40+00:00 / NVDA / Investor's Business Daily: Dow Jones Futures Rise; Nvidia, CrowdStrike, Okta, Salesforce Lead Earnings Movers
+- 2026-08-27T02:14:40+00:00 / AMD / Investor's Business Daily: Dow Jones Futures Rise; Nvidia, CrowdStrike, Okta, Salesforce Lead Earnings Movers
+- 2026-08-27T02:14:40+00:00 / CRM / Investor's Business Daily: Dow Jones Futures Rise; Nvidia, CrowdStrike, Okta, Salesforce Lead Earnings Movers
+- 2026-08-27T02:10:04+00:00 / NVDA / Stocktwits: Nvidia Brushes Off ‘Circular Financing’ Fears After Massive Sales Beat: ‘We See It Differently’
+- 2026-08-27T02:00:00+00:00 / NVDA / BeInCrypto: Nvidia's Record Results Aren't ‘Impressive Enough' Because It's Sold Out, Analyst Says
 
 ### 注目イベント
 
-- 2026-08-25T19:58:27+00:00 / AMD: AMD Just Got a Major AI Vote of Confidence (株価反応: 4.91%, 出来高: 18.91M)
-- 2026-08-25T19:42:44+00:00 / AMD: AMD, Marvell Technology, Semtech, Allegro MicroSystems, and MACOM Stocks Trade Up, What You Need To Know (株価反応: 4.91%, 出来高: 18.91M)
-- 2026-08-25T19:33:00+00:00 / AMD: AMD May Have Found Its Next Big AI Growth Engine (株価反応: 4.91%, 出来高: 18.91M)
-- 2026-08-25T19:27:02+00:00 / AMD: AMD Jumps 3.9% as $641 Target Reprices Server CPUs (株価反応: 4.91%, 出来高: 18.91M)
-- 2026-08-25T18:38:00+00:00 / AMD: AMD Stock Gets a ‘Strong 投資判断表現’ Upgrade: Why It Could Outperform Nvidia (株価反応: 4.91%, 出来高: 18.91M)
+- 2026-08-24T12:54:06+00:00 / NVDA: Tech stocks today: Meta agrees to settle social media case for $16.68 billion; Nvidia tops Q2 expectations (株価反応: -2.91%, 出来高: 135.19M)
+- 2026-08-26T19:59:31+00:00 / ORCL: Michael Burry Buys NVDA Calls As A ‘Hedge,’ Adds To ORCL, PLTR, NBIS Shorts — Why He Thinks ‘Nvidia Will Not Distribute Enough To Shareholders’ (株価反応: 2.84%, 出来高: 18.07M)
+- 2026-08-26T19:19:35+00:00 / ORCL: Is It Time To 投資判断表現 The Dip In Cash-Rich Adobe Stock? (株価反応: 2.84%, 出来高: 18.07M)
+- 2026-08-26T19:00:22+00:00 / ORCL: Nvidia’s AI Servers Are About to Get Pricier — What a 15%+ Hike Means for the Whole Stack (株価反応: 2.84%, 出来高: 18.07M)
+- 2026-08-26T18:01:59+00:00 / ORCL: Oracle CEO Sicilia Says AI Is Reshaping Cloud Growth, Pricing and Enterprise Demand (株価反応: 2.84%, 出来高: 18.07M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 57.50 | 19.24 | 11.20 | 9.25% | 60 |
-| Consumer Cyclical | 6 | 52.50 | 71.28 | 9.00 | 3.47% | 60 |
-| Technology | 12 | 68.25 | 43.31 | 8.63 | 6.06% | 120 |
+| Communication Services | 6 | 55.00 | 19.19 | 11.17 | 5.65% | 60 |
+| Consumer Cyclical | 6 | 50.17 | 71.07 | 8.94 | 1.04% | 60 |
+| Technology | 12 | 67.58 | 43.39 | 8.65 | 6.78% | 120 |
 
 ## 市場トレンド
 

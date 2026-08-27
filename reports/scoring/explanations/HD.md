@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: The Home Depot, Inc.
-- Total Score: 51 / 100
+- Total Score: 49 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 51 点を獲得し、シグナル充足率は 51.0% です。
+- データが確認できた 100 点満点のうち 49 点を獲得し、シグナル充足率は 49.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -98,7 +98,7 @@ Evidence
 
 理由
 
-- PER はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
+- PER はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
 - PEG はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
 - PBR はセクター内 100.00 パーセンタイル / 母数 5 で、相対的な加点は抑えています。
@@ -111,12 +111,12 @@ Evidence
 
 使用データ
 
-- trailing_pe: 23.6776
-- forward_pe: 21.0666
+- trailing_pe: 23.6476
+- forward_pe: 20.8777
 - peg_ratio: 1.8700
-- price_to_book: 20.2118
+- price_to_book: 20.0305
 - sector_peer_count: 10
-- trailing_pe_percentile: 44.4400
+- trailing_pe_percentile: 55.5600
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 44.4400
 - forward_pe_peer_count: 10
@@ -127,15 +127,15 @@ Evidence
 
 ## Momentum
 
-5点
+7点
 
 理由
 
-- 1M の対SPY超過リターンは -3.10pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは +7.32pt で、市場並み以上です。
-- 6M の対SPY超過リターンは -22.89pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -35.97pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.61 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -6.20pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは +3.79pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -20.68pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -36.49pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.87 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -144,25 +144,25 @@ Evidence
 
 使用データ
 
-- 1M: 0.5326
-- 3M: 9.6201
-- 6M: -10.8692
-- 1Y: -15.9710
+- 1M: -2.7927
+- 3M: 6.1386
+- 6M: -9.5729
+- 1Y: -15.9323
 - benchmark: SPY
-- benchmark_returns: {'1M': 3.63, '3M': 2.3, '6M': 12.02, '1Y': 20.0}
-- excess_returns: {'1M': -3.1, '3M': 7.32, '6M': -22.89, '1Y': -35.97}
-- latest_volume: 2,373,867.0000
-- average_volume_30d: 3,863,272.2333
+- benchmark_returns: {'1M': 3.4, '3M': 2.34, '6M': 11.11, '1Y': 20.56}
+- excess_returns: {'1M': -6.2, '3M': 3.79, '6M': -20.68, '1Y': -36.49}
+- latest_volume: 3,360,291.0000
+- average_volume_30d: 3,848,653.0333
 
 ## News
 
-14点
+10点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 1 件(純比率 +0.67)で、センチメントは 6.7 点です。
-- イベント後の平均株価反応が 0.32% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 3 件(純比率 -0.20)で、センチメントは 3.2 点です。
+- イベント後の平均株価反応が -0.69% と中立圏です。
 
 Evidence
 
@@ -173,11 +173,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 5
-- negative_count: 1
-- sentiment_net_ratio: 0.6700
+- positive_count: 2
+- negative_count: 3
+- sentiment_net_ratio: -0.2000
 - event_count: 10
-- events_with_price_reaction: 9
+- events_with_price_reaction: 10
 
 ## Note
 

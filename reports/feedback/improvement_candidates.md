@@ -7,17 +7,17 @@
 ### Sector Accuracy / Medium
 
 - 候補: Communication Services セクターのMomentum補正または評価条件を見直す。
-- 理由: 完了済みValidationの失敗率が 63.74% です。
+- 理由: 完了済みValidationの失敗率が 62.11% です。
 
 ### Sector Accuracy / Medium
 
 - 候補: Consumer Cyclical セクターのMomentum補正または評価条件を見直す。
-- 理由: 完了済みValidationの失敗率が 55.26% です。
+- 理由: 完了済みValidationの失敗率が 55.0% です。
 
 ### Sector Accuracy / Medium
 
 - 候補: Technology セクターのMomentum補正または評価条件を見直す。
-- 理由: 完了済みValidationの失敗率が 46.41% です。
+- 理由: 完了済みValidationの失敗率が 45.98% です。
 
 ### Momentum / Low
 

@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Adobe Inc.
-- Total Score: 71 / 100
+- Total Score: 70 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 71 点を獲得し、シグナル充足率は 71.0% です。
+- データが確認できた 100 点満点のうち 70 点を獲得し、シグナル充足率は 70.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -106,10 +106,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 15.6615
-- forward_pe: 9.9642
+- trailing_pe: 15.6447
+- forward_pe: 9.9478
 - peg_ratio: 0.6700
-- price_to_book: 9.4890
+- price_to_book: 9.4734
 - sector_peer_count: 16
 - trailing_pe_percentile: 7.1400
 - trailing_pe_peer_count: 15
@@ -122,15 +122,15 @@ Evidence
 
 ## Momentum
 
-10点
+9点
 
 理由
 
-- 1M の対SPY超過リターンが +11.58pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンが +11.60pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンは -4.67pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンは -44.35pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.63 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは +6.34pt で、市場並み以上です。
+- 3M の対SPY超過リターンが +12.44pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンは -5.03pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは -45.27pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.72 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -139,15 +139,15 @@ Evidence
 
 使用データ
 
-- 1M: 15.2135
-- 3M: 13.9008
-- 6M: 7.3480
-- 1Y: -24.3503
+- 1M: 9.7480
+- 3M: 14.7876
+- 6M: 6.0742
+- 1Y: -24.7075
 - benchmark: SPY
-- benchmark_returns: {'1M': 3.63, '3M': 2.3, '6M': 12.02, '1Y': 20.0}
-- excess_returns: {'1M': 11.58, '3M': 11.6, '6M': -4.67, '1Y': -44.35}
-- latest_volume: 3,131,003.0000
-- average_volume_30d: 4,951,870.1000
+- benchmark_returns: {'1M': 3.4, '3M': 2.34, '6M': 11.11, '1Y': 20.56}
+- excess_returns: {'1M': 6.34, '3M': 12.44, '6M': -5.03, '1Y': -45.27}
+- latest_volume: 3,526,551.0000
+- average_volume_30d: 4,910,595.0333
 
 ## News
 
@@ -156,8 +156,8 @@ Evidence
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が -0.37% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が -0.52% と中立圏です。
 
 Evidence
 
@@ -168,7 +168,7 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 3
+- positive_count: 1
 - negative_count: 0
 - sentiment_net_ratio: 1.0000
 - event_count: 10
