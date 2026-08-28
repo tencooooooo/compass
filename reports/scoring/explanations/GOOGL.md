@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Alphabet Inc.
-- Total Score: 62 / 100
+- Total Score: 63 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 62 点を獲得し、シグナル充足率は 62.0% です。
+- データが確認できた 100 点満点のうち 63 点を獲得し、シグナル充足率は 63.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -94,13 +94,13 @@ Evidence
 
 ## Valuation
 
-6点
+8点
 
 理由
 
 - PER はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 100.00 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
-- PEG はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。
+- PEG はセクター内 22.22 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - PBR はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -111,31 +111,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 17.4223
-- forward_pe: 23.0909
+- trailing_pe: 17.1526
+- forward_pe: 22.9998
 - peg_ratio: 0.9400
-- price_to_book: 6.7196
+- price_to_book: 6.6931
 - sector_peer_count: 10
 - trailing_pe_percentile: 44.4400
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 100
 - forward_pe_peer_count: 10
-- peg_ratio_percentile: 33.3300
+- peg_ratio_percentile: 22.2200
 - peg_ratio_peer_count: 10
 - price_to_book_percentile: 77.7800
 - price_to_book_peer_count: 10
 
 ## Momentum
 
-7点
+9点
 
 理由
 
-- 1M の対SPY超過リターンは -0.92pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -14.34pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -1.67pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンが +43.94pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.70 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -4.54pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -15.08pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -1.49pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンが +44.08pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.83 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -144,25 +144,25 @@ Evidence
 
 使用データ
 
-- 1M: 2.4842
-- 3M: -11.9913
-- 6M: 9.4424
-- 1Y: 64.5046
+- 1M: 1.1701
+- 3M: -12.6308
+- 6M: 10.9680
+- 1Y: 64.9231
 - benchmark: SPY
-- benchmark_returns: {'1M': 3.4, '3M': 2.34, '6M': 11.11, '1Y': 20.56}
-- excess_returns: {'1M': -0.92, '3M': -14.34, '6M': -1.67, '1Y': 43.94}
-- latest_volume: 20,094,343.0000
-- average_volume_30d: 28,695,648.1000
+- benchmark_returns: {'1M': 5.71, '3M': 2.45, '6M': 12.46, '1Y': 20.85}
+- excess_returns: {'1M': -4.54, '3M': -15.08, '6M': -1.49, '1Y': 44.08}
+- latest_volume: 23,352,300.0000
+- average_volume_30d: 28,112,973.3333
 
 ## News
 
-15点
+12点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が -0.24% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 2 件(純比率 +0.33)で、センチメントは 5.3 点です。
+- イベント後の平均株価反応が 0.27% と中立圏です。
 
 Evidence
 
@@ -174,8 +174,8 @@ Evidence
 
 - news_count: 10
 - positive_count: 4
-- negative_count: 0
-- sentiment_net_ratio: 1.0000
+- negative_count: 2
+- sentiment_net_ratio: 0.3300
 - event_count: 10
 - events_with_price_reaction: 2
 

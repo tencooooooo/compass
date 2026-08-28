@@ -10,7 +10,7 @@
 
 ## Discovery Score
 
-71 / 100
+73 / 100
 
 ## Discovery Reasons
 
@@ -21,9 +21,9 @@
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで -2.89pt と、市場を小幅に下回っています。
-- 3Mモメンタムは対SPYで -31.94pt と弱く、候補評価では注意点です。
-- 6Mモメンタムは対SPYで +2.30pt と、市場並み以上です。
+- 1Mモメンタムは対SPYで +0.14pt と、市場並み以上です。
+- 3Mモメンタムは対SPYで -34.47pt と弱く、候補評価では注意点です。
+- 6Mモメンタムは対SPYで +1.87pt と、市場並み以上です。
 
 ## Strengths
 
@@ -33,7 +33,7 @@
 
 ## Watch Points
 
-- 注意材料になり得るニュース表現が 3 件あります。
+- 注意材料になり得るニュース表現が 2 件あります。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Technology セクター全体の需要変化と競争環境を確認する必要があります。
@@ -46,7 +46,7 @@ High
 
 ## Signal Strength
 
-Strong(シグナル充足率: 70.95%)
+Strong(シグナル充足率: 72.55%)
 
 ## Evidence
 
@@ -65,8 +65,8 @@ Strong(シグナル充足率: 70.95%)
 
 ## Metrics
 
-- scoring_total: 71.0
-- signal_earned_points: 70.95
+- scoring_total: 73.0
+- signal_earned_points: 72.55
 - signal_max_points: 100.0
 - weak_signals: []
 - scoring_signal_strength: Strong
@@ -74,11 +74,11 @@ Strong(シグナル充足率: 70.95%)
 - financial_health_score: 17.0
 - valuation_score: 16.0
 - news_score: 14.0
-- momentum: {'1m': 0.5157148285297378, '3m': -29.59524309154955, '6m': 13.413614765819162, '1y': 6.872996234786524}
+- momentum: {'1m': 5.8453279365623265, '3m': -32.01997031269869, '6m': 14.328234326349856, '1y': 5.706535996335175}
 - benchmark: SPY
-- excess_momentum: {'1m': -2.89, '3m': -31.94, '6m': 2.3, '1y': -13.69}
+- excess_momentum: {'1m': 0.14, '3m': -34.47, '6m': 1.87, '1y': -15.14}
 - positive_news: 4
-- watch_news: 3
+- watch_news: 2
 - event_count: 10
-- events_with_reaction: 9
-- sector_average_score: 67.58333333333333
+- events_with_reaction: 8
+- sector_average_score: 71.41666666666667

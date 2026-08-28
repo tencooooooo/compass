@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 5.06%
+- 市場全体の1Mモメンタム平均: 8.00%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-08-27T02:14:40+00:00 / NVDA / Investor's Business Daily: Dow Jones Futures Rise; Nvidia, CrowdStrike, Okta, Salesforce Lead Earnings Movers
-- 2026-08-27T02:14:40+00:00 / AMD / Investor's Business Daily: Dow Jones Futures Rise; Nvidia, CrowdStrike, Okta, Salesforce Lead Earnings Movers
-- 2026-08-27T02:14:40+00:00 / CRM / Investor's Business Daily: Dow Jones Futures Rise; Nvidia, CrowdStrike, Okta, Salesforce Lead Earnings Movers
-- 2026-08-27T02:10:04+00:00 / NVDA / Stocktwits: Nvidia Brushes Off ‘Circular Financing’ Fears After Massive Sales Beat: ‘We See It Differently’
-- 2026-08-27T02:00:00+00:00 / NVDA / BeInCrypto: Nvidia's Record Results Aren't ‘Impressive Enough' Because It's Sold Out, Analyst Says
+- 2026-08-28T05:45:07+00:00 / CRM / StockStory: Braze, Procore Technologies, PTC, Samsara, and Zeta Global Stocks Trade Up, What You Need To Know
+- 2026-08-28T05:37:07+00:00 / CRM / StockStory: RingCentral, ZoomInfo, UiPath, 8x8, and BlackLine Shares Are Soaring, What You Need To Know
+- 2026-08-28T05:35:00+00:00 / NVDA / Motley Fool: Is $100,000 the Magic Number to Bring Back Bitcoin Investors? Anthony Scaramucci Makes a Bold Case to 投資判断表現 BTC Now.
+- 2026-08-28T05:31:54+00:00 / NVDA / Reuters: Shares turn cautious ahead of Warsh's Jackson Hole debut; FX, bonds 投資判断表現 breath
+- 2026-08-28T05:30:00+00:00 / NFLX / The Telegraph: Netflix embraces traditional telly as streaming revolution dries up
 
 ### 注目イベント
 
-- 2026-08-24T12:54:06+00:00 / NVDA: Tech stocks today: Meta agrees to settle social media case for $16.68 billion; Nvidia tops Q2 expectations (株価反応: -2.91%, 出来高: 135.19M)
-- 2026-08-26T19:59:31+00:00 / ORCL: Michael Burry Buys NVDA Calls As A ‘Hedge,’ Adds To ORCL, PLTR, NBIS Shorts — Why He Thinks ‘Nvidia Will Not Distribute Enough To Shareholders’ (株価反応: 2.84%, 出来高: 18.07M)
-- 2026-08-26T19:19:35+00:00 / ORCL: Is It Time To 投資判断表現 The Dip In Cash-Rich Adobe Stock? (株価反応: 2.84%, 出来高: 18.07M)
-- 2026-08-26T19:00:22+00:00 / ORCL: Nvidia’s AI Servers Are About to Get Pricier — What a 15%+ Hike Means for the Whole Stack (株価反応: 2.84%, 出来高: 18.07M)
-- 2026-08-26T18:01:59+00:00 / ORCL: Oracle CEO Sicilia Says AI Is Reshaping Cloud Growth, Pricing and Enterprise Demand (株価反応: 2.84%, 出来高: 18.07M)
+- 2026-08-27T19:50:00+00:00 / CRM: Tech investors are looking at AI with 'more nuance' as it fuels software demand (株価反応: 22.58%, 出来高: 55.47M)
+- 2026-08-27T12:54:16+00:00 / CRM: AI Winner or Victim? Inside Salesforce's Q2 earnings (株価反応: 22.58%, 出来高: 55.47M)
+- 2026-08-27T19:29:18+00:00 / NOW: Why ServiceNow Rallied Today (株価反応: 10.04%, 出来高: 27.76M)
+- 2026-08-27T18:25:07+00:00 / NOW: Q2 Earnings Roundup: ServiceNow (NYSE:NOW) And The Rest Of The Automation Software Segment (株価反応: 10.04%, 出来高: 27.76M)
+- 2026-08-27T17:10:29+00:00 / NOW: ServiceNow, IBD Stock Of The Day, Clears Early 投資判断表現 Point As 'SaaSpocalypse' Fears Fade (株価反応: 10.04%, 出来高: 27.76M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 55.00 | 19.19 | 11.17 | 5.65% | 60 |
-| Consumer Cyclical | 6 | 50.17 | 71.07 | 8.94 | 1.04% | 60 |
-| Technology | 12 | 67.58 | 43.39 | 8.65 | 6.78% | 120 |
+| Communication Services | 6 | 55.33 | 19.11 | 11.08 | 3.47% | 60 |
+| Consumer Cyclical | 6 | 52.33 | 70.79 | 8.85 | 1.62% | 60 |
+| Technology | 12 | 71.42 | 43.07 | 9.21 | 13.45% | 120 |
 
 ## 市場トレンド
 
@@ -49,7 +49,7 @@
 | --- | --- | --- | --- |
 | Communication Services | Positive | High | Good |
 | Consumer Cyclical | Positive | High | Neutral |
-| Technology | Positive | High | Good |
+| Technology | Strong | High | Good |
 
 ## 市場心理
 

@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Comcast Corporation
-- Total Score: 59 / 100
+- Total Score: 58 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 59 点を獲得し、シグナル充足率は 59.0% です。
+- データが確認できた 100 点満点のうち 58 点を獲得し、シグナル充足率は 58.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -112,10 +112,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 8.7179
-- forward_pe: 7.5092
+- trailing_pe: 8.7162
+- forward_pe: 7.2911
 - peg_ratio: 142.9800
-- price_to_book: 1.0746
+- price_to_book: 1.0434
 - sector_peer_count: 10
 - trailing_pe_percentile: 22.2200
 - trailing_pe_peer_count: 10
@@ -132,11 +132,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは +9.04pt で、市場並み以上です。
-- 3M の対SPY超過リターンは +6.98pt で、市場並み以上です。
-- 6M の対SPY超過リターンは -20.52pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -31.09pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.48 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは +1.61pt で、市場並み以上です。
+- 3M の対SPY超過リターンは +3.95pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -24.68pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -33.12pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.73 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -145,25 +145,25 @@ Evidence
 
 使用データ
 
-- 1M: 12.4432
-- 3M: 9.3204
-- 6M: -9.4148
-- 1Y: -10.5311
+- 1M: 7.3141
+- 3M: 6.3984
+- 6M: -12.2168
+- 1Y: -12.2785
 - benchmark: SPY
-- benchmark_returns: {'1M': 3.4, '3M': 2.34, '6M': 11.11, '1Y': 20.56}
-- excess_returns: {'1M': 9.04, '3M': 6.98, '6M': -20.52, '1Y': -31.09}
-- latest_volume: 13,754,085.0000
-- average_volume_30d: 28,600,566.1667
+- benchmark_returns: {'1M': 5.71, '3M': 2.45, '6M': 12.46, '1Y': 20.85}
+- excess_returns: {'1M': 1.61, '3M': 3.95, '6M': -24.68, '1Y': -33.12}
+- latest_volume: 20,695,400.0000
+- average_volume_30d: 28,216,293.3333
 
 ## News
 
-12点
+11点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 2 件(純比率 +0.20)で、センチメントは 4.8 点です。
-- イベント後の平均株価反応が 0.43% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 1 件(純比率 +0.67)で、センチメントは 6.7 点です。
+- イベント後の平均株価反応が -1.09% と弱く、注意が必要です。
 
 Evidence
 
@@ -174,11 +174,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 3
-- negative_count: 2
-- sentiment_net_ratio: 0.2000
+- positive_count: 5
+- negative_count: 1
+- sentiment_net_ratio: 0.6700
 - event_count: 10
-- events_with_price_reaction: 10
+- events_with_price_reaction: 9
 
 ## Note
 
