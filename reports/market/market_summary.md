@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 8.00%
+- 市場全体の1Mモメンタム平均: 7.75%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-08-28T05:45:07+00:00 / CRM / StockStory: Braze, Procore Technologies, PTC, Samsara, and Zeta Global Stocks Trade Up, What You Need To Know
-- 2026-08-28T05:37:07+00:00 / CRM / StockStory: RingCentral, ZoomInfo, UiPath, 8x8, and BlackLine Shares Are Soaring, What You Need To Know
-- 2026-08-28T05:35:00+00:00 / NVDA / Motley Fool: Is $100,000 the Magic Number to Bring Back Bitcoin Investors? Anthony Scaramucci Makes a Bold Case to 投資判断表現 BTC Now.
-- 2026-08-28T05:31:54+00:00 / NVDA / Reuters: Shares turn cautious ahead of Warsh's Jackson Hole debut; FX, bonds 投資判断表現 breath
-- 2026-08-28T05:30:00+00:00 / NFLX / The Telegraph: Netflix embraces traditional telly as streaming revolution dries up
+- 2026-08-29T03:11:37+00:00 / AVGO / Insider Monkey: Broadcom’s Debt Deal Could Reach $100 Billion in the AI Buildout’s Latest Mega-Financing
+- 2026-08-29T03:04:38+00:00 / META / Insider Monkey: Meta Is Down 27%. One Analyst Sees a $22 Billion AI Business Hiding in Plain Sight
+- 2026-08-29T02:55:45+00:00 / GOOGL / Insider Monkey: Marvell Fell After Its Google Deal. Why Did Investors 投資判断表現 These Two AI Optics Stocks Too?
+- 2026-08-29T02:49:12+00:00 / NVDA / Insider Monkey: Nancy Pelosi’s Husband Bought Millions of This AI Power Stock. Nvidia Just Strengthened the Bull Case
+- 2026-08-29T02:35:00+00:00 / NVDA / Motley Fool: A Costco Special Dividend Could Be Coming, but Walmart Has Raised Its Dividend for 53 Consecutive Years. Here's the Better 投資判断表現 Now.
 
 ### 注目イベント
 
-- 2026-08-27T19:50:00+00:00 / CRM: Tech investors are looking at AI with 'more nuance' as it fuels software demand (株価反応: 22.58%, 出来高: 55.47M)
-- 2026-08-27T12:54:16+00:00 / CRM: AI Winner or Victim? Inside Salesforce's Q2 earnings (株価反応: 22.58%, 出来高: 55.47M)
-- 2026-08-27T19:29:18+00:00 / NOW: Why ServiceNow Rallied Today (株価反応: 10.04%, 出来高: 27.76M)
-- 2026-08-27T18:25:07+00:00 / NOW: Q2 Earnings Roundup: ServiceNow (NYSE:NOW) And The Rest Of The Automation Software Segment (株価反応: 10.04%, 出来高: 27.76M)
-- 2026-08-27T17:10:29+00:00 / NOW: ServiceNow, IBD Stock Of The Day, Clears Early 投資判断表現 Point As 'SaaSpocalypse' Fears Fade (株価反応: 10.04%, 出来高: 27.76M)
+- 2026-08-27T18:05:19+00:00 / NVDA: Nvidia could hit a $13 trillion market cap, analyst says (株価反応: 8.74%, 出来高: 298.91M)
+- 2026-08-27T17:00:35+00:00 / ADBE: Figma Stock Price Prediction: Wall Street’s $30 Target May Be Too Low (株価反応: 5.73%, 出来高: 6.52M)
+- 2026-08-27T15:44:26+00:00 / ADBE: Software and Chip Stocks Surge in AI-Fueled Earnings Blowout (株価反応: 5.73%, 出来高: 6.52M)
+- 2026-08-27T15:08:56+00:00 / ADBE: Figma Spikes 12% as AI Turns From Threat to Tailwind for Design Software, Atlassian Rallies 8% (株価反応: 5.73%, 出来高: 6.52M)
+- 2026-08-28T16:06:00+00:00 / NOW: Is now the time to 投資判断表現 software stocks? (株価反応: 4.54%, 出来高: 28.89M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 55.33 | 19.11 | 11.08 | 3.47% | 60 |
-| Consumer Cyclical | 6 | 52.33 | 70.79 | 8.85 | 1.62% | 60 |
-| Technology | 12 | 71.42 | 43.07 | 9.21 | 13.45% | 120 |
+| Communication Services | 6 | 59.50 | 19.13 | 11.20 | 9.03% | 60 |
+| Consumer Cyclical | 6 | 52.83 | 71.92 | 9.00 | 2.75% | 60 |
+| Technology | 12 | 67.17 | 43.92 | 8.94 | 9.60% | 120 |
 
 ## 市場トレンド
 
@@ -49,7 +49,7 @@
 | --- | --- | --- | --- |
 | Communication Services | Positive | High | Good |
 | Consumer Cyclical | Positive | High | Neutral |
-| Technology | Strong | High | Good |
+| Technology | Positive | High | Good |
 
 ## 市場心理
 

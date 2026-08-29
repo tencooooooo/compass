@@ -2,7 +2,7 @@
   "project": "Compass",
   "engine": "Explainable Scoring Engine",
   "version": "v1.0-alpha",
-  "generated_at": "2026-08-28T01:54:13.401656-04:00",
+  "generated_at": "2026-08-28T23:27:14.195362-04:00",
   "max_score": 100,
   "category_max_score": 20,
   "failed_tickers": [],
@@ -10,7 +10,7 @@
     {
       "ticker": "AAPL",
       "company_name": "Apple Inc.",
-      "total_score": 56,
+      "total_score": 55,
       "max_score": 100,
       "confidence": {
         "level": "High",
@@ -24,10 +24,10 @@
       },
       "signal_strength": {
         "level": "Moderate",
-        "signal_rate": 56.0,
+        "signal_rate": 55.0,
         "evaluated_max_score": 100,
         "reasons": [
-          "データが確認できた 100 点満点のうち 56 点を獲得し、シグナル充足率は 56.0% です。",
+          "データが確認できた 100 点満点のうち 55 点を獲得し、シグナル充足率は 55.0% です。",
           "シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。"
         ]
       },
@@ -112,10 +112,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 36.117104,
-            "forward_pe": 32.979992,
+            "trailing_pe": 36.704937,
+            "forward_pe": 33.516766,
             "peg_ratio": 2.5,
-            "price_to_book": 42.741844,
+            "price_to_book": 43.4375,
             "sector_peer_count": 16,
             "trailing_pe_percentile": 64.29,
             "trailing_pe_peer_count": 15,
@@ -128,14 +128,14 @@
           }
         },
         "Momentum": {
-          "score": 9,
+          "score": 11,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンは -12.61pt と、市場を大きく下回っています。",
-            "3M の対SPY超過リターンは -1.70pt と、市場を小幅に下回っています。",
-            "6M の対SPY超過リターンは +3.00pt で、市場並み以上です。",
-            "1Y の対SPY超過リターンが +16.85pt と、市場を大きく上回っています。",
-            "直近出来高が30日平均の 0.66 倍で、市場関心はやや弱めです。"
+            "1M の対SPY超過リターンは -7.76pt と、市場を小幅に下回っています。",
+            "3M の対SPY超過リターンは +0.57pt で、市場並み以上です。",
+            "6M の対SPY超過リターンは +8.48pt で、市場並み以上です。",
+            "1Y の対SPY超過リターンが +18.92pt と、市場を大きく上回っています。",
+            "直近出来高が30日平均の 0.80 倍で、市場関心はやや弱めです。"
           ],
           "evidence": [
             "Prices",
@@ -143,34 +143,34 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": -6.901065645038535,
-            "3M": 0.7491860434204004,
-            "6M": 15.45754507709541,
-            "1Y": 37.69222502932158,
+            "1M": -4.035105284984023,
+            "3M": 2.5366037860690036,
+            "6M": 21.231931102400956,
+            "1Y": 39.21686666932451,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": -12.61,
-              "3M": -1.7,
-              "6M": 3.0,
-              "1Y": 16.85
+              "1M": -7.76,
+              "3M": 0.57,
+              "6M": 8.48,
+              "1Y": 18.92
             },
-            "latest_volume": 32364000.0,
-            "average_volume_30d": 49087433.333333336
+            "latest_volume": 38500185.0,
+            "average_volume_30d": 48259042.833333336
           }
         },
         "News": {
-          "score": 15,
+          "score": 12,
           "max_score": 20,
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-            "ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
-            "イベント後の平均株価反応が 0.36% と中立圏です。"
+            "ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 2 件(純比率 -0.33)で、センチメントは 2.7 点です。",
+            "イベント後の平均株価反応が 1.63% とプラスです。"
           ],
           "evidence": [
             "News",
@@ -180,11 +180,11 @@
           "missing_data": [],
           "metrics": {
             "news_count": 10,
-            "positive_count": 2,
-            "negative_count": 0,
-            "sentiment_net_ratio": 1.0,
+            "positive_count": 1,
+            "negative_count": 2,
+            "sentiment_net_ratio": -0.33,
             "event_count": 10,
-            "events_with_price_reaction": 1
+            "events_with_price_reaction": 4
           }
         }
       },
@@ -200,24 +200,25 @@
     {
       "ticker": "MSFT",
       "company_name": "Microsoft Corporation",
-      "total_score": 73,
+      "total_score": 70,
       "max_score": 100,
       "confidence": {
-        "level": "High",
-        "completeness_score": 100,
+        "level": "Medium",
+        "completeness_score": 95.0,
         "reasons": [
           "利用可能な主要データ領域は5領域中 5 領域です。",
-          "欠損または計算不可の項目数は 0 件です。",
-          "主要データが比較的そろっており、説明可能性は高めです。",
+          "欠損または計算不可の項目数は 1 件です。",
+          "主要データは一定程度ありますが、欠損や未取得項目が残っています。",
+          "イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。",
           "Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。"
         ]
       },
       "signal_strength": {
         "level": "Strong",
-        "signal_rate": 73.0,
+        "signal_rate": 70.0,
         "evaluated_max_score": 100,
         "reasons": [
-          "データが確認できた 100 点満点のうち 73 点を獲得し、シグナル充足率は 73.0% です。",
+          "データが確認できた 100 点満点のうち 70 点を獲得し、シグナル充足率は 70.0% です。",
           "シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。"
         ]
       },
@@ -290,7 +291,7 @@
           "score": 9,
           "max_score": 20,
           "reasons": [
-            "PER はセクター内 42.86 パーセンタイル / 母数 15 で、中位レンジです。",
+            "PER はセクター内 50.00 パーセンタイル / 母数 15 で、中位レンジです。",
             "Forward PER はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。",
             "PEG はセクター内 93.33 パーセンタイル / 母数 16 で、相対的な加点は抑えています。",
             "PBR はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。",
@@ -302,12 +303,12 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 28.105732,
-            "forward_pe": 21.425104,
+            "trailing_pe": 28.640827,
+            "forward_pe": 21.78441,
             "peg_ratio": 1.6,
-            "price_to_book": 8.47914,
+            "price_to_book": 8.621339,
             "sector_peer_count": 16,
-            "trailing_pe_percentile": 42.86,
+            "trailing_pe_percentile": 50.0,
             "trailing_pe_peer_count": 15,
             "forward_pe_percentile": 60.0,
             "forward_pe_peer_count": 16,
@@ -321,11 +322,11 @@
           "score": 15,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンが +23.86pt と、市場を大きく上回っています。",
-            "3M の対SPY超過リターンが +16.06pt と、市場を大きく上回っています。",
-            "6M の対SPY超過リターンが +13.77pt と、市場を大きく上回っています。",
-            "1Y の対SPY超過リターンは -19.42pt と、市場を大きく下回っています。",
-            "直近出来高が30日平均の 0.87 倍で、通常水準の流動性があります。"
+            "1M の対SPY超過リターンが +10.32pt と、市場を大きく上回っています。",
+            "3M の対SPY超過リターンが +12.31pt と、市場を大きく上回っています。",
+            "6M の対SPY超過リターンが +18.54pt と、市場を大きく上回っています。",
+            "1Y の対SPY超過リターンは -18.12pt と、市場を大きく下回っています。",
+            "直近出来高が30日平均の 0.88 倍で、通常水準の流動性があります。"
           ],
           "evidence": [
             "Prices",
@@ -333,48 +334,50 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": 29.566953979862003,
-            "3M": 18.50647439607174,
-            "6M": 26.23388201348987,
-            "1Y": 1.4292560950197957,
+            "1M": 14.053810013656756,
+            "3M": 14.271666971235339,
+            "6M": 31.285610876871523,
+            "1Y": 2.1737345828785495,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": 23.86,
-              "3M": 16.06,
-              "6M": 13.77,
-              "1Y": -19.42
+              "1M": 10.32,
+              "3M": 12.31,
+              "6M": 18.54,
+              "1Y": -18.12
             },
-            "latest_volume": 28649300.0,
-            "average_volume_30d": 33015613.333333332
+            "latest_volume": 28953449.0,
+            "average_volume_30d": 32880384.966666665
           }
         },
         "News": {
-          "score": 13,
+          "score": 10,
           "max_score": 20,
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-            "ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 1 件(純比率 +0.00)で、センチメントは 4.0 点です。",
-            "イベント後の平均株価反応が 1.75% とプラスです。"
+            "ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 2 件(純比率 +0.33)で、センチメントは 5.3 点です。",
+            "イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。"
           ],
           "evidence": [
             "News",
             "Events",
             "Knowledge"
           ],
-          "missing_data": [],
+          "missing_data": [
+            "event_price_reaction"
+          ],
           "metrics": {
             "news_count": 10,
-            "positive_count": 1,
-            "negative_count": 1,
-            "sentiment_net_ratio": 0.0,
+            "positive_count": 4,
+            "negative_count": 2,
+            "sentiment_net_ratio": 0.33,
             "event_count": 10,
-            "events_with_price_reaction": 1
+            "events_with_price_reaction": 0
           }
         }
       },
@@ -390,7 +393,7 @@
     {
       "ticker": "NVDA",
       "company_name": "NVIDIA Corporation",
-      "total_score": 75,
+      "total_score": 76,
       "max_score": 100,
       "confidence": {
         "level": "Medium",
@@ -404,10 +407,10 @@
       },
       "signal_strength": {
         "level": "Strong",
-        "signal_rate": 75.0,
+        "signal_rate": 76.0,
         "evaluated_max_score": 100,
         "reasons": [
-          "データが確認できた 100 点満点のうち 75 点を獲得し、シグナル充足率は 75.0% です。",
+          "データが確認できた 100 点満点のうち 76 点を獲得し、シグナル充足率は 76.0% です。",
           "シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。"
         ]
       },
@@ -483,7 +486,7 @@
           "score": 11,
           "max_score": 20,
           "reasons": [
-            "PER はセクター内 50.00 パーセンタイル / 母数 15 で、中位レンジです。",
+            "PER はセクター内 42.86 パーセンタイル / 母数 15 で、中位レンジです。",
             "Forward PER はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。",
             "PEG はセクター内 13.33 パーセンタイル / 母数 16 で、相対的に割安寄りです。",
             "PBR はセクター内 93.33 パーセンタイル / 母数 16 で、相対的な加点は抑えています。",
@@ -495,12 +498,12 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 32.155148,
-            "forward_pe": 15.692964,
+            "trailing_pe": 27.503162,
+            "forward_pe": 14.213399,
             "peg_ratio": 0.59,
-            "price_to_book": 28.25031,
+            "price_to_book": 26.95787,
             "sector_peer_count": 16,
-            "trailing_pe_percentile": 50.0,
+            "trailing_pe_percentile": 42.86,
             "trailing_pe_peer_count": 15,
             "forward_pe_percentile": 26.67,
             "forward_pe_peer_count": 16,
@@ -511,14 +514,14 @@
           }
         },
         "Momentum": {
-          "score": 17,
+          "score": 14,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンが +14.27pt と、市場を大きく上回っています。",
-            "3M の対SPY超過リターンは +4.08pt で、市場並み以上です。",
-            "6M の対SPY超過リターンが +10.99pt と、市場を大きく上回っています。",
-            "1Y の対SPY超過リターンは +4.74pt で、市場並み以上です。",
-            "直近出来高が30日平均の 2.37 倍で、市場関心の高まりが確認できます。"
+            "1M の対SPY超過リターンは +7.81pt で、市場並み以上です。",
+            "3M の対SPY超過リターンは +1.19pt で、市場並み以上です。",
+            "6M の対SPY超過リターンが +10.18pt と、市場を大きく上回っています。",
+            "1Y の対SPY超過リターンは -0.34pt と、市場を小幅に下回っています。",
+            "直近出来高が30日平均の 1.52 倍で、市場関心の高まりが確認できます。"
           ],
           "evidence": [
             "Prices",
@@ -526,33 +529,33 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": 19.98316000126879,
-            "3M": 6.532419633815696,
-            "6M": 23.456143061710303,
-            "1Y": 25.589280127471355,
+            "1M": 11.541227717641355,
+            "3M": 3.1559862219988286,
+            "6M": 22.927558104385014,
+            "1Y": 19.955806684914098,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": 14.27,
-              "3M": 4.08,
-              "6M": 10.99,
-              "1Y": 4.74
+              "1M": 7.81,
+              "3M": 1.19,
+              "6M": 10.18,
+              "1Y": -0.34
             },
-            "latest_volume": 298231200.0,
-            "average_volume_30d": 125730326.66666667
+            "latest_volume": 194036188.0,
+            "average_volume_30d": 127411422.93333334
           }
         },
         "News": {
-          "score": 13,
+          "score": 17,
           "max_score": 20,
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-            "ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 1 件(純比率 +0.00)で、センチメントは 4.0 点です。",
+            "ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
             "イベント後の平均株価反応が 8.74% とプラスです。"
           ],
           "evidence": [
@@ -564,10 +567,10 @@
           "metrics": {
             "news_count": 10,
             "positive_count": 1,
-            "negative_count": 1,
-            "sentiment_net_ratio": 0.0,
+            "negative_count": 0,
+            "sentiment_net_ratio": 1.0,
             "event_count": 10,
-            "events_with_price_reaction": 4
+            "events_with_price_reaction": 1
           }
         }
       },
@@ -583,7 +586,7 @@
     {
       "ticker": "AMD",
       "company_name": "Advanced Micro Devices, Inc.",
-      "total_score": 73,
+      "total_score": 64,
       "max_score": 100,
       "confidence": {
         "level": "High",
@@ -596,12 +599,12 @@
         ]
       },
       "signal_strength": {
-        "level": "Strong",
-        "signal_rate": 73.0,
+        "level": "Moderate",
+        "signal_rate": 64.0,
         "evaluated_max_score": 100,
         "reasons": [
-          "データが確認できた 100 点満点のうち 73 点を獲得し、シグナル充足率は 73.0% です。",
-          "シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。"
+          "データが確認できた 100 点満点のうち 64 点を獲得し、シグナル充足率は 64.0% です。",
+          "シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。"
         ]
       },
       "scores": {
@@ -677,7 +680,7 @@
             "PER はセクター内 100.00 パーセンタイル / 母数 15 で、相対的な加点は抑えています。",
             "Forward PER はセクター内 86.67 パーセンタイル / 母数 16 で、相対的な加点は抑えています。",
             "PEG はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。",
-            "PBR はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。",
+            "PBR はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。",
             "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
           ],
           "evidence": [
@@ -686,10 +689,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 121.910484,
-            "forward_pe": 30.85097,
+            "trailing_pe": 119.074165,
+            "forward_pe": 30.133204,
             "peg_ratio": 1.03,
-            "price_to_book": 11.572187,
+            "price_to_book": 11.302954,
             "sector_peer_count": 16,
             "trailing_pe_percentile": 100,
             "trailing_pe_peer_count": 15,
@@ -697,19 +700,19 @@
             "forward_pe_peer_count": 16,
             "peg_ratio_percentile": 60.0,
             "peg_ratio_peer_count": 16,
-            "price_to_book_percentile": 60.0,
+            "price_to_book_percentile": 53.33,
             "price_to_book_peer_count": 16
           }
         },
         "Momentum": {
-          "score": 12,
+          "score": 10,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンは +5.26pt で、市場並み以上です。",
-            "3M の対SPY超過リターンは -10.44pt と、市場を大きく下回っています。",
-            "6M の対SPY超過リターンが +121.57pt と、市場を大きく上回っています。",
-            "1Y の対SPY超過リターンが +165.24pt と、市場を大きく上回っています。",
-            "直近出来高が30日平均の 0.65 倍で、市場関心はやや弱めです。"
+            "1M の対SPY超過リターンは -7.81pt と、市場を小幅に下回っています。",
+            "3M の対SPY超過リターンは -11.75pt と、市場を大きく下回っています。",
+            "6M の対SPY超過リターンが +119.80pt と、市場を大きく上回っています。",
+            "1Y の対SPY超過リターンが +158.28pt と、市場を大きく上回っています。",
+            "直近出来高が30日平均の 0.62 倍で、市場関心はやや弱めです。"
           ],
           "evidence": [
             "Prices",
@@ -717,34 +720,34 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": 10.967039793484174,
-            "3M": -7.994752124284625,
-            "6M": 134.02888382193723,
-            "1Y": 186.0821194313935,
+            "1M": -4.08125991024353,
+            "3M": -9.788798954372286,
+            "6M": 132.54581237672875,
+            "1Y": 178.5735493149294,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": 5.26,
-              "3M": -10.44,
-              "6M": 121.57,
-              "1Y": 165.24
+              "1M": -7.81,
+              "3M": -11.75,
+              "6M": 119.8,
+              "1Y": 158.28
             },
-            "latest_volume": 16403600.0,
-            "average_volume_30d": 25368040.0
+            "latest_volume": 15283714.0,
+            "average_volume_30d": 24808240.466666665
           }
         },
         "News": {
-          "score": 15,
+          "score": 8,
           "max_score": 20,
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-            "ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
-            "イベント後の平均株価反応が -0.89% と中立圏です。"
+            "ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 3 件(純比率 +0.00)で、センチメントは 4.0 点です。",
+            "イベント後の平均株価反応が -2.33% と弱く、注意が必要です。"
           ],
           "evidence": [
             "News",
@@ -754,9 +757,9 @@
           "missing_data": [],
           "metrics": {
             "news_count": 10,
-            "positive_count": 5,
-            "negative_count": 0,
-            "sentiment_net_ratio": 1.0,
+            "positive_count": 3,
+            "negative_count": 3,
+            "sentiment_net_ratio": 0.0,
             "event_count": 10,
             "events_with_price_reaction": 8
           }
@@ -774,7 +777,7 @@
     {
       "ticker": "AVGO",
       "company_name": "Broadcom Inc.",
-      "total_score": 70,
+      "total_score": 64,
       "max_score": 100,
       "confidence": {
         "level": "High",
@@ -787,12 +790,12 @@
         ]
       },
       "signal_strength": {
-        "level": "Strong",
-        "signal_rate": 70.0,
+        "level": "Moderate",
+        "signal_rate": 64.0,
         "evaluated_max_score": 100,
         "reasons": [
-          "データが確認できた 100 点満点のうち 70 点を獲得し、シグナル充足率は 70.0% です。",
-          "シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。"
+          "データが確認できた 100 点満点のうち 64 点を獲得し、シグナル充足率は 64.0% です。",
+          "シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。"
         ]
       },
       "scores": {
@@ -877,10 +880,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 59.16242,
-            "forward_pe": 19.053364,
+            "trailing_pe": 61.2608,
+            "forward_pe": 18.905115,
             "peg_ratio": 0.4,
-            "price_to_book": 20.159523,
+            "price_to_book": 20.01031,
             "sector_peer_count": 16,
             "trailing_pe_percentile": 85.71,
             "trailing_pe_peer_count": 15,
@@ -896,11 +899,11 @@
           "score": 9,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンは -5.38pt と、市場を小幅に下回っています。",
-            "3M の対SPY超過リターンは -15.21pt と、市場を大きく下回っています。",
-            "6M の対SPY超過リターンは +3.46pt で、市場並み以上です。",
-            "1Y の対SPY超過リターンは +4.74pt で、市場並み以上です。",
-            "直近出来高が30日平均の 1.10 倍で、通常水準の流動性があります。"
+            "1M の対SPY超過リターンは -8.64pt と、市場を小幅に下回っています。",
+            "3M の対SPY超過リターンは -19.29pt と、市場を大きく下回っています。",
+            "6M の対SPY超過リターンは +3.09pt で、市場並み以上です。",
+            "1Y の対SPY超過リターンは +3.43pt で、市場並み以上です。",
+            "直近出来高が30日平均の 0.86 倍で、通常水準の流動性があります。"
           ],
           "evidence": [
             "Prices",
@@ -908,34 +911,34 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": 0.3294451276122775,
-            "3M": -12.7647689162111,
-            "6M": 15.918143926900848,
-            "1Y": 25.58717562045854,
+            "1M": -4.911816205869645,
+            "3M": -17.323525962831653,
+            "6M": 15.834303371053615,
+            "1Y": 23.727604371810507,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": -5.38,
-              "3M": -15.21,
-              "6M": 3.46,
-              "1Y": 4.74
+              "1M": -8.64,
+              "3M": -19.29,
+              "6M": 3.09,
+              "1Y": 3.43
             },
-            "latest_volume": 21271000.0,
-            "average_volume_30d": 19310596.666666668
+            "latest_volume": 16481416.0,
+            "average_volume_30d": 19086203.866666667
           }
         },
         "News": {
-          "score": 17,
+          "score": 11,
           "max_score": 20,
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-            "ニュース見出し・要約の簡易分類では、好材料 6 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
-            "イベント後の平均株価反応が 4.49% とプラスです。"
+            "ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 1 件(純比率 +0.00)で、センチメントは 4.0 点です。",
+            "イベント後の平均株価反応が -0.74% と中立圏です。"
           ],
           "evidence": [
             "News",
@@ -945,11 +948,11 @@
           "missing_data": [],
           "metrics": {
             "news_count": 10,
-            "positive_count": 6,
-            "negative_count": 0,
-            "sentiment_net_ratio": 1.0,
+            "positive_count": 1,
+            "negative_count": 1,
+            "sentiment_net_ratio": 0.0,
             "event_count": 10,
-            "events_with_price_reaction": 3
+            "events_with_price_reaction": 6
           }
         }
       },
@@ -965,7 +968,7 @@
     {
       "ticker": "ORCL",
       "company_name": "Oracle Corporation",
-      "total_score": 68,
+      "total_score": 62,
       "max_score": 100,
       "confidence": {
         "level": "High",
@@ -978,12 +981,12 @@
         ]
       },
       "signal_strength": {
-        "level": "Strong",
-        "signal_rate": 68.0,
+        "level": "Moderate",
+        "signal_rate": 62.0,
         "evaluated_max_score": 100,
         "reasons": [
-          "データが確認できた 100 点満点のうち 68 点を獲得し、シグナル充足率は 68.0% です。",
-          "シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。"
+          "データが確認できた 100 点満点のうち 62 点を獲得し、シグナル充足率は 62.0% です。",
+          "シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。"
         ]
       },
       "scores": {
@@ -1059,7 +1062,7 @@
             "PER はセクター内 35.71 パーセンタイル / 母数 15 で、中位レンジです。",
             "Forward PER はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。",
             "PEG はセクター内 33.33 パーセンタイル / 母数 16 で、中位レンジです。",
-            "PBR はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。",
+            "PBR はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。",
             "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
           ],
           "evidence": [
@@ -1068,10 +1071,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 25.493288,
-            "forward_pe": 13.906113,
+            "trailing_pe": 25.874786,
+            "forward_pe": 13.806353,
             "peg_ratio": 0.82,
-            "price_to_book": 11.651841,
+            "price_to_book": 11.568252,
             "sector_peer_count": 16,
             "trailing_pe_percentile": 35.71,
             "trailing_pe_peer_count": 15,
@@ -1079,19 +1082,19 @@
             "forward_pe_peer_count": 16,
             "peg_ratio_percentile": 33.33,
             "peg_ratio_peer_count": 16,
-            "price_to_book_percentile": 66.67,
+            "price_to_book_percentile": 60.0,
             "price_to_book_peer_count": 16
           }
         },
         "Momentum": {
-          "score": 7,
+          "score": 6,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンが +23.34pt と、市場を大きく上回っています。",
-            "3M の対SPY超過リターンは -27.60pt と、市場を大きく下回っています。",
-            "6M の対SPY超過リターンは -10.67pt と、市場を大きく下回っています。",
-            "1Y の対SPY超過リターンは -55.23pt と、市場を大きく下回っています。",
-            "直近出来高が30日平均の 1.05 倍で、通常水準の流動性があります。"
+            "1M の対SPY超過リターンが +14.53pt と、市場を大きく上回っています。",
+            "3M の対SPY超過リターンは -34.92pt と、市場を大きく下回っています。",
+            "6M の対SPY超過リターンは -8.27pt と、市場を小幅に下回っています。",
+            "1Y の対SPY超過リターンは -55.60pt と、市場を大きく下回っています。",
+            "直近出来高が30日平均の 0.64 倍で、市場関心はやや弱めです。"
           ],
           "evidence": [
             "Prices",
@@ -1099,34 +1102,34 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": 29.04705724320437,
-            "3M": -25.15041830280844,
-            "6M": 1.7903790052295971,
-            "1Y": -34.38718868798165,
+            "1M": 18.258081679739576,
+            "3M": -32.95472987237596,
+            "6M": 4.472839466511562,
+            "1Y": -35.29988339574981,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": 23.34,
-              "3M": -27.6,
-              "6M": -10.67,
-              "1Y": -55.23
+              "1M": 14.53,
+              "3M": -34.92,
+              "6M": -8.27,
+              "1Y": -55.6
             },
-            "latest_volume": 30148300.0,
-            "average_volume_30d": 28689360.0
+            "latest_volume": 17753541.0,
+            "average_volume_30d": 27954011.366666667
           }
         },
         "News": {
-          "score": 17,
+          "score": 12,
           "max_score": 20,
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-            "ニュース見出し・要約の簡易分類では、好材料 6 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
-            "イベント後の平均株価反応が 2.06% とプラスです。"
+            "ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 2 件(純比率 +0.20)で、センチメントは 4.8 点です。",
+            "イベント後の平均株価反応が -0.72% と中立圏です。"
           ],
           "evidence": [
             "News",
@@ -1136,11 +1139,11 @@
           "missing_data": [],
           "metrics": {
             "news_count": 10,
-            "positive_count": 6,
-            "negative_count": 0,
-            "sentiment_net_ratio": 1.0,
+            "positive_count": 3,
+            "negative_count": 2,
+            "sentiment_net_ratio": 0.2,
             "event_count": 10,
-            "events_with_price_reaction": 7
+            "events_with_price_reaction": 6
           }
         }
       },
@@ -1156,7 +1159,7 @@
     {
       "ticker": "CRM",
       "company_name": "Salesforce, Inc.",
-      "total_score": 82,
+      "total_score": 74,
       "max_score": 100,
       "confidence": {
         "level": "High",
@@ -1170,10 +1173,10 @@
       },
       "signal_strength": {
         "level": "Strong",
-        "signal_rate": 82.0,
+        "signal_rate": 74.0,
         "evaluated_max_score": 100,
         "reasons": [
-          "データが確認できた 100 点満点のうち 82 点を獲得し、シグナル充足率は 82.0% です。",
+          "データが確認できた 100 点満点のうち 74 点を獲得し、シグナル充足率は 74.0% です。",
           "シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。"
         ]
       },
@@ -1243,13 +1246,13 @@
           }
         },
         "Valuation": {
-          "score": 16,
+          "score": 14,
           "max_score": 20,
           "reasons": [
-            "PER はセクター内 14.29 パーセンタイル / 母数 15 で、相対的に割安寄りです。",
-            "Forward PER はセクター内 33.33 パーセンタイル / 母数 16 で、中位レンジです。",
+            "PER はセクター内 28.57 パーセンタイル / 母数 15 で、中位レンジです。",
+            "Forward PER はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。",
             "PEG はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。",
-            "PBR はセクター内 6.67 パーセンタイル / 母数 16 で、相対的に割安寄りです。",
+            "PBR はセクター内 13.33 パーセンタイル / 母数 16 で、相対的に割安寄りです。",
             "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
           ],
           "evidence": [
@@ -1258,18 +1261,18 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 18.837818,
-            "forward_pe": 15.976091,
+            "trailing_pe": 23.464712,
+            "forward_pe": 16.19084,
             "peg_ratio": 0.85,
-            "price_to_book": 3.9591908,
+            "price_to_book": 5.4897923,
             "sector_peer_count": 16,
-            "trailing_pe_percentile": 14.29,
+            "trailing_pe_percentile": 28.57,
             "trailing_pe_peer_count": 15,
-            "forward_pe_percentile": 33.33,
+            "forward_pe_percentile": 40.0,
             "forward_pe_peer_count": 16,
             "peg_ratio_percentile": 40.0,
             "peg_ratio_peer_count": 16,
-            "price_to_book_percentile": 6.67,
+            "price_to_book_percentile": 13.33,
             "price_to_book_peer_count": 16
           }
         },
@@ -1277,11 +1280,11 @@
           "score": 16,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンが +28.09pt と、市場を大きく上回っています。",
-            "3M の対SPY超過リターンが +40.99pt と、市場を大きく上回っています。",
-            "6M の対SPY超過リターンが +14.54pt と、市場を大きく上回っています。",
-            "1Y の対SPY超過リターンは -16.56pt と、市場を大きく下回っています。",
-            "直近出来高が30日平均の 3.98 倍で、市場関心の高まりが確認できます。"
+            "1M の対SPY超過リターンが +37.93pt と、市場を大きく上回っています。",
+            "3M の対SPY超過リターンが +32.34pt と、市場を大きく上回っています。",
+            "6M の対SPY超過リターンが +19.34pt と、市場を大きく上回っています。",
+            "1Y の対SPY超過リターンは -17.10pt と、市場を大きく下回っています。",
+            "直近出来高が30日平均の 2.33 倍で、市場関心の高まりが確認できます。"
           ],
           "evidence": [
             "Prices",
@@ -1289,34 +1292,34 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": 33.79870289766325,
-            "3M": 43.4413028064595,
-            "6M": 27.00283186189076,
-            "1Y": 4.284606489234234,
+            "1M": 41.6634333954431,
+            "3M": 34.30702605548375,
+            "6M": 32.09232029688068,
+            "1Y": 3.2006427305196303,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": 28.09,
-              "3M": 40.99,
-              "6M": 14.54,
-              "1Y": -16.56
+              "1M": 37.93,
+              "3M": 32.34,
+              "6M": 19.34,
+              "1Y": -17.1
             },
-            "latest_volume": 55465200.0,
-            "average_volume_30d": 13944263.333333334
+            "latest_volume": 34320234.0,
+            "average_volume_30d": 14750297.8
           }
         },
         "News": {
-          "score": 17,
+          "score": 11,
           "max_score": 20,
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-            "ニュース見出し・要約の簡易分類では、好材料 9 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
-            "イベント後の平均株価反応が 22.58% とプラスです。"
+            "ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 3 件(純比率 -0.50)で、センチメントは 2.0 点です。",
+            "イベント後の平均株価反応が 1.57% とプラスです。"
           ],
           "evidence": [
             "News",
@@ -1326,11 +1329,11 @@
           "missing_data": [],
           "metrics": {
             "news_count": 10,
-            "positive_count": 9,
-            "negative_count": 0,
-            "sentiment_net_ratio": 1.0,
+            "positive_count": 1,
+            "negative_count": 3,
+            "sentiment_net_ratio": -0.5,
             "event_count": 10,
-            "events_with_price_reaction": 2
+            "events_with_price_reaction": 1
           }
         }
       },
@@ -1346,7 +1349,7 @@
     {
       "ticker": "ADBE",
       "company_name": "Adobe Inc.",
-      "total_score": 75,
+      "total_score": 71,
       "max_score": 100,
       "confidence": {
         "level": "High",
@@ -1360,10 +1363,10 @@
       },
       "signal_strength": {
         "level": "Strong",
-        "signal_rate": 75.0,
+        "signal_rate": 71.0,
         "evaluated_max_score": 100,
         "reasons": [
-          "データが確認できた 100 点満点のうち 75 点を獲得し、シグナル充足率は 75.0% です。",
+          "データが確認できた 100 点満点のうち 71 点を獲得し、シグナル充足率は 71.0% です。",
           "シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。"
         ]
       },
@@ -1447,10 +1450,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 15.646646,
-            "forward_pe": 10.518221,
+            "trailing_pe": 16.66781,
+            "forward_pe": 10.604432,
             "peg_ratio": 0.67,
-            "price_to_book": 10.016627,
+            "price_to_book": 10.098728,
             "sector_peer_count": 16,
             "trailing_pe_percentile": 7.14,
             "trailing_pe_peer_count": 15,
@@ -1463,14 +1466,14 @@
           }
         },
         "Momentum": {
-          "score": 12,
+          "score": 10,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンは +4.06pt で、市場並み以上です。",
-            "3M の対SPY超過リターンが +17.31pt と、市場を大きく上回っています。",
-            "6M の対SPY超過リターンは -0.84pt と、市場を小幅に下回っています。",
-            "1Y の対SPY超過リターンは -39.37pt と、市場を大きく下回っています。",
-            "直近出来高が30日平均の 1.32 倍で、市場関心の高まりが確認できます。"
+            "1M の対SPY超過リターンが +13.87pt と、市場を大きく上回っています。",
+            "3M の対SPY超過リターンが +10.50pt と、市場を大きく上回っています。",
+            "6M の対SPY超過リターンは -1.65pt と、市場を小幅に下回っています。",
+            "1Y の対SPY超過リターンは -38.49pt と、市場を大きく下回っています。",
+            "直近出来高が30日平均の 0.76 倍で、市場関心はやや弱めです。"
           ],
           "evidence": [
             "Prices",
@@ -1478,34 +1481,34 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": 9.763505271154997,
-            "3M": 19.760599309410875,
-            "6M": 11.623681423072886,
-            "1Y": -18.528643624323294,
+            "1M": 17.595803223537743,
+            "3M": 12.464796351877188,
+            "6M": 11.093321498918842,
+            "1Y": -18.19279247353552,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": 4.06,
-              "3M": 17.31,
-              "6M": -0.84,
-              "1Y": -39.37
+              "1M": 13.87,
+              "3M": 10.5,
+              "6M": -1.65,
+              "1Y": -38.49
             },
-            "latest_volume": 6521600.0,
-            "average_volume_30d": 4938530.0
+            "latest_volume": 3639051.0,
+            "average_volume_30d": 4817501.7
           }
         },
         "News": {
-          "score": 17,
+          "score": 15,
           "max_score": 20,
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-            "ニュース見出し・要約の簡易分類では、好材料 6 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
-            "イベント後の平均株価反応が 3.77% とプラスです。"
+            "ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 1 件(純比率 +0.60)で、センチメントは 6.4 点です。",
+            "イベント後の平均株価反応が 2.93% とプラスです。"
           ],
           "evidence": [
             "News",
@@ -1515,11 +1518,11 @@
           "missing_data": [],
           "metrics": {
             "news_count": 10,
-            "positive_count": 6,
-            "negative_count": 0,
-            "sentiment_net_ratio": 1.0,
+            "positive_count": 4,
+            "negative_count": 1,
+            "sentiment_net_ratio": 0.6,
             "event_count": 10,
-            "events_with_price_reaction": 9
+            "events_with_price_reaction": 7
           }
         }
       },
@@ -1535,7 +1538,7 @@
     {
       "ticker": "QCOM",
       "company_name": "QUALCOMM Incorporated",
-      "total_score": 73,
+      "total_score": 69,
       "max_score": 100,
       "confidence": {
         "level": "High",
@@ -1549,10 +1552,10 @@
       },
       "signal_strength": {
         "level": "Strong",
-        "signal_rate": 73.0,
+        "signal_rate": 69.0,
         "evaluated_max_score": 100,
         "reasons": [
-          "データが確認できた 100 点満点のうち 73 点を獲得し、シグナル充足率は 73.0% です。",
+          "データが確認できた 100 点満点のうち 69 点を獲得し、シグナル充足率は 69.0% です。",
           "シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。"
         ]
       },
@@ -1625,8 +1628,8 @@
           "score": 16,
           "max_score": 20,
           "reasons": [
-            "PER はセクター内 21.43 パーセンタイル / 母数 15 で、相対的に割安寄りです。",
-            "Forward PER はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。",
+            "PER はセクター内 14.29 パーセンタイル / 母数 15 で、相対的に割安寄りです。",
+            "Forward PER はセクター内 33.33 パーセンタイル / 母数 16 で、中位レンジです。",
             "PEG はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。",
             "PBR はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。",
             "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
@@ -1637,14 +1640,14 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 18.853548,
-            "forward_pe": 16.151814,
+            "trailing_pe": 18.764572,
+            "forward_pe": 16.093983,
             "peg_ratio": 0.71,
-            "price_to_book": 6.2972445,
+            "price_to_book": 6.2746973,
             "sector_peer_count": 16,
-            "trailing_pe_percentile": 21.43,
+            "trailing_pe_percentile": 14.29,
             "trailing_pe_peer_count": 15,
-            "forward_pe_percentile": 40.0,
+            "forward_pe_percentile": 33.33,
             "forward_pe_peer_count": 16,
             "peg_ratio_percentile": 26.67,
             "peg_ratio_peer_count": 16,
@@ -1653,14 +1656,14 @@
           }
         },
         "Momentum": {
-          "score": 9,
+          "score": 6,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンは +0.14pt で、市場並み以上です。",
-            "3M の対SPY超過リターンは -34.47pt と、市場を大きく下回っています。",
-            "6M の対SPY超過リターンは +1.87pt で、市場並み以上です。",
-            "1Y の対SPY超過リターンは -15.14pt と、市場を大きく下回っています。",
-            "直近出来高が30日平均の 1.33 倍で、市場関心の高まりが確認できます。"
+            "1M の対SPY超過リターンは +4.58pt で、市場並み以上です。",
+            "3M の対SPY超過リターンは -36.31pt と、市場を大きく下回っています。",
+            "6M の対SPY超過リターンは +3.76pt で、市場並み以上です。",
+            "1Y の対SPY超過リターンは -15.36pt と、市場を大きく下回っています。",
+            "直近出来高が30日平均の 0.70 倍で、市場関心はやや弱めです。"
           ],
           "evidence": [
             "Prices",
@@ -1668,34 +1671,34 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": 5.8453279365623265,
-            "3M": -32.01997031269869,
-            "6M": 14.328234326349856,
-            "1Y": 5.706535996335175,
+            "1M": 8.304746590375409,
+            "3M": -34.34928320452756,
+            "6M": 16.503583286966226,
+            "1Y": 4.932492899981676,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": 0.14,
-              "3M": -34.47,
-              "6M": 1.87,
-              "1Y": -15.14
+              "1M": 4.58,
+              "3M": -36.31,
+              "6M": 3.76,
+              "1Y": -15.36
             },
-            "latest_volume": 15065100.0,
-            "average_volume_30d": 11334393.333333334
+            "latest_volume": 7713846.0,
+            "average_volume_30d": 11048484.866666667
           }
         },
         "News": {
-          "score": 14,
+          "score": 13,
           "max_score": 20,
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-            "ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 2 件(純比率 +0.33)で、センチメントは 5.3 点です。",
-            "イベント後の平均株価反応が 1.31% とプラスです。"
+            "ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。",
+            "イベント後の平均株価反応が -0.06% と中立圏です。"
           ],
           "evidence": [
             "News",
@@ -1705,11 +1708,11 @@
           "missing_data": [],
           "metrics": {
             "news_count": 10,
-            "positive_count": 4,
-            "negative_count": 2,
-            "sentiment_net_ratio": 0.33,
+            "positive_count": 3,
+            "negative_count": 1,
+            "sentiment_net_ratio": 0.5,
             "event_count": 10,
-            "events_with_price_reaction": 8
+            "events_with_price_reaction": 10
           }
         }
       },
@@ -1725,7 +1728,7 @@
     {
       "ticker": "TXN",
       "company_name": "Texas Instruments Incorporated",
-      "total_score": 69,
+      "total_score": 68,
       "max_score": 100,
       "confidence": {
         "level": "High",
@@ -1739,10 +1742,10 @@
       },
       "signal_strength": {
         "level": "Strong",
-        "signal_rate": 69.0,
+        "signal_rate": 68.0,
         "evaluated_max_score": 100,
         "reasons": [
-          "データが確認できた 100 点満点のうち 69 点を獲得し、シグナル充足率は 69.0% です。",
+          "データが確認できた 100 点満点のうち 68 点を獲得し、シグナル充足率は 68.0% です。",
           "シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。"
         ]
       },
@@ -1827,10 +1830,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 40.569256,
-            "forward_pe": 25.03934,
+            "trailing_pe": 39.306995,
+            "forward_pe": 24.297197,
             "peg_ratio": 1.15,
-            "price_to_book": 13.514172,
+            "price_to_book": 13.113625,
             "sector_peer_count": 16,
             "trailing_pe_percentile": 71.43,
             "trailing_pe_peer_count": 15,
@@ -1846,11 +1849,11 @@
           "score": 10,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンは -6.96pt と、市場を小幅に下回っています。",
-            "3M の対SPY超過リターンは -17.66pt と、市場を大きく下回っています。",
-            "6M の対SPY超過リターンが +14.17pt と、市場を大きく上回っています。",
-            "1Y の対SPY超過リターンが +11.91pt と、市場を大きく上回っています。",
-            "直近出来高が30日平均の 0.79 倍で、市場関心はやや弱めです。"
+            "1M の対SPY超過リターンは -10.47pt と、市場を大きく下回っています。",
+            "3M の対SPY超過リターンは -16.92pt と、市場を大きく下回っています。",
+            "6M の対SPY超過リターンが +10.44pt と、市場を大きく上回っています。",
+            "1Y の対SPY超過リターンは +8.84pt で、市場並み以上です。",
+            "直近出来高が30日平均の 0.83 倍で、通常水準の流動性があります。"
           ],
           "evidence": [
             "Prices",
@@ -1858,34 +1861,34 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": -1.2514877599205758,
-            "3M": -15.206617042279886,
-            "6M": 26.635917693162924,
-            "1Y": 32.752029093027055,
+            "1M": -6.742619866003909,
+            "3M": -14.955419187279952,
+            "6M": 23.183805017894475,
+            "1Y": 29.13711759080215,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": -6.96,
-              "3M": -17.66,
-              "6M": 14.17,
-              "1Y": 11.91
+              "1M": -10.47,
+              "3M": -16.92,
+              "6M": 10.44,
+              "1Y": 8.84
             },
-            "latest_volume": 5602900.0,
-            "average_volume_30d": 7122223.333333333
+            "latest_volume": 5841246.0,
+            "average_volume_30d": 7061764.866666666
           }
         },
         "News": {
-          "score": 13,
+          "score": 12,
           "max_score": 20,
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-            "ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。",
-            "イベント後の平均株価反応が 0.82% と中立圏です。"
+            "ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 2 件(純比率 +0.33)で、センチメントは 5.3 点です。",
+            "イベント後の平均株価反応が -0.24% と中立圏です。"
           ],
           "evidence": [
             "News",
@@ -1895,11 +1898,11 @@
           "missing_data": [],
           "metrics": {
             "news_count": 10,
-            "positive_count": 3,
-            "negative_count": 1,
-            "sentiment_net_ratio": 0.5,
+            "positive_count": 4,
+            "negative_count": 2,
+            "sentiment_net_ratio": 0.33,
             "event_count": 10,
-            "events_with_price_reaction": 9
+            "events_with_price_reaction": 10
           }
         }
       },
@@ -1915,7 +1918,7 @@
     {
       "ticker": "NOW",
       "company_name": "ServiceNow, Inc.",
-      "total_score": 69,
+      "total_score": 65,
       "max_score": 100,
       "confidence": {
         "level": "High",
@@ -1929,10 +1932,10 @@
       },
       "signal_strength": {
         "level": "Strong",
-        "signal_rate": 69.0,
+        "signal_rate": 65.0,
         "evaluated_max_score": 100,
         "reasons": [
-          "データが確認できた 100 点満点のうち 69 点を獲得し、シグナル充足率は 69.0% です。",
+          "データが確認できた 100 点満点のうち 65 点を獲得し、シグナル充足率は 65.0% です。",
           "シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。"
         ]
       },
@@ -2008,7 +2011,7 @@
             "PER はセクター内 92.86 パーセンタイル / 母数 15 で、相対的な加点は抑えています。",
             "Forward PER はセクター内 80.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。",
             "PEG はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。",
-            "PBR はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。",
+            "PBR はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。",
             "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
           ],
           "evidence": [
@@ -2017,10 +2020,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 78.653404,
-            "forward_pe": 27.655523,
+            "trailing_pe": 89.88199,
+            "forward_pe": 28.910143,
             "peg_ratio": 1.13,
-            "price_to_book": 11.434825,
+            "price_to_book": 11.953577,
             "sector_peer_count": 16,
             "trailing_pe_percentile": 92.86,
             "trailing_pe_peer_count": 15,
@@ -2028,7 +2031,7 @@
             "forward_pe_peer_count": 16,
             "peg_ratio_percentile": 66.67,
             "peg_ratio_peer_count": 16,
-            "price_to_book_percentile": 53.33,
+            "price_to_book_percentile": 66.67,
             "price_to_book_peer_count": 16
           }
         },
@@ -2036,11 +2039,11 @@
           "score": 16,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンが +13.88pt と、市場を大きく上回っています。",
-            "3M の対SPY超過リターンが +24.87pt と、市場を大きく上回っています。",
-            "6M の対SPY超過リターンが +14.19pt と、市場を大きく上回っています。",
-            "1Y の対SPY超過リターンは -40.80pt と、市場を大きく下回っています。",
-            "直近出来高が30日平均の 1.24 倍で、市場関心の高まりが確認できます。"
+            "1M の対SPY超過リターンが +27.74pt と、市場を大きく上回っています。",
+            "3M の対SPY超過リターンが +14.39pt と、市場を大きく上回っています。",
+            "6M の対SPY超過リターンが +21.23pt と、市場を大きく上回っています。",
+            "1Y の対SPY超過リターンは -38.81pt と、市場を大きく下回っています。",
+            "直近出来高が30日平均の 1.27 倍で、市場関心の高まりが確認できます。"
           ],
           "evidence": [
             "Prices",
@@ -2048,34 +2051,34 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": 19.58361275155465,
-            "3M": 27.31535767671226,
-            "6M": 26.651407878030227,
-            "1Y": -19.951202088858363,
+            "1M": 31.470888630039518,
+            "3M": 16.35442913733001,
+            "6M": 33.978338905454194,
+            "1Y": -18.517301975585216,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": 13.88,
-              "3M": 24.87,
-              "6M": 14.19,
-              "1Y": -40.8
+              "1M": 27.74,
+              "3M": 14.39,
+              "6M": 21.23,
+              "1Y": -38.81
             },
-            "latest_volume": 27762900.0,
-            "average_volume_30d": 22366410.0
+            "latest_volume": 28890423.0,
+            "average_volume_30d": 22790934.1
           }
         },
         "News": {
-          "score": 17,
+          "score": 13,
           "max_score": 20,
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-            "ニュース見出し・要約の簡易分類では、好材料 6 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
-            "イベント後の平均株価反応が 10.04% とプラスです。"
+            "ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 1 件(純比率 +0.00)で、センチメントは 4.0 点です。",
+            "イベント後の平均株価反応が 4.54% とプラスです。"
           ],
           "evidence": [
             "News",
@@ -2085,11 +2088,11 @@
           "missing_data": [],
           "metrics": {
             "news_count": 10,
-            "positive_count": 6,
-            "negative_count": 0,
-            "sentiment_net_ratio": 1.0,
+            "positive_count": 1,
+            "negative_count": 1,
+            "sentiment_net_ratio": 0.0,
             "event_count": 10,
-            "events_with_price_reaction": 4
+            "events_with_price_reaction": 9
           }
         }
       },
@@ -2105,7 +2108,7 @@
     {
       "ticker": "AMAT",
       "company_name": "Applied Materials, Inc.",
-      "total_score": 74,
+      "total_score": 68,
       "max_score": 100,
       "confidence": {
         "level": "High",
@@ -2119,10 +2122,10 @@
       },
       "signal_strength": {
         "level": "Strong",
-        "signal_rate": 74.0,
+        "signal_rate": 68.0,
         "evaluated_max_score": 100,
         "reasons": [
-          "データが確認できた 100 点満点のうち 74 点を獲得し、シグナル充足率は 74.0% です。",
+          "データが確認できた 100 点満点のうち 68 点を獲得し、シグナル充足率は 68.0% です。",
           "シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。"
         ]
       },
@@ -2208,10 +2211,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 41.333332,
-            "forward_pe": 26.132431,
+            "trailing_pe": 39.867878,
+            "forward_pe": 25.011526,
             "peg_ratio": 0.96,
-            "price_to_book": 14.937908,
+            "price_to_book": 14.297173,
             "sector_peer_count": 16,
             "trailing_pe_percentile": 78.57,
             "trailing_pe_peer_count": 15,
@@ -2224,14 +2227,14 @@
           }
         },
         "Momentum": {
-          "score": 16,
+          "score": 14,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンは +4.93pt で、市場並み以上です。",
-            "3M の対SPY超過リターンは +4.93pt で、市場並み以上です。",
-            "6M の対SPY超過リターンが +16.22pt と、市場を大きく上回っています。",
-            "1Y の対SPY超過リターンが +173.99pt と、市場を大きく上回っています。",
-            "直近出来高が30日平均の 0.83 倍で、通常水準の流動性があります。"
+            "1M の対SPY超過リターンは -11.62pt と、市場を大きく下回っています。",
+            "3M の対SPY超過リターンは +0.73pt で、市場並み以上です。",
+            "6M の対SPY超過リターンが +11.54pt と、市場を大きく上回っています。",
+            "1Y の対SPY超過リターンが +162.09pt と、市場を大きく上回っています。",
+            "直近出来高が30日平均の 0.87 倍で、通常水準の流動性があります。"
           ],
           "evidence": [
             "Prices",
@@ -2239,34 +2242,34 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": 10.63713621922291,
-            "3M": 7.382093830892536,
-            "6M": 28.679888224312087,
-            "1Y": 194.83189879372577,
+            "1M": -7.893318224138716,
+            "3M": 2.6893499123291886,
+            "6M": 24.291763848324642,
+            "1Y": 182.3916221097588,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": 4.93,
-              "3M": 4.93,
-              "6M": 16.22,
-              "1Y": 173.99
+              "1M": -11.62,
+              "3M": 0.73,
+              "6M": 11.54,
+              "1Y": 162.09
             },
-            "latest_volume": 6285600.0,
-            "average_volume_30d": 7586280.0
+            "latest_volume": 6506714.0,
+            "average_volume_30d": 7458953.8
           }
         },
         "News": {
-          "score": 15,
+          "score": 11,
           "max_score": 20,
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-            "ニュース見出し・要約の簡易分類では、好材料 9 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
-            "イベント後の平均株価反応が 0.37% と中立圏です。"
+            "ニュース見出し・要約の簡易分類では、好材料 8 件、悪材料 1 件(純比率 +0.78)で、センチメントは 7.1 点です。",
+            "イベント後の平均株価反応が -1.45% と弱く、注意が必要です。"
           ],
           "evidence": [
             "News",
@@ -2276,11 +2279,11 @@
           "missing_data": [],
           "metrics": {
             "news_count": 10,
-            "positive_count": 9,
-            "negative_count": 0,
-            "sentiment_net_ratio": 1.0,
+            "positive_count": 8,
+            "negative_count": 1,
+            "sentiment_net_ratio": 0.78,
             "event_count": 10,
-            "events_with_price_reaction": 7
+            "events_with_price_reaction": 10
           }
         }
       },
@@ -2296,7 +2299,7 @@
     {
       "ticker": "GOOGL",
       "company_name": "Alphabet Inc.",
-      "total_score": 63,
+      "total_score": 67,
       "max_score": 100,
       "confidence": {
         "level": "Medium",
@@ -2309,12 +2312,12 @@
         ]
       },
       "signal_strength": {
-        "level": "Moderate",
-        "signal_rate": 63.0,
+        "level": "Strong",
+        "signal_rate": 67.0,
         "evaluated_max_score": 100,
         "reasons": [
-          "データが確認できた 100 点満点のうち 63 点を獲得し、シグナル充足率は 63.0% です。",
-          "シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。"
+          "データが確認できた 100 点満点のうち 67 点を獲得し、シグナル充足率は 67.0% です。",
+          "シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。"
         ]
       },
       "scores": {
@@ -2400,10 +2403,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 17.152567,
-            "forward_pe": 22.99978,
+            "trailing_pe": 17.390366,
+            "forward_pe": 23.374542,
             "peg_ratio": 0.94,
-            "price_to_book": 6.6930604,
+            "price_to_book": 6.8097687,
             "sector_peer_count": 10,
             "trailing_pe_percentile": 44.44,
             "trailing_pe_peer_count": 10,
@@ -2416,14 +2419,14 @@
           }
         },
         "Momentum": {
-          "score": 9,
+          "score": 11,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンは -4.54pt と、市場を小幅に下回っています。",
-            "3M の対SPY超過リターンは -15.08pt と、市場を大きく下回っています。",
-            "6M の対SPY超過リターンは -1.49pt と、市場を小幅に下回っています。",
-            "1Y の対SPY超過リターンが +44.08pt と、市場を大きく上回っています。",
-            "直近出来高が30日平均の 0.83 倍で、通常水準の流動性があります。"
+            "1M の対SPY超過リターンは +0.15pt で、市場並み以上です。",
+            "3M の対SPY超過リターンは -10.78pt と、市場を大きく下回っています。",
+            "6M の対SPY超過リターンは -1.43pt と、市場を小幅に下回っています。",
+            "1Y の対SPY超過リターンが +47.23pt と、市場を大きく上回っています。",
+            "直近出来高が30日平均の 0.90 倍で、通常水準の流動性があります。"
           ],
           "evidence": [
             "Prices",
@@ -2431,34 +2434,34 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": 1.1701471715703162,
-            "3M": -12.63080134710389,
-            "6M": 10.967980845271487,
-            "1Y": 64.92313270384076,
+            "1M": 3.8752000640973403,
+            "3M": -8.819207451526994,
+            "6M": 11.316757350571509,
+            "1Y": 67.52397662052245,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": -4.54,
-              "3M": -15.08,
-              "6M": -1.49,
-              "1Y": 44.08
+              "1M": 0.15,
+              "3M": -10.78,
+              "6M": -1.43,
+              "1Y": 47.23
             },
-            "latest_volume": 23352300.0,
-            "average_volume_30d": 28112973.333333332
+            "latest_volume": 25240919.0,
+            "average_volume_30d": 27956997.3
           }
         },
         "News": {
-          "score": 12,
+          "score": 14,
           "max_score": 20,
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-            "ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 2 件(純比率 +0.33)で、センチメントは 5.3 点です。",
-            "イベント後の平均株価反応が 0.27% と中立圏です。"
+            "ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 1 件(純比率 +0.33)で、センチメントは 5.3 点です。",
+            "イベント後の平均株価反応が 1.74% とプラスです。"
           ],
           "evidence": [
             "News",
@@ -2468,8 +2471,8 @@
           "missing_data": [],
           "metrics": {
             "news_count": 10,
-            "positive_count": 4,
-            "negative_count": 2,
+            "positive_count": 2,
+            "negative_count": 1,
             "sentiment_net_ratio": 0.33,
             "event_count": 10,
             "events_with_price_reaction": 2
@@ -2591,10 +2594,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 21.690086,
-            "forward_pe": 16.394434,
+            "trailing_pe": 21.762802,
+            "forward_pe": 16.593086,
             "peg_ratio": 0.85,
-            "price_to_book": 5.5706205,
+            "price_to_book": 5.6381197,
             "sector_peer_count": 10,
             "trailing_pe_percentile": 66.67,
             "trailing_pe_peer_count": 10,
@@ -2607,14 +2610,14 @@
           }
         },
         "Momentum": {
-          "score": 4,
+          "score": 6,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンは -8.19pt と、市場を小幅に下回っています。",
-            "3M の対SPY超過リターンは -12.47pt と、市場を大きく下回っています。",
-            "6M の対SPY超過リターンは -25.38pt と、市場を大きく下回っています。",
-            "1Y の対SPY超過リターンは -44.86pt と、市場を大きく下回っています。",
-            "直近出来高が30日平均の 0.92 倍で、通常水準の流動性があります。"
+            "1M の対SPY超過リターンは +3.50pt で、市場並み以上です。",
+            "3M の対SPY超過リターンは -10.49pt と、市場を大きく下回っています。",
+            "6M の対SPY超過リターンは -23.41pt と、市場を大きく下回っています。",
+            "1Y の対SPY超過リターンは -42.70pt と、市場を大きく下回っています。",
+            "直近出来高が30日平均の 0.95 倍で、通常水準の流動性があります。"
           ],
           "evidence": [
             "Prices",
@@ -2622,34 +2625,34 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": -2.4777599645802018,
-            "3M": -10.020729971565407,
-            "6M": -12.920857846022699,
-            "1Y": -24.019124287078032,
+            "1M": 7.233361429832503,
+            "3M": -8.530182408797533,
+            "6M": -10.665076482866361,
+            "1Y": -22.407012428931186,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": -8.19,
-              "3M": -12.47,
-              "6M": -25.38,
-              "1Y": -44.86
+              "1M": 3.5,
+              "3M": -10.49,
+              "6M": -23.41,
+              "1Y": -42.7
             },
-            "latest_volume": 15191500.0,
-            "average_volume_30d": 16540656.666666666
+            "latest_volume": 15573685.0,
+            "average_volume_30d": 16318512.833333334
           }
         },
         "News": {
-          "score": 15,
+          "score": 13,
           "max_score": 20,
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-            "ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
-            "イベント後の平均株価反応が -0.87% と中立圏です。"
+            "ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 3 件(純比率 +0.00)で、センチメントは 4.0 点です。",
+            "イベント後の平均株価反応が 1.21% とプラスです。"
           ],
           "evidence": [
             "News",
@@ -2659,11 +2662,11 @@
           "missing_data": [],
           "metrics": {
             "news_count": 10,
-            "positive_count": 1,
-            "negative_count": 0,
-            "sentiment_net_ratio": 1.0,
+            "positive_count": 3,
+            "negative_count": 3,
+            "sentiment_net_ratio": 0.0,
             "event_count": 10,
-            "events_with_price_reaction": 1
+            "events_with_price_reaction": 4
           }
         }
       },
@@ -2679,7 +2682,7 @@
     {
       "ticker": "NFLX",
       "company_name": "Netflix, Inc.",
-      "total_score": 44,
+      "total_score": 55,
       "max_score": 100,
       "confidence": {
         "level": "High",
@@ -2693,10 +2696,10 @@
       },
       "signal_strength": {
         "level": "Moderate",
-        "signal_rate": 44.0,
+        "signal_rate": 55.0,
         "evaluated_max_score": 100,
         "reasons": [
-          "データが確認できた 100 点満点のうち 44 点を獲得し、シグナル充足率は 44.0% です。",
+          "データが確認できた 100 点満点のうち 55 点を獲得し、シグナル充足率は 55.0% です。",
           "シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。"
         ]
       },
@@ -2781,10 +2784,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 25.672026,
-            "forward_pe": 20.895544,
+            "trailing_pe": 25.698112,
+            "forward_pe": 21.387575,
             "peg_ratio": 1.84,
-            "price_to_book": 11.0261,
+            "price_to_book": 11.285734,
             "sector_peer_count": 10,
             "trailing_pe_percentile": 88.89,
             "trailing_pe_peer_count": 10,
@@ -2797,14 +2800,14 @@
           }
         },
         "Momentum": {
-          "score": 5,
+          "score": 7,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンは +2.73pt で、市場並み以上です。",
-            "3M の対SPY超過リターンは -10.00pt と、市場を小幅に下回っています。",
-            "6M の対SPY超過リターンは -18.08pt と、市場を大きく下回っています。",
-            "1Y の対SPY超過リターンは -55.73pt と、市場を大きく下回っています。",
-            "直近出来高が30日平均の 0.70 倍で、市場関心はやや弱めです。"
+            "1M の対SPY超過リターンは +7.96pt で、市場並み以上です。",
+            "3M の対SPY超過リターンは -6.96pt と、市場を小幅に下回っています。",
+            "6M の対SPY超過リターンは -27.84pt と、市場を大きく下回っています。",
+            "1Y の対SPY超過リターンは -53.50pt と、市場を大きく下回っています。",
+            "直近出来高が30日平均の 0.83 倍で、通常水準の流動性があります。"
           ],
           "evidence": [
             "Prices",
@@ -2812,34 +2815,34 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": 8.434061274101682,
-            "3M": -7.54979646408133,
-            "6M": -5.615321203025422,
-            "1Y": -34.88243474561975,
+            "1M": 11.685121314362135,
+            "3M": -4.998832353139693,
+            "6M": -15.08727864231654,
+            "1Y": -33.208007977222685,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": 2.73,
-              "3M": -10.0,
-              "6M": -18.08,
-              "1Y": -55.73
+              "1M": 7.96,
+              "3M": -6.96,
+              "6M": -27.84,
+              "1Y": -53.5
             },
-            "latest_volume": 27120400.0,
-            "average_volume_30d": 38666356.666666664
+            "latest_volume": 29028023.0,
+            "average_volume_30d": 34901450.766666666
           }
         },
         "News": {
-          "score": 7,
+          "score": 16,
           "max_score": 20,
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-            "ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 3 件(純比率 -0.20)で、センチメントは 3.2 点です。",
-            "イベント後の平均株価反応が -1.99% と弱く、注意が必要です。"
+            "ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 1 件(純比率 +0.67)で、センチメントは 6.7 点です。",
+            "イベント後の平均株価反応が 2.35% とプラスです。"
           ],
           "evidence": [
             "News",
@@ -2849,11 +2852,11 @@
           "missing_data": [],
           "metrics": {
             "news_count": 10,
-            "positive_count": 2,
-            "negative_count": 3,
-            "sentiment_net_ratio": -0.2,
+            "positive_count": 5,
+            "negative_count": 1,
+            "sentiment_net_ratio": 0.67,
             "event_count": 10,
-            "events_with_price_reaction": 6
+            "events_with_price_reaction": 10
           }
         }
       },
@@ -2869,7 +2872,7 @@
     {
       "ticker": "DIS",
       "company_name": "The Walt Disney Company",
-      "total_score": 50,
+      "total_score": 52,
       "max_score": 100,
       "confidence": {
         "level": "Medium",
@@ -2883,10 +2886,10 @@
       },
       "signal_strength": {
         "level": "Moderate",
-        "signal_rate": 50.0,
+        "signal_rate": 52.0,
         "evaluated_max_score": 100,
         "reasons": [
-          "データが確認できた 100 点満点のうち 50 点を獲得し、シグナル充足率は 50.0% です。",
+          "データが確認できた 100 点満点のうち 52 点を獲得し、シグナル充足率は 52.0% です。",
           "シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。"
         ]
       },
@@ -2973,10 +2976,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 22.631357,
-            "forward_pe": 14.350081,
+            "trailing_pe": 22.28866,
+            "forward_pe": 14.522036,
             "peg_ratio": 2.76,
-            "price_to_book": 1.6795069,
+            "price_to_book": 1.699632,
             "sector_peer_count": 10,
             "trailing_pe_percentile": 77.78,
             "trailing_pe_peer_count": 10,
@@ -2989,14 +2992,14 @@
           }
         },
         "Momentum": {
-          "score": 8,
+          "score": 6,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンは +2.76pt で、市場並み以上です。",
-            "3M の対SPY超過リターンは +1.32pt で、市場並み以上です。",
-            "6M の対SPY超過リターンは -10.48pt と、市場を大きく下回っています。",
-            "1Y の対SPY超過リターンは -28.74pt と、市場を大きく下回っています。",
-            "直近出来高が30日平均の 0.83 倍で、通常水準の流動性があります。"
+            "1M の対SPY超過リターンは +8.69pt で、市場並み以上です。",
+            "3M の対SPY超過リターンは +5.01pt で、市場並み以上です。",
+            "6M の対SPY超過リターンは -10.02pt と、市場を大きく下回っています。",
+            "1Y の対SPY超過リターンは -27.43pt と、市場を大きく下回っています。",
+            "直近出来高が30日平均の 0.53 倍で、市場関心はやや弱めです。"
           ],
           "evidence": [
             "Prices",
@@ -3004,34 +3007,34 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": 8.46872060682504,
-            "3M": 3.7679526547368827,
-            "6M": 1.9786810089756697,
-            "1Y": -7.890548445233598,
+            "1M": 12.41679945642153,
+            "3M": 6.970738667398901,
+            "6M": 2.7237943955656503,
+            "1Y": -7.134123185908548,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": 2.76,
-              "3M": 1.32,
-              "6M": -10.48,
-              "1Y": -28.74
+              "1M": 8.69,
+              "3M": 5.01,
+              "6M": -10.02,
+              "1Y": -27.43
             },
-            "latest_volume": 8699500.0,
-            "average_volume_30d": 10501363.333333334
+            "latest_volume": 5440769.0,
+            "average_volume_30d": 10332838.966666667
           }
         },
         "News": {
-          "score": 10,
+          "score": 14,
           "max_score": 20,
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-            "ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 1 件(純比率 +0.60)で、センチメントは 6.4 点です。",
-            "イベント後の平均株価反応が -1.47% と弱く、注意が必要です。"
+            "ニュース見出し・要約の簡易分類では、好材料 7 件、悪材料 1 件(純比率 +0.75)で、センチメントは 7.0 点です。",
+            "イベント後の平均株価反応が 0.07% と中立圏です。"
           ],
           "evidence": [
             "News",
@@ -3041,11 +3044,11 @@
           "missing_data": [],
           "metrics": {
             "news_count": 10,
-            "positive_count": 4,
+            "positive_count": 7,
             "negative_count": 1,
-            "sentiment_net_ratio": 0.6,
+            "sentiment_net_ratio": 0.75,
             "event_count": 10,
-            "events_with_price_reaction": 10
+            "events_with_price_reaction": 9
           }
         }
       },
@@ -3061,7 +3064,7 @@
     {
       "ticker": "CMCSA",
       "company_name": "Comcast Corporation",
-      "total_score": 58,
+      "total_score": 64,
       "max_score": 100,
       "confidence": {
         "level": "Medium",
@@ -3075,10 +3078,10 @@
       },
       "signal_strength": {
         "level": "Moderate",
-        "signal_rate": 58.0,
+        "signal_rate": 64.0,
         "evaluated_max_score": 100,
         "reasons": [
-          "データが確認できた 100 点満点のうち 58 点を獲得し、シグナル充足率は 58.0% です。",
+          "データが確認できた 100 点満点のうち 64 点を獲得し、シグナル充足率は 64.0% です。",
           "シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。"
         ]
       },
@@ -3166,10 +3169,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 8.716171,
-            "forward_pe": 7.2910886,
+            "trailing_pe": 8.673077,
+            "forward_pe": 7.4705358,
             "peg_ratio": 142.98,
-            "price_to_book": 1.0434198,
+            "price_to_book": 1.0691004,
             "sector_peer_count": 10,
             "trailing_pe_percentile": 22.22,
             "trailing_pe_peer_count": 10,
@@ -3182,14 +3185,14 @@
           }
         },
         "Momentum": {
-          "score": 6,
+          "score": 8,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンは +1.61pt で、市場並み以上です。",
-            "3M の対SPY超過リターンは +3.95pt で、市場並み以上です。",
-            "6M の対SPY超過リターンは -24.68pt と、市場を大きく下回っています。",
-            "1Y の対SPY超過リターンは -33.12pt と、市場を大きく下回っています。",
-            "直近出来高が30日平均の 0.73 倍で、市場関心はやや弱めです。"
+            "1M の対SPY超過リターンが +10.59pt と、市場を大きく上回っています。",
+            "3M の対SPY超過リターンは +8.32pt で、市場並み以上です。",
+            "6M の対SPY超過リターンは -23.12pt と、市場を大きく下回っています。",
+            "1Y の対SPY超過リターンは -30.76pt と、市場を大きく下回っています。",
+            "直近出来高が30日平均の 0.75 倍で、市場関心はやや弱めです。"
           ],
           "evidence": [
             "Prices",
@@ -3197,34 +3200,34 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": 7.3140966778498475,
-            "3M": 6.398406242248581,
-            "6M": -12.216801160531825,
-            "1Y": -12.27852085291471,
+            "1M": 14.321923864476876,
+            "3M": 10.288280917914278,
+            "6M": -10.375851113783023,
+            "1Y": -10.465116205686655,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": 1.61,
-              "3M": 3.95,
-              "6M": -24.68,
-              "1Y": -33.12
+              "1M": 10.59,
+              "3M": 8.32,
+              "6M": -23.12,
+              "1Y": -30.76
             },
-            "latest_volume": 20695400.0,
-            "average_volume_30d": 28216293.333333332
+            "latest_volume": 20584595.0,
+            "average_volume_30d": 27565069.833333332
           }
         },
         "News": {
-          "score": 11,
+          "score": 15,
           "max_score": 20,
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-            "ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 1 件(純比率 +0.67)で、センチメントは 6.7 点です。",
-            "イベント後の平均株価反応が -1.09% と弱く、注意が必要です。"
+            "ニュース見出し・要約の簡易分類では、好材料 6 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
+            "イベント後の平均株価反応が -0.52% と中立圏です。"
           ],
           "evidence": [
             "News",
@@ -3234,11 +3237,11 @@
           "missing_data": [],
           "metrics": {
             "news_count": 10,
-            "positive_count": 5,
-            "negative_count": 1,
-            "sentiment_net_ratio": 0.67,
+            "positive_count": 6,
+            "negative_count": 0,
+            "sentiment_net_ratio": 1.0,
             "event_count": 10,
-            "events_with_price_reaction": 9
+            "events_with_price_reaction": 10
           }
         }
       },
@@ -3254,7 +3257,7 @@
     {
       "ticker": "TMUS",
       "company_name": "T-Mobile US, Inc.",
-      "total_score": 47,
+      "total_score": 49,
       "max_score": 100,
       "confidence": {
         "level": "Medium",
@@ -3268,10 +3271,10 @@
       },
       "signal_strength": {
         "level": "Moderate",
-        "signal_rate": 47.0,
+        "signal_rate": 49.0,
         "evaluated_max_score": 100,
         "reasons": [
-          "データが確認できた 100 点満点のうち 47 点を獲得し、シグナル充足率は 47.0% です。",
+          "データが確認できた 100 点満点のうち 49 点を獲得し、シグナル充足率は 49.0% です。",
           "シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。"
         ]
       },
@@ -3358,10 +3361,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 18.78964,
-            "forward_pe": 12.3108015,
+            "trailing_pe": 18.971756,
+            "forward_pe": 12.561519,
             "peg_ratio": 0.84,
-            "price_to_book": 3.3955452,
+            "price_to_book": 3.4646978,
             "sector_peer_count": 10,
             "trailing_pe_percentile": 55.56,
             "trailing_pe_peer_count": 10,
@@ -3377,11 +3380,11 @@
           "score": 5,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンは -7.79pt と、市場を小幅に下回っています。",
-            "3M の対SPY超過リターンは -7.90pt と、市場を小幅に下回っています。",
-            "6M の対SPY超過リターンは -28.21pt と、市場を大きく下回っています。",
-            "1Y の対SPY超過リターンは -48.75pt と、市場を大きく下回っています。",
-            "直近出来高が30日平均の 0.84 倍で、通常水準の流動性があります。"
+            "1M の対SPY超過リターンは +0.90pt で、市場並み以上です。",
+            "3M の対SPY超過リターンは -5.25pt と、市場を小幅に下回っています。",
+            "6M の対SPY超過リターンは -28.75pt と、市場を大きく下回っています。",
+            "1Y の対SPY超過リターンは -46.78pt と、市場を大きく下回っています。",
+            "直近出来高が30日平均の 0.67 倍で、市場関心はやや弱めです。"
           ],
           "evidence": [
             "Prices",
@@ -3389,34 +3392,34 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": -2.076908430875831,
-            "3M": -5.447093338112511,
-            "6M": -15.752390210923789,
-            "1Y": -27.906260136130573,
+            "1M": 4.632513527716966,
+            "3M": -3.284809738285688,
+            "6M": -16.00069877725288,
+            "1Y": -26.484845118772647,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": -7.79,
-              "3M": -7.9,
-              "6M": -28.21,
-              "1Y": -48.75
+              "1M": 0.9,
+              "3M": -5.25,
+              "6M": -28.75,
+              "1Y": -46.78
             },
-            "latest_volume": 3942900.0,
-            "average_volume_30d": 4687396.666666667
+            "latest_volume": 3105620.0,
+            "average_volume_30d": 4638254.0
           }
         },
         "News": {
-          "score": 9,
+          "score": 11,
           "max_score": 20,
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-            "ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 3 件(純比率 -0.50)で、センチメントは 2.0 点です。",
-            "イベント後の平均株価反応が 0.13% と中立圏です。"
+            "ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 2 件(純比率 +0.00)で、センチメントは 4.0 点です。",
+            "イベント後の平均株価反応が 0.03% と中立圏です。"
           ],
           "evidence": [
             "News",
@@ -3426,9 +3429,9 @@
           "missing_data": [],
           "metrics": {
             "news_count": 10,
-            "positive_count": 1,
-            "negative_count": 3,
-            "sentiment_net_ratio": -0.5,
+            "positive_count": 2,
+            "negative_count": 2,
+            "sentiment_net_ratio": 0.0,
             "event_count": 10,
             "events_with_price_reaction": 10
           }
@@ -3446,7 +3449,7 @@
     {
       "ticker": "AMZN",
       "company_name": "Amazon.com, Inc.",
-      "total_score": 73,
+      "total_score": 77,
       "max_score": 100,
       "confidence": {
         "level": "Medium",
@@ -3460,10 +3463,10 @@
       },
       "signal_strength": {
         "level": "Strong",
-        "signal_rate": 73.0,
+        "signal_rate": 77.0,
         "evaluated_max_score": 100,
         "reasons": [
-          "データが確認できた 100 点満点のうち 73 点を獲得し、シグナル充足率は 73.0% です。",
+          "データが確認できた 100 点満点のうち 77 点を獲得し、シグナル充足率は 77.0% です。",
           "シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。"
         ]
       },
@@ -3550,10 +3553,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 20.919184,
-            "forward_pe": 24.662891,
+            "trailing_pe": 21.434431,
+            "forward_pe": 25.641668,
             "peg_ratio": 1.39,
-            "price_to_book": 5.009383,
+            "price_to_book": 5.2081866,
             "sector_peer_count": 10,
             "trailing_pe_percentile": 22.22,
             "trailing_pe_peer_count": 10,
@@ -3569,11 +3572,11 @@
           "score": 12,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンは +7.36pt で、市場並み以上です。",
-            "3M の対SPY超過リターンは -8.92pt と、市場を小幅に下回っています。",
-            "6M の対SPY超過リターンが +10.79pt と、市場を大きく上回っています。",
-            "1Y の対SPY超過リターンは -8.80pt と、市場を小幅に下回っています。",
-            "直近出来高が30日平均の 0.83 倍で、通常水準の流動性があります。"
+            "1M の対SPY超過リターンは +9.40pt で、市場並み以上です。",
+            "3M の対SPY超過リターンは -3.52pt と、市場を小幅に下回っています。",
+            "6M の対SPY超過リターンが +14.12pt と、市場を大きく上回っています。",
+            "1Y の対SPY超過リターンは -4.01pt と、市場を小幅に下回っています。",
+            "直近出来高が30日平均の 1.14 倍で、通常水準の流動性があります。"
           ],
           "evidence": [
             "Prices",
@@ -3581,34 +3584,34 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": 13.064203250172637,
-            "3M": -6.474448990647811,
-            "6M": 23.249332446319585,
-            "1Y": 12.045823201004433,
+            "1M": 13.133754851711785,
+            "3M": -1.5555800121150178,
+            "6M": 26.871425083705358,
+            "1Y": 16.284042577563294,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": 7.36,
-              "3M": -8.92,
-              "6M": 10.79,
-              "1Y": -8.8
+              "1M": 9.4,
+              "3M": -3.52,
+              "6M": 14.12,
+              "1Y": -4.01
             },
-            "latest_volume": 35852900.0,
-            "average_volume_30d": 43027730.0
+            "latest_volume": 49322804.0,
+            "average_volume_30d": 43221906.8
           }
         },
         "News": {
-          "score": 12,
+          "score": 16,
           "max_score": 20,
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-            "ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
-            "イベント後の平均株価反応が -1.54% と弱く、注意が必要です。"
+            "ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 1 件(純比率 +0.67)で、センチメントは 6.7 点です。",
+            "イベント後の平均株価反応が 3.97% とプラスです。"
           ],
           "evidence": [
             "News",
@@ -3618,11 +3621,11 @@
           "missing_data": [],
           "metrics": {
             "news_count": 10,
-            "positive_count": 2,
-            "negative_count": 0,
-            "sentiment_net_ratio": 1.0,
+            "positive_count": 5,
+            "negative_count": 1,
+            "sentiment_net_ratio": 0.67,
             "event_count": 10,
-            "events_with_price_reaction": 2
+            "events_with_price_reaction": 5
           }
         }
       },
@@ -3638,7 +3641,7 @@
     {
       "ticker": "TSLA",
       "company_name": "Tesla, Inc.",
-      "total_score": 57,
+      "total_score": 48,
       "max_score": 100,
       "confidence": {
         "level": "High",
@@ -3652,10 +3655,10 @@
       },
       "signal_strength": {
         "level": "Moderate",
-        "signal_rate": 57.0,
+        "signal_rate": 48.0,
         "evaluated_max_score": 100,
         "reasons": [
-          "データが確認できた 100 点満点のうち 57 点を獲得し、シグナル充足率は 57.0% です。",
+          "データが確認できた 100 点満点のうち 48 点を獲得し、シグナル充足率は 48.0% です。",
           "シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。"
         ]
       },
@@ -3741,10 +3744,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 322.55453,
-            "forward_pe": 164.37195,
+            "trailing_pe": 329.00946,
+            "forward_pe": 161.56454,
             "peg_ratio": 5.13,
-            "price_to_book": 16.131393,
+            "price_to_book": 15.855876,
             "sector_peer_count": 10,
             "trailing_pe_percentile": 100,
             "trailing_pe_peer_count": 10,
@@ -3757,14 +3760,14 @@
           }
         },
         "Momentum": {
-          "score": 5,
+          "score": 6,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンが +13.23pt と、市場を大きく上回っています。",
-            "3M の対SPY超過リターンは -22.19pt と、市場を大きく下回っています。",
-            "6M の対SPY超過リターンは -25.62pt と、市場を大きく下回っています。",
-            "1Y の対SPY超過リターンは -19.95pt と、市場を大きく下回っています。",
-            "直近出来高が30日平均の 0.79 倍で、市場関心はやや弱めです。"
+            "1M の対SPY超過リターンは +9.19pt で、市場並み以上です。",
+            "3M の対SPY超過リターンは -21.94pt と、市場を大きく下回っています。",
+            "6M の対SPY超過リターンは -26.10pt と、市場を大きく下回っています。",
+            "1Y の対SPY超過リターンは -20.54pt と、市場を大きく下回っています。",
+            "直近出来高が30日平均の 0.87 倍で、通常水準の流動性があります。"
           ],
           "evidence": [
             "Prices",
@@ -3772,34 +3775,34 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": 18.93603809582264,
-            "3M": -19.744403379285043,
-            "6M": -13.160211165693408,
-            "1Y": 0.8928779853174948,
+            "1M": 12.918890434831756,
+            "3M": -19.972924307178022,
+            "6M": -13.356192010461696,
+            "1Y": -0.24313675305370006,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": 13.23,
-              "3M": -22.19,
-              "6M": -25.62,
-              "1Y": -19.95
+              "1M": 9.19,
+              "3M": -21.94,
+              "6M": -26.1,
+              "1Y": -20.54
             },
-            "latest_volume": 30062000.0,
-            "average_volume_30d": 37880640.0
+            "latest_volume": 32818355.0,
+            "average_volume_30d": 37930571.833333336
           }
         },
         "News": {
-          "score": 17,
+          "score": 7,
           "max_score": 20,
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-            "ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
-            "イベント後の平均株価反応が 2.60% とプラスです。"
+            "ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 3 件(純比率 -0.20)で、センチメントは 3.2 点です。",
+            "イベント後の平均株価反応が -1.71% と弱く、注意が必要です。"
           ],
           "evidence": [
             "News",
@@ -3810,10 +3813,10 @@
           "metrics": {
             "news_count": 10,
             "positive_count": 2,
-            "negative_count": 0,
-            "sentiment_net_ratio": 1.0,
+            "negative_count": 3,
+            "sentiment_net_ratio": -0.2,
             "event_count": 10,
-            "events_with_price_reaction": 3
+            "events_with_price_reaction": 9
           }
         }
       },
@@ -3829,7 +3832,7 @@
     {
       "ticker": "HD",
       "company_name": "The Home Depot, Inc.",
-      "total_score": 47,
+      "total_score": 50,
       "max_score": 100,
       "confidence": {
         "level": "Medium",
@@ -3843,10 +3846,10 @@
       },
       "signal_strength": {
         "level": "Moderate",
-        "signal_rate": 47.0,
+        "signal_rate": 50.0,
         "evaluated_max_score": 100,
         "reasons": [
-          "データが確認できた 100 点満点のうち 47 点を獲得し、シグナル充足率は 47.0% です。",
+          "データが確認できた 100 点満点のうち 50 点を獲得し、シグナル充足率は 50.0% です。",
           "シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。"
         ]
       },
@@ -3933,10 +3936,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 23.421953,
-            "forward_pe": 20.48867,
+            "trailing_pe": 23.106369,
+            "forward_pe": 20.587183,
             "peg_ratio": 1.89,
-            "price_to_book": 19.736336,
+            "price_to_book": 19.831232,
             "sector_peer_count": 10,
             "trailing_pe_percentile": 55.56,
             "trailing_pe_peer_count": 10,
@@ -3949,14 +3952,14 @@
           }
         },
         "Momentum": {
-          "score": 7,
+          "score": 5,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンは -8.56pt と、市場を小幅に下回っています。",
-            "3M の対SPY超過リターンは +0.62pt で、市場並み以上です。",
-            "6M の対SPY超過リターンは -23.61pt と、市場を大きく下回っています。",
-            "1Y の対SPY超過リターンは -38.07pt と、市場を大きく下回っています。",
-            "直近出来高が30日平均の 0.93 倍で、通常水準の流動性があります。"
+            "1M の対SPY超過リターンは -4.68pt と、市場を小幅に下回っています。",
+            "3M の対SPY超過リターンは +2.93pt で、市場並み以上です。",
+            "6M の対SPY超過リターンは -24.79pt と、市場を大きく下回っています。",
+            "1Y の対SPY超過リターンは -37.26pt と、市場を大きく下回っています。",
+            "直近出来高が30日平均の 0.70 倍で、市場関心はやや弱めです。"
           ],
           "evidence": [
             "Prices",
@@ -3964,34 +3967,34 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": -2.855708154978817,
-            "3M": 3.071135207655291,
-            "6M": -11.144467111487925,
-            "1Y": -17.223611494410164,
+            "1M": -0.9479536835910826,
+            "3M": 4.895829505858497,
+            "6M": -12.037531378246145,
+            "1Y": -16.96821488122865,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": -8.56,
-              "3M": 0.62,
-              "6M": -23.61,
-              "1Y": -38.07
+              "1M": -4.68,
+              "3M": 2.93,
+              "6M": -24.79,
+              "1Y": -37.26
             },
-            "latest_volume": 3618000.0,
-            "average_volume_30d": 3872170.0
+            "latest_volume": 2659416.0,
+            "average_volume_30d": 3813017.2
           }
         },
         "News": {
-          "score": 8,
+          "score": 13,
           "max_score": 20,
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-            "ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 2 件(純比率 +0.00)で、センチメントは 4.0 点です。",
-            "イベント後の平均株価反応が -1.26% と弱く、注意が必要です。"
+            "ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。",
+            "イベント後の平均株価反応が -0.61% と中立圏です。"
           ],
           "evidence": [
             "News",
@@ -4001,11 +4004,11 @@
           "missing_data": [],
           "metrics": {
             "news_count": 10,
-            "positive_count": 2,
-            "negative_count": 2,
-            "sentiment_net_ratio": 0.0,
+            "positive_count": 3,
+            "negative_count": 1,
+            "sentiment_net_ratio": 0.5,
             "event_count": 10,
-            "events_with_price_reaction": 8
+            "events_with_price_reaction": 9
           }
         }
       },
@@ -4021,7 +4024,7 @@
     {
       "ticker": "MCD",
       "company_name": "McDonald's Corporation",
-      "total_score": 38,
+      "total_score": 40,
       "max_score": 100,
       "confidence": {
         "level": "Medium",
@@ -4034,12 +4037,12 @@
         ]
       },
       "signal_strength": {
-        "level": "Weak",
-        "signal_rate": 38.0,
+        "level": "Moderate",
+        "signal_rate": 40.0,
         "evaluated_max_score": 100,
         "reasons": [
-          "データが確認できた 100 点満点のうち 38 点を獲得し、シグナル充足率は 38.0% です。",
-          "シグナル強度は Weak(Strong: 65%以上 / Moderate: 40%以上)です。"
+          "データが確認できた 100 点満点のうち 40 点を獲得し、シグナル充足率は 40.0% です。",
+          "シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。"
         ]
       },
       "scores": {
@@ -4116,7 +4119,7 @@
             "PER はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。",
             "Forward PER はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。",
             "PEG はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。",
-            "PBR は -179.85 で、指標がマイナスのため加点対象外です。",
+            "PBR は -183.26 で、指標がマイナスのため加点対象外です。",
             "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
           ],
           "evidence": [
@@ -4125,10 +4128,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 21.689741,
-            "forward_pe": 18.604471,
+            "trailing_pe": 21.544716,
+            "forward_pe": 18.95534,
             "peg_ratio": 2.5,
-            "price_to_book": -179.84785,
+            "price_to_book": -183.26418,
             "sector_peer_count": 10,
             "trailing_pe_percentile": 33.33,
             "trailing_pe_peer_count": 10,
@@ -4141,14 +4144,14 @@
           }
         },
         "Momentum": {
-          "score": 6,
+          "score": 5,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンは -9.93pt と、市場を小幅に下回っています。",
-            "3M の対SPY超過リターンは -8.26pt と、市場を小幅に下回っています。",
-            "6M の対SPY超過リターンは -33.76pt と、市場を大きく下回っています。",
-            "1Y の対SPY超過リターンは -35.73pt と、市場を大きく下回っています。",
-            "直近出来高が30日平均の 1.35 倍で、市場関心の高まりが確認できます。"
+            "1M の対SPY超過リターンは -5.01pt と、市場を小幅に下回っています。",
+            "3M の対SPY超過リターンは -6.41pt と、市場を小幅に下回っています。",
+            "6M の対SPY超過リターンは -34.08pt と、市場を大きく下回っています。",
+            "1Y の対SPY超過リターンは -33.14pt と、市場を大きく下回っています。",
+            "直近出来高が30日平均の 0.88 倍で、通常水準の流動性があります。"
           ],
           "evidence": [
             "Prices",
@@ -4156,34 +4159,34 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": -4.220680582931644,
-            "3M": -5.808628164279604,
-            "6M": -21.29662955115698,
-            "1Y": -14.88144336384291,
+            "1M": -1.2814790679928996,
+            "3M": -4.44223987710179,
+            "6M": -21.337111124176015,
+            "1Y": -12.844013676738605,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": -9.93,
-              "3M": -8.26,
-              "6M": -33.76,
-              "1Y": -35.73
+              "1M": -5.01,
+              "3M": -6.41,
+              "6M": -34.08,
+              "1Y": -33.14
             },
-            "latest_volume": 5963700.0,
-            "average_volume_30d": 4431983.333333333
+            "latest_volume": 3882072.0,
+            "average_volume_30d": 4435875.733333333
           }
         },
         "News": {
-          "score": 9,
+          "score": 12,
           "max_score": 20,
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-            "ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 3 件(純比率 +0.14)で、センチメントは 4.6 点です。",
-            "イベント後の平均株価反応が -1.55% と弱く、注意が必要です。"
+            "ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 2 件(純比率 +0.20)で、センチメントは 4.8 点です。",
+            "イベント後の平均株価反応が -0.35% と中立圏です。"
           ],
           "evidence": [
             "News",
@@ -4193,11 +4196,11 @@
           "missing_data": [],
           "metrics": {
             "news_count": 10,
-            "positive_count": 4,
-            "negative_count": 3,
-            "sentiment_net_ratio": 0.14,
+            "positive_count": 3,
+            "negative_count": 2,
+            "sentiment_net_ratio": 0.2,
             "event_count": 10,
-            "events_with_price_reaction": 9
+            "events_with_price_reaction": 7
           }
         }
       },
@@ -4213,7 +4216,7 @@
     {
       "ticker": "NKE",
       "company_name": "NIKE, Inc.",
-      "total_score": 57,
+      "total_score": 60,
       "max_score": 100,
       "confidence": {
         "level": "Medium",
@@ -4227,10 +4230,10 @@
       },
       "signal_strength": {
         "level": "Moderate",
-        "signal_rate": 57.0,
+        "signal_rate": 60.0,
         "evaluated_max_score": 100,
         "reasons": [
-          "データが確認できた 100 点満点のうち 57 点を獲得し、シグナル充足率は 57.0% です。",
+          "データが確認できた 100 点満点のうち 60 点を獲得し、シグナル充足率は 60.0% です。",
           "シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。"
         ]
       },
@@ -4316,10 +4319,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 18.392345,
-            "forward_pe": 16.777746,
+            "trailing_pe": 18.857143,
+            "forward_pe": 17.284046,
             "peg_ratio": 1.53,
-            "price_to_book": 3.8347962,
+            "price_to_book": 3.9505186,
             "sector_peer_count": 10,
             "trailing_pe_percentile": 11.11,
             "trailing_pe_peer_count": 10,
@@ -4332,14 +4335,14 @@
           }
         },
         "Momentum": {
-          "score": 4,
+          "score": 3,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンは -16.77pt と、市場を大きく下回っています。",
-            "3M の対SPY超過リターンは -20.58pt と、市場を大きく下回っています。",
-            "6M の対SPY超過リターンは -51.41pt と、市場を大きく下回っています。",
-            "1Y の対SPY超過リターンは -70.63pt と、市場を大きく下回っています。",
-            "直近出来高が30日平均の 1.52 倍で、市場関心の高まりが確認できます。"
+            "1M の対SPY超過リターンは -10.09pt と、市場を大きく下回っています。",
+            "3M の対SPY超過リターンは -15.54pt と、市場を大きく下回っています。",
+            "6M の対SPY超過リターンは -48.07pt と、市場を大きく下回っています。",
+            "1Y の対SPY超過リターンは -68.17pt と、市場を大きく下回っています。",
+            "直近出来高が30日平均の 1.16 倍で、通常水準の流動性があります。"
           ],
           "evidence": [
             "Prices",
@@ -4347,34 +4350,34 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": -11.059700275307822,
-            "3M": -18.12547693983702,
-            "6M": -38.95013139261022,
-            "1Y": -49.784073031454184,
+            "1M": -6.360847441879781,
+            "3M": -13.574860895090179,
+            "6M": -35.31756161915611,
+            "1Y": -47.87770219083419,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": -16.77,
-              "3M": -20.58,
-              "6M": -51.41,
-              "1Y": -70.63
+              "1M": -10.09,
+              "3M": -15.54,
+              "6M": -48.07,
+              "1Y": -68.17
             },
-            "latest_volume": 36459800.0,
-            "average_volume_30d": 23983503.333333332
+            "latest_volume": 28339979.0,
+            "average_volume_30d": 24404465.966666665
           }
         },
         "News": {
-          "score": 11,
+          "score": 15,
           "max_score": 20,
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-            "ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 2 件(純比率 +0.00)で、センチメントは 4.0 点です。",
-            "イベント後の平均株価反応が -0.80% と中立圏です。"
+            "ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。",
+            "イベント後の平均株価反応が 2.26% とプラスです。"
           ],
           "evidence": [
             "News",
@@ -4384,9 +4387,9 @@
           "missing_data": [],
           "metrics": {
             "news_count": 10,
-            "positive_count": 2,
-            "negative_count": 2,
-            "sentiment_net_ratio": 0.0,
+            "positive_count": 3,
+            "negative_count": 1,
+            "sentiment_net_ratio": 0.5,
             "event_count": 10,
             "events_with_price_reaction": 9
           }
@@ -4498,7 +4501,7 @@
             "PER はセクター内 0.00 パーセンタイル / 母数 10 で、相対的に割安寄りです。",
             "Forward PER はセクター内 0.00 パーセンタイル / 母数 10 で、相対的に割安寄りです。",
             "PEG はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。",
-            "PBR は -15.59 で、指標がマイナスのため加点対象外です。",
+            "PBR は -15.69 で、指標がマイナスのため加点対象外です。",
             "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
           ],
           "evidence": [
@@ -4507,10 +4510,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 17.791739,
-            "forward_pe": 15.800906,
+            "trailing_pe": 17.586645,
+            "forward_pe": 15.901029,
             "peg_ratio": 1.44,
-            "price_to_book": -15.594781,
+            "price_to_book": -15.693596,
             "sector_peer_count": 10,
             "trailing_pe_percentile": 0,
             "trailing_pe_peer_count": 10,
@@ -4526,11 +4529,11 @@
           "score": 5,
           "max_score": 20,
           "reasons": [
-            "1M の対SPY超過リターンは -9.85pt と、市場を小幅に下回っています。",
-            "3M の対SPY超過リターンは -6.99pt と、市場を小幅に下回っています。",
-            "6M の対SPY超過リターンは -33.41pt と、市場を大きく下回っています。",
-            "1Y の対SPY超過リターンは -39.17pt と、市場を大きく下回っています。",
-            "直近出来高が30日平均の 1.01 倍で、通常水準の流動性があります。"
+            "1M の対SPY超過リターンは -4.70pt と、市場を小幅に下回っています。",
+            "3M の対SPY超過リターンは -4.31pt と、市場を小幅に下回っています。",
+            "6M の対SPY超過リターンは -33.24pt と、市場を大きく下回っています。",
+            "1Y の対SPY超過リターンは -38.21pt と、市場を大きく下回っています。",
+            "直近出来高が30日平均の 0.91 倍で、通常水準の流動性があります。"
           ],
           "evidence": [
             "Prices",
@@ -4538,25 +4541,25 @@
           ],
           "missing_data": [],
           "metrics": {
-            "1M": -4.1450238715725956,
-            "3M": -4.5440131436882725,
-            "6M": -20.943981253759826,
-            "1Y": -18.326486976550576,
+            "1M": -0.9662979634441312,
+            "3M": -2.343824420695861,
+            "6M": -20.497173242414974,
+            "1Y": -17.91701149440511,
             "benchmark": "SPY",
             "benchmark_returns": {
-              "1M": 5.71,
-              "3M": 2.45,
-              "6M": 12.46,
-              "1Y": 20.85
+              "1M": 3.73,
+              "3M": 1.96,
+              "6M": 12.75,
+              "1Y": 20.3
             },
             "excess_returns": {
-              "1M": -9.85,
-              "3M": -6.99,
-              "6M": -33.41,
-              "1Y": -39.17
+              "1M": -4.7,
+              "3M": -4.31,
+              "6M": -33.24,
+              "1Y": -38.21
             },
-            "latest_volume": 3083600.0,
-            "average_volume_30d": 3039133.3333333335
+            "latest_volume": 2742791.0,
+            "average_volume_30d": 3014696.3666666667
           }
         },
         "News": {
@@ -4565,7 +4568,7 @@
           "reasons": [
             "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
             "ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 2 件(純比率 -0.33)で、センチメントは 2.7 点です。",
-            "イベント後の平均株価反応が -1.86% と弱く、注意が必要です。"
+            "イベント後の平均株価反応が -1.35% と弱く、注意が必要です。"
           ],
           "evidence": [
             "News",
@@ -4579,7 +4582,7 @@
             "negative_count": 2,
             "sentiment_net_ratio": -0.33,
             "event_count": 10,
-            "events_with_price_reaction": 9
+            "events_with_price_reaction": 10
           }
         }
       },
