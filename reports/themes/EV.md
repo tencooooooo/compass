@@ -1,39 +1,38 @@
 # EV
 
-- Target companies: 5
-- Average Score: 60.50
-- Average Discovery: 66.33
-- Momentum: -2.55
+- Target companies: 4
+- Average Score: 64.00
+- Average Discovery: 75.50
+- Momentum: 2.40
 - Confidence: Medium
 
 ## Companies
 
-- AAPL - Apple Inc. (Low): Keyword: autonomous driving
 - NVDA - NVIDIA Corporation (Low): Keyword: electric vehicle
 - ORLY - O'Reilly Automotive, Inc. (Medium): Keyword: battery; Sector alignment: Consumer Cyclical
-- TSLA - Tesla, Inc. (High): Keyword: electric vehicles; Keyword: battery; Keyword: autonomous driving; Sector alignment: Consumer Cyclical
-- TXN - Texas Instruments Incorporated (Medium): Keyword: ev; Keyword: battery
+- TSLA - Tesla, Inc. (High): Keyword: ev; Keyword: electric vehicles; Keyword: battery; Sector alignment: Consumer Cyclical
+- TXN - Texas Instruments Incorporated (Low): Keyword: battery
 
 ## Market
 
-- Consumer Cyclical: score 52.50, momentum 6.18, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Neutral'}
-- Technology: score 67.17, momentum 8.93, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 52.83, momentum 2.75, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 67.17, momentum 9.60, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- AAPL: Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines.
-- TSLA: US Stock Indices End Week Lower On Pressure From Elevated Long-Duration Treasury Yields — PSKY, MSTR, WMT, TSLA, NVDA In Focus
-- TSLA: Why Is Tesla Stock Up Today?
-- TSLA: Stock Market Today, Aug. 21: Tesla Gains on Nevada Robotaxi Permit Approval
-- AAPL: Jefferies Just Said Sell Apple (AAPL). Here’s the iPhone Feature That Got Canceled
+- NVDA: Nancy Pelosi’s Husband Bought Millions of This AI Power Stock. Nvidia Just Strengthened the Bull Case
+- NVDA: 6 things investors need to watch in the week ahead
+- TSLA: Elon Musk Calls Gavin Newsom's California High-Speed Rail Project a 'Big Scam' as Ron DeSantis Says Cost Is 'Mind Blowing'
+- TSLA: Amazon’s Post-Q2 Earnings Rally Has Faded But Don’t Give Up on AMZN Stock Just Yet
+- TSLA: Einride (ENRD) Just Bet Big on Tesla (TSLA)
 
 ## Similar Themes
 
-- Robotics: 0.998 (Shared companies: AAPL, NVDA, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
-- Cloud: 0.98 (Shared companies: AAPL, NVDA, TXN; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
-- Semiconductor: 0.967 (Shared companies: NVDA, TSLA, TXN; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
-- AI: 0.964 (Shared companies: AAPL, NVDA, TSLA, TXN; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
-- Fintech: 0.952 (Shared companies: AAPL; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Robotics: 0.991 (Shared companies: NVDA; Shared sectors: Technology; Similar average Discovery score)
+- Fintech: 0.986 (Shared companies: NVDA; Shared sectors: Technology; Similar average Discovery score)
+- Semiconductor: 0.976 (Shared companies: NVDA, TXN; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Energy: 0.964 (Shared companies: NVDA, ORLY, TSLA, TXN; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cloud: 0.961 (Shared companies: NVDA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
 
 ## Review Note
 

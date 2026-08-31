@@ -1,43 +1,42 @@
 # Robotics
 
-- Target companies: 9
-- Average Score: 64.00
-- Average Discovery: 68.14
-- Momentum: 10.80
+- Target companies: 8
+- Average Score: 68.43
+- Average Discovery: 72.33
+- Momentum: 13.18
 - Confidence: Medium
 
 ## Companies
 
-- AAPL - Apple Inc. (Medium): Keyword: autonomous; Keyword: autonomous driving; Sector alignment: Technology
 - ACN - Accenture plc (Medium): Keyword: robotics; Keyword: automation; Sector alignment: Technology
 - AMAT - Applied Materials, Inc. (Medium): Keyword: automation; Sector alignment: Technology
 - AVGO - Broadcom Inc. (Medium): Keyword: automation; Sector alignment: Technology
-- CRM - CRM (Medium): Keyword: autonomous; Sector alignment: Technology
+- CRM - Salesforce, Inc. (Medium): Keyword: autonomous; Sector alignment: Technology
+- META - Meta Platforms, Inc. (Medium): Keyword: autonomous; Keyword: automation
 - NOW - ServiceNow, Inc. (Medium): Keyword: autonomous; Keyword: automation; Sector alignment: Technology
 - NVDA - NVIDIA Corporation (Medium): Keyword: autonomous; Sector alignment: Technology
 - ORCL - Oracle Corporation (Medium): Keyword: autonomous; Sector alignment: Technology
-- TSLA - Tesla, Inc. (Medium): Keyword: autonomous; Keyword: autonomous driving; Sector alignment: Consumer Cyclical
 
 ## Market
 
-- Consumer Cyclical: score 52.50, momentum 6.18, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Neutral'}
-- Technology: score 67.17, momentum 8.93, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 59.50, momentum 9.03, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 67.17, momentum 9.60, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- AAPL: Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines.
-- TSLA: US Stock Indices End Week Lower On Pressure From Elevated Long-Duration Treasury Yields — PSKY, MSTR, WMT, TSLA, NVDA In Focus
-- TSLA: Why Is Tesla Stock Up Today?
-- TSLA: Stock Market Today, Aug. 21: Tesla Gains on Nevada Robotaxi Permit Approval
-- AAPL: Jefferies Just Said Sell Apple (AAPL). Here’s the iPhone Feature That Got Canceled
+- AVGO: Broadcom’s Debt Deal Could Reach $100 Billion in the AI Buildout’s Latest Mega-Financing
+- META: Meta Is Down 27%. One Analyst Sees a $22 Billion AI Business Hiding in Plain Sight
+- NVDA: Nancy Pelosi’s Husband Bought Millions of This AI Power Stock. Nvidia Just Strengthened the Bull Case
+- META: Dick’s Hit by a Footware Apocalypse
+- META: Meta's 9.9% Jio Stake Finally Gets a Public Scoreboard
 
 ## Similar Themes
 
-- EV: 0.998 (Shared companies: AAPL, NVDA, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
-- Cloud: 0.98 (Shared companies: AAPL, ACN, AMAT, AVGO, CRM; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.966 (Shared companies: AMAT, AVGO, CRM, NVDA, ORCL; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
-- AI: 0.964 (Shared companies: AAPL, ACN, AMAT, AVGO, CRM; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Fintech: 0.95 (Shared companies: AAPL, ACN; Shared sectors: Technology)
+- Fintech: 0.998 (Shared companies: ACN, NVDA; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- Semiconductor: 0.996 (Shared companies: AMAT, AVGO, NOW, NVDA, ORCL; Shared sectors: Technology; Similar average Discovery score)
+- EV: 0.991 (Shared companies: NVDA; Shared sectors: Technology; Similar average Discovery score)
+- Energy: 0.989 (Shared companies: ACN, AVGO, NVDA, ORCL; Shared sectors: Technology; Similar average Discovery score)
+- Cloud: 0.988 (Shared companies: ACN, AMAT, AVGO, CRM, NOW; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
 
 ## Review Note
 

@@ -1,41 +1,38 @@
 # Space
 
-- Target companies: 6
-- Average Score: 59.33
-- Average Discovery: 74.00
-- Momentum: 3.61
+- Target companies: 4
+- Average Score: 53.25
+- Average Discovery: 61.00
+- Momentum: 14.32
 - Confidence: Medium
 
 ## Companies
 
-- AAPL - Apple Inc. (Low): Keyword: launch
-- AMD - AMD (Low): Keyword: spacex
-- DIS - DIS (Medium): Keyword: satellite; Sector alignment: Communication Services
-- MSFT - Microsoft Corporation (Low): Keyword: launch
+- CMCSA - Comcast Corporation (Medium): Keyword: satellite; Sector alignment: Communication Services
+- DIS - The Walt Disney Company (Medium): Keyword: satellite; Sector alignment: Communication Services
 - TMUS - T-Mobile US, Inc. (Medium): Keyword: satellite; Keyword: spacex; Sector alignment: Communication Services
-- TSLA - Tesla, Inc. (Medium): Keyword: spacex; Keyword: launch
+- TSLA - Tesla, Inc. (Medium): Keyword: space; Keyword: spacex; Keyword: launch
 
 ## Market
 
-- Communication Services: score 56.50, momentum 10.13, trend {'momentum': 'Strong', 'news': 'High', 'financial_health': 'Good'}
-- Consumer Cyclical: score 52.50, momentum 6.18, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Neutral'}
-- Technology: score 67.17, momentum 8.93, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 59.50, momentum 9.03, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 52.83, momentum 2.75, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Neutral'}
 
 ## Major News
 
-- AAPL: Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines.
-- TSLA: US Stock Indices End Week Lower On Pressure From Elevated Long-Duration Treasury Yields — PSKY, MSTR, WMT, TSLA, NVDA In Focus
-- TSLA: Why Is Tesla Stock Up Today?
-- TSLA: Stock Market Today, Aug. 21: Tesla Gains on Nevada Robotaxi Permit Approval
-- AAPL: Jefferies Just Said Sell Apple (AAPL). Here’s the iPhone Feature That Got Canceled
+- DIS: Will Strong Q3 Results and Streaming Profits Shift Walt Disney's (DIS) Long-Term Narrative?
+- TSLA: Elon Musk Calls Gavin Newsom's California High-Speed Rail Project a 'Big Scam' as Ron DeSantis Says Cost Is 'Mind Blowing'
+- DIS: Sector Update: Consumer Stocks Rise Late Afternoon
+- DIS: Can The Walt Disney Company (DIS)’s iHeartMedia (IHRT) Partnership Strengthen its Streaming Ecosystem?
+- TSLA: Amazon’s Post-Q2 Earnings Rally Has Faded But Don’t Give Up on AMZN Stock Just Yet
 
 ## Similar Themes
 
-- AI: 0.996 (Shared companies: AAPL, AMD, MSFT, TMUS, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.996 (Shared companies: AMD, MSFT, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Cybersecurity: 0.994 (Shared companies: MSFT; Shared sectors: Communication Services, Technology)
-- Cloud: 0.989 (Shared companies: AAPL, AMD, MSFT, TMUS; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Fintech: 0.988 (Shared companies: AAPL; Shared sectors: Technology)
+- Healthcare: 0.775 (Shared companies: TSLA; Shared sectors: Consumer Cyclical)
+- Cybersecurity: 0.698 (Shared companies: TMUS; Shared sectors: Communication Services)
+- Quantum Computing: 0.667 (Shared companies: CMCSA; Shared sectors: Communication Services; Similar average Discovery score; Similar short-term momentum)
+- Energy: 0.659 (Shared companies: TSLA; Shared sectors: Consumer Cyclical)
+- AI: 0.639 (Shared companies: CMCSA, TSLA; Shared sectors: Communication Services, Consumer Cyclical)
 
 ## Review Note
 

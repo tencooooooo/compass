@@ -1,35 +1,39 @@
 # Healthcare
 
-- Target companies: 2
-- Average Score: 68.50
-- Average Discovery: 71.00
-- Momentum: 36.52
+- Target companies: 5
+- Average Score: 62.80
+- Average Discovery: 73.00
+- Momentum: 28.76
 - Confidence: Medium
 
 ## Companies
 
-- CRM - CRM (Low): Keyword: healthcare
+- AMZN - Amazon.com, Inc. (Low): Keyword: patient
+- CRM - Salesforce, Inc. (Low): Keyword: healthcare
+- HD - The Home Depot, Inc. (Low): Keyword: medical
 - NOW - ServiceNow, Inc. (Low): Keyword: healthcare
+- TSLA - Tesla, Inc. (Low): Keyword: patient
 
 ## Market
 
-- Technology: score 67.17, momentum 8.93, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 52.83, momentum 2.75, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 67.17, momentum 9.60, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- CRM: Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia, CrowdStrike, Warsh In Focus
-- CRM: Warsh at Jackson Hole, Nvidia Earnings: What to Watch Next Week
-- CRM: Microsoft Stock Gets Cheaper Only If The Forecast Arrives
-- NOW: Is UiPath's Expanding ARR Strengthening Its Long-Term Growth Story?
-- NOW: ServiceNow investors must consider latest alert from Bank of America
+- CRM: Why ZM Stock Prints So Much Cash Right Now
+- NOW: Adobe Stock and Two AI Software Names Investors May Want to Watch
+- AMZN: Has Microsoft Stock Run Ahead Of Its AI Payoff?
+- AMZN: How Much Upside Can AAPL Stock's Growth Deliver?
+- AMZN: Can PLTR Stock Live Up To Its Multiple?
 
 ## Similar Themes
 
-- Quantum Computing: 0.995 (Shared companies: NOW; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Energy: 0.657 (Shared sectors: Technology; Similar average Discovery score)
-- Fintech: 0.233 (Shared sectors: Technology)
-- Biotechnology: 0.219 (Shared sectors: Technology)
-- Robotics: 0.147 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar average Discovery score)
+- Cybersecurity: 0.981 (Shared companies: NOW; Shared sectors: Technology; Similar average Discovery score)
+- Energy: 0.976 (Shared companies: TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
+- Fintech: 0.975 (Shared sectors: Technology; Similar average Discovery score)
+- Robotics: 0.974 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar average Discovery score)
+- Semiconductor: 0.972 (Shared companies: AMZN, NOW; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
 
 ## Review Note
 

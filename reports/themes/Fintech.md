@@ -1,33 +1,38 @@
 # Fintech
 
-- Target companies: 2
-- Average Score: 56.00
-- Average Discovery: 62.00
-- Momentum: -3.74
+- Target companies: 4
+- Average Score: 71.33
+- Average Discovery: 75.33
+- Momentum: 11.00
 - Confidence: Medium
 
 ## Companies
 
-- AAPL - Apple Inc. (Medium): Keyword: payments; Sector alignment: Technology
 - ACN - Accenture plc (Medium): Keyword: banking; Sector alignment: Technology
+- ADBE - Adobe Inc. (Medium): Keyword: payments; Sector alignment: Technology
+- GOOGL - Alphabet Inc. (Low): Keyword: payments
+- NVDA - NVIDIA Corporation (Medium): Keyword: payments; Sector alignment: Technology
 
 ## Market
 
-- Technology: score 67.17, momentum 8.93, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 59.50, momentum 9.03, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 67.17, momentum 9.60, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- AAPL: Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines.
-- AAPL: Jefferies Just Said Sell Apple (AAPL). Here’s the iPhone Feature That Got Canceled
-- AAPL: Anthropic's IPO could come sooner than you think — likely beating OpenAI to the punch
+- GOOGL: Marvell Fell After Its Google Deal. Why Did Investors Sell These Two AI Optics Stocks Too?
+- NVDA: Nancy Pelosi’s Husband Bought Millions of This AI Power Stock. Nvidia Just Strengthened the Bull Case
+- ADBE: Adobe Stock and Two AI Software Names Investors May Want to Watch
+- ADBE: Is Adobe Stock’s AI Strategy Worth The Near-Term Risk?
+- ADBE: Figma Stock Rose With Its Peers, Not On Its Own News
 
 ## Similar Themes
 
-- Space: 0.988 (Shared companies: AAPL; Shared sectors: Technology)
-- Cybersecurity: 0.982 (Shared companies: ACN; Shared sectors: Technology)
-- Semiconductor: 0.981 (Shared sectors: Technology)
-- AI: 0.978 (Shared companies: AAPL, ACN; Shared sectors: Technology)
-- Cloud: 0.975 (Shared companies: AAPL, ACN; Shared sectors: Technology)
+- Robotics: 0.998 (Shared companies: ACN, NVDA; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- Semiconductor: 0.997 (Shared companies: ADBE, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Energy: 0.993 (Shared companies: ACN, NVDA; Shared sectors: Technology; Similar average Discovery score)
+- Cloud: 0.992 (Shared companies: ACN, ADBE, GOOGL, NVDA; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cybersecurity: 0.986 (Shared companies: ACN, ADBE, GOOGL; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
 
 ## Review Note
 
