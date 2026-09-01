@@ -17,8 +17,8 @@ Experiment Engine compares baseline and candidate Compass versions using reprodu
 - Baseline: primary-selection-current
 - Candidate: primary-selection-momentum-taper
 - Status: Completed
-- Winner: Baseline
-- Reason: Baseline wins 4.0 metrics vs candidate 1.0.
+- Winner: Candidate
+- Reason: Candidate wins 5.0 metrics vs baseline 0.0.
 
 ## EXP-NEWS-CAP-001 - News Score Cap
 
@@ -35,5 +35,5 @@ Experiment Engine compares baseline and candidate Compass versions using reprodu
 - Baseline: primary-selection-current
 - Candidate: primary-selection-overextension-guard
 - Status: Completed
-- Winner: Baseline
-- Reason: Baseline wins 3.0 metrics vs candidate 1.0.
+- Winner: Candidate
+- Reason: Candidate wins 5.0 metrics vs baseline 0.0.
