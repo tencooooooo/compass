@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: The Home Depot, Inc.
-- Total Score: 50 / 100
+- Total Score: 54 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 50 点を獲得し、シグナル充足率は 50.0% です。
+- データが確認できた 100 点満点のうち 54 点を獲得し、シグナル充足率は 54.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -111,10 +111,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 23.1064
-- forward_pe: 20.5872
-- peg_ratio: 1.8900
-- price_to_book: 19.8312
+- trailing_pe: 22.9252
+- forward_pe: 20.4400
+- peg_ratio: 1.8300
+- price_to_book: 19.6895
 - sector_peer_count: 10
 - trailing_pe_percentile: 55.5600
 - trailing_pe_peer_count: 10
@@ -127,15 +127,15 @@ Evidence
 
 ## Momentum
 
-5点
+7点
 
 理由
 
-- 1M の対SPY超過リターンは -4.68pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは +2.93pt で、市場並み以上です。
-- 6M の対SPY超過リターンは -24.79pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -37.26pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.70 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -3.92pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは +4.93pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -22.68pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -36.92pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.95 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -144,25 +144,25 @@ Evidence
 
 使用データ
 
-- 1M: -0.9480
-- 3M: 4.8958
-- 6M: -12.0375
-- 1Y: -16.9682
+- 1M: -1.2441
+- 3M: 6.3082
+- 6M: -10.3322
+- 1Y: -17.4018
 - benchmark: SPY
-- benchmark_returns: {'1M': 3.73, '3M': 1.96, '6M': 12.75, '1Y': 20.3}
-- excess_returns: {'1M': -4.68, '3M': 2.93, '6M': -24.79, '1Y': -37.26}
-- latest_volume: 2,659,416.0000
-- average_volume_30d: 3,813,017.2000
+- benchmark_returns: {'1M': 2.68, '3M': 1.38, '6M': 12.35, '1Y': 19.51}
+- excess_returns: {'1M': -3.92, '3M': 4.93, '6M': -22.68, '1Y': -36.92}
+- latest_volume: 3,634,982.0000
+- average_volume_30d: 3,812,562.7333
 
 ## News
 
-13点
+15点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。
-- イベント後の平均株価反応が -0.61% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が -0.35% と中立圏です。
 
 Evidence
 
@@ -173,11 +173,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 3
-- negative_count: 1
-- sentiment_net_ratio: 0.5000
+- positive_count: 5
+- negative_count: 0
+- sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 9
+- events_with_price_reaction: 10
 
 ## Note
 

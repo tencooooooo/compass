@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 7.75%
+- 市場全体の1Mモメンタム平均: 6.77%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-08-29T03:11:37+00:00 / AVGO / Insider Monkey: Broadcom’s Debt Deal Could Reach $100 Billion in the AI Buildout’s Latest Mega-Financing
-- 2026-08-29T03:04:38+00:00 / META / Insider Monkey: Meta Is Down 27%. One Analyst Sees a $22 Billion AI Business Hiding in Plain Sight
-- 2026-08-29T02:55:45+00:00 / GOOGL / Insider Monkey: Marvell Fell After Its Google Deal. Why Did Investors 投資判断表現 These Two AI Optics Stocks Too?
-- 2026-08-29T02:49:12+00:00 / NVDA / Insider Monkey: Nancy Pelosi’s Husband Bought Millions of This AI Power Stock. Nvidia Just Strengthened the Bull Case
-- 2026-08-29T02:35:00+00:00 / NVDA / Motley Fool: A Costco Special Dividend Could Be Coming, but Walmart Has Raised Its Dividend for 53 Consecutive Years. Here's the Better 投資判断表現 Now.
+- 2026-09-01T00:25:38+00:00 / NVDA / Trefis: NVDA Stock: Where Compounding Could Take The Price
+- 2026-09-01T00:25:38+00:00 / AMD / Trefis: NVDA Stock: Where Compounding Could Take The Price
+- 2026-09-01T00:25:38+00:00 / AVGO / Trefis: NVDA Stock: Where Compounding Could Take The Price
+- 2026-09-01T00:25:38+00:00 / QCOM / Trefis: NVDA Stock: Where Compounding Could Take The Price
+- 2026-09-01T00:13:00+00:00 / AAPL / TechCrunch: Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI
 
 ### 注目イベント
 
-- 2026-08-27T18:05:19+00:00 / NVDA: Nvidia could hit a $13 trillion market cap, analyst says (株価反応: 8.74%, 出来高: 298.91M)
-- 2026-08-27T17:00:35+00:00 / ADBE: Figma Stock Price Prediction: Wall Street’s $30 Target May Be Too Low (株価反応: 5.73%, 出来高: 6.52M)
-- 2026-08-27T15:44:26+00:00 / ADBE: Software and Chip Stocks Surge in AI-Fueled Earnings Blowout (株価反応: 5.73%, 出来高: 6.52M)
-- 2026-08-27T15:08:56+00:00 / ADBE: Figma Spikes 12% as AI Turns From Threat to Tailwind for Design Software, Atlassian Rallies 8% (株価反応: 5.73%, 出来高: 6.52M)
-- 2026-08-28T16:06:00+00:00 / NOW: Is now the time to 投資判断表現 software stocks? (株価反応: 4.54%, 出来高: 28.89M)
+- 2026-08-31T17:10:26+00:00 / TSLA: Here comes the AI capex shocker, Goldman Sachs says (株価反応: 5.51%, 出来高: 61.16M)
+- 2026-08-28T16:06:00+00:00 / NOW: Is now the time to 投資判断表現 software stocks? (株価反応: 4.54%, 出来高: 28.98M)
+- 2026-08-28T15:30:20+00:00 / NOW: Why Is Vertiv (VRT) Up 18.4% Since Last Earnings Report? (株価反応: 4.54%, 出来高: 28.98M)
+- 2026-08-28T14:42:04+00:00 / AMAT: How Far Applied Materials Stock Can Move On You In A Year (株価反応: -4.29%, 出来高: 6.52M)
+- 2026-08-27T23:13:03+00:00 / AMAT: How Investors Are Reacting To Applied Materials (AMAT) AI-Fueled Backlog, New Fabs And EPIC Center Bet (株価反応: -4.29%, 出来高: 6.52M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 59.50 | 19.13 | 11.20 | 9.03% | 60 |
-| Consumer Cyclical | 6 | 52.83 | 71.92 | 9.00 | 2.75% | 60 |
-| Technology | 12 | 67.17 | 43.92 | 8.94 | 9.60% | 120 |
+| Communication Services | 6 | 58.67 | 18.94 | 11.20 | 6.52% | 60 |
+| Consumer Cyclical | 6 | 53.17 | 73.63 | 9.01 | 0.36% | 60 |
+| Technology | 12 | 68.58 | 44.25 | 8.94 | 10.10% | 120 |
 
 ## 市場トレンド
 
@@ -49,7 +49,7 @@
 | --- | --- | --- | --- |
 | Communication Services | Positive | High | Good |
 | Consumer Cyclical | Positive | High | Neutral |
-| Technology | Positive | High | Good |
+| Technology | Strong | High | Good |
 
 ## 市場心理
 

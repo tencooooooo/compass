@@ -1,23 +1,23 @@
-# Learning Summary - 2026-08-28
+# Learning Summary - 2026-08-31
 
 > Learning SummaryはApproved Proposalの取り込み状況を示します。Knowledge本体は自動更新していません。
 
-- 学習件数: 0
+- 学習件数: 1
 - Proposal数: 7
-- 採用率: 0.0%
+- 採用率: 14.29%
 - Knowledge Version: v1
 
 ## Status Counts
 
-- Approved: 0
+- Approved: 1
 - Rejected: 0
-- Deferred: 0
-- Pending: 7
+- Deferred: 6
+- Pending: 0
 
 ## 対象カテゴリ
 
-- Approved Proposalがありません。
+- Score Accuracy
 
 ## 更新候補
 
-- 現時点でLearning Packageへ取り込む更新候補はありません。
+- PROP-2026-07-16-score-accuracy-3dbf5a14: Score Accuracy
