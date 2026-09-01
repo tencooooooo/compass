@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-85 / 100
+74 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 16/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 9/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで -3.82pt と、市場を小幅に下回っています。
-- 3Mモメンタムは対SPYで -9.11pt と、市場を小幅に下回っています。
-- 6Mモメンタムは対SPYで +124.65pt と、市場を大きく上回っています。
+- 1Mモメンタムは対SPYで -5.71pt と、市場を小幅に下回っています。
+- 3Mモメンタムは対SPYで -12.42pt と弱く、候補評価では注意点です。
+- 6Mモメンタムは対SPYで +128.13pt と、市場を大きく上回っています。
 
 ## Strengths
 
@@ -34,7 +34,8 @@
 ## Watch Points
 
 - バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。
-- 注意材料になり得るニュース表現が 1 件あります。
+- 注意材料になり得るニュース表現が 2 件あります。
+- イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Technology セクター全体の需要変化と競争環境を確認する必要があります。
@@ -47,7 +48,7 @@ High
 
 ## Signal Strength
 
-Strong(シグナル充足率: 84.55%)
+Strong(シグナル充足率: 73.5%)
 
 ## Evidence
 
@@ -66,20 +67,20 @@ Strong(シグナル充足率: 84.55%)
 
 ## Metrics
 
-- scoring_total: 73.0
-- signal_earned_points: 84.55
+- scoring_total: 65.0
+- signal_earned_points: 73.5
 - signal_max_points: 100.0
 - weak_signals: []
 - scoring_signal_strength: Strong
 - growth_score: 20.0
 - financial_health_score: 20.0
 - valuation_score: 6.0
-- news_score: 16.0
-- momentum: {'1m': -1.140395410140809, '3m': -7.725482383880296, '6m': 136.99527378548885, '1y': 179.22647770074363}
+- news_score: 9.0
+- momentum: {'1m': -5.164664192046136, '3m': -11.874447843868708, '6m': 140.6965135883934, '1y': 182.6108169170548}
 - benchmark: SPY
-- excess_momentum: {'1m': -3.82, '3m': -9.11, '6m': 124.65, '1y': 159.71}
-- positive_news: 6
-- watch_news: 1
+- excess_momentum: {'1m': -5.71, '3m': -12.42, '6m': 128.13, '1y': 163.21}
+- positive_news: 4
+- watch_news: 2
 - event_count: 10
-- events_with_reaction: 3
-- sector_average_score: 68.58333333333333
+- events_with_reaction: 8
+- sector_average_score: 65.5

@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Lowe's Companies, Inc.
-- Total Score: 43 / 100
+- Total Score: 48 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 43 点を獲得し、シグナル充足率は 43.0% です。
+- データが確認できた 100 点満点のうち 48 点を獲得し、シグナル充足率は 48.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -93,14 +93,14 @@ Evidence
 
 ## Valuation
 
-13点
+15点
 
 理由
 
 - PER はセクター内 0.00 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - Forward PER はセクター内 0.00 パーセンタイル / 母数 10 で、相対的に割安寄りです。
-- PEG はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。
-- PBR は -15.44 で、指標がマイナスのため加点対象外です。
+- PEG はセクター内 22.22 パーセンタイル / 母数 10 で、相対的に割安寄りです。
+- PBR は -15.09 で、指標がマイナスのため加点対象外です。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -110,31 +110,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 17.2889
-- forward_pe: 15.6450
-- peg_ratio: 1.4000
-- price_to_book: -15.4409
+- trailing_pe: 16.8961
+- forward_pe: 15.3159
+- peg_ratio: 1.4100
+- price_to_book: -15.0901
 - sector_peer_count: 10
 - trailing_pe_percentile: 0
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 0
 - forward_pe_peer_count: 10
-- peg_ratio_percentile: 33.3300
+- peg_ratio_percentile: 22.2200
 - peg_ratio_peer_count: 10
 - price_to_book_percentile: N/A
 - price_to_book_peer_count: 0
 
 ## Momentum
 
-6点
+5点
 
 理由
 
-- 1M の対SPY超過リターンは -4.18pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -2.22pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -31.87pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -38.40pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.42 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは -6.21pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -3.14pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -34.08pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -40.29pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.12 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -143,25 +143,25 @@ Evidence
 
 使用データ
 
-- 1M: -1.4966
-- 3M: -0.8353
-- 6M: -19.5265
-- 1Y: -18.8843
+- 1M: -5.6635
+- 3M: -2.5908
+- 6M: -21.5163
+- 1Y: -20.8867
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.68, '3M': 1.38, '6M': 12.35, '1Y': 19.51}
-- excess_returns: {'1M': -4.18, '3M': -2.22, '6M': -31.87, '1Y': -38.4}
-- latest_volume: 4,336,407.0000
-- average_volume_30d: 3,052,003.5667
+- benchmark_returns: {'1M': 0.54, '3M': 0.55, '6M': 12.57, '1Y': 19.4}
+- excess_returns: {'1M': -6.21, '3M': -3.14, '6M': -34.08, '1Y': -40.29}
+- latest_volume: 3,413,069.0000
+- average_volume_30d: 3,052,915.6333
 
 ## News
 
-7点
+11点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 2 件(純比率 -0.33)で、センチメントは 2.7 点です。
-- イベント後の平均株価反応が -1.32% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 1 件(純比率 +0.67)で、センチメントは 6.7 点です。
+- イベント後の平均株価反応が -1.51% と弱く、注意が必要です。
 
 Evidence
 
@@ -172,9 +172,9 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 1
-- negative_count: 2
-- sentiment_net_ratio: -0.3300
+- positive_count: 5
+- negative_count: 1
+- sentiment_net_ratio: 0.6700
 - event_count: 10
 - events_with_price_reaction: 10
 

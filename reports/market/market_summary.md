@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 6.77%
+- 市場全体の1Mモメンタム平均: 2.69%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,39 +21,39 @@
 
 ### 注目ニュース
 
-- 2026-09-01T00:25:38+00:00 / NVDA / Trefis: NVDA Stock: Where Compounding Could Take The Price
-- 2026-09-01T00:25:38+00:00 / AMD / Trefis: NVDA Stock: Where Compounding Could Take The Price
-- 2026-09-01T00:25:38+00:00 / AVGO / Trefis: NVDA Stock: Where Compounding Could Take The Price
-- 2026-09-01T00:25:38+00:00 / QCOM / Trefis: NVDA Stock: Where Compounding Could Take The Price
-- 2026-09-01T00:13:00+00:00 / AAPL / TechCrunch: Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI
+- 2026-09-01T23:39:22+00:00 / TSLA / MT Newswires: Zuckerberg, Musk Press G20 Ministers on AI Data Center Power, Labor Needs
+- 2026-09-01T23:28:30+00:00 / AAPL / TheStreet: Roundtable 100 analysts put Nvidia at No. 76 in new tech power ranking
+- 2026-09-01T23:28:30+00:00 / NVDA / TheStreet: Roundtable 100 analysts put Nvidia at No. 76 in new tech power ranking
+- 2026-09-01T23:28:30+00:00 / AVGO / TheStreet: Roundtable 100 analysts put Nvidia at No. 76 in new tech power ranking
+- 2026-09-01T23:28:30+00:00 / TSLA / TheStreet: Roundtable 100 analysts put Nvidia at No. 76 in new tech power ranking
 
 ### 注目イベント
 
-- 2026-08-31T17:10:26+00:00 / TSLA: Here comes the AI capex shocker, Goldman Sachs says (株価反応: 5.51%, 出来高: 61.16M)
-- 2026-08-28T16:06:00+00:00 / NOW: Is now the time to 投資判断表現 software stocks? (株価反応: 4.54%, 出来高: 28.98M)
-- 2026-08-28T15:30:20+00:00 / NOW: Why Is Vertiv (VRT) Up 18.4% Since Last Earnings Report? (株価反応: 4.54%, 出来高: 28.98M)
-- 2026-08-28T14:42:04+00:00 / AMAT: How Far Applied Materials Stock Can Move On You In A Year (株価反応: -4.29%, 出来高: 6.52M)
-- 2026-08-27T23:13:03+00:00 / AMAT: How Investors Are Reacting To Applied Materials (AMAT) AI-Fueled Backlog, New Fabs And EPIC Center Bet (株価反応: -4.29%, 出来高: 6.52M)
+- 2026-09-01T19:43:25+00:00 / ORCL: Software Stocks Just Did Something They've Done Only Three Times Before (株価反応: -5.23%, 出来高: 25.20M)
+- 2026-09-01T18:12:45+00:00 / ORCL: Why Is Oracle Stock Down Today? (株価反応: -5.23%, 出来高: 25.20M)
+- 2026-09-01T17:50:00+00:00 / ORCL: What Is a Small Modular Reactor, and Why Is Big Tech Signing Multi-Decade Deals for Them? (株価反応: -5.23%, 出来高: 25.20M)
+- 2026-09-01T16:53:15+00:00 / ORCL: Citi says investors should consider 投資判断表現 tumbling tech stock (株価反応: -5.23%, 出来高: 25.20M)
+- 2026-09-01T16:52:28+00:00 / ORCL: Apple Rises 3% on John Ternus’s First Day as CEO Even While the NASDAQ Skids (株価反応: -5.23%, 出来高: 25.20M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 58.67 | 18.94 | 11.20 | 6.52% | 60 |
-| Consumer Cyclical | 6 | 53.17 | 73.63 | 9.01 | 0.36% | 60 |
-| Technology | 12 | 68.58 | 44.25 | 8.94 | 10.10% | 120 |
+| Communication Services | 6 | 58.00 | 18.90 | 11.20 | 2.78% | 60 |
+| Consumer Cyclical | 6 | 51.17 | 71.47 | 9.01 | -3.91% | 60 |
+| Technology | 12 | 65.50 | 43.42 | 8.94 | 5.94% | 120 |
 
 ## 市場トレンド
 
 | セクター | Momentum | News | Financial Health |
 | --- | --- | --- | --- |
 | Communication Services | Positive | High | Good |
-| Consumer Cyclical | Positive | High | Neutral |
-| Technology | Strong | High | Good |
+| Consumer Cyclical | Weak | High | Neutral |
+| Technology | Positive | High | Good |
 
 ## 市場心理
 
-市場はややリスクオン傾向と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 240 件で、ポジティブなモメンタムのセクターは 3/3 です。
+市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 240 件で、ポジティブなモメンタムのセクターは 2/3 です。
 
 参照Knowledge: market_psychology.md
 

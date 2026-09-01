@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: NIKE, Inc.
-- Total Score: 60 / 100
+- Total Score: 54 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 60 点を獲得し、シグナル充足率は 60.0% です。
+- データが確認できた 100 点満点のうち 54 点を獲得し、シグナル充足率は 54.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -110,10 +110,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 18.6000
-- forward_pe: 17.0484
-- peg_ratio: 1.4900
-- price_to_book: 3.8966
+- trailing_pe: 18.1524
+- forward_pe: 16.6381
+- peg_ratio: 1.5300
+- price_to_book: 3.8029
 - sector_peer_count: 10
 - trailing_pe_percentile: 11.1100
 - trailing_pe_peer_count: 10
@@ -126,15 +126,15 @@ Evidence
 
 ## Momentum
 
-4点
+3点
 
 理由
 
-- 1M の対SPY超過リターンは -9.03pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -16.34pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -47.75pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -68.01pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.93 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -11.14pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -13.38pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -47.81pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -68.78pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.88 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -143,25 +143,25 @@ Evidence
 
 使用データ
 
-- 1M: -6.3534
-- 3M: -14.9575
-- 6M: -35.4048
-- 1Y: -48.4961
+- 1M: -10.6004
+- 3M: -12.8287
+- 6M: -35.2398
+- 1Y: -49.3782
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.68, '3M': 1.38, '6M': 12.35, '1Y': 19.51}
-- excess_returns: {'1M': -9.03, '3M': -16.34, '6M': -47.75, '1Y': -68.01}
-- latest_volume: 22,996,681.0000
-- average_volume_30d: 24,775,212.7000
+- benchmark_returns: {'1M': 0.54, '3M': 0.55, '6M': 12.57, '1Y': 19.4}
+- excess_returns: {'1M': -11.14, '3M': -13.38, '6M': -47.81, '1Y': -68.78}
+- latest_volume: 22,116,904.0000
+- average_volume_30d: 25,148,923.4667
 
 ## News
 
-14点
+9点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
 - ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 1 件(純比率 +0.33)で、センチメントは 5.3 点です。
-- イベント後の平均株価反応が 1.56% とプラスです。
+- イベント後の平均株価反応が -1.01% と弱く、注意が必要です。
 
 Evidence
 
@@ -176,7 +176,7 @@ Evidence
 - negative_count: 1
 - sentiment_net_ratio: 0.3300
 - event_count: 10
-- events_with_price_reaction: 9
+- events_with_price_reaction: 10
 
 ## Note
 
