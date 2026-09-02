@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Applied Materials, Inc.
-- Total Score: 68 / 100
+- Total Score: 67 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 68 点を獲得し、シグナル充足率は 68.0% です。
+- データが確認できた 100 点満点のうち 67 点を獲得し、シグナル充足率は 67.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -96,8 +96,8 @@ Evidence
 理由
 
 - PER はセクター内 71.43 パーセンタイル / 母数 15 で、中位レンジです。
-- Forward PER はセクター内 73.33 パーセンタイル / 母数 16 で、中位レンジです。
-- PEG はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。
+- Forward PER はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。
+- PEG はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。
 - PBR はセクター内 80.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -108,16 +108,16 @@ Evidence
 
 使用データ
 
-- trailing_pe: 38.0905
-- forward_pe: 23.9378
-- peg_ratio: 0.9200
-- price_to_book: 13.6834
+- trailing_pe: 37.8636
+- forward_pe: 23.7586
+- peg_ratio: 0.8800
+- price_to_book: 13.5784
 - sector_peer_count: 16
 - trailing_pe_percentile: 71.4300
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 73.3300
+- forward_pe_percentile: 66.6700
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 40.0000
+- peg_ratio_percentile: 46.6700
 - peg_ratio_peer_count: 16
 - price_to_book_percentile: 80.0000
 - price_to_book_peer_count: 16
@@ -128,11 +128,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -15.19pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -10.29pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンが +13.49pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンが +156.97pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.96 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -18.90pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -14.06pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンが +10.57pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンが +158.97pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.87 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,25 +141,25 @@ Evidence
 
 使用データ
 
-- 1M: -14.6442
-- 3M: -9.7393
-- 6M: 26.0595
-- 1Y: 176.3709
+- 1M: -19.7013
+- 3M: -12.3492
+- 6M: 22.8406
+- 1Y: 179.8027
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.54, '3M': 0.55, '6M': 12.57, '1Y': 19.4}
-- excess_returns: {'1M': -15.19, '3M': -10.29, '6M': 13.49, '1Y': 156.97}
-- latest_volume: 7,105,514.0000
-- average_volume_30d: 7,429,050.4667
+- benchmark_returns: {'1M': -0.8, '3M': 1.71, '6M': 12.27, '1Y': 20.83}
+- excess_returns: {'1M': -18.9, '3M': -14.06, '6M': 10.57, '1Y': 158.97}
+- latest_volume: 6,491,747.0000
+- average_volume_30d: 7,481,224.9000
 
 ## News
 
-11点
+10点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 1 件(純比率 +0.67)で、センチメントは 6.7 点です。
-- イベント後の平均株価反応が -2.95% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 1 件(純比率 +0.60)で、センチメントは 6.4 点です。
+- イベント後の平均株価反応が -1.67% と弱く、注意が必要です。
 
 Evidence
 
@@ -170,11 +170,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 5
+- positive_count: 4
 - negative_count: 1
-- sentiment_net_ratio: 0.6700
+- sentiment_net_ratio: 0.6000
 - event_count: 10
-- events_with_price_reaction: 9
+- events_with_price_reaction: 10
 
 ## Note
 

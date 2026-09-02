@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Comcast Corporation
-- Total Score: 59 / 100
+- Total Score: 61 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 59 点を獲得し、シグナル充足率は 59.0% です。
+- データが確認できた 100 点満点のうち 61 点を獲得し、シグナル充足率は 61.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -99,10 +99,10 @@ Evidence
 
 理由
 
-- PER はセクター内 11.11 パーセンタイル / 母数 10 で、相対的に割安寄りです。
+- PER はセクター内 22.22 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - Forward PER はセクター内 11.11 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - PEG はセクター内 100.00 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
-- PBR はセクター内 11.11 パーセンタイル / 母数 10 で、相対的に割安寄りです。
+- PBR はセクター内 0.00 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -112,30 +112,30 @@ Evidence
 
 使用データ
 
-- trailing_pe: 8.4295
-- forward_pe: 7.2607
+- trailing_pe: 8.5929
+- forward_pe: 7.4015
 - peg_ratio: 142.9800
-- price_to_book: 1.0391
+- price_to_book: 1.0592
 - sector_peer_count: 10
-- trailing_pe_percentile: 11.1100
+- trailing_pe_percentile: 22.2200
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 11.1100
 - forward_pe_peer_count: 10
 - peg_ratio_percentile: 100
 - peg_ratio_peer_count: 10
-- price_to_book_percentile: 11.1100
+- price_to_book_percentile: 0
 - price_to_book_peer_count: 10
 
 ## Momentum
 
-6点
+8点
 
 理由
 
-- 1M の対SPY超過リターンは +6.54pt で、市場並み以上です。
-- 3M の対SPY超過リターンは +6.73pt で、市場並み以上です。
-- 6M の対SPY超過リターンは -25.60pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -32.79pt と、市場を大きく下回っています。
+- 1M の対SPY超過リターンは +8.34pt で、市場並み以上です。
+- 3M の対SPY超過リターンが +13.83pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンは -26.61pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -32.95pt と、市場を大きく下回っています。
 - 直近出来高が30日平均の 0.72 倍で、市場関心はやや弱めです。
 
 Evidence
@@ -145,15 +145,15 @@ Evidence
 
 使用データ
 
-- 1M: 7.0847
-- 3M: 7.2770
-- 6M: -13.0335
-- 1Y: -13.3896
+- 1M: 7.5411
+- 3M: 15.5412
+- 6M: -14.3307
+- 1Y: -12.1240
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.54, '3M': 0.55, '6M': 12.57, '1Y': 19.4}
-- excess_returns: {'1M': 6.54, '3M': 6.73, '6M': -25.6, '1Y': -32.79}
-- latest_volume: 19,272,679.0000
-- average_volume_30d: 26,841,765.9667
+- benchmark_returns: {'1M': -0.8, '3M': 1.71, '6M': 12.27, '1Y': 20.83}
+- excess_returns: {'1M': 8.34, '3M': 13.83, '6M': -26.61, '1Y': -32.95}
+- latest_volume: 18,885,248.0000
+- average_volume_30d: 26,252,754.9333
 
 ## News
 

@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 2.69%
+- 市場全体の1Mモメンタム平均: 0.96%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-09-01T23:39:22+00:00 / TSLA / MT Newswires: Zuckerberg, Musk Press G20 Ministers on AI Data Center Power, Labor Needs
-- 2026-09-01T23:28:30+00:00 / AAPL / TheStreet: Roundtable 100 analysts put Nvidia at No. 76 in new tech power ranking
-- 2026-09-01T23:28:30+00:00 / NVDA / TheStreet: Roundtable 100 analysts put Nvidia at No. 76 in new tech power ranking
-- 2026-09-01T23:28:30+00:00 / AVGO / TheStreet: Roundtable 100 analysts put Nvidia at No. 76 in new tech power ranking
-- 2026-09-01T23:28:30+00:00 / TSLA / TheStreet: Roundtable 100 analysts put Nvidia at No. 76 in new tech power ranking
+- 2026-09-02T23:30:06+00:00 / NVDA / Motley Fool: Why Edison International Stock Withered on Wednesday
+- 2026-09-02T23:26:21+00:00 / TSLA / TheStreet: Elon Musk's 2025 Tesla pay could 投資判断表現 nearly 10% of all Bitcoin
+- 2026-09-02T23:21:01+00:00 / NVDA / Motley Fool: Broadcom Earnings: AI Chip Sales Tripled. Here’s the $34.8 Billion Number Investors Need to Watch.
+- 2026-09-02T23:21:01+00:00 / AVGO / Motley Fool: Broadcom Earnings: AI Chip Sales Tripled. Here’s the $34.8 Billion Number Investors Need to Watch.
+- 2026-09-02T23:17:54+00:00 / NVDA / Investor's Business Daily: Dow Jones Futures: Snowflake, Broadcom, HPE Are Big Earnings Movers; Tesla Cybercab Event Due
 
 ### 注目イベント
 
-- 2026-09-01T19:43:25+00:00 / ORCL: Software Stocks Just Did Something They've Done Only Three Times Before (株価反応: -5.23%, 出来高: 25.20M)
-- 2026-09-01T18:12:45+00:00 / ORCL: Why Is Oracle Stock Down Today? (株価反応: -5.23%, 出来高: 25.20M)
-- 2026-09-01T17:50:00+00:00 / ORCL: What Is a Small Modular Reactor, and Why Is Big Tech Signing Multi-Decade Deals for Them? (株価反応: -5.23%, 出来高: 25.20M)
-- 2026-09-01T16:53:15+00:00 / ORCL: Citi says investors should consider 投資判断表現 tumbling tech stock (株価反応: -5.23%, 出来高: 25.20M)
-- 2026-09-01T16:52:28+00:00 / ORCL: Apple Rises 3% on John Ternus’s First Day as CEO Even While the NASDAQ Skids (株価反応: -5.23%, 出来高: 25.20M)
+- 2026-09-02T18:19:59+00:00 / NOW: Cramer Says This Software Giant Is Fighting a Takeover With a $4 Billion Buyback (株価反応: -4.32%, 出来高: 14.51M)
+- 2026-09-02T17:45:00+00:00 / NOW: Palantir Heads for Worst Day in 7 Months. It Isn’t the Only Software Stock Sinking. (株価反応: -4.32%, 出来高: 14.51M)
+- 2026-09-02T16:05:00+00:00 / NOW: NOW Broadens Aramco AI Footprint as CRM & MSFT Expand AI Ambitions (株価反応: -4.32%, 出来高: 14.51M)
+- 2026-09-02T10:58:10+00:00 / NOW: Jim Cramer Rejected This AI Stock Before It Rose Over 30% in August (株価反応: -4.32%, 出来高: 14.51M)
+- 2026-08-28T14:42:04+00:00 / AMAT: How Far Applied Materials Stock Can Move On You In A Year (株価反応: -4.29%, 出来高: 6.52M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 58.00 | 18.90 | 11.20 | 2.78% | 60 |
-| Consumer Cyclical | 6 | 51.17 | 71.47 | 9.01 | -3.91% | 60 |
-| Technology | 12 | 65.50 | 43.42 | 8.94 | 5.94% | 120 |
+| Communication Services | 6 | 60.33 | 19.28 | 11.20 | 4.40% | 60 |
+| Consumer Cyclical | 6 | 53.00 | 72.13 | 9.00 | -4.16% | 60 |
+| Technology | 12 | 66.25 | 43.09 | 8.94 | 1.79% | 120 |
 
 ## 市場トレンド
 

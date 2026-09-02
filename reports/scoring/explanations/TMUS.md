@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: T-Mobile US, Inc.
-- Total Score: 55 / 100
+- Total Score: 56 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 55 点を獲得し、シグナル充足率は 55.0% です。
+- データが確認できた 100 点満点のうち 56 点を獲得し、シグナル充足率は 56.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -111,10 +111,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 19.0544
-- forward_pe: 12.6162
-- peg_ratio: 0.8300
-- price_to_book: 3.4798
+- trailing_pe: 19.5921
+- forward_pe: 12.9722
+- peg_ratio: 0.6400
+- price_to_book: 3.5780
 - sector_peer_count: 10
 - trailing_pe_percentile: 55.5600
 - trailing_pe_peer_count: 10
@@ -127,15 +127,15 @@ Evidence
 
 ## Momentum
 
-7点
+8点
 
 理由
 
-- 1M の対SPY超過リターンは +2.91pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -3.52pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -28.27pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -45.59pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.82 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +7.10pt で、市場並み以上です。
+- 3M の対SPY超過リターンは +2.11pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -26.07pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -46.09pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.14 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -144,15 +144,15 @@ Evidence
 
 使用データ
 
-- 1M: 3.4566
-- 3M: -2.9755
-- 6M: -15.7070
-- 1Y: -26.1843
+- 1M: 6.3038
+- 3M: 3.8198
+- 6M: -13.7940
+- 1Y: -25.2582
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.54, '3M': 0.55, '6M': 12.57, '1Y': 19.4}
-- excess_returns: {'1M': 2.91, '3M': -3.52, '6M': -28.27, '1Y': -45.59}
-- latest_volume: 3,813,652.0000
-- average_volume_30d: 4,640,655.0667
+- benchmark_returns: {'1M': -0.8, '3M': 1.71, '6M': 12.27, '1Y': 20.83}
+- excess_returns: {'1M': 7.1, '3M': 2.11, '6M': -26.07, '1Y': -46.09}
+- latest_volume: 5,351,532.0000
+- average_volume_30d: 4,674,107.7333
 
 ## News
 
@@ -162,7 +162,7 @@ Evidence
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
 - ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が -0.30% と中立圏です。
+- イベント後の平均株価反応が -0.04% と中立圏です。
 
 Evidence
 
@@ -177,7 +177,7 @@ Evidence
 - negative_count: 0
 - sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 10
+- events_with_price_reaction: 7
 
 ## Note
 

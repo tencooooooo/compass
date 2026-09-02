@@ -16,14 +16,14 @@
 
 - Scoring EngineのGrowthが 13/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 13/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで +8.42pt と、市場並み以上です。
-- 3Mモメンタムは対SPYで +6.33pt と、市場並み以上です。
-- 6Mモメンタムは対SPYで -23.78pt と弱く、候補評価では注意点です。
-- 1Yモメンタムは対SPYで -30.81pt と弱く、候補評価では注意点です。
+- 1Mモメンタムは対SPYで +8.34pt と、市場並み以上です。
+- 3Mモメンタムは対SPYで +13.83pt と、市場を大きく上回っています。
+- 6Mモメンタムは対SPYで -26.61pt と弱く、候補評価では注意点です。
+- 1Yモメンタムは対SPYで -32.95pt と弱く、候補評価では注意点です。
 
 ## Strengths
 
@@ -45,7 +45,7 @@ Medium
 
 ## Signal Strength
 
-Moderate(シグナル充足率: 61.49%)
+Moderate(シグナル充足率: 61.8%)
 
 ## Evidence
 
@@ -64,20 +64,20 @@ Moderate(シグナル充足率: 61.49%)
 
 ## Metrics
 
-- scoring_total: 64.0
-- signal_earned_points: 59.65
+- scoring_total: 61.0
+- signal_earned_points: 59.95
 - signal_max_points: 97.0
 - weak_signals: []
 - scoring_signal_strength: Moderate
 - growth_score: 13.0
 - financial_health_score: 13.0
 - valuation_score: 15.0
-- news_score: 15.0
-- momentum: {'1m': 11.101844141908018, '3m': 7.71537890116251, '6m': -11.43265893600626, '1y': -11.29126532876561}
+- news_score: 12.0
+- momentum: {'1m': 7.541111663670097, '3m': 15.541188696097768, '6m': -14.330691202491744, '1y': -12.124025988884092}
 - benchmark: SPY
-- excess_momentum: {'1m': 8.42, '3m': 6.33, '6m': -23.78, '1y': -30.81}
-- positive_news: 6
+- excess_momentum: {'1m': 8.34, '3m': 13.83, '6m': -26.61, '1y': -32.95}
+- positive_news: 5
 - watch_news: 0
 - event_count: 10
 - events_with_reaction: 10
-- sector_average_score: 58.666666666666664
+- sector_average_score: 60.333333333333336
