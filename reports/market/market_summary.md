@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 0.96%
+- 市場全体の1Mモメンタム平均: 2.76%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-09-02T23:30:06+00:00 / NVDA / Motley Fool: Why Edison International Stock Withered on Wednesday
-- 2026-09-02T23:26:21+00:00 / TSLA / TheStreet: Elon Musk's 2025 Tesla pay could 投資判断表現 nearly 10% of all Bitcoin
-- 2026-09-02T23:21:01+00:00 / NVDA / Motley Fool: Broadcom Earnings: AI Chip Sales Tripled. Here’s the $34.8 Billion Number Investors Need to Watch.
-- 2026-09-02T23:21:01+00:00 / AVGO / Motley Fool: Broadcom Earnings: AI Chip Sales Tripled. Here’s the $34.8 Billion Number Investors Need to Watch.
-- 2026-09-02T23:17:54+00:00 / NVDA / Investor's Business Daily: Dow Jones Futures: Snowflake, Broadcom, HPE Are Big Earnings Movers; Tesla Cybercab Event Due
+- 2026-09-03T23:34:05+00:00 / TSLA / Motley Fool: Tesla Officially Launches the Cybercab -- 2 Things Investors Need to Know
+- 2026-09-03T23:20:08+00:00 / MSFT / Motley Fool: Why Microsoft Stock Is Up Today
+- 2026-09-03T23:20:08+00:00 / NVDA / Motley Fool: Why Microsoft Stock Is Up Today
+- 2026-09-03T23:16:10+00:00 / NVDA / Motley Fool: Why Copart Stock Ticked 4% Higher on Thursday
+- 2026-09-03T23:12:01+00:00 / NVDA / Motley Fool: Hock Tan Just Put a $230 Billion Number on Broadcom's 2028 AI Revenue. That Is 4 Times This Year's.
 
 ### 注目イベント
 
-- 2026-09-02T18:19:59+00:00 / NOW: Cramer Says This Software Giant Is Fighting a Takeover With a $4 Billion Buyback (株価反応: -4.32%, 出来高: 14.51M)
-- 2026-09-02T17:45:00+00:00 / NOW: Palantir Heads for Worst Day in 7 Months. It Isn’t the Only Software Stock Sinking. (株価反応: -4.32%, 出来高: 14.51M)
-- 2026-09-02T16:05:00+00:00 / NOW: NOW Broadens Aramco AI Footprint as CRM & MSFT Expand AI Ambitions (株価反応: -4.32%, 出来高: 14.51M)
-- 2026-09-02T10:58:10+00:00 / NOW: Jim Cramer Rejected This AI Stock Before It Rose Over 30% in August (株価反応: -4.32%, 出来高: 14.51M)
-- 2026-08-28T14:42:04+00:00 / AMAT: How Far Applied Materials Stock Can Move On You In A Year (株価反応: -4.29%, 出来高: 6.52M)
+- 2026-09-03T19:30:04+00:00 / NOW: ServiceNow Just Rallied 28% in a Month: Take Profits, or 投資判断表現 More? (株価反応: 6.49%, 出来高: 18.15M)
+- 2026-09-03T16:30:54+00:00 / NOW: The $1 Trillion Question Hanging Over Palantir Stock (株価反応: 6.49%, 出来高: 18.15M)
+- 2026-09-03T15:41:10+00:00 / NOW: Michael Burry Just Put a $100 Billion Warning on Palantir (株価反応: 6.49%, 出来高: 18.15M)
+- 2026-09-03T15:11:00+00:00 / NOW: Palantir Rallies 7% as PwC Alliance Counters Michael Burry Bear Case, ServiceNow Climbs 5%, Salesforce Gains 3% (株価反応: 6.49%, 出来高: 18.15M)
+- 2026-09-03T03:27:54+00:00 / NOW: NOW (PSE:NOW) Moved Higher, But What Is Really Driving Attention? (株価反応: 6.49%, 出来高: 18.15M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 60.33 | 19.28 | 11.20 | 4.40% | 60 |
-| Consumer Cyclical | 6 | 53.00 | 72.13 | 9.00 | -4.16% | 60 |
-| Technology | 12 | 66.25 | 43.09 | 8.94 | 1.79% | 120 |
+| Communication Services | 6 | 60.17 | 19.42 | 11.20 | 5.27% | 60 |
+| Consumer Cyclical | 6 | 56.00 | 75.24 | 9.01 | -3.07% | 60 |
+| Technology | 12 | 67.75 | 42.52 | 9.09 | 4.41% | 120 |
 
 ## 市場トレンド
 

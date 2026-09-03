@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Oracle Corporation
-- Total Score: 66 / 100
+- Total Score: 65 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 66 点を獲得し、シグナル充足率は 66.0% です。
+- データが確認できた 100 点満点のうち 65 点を獲得し、シグナル充足率は 65.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -108,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 24.9572
-- forward_pe: 13.3396
+- trailing_pe: 26.4220
+- forward_pe: 14.0983
 - peg_ratio: 0.8000
-- price_to_book: 11.1771
+- price_to_book: 11.8129
 - sector_peer_count: 16
 - trailing_pe_percentile: 35.7100
 - trailing_pe_peer_count: 15
@@ -128,11 +128,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは +0.81pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -38.21pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -15.95pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -55.40pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.80 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +6.24pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -36.98pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -13.88pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -51.71pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.93 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,25 +141,25 @@ Evidence
 
 使用データ
 
-- 1M: 0.0069
-- 3M: -36.5011
-- 6M: -3.6767
-- 1Y: -34.5711
+- 1M: 6.6833
+- 3M: -34.5960
+- 6M: 0.2105
+- 1Y: -30.2772
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.8, '3M': 1.71, '6M': 12.27, '1Y': 20.83}
-- excess_returns: {'1M': 0.81, '3M': -38.21, '6M': -15.95, '1Y': -55.4}
-- latest_volume: 21,817,305.0000
-- average_volume_30d: 27,213,610.1667
+- benchmark_returns: {'1M': 0.44, '3M': 2.39, '6M': 14.09, '1Y': 21.44}
+- excess_returns: {'1M': 6.24, '3M': -36.98, '6M': -13.88, '1Y': -51.71}
+- latest_volume: 25,017,843.0000
+- average_volume_30d: 27,020,498.1000
 
 ## News
 
-16点
+15点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 6 件、悪材料 1 件(純比率 +0.71)で、センチメントは 6.8 点です。
-- イベント後の平均株価反応が 3.13% とプラスです。
+- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 1 件(純比率 +0.60)で、センチメントは 6.4 点です。
+- イベント後の平均株価反応が 5.69% とプラスです。
 
 Evidence
 
@@ -170,11 +170,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 6
+- positive_count: 4
 - negative_count: 1
-- sentiment_net_ratio: 0.7100
+- sentiment_net_ratio: 0.6000
 - event_count: 10
-- events_with_price_reaction: 2
+- events_with_price_reaction: 7
 
 ## Note
 

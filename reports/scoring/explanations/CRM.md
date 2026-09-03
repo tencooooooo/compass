@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Salesforce, Inc.
-- Total Score: 74 / 100
+- Total Score: 77 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 74 点を獲得し、シグナル充足率は 74.0% です。
+- データが確認できた 100 点満点のうち 77 点を獲得し、シグナル充足率は 77.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -107,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 23.5284
-- forward_pe: 16.1312
+- trailing_pe: 24.2152
+- forward_pe: 16.5166
 - peg_ratio: 1.0700
-- price_to_book: 5.5097
+- price_to_book: 5.6706
 - sector_peer_count: 16
 - trailing_pe_percentile: 28.5700
 - trailing_pe_peer_count: 15
@@ -127,11 +127,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンが +35.33pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンが +33.43pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +21.47pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -18.36pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.88 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンが +36.59pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンが +38.07pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +17.88pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -17.45pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.04 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -140,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: 34.5254
-- 3M: 35.1415
-- 6M: 33.7463
-- 1Y: 2.4696
+- 1M: 37.0246
+- 3M: 40.4569
+- 6M: 31.9706
+- 1Y: 3.9844
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.8, '3M': 1.71, '6M': 12.27, '1Y': 20.83}
-- excess_returns: {'1M': 35.33, '3M': 33.43, '6M': 21.47, '1Y': -18.36}
-- latest_volume: 13,359,403.0000
-- average_volume_30d: 15,194,233.4333
+- benchmark_returns: {'1M': 0.44, '3M': 2.39, '6M': 14.09, '1Y': 21.44}
+- excess_returns: {'1M': 36.59, '3M': 38.07, '6M': 17.88, '1Y': -17.45}
+- latest_volume: 16,008,316.0000
+- average_volume_30d: 15,336,487.2000
 
 ## News
 
-12点
+15点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 1 件(純比率 +0.33)で、センチメントは 5.3 点です。
-- イベント後の平均株価反応が -0.46% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。
+- イベント後の平均株価反応が 2.92% とプラスです。
 
 Evidence
 
@@ -169,11 +169,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 2
+- positive_count: 3
 - negative_count: 1
-- sentiment_net_ratio: 0.3300
+- sentiment_net_ratio: 0.5000
 - event_count: 10
-- events_with_price_reaction: 9
+- events_with_price_reaction: 7
 
 ## Note
 

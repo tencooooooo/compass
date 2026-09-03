@@ -5,9 +5,9 @@
 ## Summary
 
 - Company: ServiceNow, Inc.
-- Total Score: 55 / 100
+- Total Score: 67 / 100
 - Confidence: High
-- Signal Strength: Moderate
+- Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
@@ -23,12 +23,12 @@ High
 
 ## Signal Strength
 
-Moderate
+Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 55 点を獲得し、シグナル充足率は 55.0% です。
-- シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
+- データが確認できた 100 点満点のうち 67 点を獲得し、シグナル充足率は 67.0% です。
+- シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
@@ -107,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 85.4500
-- forward_pe: 27.3139
+- trailing_pe: 90.9937
+- forward_pe: 29.0859
 - peg_ratio: 1.0300
-- price_to_book: 11.2936
+- price_to_book: 12.0263
 - sector_peer_count: 16
 - trailing_pe_percentile: 92.8600
 - trailing_pe_peer_count: 15
@@ -123,15 +123,15 @@ Evidence
 
 ## Momentum
 
-12点
+14点
 
 理由
 
-- 1M の対SPY超過リターンが +16.53pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンが +14.25pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンは +7.80pt で、市場並み以上です。
-- 1Y の対SPY超過リターンは -45.83pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.66 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンが +23.76pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンが +19.59pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンは +6.86pt で、市場並み以上です。
+- 1Y の対SPY超過リターンは -42.26pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.87 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -140,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: 15.7271
-- 3M: 15.9627
-- 6M: 20.0773
-- 1Y: -24.9962
+- 1M: 24.2024
+- 3M: 21.9755
+- 6M: 20.9420
+- 1Y: -20.8216
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.8, '3M': 1.71, '6M': 12.27, '1Y': 20.83}
-- excess_returns: {'1M': 16.53, '3M': 14.25, '6M': 7.8, '1Y': -45.83}
-- latest_volume: 14,507,032.0000
-- average_volume_30d: 21,933,744.4000
+- benchmark_returns: {'1M': 0.44, '3M': 2.39, '6M': 14.09, '1Y': 21.44}
+- excess_returns: {'1M': 23.76, '3M': 19.59, '6M': 6.86, '1Y': -42.26}
+- latest_volume: 18,151,068.0000
+- average_volume_30d: 20,909,195.6000
 
 ## News
 
-7点
+17点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 2 件(純比率 -0.33)で、センチメントは 2.7 点です。
-- イベント後の平均株価反応が -3.88% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が 6.49% とプラスです。
 
 Evidence
 
@@ -169,11 +169,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 1
-- negative_count: 2
-- sentiment_net_ratio: -0.3300
+- positive_count: 2
+- negative_count: 0
+- sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 8
+- events_with_price_reaction: 6
 
 ## Note
 
