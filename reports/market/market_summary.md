@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 2.76%
+- 市場全体の1Mモメンタム平均: 1.58%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-09-03T23:34:05+00:00 / TSLA / Motley Fool: Tesla Officially Launches the Cybercab -- 2 Things Investors Need to Know
-- 2026-09-03T23:20:08+00:00 / MSFT / Motley Fool: Why Microsoft Stock Is Up Today
-- 2026-09-03T23:20:08+00:00 / NVDA / Motley Fool: Why Microsoft Stock Is Up Today
-- 2026-09-03T23:16:10+00:00 / NVDA / Motley Fool: Why Copart Stock Ticked 4% Higher on Thursday
-- 2026-09-03T23:12:01+00:00 / NVDA / Motley Fool: Hock Tan Just Put a $230 Billion Number on Broadcom's 2028 AI Revenue. That Is 4 Times This Year's.
+- 2026-09-04T23:29:01+00:00 / NKE / Motley Fool: Nike CEO Sells Over 9,000 Company Shares Amid a Declining Stock Price
+- 2026-09-04T23:10:34+00:00 / MSFT / Insider Monkey: ChronoScale Says It Plans a 50 MW Microsoft AI Deployment. Can CHRN Fund the Build Without Diluting Shareholders?
+- 2026-09-04T23:10:34+00:00 / NVDA / Insider Monkey: ChronoScale Says It Plans a 50 MW Microsoft AI Deployment. Can CHRN Fund the Build Without Diluting Shareholders?
+- 2026-09-04T23:05:55+00:00 / MSFT / Simply Wall St.: What Will Microsoft (MSFT) Reveal With Its New AI And Cloud Reporting?
+- 2026-09-04T23:04:19+00:00 / NVDA / Insider Monkey: AWS Plans 2 Million More NVIDIA GPUs. Is This Better News for AMZN’s Cloud Growth or NVDA’s Backlog?
 
 ### 注目イベント
 
-- 2026-09-03T19:30:04+00:00 / NOW: ServiceNow Just Rallied 28% in a Month: Take Profits, or 投資判断表現 More? (株価反応: 6.49%, 出来高: 18.15M)
-- 2026-09-03T16:30:54+00:00 / NOW: The $1 Trillion Question Hanging Over Palantir Stock (株価反応: 6.49%, 出来高: 18.15M)
-- 2026-09-03T15:41:10+00:00 / NOW: Michael Burry Just Put a $100 Billion Warning on Palantir (株価反応: 6.49%, 出来高: 18.15M)
-- 2026-09-03T15:11:00+00:00 / NOW: Palantir Rallies 7% as PwC Alliance Counters Michael Burry Bear Case, ServiceNow Climbs 5%, Salesforce Gains 3% (株価反応: 6.49%, 出来高: 18.15M)
-- 2026-09-03T03:27:54+00:00 / NOW: NOW (PSE:NOW) Moved Higher, But What Is Really Driving Attention? (株価反応: 6.49%, 出来高: 18.15M)
+- 2026-09-04T19:42:28+00:00 / ADBE: DocuSign IAM Platform Needs to Show Clearer Proof of 'More Meaningful' Contribution to Growth, Morgan Stanley Says (株価反応: -6.73%, 出来高: 6.58M)
+- 2026-09-04T19:22:07+00:00 / ADBE: Adobe Stock Sinks After Company Names Insider as New CEO (株価反応: -6.73%, 出来高: 6.58M)
+- 2026-09-04T18:44:02+00:00 / ADBE: Is Autodesk Stock's Pullback A Foundation To Build On? (株価反応: -6.73%, 出来高: 6.58M)
+- 2026-09-04T13:58:28+00:00 / ADBE: Adobe appoints new CEO to succeed Narayen in December (株価反応: -6.73%, 出来高: 6.58M)
+- 2026-09-03T19:30:04+00:00 / NOW: ServiceNow Just Rallied 28% in a Month: Take Profits, or 投資判断表現 More? (株価反応: 6.49%, 出来高: 18.17M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 60.17 | 19.42 | 11.20 | 5.27% | 60 |
-| Consumer Cyclical | 6 | 56.00 | 75.24 | 9.01 | -3.07% | 60 |
-| Technology | 12 | 67.75 | 42.52 | 9.09 | 4.41% | 120 |
+| Communication Services | 6 | 56.00 | 19.00 | 11.20 | 2.11% | 60 |
+| Consumer Cyclical | 6 | 51.17 | 70.74 | 9.01 | -3.75% | 60 |
+| Technology | 12 | 65.83 | 42.78 | 9.09 | 3.98% | 120 |
 
 ## 市場トレンド
 

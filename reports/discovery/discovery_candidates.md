@@ -6,8 +6,8 @@
 
 - 対象企業数: 24
 - セクター数: 3
-- 市場平均スコア: 62.916666666666664
-- 1M市場モメンタム平均: 2.755084441868623
+- 市場平均スコア: 59.708333333333336
+- 1M市場モメンタム平均: 1.5781512800272168
 - ニュース件数: 240
 - Event数: 240
 
@@ -15,22 +15,19 @@
 
 | Ticker | Company | Sector | Discovery Score | Status | Confidence | Signal |
 | --- | --- | --- | --- | --- | --- | --- |
-| NVDA | NVIDIA Corporation | Technology | 86 | Primary Candidate | Medium | Strong |
-| CRM | Salesforce, Inc. | Technology | 80 | Primary Candidate | High | Strong |
-| MSFT | Microsoft Corporation | Technology | 79 | Primary Candidate | High | Strong |
-| AMD | Advanced Micro Devices, Inc. | Technology | 77 | Primary Candidate | High | Strong |
-| GOOGL | Alphabet Inc. | Communication Services | 72 | Watch Candidate | Medium | Strong |
-| TXN | Texas Instruments Incorporated | Technology | 71 | Watch Candidate | High | Strong |
-| AMAT | Applied Materials, Inc. | Technology | 71 | Watch Candidate | High | Strong |
-| AAPL | Apple Inc. | Technology | 70 | Watch Candidate | High | Strong |
-| AMZN | Amazon.com, Inc. | Consumer Cyclical | 70 | Watch Candidate | Medium | Strong |
-| META | Meta Platforms, Inc. | Communication Services | 69 | Watch Candidate | High | Strong |
-| QCOM | QUALCOMM Incorporated | Technology | 68 | Watch Candidate | High | Strong |
-| NOW | ServiceNow, Inc. | Technology | 68 | Watch Candidate | High | Strong |
-| CMCSA | Comcast Corporation | Communication Services | 62 | Watch Candidate | Medium | Moderate |
-| TSLA | Tesla, Inc. | Consumer Cyclical | 62 | Watch Candidate | High | Moderate |
-| ADBE | Adobe Inc. | Technology | 61 | Watch Candidate | High | Moderate |
-| ORCL | Oracle Corporation | Technology | 60 | Watch Candidate | High | Moderate |
+| NVDA | NVIDIA Corporation | Technology | 87 | Primary Candidate | Medium | Strong |
+| AMD | Advanced Micro Devices, Inc. | Technology | 84 | Primary Candidate | High | Strong |
+| AMAT | Applied Materials, Inc. | Technology | 80 | Primary Candidate | High | Strong |
+| TXN | Texas Instruments Incorporated | Technology | 79 | Primary Candidate | High | Strong |
+| CRM | Salesforce, Inc. | Technology | 73 | Watch Candidate | High | Strong |
+| META | Meta Platforms, Inc. | Communication Services | 70 | Watch Candidate | High | Strong |
+| GOOGL | Alphabet Inc. | Communication Services | 67 | Watch Candidate | Medium | Strong |
+| MSFT | Microsoft Corporation | Technology | 66 | Watch Candidate | High | Strong |
+| QCOM | QUALCOMM Incorporated | Technology | 66 | Watch Candidate | High | Strong |
+| AVGO | Broadcom Inc. | Technology | 64 | Watch Candidate | High | Moderate |
+| AMZN | Amazon.com, Inc. | Consumer Cyclical | 64 | Watch Candidate | Medium | Strong |
+| AAPL | Apple Inc. | Technology | 61 | Watch Candidate | Medium | Moderate |
+| NOW | ServiceNow, Inc. | Technology | 61 | Watch Candidate | High | Moderate |
 
 ## Top Candidate
 

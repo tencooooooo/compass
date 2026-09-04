@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-70 / 100
+64 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 16/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 16/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで -5.48pt と、市場を小幅に下回っています。
-- 3Mモメンタムは対SPYで -0.37pt と、市場を小幅に下回っています。
-- 6Mモメンタムは対SPYで +4.17pt と、市場並み以上です。
-- 1Yモメンタムは対SPYで -6.87pt と、市場を小幅に下回っています。
+- 1Mモメンタムは対SPYで -5.26pt と、市場を小幅に下回っています。
+- 3Mモメンタムは対SPYで +0.38pt と、市場並み以上です。
+- 6Mモメンタムは対SPYで +6.09pt と、市場並み以上です。
+- 1Yモメンタムは対SPYで -10.28pt と弱く、候補評価では注意点です。
 
 ## Strengths
 
@@ -33,6 +33,7 @@
 ## Watch Points
 
 - 注意材料になり得るニュース表現が 1 件あります。
+- イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。
 - Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
@@ -46,7 +47,7 @@ Medium
 
 ## Signal Strength
 
-Strong(シグナル充足率: 71.75%)
+Strong(シグナル充足率: 65.57%)
 
 ## Evidence
 
@@ -65,20 +66,20 @@ Strong(シグナル充足率: 71.75%)
 
 ## Metrics
 
-- scoring_total: 70.0
-- signal_earned_points: 69.6
+- scoring_total: 65.0
+- signal_earned_points: 63.6
 - signal_max_points: 97.0
 - weak_signals: []
 - scoring_signal_strength: Strong
 - growth_score: 16.0
 - financial_health_score: 18.0
-- valuation_score: 13.0
-- news_score: 16.0
-- momentum: {'1m': -5.043095656631627, '3m': 2.0134760020228013, '6m': 18.25157166780082, '1y': 14.562585779624563}
+- valuation_score: 11.0
+- news_score: 13.0
+- momentum: {'1m': -5.050319366342742, '3m': 5.072556618399782, '6m': 21.246658986579124, '1y': 9.686871096118201}
 - benchmark: SPY
-- excess_momentum: {'1m': -5.48, '3m': -0.37, '6m': 4.17, '1y': -6.87}
-- positive_news: 6
+- excess_momentum: {'1m': -5.26, '3m': 0.38, '6m': 6.09, '1y': -10.28}
+- positive_news: 4
 - watch_news: 1
 - event_count: 10
-- events_with_reaction: 2
-- sector_average_score: 56.0
+- events_with_reaction: 5
+- sector_average_score: 51.166666666666664

@@ -2,7 +2,7 @@
   "project": "Compass",
   "engine": "Discovery Engine",
   "version": "v1.0-alpha",
-  "generated_at": "2026-09-03T19:43:50.620566-04:00",
+  "generated_at": "2026-09-04T19:35:55.530923-04:00",
   "universe": {
     "source": "config/tickers.yaml",
     "count": 24,
@@ -36,11 +36,11 @@
   "market": {
     "ticker_count": 24,
     "sector_count": 3,
-    "average_momentum_1m": 2.755084441868623,
-    "average_momentum_3m": -0.8022871419692871,
-    "average_momentum_6m": 10.119661289889878,
-    "average_momentum_1y": 13.013351592068679,
-    "average_score": 62.916666666666664,
+    "average_momentum_1m": 1.5781512800272168,
+    "average_momentum_3m": 1.7015990055424137,
+    "average_momentum_6m": 11.187102497477403,
+    "average_momentum_1y": 12.68356379816759,
+    "average_score": 59.708333333333336,
     "news_count": 240,
     "event_count": 240
   },
@@ -50,7 +50,7 @@
       "company": "NVIDIA Corporation",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "discovery_score": 86,
+      "discovery_score": 87,
       "max_score": 100,
       "status": "Primary Candidate",
       "discovery_reasons": [
@@ -61,9 +61,9 @@
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで +3.77pt と、市場並み以上です。",
-        "3Mモメンタムは対SPYで +2.09pt と、市場並み以上です。",
-        "6Mモメンタムは対SPYで +10.67pt と、市場を大きく上回っています。"
+        "1Mモメンタムは対SPYで +4.98pt と、市場並み以上です。",
+        "3Mモメンタムは対SPYで +7.62pt と、市場並み以上です。",
+        "6Mモメンタムは対SPYで +14.55pt と、市場を大きく上回っています。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
@@ -79,7 +79,7 @@
       ],
       "confidence": "Medium",
       "signal_strength": "Strong",
-      "signal_rate": 86.1,
+      "signal_rate": 86.85,
       "evidence": [
         "Company",
         "Events",
@@ -93,7 +93,7 @@
       "missing_data": [],
       "metrics": {
         "scoring_total": 78.0,
-        "signal_earned_points": 86.1,
+        "signal_earned_points": 86.85,
         "signal_max_points": 100.0,
         "weak_signals": [],
         "scoring_signal_strength": "Strong",
@@ -102,176 +102,23 @@
         "valuation_score": 11.0,
         "news_score": 17.0,
         "momentum": {
-          "1m": 4.210380292009314,
-          "3m": 4.4772675030505855,
-          "6m": 24.756548183894136,
-          "1y": 34.07235503560529
+          "1m": 5.192015540427219,
+          "3m": 12.31594039743084,
+          "6m": 29.704729171979093,
+          "1y": 34.37423731275613
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": 3.77,
-          "3m": 2.09,
-          "6m": 10.67,
-          "1y": 12.64
+          "1m": 4.98,
+          "3m": 7.62,
+          "6m": 14.55,
+          "1y": 14.41
         },
-        "positive_news": 3,
+        "positive_news": 4,
         "watch_news": 0,
         "event_count": 10,
-        "events_with_reaction": 3,
-        "sector_average_score": 67.75
-      }
-    },
-    {
-      "ticker": "CRM",
-      "company": "Salesforce, Inc.",
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "discovery_score": 80,
-      "max_score": 100,
-      "status": "Primary Candidate",
-      "discovery_reasons": [
-        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 16/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
-        "売上が取得でき、事業規模の確認ができます。",
-        "EPSがプラスで、利益を伴う成長候補として確認できます。",
-        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
-        "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで +36.59pt と、市場を大きく上回っています。",
-        "3Mモメンタムは対SPYで +38.07pt と、市場を大きく上回っています。",
-        "6Mモメンタムは対SPYで +17.88pt と、市場を大きく上回っています。"
-      ],
-      "strengths": [
-        "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
-        "営業利益率が高く、収益性の強さが示されています。",
-        "純利益率が高く、売上から利益を残す力があります。"
-      ],
-      "watch_points": [
-        "注意材料になり得るニュース表現が 1 件あります。",
-        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
-        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
-        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
-        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
-        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
-      ],
-      "confidence": "High",
-      "signal_strength": "Strong",
-      "signal_rate": 80.35,
-      "evidence": [
-        "Company",
-        "Events",
-        "Financials",
-        "Knowledge",
-        "Market Intelligence",
-        "News",
-        "Prices",
-        "Scoring"
-      ],
-      "missing_data": [],
-      "metrics": {
-        "scoring_total": 77.0,
-        "signal_earned_points": 80.35,
-        "signal_max_points": 100.0,
-        "weak_signals": [],
-        "scoring_signal_strength": "Strong",
-        "growth_score": 17.0,
-        "financial_health_score": 16.0,
-        "valuation_score": 14.0,
-        "news_score": 15.0,
-        "momentum": {
-          "1m": 37.02456136910672,
-          "3m": 40.45693996373505,
-          "6m": 31.97057208191981,
-          "1y": 3.9844283329312087
-        },
-        "benchmark": "SPY",
-        "excess_momentum": {
-          "1m": 36.59,
-          "3m": 38.07,
-          "6m": 17.88,
-          "1y": -17.45
-        },
-        "positive_news": 3,
-        "watch_news": 1,
-        "event_count": 10,
-        "events_with_reaction": 7,
-        "sector_average_score": 67.75
-      }
-    },
-    {
-      "ticker": "MSFT",
-      "company": "Microsoft Corporation",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "discovery_score": 79,
-      "max_score": 100,
-      "status": "Primary Candidate",
-      "discovery_reasons": [
-        "Scoring EngineのGrowthが 18/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。",
-        "売上が取得でき、事業規模の確認ができます。",
-        "EPSがプラスで、利益を伴う成長候補として確認できます。",
-        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
-        "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで +4.41pt と、市場並み以上です。",
-        "3Mモメンタムは対SPYで +17.01pt と、市場を大きく上回っています。",
-        "6Mモメンタムは対SPYで +10.63pt と、市場を大きく上回っています。"
-      ],
-      "strengths": [
-        "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
-        "営業利益率が高く、収益性の強さが示されています。",
-        "純利益率が高く、売上から利益を残す力があります。"
-      ],
-      "watch_points": [
-        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
-        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
-        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
-        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
-        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
-      ],
-      "confidence": "High",
-      "signal_strength": "Strong",
-      "signal_rate": 78.55,
-      "evidence": [
-        "Company",
-        "Events",
-        "Financials",
-        "Knowledge",
-        "Market Intelligence",
-        "News",
-        "Prices",
-        "Scoring"
-      ],
-      "missing_data": [],
-      "metrics": {
-        "scoring_total": 74.0,
-        "signal_earned_points": 78.55,
-        "signal_max_points": 100.0,
-        "weak_signals": [],
-        "scoring_signal_strength": "Strong",
-        "growth_score": 18.0,
-        "financial_health_score": 18.0,
-        "valuation_score": 9.0,
-        "news_score": 17.0,
-        "momentum": {
-          "1m": 4.845589395672454,
-          "3m": 19.397339440386624,
-          "6m": 24.716875451909583,
-          "1y": 1.774433006563008
-        },
-        "benchmark": "SPY",
-        "excess_momentum": {
-          "1m": 4.41,
-          "3m": 17.01,
-          "6m": 10.63,
-          "1y": -19.66
-        },
-        "positive_news": 3,
-        "watch_news": 0,
-        "event_count": 10,
-        "events_with_reaction": 3,
-        "sector_average_score": 67.75
+        "events_with_reaction": 1,
+        "sector_average_score": 65.83333333333333
       }
     },
     {
@@ -279,20 +126,20 @@
       "company": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "discovery_score": 77,
+      "discovery_score": 84,
       "max_score": 100,
       "status": "Primary Candidate",
       "discovery_reasons": [
         "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 14/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで -5.81pt と、市場を小幅に下回っています。",
-        "3Mモメンタムは対SPYで -15.20pt と弱く、候補評価では注意点です。",
-        "6Mモメンタムは対SPYで +114.62pt と、市場を大きく上回っています。"
+        "1Mモメンタムは対SPYで -2.61pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで -2.30pt と、市場を小幅に下回っています。",
+        "6Mモメンタムは対SPYで +133.02pt と、市場を大きく上回っています。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
@@ -300,7 +147,7 @@
         "研究開発費を計上しており、将来成長への投資が続いています。"
       ],
       "watch_points": [
-        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+        "注意材料になり得るニュース表現が 2 件あります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
         "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
@@ -309,7 +156,7 @@
       ],
       "confidence": "High",
       "signal_strength": "Strong",
-      "signal_rate": 77.45,
+      "signal_rate": 84.3,
       "evidence": [
         "Company",
         "Events",
@@ -322,189 +169,33 @@
       ],
       "missing_data": [],
       "metrics": {
-        "scoring_total": 73.0,
-        "signal_earned_points": 77.45,
+        "scoring_total": 75.0,
+        "signal_earned_points": 84.3,
         "signal_max_points": 100.0,
         "weak_signals": [],
         "scoring_signal_strength": "Strong",
         "growth_score": 20.0,
         "financial_health_score": 20.0,
         "valuation_score": 8.0,
-        "news_score": 15.0,
+        "news_score": 14.0,
         "momentum": {
-          "1m": -5.370809000409866,
-          "3m": -12.81345699173914,
-          "6m": 128.70895494698058,
-          "1y": 181.35446242157437
+          "1m": -2.3933108821724347,
+          "3m": 2.39933151598513,
+          "6m": 148.17857168911308,
+          "1y": 195.17895243348886
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": -5.81,
-          "3m": -15.2,
-          "6m": 114.62,
-          "1y": 159.92
-        },
-        "positive_news": 1,
-        "watch_news": 0,
-        "event_count": 10,
-        "events_with_reaction": 4,
-        "sector_average_score": 67.75
-      }
-    },
-    {
-      "ticker": "GOOGL",
-      "company": "Alphabet Inc.",
-      "sector": "Communication Services",
-      "industry": "Internet Content & Information",
-      "discovery_score": 72,
-      "max_score": 100,
-      "status": "Watch Candidate",
-      "discovery_reasons": [
-        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
-        "売上が取得でき、事業規模の確認ができます。",
-        "EPSがプラスで、利益を伴う成長候補として確認できます。",
-        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
-        "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで -5.94pt と、市場を小幅に下回っています。",
-        "3Mモメンタムは対SPYで -10.31pt と弱く、候補評価では注意点です。",
-        "6Mモメンタムは対SPYで -0.11pt と、市場を小幅に下回っています。"
-      ],
-      "strengths": [
-        "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
-        "営業利益率が高く、収益性の強さが示されています。",
-        "純利益率が高く、売上から利益を残す力があります。"
-      ],
-      "watch_points": [
-        "バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。",
-        "注意材料になり得るニュース表現が 1 件あります。",
-        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
-        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
-        "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
-        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
-        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
-      ],
-      "confidence": "Medium",
-      "signal_strength": "Strong",
-      "signal_rate": 71.7,
-      "evidence": [
-        "Company",
-        "Events",
-        "Financials",
-        "Knowledge",
-        "Market Intelligence",
-        "News",
-        "Prices",
-        "Scoring"
-      ],
-      "missing_data": [],
-      "metrics": {
-        "scoring_total": 62.0,
-        "signal_earned_points": 71.7,
-        "signal_max_points": 100.0,
-        "weak_signals": [],
-        "scoring_signal_strength": "Moderate",
-        "growth_score": 20.0,
-        "financial_health_score": 14.0,
-        "valuation_score": 6.0,
-        "news_score": 15.0,
-        "momentum": {
-          "1m": -5.50450627503663,
-          "3m": -7.927519735176404,
-          "6m": 13.97426678935085,
-          "1y": 48.901863212948385
-        },
-        "benchmark": "SPY",
-        "excess_momentum": {
-          "1m": -5.94,
-          "3m": -10.31,
-          "6m": -0.11,
-          "1y": 27.47
+          "1m": -2.61,
+          "3m": -2.3,
+          "6m": 133.02,
+          "1y": 175.21
         },
         "positive_news": 3,
-        "watch_news": 1,
-        "event_count": 10,
-        "events_with_reaction": 2,
-        "sector_average_score": 60.166666666666664
-      }
-    },
-    {
-      "ticker": "TXN",
-      "company": "Texas Instruments Incorporated",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "discovery_score": 71,
-      "max_score": 100,
-      "status": "Watch Candidate",
-      "discovery_reasons": [
-        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 17/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
-        "売上が取得でき、事業規模の確認ができます。",
-        "EPSがプラスで、利益を伴う成長候補として確認できます。",
-        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
-        "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで -9.04pt と、市場を小幅に下回っています。",
-        "3Mモメンタムは対SPYで -18.84pt と弱く、候補評価では注意点です。",
-        "6Mモメンタムは対SPYで +15.44pt と、市場を大きく上回っています。"
-      ],
-      "strengths": [
-        "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
-        "営業利益率が高く、収益性の強さが示されています。",
-        "純利益率が高く、売上から利益を残す力があります。"
-      ],
-      "watch_points": [
-        "注意材料になり得るニュース表現が 1 件あります。",
-        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
-        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
-        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
-        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
-        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
-        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
-      ],
-      "confidence": "High",
-      "signal_strength": "Strong",
-      "signal_rate": 70.75,
-      "evidence": [
-        "Company",
-        "Events",
-        "Financials",
-        "Knowledge",
-        "Market Intelligence",
-        "News",
-        "Prices",
-        "Scoring"
-      ],
-      "missing_data": [],
-      "metrics": {
-        "scoring_total": 66.0,
-        "signal_earned_points": 70.75,
-        "signal_max_points": 100.0,
-        "weak_signals": [],
-        "scoring_signal_strength": "Strong",
-        "growth_score": 17.0,
-        "financial_health_score": 17.0,
-        "valuation_score": 9.0,
-        "news_score": 13.0,
-        "momentum": {
-          "1m": -8.602188997782388,
-          "3m": -16.452295399317272,
-          "6m": 29.521145578704793,
-          "1y": 33.035377327368934
-        },
-        "benchmark": "SPY",
-        "excess_momentum": {
-          "1m": -9.04,
-          "3m": -18.84,
-          "6m": 15.44,
-          "1y": 11.6
-        },
-        "positive_news": 3,
-        "watch_news": 1,
+        "watch_news": 2,
         "event_count": 10,
         "events_with_reaction": 8,
-        "sector_average_score": 67.75
+        "sector_average_score": 65.83333333333333
       }
     },
     {
@@ -512,20 +203,173 @@
       "company": "Applied Materials, Inc.",
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
-      "discovery_score": 71,
+      "discovery_score": 80,
       "max_score": 100,
-      "status": "Watch Candidate",
+      "status": "Primary Candidate",
       "discovery_reasons": [
         "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 10/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで -18.76pt と弱く、候補評価では注意点です。",
-        "3Mモメンタムは対SPYで -15.41pt と弱く、候補評価では注意点です。",
-        "6Mモメンタムは対SPYで +12.00pt と、市場を大きく上回っています。"
+        "1Mモメンタムは対SPYで -13.92pt と弱く、候補評価では注意点です。",
+        "3Mモメンタムは対SPYで -4.21pt と、市場を小幅に下回っています。",
+        "6Mモメンタムは対SPYで +25.19pt と、市場を大きく上回っています。"
+      ],
+      "strengths": [
+        "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
+        "営業利益率が高く、収益性の強さが示されています。",
+        "純利益率が高く、売上から利益を残す力があります。"
+      ],
+      "watch_points": [
+        "注意材料になり得るニュース表現が 1 件あります。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "confidence": "High",
+      "signal_strength": "Strong",
+      "signal_rate": 79.85,
+      "evidence": [
+        "Company",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "missing_data": [],
+      "metrics": {
+        "scoring_total": 69.0,
+        "signal_earned_points": 79.85,
+        "signal_max_points": 100.0,
+        "weak_signals": [],
+        "scoring_signal_strength": "Strong",
+        "growth_score": 17.0,
+        "financial_health_score": 20.0,
+        "valuation_score": 9.0,
+        "news_score": 13.0,
+        "momentum": {
+          "1m": -13.703606660071047,
+          "3m": 0.48259499219604357,
+          "6m": 40.346767244546136,
+          "1y": 188.9439867108475
+        },
+        "benchmark": "SPY",
+        "excess_momentum": {
+          "1m": -13.92,
+          "3m": -4.21,
+          "6m": 25.19,
+          "1y": 168.98
+        },
+        "positive_news": 4,
+        "watch_news": 1,
+        "event_count": 10,
+        "events_with_reaction": 10,
+        "sector_average_score": 65.83333333333333
+      }
+    },
+    {
+      "ticker": "TXN",
+      "company": "Texas Instruments Incorporated",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "discovery_score": 79,
+      "max_score": 100,
+      "status": "Primary Candidate",
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 17/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで -7.38pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで -13.57pt と弱く、候補評価では注意点です。",
+        "6Mモメンタムは対SPYで +19.96pt と、市場を大きく上回っています。"
+      ],
+      "strengths": [
+        "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
+        "営業利益率が高く、収益性の強さが示されています。",
+        "純利益率が高く、売上から利益を残す力があります。"
+      ],
+      "watch_points": [
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "confidence": "High",
+      "signal_strength": "Strong",
+      "signal_rate": 79.3,
+      "evidence": [
+        "Company",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "missing_data": [],
+      "metrics": {
+        "scoring_total": 68.0,
+        "signal_earned_points": 79.3,
+        "signal_max_points": 100.0,
+        "weak_signals": [],
+        "scoring_signal_strength": "Strong",
+        "growth_score": 17.0,
+        "financial_health_score": 17.0,
+        "valuation_score": 9.0,
+        "news_score": 15.0,
+        "momentum": {
+          "1m": -7.169537317770098,
+          "3m": -8.874191026963185,
+          "6m": 35.115210461320494,
+          "1y": 41.56274024409425
+        },
+        "benchmark": "SPY",
+        "excess_momentum": {
+          "1m": -7.38,
+          "3m": -13.57,
+          "6m": 19.96,
+          "1y": 21.6
+        },
+        "positive_news": 6,
+        "watch_news": 0,
+        "event_count": 10,
+        "events_with_reaction": 8,
+        "sector_average_score": 65.83333333333333
+      }
+    },
+    {
+      "ticker": "CRM",
+      "company": "Salesforce, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "discovery_score": 73,
+      "max_score": 100,
+      "status": "Watch Candidate",
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 16/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 9/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで +38.58pt と、市場を大きく上回っています。",
+        "3Mモメンタムは対SPYで +35.29pt と、市場を大きく上回っています。",
+        "6Mモメンタムは対SPYで +13.76pt と、市場を大きく上回っています。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
@@ -543,7 +387,7 @@
       ],
       "confidence": "High",
       "signal_strength": "Strong",
-      "signal_rate": 71.4,
+      "signal_rate": 72.7,
       "evidence": [
         "Company",
         "Events",
@@ -556,190 +400,33 @@
       ],
       "missing_data": [],
       "metrics": {
-        "scoring_total": 67.0,
-        "signal_earned_points": 71.4,
+        "scoring_total": 69.0,
+        "signal_earned_points": 72.7,
         "signal_max_points": 100.0,
         "weak_signals": [],
         "scoring_signal_strength": "Strong",
         "growth_score": 17.0,
-        "financial_health_score": 20.0,
-        "valuation_score": 9.0,
-        "news_score": 10.0,
+        "financial_health_score": 16.0,
+        "valuation_score": 14.0,
+        "news_score": 9.0,
         "momentum": {
-          "1m": -18.318330424932963,
-          "3m": -13.020509012646702,
-          "6m": 26.08392425660361,
-          "1y": 180.5254567261285
+          "1m": 38.79638328227601,
+          "3m": 39.98657393060088,
+          "6m": 28.914489319815477,
+          "1y": 7.136632851168281
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": -18.76,
-          "3m": -15.41,
-          "6m": 12.0,
-          "1y": 159.09
+          "1m": 38.58,
+          "3m": 35.29,
+          "6m": 13.76,
+          "1y": -12.83
         },
-        "positive_news": 4,
+        "positive_news": 2,
         "watch_news": 1,
         "event_count": 10,
         "events_with_reaction": 8,
-        "sector_average_score": 67.75
-      }
-    },
-    {
-      "ticker": "AAPL",
-      "company": "Apple Inc.",
-      "sector": "Technology",
-      "industry": "Consumer Electronics",
-      "discovery_score": 70,
-      "max_score": 100,
-      "status": "Watch Candidate",
-      "discovery_reasons": [
-        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 12/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 11/20 で、材料の量と市場関心を候補評価に反映しています。",
-        "売上が取得でき、事業規模の確認ができます。",
-        "EPSがプラスで、利益を伴う成長候補として確認できます。",
-        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
-        "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで +5.19pt と、市場並み以上です。",
-        "3Mモメンタムは対SPYで +3.16pt と、市場並み以上です。",
-        "6Mモメンタムは対SPYで +12.23pt と、市場を大きく上回っています。"
-      ],
-      "strengths": [
-        "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
-        "営業利益率が高く、収益性の強さが示されています。",
-        "純利益率が高く、売上から利益を残す力があります。"
-      ],
-      "watch_points": [
-        "バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。",
-        "注意材料になり得るニュース表現が 5 件あります。",
-        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
-        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
-        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
-        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
-        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
-      ],
-      "confidence": "High",
-      "signal_strength": "Strong",
-      "signal_rate": 69.65,
-      "evidence": [
-        "Company",
-        "Events",
-        "Financials",
-        "Knowledge",
-        "Market Intelligence",
-        "News",
-        "Prices",
-        "Scoring"
-      ],
-      "missing_data": [],
-      "metrics": {
-        "scoring_total": 57.0,
-        "signal_earned_points": 69.65,
-        "signal_max_points": 100.0,
-        "weak_signals": [],
-        "scoring_signal_strength": "Moderate",
-        "growth_score": 17.0,
-        "financial_health_score": 12.0,
-        "valuation_score": 3.0,
-        "news_score": 11.0,
-        "momentum": {
-          "1m": 5.624771473218551,
-          "3m": 5.546715929982314,
-          "6m": 26.318991015844627,
-          "1y": 38.139968191849746
-        },
-        "benchmark": "SPY",
-        "excess_momentum": {
-          "1m": 5.19,
-          "3m": 3.16,
-          "6m": 12.23,
-          "1y": 16.7
-        },
-        "positive_news": 2,
-        "watch_news": 5,
-        "event_count": 10,
-        "events_with_reaction": 4,
-        "sector_average_score": 67.75
-      }
-    },
-    {
-      "ticker": "AMZN",
-      "company": "Amazon.com, Inc.",
-      "sector": "Consumer Cyclical",
-      "industry": "Internet Retail",
-      "discovery_score": 70,
-      "max_score": 100,
-      "status": "Watch Candidate",
-      "discovery_reasons": [
-        "Scoring EngineのGrowthが 16/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 16/20 で、材料の量と市場関心を候補評価に反映しています。",
-        "売上が取得でき、事業規模の確認ができます。",
-        "EPSがプラスで、利益を伴う成長候補として確認できます。",
-        "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで -5.48pt と、市場を小幅に下回っています。",
-        "3Mモメンタムは対SPYで -0.37pt と、市場を小幅に下回っています。",
-        "6Mモメンタムは対SPYで +4.17pt と、市場並み以上です。",
-        "1Yモメンタムは対SPYで -6.87pt と、市場を小幅に下回っています。"
-      ],
-      "strengths": [
-        "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
-        "フリーキャッシュフローがプラスで、現金創出力があります。"
-      ],
-      "watch_points": [
-        "注意材料になり得るニュース表現が 1 件あります。",
-        "Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
-        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
-        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
-        "Consumer Cyclical セクター全体の需要変化と競争環境を確認する必要があります。",
-        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
-        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
-      ],
-      "confidence": "Medium",
-      "signal_strength": "Strong",
-      "signal_rate": 71.75,
-      "evidence": [
-        "Company",
-        "Events",
-        "Financials",
-        "Knowledge",
-        "Market Intelligence",
-        "News",
-        "Prices",
-        "Scoring"
-      ],
-      "missing_data": [
-        "research_and_development"
-      ],
-      "metrics": {
-        "scoring_total": 70.0,
-        "signal_earned_points": 69.6,
-        "signal_max_points": 97.0,
-        "weak_signals": [],
-        "scoring_signal_strength": "Strong",
-        "growth_score": 16.0,
-        "financial_health_score": 18.0,
-        "valuation_score": 13.0,
-        "news_score": 16.0,
-        "momentum": {
-          "1m": -5.043095656631627,
-          "3m": 2.0134760020228013,
-          "6m": 18.25157166780082,
-          "1y": 14.562585779624563
-        },
-        "benchmark": "SPY",
-        "excess_momentum": {
-          "1m": -5.48,
-          "3m": -0.37,
-          "6m": 4.17,
-          "1y": -6.87
-        },
-        "positive_news": 6,
-        "watch_news": 1,
-        "event_count": 10,
-        "events_with_reaction": 2,
-        "sector_average_score": 56.0
+        "sector_average_score": 65.83333333333333
       }
     },
     {
@@ -747,20 +434,20 @@
       "company": "Meta Platforms, Inc.",
       "sector": "Communication Services",
       "industry": "Internet Content & Information",
-      "discovery_score": 69,
+      "discovery_score": 70,
       "max_score": 100,
       "status": "Watch Candidate",
       "discovery_reasons": [
         "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 14/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで +3.28pt と、市場並み以上です。",
-        "3Mモメンタムは対SPYで -4.99pt と、市場を小幅に下回っています。",
-        "6Mモメンタムは対SPYで -21.47pt と弱く、候補評価では注意点です。"
+        "1Mモメンタムは対SPYで +4.34pt と、市場並み以上です。",
+        "3Mモメンタムは対SPYで -0.59pt と、市場を小幅に下回っています。",
+        "6Mモメンタムは対SPYで -19.34pt と弱く、候補評価では注意点です。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
@@ -777,7 +464,7 @@
       ],
       "confidence": "High",
       "signal_strength": "Strong",
-      "signal_rate": 69.15,
+      "signal_rate": 70.25,
       "evidence": [
         "Company",
         "Events",
@@ -790,59 +477,138 @@
       ],
       "missing_data": [],
       "metrics": {
-        "scoring_total": 69.0,
-        "signal_earned_points": 69.15,
+        "scoring_total": 68.0,
+        "signal_earned_points": 70.25,
         "signal_max_points": 100.0,
         "weak_signals": [],
         "scoring_signal_strength": "Strong",
         "growth_score": 17.0,
         "financial_health_score": 20.0,
         "valuation_score": 11.0,
-        "news_score": 14.0,
+        "news_score": 13.0,
         "momentum": {
-          "1m": 3.7213126378233223,
-          "3m": -2.6011463909866515,
-          "6m": -7.387665191713655,
-          "1y": -16.873815102335197
+          "1m": 4.555008307361405,
+          "3m": 4.104828038648704,
+          "6m": -4.185369029352,
+          "1y": -17.345687742105614
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": 3.28,
-          "3m": -4.99,
-          "6m": -21.47,
-          "1y": -38.31
+          "1m": 4.34,
+          "3m": -0.59,
+          "6m": -19.34,
+          "1y": -37.31
         },
-        "positive_news": 2,
+        "positive_news": 4,
         "watch_news": 1,
         "event_count": 10,
-        "events_with_reaction": 7,
-        "sector_average_score": 60.166666666666664
+        "events_with_reaction": 5,
+        "sector_average_score": 56.0
       }
     },
     {
-      "ticker": "QCOM",
-      "company": "QUALCOMM Incorporated",
-      "sector": "Technology",
-      "industry": "Semiconductors",
-      "discovery_score": 68,
+      "ticker": "GOOGL",
+      "company": "Alphabet Inc.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "discovery_score": 67,
       "max_score": 100,
       "status": "Watch Candidate",
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 17/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 10/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで +6.57pt と、市場並み以上です。",
-        "3Mモメンタムは対SPYで -32.89pt と弱く、候補評価では注意点です。",
-        "6Mモメンタムは対SPYで +9.41pt と、市場並み以上です。"
+        "1Mモメンタムは対SPYで -5.60pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで -12.80pt と弱く、候補評価では注意点です。",
+        "6Mモメンタムは対SPYで -1.63pt と、市場を小幅に下回っています。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
         "営業利益率が高く、収益性の強さが示されています。",
-        "フリーキャッシュフローがプラスで、現金創出力があります。"
+        "純利益率が高く、売上から利益を残す力があります。"
+      ],
+      "watch_points": [
+        "バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。",
+        "注意材料になり得るニュース表現が 1 件あります。",
+        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "confidence": "Medium",
+      "signal_strength": "Strong",
+      "signal_rate": 67.45,
+      "evidence": [
+        "Company",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "missing_data": [],
+      "metrics": {
+        "scoring_total": 59.0,
+        "signal_earned_points": 67.45,
+        "signal_max_points": 100.0,
+        "weak_signals": [],
+        "scoring_signal_strength": "Moderate",
+        "growth_score": 20.0,
+        "financial_health_score": 14.0,
+        "valuation_score": 6.0,
+        "news_score": 10.0,
+        "momentum": {
+          "1m": -5.3920359314945845,
+          "3m": -8.104587521756546,
+          "6m": 13.526918872573532,
+          "1y": 46.11516750274991
+        },
+        "benchmark": "SPY",
+        "excess_momentum": {
+          "1m": -5.6,
+          "3m": -12.8,
+          "6m": -1.63,
+          "1y": 26.15
+        },
+        "positive_news": 4,
+        "watch_news": 1,
+        "event_count": 10,
+        "events_with_reaction": 1,
+        "sector_average_score": 56.0
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "company": "Microsoft Corporation",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "discovery_score": 66,
+      "max_score": 100,
+      "status": "Watch Candidate",
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 18/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 10/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで -0.06pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +15.46pt と、市場を大きく上回っています。",
+        "6Mモメンタムは対SPYで +7.53pt と、市場並み以上です。"
+      ],
+      "strengths": [
+        "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
+        "営業利益率が高く、収益性の強さが示されています。",
+        "純利益率が高く、売上から利益を残す力があります。"
       ],
       "watch_points": [
         "注意材料になり得るニュース表現が 1 件あります。",
@@ -855,7 +621,7 @@
       ],
       "confidence": "High",
       "signal_strength": "Strong",
-      "signal_rate": 68.4,
+      "signal_rate": 65.65,
       "evidence": [
         "Company",
         "Events",
@@ -868,62 +634,62 @@
       ],
       "missing_data": [],
       "metrics": {
-        "scoring_total": 69.0,
-        "signal_earned_points": 68.4,
+        "scoring_total": 64.0,
+        "signal_earned_points": 65.65,
         "signal_max_points": 100.0,
         "weak_signals": [],
-        "scoring_signal_strength": "Strong",
-        "growth_score": 17.0,
-        "financial_health_score": 17.0,
-        "valuation_score": 16.0,
-        "news_score": 13.0,
+        "scoring_signal_strength": "Moderate",
+        "growth_score": 18.0,
+        "financial_health_score": 18.0,
+        "valuation_score": 9.0,
+        "news_score": 10.0,
         "momentum": {
-          "1m": 7.008194395017535,
-          "3m": -30.50665695082892,
-          "6m": 23.498252117039463,
-          "1y": 9.437285872288872
+          "1m": 0.15619040978039977,
+          "3m": 20.15280836479113,
+          "6m": 22.683156318476588,
+          "1y": -0.818676568785829
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": 6.57,
-          "3m": -32.89,
-          "6m": 9.41,
-          "1y": -12.0
+          "1m": -0.06,
+          "3m": 15.46,
+          "6m": 7.53,
+          "1y": -20.78
         },
-        "positive_news": 3,
+        "positive_news": 4,
         "watch_news": 1,
         "event_count": 10,
-        "events_with_reaction": 7,
-        "sector_average_score": 67.75
+        "events_with_reaction": 3,
+        "sector_average_score": 65.83333333333333
       }
     },
     {
-      "ticker": "NOW",
-      "company": "ServiceNow, Inc.",
+      "ticker": "QCOM",
+      "company": "QUALCOMM Incorporated",
       "sector": "Technology",
-      "industry": "Software - Application",
-      "discovery_score": 68,
+      "industry": "Semiconductors",
+      "discovery_score": 66,
       "max_score": 100,
       "status": "Watch Candidate",
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 14/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 16/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 17/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 7/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで +23.76pt と、市場を大きく上回っています。",
-        "3Mモメンタムは対SPYで +19.59pt と、市場を大きく上回っています。",
-        "6Mモメンタムは対SPYで +6.86pt と、市場並み以上です。"
+        "1Mモメンタムは対SPYで +5.57pt と、市場並み以上です。",
+        "3Mモメンタムは対SPYで -26.13pt と弱く、候補評価では注意点です。",
+        "6Mモメンタムは対SPYで +10.34pt と、市場を大きく上回っています。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
-        "フリーキャッシュフローがプラスで、現金創出力があります。",
-        "研究開発費を計上しており、将来成長への投資が続いています。"
+        "営業利益率が高く、収益性の強さが示されています。",
+        "フリーキャッシュフローがプラスで、現金創出力があります。"
       ],
       "watch_points": [
-        "バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。",
+        "注意材料になり得るニュース表現が 1 件あります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
         "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
@@ -932,7 +698,7 @@
       ],
       "confidence": "High",
       "signal_strength": "Strong",
-      "signal_rate": 68.25,
+      "signal_rate": 65.5,
       "evidence": [
         "Company",
         "Events",
@@ -945,210 +711,54 @@
       ],
       "missing_data": [],
       "metrics": {
-        "scoring_total": 67.0,
-        "signal_earned_points": 68.25,
+        "scoring_total": 65.0,
+        "signal_earned_points": 65.5,
         "signal_max_points": 100.0,
         "weak_signals": [],
         "scoring_signal_strength": "Strong",
-        "growth_score": 14.0,
-        "financial_health_score": 16.0,
-        "valuation_score": 6.0,
-        "news_score": 17.0,
+        "growth_score": 17.0,
+        "financial_health_score": 17.0,
+        "valuation_score": 16.0,
+        "news_score": 7.0,
         "momentum": {
-          "1m": 24.202350129456285,
-          "3m": 21.975532501182187,
-          "6m": 20.942016663617164,
-          "1y": -20.821645711239462
+          "1m": 5.778646182318466,
+          "3m": -21.43263073543547,
+          "6m": 25.495608324109064,
+          "1y": 7.8542251014875015
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": 23.76,
-          "3m": 19.59,
-          "6m": 6.86,
-          "1y": -42.26
+          "1m": 5.57,
+          "3m": -26.13,
+          "6m": 10.34,
+          "1y": -12.11
         },
-        "positive_news": 2,
-        "watch_news": 0,
-        "event_count": 10,
-        "events_with_reaction": 6,
-        "sector_average_score": 67.75
-      }
-    },
-    {
-      "ticker": "CMCSA",
-      "company": "Comcast Corporation",
-      "sector": "Communication Services",
-      "industry": "Telecom Services",
-      "discovery_score": 62,
-      "max_score": 100,
-      "status": "Watch Candidate",
-      "discovery_reasons": [
-        "Scoring EngineのGrowthが 13/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 13/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
-        "売上が取得でき、事業規模の確認ができます。",
-        "EPSがプラスで、利益を伴う成長候補として確認できます。",
-        "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで +7.24pt と、市場並み以上です。",
-        "3Mモメンタムは対SPYで +13.40pt と、市場を大きく上回っています。",
-        "6Mモメンタムは対SPYで -27.61pt と弱く、候補評価では注意点です。",
-        "1Yモメンタムは対SPYで -33.47pt と弱く、候補評価では注意点です。"
-      ],
-      "strengths": [
-        "純利益率が高く、売上から利益を残す力があります。",
-        "フリーキャッシュフローがプラスで、現金創出力があります。"
-      ],
-      "watch_points": [
-        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
-        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
-        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
-        "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
-        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
-        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
-      ],
-      "confidence": "Medium",
-      "signal_strength": "Moderate",
-      "signal_rate": 63.81,
-      "evidence": [
-        "Company",
-        "Events",
-        "Financials",
-        "Knowledge",
-        "Market Intelligence",
-        "News",
-        "Prices",
-        "Scoring"
-      ],
-      "missing_data": [
-        "research_and_development"
-      ],
-      "metrics": {
-        "scoring_total": 66.0,
-        "signal_earned_points": 61.9,
-        "signal_max_points": 97.0,
-        "weak_signals": [],
-        "scoring_signal_strength": "Strong",
-        "growth_score": 13.0,
-        "financial_health_score": 13.0,
-        "valuation_score": 15.0,
-        "news_score": 15.0,
-        "momentum": {
-          "1m": 7.676766135475867,
-          "3m": 15.787005493062148,
-          "6m": -13.521473448235513,
-          "1y": -12.02985662508796
-        },
-        "benchmark": "SPY",
-        "excess_momentum": {
-          "1m": 7.24,
-          "3m": 13.4,
-          "6m": -27.61,
-          "1y": -33.47
-        },
-        "positive_news": 4,
-        "watch_news": 0,
+        "positive_news": 0,
+        "watch_news": 1,
         "event_count": 10,
         "events_with_reaction": 9,
-        "sector_average_score": 60.166666666666664
+        "sector_average_score": 65.83333333333333
       }
     },
     {
-      "ticker": "TSLA",
-      "company": "Tesla, Inc.",
-      "sector": "Consumer Cyclical",
-      "industry": "Auto Manufacturers",
-      "discovery_score": 62,
-      "max_score": 100,
-      "status": "Watch Candidate",
-      "discovery_reasons": [
-        "Scoring EngineのGrowthが 12/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。",
-        "売上が取得でき、事業規模の確認ができます。",
-        "EPSがプラスで、利益を伴う成長候補として確認できます。",
-        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
-        "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで +16.61pt と、市場を大きく上回っています。",
-        "3Mモメンタムは対SPYで -12.44pt と弱く、候補評価では注意点です。",
-        "6Mモメンタムは対SPYで -21.28pt と弱く、候補評価では注意点です。"
-      ],
-      "strengths": [
-        "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
-        "フリーキャッシュフローがプラスで、現金創出力があります。",
-        "研究開発費を計上しており、将来成長への投資が続いています。"
-      ],
-      "watch_points": [
-        "バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。",
-        "Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
-        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
-        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
-        "Consumer Cyclical セクター全体の需要変化と競争環境を確認する必要があります。",
-        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
-        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
-      ],
-      "confidence": "High",
-      "signal_strength": "Moderate",
-      "signal_rate": 62.05,
-      "evidence": [
-        "Company",
-        "Events",
-        "Financials",
-        "Knowledge",
-        "Market Intelligence",
-        "News",
-        "Prices",
-        "Scoring"
-      ],
-      "missing_data": [],
-      "metrics": {
-        "scoring_total": 61.0,
-        "signal_earned_points": 62.05,
-        "signal_max_points": 100.0,
-        "weak_signals": [],
-        "scoring_signal_strength": "Moderate",
-        "growth_score": 12.0,
-        "financial_health_score": 20.0,
-        "valuation_score": 3.0,
-        "news_score": 17.0,
-        "momentum": {
-          "1m": 17.047116940554545,
-          "3m": -10.057359480212998,
-          "6m": -7.196399565296646,
-          "1y": 12.653774240438034
-        },
-        "benchmark": "SPY",
-        "excess_momentum": {
-          "1m": 16.61,
-          "3m": -12.44,
-          "6m": -21.28,
-          "1y": -8.78
-        },
-        "positive_news": 3,
-        "watch_news": 0,
-        "event_count": 10,
-        "events_with_reaction": 2,
-        "sector_average_score": 56.0
-      }
-    },
-    {
-      "ticker": "ADBE",
-      "company": "Adobe Inc.",
+      "ticker": "AVGO",
+      "company": "Broadcom Inc.",
       "sector": "Technology",
-      "industry": "Software - Application",
-      "discovery_score": 61,
+      "industry": "Semiconductors",
+      "discovery_score": 64,
       "max_score": 100,
       "status": "Watch Candidate",
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 14/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Scoring EngineのGrowthが 19/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 17/20 で、継続調査に必要な財務基盤を評価しています。",
         "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで +9.75pt と、市場並み以上です。",
-        "3Mモメンタムは対SPYで +8.19pt と、市場並み以上です。",
-        "6Mモメンタムは対SPYで -12.66pt と弱く、候補評価では注意点です。"
+        "1Mモメンタムは対SPYで -15.11pt と弱く、候補評価では注意点です。",
+        "3Mモメンタムは対SPYで -11.76pt と弱く、候補評価では注意点です。",
+        "6Mモメンタムは対SPYで -6.46pt と、市場を小幅に下回っています。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
@@ -1165,7 +775,7 @@
       ],
       "confidence": "High",
       "signal_strength": "Moderate",
-      "signal_rate": 61.35,
+      "signal_rate": 64.4,
       "evidence": [
         "Company",
         "Events",
@@ -1179,53 +789,133 @@
       "missing_data": [],
       "metrics": {
         "scoring_total": 63.0,
-        "signal_earned_points": 61.35,
+        "signal_earned_points": 64.4,
         "signal_max_points": 100.0,
         "weak_signals": [],
         "scoring_signal_strength": "Moderate",
-        "growth_score": 14.0,
-        "financial_health_score": 14.0,
-        "valuation_score": 16.0,
+        "growth_score": 19.0,
+        "financial_health_score": 17.0,
+        "valuation_score": 8.0,
         "news_score": 13.0,
         "momentum": {
-          "1m": 10.192037609630619,
-          "3m": 10.57580108047951,
-          "6m": 1.4233015917581089,
-          "1y": -18.00573888091822
+          "1m": -14.902398463766476,
+          "3m": -7.069344674819258,
+          "6m": 8.694430768500709,
+          "1y": 17.777622448273515
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": 9.75,
-          "3m": 8.19,
-          "6m": -12.66,
-          "1y": -39.44
+          "1m": -15.11,
+          "3m": -11.76,
+          "6m": -6.46,
+          "1y": -2.19
         },
-        "positive_news": 2,
+        "positive_news": 5,
         "watch_news": 2,
         "event_count": 10,
-        "events_with_reaction": 8,
-        "sector_average_score": 67.75
+        "events_with_reaction": 5,
+        "sector_average_score": 65.83333333333333
       }
     },
     {
-      "ticker": "ORCL",
-      "company": "Oracle Corporation",
+      "ticker": "AMZN",
+      "company": "Amazon.com, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Internet Retail",
+      "discovery_score": 64,
+      "max_score": 100,
+      "status": "Watch Candidate",
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 16/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで -5.26pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +0.38pt と、市場並み以上です。",
+        "6Mモメンタムは対SPYで +6.09pt と、市場並み以上です。",
+        "1Yモメンタムは対SPYで -10.28pt と弱く、候補評価では注意点です。"
+      ],
+      "strengths": [
+        "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
+        "フリーキャッシュフローがプラスで、現金創出力があります。"
+      ],
+      "watch_points": [
+        "注意材料になり得るニュース表現が 1 件あります。",
+        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+        "Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Consumer Cyclical セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "confidence": "Medium",
+      "signal_strength": "Strong",
+      "signal_rate": 65.57,
+      "evidence": [
+        "Company",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "missing_data": [
+        "research_and_development"
+      ],
+      "metrics": {
+        "scoring_total": 65.0,
+        "signal_earned_points": 63.6,
+        "signal_max_points": 97.0,
+        "weak_signals": [],
+        "scoring_signal_strength": "Strong",
+        "growth_score": 16.0,
+        "financial_health_score": 18.0,
+        "valuation_score": 11.0,
+        "news_score": 13.0,
+        "momentum": {
+          "1m": -5.050319366342742,
+          "3m": 5.072556618399782,
+          "6m": 21.246658986579124,
+          "1y": 9.686871096118201
+        },
+        "benchmark": "SPY",
+        "excess_momentum": {
+          "1m": -5.26,
+          "3m": 0.38,
+          "6m": 6.09,
+          "1y": -10.28
+        },
+        "positive_news": 4,
+        "watch_news": 1,
+        "event_count": 10,
+        "events_with_reaction": 5,
+        "sector_average_score": 51.166666666666664
+      }
+    },
+    {
+      "ticker": "AAPL",
+      "company": "Apple Inc.",
       "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "discovery_score": 60,
+      "industry": "Consumer Electronics",
+      "discovery_score": 61,
       "max_score": 100,
       "status": "Watch Candidate",
       "discovery_reasons": [
         "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 13/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Financial Healthが 12/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 10/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
-        "1Mモメンタムは対SPYで +6.24pt と、市場並み以上です。",
-        "3Mモメンタムは対SPYで -36.98pt と弱く、候補評価では注意点です。",
-        "6Mモメンタムは対SPYで -13.88pt と弱く、候補評価では注意点です。",
-        "1Yモメンタムは対SPYで -51.71pt と弱く、候補評価では注意点です。"
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで +2.30pt と、市場並み以上です。",
+        "3Mモメンタムは対SPYで -0.50pt と、市場を小幅に下回っています。",
+        "6Mモメンタムは対SPYで +9.35pt と、市場並み以上です。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
@@ -1233,17 +923,99 @@
         "純利益率が高く、売上から利益を残す力があります。"
       ],
       "watch_points": [
-        "注意材料になり得るニュース表現が 1 件あります。",
+        "バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。",
+        "注意材料になり得るニュース表現が 2 件あります。",
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
         "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
         "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
-        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。",
-        "データは取得済みですがシグナルが弱い項目: free_cash_flow"
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "confidence": "Medium",
+      "signal_strength": "Moderate",
+      "signal_rate": 64.47,
+      "evidence": [
+        "Company",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "missing_data": [
+        "event_price_reaction"
+      ],
+      "metrics": {
+        "scoring_total": 55.0,
+        "signal_earned_points": 61.25,
+        "signal_max_points": 95.0,
+        "weak_signals": [],
+        "scoring_signal_strength": "Moderate",
+        "growth_score": 17.0,
+        "financial_health_score": 12.0,
+        "valuation_score": 3.0,
+        "news_score": 10.0,
+        "momentum": {
+          "1m": 2.508224785715613,
+          "3m": 4.199244323256484,
+          "6m": 24.50129550598355,
+          "1y": 33.93609905018316
+        },
+        "benchmark": "SPY",
+        "excess_momentum": {
+          "1m": 2.3,
+          "3m": -0.5,
+          "6m": 9.35,
+          "1y": 13.97
+        },
+        "positive_news": 3,
+        "watch_news": 2,
+        "event_count": 10,
+        "events_with_reaction": 0,
+        "sector_average_score": 65.83333333333333
+      }
+    },
+    {
+      "ticker": "NOW",
+      "company": "ServiceNow, Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "discovery_score": 61,
+      "max_score": 100,
+      "status": "Watch Candidate",
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 14/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 16/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで +20.16pt と、市場を大きく上回っています。",
+        "3Mモメンタムは対SPYで +20.93pt と、市場を大きく上回っています。",
+        "6Mモメンタムは対SPYで -1.55pt と、市場を小幅に下回っています。"
+      ],
+      "strengths": [
+        "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
+        "フリーキャッシュフローがプラスで、現金創出力があります。",
+        "研究開発費を計上しており、将来成長への投資が続いています。"
+      ],
+      "watch_points": [
+        "バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。",
+        "注意材料になり得るニュース表現が 1 件あります。",
+        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
       ],
       "confidence": "High",
       "signal_strength": "Moderate",
-      "signal_rate": 60.1,
+      "signal_rate": 60.9,
       "evidence": [
         "Company",
         "Events",
@@ -1256,35 +1028,33 @@
       ],
       "missing_data": [],
       "metrics": {
-        "scoring_total": 65.0,
-        "signal_earned_points": 60.1,
+        "scoring_total": 59.0,
+        "signal_earned_points": 60.9,
         "signal_max_points": 100.0,
-        "weak_signals": [
-          "free_cash_flow"
-        ],
-        "scoring_signal_strength": "Strong",
-        "growth_score": 17.0,
-        "financial_health_score": 13.0,
-        "valuation_score": 14.0,
-        "news_score": 15.0,
+        "weak_signals": [],
+        "scoring_signal_strength": "Moderate",
+        "growth_score": 14.0,
+        "financial_health_score": 16.0,
+        "valuation_score": 6.0,
+        "news_score": 13.0,
         "momentum": {
-          "1m": 6.683284117512227,
-          "3m": -34.59596581294039,
-          "6m": 0.21045340245408858,
-          "1y": -30.27715603406646
+          "1m": 20.374943624722462,
+          "3m": 25.620274202278747,
+          "6m": 13.60784837323436,
+          "1y": -21.39646206538069
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": 6.24,
-          "3m": -36.98,
-          "6m": -13.88,
-          "1y": -51.71
+          "1m": 20.16,
+          "3m": 20.93,
+          "6m": -1.55,
+          "1y": -41.36
         },
-        "positive_news": 4,
+        "positive_news": 3,
         "watch_news": 1,
         "event_count": 10,
-        "events_with_reaction": 7,
-        "sector_average_score": 67.75
+        "events_with_reaction": 10,
+        "sector_average_score": 65.83333333333333
       }
     }
   ],
@@ -1294,20 +1064,20 @@
       "company": "Apple Inc.",
       "sector": "Technology",
       "industry": "Consumer Electronics",
-      "discovery_score": 70,
+      "discovery_score": 61,
       "max_score": 100,
       "status": "Watch Candidate",
       "discovery_reasons": [
         "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 12/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 11/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 10/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで +5.19pt と、市場並み以上です。",
-        "3Mモメンタムは対SPYで +3.16pt と、市場並み以上です。",
-        "6Mモメンタムは対SPYで +12.23pt と、市場を大きく上回っています。"
+        "1Mモメンタムは対SPYで +2.30pt と、市場並み以上です。",
+        "3Mモメンタムは対SPYで -0.50pt と、市場を小幅に下回っています。",
+        "6Mモメンタムは対SPYで +9.35pt と、市場並み以上です。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
@@ -1316,16 +1086,17 @@
       ],
       "watch_points": [
         "バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。",
-        "注意材料になり得るニュース表現が 5 件あります。",
+        "注意材料になり得るニュース表現が 2 件あります。",
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
         "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
         "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
         "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
       ],
-      "confidence": "High",
-      "signal_strength": "Strong",
-      "signal_rate": 69.65,
+      "confidence": "Medium",
+      "signal_strength": "Moderate",
+      "signal_rate": 64.47,
       "evidence": [
         "Company",
         "Events",
@@ -1336,35 +1107,37 @@
         "Prices",
         "Scoring"
       ],
-      "missing_data": [],
+      "missing_data": [
+        "event_price_reaction"
+      ],
       "metrics": {
-        "scoring_total": 57.0,
-        "signal_earned_points": 69.65,
-        "signal_max_points": 100.0,
+        "scoring_total": 55.0,
+        "signal_earned_points": 61.25,
+        "signal_max_points": 95.0,
         "weak_signals": [],
         "scoring_signal_strength": "Moderate",
         "growth_score": 17.0,
         "financial_health_score": 12.0,
         "valuation_score": 3.0,
-        "news_score": 11.0,
+        "news_score": 10.0,
         "momentum": {
-          "1m": 5.624771473218551,
-          "3m": 5.546715929982314,
-          "6m": 26.318991015844627,
-          "1y": 38.139968191849746
+          "1m": 2.508224785715613,
+          "3m": 4.199244323256484,
+          "6m": 24.50129550598355,
+          "1y": 33.93609905018316
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": 5.19,
-          "3m": 3.16,
-          "6m": 12.23,
-          "1y": 16.7
+          "1m": 2.3,
+          "3m": -0.5,
+          "6m": 9.35,
+          "1y": 13.97
         },
-        "positive_news": 2,
-        "watch_news": 5,
+        "positive_news": 3,
+        "watch_news": 2,
         "event_count": 10,
-        "events_with_reaction": 4,
-        "sector_average_score": 67.75
+        "events_with_reaction": 0,
+        "sector_average_score": 65.83333333333333
       }
     },
     {
@@ -1372,20 +1145,20 @@
       "company": "Microsoft Corporation",
       "sector": "Technology",
       "industry": "Software - Infrastructure",
-      "discovery_score": 79,
+      "discovery_score": 66,
       "max_score": 100,
-      "status": "Primary Candidate",
+      "status": "Watch Candidate",
       "discovery_reasons": [
         "Scoring EngineのGrowthが 18/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 10/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで +4.41pt と、市場並み以上です。",
-        "3Mモメンタムは対SPYで +17.01pt と、市場を大きく上回っています。",
-        "6Mモメンタムは対SPYで +10.63pt と、市場を大きく上回っています。"
+        "1Mモメンタムは対SPYで -0.06pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +15.46pt と、市場を大きく上回っています。",
+        "6Mモメンタムは対SPYで +7.53pt と、市場並み以上です。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
@@ -1393,6 +1166,8 @@
         "純利益率が高く、売上から利益を残す力があります。"
       ],
       "watch_points": [
+        "注意材料になり得るニュース表現が 1 件あります。",
+        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
         "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
@@ -1401,7 +1176,7 @@
       ],
       "confidence": "High",
       "signal_strength": "Strong",
-      "signal_rate": 78.55,
+      "signal_rate": 65.65,
       "evidence": [
         "Company",
         "Events",
@@ -1414,33 +1189,33 @@
       ],
       "missing_data": [],
       "metrics": {
-        "scoring_total": 74.0,
-        "signal_earned_points": 78.55,
+        "scoring_total": 64.0,
+        "signal_earned_points": 65.65,
         "signal_max_points": 100.0,
         "weak_signals": [],
-        "scoring_signal_strength": "Strong",
+        "scoring_signal_strength": "Moderate",
         "growth_score": 18.0,
         "financial_health_score": 18.0,
         "valuation_score": 9.0,
-        "news_score": 17.0,
+        "news_score": 10.0,
         "momentum": {
-          "1m": 4.845589395672454,
-          "3m": 19.397339440386624,
-          "6m": 24.716875451909583,
-          "1y": 1.774433006563008
+          "1m": 0.15619040978039977,
+          "3m": 20.15280836479113,
+          "6m": 22.683156318476588,
+          "1y": -0.818676568785829
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": 4.41,
-          "3m": 17.01,
-          "6m": 10.63,
-          "1y": -19.66
+          "1m": -0.06,
+          "3m": 15.46,
+          "6m": 7.53,
+          "1y": -20.78
         },
-        "positive_news": 3,
-        "watch_news": 0,
+        "positive_news": 4,
+        "watch_news": 1,
         "event_count": 10,
         "events_with_reaction": 3,
-        "sector_average_score": 67.75
+        "sector_average_score": 65.83333333333333
       }
     },
     {
@@ -1448,7 +1223,7 @@
       "company": "NVIDIA Corporation",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "discovery_score": 86,
+      "discovery_score": 87,
       "max_score": 100,
       "status": "Primary Candidate",
       "discovery_reasons": [
@@ -1459,9 +1234,9 @@
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで +3.77pt と、市場並み以上です。",
-        "3Mモメンタムは対SPYで +2.09pt と、市場並み以上です。",
-        "6Mモメンタムは対SPYで +10.67pt と、市場を大きく上回っています。"
+        "1Mモメンタムは対SPYで +4.98pt と、市場並み以上です。",
+        "3Mモメンタムは対SPYで +7.62pt と、市場並み以上です。",
+        "6Mモメンタムは対SPYで +14.55pt と、市場を大きく上回っています。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
@@ -1477,7 +1252,7 @@
       ],
       "confidence": "Medium",
       "signal_strength": "Strong",
-      "signal_rate": 86.1,
+      "signal_rate": 86.85,
       "evidence": [
         "Company",
         "Events",
@@ -1491,7 +1266,7 @@
       "missing_data": [],
       "metrics": {
         "scoring_total": 78.0,
-        "signal_earned_points": 86.1,
+        "signal_earned_points": 86.85,
         "signal_max_points": 100.0,
         "weak_signals": [],
         "scoring_signal_strength": "Strong",
@@ -1500,23 +1275,23 @@
         "valuation_score": 11.0,
         "news_score": 17.0,
         "momentum": {
-          "1m": 4.210380292009314,
-          "3m": 4.4772675030505855,
-          "6m": 24.756548183894136,
-          "1y": 34.07235503560529
+          "1m": 5.192015540427219,
+          "3m": 12.31594039743084,
+          "6m": 29.704729171979093,
+          "1y": 34.37423731275613
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": 3.77,
-          "3m": 2.09,
-          "6m": 10.67,
-          "1y": 12.64
+          "1m": 4.98,
+          "3m": 7.62,
+          "6m": 14.55,
+          "1y": 14.41
         },
-        "positive_news": 3,
+        "positive_news": 4,
         "watch_news": 0,
         "event_count": 10,
-        "events_with_reaction": 3,
-        "sector_average_score": 67.75
+        "events_with_reaction": 1,
+        "sector_average_score": 65.83333333333333
       }
     },
     {
@@ -1524,20 +1299,20 @@
       "company": "Advanced Micro Devices, Inc.",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "discovery_score": 77,
+      "discovery_score": 84,
       "max_score": 100,
       "status": "Primary Candidate",
       "discovery_reasons": [
         "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 14/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで -5.81pt と、市場を小幅に下回っています。",
-        "3Mモメンタムは対SPYで -15.20pt と弱く、候補評価では注意点です。",
-        "6Mモメンタムは対SPYで +114.62pt と、市場を大きく上回っています。"
+        "1Mモメンタムは対SPYで -2.61pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで -2.30pt と、市場を小幅に下回っています。",
+        "6Mモメンタムは対SPYで +133.02pt と、市場を大きく上回っています。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
@@ -1545,7 +1320,7 @@
         "研究開発費を計上しており、将来成長への投資が続いています。"
       ],
       "watch_points": [
-        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+        "注意材料になり得るニュース表現が 2 件あります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
         "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
@@ -1554,7 +1329,7 @@
       ],
       "confidence": "High",
       "signal_strength": "Strong",
-      "signal_rate": 77.45,
+      "signal_rate": 84.3,
       "evidence": [
         "Company",
         "Events",
@@ -1567,33 +1342,33 @@
       ],
       "missing_data": [],
       "metrics": {
-        "scoring_total": 73.0,
-        "signal_earned_points": 77.45,
+        "scoring_total": 75.0,
+        "signal_earned_points": 84.3,
         "signal_max_points": 100.0,
         "weak_signals": [],
         "scoring_signal_strength": "Strong",
         "growth_score": 20.0,
         "financial_health_score": 20.0,
         "valuation_score": 8.0,
-        "news_score": 15.0,
+        "news_score": 14.0,
         "momentum": {
-          "1m": -5.370809000409866,
-          "3m": -12.81345699173914,
-          "6m": 128.70895494698058,
-          "1y": 181.35446242157437
+          "1m": -2.3933108821724347,
+          "3m": 2.39933151598513,
+          "6m": 148.17857168911308,
+          "1y": 195.17895243348886
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": -5.81,
-          "3m": -15.2,
-          "6m": 114.62,
-          "1y": 159.92
+          "1m": -2.61,
+          "3m": -2.3,
+          "6m": 133.02,
+          "1y": 175.21
         },
-        "positive_news": 1,
-        "watch_news": 0,
+        "positive_news": 3,
+        "watch_news": 2,
         "event_count": 10,
-        "events_with_reaction": 4,
-        "sector_average_score": 67.75
+        "events_with_reaction": 8,
+        "sector_average_score": 65.83333333333333
       }
     },
     {
@@ -1601,255 +1376,20 @@
       "company": "Broadcom Inc.",
       "sector": "Technology",
       "industry": "Semiconductors",
-      "discovery_score": 56,
+      "discovery_score": 64,
       "max_score": 100,
-      "status": "Not Selected",
+      "status": "Watch Candidate",
       "discovery_reasons": [
         "Scoring EngineのGrowthが 19/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 17/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 7/20 で、材料の量と市場関心を候補評価に反映しています。",
-        "売上が取得でき、事業規模の確認ができます。",
-        "EPSがプラスで、利益を伴う成長候補として確認できます。",
-        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
-        "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで -15.05pt と弱く、候補評価では注意点です。",
-        "3Mモメンタムは対SPYで -16.99pt と弱く、候補評価では注意点です。",
-        "6Mモメンタムは対SPYで -6.36pt と、市場を小幅に下回っています。"
-      ],
-      "strengths": [
-        "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
-        "営業利益率が高く、収益性の強さが示されています。",
-        "純利益率が高く、売上から利益を残す力があります。"
-      ],
-      "watch_points": [
-        "注意材料になり得るニュース表現が 2 件あります。",
-        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
-        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
-        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
-        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
-        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
-        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
-      ],
-      "confidence": "High",
-      "signal_strength": "Moderate",
-      "signal_rate": 56.0,
-      "evidence": [
-        "Company",
-        "Events",
-        "Financials",
-        "Knowledge",
-        "Market Intelligence",
-        "News",
-        "Prices",
-        "Scoring"
-      ],
-      "missing_data": [],
-      "metrics": {
-        "scoring_total": 57.0,
-        "signal_earned_points": 56.0,
-        "signal_max_points": 100.0,
-        "weak_signals": [],
-        "scoring_signal_strength": "Moderate",
-        "growth_score": 19.0,
-        "financial_health_score": 17.0,
-        "valuation_score": 8.0,
-        "news_score": 7.0,
-        "momentum": {
-          "1m": -14.612220353724616,
-          "3m": -14.60569718599254,
-          "6m": 7.724766494240802,
-          "1y": 18.97777524303769
-        },
-        "benchmark": "SPY",
-        "excess_momentum": {
-          "1m": -15.05,
-          "3m": -16.99,
-          "6m": -6.36,
-          "1y": -2.46
-        },
-        "positive_news": 1,
-        "watch_news": 2,
-        "event_count": 10,
-        "events_with_reaction": 1,
-        "sector_average_score": 67.75
-      }
-    },
-    {
-      "ticker": "ORCL",
-      "company": "Oracle Corporation",
-      "sector": "Technology",
-      "industry": "Software - Infrastructure",
-      "discovery_score": 60,
-      "max_score": 100,
-      "status": "Watch Candidate",
-      "discovery_reasons": [
-        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 13/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
-        "売上が取得でき、事業規模の確認ができます。",
-        "EPSがプラスで、利益を伴う成長候補として確認できます。",
-        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
-        "1Mモメンタムは対SPYで +6.24pt と、市場並み以上です。",
-        "3Mモメンタムは対SPYで -36.98pt と弱く、候補評価では注意点です。",
-        "6Mモメンタムは対SPYで -13.88pt と弱く、候補評価では注意点です。",
-        "1Yモメンタムは対SPYで -51.71pt と弱く、候補評価では注意点です。"
-      ],
-      "strengths": [
-        "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
-        "営業利益率が高く、収益性の強さが示されています。",
-        "純利益率が高く、売上から利益を残す力があります。"
-      ],
-      "watch_points": [
-        "注意材料になり得るニュース表現が 1 件あります。",
-        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
-        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
-        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
-        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
-        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。",
-        "データは取得済みですがシグナルが弱い項目: free_cash_flow"
-      ],
-      "confidence": "High",
-      "signal_strength": "Moderate",
-      "signal_rate": 60.1,
-      "evidence": [
-        "Company",
-        "Events",
-        "Financials",
-        "Knowledge",
-        "Market Intelligence",
-        "News",
-        "Prices",
-        "Scoring"
-      ],
-      "missing_data": [],
-      "metrics": {
-        "scoring_total": 65.0,
-        "signal_earned_points": 60.1,
-        "signal_max_points": 100.0,
-        "weak_signals": [
-          "free_cash_flow"
-        ],
-        "scoring_signal_strength": "Strong",
-        "growth_score": 17.0,
-        "financial_health_score": 13.0,
-        "valuation_score": 14.0,
-        "news_score": 15.0,
-        "momentum": {
-          "1m": 6.683284117512227,
-          "3m": -34.59596581294039,
-          "6m": 0.21045340245408858,
-          "1y": -30.27715603406646
-        },
-        "benchmark": "SPY",
-        "excess_momentum": {
-          "1m": 6.24,
-          "3m": -36.98,
-          "6m": -13.88,
-          "1y": -51.71
-        },
-        "positive_news": 4,
-        "watch_news": 1,
-        "event_count": 10,
-        "events_with_reaction": 7,
-        "sector_average_score": 67.75
-      }
-    },
-    {
-      "ticker": "CRM",
-      "company": "Salesforce, Inc.",
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "discovery_score": 80,
-      "max_score": 100,
-      "status": "Primary Candidate",
-      "discovery_reasons": [
-        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 16/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
-        "売上が取得でき、事業規模の確認ができます。",
-        "EPSがプラスで、利益を伴う成長候補として確認できます。",
-        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
-        "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで +36.59pt と、市場を大きく上回っています。",
-        "3Mモメンタムは対SPYで +38.07pt と、市場を大きく上回っています。",
-        "6Mモメンタムは対SPYで +17.88pt と、市場を大きく上回っています。"
-      ],
-      "strengths": [
-        "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
-        "営業利益率が高く、収益性の強さが示されています。",
-        "純利益率が高く、売上から利益を残す力があります。"
-      ],
-      "watch_points": [
-        "注意材料になり得るニュース表現が 1 件あります。",
-        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
-        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
-        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
-        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
-        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
-      ],
-      "confidence": "High",
-      "signal_strength": "Strong",
-      "signal_rate": 80.35,
-      "evidence": [
-        "Company",
-        "Events",
-        "Financials",
-        "Knowledge",
-        "Market Intelligence",
-        "News",
-        "Prices",
-        "Scoring"
-      ],
-      "missing_data": [],
-      "metrics": {
-        "scoring_total": 77.0,
-        "signal_earned_points": 80.35,
-        "signal_max_points": 100.0,
-        "weak_signals": [],
-        "scoring_signal_strength": "Strong",
-        "growth_score": 17.0,
-        "financial_health_score": 16.0,
-        "valuation_score": 14.0,
-        "news_score": 15.0,
-        "momentum": {
-          "1m": 37.02456136910672,
-          "3m": 40.45693996373505,
-          "6m": 31.97057208191981,
-          "1y": 3.9844283329312087
-        },
-        "benchmark": "SPY",
-        "excess_momentum": {
-          "1m": 36.59,
-          "3m": 38.07,
-          "6m": 17.88,
-          "1y": -17.45
-        },
-        "positive_news": 3,
-        "watch_news": 1,
-        "event_count": 10,
-        "events_with_reaction": 7,
-        "sector_average_score": 67.75
-      }
-    },
-    {
-      "ticker": "ADBE",
-      "company": "Adobe Inc.",
-      "sector": "Technology",
-      "industry": "Software - Application",
-      "discovery_score": 61,
-      "max_score": 100,
-      "status": "Watch Candidate",
-      "discovery_reasons": [
-        "Scoring EngineのGrowthが 14/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。",
         "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで +9.75pt と、市場並み以上です。",
-        "3Mモメンタムは対SPYで +8.19pt と、市場並み以上です。",
-        "6Mモメンタムは対SPYで -12.66pt と弱く、候補評価では注意点です。"
+        "1Mモメンタムは対SPYで -15.11pt と弱く、候補評価では注意点です。",
+        "3Mモメンタムは対SPYで -11.76pt と弱く、候補評価では注意点です。",
+        "6Mモメンタムは対SPYで -6.46pt と、市場を小幅に下回っています。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
@@ -1866,7 +1406,7 @@
       ],
       "confidence": "High",
       "signal_strength": "Moderate",
-      "signal_rate": 61.35,
+      "signal_rate": 64.4,
       "evidence": [
         "Company",
         "Events",
@@ -1880,71 +1420,71 @@
       "missing_data": [],
       "metrics": {
         "scoring_total": 63.0,
-        "signal_earned_points": 61.35,
+        "signal_earned_points": 64.4,
         "signal_max_points": 100.0,
         "weak_signals": [],
         "scoring_signal_strength": "Moderate",
-        "growth_score": 14.0,
-        "financial_health_score": 14.0,
-        "valuation_score": 16.0,
+        "growth_score": 19.0,
+        "financial_health_score": 17.0,
+        "valuation_score": 8.0,
         "news_score": 13.0,
         "momentum": {
-          "1m": 10.192037609630619,
-          "3m": 10.57580108047951,
-          "6m": 1.4233015917581089,
-          "1y": -18.00573888091822
+          "1m": -14.902398463766476,
+          "3m": -7.069344674819258,
+          "6m": 8.694430768500709,
+          "1y": 17.777622448273515
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": 9.75,
-          "3m": 8.19,
-          "6m": -12.66,
-          "1y": -39.44
+          "1m": -15.11,
+          "3m": -11.76,
+          "6m": -6.46,
+          "1y": -2.19
         },
-        "positive_news": 2,
+        "positive_news": 5,
         "watch_news": 2,
         "event_count": 10,
-        "events_with_reaction": 8,
-        "sector_average_score": 67.75
+        "events_with_reaction": 5,
+        "sector_average_score": 65.83333333333333
       }
     },
     {
-      "ticker": "QCOM",
-      "company": "QUALCOMM Incorporated",
+      "ticker": "ORCL",
+      "company": "Oracle Corporation",
       "sector": "Technology",
-      "industry": "Semiconductors",
-      "discovery_score": 68,
+      "industry": "Software - Infrastructure",
+      "discovery_score": 58,
       "max_score": 100,
-      "status": "Watch Candidate",
+      "status": "Not Selected",
       "discovery_reasons": [
         "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 17/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Financial Healthが 13/20 で、継続調査に必要な財務基盤を評価しています。",
         "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
-        "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで +6.57pt と、市場並み以上です。",
-        "3Mモメンタムは対SPYで -32.89pt と弱く、候補評価では注意点です。",
-        "6Mモメンタムは対SPYで +9.41pt と、市場並み以上です。"
+        "1Mモメンタムは対SPYで +10.46pt と、市場を大きく上回っています。",
+        "3Mモメンタムは対SPYで -30.13pt と弱く、候補評価では注意点です。",
+        "6Mモメンタムは対SPYで -10.63pt と弱く、候補評価では注意点です。",
+        "1Yモメンタムは対SPYで -47.95pt と弱く、候補評価では注意点です。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
         "営業利益率が高く、収益性の強さが示されています。",
-        "フリーキャッシュフローがプラスで、現金創出力があります。"
+        "純利益率が高く、売上から利益を残す力があります。"
       ],
       "watch_points": [
-        "注意材料になり得るニュース表現が 1 件あります。",
-        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+        "注意材料になり得るニュース表現が 2 件あります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
         "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
         "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
-        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。",
+        "データは取得済みですがシグナルが弱い項目: free_cash_flow"
       ],
       "confidence": "High",
-      "signal_strength": "Strong",
-      "signal_rate": 68.4,
+      "signal_strength": "Moderate",
+      "signal_rate": 57.7,
       "evidence": [
         "Company",
         "Events",
@@ -1957,54 +1497,56 @@
       ],
       "missing_data": [],
       "metrics": {
-        "scoring_total": 69.0,
-        "signal_earned_points": 68.4,
+        "scoring_total": 64.0,
+        "signal_earned_points": 57.7,
         "signal_max_points": 100.0,
-        "weak_signals": [],
-        "scoring_signal_strength": "Strong",
+        "weak_signals": [
+          "free_cash_flow"
+        ],
+        "scoring_signal_strength": "Moderate",
         "growth_score": 17.0,
-        "financial_health_score": 17.0,
-        "valuation_score": 16.0,
+        "financial_health_score": 13.0,
+        "valuation_score": 14.0,
         "news_score": 13.0,
         "momentum": {
-          "1m": 7.008194395017535,
-          "3m": -30.50665695082892,
-          "6m": 23.498252117039463,
-          "1y": 9.437285872288872
+          "1m": 10.671218671729177,
+          "3m": -25.434107559471457,
+          "6m": 4.529855502811941,
+          "1y": -27.986674448993682
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": 6.57,
-          "3m": -32.89,
-          "6m": 9.41,
-          "1y": -12.0
+          "1m": 10.46,
+          "3m": -30.13,
+          "6m": -10.63,
+          "1y": -47.95
         },
-        "positive_news": 3,
-        "watch_news": 1,
+        "positive_news": 2,
+        "watch_news": 2,
         "event_count": 10,
-        "events_with_reaction": 7,
-        "sector_average_score": 67.75
+        "events_with_reaction": 6,
+        "sector_average_score": 65.83333333333333
       }
     },
     {
-      "ticker": "TXN",
-      "company": "Texas Instruments Incorporated",
+      "ticker": "CRM",
+      "company": "Salesforce, Inc.",
       "sector": "Technology",
-      "industry": "Semiconductors",
-      "discovery_score": 71,
+      "industry": "Software - Application",
+      "discovery_score": 73,
       "max_score": 100,
       "status": "Watch Candidate",
       "discovery_reasons": [
         "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 17/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Financial Healthが 16/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 9/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで -9.04pt と、市場を小幅に下回っています。",
-        "3Mモメンタムは対SPYで -18.84pt と弱く、候補評価では注意点です。",
-        "6Mモメンタムは対SPYで +15.44pt と、市場を大きく上回っています。"
+        "1Mモメンタムは対SPYで +38.58pt と、市場を大きく上回っています。",
+        "3Mモメンタムは対SPYで +35.29pt と、市場を大きく上回っています。",
+        "6Mモメンタムは対SPYで +13.76pt と、市場を大きく上回っています。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
@@ -2022,7 +1564,7 @@
       ],
       "confidence": "High",
       "signal_strength": "Strong",
-      "signal_rate": 70.75,
+      "signal_rate": 72.7,
       "evidence": [
         "Company",
         "Events",
@@ -2035,33 +1577,264 @@
       ],
       "missing_data": [],
       "metrics": {
-        "scoring_total": 66.0,
-        "signal_earned_points": 70.75,
+        "scoring_total": 69.0,
+        "signal_earned_points": 72.7,
+        "signal_max_points": 100.0,
+        "weak_signals": [],
+        "scoring_signal_strength": "Strong",
+        "growth_score": 17.0,
+        "financial_health_score": 16.0,
+        "valuation_score": 14.0,
+        "news_score": 9.0,
+        "momentum": {
+          "1m": 38.79638328227601,
+          "3m": 39.98657393060088,
+          "6m": 28.914489319815477,
+          "1y": 7.136632851168281
+        },
+        "benchmark": "SPY",
+        "excess_momentum": {
+          "1m": 38.58,
+          "3m": 35.29,
+          "6m": 13.76,
+          "1y": -12.83
+        },
+        "positive_news": 2,
+        "watch_news": 1,
+        "event_count": 10,
+        "events_with_reaction": 8,
+        "sector_average_score": 65.83333333333333
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "company": "Adobe Inc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "discovery_score": 57,
+      "max_score": 100,
+      "status": "Not Selected",
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 14/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 8/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで +2.20pt と、市場並み以上です。",
+        "3Mモメンタムは対SPYで +1.30pt と、市場並み以上です。",
+        "6Mモメンタムは対SPYで -21.19pt と弱く、候補評価では注意点です。"
+      ],
+      "strengths": [
+        "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
+        "営業利益率が高く、収益性の強さが示されています。",
+        "純利益率が高く、売上から利益を残す力があります。"
+      ],
+      "watch_points": [
+        "注意材料になり得るニュース表現が 3 件あります。",
+        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "confidence": "High",
+      "signal_strength": "Moderate",
+      "signal_rate": 57.1,
+      "evidence": [
+        "Company",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "missing_data": [],
+      "metrics": {
+        "scoring_total": 61.0,
+        "signal_earned_points": 57.1,
+        "signal_max_points": 100.0,
+        "weak_signals": [],
+        "scoring_signal_strength": "Moderate",
+        "growth_score": 14.0,
+        "financial_health_score": 14.0,
+        "valuation_score": 16.0,
+        "news_score": 8.0,
+        "momentum": {
+          "1m": 2.4093220744448813,
+          "3m": 5.993480423915663,
+          "6m": -6.03271477544907,
+          "1y": -22.595913085483065
+        },
+        "benchmark": "SPY",
+        "excess_momentum": {
+          "1m": 2.2,
+          "3m": 1.3,
+          "6m": -21.19,
+          "1y": -42.56
+        },
+        "positive_news": 3,
+        "watch_news": 3,
+        "event_count": 10,
+        "events_with_reaction": 4,
+        "sector_average_score": 65.83333333333333
+      }
+    },
+    {
+      "ticker": "QCOM",
+      "company": "QUALCOMM Incorporated",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "discovery_score": 66,
+      "max_score": 100,
+      "status": "Watch Candidate",
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 17/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 7/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで +5.57pt と、市場並み以上です。",
+        "3Mモメンタムは対SPYで -26.13pt と弱く、候補評価では注意点です。",
+        "6Mモメンタムは対SPYで +10.34pt と、市場を大きく上回っています。"
+      ],
+      "strengths": [
+        "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
+        "営業利益率が高く、収益性の強さが示されています。",
+        "フリーキャッシュフローがプラスで、現金創出力があります。"
+      ],
+      "watch_points": [
+        "注意材料になり得るニュース表現が 1 件あります。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "confidence": "High",
+      "signal_strength": "Strong",
+      "signal_rate": 65.5,
+      "evidence": [
+        "Company",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "missing_data": [],
+      "metrics": {
+        "scoring_total": 65.0,
+        "signal_earned_points": 65.5,
+        "signal_max_points": 100.0,
+        "weak_signals": [],
+        "scoring_signal_strength": "Strong",
+        "growth_score": 17.0,
+        "financial_health_score": 17.0,
+        "valuation_score": 16.0,
+        "news_score": 7.0,
+        "momentum": {
+          "1m": 5.778646182318466,
+          "3m": -21.43263073543547,
+          "6m": 25.495608324109064,
+          "1y": 7.8542251014875015
+        },
+        "benchmark": "SPY",
+        "excess_momentum": {
+          "1m": 5.57,
+          "3m": -26.13,
+          "6m": 10.34,
+          "1y": -12.11
+        },
+        "positive_news": 0,
+        "watch_news": 1,
+        "event_count": 10,
+        "events_with_reaction": 9,
+        "sector_average_score": 65.83333333333333
+      }
+    },
+    {
+      "ticker": "TXN",
+      "company": "Texas Instruments Incorporated",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "discovery_score": 79,
+      "max_score": 100,
+      "status": "Primary Candidate",
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 17/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで -7.38pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで -13.57pt と弱く、候補評価では注意点です。",
+        "6Mモメンタムは対SPYで +19.96pt と、市場を大きく上回っています。"
+      ],
+      "strengths": [
+        "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
+        "営業利益率が高く、収益性の強さが示されています。",
+        "純利益率が高く、売上から利益を残す力があります。"
+      ],
+      "watch_points": [
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "confidence": "High",
+      "signal_strength": "Strong",
+      "signal_rate": 79.3,
+      "evidence": [
+        "Company",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "missing_data": [],
+      "metrics": {
+        "scoring_total": 68.0,
+        "signal_earned_points": 79.3,
         "signal_max_points": 100.0,
         "weak_signals": [],
         "scoring_signal_strength": "Strong",
         "growth_score": 17.0,
         "financial_health_score": 17.0,
         "valuation_score": 9.0,
-        "news_score": 13.0,
+        "news_score": 15.0,
         "momentum": {
-          "1m": -8.602188997782388,
-          "3m": -16.452295399317272,
-          "6m": 29.521145578704793,
-          "1y": 33.035377327368934
+          "1m": -7.169537317770098,
+          "3m": -8.874191026963185,
+          "6m": 35.115210461320494,
+          "1y": 41.56274024409425
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": -9.04,
-          "3m": -18.84,
-          "6m": 15.44,
-          "1y": 11.6
+          "1m": -7.38,
+          "3m": -13.57,
+          "6m": 19.96,
+          "1y": 21.6
         },
-        "positive_news": 3,
-        "watch_news": 1,
+        "positive_news": 6,
+        "watch_news": 0,
         "event_count": 10,
         "events_with_reaction": 8,
-        "sector_average_score": 67.75
+        "sector_average_score": 65.83333333333333
       }
     },
     {
@@ -2069,20 +1842,20 @@
       "company": "ServiceNow, Inc.",
       "sector": "Technology",
       "industry": "Software - Application",
-      "discovery_score": 68,
+      "discovery_score": 61,
       "max_score": 100,
       "status": "Watch Candidate",
       "discovery_reasons": [
         "Scoring EngineのGrowthが 14/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 16/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで +23.76pt と、市場を大きく上回っています。",
-        "3Mモメンタムは対SPYで +19.59pt と、市場を大きく上回っています。",
-        "6Mモメンタムは対SPYで +6.86pt と、市場並み以上です。"
+        "1Mモメンタムは対SPYで +20.16pt と、市場を大きく上回っています。",
+        "3Mモメンタムは対SPYで +20.93pt と、市場を大きく上回っています。",
+        "6Mモメンタムは対SPYで -1.55pt と、市場を小幅に下回っています。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
@@ -2091,82 +1864,6 @@
       ],
       "watch_points": [
         "バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。",
-        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
-        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
-        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
-        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
-        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
-      ],
-      "confidence": "High",
-      "signal_strength": "Strong",
-      "signal_rate": 68.25,
-      "evidence": [
-        "Company",
-        "Events",
-        "Financials",
-        "Knowledge",
-        "Market Intelligence",
-        "News",
-        "Prices",
-        "Scoring"
-      ],
-      "missing_data": [],
-      "metrics": {
-        "scoring_total": 67.0,
-        "signal_earned_points": 68.25,
-        "signal_max_points": 100.0,
-        "weak_signals": [],
-        "scoring_signal_strength": "Strong",
-        "growth_score": 14.0,
-        "financial_health_score": 16.0,
-        "valuation_score": 6.0,
-        "news_score": 17.0,
-        "momentum": {
-          "1m": 24.202350129456285,
-          "3m": 21.975532501182187,
-          "6m": 20.942016663617164,
-          "1y": -20.821645711239462
-        },
-        "benchmark": "SPY",
-        "excess_momentum": {
-          "1m": 23.76,
-          "3m": 19.59,
-          "6m": 6.86,
-          "1y": -42.26
-        },
-        "positive_news": 2,
-        "watch_news": 0,
-        "event_count": 10,
-        "events_with_reaction": 6,
-        "sector_average_score": 67.75
-      }
-    },
-    {
-      "ticker": "AMAT",
-      "company": "Applied Materials, Inc.",
-      "sector": "Technology",
-      "industry": "Semiconductor Equipment & Materials",
-      "discovery_score": 71,
-      "max_score": 100,
-      "status": "Watch Candidate",
-      "discovery_reasons": [
-        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 10/20 で、材料の量と市場関心を候補評価に反映しています。",
-        "売上が取得でき、事業規模の確認ができます。",
-        "EPSがプラスで、利益を伴う成長候補として確認できます。",
-        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
-        "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで -18.76pt と弱く、候補評価では注意点です。",
-        "3Mモメンタムは対SPYで -15.41pt と弱く、候補評価では注意点です。",
-        "6Mモメンタムは対SPYで +12.00pt と、市場を大きく上回っています。"
-      ],
-      "strengths": [
-        "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
-        "営業利益率が高く、収益性の強さが示されています。",
-        "純利益率が高く、売上から利益を残す力があります。"
-      ],
-      "watch_points": [
         "注意材料になり得るニュース表現が 1 件あります。",
         "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
@@ -2176,8 +1873,8 @@
         "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
       ],
       "confidence": "High",
-      "signal_strength": "Strong",
-      "signal_rate": 71.4,
+      "signal_strength": "Moderate",
+      "signal_rate": 60.9,
       "evidence": [
         "Company",
         "Events",
@@ -2190,132 +1887,54 @@
       ],
       "missing_data": [],
       "metrics": {
-        "scoring_total": 67.0,
-        "signal_earned_points": 71.4,
-        "signal_max_points": 100.0,
-        "weak_signals": [],
-        "scoring_signal_strength": "Strong",
-        "growth_score": 17.0,
-        "financial_health_score": 20.0,
-        "valuation_score": 9.0,
-        "news_score": 10.0,
-        "momentum": {
-          "1m": -18.318330424932963,
-          "3m": -13.020509012646702,
-          "6m": 26.08392425660361,
-          "1y": 180.5254567261285
-        },
-        "benchmark": "SPY",
-        "excess_momentum": {
-          "1m": -18.76,
-          "3m": -15.41,
-          "6m": 12.0,
-          "1y": 159.09
-        },
-        "positive_news": 4,
-        "watch_news": 1,
-        "event_count": 10,
-        "events_with_reaction": 8,
-        "sector_average_score": 67.75
-      }
-    },
-    {
-      "ticker": "GOOGL",
-      "company": "Alphabet Inc.",
-      "sector": "Communication Services",
-      "industry": "Internet Content & Information",
-      "discovery_score": 72,
-      "max_score": 100,
-      "status": "Watch Candidate",
-      "discovery_reasons": [
-        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
-        "売上が取得でき、事業規模の確認ができます。",
-        "EPSがプラスで、利益を伴う成長候補として確認できます。",
-        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
-        "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで -5.94pt と、市場を小幅に下回っています。",
-        "3Mモメンタムは対SPYで -10.31pt と弱く、候補評価では注意点です。",
-        "6Mモメンタムは対SPYで -0.11pt と、市場を小幅に下回っています。"
-      ],
-      "strengths": [
-        "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
-        "営業利益率が高く、収益性の強さが示されています。",
-        "純利益率が高く、売上から利益を残す力があります。"
-      ],
-      "watch_points": [
-        "バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。",
-        "注意材料になり得るニュース表現が 1 件あります。",
-        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
-        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
-        "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
-        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
-        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
-      ],
-      "confidence": "Medium",
-      "signal_strength": "Strong",
-      "signal_rate": 71.7,
-      "evidence": [
-        "Company",
-        "Events",
-        "Financials",
-        "Knowledge",
-        "Market Intelligence",
-        "News",
-        "Prices",
-        "Scoring"
-      ],
-      "missing_data": [],
-      "metrics": {
-        "scoring_total": 62.0,
-        "signal_earned_points": 71.7,
+        "scoring_total": 59.0,
+        "signal_earned_points": 60.9,
         "signal_max_points": 100.0,
         "weak_signals": [],
         "scoring_signal_strength": "Moderate",
-        "growth_score": 20.0,
-        "financial_health_score": 14.0,
+        "growth_score": 14.0,
+        "financial_health_score": 16.0,
         "valuation_score": 6.0,
-        "news_score": 15.0,
+        "news_score": 13.0,
         "momentum": {
-          "1m": -5.50450627503663,
-          "3m": -7.927519735176404,
-          "6m": 13.97426678935085,
-          "1y": 48.901863212948385
+          "1m": 20.374943624722462,
+          "3m": 25.620274202278747,
+          "6m": 13.60784837323436,
+          "1y": -21.39646206538069
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": -5.94,
-          "3m": -10.31,
-          "6m": -0.11,
-          "1y": 27.47
+          "1m": 20.16,
+          "3m": 20.93,
+          "6m": -1.55,
+          "1y": -41.36
         },
         "positive_news": 3,
         "watch_news": 1,
         "event_count": 10,
-        "events_with_reaction": 2,
-        "sector_average_score": 60.166666666666664
+        "events_with_reaction": 10,
+        "sector_average_score": 65.83333333333333
       }
     },
     {
-      "ticker": "META",
-      "company": "Meta Platforms, Inc.",
-      "sector": "Communication Services",
-      "industry": "Internet Content & Information",
-      "discovery_score": 69,
+      "ticker": "AMAT",
+      "company": "Applied Materials, Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "discovery_score": 80,
       "max_score": 100,
-      "status": "Watch Candidate",
+      "status": "Primary Candidate",
       "discovery_reasons": [
         "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 14/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで +3.28pt と、市場並み以上です。",
-        "3Mモメンタムは対SPYで -4.99pt と、市場を小幅に下回っています。",
-        "6Mモメンタムは対SPYで -21.47pt と弱く、候補評価では注意点です。"
+        "1Mモメンタムは対SPYで -13.92pt と弱く、候補評価では注意点です。",
+        "3Mモメンタムは対SPYで -4.21pt と、市場を小幅に下回っています。",
+        "6Mモメンタムは対SPYで +25.19pt と、市場を大きく上回っています。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
@@ -2326,13 +1945,13 @@
         "注意材料になり得るニュース表現が 1 件あります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
-        "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
+        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
         "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
         "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
       ],
       "confidence": "High",
       "signal_strength": "Strong",
-      "signal_rate": 69.15,
+      "signal_rate": 79.85,
       "evidence": [
         "Company",
         "Events",
@@ -2346,53 +1965,53 @@
       "missing_data": [],
       "metrics": {
         "scoring_total": 69.0,
-        "signal_earned_points": 69.15,
+        "signal_earned_points": 79.85,
         "signal_max_points": 100.0,
         "weak_signals": [],
         "scoring_signal_strength": "Strong",
         "growth_score": 17.0,
         "financial_health_score": 20.0,
-        "valuation_score": 11.0,
-        "news_score": 14.0,
+        "valuation_score": 9.0,
+        "news_score": 13.0,
         "momentum": {
-          "1m": 3.7213126378233223,
-          "3m": -2.6011463909866515,
-          "6m": -7.387665191713655,
-          "1y": -16.873815102335197
+          "1m": -13.703606660071047,
+          "3m": 0.48259499219604357,
+          "6m": 40.346767244546136,
+          "1y": 188.9439867108475
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": 3.28,
-          "3m": -4.99,
-          "6m": -21.47,
-          "1y": -38.31
+          "1m": -13.92,
+          "3m": -4.21,
+          "6m": 25.19,
+          "1y": 168.98
         },
-        "positive_news": 2,
+        "positive_news": 4,
         "watch_news": 1,
         "event_count": 10,
-        "events_with_reaction": 7,
-        "sector_average_score": 60.166666666666664
+        "events_with_reaction": 10,
+        "sector_average_score": 65.83333333333333
       }
     },
     {
-      "ticker": "NFLX",
-      "company": "Netflix, Inc.",
+      "ticker": "GOOGL",
+      "company": "Alphabet Inc.",
       "sector": "Communication Services",
-      "industry": "Entertainment",
-      "discovery_score": 58,
+      "industry": "Internet Content & Information",
+      "discovery_score": 67,
       "max_score": 100,
-      "status": "Not Selected",
+      "status": "Watch Candidate",
       "discovery_reasons": [
-        "Scoring EngineのGrowthが 16/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 16/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 10/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで +10.98pt と、市場を大きく上回っています。",
-        "3Mモメンタムは対SPYで -1.03pt と、市場を小幅に下回っています。",
-        "6Mモメンタムは対SPYで -30.72pt と弱く、候補評価では注意点です。"
+        "1Mモメンタムは対SPYで -5.60pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで -12.80pt と弱く、候補評価では注意点です。",
+        "6Mモメンタムは対SPYで -1.63pt と、市場を小幅に下回っています。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
@@ -2402,15 +2021,16 @@
       "watch_points": [
         "バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。",
         "注意材料になり得るニュース表現が 1 件あります。",
+        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
         "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
         "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
         "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
       ],
-      "confidence": "High",
-      "signal_strength": "Moderate",
-      "signal_rate": 58.35,
+      "confidence": "Medium",
+      "signal_strength": "Strong",
+      "signal_rate": 67.45,
       "evidence": [
         "Company",
         "Events",
@@ -2423,33 +2043,189 @@
       ],
       "missing_data": [],
       "metrics": {
-        "scoring_total": 53.0,
-        "signal_earned_points": 58.35,
+        "scoring_total": 59.0,
+        "signal_earned_points": 67.45,
+        "signal_max_points": 100.0,
+        "weak_signals": [],
+        "scoring_signal_strength": "Moderate",
+        "growth_score": 20.0,
+        "financial_health_score": 14.0,
+        "valuation_score": 6.0,
+        "news_score": 10.0,
+        "momentum": {
+          "1m": -5.3920359314945845,
+          "3m": -8.104587521756546,
+          "6m": 13.526918872573532,
+          "1y": 46.11516750274991
+        },
+        "benchmark": "SPY",
+        "excess_momentum": {
+          "1m": -5.6,
+          "3m": -12.8,
+          "6m": -1.63,
+          "1y": 26.15
+        },
+        "positive_news": 4,
+        "watch_news": 1,
+        "event_count": 10,
+        "events_with_reaction": 1,
+        "sector_average_score": 56.0
+      }
+    },
+    {
+      "ticker": "META",
+      "company": "Meta Platforms, Inc.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "discovery_score": 70,
+      "max_score": 100,
+      "status": "Watch Candidate",
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで +4.34pt と、市場並み以上です。",
+        "3Mモメンタムは対SPYで -0.59pt と、市場を小幅に下回っています。",
+        "6Mモメンタムは対SPYで -19.34pt と弱く、候補評価では注意点です。"
+      ],
+      "strengths": [
+        "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
+        "営業利益率が高く、収益性の強さが示されています。",
+        "純利益率が高く、売上から利益を残す力があります。"
+      ],
+      "watch_points": [
+        "注意材料になり得るニュース表現が 1 件あります。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "confidence": "High",
+      "signal_strength": "Strong",
+      "signal_rate": 70.25,
+      "evidence": [
+        "Company",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "missing_data": [],
+      "metrics": {
+        "scoring_total": 68.0,
+        "signal_earned_points": 70.25,
+        "signal_max_points": 100.0,
+        "weak_signals": [],
+        "scoring_signal_strength": "Strong",
+        "growth_score": 17.0,
+        "financial_health_score": 20.0,
+        "valuation_score": 11.0,
+        "news_score": 13.0,
+        "momentum": {
+          "1m": 4.555008307361405,
+          "3m": 4.104828038648704,
+          "6m": -4.185369029352,
+          "1y": -17.345687742105614
+        },
+        "benchmark": "SPY",
+        "excess_momentum": {
+          "1m": 4.34,
+          "3m": -0.59,
+          "6m": -19.34,
+          "1y": -37.31
+        },
+        "positive_news": 4,
+        "watch_news": 1,
+        "event_count": 10,
+        "events_with_reaction": 5,
+        "sector_average_score": 56.0
+      }
+    },
+    {
+      "ticker": "NFLX",
+      "company": "Netflix, Inc.",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "discovery_score": 52,
+      "max_score": 100,
+      "status": "Not Selected",
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 16/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 16/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 7/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで +5.98pt と、市場並み以上です。",
+        "3Mモメンタムは対SPYで -9.48pt と、市場を小幅に下回っています。",
+        "6Mモメンタムは対SPYで -36.13pt と弱く、候補評価では注意点です。"
+      ],
+      "strengths": [
+        "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
+        "営業利益率が高く、収益性の強さが示されています。",
+        "純利益率が高く、売上から利益を残す力があります。"
+      ],
+      "watch_points": [
+        "バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。",
+        "注意材料になり得るニュース表現が 4 件あります。",
+        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "confidence": "High",
+      "signal_strength": "Moderate",
+      "signal_rate": 51.95,
+      "evidence": [
+        "Company",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "missing_data": [],
+      "metrics": {
+        "scoring_total": 50.0,
+        "signal_earned_points": 51.95,
         "signal_max_points": 100.0,
         "weak_signals": [],
         "scoring_signal_strength": "Moderate",
         "growth_score": 16.0,
         "financial_health_score": 16.0,
         "valuation_score": 3.0,
-        "news_score": 12.0,
+        "news_score": 7.0,
         "momentum": {
-          "1m": 11.41509645426445,
-          "3m": 1.3609620446029609,
-          "6m": -16.63809650564955,
-          "1y": -32.57922921572003
+          "1m": 6.188081703782788,
+          "3m": -4.782185800172437,
+          "6m": -20.97555781377697,
+          "1y": -37.772370680768795
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": 10.98,
-          "3m": -1.03,
-          "6m": -30.72,
-          "1y": -54.02
+          "1m": 5.98,
+          "3m": -9.48,
+          "6m": -36.13,
+          "1y": -57.74
         },
         "positive_news": 2,
-        "watch_news": 1,
+        "watch_news": 4,
         "event_count": 10,
         "events_with_reaction": 9,
-        "sector_average_score": 60.166666666666664
+        "sector_average_score": 56.0
       }
     },
     {
@@ -2457,26 +2233,28 @@
       "company": "The Walt Disney Company",
       "sector": "Communication Services",
       "industry": "Entertainment",
-      "discovery_score": 58,
+      "discovery_score": 48,
       "max_score": 100,
       "status": "Not Selected",
       "discovery_reasons": [
         "Scoring EngineのGrowthが 10/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 16/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 6/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで +4.87pt と、市場並み以上です。",
-        "3Mモメンタムは対SPYで +6.31pt と、市場並み以上です。",
-        "6Mモメンタムは対SPYで -8.65pt と、市場を小幅に下回っています。",
-        "1Yモメンタムは対SPYで -28.82pt と弱く、候補評価では注意点です。"
+        "1Mモメンタムは対SPYで +0.39pt と、市場並み以上です。",
+        "3Mモメンタムは対SPYで +1.73pt と、市場並み以上です。",
+        "6Mモメンタムは対SPYで -10.65pt と弱く、候補評価では注意点です。",
+        "1Yモメンタムは対SPYで -30.05pt と弱く、候補評価では注意点です。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
         "フリーキャッシュフローがプラスで、現金創出力があります。"
       ],
       "watch_points": [
+        "注意材料になり得るニュース表現が 5 件あります。",
+        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
         "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
@@ -2485,7 +2263,86 @@
       ],
       "confidence": "Medium",
       "signal_strength": "Moderate",
-      "signal_rate": 59.43,
+      "signal_rate": 49.02,
+      "evidence": [
+        "Company",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "missing_data": [
+        "research_and_development"
+      ],
+      "metrics": {
+        "scoring_total": 47.0,
+        "signal_earned_points": 47.55,
+        "signal_max_points": 97.0,
+        "weak_signals": [],
+        "scoring_signal_strength": "Moderate",
+        "growth_score": 10.0,
+        "financial_health_score": 16.0,
+        "valuation_score": 9.0,
+        "news_score": 6.0,
+        "momentum": {
+          "1m": 0.601831535710106,
+          "3m": 6.425561085749219,
+          "6m": 4.507509815945035,
+          "1y": -10.079192140237234
+        },
+        "benchmark": "SPY",
+        "excess_momentum": {
+          "1m": 0.39,
+          "3m": 1.73,
+          "6m": -10.65,
+          "1y": -30.05
+        },
+        "positive_news": 2,
+        "watch_news": 5,
+        "event_count": 10,
+        "events_with_reaction": 10,
+        "sector_average_score": 56.0
+      }
+    },
+    {
+      "ticker": "CMCSA",
+      "company": "Comcast Corporation",
+      "sector": "Communication Services",
+      "industry": "Telecom Services",
+      "discovery_score": 54,
+      "max_score": 100,
+      "status": "Not Selected",
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 13/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 13/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 10/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで +5.03pt と、市場並み以上です。",
+        "3Mモメンタムは対SPYで +8.03pt と、市場並み以上です。",
+        "6Mモメンタムは対SPYで -30.03pt と弱く、候補評価では注意点です。",
+        "1Yモメンタムは対SPYで -32.68pt と弱く、候補評価では注意点です。"
+      ],
+      "strengths": [
+        "純利益率が高く、売上から利益を残す力があります。",
+        "フリーキャッシュフローがプラスで、現金創出力があります。"
+      ],
+      "watch_points": [
+        "注意材料になり得るニュース表現が 2 件あります。",
+        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "confidence": "Medium",
+      "signal_strength": "Moderate",
+      "signal_rate": 56.08,
       "evidence": [
         "Company",
         "Events",
@@ -2501,110 +2358,32 @@
       ],
       "metrics": {
         "scoring_total": 57.0,
-        "signal_earned_points": 57.65,
+        "signal_earned_points": 54.4,
         "signal_max_points": 97.0,
         "weak_signals": [],
         "scoring_signal_strength": "Moderate",
-        "growth_score": 10.0,
-        "financial_health_score": 16.0,
-        "valuation_score": 9.0,
-        "news_score": 15.0,
-        "momentum": {
-          "1m": 5.306605161672145,
-          "3m": 8.69852836473276,
-          "6m": 5.440007110570878,
-          "1y": -7.384816852316718
-        },
-        "benchmark": "SPY",
-        "excess_momentum": {
-          "1m": 4.87,
-          "3m": 6.31,
-          "6m": -8.65,
-          "1y": -28.82
-        },
-        "positive_news": 5,
-        "watch_news": 0,
-        "event_count": 10,
-        "events_with_reaction": 9,
-        "sector_average_score": 60.166666666666664
-      }
-    },
-    {
-      "ticker": "CMCSA",
-      "company": "Comcast Corporation",
-      "sector": "Communication Services",
-      "industry": "Telecom Services",
-      "discovery_score": 62,
-      "max_score": 100,
-      "status": "Watch Candidate",
-      "discovery_reasons": [
-        "Scoring EngineのGrowthが 13/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 13/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
-        "売上が取得でき、事業規模の確認ができます。",
-        "EPSがプラスで、利益を伴う成長候補として確認できます。",
-        "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで +7.24pt と、市場並み以上です。",
-        "3Mモメンタムは対SPYで +13.40pt と、市場を大きく上回っています。",
-        "6Mモメンタムは対SPYで -27.61pt と弱く、候補評価では注意点です。",
-        "1Yモメンタムは対SPYで -33.47pt と弱く、候補評価では注意点です。"
-      ],
-      "strengths": [
-        "純利益率が高く、売上から利益を残す力があります。",
-        "フリーキャッシュフローがプラスで、現金創出力があります。"
-      ],
-      "watch_points": [
-        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
-        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
-        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
-        "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
-        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
-        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
-      ],
-      "confidence": "Medium",
-      "signal_strength": "Moderate",
-      "signal_rate": 63.81,
-      "evidence": [
-        "Company",
-        "Events",
-        "Financials",
-        "Knowledge",
-        "Market Intelligence",
-        "News",
-        "Prices",
-        "Scoring"
-      ],
-      "missing_data": [
-        "research_and_development"
-      ],
-      "metrics": {
-        "scoring_total": 66.0,
-        "signal_earned_points": 61.9,
-        "signal_max_points": 97.0,
-        "weak_signals": [],
-        "scoring_signal_strength": "Strong",
         "growth_score": 13.0,
         "financial_health_score": 13.0,
         "valuation_score": 15.0,
-        "news_score": 15.0,
+        "news_score": 10.0,
         "momentum": {
-          "1m": 7.676766135475867,
-          "3m": 15.787005493062148,
-          "6m": -13.521473448235513,
-          "1y": -12.02985662508796
+          "1m": 5.244337269857398,
+          "3m": 12.72430904523123,
+          "6m": -14.875740326794942,
+          "1y": -12.71254509589346
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": 7.24,
-          "3m": 13.4,
-          "6m": -27.61,
-          "1y": -33.47
+          "1m": 5.03,
+          "3m": 8.03,
+          "6m": -30.03,
+          "1y": -32.68
         },
-        "positive_news": 4,
-        "watch_news": 0,
+        "positive_news": 1,
+        "watch_news": 2,
         "event_count": 10,
         "events_with_reaction": 9,
-        "sector_average_score": 60.166666666666664
+        "sector_average_score": 56.0
       }
     },
     {
@@ -2612,7 +2391,7 @@
       "company": "T-Mobile US, Inc.",
       "sector": "Communication Services",
       "industry": "Telecom Services",
-      "discovery_score": 51,
+      "discovery_score": 49,
       "max_score": 100,
       "status": "Not Selected",
       "discovery_reasons": [
@@ -2622,10 +2401,10 @@
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで +8.58pt と、市場並み以上です。",
-        "3Mモメンタムは対SPYで +4.44pt と、市場並み以上です。",
-        "6Mモメンタムは対SPYで -27.87pt と弱く、候補評価では注意点です。",
-        "1Yモメンタムは対SPYで -45.45pt と弱く、候補評価では注意点です。"
+        "1Mモメンタムは対SPYで +1.23pt と、市場並み以上です。",
+        "3Mモメンタムは対SPYで -2.19pt と、市場を小幅に下回っています。",
+        "6Mモメンタムは対SPYで -32.31pt と弱く、候補評価では注意点です。",
+        "1Yモメンタムは対SPYで -46.45pt と弱く、候補評価では注意点です。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
@@ -2641,7 +2420,7 @@
       ],
       "confidence": "Medium",
       "signal_strength": "Moderate",
-      "signal_rate": 52.42,
+      "signal_rate": 50.36,
       "evidence": [
         "Company",
         "Events",
@@ -2656,8 +2435,8 @@
         "research_and_development"
       ],
       "metrics": {
-        "scoring_total": 54.0,
-        "signal_earned_points": 50.85,
+        "scoring_total": 55.0,
+        "signal_earned_points": 48.85,
         "signal_max_points": 97.0,
         "weak_signals": [],
         "scoring_signal_strength": "Moderate",
@@ -2666,23 +2445,23 @@
         "valuation_score": 14.0,
         "news_score": 15.0,
         "momentum": {
-          "1m": 9.01945757460953,
-          "3m": 6.82700092790297,
-          "6m": -13.78832868531194,
-          "1y": -24.011745851322008
+          "1m": 1.4433735007567527,
+          "3m": 2.508499796294404,
+          "6m": -17.15564940545239,
+          "1y": -26.481584173247963
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": 8.58,
-          "3m": 4.44,
-          "6m": -27.87,
-          "1y": -45.45
+          "1m": 1.23,
+          "3m": -2.19,
+          "6m": -32.31,
+          "1y": -46.45
         },
         "positive_news": 2,
         "watch_news": 0,
         "event_count": 10,
         "events_with_reaction": 10,
-        "sector_average_score": 60.166666666666664
+        "sector_average_score": 56.0
       }
     },
     {
@@ -2690,20 +2469,20 @@
       "company": "Amazon.com, Inc.",
       "sector": "Consumer Cyclical",
       "industry": "Internet Retail",
-      "discovery_score": 70,
+      "discovery_score": 64,
       "max_score": 100,
       "status": "Watch Candidate",
       "discovery_reasons": [
         "Scoring EngineのGrowthが 16/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 16/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで -5.48pt と、市場を小幅に下回っています。",
-        "3Mモメンタムは対SPYで -0.37pt と、市場を小幅に下回っています。",
-        "6Mモメンタムは対SPYで +4.17pt と、市場並み以上です。",
-        "1Yモメンタムは対SPYで -6.87pt と、市場を小幅に下回っています。"
+        "1Mモメンタムは対SPYで -5.26pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +0.38pt と、市場並み以上です。",
+        "6Mモメンタムは対SPYで +6.09pt と、市場並み以上です。",
+        "1Yモメンタムは対SPYで -10.28pt と弱く、候補評価では注意点です。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
@@ -2711,6 +2490,7 @@
       ],
       "watch_points": [
         "注意材料になり得るニュース表現が 1 件あります。",
+        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
         "Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -2720,7 +2500,7 @@
       ],
       "confidence": "Medium",
       "signal_strength": "Strong",
-      "signal_rate": 71.75,
+      "signal_rate": 65.57,
       "evidence": [
         "Company",
         "Events",
@@ -2735,33 +2515,33 @@
         "research_and_development"
       ],
       "metrics": {
-        "scoring_total": 70.0,
-        "signal_earned_points": 69.6,
+        "scoring_total": 65.0,
+        "signal_earned_points": 63.6,
         "signal_max_points": 97.0,
         "weak_signals": [],
         "scoring_signal_strength": "Strong",
         "growth_score": 16.0,
         "financial_health_score": 18.0,
-        "valuation_score": 13.0,
-        "news_score": 16.0,
+        "valuation_score": 11.0,
+        "news_score": 13.0,
         "momentum": {
-          "1m": -5.043095656631627,
-          "3m": 2.0134760020228013,
-          "6m": 18.25157166780082,
-          "1y": 14.562585779624563
+          "1m": -5.050319366342742,
+          "3m": 5.072556618399782,
+          "6m": 21.246658986579124,
+          "1y": 9.686871096118201
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": -5.48,
-          "3m": -0.37,
-          "6m": 4.17,
-          "1y": -6.87
+          "1m": -5.26,
+          "3m": 0.38,
+          "6m": 6.09,
+          "1y": -10.28
         },
-        "positive_news": 6,
+        "positive_news": 4,
         "watch_news": 1,
         "event_count": 10,
-        "events_with_reaction": 2,
-        "sector_average_score": 56.0
+        "events_with_reaction": 5,
+        "sector_average_score": 51.166666666666664
       }
     },
     {
@@ -2769,20 +2549,20 @@
       "company": "Tesla, Inc.",
       "sector": "Consumer Cyclical",
       "industry": "Auto Manufacturers",
-      "discovery_score": 62,
+      "discovery_score": 51,
       "max_score": 100,
-      "status": "Watch Candidate",
+      "status": "Not Selected",
       "discovery_reasons": [
         "Scoring EngineのGrowthが 12/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 8/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "研究開発費が確認でき、将来成長への投資シグナルがあります。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで +16.61pt と、市場を大きく上回っています。",
-        "3Mモメンタムは対SPYで -12.44pt と弱く、候補評価では注意点です。",
-        "6Mモメンタムは対SPYで -21.28pt と弱く、候補評価では注意点です。"
+        "1Mモメンタムは対SPYで +10.60pt と、市場を大きく上回っています。",
+        "3Mモメンタムは対SPYで -14.14pt と弱く、候補評価では注意点です。",
+        "6Mモメンタムは対SPYで -25.91pt と弱く、候補評価では注意点です。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
@@ -2791,16 +2571,17 @@
       ],
       "watch_points": [
         "バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。",
+        "注意材料になり得るニュース表現が 4 件あります。",
+        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
         "Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
         "Consumer Cyclical セクター全体の需要変化と競争環境を確認する必要があります。",
-        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
-        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。"
       ],
       "confidence": "High",
       "signal_strength": "Moderate",
-      "signal_rate": 62.05,
+      "signal_rate": 51.2,
       "evidence": [
         "Company",
         "Events",
@@ -2813,33 +2594,33 @@
       ],
       "missing_data": [],
       "metrics": {
-        "scoring_total": 61.0,
-        "signal_earned_points": 62.05,
+        "scoring_total": 51.0,
+        "signal_earned_points": 51.2,
         "signal_max_points": 100.0,
         "weak_signals": [],
         "scoring_signal_strength": "Moderate",
         "growth_score": 12.0,
         "financial_health_score": 20.0,
         "valuation_score": 3.0,
-        "news_score": 17.0,
+        "news_score": 8.0,
         "momentum": {
-          "1m": 17.047116940554545,
-          "3m": -10.057359480212998,
-          "6m": -7.196399565296646,
-          "1y": 12.653774240438034
+          "1m": 10.81275245672092,
+          "3m": -9.442458677169917,
+          "6m": -10.750390248529062,
+          "1y": 4.593385475154447
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": 16.61,
-          "3m": -12.44,
-          "6m": -21.28,
-          "1y": -8.78
+          "1m": 10.6,
+          "3m": -14.14,
+          "6m": -25.91,
+          "1y": -15.37
         },
-        "positive_news": 3,
-        "watch_news": 0,
+        "positive_news": 4,
+        "watch_news": 4,
         "event_count": 10,
-        "events_with_reaction": 2,
-        "sector_average_score": 56.0
+        "events_with_reaction": 1,
+        "sector_average_score": 51.166666666666664
       }
     },
     {
@@ -2857,17 +2638,16 @@
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで -10.37pt と弱く、候補評価では注意点です。",
-        "3Mモメンタムは対SPYで +0.23pt と、市場並み以上です。",
-        "6Mモメンタムは対SPYで -24.89pt と弱く、候補評価では注意点です。",
-        "1Yモメンタムは対SPYで -41.35pt と弱く、候補評価では注意点です。"
+        "1Mモメンタムは対SPYで -7.68pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで -0.63pt と、市場を小幅に下回っています。",
+        "6Mモメンタムは対SPYで -23.51pt と弱く、候補評価では注意点です。",
+        "1Yモメンタムは対SPYで -39.77pt と弱く、候補評価では注意点です。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
         "フリーキャッシュフローがプラスで、現金創出力があります。"
       ],
       "watch_points": [
-        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
         "Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -2877,7 +2657,7 @@
       ],
       "confidence": "Medium",
       "signal_strength": "Moderate",
-      "signal_rate": 48.14,
+      "signal_rate": 48.66,
       "evidence": [
         "Company",
         "Events",
@@ -2892,8 +2672,8 @@
         "research_and_development"
       ],
       "metrics": {
-        "scoring_total": 53.0,
-        "signal_earned_points": 46.7,
+        "scoring_total": 50.0,
+        "signal_earned_points": 47.2,
         "signal_max_points": 97.0,
         "weak_signals": [],
         "scoring_signal_strength": "Moderate",
@@ -2902,23 +2682,23 @@
         "valuation_score": 9.0,
         "news_score": 15.0,
         "momentum": {
-          "1m": -9.93090725193861,
-          "3m": 2.6197757049171355,
-          "6m": -10.80563192250009,
-          "1y": -19.912016711445936
+          "1m": -7.4685591569146625,
+          "3m": 4.065864343383444,
+          "6m": -8.353786435982036,
+          "1y": -19.808179924431837
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": -10.37,
-          "3m": 0.23,
-          "6m": -24.89,
-          "1y": -41.35
+          "1m": -7.68,
+          "3m": -0.63,
+          "6m": -23.51,
+          "1y": -39.77
         },
-        "positive_news": 5,
+        "positive_news": 3,
         "watch_news": 0,
         "event_count": 10,
-        "events_with_reaction": 5,
-        "sector_average_score": 56.0
+        "events_with_reaction": 9,
+        "sector_average_score": 51.166666666666664
       }
     },
     {
@@ -2926,20 +2706,20 @@
       "company": "McDonald's Corporation",
       "sector": "Consumer Cyclical",
       "industry": "Restaurants",
-      "discovery_score": 40,
+      "discovery_score": 36,
       "max_score": 100,
       "status": "Not Selected",
       "discovery_reasons": [
         "Scoring EngineのGrowthが 10/20 で、成長性の基礎条件が確認できます。",
         "Financial Healthが 7/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "Newsスコアが 9/20 で、材料の量と市場関心を候補評価に反映しています。",
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで -5.01pt と、市場を小幅に下回っています。",
-        "3Mモメンタムは対SPYで -6.51pt と、市場を小幅に下回っています。",
-        "6Mモメンタムは対SPYで -33.69pt と弱く、候補評価では注意点です。",
-        "1Yモメンタムは対SPYで -37.27pt と弱く、候補評価では注意点です。"
+        "1Mモメンタムは対SPYで -7.00pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで -12.67pt と弱く、候補評価では注意点です。",
+        "6Mモメンタムは対SPYで -36.13pt と弱く、候補評価では注意点です。",
+        "1Yモメンタムは対SPYで -37.23pt と弱く、候補評価では注意点です。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
@@ -2947,7 +2727,86 @@
         "純利益率が高く、売上から利益を残す力があります。"
       ],
       "watch_points": [
-        "バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。",
+        "注意材料になり得るニュース表現が 2 件あります。",
+        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+        "Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Consumer Cyclical セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "confidence": "Medium",
+      "signal_strength": "Weak",
+      "signal_rate": 37.06,
+      "evidence": [
+        "Company",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "missing_data": [
+        "research_and_development"
+      ],
+      "metrics": {
+        "scoring_total": 38.0,
+        "signal_earned_points": 35.95,
+        "signal_max_points": 97.0,
+        "weak_signals": [],
+        "scoring_signal_strength": "Weak",
+        "growth_score": 10.0,
+        "financial_health_score": 7.0,
+        "valuation_score": 8.0,
+        "news_score": 9.0,
+        "momentum": {
+          "1m": -6.788021891734395,
+          "3m": -7.980479905775667,
+          "6m": -20.97363775744322,
+          "1y": -17.263465763598532
+        },
+        "benchmark": "SPY",
+        "excess_momentum": {
+          "1m": -7.0,
+          "3m": -12.67,
+          "6m": -36.13,
+          "1y": -37.23
+        },
+        "positive_news": 3,
+        "watch_news": 2,
+        "event_count": 10,
+        "events_with_reaction": 10,
+        "sector_average_score": 51.166666666666664
+      }
+    },
+    {
+      "ticker": "NKE",
+      "company": "NIKE, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Footwear & Accessories",
+      "discovery_score": 41,
+      "max_score": 100,
+      "status": "Not Selected",
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 6/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 7/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで -7.81pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで -14.40pt と弱く、候補評価では注意点です。",
+        "6Mモメンタムは対SPYで -46.48pt と弱く、候補評価では注意点です。",
+        "1Yモメンタムは対SPYで -67.32pt と弱く、候補評価では注意点です。"
+      ],
+      "strengths": [
+        "フリーキャッシュフローがプラスで、現金創出力があります。"
+      ],
+      "watch_points": [
+        "注意材料になり得るニュース表現が 3 件あります。",
         "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
         "Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
@@ -2958,7 +2817,7 @@
       ],
       "confidence": "Medium",
       "signal_strength": "Moderate",
-      "signal_rate": 40.77,
+      "signal_rate": 42.27,
       "evidence": [
         "Company",
         "Events",
@@ -2973,111 +2832,33 @@
         "research_and_development"
       ],
       "metrics": {
-        "scoring_total": 43.0,
-        "signal_earned_points": 39.55,
-        "signal_max_points": 97.0,
-        "weak_signals": [],
-        "scoring_signal_strength": "Moderate",
-        "growth_score": 10.0,
-        "financial_health_score": 7.0,
-        "valuation_score": 6.0,
-        "news_score": 15.0,
-        "momentum": {
-          "1m": -4.571015466516508,
-          "3m": -4.123123693710811,
-          "6m": -19.606417534350946,
-          "1y": -15.829241980407414
-        },
-        "benchmark": "SPY",
-        "excess_momentum": {
-          "1m": -5.01,
-          "3m": -6.51,
-          "6m": -33.69,
-          "1y": -37.27
-        },
-        "positive_news": 4,
-        "watch_news": 0,
-        "event_count": 10,
-        "events_with_reaction": 10,
-        "sector_average_score": 56.0
-      }
-    },
-    {
-      "ticker": "NKE",
-      "company": "NIKE, Inc.",
-      "sector": "Consumer Cyclical",
-      "industry": "Footwear & Accessories",
-      "discovery_score": 49,
-      "max_score": 100,
-      "status": "Not Selected",
-      "discovery_reasons": [
-        "Scoring EngineのGrowthが 6/20 で、成長性の基礎条件が確認できます。",
-        "Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。",
-        "Newsスコアが 11/20 で、材料の量と市場関心を候補評価に反映しています。",
-        "売上が取得でき、事業規模の確認ができます。",
-        "EPSがプラスで、利益を伴う成長候補として確認できます。",
-        "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで -8.14pt と、市場を小幅に下回っています。",
-        "3Mモメンタムは対SPYで -12.56pt と弱く、候補評価では注意点です。",
-        "6Mモメンタムは対SPYで -45.95pt と弱く、候補評価では注意点です。",
-        "1Yモメンタムは対SPYで -67.85pt と弱く、候補評価では注意点です。"
-      ],
-      "strengths": [
-        "フリーキャッシュフローがプラスで、現金創出力があります。"
-      ],
-      "watch_points": [
-        "注意材料になり得るニュース表現が 4 件あります。",
-        "Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
-        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
-        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
-        "Consumer Cyclical セクター全体の需要変化と競争環境を確認する必要があります。",
-        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
-        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
-      ],
-      "confidence": "Medium",
-      "signal_strength": "Moderate",
-      "signal_rate": 50.88,
-      "evidence": [
-        "Company",
-        "Events",
-        "Financials",
-        "Knowledge",
-        "Market Intelligence",
-        "News",
-        "Prices",
-        "Scoring"
-      ],
-      "missing_data": [
-        "research_and_development"
-      ],
-      "metrics": {
-        "scoring_total": 57.0,
-        "signal_earned_points": 49.35,
+        "scoring_total": 51.0,
+        "signal_earned_points": 41.0,
         "signal_max_points": 97.0,
         "weak_signals": [],
         "scoring_signal_strength": "Moderate",
         "growth_score": 6.0,
         "financial_health_score": 18.0,
         "valuation_score": 18.0,
-        "news_score": 11.0,
+        "news_score": 7.0,
         "momentum": {
-          "1m": -7.7001828864159085,
-          "3m": -10.175891632597414,
-          "6m": -31.865101881999987,
-          "1y": -46.416476523169884
+          "1m": -7.601547536141914,
+          "3m": -9.708348510761317,
+          "6m": -31.31976621376224,
+          "1y": -47.35750227747429
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": -8.14,
-          "3m": -12.56,
-          "6m": -45.95,
-          "1y": -67.85
+          "1m": -7.81,
+          "3m": -14.4,
+          "6m": -46.48,
+          "1y": -67.32
         },
-        "positive_news": 1,
-        "watch_news": 4,
+        "positive_news": 0,
+        "watch_news": 3,
         "event_count": 10,
-        "events_with_reaction": 6,
-        "sector_average_score": 56.0
+        "events_with_reaction": 8,
+        "sector_average_score": 51.166666666666664
       }
     },
     {
@@ -3085,7 +2866,7 @@
       "company": "Lowe's Companies, Inc.",
       "sector": "Consumer Cyclical",
       "industry": "Home Improvement Retail",
-      "discovery_score": 43,
+      "discovery_score": 47,
       "max_score": 100,
       "status": "Not Selected",
       "discovery_reasons": [
@@ -3095,17 +2876,16 @@
         "売上が取得でき、事業規模の確認ができます。",
         "EPSがプラスで、利益を伴う成長候補として確認できます。",
         "FCFがプラスで、成長投資を支える現金創出力があります。",
-        "1Mモメンタムは対SPYで -8.64pt と、市場を小幅に下回っています。",
-        "3Mモメンタムは対SPYで -4.50pt と、市場を小幅に下回っています。",
-        "6Mモメンタムは対SPYで -33.95pt と弱く、候補評価では注意点です。",
-        "1Yモメンタムは対SPYで -42.39pt と弱く、候補評価では注意点です。"
+        "1Mモメンタムは対SPYで -6.60pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで -7.08pt と、市場を小幅に下回っています。",
+        "6Mモメンタムは対SPYで -33.10pt と弱く、候補評価では注意点です。",
+        "1Yモメンタムは対SPYで -41.10pt と弱く、候補評価では注意点です。"
       ],
       "strengths": [
         "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
         "フリーキャッシュフローがプラスで、現金創出力があります。"
       ],
       "watch_points": [
-        "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
         "Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -3115,7 +2895,7 @@
       ],
       "confidence": "Medium",
       "signal_strength": "Moderate",
-      "signal_rate": 44.07,
+      "signal_rate": 48.71,
       "evidence": [
         "Company",
         "Events",
@@ -3131,7 +2911,7 @@
       ],
       "metrics": {
         "scoring_total": 52.0,
-        "signal_earned_points": 42.75,
+        "signal_earned_points": 47.25,
         "signal_max_points": 97.0,
         "weak_signals": [],
         "scoring_signal_strength": "Moderate",
@@ -3140,23 +2920,23 @@
         "valuation_score": 15.0,
         "news_score": 15.0,
         "momentum": {
-          "1m": -8.202240767787499,
-          "3m": -2.1116140771706893,
-          "6m": -19.860661660273916,
-          "1y": -20.957587692681177
+          "1m": -6.387361418542041,
+          "3m": -2.3851565328185234,
+          "6m": -17.939978408988534,
+          "1y": -21.13613510389864
         },
         "benchmark": "SPY",
         "excess_momentum": {
-          "1m": -8.64,
-          "3m": -4.5,
-          "6m": -33.95,
-          "1y": -42.39
+          "1m": -6.6,
+          "3m": -7.08,
+          "6m": -33.1,
+          "1y": -41.1
         },
-        "positive_news": 4,
+        "positive_news": 2,
         "watch_news": 0,
         "event_count": 10,
-        "events_with_reaction": 6,
-        "sector_average_score": 56.0
+        "events_with_reaction": 9,
+        "sector_average_score": 51.166666666666664
       }
     }
   ]
