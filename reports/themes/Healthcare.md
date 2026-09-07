@@ -1,39 +1,37 @@
 # Healthcare
 
-- Target companies: 5
-- Average Score: 62.80
-- Average Discovery: 73.00
-- Momentum: 28.76
+- Target companies: 3
+- Average Score: 55.33
+- Average Discovery: 67.00
+- Momentum: 29.59
 - Confidence: Medium
 
 ## Companies
 
-- AMZN - Amazon.com, Inc. (Low): Keyword: patient
 - CRM - Salesforce, Inc. (Low): Keyword: healthcare
-- HD - The Home Depot, Inc. (Low): Keyword: medical
+- MCD - McDonald's Corporation (Low): Keyword: patient
 - NOW - ServiceNow, Inc. (Low): Keyword: healthcare
-- TSLA - Tesla, Inc. (Low): Keyword: patient
 
 ## Market
 
-- Consumer Cyclical: score 52.83, momentum 2.75, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Neutral'}
-- Technology: score 67.17, momentum 9.60, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 51.17, momentum -3.75, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 65.83, momentum 3.98, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- CRM: Why ZM Stock Prints So Much Cash Right Now
-- NOW: Adobe Stock and Two AI Software Names Investors May Want to Watch
-- AMZN: Has Microsoft Stock Run Ahead Of Its AI Payoff?
-- AMZN: How Much Upside Can AAPL Stock's Growth Deliver?
-- AMZN: Can PLTR Stock Live Up To Its Multiple?
+- CRM: Own Oracle For The AI Boom? PTC's Story Looks Cleaner
+- CRM: Stock Market Today: Dow Sinks Amid Rate Fears; Sandisk, KLA Lead Nasdaq-100 As Utilities Gain
+- MCD: Inflation Odds Move Toward 100%
+- MCD: Warren Buffett Says Greatness Isn’t About ‘Great Amounts of Money’ — Despite a $140B Net Worth, He Drives a 2014 Cadillac and Eats McDonald’s
+- NOW: Why Is Dynatrace (DT) Up 8% Since Last Earnings Report?
 
 ## Similar Themes
 
-- Cybersecurity: 0.981 (Shared companies: NOW; Shared sectors: Technology; Similar average Discovery score)
-- Energy: 0.976 (Shared companies: TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
-- Fintech: 0.975 (Shared sectors: Technology; Similar average Discovery score)
-- Robotics: 0.974 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar average Discovery score)
-- Semiconductor: 0.972 (Shared companies: AMZN, NOW; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
+- Robotics: 0.842 (Shared companies: CRM, NOW; Shared sectors: Technology)
+- Cybersecurity: 0.657 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar average Discovery score)
+- EV: 0.631 (Shared sectors: Consumer Cyclical, Technology)
+- Cloud: 0.622 (Shared companies: CRM, NOW; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
+- Quantum Computing: 0.617 (Shared sectors: Technology; Similar average Discovery score)
 
 ## Review Note
 

@@ -1,9 +1,9 @@
 # Robotics
 
-- Target companies: 8
-- Average Score: 68.43
-- Average Discovery: 72.33
-- Momentum: 13.18
+- Target companies: 7
+- Average Score: 67.00
+- Average Discovery: 73.00
+- Momentum: 7.15
 - Confidence: Medium
 
 ## Companies
@@ -12,31 +12,29 @@
 - AMAT - Applied Materials, Inc. (Medium): Keyword: automation; Sector alignment: Technology
 - AVGO - Broadcom Inc. (Medium): Keyword: automation; Sector alignment: Technology
 - CRM - Salesforce, Inc. (Medium): Keyword: autonomous; Sector alignment: Technology
-- META - Meta Platforms, Inc. (Medium): Keyword: autonomous; Keyword: automation
 - NOW - ServiceNow, Inc. (Medium): Keyword: autonomous; Keyword: automation; Sector alignment: Technology
 - NVDA - NVIDIA Corporation (Medium): Keyword: autonomous; Sector alignment: Technology
 - ORCL - Oracle Corporation (Medium): Keyword: autonomous; Sector alignment: Technology
 
 ## Market
 
-- Communication Services: score 59.50, momentum 9.03, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
-- Technology: score 67.17, momentum 9.60, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 65.83, momentum 3.98, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- AVGO: Broadcom’s Debt Deal Could Reach $100 Billion in the AI Buildout’s Latest Mega-Financing
-- META: Meta Is Down 27%. One Analyst Sees a $22 Billion AI Business Hiding in Plain Sight
-- NVDA: Nancy Pelosi’s Husband Bought Millions of This AI Power Stock. Nvidia Just Strengthened the Bull Case
-- META: Dick’s Hit by a Footware Apocalypse
-- META: Meta's 9.9% Jio Stake Finally Gets a Public Scoreboard
+- NVDA: ChronoScale Says It Plans a 50 MW Microsoft AI Deployment. Can CHRN Fund the Build Without Diluting Shareholders?
+- AVGO: Jim Cramer Says “Someone Must Know Something” About Broadcom Inc. (NASDAQ:AVGO)’s Post-Earnings Share Dip
+- ORCL: Jim Cramer Shares a Cautious Take on Oracle (ORCL) and Its Massive AI Buildout
+- AVGO: Broadcom (AVGO) Stock Is Down After Q3 Earnings: Is It Too Soon to Buy the Dip?
+- ORCL: Looking Ahead to the Q3 Earnings Season: What to Expect
 
 ## Similar Themes
 
-- Fintech: 0.998 (Shared companies: ACN, NVDA; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.996 (Shared companies: AMAT, AVGO, NOW, NVDA, ORCL; Shared sectors: Technology; Similar average Discovery score)
-- EV: 0.991 (Shared companies: NVDA; Shared sectors: Technology; Similar average Discovery score)
-- Energy: 0.989 (Shared companies: ACN, AVGO, NVDA, ORCL; Shared sectors: Technology; Similar average Discovery score)
-- Cloud: 0.988 (Shared companies: ACN, AMAT, AVGO, CRM, NOW; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cybersecurity: 0.921 (Shared companies: ACN, AMAT, AVGO, CRM, NOW; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Cloud: 0.914 (Shared companies: ACN, AVGO, CRM, NOW, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Semiconductor: 0.904 (Shared companies: AMAT, AVGO, NVDA; Shared sectors: Technology; Similar average Discovery score)
+- AI: 0.903 (Shared companies: ACN, AMAT, AVGO, CRM, NOW; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- EV: 0.902 (Shared companies: NVDA; Shared sectors: Technology; Similar average Discovery score)
 
 ## Review Note
 

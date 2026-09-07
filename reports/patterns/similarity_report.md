@@ -2,288 +2,288 @@
 
 ## AAPL
 
-- MSFT: 0.996 (Same sector: Technology; Similar sector trend context)
-- GOOGL: 0.995 (Similar sector trend context; Similar profit margin range)
-- NVDA: 0.995 (Same sector: Technology; Similar sector trend context)
-- AMZN: 0.993 (Feature vector similarity)
-- AMD: 0.974 (Same sector: Technology; Similar sector trend context)
+- MSFT: 0.999 (Same sector: Technology; Similar sector trend context; Similar 1M momentum)
+- NVDA: 0.998 (Same sector: Technology; Similar sector trend context; Similar 1M momentum)
+- META: 0.993 (Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- AMZN: 0.992 (Feature vector similarity)
+- GOOGL: 0.991 (Similar sector trend context; Similar profit margin range)
 
 ## ACN
 
-- VZ: 0.953 (Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- T: 0.922 (Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- MU: 0.912 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
-- SBUX: 0.883 (Similar profit margin range)
-- EA: 0.86 (Similar sector trend context; Similar profit margin range)
+- MU: 0.968 (Same sector: Technology; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- VZ: 0.938 (Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- T: 0.849 (Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- EA: 0.837 (Similar sector trend context; Similar profit margin range)
+- SBUX: 0.837 (Similar profit margin range)
 
 ## ADBE
 
-- CRM: 0.894 (Same sector: Technology; Similar sector trend context)
-- NFLX: 0.873 (Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- AMAT: 0.871 (Same sector: Technology; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- MCD: 0.867 (Similar profit margin range)
-- CMCSA: 0.859 (Similar sector trend context; Similar 1M momentum)
+- QCOM: 0.961 (Same sector: Technology; Similar sector trend context; Similar 1M momentum)
+- CRM: 0.93 (Same sector: Technology; Similar sector trend context)
+- AVGO: 0.908 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
+- GOOGL: 0.898 (Similar sector trend context; Similar profit margin range)
+- META: 0.891 (Similar sector trend context; Similar 1M momentum; Similar profit margin range)
 
 ## AMAT
 
-- NFLX: 0.98 (Similar sector trend context; Similar profit margin range)
-- TXN: 0.974 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
-- AVGO: 0.961 (Same sector: Technology; Similar sector trend context)
-- DIS: 0.952 (Similar sector trend context; Similar 1M momentum)
-- TMUS: 0.95 (Similar sector trend context)
+- TXN: 0.989 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
+- NFLX: 0.958 (Similar sector trend context; Similar profit margin range)
+- MCD: 0.944 (Similar profit margin range)
+- HD: 0.94 (Feature vector similarity)
+- DIS: 0.931 (Similar sector trend context)
 
 ## AMD
 
-- AAPL: 0.974 (Same sector: Technology; Similar sector trend context)
-- AMZN: 0.97 (Similar profit margin range)
-- GOOGL: 0.964 (Similar sector trend context)
-- MSFT: 0.963 (Same sector: Technology; Similar sector trend context)
-- NVDA: 0.958 (Same sector: Technology; Similar sector trend context)
+- AAPL: 0.976 (Same sector: Technology; Similar sector trend context; Similar 1M momentum)
+- AMZN: 0.974 (Similar 1M momentum; Similar profit margin range)
+- META: 0.97 (Similar sector trend context)
+- MSFT: 0.967 (Same sector: Technology; Similar sector trend context; Similar 1M momentum)
+- GOOGL: 0.966 (Similar sector trend context)
 
 ## AMZN
 
-- AAPL: 0.993 (Feature vector similarity)
-- GOOGL: 0.993 (Feature vector similarity)
-- MSFT: 0.99 (Feature vector similarity)
-- NVDA: 0.985 (Similar 1M momentum)
-- META: 0.972 (Feature vector similarity)
+- GOOGL: 0.993 (Similar 1M momentum)
+- AAPL: 0.992 (Feature vector similarity)
+- META: 0.991 (Feature vector similarity)
+- MSFT: 0.988 (Feature vector similarity)
+- NVDA: 0.983 (Feature vector similarity)
 
 ## AVGO
 
-- TXN: 0.983 (Same sector: Technology; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- AMAT: 0.961 (Same sector: Technology; Similar sector trend context)
-- NFLX: 0.934 (Similar sector trend context)
-- MCD: 0.912 (Similar 1M momentum; Similar profit margin range)
-- ORCL: 0.876 (Same sector: Technology; Similar sector trend context)
+- ADBE: 0.908 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
+- ORCL: 0.892 (Same sector: Technology; Similar sector trend context)
+- QCOM: 0.859 (Same sector: Technology; Similar sector trend context)
+- TXN: 0.858 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
+- AMAT: 0.852 (Same sector: Technology; Similar sector trend context; Similar 1M momentum)
 
 ## BKNG
 
-- VZ: 0.898 (Similar 1M momentum; Similar profit margin range)
-- CHTR: 0.816 (Similar 1M momentum; Similar profit margin range)
-- T: 0.806 (Similar profit margin range)
-- SBUX: 0.802 (Same sector: Consumer Cyclical; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- EA: 0.757 (Similar 1M momentum; Similar profit margin range)
+- SBUX: 0.861 (Same sector: Consumer Cyclical; Similar sector trend context; Similar profit margin range)
+- EA: 0.807 (Similar profit margin range)
+- VZ: 0.789 (Similar profit margin range)
+- CHTR: 0.78 (Similar profit margin range)
+- MU: 0.775 (Similar profit margin range)
 
 ## CHTR
 
-- T: 0.951 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- VZ: 0.856 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- BKNG: 0.816 (Similar 1M momentum; Similar profit margin range)
-- ACN: 0.759 (Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- MU: 0.642 (Similar sector trend context; Similar profit margin range)
+- BKNG: 0.78 (Similar profit margin range)
+- T: 0.767 (Same sector: Communication Services; Similar sector trend context; Similar profit margin range)
+- VZ: 0.758 (Same sector: Communication Services; Similar sector trend context; Similar profit margin range)
+- MU: 0.692 (Similar sector trend context; Similar profit margin range)
+- ACN: 0.49 (Similar sector trend context; Similar profit margin range)
 
 ## CMCSA
 
-- DIS: 0.982 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- TMUS: 0.963 (Same sector: Communication Services; Similar sector trend context; Similar profit margin range)
-- HD: 0.955 (Similar profit margin range)
-- LOW: 0.952 (Similar profit margin range)
-- NFLX: 0.944 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- DIS: 0.98 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- TMUS: 0.978 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- HD: 0.945 (Similar profit margin range)
+- LOW: 0.945 (Similar profit margin range)
+- NFLX: 0.939 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
 
 ## CRM
 
-- ADBE: 0.894 (Same sector: Technology; Similar sector trend context)
-- META: 0.828 (Similar sector trend context)
-- AMZN: 0.801 (Similar profit margin range)
-- NOW: 0.792 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
-- GOOGL: 0.791 (Similar sector trend context)
+- META: 0.939 (Similar sector trend context)
+- AMZN: 0.936 (Similar profit margin range)
+- ADBE: 0.93 (Same sector: Technology; Similar sector trend context)
+- GOOGL: 0.93 (Similar sector trend context)
+- AAPL: 0.917 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
 
 ## CSCO
 
-- TSLA: 0.952 (Similar profit margin range)
-- ORLY: 0.951 (Similar 1M momentum; Similar profit margin range)
-- EA: 0.943 (Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- SBUX: 0.913 (Similar profit margin range)
-- TJX: 0.878 (Similar profit margin range)
+- ORLY: 0.979 (Similar 1M momentum; Similar profit margin range)
+- TJX: 0.928 (Similar profit margin range)
+- TSLA: 0.894 (Similar profit margin range)
+- EA: 0.886 (Similar sector trend context; Similar profit margin range)
+- SBUX: 0.863 (Similar profit margin range)
 
 ## DIS
 
-- CMCSA: 0.982 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- TMUS: 0.994 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
 - HD: 0.981 (Similar profit margin range)
-- TMUS: 0.978 (Same sector: Communication Services; Similar sector trend context; Similar profit margin range)
-- LOW: 0.971 (Similar profit margin range)
-- NFLX: 0.961 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum)
+- CMCSA: 0.98 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- LOW: 0.977 (Similar profit margin range)
+- NFLX: 0.962 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum)
 
 ## EA
 
-- SBUX: 0.997 (Similar 1M momentum; Similar profit margin range)
-- ORLY: 0.994 (Similar 1M momentum; Similar profit margin range)
-- TSLA: 0.966 (Similar profit margin range)
-- CSCO: 0.943 (Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- VZ: 0.864 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- SBUX: 0.995 (Similar 1M momentum; Similar profit margin range)
+- TSLA: 0.969 (Similar profit margin range)
+- ORLY: 0.958 (Similar profit margin range)
+- CSCO: 0.886 (Similar sector trend context; Similar profit margin range)
+- ACN: 0.837 (Similar sector trend context; Similar profit margin range)
 
 ## GOOGL
 
-- AAPL: 0.995 (Similar sector trend context; Similar profit margin range)
-- AMZN: 0.993 (Feature vector similarity)
-- MSFT: 0.991 (Similar sector trend context; Similar profit margin range)
-- META: 0.989 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- NVDA: 0.987 (Similar sector trend context)
+- META: 0.997 (Same sector: Communication Services; Similar sector trend context; Similar profit margin range)
+- AMZN: 0.993 (Similar 1M momentum)
+- AAPL: 0.991 (Similar sector trend context; Similar profit margin range)
+- MSFT: 0.988 (Similar sector trend context; Similar profit margin range)
+- NVDA: 0.984 (Similar sector trend context)
 
 ## HD
 
-- LOW: 0.993 (Same sector: Consumer Cyclical; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- TMUS: 0.984 (Similar 1M momentum; Similar profit margin range)
+- LOW: 0.994 (Same sector: Consumer Cyclical; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
 - DIS: 0.981 (Similar profit margin range)
-- CMCSA: 0.955 (Similar profit margin range)
-- NKE: 0.952 (Same sector: Consumer Cyclical; Similar sector trend context; Similar profit margin range)
+- TMUS: 0.975 (Similar profit margin range)
+- NKE: 0.968 (Same sector: Consumer Cyclical; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- CMCSA: 0.945 (Similar profit margin range)
 
 ## INTC
 
-- ORCL: 0.414 (Same sector: Technology; Similar sector trend context)
-- MU: 0.407 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
-- QCOM: 0.314 (Same sector: Technology; Similar sector trend context; Similar 1M momentum)
-- CSCO: 0.2 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
-- TJX: 0.16 (Similar profit margin range)
+- TJX: 0.692 (Similar profit margin range)
+- CSCO: 0.389 (Same sector: Technology; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- ORLY: 0.225 (Similar 1M momentum; Similar profit margin range)
+- NKE: 0.167 (Similar 1M momentum; Similar profit margin range)
+- AVGO: 0.134 (Same sector: Technology; Similar sector trend context)
 
 ## LOW
 
-- HD: 0.993 (Same sector: Consumer Cyclical; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- TMUS: 0.99 (Similar 1M momentum; Similar profit margin range)
-- NKE: 0.977 (Same sector: Consumer Cyclical; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- DIS: 0.971 (Similar profit margin range)
-- CMCSA: 0.952 (Similar profit margin range)
+- HD: 0.994 (Same sector: Consumer Cyclical; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- NKE: 0.985 (Same sector: Consumer Cyclical; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- DIS: 0.977 (Similar profit margin range)
+- TMUS: 0.976 (Similar profit margin range)
+- CMCSA: 0.945 (Similar profit margin range)
 
 ## MCD
 
-- NFLX: 0.962 (Similar profit margin range)
-- TXN: 0.958 (Similar 1M momentum; Similar profit margin range)
-- TMUS: 0.947 (Similar 1M momentum)
-- AMAT: 0.945 (Similar profit margin range)
-- AVGO: 0.912 (Similar 1M momentum; Similar profit margin range)
+- NFLX: 0.965 (Similar profit margin range)
+- TXN: 0.962 (Similar 1M momentum; Similar profit margin range)
+- AMAT: 0.944 (Similar profit margin range)
+- TMUS: 0.932 (Feature vector similarity)
+- ORCL: 0.917 (Similar profit margin range)
 
 ## META
 
-- GOOGL: 0.989 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- AAPL: 0.974 (Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- AMZN: 0.972 (Feature vector similarity)
-- MSFT: 0.966 (Similar sector trend context)
-- NVDA: 0.958 (Similar sector trend context)
+- GOOGL: 0.997 (Same sector: Communication Services; Similar sector trend context; Similar profit margin range)
+- AAPL: 0.993 (Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- MSFT: 0.992 (Similar sector trend context; Similar 1M momentum)
+- AMZN: 0.991 (Feature vector similarity)
+- NVDA: 0.987 (Similar sector trend context; Similar 1M momentum)
 
 ## MSFT
 
-- NVDA: 0.998 (Same sector: Technology; Similar sector trend context)
-- AAPL: 0.996 (Same sector: Technology; Similar sector trend context)
-- GOOGL: 0.991 (Similar sector trend context; Similar profit margin range)
-- AMZN: 0.99 (Feature vector similarity)
-- META: 0.966 (Similar sector trend context)
+- AAPL: 0.999 (Same sector: Technology; Similar sector trend context; Similar 1M momentum)
+- NVDA: 0.999 (Same sector: Technology; Similar sector trend context; Similar 1M momentum)
+- META: 0.992 (Similar sector trend context; Similar 1M momentum)
+- AMZN: 0.988 (Feature vector similarity)
+- GOOGL: 0.988 (Similar sector trend context; Similar profit margin range)
 
 ## MU
 
-- ACN: 0.912 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
-- T: 0.825 (Similar sector trend context; Similar profit margin range)
-- VZ: 0.763 (Similar sector trend context; Similar profit margin range)
-- TSLA: 0.651 (Similar profit margin range)
-- SBUX: 0.648 (Similar profit margin range)
+- VZ: 0.995 (Similar sector trend context; Similar profit margin range)
+- ACN: 0.968 (Same sector: Technology; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- T: 0.935 (Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- SBUX: 0.791 (Similar profit margin range)
+- BKNG: 0.775 (Similar profit margin range)
 
 ## NFLX
 
-- AMAT: 0.98 (Similar sector trend context; Similar profit margin range)
-- TXN: 0.969 (Similar sector trend context; Similar profit margin range)
-- TMUS: 0.968 (Same sector: Communication Services; Similar sector trend context)
-- MCD: 0.962 (Similar profit margin range)
-- DIS: 0.961 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum)
+- TXN: 0.977 (Similar sector trend context; Similar profit margin range)
+- TMUS: 0.973 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum)
+- MCD: 0.965 (Similar profit margin range)
+- DIS: 0.962 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum)
+- AMAT: 0.958 (Similar sector trend context; Similar profit margin range)
 
 ## NKE
 
-- LOW: 0.977 (Same sector: Consumer Cyclical; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- TMUS: 0.964 (Similar profit margin range)
-- HD: 0.952 (Same sector: Consumer Cyclical; Similar sector trend context; Similar profit margin range)
-- DIS: 0.927 (Similar profit margin range)
-- NFLX: 0.906 (Feature vector similarity)
+- LOW: 0.985 (Same sector: Consumer Cyclical; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- HD: 0.968 (Same sector: Consumer Cyclical; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- DIS: 0.955 (Similar profit margin range)
+- TMUS: 0.95 (Similar profit margin range)
+- NFLX: 0.922 (Feature vector similarity)
 
 ## NOW
 
-- AMAT: 0.836 (Same sector: Technology; Similar sector trend context)
-- TSLA: 0.824 (Similar profit margin range)
-- AVGO: 0.817 (Same sector: Technology; Similar sector trend context)
-- CRM: 0.792 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
-- DIS: 0.775 (Similar sector trend context; Similar profit margin range)
+- CRM: 0.873 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
+- AVGO: 0.851 (Same sector: Technology; Similar sector trend context)
+- ADBE: 0.845 (Same sector: Technology; Similar sector trend context)
+- AMD: 0.84 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
+- QCOM: 0.835 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
 
 ## NVDA
 
-- MSFT: 0.998 (Same sector: Technology; Similar sector trend context)
-- AAPL: 0.995 (Same sector: Technology; Similar sector trend context)
-- GOOGL: 0.987 (Similar sector trend context)
-- AMZN: 0.985 (Similar 1M momentum)
-- AMD: 0.958 (Same sector: Technology; Similar sector trend context)
+- MSFT: 0.999 (Same sector: Technology; Similar sector trend context; Similar 1M momentum)
+- AAPL: 0.998 (Same sector: Technology; Similar sector trend context; Similar 1M momentum)
+- META: 0.987 (Similar sector trend context; Similar 1M momentum)
+- GOOGL: 0.984 (Similar sector trend context)
+- AMZN: 0.983 (Feature vector similarity)
 
 ## ORCL
 
-- NFLX: 0.92 (Similar sector trend context; Similar profit margin range)
-- TXN: 0.897 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
-- QCOM: 0.891 (Same sector: Technology; Similar sector trend context)
-- AVGO: 0.876 (Same sector: Technology; Similar sector trend context)
-- AMAT: 0.873 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
+- NFLX: 0.947 (Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- TXN: 0.936 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
+- MCD: 0.917 (Similar profit margin range)
+- AMAT: 0.894 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
+- TMUS: 0.894 (Similar sector trend context; Similar 1M momentum)
 
 ## ORLY
 
-- EA: 0.994 (Similar 1M momentum; Similar profit margin range)
-- SBUX: 0.985 (Same sector: Consumer Cyclical; Similar sector trend context; Similar profit margin range)
-- TSLA: 0.959 (Same sector: Consumer Cyclical; Similar sector trend context; Similar profit margin range)
-- CSCO: 0.951 (Similar 1M momentum; Similar profit margin range)
-- VZ: 0.815 (Similar profit margin range)
+- CSCO: 0.979 (Similar 1M momentum; Similar profit margin range)
+- EA: 0.958 (Similar profit margin range)
+- SBUX: 0.947 (Same sector: Consumer Cyclical; Similar sector trend context; Similar profit margin range)
+- TSLA: 0.945 (Same sector: Consumer Cyclical; Similar sector trend context; Similar profit margin range)
+- TJX: 0.837 (Same sector: Consumer Cyclical; Similar sector trend context; Similar profit margin range)
 
 ## QCOM
 
-- ORCL: 0.891 (Same sector: Technology; Similar sector trend context)
-- ADBE: 0.856 (Same sector: Technology; Similar sector trend context)
-- META: 0.817 (Similar sector trend context)
-- CRM: 0.78 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
-- TXN: 0.769 (Same sector: Technology; Similar sector trend context)
+- ADBE: 0.961 (Same sector: Technology; Similar sector trend context; Similar 1M momentum)
+- GOOGL: 0.936 (Similar sector trend context)
+- META: 0.926 (Similar sector trend context; Similar 1M momentum)
+- AMZN: 0.921 (Similar profit margin range)
+- CRM: 0.916 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
 
 ## SBUX
 
-- EA: 0.997 (Similar 1M momentum; Similar profit margin range)
-- ORLY: 0.985 (Same sector: Consumer Cyclical; Similar sector trend context; Similar profit margin range)
-- TSLA: 0.954 (Same sector: Consumer Cyclical; Similar sector trend context; Similar profit margin range)
-- CSCO: 0.913 (Similar profit margin range)
-- VZ: 0.9 (Similar 1M momentum; Similar profit margin range)
+- EA: 0.995 (Similar 1M momentum; Similar profit margin range)
+- TSLA: 0.955 (Same sector: Consumer Cyclical; Similar sector trend context; Similar profit margin range)
+- ORLY: 0.947 (Same sector: Consumer Cyclical; Similar sector trend context; Similar profit margin range)
+- CSCO: 0.863 (Similar profit margin range)
+- BKNG: 0.861 (Same sector: Consumer Cyclical; Similar sector trend context; Similar profit margin range)
 
 ## T
 
-- CHTR: 0.951 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- VZ: 0.949 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- ACN: 0.922 (Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- MU: 0.825 (Similar sector trend context; Similar profit margin range)
-- BKNG: 0.806 (Similar profit margin range)
+- VZ: 0.954 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- MU: 0.935 (Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- ACN: 0.849 (Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- CHTR: 0.767 (Same sector: Communication Services; Similar sector trend context; Similar profit margin range)
+- BKNG: 0.612 (Similar profit margin range)
 
 ## TJX
 
-- CSCO: 0.878 (Similar profit margin range)
-- ORLY: 0.788 (Same sector: Consumer Cyclical; Similar sector trend context; Similar profit margin range)
-- TSLA: 0.752 (Same sector: Consumer Cyclical; Similar sector trend context; Similar profit margin range)
-- EA: 0.73 (Similar profit margin range)
-- SBUX: 0.675 (Same sector: Consumer Cyclical; Similar sector trend context; Similar profit margin range)
+- CSCO: 0.928 (Similar profit margin range)
+- ORLY: 0.837 (Same sector: Consumer Cyclical; Similar sector trend context; Similar profit margin range)
+- INTC: 0.692 (Similar profit margin range)
+- TSLA: 0.686 (Same sector: Consumer Cyclical; Similar sector trend context; Similar profit margin range)
+- EA: 0.65 (Similar profit margin range)
 
 ## TMUS
 
-- LOW: 0.99 (Similar 1M momentum; Similar profit margin range)
-- HD: 0.984 (Similar 1M momentum; Similar profit margin range)
-- DIS: 0.978 (Same sector: Communication Services; Similar sector trend context; Similar profit margin range)
-- NFLX: 0.968 (Same sector: Communication Services; Similar sector trend context)
-- NKE: 0.964 (Similar profit margin range)
+- DIS: 0.994 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- CMCSA: 0.978 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- LOW: 0.976 (Similar profit margin range)
+- HD: 0.975 (Similar profit margin range)
+- NFLX: 0.973 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum)
 
 ## TSLA
 
-- EA: 0.966 (Similar profit margin range)
-- ORLY: 0.959 (Same sector: Consumer Cyclical; Similar sector trend context; Similar profit margin range)
-- SBUX: 0.954 (Same sector: Consumer Cyclical; Similar sector trend context; Similar profit margin range)
-- CSCO: 0.952 (Similar profit margin range)
-- ACN: 0.834 (Similar profit margin range)
+- EA: 0.969 (Similar profit margin range)
+- SBUX: 0.955 (Same sector: Consumer Cyclical; Similar sector trend context; Similar profit margin range)
+- ORLY: 0.945 (Same sector: Consumer Cyclical; Similar sector trend context; Similar profit margin range)
+- CSCO: 0.894 (Similar profit margin range)
+- ACN: 0.787 (Similar 1M momentum; Similar profit margin range)
 
 ## TXN
 
-- AVGO: 0.983 (Same sector: Technology; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- AMAT: 0.974 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
-- NFLX: 0.969 (Similar sector trend context; Similar profit margin range)
-- MCD: 0.958 (Similar 1M momentum; Similar profit margin range)
-- TMUS: 0.94 (Similar sector trend context; Similar 1M momentum)
+- AMAT: 0.989 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
+- NFLX: 0.977 (Similar sector trend context; Similar profit margin range)
+- MCD: 0.962 (Similar 1M momentum; Similar profit margin range)
+- ORCL: 0.936 (Same sector: Technology; Similar sector trend context; Similar profit margin range)
+- TMUS: 0.93 (Similar sector trend context)
 
 ## VZ
 
-- ACN: 0.953 (Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- T: 0.949 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
-- SBUX: 0.9 (Similar 1M momentum; Similar profit margin range)
-- BKNG: 0.898 (Similar 1M momentum; Similar profit margin range)
-- EA: 0.864 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- MU: 0.995 (Similar sector trend context; Similar profit margin range)
+- T: 0.954 (Same sector: Communication Services; Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- ACN: 0.938 (Similar sector trend context; Similar 1M momentum; Similar profit margin range)
+- BKNG: 0.789 (Similar profit margin range)
+- CHTR: 0.758 (Same sector: Communication Services; Similar sector trend context; Similar profit margin range)

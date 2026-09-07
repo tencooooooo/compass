@@ -1,38 +1,43 @@
 # Space
 
-- Target companies: 4
-- Average Score: 53.25
-- Average Discovery: 61.00
-- Momentum: 14.32
+- Target companies: 8
+- Average Score: 59.25
+- Average Discovery: 79.33
+- Momentum: -0.86
 - Confidence: Medium
 
 ## Companies
 
+- AMD - Advanced Micro Devices, Inc. (Medium): Keyword: spacex; Keyword: launch
 - CMCSA - Comcast Corporation (Medium): Keyword: satellite; Sector alignment: Communication Services
 - DIS - The Walt Disney Company (Medium): Keyword: satellite; Sector alignment: Communication Services
-- TMUS - T-Mobile US, Inc. (Medium): Keyword: satellite; Keyword: spacex; Sector alignment: Communication Services
-- TSLA - Tesla, Inc. (Medium): Keyword: space; Keyword: spacex; Keyword: launch
+- GOOGL - Alphabet Inc. (Medium): Keyword: launch; Sector alignment: Communication Services
+- LOW - Lowe's Companies, Inc. (Low): Keyword: launch
+- NVDA - NVIDIA Corporation (Low): Keyword: launch
+- TMUS - T-Mobile US, Inc. (Medium): Keyword: spacex; Sector alignment: Communication Services
+- TSLA - Tesla, Inc. (Low): Keyword: launch
 
 ## Market
 
-- Communication Services: score 59.50, momentum 9.03, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
-- Consumer Cyclical: score 52.83, momentum 2.75, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Neutral'}
+- Communication Services: score 56.00, momentum 2.11, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 51.17, momentum -3.75, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 65.83, momentum 3.98, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- DIS: Will Strong Q3 Results and Streaming Profits Shift Walt Disney's (DIS) Long-Term Narrative?
-- TSLA: Elon Musk Calls Gavin Newsom's California High-Speed Rail Project a 'Big Scam' as Ron DeSantis Says Cost Is 'Mind Blowing'
-- DIS: Sector Update: Consumer Stocks Rise Late Afternoon
-- DIS: Can The Walt Disney Company (DIS)’s iHeartMedia (IHRT) Partnership Strengthen its Streaming Ecosystem?
-- TSLA: Amazon’s Post-Q2 Earnings Rally Has Faded But Don’t Give Up on AMZN Stock Just Yet
+- NVDA: ChronoScale Says It Plans a 50 MW Microsoft AI Deployment. Can CHRN Fund the Build Without Diluting Shareholders?
+- GOOGL: Entergy Says Google’s Arkansas Solar Payments Could Total $2.1 Billion. Is Power Becoming Alphabet’s New Bottleneck?
+- GOOGL: Marvell Raised Its Outlook but Fell as Google Chip Revenue Stayed Distant. Has the AI Payoff Been Priced In? (Ready for review)
+- GOOGL: Jim Cramer Flagged Another Risk For Adobe Inc. (NASDAQ:ADBE)
+- TSLA: Tesla Launched the Cybercab Thursday, 6 Weeks After Removing Volume Production of It From This Year's Plan
 
 ## Similar Themes
 
-- Healthcare: 0.775 (Shared companies: TSLA; Shared sectors: Consumer Cyclical)
-- Cybersecurity: 0.698 (Shared companies: TMUS; Shared sectors: Communication Services)
-- Quantum Computing: 0.667 (Shared companies: CMCSA; Shared sectors: Communication Services; Similar average Discovery score; Similar short-term momentum)
-- Energy: 0.659 (Shared companies: TSLA; Shared sectors: Consumer Cyclical)
-- AI: 0.639 (Shared companies: CMCSA, TSLA; Shared sectors: Communication Services, Consumer Cyclical)
+- Quantum Computing: 0.997 (Shared companies: GOOGL; Shared sectors: Communication Services, Technology; Similar short-term momentum)
+- EV: 0.996 (Shared companies: GOOGL, NVDA, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Semiconductor: 0.996 (Shared companies: AMD, GOOGL, NVDA; Shared sectors: Communication Services, Technology; Similar short-term momentum)
+- AI: 0.995 (Shared companies: AMD, DIS, GOOGL, LOW, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
+- Cloud: 0.992 (Shared companies: AMD, DIS, GOOGL, NVDA, TMUS; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
 
 ## Review Note
 

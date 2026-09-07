@@ -1,32 +1,36 @@
 # Quantum Computing
 
-- Target companies: 1
-- Average Score: 64.00
-- Average Discovery: 61.00
-- Momentum: 14.32
+- Target companies: 2
+- Average Score: 61.50
+- Average Discovery: 66.50
+- Momentum: -2.62
 - Confidence: Medium
 
 ## Companies
 
-- CMCSA - Comcast Corporation (Low): Keyword: quantum
+- GOOGL - Alphabet Inc. (Low): Keyword: quantum
+- MSFT - Microsoft Corporation (Medium): Keyword: quantum; Sector alignment: Technology
 
 ## Market
 
-- Communication Services: score 59.50, momentum 9.03, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 56.00, momentum 2.11, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 65.83, momentum 3.98, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- CMCSA: AT&T Stock's Margin Hit A Multi-Year Best As Its Copper Network Winds Down
-- CMCSA: Comcast (CMCSA) Builds Unified TV Ad Platform To Expand AI Driven Advertising
-- CMCSA: NFLX Has Bounced From This Price Before. Now What?
+- MSFT: ChronoScale Says It Plans a 50 MW Microsoft AI Deployment. Can CHRN Fund the Build Without Diluting Shareholders?
+- MSFT: What Will Microsoft (MSFT) Reveal With Its New AI And Cloud Reporting?
+- GOOGL: Entergy Says Google’s Arkansas Solar Payments Could Total $2.1 Billion. Is Power Becoming Alphabet’s New Bottleneck?
+- GOOGL: Marvell Raised Its Outlook but Fell as Google Chip Revenue Stayed Distant. Has the AI Payoff Been Priced In? (Ready for review)
+- GOOGL: Jim Cramer Flagged Another Risk For Adobe Inc. (NASDAQ:ADBE)
 
 ## Similar Themes
 
-- Space: 0.667 (Shared companies: CMCSA; Shared sectors: Communication Services; Similar average Discovery score; Similar short-term momentum)
-- Healthcare: 0.315 (Theme metric similarity)
-- EV: 0.207 (Theme metric similarity)
-- Robotics: 0.145 (Shared sectors: Communication Services; Similar short-term momentum)
-- Fintech: 0.142 (Shared sectors: Communication Services; Similar short-term momentum)
+- EV: 0.999 (Shared companies: GOOGL; Shared sectors: Communication Services, Technology; Similar short-term momentum)
+- Space: 0.997 (Shared companies: GOOGL; Shared sectors: Communication Services, Technology; Similar short-term momentum)
+- Semiconductor: 0.996 (Shared companies: GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar short-term momentum)
+- Cybersecurity: 0.995 (Shared companies: GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score)
+- AI: 0.994 (Shared companies: GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
 
 ## Review Note
 

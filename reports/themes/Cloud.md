@@ -1,52 +1,55 @@
 # Cloud
 
-- Target companies: 17
-- Average Score: 67.85
-- Average Discovery: 72.08
-- Momentum: 10.06
+- Target companies: 20
+- Average Score: 62.75
+- Average Discovery: 70.17
+- Momentum: 3.54
 - Confidence: High
 
 ## Companies
 
-- AAPL - Apple Inc. (Medium): Keyword: cloud; Sector alignment: Technology
+- AAPL - Apple Inc. (Medium): Keyword: cloud; Keyword: infrastructure; Sector alignment: Technology
 - ACN - Accenture plc (High): Keyword: cloud; Keyword: aws; Keyword: infrastructure; Sector alignment: Technology
-- ADBE - Adobe Inc. (Medium): Keyword: cloud; Sector alignment: Technology
-- AMAT - Applied Materials, Inc. (Medium): Keyword: data center; Keyword: infrastructure; Sector alignment: Technology
 - AMD - Advanced Micro Devices, Inc. (High): Keyword: cloud; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology
-- AMZN - Amazon.com, Inc. (Medium): Keyword: azure; Keyword: aws
+- AMZN - Amazon.com, Inc. (Medium): Keyword: cloud; Keyword: aws
 - AVGO - Broadcom Inc. (High): Keyword: cloud; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology
-- CRM - Salesforce, Inc. (Medium): Keyword: cloud; Sector alignment: Technology
+- CRM - Salesforce, Inc. (Medium): Keyword: cloud; Keyword: infrastructure; Sector alignment: Technology
 - CSCO - Cisco Systems, Inc. (Medium): Keyword: cloud; Keyword: data center; Sector alignment: Technology
+- DIS - The Walt Disney Company (Medium): Keyword: cloud; Sector alignment: Communication Services
 - GOOGL - Alphabet Inc. (High): Keyword: cloud; Keyword: google cloud; Keyword: data center; Keyword: infrastructure; Sector alignment: Communication Services
 - INTC - Intel Corporation (High): Keyword: cloud; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology
-- MSFT - Microsoft Corporation (Medium): Keyword: cloud; Keyword: infrastructure; Sector alignment: Technology
+- META - Meta Platforms, Inc. (Medium): Keyword: infrastructure; Sector alignment: Communication Services
+- MSFT - Microsoft Corporation (High): Keyword: cloud; Keyword: azure; Keyword: infrastructure; Sector alignment: Technology
 - MU - Micron Technology, Inc. (Medium): Keyword: cloud; Keyword: data center; Sector alignment: Technology
-- NOW - ServiceNow, Inc. (High): Keyword: cloud; Keyword: aws; Keyword: infrastructure; Sector alignment: Technology
-- NVDA - NVIDIA Corporation (High): Keyword: cloud; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology
+- NFLX - Netflix, Inc. (Medium): Keyword: cloud; Sector alignment: Communication Services
+- NOW - ServiceNow, Inc. (Medium): Keyword: cloud; Keyword: infrastructure; Sector alignment: Technology
+- NVDA - NVIDIA Corporation (High): Keyword: cloud; Keyword: aws; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology
 - ORCL - Oracle Corporation (High): Keyword: cloud; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology
 - QCOM - QUALCOMM Incorporated (Medium): Keyword: cloud; Keyword: data center; Sector alignment: Technology
+- TMUS - T-Mobile US, Inc. (Medium): Keyword: infrastructure; Sector alignment: Communication Services
+- TXN - Texas Instruments Incorporated (Medium): Keyword: infrastructure; Sector alignment: Technology
 
 ## Market
 
-- Communication Services: score 59.50, momentum 9.03, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
-- Consumer Cyclical: score 52.83, momentum 2.75, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Neutral'}
-- Technology: score 67.17, momentum 9.60, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 56.00, momentum 2.11, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 51.17, momentum -3.75, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 65.83, momentum 3.98, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- AVGO: Broadcom’s Debt Deal Could Reach $100 Billion in the AI Buildout’s Latest Mega-Financing
-- GOOGL: Marvell Fell After Its Google Deal. Why Did Investors Sell These Two AI Optics Stocks Too?
-- NVDA: Nancy Pelosi’s Husband Bought Millions of This AI Power Stock. Nvidia Just Strengthened the Bull Case
-- AAPL: Apple CEO Tim Cook Pays Tribute to Yayoi Kusama, the Legendary Artist Behind Iconic Pumpkin Sculptures and Polka-Dots
-- CRM: Why ZM Stock Prints So Much Cash Right Now
+- MSFT: ChronoScale Says It Plans a 50 MW Microsoft AI Deployment. Can CHRN Fund the Build Without Diluting Shareholders?
+- NVDA: ChronoScale Says It Plans a 50 MW Microsoft AI Deployment. Can CHRN Fund the Build Without Diluting Shareholders?
+- MSFT: What Will Microsoft (MSFT) Reveal With Its New AI And Cloud Reporting?
+- AMZN: AWS Plans 2 Million More NVIDIA GPUs. Is This Better News for AMZN’s Cloud Growth or NVDA’s Backlog?
+- GOOGL: Entergy Says Google’s Arkansas Solar Payments Could Total $2.1 Billion. Is Power Becoming Alphabet’s New Bottleneck?
 
 ## Similar Themes
 
-- Energy: 0.998 (Shared companies: ACN, AMD, AVGO, NVDA, ORCL; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
-- Semiconductor: 0.998 (Shared companies: ADBE, AMAT, AMD, AMZN, AVGO; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- AI: 0.997 (Shared companies: AAPL, ACN, ADBE, AMAT, AMD; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Cybersecurity: 0.993 (Shared companies: ACN, ADBE, AMAT, AVGO, CSCO; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
-- Fintech: 0.992 (Shared companies: ACN, ADBE, GOOGL, NVDA; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- AI: 1.0 (Shared companies: AAPL, ACN, AMD, AMZN, AVGO; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Semiconductor: 0.999 (Shared companies: AMD, AVGO, GOOGL, INTC, META; Shared sectors: Communication Services, Technology; Similar average Discovery score)
+- Cybersecurity: 0.998 (Shared companies: ACN, AVGO, CRM, CSCO, GOOGL; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- EV: 0.996 (Shared companies: GOOGL, NVDA, TXN; Shared sectors: Communication Services, Consumer Cyclical, Technology)
+- Quantum Computing: 0.993 (Shared companies: GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score)
 
 ## Review Note
 

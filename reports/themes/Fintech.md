@@ -1,38 +1,34 @@
 # Fintech
 
-- Target companies: 4
-- Average Score: 71.33
-- Average Discovery: 75.33
-- Momentum: 11.00
+- Target companies: 2
+- Average Score: 59.00
+- Average Discovery: 67.00
+- Momentum: -5.39
 - Confidence: Medium
 
 ## Companies
 
 - ACN - Accenture plc (Medium): Keyword: banking; Sector alignment: Technology
-- ADBE - Adobe Inc. (Medium): Keyword: payments; Sector alignment: Technology
 - GOOGL - Alphabet Inc. (Low): Keyword: payments
-- NVDA - NVIDIA Corporation (Medium): Keyword: payments; Sector alignment: Technology
 
 ## Market
 
-- Communication Services: score 59.50, momentum 9.03, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
-- Technology: score 67.17, momentum 9.60, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 56.00, momentum 2.11, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 65.83, momentum 3.98, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- GOOGL: Marvell Fell After Its Google Deal. Why Did Investors Sell These Two AI Optics Stocks Too?
-- NVDA: Nancy Pelosi’s Husband Bought Millions of This AI Power Stock. Nvidia Just Strengthened the Bull Case
-- ADBE: Adobe Stock and Two AI Software Names Investors May Want to Watch
-- ADBE: Is Adobe Stock’s AI Strategy Worth The Near-Term Risk?
-- ADBE: Figma Stock Rose With Its Peers, Not On Its Own News
+- GOOGL: Entergy Says Google’s Arkansas Solar Payments Could Total $2.1 Billion. Is Power Becoming Alphabet’s New Bottleneck?
+- GOOGL: Marvell Raised Its Outlook but Fell as Google Chip Revenue Stayed Distant. Has the AI Payoff Been Priced In? (Ready for review)
+- GOOGL: Jim Cramer Flagged Another Risk For Adobe Inc. (NASDAQ:ADBE)
 
 ## Similar Themes
 
-- Robotics: 0.998 (Shared companies: ACN, NVDA; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.997 (Shared companies: ADBE, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Energy: 0.993 (Shared companies: ACN, NVDA; Shared sectors: Technology; Similar average Discovery score)
-- Cloud: 0.992 (Shared companies: ACN, ADBE, GOOGL, NVDA; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
-- Cybersecurity: 0.986 (Shared companies: ACN, ADBE, GOOGL; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- Energy: 0.994 (Shared companies: ACN, GOOGL; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- Space: 0.945 (Shared companies: GOOGL; Shared sectors: Communication Services, Technology; Similar short-term momentum)
+- Quantum Computing: 0.934 (Shared companies: GOOGL; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- EV: 0.923 (Shared companies: GOOGL; Shared sectors: Communication Services, Technology; Similar short-term momentum)
+- Semiconductor: 0.911 (Shared companies: GOOGL; Shared sectors: Communication Services, Technology; Similar short-term momentum)
 
 ## Review Note
 

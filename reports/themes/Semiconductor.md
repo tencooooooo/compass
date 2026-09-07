@@ -1,46 +1,45 @@
 # Semiconductor
 
-- Target companies: 12
-- Average Score: 68.40
-- Average Discovery: 72.00
-- Momentum: 6.49
+- Target companies: 11
+- Average Score: 67.67
+- Average Discovery: 73.67
+- Momentum: -3.10
 - Confidence: High
 
 ## Companies
 
-- ADBE - Adobe Inc. (High): Keyword: semiconductor; Keyword: chip; Keyword: chips; Sector alignment: Technology
 - AMAT - Applied Materials, Inc. (High): Keyword: semiconductor; Keyword: chip; Keyword: chips; Keyword: memory; Sector alignment: Technology
-- AMD - Advanced Micro Devices, Inc. (High): Keyword: semiconductor; Keyword: semiconductors; Keyword: chip; Keyword: chips; Sector alignment: Technology
-- AMZN - Amazon.com, Inc. (Low): Keyword: semiconductor
-- AVGO - Broadcom Inc. (High): Keyword: semiconductor; Keyword: semiconductors; Keyword: chip; Sector alignment: Technology
+- AMD - Advanced Micro Devices, Inc. (High): Keyword: semiconductor; Keyword: semiconductors; Keyword: chip; Sector alignment: Technology
+- AVGO - Broadcom Inc. (High): Keyword: semiconductor; Keyword: semiconductors; Keyword: chip; Keyword: memory; Sector alignment: Technology
+- GOOGL - Alphabet Inc. (Low): Keyword: chip
 - INTC - Intel Corporation (Medium): Keyword: semiconductors; Keyword: foundry; Sector alignment: Technology
+- META - Meta Platforms, Inc. (Low): Keyword: chip
+- MSFT - Microsoft Corporation (Medium): Keyword: gpu; Sector alignment: Technology
 - MU - Micron Technology, Inc. (High): Keyword: semiconductor; Keyword: semiconductors; Keyword: memory; Sector alignment: Technology
-- NOW - ServiceNow, Inc. (Medium): Keyword: chips; Sector alignment: Technology
-- NVDA - NVIDIA Corporation (Medium): Keyword: semiconductors; Sector alignment: Technology
-- ORCL - Oracle Corporation (Medium): Keyword: chips; Sector alignment: Technology
-- QCOM - QUALCOMM Incorporated (High): Keyword: semiconductor; Keyword: semiconductors; Keyword: chip; Keyword: memory; Sector alignment: Technology
-- TXN - Texas Instruments Incorporated (Medium): Keyword: semiconductor; Keyword: semiconductors; Sector alignment: Technology
+- NVDA - NVIDIA Corporation (High): Keyword: semiconductors; Keyword: chip; Keyword: chips; Keyword: gpu; Sector alignment: Technology
+- QCOM - QUALCOMM Incorporated (High): Keyword: semiconductor; Keyword: semiconductors; Keyword: chip; Keyword: chips; Keyword: memory; Sector alignment: Technology
+- TXN - Texas Instruments Incorporated (High): Keyword: semiconductor; Keyword: semiconductors; Keyword: chip; Keyword: memory; Sector alignment: Technology
 
 ## Market
 
-- Consumer Cyclical: score 52.83, momentum 2.75, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Neutral'}
-- Technology: score 67.17, momentum 9.60, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 56.00, momentum 2.11, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 65.83, momentum 3.98, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- AVGO: Broadcom’s Debt Deal Could Reach $100 Billion in the AI Buildout’s Latest Mega-Financing
-- NVDA: Nancy Pelosi’s Husband Bought Millions of This AI Power Stock. Nvidia Just Strengthened the Bull Case
-- ADBE: Adobe Stock and Two AI Software Names Investors May Want to Watch
-- NOW: Adobe Stock and Two AI Software Names Investors May Want to Watch
-- ORCL: Adobe Stock and Two AI Software Names Investors May Want to Watch
+- MSFT: ChronoScale Says It Plans a 50 MW Microsoft AI Deployment. Can CHRN Fund the Build Without Diluting Shareholders?
+- NVDA: ChronoScale Says It Plans a 50 MW Microsoft AI Deployment. Can CHRN Fund the Build Without Diluting Shareholders?
+- MSFT: What Will Microsoft (MSFT) Reveal With Its New AI And Cloud Reporting?
+- GOOGL: Entergy Says Google’s Arkansas Solar Payments Could Total $2.1 Billion. Is Power Becoming Alphabet’s New Bottleneck?
+- GOOGL: Marvell Raised Its Outlook but Fell as Google Chip Revenue Stayed Distant. Has the AI Payoff Been Priced In? (Ready for review)
 
 ## Similar Themes
 
-- Cloud: 0.998 (Shared companies: ADBE, AMAT, AMD, AMZN, AVGO; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Energy: 0.997 (Shared companies: AMD, AVGO, NVDA, ORCL, TXN; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
-- Fintech: 0.997 (Shared companies: ADBE, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Robotics: 0.996 (Shared companies: AMAT, AVGO, NOW, NVDA, ORCL; Shared sectors: Technology; Similar average Discovery score)
-- Cybersecurity: 0.993 (Shared companies: ADBE, AMAT, AVGO, NOW, QCOM; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- AI: 1.0 (Shared companies: AMAT, AMD, AVGO, GOOGL, INTC; Shared sectors: Communication Services, Technology; Similar average Discovery score)
+- Cloud: 0.999 (Shared companies: AMD, AVGO, GOOGL, INTC, META; Shared sectors: Communication Services, Technology; Similar average Discovery score)
+- EV: 0.998 (Shared companies: GOOGL, NVDA, TXN; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cybersecurity: 0.997 (Shared companies: AMAT, AVGO, GOOGL, MSFT, QCOM; Shared sectors: Communication Services, Technology)
+- Quantum Computing: 0.996 (Shared companies: GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar short-term momentum)
 
 ## Review Note
 
