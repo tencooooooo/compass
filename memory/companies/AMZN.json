@@ -13,14 +13,14 @@
     "beta": 1.443,
     "trailing_pe": 20.797264,
     "forward_pe": 24.855967,
-    "peg_ratio": 1.52,
+    "peg_ratio": 1.51,
     "price_to_book": 5.0533667,
     "eps": 12.43,
     "forward_eps": 10.40032,
     "dividend_yield": null,
     "52_week_high": 287.2,
     "52_week_low": 196.0,
-    "average_volume": 48221166,
+    "average_volume": 47826544,
     "employees": 1595000,
     "website": "https://www.amazon.com",
     "business_summary": "Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It also manufactures and sells electronic devices, including Kindle, fire tablets, fire TVs, echo, ring, blink, and eero; and develops and produces media content. In addition, the company offers programs that enable sellers to sell their products in its stores; and programs that allow authors, independent publishers, musicians, filmmakers, Twitch streamers, skill and app developers, and others to publish and sell content. Further, it provides compute, storage, Artificial intelligence, database, analytics, machine learning, and other services, as well as advertising services through programs, such as sponsored ads, display, and video advertising. Additionally, the company offers Amazon Prime, a membership program. The company's products offered through its stores include merchandise and content purchased for resale and products offered by third-party sellers. It serves consumers, sellers, developers, enterprises, content creators, advertisers, and employees. The company was incorporated in 1994 and is headquartered in Seattle, Washington."
@@ -1050,30 +1050,55 @@
         "scoring": "Strong",
         "discovery": "Strong"
       }
+    },
+    {
+      "date": "2026-09-07",
+      "timestamp": "2026-09-07T19:53:44.701653-04:00",
+      "score": 62,
+      "discovery_score": 57,
+      "discovery_status": "Not Selected",
+      "validation_results": {
+        "Excellent": 10,
+        "Good": 4,
+        "Neutral": 4,
+        "Poor": 22,
+        "Pending": 115
+      },
+      "event_count": 10,
+      "news_count": 10,
+      "confidence": {
+        "scoring": "Medium",
+        "discovery": "Medium"
+      },
+      "signal_strength": {
+        "scoring": "Moderate",
+        "discovery": "Moderate"
+      }
     }
   ],
   "Scores": {
     "ticker": "AMZN",
     "company_name": "Amazon.com, Inc.",
-    "total_score": 65,
+    "total_score": 62,
     "max_score": 100,
     "confidence": {
       "level": "Medium",
-      "completeness_score": 95.0,
+      "completeness_score": 90.0,
       "reasons": [
         "利用可能な主要データ領域は5領域中 5 領域です。",
-        "欠損または計算不可の項目数は 1 件です。",
+        "欠損または計算不可の項目数は 2 件です。",
         "主要データは一定程度ありますが、欠損や未取得項目が残っています。",
+        "イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。",
         "Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。"
       ]
     },
     "signal_strength": {
-      "level": "Strong",
-      "signal_rate": 65.0,
+      "level": "Moderate",
+      "signal_rate": 62.0,
       "evaluated_max_score": 100,
       "reasons": [
-        "データが確認できた 100 点満点のうち 65 点を獲得し、シグナル充足率は 65.0% です。",
-        "シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。"
+        "データが確認できた 100 点満点のうち 62 点を獲得し、シグナル充足率は 62.0% です。",
+        "シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。"
       ]
     },
     "scores": {
@@ -1161,7 +1186,7 @@
         "metrics": {
           "trailing_pe": 20.797264,
           "forward_pe": 24.855967,
-          "peg_ratio": 1.52,
+          "peg_ratio": 1.51,
           "price_to_book": 5.0533667,
           "sector_peer_count": 10,
           "trailing_pe_percentile": 33.33,
@@ -1182,7 +1207,7 @@
           "3M の対SPY超過リターンは +0.38pt で、市場並み以上です。",
           "6M の対SPY超過リターンは +6.09pt で、市場並み以上です。",
           "1Y の対SPY超過リターンは -10.28pt と、市場を大きく下回っています。",
-          "直近出来高が30日平均の 0.70 倍で、市場関心はやや弱めです。"
+          "直近出来高が30日平均の 0.72 倍で、市場関心はやや弱めです。"
         ],
         "evidence": [
           "Prices",
@@ -1207,31 +1232,33 @@
             "6M": 6.09,
             "1Y": -10.28
           },
-          "latest_volume": 29968655.0,
-          "average_volume_30d": 42627025.166666664
+          "latest_volume": 30698000.0,
+          "average_volume_30d": 42651336.666666664
         }
       },
       "News": {
-        "score": 13,
+        "score": 10,
         "max_score": 20,
         "reasons": [
           "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-          "ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 1 件(純比率 +0.60)で、センチメントは 6.4 点です。",
-          "イベント後の平均株価反応が -0.15% と中立圏です。"
+          "ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 1 件(純比率 +0.33)で、センチメントは 5.3 点です。",
+          "イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。"
         ],
         "evidence": [
           "News",
           "Events",
           "Knowledge"
         ],
-        "missing_data": [],
+        "missing_data": [
+          "event_price_reaction"
+        ],
         "metrics": {
           "news_count": 10,
-          "positive_count": 4,
+          "positive_count": 2,
           "negative_count": 1,
-          "sentiment_net_ratio": 0.6,
+          "sentiment_net_ratio": 0.33,
           "event_count": 10,
-          "events_with_price_reaction": 5
+          "events_with_price_reaction": 0
         }
       }
     },
@@ -1249,13 +1276,13 @@
     "company": "Amazon.com, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Internet Retail",
-    "discovery_score": 64,
+    "discovery_score": 57,
     "max_score": 100,
-    "status": "Watch Candidate",
+    "status": "Not Selected",
     "discovery_reasons": [
       "Scoring EngineのGrowthが 16/20 で、成長性の基礎条件が確認できます。",
       "Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。",
-      "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
+      "Newsスコアが 10/20 で、材料の量と市場関心を候補評価に反映しています。",
       "売上が取得でき、事業規模の確認ができます。",
       "EPSがプラスで、利益を伴う成長候補として確認できます。",
       "FCFがプラスで、成長投資を支える現金創出力があります。",
@@ -1270,7 +1297,7 @@
     ],
     "watch_points": [
       "注意材料になり得るニュース表現が 1 件あります。",
-      "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+      "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
       "Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
       "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
       "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -1279,8 +1306,8 @@
       "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
     ],
     "confidence": "Medium",
-    "signal_strength": "Strong",
-    "signal_rate": 65.57,
+    "signal_strength": "Moderate",
+    "signal_rate": 62.39,
     "evidence": [
       "Company",
       "Events",
@@ -1292,18 +1319,19 @@
       "Scoring"
     ],
     "missing_data": [
-      "research_and_development"
+      "research_and_development",
+      "event_price_reaction"
     ],
     "metrics": {
-      "scoring_total": 65.0,
-      "signal_earned_points": 63.6,
-      "signal_max_points": 97.0,
+      "scoring_total": 62.0,
+      "signal_earned_points": 57.4,
+      "signal_max_points": 92.0,
       "weak_signals": [],
-      "scoring_signal_strength": "Strong",
+      "scoring_signal_strength": "Moderate",
       "growth_score": 16.0,
       "financial_health_score": 18.0,
       "valuation_score": 11.0,
-      "news_score": 13.0,
+      "news_score": 10.0,
       "momentum": {
         "1m": -5.050319366342742,
         "3m": 5.072556618399782,
@@ -1317,17 +1345,17 @@
         "6m": 6.09,
         "1y": -10.28
       },
-      "positive_news": 4,
+      "positive_news": 2,
       "watch_news": 1,
       "event_count": 10,
-      "events_with_reaction": 5,
-      "sector_average_score": 51.166666666666664
+      "events_with_reaction": 0,
+      "sector_average_score": 49.666666666666664
     }
   },
   "Validation": [
     {
       "discovery_date": "2026-07-01",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -1374,7 +1402,7 @@
     },
     {
       "discovery_date": "2026-07-01",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -1421,7 +1449,7 @@
     },
     {
       "discovery_date": "2026-07-01",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -1468,7 +1496,7 @@
     },
     {
       "discovery_date": "2026-07-01",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -1515,7 +1543,7 @@
     },
     {
       "discovery_date": "2026-07-01",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -1562,7 +1590,7 @@
     },
     {
       "discovery_date": "2026-07-02",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -1609,7 +1637,7 @@
     },
     {
       "discovery_date": "2026-07-02",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -1656,7 +1684,7 @@
     },
     {
       "discovery_date": "2026-07-02",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -1703,7 +1731,7 @@
     },
     {
       "discovery_date": "2026-07-02",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -1750,7 +1778,7 @@
     },
     {
       "discovery_date": "2026-07-02",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -1797,7 +1825,7 @@
     },
     {
       "discovery_date": "2026-07-07",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -1844,7 +1872,7 @@
     },
     {
       "discovery_date": "2026-07-07",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -1891,7 +1919,7 @@
     },
     {
       "discovery_date": "2026-07-07",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -1938,7 +1966,7 @@
     },
     {
       "discovery_date": "2026-07-07",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -1985,7 +2013,7 @@
     },
     {
       "discovery_date": "2026-07-07",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -2032,7 +2060,7 @@
     },
     {
       "discovery_date": "2026-07-09",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -2079,7 +2107,7 @@
     },
     {
       "discovery_date": "2026-07-09",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -2126,7 +2154,7 @@
     },
     {
       "discovery_date": "2026-07-09",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -2173,7 +2201,7 @@
     },
     {
       "discovery_date": "2026-07-09",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -2220,7 +2248,7 @@
     },
     {
       "discovery_date": "2026-07-09",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -2267,7 +2295,7 @@
     },
     {
       "discovery_date": "2026-07-13",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -2325,7 +2353,7 @@
     },
     {
       "discovery_date": "2026-07-13",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -2383,7 +2411,7 @@
     },
     {
       "discovery_date": "2026-07-13",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -2441,7 +2469,7 @@
     },
     {
       "discovery_date": "2026-07-13",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -2499,7 +2527,7 @@
     },
     {
       "discovery_date": "2026-07-13",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -2557,7 +2585,7 @@
     },
     {
       "discovery_date": "2026-07-15",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -2615,7 +2643,7 @@
     },
     {
       "discovery_date": "2026-07-15",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -2673,7 +2701,7 @@
     },
     {
       "discovery_date": "2026-07-15",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -2731,7 +2759,7 @@
     },
     {
       "discovery_date": "2026-07-15",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -2789,7 +2817,7 @@
     },
     {
       "discovery_date": "2026-07-15",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -2847,7 +2875,7 @@
     },
     {
       "discovery_date": "2026-07-20",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -2907,7 +2935,7 @@
     },
     {
       "discovery_date": "2026-07-20",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -2967,7 +2995,7 @@
     },
     {
       "discovery_date": "2026-07-20",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -3027,7 +3055,7 @@
     },
     {
       "discovery_date": "2026-07-20",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -3087,7 +3115,7 @@
     },
     {
       "discovery_date": "2026-07-20",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -3147,7 +3175,7 @@
     },
     {
       "discovery_date": "2026-07-27",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -3207,7 +3235,7 @@
     },
     {
       "discovery_date": "2026-07-27",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -3267,7 +3295,7 @@
     },
     {
       "discovery_date": "2026-07-27",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -3327,7 +3355,7 @@
     },
     {
       "discovery_date": "2026-07-27",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -3387,7 +3415,7 @@
     },
     {
       "discovery_date": "2026-07-27",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -3447,7 +3475,7 @@
     },
     {
       "discovery_date": "2026-07-31",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -3506,7 +3534,7 @@
     },
     {
       "discovery_date": "2026-07-31",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -3565,7 +3593,7 @@
     },
     {
       "discovery_date": "2026-07-31",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -3624,7 +3652,7 @@
     },
     {
       "discovery_date": "2026-07-31",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -3683,7 +3711,7 @@
     },
     {
       "discovery_date": "2026-07-31",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -3742,7 +3770,7 @@
     },
     {
       "discovery_date": "2026-08-03",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -3801,7 +3829,7 @@
     },
     {
       "discovery_date": "2026-08-03",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -3860,7 +3888,7 @@
     },
     {
       "discovery_date": "2026-08-03",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -3919,7 +3947,7 @@
     },
     {
       "discovery_date": "2026-08-03",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -3978,7 +4006,7 @@
     },
     {
       "discovery_date": "2026-08-03",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -4037,7 +4065,7 @@
     },
     {
       "discovery_date": "2026-08-04",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -4098,7 +4126,7 @@
     },
     {
       "discovery_date": "2026-08-04",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -4159,7 +4187,7 @@
     },
     {
       "discovery_date": "2026-08-04",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -4220,7 +4248,7 @@
     },
     {
       "discovery_date": "2026-08-04",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -4281,7 +4309,7 @@
     },
     {
       "discovery_date": "2026-08-04",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -4342,7 +4370,7 @@
     },
     {
       "discovery_date": "2026-08-05",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -4402,7 +4430,7 @@
     },
     {
       "discovery_date": "2026-08-05",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -4462,7 +4490,7 @@
     },
     {
       "discovery_date": "2026-08-05",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -4522,7 +4550,7 @@
     },
     {
       "discovery_date": "2026-08-05",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -4582,7 +4610,7 @@
     },
     {
       "discovery_date": "2026-08-05",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -4642,7 +4670,7 @@
     },
     {
       "discovery_date": "2026-08-06",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -4703,7 +4731,7 @@
     },
     {
       "discovery_date": "2026-08-06",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -4764,7 +4792,7 @@
     },
     {
       "discovery_date": "2026-08-06",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -4825,7 +4853,7 @@
     },
     {
       "discovery_date": "2026-08-06",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -4886,7 +4914,7 @@
     },
     {
       "discovery_date": "2026-08-06",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -4947,7 +4975,7 @@
     },
     {
       "discovery_date": "2026-08-07",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -5007,7 +5035,7 @@
     },
     {
       "discovery_date": "2026-08-07",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -5067,7 +5095,7 @@
     },
     {
       "discovery_date": "2026-08-07",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -5127,7 +5155,7 @@
     },
     {
       "discovery_date": "2026-08-07",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -5187,7 +5215,7 @@
     },
     {
       "discovery_date": "2026-08-07",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -5247,7 +5275,7 @@
     },
     {
       "discovery_date": "2026-08-10",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -5307,7 +5335,7 @@
     },
     {
       "discovery_date": "2026-08-10",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -5367,7 +5395,7 @@
     },
     {
       "discovery_date": "2026-08-10",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -5427,7 +5455,7 @@
     },
     {
       "discovery_date": "2026-08-10",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -5487,7 +5515,7 @@
     },
     {
       "discovery_date": "2026-08-10",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -5547,7 +5575,7 @@
     },
     {
       "discovery_date": "2026-08-11",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -5608,7 +5636,7 @@
     },
     {
       "discovery_date": "2026-08-11",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -5669,7 +5697,7 @@
     },
     {
       "discovery_date": "2026-08-11",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -5730,7 +5758,7 @@
     },
     {
       "discovery_date": "2026-08-11",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -5791,7 +5819,7 @@
     },
     {
       "discovery_date": "2026-08-11",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -5852,7 +5880,7 @@
     },
     {
       "discovery_date": "2026-08-12",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -5913,7 +5941,7 @@
     },
     {
       "discovery_date": "2026-08-12",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -5974,7 +6002,7 @@
     },
     {
       "discovery_date": "2026-08-12",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -6035,7 +6063,7 @@
     },
     {
       "discovery_date": "2026-08-12",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -6096,7 +6124,7 @@
     },
     {
       "discovery_date": "2026-08-12",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -6157,7 +6185,7 @@
     },
     {
       "discovery_date": "2026-08-13",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -6217,7 +6245,7 @@
     },
     {
       "discovery_date": "2026-08-13",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -6277,7 +6305,7 @@
     },
     {
       "discovery_date": "2026-08-13",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -6337,7 +6365,7 @@
     },
     {
       "discovery_date": "2026-08-13",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -6397,7 +6425,7 @@
     },
     {
       "discovery_date": "2026-08-13",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -6457,7 +6485,7 @@
     },
     {
       "discovery_date": "2026-08-14",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -6517,7 +6545,7 @@
     },
     {
       "discovery_date": "2026-08-14",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -6577,7 +6605,7 @@
     },
     {
       "discovery_date": "2026-08-14",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -6637,7 +6665,7 @@
     },
     {
       "discovery_date": "2026-08-14",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -6697,7 +6725,7 @@
     },
     {
       "discovery_date": "2026-08-14",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -6757,7 +6785,7 @@
     },
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -6817,7 +6845,7 @@
     },
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -6877,7 +6905,7 @@
     },
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -6937,7 +6965,7 @@
     },
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -6997,7 +7025,7 @@
     },
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -7057,7 +7085,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -7118,7 +7146,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -7179,7 +7207,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -7240,7 +7268,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -7301,7 +7329,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -7362,7 +7390,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -7421,7 +7449,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -7480,7 +7508,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -7539,7 +7567,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -7598,7 +7626,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -7657,7 +7685,7 @@
     },
     {
       "discovery_date": "2026-08-20",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -7717,7 +7745,7 @@
     },
     {
       "discovery_date": "2026-08-20",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -7777,7 +7805,7 @@
     },
     {
       "discovery_date": "2026-08-20",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -7837,7 +7865,7 @@
     },
     {
       "discovery_date": "2026-08-20",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -7897,7 +7925,7 @@
     },
     {
       "discovery_date": "2026-08-20",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -7957,7 +7985,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -8016,7 +8044,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -8075,7 +8103,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -8134,7 +8162,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -8193,7 +8221,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -8252,7 +8280,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -8311,7 +8339,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -8370,7 +8398,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -8429,7 +8457,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -8488,7 +8516,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -8547,7 +8575,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -8606,7 +8634,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -8665,7 +8693,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -8724,7 +8752,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -8783,7 +8811,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -8842,7 +8870,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -8901,7 +8929,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -8960,7 +8988,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -9019,7 +9047,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -9078,7 +9106,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -9137,7 +9165,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -9196,7 +9224,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -9255,7 +9283,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -9314,7 +9342,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -9373,7 +9401,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -9432,7 +9460,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -9492,7 +9520,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -9552,7 +9580,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -9612,7 +9640,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -9672,7 +9700,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -9732,7 +9760,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -9792,7 +9820,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -9852,7 +9880,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -9912,7 +9940,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -9972,7 +10000,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -10032,7 +10060,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -10093,7 +10121,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -10154,7 +10182,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -10215,7 +10243,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -10276,7 +10304,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "AMZN",
       "company": "Amazon.com, Inc.",
@@ -10340,11 +10368,11 @@
     "count": 10,
     "latest": [
       {
-        "event_id": "AMZN_d480f59cc122ce63",
+        "event_id": "AMZN_c78ca29e95dd7a93",
         "ticker": "AMZN",
-        "published_at": "2026-09-04T23:04:19+00:00",
-        "title": "AWS Plans 2 Million More NVIDIA GPUs. Is This Better News for AMZN’s Cloud Growth or NVDA’s Backlog?",
-        "url": "https://finance.yahoo.com/technology/ai/articles/aws-plans-2-million-more-230419284.html",
+        "published_at": "2026-09-07T22:19:00+00:00",
+        "title": "Scene of Fatal Amazon Plane Crash in Miami Is ‘Devastating’",
+        "url": "https://www.barrons.com/articles/amazon-plane-crash-boeing-miami-airport-35c47fa3?siteid=yhoof2&yptr=yahoo",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -10352,11 +10380,11 @@
         "volume": null
       },
       {
-        "event_id": "AMZN_eeb7e9eea6c0ea77",
+        "event_id": "AMZN_ed68a19861251cdd",
         "ticker": "AMZN",
-        "published_at": "2026-09-04T22:15:19+00:00",
-        "title": "Sirius XM (SIRI) Stock Still Looks Cheap On Cash Flow And Earnings",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sirius-xm-siri-stock-still-221519102.html",
+        "published_at": "2026-09-07T21:54:15+00:00",
+        "title": "Amazon's 250-Flight Air Network Faces a Fatal Miami Investigation",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amazons-250-flight-air-network-215415583.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -10364,11 +10392,11 @@
         "volume": null
       },
       {
-        "event_id": "AMZN_c24a8d26fd2adf61",
+        "event_id": "AMZN_39eb0fd21105d92e",
         "ticker": "AMZN",
-        "published_at": "2026-09-04T22:02:51+00:00",
-        "title": "Exclusive-China's Xi seeks to bring large CEO delegation on US visit, sources say",
-        "url": "https://finance.yahoo.com/news/exclusive-chinas-xi-bring-large-104707459.html",
+        "published_at": "2026-09-07T21:46:01+00:00",
+        "title": "SoftBank Explodes 11.2% as AI Mania Roars Back Across Asia",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/softbank-explodes-11-2-ai-214601624.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -10376,11 +10404,11 @@
         "volume": null
       },
       {
-        "event_id": "AMZN_3f18b2103461788e",
+        "event_id": "AMZN_9e4be9b711563e44",
         "ticker": "AMZN",
-        "published_at": "2026-09-04T21:34:01+00:00",
-        "title": "David Tepper Sold 41% of His Micron Shares and It Is Still His Second-Biggest Holding",
-        "url": "https://www.fool.com/investing/2026/09/04/david-tepper-sold-41-of-his-micron-shares-and-it-is-still-his-second-biggest-holding/",
+        "published_at": "2026-09-07T21:25:21+00:00",
+        "title": "How a 64-Year-Old’s $1.2 Million in VOO Turned Into a $456,000 Bet on a Single Sector",
+        "url": "https://247wallst.com/investing/etf/2026/09/07/how-a-64-year-olds-1-2-million-in-voo-turned-into-a-456000-bet-on-a-single-sector/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -10388,11 +10416,11 @@
         "volume": null
       },
       {
-        "event_id": "AMZN_4e887a388ddc9efa",
+        "event_id": "AMZN_f04b602face26d4e",
         "ticker": "AMZN",
-        "published_at": "2026-09-04T21:23:29+00:00",
-        "title": "Own Oracle For The AI Boom? PTC's Story Looks Cleaner",
-        "url": "https://www.trefis.com/articles/614377/own-oracle-for-the-ai-boom-ptcs-story-looks-cleaner/2026-09-04",
+        "published_at": "2026-09-07T21:05:00+00:00",
+        "title": "Is Amazon Stock at $255 a Share an Obvious Buy Right Now?",
+        "url": "https://www.fool.com/investing/2026/09/07/is-amazon-stock-at-255-a-share-an-obvious-buy-r/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -10400,68 +10428,188 @@
         "volume": null
       },
       {
-        "event_id": "AMZN_fd5ed7bfb5a3ca8f",
+        "event_id": "AMZN_33c54f0d0f456671",
         "ticker": "AMZN",
-        "published_at": "2026-09-04T19:51:39+00:00",
-        "title": "Magnificent Seven Flash Strong Signal Never Seen Before",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/magnificent-seven-flash-strong-signal-195139729.html",
+        "published_at": "2026-09-07T19:26:52+00:00",
+        "title": "Nvidia, Microsoft at Center of $7 Trillion AI Boom",
+        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-microsoft-center-7-trillion-192652924.html",
         "source": "STORY",
-        "close_price": 258.510009765625,
-        "previous_close": 258.8999938964844,
-        "price_change_percent": -0.1506311858065558,
-        "volume": 29968655.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "AMZN_6f928150fb3093aa",
+        "event_id": "AMZN_cb79f906dd6caf82",
         "ticker": "AMZN",
-        "published_at": "2026-09-04T19:37:20+00:00",
-        "title": "Amazon's $100 Billion Anthropic Contract Gets a 45% Cheaper Engine",
-        "url": "https://finance.yahoo.com/technology/ai/articles/amazons-100-billion-anthropic-contract-193720942.html",
+        "published_at": "2026-09-07T16:42:00+00:00",
+        "title": "Why Does Amazon Trade at a Discount to Walmart and Costco? Here's the Only Answer That Makes Sense.",
+        "url": "https://www.fool.com/investing/2026/09/07/why-does-amazon-trade-at-a-discount-to-walmart-and/",
         "source": "STORY",
-        "close_price": 258.510009765625,
-        "previous_close": 258.8999938964844,
-        "price_change_percent": -0.1506311858065558,
-        "volume": 29968655.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "AMZN_76c9301758d2e3d3",
+        "event_id": "AMZN_0c8c295406e24104",
         "ticker": "AMZN",
-        "published_at": "2026-09-04T19:22:57+00:00",
-        "title": "3 REITs Getting Paid as Big Tech Builds Out AI",
-        "url": "https://247wallst.com/investing/2026/09/04/3-data-center-reits-collecting-rent-from-the-ai-buildout/",
+        "published_at": "2026-09-07T16:41:04+00:00",
+        "title": "The Real Satellite Race Isn’t About Rockets — It’s About Who Controls the Spectrum in Your Phone",
+        "url": "https://247wallst.com/investing/2026/09/07/the-real-satellite-race-isnt-about-rockets-its-about-who-controls-the-spectrum-in-your-phone/",
         "source": "STORY",
-        "close_price": 258.510009765625,
-        "previous_close": 258.8999938964844,
-        "price_change_percent": -0.1506311858065558,
-        "volume": 29968655.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "AMZN_40ecf6da4de02e28",
+        "event_id": "AMZN_f0b140c65b284d0e",
         "ticker": "AMZN",
-        "published_at": "2026-09-04T19:00:50+00:00",
-        "title": "Cramer Says the Magnificent Seven Are Finally Cheap and Most Investors Will Miss It",
-        "url": "https://247wallst.com/investing/2026/09/04/cramer-says-the-magnificent-seven-are-finally-cheap-and-most-investors-will-miss-it/",
+        "published_at": "2026-09-07T16:35:54+00:00",
+        "title": "IREN’s AI Pricing Is Exploding — Why the Neocloud’s $2.6 Billion Contract Base Could Scale Dramatically",
+        "url": "https://247wallst.com/investing/2026/09/07/irens-ai-pricing-is-exploding-why-the-neoclouds-2-6-billion-contract-base-could-scale-dramatically/",
         "source": "STORY",
-        "close_price": 258.510009765625,
-        "previous_close": 258.8999938964844,
-        "price_change_percent": -0.1506311858065558,
-        "volume": 29968655.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "AMZN_d2ed6026ea5b2b1b",
+        "event_id": "AMZN_bc3072f782fda12f",
         "ticker": "AMZN",
-        "published_at": "2026-09-04T15:44:00+00:00",
-        "title": "US diesel prices hit an all-time high — and it impacts you more than you might think",
-        "url": "https://finance.yahoo.com/video/us-diesel-prices-hit-time-154400398.html",
+        "published_at": "2026-09-07T11:00:00+00:00",
+        "title": "The real danger of black market peptides: Novo Nordisk CEO",
+        "url": "https://finance.yahoo.com/video/real-danger-black-market-peptides-110000226.html",
         "source": "VIDEO",
-        "close_price": 258.510009765625,
-        "previous_close": 258.8999938964844,
-        "price_change_percent": -0.1506311858065558,
-        "volume": 29968655.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       }
     ],
-    "history_count": 400,
+    "history_count": 410,
     "history": [
+      {
+        "event_id": "AMZN_c78ca29e95dd7a93",
+        "ticker": "AMZN",
+        "published_at": "2026-09-07T22:19:00+00:00",
+        "title": "Scene of Fatal Amazon Plane Crash in Miami Is ‘Devastating’",
+        "url": "https://www.barrons.com/articles/amazon-plane-crash-boeing-miami-airport-35c47fa3?siteid=yhoof2&yptr=yahoo",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AMZN_ed68a19861251cdd",
+        "ticker": "AMZN",
+        "published_at": "2026-09-07T21:54:15+00:00",
+        "title": "Amazon's 250-Flight Air Network Faces a Fatal Miami Investigation",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amazons-250-flight-air-network-215415583.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AMZN_39eb0fd21105d92e",
+        "ticker": "AMZN",
+        "published_at": "2026-09-07T21:46:01+00:00",
+        "title": "SoftBank Explodes 11.2% as AI Mania Roars Back Across Asia",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/softbank-explodes-11-2-ai-214601624.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AMZN_9e4be9b711563e44",
+        "ticker": "AMZN",
+        "published_at": "2026-09-07T21:25:21+00:00",
+        "title": "How a 64-Year-Old’s $1.2 Million in VOO Turned Into a $456,000 Bet on a Single Sector",
+        "url": "https://247wallst.com/investing/etf/2026/09/07/how-a-64-year-olds-1-2-million-in-voo-turned-into-a-456000-bet-on-a-single-sector/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AMZN_f04b602face26d4e",
+        "ticker": "AMZN",
+        "published_at": "2026-09-07T21:05:00+00:00",
+        "title": "Is Amazon Stock at $255 a Share an Obvious Buy Right Now?",
+        "url": "https://www.fool.com/investing/2026/09/07/is-amazon-stock-at-255-a-share-an-obvious-buy-r/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AMZN_33c54f0d0f456671",
+        "ticker": "AMZN",
+        "published_at": "2026-09-07T19:26:52+00:00",
+        "title": "Nvidia, Microsoft at Center of $7 Trillion AI Boom",
+        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-microsoft-center-7-trillion-192652924.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AMZN_cb79f906dd6caf82",
+        "ticker": "AMZN",
+        "published_at": "2026-09-07T16:42:00+00:00",
+        "title": "Why Does Amazon Trade at a Discount to Walmart and Costco? Here's the Only Answer That Makes Sense.",
+        "url": "https://www.fool.com/investing/2026/09/07/why-does-amazon-trade-at-a-discount-to-walmart-and/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AMZN_0c8c295406e24104",
+        "ticker": "AMZN",
+        "published_at": "2026-09-07T16:41:04+00:00",
+        "title": "The Real Satellite Race Isn’t About Rockets — It’s About Who Controls the Spectrum in Your Phone",
+        "url": "https://247wallst.com/investing/2026/09/07/the-real-satellite-race-isnt-about-rockets-its-about-who-controls-the-spectrum-in-your-phone/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AMZN_f0b140c65b284d0e",
+        "ticker": "AMZN",
+        "published_at": "2026-09-07T16:35:54+00:00",
+        "title": "IREN’s AI Pricing Is Exploding — Why the Neocloud’s $2.6 Billion Contract Base Could Scale Dramatically",
+        "url": "https://247wallst.com/investing/2026/09/07/irens-ai-pricing-is-exploding-why-the-neoclouds-2-6-billion-contract-base-could-scale-dramatically/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AMZN_bc3072f782fda12f",
+        "ticker": "AMZN",
+        "published_at": "2026-09-07T11:00:00+00:00",
+        "title": "The real danger of black market peptides: Novo Nordisk CEO",
+        "url": "https://finance.yahoo.com/video/real-danger-black-market-peptides-110000226.html",
+        "source": "VIDEO",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
       {
         "event_id": "AMZN_d480f59cc122ce63",
         "ticker": "AMZN",
@@ -15269,117 +15417,227 @@
     "latest": [
       {
         "ticker": "AMZN",
-        "title": "AWS Plans 2 Million More NVIDIA GPUs. Is This Better News for AMZN’s Cloud Growth or NVDA’s Backlog?",
-        "summary": "AWS and NVIDIA said on August 26 that Amazon’s cloud plans to deploy two million additional Blackwell Ultra, Rubin, and Rubin Ultra GPUs during 2027 and 2028. That follows an earlier plan for more than one million GPUs beginning in 2026 and includes NVIDIA networking, Vera CPUs, and 100,000 GPUs for U.S. government workloads. Amazon.com, […]",
-        "published_at": "2026-09-04T23:04:19+00:00",
-        "publisher": "Insider Monkey",
-        "url": "https://finance.yahoo.com/technology/ai/articles/aws-plans-2-million-more-230419284.html",
+        "title": "Scene of Fatal Amazon Plane Crash in Miami Is ‘Devastating’",
+        "summary": "The Boeing plane struck navigational devices, a Ford, a Toyota, and two fences before coming to rest in a Tesla robo-taxi station, the NTSB said. Five people died and several others were injured.",
+        "published_at": "2026-09-07T22:19:00+00:00",
+        "publisher": "Barrons.com",
+        "url": "https://www.barrons.com/articles/amazon-plane-crash-boeing-miami-airport-35c47fa3?siteid=yhoof2&yptr=yahoo",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "AMZN",
-        "title": "Sirius XM (SIRI) Stock Still Looks Cheap On Cash Flow And Earnings",
-        "summary": "Sirius XM Holdings has surged 45.1% year to date, yet several valuation checks still point to the stock trading below an estimate of its intrinsic value. Both a Discounted Cash Flow (DCF) intrinsic value estimate and earnings based multiples suggest the current share price does not fully reflect those valuation signals. The 45.1% year to date gain highlights how quickly sentiment around Sirius XM Holdings has improved, which can make fresh valuation work especially important for new money...",
-        "published_at": "2026-09-04T22:15:19+00:00",
-        "publisher": "Simply Wall St.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sirius-xm-siri-stock-still-221519102.html",
+        "title": "Amazon's 250-Flight Air Network Faces a Fatal Miami Investigation",
+        "summary": "One contractor-operated aircraft represents limited capacity, but the crash creates a major safety and oversight test.",
+        "published_at": "2026-09-07T21:54:15+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amazons-250-flight-air-network-215415583.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "AMZN",
-        "title": "Exclusive-China's Xi seeks to bring large CEO delegation on US visit, sources say",
-        "summary": "By Laurie Chen and Eduardo Baptista BEIJING, Sept 4 (Reuters) - President Xi Jinping is preparing a large business delegation to accompany him on his visit to Washington, two sources said, an unusual",
-        "published_at": "2026-09-04T22:02:51+00:00",
-        "publisher": "Reuters",
-        "url": "https://finance.yahoo.com/news/exclusive-chinas-xi-bring-large-104707459.html",
+        "title": "SoftBank Explodes 11.2% as AI Mania Roars Back Across Asia",
+        "summary": "The rally rewards SoftBank's concentrated AI strategy while increasing the return demanded from its $30 billion OpenAI commitment.",
+        "published_at": "2026-09-07T21:46:01+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/softbank-explodes-11-2-ai-214601624.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "AMZN",
-        "title": "David Tepper Sold 41% of His Micron Shares and It Is Still His Second-Biggest Holding",
-        "summary": "The hedge fund manager sold into a 242% quarter. The more telling number is the size of the stake he kept.",
-        "published_at": "2026-09-04T21:34:01+00:00",
+        "title": "How a 64-Year-Old’s $1.2 Million in VOO Turned Into a $456,000 Bet on a Single Sector",
+        "summary": "A $1.2 million position in Vanguard's most popular S&P 500 fund looks like broad diversification until you open the shareholder report and see where most of that money actually sits. For a 64-year-old counting on this portfolio for the next 30 years, the sector breakdown changes the risk calculation entirely.",
+        "published_at": "2026-09-07T21:25:21+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/etf/2026/09/07/how-a-64-year-olds-1-2-million-in-voo-turned-into-a-456000-bet-on-a-single-sector/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "Is Amazon Stock at $255 a Share an Obvious Buy Right Now?",
+        "summary": "The stock's valuation has plunged, but massive AI spending may have given some investors pause.",
+        "published_at": "2026-09-07T21:05:00+00:00",
         "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/09/04/david-tepper-sold-41-of-his-micron-shares-and-it-is-still-his-second-biggest-holding/",
+        "url": "https://www.fool.com/investing/2026/09/07/is-amazon-stock-at-255-a-share-an-obvious-buy-r/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "AMZN",
-        "title": "Own Oracle For The AI Boom? PTC's Story Looks Cleaner",
-        "summary": "Both software players are riding the AI wave, but PTC offers a clearer forward path with stronger growth and profitability, while Oracle asks investors to fund a massive, costly buildout.",
-        "published_at": "2026-09-04T21:23:29+00:00",
-        "publisher": "Trefis",
-        "url": "https://www.trefis.com/articles/614377/own-oracle-for-the-ai-boom-ptcs-story-looks-cleaner/2026-09-04",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "AMZN",
-        "title": "Magnificent Seven Flash Strong Signal Never Seen Before",
-        "summary": "A historic split challenges the market's most powerful leadership trade",
-        "published_at": "2026-09-04T19:51:39+00:00",
+        "title": "Nvidia, Microsoft at Center of $7 Trillion AI Boom",
+        "summary": "An unprecedented construction wave could reshape AI's biggest stock-market winners",
+        "published_at": "2026-09-07T19:26:52+00:00",
         "publisher": "GuruFocus.com",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/magnificent-seven-flash-strong-signal-195139729.html",
+        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-microsoft-center-7-trillion-192652924.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "AMZN",
-        "title": "Amazon's $100 Billion Anthropic Contract Gets a 45% Cheaper Engine",
-        "summary": "Claude Fable 5.1 could improve customer economics while deepening AWS's exposure to one rapidly evolving model supplier.",
-        "published_at": "2026-09-04T19:37:20+00:00",
-        "publisher": "GuruFocus.com",
-        "url": "https://finance.yahoo.com/technology/ai/articles/amazons-100-billion-anthropic-contract-193720942.html",
+        "title": "Why Does Amazon Trade at a Discount to Walmart and Costco? Here's the Only Answer That Makes Sense.",
+        "summary": "The majority of investors are thinking defensively. They just may be thinking more defensively than is merited.",
+        "published_at": "2026-09-07T16:42:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/09/07/why-does-amazon-trade-at-a-discount-to-walmart-and/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "AMZN",
-        "title": "3 REITs Getting Paid as Big Tech Builds Out AI",
-        "summary": "Hyperscalers are signing multi-year leases at a pace that is rewriting the income playbook, and three REITs are quietly collecting the rent on every server warehouse in the deal. The question is which one fits a portfolio built for the long haul.",
-        "published_at": "2026-09-04T19:22:57+00:00",
+        "title": "The Real Satellite Race Isn’t About Rockets — It’s About Who Controls the Spectrum in Your Phone",
+        "summary": "The satellite race everyone is watching plays out on launchpads, but the contest that determines who profits runs through a far less visible battlefield: the radio frequencies fighting to reach the phone in your pocket.",
+        "published_at": "2026-09-07T16:41:04+00:00",
         "publisher": "24/7 Wall St.",
-        "url": "https://247wallst.com/investing/2026/09/04/3-data-center-reits-collecting-rent-from-the-ai-buildout/",
+        "url": "https://247wallst.com/investing/2026/09/07/the-real-satellite-race-isnt-about-rockets-its-about-who-controls-the-spectrum-in-your-phone/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "AMZN",
-        "title": "Cramer Says the Magnificent Seven Are Finally Cheap and Most Investors Will Miss It",
-        "summary": "Jim Cramer is calling the Magnificent Seven a generational buying opportunity, but the argument only holds for some of them, and getting that distinction wrong is an expensive mistake.",
-        "published_at": "2026-09-04T19:00:50+00:00",
+        "title": "IREN’s AI Pricing Is Exploding — Why the Neocloud’s $2.6 Billion Contract Base Could Scale Dramatically",
+        "summary": "A single pricing figure buried in IREN's latest earnings report suggests the neocloud's existing contract book may be dramatically undervalued relative to what customers are willing to pay right now.",
+        "published_at": "2026-09-07T16:35:54+00:00",
         "publisher": "24/7 Wall St.",
-        "url": "https://247wallst.com/investing/2026/09/04/cramer-says-the-magnificent-seven-are-finally-cheap-and-most-investors-will-miss-it/",
+        "url": "https://247wallst.com/investing/2026/09/07/irens-ai-pricing-is-exploding-why-the-neoclouds-2-6-billion-contract-base-could-scale-dramatically/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "AMZN",
-        "title": "US diesel prices hit an all-time high — and it impacts you more than you might think",
-        "summary": "US diesel prices hit a new high, with the current average sitting at $5.85 per gallon, according to AAA. Yahoo Finance Breaking Business News Reporter Jake Conley explains what's going on under the hood and highlights why diesel prices actually affect most Americans.",
-        "published_at": "2026-09-04T15:44:00+00:00",
+        "title": "The real danger of black market peptides: Novo Nordisk CEO",
+        "summary": "Yahoo Finance Executive Editor Brian Sozzi chats with Novo Nordisk CEO Mike Doustdar about the alarming rise of untested, black-market peptides being pushed by influencers online.",
+        "published_at": "2026-09-07T11:00:00+00:00",
         "publisher": "Yahoo Finance Video",
-        "url": "https://finance.yahoo.com/video/us-diesel-prices-hit-time-154400398.html",
+        "url": "https://finance.yahoo.com/video/real-danger-black-market-peptides-110000226.html",
         "language": null,
         "source": "VIDEO",
         "related_tickers": null
       }
     ],
-    "history_count": 395,
+    "history_count": 405,
     "history": [
+      {
+        "ticker": "AMZN",
+        "title": "Scene of Fatal Amazon Plane Crash in Miami Is ‘Devastating’",
+        "summary": "The Boeing plane struck navigational devices, a Ford, a Toyota, and two fences before coming to rest in a Tesla robo-taxi station, the NTSB said. Five people died and several others were injured.",
+        "published_at": "2026-09-07T22:19:00+00:00",
+        "publisher": "Barrons.com",
+        "url": "https://www.barrons.com/articles/amazon-plane-crash-boeing-miami-airport-35c47fa3?siteid=yhoof2&yptr=yahoo",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "Amazon's 250-Flight Air Network Faces a Fatal Miami Investigation",
+        "summary": "One contractor-operated aircraft represents limited capacity, but the crash creates a major safety and oversight test.",
+        "published_at": "2026-09-07T21:54:15+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amazons-250-flight-air-network-215415583.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "SoftBank Explodes 11.2% as AI Mania Roars Back Across Asia",
+        "summary": "The rally rewards SoftBank's concentrated AI strategy while increasing the return demanded from its $30 billion OpenAI commitment.",
+        "published_at": "2026-09-07T21:46:01+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/softbank-explodes-11-2-ai-214601624.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "How a 64-Year-Old’s $1.2 Million in VOO Turned Into a $456,000 Bet on a Single Sector",
+        "summary": "A $1.2 million position in Vanguard's most popular S&P 500 fund looks like broad diversification until you open the shareholder report and see where most of that money actually sits. For a 64-year-old counting on this portfolio for the next 30 years, the sector breakdown changes the risk calculation entirely.",
+        "published_at": "2026-09-07T21:25:21+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/etf/2026/09/07/how-a-64-year-olds-1-2-million-in-voo-turned-into-a-456000-bet-on-a-single-sector/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "Is Amazon Stock at $255 a Share an Obvious Buy Right Now?",
+        "summary": "The stock's valuation has plunged, but massive AI spending may have given some investors pause.",
+        "published_at": "2026-09-07T21:05:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/09/07/is-amazon-stock-at-255-a-share-an-obvious-buy-r/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "Nvidia, Microsoft at Center of $7 Trillion AI Boom",
+        "summary": "An unprecedented construction wave could reshape AI's biggest stock-market winners",
+        "published_at": "2026-09-07T19:26:52+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-microsoft-center-7-trillion-192652924.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "Why Does Amazon Trade at a Discount to Walmart and Costco? Here's the Only Answer That Makes Sense.",
+        "summary": "The majority of investors are thinking defensively. They just may be thinking more defensively than is merited.",
+        "published_at": "2026-09-07T16:42:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/09/07/why-does-amazon-trade-at-a-discount-to-walmart-and/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "The Real Satellite Race Isn’t About Rockets — It’s About Who Controls the Spectrum in Your Phone",
+        "summary": "The satellite race everyone is watching plays out on launchpads, but the contest that determines who profits runs through a far less visible battlefield: the radio frequencies fighting to reach the phone in your pocket.",
+        "published_at": "2026-09-07T16:41:04+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/09/07/the-real-satellite-race-isnt-about-rockets-its-about-who-controls-the-spectrum-in-your-phone/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "IREN’s AI Pricing Is Exploding — Why the Neocloud’s $2.6 Billion Contract Base Could Scale Dramatically",
+        "summary": "A single pricing figure buried in IREN's latest earnings report suggests the neocloud's existing contract book may be dramatically undervalued relative to what customers are willing to pay right now.",
+        "published_at": "2026-09-07T16:35:54+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/09/07/irens-ai-pricing-is-exploding-why-the-neoclouds-2-6-billion-contract-base-could-scale-dramatically/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AMZN",
+        "title": "The real danger of black market peptides: Novo Nordisk CEO",
+        "summary": "Yahoo Finance Executive Editor Brian Sozzi chats with Novo Nordisk CEO Mike Doustdar about the alarming rise of untested, black-market peptides being pushed by influencers online.",
+        "published_at": "2026-09-07T11:00:00+00:00",
+        "publisher": "Yahoo Finance Video",
+        "url": "https://finance.yahoo.com/video/real-danger-black-market-peptides-110000226.html",
+        "language": null,
+        "source": "VIDEO",
+        "related_tickers": null
+      },
       {
         "ticker": "AMZN",
         "title": "AWS Plans 2 Million More NVIDIA GPUs. Is This Better News for AMZN’s Cloud Growth or NVDA’s Backlog?",
@@ -19732,8 +19990,8 @@
     "discovery": "Medium"
   },
   "SignalStrength": {
-    "scoring": "Strong",
-    "discovery": "Strong"
+    "scoring": "Moderate",
+    "discovery": "Moderate"
   },
-  "Timestamp": "2026-09-04T19:36:23.014234-04:00"
+  "Timestamp": "2026-09-07T19:53:44.701653-04:00"
 }

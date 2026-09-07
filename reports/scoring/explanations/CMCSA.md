@@ -152,8 +152,8 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': 0.21, '3M': 4.69, '6M': 15.16, '1Y': 19.97}
 - excess_returns: {'1M': 5.03, '3M': 8.03, '6M': -30.03, '1Y': -32.68}
-- latest_volume: 17,276,672.0000
-- average_volume_30d: 24,185,449.0667
+- latest_volume: 17,277,600.0000
+- average_volume_30d: 24,185,480.0000
 
 ## News
 

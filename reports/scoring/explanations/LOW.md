@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Lowe's Companies, Inc.
-- Total Score: 52 / 100
+- Total Score: 49 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 52 点を獲得し、シグナル充足率は 52.0% です。
+- データが確認できた 100 点満点のうち 49 点を獲得し、シグナル充足率は 49.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -110,9 +110,9 @@ Evidence
 
 使用データ
 
-- trailing_pe: 17.2823
-- forward_pe: 15.6528
-- peg_ratio: 1.3600
+- trailing_pe: 17.2677
+- forward_pe: 15.6798
+- peg_ratio: 1.3800
 - price_to_book: -15.4220
 - sector_peer_count: 10
 - trailing_pe_percentile: 0
@@ -150,18 +150,18 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': 0.21, '3M': 4.69, '6M': 15.16, '1Y': 19.97}
 - excess_returns: {'1M': -6.6, '3M': -7.08, '6M': -33.1, '1Y': -41.1}
-- latest_volume: 2,432,988.0000
-- average_volume_30d: 2,983,016.2667
+- latest_volume: 2,436,100.0000
+- average_volume_30d: 2,983,120.0000
 
 ## News
 
-15点
+12点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が 0.91% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 2 件(純比率 -0.33)で、センチメントは 2.7 点です。
+- イベント後の平均株価反応が 1.26% とプラスです。
 
 Evidence
 
@@ -172,11 +172,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 2
-- negative_count: 0
-- sentiment_net_ratio: 1.0000
+- positive_count: 1
+- negative_count: 2
+- sentiment_net_ratio: -0.3300
 - event_count: 10
-- events_with_price_reaction: 9
+- events_with_price_reaction: 6
 
 ## Note
 

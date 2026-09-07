@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-09-04T23:29:01+00:00 / NKE / Motley Fool: Nike CEO Sells Over 9,000 Company Shares Amid a Declining Stock Price
-- 2026-09-04T23:10:34+00:00 / MSFT / Insider Monkey: ChronoScale Says It Plans a 50 MW Microsoft AI Deployment. Can CHRN Fund the Build Without Diluting Shareholders?
-- 2026-09-04T23:10:34+00:00 / NVDA / Insider Monkey: ChronoScale Says It Plans a 50 MW Microsoft AI Deployment. Can CHRN Fund the Build Without Diluting Shareholders?
-- 2026-09-04T23:05:55+00:00 / MSFT / Simply Wall St.: What Will Microsoft (MSFT) Reveal With Its New AI And Cloud Reporting?
-- 2026-09-04T23:04:19+00:00 / NVDA / Insider Monkey: AWS Plans 2 Million More NVIDIA GPUs. Is This Better News for AMZN’s Cloud Growth or NVDA’s Backlog?
+- 2026-09-07T23:05:00+00:00 / NVDA / Motley Fool: Wall Street Investment Firm Bernstein Thinks Bitcoin Could Hit $300,000 by 2029. Is Bitcoin Now a 投資判断表現?
+- 2026-09-07T23:00:00+00:00 / META / TheStreet: Bank of America sends wake-up call to Meta stock investors
+- 2026-09-07T22:51:26+00:00 / NVDA / Motley Fool: Why UWM Holdings Stock Dived by 20% Last Month
+- 2026-09-07T22:35:00+00:00 / GOOGL / Motley Fool: Warren Buffett Told CNBC 'I Initiated It' About Berkshire's Alphabet Bet, and New Reporting Says He's Still Calling the Shots on Stocks. Here's What That Means for Reading Greg Abel's Tenure.
+- 2026-09-07T22:19:00+00:00 / AMZN / Barrons.com: Scene of Fatal Amazon Plane Crash in Miami Is ‘Devastating’
 
 ### 注目イベント
 
-- 2026-09-04T19:42:28+00:00 / ADBE: DocuSign IAM Platform Needs to Show Clearer Proof of 'More Meaningful' Contribution to Growth, Morgan Stanley Says (株価反応: -6.73%, 出来高: 6.58M)
-- 2026-09-04T19:22:07+00:00 / ADBE: Adobe Stock Sinks After Company Names Insider as New CEO (株価反応: -6.73%, 出来高: 6.58M)
-- 2026-09-04T18:44:02+00:00 / ADBE: Is Autodesk Stock's Pullback A Foundation To Build On? (株価反応: -6.73%, 出来高: 6.58M)
-- 2026-09-04T13:58:28+00:00 / ADBE: Adobe appoints new CEO to succeed Narayen in December (株価反応: -6.73%, 出来高: 6.58M)
-- 2026-09-03T19:30:04+00:00 / NOW: ServiceNow Just Rallied 28% in a Month: Take Profits, or 投資判断表現 More? (株価反応: 6.49%, 出来高: 18.17M)
+- 2026-09-04T17:04:21+00:00 / AMAT: Memory, Other AI-Related Stocks Lead the Market’s Top Performers Friday (株価反応: 4.31%, 出来高: 6.01M)
+- 2026-09-03T23:08:36+00:00 / AMAT: Can Applied Materials (AMAT) Still Look Cheap After A 237% Run? (株価反応: 4.31%, 出来高: 6.01M)
+- 2026-09-03T20:14:53+00:00 / AMAT: Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth? (株価反応: 4.31%, 出来高: 6.01M)
+- 2026-09-04T15:30:21+00:00 / NOW: Why Is Dynatrace (DT) Up 8% Since Last Earnings Report? (株価反応: -2.97%, 出来高: 12.49M)
+- 2026-09-04T14:40:00+00:00 / NOW: Software Stocks Are Back. 2 Winners, 2 Losers—and Salesforce. (株価反応: -2.97%, 出来高: 12.49M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 56.00 | 19.00 | 11.20 | 2.11% | 60 |
-| Consumer Cyclical | 6 | 51.17 | 70.74 | 9.01 | -3.75% | 60 |
-| Technology | 12 | 65.83 | 42.78 | 9.09 | 3.98% | 120 |
+| Communication Services | 6 | 56.00 | 19.00 | 11.20 | 2.12% | 60 |
+| Consumer Cyclical | 6 | 49.67 | 70.25 | 9.01 | -3.75% | 60 |
+| Technology | 12 | 65.50 | 42.78 | 9.09 | 3.98% | 120 |
 
 ## 市場トレンド
 

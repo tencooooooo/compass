@@ -11,16 +11,16 @@
     "enterprise_value": 1371672805376,
     "shares_outstanding": 3949547394,
     "beta": 1.845,
-    "trailing_pe": 324.84402,
+    "trailing_pe": 321.8909,
     "forward_pe": 164.03375,
-    "peg_ratio": 4.26,
+    "peg_ratio": 4.23,
     "price_to_book": 16.098204,
-    "eps": 1.09,
+    "eps": 1.1,
     "forward_eps": 2.15858,
     "dividend_yield": null,
     "52_week_high": 498.83,
     "52_week_low": 297.38,
-    "average_volume": 41798398,
+    "average_volume": 41827363,
     "employees": 134785,
     "website": "https://www.tesla.com",
     "business_summary": "Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive; and Energy Generation and Storage. The company offers electric vehicles, as well as sells automotive regulatory credits; and non-warranty maintenance services and collision, automotive insurance services, as well as part sales and retail merchandise sale. It also provides sedans and sport utility vehicles through direct and used vehicle sales, a network of Tesla Superchargers, and in-app upgrades; purchase financing and leasing services; services for electric vehicles through its company-owned service locations and Tesla mobile service technicians; and vehicle limited warranties and extended service plans. In addition, the company engages in the design, manufacture, installation, sale, and leasing of solar energy generation and energy storage products, and related services to residential, commercial, and industrial customers and utilities through its website, stores, and galleries, as well as through a network of channel partners. Further, it provides services and repairs to its energy product customers, including under warranty and extended service plans; and various financing options to its residential customers; lithium-ion battery energy storage products, such as Powerwall and Megapack; energy generation products, including solar panels and solar roof; self-driving development and artificial intelligence software, vehicle control and infotainment software, and battery and powertrain. The company was formerly known as Tesla Motors, Inc. and changed its name to Tesla, Inc. in February 2017. Tesla, Inc. was incorporated in 2003 and is headquartered in Austin, Texas."
@@ -1057,29 +1057,54 @@
         "scoring": "Moderate",
         "discovery": "Moderate"
       }
+    },
+    {
+      "date": "2026-09-07",
+      "timestamp": "2026-09-07T19:53:44.701653-04:00",
+      "score": 53,
+      "discovery_score": 52,
+      "discovery_status": "Not Selected",
+      "validation_results": {
+        "Excellent": 1,
+        "Good": 0,
+        "Neutral": 0,
+        "Poor": 9,
+        "Pending": 20
+      },
+      "event_count": 10,
+      "news_count": 10,
+      "confidence": {
+        "scoring": "Medium",
+        "discovery": "Medium"
+      },
+      "signal_strength": {
+        "scoring": "Moderate",
+        "discovery": "Moderate"
+      }
     }
   ],
   "Scores": {
     "ticker": "TSLA",
     "company_name": "Tesla, Inc.",
-    "total_score": 51,
+    "total_score": 53,
     "max_score": 100,
     "confidence": {
-      "level": "High",
-      "completeness_score": 100,
+      "level": "Medium",
+      "completeness_score": 95.0,
       "reasons": [
         "利用可能な主要データ領域は5領域中 5 領域です。",
-        "欠損または計算不可の項目数は 0 件です。",
-        "主要データが比較的そろっており、説明可能性は高めです。",
+        "欠損または計算不可の項目数は 1 件です。",
+        "主要データは一定程度ありますが、欠損や未取得項目が残っています。",
+        "イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。",
         "Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。"
       ]
     },
     "signal_strength": {
       "level": "Moderate",
-      "signal_rate": 51.0,
+      "signal_rate": 53.0,
       "evaluated_max_score": 100,
       "reasons": [
-        "データが確認できた 100 点満点のうち 51 点を獲得し、シグナル充足率は 51.0% です。",
+        "データが確認できた 100 点満点のうち 53 点を獲得し、シグナル充足率は 53.0% です。",
         "シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。"
       ]
     },
@@ -1165,9 +1190,9 @@
         ],
         "missing_data": [],
         "metrics": {
-          "trailing_pe": 324.84402,
+          "trailing_pe": 321.8909,
           "forward_pe": 164.03375,
-          "peg_ratio": 4.26,
+          "peg_ratio": 4.23,
           "price_to_book": 16.098204,
           "sector_peer_count": 10,
           "trailing_pe_percentile": 100,
@@ -1213,31 +1238,33 @@
             "6M": -25.91,
             "1Y": -15.37
           },
-          "latest_volume": 64559388.0,
-          "average_volume_30d": 37415339.6
+          "latest_volume": 64829000.0,
+          "average_volume_30d": 37424326.666666664
         }
       },
       "News": {
-        "score": 8,
+        "score": 10,
         "max_score": 20,
         "reasons": [
           "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-          "ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 4 件(純比率 +0.00)で、センチメントは 4.0 点です。",
-          "イベント後の平均株価反応が -5.92% と弱く、注意が必要です。"
+          "ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 2 件(純比率 +0.20)で、センチメントは 4.8 点です。",
+          "イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。"
         ],
         "evidence": [
           "News",
           "Events",
           "Knowledge"
         ],
-        "missing_data": [],
+        "missing_data": [
+          "event_price_reaction"
+        ],
         "metrics": {
           "news_count": 10,
-          "positive_count": 4,
-          "negative_count": 4,
-          "sentiment_net_ratio": 0.0,
+          "positive_count": 3,
+          "negative_count": 2,
+          "sentiment_net_ratio": 0.2,
           "event_count": 10,
-          "events_with_price_reaction": 1
+          "events_with_price_reaction": 0
         }
       }
     },
@@ -1255,13 +1282,13 @@
     "company": "Tesla, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Auto Manufacturers",
-    "discovery_score": 51,
+    "discovery_score": 52,
     "max_score": 100,
     "status": "Not Selected",
     "discovery_reasons": [
       "Scoring EngineのGrowthが 12/20 で、成長性の基礎条件が確認できます。",
       "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
-      "Newsスコアが 8/20 で、材料の量と市場関心を候補評価に反映しています。",
+      "Newsスコアが 10/20 で、材料の量と市場関心を候補評価に反映しています。",
       "売上が取得でき、事業規模の確認ができます。",
       "EPSがプラスで、利益を伴う成長候補として確認できます。",
       "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -1277,17 +1304,17 @@
     ],
     "watch_points": [
       "バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。",
-      "注意材料になり得るニュース表現が 4 件あります。",
-      "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+      "注意材料になり得るニュース表現が 2 件あります。",
+      "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
       "Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
       "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
       "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
       "Consumer Cyclical セクター全体の需要変化と競争環境を確認する必要があります。",
       "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。"
     ],
-    "confidence": "High",
+    "confidence": "Medium",
     "signal_strength": "Moderate",
-    "signal_rate": 51.2,
+    "signal_rate": 55.0,
     "evidence": [
       "Company",
       "Events",
@@ -1298,17 +1325,19 @@
       "Prices",
       "Scoring"
     ],
-    "missing_data": [],
+    "missing_data": [
+      "event_price_reaction"
+    ],
     "metrics": {
-      "scoring_total": 51.0,
-      "signal_earned_points": 51.2,
-      "signal_max_points": 100.0,
+      "scoring_total": 53.0,
+      "signal_earned_points": 52.25,
+      "signal_max_points": 95.0,
       "weak_signals": [],
       "scoring_signal_strength": "Moderate",
       "growth_score": 12.0,
       "financial_health_score": 20.0,
       "valuation_score": 3.0,
-      "news_score": 8.0,
+      "news_score": 10.0,
       "momentum": {
         "1m": 10.81275245672092,
         "3m": -9.442458677169917,
@@ -1322,17 +1351,17 @@
         "6m": -25.91,
         "1y": -15.37
       },
-      "positive_news": 4,
-      "watch_news": 4,
+      "positive_news": 3,
+      "watch_news": 2,
       "event_count": 10,
-      "events_with_reaction": 1,
-      "sector_average_score": 51.166666666666664
+      "events_with_reaction": 0,
+      "sector_average_score": 49.666666666666664
     }
   },
   "Validation": [
     {
       "discovery_date": "2026-07-01",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -1379,7 +1408,7 @@
     },
     {
       "discovery_date": "2026-07-01",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -1426,7 +1455,7 @@
     },
     {
       "discovery_date": "2026-07-01",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -1473,7 +1502,7 @@
     },
     {
       "discovery_date": "2026-07-01",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -1520,7 +1549,7 @@
     },
     {
       "discovery_date": "2026-07-01",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -1567,7 +1596,7 @@
     },
     {
       "discovery_date": "2026-07-02",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -1614,7 +1643,7 @@
     },
     {
       "discovery_date": "2026-07-02",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -1661,7 +1690,7 @@
     },
     {
       "discovery_date": "2026-07-02",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -1708,7 +1737,7 @@
     },
     {
       "discovery_date": "2026-07-02",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -1755,7 +1784,7 @@
     },
     {
       "discovery_date": "2026-07-02",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -1802,7 +1831,7 @@
     },
     {
       "discovery_date": "2026-07-06",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -1849,7 +1878,7 @@
     },
     {
       "discovery_date": "2026-07-06",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -1896,7 +1925,7 @@
     },
     {
       "discovery_date": "2026-07-06",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -1943,7 +1972,7 @@
     },
     {
       "discovery_date": "2026-07-06",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -1990,7 +2019,7 @@
     },
     {
       "discovery_date": "2026-07-06",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -2037,7 +2066,7 @@
     },
     {
       "discovery_date": "2026-07-09",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -2084,7 +2113,7 @@
     },
     {
       "discovery_date": "2026-07-09",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -2131,7 +2160,7 @@
     },
     {
       "discovery_date": "2026-07-09",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -2178,7 +2207,7 @@
     },
     {
       "discovery_date": "2026-07-09",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -2225,7 +2254,7 @@
     },
     {
       "discovery_date": "2026-07-09",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -2272,7 +2301,7 @@
     },
     {
       "discovery_date": "2026-07-10",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -2319,7 +2348,7 @@
     },
     {
       "discovery_date": "2026-07-10",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -2366,7 +2395,7 @@
     },
     {
       "discovery_date": "2026-07-10",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -2413,7 +2442,7 @@
     },
     {
       "discovery_date": "2026-07-10",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -2460,7 +2489,7 @@
     },
     {
       "discovery_date": "2026-07-10",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -2507,7 +2536,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1m",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -2567,7 +2596,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1w",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -2627,7 +2656,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "1y",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -2687,7 +2716,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "3m",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -2747,7 +2776,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-09-04",
+      "validation_date": "2026-09-07",
       "period": "6m",
       "ticker": "TSLA",
       "company": "Tesla, Inc.",
@@ -2810,11 +2839,11 @@
     "count": 10,
     "latest": [
       {
-        "event_id": "TSLA_0fb498e650dd5891",
+        "event_id": "TSLA_d2846c580e9d1ad1",
         "ticker": "TSLA",
-        "published_at": "2026-09-04T22:41:01+00:00",
-        "title": "Tesla Launched the Cybercab Thursday, 6 Weeks After Removing Volume Production of It From This Year's Plan",
-        "url": "https://www.fool.com/investing/2026/09/04/tesla-launched-the-cybercab-thursday-6-weeks-after-removing-volume-production-of-it-from-this-year-s-plan/",
+        "published_at": "2026-09-07T20:59:00+00:00",
+        "title": "Crypto Investors Rotate From Bitcoin Into Altcoins as Rate Risks Rise",
+        "url": "https://www.cryptoprowl.com/releases/crypto-investors-rotate-from-bitcoin-into-altcoins-as-rate-risks-rise-6956",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -2822,11 +2851,11 @@
         "volume": null
       },
       {
-        "event_id": "TSLA_b31cf8dd0415520d",
+        "event_id": "TSLA_560382b8d5d3a8a3",
         "ticker": "TSLA",
-        "published_at": "2026-09-04T22:18:49+00:00",
-        "title": "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-end-lower-as-blowout-jobs-report-fans-rate-hike-fears-while-chipmaker-strength-aids-nasdaq-tsla-nflx-be-nvda-in-focus/cZsDjVKRJDg",
+        "published_at": "2026-09-07T19:12:00+00:00",
+        "title": "Goldman Sachs Delivers Stark Message on Tesla Stock",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-delivers-stark-message-191200543.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -2834,11 +2863,11 @@
         "volume": null
       },
       {
-        "event_id": "TSLA_f18958f071604976",
+        "event_id": "TSLA_80a443c4526aeff5",
         "ticker": "TSLA",
-        "published_at": "2026-09-04T21:50:01+00:00",
-        "title": "From Launch Party to Federal Probe: What Went Wrong With Tesla's Cybercab in 24 Hours",
-        "url": "https://www.fool.com/investing/2026/09/04/from-launch-party-to-federal-probe-what-went-wrong-with-teslas-cybercab-in-24-hours/",
+        "published_at": "2026-09-07T19:09:59+00:00",
+        "title": "Cybercab Could Transform Tesla, But Regulatory Risks Loom",
+        "url": "https://finance.yahoo.com/technology/articles/cybercab-could-transform-tesla-regulatory-190959675.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -2846,11 +2875,11 @@
         "volume": null
       },
       {
-        "event_id": "TSLA_ae9073a64f00afcc",
+        "event_id": "TSLA_c9c6b5eabcb61f1e",
         "ticker": "TSLA",
-        "published_at": "2026-09-04T21:48:20+00:00",
-        "title": "Stocks to Watch Recap: Tesla, Lululemon, AMC, Volkswagen",
-        "url": "https://www.wsj.com/livecoverage/august-jobs-report-stock-market-09-04-2026/card/stocks-to-watch-volkswagen-lululemon-amc-hckSUh7fSpTgHLWgPDdS?siteid=yhoof2&yptr=yahoo",
+        "published_at": "2026-09-07T17:54:00+00:00",
+        "title": "Is Tesla Stock Under $360 a Share an Obvious Buy in September?",
+        "url": "https://www.fool.com/investing/2026/09/07/is-tesla-stock-under-360-a-share-an-obvious-buy-in/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -2858,11 +2887,11 @@
         "volume": null
       },
       {
-        "event_id": "TSLA_97939cf08ff1652f",
+        "event_id": "TSLA_0bc6d6e3ada2795c",
         "ticker": "TSLA",
-        "published_at": "2026-09-04T21:45:03+00:00",
-        "title": "Tesla (TSLA) Falls More Steeply Than Broader Market: What Investors Need to Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-falls-more-steeply-214503558.html",
+        "published_at": "2026-09-07T17:35:03+00:00",
+        "title": "Billionaire has 5-word response to Elon Musk's Tesla chart",
+        "url": "https://www.thestreet.com/crypto/markets/billionaire-has-5-word-response-to-elon-musks-tesla-chart",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -2870,11 +2899,11 @@
         "volume": null
       },
       {
-        "event_id": "TSLA_6a97e028b55444ec",
+        "event_id": "TSLA_81915dfc2a2df8ea",
         "ticker": "TSLA",
-        "published_at": "2026-09-04T21:23:35+00:00",
-        "title": "Why Did Tesla Stock Fall Today?",
-        "url": "https://www.fool.com/investing/2026/09/04/why-did-tesla-stock-fall-today/",
+        "published_at": "2026-09-07T17:07:00+00:00",
+        "title": "Elon Musk Owns 28% of Tesla, a Stake Worth Nearly $350 Billion. Here's Why His Ownership Level Matters for Shareholders.",
+        "url": "https://www.fool.com/investing/2026/09/07/elon-musk-owns-tesla-stake-worth-billion-stock/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -2882,11 +2911,11 @@
         "volume": null
       },
       {
-        "event_id": "TSLA_4bce79b4f480dadc",
+        "event_id": "TSLA_950389c2cce0a19e",
         "ticker": "TSLA",
-        "published_at": "2026-09-04T21:17:45+00:00",
-        "title": "Stock Market Today, Sept. 4: Tesla Falls After Cybercab Launch Disappoints Investors",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/09/04/stock-market-today-sept-4-tesla-falls-after-cybercab-launch-disappoints-investors/",
+        "published_at": "2026-09-07T17:00:20+00:00",
+        "title": "Tesla Plus SpaceX Could Become a ‘Must-Have’ Investment, Ross Gerber Says",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-plus-spacex-could-become-170020766.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -2894,11 +2923,11 @@
         "volume": null
       },
       {
-        "event_id": "TSLA_94024bfc3f024e82",
+        "event_id": "TSLA_aeebb8f0cfb504b9",
         "ticker": "TSLA",
-        "published_at": "2026-09-04T21:01:57+00:00",
-        "title": "Volkswagen Targets 10% Margin by 2030 With €135B Plan, 50,000 Job Cuts",
-        "url": "https://www.marketbeat.com/instant-alerts/event-volkswagen-targets-10-margin-by-2030-with-135b-plan-50000-job-cuts-2026-09-04/?utm_source=yahoofinance&utm_medium=yahoofinance",
+        "published_at": "2026-09-07T15:49:16+00:00",
+        "title": "Tesla Stock Is Tumbling -- Robotaxi Hopes Hit a Major Roadblock",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-tumbling-robotaxi-hopes-154916600.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -2906,32 +2935,152 @@
         "volume": null
       },
       {
-        "event_id": "TSLA_c192f5ef480a1a9a",
+        "event_id": "TSLA_fad59c8689414a94",
         "ticker": "TSLA",
-        "published_at": "2026-09-04T20:16:02+00:00",
-        "title": "No steering wheel, no problem: Can Tesla speed by Cybercab probe?",
-        "url": "https://finance.yahoo.com/video/no-steering-wheel-no-problem-201602999.html",
-        "source": "VIDEO",
+        "published_at": "2026-09-07T14:43:26+00:00",
+        "title": "Tesla Says This Time Is Different. Wall Street Is Split on Whether to Believe It",
+        "url": "https://247wallst.com/investing/2026/09/07/tesla-says-this-time-is-different-wall-street-is-split-on-whether-to-believe-it/",
+        "source": "STORY",
         "close_price": null,
         "previous_close": null,
         "price_change_percent": null,
         "volume": null
       },
       {
-        "event_id": "TSLA_f6fec8fc139f16c9",
+        "event_id": "TSLA_65aea44ec2c7ef4e",
         "ticker": "TSLA",
-        "published_at": "2026-09-04T12:00:00+00:00",
-        "title": "Are Meta and Nvidia redefining value vs. growth stocks in the era of AI?",
-        "url": "https://finance.yahoo.com/video/are-meta-and-nvidia-redefining-value-vs-growth-stocks-in-the-era-of-ai-120000681.html",
-        "source": "VIDEO",
-        "close_price": 354.0799865722656,
-        "previous_close": 376.3699951171875,
-        "price_change_percent": -5.922365978717725,
-        "volume": 64559388.0
+        "published_at": "2026-09-07T13:14:39+00:00",
+        "title": "Meta Is Underperforming Every Trillion-Dollar Stock but Tesla. This Trade Pays You While Wall Street Waits It Out.",
+        "url": "https://www.barchart.com/story/news/4474528/meta-is-underperforming-every-trillion-dollar-stock-but-tesla-this-trade-pays-you-while-wall-street-waits-it-out",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       }
     ],
-    "history_count": 400,
+    "history_count": 410,
     "history": [
+      {
+        "event_id": "TSLA_d2846c580e9d1ad1",
+        "ticker": "TSLA",
+        "published_at": "2026-09-07T20:59:00+00:00",
+        "title": "Crypto Investors Rotate From Bitcoin Into Altcoins as Rate Risks Rise",
+        "url": "https://www.cryptoprowl.com/releases/crypto-investors-rotate-from-bitcoin-into-altcoins-as-rate-risks-rise-6956",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "TSLA_560382b8d5d3a8a3",
+        "ticker": "TSLA",
+        "published_at": "2026-09-07T19:12:00+00:00",
+        "title": "Goldman Sachs Delivers Stark Message on Tesla Stock",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-delivers-stark-message-191200543.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "TSLA_80a443c4526aeff5",
+        "ticker": "TSLA",
+        "published_at": "2026-09-07T19:09:59+00:00",
+        "title": "Cybercab Could Transform Tesla, But Regulatory Risks Loom",
+        "url": "https://finance.yahoo.com/technology/articles/cybercab-could-transform-tesla-regulatory-190959675.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "TSLA_c9c6b5eabcb61f1e",
+        "ticker": "TSLA",
+        "published_at": "2026-09-07T17:54:00+00:00",
+        "title": "Is Tesla Stock Under $360 a Share an Obvious Buy in September?",
+        "url": "https://www.fool.com/investing/2026/09/07/is-tesla-stock-under-360-a-share-an-obvious-buy-in/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "TSLA_0bc6d6e3ada2795c",
+        "ticker": "TSLA",
+        "published_at": "2026-09-07T17:35:03+00:00",
+        "title": "Billionaire has 5-word response to Elon Musk's Tesla chart",
+        "url": "https://www.thestreet.com/crypto/markets/billionaire-has-5-word-response-to-elon-musks-tesla-chart",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "TSLA_81915dfc2a2df8ea",
+        "ticker": "TSLA",
+        "published_at": "2026-09-07T17:07:00+00:00",
+        "title": "Elon Musk Owns 28% of Tesla, a Stake Worth Nearly $350 Billion. Here's Why His Ownership Level Matters for Shareholders.",
+        "url": "https://www.fool.com/investing/2026/09/07/elon-musk-owns-tesla-stake-worth-billion-stock/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "TSLA_950389c2cce0a19e",
+        "ticker": "TSLA",
+        "published_at": "2026-09-07T17:00:20+00:00",
+        "title": "Tesla Plus SpaceX Could Become a ‘Must-Have’ Investment, Ross Gerber Says",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-plus-spacex-could-become-170020766.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "TSLA_aeebb8f0cfb504b9",
+        "ticker": "TSLA",
+        "published_at": "2026-09-07T15:49:16+00:00",
+        "title": "Tesla Stock Is Tumbling -- Robotaxi Hopes Hit a Major Roadblock",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-tumbling-robotaxi-hopes-154916600.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "TSLA_fad59c8689414a94",
+        "ticker": "TSLA",
+        "published_at": "2026-09-07T14:43:26+00:00",
+        "title": "Tesla Says This Time Is Different. Wall Street Is Split on Whether to Believe It",
+        "url": "https://247wallst.com/investing/2026/09/07/tesla-says-this-time-is-different-wall-street-is-split-on-whether-to-believe-it/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "TSLA_65aea44ec2c7ef4e",
+        "ticker": "TSLA",
+        "published_at": "2026-09-07T13:14:39+00:00",
+        "title": "Meta Is Underperforming Every Trillion-Dollar Stock but Tesla. This Trade Pays You While Wall Street Waits It Out.",
+        "url": "https://www.barchart.com/story/news/4474528/meta-is-underperforming-every-trillion-dollar-stock-but-tesla-this-trade-pays-you-while-wall-street-waits-it-out",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
       {
         "event_id": "TSLA_0fb498e650dd5891",
         "ticker": "TSLA",
@@ -7739,117 +7888,227 @@
     "latest": [
       {
         "ticker": "TSLA",
-        "title": "Tesla Launched the Cybercab Thursday, 6 Weeks After Removing Volume Production of It From This Year's Plan",
-        "summary": "Riders in Austin can now hail the two-seater. The company's own July letter says batteries still set the pace.",
-        "published_at": "2026-09-04T22:41:01+00:00",
+        "title": "Crypto Investors Rotate From Bitcoin Into Altcoins as Rate Risks Rise",
+        "summary": "Crypto investors are moving into altcoins and away from Bitcoin (CRYPTO: $BTC) as markets prepare for a potentially...",
+        "published_at": "2026-09-07T20:59:00+00:00",
+        "publisher": "CryptoProwl",
+        "url": "https://www.cryptoprowl.com/releases/crypto-investors-rotate-from-bitcoin-into-altcoins-as-rate-risks-rise-6956",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "TSLA",
+        "title": "Goldman Sachs Delivers Stark Message on Tesla Stock",
+        "summary": "Tesla's Cybercab Faces a Major Test: Goldman Says AI Execution Matters More Than Low Vehicle Costs",
+        "published_at": "2026-09-07T19:12:00+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-delivers-stark-message-191200543.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "TSLA",
+        "title": "Cybercab Could Transform Tesla, But Regulatory Risks Loom",
+        "summary": "Tesla, Inc. (NASDAQ:TSLA) has started offering paid rides in its new Cybercab robotaxi on a limited basis in Austin, Texas. The two-seat vehicle is built to operate without a steering wheel, pedals, or traditional mirrors, setting it apart from Tesla’s existing Model Y-based robotaxis. The launch marks an important step in Elon Musk’s broader plan […]",
+        "published_at": "2026-09-07T19:09:59+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/technology/articles/cybercab-could-transform-tesla-regulatory-190959675.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "TSLA",
+        "title": "Is Tesla Stock Under $360 a Share an Obvious Buy in September?",
+        "summary": "The stock has fallen by more than 20% this year, but still maintains a market cap of around $1.4 trillion and a lofty valuation.",
+        "published_at": "2026-09-07T17:54:00+00:00",
         "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/09/04/tesla-launched-the-cybercab-thursday-6-weeks-after-removing-volume-production-of-it-from-this-year-s-plan/",
+        "url": "https://www.fool.com/investing/2026/09/07/is-tesla-stock-under-360-a-share-an-obvious-buy-in/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "TSLA",
-        "title": "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus",
-        "summary": "Nonfarm payrolls grew by 162,000 in August, while the unemployment rate held steady at 4.1%.",
-        "published_at": "2026-09-04T22:18:49+00:00",
-        "publisher": "Stocktwits",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-end-lower-as-blowout-jobs-report-fans-rate-hike-fears-while-chipmaker-strength-aids-nasdaq-tsla-nflx-be-nvda-in-focus/cZsDjVKRJDg",
+        "title": "Billionaire has 5-word response to Elon Musk's Tesla chart",
+        "summary": "A viral performance chart prompted the billionaire to weigh in on one of the market’s biggest success stories.",
+        "published_at": "2026-09-07T17:35:03+00:00",
+        "publisher": "TheStreet",
+        "url": "https://www.thestreet.com/crypto/markets/billionaire-has-5-word-response-to-elon-musks-tesla-chart",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "TSLA",
-        "title": "From Launch Party to Federal Probe: What Went Wrong With Tesla's Cybercab in 24 Hours",
-        "summary": "The much-anticipated launch led to a share price plunge.",
-        "published_at": "2026-09-04T21:50:01+00:00",
+        "title": "Elon Musk Owns 28% of Tesla, a Stake Worth Nearly $350 Billion. Here's Why His Ownership Level Matters for Shareholders.",
+        "summary": "Tesla investors know it's often \"all about Elon,\" and there are pros and cons to Musk's sizable stake in the electric vehicle giant.",
+        "published_at": "2026-09-07T17:07:00+00:00",
         "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/09/04/from-launch-party-to-federal-probe-what-went-wrong-with-teslas-cybercab-in-24-hours/",
+        "url": "https://www.fool.com/investing/2026/09/07/elon-musk-owns-tesla-stake-worth-billion-stock/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "TSLA",
-        "title": "Stocks to Watch Recap: Tesla, Lululemon, AMC, Volkswagen",
-        "summary": "↘️ Tesla (TSLA): The electric-vehicle maker’s shares dropped 5.9%. Federal regulators have opened an investigation into the company and its steering-wheel-free Cybercab to determine whether it complies with safety standards.",
-        "published_at": "2026-09-04T21:48:20+00:00",
-        "publisher": "The Wall Street Journal",
-        "url": "https://www.wsj.com/livecoverage/august-jobs-report-stock-market-09-04-2026/card/stocks-to-watch-volkswagen-lululemon-amc-hckSUh7fSpTgHLWgPDdS?siteid=yhoof2&yptr=yahoo",
+        "title": "Tesla Plus SpaceX Could Become a ‘Must-Have’ Investment, Ross Gerber Says",
+        "summary": "Tesla Inc. and Space Exploration Technologies Corp. remain two of Elon Musk’s most closely watched businesses as investors weigh their different growth opportunities, overlapping technologies and the possibility that the companies could eventually combine. Ross Gerber, President and CEO of...",
+        "published_at": "2026-09-07T17:00:20+00:00",
+        "publisher": "Benzinga",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-plus-spacex-could-become-170020766.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "TSLA",
-        "title": "Tesla (TSLA) Falls More Steeply Than Broader Market: What Investors Need to Know",
-        "summary": "Tesla (TSLA) concluded the recent trading session at $354.08, signifying a -5.92% move from its prior day's close.",
-        "published_at": "2026-09-04T21:45:03+00:00",
-        "publisher": "Zacks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-falls-more-steeply-214503558.html",
+        "title": "Tesla Stock Is Tumbling -- Robotaxi Hopes Hit a Major Roadblock",
+        "summary": "Tesla's $1.4 Trillion Valuation Faces a Test as Cathie Wood Bets Big on Robotaxis",
+        "published_at": "2026-09-07T15:49:16+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-tumbling-robotaxi-hopes-154916600.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "TSLA",
-        "title": "Why Did Tesla Stock Fall Today?",
-        "summary": "Tesla shares sank 6% on Sept. 4, 2026, after a lackluster Cybercab unveiling met fresh regulatory scrutiny.",
-        "published_at": "2026-09-04T21:23:35+00:00",
-        "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/09/04/why-did-tesla-stock-fall-today/",
+        "title": "Tesla Says This Time Is Different. Wall Street Is Split on Whether to Believe It",
+        "summary": "Tesla posted record deliveries and 25% revenue growth in the same quarter it missed earnings by nearly 40% and burned over a billion in free cash flow. Wall Street cannot agree on which number tells the real story.",
+        "published_at": "2026-09-07T14:43:26+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/09/07/tesla-says-this-time-is-different-wall-street-is-split-on-whether-to-believe-it/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "TSLA",
-        "title": "Stock Market Today, Sept. 4: Tesla Falls After Cybercab Launch Disappoints Investors",
-        "summary": "Today, Sept. 4, 2026, the electric vehicle maker's stock dropped 5.92% following its private Austin event, which left key autonomy questions unanswered.",
-        "published_at": "2026-09-04T21:17:45+00:00",
-        "publisher": "Motley Fool",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/09/04/stock-market-today-sept-4-tesla-falls-after-cybercab-launch-disappoints-investors/",
+        "title": "Meta Is Underperforming Every Trillion-Dollar Stock but Tesla. This Trade Pays You While Wall Street Waits It Out.",
+        "summary": "Down about 6% in 2026, Meta trails every trillion-dollar peer except Tesla. Here's a bear call spread built to profit from the next 41 days of caution.",
+        "published_at": "2026-09-07T13:14:39+00:00",
+        "publisher": "Barchart",
+        "url": "https://www.barchart.com/story/news/4474528/meta-is-underperforming-every-trillion-dollar-stock-but-tesla-this-trade-pays-you-while-wall-street-waits-it-out",
         "language": null,
         "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "TSLA",
-        "title": "Volkswagen Targets 10% Margin by 2030 With €135B Plan, 50,000 Job Cuts",
-        "summary": "Volkswagen (ETR:VOW3) said its Supervisory Board has unanimously approved the Group Target Picture 2030, a broad transformation plan aimed at improving profitability, reducing complexity and reshaping its production, technology and organizational footprint. Chief Executive Officer Oliver Blume said",
-        "published_at": "2026-09-04T21:01:57+00:00",
-        "publisher": "MarketBeat",
-        "url": "https://www.marketbeat.com/instant-alerts/event-volkswagen-targets-10-margin-by-2030-with-135b-plan-50000-job-cuts-2026-09-04/?utm_source=yahoofinance&utm_medium=yahoofinance",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "TSLA",
-        "title": "No steering wheel, no problem: Can Tesla speed by Cybercab probe?",
-        "summary": "Federal investigators have opened an investigation into whether Tesla's (TSLA) new Cybercabs comply with federal safety standards, just as the company begins testing its service in Austin, Texas.  Market Domination host Josh Lipton is joined by Tom Narayan, RBC Capital Markets lead equity analyst for global autos, to discuss if the investigation jeopardizes the rollout and how Tesla is also trying to avoid an \"Apple Maps moment.\"",
-        "published_at": "2026-09-04T20:16:02+00:00",
-        "publisher": "Yahoo Finance Video",
-        "url": "https://finance.yahoo.com/video/no-steering-wheel-no-problem-201602999.html",
-        "language": null,
-        "source": "VIDEO",
-        "related_tickers": null
-      },
-      {
-        "ticker": "TSLA",
-        "title": "Are Meta and Nvidia redefining value vs. growth stocks in the era of AI?",
-        "summary": "WisdomTree Global chief investment officer Jeremy Schwartz joins Market Catalyst's host Julie Hyman to explain why Meta (META) and Nvidia (NVDA) are leading the Magnificent Seven as growth stocks.",
-        "published_at": "2026-09-04T12:00:00+00:00",
-        "publisher": "Yahoo Finance Video",
-        "url": "https://finance.yahoo.com/video/are-meta-and-nvidia-redefining-value-vs-growth-stocks-in-the-era-of-ai-120000681.html",
-        "language": null,
-        "source": "VIDEO",
         "related_tickers": null
       }
     ],
-    "history_count": 398,
+    "history_count": 408,
     "history": [
+      {
+        "ticker": "TSLA",
+        "title": "Crypto Investors Rotate From Bitcoin Into Altcoins as Rate Risks Rise",
+        "summary": "Crypto investors are moving into altcoins and away from Bitcoin (CRYPTO: $BTC) as markets prepare for a potentially...",
+        "published_at": "2026-09-07T20:59:00+00:00",
+        "publisher": "CryptoProwl",
+        "url": "https://www.cryptoprowl.com/releases/crypto-investors-rotate-from-bitcoin-into-altcoins-as-rate-risks-rise-6956",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "TSLA",
+        "title": "Goldman Sachs Delivers Stark Message on Tesla Stock",
+        "summary": "Tesla's Cybercab Faces a Major Test: Goldman Says AI Execution Matters More Than Low Vehicle Costs",
+        "published_at": "2026-09-07T19:12:00+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-delivers-stark-message-191200543.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "TSLA",
+        "title": "Cybercab Could Transform Tesla, But Regulatory Risks Loom",
+        "summary": "Tesla, Inc. (NASDAQ:TSLA) has started offering paid rides in its new Cybercab robotaxi on a limited basis in Austin, Texas. The two-seat vehicle is built to operate without a steering wheel, pedals, or traditional mirrors, setting it apart from Tesla’s existing Model Y-based robotaxis. The launch marks an important step in Elon Musk’s broader plan […]",
+        "published_at": "2026-09-07T19:09:59+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/technology/articles/cybercab-could-transform-tesla-regulatory-190959675.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "TSLA",
+        "title": "Is Tesla Stock Under $360 a Share an Obvious Buy in September?",
+        "summary": "The stock has fallen by more than 20% this year, but still maintains a market cap of around $1.4 trillion and a lofty valuation.",
+        "published_at": "2026-09-07T17:54:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/09/07/is-tesla-stock-under-360-a-share-an-obvious-buy-in/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "TSLA",
+        "title": "Billionaire has 5-word response to Elon Musk's Tesla chart",
+        "summary": "A viral performance chart prompted the billionaire to weigh in on one of the market’s biggest success stories.",
+        "published_at": "2026-09-07T17:35:03+00:00",
+        "publisher": "TheStreet",
+        "url": "https://www.thestreet.com/crypto/markets/billionaire-has-5-word-response-to-elon-musks-tesla-chart",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "TSLA",
+        "title": "Elon Musk Owns 28% of Tesla, a Stake Worth Nearly $350 Billion. Here's Why His Ownership Level Matters for Shareholders.",
+        "summary": "Tesla investors know it's often \"all about Elon,\" and there are pros and cons to Musk's sizable stake in the electric vehicle giant.",
+        "published_at": "2026-09-07T17:07:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/09/07/elon-musk-owns-tesla-stake-worth-billion-stock/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "TSLA",
+        "title": "Tesla Plus SpaceX Could Become a ‘Must-Have’ Investment, Ross Gerber Says",
+        "summary": "Tesla Inc. and Space Exploration Technologies Corp. remain two of Elon Musk’s most closely watched businesses as investors weigh their different growth opportunities, overlapping technologies and the possibility that the companies could eventually combine. Ross Gerber, President and CEO of...",
+        "published_at": "2026-09-07T17:00:20+00:00",
+        "publisher": "Benzinga",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-plus-spacex-could-become-170020766.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "TSLA",
+        "title": "Tesla Stock Is Tumbling -- Robotaxi Hopes Hit a Major Roadblock",
+        "summary": "Tesla's $1.4 Trillion Valuation Faces a Test as Cathie Wood Bets Big on Robotaxis",
+        "published_at": "2026-09-07T15:49:16+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-tumbling-robotaxi-hopes-154916600.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "TSLA",
+        "title": "Tesla Says This Time Is Different. Wall Street Is Split on Whether to Believe It",
+        "summary": "Tesla posted record deliveries and 25% revenue growth in the same quarter it missed earnings by nearly 40% and burned over a billion in free cash flow. Wall Street cannot agree on which number tells the real story.",
+        "published_at": "2026-09-07T14:43:26+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/09/07/tesla-says-this-time-is-different-wall-street-is-split-on-whether-to-believe-it/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "TSLA",
+        "title": "Meta Is Underperforming Every Trillion-Dollar Stock but Tesla. This Trade Pays You While Wall Street Waits It Out.",
+        "summary": "Down about 6% in 2026, Meta trails every trillion-dollar peer except Tesla. Here's a bear call spread built to profit from the next 41 days of caution.",
+        "published_at": "2026-09-07T13:14:39+00:00",
+        "publisher": "Barchart",
+        "url": "https://www.barchart.com/story/news/4474528/meta-is-underperforming-every-trillion-dollar-stock-but-tesla-this-trade-pays-you-while-wall-street-waits-it-out",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
       {
         "ticker": "TSLA",
         "title": "Tesla Launched the Cybercab Thursday, 6 Weeks After Removing Volume Production of It From This Year's Plan",
@@ -12231,12 +12490,12 @@
     ]
   },
   "Confidence": {
-    "scoring": "High",
-    "discovery": "High"
+    "scoring": "Medium",
+    "discovery": "Medium"
   },
   "SignalStrength": {
     "scoring": "Moderate",
     "discovery": "Moderate"
   },
-  "Timestamp": "2026-09-04T19:36:23.014234-04:00"
+  "Timestamp": "2026-09-07T19:53:44.701653-04:00"
 }

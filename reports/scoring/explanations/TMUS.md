@@ -111,9 +111,9 @@ Evidence
 
 使用データ
 
-- trailing_pe: 19.0073
+- trailing_pe: 18.9676
 - forward_pe: 12.5719
-- peg_ratio: 0.6600
+- peg_ratio: 0.6400
 - price_to_book: 3.4676
 - sector_peer_count: 10
 - trailing_pe_percentile: 55.5600
@@ -146,13 +146,13 @@ Evidence
 
 - 1M: 1.4434
 - 3M: 2.5085
-- 6M: -17.1556
+- 6M: -17.1557
 - 1Y: -26.4816
 - benchmark: SPY
 - benchmark_returns: {'1M': 0.21, '3M': 4.69, '6M': 15.16, '1Y': 19.97}
 - excess_returns: {'1M': 1.23, '3M': -2.19, '6M': -32.31, '1Y': -46.45}
-- latest_volume: 4,489,292.0000
-- average_volume_30d: 4,446,503.0667
+- latest_volume: 4,509,800.0000
+- average_volume_30d: 4,447,186.6667
 
 ## News
 
@@ -162,7 +162,7 @@ Evidence
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
 - ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が 0.54% と中立圏です。
+- イベント後の平均株価反応が 0.38% と中立圏です。
 
 Evidence
 
@@ -177,7 +177,7 @@ Evidence
 - negative_count: 0
 - sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 10
+- events_with_price_reaction: 6
 
 ## Note
 

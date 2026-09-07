@@ -107,9 +107,9 @@ Evidence
 
 使用データ
 
-- trailing_pe: 39.3364
+- trailing_pe: 39.2170
 - forward_pe: 24.2784
-- peg_ratio: 0.9000
+- peg_ratio: 0.9200
 - price_to_book: 13.1035
 - sector_peer_count: 16
 - trailing_pe_percentile: 78.5700
@@ -131,7 +131,7 @@ Evidence
 - 3M の対SPY超過リターンは -13.57pt と、市場を大きく下回っています。
 - 6M の対SPY超過リターンが +19.96pt と、市場を大きく上回っています。
 - 1Y の対SPY超過リターンが +21.60pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.66 倍で、市場関心はやや弱めです。
+- 直近出来高が30日平均の 0.67 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -147,8 +147,8 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': 0.21, '3M': 4.69, '6M': 15.16, '1Y': 19.97}
 - excess_returns: {'1M': -7.38, '3M': -13.57, '6M': 19.96, '1Y': 21.6}
-- latest_volume: 4,231,822.0000
-- average_volume_30d: 6,369,564.0667
+- latest_volume: 4,242,600.0000
+- average_volume_30d: 6,369,923.3333
 
 ## News
 

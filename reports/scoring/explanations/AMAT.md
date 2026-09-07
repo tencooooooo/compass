@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Applied Materials, Inc.
-- Total Score: 69 / 100
+- Total Score: 74 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 69 点を獲得し、シグナル充足率は 69.0% です。
+- データが確認できた 100 点満点のうち 74 点を獲得し、シグナル充足率は 74.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -110,7 +110,7 @@ Evidence
 
 - trailing_pe: 39.1991
 - forward_pe: 24.6391
-- peg_ratio: 0.8700
+- peg_ratio: 0.9000
 - price_to_book: 14.0816
 - sector_peer_count: 16
 - trailing_pe_percentile: 71.4300
@@ -124,7 +124,7 @@ Evidence
 
 ## Momentum
 
-10点
+12点
 
 理由
 
@@ -132,7 +132,7 @@ Evidence
 - 3M の対SPY超過リターンは -4.21pt と、市場を小幅に下回っています。
 - 6M の対SPY超過リターンが +25.19pt と、市場を大きく上回っています。
 - 1Y の対SPY超過リターンが +168.98pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.80 倍で、市場関心はやや弱めです。
+- 直近出来高が30日平均の 0.80 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -148,18 +148,18 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': 0.21, '3M': 4.69, '6M': 15.16, '1Y': 19.97}
 - excess_returns: {'1M': -13.92, '3M': -4.21, '6M': 25.19, '1Y': 168.98}
-- latest_volume: 5,985,911.0000
-- average_volume_30d: 7,482,663.7000
+- latest_volume: 6,009,400.0000
+- average_volume_30d: 7,483,446.6667
 
 ## News
 
-13点
+16点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 1 件(純比率 +0.60)で、センチメントは 6.4 点です。
-- イベント後の平均株価反応が 0.51% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 1 件(純比率 +0.67)で、センチメントは 6.7 点です。
+- イベント後の平均株価反応が 1.46% とプラスです。
 
 Evidence
 
@@ -170,11 +170,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 4
+- positive_count: 5
 - negative_count: 1
-- sentiment_net_ratio: 0.6000
+- sentiment_net_ratio: 0.6700
 - event_count: 10
-- events_with_price_reaction: 10
+- events_with_price_reaction: 7
 
 ## Note
 

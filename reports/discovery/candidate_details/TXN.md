@@ -80,4 +80,4 @@ Strong(シグナル充足率: 79.3%)
 - watch_news: 0
 - event_count: 10
 - events_with_reaction: 8
-- sector_average_score: 65.83333333333333
+- sector_average_score: 65.5

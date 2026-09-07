@@ -10,7 +10,7 @@
 
 ## Discovery Score
 
-61 / 100
+60 / 100
 
 ## Discovery Reasons
 
@@ -34,7 +34,7 @@
 ## Watch Points
 
 - バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。
-- 注意材料になり得るニュース表現が 2 件あります。
+- 注意材料になり得るニュース表現が 1 件あります。
 - Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
@@ -48,7 +48,7 @@ Medium
 
 ## Signal Strength
 
-Moderate(シグナル充足率: 64.47%)
+Moderate(シグナル充足率: 63.68%)
 
 ## Evidence
 
@@ -68,7 +68,7 @@ Moderate(シグナル充足率: 64.47%)
 ## Metrics
 
 - scoring_total: 55.0
-- signal_earned_points: 61.25
+- signal_earned_points: 60.5
 - signal_max_points: 95.0
 - weak_signals: []
 - scoring_signal_strength: Moderate
@@ -76,11 +76,11 @@ Moderate(シグナル充足率: 64.47%)
 - financial_health_score: 12.0
 - valuation_score: 3.0
 - news_score: 10.0
-- momentum: {'1m': 2.508224785715613, '3m': 4.199244323256484, '6m': 24.50129550598355, '1y': 33.93609905018316}
+- momentum: {'1m': 2.508224785715613, '3m': 4.199244323256484, '6m': 24.50129550598355, '1y': 33.93610760490962}
 - benchmark: SPY
 - excess_momentum: {'1m': 2.3, '3m': -0.5, '6m': 9.35, '1y': 13.97}
-- positive_news: 3
-- watch_news: 2
+- positive_news: 2
+- watch_news: 1
 - event_count: 10
 - events_with_reaction: 0
-- sector_average_score: 65.83333333333333
+- sector_average_score: 65.5

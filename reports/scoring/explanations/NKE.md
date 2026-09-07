@@ -17,8 +17,9 @@ Medium
 理由
 
 - 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 1 件です。
+- 欠損または計算不可の項目数は 2 件です。
 - 主要データは一定程度ありますが、欠損や未取得項目が残っています。
+- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
@@ -112,7 +113,7 @@ Evidence
 
 - trailing_pe: 18.2857
 - forward_pe: 16.7603
-- peg_ratio: 1.5000
+- peg_ratio: 1.4900
 - price_to_book: 3.8308
 - sector_peer_count: 10
 - trailing_pe_percentile: 11.1100
@@ -126,7 +127,7 @@ Evidence
 
 ## Momentum
 
-2点
+4点
 
 理由
 
@@ -134,7 +135,7 @@ Evidence
 - 3M の対SPY超過リターンは -14.40pt と、市場を大きく下回っています。
 - 6M の対SPY超過リターンは -46.48pt と、市場を大きく下回っています。
 - 1Y の対SPY超過リターンは -67.32pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.79 倍で、市場関心はやや弱めです。
+- 直近出来高が30日平均の 0.81 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -150,18 +151,18 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': 0.21, '3M': 4.69, '6M': 15.16, '1Y': 19.97}
 - excess_returns: {'1M': -7.81, '3M': -14.4, '6M': -46.48, '1Y': -67.32}
-- latest_volume: 20,178,773.0000
-- average_volume_30d: 25,392,465.7667
+- latest_volume: 20,604,300.0000
+- average_volume_30d: 25,406,650.0000
 
 ## News
 
-7点
+5点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 0 件、悪材料 3 件(純比率 -1.00)で、センチメントは 0.0 点です。
-- イベント後の平均株価反応が -0.95% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 0 件、悪材料 2 件(純比率 -1.00)で、センチメントは 0.0 点です。
+- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
 
 Evidence
 
@@ -173,10 +174,14 @@ Evidence
 
 - news_count: 10
 - positive_count: 0
-- negative_count: 3
+- negative_count: 2
 - sentiment_net_ratio: -1.0000
 - event_count: 10
-- events_with_price_reaction: 8
+- events_with_price_reaction: 0
+
+欠損・計算不可
+
+- event_price_reaction
 
 ## Note
 
