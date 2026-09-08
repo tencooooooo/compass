@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Applied Materials, Inc.
-- Total Score: 74 / 100
+- Total Score: 70 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 74 点を獲得し、シグナル充足率は 74.0% です。
+- データが確認できた 100 点満点のうち 70 点を獲得し、シグナル充足率は 70.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -91,11 +91,11 @@ Evidence
 
 ## Valuation
 
-9点
+6点
 
 理由
 
-- PER はセクター内 71.43 パーセンタイル / 母数 15 で、中位レンジです。
+- PER はセクター内 78.57 パーセンタイル / 母数 15 で、相対的な加点は抑えています。
 - Forward PER はセクター内 73.33 パーセンタイル / 母数 16 で、中位レンジです。
 - PEG はセクター内 43.33 パーセンタイル / 母数 16 で、中位レンジです。
 - PBR はセクター内 80.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
@@ -108,12 +108,12 @@ Evidence
 
 使用データ
 
-- trailing_pe: 39.1991
-- forward_pe: 24.6391
+- trailing_pe: 40.7578
+- forward_pe: 25.5952
 - peg_ratio: 0.9000
-- price_to_book: 14.0816
+- price_to_book: 14.6415
 - sector_peer_count: 16
-- trailing_pe_percentile: 71.4300
+- trailing_pe_percentile: 78.5700
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 73.3300
 - forward_pe_peer_count: 16
@@ -128,11 +128,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -13.92pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -4.21pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンが +25.19pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンが +168.98pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.80 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -11.27pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -7.72pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンが +26.28pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンが +172.45pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.84 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,25 +141,25 @@ Evidence
 
 使用データ
 
-- 1M: -13.7036
-- 3M: 0.4826
-- 6M: 40.3468
-- 1Y: 188.9440
+- 1M: -12.2129
+- 3M: -3.8349
+- 6M: 39.8135
+- 1Y: 192.1075
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.21, '3M': 4.69, '6M': 15.16, '1Y': 19.97}
-- excess_returns: {'1M': -13.92, '3M': -4.21, '6M': 25.19, '1Y': 168.98}
-- latest_volume: 6,009,400.0000
-- average_volume_30d: 7,483,446.6667
+- benchmark_returns: {'1M': -0.94, '3M': 3.88, '6M': 13.53, '1Y': 19.65}
+- excess_returns: {'1M': -11.27, '3M': -7.72, '6M': 26.28, '1Y': 172.45}
+- latest_volume: 6,273,280.0000
+- average_volume_30d: 7,425,509.3333
 
 ## News
 
-16点
+15点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 1 件(純比率 +0.67)で、センチメントは 6.7 点です。
-- イベント後の平均株価反応が 1.46% とプラスです。
+- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 1 件(純比率 +0.60)で、センチメントは 6.4 点です。
+- イベント後の平均株価反応が 3.17% とプラスです。
 
 Evidence
 
@@ -170,11 +170,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 5
+- positive_count: 4
 - negative_count: 1
-- sentiment_net_ratio: 0.6700
+- sentiment_net_ratio: 0.6000
 - event_count: 10
-- events_with_price_reaction: 7
+- events_with_price_reaction: 10
 
 ## Note
 

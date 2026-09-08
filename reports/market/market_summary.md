@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 1.58%
+- 市場全体の1Mモメンタム平均: -0.05%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-09-07T23:05:00+00:00 / NVDA / Motley Fool: Wall Street Investment Firm Bernstein Thinks Bitcoin Could Hit $300,000 by 2029. Is Bitcoin Now a 投資判断表現?
-- 2026-09-07T23:00:00+00:00 / META / TheStreet: Bank of America sends wake-up call to Meta stock investors
-- 2026-09-07T22:51:26+00:00 / NVDA / Motley Fool: Why UWM Holdings Stock Dived by 20% Last Month
-- 2026-09-07T22:35:00+00:00 / GOOGL / Motley Fool: Warren Buffett Told CNBC 'I Initiated It' About Berkshire's Alphabet Bet, and New Reporting Says He's Still Calling the Shots on Stocks. Here's What That Means for Reading Greg Abel's Tenure.
-- 2026-09-07T22:19:00+00:00 / AMZN / Barrons.com: Scene of Fatal Amazon Plane Crash in Miami Is ‘Devastating’
+- 2026-09-08T23:35:24+00:00 / NVDA / Motley Fool: Why Braze Stock Tumbled by Over 5% on Tuesday
+- 2026-09-08T23:35:01+00:00 / NVDA / Motley Fool: Prediction: Sept. 10 Will Be a Big Day for Nvidia Shareholders. Here’s What to Watch.
+- 2026-09-08T23:27:54+00:00 / NVDA / Investor's Business Daily: Dow Jones Futures: Dow Skids But AMD, HPE Are New Buys; Apple iPhone Event Due
+- 2026-09-08T23:27:54+00:00 / AMD / Investor's Business Daily: Dow Jones Futures: Dow Skids But AMD, HPE Are New Buys; Apple iPhone Event Due
+- 2026-09-08T23:25:00+00:00 / NVDA / Motley Fool: Here's How Many Shares of Chevron You'd Need for $5,000 in Annual Passive Income
 
 ### 注目イベント
 
-- 2026-09-04T17:04:21+00:00 / AMAT: Memory, Other AI-Related Stocks Lead the Market’s Top Performers Friday (株価反応: 4.31%, 出来高: 6.01M)
-- 2026-09-03T23:08:36+00:00 / AMAT: Can Applied Materials (AMAT) Still Look Cheap After A 237% Run? (株価反応: 4.31%, 出来高: 6.01M)
-- 2026-09-03T20:14:53+00:00 / AMAT: Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth? (株価反応: 4.31%, 出来高: 6.01M)
-- 2026-09-04T15:30:21+00:00 / NOW: Why Is Dynatrace (DT) Up 8% Since Last Earnings Report? (株価反応: -2.97%, 出来高: 12.49M)
-- 2026-09-04T14:40:00+00:00 / NOW: Software Stocks Are Back. 2 Winners, 2 Losers—and Salesforce. (株価反応: -2.97%, 出来高: 12.49M)
+- 2026-09-08T18:37:00+00:00 / NOW: ServiceNow Jumps 25% in 3 Months: 投資判断表現, 投資判断表現 or 投資判断表現 the Stock? (株価反応: -4.99%, 出来高: 14.53M)
+- 2026-09-08T18:12:00+00:00 / NOW: Why ServiceNow Stock Popped 33% Last Month (株価反応: -4.99%, 出来高: 14.53M)
+- 2026-09-08T15:29:00+00:00 / NOW: UiPath Slides 24% After Q2 Earnings: Is PATH Stock a 投資判断表現? (株価反応: -4.99%, 出来高: 14.53M)
+- 2026-09-05T12:00:14+00:00 / NOW: ServiceNow Leads Five Stocks To Watch Near 投資判断表現 Points (株価反応: -4.99%, 出来高: 14.53M)
+- 2026-09-05T11:18:44+00:00 / NOW: Jim Cramer Breaks Down P/E Multiples Explaining Why NVIDIA (NVDA) Looks Cheaper Than ServiceNow (株価反応: -4.99%, 出来高: 14.53M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 56.00 | 19.00 | 11.20 | 2.12% | 60 |
-| Consumer Cyclical | 6 | 49.67 | 70.25 | 9.01 | -3.75% | 60 |
-| Technology | 12 | 65.50 | 42.78 | 9.09 | 3.98% | 120 |
+| Communication Services | 6 | 57.67 | 18.89 | 11.20 | 1.64% | 60 |
+| Consumer Cyclical | 6 | 51.83 | 72.20 | 9.01 | -4.90% | 60 |
+| Technology | 12 | 67.67 | 43.13 | 9.09 | 1.53% | 120 |
 
 ## 市場トレンド
 

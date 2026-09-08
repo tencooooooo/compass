@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-82 / 100
+80 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。
-- Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 10/20 で、材料の量と市場関心を候補評価に反映しています。
+- Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。
+- Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで +4.98pt と、市場並み以上です。
-- 3Mモメンタムは対SPYで +7.62pt と、市場並み以上です。
-- 6Mモメンタムは対SPYで +14.55pt と、市場を大きく上回っています。
+- 1Mモメンタムは対SPYで +1.73pt と、市場並み以上です。
+- 3Mモメンタムは対SPYで +4.31pt と、市場並み以上です。
+- 6Mモメンタムは対SPYで +10.21pt と、市場を大きく上回っています。
 
 ## Strengths
 
@@ -33,8 +33,7 @@
 
 ## Watch Points
 
-- 注意材料になり得るニュース表現が 1 件あります。
-- Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。
+- イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Technology セクター全体の需要変化と競争環境を確認する必要があります。
@@ -47,7 +46,7 @@ Medium
 
 ## Signal Strength
 
-Strong(シグナル充足率: 86.05%)
+Strong(シグナル充足率: 80.4%)
 
 ## Evidence
 
@@ -62,24 +61,24 @@ Strong(シグナル充足率: 86.05%)
 
 ## Missing Data
 
-- event_price_reaction
+- N/A
 
 ## Metrics
 
-- scoring_total: 77.0
-- signal_earned_points: 81.75
-- signal_max_points: 95.0
+- scoring_total: 75.0
+- signal_earned_points: 80.4
+- signal_max_points: 100.0
 - weak_signals: []
 - scoring_signal_strength: Strong
 - growth_score: 20.0
-- financial_health_score: 20.0
-- valuation_score: 11.0
-- news_score: 10.0
-- momentum: {'1m': 5.192015540427219, '3m': 12.31594039743084, '6m': 29.704729171979093, '1y': 34.37422535237595}
+- financial_health_score: 14.0
+- valuation_score: 13.0
+- news_score: 12.0
+- momentum: {'1m': 0.7903147707676204, '3m': 8.191140906770205, '6m': 23.73683124047304, '1y': 35.33146438221009}
 - benchmark: SPY
-- excess_momentum: {'1m': 4.98, '3m': 7.62, '6m': 14.55, '1y': 14.41}
-- positive_news: 2
-- watch_news: 1
+- excess_momentum: {'1m': 1.73, '3m': 4.31, '6m': 10.21, '1y': 15.68}
+- positive_news: 1
+- watch_news: 0
 - event_count: 10
-- events_with_reaction: 0
-- sector_average_score: 65.5
+- events_with_reaction: 2
+- sector_average_score: 67.66666666666667
