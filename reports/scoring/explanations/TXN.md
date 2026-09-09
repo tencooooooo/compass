@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Texas Instruments Incorporated
-- Total Score: 73 / 100
+- Total Score: 71 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 73 点を獲得し、シグナル充足率は 73.0% です。
+- データが確認できた 100 点満点のうち 71 点を獲得し、シグナル充足率は 71.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -107,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 39.2898
-- forward_pe: 24.3235
+- trailing_pe: 39.7553
+- forward_pe: 24.5743
 - peg_ratio: 0.9200
-- price_to_book: 13.1278
+- price_to_book: 13.2632
 - sector_peer_count: 16
 - trailing_pe_percentile: 71.4300
 - trailing_pe_peer_count: 15
@@ -123,15 +123,15 @@ Evidence
 
 ## Momentum
 
-12点
+10点
 
 理由
 
-- 1M の対SPY超過リターンは -8.55pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -14.42pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンが +19.79pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンが +21.69pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.86 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -5.35pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -12.61pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンが +20.65pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンが +25.62pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.69 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -140,15 +140,15 @@ Evidence
 
 使用データ
 
-- 1M: -9.4938
-- 3M: -10.5377
-- 6M: 33.3170
-- 1Y: 41.3427
+- 1M: -6.7216
+- 3M: -8.9044
+- 6M: 33.8323
+- 1Y: 44.4217
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.94, '3M': 3.88, '6M': 13.53, '1Y': 19.65}
-- excess_returns: {'1M': -8.55, '3M': -14.42, '6M': 19.79, '1Y': 21.69}
-- latest_volume: 5,381,334.0000
-- average_volume_30d: 6,246,874.4667
+- benchmark_returns: {'1M': -1.38, '3M': 3.71, '6M': 13.18, '1Y': 18.81}
+- excess_returns: {'1M': -5.35, '3M': -12.61, '6M': 20.65, '1Y': 25.62}
+- latest_volume: 4,169,438.0000
+- average_volume_30d: 6,015,697.9333
 
 ## News
 
@@ -158,7 +158,7 @@ Evidence
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
 - ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が 0.89% と中立圏です。
+- イベント後の平均株価反応が 0.84% と中立圏です。
 
 Evidence
 
@@ -173,7 +173,7 @@ Evidence
 - negative_count: 0
 - sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 10
+- events_with_price_reaction: 9
 
 ## Note
 
