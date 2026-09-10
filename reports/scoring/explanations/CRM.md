@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Salesforce, Inc.
-- Total Score: 70 / 100
+- Total Score: 73 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 70 点を獲得し、シグナル充足率は 70.0% です。
+- データが確認できた 100 点満点のうち 73 点を獲得し、シグナル充足率は 73.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -90,11 +90,11 @@ Evidence
 
 ## Valuation
 
-16点
+14点
 
 理由
 
-- PER はセクター内 21.43 パーセンタイル / 母数 15 で、相対的に割安寄りです。
+- PER はセクター内 28.57 パーセンタイル / 母数 15 で、中位レンジです。
 - Forward PER はセクター内 33.33 パーセンタイル / 母数 16 で、中位レンジです。
 - PEG はセクター内 73.33 パーセンタイル / 母数 16 で、中位レンジです。
 - PBR はセクター内 6.67 パーセンタイル / 母数 16 で、相対的に割安寄りです。
@@ -107,12 +107,12 @@ Evidence
 
 使用データ
 
-- trailing_pe: 22.3795
-- forward_pe: 15.2522
+- trailing_pe: 22.2731
+- forward_pe: 15.1797
 - peg_ratio: 1.0500
-- price_to_book: 5.2359
+- price_to_book: 5.2110
 - sector_peer_count: 16
-- trailing_pe_percentile: 21.4300
+- trailing_pe_percentile: 28.5700
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 33.3300
 - forward_pe_peer_count: 16
@@ -127,11 +127,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンが +24.99pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンが +35.90pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +12.72pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -21.20pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.78 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンが +24.71pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンが +37.80pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +13.16pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -20.60pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.61 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -140,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: 23.6191
-- 3M: 39.6009
-- 6M: 25.9055
-- 1Y: -2.3956
+- 1M: 23.0567
+- 3M: 42.5387
+- 6M: 25.8108
+- 1Y: -2.7784
 - benchmark: SPY
-- benchmark_returns: {'1M': -1.38, '3M': 3.71, '6M': 13.18, '1Y': 18.81}
-- excess_returns: {'1M': 24.99, '3M': 35.9, '6M': 12.72, '1Y': -21.2}
-- latest_volume: 11,820,579.0000
-- average_volume_30d: 15,149,759.3000
+- benchmark_returns: {'1M': -1.65, '3M': 4.74, '6M': 12.65, '1Y': 17.82}
+- excess_returns: {'1M': 24.71, '3M': 37.8, '6M': 13.16, '1Y': -20.6}
+- latest_volume: 9,128,851.0000
+- average_volume_30d: 14,850,508.3667
 
 ## News
 
-8点
+13点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 2 件(純比率 +0.00)で、センチメントは 4.0 点です。
-- イベント後の平均株価反応が -1.99% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 1 件(純比率 +0.60)で、センチメントは 6.4 点です。
+- イベント後の平均株価反応が -0.48% と中立圏です。
 
 Evidence
 
@@ -169,11 +169,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 2
-- negative_count: 2
-- sentiment_net_ratio: 0.0000
+- positive_count: 4
+- negative_count: 1
+- sentiment_net_ratio: 0.6000
 - event_count: 10
-- events_with_price_reaction: 6
+- events_with_price_reaction: 8
 
 ## Note
 

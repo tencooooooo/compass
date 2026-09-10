@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Meta Platforms, Inc.
-- Total Score: 76 / 100
+- Total Score: 68 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 76 点を獲得し、シグナル充足率は 76.0% です。
+- データが確認できた 100 点満点のうち 68 点を獲得し、シグナル充足率は 68.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -108,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 24.6118
-- forward_pe: 18.6984
+- trailing_pe: 24.2796
+- forward_pe: 18.4321
 - peg_ratio: 0.8200
-- price_to_book: 6.3762
+- price_to_book: 6.2854
 - sector_peer_count: 10
 - trailing_pe_percentile: 88.8900
 - trailing_pe_peer_count: 10
@@ -124,15 +124,15 @@ Evidence
 
 ## Momentum
 
-11点
+8点
 
 理由
 
-- 1M の対SPY超過リターンが +11.25pt と、市場を大きく上回っています。
+- 1M の対SPY超過リターンは +9.21pt で、市場並み以上です。
 - 3M の対SPY超過リターンは +8.22pt で、市場並み以上です。
-- 6M の対SPY超過リターンは -13.06pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -31.63pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.95 倍で、市場関心の高まりが確認できます。
+- 6M の対SPY超過リターンは -14.07pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -33.39pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.13 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,25 +141,25 @@ Evidence
 
 使用データ
 
-- 1M: 9.8786
-- 3M: 11.9239
-- 6M: 0.1202
-- 1Y: -12.8230
+- 1M: 7.5544
+- 3M: 12.9597
+- 6M: -1.4248
+- 1Y: -15.5685
 - benchmark: SPY
-- benchmark_returns: {'1M': -1.38, '3M': 3.71, '6M': 13.18, '1Y': 18.81}
-- excess_returns: {'1M': 11.25, '3M': 8.22, '6M': -13.06, '1Y': -31.63}
-- latest_volume: 35,359,694.0000
-- average_volume_30d: 18,171,399.8000
+- benchmark_returns: {'1M': -1.65, '3M': 4.74, '6M': 12.65, '1Y': 17.82}
+- excess_returns: {'1M': 9.21, '3M': 8.22, '6M': -14.07, '1Y': -33.39}
+- latest_volume: 20,418,899.0000
+- average_volume_30d: 18,124,359.9667
 
 ## News
 
-17点
+12点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が 6.55% とプラスです。
+- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が -1.42% と弱く、注意が必要です。
 
 Evidence
 
@@ -170,11 +170,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 2
+- positive_count: 4
 - negative_count: 0
 - sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 2
+- events_with_price_reaction: 7
 
 ## Note
 

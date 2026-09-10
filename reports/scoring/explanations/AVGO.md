@@ -5,9 +5,9 @@
 ## Summary
 
 - Company: Broadcom Inc.
-- Total Score: 59 / 100
+- Total Score: 66 / 100
 - Confidence: High
-- Signal Strength: Moderate
+- Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
@@ -23,23 +23,23 @@ High
 
 ## Signal Strength
 
-Moderate
+Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 59 点を獲得し、シグナル充足率は 59.0% です。
-- シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
+- データが確認できた 100 点満点のうち 66 点を獲得し、シグナル充足率は 66.0% です。
+- シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
-19点
+20点
 
 理由
 
-- revenue_growth(直近4四半期平均) は 29.88% で、+15%以上の成長です。
-- eps_growth(直近4四半期平均) は 140.90% で、+30%以上の高成長です。
-- revenue_growth は直近四半期が前四半期より +18.40pt 高く、成長の加速がみられます。
-- eps_growth は直近四半期が前四半期より +53.86pt 高く、成長の加速がみられます。
+- revenue_growth(直近4四半期平均) は 46.22% で、+30%以上の高成長です。
+- eps_growth(直近4四半期平均) は 161.20% で、+30%以上の高成長です。
+- revenue_growth は直近四半期が前四半期より +37.63pt 高く、成長の加速がみられます。
+- eps_growth は直近四半期が前四半期より +129.85pt 高く、成長の加速がみられます。
 - 純利益 がプラスで確認できるため加点しています。
 - 営業利益 がプラスで確認できるため加点しています。
 - 研究開発費が確認でき、将来成長への投資が続いています。
@@ -57,12 +57,12 @@ Evidence
 - net_income: 23,126,000,000.0000
 - operating_income: 26,075,000,000.0000
 - research_and_development: 10,977,000,000.0000
-- revenue_yoy_growth: 47.8700
-- eps_yoy_growth: 85.4400
-- revenue_yoy_growth_avg: 29.8800
-- eps_yoy_growth_avg: 140.9000
-- revenue_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
-- eps_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
+- revenue_yoy_growth: 85.5000
+- eps_yoy_growth: 215.2900
+- revenue_yoy_growth_avg: 46.2200
+- eps_yoy_growth_avg: 161.2000
+- revenue_growth_quarters: ['2026-Q3', '2026-Q2', '2026-Q1', '2025-Q3']
+- eps_growth_quarters: ['2026-Q3', '2026-Q2', '2026-Q1', '2025-Q3']
 
 ## Financial Health
 
@@ -108,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 46.4178
-- forward_pe: 18.7942
+- trailing_pe: 46.0830
+- forward_pe: 18.6149
 - peg_ratio: 0.3500
-- price_to_book: 17.4203
+- price_to_book: 17.2506
 - sector_peer_count: 16
 - trailing_pe_percentile: 85.7100
 - trailing_pe_peer_count: 15
@@ -124,15 +124,15 @@ Evidence
 
 ## Momentum
 
-4点
+6点
 
 理由
 
-- 1M の対SPY超過リターンは -12.36pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -10.64pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -6.43pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンは -12.61pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.08 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -11.63pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -7.61pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -6.62pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは -9.86pt と、市場を小幅に下回っています。
+- 直近出来高が30日平均の 0.94 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,25 +141,25 @@ Evidence
 
 使用データ
 
-- 1M: -13.7358
-- 3M: -6.9368
-- 6M: 6.7553
-- 1Y: 6.1912
+- 1M: -13.2787
+- 3M: -2.8753
+- 6M: 6.0278
+- 1Y: 7.9614
 - benchmark: SPY
-- benchmark_returns: {'1M': -1.38, '3M': 3.71, '6M': 13.18, '1Y': 18.81}
-- excess_returns: {'1M': -12.36, '3M': -10.64, '6M': -6.43, '1Y': -12.61}
-- latest_volume: 24,562,370.0000
-- average_volume_30d: 22,731,302.3333
+- benchmark_returns: {'1M': -1.65, '3M': 4.74, '6M': 12.65, '1Y': 17.82}
+- excess_returns: {'1M': -11.63, '3M': -7.61, '6M': -6.62, '1Y': -9.86}
+- latest_volume: 21,364,163.0000
+- average_volume_30d: 22,776,155.4333
 
 ## News
 
-11点
+15点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 1 件(純比率 +0.67)で、センチメントは 6.7 点です。
-- イベント後の平均株価反応が -1.13% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が -0.97% と中立圏です。
 
 Evidence
 
@@ -170,11 +170,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 5
-- negative_count: 1
-- sentiment_net_ratio: 0.6700
+- positive_count: 4
+- negative_count: 0
+- sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 6
+- events_with_price_reaction: 10
 
 ## Note
 

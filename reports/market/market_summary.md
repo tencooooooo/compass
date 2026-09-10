@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: -0.64%
+- 市場全体の1Mモメンタム平均: -0.93%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-09-09T23:33:27+00:00 / AAPL / Investor's Business Daily: Dow Jones Futures: Oil Prices Keep Rising But Market Hasn't Broken Yet. Inflation Data Due.
-- 2026-09-09T23:33:27+00:00 / AMD / Investor's Business Daily: Dow Jones Futures: Oil Prices Keep Rising But Market Hasn't Broken Yet. Inflation Data Due.
-- 2026-09-09T23:33:27+00:00 / META / Investor's Business Daily: Dow Jones Futures: Oil Prices Keep Rising But Market Hasn't Broken Yet. Inflation Data Due.
-- 2026-09-09T23:25:00+00:00 / NVDA / Motley Fool: As Anthropic's IPO Looms, This Small Financial Powerhouse Just Got Its First Underwriting Job
-- 2026-09-09T23:22:04+00:00 / NVDA / Motley Fool: Why Sasol Stock Soared Nearly 10% Higher Today
+- 2026-09-10T23:30:26+00:00 / MSFT / Stocktwits: Microsoft Eyes Massive Data Center Push To Triple Computing Power And Solve Capacity Bottlenecks, Says Report
+- 2026-09-10T23:23:56+00:00 / AAPL / Investor's Business Daily: Dow Jones Futures: S&P 500 Breaks Support As Oil Prices, Yields Surge; Oracle Jumps Late With CPI Inflation Due
+- 2026-09-10T23:23:56+00:00 / NVDA / Investor's Business Daily: Dow Jones Futures: S&P 500 Breaks Support As Oil Prices, Yields Surge; Oracle Jumps Late With CPI Inflation Due
+- 2026-09-10T23:23:56+00:00 / ORCL / Investor's Business Daily: Dow Jones Futures: S&P 500 Breaks Support As Oil Prices, Yields Surge; Oracle Jumps Late With CPI Inflation Due
+- 2026-09-10T23:23:56+00:00 / ADBE / Investor's Business Daily: Dow Jones Futures: S&P 500 Breaks Support As Oil Prices, Yields Surge; Oracle Jumps Late With CPI Inflation Due
 
 ### 注目イベント
 
-- 2026-09-09T19:24:00+00:00 / CMCSA: Why Comcast Stock Is One of the Worst Performers in the S&P 500 Today (株価反応: -6.61%, 出来高: 46.82M)
-- 2026-09-09T16:53:26+00:00 / CMCSA: Comcast drops 7% on persistent broadband losses and ’irrational’ fiber pricing (株価反応: -6.61%, 出来高: 46.82M)
-- 2026-09-09T16:31:56+00:00 / CMCSA: Comcast Sinks 8%, Charter Drops 6%, T-Mobile Slips 3%: Is a Broadband Repricing Underway? (株価反応: -6.61%, 出来高: 46.82M)
-- 2026-09-09T16:16:10+00:00 / CMCSA: Why Does AT&T Stock Still Trade Like It Is Shrinking? (株価反応: -6.61%, 出来高: 46.82M)
-- 2026-09-09T14:50:38+00:00 / CMCSA: 3 Value Stocks with Questionable Fundamentals (株価反応: -6.61%, 出来高: 46.82M)
+- 2026-07-31T14:31:05+00:00 / AAPL: Apple's iPhone leasing program: How it works, what to consider as prices increase (株価反応: -7.35%, 出来高: 132.49M)
+- 2026-09-09T19:24:00+00:00 / CMCSA: Why Comcast Stock Is One of the Worst Performers in the S&P 500 Today (株価反応: -6.61%, 出来高: 47.08M)
+- 2026-09-09T16:53:26+00:00 / CMCSA: Comcast drops 7% on persistent broadband losses and ’irrational’ fiber pricing (株価反応: -6.61%, 出来高: 47.08M)
+- 2026-09-08T18:37:00+00:00 / NOW: ServiceNow Jumps 25% in 3 Months: 投資判断表現, 投資判断表現 or 投資判断表現 the Stock? (株価反応: -4.99%, 出来高: 14.61M)
+- 2026-09-08T14:39:10+00:00 / AMAT: Capex Rebound Powers Applied Materials’ (AMAT) Performance (株価反応: 3.98%, 出来高: 6.30M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 59.17 | 18.84 | 11.20 | 0.12% | 60 |
-| Consumer Cyclical | 6 | 50.00 | 73.49 | 9.01 | -5.88% | 60 |
-| Technology | 12 | 67.92 | 43.13 | 9.09 | 1.59% | 120 |
+| Communication Services | 6 | 57.67 | 18.88 | 11.20 | 1.02% | 60 |
+| Consumer Cyclical | 6 | 48.67 | 72.67 | 9.01 | -6.67% | 60 |
+| Technology | 12 | 66.75 | 42.56 | 9.09 | 0.96% | 120 |
 
 ## 市場トレンド
 
