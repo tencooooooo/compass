@@ -1,4 +1,4 @@
-# Learning Summary - 2026-09-10
+# Learning Summary - 2026-09-11
 
 > Learning SummaryはApproved Proposalの取り込み状況を示します。Knowledge本体は自動更新していません。
 

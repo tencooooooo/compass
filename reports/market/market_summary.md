@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: -0.93%
+- 市場全体の1Mモメンタム平均: 0.77%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-09-10T23:30:26+00:00 / MSFT / Stocktwits: Microsoft Eyes Massive Data Center Push To Triple Computing Power And Solve Capacity Bottlenecks, Says Report
-- 2026-09-10T23:23:56+00:00 / AAPL / Investor's Business Daily: Dow Jones Futures: S&P 500 Breaks Support As Oil Prices, Yields Surge; Oracle Jumps Late With CPI Inflation Due
-- 2026-09-10T23:23:56+00:00 / NVDA / Investor's Business Daily: Dow Jones Futures: S&P 500 Breaks Support As Oil Prices, Yields Surge; Oracle Jumps Late With CPI Inflation Due
-- 2026-09-10T23:23:56+00:00 / ORCL / Investor's Business Daily: Dow Jones Futures: S&P 500 Breaks Support As Oil Prices, Yields Surge; Oracle Jumps Late With CPI Inflation Due
-- 2026-09-10T23:23:56+00:00 / ADBE / Investor's Business Daily: Dow Jones Futures: S&P 500 Breaks Support As Oil Prices, Yields Surge; Oracle Jumps Late With CPI Inflation Due
+- 2026-09-11T23:33:30+00:00 / ORCL / Stocktwits: Oracle Reportedly Expands Restructuring Plan by $700M As AI Data Center Costs Mount
+- 2026-09-11T23:25:25+00:00 / NVDA / Insider Monkey: Nvidia Is Letting Rival AI Chips Into Its Racks. Astera Labs Could Be the Quiet Winner
+- 2026-09-11T23:23:38+00:00 / NVDA / Insider Monkey: An Intel-Backed Startup Says It Can Beat HBM. Is Micron’s AI Memory Boom Vulnerable?
+- 2026-09-11T23:20:00+00:00 / AAPL / Motley Fool: Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm 投資判断表現 Now.
+- 2026-09-11T23:20:00+00:00 / MSFT / Motley Fool: Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm 投資判断表現 Now.
 
 ### 注目イベント
 
-- 2026-07-31T14:31:05+00:00 / AAPL: Apple's iPhone leasing program: How it works, what to consider as prices increase (株価反応: -7.35%, 出来高: 132.49M)
-- 2026-09-09T19:24:00+00:00 / CMCSA: Why Comcast Stock Is One of the Worst Performers in the S&P 500 Today (株価反応: -6.61%, 出来高: 47.08M)
-- 2026-09-09T16:53:26+00:00 / CMCSA: Comcast drops 7% on persistent broadband losses and ’irrational’ fiber pricing (株価反応: -6.61%, 出来高: 47.08M)
-- 2026-09-08T18:37:00+00:00 / NOW: ServiceNow Jumps 25% in 3 Months: 投資判断表現, 投資判断表現 or 投資判断表現 the Stock? (株価反応: -4.99%, 出来高: 14.61M)
-- 2026-09-08T14:39:10+00:00 / AMAT: Capex Rebound Powers Applied Materials’ (AMAT) Performance (株価反応: 3.98%, 出来高: 6.30M)
+- 2026-09-11T17:52:26+00:00 / TXN: Should Qualcomm Stockholders Worry About Its Shrinking Revenue? (株価反応: 3.82%, 出来高: 5.25M)
+- 2026-09-11T16:00:52+00:00 / TXN: The Next Growth Cycle Could Take Qualcomm to New Highs (株価反応: 3.82%, 出来高: 5.25M)
+- 2026-09-10T22:00:06+00:00 / TXN: Texas Instruments (TXN) Registers a Bigger Fall Than the Market: Important Facts to Note (株価反応: 3.82%, 出来高: 5.25M)
+- 2026-09-10T20:04:09+00:00 / TXN: Is Applied Materials Stock Amplifying A Risk You Already Own? (株価反応: 3.82%, 出来高: 5.25M)
+- 2026-09-10T16:10:37+00:00 / AMAT: Applied Materials CEO Says the AI Boom Is Nowhere Near Over. His Order Book Is the Proof (株価反応: -3.17%, 出来高: 4.84M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 57.67 | 18.88 | 11.20 | 1.02% | 60 |
-| Consumer Cyclical | 6 | 48.67 | 72.67 | 9.01 | -6.67% | 60 |
-| Technology | 12 | 66.75 | 42.56 | 9.09 | 0.96% | 120 |
+| Communication Services | 6 | 60.17 | 19.14 | 11.20 | 3.42% | 60 |
+| Consumer Cyclical | 6 | 52.00 | 72.04 | 9.00 | -4.43% | 60 |
+| Technology | 12 | 68.75 | 42.93 | 9.17 | 2.05% | 120 |
 
 ## 市場トレンド
 

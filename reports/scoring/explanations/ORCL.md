@@ -6,20 +6,19 @@
 
 - Company: Oracle Corporation
 - Total Score: 63 / 100
-- Confidence: Medium
+- Confidence: High
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
 
-Medium
+High
 
 理由
 
 - 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 1 件です。
-- 主要データは一定程度ありますが、欠損や未取得項目が残っています。
-- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
+- 欠損または計算不可の項目数は 0 件です。
+- 主要データが比較的そろっており、説明可能性は高めです。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
@@ -33,14 +32,14 @@ Moderate
 
 ## Growth
 
-17点
+19点
 
 理由
 
-- revenue_growth(直近4四半期平均) は 13.61% で、プラス成長を維持しています。
-- eps_growth(直近4四半期平均) は 33.37% で、+30%以上の高成長です。
-- revenue_growth は直近四半期が前四半期より +7.44pt 高く、成長の加速がみられます。
-- eps_growth は直近四半期が前四半期より -66.40pt 低く、成長の減速に注意が必要です。
+- revenue_growth(直近4四半期平均) は 19.41% で、+15%以上の成長です。
+- eps_growth(直近4四半期平均) は 41.98% で、+30%以上の高成長です。
+- revenue_growth は直近四半期が前四半期より +7.95pt 高く、成長の加速がみられます。
+- eps_growth は直近四半期が前四半期より +29.95pt 高く、成長の加速がみられます。
 - 純利益 がプラスで確認できるため加点しています。
 - 営業利益 がプラスで確認できるため加点しています。
 - 研究開発費が確認でき、将来成長への投資が続いています。
@@ -58,12 +57,12 @@ Evidence
 - net_income: 17,087,000,000.0000
 - operating_income: 22,444,000,000.0000
 - research_and_development: 10,272,000,000.0000
-- revenue_yoy_growth: 21.6600
-- eps_yoy_growth: 24.5100
-- revenue_yoy_growth_avg: 13.6100
-- eps_yoy_growth_avg: 33.3700
-- revenue_growth_quarters: ['2026-Q1', '2025-Q4', '2025-Q3', '2025-Q1']
-- eps_growth_quarters: ['2026-Q1', '2025-Q4', '2025-Q3', '2025-Q1']
+- revenue_yoy_growth: 29.6100
+- eps_yoy_growth: 54.4600
+- revenue_yoy_growth_avg: 19.4100
+- eps_yoy_growth_avg: 41.9800
+- revenue_growth_quarters: ['2026-Q3', '2026-Q1', '2025-Q4', '2025-Q3']
+- eps_growth_quarters: ['2026-Q3', '2026-Q1', '2025-Q4', '2025-Q3']
 
 ## Financial Health
 
@@ -98,7 +97,7 @@ Evidence
 
 - PER はセクター内 35.71 パーセンタイル / 母数 15 で、中位レンジです。
 - Forward PER はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。
-- PEG はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。
+- PEG はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。
 - PBR はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -109,31 +108,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 26.2333
-- forward_pe: 13.9459
+- trailing_pe: 23.5549
+- forward_pe: 13.6812
 - peg_ratio: 0.9100
-- price_to_book: 11.7285
+- price_to_book: 11.5245
 - sector_peer_count: 16
 - trailing_pe_percentile: 35.7100
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 20.0000
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 46.6700
+- peg_ratio_percentile: 53.3300
 - peg_ratio_peer_count: 16
 - price_to_book_percentile: 60.0000
 - price_to_book_peer_count: 16
 
 ## Momentum
 
-7点
+5点
 
 理由
 
-- 1M の対SPY超過リターンは +6.78pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -28.48pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -18.23pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -53.77pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.89 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは -0.90pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -21.95pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -20.28pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -72.19pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 2.76 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -142,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: 5.1279
-- 3M: -23.7444
-- 6M: -5.5860
-- 1Y: -35.9517
+- 1M: -1.9572
+- 3M: -18.0865
+- 6M: -4.9199
+- 1Y: -53.7073
 - benchmark: SPY
-- benchmark_returns: {'1M': -1.65, '3M': 4.74, '6M': 12.65, '1Y': 17.82}
-- excess_returns: {'1M': 6.78, '3M': -28.48, '6M': -18.23, '1Y': -53.77}
-- latest_volume: 50,925,752.0000
-- average_volume_30d: 26,973,125.0667
+- benchmark_returns: {'1M': -1.06, '3M': 3.86, '6M': 15.36, '1Y': 18.48}
+- excess_returns: {'1M': -0.9, '3M': -21.95, '6M': -20.28, '1Y': -72.19}
+- latest_volume: 78,527,486.0000
+- average_volume_30d: 28,409,392.8667
 
 ## News
 
@@ -159,8 +158,8 @@ Evidence
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 1 件(純比率 +0.67)で、センチメントは 6.7 点です。
-- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
+- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が -1.74% と弱く、注意が必要です。
 
 Evidence
 
@@ -171,15 +170,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 5
-- negative_count: 1
-- sentiment_net_ratio: 0.6700
+- positive_count: 4
+- negative_count: 0
+- sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 0
-
-欠損・計算不可
-
-- event_price_reaction
+- events_with_price_reaction: 3
 
 ## Note
 

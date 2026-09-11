@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: The Walt Disney Company
-- Total Score: 55 / 100
+- Total Score: 57 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 55 点を獲得し、シグナル充足率は 55.0% です。
+- データが確認できた 100 点満点のうち 57 点を獲得し、シグナル充足率は 57.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -111,10 +111,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 21.8186
-- forward_pe: 14.1571
-- peg_ratio: 2.6100
-- price_to_book: 1.6638
+- trailing_pe: 21.9691
+- forward_pe: 14.2684
+- peg_ratio: 2.7600
+- price_to_book: 1.6753
 - sector_peer_count: 10
 - trailing_pe_percentile: 66.6700
 - trailing_pe_peer_count: 10
@@ -127,15 +127,15 @@ Evidence
 
 ## Momentum
 
-7点
+9点
 
 理由
 
-- 1M の対SPY超過リターンは +3.86pt で、市場並み以上です。
-- 3M の対SPY超過リターンは +3.40pt で、市場並み以上です。
-- 6M の対SPY超過リターンは -6.96pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンは -26.36pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.79 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは +4.29pt で、市場並み以上です。
+- 3M の対SPY超過リターンは +3.14pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -7.38pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは -25.13pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.80 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -144,15 +144,15 @@ Evidence
 
 使用データ
 
-- 1M: 2.2119
-- 3M: 8.1339
-- 6M: 5.6902
-- 1Y: -8.5352
+- 1M: 3.2261
+- 3M: 7.0026
+- 6M: 7.9819
+- 1Y: -6.6475
 - benchmark: SPY
-- benchmark_returns: {'1M': -1.65, '3M': 4.74, '6M': 12.65, '1Y': 17.82}
-- excess_returns: {'1M': 3.86, '3M': 3.4, '6M': -6.96, '1Y': -26.36}
-- latest_volume: 7,387,622.0000
-- average_volume_30d: 9,333,297.4000
+- benchmark_returns: {'1M': -1.06, '3M': 3.86, '6M': 15.36, '1Y': 18.48}
+- excess_returns: {'1M': 4.29, '3M': 3.14, '6M': -7.38, '1Y': -25.13}
+- latest_volume: 7,105,108.0000
+- average_volume_30d: 8,873,720.2667
 
 ## News
 
@@ -162,7 +162,7 @@ Evidence
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
 - ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。
-- イベント後の平均株価反応が 0.23% と中立圏です。
+- イベント後の平均株価反応が 0.71% と中立圏です。
 
 Evidence
 
@@ -177,7 +177,7 @@ Evidence
 - negative_count: 1
 - sentiment_net_ratio: 0.5000
 - event_count: 10
-- events_with_price_reaction: 9
+- events_with_price_reaction: 10
 
 ## Note
 
