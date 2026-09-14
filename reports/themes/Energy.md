@@ -1,44 +1,43 @@
 # Energy
 
 - Target companies: 9
-- Average Score: 63.14
-- Average Discovery: 72.00
-- Momentum: -7.32
+- Average Score: 57.29
+- Average Discovery: 70.25
+- Momentum: 0.04
 - Confidence: Medium
 
 ## Companies
 
+- AAPL - Apple Inc. (Low): Keyword: oil
 - ACN - Accenture plc (Low): Keyword: energy
-- AMAT - Applied Materials, Inc. (Low): Keyword: oil
 - AVGO - Broadcom Inc. (Low): Keyword: energy
-- GOOGL - Alphabet Inc. (Low): Keyword: solar
-- META - Meta Platforms, Inc. (Low): Keyword: energy
-- ORCL - Oracle Corporation (Low): Keyword: energy
+- HD - The Home Depot, Inc. (Medium): Keyword: energy; Keyword: oil
+- MCD - McDonald's Corporation (Medium): Keyword: energy; Keyword: oil
+- NOW - ServiceNow, Inc. (Low): Keyword: oil
 - ORLY - O'Reilly Automotive, Inc. (Medium): Keyword: battery; Keyword: oil
 - TSLA - Tesla, Inc. (Medium): Keyword: energy; Keyword: battery; Keyword: solar
 - TXN - Texas Instruments Incorporated (Low): Keyword: battery
 
 ## Market
 
-- Communication Services: score 56.00, momentum 2.11, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
-- Consumer Cyclical: score 51.17, momentum -3.75, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
-- Technology: score 65.83, momentum 3.98, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 52.00, momentum -4.43, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 68.75, momentum 2.05, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- GOOGL: Entergy Says Google’s Arkansas Solar Payments Could Total $2.1 Billion. Is Power Becoming Alphabet’s New Bottleneck?
-- GOOGL: Marvell Raised Its Outlook but Fell as Google Chip Revenue Stayed Distant. Has the AI Payoff Been Priced In? (Ready for review)
-- GOOGL: Jim Cramer Flagged Another Risk For Adobe Inc. (NASDAQ:ADBE)
-- AVGO: Jim Cramer Says “Someone Must Know Something” About Broadcom Inc. (NASDAQ:AVGO)’s Post-Earnings Share Dip
-- META: Jim Cramer Said Meta Platforms, Inc. (NASDAQ: META)’s Big Court Win Was A Close Call
+- AAPL: Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm Buying Now.
+- AVGO: Broadcom’s Custom AI Chip Boom Has a Powerful Landlord: TSM
+- AAPL: Dow Jones Futures: $100 Oil, Surging Yields Pressure Stocks With Fed Rate Hike Seen. Apple, Moderna Are New Buys.
+- AVGO: TSM Just Posted Record Sales. Nvidia May Be Both the Winner and the One Paying for It
+- AVGO: Marvell CEO reveals decade-long gem behind its explosive 239% surge
 
 ## Similar Themes
 
-- Fintech: 0.994 (Shared companies: ACN, GOOGL; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
-- Space: 0.963 (Shared companies: GOOGL, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology)
-- Quantum Computing: 0.947 (Shared companies: GOOGL; Shared sectors: Communication Services, Technology; Similar short-term momentum)
-- EV: 0.94 (Shared companies: GOOGL, ORLY, TSLA, TXN; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
-- AI: 0.934 (Shared companies: ACN, AMAT, AVGO, GOOGL, META; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
+- Cybersecurity: 0.994 (Shared companies: ACN, AVGO, NOW; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Space: 0.992 (Shared companies: AAPL, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- AI: 0.99 (Shared companies: ACN, AVGO, NOW, TSLA, TXN; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cloud: 0.987 (Shared companies: AAPL, ACN, AVGO, NOW, TXN; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Semiconductor: 0.959 (Shared companies: AVGO, TXN; Shared sectors: Technology; Similar short-term momentum)
 
 ## Review Note
 

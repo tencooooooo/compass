@@ -1,9 +1,9 @@
 # Robotics
 
-- Target companies: 7
-- Average Score: 67.00
-- Average Discovery: 73.00
-- Momentum: 7.15
+- Target companies: 9
+- Average Score: 62.00
+- Average Discovery: 72.20
+- Momentum: 0.42
 - Confidence: Medium
 
 ## Companies
@@ -12,29 +12,32 @@
 - AMAT - Applied Materials, Inc. (Medium): Keyword: automation; Sector alignment: Technology
 - AVGO - Broadcom Inc. (Medium): Keyword: automation; Sector alignment: Technology
 - CRM - Salesforce, Inc. (Medium): Keyword: autonomous; Sector alignment: Technology
+- HD - The Home Depot, Inc. (Medium): Keyword: automation; Sector alignment: Consumer Cyclical
+- LOW - Lowe's Companies, Inc. (Medium): Keyword: automation; Sector alignment: Consumer Cyclical
 - NOW - ServiceNow, Inc. (Medium): Keyword: autonomous; Keyword: automation; Sector alignment: Technology
 - NVDA - NVIDIA Corporation (Medium): Keyword: autonomous; Sector alignment: Technology
 - ORCL - Oracle Corporation (Medium): Keyword: autonomous; Sector alignment: Technology
 
 ## Market
 
-- Technology: score 65.83, momentum 3.98, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 52.00, momentum -4.43, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 68.75, momentum 2.05, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- NVDA: ChronoScale Says It Plans a 50 MW Microsoft AI Deployment. Can CHRN Fund the Build Without Diluting Shareholders?
-- AVGO: Jim Cramer Says “Someone Must Know Something” About Broadcom Inc. (NASDAQ:AVGO)’s Post-Earnings Share Dip
-- ORCL: Jim Cramer Shares a Cautious Take on Oracle (ORCL) and Its Massive AI Buildout
-- AVGO: Broadcom (AVGO) Stock Is Down After Q3 Earnings: Is It Too Soon to Buy the Dip?
-- ORCL: Looking Ahead to the Q3 Earnings Season: What to Expect
+- NVDA: Nvidia Is Letting Rival AI Chips Into Its Racks. Astera Labs Could Be the Quiet Winner
+- AVGO: Broadcom’s Custom AI Chip Boom Has a Powerful Landlord: TSM
+- AVGO: TSM Just Posted Record Sales. Nvidia May Be Both the Winner and the One Paying for It
+- CRM: Adobe Beat and Raised but Fell. Salesforce Shows What Investors Now Demand From AI Software
+- AVGO: Marvell CEO reveals decade-long gem behind its explosive 239% surge
 
 ## Similar Themes
 
-- Cybersecurity: 0.921 (Shared companies: ACN, AMAT, AVGO, CRM, NOW; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Cloud: 0.914 (Shared companies: ACN, AVGO, CRM, NOW, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.904 (Shared companies: AMAT, AVGO, NVDA; Shared sectors: Technology; Similar average Discovery score)
-- AI: 0.903 (Shared companies: ACN, AMAT, AVGO, CRM, NOW; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- EV: 0.902 (Shared companies: NVDA; Shared sectors: Technology; Similar average Discovery score)
+- EV: 0.998 (Shared companies: NVDA; Shared sectors: Consumer Cyclical, Technology; Similar short-term momentum)
+- Semiconductor: 0.986 (Shared companies: AMAT, AVGO, NVDA, ORCL; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Cloud: 0.948 (Shared companies: ACN, AMAT, AVGO, CRM, NOW; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- AI: 0.943 (Shared companies: ACN, AMAT, AVGO, CRM, NOW; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cybersecurity: 0.939 (Shared companies: ACN, AVGO, NOW; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
 
 ## Review Note
 

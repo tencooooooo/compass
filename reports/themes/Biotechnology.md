@@ -23,7 +23,7 @@ No theme news available yet.
 - Cloud: 0.0 (Similar short-term momentum)
 - Cybersecurity: 0.0 (Similar short-term momentum)
 - EV: 0.0 (Similar short-term momentum)
-- Energy: 0.0 (Theme metric similarity)
+- Energy: 0.0 (Similar short-term momentum)
 
 ## Review Note
 

@@ -1,40 +1,38 @@
 # EV
 
-- Target companies: 5
-- Average Score: 64.00
-- Average Discovery: 77.67
-- Momentum: -2.46
+- Target companies: 4
+- Average Score: 67.67
+- Average Discovery: 79.50
+- Momentum: -2.67
 - Confidence: Medium
 
 ## Companies
 
-- GOOGL - Alphabet Inc. (Low): Keyword: ev
 - NVDA - NVIDIA Corporation (Low): Keyword: electric vehicle
 - ORLY - O'Reilly Automotive, Inc. (Medium): Keyword: battery; Sector alignment: Consumer Cyclical
-- TSLA - Tesla, Inc. (High): Keyword: electric vehicle; Keyword: electric vehicles; Keyword: battery; Sector alignment: Consumer Cyclical
+- TSLA - Tesla, Inc. (Medium): Keyword: electric vehicles; Keyword: battery; Sector alignment: Consumer Cyclical
 - TXN - Texas Instruments Incorporated (Low): Keyword: battery
 
 ## Market
 
-- Communication Services: score 56.00, momentum 2.11, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
-- Consumer Cyclical: score 51.17, momentum -3.75, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
-- Technology: score 65.83, momentum 3.98, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 52.00, momentum -4.43, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 68.75, momentum 2.05, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- NVDA: ChronoScale Says It Plans a 50 MW Microsoft AI Deployment. Can CHRN Fund the Build Without Diluting Shareholders?
-- GOOGL: Entergy Says Google’s Arkansas Solar Payments Could Total $2.1 Billion. Is Power Becoming Alphabet’s New Bottleneck?
-- GOOGL: Marvell Raised Its Outlook but Fell as Google Chip Revenue Stayed Distant. Has the AI Payoff Been Priced In? (Ready for review)
-- GOOGL: Jim Cramer Flagged Another Risk For Adobe Inc. (NASDAQ:ADBE)
-- TSLA: Tesla Launched the Cybercab Thursday, 6 Weeks After Removing Volume Production of It From This Year's Plan
+- NVDA: Nvidia Is Letting Rival AI Chips Into Its Racks. Astera Labs Could Be the Quiet Winner
+- TSLA: Tesla Gains as Semi Opens a $17 Billion Software Door
+- TSLA: Jason Calacanis Warns Chinese EVs Could End US Auto Industry: ‘Consumers Will Love to Buy These Cars’
+- TSLA: Inside Tesla’s Cybertruck and robotaxi experience
+- NVDA: SpaceX signs $1.1 billion-per month computing deal
 
 ## Similar Themes
 
-- Quantum Computing: 0.999 (Shared companies: GOOGL; Shared sectors: Communication Services, Technology; Similar short-term momentum)
-- Cybersecurity: 0.998 (Shared companies: GOOGL; Shared sectors: Communication Services, Technology)
-- Semiconductor: 0.998 (Shared companies: GOOGL, NVDA, TXN; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
-- AI: 0.997 (Shared companies: GOOGL, NVDA, TSLA, TXN; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
-- Cloud: 0.996 (Shared companies: GOOGL, NVDA, TXN; Shared sectors: Communication Services, Consumer Cyclical, Technology)
+- Robotics: 0.998 (Shared companies: NVDA; Shared sectors: Consumer Cyclical, Technology; Similar short-term momentum)
+- Semiconductor: 0.986 (Shared companies: NVDA, TXN; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Cloud: 0.95 (Shared companies: NVDA, TXN; Shared sectors: Consumer Cyclical, Technology)
+- AI: 0.945 (Shared companies: NVDA, TSLA, TXN; Shared sectors: Consumer Cyclical, Technology; Similar short-term momentum)
+- Cybersecurity: 0.943 (Shared sectors: Technology)
 
 ## Review Note
 

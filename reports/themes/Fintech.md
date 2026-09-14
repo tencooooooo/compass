@@ -1,34 +1,30 @@
 # Fintech
 
-- Target companies: 2
-- Average Score: 59.00
-- Average Discovery: 67.00
-- Momentum: -5.39
+- Target companies: 1
+- Average Score: N/A
+- Average Discovery: N/A
+- Momentum: N/A
 - Confidence: Medium
 
 ## Companies
 
 - ACN - Accenture plc (Medium): Keyword: banking; Sector alignment: Technology
-- GOOGL - Alphabet Inc. (Low): Keyword: payments
 
 ## Market
 
-- Communication Services: score 56.00, momentum 2.11, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
-- Technology: score 65.83, momentum 3.98, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 68.75, momentum 2.05, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- GOOGL: Entergy Says Google’s Arkansas Solar Payments Could Total $2.1 Billion. Is Power Becoming Alphabet’s New Bottleneck?
-- GOOGL: Marvell Raised Its Outlook but Fell as Google Chip Revenue Stayed Distant. Has the AI Payoff Been Priced In? (Ready for review)
-- GOOGL: Jim Cramer Flagged Another Risk For Adobe Inc. (NASDAQ:ADBE)
+No theme news available yet.
 
 ## Similar Themes
 
-- Energy: 0.994 (Shared companies: ACN, GOOGL; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
-- Space: 0.945 (Shared companies: GOOGL; Shared sectors: Communication Services, Technology; Similar short-term momentum)
-- Quantum Computing: 0.934 (Shared companies: GOOGL; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
-- EV: 0.923 (Shared companies: GOOGL; Shared sectors: Communication Services, Technology; Similar short-term momentum)
-- Semiconductor: 0.911 (Shared companies: GOOGL; Shared sectors: Communication Services, Technology; Similar short-term momentum)
+- Energy: 0.117 (Shared companies: ACN; Shared sectors: Technology; Similar short-term momentum)
+- Robotics: 0.101 (Shared companies: ACN; Shared sectors: Technology; Similar short-term momentum)
+- Healthcare: 0.1 (Shared sectors: Technology)
+- Cybersecurity: 0.068 (Shared companies: ACN; Shared sectors: Technology; Similar short-term momentum)
+- AI: 0.067 (Shared companies: ACN; Shared sectors: Technology; Similar short-term momentum)
 
 ## Review Note
 
