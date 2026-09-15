@@ -4,118 +4,118 @@
 
 ### Baseline Metrics
 
-- discovery_success_rate: 50.1
-- average_return: 1.0
-- alpha: -0.02
-- win_rate: 50.1
+- discovery_success_rate: 49.5
+- average_return: 0.87
+- alpha: 0.12
+- win_rate: 49.5
 - max_drawdown: 0.0
 - sharpe_ratio: N/A
 - strategy_ranking: 0.0
-- performance_score: 12.77
+- performance_score: 12.62
 
 ### Candidate Metrics
 
-- discovery_success_rate: 50.1
-- average_return: 1.0
-- alpha: -0.02
-- win_rate: 50.1
+- discovery_success_rate: 49.5
+- average_return: 0.87
+- alpha: 0.12
+- win_rate: 49.5
 - max_drawdown: 0.0
 - sharpe_ratio: N/A
 - strategy_ranking: 0.0
-- performance_score: 12.77
+- performance_score: 12.62
 
 ## EXP-MOM-TAPER-001
 
 ### Baseline Metrics
 
-- discovery_success_rate: 39.69
-- average_return: -1.47
-- alpha: -2.68
-- win_rate: 39.69
+- discovery_success_rate: 42.14
+- average_return: -1.01
+- alpha: -1.88
+- win_rate: 42.14
 - max_drawdown: N/A
 - sharpe_ratio: N/A
 - strategy_ranking: N/A
-- performance_score: 11.85
-- selected_rows: 545
-- completed_rows: 131
-- unique_tickers: 9
-- ticker_equal_weight_alpha: -2.78
+- performance_score: 13.08
+- selected_rows: 675
+- completed_rows: 159
+- unique_tickers: 11
+- ticker_equal_weight_alpha: -2.91
 
 ### Candidate Metrics
 
-- discovery_success_rate: 42.86
-- average_return: -1.11
-- alpha: -1.82
-- win_rate: 42.86
+- discovery_success_rate: 43.18
+- average_return: -1.06
+- alpha: -1.5
+- win_rate: 43.18
 - max_drawdown: N/A
 - sharpe_ratio: N/A
 - strategy_ranking: N/A
-- performance_score: 13.31
-- selected_rows: 310
-- completed_rows: 70
-- unique_tickers: 8
-- ticker_equal_weight_alpha: -2.25
+- performance_score: 13.54
+- selected_rows: 395
+- completed_rows: 88
+- unique_tickers: 10
+- ticker_equal_weight_alpha: -2.84
 
 ## EXP-NEWS-CAP-001
 
 ### Baseline Metrics
 
-- discovery_success_rate: 39.69
-- average_return: -1.47
-- alpha: -2.68
-- win_rate: 39.69
+- discovery_success_rate: 42.14
+- average_return: -1.01
+- alpha: -1.88
+- win_rate: 42.14
 - max_drawdown: N/A
 - sharpe_ratio: N/A
 - strategy_ranking: N/A
-- performance_score: 11.85
-- selected_rows: 545
-- completed_rows: 131
-- unique_tickers: 9
-- ticker_equal_weight_alpha: -2.78
+- performance_score: 13.08
+- selected_rows: 675
+- completed_rows: 159
+- unique_tickers: 11
+- ticker_equal_weight_alpha: -2.91
 
 ### Candidate Metrics
 
-- discovery_success_rate: 39.69
-- average_return: -1.47
-- alpha: -2.68
-- win_rate: 39.69
+- discovery_success_rate: 42.14
+- average_return: -1.01
+- alpha: -1.88
+- win_rate: 42.14
 - max_drawdown: N/A
 - sharpe_ratio: N/A
 - strategy_ranking: N/A
-- performance_score: 11.85
-- selected_rows: 545
-- completed_rows: 131
-- unique_tickers: 9
-- ticker_equal_weight_alpha: -2.78
+- performance_score: 13.08
+- selected_rows: 670
+- completed_rows: 159
+- unique_tickers: 11
+- ticker_equal_weight_alpha: -2.91
 
 ## EXP-OVEREXT-001
 
 ### Baseline Metrics
 
-- discovery_success_rate: 39.69
-- average_return: -1.47
-- alpha: -2.68
-- win_rate: 39.69
+- discovery_success_rate: 42.14
+- average_return: -1.01
+- alpha: -1.88
+- win_rate: 42.14
 - max_drawdown: N/A
 - sharpe_ratio: N/A
 - strategy_ranking: N/A
-- performance_score: 11.85
-- selected_rows: 545
-- completed_rows: 131
-- unique_tickers: 9
-- ticker_equal_weight_alpha: -2.78
+- performance_score: 13.08
+- selected_rows: 675
+- completed_rows: 159
+- unique_tickers: 11
+- ticker_equal_weight_alpha: -2.91
 
 ### Candidate Metrics
 
-- discovery_success_rate: 44.12
-- average_return: -0.95
-- alpha: -1.7
-- win_rate: 44.12
+- discovery_success_rate: 44.19
+- average_return: -0.93
+- alpha: -1.39
+- win_rate: 44.19
 - max_drawdown: N/A
 - sharpe_ratio: N/A
 - strategy_ranking: N/A
-- performance_score: 13.82
-- selected_rows: 300
-- completed_rows: 68
-- unique_tickers: 8
-- ticker_equal_weight_alpha: -1.4
+- performance_score: 13.96
+- selected_rows: 380
+- completed_rows: 86
+- unique_tickers: 10
+- ticker_equal_weight_alpha: -2.07
