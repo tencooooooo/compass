@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 0.77%
+- 市場全体の1Mモメンタム平均: -0.77%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-09-14T23:55:30+00:00 / AMAT / StockStory: Applied Materials, Lam Research, Monolithic Power Systems, Marvell Technology, and MACOM Shares Are Falling, What You Need To Know
-- 2026-09-14T23:51:48+00:00 / AAPL / TheStreet: PayPal takes No. 1 in tech power ranking
-- 2026-09-14T23:50:57+00:00 / TSLA / TheStreet: Analyst calls robotaxi fears completely ridiculous
-- 2026-09-14T23:46:01+00:00 / NVDA / Motley Fool: Prediction: Interactive Brokers Ends 2026 With More Than 6 Million Customer Accounts
-- 2026-09-14T23:27:00+00:00 / AVGO / Zacks: 3 Stocks That Offer AI Exposure and Dividends
+- 2026-09-15T23:38:09+00:00 / CRM / Investor's Business Daily: Dow Jones Futures Rise; ServiceNow, Twilio Lead New Buys As Fed Hike Looms
+- 2026-09-15T23:38:09+00:00 / NOW / Investor's Business Daily: Dow Jones Futures Rise; ServiceNow, Twilio Lead New Buys As Fed Hike Looms
+- 2026-09-15T23:15:47+00:00 / META / Trefis: Is AppLovin's Lead Over Its Peers Already In The Price?
+- 2026-09-15T23:00:00+00:00 / HD / TheStreet: Ulta Beauty faces rising customer backlash over anti-theft tool
+- 2026-09-15T23:00:00+00:00 / LOW / TheStreet: Ulta Beauty faces rising customer backlash over anti-theft tool
 
 ### 注目イベント
 
-- 2026-09-11T17:52:26+00:00 / TXN: Should Qualcomm Stockholders Worry About Its Shrinking Revenue? (株価反応: 3.82%, 出来高: 5.26M)
-- 2026-09-11T16:00:52+00:00 / TXN: The Next Growth Cycle Could Take Qualcomm to New Highs (株価反応: 3.82%, 出来高: 5.26M)
-- 2026-09-10T22:00:06+00:00 / TXN: Texas Instruments (TXN) Registers a Bigger Fall Than the Market: Important Facts to Note (株価反応: 3.82%, 出来高: 5.26M)
-- 2026-09-10T20:04:09+00:00 / TXN: Is Applied Materials Stock Amplifying A Risk You Already Own? (株価反応: 3.82%, 出来高: 5.26M)
-- 2026-09-11T15:43:04+00:00 / TMUS: Fed’s Rate Decision May Have Come Down to Phone Plan Changes (株価反応: 2.92%, 出来高: 3.67M)
+- 2026-09-14T14:52:29+00:00 / AMAT: Chip Equipment Stocks Slide as AI Pacing Call Reaches Fab Spending: Applied Materials and Lam Research Fall 6%, ASML Sinks 5% (株価反応: -7.07%, 出来高: 8.06M)
+- 2026-09-14T12:04:43+00:00 / AMAT: Applied Materials Shares Fall 5.8% as Semiconductor Stocks Decline (株価反応: -7.07%, 出来高: 8.06M)
+- 2026-09-14T11:50:58+00:00 / AMAT: ASML Fell For a Month Straight: A Prominent Wall Street Ratings Agency Says It Will Return 70% From Today (株価反応: -7.07%, 出来高: 8.06M)
+- 2026-09-13T18:58:01+00:00 / AMAT: Prediction: Applied Materials Books Its First $10 Billion Quarter This Fall (株価反応: -7.07%, 出来高: 8.06M)
+- 2026-09-13T12:50:01+00:00 / AMAT: Applied Materials vs. ASML: Which Tech Stock Is a Better 投資判断表現 in 2026? (株価反応: -7.07%, 出来高: 8.06M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 58.83 | 19.56 | 11.20 | 3.42% | 60 |
-| Consumer Cyclical | 6 | 49.50 | 70.64 | 9.01 | -4.43% | 60 |
-| Technology | 12 | 63.58 | 42.52 | 9.17 | 2.05% | 120 |
+| Communication Services | 6 | 60.50 | 19.28 | 11.20 | 0.89% | 60 |
+| Consumer Cyclical | 6 | 50.00 | 70.96 | 9.01 | -6.36% | 60 |
+| Technology | 12 | 65.83 | 42.66 | 9.17 | 1.20% | 120 |
 
 ## 市場トレンド
 
