@@ -4,11 +4,11 @@
 
 ## Overview
 
-- 生成日時: 2026-09-11T19:43:07.812965-04:00
+- 生成日時: 2026-09-14T20:06:46.835457-04:00
 - 対象期間: 1w, 1m, 3m, 6m, 1y
-- 検証対象数: 2325
+- 検証対象数: 2375
 - 期間完了済み: 606
-- 期間未完了: 1719
+- 期間未完了: 1769
 - ベンチマーク: SPY
 - 平均騰落率(期間完了分): 0.83%
 - ユニーク銘柄数(期間完了分): 18
@@ -21,7 +21,7 @@
 - Good: 46
 - Neutral: 79
 - Poor: 272
-- Pending(期間未完了): 1719
+- Pending(期間未完了): 1769
 
 ## Validation Table
 
@@ -39,9 +39,9 @@
 | AMD | 6m | 73 | -4.58% | -7.06% | -13.12% | -5.68% | Neutral | No | High | N/A |
 | AMZN | 1m | 71 | 12.36% | 12.19% | 16.02% | 14.06% | Excellent | Yes | Medium | N/A |
 | AMZN | 1w | 71 | 0.79% | 0.84% | 3.48% | 3.16% | Neutral | Yes | Medium | N/A |
-| AMZN | 1y | 71 | 6.24% | 3.75% | 16.02% | 10.58% | Neutral | No | Medium | N/A |
-| AMZN | 3m | 71 | 6.24% | 3.75% | 16.02% | 10.58% | Neutral | No | Medium | N/A |
-| AMZN | 6m | 71 | 6.24% | 3.75% | 16.02% | 10.58% | Neutral | No | Medium | N/A |
+| AMZN | 1y | 71 | 6.24% | 3.75% | 16.00% | 10.58% | Neutral | No | Medium | N/A |
+| AMZN | 3m | 71 | 6.24% | 3.75% | 16.00% | 10.58% | Neutral | No | Medium | N/A |
+| AMZN | 6m | 71 | 6.24% | 3.75% | 16.00% | 10.58% | Neutral | No | Medium | N/A |
 | GOOGL | 1m | 74 | -1.41% | -1.58% | -3.96% | -0.04% | Neutral | Yes | Medium | N/A |
 | GOOGL | 1w | 74 | 0.20% | 0.24% | -0.09% | 0.45% | Neutral | Yes | Medium | N/A |
 | GOOGL | 1y | 74 | -6.23% | -8.71% | -16.38% | -8.83% | Neutral | No | Medium | N/A |
@@ -64,9 +64,9 @@
 | NVDA | 6m | 67 | 10.61% | 8.12% | 3.07% | 9.50% | Neutral | No | High | N/A |
 | TSLA | 1m | 71 | -26.83% | -27.00% | -27.52% | -25.13% | Poor | Yes | High | N/A |
 | TSLA | 1w | 71 | -7.35% | -7.30% | -5.56% | -4.98% | Poor | Yes | High | N/A |
-| TSLA | 1y | 71 | -14.07% | -16.56% | -6.55% | -9.73% | Neutral | No | High | N/A |
-| TSLA | 3m | 71 | -14.07% | -16.56% | -6.55% | -9.73% | Neutral | No | High | N/A |
-| TSLA | 6m | 71 | -14.07% | -16.56% | -6.55% | -9.73% | Neutral | No | High | N/A |
+| TSLA | 1y | 71 | -14.07% | -16.56% | -6.58% | -9.73% | Neutral | No | High | N/A |
+| TSLA | 3m | 71 | -14.07% | -16.56% | -6.58% | -9.73% | Neutral | No | High | N/A |
+| TSLA | 6m | 71 | -14.07% | -16.56% | -6.58% | -9.73% | Neutral | No | High | N/A |
 | AAPL | 1m | 68 | -1.69% | -3.42% | -2.94% | -0.28% | Poor | Yes | Medium | N/A |
 | AAPL | 1w | 68 | 2.46% | 1.53% | -0.08% | -0.18% | Good | Yes | Medium | N/A |
 | AAPL | 1y | 68 | 7.75% | 5.13% | -0.79% | 3.83% | Neutral | No | Medium | N/A |
@@ -79,9 +79,9 @@
 | AMD | 6m | 70 | -0.33% | -2.95% | -9.41% | -4.25% | Neutral | No | Medium | N/A |
 | AMZN | 1m | 70 | 17.04% | 15.31% | 20.71% | 16.11% | Excellent | Yes | Medium | N/A |
 | AMZN | 1w | 70 | 1.80% | 0.87% | 4.42% | 2.03% | Good | Yes | Medium | N/A |
-| AMZN | 1y | 70 | 5.81% | 3.19% | 16.00% | 9.37% | Neutral | No | Medium | N/A |
-| AMZN | 3m | 70 | 5.81% | 3.19% | 16.00% | 9.37% | Neutral | No | Medium | N/A |
-| AMZN | 6m | 70 | 5.81% | 3.19% | 16.00% | 9.37% | Neutral | No | Medium | N/A |
+| AMZN | 1y | 70 | 5.81% | 3.19% | 15.98% | 9.37% | Neutral | No | Medium | N/A |
+| AMZN | 3m | 70 | 5.81% | 3.19% | 15.98% | 9.37% | Neutral | No | Medium | N/A |
+| AMZN | 6m | 70 | 5.81% | 3.19% | 15.98% | 9.37% | Neutral | No | Medium | N/A |
 | GOOGL | 1m | 70 | 3.78% | 2.05% | 0.00% | 2.19% | Good | Yes | Medium | N/A |
 | GOOGL | 1w | 70 | -0.28% | -1.21% | -0.58% | -1.11% | Poor | Yes | Medium | N/A |
 | GOOGL | 1y | 70 | -5.89% | -8.51% | -15.32% | -8.63% | Neutral | No | Medium | N/A |
@@ -104,9 +104,9 @@
 | NVDA | 6m | 72 | 12.17% | 9.55% | 3.92% | 8.25% | Neutral | No | Medium | N/A |
 | TSLA | 1m | 62 | -18.14% | -19.87% | -18.38% | -19.07% | Poor | Yes | Medium | N/A |
 | TSLA | 1w | 62 | 3.33% | 2.40% | 6.12% | 3.56% | Excellent | Yes | Medium | N/A |
-| TSLA | 1y | 62 | -7.12% | -9.74% | 1.63% | -3.57% | Neutral | No | Medium | N/A |
-| TSLA | 3m | 62 | -7.12% | -9.74% | 1.63% | -3.57% | Neutral | No | Medium | N/A |
-| TSLA | 6m | 62 | -7.12% | -9.74% | 1.63% | -3.57% | Neutral | No | Medium | N/A |
+| TSLA | 1y | 62 | -7.12% | -9.74% | 1.60% | -3.57% | Neutral | No | Medium | N/A |
+| TSLA | 3m | 62 | -7.12% | -9.74% | 1.60% | -3.57% | Neutral | No | Medium | N/A |
+| TSLA | 6m | 62 | -7.12% | -9.74% | 1.60% | -3.57% | Neutral | No | Medium | N/A |
 | AAPL | 1m | 65 | -1.69% | -3.42% | -2.94% | -0.28% | Poor | Yes | High | N/A |
 | AAPL | 1w | 65 | 2.46% | 1.53% | -0.08% | -0.18% | Good | Yes | High | N/A |
 | AAPL | 1y | 65 | 7.75% | 5.13% | -0.79% | 3.83% | Neutral | No | High | N/A |
@@ -219,9 +219,9 @@
 | NVDA | 6m | 69 | 11.75% | 10.02% | 5.11% | 9.52% | Neutral | No | High | N/A |
 | TSLA | 1m | 61 | -23.40% | -25.86% | -28.07% | -23.93% | Poor | Yes | High | N/A |
 | TSLA | 1w | 61 | -5.96% | -5.68% | -5.30% | -4.29% | Poor | Yes | High | N/A |
-| TSLA | 1y | 61 | -12.94% | -14.67% | -6.04% | -8.66% | Neutral | No | High | N/A |
-| TSLA | 3m | 61 | -12.94% | -14.67% | -6.04% | -8.66% | Neutral | No | High | N/A |
-| TSLA | 6m | 61 | -12.94% | -14.67% | -6.04% | -8.66% | Neutral | No | High | N/A |
+| TSLA | 1y | 61 | -12.94% | -14.67% | -6.07% | -8.66% | Neutral | No | High | N/A |
+| TSLA | 3m | 61 | -12.94% | -14.67% | -6.07% | -8.66% | Neutral | No | High | N/A |
+| TSLA | 6m | 61 | -12.94% | -14.67% | -6.07% | -8.66% | Neutral | No | High | N/A |
 | AAPL | 1m | 64 | 0.56% | -2.23% | -4.49% | -2.87% | Poor | Yes | High | N/A |
 | AAPL | 1w | 64 | 1.35% | 0.80% | 0.46% | -1.13% | Neutral | Yes | High | N/A |
 | AAPL | 1y | 64 | 7.05% | 4.83% | -1.31% | 2.31% | Neutral | No | High | N/A |
@@ -234,9 +234,9 @@
 | AMD | 6m | 76 | 0.00% | -2.21% | -8.82% | -4.73% | Neutral | No | High | N/A |
 | AMZN | 1m | 60 | 10.68% | 7.90% | 10.29% | 10.08% | Excellent | Yes | Medium | N/A |
 | AMZN | 1w | 60 | 0.61% | 0.06% | 2.86% | 1.88% | Neutral | Yes | Medium | N/A |
-| AMZN | 1y | 60 | 4.39% | 2.17% | 13.37% | 8.16% | Neutral | No | Medium | N/A |
-| AMZN | 3m | 60 | 4.39% | 2.17% | 13.37% | 8.16% | Neutral | No | Medium | N/A |
-| AMZN | 6m | 60 | 4.39% | 2.17% | 13.37% | 8.16% | Neutral | No | Medium | N/A |
+| AMZN | 1y | 60 | 4.39% | 2.17% | 13.35% | 8.16% | Neutral | No | Medium | N/A |
+| AMZN | 3m | 60 | 4.39% | 2.17% | 13.35% | 8.16% | Neutral | No | Medium | N/A |
+| AMZN | 6m | 60 | 4.39% | 2.17% | 13.35% | 8.16% | Neutral | No | Medium | N/A |
 | GOOGL | 1m | 69 | -2.53% | -5.32% | -7.77% | -2.67% | Poor | Yes | Medium | N/A |
 | GOOGL | 1w | 69 | -2.05% | -2.60% | -2.00% | -2.44% | Poor | Yes | Medium | N/A |
 | GOOGL | 1y | 69 | -7.71% | -9.93% | -16.25% | -9.14% | Neutral | No | Medium | N/A |
@@ -289,9 +289,9 @@
 | AMD | 6m | 82 | -5.60% | -7.27% | -12.41% | -6.85% | Neutral | No | High | N/A |
 | AMZN | 1m | 62 | 12.57% | 9.73% | 10.46% | 10.16% | Excellent | Yes | Medium | N/A |
 | AMZN | 1w | 62 | 1.15% | 1.29% | -0.45% | 0.73% | Good | Yes | Medium | N/A |
-| AMZN | 1y | 62 | 3.94% | 2.27% | 11.65% | 7.27% | Neutral | No | Medium | N/A |
-| AMZN | 3m | 62 | 3.94% | 2.27% | 11.65% | 7.27% | Neutral | No | Medium | N/A |
-| AMZN | 6m | 62 | 3.94% | 2.27% | 11.65% | 7.27% | Neutral | No | Medium | N/A |
+| AMZN | 1y | 62 | 3.94% | 2.27% | 11.63% | 7.27% | Neutral | No | Medium | N/A |
+| AMZN | 3m | 62 | 3.94% | 2.27% | 11.63% | 7.27% | Neutral | No | Medium | N/A |
+| AMZN | 6m | 62 | 3.94% | 2.27% | 11.63% | 7.27% | Neutral | No | Medium | N/A |
 | GOOGL | 1m | 73 | -0.38% | -3.22% | -6.31% | -1.58% | Poor | Yes | High | N/A |
 | GOOGL | 1w | 73 | -1.23% | -1.10% | -4.38% | -3.17% | Poor | Yes | High | N/A |
 | GOOGL | 1y | 73 | -5.62% | -7.29% | -14.77% | -7.51% | Neutral | No | High | N/A |
@@ -309,9 +309,9 @@
 | NVDA | 6m | 69 | 7.77% | 6.10% | 1.85% | 6.52% | Neutral | No | High | N/A |
 | TSLA | 1m | 61 | -18.61% | -21.45% | -24.19% | -21.03% | Poor | Yes | High | N/A |
 | TSLA | 1w | 61 | -3.81% | -3.68% | -5.97% | -4.23% | Poor | Yes | High | N/A |
-| TSLA | 1y | 61 | -10.11% | -11.79% | -3.96% | -6.78% | Neutral | No | High | N/A |
-| TSLA | 3m | 61 | -10.11% | -11.79% | -3.96% | -6.78% | Neutral | No | High | N/A |
-| TSLA | 6m | 61 | -10.11% | -11.79% | -3.96% | -6.78% | Neutral | No | High | N/A |
+| TSLA | 1y | 61 | -10.11% | -11.79% | -3.99% | -6.78% | Neutral | No | High | N/A |
+| TSLA | 3m | 61 | -10.11% | -11.79% | -3.99% | -6.78% | Neutral | No | High | N/A |
+| TSLA | 6m | 61 | -10.11% | -11.79% | -3.99% | -6.78% | Neutral | No | High | N/A |
 | AAPL | 1m | 65 | -2.15% | -4.55% | -6.52% | -2.45% | Poor | Yes | High | N/A |
 | AAPL | 1w | 65 | 5.84% | 7.39% | 11.31% | 11.33% | Excellent | Yes | High | N/A |
 | AAPL | 1y | 65 | 5.47% | 4.23% | -0.60% | 4.45% | Neutral | No | High | N/A |
@@ -339,9 +339,9 @@
 | NVDA | 6m | 76 | 3.59% | 2.35% | -2.60% | 2.57% | Neutral | No | High | N/A |
 | TSLA | 1m | 60 | -18.85% | -21.25% | -23.75% | -20.93% | Poor | Yes | High | N/A |
 | TSLA | 1w | 60 | -6.60% | -5.06% | -6.31% | -5.07% | Poor | Yes | High | N/A |
-| TSLA | 1y | 60 | -10.38% | -11.62% | -3.65% | -6.73% | Neutral | No | High | N/A |
-| TSLA | 3m | 60 | -10.38% | -11.62% | -3.65% | -6.73% | Neutral | No | High | N/A |
-| TSLA | 6m | 60 | -10.38% | -11.62% | -3.65% | -6.73% | Neutral | No | High | N/A |
+| TSLA | 1y | 60 | -10.38% | -11.62% | -3.68% | -6.73% | Neutral | No | High | N/A |
+| TSLA | 3m | 60 | -10.38% | -11.62% | -3.68% | -6.73% | Neutral | No | High | N/A |
+| TSLA | 6m | 60 | -10.38% | -11.62% | -3.68% | -6.73% | Neutral | No | High | N/A |
 | AAPL | 1m | 69 | -4.66% | -7.78% | -10.98% | -8.85% | Poor | Yes | High | N/A |
 | AAPL | 1w | 69 | 2.92% | 3.87% | 6.39% | 6.00% | Excellent | Yes | High | N/A |
 | AAPL | 1y | 69 | 4.80% | 2.79% | -2.71% | 1.28% | Neutral | No | High | N/A |
@@ -354,9 +354,9 @@
 | AMD | 6m | 79 | -3.42% | -5.44% | -11.48% | -6.94% | Neutral | No | High | N/A |
 | AMZN | 1m | 60 | 8.07% | 4.96% | 6.76% | 6.48% | Excellent | Yes | Medium | N/A |
 | AMZN | 1w | 60 | 1.08% | 2.03% | 2.36% | 2.32% | Excellent | Yes | Medium | N/A |
-| AMZN | 1y | 60 | 3.83% | 1.81% | 11.36% | 6.48% | Neutral | No | Medium | N/A |
-| AMZN | 3m | 60 | 3.83% | 1.81% | 11.36% | 6.48% | Neutral | No | Medium | N/A |
-| AMZN | 6m | 60 | 3.83% | 1.81% | 11.36% | 6.48% | Neutral | No | Medium | N/A |
+| AMZN | 1y | 60 | 3.83% | 1.81% | 11.33% | 6.48% | Neutral | No | Medium | N/A |
+| AMZN | 3m | 60 | 3.83% | 1.81% | 11.33% | 6.48% | Neutral | No | Medium | N/A |
+| AMZN | 6m | 60 | 3.83% | 1.81% | 11.33% | 6.48% | Neutral | No | Medium | N/A |
 | GOOGL | 1m | 68 | -2.54% | -5.66% | -6.44% | -1.36% | Poor | Yes | High | N/A |
 | GOOGL | 1w | 68 | -0.15% | 0.80% | 0.20% | 0.56% | Neutral | Yes | High | N/A |
 | GOOGL | 1y | 68 | -3.91% | -5.93% | -11.59% | -4.82% | Neutral | No | High | N/A |
@@ -414,9 +414,9 @@
 | AMD | 6m | 79 | -2.46% | -3.71% | -11.53% | -5.81% | Neutral | No | High | N/A |
 | AMZN | 1m | 61 | 3.02% | 0.16% | 0.88% | 1.99% | Good | Yes | Medium | N/A |
 | AMZN | 1w | 61 | -3.97% | -2.98% | -3.06% | -1.42% | Poor | Yes | Medium | N/A |
-| AMZN | 1y | 61 | 0.71% | -0.54% | 7.58% | 4.17% | Neutral | No | Medium | N/A |
-| AMZN | 3m | 61 | 0.71% | -0.54% | 7.58% | 4.17% | Neutral | No | Medium | N/A |
-| AMZN | 6m | 61 | 0.71% | -0.54% | 7.58% | 4.17% | Neutral | No | Medium | N/A |
+| AMZN | 1y | 61 | 0.71% | -0.54% | 7.55% | 4.17% | Neutral | No | Medium | N/A |
+| AMZN | 3m | 61 | 0.71% | -0.54% | 7.55% | 4.17% | Neutral | No | Medium | N/A |
+| AMZN | 6m | 61 | 0.71% | -0.54% | 7.55% | 4.17% | Neutral | No | Medium | N/A |
 | GOOGL | 1m | 76 | -6.75% | -9.60% | -13.35% | -6.37% | Poor | Yes | High | N/A |
 | GOOGL | 1w | 76 | -7.77% | -6.79% | -7.31% | -4.09% | Poor | Yes | High | N/A |
 | GOOGL | 1y | 76 | -8.68% | -9.94% | -16.11% | -7.99% | Neutral | No | High | N/A |
@@ -499,9 +499,9 @@
 | AMD | 6m | 77 | 2.49% | -0.50% | -8.53% | -4.31% | Neutral | No | High | Strong |
 | AMZN | 1m | 61 | 6.34% | 2.71% | 3.97% | 2.87% | Excellent | Yes | Medium | Strong |
 | AMZN | 1w | 61 | -7.44% | -7.04% | -7.13% | -4.15% | Poor | Yes | Medium | Strong |
-| AMZN | 1y | 61 | 2.72% | -0.28% | 8.94% | 4.16% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 61 | 2.72% | -0.28% | 8.94% | 4.16% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 61 | 2.72% | -0.28% | 8.94% | 4.16% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 61 | 2.72% | -0.28% | 8.92% | 4.16% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 61 | 2.72% | -0.28% | 8.92% | 4.16% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 61 | 2.72% | -0.28% | 8.92% | 4.16% | Neutral | No | Medium | Strong |
 | GOOGL | 1m | 68 | -2.07% | -5.70% | -9.32% | -2.53% | Poor | Yes | High | Strong |
 | GOOGL | 1w | 68 | -7.22% | -6.82% | -7.74% | -4.39% | Poor | Yes | High | Strong |
 | GOOGL | 1y | 68 | -3.77% | -6.76% | -11.90% | -5.40% | Neutral | No | High | Strong |
@@ -589,9 +589,9 @@
 | AMD | 6m | 81 | 4.28% | 0.87% | -6.53% | -3.39% | Neutral | No | High | Strong |
 | AMZN | 1m | 62 | 12.49% | 8.83% | 11.95% | 6.78% | Excellent | Yes | Medium | Moderate |
 | AMZN | 1w | 62 | 22.75% | 20.23% | 21.92% | 16.10% | Excellent | Yes | Medium | Moderate |
-| AMZN | 1y | 62 | 10.97% | 7.56% | 16.48% | 9.06% | Neutral | No | Medium | Moderate |
-| AMZN | 3m | 62 | 10.97% | 7.56% | 16.48% | 9.06% | Neutral | No | Medium | Moderate |
-| AMZN | 6m | 62 | 10.97% | 7.56% | 16.48% | 9.06% | Neutral | No | Medium | Moderate |
+| AMZN | 1y | 62 | 10.97% | 7.56% | 16.45% | 9.06% | Neutral | No | Medium | Moderate |
+| AMZN | 3m | 62 | 10.97% | 7.56% | 16.45% | 9.06% | Neutral | No | Medium | Moderate |
+| AMZN | 6m | 62 | 10.97% | 7.56% | 16.45% | 9.06% | Neutral | No | Medium | Moderate |
 | GOOGL | 1m | 68 | 4.73% | 1.08% | -3.72% | 0.13% | Good | Yes | Medium | Strong |
 | GOOGL | 1w | 68 | 14.38% | 11.86% | 12.23% | 10.96% | Excellent | Yes | Medium | Strong |
 | GOOGL | 1y | 68 | 3.72% | 0.31% | -3.84% | -0.87% | Neutral | No | Medium | Strong |
@@ -704,9 +704,9 @@
 | AMD | 6m | 81 | 8.40% | 6.09% | -0.81% | 1.37% | Neutral | No | High | Strong |
 | AMZN | 1m | 77 | -4.35% | -7.03% | -3.91% | -4.78% | Poor | Yes | Medium | Strong |
 | AMZN | 1w | 77 | 1.07% | -2.44% | -3.41% | -2.18% | Poor | Yes | Medium | Strong |
-| AMZN | 1y | 77 | -5.45% | -7.76% | 0.12% | -2.75% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 77 | -5.45% | -7.76% | 0.12% | -2.75% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 77 | -5.45% | -7.76% | 0.12% | -2.75% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 77 | -5.45% | -7.76% | 0.10% | -2.75% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 77 | -5.45% | -7.76% | 0.10% | -2.75% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 77 | -5.45% | -7.76% | 0.10% | -2.75% | Neutral | No | Medium | Strong |
 | GOOGL | 1m | 77 | -4.71% | -7.39% | -12.17% | -7.69% | Poor | Yes | High | Strong |
 | GOOGL | 1w | 77 | -0.51% | -4.03% | -4.43% | -3.29% | Poor | Yes | High | Strong |
 | GOOGL | 1y | 77 | -4.89% | -7.20% | -12.35% | -8.92% | Neutral | No | High | Strong |
@@ -739,9 +739,9 @@
 | AMD | 6m | 88 | 6.50% | 5.62% | -0.98% | 1.09% | Neutral | No | High | Strong |
 | AMZN | 1m | 79 | -10.22% | -11.21% | -7.60% | -7.39% | Poor | Yes | Medium | Strong |
 | AMZN | 1w | 79 | -2.09% | -4.12% | -5.02% | -3.32% | Poor | Yes | Medium | Strong |
-| AMZN | 1y | 79 | -9.59% | -10.46% | -3.26% | -5.15% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 79 | -9.59% | -10.46% | -3.26% | -5.15% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 79 | -9.59% | -10.46% | -3.26% | -5.15% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 79 | -9.59% | -10.46% | -3.29% | -5.15% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 79 | -9.59% | -10.46% | -3.29% | -5.15% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 79 | -9.59% | -10.46% | -3.29% | -5.15% | Neutral | No | Medium | Strong |
 | GOOGL | 1m | 78 | -9.74% | -10.73% | -16.97% | -10.71% | Poor | Yes | Medium | Strong |
 | GOOGL | 1w | 78 | -4.28% | -6.31% | -6.58% | -4.72% | Poor | Yes | Medium | Strong |
 | GOOGL | 1y | 78 | -9.31% | -10.19% | -14.70% | -10.45% | Neutral | No | Medium | Strong |
@@ -774,9 +774,9 @@
 | AMD | 6m | 90 | -0.47% | 0.44% | -3.34% | -0.88% | Neutral | No | High | Strong |
 | AMZN | 1m | 70 | -6.68% | -6.91% | -3.62% | -5.13% | Poor | Yes | Medium | Strong |
 | AMZN | 1w | 70 | -1.86% | -1.76% | -3.79% | -2.66% | Poor | Yes | Medium | Strong |
-| AMZN | 1y | 70 | -7.44% | -6.53% | -0.03% | -2.93% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 70 | -7.44% | -6.53% | -0.03% | -2.93% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 70 | -7.44% | -6.53% | -0.03% | -2.93% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 70 | -7.44% | -6.53% | -0.06% | -2.93% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 70 | -7.44% | -6.53% | -0.06% | -2.93% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 70 | -7.44% | -6.53% | -0.06% | -2.93% | Neutral | No | Medium | Strong |
 | GOOGL | 1m | 81 | -9.31% | -9.55% | -15.74% | -10.51% | Poor | Yes | High | Strong |
 | GOOGL | 1w | 81 | -8.96% | -8.86% | -11.33% | -8.28% | Poor | Yes | High | Strong |
 | GOOGL | 1y | 81 | -10.31% | -9.40% | -15.11% | -10.81% | Neutral | No | High | Strong |
@@ -809,9 +809,9 @@
 | AMD | 6m | 79 | 7.07% | 7.78% | 3.92% | 6.12% | Neutral | No | High | Strong |
 | AMZN | 1m | 72 | -5.19% | -5.24% | 0.43% | -2.04% | Poor | Yes | Medium | Strong |
 | AMZN | 1w | 72 | -1.97% | -2.32% | -1.10% | -1.34% | Poor | Yes | Medium | Strong |
-| AMZN | 1y | 72 | -5.82% | -5.11% | 3.04% | -1.03% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 72 | -5.82% | -5.11% | 3.04% | -1.03% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 72 | -5.82% | -5.11% | 3.04% | -1.03% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 72 | -5.82% | -5.11% | 3.02% | -1.03% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 72 | -5.82% | -5.11% | 3.02% | -1.03% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 72 | -5.82% | -5.11% | 3.02% | -1.03% | Neutral | No | Medium | Strong |
 | GOOGL | 1m | 71 | -6.55% | -6.61% | -11.50% | -7.60% | Poor | Yes | High | Strong |
 | GOOGL | 1w | 71 | -5.21% | -5.56% | -6.23% | -4.67% | Poor | Yes | High | Strong |
 | GOOGL | 1y | 71 | -6.54% | -5.83% | -11.40% | -8.10% | Neutral | No | High | Strong |
@@ -844,9 +844,9 @@
 | AMD | 6m | 90 | 5.49% | 6.04% | 2.15% | 4.23% | Neutral | No | High | Strong |
 | AMZN | 1m | 71 | -5.62% | -5.28% | 1.18% | -2.14% | Poor | Yes | Medium | Strong |
 | AMZN | 1w | 71 | -2.62% | -3.83% | -2.76% | -2.92% | Poor | Yes | Medium | Strong |
-| AMZN | 1y | 71 | -5.69% | -5.13% | 2.95% | -1.33% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 71 | -5.69% | -5.13% | 2.95% | -1.33% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 71 | -5.69% | -5.13% | 2.95% | -1.33% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 71 | -5.69% | -5.13% | 2.93% | -1.33% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 71 | -5.69% | -5.13% | 2.93% | -1.33% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 71 | -5.69% | -5.13% | 2.93% | -1.33% | Neutral | No | Medium | Strong |
 | GOOGL | 1m | 70 | -5.36% | -5.02% | -7.86% | -5.67% | Poor | Yes | Medium | Strong |
 | GOOGL | 1w | 70 | -3.18% | -4.40% | -5.27% | -4.42% | Poor | Yes | Medium | Strong |
 | GOOGL | 1y | 70 | -5.32% | -4.76% | -8.53% | -6.60% | Neutral | No | Medium | Strong |
@@ -879,9 +879,9 @@
 | AMD | 6m | 81 | 6.78% | 7.94% | 5.67% | 6.94% | Neutral | No | High | Strong |
 | AMZN | 1m | 71 | -6.38% | -5.44% | 1.37% | -1.48% | Poor | Yes | Medium | Strong |
 | AMZN | 1w | 71 | -4.31% | -4.71% | -2.95% | -2.93% | Poor | Yes | Medium | Strong |
-| AMZN | 1y | 71 | -6.45% | -5.29% | 3.12% | -0.69% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 71 | -6.45% | -5.29% | 3.12% | -0.69% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 71 | -6.45% | -5.29% | 3.12% | -0.69% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 71 | -6.45% | -5.29% | 3.10% | -0.69% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 71 | -6.45% | -5.29% | 3.10% | -0.69% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 71 | -6.45% | -5.29% | 3.10% | -0.69% | Neutral | No | Medium | Strong |
 | GOOGL | 1m | 72 | -4.44% | -3.49% | -7.16% | -4.68% | Poor | Yes | Medium | Strong |
 | GOOGL | 1w | 72 | -2.37% | -2.77% | -4.81% | -3.90% | Poor | Yes | Medium | Strong |
 | GOOGL | 1y | 72 | -4.40% | -3.24% | -7.83% | -5.61% | Neutral | No | Medium | Strong |
@@ -909,9 +909,9 @@
 | AMD | 6m | 79 | 9.92% | 11.05% | 8.38% | 9.19% | Neutral | No | High | Strong |
 | AMZN | 1m | 76 | -9.24% | -7.86% | -0.86% | -3.21% | Poor | Yes | Medium | Strong |
 | AMZN | 1w | 76 | -6.03% | -5.99% | -3.85% | -3.59% | Poor | Yes | Medium | Strong |
-| AMZN | 1y | 76 | -7.66% | -6.53% | 1.28% | -2.06% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 76 | -7.66% | -6.53% | 1.28% | -2.06% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 76 | -7.66% | -6.53% | 1.28% | -2.06% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 76 | -7.66% | -6.53% | 1.26% | -2.06% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 76 | -7.66% | -6.53% | 1.26% | -2.06% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 76 | -7.66% | -6.53% | 1.26% | -2.06% | Neutral | No | Medium | Strong |
 | GOOGL | 1m | 66 | -7.46% | -6.08% | -8.11% | -6.56% | Poor | Yes | Medium | Strong |
 | GOOGL | 1w | 66 | -3.78% | -3.74% | -3.44% | -2.88% | Poor | Yes | Medium | Strong |
 | GOOGL | 1y | 66 | -5.26% | -4.13% | -8.33% | -5.95% | Neutral | No | Medium | Strong |
@@ -939,9 +939,9 @@
 | AMD | 6m | 83 | 8.81% | 9.63% | 6.73% | 7.97% | Neutral | No | High | Strong |
 | AMZN | 1m | 70 | -7.49% | -5.83% | 1.77% | -1.38% | Poor | Yes | Medium | Strong |
 | AMZN | 1w | 70 | -4.71% | -4.30% | -2.62% | -2.29% | Poor | Yes | Medium | Strong |
-| AMZN | 1y | 70 | -5.69% | -4.88% | 3.43% | -0.42% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 70 | -5.69% | -4.88% | 3.43% | -0.42% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 70 | -5.69% | -4.88% | 3.43% | -0.42% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 70 | -5.69% | -4.88% | 3.40% | -0.42% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 70 | -5.69% | -4.88% | 3.40% | -0.42% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 70 | -5.69% | -4.88% | 3.40% | -0.42% | Neutral | No | Medium | Strong |
 | GOOGL | 1m | 64 | -3.20% | -1.54% | -4.13% | -3.40% | Poor | Yes | Medium | Moderate |
 | GOOGL | 1w | 64 | 0.12% | 0.52% | 0.34% | 0.83% | Neutral | Yes | Medium | Moderate |
 | GOOGL | 1y | 64 | -1.48% | -0.66% | -3.85% | -2.67% | Neutral | No | Medium | Moderate |
@@ -972,11 +972,11 @@
 | AMD | 1y | 85 | 6.87% | 7.94% | 5.59% | 7.50% | Neutral | No | High | Strong |
 | AMD | 3m | 85 | 6.87% | 7.94% | 5.59% | 7.50% | Neutral | No | High | Strong |
 | AMD | 6m | 85 | 6.87% | 7.94% | 5.59% | 7.50% | Neutral | No | High | Strong |
-| AMZN | 1m | 70 | -3.93% | -2.87% | 4.20% | 0.25% | Poor | Yes | Medium | Strong |
+| AMZN | 1m | 70 | -3.93% | -2.87% | 4.18% | 0.25% | Poor | Yes | Medium | Strong |
 | AMZN | 1w | 70 | -0.54% | -0.09% | -0.47% | -1.13% | Neutral | Yes | Medium | Strong |
-| AMZN | 1y | 70 | -3.93% | -2.87% | 4.20% | 0.25% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 70 | -3.93% | -2.87% | 4.20% | 0.25% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 70 | -3.93% | -2.87% | 4.20% | 0.25% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 70 | -3.93% | -2.87% | 4.18% | 0.25% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 70 | -3.93% | -2.87% | 4.18% | 0.25% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 70 | -3.93% | -2.87% | 4.18% | 0.25% | Neutral | No | Medium | Strong |
 | GOOGL | 1m | 69 | -1.40% | -0.34% | -5.20% | -3.52% | Neutral | Yes | Medium | Strong |
 | GOOGL | 1w | 69 | 0.34% | 0.79% | -2.27% | -0.61% | Neutral | Yes | Medium | Strong |
 | GOOGL | 1y | 69 | -1.40% | -0.34% | -5.20% | -3.52% | Neutral | No | Medium | Strong |
@@ -1002,11 +1002,11 @@
 | AMD | 1y | 81 | 6.86% | 8.60% | 6.40% | 8.48% | Neutral | No | High | Strong |
 | AMD | 3m | 81 | 6.86% | 8.60% | 6.40% | 8.48% | Neutral | No | High | Strong |
 | AMD | 6m | 81 | 6.86% | 8.60% | 6.40% | 8.48% | Neutral | No | High | Strong |
-| AMZN | 1m | 74 | -3.15% | -1.40% | 5.74% | 1.49% | Neutral | No | Medium | Strong |
+| AMZN | 1m | 74 | -3.15% | -1.40% | 5.72% | 1.49% | Neutral | No | Medium | Strong |
 | AMZN | 1w | 74 | -1.89% | 0.07% | 0.57% | -0.40% | Poor | Yes | Medium | Strong |
-| AMZN | 1y | 74 | -3.15% | -1.40% | 5.74% | 1.49% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 74 | -3.15% | -1.40% | 5.74% | 1.49% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 74 | -3.15% | -1.40% | 5.74% | 1.49% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 74 | -3.15% | -1.40% | 5.72% | 1.49% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 74 | -3.15% | -1.40% | 5.72% | 1.49% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 74 | -3.15% | -1.40% | 5.72% | 1.49% | Neutral | No | Medium | Strong |
 | GOOGL | 1m | 69 | -2.21% | -0.46% | -3.30% | -2.25% | Neutral | No | Medium | Strong |
 | GOOGL | 1w | 69 | -1.64% | 0.32% | -1.09% | 0.02% | Poor | Yes | Medium | Strong |
 | GOOGL | 1y | 69 | -2.21% | -0.46% | -3.30% | -2.25% | Neutral | No | Medium | Strong |
@@ -1037,11 +1037,11 @@
 | AMD | 1y | 86 | 0.34% | 1.89% | -1.55% | 1.57% | Neutral | No | High | Strong |
 | AMD | 3m | 86 | 0.34% | 1.89% | -1.55% | 1.57% | Neutral | No | High | Strong |
 | AMD | 6m | 86 | 0.34% | 1.89% | -1.55% | 1.57% | Neutral | No | High | Strong |
-| AMZN | 1m | 72 | -2.23% | -0.68% | 6.21% | 2.20% | Neutral | No | Medium | Strong |
+| AMZN | 1m | 72 | -2.23% | -0.68% | 6.19% | 2.20% | Neutral | No | Medium | Strong |
 | AMZN | 1w | 72 | -1.53% | -0.16% | -0.63% | -1.38% | Poor | Yes | Medium | Strong |
-| AMZN | 1y | 72 | -2.23% | -0.68% | 6.21% | 2.20% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 72 | -2.23% | -0.68% | 6.21% | 2.20% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 72 | -2.23% | -0.68% | 6.21% | 2.20% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 72 | -2.23% | -0.68% | 6.19% | 2.20% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 72 | -2.23% | -0.68% | 6.19% | 2.20% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 72 | -2.23% | -0.68% | 6.19% | 2.20% | Neutral | No | Medium | Strong |
 | GOOGL | 1m | 68 | -2.08% | -0.52% | -3.06% | -1.77% | Neutral | No | Medium | Strong |
 | GOOGL | 1w | 68 | -0.31% | 1.06% | -0.28% | 1.06% | Good | Yes | Medium | Strong |
 | GOOGL | 1y | 68 | -2.08% | -0.52% | -3.06% | -1.77% | Neutral | No | Medium | Strong |
@@ -1072,11 +1072,11 @@
 | AMD | 1y | 83 | 2.00% | 3.09% | -0.80% | 3.39% | Neutral | No | High | Strong |
 | AMD | 3m | 83 | 2.00% | 3.09% | -0.80% | 3.39% | Neutral | No | High | Strong |
 | AMD | 6m | 83 | 2.00% | 3.09% | -0.80% | 3.39% | Neutral | No | High | Strong |
-| AMZN | 1m | 70 | -1.73% | -0.65% | 5.27% | 1.51% | Neutral | No | Medium | Strong |
+| AMZN | 1m | 70 | -1.73% | -0.65% | 5.25% | 1.51% | Neutral | No | Medium | Strong |
 | AMZN | 1w | 70 | 0.29% | 1.48% | -0.57% | -1.04% | Good | Yes | Medium | Strong |
-| AMZN | 1y | 70 | -1.73% | -0.65% | 5.27% | 1.51% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 70 | -1.73% | -0.65% | 5.27% | 1.51% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 70 | -1.73% | -0.65% | 5.27% | 1.51% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 70 | -1.73% | -0.65% | 5.25% | 1.51% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 70 | -1.73% | -0.65% | 5.25% | 1.51% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 70 | -1.73% | -0.65% | 5.25% | 1.51% | Neutral | No | Medium | Strong |
 | AVGO | 1m | 71 | -7.76% | -6.67% | -11.21% | -6.36% | Neutral | No | High | Strong |
 | AVGO | 1w | 71 | -8.58% | -7.39% | -6.70% | -3.18% | Poor | Yes | High | Strong |
 | AVGO | 1y | 71 | -7.76% | -6.67% | -11.21% | -6.36% | Neutral | No | High | Strong |
@@ -1127,11 +1127,11 @@
 | AMD | 1y | 82 | 6.55% | 6.96% | 2.42% | 5.45% | Neutral | No | High | Strong |
 | AMD | 3m | 82 | 6.55% | 6.96% | 2.42% | 5.45% | Neutral | No | High | Strong |
 | AMD | 6m | 82 | 6.55% | 6.96% | 2.42% | 5.45% | Neutral | No | High | Strong |
-| AMZN | 1m | 67 | -1.03% | -0.62% | 6.22% | 1.89% | Neutral | No | Medium | Strong |
+| AMZN | 1m | 67 | -1.03% | -0.62% | 6.20% | 1.89% | Neutral | No | Medium | Strong |
 | AMZN | 1w | 67 | 0.62% | 0.82% | 0.96% | -0.75% | Neutral | Yes | Medium | Strong |
-| AMZN | 1y | 67 | -1.03% | -0.62% | 6.22% | 1.89% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 67 | -1.03% | -0.62% | 6.22% | 1.89% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 67 | -1.03% | -0.62% | 6.22% | 1.89% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 67 | -1.03% | -0.62% | 6.20% | 1.89% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 67 | -1.03% | -0.62% | 6.20% | 1.89% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 67 | -1.03% | -0.62% | 6.20% | 1.89% | Neutral | No | Medium | Strong |
 | AVGO | 1m | 65 | -4.74% | -4.33% | -9.63% | -5.84% | Neutral | No | High | Moderate |
 | AVGO | 1w | 65 | -6.12% | -5.92% | -6.20% | -4.03% | Poor | Yes | High | Moderate |
 | AVGO | 1y | 65 | -4.74% | -4.33% | -9.63% | -5.84% | Neutral | No | High | Moderate |
@@ -1187,11 +1187,11 @@
 | AMD | 1y | 75 | 10.66% | 11.28% | 7.22% | 8.46% | Neutral | No | High | Strong |
 | AMD | 3m | 75 | 10.66% | 11.28% | 7.22% | 8.46% | Neutral | No | High | Strong |
 | AMD | 6m | 75 | 10.66% | 11.28% | 7.22% | 8.46% | Neutral | No | High | Strong |
-| AMZN | 1m | 66 | -3.41% | -2.79% | 4.75% | 1.34% | Neutral | No | Medium | Strong |
+| AMZN | 1m | 66 | -3.41% | -2.79% | 4.73% | 1.34% | Neutral | No | Medium | Strong |
 | AMZN | 1w | 66 | -2.09% | -1.70% | 0.19% | -0.89% | Poor | Yes | Medium | Strong |
-| AMZN | 1y | 66 | -3.41% | -2.79% | 4.75% | 1.34% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 66 | -3.41% | -2.79% | 4.75% | 1.34% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 66 | -3.41% | -2.79% | 4.75% | 1.34% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 66 | -3.41% | -2.79% | 4.73% | 1.34% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 66 | -3.41% | -2.79% | 4.73% | 1.34% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 66 | -3.41% | -2.79% | 4.73% | 1.34% | Neutral | No | Medium | Strong |
 | AVGO | 1m | 60 | -0.14% | 0.49% | -4.29% | -2.33% | Neutral | No | High | Moderate |
 | AVGO | 1w | 60 | -1.90% | -1.51% | -1.59% | -1.47% | Poor | Yes | High | Moderate |
 | AVGO | 1y | 60 | -0.14% | 0.49% | -4.29% | -2.33% | Neutral | No | High | Moderate |
@@ -1257,11 +1257,11 @@
 | AMD | 1y | 75 | 9.94% | 9.72% | 6.36% | 7.45% | Neutral | No | High | Strong |
 | AMD | 3m | 75 | 9.94% | 9.72% | 6.36% | 7.45% | Neutral | No | High | Strong |
 | AMD | 6m | 75 | 9.94% | 9.72% | 6.36% | 7.45% | Neutral | No | High | Strong |
-| AMZN | 1m | 67 | -1.28% | -1.50% | 5.37% | 1.91% | Neutral | No | Medium | Strong |
+| AMZN | 1m | 67 | -1.28% | -1.50% | 5.35% | 1.91% | Neutral | No | Medium | Strong |
 | AMZN | 1w | 67 | -1.48% | -2.59% | 0.51% | -0.79% | Poor | Yes | Medium | Strong |
-| AMZN | 1y | 67 | -1.28% | -1.50% | 5.37% | 1.91% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 67 | -1.28% | -1.50% | 5.37% | 1.91% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 67 | -1.28% | -1.50% | 5.37% | 1.91% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 67 | -1.28% | -1.50% | 5.35% | 1.91% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 67 | -1.28% | -1.50% | 5.35% | 1.91% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 67 | -1.28% | -1.50% | 5.35% | 1.91% | Neutral | No | Medium | Strong |
 | CRM | 1m | 72 | 20.59% | 20.36% | 17.72% | 18.09% | Neutral | No | High | Strong |
 | CRM | 1w | 72 | 22.69% | 21.58% | 20.27% | 19.68% | Excellent | Yes | High | Strong |
 | CRM | 1y | 72 | 20.59% | 20.36% | 17.72% | 18.09% | Neutral | No | High | Strong |
@@ -1317,11 +1317,11 @@
 | AMD | 1y | 83 | 9.06% | 9.25% | 5.77% | 6.68% | Neutral | No | High | Strong |
 | AMD | 3m | 83 | 9.06% | 9.25% | 5.77% | 6.68% | Neutral | No | High | Strong |
 | AMD | 6m | 83 | 9.06% | 9.25% | 5.77% | 6.68% | Neutral | No | High | Strong |
-| AMZN | 1m | 69 | -0.72% | -0.53% | 6.98% | 3.57% | Neutral | No | Medium | Strong |
+| AMZN | 1m | 69 | -0.72% | -0.53% | 6.96% | 3.57% | Neutral | No | Medium | Strong |
 | AMZN | 1w | 69 | 3.02% | 2.54% | 5.24% | 3.70% | Excellent | Yes | Medium | Strong |
-| AMZN | 1y | 69 | -0.72% | -0.53% | 6.98% | 3.57% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 69 | -0.72% | -0.53% | 6.98% | 3.57% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 69 | -0.72% | -0.53% | 6.98% | 3.57% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 69 | -0.72% | -0.53% | 6.96% | 3.57% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 69 | -0.72% | -0.53% | 6.96% | 3.57% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 69 | -0.72% | -0.53% | 6.96% | 3.57% | Neutral | No | Medium | Strong |
 | AVGO | 1m | 72 | -1.75% | -1.57% | -5.77% | -4.13% | Neutral | No | High | Strong |
 | AVGO | 1w | 72 | 0.09% | -0.38% | -2.85% | -1.21% | Neutral | Yes | High | Strong |
 | AVGO | 1y | 72 | -1.75% | -1.57% | -5.77% | -4.13% | Neutral | No | High | Strong |
@@ -1397,11 +1397,11 @@
 | AMD | 1y | 73 | 13.00% | 12.89% | 8.19% | 8.77% | Neutral | No | High | Strong |
 | AMD | 3m | 73 | 13.00% | 12.89% | 8.19% | 8.77% | Neutral | No | High | Strong |
 | AMD | 6m | 73 | 13.00% | 12.89% | 8.19% | 8.77% | Neutral | No | High | Strong |
-| AMZN | 1m | 69 | -2.02% | -2.13% | 5.79% | 2.50% | Neutral | No | Medium | Strong |
+| AMZN | 1m | 69 | -2.02% | -2.13% | 5.76% | 2.50% | Neutral | No | Medium | Strong |
 | AMZN | 1w | 69 | -0.88% | -1.35% | 1.93% | 0.57% | Poor | Yes | Medium | Strong |
-| AMZN | 1y | 69 | -2.02% | -2.13% | 5.79% | 2.50% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 69 | -2.02% | -2.13% | 5.79% | 2.50% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 69 | -2.02% | -2.13% | 5.79% | 2.50% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 69 | -2.02% | -2.13% | 5.76% | 2.50% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 69 | -2.02% | -2.13% | 5.76% | 2.50% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 69 | -2.02% | -2.13% | 5.76% | 2.50% | Neutral | No | Medium | Strong |
 | AVGO | 1m | 61 | 0.90% | 0.79% | -4.72% | -3.33% | Neutral | No | High | Moderate |
 | AVGO | 1w | 61 | 3.23% | 2.76% | -1.93% | -0.35% | Excellent | Yes | High | Moderate |
 | AVGO | 1y | 61 | 0.90% | 0.79% | -4.72% | -3.33% | Neutral | No | High | Moderate |
@@ -1467,11 +1467,11 @@
 | AMD | 1y | 85 | 7.71% | 7.92% | 3.27% | 4.45% | Neutral | No | High | Strong |
 | AMD | 3m | 85 | 7.71% | 7.92% | 3.27% | 4.45% | Neutral | No | High | Strong |
 | AMD | 6m | 85 | 7.71% | 7.92% | 3.27% | 4.45% | Neutral | No | High | Strong |
-| AMZN | 1m | 69 | -1.64% | -1.43% | 5.33% | 2.59% | Neutral | No | Medium | Strong |
+| AMZN | 1m | 69 | -1.64% | -1.43% | 5.31% | 2.59% | Neutral | No | Medium | Strong |
 | AMZN | 1w | 69 | -2.35% | -1.81% | 0.98% | 0.50% | Poor | Yes | Medium | Strong |
-| AMZN | 1y | 69 | -1.64% | -1.43% | 5.33% | 2.59% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 69 | -1.64% | -1.43% | 5.33% | 2.59% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 69 | -1.64% | -1.43% | 5.33% | 2.59% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 69 | -1.64% | -1.43% | 5.31% | 2.59% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 69 | -1.64% | -1.43% | 5.31% | 2.59% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 69 | -1.64% | -1.43% | 5.31% | 2.59% | Neutral | No | Medium | Strong |
 | AVGO | 1m | 65 | 1.47% | 1.68% | -3.39% | -1.79% | Neutral | No | High | Moderate |
 | AVGO | 1w | 65 | 3.63% | 4.17% | 1.01% | 2.58% | Excellent | Yes | High | Moderate |
 | AVGO | 1y | 65 | 1.47% | 1.68% | -3.39% | -1.79% | Neutral | No | High | Moderate |
@@ -1547,11 +1547,11 @@
 | AMD | 1y | 85 | 7.32% | 7.55% | 3.17% | 4.68% | Neutral | No | High | Strong |
 | AMD | 3m | 85 | 7.32% | 7.55% | 3.17% | 4.68% | Neutral | No | High | Strong |
 | AMD | 6m | 85 | 7.32% | 7.55% | 3.17% | 4.68% | Neutral | No | High | Strong |
-| AMZN | 1m | 68 | -1.34% | -1.11% | 4.66% | 2.24% | Neutral | No | Medium | Strong |
+| AMZN | 1m | 68 | -1.34% | -1.11% | 4.64% | 2.24% | Neutral | No | Medium | Strong |
 | AMZN | 1w | 68 | -2.04% | -1.92% | 0.30% | -0.07% | Poor | Yes | Medium | Strong |
-| AMZN | 1y | 68 | -1.34% | -1.11% | 4.66% | 2.24% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 68 | -1.34% | -1.11% | 4.66% | 2.24% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 68 | -1.34% | -1.11% | 4.66% | 2.24% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 68 | -1.34% | -1.11% | 4.64% | 2.24% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 68 | -1.34% | -1.11% | 4.64% | 2.24% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 68 | -1.34% | -1.11% | 4.64% | 2.24% | Neutral | No | Medium | Strong |
 | AVGO | 1m | 66 | 1.80% | 2.03% | -2.72% | -0.84% | Neutral | No | High | Strong |
 | AVGO | 1w | 66 | 3.28% | 3.40% | 0.81% | 2.86% | Excellent | Yes | High | Strong |
 | AVGO | 1y | 66 | 1.80% | 2.03% | -2.72% | -0.84% | Neutral | No | High | Strong |
@@ -1627,11 +1627,11 @@
 | AMD | 1y | 71 | 10.86% | 11.52% | 10.43% | 9.79% | Neutral | No | High | Strong |
 | AMD | 3m | 71 | 10.86% | 11.52% | 10.43% | 9.79% | Neutral | No | High | Strong |
 | AMD | 6m | 71 | 10.86% | 11.52% | 10.43% | 9.79% | Neutral | No | High | Strong |
-| AMZN | 1m | 75 | -3.62% | -2.96% | 1.95% | 0.00% | Neutral | No | Medium | Strong |
+| AMZN | 1m | 75 | -3.62% | -2.96% | 1.93% | 0.00% | Neutral | No | Medium | Strong |
 | AMZN | 1w | 75 | -2.97% | -3.08% | -0.84% | -1.01% | Poor | Yes | Medium | Strong |
-| AMZN | 1y | 75 | -3.62% | -2.96% | 1.95% | 0.00% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 75 | -3.62% | -2.96% | 1.95% | 0.00% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 75 | -3.62% | -2.96% | 1.95% | 0.00% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 75 | -3.62% | -2.96% | 1.93% | 0.00% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 75 | -3.62% | -2.96% | 1.93% | 0.00% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 75 | -3.62% | -2.96% | 1.93% | 0.00% | Neutral | No | Medium | Strong |
 | AVGO | 1m | 64 | -1.84% | -1.19% | -3.11% | -2.91% | Neutral | No | High | Moderate |
 | AVGO | 1w | 64 | -2.95% | -3.06% | -4.09% | -3.81% | Poor | Yes | High | Moderate |
 | AVGO | 1y | 64 | -1.84% | -1.19% | -3.11% | -2.91% | Neutral | No | High | Moderate |
@@ -1842,11 +1842,11 @@
 | AMD | 1y | 79 | 12.92% | 13.04% | 11.69% | 10.71% | Neutral | No | High | Strong |
 | AMD | 3m | 79 | 12.92% | 13.04% | 11.69% | 10.71% | Neutral | No | High | Strong |
 | AMD | 6m | 79 | 12.92% | 13.04% | 11.69% | 10.71% | Neutral | No | High | Strong |
-| AMZN | 1m | 66 | 0.71% | 0.82% | 4.50% | 2.36% | Neutral | No | Medium | Strong |
+| AMZN | 1m | 66 | 0.71% | 0.82% | 4.48% | 2.36% | Neutral | No | Medium | Strong |
 | AMZN | 1w | 66 | -1.01% | -0.65% | 2.20% | 1.08% | Neutral | Yes | Medium | Strong |
-| AMZN | 1y | 66 | 0.71% | 0.82% | 4.50% | 2.36% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 66 | 0.71% | 0.82% | 4.50% | 2.36% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 66 | 0.71% | 0.82% | 4.50% | 2.36% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 66 | 0.71% | 0.82% | 4.48% | 2.36% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 66 | 0.71% | 0.82% | 4.48% | 2.36% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 66 | 0.71% | 0.82% | 4.48% | 2.36% | Neutral | No | Medium | Strong |
 | AVGO | 1m | 67 | -1.43% | -1.32% | -3.62% | -3.65% | Neutral | No | High | Strong |
 | AVGO | 1w | 67 | -0.78% | -0.42% | -3.16% | -3.10% | Neutral | Yes | High | Strong |
 | AVGO | 1y | 67 | -1.43% | -1.32% | -3.62% | -3.65% | Neutral | No | High | Strong |
@@ -1922,11 +1922,11 @@
 | AMD | 1y | 77 | 13.15% | 14.30% | 13.35% | 12.23% | Neutral | No | High | Strong |
 | AMD | 3m | 77 | 13.15% | 14.30% | 13.35% | 12.23% | Neutral | No | High | Strong |
 | AMD | 6m | 77 | 13.15% | 14.30% | 13.35% | 12.23% | Neutral | No | High | Strong |
-| AMZN | 1m | 70 | -0.82% | 0.33% | 3.65% | 2.19% | Neutral | No | Medium | Strong |
+| AMZN | 1m | 70 | -0.82% | 0.33% | 3.62% | 2.19% | Neutral | No | Medium | Strong |
 | AMZN | 1w | 70 | -2.71% | -0.72% | 1.89% | 1.16% | Poor | Yes | Medium | Strong |
-| AMZN | 1y | 70 | -0.82% | 0.33% | 3.65% | 2.19% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 70 | -0.82% | 0.33% | 3.65% | 2.19% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 70 | -0.82% | 0.33% | 3.65% | 2.19% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 70 | -0.82% | 0.33% | 3.62% | 2.19% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 70 | -0.82% | 0.33% | 3.62% | 2.19% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 70 | -0.82% | 0.33% | 3.62% | 2.19% | Neutral | No | Medium | Strong |
 | CMCSA | 1m | 62 | -5.44% | -4.29% | -4.43% | -4.75% | Neutral | No | Medium | Moderate |
 | CMCSA | 1w | 62 | -5.55% | -3.57% | -2.98% | -3.90% | Poor | Yes | Medium | Moderate |
 | CMCSA | 1y | 62 | -5.44% | -4.29% | -4.43% | -4.75% | Neutral | No | Medium | Moderate |
@@ -1972,11 +1972,11 @@
 | QCOM | 1y | 68 | 7.95% | 9.10% | 7.80% | 7.04% | Neutral | No | High | Strong |
 | QCOM | 3m | 68 | 7.95% | 9.10% | 7.80% | 7.04% | Neutral | No | High | Strong |
 | QCOM | 6m | 68 | 7.95% | 9.10% | 7.80% | 7.04% | Neutral | No | High | Strong |
-| TSLA | 1m | 62 | -2.90% | -1.76% | 1.33% | 0.10% | Neutral | No | High | Moderate |
+| TSLA | 1m | 62 | -2.90% | -1.76% | 1.31% | 0.10% | Neutral | No | High | Moderate |
 | TSLA | 1w | 62 | -3.40% | -1.42% | 1.12% | 0.46% | Poor | Yes | High | Moderate |
-| TSLA | 1y | 62 | -2.90% | -1.76% | 1.33% | 0.10% | Neutral | No | High | Moderate |
-| TSLA | 3m | 62 | -2.90% | -1.76% | 1.33% | 0.10% | Neutral | No | High | Moderate |
-| TSLA | 6m | 62 | -2.90% | -1.76% | 1.33% | 0.10% | Neutral | No | High | Moderate |
+| TSLA | 1y | 62 | -2.90% | -1.76% | 1.31% | 0.10% | Neutral | No | High | Moderate |
+| TSLA | 3m | 62 | -2.90% | -1.76% | 1.31% | 0.10% | Neutral | No | High | Moderate |
+| TSLA | 6m | 62 | -2.90% | -1.76% | 1.31% | 0.10% | Neutral | No | High | Moderate |
 | TXN | 1m | 71 | 5.86% | 7.01% | 5.57% | 4.94% | Neutral | No | High | Strong |
 | TXN | 1w | 71 | 1.97% | 3.95% | 3.09% | 2.37% | Excellent | Yes | High | Strong |
 | TXN | 1y | 71 | 5.86% | 7.01% | 5.57% | 4.94% | Neutral | No | High | Strong |
@@ -1997,11 +1997,11 @@
 | AMD | 1y | 84 | 8.07% | 8.84% | 8.44% | 7.87% | Neutral | No | High | Strong |
 | AMD | 3m | 84 | 8.07% | 8.84% | 8.44% | 7.87% | Neutral | No | High | Strong |
 | AMD | 6m | 84 | 8.07% | 8.84% | 8.44% | 7.87% | Neutral | No | High | Strong |
-| AMZN | 1m | 64 | -0.67% | 0.10% | 2.91% | 1.03% | Neutral | No | Medium | Strong |
-| AMZN | 1w | 64 | -0.67% | 0.10% | 2.91% | 1.03% | Neutral | Yes | Medium | Strong |
-| AMZN | 1y | 64 | -0.67% | 0.10% | 2.91% | 1.03% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 64 | -0.67% | 0.10% | 2.91% | 1.03% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 64 | -0.67% | 0.10% | 2.91% | 1.03% | Neutral | No | Medium | Strong |
+| AMZN | 1m | 64 | -0.67% | 0.10% | 2.89% | 1.03% | Neutral | No | Medium | Strong |
+| AMZN | 1w | 64 | -0.67% | 0.10% | 2.89% | 1.03% | Neutral | Yes | Medium | Strong |
+| AMZN | 1y | 64 | -0.67% | 0.10% | 2.89% | 1.03% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 64 | -0.67% | 0.10% | 2.89% | 1.03% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 64 | -0.67% | 0.10% | 2.89% | 1.03% | Neutral | No | Medium | Strong |
 | AVGO | 1m | 64 | 1.14% | 1.91% | 1.05% | 0.93% | Neutral | No | High | Moderate |
 | AVGO | 1w | 64 | 1.14% | 1.91% | 1.05% | 0.93% | Good | Yes | High | Moderate |
 | AVGO | 1y | 64 | 1.14% | 1.91% | 1.05% | 0.93% | Neutral | No | High | Moderate |
@@ -2112,11 +2112,11 @@
 | AMD | 1y | 80 | 2.05% | 2.27% | 2.36% | 2.16% | Neutral | No | Medium | Strong |
 | AMD | 3m | 80 | 2.05% | 2.27% | 2.36% | 2.16% | Neutral | No | Medium | Strong |
 | AMD | 6m | 80 | 2.05% | 2.27% | 2.36% | 2.16% | Neutral | No | Medium | Strong |
-| AMZN | 1m | 66 | -0.07% | 0.14% | 1.93% | 0.83% | Neutral | No | Medium | Strong |
-| AMZN | 1w | 66 | -0.07% | 0.14% | 1.93% | 0.83% | Neutral | No | Medium | Strong |
-| AMZN | 1y | 66 | -0.07% | 0.14% | 1.93% | 0.83% | Neutral | No | Medium | Strong |
-| AMZN | 3m | 66 | -0.07% | 0.14% | 1.93% | 0.83% | Neutral | No | Medium | Strong |
-| AMZN | 6m | 66 | -0.07% | 0.14% | 1.93% | 0.83% | Neutral | No | Medium | Strong |
+| AMZN | 1m | 66 | -0.07% | 0.14% | 1.91% | 0.83% | Neutral | No | Medium | Strong |
+| AMZN | 1w | 66 | -0.07% | 0.14% | 1.91% | 0.83% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 66 | -0.07% | 0.14% | 1.91% | 0.83% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 66 | -0.07% | 0.14% | 1.91% | 0.83% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 66 | -0.07% | 0.14% | 1.91% | 0.83% | Neutral | No | Medium | Strong |
 | AVGO | 1m | 64 | -1.78% | -1.56% | -1.74% | -1.68% | Neutral | No | High | Moderate |
 | AVGO | 1w | 64 | -1.78% | -1.56% | -1.74% | -1.68% | Neutral | No | High | Moderate |
 | AVGO | 1y | 64 | -1.78% | -1.56% | -1.74% | -1.68% | Neutral | No | High | Moderate |
@@ -2352,6 +2352,56 @@
 | TXN | 1y | 79 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
 | TXN | 3m | 79 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
 | TXN | 6m | 79 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| AAPL | 1m | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AAPL | 1w | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AAPL | 1y | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AAPL | 3m | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AAPL | 6m | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMAT | 1m | 74 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| AMAT | 1w | 74 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| AMAT | 1y | 74 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| AMAT | 3m | 74 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| AMAT | 6m | 74 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| AMD | 1m | 76 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMD | 1w | 76 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMD | 1y | 76 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMD | 3m | 76 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMD | 6m | 76 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| CMCSA | 1m | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Moderate |
+| CMCSA | 1w | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Moderate |
+| CMCSA | 1y | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Moderate |
+| CMCSA | 3m | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Moderate |
+| CMCSA | 6m | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Moderate |
+| CRM | 1m | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| CRM | 1w | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| CRM | 1y | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| CRM | 3m | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| CRM | 6m | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 1m | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 1w | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 1y | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 3m | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 6m | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 1m | 66 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 1w | 66 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 1y | 66 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 3m | 66 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 6m | 66 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| NVDA | 1m | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| NVDA | 1w | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| NVDA | 1y | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| NVDA | 3m | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| NVDA | 6m | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| QCOM | 1m | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| QCOM | 1w | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| QCOM | 1y | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| QCOM | 3m | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| QCOM | 6m | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| TXN | 1m | 78 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| TXN | 1w | 78 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| TXN | 1y | 78 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| TXN | 3m | 78 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| TXN | 6m | 78 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
 
 ## 良かった特徴
 

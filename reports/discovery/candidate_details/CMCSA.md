@@ -10,7 +10,7 @@
 
 ## Discovery Score
 
-61 / 100
+60 / 100
 
 ## Discovery Reasons
 
@@ -32,7 +32,6 @@
 
 ## Watch Points
 
-- 注意材料になり得るニュース表現が 1 件あります。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Communication Services セクター全体の需要変化と競争環境を確認する必要があります。
@@ -45,7 +44,7 @@ Medium
 
 ## Signal Strength
 
-Moderate(シグナル充足率: 62.78%)
+Moderate(シグナル充足率: 62.01%)
 
 ## Evidence
 
@@ -65,7 +64,7 @@ Moderate(シグナル充足率: 62.78%)
 ## Metrics
 
 - scoring_total: 62.0
-- signal_earned_points: 60.9
+- signal_earned_points: 60.15
 - signal_max_points: 97.0
 - weak_signals: []
 - scoring_signal_strength: Moderate
@@ -73,11 +72,11 @@ Moderate(シグナル充足率: 62.78%)
 - financial_health_score: 13.0
 - valuation_score: 15.0
 - news_score: 15.0
-- momentum: {'1m': -1.0600650086137586, '3m': 6.563851122597479, '6m': -14.32237937354708, '1y': -15.797535387090326}
+- momentum: {'1m': -1.0600650086137586, '3m': 6.563851122597479, '6m': -14.322373817520036, '1y': -15.797540753441725}
 - benchmark: SPY
 - excess_momentum: {'1m': 0.0, '3m': 2.7, '6m': -29.68, '1y': -34.28}
-- positive_news: 3
-- watch_news: 1
+- positive_news: 2
+- watch_news: 0
 - event_count: 10
-- events_with_reaction: 7
-- sector_average_score: 60.166666666666664
+- events_with_reaction: 1
+- sector_average_score: 58.833333333333336

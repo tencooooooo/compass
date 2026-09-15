@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: T-Mobile US, Inc.
-- Total Score: 55 / 100
+- Total Score: 57 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 55 点を獲得し、シグナル充足率は 55.0% です。
+- データが確認できた 100 点満点のうち 57 点を獲得し、シグナル充足率は 57.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -111,10 +111,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 19.0522
-- forward_pe: 12.6280
-- peg_ratio: 0.6300
-- price_to_book: 3.4830
+- trailing_pe: 19.1518
+- forward_pe: 12.6675
+- peg_ratio: 0.6400
+- price_to_book: 3.4939
 - sector_peer_count: 10
 - trailing_pe_percentile: 55.5600
 - trailing_pe_peer_count: 10
@@ -151,18 +151,18 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': -1.06, '3M': 3.86, '6M': 15.36, '1Y': 18.48}
 - excess_returns: {'1M': 4.59, '3M': -5.17, '6M': -29.35, '1Y': -41.03}
-- latest_volume: 3,667,552.0000
-- average_volume_30d: 4,155,845.0667
+- latest_volume: 3,675,000.0000
+- average_volume_30d: 4,156,093.3333
 
 ## News
 
-15点
+17点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が -0.09% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が 2.16% とプラスです。
 
 Evidence
 
@@ -173,11 +173,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 3
+- positive_count: 4
 - negative_count: 0
 - sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 10
+- events_with_price_reaction: 4
 
 ## Note
 

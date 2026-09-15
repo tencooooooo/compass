@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: McDonald's Corporation
-- Total Score: 37 / 100
+- Total Score: 38 / 100
 - Confidence: Medium
 - Signal Strength: Weak
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -17,8 +17,9 @@ Medium
 理由
 
 - 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 1 件です。
+- 欠損または計算不可の項目数は 2 件です。
 - 主要データは一定程度ありますが、欠損や未取得項目が残っています。
+- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
@@ -27,7 +28,7 @@ Weak
 
 理由
 
-- データが確認できた 100 点満点のうち 37 点を獲得し、シグナル充足率は 37.0% です。
+- データが確認できた 100 点満点のうち 38 点を獲得し、シグナル充足率は 38.0% です。
 - シグナル強度は Weak(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -98,10 +99,10 @@ Evidence
 
 理由
 
-- PER はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。
+- PER はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。
 - PEG はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
-- PBR は -174.64 で、指標がマイナスのため加点対象外です。
+- PBR は -178.07 で、指標がマイナスのため加点対象外です。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -111,12 +112,12 @@ Evidence
 
 使用データ
 
-- trailing_pe: 20.5309
-- forward_pe: 18.0712
-- peg_ratio: 2.1900
-- price_to_book: -174.6404
+- trailing_pe: 20.9341
+- forward_pe: 18.4221
+- peg_ratio: 2.1800
+- price_to_book: -178.0705
 - sector_peer_count: 10
-- trailing_pe_percentile: 33.3300
+- trailing_pe_percentile: 44.4400
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 33.3300
 - forward_pe_peer_count: 10
@@ -151,18 +152,18 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': -1.06, '3M': 3.86, '6M': 15.36, '1Y': 18.48}
 - excess_returns: {'1M': -6.69, '3M': -14.55, '6M': -36.31, '1Y': -33.82}
-- latest_volume: 4,078,109.0000
-- average_volume_30d: 4,486,556.9667
+- latest_volume: 4,096,800.0000
+- average_volume_30d: 4,487,180.0000
 
 ## News
 
-10点
+11点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 2 件(純比率 -0.33)で、センチメントは 2.7 点です。
-- イベント後の平均株価反応が -0.31% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。
+- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
 
 Evidence
 
@@ -173,11 +174,15 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 1
-- negative_count: 2
-- sentiment_net_ratio: -0.3300
+- positive_count: 3
+- negative_count: 1
+- sentiment_net_ratio: 0.5000
 - event_count: 10
-- events_with_price_reaction: 10
+- events_with_price_reaction: 0
+
+欠損・計算不可
+
+- event_price_reaction
 
 ## Note
 

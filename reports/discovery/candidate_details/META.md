@@ -10,13 +10,13 @@
 
 ## Discovery Score
 
-76 / 100
+69 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 11/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
@@ -33,6 +33,8 @@
 
 ## Watch Points
 
+- 注意材料になり得るニュース表現が 1 件あります。
+- Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Communication Services セクター全体の需要変化と競争環境を確認する必要があります。
@@ -41,11 +43,11 @@
 
 ## Confidence
 
-High
+Medium
 
 ## Signal Strength
 
-Strong(シグナル充足率: 76.2%)
+Strong(シグナル充足率: 72.47%)
 
 ## Evidence
 
@@ -60,24 +62,24 @@ Strong(シグナル充足率: 76.2%)
 
 ## Missing Data
 
-- N/A
+- event_price_reaction
 
 ## Metrics
 
-- scoring_total: 74.0
-- signal_earned_points: 76.2
-- signal_max_points: 100.0
+- scoring_total: 70.0
+- signal_earned_points: 68.85
+- signal_max_points: 95.0
 - weak_signals: []
 - scoring_signal_strength: Strong
 - growth_score: 17.0
 - financial_health_score: 20.0
 - valuation_score: 11.0
-- news_score: 15.0
-- momentum: {'1m': 11.95129249870148, '3m': 14.10915518274802, '6m': 1.7245897247790454, '1y': -13.541058641428409}
+- news_score: 11.0
+- momentum: {'1m': 11.95129249870148, '3m': 14.10915518274802, '6m': 1.724579978546225, '1y': -13.541058641428409}
 - benchmark: SPY
 - excess_momentum: {'1m': 13.01, '3m': 10.25, '6m': -13.63, '1y': -32.02}
-- positive_news: 4
-- watch_news: 0
+- positive_news: 3
+- watch_news: 1
 - event_count: 10
-- events_with_reaction: 3
-- sector_average_score: 60.166666666666664
+- events_with_reaction: 0
+- sector_average_score: 58.833333333333336

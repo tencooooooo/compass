@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-09-11T23:33:30+00:00 / ORCL / Stocktwits: Oracle Reportedly Expands Restructuring Plan by $700M As AI Data Center Costs Mount
-- 2026-09-11T23:25:25+00:00 / NVDA / Insider Monkey: Nvidia Is Letting Rival AI Chips Into Its Racks. Astera Labs Could Be the Quiet Winner
-- 2026-09-11T23:23:38+00:00 / NVDA / Insider Monkey: An Intel-Backed Startup Says It Can Beat HBM. Is Micron’s AI Memory Boom Vulnerable?
-- 2026-09-11T23:20:00+00:00 / AAPL / Motley Fool: Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm 投資判断表現 Now.
-- 2026-09-11T23:20:00+00:00 / MSFT / Motley Fool: Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm 投資判断表現 Now.
+- 2026-09-14T23:55:30+00:00 / AMAT / StockStory: Applied Materials, Lam Research, Monolithic Power Systems, Marvell Technology, and MACOM Shares Are Falling, What You Need To Know
+- 2026-09-14T23:51:48+00:00 / AAPL / TheStreet: PayPal takes No. 1 in tech power ranking
+- 2026-09-14T23:50:57+00:00 / TSLA / TheStreet: Analyst calls robotaxi fears completely ridiculous
+- 2026-09-14T23:46:01+00:00 / NVDA / Motley Fool: Prediction: Interactive Brokers Ends 2026 With More Than 6 Million Customer Accounts
+- 2026-09-14T23:27:00+00:00 / AVGO / Zacks: 3 Stocks That Offer AI Exposure and Dividends
 
 ### 注目イベント
 
-- 2026-09-11T17:52:26+00:00 / TXN: Should Qualcomm Stockholders Worry About Its Shrinking Revenue? (株価反応: 3.82%, 出来高: 5.25M)
-- 2026-09-11T16:00:52+00:00 / TXN: The Next Growth Cycle Could Take Qualcomm to New Highs (株価反応: 3.82%, 出来高: 5.25M)
-- 2026-09-10T22:00:06+00:00 / TXN: Texas Instruments (TXN) Registers a Bigger Fall Than the Market: Important Facts to Note (株価反応: 3.82%, 出来高: 5.25M)
-- 2026-09-10T20:04:09+00:00 / TXN: Is Applied Materials Stock Amplifying A Risk You Already Own? (株価反応: 3.82%, 出来高: 5.25M)
-- 2026-09-10T16:10:37+00:00 / AMAT: Applied Materials CEO Says the AI Boom Is Nowhere Near Over. His Order Book Is the Proof (株価反応: -3.17%, 出来高: 4.84M)
+- 2026-09-11T17:52:26+00:00 / TXN: Should Qualcomm Stockholders Worry About Its Shrinking Revenue? (株価反応: 3.82%, 出来高: 5.26M)
+- 2026-09-11T16:00:52+00:00 / TXN: The Next Growth Cycle Could Take Qualcomm to New Highs (株価反応: 3.82%, 出来高: 5.26M)
+- 2026-09-10T22:00:06+00:00 / TXN: Texas Instruments (TXN) Registers a Bigger Fall Than the Market: Important Facts to Note (株価反応: 3.82%, 出来高: 5.26M)
+- 2026-09-10T20:04:09+00:00 / TXN: Is Applied Materials Stock Amplifying A Risk You Already Own? (株価反応: 3.82%, 出来高: 5.26M)
+- 2026-09-11T15:43:04+00:00 / TMUS: Fed’s Rate Decision May Have Come Down to Phone Plan Changes (株価反応: 2.92%, 出来高: 3.67M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 60.17 | 19.14 | 11.20 | 3.42% | 60 |
-| Consumer Cyclical | 6 | 52.00 | 72.04 | 9.00 | -4.43% | 60 |
-| Technology | 12 | 68.75 | 42.93 | 9.17 | 2.05% | 120 |
+| Communication Services | 6 | 58.83 | 19.56 | 11.20 | 3.42% | 60 |
+| Consumer Cyclical | 6 | 49.50 | 70.64 | 9.01 | -4.43% | 60 |
+| Technology | 12 | 63.58 | 42.52 | 9.17 | 2.05% | 120 |
 
 ## 市場トレンド
 

@@ -91,14 +91,14 @@ Evidence
 
 ## Valuation
 
-9点
+12点
 
 理由
 
-- PER はセクター内 71.43 パーセンタイル / 母数 15 で、中位レンジです。
+- PER はセクター内 64.29 パーセンタイル / 母数 15 で、中位レンジです。
 - Forward PER はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。
-- PEG はセクター内 43.33 パーセンタイル / 母数 16 で、中位レンジです。
-- PBR はセクター内 80.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
+- PEG はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。
+- PBR はセクター内 73.33 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -108,18 +108,18 @@ Evidence
 
 使用データ
 
-- trailing_pe: 39.4205
-- forward_pe: 24.7356
-- peg_ratio: 0.9000
-- price_to_book: 14.1368
+- trailing_pe: 36.6014
+- forward_pe: 23.0462
+- peg_ratio: 0.9100
+- price_to_book: 13.1371
 - sector_peer_count: 16
-- trailing_pe_percentile: 71.4300
+- trailing_pe_percentile: 64.2900
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 66.6700
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 43.3300
+- peg_ratio_percentile: 53.3300
 - peg_ratio_peer_count: 16
-- price_to_book_percentile: 80.0000
+- price_to_book_percentile: 73.3300
 - price_to_book_peer_count: 16
 
 ## Momentum
@@ -148,18 +148,18 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': -1.06, '3M': 3.86, '6M': 15.36, '1Y': 18.48}
 - excess_returns: {'1M': -15.57, '3M': -21.17, '6M': 20.3, '1Y': 162.4}
-- latest_volume: 4,310,804.0000
-- average_volume_30d: 6,788,563.4667
+- latest_volume: 4,313,100.0000
+- average_volume_30d: 6,788,640.0000
 
 ## News
 
-10点
+7点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。
-- イベント後の平均株価反応が -1.10% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 0 件、悪材料 5 件(純比率 -1.00)で、センチメントは 0.0 点です。
+- イベント後の平均株価反応が 0.55% と中立圏です。
 
 Evidence
 
@@ -170,11 +170,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 3
-- negative_count: 1
-- sentiment_net_ratio: 0.5000
+- positive_count: 0
+- negative_count: 5
+- sentiment_net_ratio: -1.0000
 - event_count: 10
-- events_with_price_reaction: 9
+- events_with_price_reaction: 2
 
 ## Note
 

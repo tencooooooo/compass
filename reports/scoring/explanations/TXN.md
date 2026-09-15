@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Texas Instruments Incorporated
-- Total Score: 70 / 100
+- Total Score: 66 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 70 点を獲得し、シグナル充足率は 70.0% です。
+- データが確認できた 100 点満点のうち 66 点を獲得し、シグナル充足率は 66.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -90,14 +90,14 @@ Evidence
 
 ## Valuation
 
-9点
+6点
 
 理由
 
 - PER はセクター内 78.57 パーセンタイル / 母数 15 で、相対的な加点は抑えています。
 - Forward PER はセクター内 73.33 パーセンタイル / 母数 16 で、中位レンジです。
-- PEG はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。
-- PBR はセクター内 73.33 パーセンタイル / 母数 16 で、中位レンジです。
+- PEG はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。
+- PBR はセクター内 80.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -107,18 +107,18 @@ Evidence
 
 使用データ
 
-- trailing_pe: 40.8980
-- forward_pe: 25.2423
-- peg_ratio: 0.9300
-- price_to_book: 13.6237
+- trailing_pe: 40.0334
+- forward_pe: 24.7462
+- peg_ratio: 0.9600
+- price_to_book: 13.3560
 - sector_peer_count: 16
 - trailing_pe_percentile: 78.5700
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 73.3300
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 60.0000
+- peg_ratio_percentile: 66.6700
 - peg_ratio_peer_count: 16
-- price_to_book_percentile: 73.3300
+- price_to_book_percentile: 80.0000
 - price_to_book_peer_count: 16
 
 ## Momentum
@@ -147,18 +147,18 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': -1.06, '3M': 3.86, '6M': 15.36, '1Y': 18.48}
 - excess_returns: {'1M': -1.79, '3M': -12.96, '6M': 27.47, '1Y': 31.32}
-- latest_volume: 5,252,848.0000
-- average_volume_30d: 5,739,891.6000
+- latest_volume: 5,255,900.0000
+- average_volume_30d: 5,739,993.3333
 
 ## News
 
-15点
+14点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 7 件、悪材料 3 件(純比率 +0.40)で、センチメントは 5.6 点です。
-- イベント後の平均株価反応が 1.31% とプラスです。
+- ニュース見出し・要約の簡易分類では、好材料 6 件、悪材料 4 件(純比率 +0.20)で、センチメントは 4.8 点です。
+- イベント後の平均株価反応が 2.19% とプラスです。
 
 Evidence
 
@@ -169,11 +169,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 7
-- negative_count: 3
-- sentiment_net_ratio: 0.4000
+- positive_count: 6
+- negative_count: 4
+- sentiment_net_ratio: 0.2000
 - event_count: 10
-- events_with_price_reaction: 10
+- events_with_price_reaction: 6
 
 ## Note
 

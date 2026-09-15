@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Lowe's Companies, Inc.
-- Total Score: 44 / 100
+- Total Score: 47 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 44 点を獲得し、シグナル充足率は 44.0% です。
+- データが確認できた 100 点満点のうち 47 点を獲得し、シグナル充足率は 47.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -100,7 +100,7 @@ Evidence
 - PER はセクター内 0.00 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - Forward PER はセクター内 11.11 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - PEG はセクター内 22.22 パーセンタイル / 母数 10 で、相対的に割安寄りです。
-- PBR は -14.85 で、指標がマイナスのため加点対象外です。
+- PBR は -14.95 で、指標がマイナスのため加点対象外です。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -110,10 +110,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 16.6374
-- forward_pe: 15.1073
-- peg_ratio: 1.3400
-- price_to_book: -14.8465
+- trailing_pe: 16.7515
+- forward_pe: 15.2109
+- peg_ratio: 1.3300
+- price_to_book: -14.9483
 - sector_peer_count: 10
 - trailing_pe_percentile: 0
 - trailing_pe_peer_count: 10
@@ -150,18 +150,18 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': -1.06, '3M': 3.86, '6M': 15.36, '1Y': 18.48}
 - excess_returns: {'1M': -7.81, '3M': -14.27, '6M': -32.26, '1Y': -43.13}
-- latest_volume: 3,286,523.0000
-- average_volume_30d: 2,948,380.7667
+- latest_volume: 3,287,400.0000
+- average_volume_30d: 2,948,410.0000
 
 ## News
 
-8点
+11点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 2 件(純比率 +0.00)で、センチメントは 4.0 点です。
-- イベント後の平均株価反応が -1.26% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 1 件(純比率 +0.67)で、センチメントは 6.7 点です。
+- イベント後の平均株価反応が -1.03% と弱く、注意が必要です。
 
 Evidence
 
@@ -172,11 +172,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 2
-- negative_count: 2
-- sentiment_net_ratio: 0.0000
+- positive_count: 5
+- negative_count: 1
+- sentiment_net_ratio: 0.6700
 - event_count: 10
-- events_with_price_reaction: 10
+- events_with_price_reaction: 6
 
 ## Note
 

@@ -7,20 +7,20 @@
     "country": "United States",
     "currency": "USD",
     "exchange": "NYQ",
-    "market_cap": 178700713984,
-    "enterprise_value": 232482717696,
+    "market_cap": 182210609152,
+    "enterprise_value": 235992612864,
     "shares_outstanding": 707641531,
     "beta": 0.414,
-    "trailing_pe": 20.530893,
-    "forward_pe": 18.0712,
-    "peg_ratio": 2.19,
-    "price_to_book": -174.6404,
+    "trailing_pe": 20.934145,
+    "forward_pe": 18.422104,
+    "peg_ratio": 2.18,
+    "price_to_book": -178.07054,
     "eps": 12.3,
-    "forward_eps": 13.97417,
-    "dividend_yield": 2.94,
+    "forward_eps": 13.97723,
+    "dividend_yield": 2.95,
     "52_week_high": 341.75,
-    "52_week_low": 252.17,
-    "average_volume": 4586158,
+    "52_week_low": 252.15,
+    "average_volume": 4587254,
     "employees": 150000,
     "website": "https://www.mcdonalds.com",
     "business_summary": "McDonald's Corporation owns, operates, and franchises restaurants under the McDonald's brand in the United States and internationally. It offers food and beverages, including hamburgers and cheeseburgers, various chicken sandwiches, fries, shakes, frozen desserts, sundaes, soft serve cones, cookies, pies, soft drinks, coffee, and other beverages; and full or limited breakfast, as well as sells various other products during limited-time promotions. The company owns and operates franchised restaurants under various structures, including conventional franchise, developmental license, or affiliate. McDonald's Corporation was founded in 1940 and is based in Chicago, Illinois."
@@ -937,29 +937,54 @@
         "scoring": "Weak",
         "discovery": "Weak"
       }
+    },
+    {
+      "date": "2026-09-14",
+      "timestamp": "2026-09-14T20:07:09.962744-04:00",
+      "score": 38,
+      "discovery_score": 34,
+      "discovery_status": "Not Selected",
+      "validation_results": {
+        "Excellent": 0,
+        "Good": 0,
+        "Neutral": 0,
+        "Poor": 0,
+        "Pending": 0
+      },
+      "event_count": 10,
+      "news_count": 10,
+      "confidence": {
+        "scoring": "Medium",
+        "discovery": "Medium"
+      },
+      "signal_strength": {
+        "scoring": "Weak",
+        "discovery": "Weak"
+      }
     }
   ],
   "Scores": {
     "ticker": "MCD",
     "company_name": "McDonald's Corporation",
-    "total_score": 37,
+    "total_score": 38,
     "max_score": 100,
     "confidence": {
       "level": "Medium",
-      "completeness_score": 95.0,
+      "completeness_score": 90.0,
       "reasons": [
         "利用可能な主要データ領域は5領域中 5 領域です。",
-        "欠損または計算不可の項目数は 1 件です。",
+        "欠損または計算不可の項目数は 2 件です。",
         "主要データは一定程度ありますが、欠損や未取得項目が残っています。",
+        "イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。",
         "Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。"
       ]
     },
     "signal_strength": {
       "level": "Weak",
-      "signal_rate": 37.0,
+      "signal_rate": 38.0,
       "evaluated_max_score": 100,
       "reasons": [
-        "データが確認できた 100 点満点のうち 37 点を獲得し、シグナル充足率は 37.0% です。",
+        "データが確認できた 100 点満点のうち 38 点を獲得し、シグナル充足率は 38.0% です。",
         "シグナル強度は Weak(Strong: 65%以上 / Moderate: 40%以上)です。"
       ]
     },
@@ -1034,10 +1059,10 @@
         "score": 6,
         "max_score": 20,
         "reasons": [
-          "PER はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。",
+          "PER はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。",
           "Forward PER はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。",
           "PEG はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。",
-          "PBR は -174.64 で、指標がマイナスのため加点対象外です。",
+          "PBR は -178.07 で、指標がマイナスのため加点対象外です。",
           "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
         ],
         "evidence": [
@@ -1046,12 +1071,12 @@
         ],
         "missing_data": [],
         "metrics": {
-          "trailing_pe": 20.530893,
-          "forward_pe": 18.0712,
-          "peg_ratio": 2.19,
-          "price_to_book": -174.6404,
+          "trailing_pe": 20.934145,
+          "forward_pe": 18.422104,
+          "peg_ratio": 2.18,
+          "price_to_book": -178.07054,
           "sector_peer_count": 10,
-          "trailing_pe_percentile": 33.33,
+          "trailing_pe_percentile": 44.44,
           "trailing_pe_peer_count": 10,
           "forward_pe_percentile": 33.33,
           "forward_pe_peer_count": 10,
@@ -1094,31 +1119,33 @@
             "6M": -36.31,
             "1Y": -33.82
           },
-          "latest_volume": 4078109.0,
-          "average_volume_30d": 4486556.966666667
+          "latest_volume": 4096800.0,
+          "average_volume_30d": 4487180.0
         }
       },
       "News": {
-        "score": 10,
+        "score": 11,
         "max_score": 20,
         "reasons": [
           "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-          "ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 2 件(純比率 -0.33)で、センチメントは 2.7 点です。",
-          "イベント後の平均株価反応が -0.31% と中立圏です。"
+          "ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。",
+          "イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。"
         ],
         "evidence": [
           "News",
           "Events",
           "Knowledge"
         ],
-        "missing_data": [],
+        "missing_data": [
+          "event_price_reaction"
+        ],
         "metrics": {
           "news_count": 10,
-          "positive_count": 1,
-          "negative_count": 2,
-          "sentiment_net_ratio": -0.33,
+          "positive_count": 3,
+          "negative_count": 1,
+          "sentiment_net_ratio": 0.5,
           "event_count": 10,
-          "events_with_price_reaction": 10
+          "events_with_price_reaction": 0
         }
       }
     },
@@ -1142,7 +1169,7 @@
     "discovery_reasons": [
       "Scoring EngineのGrowthが 10/20 で、成長性の基礎条件が確認できます。",
       "Financial Healthが 7/20 で、継続調査に必要な財務基盤を評価しています。",
-      "Newsスコアが 10/20 で、材料の量と市場関心を候補評価に反映しています。",
+      "Newsスコアが 11/20 で、材料の量と市場関心を候補評価に反映しています。",
       "売上が取得でき、事業規模の確認ができます。",
       "EPSがプラスで、利益を伴う成長候補として確認できます。",
       "FCFがプラスで、成長投資を支える現金創出力があります。",
@@ -1158,8 +1185,8 @@
     ],
     "watch_points": [
       "バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。",
-      "注意材料になり得るニュース表現が 2 件あります。",
-      "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+      "注意材料になり得るニュース表現が 1 件あります。",
+      "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
       "Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
       "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
       "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -1168,7 +1195,7 @@
     ],
     "confidence": "Medium",
     "signal_strength": "Weak",
-    "signal_rate": 35.1,
+    "signal_rate": 36.9,
     "evidence": [
       "Company",
       "Events",
@@ -1180,18 +1207,19 @@
       "Scoring"
     ],
     "missing_data": [
-      "research_and_development"
+      "research_and_development",
+      "event_price_reaction"
     ],
     "metrics": {
-      "scoring_total": 37.0,
-      "signal_earned_points": 34.05,
-      "signal_max_points": 97.0,
+      "scoring_total": 38.0,
+      "signal_earned_points": 33.95,
+      "signal_max_points": 92.0,
       "weak_signals": [],
       "scoring_signal_strength": "Weak",
       "growth_score": 10.0,
       "financial_health_score": 7.0,
       "valuation_score": 6.0,
-      "news_score": 10.0,
+      "news_score": 11.0,
       "momentum": {
         "1m": -7.753017765806525,
         "3m": -10.691097120118375,
@@ -1205,11 +1233,11 @@
         "6m": -36.31,
         "1y": -33.82
       },
-      "positive_news": 1,
-      "watch_news": 2,
+      "positive_news": 3,
+      "watch_news": 1,
       "event_count": 10,
-      "events_with_reaction": 10,
-      "sector_average_score": 52.0
+      "events_with_reaction": 0,
+      "sector_average_score": 49.5
     }
   },
   "Validation": [],
@@ -1217,128 +1245,248 @@
     "count": 10,
     "latest": [
       {
-        "event_id": "MCD_be536bd8a06fb1ac",
+        "event_id": "MCD_080894a6b4dcd7b4",
         "ticker": "MCD",
-        "published_at": "2026-09-11T18:05:00+00:00",
-        "title": "CDC Declares Cyclospora Outbreak Linked to Iceberg Lettuce as Over",
-        "url": "https://www.wsj.com/us-news/cdc-says-cyclospora-outbreak-is-over-30c6bba2?siteid=yhoof2&yptr=yahoo",
+        "published_at": "2026-09-14T21:50:05+00:00",
+        "title": "McDonald's (MCD) Gains As Market Dips: What You Should Know",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-mcd-gains-market-dips-215005262.html",
         "source": "STORY",
-        "close_price": 252.52999877929688,
-        "previous_close": 253.0500030517578,
-        "price_change_percent": -0.20549467148379286,
-        "volume": 4078109.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "MCD_68a3dfa77ca31ea2",
+        "event_id": "MCD_ced15c2fa38534fe",
         "ticker": "MCD",
-        "published_at": "2026-09-11T15:11:24+00:00",
-        "title": "These 5 Dividend Stocks Survived 2008, COVID and Every Recession Before Them",
-        "url": "https://247wallst.com/investing/2026/09/11/these-5-dividend-stocks-survived-2008-covid-and-every-recession-before-them/",
+        "published_at": "2026-09-14T16:44:10+00:00",
+        "title": "‘They Don’t Call It an Extra Value Meal for Nothing’: McDonald’s Pitches $8 Big Macs as Diesel Hits $6.23",
+        "url": "https://247wallst.com/investing/2026/09/14/they-dont-call-it-an-extra-value-meal-for-nothing-mcdonalds-pitches-8-big-macs-as-diesel-hits-6-23/",
         "source": "STORY",
-        "close_price": 252.52999877929688,
-        "previous_close": 253.0500030517578,
-        "price_change_percent": -0.20549467148379286,
-        "volume": 4078109.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "MCD_4b9bb77ddeabf38b",
+        "event_id": "MCD_d4caebe79457fa17",
         "ticker": "MCD",
-        "published_at": "2026-09-11T13:58:00+00:00",
-        "title": "SBUX Bets on Refreshers to Boost Afternoon Traffic: Will it Pay Off?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sbux-bets-refreshers-boost-afternoon-135800545.html",
+        "published_at": "2026-09-14T15:14:47+00:00",
+        "title": "McDonald's Investor Day to Provide Details on Strategy Amid Challenging Demand, Morgan Stanley Says",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-apos-investor-day-details-151447452.html",
         "source": "STORY",
-        "close_price": 252.52999877929688,
-        "previous_close": 253.0500030517578,
-        "price_change_percent": -0.20549467148379286,
-        "volume": 4078109.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "MCD_9bc704f0046fa4fa",
+        "event_id": "MCD_a35626735097da4a",
         "ticker": "MCD",
-        "published_at": "2026-09-11T00:00:00+00:00",
-        "title": "America’s Fast-Food Chains Are Making a Big Pivot—Back to Humans",
-        "url": "https://www.wsj.com/business/hospitality/americas-fast-food-chains-are-making-a-big-pivotback-to-humans-3b8bb5b8?siteid=yhoof2&yptr=yahoo",
+        "published_at": "2026-09-14T14:02:00+00:00",
+        "title": "Can MCD Build More Growth From Its $20B Delivery Platform?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mcd-build-more-growth-20b-140200442.html",
         "source": "STORY",
-        "close_price": 252.52999877929688,
-        "previous_close": 253.0500030517578,
-        "price_change_percent": -0.20549467148379286,
-        "volume": 4078109.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "MCD_c20bec0e837e5de9",
+        "event_id": "MCD_15c94a863fdae8ab",
         "ticker": "MCD",
-        "published_at": "2026-09-10T16:00:00+00:00",
-        "title": "New Whoppers, Higher Quality: Inside Burger King’s Big Revamp",
-        "url": "https://finance.yahoo.com/video/whoppers-higher-quality-inside-burger-160000172.html",
-        "source": "VIDEO",
-        "close_price": 253.0500030517578,
-        "previous_close": 253.47999572753903,
-        "price_change_percent": -0.1696357436597927,
-        "volume": 4345400.0
+        "published_at": "2026-09-14T13:47:00+00:00",
+        "title": "Dutch Bros' 31% Shop Margin: Can Cost Pressures Stay Contained?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/dutch-bros-31-shop-margin-134700945.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "MCD_46725203a6a5aa7f",
+        "event_id": "MCD_f4cba499dbab2658",
         "ticker": "MCD",
-        "published_at": "2026-09-10T13:00:04+00:00",
-        "title": "McDonald's Corporation (MCD) is Attracting Investor Attention: Here is What You Should Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-corporation-mcd-attracting-investor-130004196.html",
+        "published_at": "2026-09-14T13:27:16+00:00",
+        "title": "Lucy Brady named president of Jamba",
+        "url": "https://www.nrn.com/restaurant-executives/lucy-brady-named-president-of-jamba",
         "source": "STORY",
-        "close_price": 253.0500030517578,
-        "previous_close": 253.47999572753903,
-        "price_change_percent": -0.1696357436597927,
-        "volume": 4345400.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "MCD_ac6dd34d60ef7427",
+        "event_id": "MCD_7c7dd82d8b5d0e51",
         "ticker": "MCD",
-        "published_at": "2026-09-10T11:06:00+00:00",
-        "title": "Carl’s Jr institutes cook-to-order standard",
-        "url": "https://www.restaurantdive.com/news/carls-jr-cooked-order-initiative-angus-maximus-food-quality/829947/",
+        "published_at": "2026-09-14T12:00:53+00:00",
+        "title": "Trump's Surgeon General Pick Has Tobacco, Cola Stocks In Portfolio Even as Robert Kennedy Jr. Wages War On Sugary Drinks, Processed Food",
+        "url": "https://www.yahoo.com/news/politics/articles/trumps-surgeon-general-pick-tobacco-120053587.html",
         "source": "STORY",
-        "close_price": 253.0500030517578,
-        "previous_close": 253.47999572753903,
-        "price_change_percent": -0.1696357436597927,
-        "volume": 4345400.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "MCD_9d5f7d63a324607c",
+        "event_id": "MCD_4be2dc3aebf7db48",
         "ticker": "MCD",
-        "published_at": "2026-09-09T14:02:38+00:00",
-        "title": "3 Cash-Producing Stocks Worth Investigating",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-cash-producing-stocks-worth-140238442.html",
+        "published_at": "2026-09-14T03:03:53+00:00",
+        "title": "Why Did OPEN, OKLO, MCD Stocks Plunge To 52-Week Lows?",
+        "url": "https://stocktwits.com/news-articles/markets/equity/why-did-open-oklo-mcd-stocks-plunge-to-52-week-lows/cZtloB3RBRP",
         "source": "STORY",
-        "close_price": 253.47999572753903,
-        "previous_close": 255.80999755859372,
-        "price_change_percent": -0.910832982796537,
-        "volume": 4434000.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "MCD_e3f3c8f3fe414cc2",
+        "event_id": "MCD_998c83baf2831af1",
         "ticker": "MCD",
-        "published_at": "2026-09-09T04:04:30+00:00",
-        "title": "Why Did NKE, MCD, STZ Stocks Slump To 52-Week Lows Today?",
-        "url": "https://stocktwits.com/news-articles/markets/equity/why-did-nke-mcd-stz-stocks-slump-to-52-week-lows-today/cZteA3jRJyk",
+        "published_at": "2026-09-13T20:00:18+00:00",
+        "title": "Jim Cramer Says a 25% Surtax Just Got Added to Everything You Buy. Congress Never Voted on It.",
+        "url": "https://247wallst.com/investing/2026/09/13/jim-cramer-says-a-25-surtax-just-got-added-to-everything-you-buy-congress-never-voted-on-it/",
         "source": "STORY",
-        "close_price": 253.47999572753903,
-        "previous_close": 255.80999755859372,
-        "price_change_percent": -0.910832982796537,
-        "volume": 4434000.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "MCD_438d5029a92bbf1e",
+        "event_id": "MCD_f3ca6554ab5ec2ad",
         "ticker": "MCD",
-        "published_at": "2026-09-08T13:45:00+00:00",
-        "title": "5 Defensive Stocks to Watch as CPI and the Fed Put the Rally to the Test",
-        "url": "https://www.marketbeat.com/articles/5-defensive-stocks-to-watch-as-cpi-and-the-fed-put-the-rally-to-the-test/?utm_source=yahoofinance&utm_medium=yahoofinance",
+        "published_at": "2026-09-13T18:03:00+00:00",
+        "title": "McDonald's Yields 3%, the Highest in Over 6 Years. Is the Dow Dividend Stock a Value Trap or Too Cheap to Ignore?",
+        "url": "https://www.fool.com/investing/2026/09/13/mcdonalds-yields-29-the-highest-in-over-6-years-is/",
         "source": "STORY",
-        "close_price": 255.80999755859372,
-        "previous_close": 255.69000244140625,
-        "price_change_percent": 0.04692992140549945,
-        "volume": 4197600.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       }
     ],
-    "history_count": 102,
+    "history_count": 112,
     "history": [
+      {
+        "event_id": "MCD_080894a6b4dcd7b4",
+        "ticker": "MCD",
+        "published_at": "2026-09-14T21:50:05+00:00",
+        "title": "McDonald's (MCD) Gains As Market Dips: What You Should Know",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-mcd-gains-market-dips-215005262.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "MCD_ced15c2fa38534fe",
+        "ticker": "MCD",
+        "published_at": "2026-09-14T16:44:10+00:00",
+        "title": "‘They Don’t Call It an Extra Value Meal for Nothing’: McDonald’s Pitches $8 Big Macs as Diesel Hits $6.23",
+        "url": "https://247wallst.com/investing/2026/09/14/they-dont-call-it-an-extra-value-meal-for-nothing-mcdonalds-pitches-8-big-macs-as-diesel-hits-6-23/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "MCD_d4caebe79457fa17",
+        "ticker": "MCD",
+        "published_at": "2026-09-14T15:14:47+00:00",
+        "title": "McDonald's Investor Day to Provide Details on Strategy Amid Challenging Demand, Morgan Stanley Says",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-apos-investor-day-details-151447452.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "MCD_a35626735097da4a",
+        "ticker": "MCD",
+        "published_at": "2026-09-14T14:02:00+00:00",
+        "title": "Can MCD Build More Growth From Its $20B Delivery Platform?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mcd-build-more-growth-20b-140200442.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "MCD_15c94a863fdae8ab",
+        "ticker": "MCD",
+        "published_at": "2026-09-14T13:47:00+00:00",
+        "title": "Dutch Bros' 31% Shop Margin: Can Cost Pressures Stay Contained?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/dutch-bros-31-shop-margin-134700945.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "MCD_f4cba499dbab2658",
+        "ticker": "MCD",
+        "published_at": "2026-09-14T13:27:16+00:00",
+        "title": "Lucy Brady named president of Jamba",
+        "url": "https://www.nrn.com/restaurant-executives/lucy-brady-named-president-of-jamba",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "MCD_7c7dd82d8b5d0e51",
+        "ticker": "MCD",
+        "published_at": "2026-09-14T12:00:53+00:00",
+        "title": "Trump's Surgeon General Pick Has Tobacco, Cola Stocks In Portfolio Even as Robert Kennedy Jr. Wages War On Sugary Drinks, Processed Food",
+        "url": "https://www.yahoo.com/news/politics/articles/trumps-surgeon-general-pick-tobacco-120053587.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "MCD_4be2dc3aebf7db48",
+        "ticker": "MCD",
+        "published_at": "2026-09-14T03:03:53+00:00",
+        "title": "Why Did OPEN, OKLO, MCD Stocks Plunge To 52-Week Lows?",
+        "url": "https://stocktwits.com/news-articles/markets/equity/why-did-open-oklo-mcd-stocks-plunge-to-52-week-lows/cZtloB3RBRP",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "MCD_998c83baf2831af1",
+        "ticker": "MCD",
+        "published_at": "2026-09-13T20:00:18+00:00",
+        "title": "Jim Cramer Says a 25% Surtax Just Got Added to Everything You Buy. Congress Never Voted on It.",
+        "url": "https://247wallst.com/investing/2026/09/13/jim-cramer-says-a-25-surtax-just-got-added-to-everything-you-buy-congress-never-voted-on-it/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "MCD_f3ca6554ab5ec2ad",
+        "ticker": "MCD",
+        "published_at": "2026-09-13T18:03:00+00:00",
+        "title": "McDonald's Yields 3%, the Highest in Over 6 Years. Is the Dow Dividend Stock a Value Trap or Too Cheap to Ignore?",
+        "url": "https://www.fool.com/investing/2026/09/13/mcdonalds-yields-29-the-highest-in-over-6-years-is/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
       {
         "event_id": "MCD_be536bd8a06fb1ac",
         "ticker": "MCD",
@@ -2570,117 +2718,227 @@
     "latest": [
       {
         "ticker": "MCD",
-        "title": "CDC Declares Cyclospora Outbreak Linked to Iceberg Lettuce as Over",
-        "summary": "The outbreak, which federal health officials linked to shredded iceberg lettuce from supplier Taylor Farms, resulted in a total of 12,883 reported cases of the gastrointestinal food-borne illness across 21 states.",
-        "published_at": "2026-09-11T18:05:00+00:00",
-        "publisher": "The Wall Street Journal",
-        "url": "https://www.wsj.com/us-news/cdc-says-cyclospora-outbreak-is-over-30c6bba2?siteid=yhoof2&yptr=yahoo",
+        "title": "McDonald's (MCD) Gains As Market Dips: What You Should Know",
+        "summary": "The latest trading day saw McDonald's (MCD) settling at $257.49, representing a +1.96% change from its previous close.",
+        "published_at": "2026-09-14T21:50:05+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-mcd-gains-market-dips-215005262.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "MCD",
-        "title": "These 5 Dividend Stocks Survived 2008, COVID and Every Recession Before Them",
-        "summary": "Chasing the fattest yield on the screen is a trap most income investors fall into, but a handful of companies have quietly raised their payouts through oil shocks, financial meltdowns, and a global pandemic without skipping a beat. The question is what they all have in common.",
-        "published_at": "2026-09-11T15:11:24+00:00",
+        "title": "‘They Don’t Call It an Extra Value Meal for Nothing’: McDonald’s Pitches $8 Big Macs as Diesel Hits $6.23",
+        "summary": "McDonald's is slashing Big Mac meal prices to lure back customers at the same moment diesel costs shatter records, leaving franchisees caught between a value-hungry public and a supply chain bleeding money at every mile.",
+        "published_at": "2026-09-14T16:44:10+00:00",
         "publisher": "24/7 Wall St.",
-        "url": "https://247wallst.com/investing/2026/09/11/these-5-dividend-stocks-survived-2008-covid-and-every-recession-before-them/",
+        "url": "https://247wallst.com/investing/2026/09/14/they-dont-call-it-an-extra-value-meal-for-nothing-mcdonalds-pitches-8-big-macs-as-diesel-hits-6-23/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "MCD",
-        "title": "SBUX Bets on Refreshers to Boost Afternoon Traffic: Will it Pay Off?",
-        "summary": "Starbucks is betting on Refreshers to drive afternoon traffic, but rising competition from Dutch Bros and McDonald's could test its momentum.",
-        "published_at": "2026-09-11T13:58:00+00:00",
+        "title": "McDonald's Investor Day to Provide Details on Strategy Amid Challenging Demand, Morgan Stanley Says",
+        "summary": "McDonald's (MCD) investor day on Sept. 23 will likely flesh out the strategies the fast food giant h",
+        "published_at": "2026-09-14T15:14:47+00:00",
+        "publisher": "MT Newswires",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-apos-investor-day-details-151447452.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "Can MCD Build More Growth From Its $20B Delivery Platform?",
+        "summary": "McDonald's $20B-plus delivery platform spans about 90% of its restaurants as app ordering and unified digital systems deepen its digital strategy.",
+        "published_at": "2026-09-14T14:02:00+00:00",
         "publisher": "Zacks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sbux-bets-refreshers-boost-afternoon-135800545.html",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mcd-build-more-growth-20b-140200442.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "MCD",
-        "title": "America’s Fast-Food Chains Are Making a Big Pivot—Back to Humans",
-        "summary": "McDonald’s and Burger King are boosting training to improve hospitality. “Our restaurants seem rushed, impersonal, sterile.”",
-        "published_at": "2026-09-11T00:00:00+00:00",
-        "publisher": "The Wall Street Journal",
-        "url": "https://www.wsj.com/business/hospitality/americas-fast-food-chains-are-making-a-big-pivotback-to-humans-3b8bb5b8?siteid=yhoof2&yptr=yahoo",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "MCD",
-        "title": "New Whoppers, Higher Quality: Inside Burger King’s Big Revamp",
-        "summary": "Burger King is making a comeback. The fast food chain has seen increased sales and foot traffic, which the company’s U.S. president Tom Curtis credits to their updated signature burger, the Whopper. WSJ’s Heather Haddon sat down with Curtis and visited the Burger King test kitchen to find out how they plan to make it last.",
-        "published_at": "2026-09-10T16:00:00+00:00",
-        "publisher": "WSJ",
-        "url": "https://finance.yahoo.com/video/whoppers-higher-quality-inside-burger-160000172.html",
-        "language": null,
-        "source": "VIDEO",
-        "related_tickers": null
-      },
-      {
-        "ticker": "MCD",
-        "title": "McDonald's Corporation (MCD) is Attracting Investor Attention: Here is What You Should Know",
-        "summary": "McDonald's (MCD) has been one of the stocks most watched by Zacks.com users lately. So, it is worth exploring what lies ahead for the stock.",
-        "published_at": "2026-09-10T13:00:04+00:00",
+        "title": "Dutch Bros' 31% Shop Margin: Can Cost Pressures Stay Contained?",
+        "summary": "BROS' 31% shop margin shows resilient unit economics, but coffee inflation and occupancy costs are set to keep pressuring profitability.",
+        "published_at": "2026-09-14T13:47:00+00:00",
         "publisher": "Zacks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-corporation-mcd-attracting-investor-130004196.html",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/dutch-bros-31-shop-margin-134700945.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "MCD",
-        "title": "Carl’s Jr institutes cook-to-order standard",
-        "summary": "The chain joins Burger King, McDonald’s and Wendy’s in moving to improve food quality in order to boost frequency and sales.",
-        "published_at": "2026-09-10T11:06:00+00:00",
-        "publisher": "Restaurant Dive",
-        "url": "https://www.restaurantdive.com/news/carls-jr-cooked-order-initiative-angus-maximus-food-quality/829947/",
+        "title": "Lucy Brady named president of Jamba",
+        "summary": "The former McDonald’s executive recently took the helm at the juice chain as parent GoTo Foods made several leadership changes.",
+        "published_at": "2026-09-14T13:27:16+00:00",
+        "publisher": "Nation's Restaurant News",
+        "url": "https://www.nrn.com/restaurant-executives/lucy-brady-named-president-of-jamba",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "MCD",
-        "title": "3 Cash-Producing Stocks Worth Investigating",
-        "summary": "Cash-generating companies often have the flexibility to invest, return capital to shareholders, or navigate downturns. The best of these businesses not only accumulate cash but deploy it strategically for growth.",
-        "published_at": "2026-09-09T14:02:38+00:00",
-        "publisher": "StockStory",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-cash-producing-stocks-worth-140238442.html",
+        "title": "Trump's Surgeon General Pick Has Tobacco, Cola Stocks In Portfolio Even as Robert Kennedy Jr. Wages War On Sugary Drinks, Processed Food",
+        "summary": "President Donald Trump‘s nominee for Surgeon General, Dr. Nicole Saphier, disclosed investments in Philip Morris International Inc. (NYSE:PM) and several major beverage and pharmaceutical companies, and agreed to divest from most of them if confirmed for the role. Offloads Tobacco...",
+        "published_at": "2026-09-14T12:00:53+00:00",
+        "publisher": "Benzinga",
+        "url": "https://www.yahoo.com/news/politics/articles/trumps-surgeon-general-pick-tobacco-120053587.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "MCD",
-        "title": "Why Did NKE, MCD, STZ Stocks Slump To 52-Week Lows Today?",
-        "summary": "Nike, McDonald's, and Constellation Brands plunged to 52-week lows amid negative company catalysts and broader sector weakness.",
-        "published_at": "2026-09-09T04:04:30+00:00",
+        "title": "Why Did OPEN, OKLO, MCD Stocks Plunge To 52-Week Lows?",
+        "summary": "Investors weighed housing weakness, potential equity dilution, and softer U.S. consumer demand.",
+        "published_at": "2026-09-14T03:03:53+00:00",
         "publisher": "Stocktwits",
-        "url": "https://stocktwits.com/news-articles/markets/equity/why-did-nke-mcd-stz-stocks-slump-to-52-week-lows-today/cZteA3jRJyk",
+        "url": "https://stocktwits.com/news-articles/markets/equity/why-did-open-oklo-mcd-stocks-plunge-to-52-week-lows/cZtloB3RBRP",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "MCD",
-        "title": "5 Defensive Stocks to Watch as CPI and the Fed Put the Rally to the Test",
-        "summary": "Ahead of CPI data and the Fed's rate decision, defensive stocks McDonald's, Johnson & Johnson, Walmart, Berkshire Hathaway, and NextEra Energy offer stability and dividends amid market uncertainty.",
-        "published_at": "2026-09-08T13:45:00+00:00",
-        "publisher": "MarketBeat",
-        "url": "https://www.marketbeat.com/articles/5-defensive-stocks-to-watch-as-cpi-and-the-fed-put-the-rally-to-the-test/?utm_source=yahoofinance&utm_medium=yahoofinance",
+        "title": "Jim Cramer Says a 25% Surtax Just Got Added to Everything You Buy. Congress Never Voted on It.",
+        "summary": "Jim Cramer put a precise number on what diesel is doing to every product you buy, and the math he laid out on CNBC has nothing to do with the inflation figure Washington reports. What it means for McDonald's, Walmart, and Target stocks depends on how long one critical cushion holds.",
+        "published_at": "2026-09-13T20:00:18+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/09/13/jim-cramer-says-a-25-surtax-just-got-added-to-everything-you-buy-congress-never-voted-on-it/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "McDonald's Yields 3%, the Highest in Over 6 Years. Is the Dow Dividend Stock a Value Trap or Too Cheap to Ignore?",
+        "summary": "It's not hard to see why the rug got pulled out from underneath this dividend stock. Investors are just struggling to determine if it's a mistake that needs correcting.",
+        "published_at": "2026-09-13T18:03:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/09/13/mcdonalds-yields-29-the-highest-in-over-6-years-is/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       }
     ],
-    "history_count": 99,
+    "history_count": 109,
     "history": [
+      {
+        "ticker": "MCD",
+        "title": "McDonald's (MCD) Gains As Market Dips: What You Should Know",
+        "summary": "The latest trading day saw McDonald's (MCD) settling at $257.49, representing a +1.96% change from its previous close.",
+        "published_at": "2026-09-14T21:50:05+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-mcd-gains-market-dips-215005262.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "‘They Don’t Call It an Extra Value Meal for Nothing’: McDonald’s Pitches $8 Big Macs as Diesel Hits $6.23",
+        "summary": "McDonald's is slashing Big Mac meal prices to lure back customers at the same moment diesel costs shatter records, leaving franchisees caught between a value-hungry public and a supply chain bleeding money at every mile.",
+        "published_at": "2026-09-14T16:44:10+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/09/14/they-dont-call-it-an-extra-value-meal-for-nothing-mcdonalds-pitches-8-big-macs-as-diesel-hits-6-23/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "McDonald's Investor Day to Provide Details on Strategy Amid Challenging Demand, Morgan Stanley Says",
+        "summary": "McDonald's (MCD) investor day on Sept. 23 will likely flesh out the strategies the fast food giant h",
+        "published_at": "2026-09-14T15:14:47+00:00",
+        "publisher": "MT Newswires",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-apos-investor-day-details-151447452.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "Can MCD Build More Growth From Its $20B Delivery Platform?",
+        "summary": "McDonald's $20B-plus delivery platform spans about 90% of its restaurants as app ordering and unified digital systems deepen its digital strategy.",
+        "published_at": "2026-09-14T14:02:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mcd-build-more-growth-20b-140200442.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "Dutch Bros' 31% Shop Margin: Can Cost Pressures Stay Contained?",
+        "summary": "BROS' 31% shop margin shows resilient unit economics, but coffee inflation and occupancy costs are set to keep pressuring profitability.",
+        "published_at": "2026-09-14T13:47:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/dutch-bros-31-shop-margin-134700945.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "Lucy Brady named president of Jamba",
+        "summary": "The former McDonald’s executive recently took the helm at the juice chain as parent GoTo Foods made several leadership changes.",
+        "published_at": "2026-09-14T13:27:16+00:00",
+        "publisher": "Nation's Restaurant News",
+        "url": "https://www.nrn.com/restaurant-executives/lucy-brady-named-president-of-jamba",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "Trump's Surgeon General Pick Has Tobacco, Cola Stocks In Portfolio Even as Robert Kennedy Jr. Wages War On Sugary Drinks, Processed Food",
+        "summary": "President Donald Trump‘s nominee for Surgeon General, Dr. Nicole Saphier, disclosed investments in Philip Morris International Inc. (NYSE:PM) and several major beverage and pharmaceutical companies, and agreed to divest from most of them if confirmed for the role. Offloads Tobacco...",
+        "published_at": "2026-09-14T12:00:53+00:00",
+        "publisher": "Benzinga",
+        "url": "https://www.yahoo.com/news/politics/articles/trumps-surgeon-general-pick-tobacco-120053587.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "Why Did OPEN, OKLO, MCD Stocks Plunge To 52-Week Lows?",
+        "summary": "Investors weighed housing weakness, potential equity dilution, and softer U.S. consumer demand.",
+        "published_at": "2026-09-14T03:03:53+00:00",
+        "publisher": "Stocktwits",
+        "url": "https://stocktwits.com/news-articles/markets/equity/why-did-open-oklo-mcd-stocks-plunge-to-52-week-lows/cZtloB3RBRP",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "Jim Cramer Says a 25% Surtax Just Got Added to Everything You Buy. Congress Never Voted on It.",
+        "summary": "Jim Cramer put a precise number on what diesel is doing to every product you buy, and the math he laid out on CNBC has nothing to do with the inflation figure Washington reports. What it means for McDonald's, Walmart, and Target stocks depends on how long one critical cushion holds.",
+        "published_at": "2026-09-13T20:00:18+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/09/13/jim-cramer-says-a-25-surtax-just-got-added-to-everything-you-buy-congress-never-voted-on-it/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "McDonald's Yields 3%, the Highest in Over 6 Years. Is the Dow Dividend Stock a Value Trap or Too Cheap to Ignore?",
+        "summary": "It's not hard to see why the rug got pulled out from underneath this dividend stock. Investors are just struggling to determine if it's a mistake that needs correcting.",
+        "published_at": "2026-09-13T18:03:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/09/13/mcdonalds-yields-29-the-highest-in-over-6-years-is/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
       {
         "ticker": "MCD",
         "title": "CDC Declares Cyclospora Outbreak Linked to Iceberg Lettuce as Over",
@@ -3780,5 +4038,5 @@
     "scoring": "Weak",
     "discovery": "Weak"
   },
-  "Timestamp": "2026-09-11T19:43:40.831937-04:00"
+  "Timestamp": "2026-09-14T20:07:09.962744-04:00"
 }

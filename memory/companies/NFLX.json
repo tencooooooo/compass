@@ -7,20 +7,20 @@
     "country": "United States",
     "currency": "USD",
     "exchange": "NMS",
-    "market_cap": 322288943104,
-    "enterprise_value": 329815687168,
+    "market_cap": 334447640576,
+    "enterprise_value": 341974384640,
     "shares_outstanding": 4163939676,
     "beta": 1.526,
-    "trailing_pe": 24.339622,
-    "forward_pe": 20.256954,
-    "peg_ratio": 1.41,
-    "price_to_book": 10.689132,
+    "trailing_pe": 25.25786,
+    "forward_pe": 21.02117,
+    "peg_ratio": 1.43,
+    "price_to_book": 11.09239,
     "eps": 3.18,
     "forward_eps": 3.82091,
     "dividend_yield": null,
     "52_week_high": 124.86,
     "52_week_low": 65.08,
-    "average_volume": 41111519,
+    "average_volume": 40900987,
     "employees": 16000,
     "website": "https://www.netflix.com",
     "business_summary": "Netflix, Inc. provides entertainment services worldwide. The company offers television (TV) series, documentaries, feature films, games, and live programming across various genres and languages. It also provides members the ability to receive streaming content through a host of internet-connected devices, including TVs, digital video players, TV set-top boxes, and mobile devices. Netflix, Inc. was incorporated in 1997 and is headquartered in Los Gatos, California."
@@ -937,29 +937,54 @@
         "scoring": "Moderate",
         "discovery": "Moderate"
       }
+    },
+    {
+      "date": "2026-09-14",
+      "timestamp": "2026-09-14T20:07:09.962744-04:00",
+      "score": 50,
+      "discovery_score": 51,
+      "discovery_status": "Not Selected",
+      "validation_results": {
+        "Excellent": 0,
+        "Good": 0,
+        "Neutral": 1,
+        "Poor": 3,
+        "Pending": 16
+      },
+      "event_count": 10,
+      "news_count": 10,
+      "confidence": {
+        "scoring": "Medium",
+        "discovery": "Medium"
+      },
+      "signal_strength": {
+        "scoring": "Moderate",
+        "discovery": "Moderate"
+      }
     }
   ],
   "Scores": {
     "ticker": "NFLX",
     "company_name": "Netflix, Inc.",
-    "total_score": 49,
+    "total_score": 50,
     "max_score": 100,
     "confidence": {
-      "level": "High",
-      "completeness_score": 100,
+      "level": "Medium",
+      "completeness_score": 95.0,
       "reasons": [
         "利用可能な主要データ領域は5領域中 5 領域です。",
-        "欠損または計算不可の項目数は 0 件です。",
-        "主要データが比較的そろっており、説明可能性は高めです。",
+        "欠損または計算不可の項目数は 1 件です。",
+        "主要データは一定程度ありますが、欠損や未取得項目が残っています。",
+        "イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。",
         "Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。"
       ]
     },
     "signal_strength": {
       "level": "Moderate",
-      "signal_rate": 49.0,
+      "signal_rate": 50.0,
       "evaluated_max_score": 100,
       "reasons": [
-        "データが確認できた 100 点満点のうち 49 点を獲得し、シグナル充足率は 49.0% です。",
+        "データが確認できた 100 点満点のうち 50 点を獲得し、シグナル充足率は 50.0% です。",
         "シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。"
       ]
     },
@@ -1032,7 +1057,7 @@
         "score": 3,
         "max_score": 20,
         "reasons": [
-          "PER はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。",
+          "PER はセクター内 88.89 パーセンタイル / 母数 10 で、相対的な加点は抑えています。",
           "Forward PER はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。",
           "PEG はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。",
           "PBR はセクター内 100.00 パーセンタイル / 母数 10 で、相対的な加点は抑えています。",
@@ -1044,12 +1069,12 @@
         ],
         "missing_data": [],
         "metrics": {
-          "trailing_pe": 24.339622,
-          "forward_pe": 20.256954,
-          "peg_ratio": 1.41,
-          "price_to_book": 10.689132,
+          "trailing_pe": 25.25786,
+          "forward_pe": 21.02117,
+          "peg_ratio": 1.43,
+          "price_to_book": 11.09239,
           "sector_peer_count": 10,
-          "trailing_pe_percentile": 77.78,
+          "trailing_pe_percentile": 88.89,
           "trailing_pe_peer_count": 10,
           "forward_pe_percentile": 77.78,
           "forward_pe_peer_count": 10,
@@ -1092,31 +1117,33 @@
             "6M": -33.29,
             "1Y": -56.45
           },
-          "latest_volume": 22178958.0,
-          "average_volume_30d": 28503558.6
+          "latest_volume": 22207800.0,
+          "average_volume_30d": 28504520.0
         }
       },
       "News": {
-        "score": 9,
+        "score": 10,
         "max_score": 20,
         "reasons": [
           "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-          "ニュース見出し・要約の簡易分類では、好材料 0 件、悪材料 3 件(純比率 -1.00)で、センチメントは 0.0 点です。",
-          "イベント後の平均株価反応が 1.09% とプラスです。"
+          "ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 1 件(純比率 +0.33)で、センチメントは 5.3 点です。",
+          "イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。"
         ],
         "evidence": [
           "News",
           "Events",
           "Knowledge"
         ],
-        "missing_data": [],
+        "missing_data": [
+          "event_price_reaction"
+        ],
         "metrics": {
           "news_count": 10,
-          "positive_count": 0,
-          "negative_count": 3,
-          "sentiment_net_ratio": -1.0,
+          "positive_count": 2,
+          "negative_count": 1,
+          "sentiment_net_ratio": 0.33,
           "event_count": 10,
-          "events_with_price_reaction": 10
+          "events_with_price_reaction": 0
         }
       }
     },
@@ -1134,13 +1161,13 @@
     "company": "Netflix, Inc.",
     "sector": "Communication Services",
     "industry": "Entertainment",
-    "discovery_score": 54,
+    "discovery_score": 51,
     "max_score": 100,
     "status": "Not Selected",
     "discovery_reasons": [
       "Scoring EngineのGrowthが 16/20 で、成長性の基礎条件が確認できます。",
       "Financial Healthが 16/20 で、継続調査に必要な財務基盤を評価しています。",
-      "Newsスコアが 9/20 で、材料の量と市場関心を候補評価に反映しています。",
+      "Newsスコアが 10/20 で、材料の量と市場関心を候補評価に反映しています。",
       "売上が取得でき、事業規模の確認ができます。",
       "EPSがプラスで、利益を伴う成長候補として確認できます。",
       "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -1156,16 +1183,17 @@
     ],
     "watch_points": [
       "バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。",
-      "注意材料になり得るニュース表現が 3 件あります。",
+      "注意材料になり得るニュース表現が 1 件あります。",
+      "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
       "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
       "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
       "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
       "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
       "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
     ],
-    "confidence": "High",
+    "confidence": "Medium",
     "signal_strength": "Moderate",
-    "signal_rate": 54.25,
+    "signal_rate": 53.84,
     "evidence": [
       "Company",
       "Events",
@@ -1176,17 +1204,19 @@
       "Prices",
       "Scoring"
     ],
-    "missing_data": [],
+    "missing_data": [
+      "event_price_reaction"
+    ],
     "metrics": {
-      "scoring_total": 49.0,
-      "signal_earned_points": 54.25,
-      "signal_max_points": 100.0,
+      "scoring_total": 50.0,
+      "signal_earned_points": 51.15,
+      "signal_max_points": 95.0,
       "weak_signals": [],
       "scoring_signal_strength": "Moderate",
       "growth_score": 16.0,
       "financial_health_score": 16.0,
       "valuation_score": 3.0,
-      "news_score": 9.0,
+      "news_score": 10.0,
       "momentum": {
         "1m": 4.298615389787427,
         "3m": -4.7618989504630065,
@@ -1200,17 +1230,17 @@
         "6m": -33.29,
         "1y": -56.45
       },
-      "positive_news": 0,
-      "watch_news": 3,
+      "positive_news": 2,
+      "watch_news": 1,
       "event_count": 10,
-      "events_with_reaction": 10,
-      "sector_average_score": 60.166666666666664
+      "events_with_reaction": 0,
+      "sector_average_score": 58.833333333333336
     }
   },
   "Validation": [
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "NFLX",
       "company": "Netflix, Inc.",
@@ -1270,7 +1300,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "NFLX",
       "company": "Netflix, Inc.",
@@ -1330,7 +1360,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "NFLX",
       "company": "Netflix, Inc.",
@@ -1390,7 +1420,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "NFLX",
       "company": "Netflix, Inc.",
@@ -1450,7 +1480,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "NFLX",
       "company": "Netflix, Inc.",
@@ -1510,7 +1540,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "NFLX",
       "company": "Netflix, Inc.",
@@ -1570,7 +1600,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "NFLX",
       "company": "Netflix, Inc.",
@@ -1630,7 +1660,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "NFLX",
       "company": "Netflix, Inc.",
@@ -1690,7 +1720,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "NFLX",
       "company": "Netflix, Inc.",
@@ -1750,7 +1780,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "NFLX",
       "company": "Netflix, Inc.",
@@ -1810,7 +1840,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "NFLX",
       "company": "Netflix, Inc.",
@@ -1870,7 +1900,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "NFLX",
       "company": "Netflix, Inc.",
@@ -1930,7 +1960,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "NFLX",
       "company": "Netflix, Inc.",
@@ -1990,7 +2020,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "NFLX",
       "company": "Netflix, Inc.",
@@ -2050,7 +2080,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "NFLX",
       "company": "Netflix, Inc.",
@@ -2110,7 +2140,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "NFLX",
       "company": "Netflix, Inc.",
@@ -2169,7 +2199,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "NFLX",
       "company": "Netflix, Inc.",
@@ -2228,7 +2258,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "NFLX",
       "company": "Netflix, Inc.",
@@ -2287,7 +2317,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "NFLX",
       "company": "Netflix, Inc.",
@@ -2346,7 +2376,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "NFLX",
       "company": "Netflix, Inc.",
@@ -2408,128 +2438,248 @@
     "count": 10,
     "latest": [
       {
-        "event_id": "NFLX_6fba991c380f254b",
+        "event_id": "NFLX_c479c38814d3ea57",
         "ticker": "NFLX",
-        "published_at": "2026-09-11T19:34:14+00:00",
-        "title": "How Far Could Alphabet Stock Move On You In A Year?",
-        "url": "https://www.trefis.com/articles/615032/how-far-could-alphabet-stock-move-on-you-in-a-year/2026-09-11",
+        "published_at": "2026-09-14T21:53:54+00:00",
+        "title": "S&P 500, Nasdaq, Dow Drop On Chipmaker Weakness, Treasury Yield Pressure — MSFT, NFLX, ORCL, CRWD, RBLX In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-drop-on-chipmaker-weakness/cZtm0WRRBTI",
         "source": "STORY",
-        "close_price": 77.4000015258789,
-        "previous_close": 76.01000213623047,
-        "price_change_percent": 1.8287058947284107,
-        "volume": 22178958.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "NFLX_6d834193b15f1230",
+        "event_id": "NFLX_90519f0c14f65236",
         "ticker": "NFLX",
-        "published_at": "2026-09-11T18:04:00+00:00",
-        "title": "The #1 Insider Signal Every Trader Should Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/1-insider-signal-every-trader-180400875.html",
+        "published_at": "2026-09-14T21:06:30+00:00",
+        "title": "Why Netflix Stock Rallied Today",
+        "url": "https://www.fool.com/investing/2026/09/14/why-netflix-stock-rallied-today/",
         "source": "STORY",
-        "close_price": 77.4000015258789,
-        "previous_close": 76.01000213623047,
-        "price_change_percent": 1.8287058947284107,
-        "volume": 22178958.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "NFLX_6f53f34c22d51041",
+        "event_id": "NFLX_0556dd5d5d61f6de",
         "ticker": "NFLX",
-        "published_at": "2026-09-11T15:57:22+00:00",
-        "title": "Stop Wasting Money: How to Find and Cancel Unused Subscriptions in 15 Minutes or Less",
-        "url": "https://finance.yahoo.com/markets/articles/stop-wasting-money-cancel-unused-155722212.html",
+        "published_at": "2026-09-14T21:04:25+00:00",
+        "title": "Netflix stock jumps as Wall Street sees a new growth engine",
+        "url": "https://finance.yahoo.com/media-advertising/articles/netflix-stock-jumps-wall-street-210425929.html",
         "source": "STORY",
-        "close_price": 77.4000015258789,
-        "previous_close": 76.01000213623047,
-        "price_change_percent": 1.8287058947284107,
-        "volume": 22178958.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "NFLX_420e1025cada6442",
+        "event_id": "NFLX_bd5984c0361a1028",
         "ticker": "NFLX",
-        "published_at": "2026-09-11T15:10:59+00:00",
-        "title": "Netflix Said It Was Different From Facebook. A New Lawsuit Says It Tracked Kids for Ads Anyway.",
-        "url": "https://247wallst.com/investing/2026/09/11/netflix-said-it-was-different-from-facebook-a-new-lawsuit-says-it-tracked-kids-for-ads-anyway/",
+        "published_at": "2026-09-14T19:50:35+00:00",
+        "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-195035841.html",
         "source": "STORY",
-        "close_price": 77.4000015258789,
-        "previous_close": 76.01000213623047,
-        "price_change_percent": 1.8287058947284107,
-        "volume": 22178958.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "NFLX_31dd161684274055",
+        "event_id": "NFLX_5e6a16162b8e5b7b",
         "ticker": "NFLX",
-        "published_at": "2026-09-11T14:12:00+00:00",
-        "title": "4 Broadcast Radio & TV Stocks to Watch From a Prospering Industry",
-        "url": "https://finance.yahoo.com/media-advertising/articles/4-broadcast-radio-tv-stocks-141200889.html",
+        "published_at": "2026-09-14T19:47:01+00:00",
+        "title": "Netflix Stock Rose 4% While the AI Trade Sold Off on Monday. Its Capital Goes Into Shows, Not Silicon.",
+        "url": "https://www.fool.com/investing/2026/09/14/netflix-stock-rose-4-while-the-ai-trade-sold-off-on-monday-its-capital-goes-into-shows-not-silicon/",
         "source": "STORY",
-        "close_price": 77.4000015258789,
-        "previous_close": 76.01000213623047,
-        "price_change_percent": 1.8287058947284107,
-        "volume": 22178958.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "NFLX_2a3d749318183997",
+        "event_id": "NFLX_8a50d7a5d66facdc",
         "ticker": "NFLX",
-        "published_at": "2026-09-11T12:48:00+00:00",
-        "title": "Do Options Traders Know Something About Netflix Stock We Don't?",
-        "url": "https://finance.yahoo.com/markets/options/articles/options-traders-know-something-netflix-124800129.html",
+        "published_at": "2026-09-14T18:17:07+00:00",
+        "title": "Netflix Shares Jump After Evercore Raises Price Target To $110",
+        "url": "https://finance.yahoo.com/media-advertising/articles/netflix-shares-jump-evercore-raises-181707884.html",
         "source": "STORY",
-        "close_price": 77.4000015258789,
-        "previous_close": 76.01000213623047,
-        "price_change_percent": 1.8287058947284107,
-        "volume": 22178958.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "NFLX_591f7ca7fb070338",
+        "event_id": "NFLX_9b746c85d86e54b7",
         "ticker": "NFLX",
-        "published_at": "2026-09-10T18:06:44+00:00",
-        "title": "Is The AI Capex Surge A Threat To Amazon Stock?",
-        "url": "https://www.trefis.com/articles/614679/is-the-ai-capex-surge-a-threat-to-amazon-stock/2026-09-10",
+        "published_at": "2026-09-14T17:49:58+00:00",
+        "title": "Sector Update: Consumer Stocks Advance Monday Afternoon",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-monday-174958227.html",
         "source": "STORY",
-        "close_price": 76.01000213623047,
-        "previous_close": 76.02999877929688,
-        "price_change_percent": -0.02630099090814582,
-        "volume": 20049000.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "NFLX_d6003cdd18a8f0b0",
+        "event_id": "NFLX_aa158fc6da812b63",
         "ticker": "NFLX",
-        "published_at": "2026-09-10T13:52:23+00:00",
-        "title": "Why Is Netflix Growing Fastest And Falling Furthest?",
-        "url": "https://www.trefis.com/articles/614905/why-is-netflix-growing-fastest-and-falling-furthest/2026-09-10",
+        "published_at": "2026-09-14T17:45:52+00:00",
+        "title": "Netflix Climbs 4%, Alphabet Ticks Up, Amazon Barely Budges as New Streaming Policy Alliance Launches",
+        "url": "https://247wallst.com/investing/2026/09/14/netflix-climbs-4-alphabet-ticks-up-amazon-barely-budges-as-new-streaming-policy-alliance-launches/",
         "source": "STORY",
-        "close_price": 76.01000213623047,
-        "previous_close": 76.02999877929688,
-        "price_change_percent": -0.02630099090814582,
-        "volume": 20049000.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "NFLX_356821644d3f7977",
+        "event_id": "NFLX_557d1c9f2230f79c",
         "ticker": "NFLX",
-        "published_at": "2026-09-10T13:00:00+00:00",
-        "title": "Netflix Now: Welcome To Theatrical Movieland - For Real?",
-        "url": "https://www.mediapost.com/publications/article/417756/netflix-now-welcome-to-theatrical-movieland-for.html",
+        "published_at": "2026-09-14T17:10:02+00:00",
+        "title": "Netflix, Amazon And YouTube Reportedly Form Coalition As Washington Scrutinizes Sports Broadcasting",
+        "url": "https://stocktwits.com/news-articles/markets/equity/netflix-amazon-and-you-tube-reportedly-form-coalition/cZtmBHoRBR6",
         "source": "STORY",
-        "close_price": 76.01000213623047,
-        "previous_close": 76.02999877929688,
-        "price_change_percent": -0.02630099090814582,
-        "volume": 20049000.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "NFLX_f7e3ad34ba63e2a3",
+        "event_id": "NFLX_a1396a454e51615b",
         "ticker": "NFLX",
-        "published_at": "2026-09-10T11:55:59+00:00",
-        "title": "Netflix (NFLX) Shares Pressured by Weak Q2 Outlook",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-nflx-shares-pressured-weak-115559393.html",
+        "published_at": "2026-09-14T16:41:00+00:00",
+        "title": "Amazon, Netflix, YouTube Form Coalition to Advocate for Consumer Choice in Online Content",
+        "url": "https://www.wsj.com/business/media/amazon-netflix-youtube-form-coalition-to-advocate-for-consumer-choice-in-online-content-37451aaf?siteid=yhoof2&yptr=yahoo",
         "source": "STORY",
-        "close_price": 76.01000213623047,
-        "previous_close": 76.02999877929688,
-        "price_change_percent": -0.02630099090814582,
-        "volume": 20049000.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       }
     ],
-    "history_count": 153,
+    "history_count": 163,
     "history": [
+      {
+        "event_id": "NFLX_c479c38814d3ea57",
+        "ticker": "NFLX",
+        "published_at": "2026-09-14T21:53:54+00:00",
+        "title": "S&P 500, Nasdaq, Dow Drop On Chipmaker Weakness, Treasury Yield Pressure — MSFT, NFLX, ORCL, CRWD, RBLX In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-drop-on-chipmaker-weakness/cZtm0WRRBTI",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "NFLX_90519f0c14f65236",
+        "ticker": "NFLX",
+        "published_at": "2026-09-14T21:06:30+00:00",
+        "title": "Why Netflix Stock Rallied Today",
+        "url": "https://www.fool.com/investing/2026/09/14/why-netflix-stock-rallied-today/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "NFLX_0556dd5d5d61f6de",
+        "ticker": "NFLX",
+        "published_at": "2026-09-14T21:04:25+00:00",
+        "title": "Netflix stock jumps as Wall Street sees a new growth engine",
+        "url": "https://finance.yahoo.com/media-advertising/articles/netflix-stock-jumps-wall-street-210425929.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "NFLX_bd5984c0361a1028",
+        "ticker": "NFLX",
+        "published_at": "2026-09-14T19:50:35+00:00",
+        "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-195035841.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "NFLX_5e6a16162b8e5b7b",
+        "ticker": "NFLX",
+        "published_at": "2026-09-14T19:47:01+00:00",
+        "title": "Netflix Stock Rose 4% While the AI Trade Sold Off on Monday. Its Capital Goes Into Shows, Not Silicon.",
+        "url": "https://www.fool.com/investing/2026/09/14/netflix-stock-rose-4-while-the-ai-trade-sold-off-on-monday-its-capital-goes-into-shows-not-silicon/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "NFLX_8a50d7a5d66facdc",
+        "ticker": "NFLX",
+        "published_at": "2026-09-14T18:17:07+00:00",
+        "title": "Netflix Shares Jump After Evercore Raises Price Target To $110",
+        "url": "https://finance.yahoo.com/media-advertising/articles/netflix-shares-jump-evercore-raises-181707884.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "NFLX_9b746c85d86e54b7",
+        "ticker": "NFLX",
+        "published_at": "2026-09-14T17:49:58+00:00",
+        "title": "Sector Update: Consumer Stocks Advance Monday Afternoon",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-monday-174958227.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "NFLX_aa158fc6da812b63",
+        "ticker": "NFLX",
+        "published_at": "2026-09-14T17:45:52+00:00",
+        "title": "Netflix Climbs 4%, Alphabet Ticks Up, Amazon Barely Budges as New Streaming Policy Alliance Launches",
+        "url": "https://247wallst.com/investing/2026/09/14/netflix-climbs-4-alphabet-ticks-up-amazon-barely-budges-as-new-streaming-policy-alliance-launches/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "NFLX_557d1c9f2230f79c",
+        "ticker": "NFLX",
+        "published_at": "2026-09-14T17:10:02+00:00",
+        "title": "Netflix, Amazon And YouTube Reportedly Form Coalition As Washington Scrutinizes Sports Broadcasting",
+        "url": "https://stocktwits.com/news-articles/markets/equity/netflix-amazon-and-you-tube-reportedly-form-coalition/cZtmBHoRBR6",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "NFLX_a1396a454e51615b",
+        "ticker": "NFLX",
+        "published_at": "2026-09-14T16:41:00+00:00",
+        "title": "Amazon, Netflix, YouTube Form Coalition to Advocate for Consumer Choice in Online Content",
+        "url": "https://www.wsj.com/business/media/amazon-netflix-youtube-form-coalition-to-advocate-for-consumer-choice-in-online-content-37451aaf?siteid=yhoof2&yptr=yahoo",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
       {
         "event_id": "NFLX_6fba991c380f254b",
         "ticker": "NFLX",
@@ -4373,117 +4523,227 @@
     "latest": [
       {
         "ticker": "NFLX",
-        "title": "How Far Could Alphabet Stock Move On You In A Year?",
-        "summary": "Alphabet (GOOGL) stock trades at about $332, and options expiring roughly a year out price a 68% probability range running from roughly $233 to roughly $474. That floor sits just under the stock's 52-week low of $235.96, while the ceiling clears its 52-week high of $402.12. Yet, a range this wide is close to normal for these shares, not a sign of unusual fear.",
-        "published_at": "2026-09-11T19:34:14+00:00",
-        "publisher": "Trefis",
-        "url": "https://www.trefis.com/articles/615032/how-far-could-alphabet-stock-move-on-you-in-a-year/2026-09-11",
+        "title": "S&P 500, Nasdaq, Dow Drop On Chipmaker Weakness, Treasury Yield Pressure — MSFT, NFLX, ORCL, CRWD, RBLX In Focus",
+        "summary": "Anthropic CEO Dario Amodei called for a slowdown of the development of AI capabilities.",
+        "published_at": "2026-09-14T21:53:54+00:00",
+        "publisher": "Stocktwits",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-drop-on-chipmaker-weakness/cZtm0WRRBTI",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "NFLX",
-        "title": "The #1 Insider Signal Every Trader Should Know",
-        "summary": "It's not just about finding an elusive \"cluster buy\"--it's also about determining if the stock is a worthwhile addition to your portfolio. Tracey Ryniec provides a simple method for finding and analyzing the most powerful indicator in legal insider trading.",
-        "published_at": "2026-09-11T18:04:00+00:00",
-        "publisher": "Zacks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/1-insider-signal-every-trader-180400875.html",
+        "title": "Why Netflix Stock Rallied Today",
+        "summary": "The streaming pioneer got a little love from Wall Street.",
+        "published_at": "2026-09-14T21:06:30+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/09/14/why-netflix-stock-rallied-today/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "NFLX",
-        "title": "Stop Wasting Money: How to Find and Cancel Unused Subscriptions in 15 Minutes or Less",
-        "summary": "If you’re like us, you’re likely paying for at least one subscription you’ve forgotten about — and maybe several. A streaming service you signed up for to watch one show or game. A free trial that quietly converted three weeks ago. A meditation app you barely remember. Subscriptions are easy to start and surprisingly hard […] This was originally published on The Penny Hoarder, a personal finance website that empowers millions of readers nationwide to make smart decisions with their money through",
-        "published_at": "2026-09-11T15:57:22+00:00",
-        "publisher": "The Penny Hoarder",
-        "url": "https://finance.yahoo.com/markets/articles/stop-wasting-money-cancel-unused-155722212.html",
+        "title": "Netflix stock jumps as Wall Street sees a new growth engine",
+        "summary": "Evercore says live events and short-form video could give Netflix another way to keep users coming back.",
+        "published_at": "2026-09-14T21:04:25+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/media-advertising/articles/netflix-stock-jumps-wall-street-210425929.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "NFLX",
-        "title": "Netflix Said It Was Different From Facebook. A New Lawsuit Says It Tracked Kids for Ads Anyway.",
-        "summary": "Florida is suing Netflix for billions, accusing the streaming giant of secretly tracking children for advertisers while publicly promising families a safe alternative to social media surveillance. The outcome could unravel the economics powering Netflix's fastest-growing business.",
-        "published_at": "2026-09-11T15:10:59+00:00",
+        "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
+        "summary": "Consumer stocks were mixed late Monday afternoon, with the State Street Consumer Staples Select Sect",
+        "published_at": "2026-09-14T19:50:35+00:00",
+        "publisher": "MT Newswires",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-195035841.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "NFLX",
+        "title": "Netflix Stock Rose 4% While the AI Trade Sold Off on Monday. Its Capital Goes Into Shows, Not Silicon.",
+        "summary": "The streamer put $415 million into property and equipment in the first half of 2026 -- about 1% of what Alphabet spent in the second quarter alone.",
+        "published_at": "2026-09-14T19:47:01+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/09/14/netflix-stock-rose-4-while-the-ai-trade-sold-off-on-monday-its-capital-goes-into-shows-not-silicon/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "NFLX",
+        "title": "Netflix Shares Jump After Evercore Raises Price Target To $110",
+        "summary": "Netflix Stock Rallies As Analyst Raises Target, Points To Stronger Subscriber Trends",
+        "published_at": "2026-09-14T18:17:07+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/media-advertising/articles/netflix-shares-jump-evercore-raises-181707884.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "NFLX",
+        "title": "Sector Update: Consumer Stocks Advance Monday Afternoon",
+        "summary": "Consumer stocks were higher Monday afternoon, with the State Street Consumer Staples Select Sector S",
+        "published_at": "2026-09-14T17:49:58+00:00",
+        "publisher": "MT Newswires",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-monday-174958227.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "NFLX",
+        "title": "Netflix Climbs 4%, Alphabet Ticks Up, Amazon Barely Budges as New Streaming Policy Alliance Launches",
+        "summary": "A new streaming policy coalition just handed Netflix a potential key to unlock live sports rights that have been legally off-limits, and the gap between Netflix's stock surge and its founding partners' shrug tells you exactly who stands to win.",
+        "published_at": "2026-09-14T17:45:52+00:00",
         "publisher": "24/7 Wall St.",
-        "url": "https://247wallst.com/investing/2026/09/11/netflix-said-it-was-different-from-facebook-a-new-lawsuit-says-it-tracked-kids-for-ads-anyway/",
+        "url": "https://247wallst.com/investing/2026/09/14/netflix-climbs-4-alphabet-ticks-up-amazon-barely-budges-as-new-streaming-policy-alliance-launches/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "NFLX",
-        "title": "4 Broadcast Radio & TV Stocks to Watch From a Prospering Industry",
-        "summary": "Radio and television broadcast companies like NFLX, FOXA, ROKU and SIRI benefit from higher content consumption and steady digital viewing despite intense competition for ad revenues.",
-        "published_at": "2026-09-11T14:12:00+00:00",
-        "publisher": "Zacks",
-        "url": "https://finance.yahoo.com/media-advertising/articles/4-broadcast-radio-tv-stocks-141200889.html",
+        "title": "Netflix, Amazon And YouTube Reportedly Form Coalition As Washington Scrutinizes Sports Broadcasting",
+        "summary": "Netflix, Amazon, and YouTube have established a unified policy coalition to safeguard their growing live sports investments amid mounting federal regulatory pressure.",
+        "published_at": "2026-09-14T17:10:02+00:00",
+        "publisher": "Stocktwits",
+        "url": "https://stocktwits.com/news-articles/markets/equity/netflix-amazon-and-you-tube-reportedly-form-coalition/cZtmBHoRBR6",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "NFLX",
-        "title": "Do Options Traders Know Something About Netflix Stock We Don't?",
-        "summary": "Investors need to pay close attention to NFLX stock based on the movements in the options market lately.",
-        "published_at": "2026-09-11T12:48:00+00:00",
-        "publisher": "Zacks",
-        "url": "https://finance.yahoo.com/markets/options/articles/options-traders-know-something-netflix-124800129.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "NFLX",
-        "title": "Is The AI Capex Surge A Threat To Amazon Stock?",
-        "summary": "Amazon.com (AMZN) plans to spend roughly $220 billion of cash on capital in 2026, against $775.7 billion of revenue over the trailing twelve months. The sheer size of that bill introduces notable capital allocation and cash flow pressures that investors must weigh. The rest is who sets the number, and how long the money has to stay out before any of it comes back.",
-        "published_at": "2026-09-10T18:06:44+00:00",
-        "publisher": "Trefis",
-        "url": "https://www.trefis.com/articles/614679/is-the-ai-capex-surge-a-threat-to-amazon-stock/2026-09-10",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "NFLX",
-        "title": "Why Is Netflix Growing Fastest And Falling Furthest?",
-        "summary": "Netflix (NFLX) grew revenue faster over the past twelve months than Amazon, Apple, Comcast, or Disney and earned a wider operating margin than all of them except Apple. Its shares still finished those twelve months down 38.9%, the last of the five. The fall has not made the stock cheap. That is the mismatch worth explaining.",
-        "published_at": "2026-09-10T13:52:23+00:00",
-        "publisher": "Trefis",
-        "url": "https://www.trefis.com/articles/614905/why-is-netflix-growing-fastest-and-falling-furthest/2026-09-10",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "NFLX",
-        "title": "Netflix Now: Welcome To Theatrical Movieland - For Real?",
-        "summary": "Netflix will report box-office revenue for six upcoming theatrical movies, as well as seeing much longer theatrical runs than its typical theatrical releases in the past.",
-        "published_at": "2026-09-10T13:00:00+00:00",
-        "publisher": "MediaPost",
-        "url": "https://www.mediapost.com/publications/article/417756/netflix-now-welcome-to-theatrical-movieland-for.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "NFLX",
-        "title": "Netflix (NFLX) Shares Pressured by Weak Q2 Outlook",
-        "summary": "American Century Investments, an investment management company, released its second-quarter 2026 investor letter for the “American Century Investments Focused Dynamic Growth Fund”. The letter can be downloaded here. U.S. stocks advanced sharply with double-digit quarterly gains largely due to robust earnings, resilient economic data, and momentum in AI-related stocks. However, there was a slight pullback […]",
-        "published_at": "2026-09-10T11:55:59+00:00",
-        "publisher": "Insider Monkey",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-nflx-shares-pressured-weak-115559393.html",
+        "title": "Amazon, Netflix, YouTube Form Coalition to Advocate for Consumer Choice in Online Content",
+        "summary": "The three companies are founding members of a new Streaming Access and Choice Alliance that will advocate for consumer access to online content.",
+        "published_at": "2026-09-14T16:41:00+00:00",
+        "publisher": "The Wall Street Journal",
+        "url": "https://www.wsj.com/business/media/amazon-netflix-youtube-form-coalition-to-advocate-for-consumer-choice-in-online-content-37451aaf?siteid=yhoof2&yptr=yahoo",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       }
     ],
-    "history_count": 152,
+    "history_count": 162,
     "history": [
+      {
+        "ticker": "NFLX",
+        "title": "S&P 500, Nasdaq, Dow Drop On Chipmaker Weakness, Treasury Yield Pressure — MSFT, NFLX, ORCL, CRWD, RBLX In Focus",
+        "summary": "Anthropic CEO Dario Amodei called for a slowdown of the development of AI capabilities.",
+        "published_at": "2026-09-14T21:53:54+00:00",
+        "publisher": "Stocktwits",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-drop-on-chipmaker-weakness/cZtm0WRRBTI",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "NFLX",
+        "title": "Why Netflix Stock Rallied Today",
+        "summary": "The streaming pioneer got a little love from Wall Street.",
+        "published_at": "2026-09-14T21:06:30+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/09/14/why-netflix-stock-rallied-today/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "NFLX",
+        "title": "Netflix stock jumps as Wall Street sees a new growth engine",
+        "summary": "Evercore says live events and short-form video could give Netflix another way to keep users coming back.",
+        "published_at": "2026-09-14T21:04:25+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/media-advertising/articles/netflix-stock-jumps-wall-street-210425929.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "NFLX",
+        "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
+        "summary": "Consumer stocks were mixed late Monday afternoon, with the State Street Consumer Staples Select Sect",
+        "published_at": "2026-09-14T19:50:35+00:00",
+        "publisher": "MT Newswires",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-195035841.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "NFLX",
+        "title": "Netflix Stock Rose 4% While the AI Trade Sold Off on Monday. Its Capital Goes Into Shows, Not Silicon.",
+        "summary": "The streamer put $415 million into property and equipment in the first half of 2026 -- about 1% of what Alphabet spent in the second quarter alone.",
+        "published_at": "2026-09-14T19:47:01+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/09/14/netflix-stock-rose-4-while-the-ai-trade-sold-off-on-monday-its-capital-goes-into-shows-not-silicon/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "NFLX",
+        "title": "Netflix Shares Jump After Evercore Raises Price Target To $110",
+        "summary": "Netflix Stock Rallies As Analyst Raises Target, Points To Stronger Subscriber Trends",
+        "published_at": "2026-09-14T18:17:07+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/media-advertising/articles/netflix-shares-jump-evercore-raises-181707884.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "NFLX",
+        "title": "Sector Update: Consumer Stocks Advance Monday Afternoon",
+        "summary": "Consumer stocks were higher Monday afternoon, with the State Street Consumer Staples Select Sector S",
+        "published_at": "2026-09-14T17:49:58+00:00",
+        "publisher": "MT Newswires",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-advance-monday-174958227.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "NFLX",
+        "title": "Netflix Climbs 4%, Alphabet Ticks Up, Amazon Barely Budges as New Streaming Policy Alliance Launches",
+        "summary": "A new streaming policy coalition just handed Netflix a potential key to unlock live sports rights that have been legally off-limits, and the gap between Netflix's stock surge and its founding partners' shrug tells you exactly who stands to win.",
+        "published_at": "2026-09-14T17:45:52+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/09/14/netflix-climbs-4-alphabet-ticks-up-amazon-barely-budges-as-new-streaming-policy-alliance-launches/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "NFLX",
+        "title": "Netflix, Amazon And YouTube Reportedly Form Coalition As Washington Scrutinizes Sports Broadcasting",
+        "summary": "Netflix, Amazon, and YouTube have established a unified policy coalition to safeguard their growing live sports investments amid mounting federal regulatory pressure.",
+        "published_at": "2026-09-14T17:10:02+00:00",
+        "publisher": "Stocktwits",
+        "url": "https://stocktwits.com/news-articles/markets/equity/netflix-amazon-and-you-tube-reportedly-form-coalition/cZtmBHoRBR6",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "NFLX",
+        "title": "Amazon, Netflix, YouTube Form Coalition to Advocate for Consumer Choice in Online Content",
+        "summary": "The three companies are founding members of a new Streaming Access and Choice Alliance that will advocate for consumer access to online content.",
+        "published_at": "2026-09-14T16:41:00+00:00",
+        "publisher": "The Wall Street Journal",
+        "url": "https://www.wsj.com/business/media/amazon-netflix-youtube-form-coalition-to-advocate-for-consumer-choice-in-online-content-37451aaf?siteid=yhoof2&yptr=yahoo",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
       {
         "ticker": "NFLX",
         "title": "How Far Could Alphabet Stock Move On You In A Year?",
@@ -6159,12 +6419,12 @@
     ]
   },
   "Confidence": {
-    "scoring": "High",
-    "discovery": "High"
+    "scoring": "Medium",
+    "discovery": "Medium"
   },
   "SignalStrength": {
     "scoring": "Moderate",
     "discovery": "Moderate"
   },
-  "Timestamp": "2026-09-11T19:43:40.831937-04:00"
+  "Timestamp": "2026-09-14T20:07:09.962744-04:00"
 }

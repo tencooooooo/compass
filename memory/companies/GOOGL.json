@@ -7,20 +7,20 @@
     "country": "United States",
     "currency": "USD",
     "exchange": "NMS",
-    "market_cap": 4139833098240,
-    "enterprise_value": 3964038021120,
+    "market_cap": 4273017192448,
+    "enterprise_value": 4169379610624,
     "shares_outstanding": 5867155790,
     "beta": 1.225,
-    "trailing_pe": 16.992971,
-    "forward_pe": 22.758093,
-    "peg_ratio": 1.22,
-    "price_to_book": 6.6508174,
-    "eps": 19.92,
+    "trailing_pe": 17.522066,
+    "forward_pe": 23.490252,
+    "peg_ratio": 1.21,
+    "price_to_book": 6.8647833,
+    "eps": 19.94,
     "forward_eps": 14.87383,
     "dividend_yield": 0.26,
     "52_week_high": 408.61,
     "52_week_low": 235.84,
-    "average_volume": 29850379,
+    "average_volume": 29850733,
     "employees": 198933,
     "website": "https://abc.xyz",
     "business_summary": "Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services segment provides products and services, including ads, Android, Chrome, devices, Gmail, Google Drive, Google Maps, Google Photos, Google Play, Search, and YouTube. It is also involved in the sale of apps and in-app purchases and digital content in Google Play and YouTube; and devices, as well as the provision of YouTube consumer subscription services, such as YouTube TV, YouTube Music and Premium, NFL Sunday Ticket, and Google One. The Google Cloud segment offers consumption-based fees and subscriptions for AI solutions, including AI infrastructure, Vertex AI platform, and Gemini enterprise. It also provides cybersecurity, and data and analytics services; Google Workspace that include cloud-based communication and collaboration tools for enterprises, such as Calendar, Gmail, Docs, Drive, and Meet; and other enterprise services. The Other Bets segment sells transportation and internet services. Alphabet Inc. was incorporated in 1998 and is headquartered in Mountain View, California."
@@ -1185,29 +1185,54 @@
         "scoring": "Moderate",
         "discovery": "Strong"
       }
+    },
+    {
+      "date": "2026-09-14",
+      "timestamp": "2026-09-14T20:07:09.962744-04:00",
+      "score": 55,
+      "discovery_score": 59,
+      "discovery_status": "Not Selected",
+      "validation_results": {
+        "Excellent": 7,
+        "Good": 8,
+        "Neutral": 13,
+        "Poor": 51,
+        "Pending": 181
+      },
+      "event_count": 10,
+      "news_count": 10,
+      "confidence": {
+        "scoring": "Medium",
+        "discovery": "Medium"
+      },
+      "signal_strength": {
+        "scoring": "Moderate",
+        "discovery": "Moderate"
+      }
     }
   ],
   "Scores": {
     "ticker": "GOOGL",
     "company_name": "Alphabet Inc.",
-    "total_score": 64,
+    "total_score": 55,
     "max_score": 100,
     "confidence": {
       "level": "Medium",
-      "completeness_score": 95.0,
+      "completeness_score": 90.0,
       "reasons": [
         "利用可能な主要データ領域は5領域中 5 領域です。",
-        "欠損または計算不可の項目数は 1 件です。",
+        "欠損または計算不可の項目数は 2 件です。",
         "主要データは一定程度ありますが、欠損や未取得項目が残っています。",
+        "イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。",
         "Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。"
       ]
     },
     "signal_strength": {
       "level": "Moderate",
-      "signal_rate": 64.0,
+      "signal_rate": 55.0,
       "evaluated_max_score": 100,
       "reasons": [
-        "データが確認できた 100 点満点のうち 64 点を獲得し、シグナル充足率は 64.0% です。",
+        "データが確認できた 100 点満点のうち 55 点を獲得し、シグナル充足率は 55.0% です。",
         "シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。"
       ]
     },
@@ -1294,10 +1319,10 @@
         ],
         "missing_data": [],
         "metrics": {
-          "trailing_pe": 16.992971,
-          "forward_pe": 22.758093,
-          "peg_ratio": 1.22,
-          "price_to_book": 6.6508174,
+          "trailing_pe": 17.522066,
+          "forward_pe": 23.490252,
+          "peg_ratio": 1.21,
+          "price_to_book": 6.8647833,
           "sector_peer_count": 10,
           "trailing_pe_percentile": 44.44,
           "trailing_pe_peer_count": 10,
@@ -1317,7 +1342,7 @@
           "3M の対SPY超過リターンは -9.19pt と、市場を小幅に下回っています。",
           "6M の対SPY超過リターンは -3.71pt と、市場を小幅に下回っています。",
           "1Y の対SPY超過リターンが +23.42pt と、市場を大きく上回っています。",
-          "直近出来高が30日平均の 0.96 倍で、通常水準の流動性があります。"
+          "直近出来高が30日平均の 0.97 倍で、通常水準の流動性があります。"
         ],
         "evidence": [
           "Prices",
@@ -1328,7 +1353,7 @@
           "1M": -1.4037473084176482,
           "3M": -5.325320957647555,
           "6M": 11.65209541550664,
-          "1Y": 41.89920713653239,
+          "1Y": 41.8991980599719,
           "benchmark": "SPY",
           "benchmark_returns": {
             "1M": -1.06,
@@ -1342,31 +1367,33 @@
             "6M": -3.71,
             "1Y": 23.42
           },
-          "latest_volume": 24283830.0,
-          "average_volume_30d": 25391331.0
+          "latest_volume": 24677500.0,
+          "average_volume_30d": 25404453.333333332
         }
       },
       "News": {
-        "score": 14,
+        "score": 5,
         "max_score": 20,
         "reasons": [
           "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-          "ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 1 件(純比率 +0.33)で、センチメントは 5.3 点です。",
-          "イベント後の平均株価反応が 1.77% とプラスです。"
+          "ニュース見出し・要約の簡易分類では、好材料 0 件、悪材料 1 件(純比率 -1.00)で、センチメントは 0.0 点です。",
+          "イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。"
         ],
         "evidence": [
           "News",
           "Events",
           "Knowledge"
         ],
-        "missing_data": [],
+        "missing_data": [
+          "event_price_reaction"
+        ],
         "metrics": {
           "news_count": 10,
-          "positive_count": 2,
+          "positive_count": 0,
           "negative_count": 1,
-          "sentiment_net_ratio": 0.33,
+          "sentiment_net_ratio": -1.0,
           "event_count": 10,
-          "events_with_price_reaction": 4
+          "events_with_price_reaction": 0
         }
       }
     },
@@ -1384,13 +1411,13 @@
     "company": "Alphabet Inc.",
     "sector": "Communication Services",
     "industry": "Internet Content & Information",
-    "discovery_score": 72,
+    "discovery_score": 59,
     "max_score": 100,
-    "status": "Watch Candidate",
+    "status": "Not Selected",
     "discovery_reasons": [
       "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
       "Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。",
-      "Newsスコアが 14/20 で、材料の量と市場関心を候補評価に反映しています。",
+      "Newsスコアが 5/20 で、材料の量と市場関心を候補評価に反映しています。",
       "売上が取得でき、事業規模の確認ができます。",
       "EPSがプラスで、利益を伴う成長候補として確認できます。",
       "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -1407,6 +1434,7 @@
     "watch_points": [
       "バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。",
       "注意材料になり得るニュース表現が 1 件あります。",
+      "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
       "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
       "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
       "Communication Services セクター全体の需要変化と競争環境を確認する必要があります。",
@@ -1414,8 +1442,8 @@
       "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
     ],
     "confidence": "Medium",
-    "signal_strength": "Strong",
-    "signal_rate": 71.8,
+    "signal_strength": "Moderate",
+    "signal_rate": 61.79,
     "evidence": [
       "Company",
       "Events",
@@ -1426,22 +1454,24 @@
       "Prices",
       "Scoring"
     ],
-    "missing_data": [],
+    "missing_data": [
+      "event_price_reaction"
+    ],
     "metrics": {
-      "scoring_total": 64.0,
-      "signal_earned_points": 71.8,
-      "signal_max_points": 100.0,
+      "scoring_total": 55.0,
+      "signal_earned_points": 58.7,
+      "signal_max_points": 95.0,
       "weak_signals": [],
       "scoring_signal_strength": "Moderate",
       "growth_score": 20.0,
       "financial_health_score": 14.0,
       "valuation_score": 6.0,
-      "news_score": 14.0,
+      "news_score": 5.0,
       "momentum": {
         "1m": -1.4037473084176482,
         "3m": -5.325320957647555,
         "6m": 11.65209541550664,
-        "1y": 41.89920713653239
+        "1y": 41.8991980599719
       },
       "benchmark": "SPY",
       "excess_momentum": {
@@ -1450,17 +1480,17 @@
         "6m": -3.71,
         "1y": 23.42
       },
-      "positive_news": 2,
+      "positive_news": 0,
       "watch_news": 1,
       "event_count": 10,
-      "events_with_reaction": 4,
-      "sector_average_score": 60.166666666666664
+      "events_with_reaction": 0,
+      "sector_average_score": 58.833333333333336
     }
   },
   "Validation": [
     {
       "discovery_date": "2026-07-01",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -1507,7 +1537,7 @@
     },
     {
       "discovery_date": "2026-07-01",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -1554,7 +1584,7 @@
     },
     {
       "discovery_date": "2026-07-01",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -1601,7 +1631,7 @@
     },
     {
       "discovery_date": "2026-07-01",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -1648,7 +1678,7 @@
     },
     {
       "discovery_date": "2026-07-01",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -1695,7 +1725,7 @@
     },
     {
       "discovery_date": "2026-07-02",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -1742,7 +1772,7 @@
     },
     {
       "discovery_date": "2026-07-02",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -1789,7 +1819,7 @@
     },
     {
       "discovery_date": "2026-07-02",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -1836,7 +1866,7 @@
     },
     {
       "discovery_date": "2026-07-02",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -1883,7 +1913,7 @@
     },
     {
       "discovery_date": "2026-07-02",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -1930,7 +1960,7 @@
     },
     {
       "discovery_date": "2026-07-03",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -1977,7 +2007,7 @@
     },
     {
       "discovery_date": "2026-07-03",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -2024,7 +2054,7 @@
     },
     {
       "discovery_date": "2026-07-03",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -2071,7 +2101,7 @@
     },
     {
       "discovery_date": "2026-07-03",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -2118,7 +2148,7 @@
     },
     {
       "discovery_date": "2026-07-03",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -2165,7 +2195,7 @@
     },
     {
       "discovery_date": "2026-07-04",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -2212,7 +2242,7 @@
     },
     {
       "discovery_date": "2026-07-04",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -2259,7 +2289,7 @@
     },
     {
       "discovery_date": "2026-07-04",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -2306,7 +2336,7 @@
     },
     {
       "discovery_date": "2026-07-04",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -2353,7 +2383,7 @@
     },
     {
       "discovery_date": "2026-07-04",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -2400,7 +2430,7 @@
     },
     {
       "discovery_date": "2026-07-05",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -2447,7 +2477,7 @@
     },
     {
       "discovery_date": "2026-07-05",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -2494,7 +2524,7 @@
     },
     {
       "discovery_date": "2026-07-05",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -2541,7 +2571,7 @@
     },
     {
       "discovery_date": "2026-07-05",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -2588,7 +2618,7 @@
     },
     {
       "discovery_date": "2026-07-05",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -2635,7 +2665,7 @@
     },
     {
       "discovery_date": "2026-07-06",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -2682,7 +2712,7 @@
     },
     {
       "discovery_date": "2026-07-06",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -2729,7 +2759,7 @@
     },
     {
       "discovery_date": "2026-07-06",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -2776,7 +2806,7 @@
     },
     {
       "discovery_date": "2026-07-06",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -2823,7 +2853,7 @@
     },
     {
       "discovery_date": "2026-07-06",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -2870,7 +2900,7 @@
     },
     {
       "discovery_date": "2026-07-07",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -2917,7 +2947,7 @@
     },
     {
       "discovery_date": "2026-07-07",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -2964,7 +2994,7 @@
     },
     {
       "discovery_date": "2026-07-07",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -3011,7 +3041,7 @@
     },
     {
       "discovery_date": "2026-07-07",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -3058,7 +3088,7 @@
     },
     {
       "discovery_date": "2026-07-07",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -3105,7 +3135,7 @@
     },
     {
       "discovery_date": "2026-07-08",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -3152,7 +3182,7 @@
     },
     {
       "discovery_date": "2026-07-08",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -3199,7 +3229,7 @@
     },
     {
       "discovery_date": "2026-07-08",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -3246,7 +3276,7 @@
     },
     {
       "discovery_date": "2026-07-08",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -3293,7 +3323,7 @@
     },
     {
       "discovery_date": "2026-07-08",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -3340,7 +3370,7 @@
     },
     {
       "discovery_date": "2026-07-09",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -3387,7 +3417,7 @@
     },
     {
       "discovery_date": "2026-07-09",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -3434,7 +3464,7 @@
     },
     {
       "discovery_date": "2026-07-09",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -3481,7 +3511,7 @@
     },
     {
       "discovery_date": "2026-07-09",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -3528,7 +3558,7 @@
     },
     {
       "discovery_date": "2026-07-09",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -3575,7 +3605,7 @@
     },
     {
       "discovery_date": "2026-07-10",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -3622,7 +3652,7 @@
     },
     {
       "discovery_date": "2026-07-10",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -3669,7 +3699,7 @@
     },
     {
       "discovery_date": "2026-07-10",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -3716,7 +3746,7 @@
     },
     {
       "discovery_date": "2026-07-10",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -3763,7 +3793,7 @@
     },
     {
       "discovery_date": "2026-07-10",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -3810,7 +3840,7 @@
     },
     {
       "discovery_date": "2026-07-13",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -3869,7 +3899,7 @@
     },
     {
       "discovery_date": "2026-07-13",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -3928,7 +3958,7 @@
     },
     {
       "discovery_date": "2026-07-13",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -3987,7 +4017,7 @@
     },
     {
       "discovery_date": "2026-07-13",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -4046,7 +4076,7 @@
     },
     {
       "discovery_date": "2026-07-13",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -4105,7 +4135,7 @@
     },
     {
       "discovery_date": "2026-07-14",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -4164,7 +4194,7 @@
     },
     {
       "discovery_date": "2026-07-14",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -4223,7 +4253,7 @@
     },
     {
       "discovery_date": "2026-07-14",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -4282,7 +4312,7 @@
     },
     {
       "discovery_date": "2026-07-14",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -4341,7 +4371,7 @@
     },
     {
       "discovery_date": "2026-07-14",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -4400,7 +4430,7 @@
     },
     {
       "discovery_date": "2026-07-15",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -4459,7 +4489,7 @@
     },
     {
       "discovery_date": "2026-07-15",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -4518,7 +4548,7 @@
     },
     {
       "discovery_date": "2026-07-15",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -4577,7 +4607,7 @@
     },
     {
       "discovery_date": "2026-07-15",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -4636,7 +4666,7 @@
     },
     {
       "discovery_date": "2026-07-15",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -4695,7 +4725,7 @@
     },
     {
       "discovery_date": "2026-07-16",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -4754,7 +4784,7 @@
     },
     {
       "discovery_date": "2026-07-16",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -4813,7 +4843,7 @@
     },
     {
       "discovery_date": "2026-07-16",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -4872,7 +4902,7 @@
     },
     {
       "discovery_date": "2026-07-16",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -4931,7 +4961,7 @@
     },
     {
       "discovery_date": "2026-07-16",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -4990,7 +5020,7 @@
     },
     {
       "discovery_date": "2026-07-17",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -5049,7 +5079,7 @@
     },
     {
       "discovery_date": "2026-07-17",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -5108,7 +5138,7 @@
     },
     {
       "discovery_date": "2026-07-17",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -5167,7 +5197,7 @@
     },
     {
       "discovery_date": "2026-07-17",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -5226,7 +5256,7 @@
     },
     {
       "discovery_date": "2026-07-17",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -5285,7 +5315,7 @@
     },
     {
       "discovery_date": "2026-07-20",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -5345,7 +5375,7 @@
     },
     {
       "discovery_date": "2026-07-20",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -5405,7 +5435,7 @@
     },
     {
       "discovery_date": "2026-07-20",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -5465,7 +5495,7 @@
     },
     {
       "discovery_date": "2026-07-20",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -5525,7 +5555,7 @@
     },
     {
       "discovery_date": "2026-07-20",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -5585,7 +5615,7 @@
     },
     {
       "discovery_date": "2026-07-21",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -5645,7 +5675,7 @@
     },
     {
       "discovery_date": "2026-07-21",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -5705,7 +5735,7 @@
     },
     {
       "discovery_date": "2026-07-21",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -5765,7 +5795,7 @@
     },
     {
       "discovery_date": "2026-07-21",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -5825,7 +5855,7 @@
     },
     {
       "discovery_date": "2026-07-21",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -5885,7 +5915,7 @@
     },
     {
       "discovery_date": "2026-07-24",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -5945,7 +5975,7 @@
     },
     {
       "discovery_date": "2026-07-24",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -6005,7 +6035,7 @@
     },
     {
       "discovery_date": "2026-07-24",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -6065,7 +6095,7 @@
     },
     {
       "discovery_date": "2026-07-24",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -6125,7 +6155,7 @@
     },
     {
       "discovery_date": "2026-07-24",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -6185,7 +6215,7 @@
     },
     {
       "discovery_date": "2026-07-27",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -6245,7 +6275,7 @@
     },
     {
       "discovery_date": "2026-07-27",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -6305,7 +6335,7 @@
     },
     {
       "discovery_date": "2026-07-27",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -6365,7 +6395,7 @@
     },
     {
       "discovery_date": "2026-07-27",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -6425,7 +6455,7 @@
     },
     {
       "discovery_date": "2026-07-27",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -6485,7 +6515,7 @@
     },
     {
       "discovery_date": "2026-07-28",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -6545,7 +6575,7 @@
     },
     {
       "discovery_date": "2026-07-28",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -6605,7 +6635,7 @@
     },
     {
       "discovery_date": "2026-07-28",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -6665,7 +6695,7 @@
     },
     {
       "discovery_date": "2026-07-28",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -6725,7 +6755,7 @@
     },
     {
       "discovery_date": "2026-07-28",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -6785,7 +6815,7 @@
     },
     {
       "discovery_date": "2026-07-29",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -6846,7 +6876,7 @@
     },
     {
       "discovery_date": "2026-07-29",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -6907,7 +6937,7 @@
     },
     {
       "discovery_date": "2026-07-29",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -6968,7 +6998,7 @@
     },
     {
       "discovery_date": "2026-07-29",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -7029,7 +7059,7 @@
     },
     {
       "discovery_date": "2026-07-29",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -7090,7 +7120,7 @@
     },
     {
       "discovery_date": "2026-07-30",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -7150,7 +7180,7 @@
     },
     {
       "discovery_date": "2026-07-30",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -7210,7 +7240,7 @@
     },
     {
       "discovery_date": "2026-07-30",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -7270,7 +7300,7 @@
     },
     {
       "discovery_date": "2026-07-30",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -7330,7 +7360,7 @@
     },
     {
       "discovery_date": "2026-07-30",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -7390,7 +7420,7 @@
     },
     {
       "discovery_date": "2026-07-31",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -7451,7 +7481,7 @@
     },
     {
       "discovery_date": "2026-07-31",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -7512,7 +7542,7 @@
     },
     {
       "discovery_date": "2026-07-31",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -7573,7 +7603,7 @@
     },
     {
       "discovery_date": "2026-07-31",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -7634,7 +7664,7 @@
     },
     {
       "discovery_date": "2026-07-31",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -7695,7 +7725,7 @@
     },
     {
       "discovery_date": "2026-08-03",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -7754,7 +7784,7 @@
     },
     {
       "discovery_date": "2026-08-03",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -7813,7 +7843,7 @@
     },
     {
       "discovery_date": "2026-08-03",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -7872,7 +7902,7 @@
     },
     {
       "discovery_date": "2026-08-03",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -7931,7 +7961,7 @@
     },
     {
       "discovery_date": "2026-08-03",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -7990,7 +8020,7 @@
     },
     {
       "discovery_date": "2026-08-04",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -8050,7 +8080,7 @@
     },
     {
       "discovery_date": "2026-08-04",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -8110,7 +8140,7 @@
     },
     {
       "discovery_date": "2026-08-04",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -8170,7 +8200,7 @@
     },
     {
       "discovery_date": "2026-08-04",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -8230,7 +8260,7 @@
     },
     {
       "discovery_date": "2026-08-04",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -8290,7 +8320,7 @@
     },
     {
       "discovery_date": "2026-08-05",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -8351,7 +8381,7 @@
     },
     {
       "discovery_date": "2026-08-05",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -8412,7 +8442,7 @@
     },
     {
       "discovery_date": "2026-08-05",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -8473,7 +8503,7 @@
     },
     {
       "discovery_date": "2026-08-05",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -8534,7 +8564,7 @@
     },
     {
       "discovery_date": "2026-08-05",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -8595,7 +8625,7 @@
     },
     {
       "discovery_date": "2026-08-06",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -8655,7 +8685,7 @@
     },
     {
       "discovery_date": "2026-08-06",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -8715,7 +8745,7 @@
     },
     {
       "discovery_date": "2026-08-06",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -8775,7 +8805,7 @@
     },
     {
       "discovery_date": "2026-08-06",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -8835,7 +8865,7 @@
     },
     {
       "discovery_date": "2026-08-06",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -8895,7 +8925,7 @@
     },
     {
       "discovery_date": "2026-08-07",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -8955,7 +8985,7 @@
     },
     {
       "discovery_date": "2026-08-07",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -9015,7 +9045,7 @@
     },
     {
       "discovery_date": "2026-08-07",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -9075,7 +9105,7 @@
     },
     {
       "discovery_date": "2026-08-07",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -9135,7 +9165,7 @@
     },
     {
       "discovery_date": "2026-08-07",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -9195,7 +9225,7 @@
     },
     {
       "discovery_date": "2026-08-10",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -9256,7 +9286,7 @@
     },
     {
       "discovery_date": "2026-08-10",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -9317,7 +9347,7 @@
     },
     {
       "discovery_date": "2026-08-10",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -9378,7 +9408,7 @@
     },
     {
       "discovery_date": "2026-08-10",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -9439,7 +9469,7 @@
     },
     {
       "discovery_date": "2026-08-10",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -9500,7 +9530,7 @@
     },
     {
       "discovery_date": "2026-08-11",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -9561,7 +9591,7 @@
     },
     {
       "discovery_date": "2026-08-11",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -9622,7 +9652,7 @@
     },
     {
       "discovery_date": "2026-08-11",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -9683,7 +9713,7 @@
     },
     {
       "discovery_date": "2026-08-11",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -9744,7 +9774,7 @@
     },
     {
       "discovery_date": "2026-08-11",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -9805,7 +9835,7 @@
     },
     {
       "discovery_date": "2026-08-12",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -9866,7 +9896,7 @@
     },
     {
       "discovery_date": "2026-08-12",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -9927,7 +9957,7 @@
     },
     {
       "discovery_date": "2026-08-12",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -9988,7 +10018,7 @@
     },
     {
       "discovery_date": "2026-08-12",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -10049,7 +10079,7 @@
     },
     {
       "discovery_date": "2026-08-12",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -10110,7 +10140,7 @@
     },
     {
       "discovery_date": "2026-08-13",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -10170,7 +10200,7 @@
     },
     {
       "discovery_date": "2026-08-13",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -10230,7 +10260,7 @@
     },
     {
       "discovery_date": "2026-08-13",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -10290,7 +10320,7 @@
     },
     {
       "discovery_date": "2026-08-13",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -10350,7 +10380,7 @@
     },
     {
       "discovery_date": "2026-08-13",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -10410,7 +10440,7 @@
     },
     {
       "discovery_date": "2026-08-14",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -10471,7 +10501,7 @@
     },
     {
       "discovery_date": "2026-08-14",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -10532,7 +10562,7 @@
     },
     {
       "discovery_date": "2026-08-14",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -10593,7 +10623,7 @@
     },
     {
       "discovery_date": "2026-08-14",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -10654,7 +10684,7 @@
     },
     {
       "discovery_date": "2026-08-14",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -10715,7 +10745,7 @@
     },
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -10775,7 +10805,7 @@
     },
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -10835,7 +10865,7 @@
     },
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -10895,7 +10925,7 @@
     },
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -10955,7 +10985,7 @@
     },
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -11015,7 +11045,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -11075,7 +11105,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -11135,7 +11165,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -11195,7 +11225,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -11255,7 +11285,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -11315,7 +11345,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -11375,7 +11405,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -11435,7 +11465,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -11495,7 +11525,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -11555,7 +11585,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -11615,7 +11645,7 @@
     },
     {
       "discovery_date": "2026-08-20",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -11676,7 +11706,7 @@
     },
     {
       "discovery_date": "2026-08-20",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -11737,7 +11767,7 @@
     },
     {
       "discovery_date": "2026-08-20",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -11798,7 +11828,7 @@
     },
     {
       "discovery_date": "2026-08-20",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -11859,7 +11889,7 @@
     },
     {
       "discovery_date": "2026-08-20",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -11920,7 +11950,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -11980,7 +12010,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -12040,7 +12070,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -12100,7 +12130,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -12160,7 +12190,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -12220,7 +12250,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -12279,7 +12309,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -12338,7 +12368,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -12397,7 +12427,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -12456,7 +12486,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -12515,7 +12545,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -12575,7 +12605,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -12635,7 +12665,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -12695,7 +12725,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -12755,7 +12785,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -12815,7 +12845,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -12875,7 +12905,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -12935,7 +12965,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -12995,7 +13025,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -13055,7 +13085,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -13115,7 +13145,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -13174,7 +13204,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -13233,7 +13263,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -13292,7 +13322,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -13351,7 +13381,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -13410,7 +13440,7 @@
     },
     {
       "discovery_date": "2026-08-31",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -13470,7 +13500,7 @@
     },
     {
       "discovery_date": "2026-08-31",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -13530,7 +13560,7 @@
     },
     {
       "discovery_date": "2026-08-31",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -13590,7 +13620,7 @@
     },
     {
       "discovery_date": "2026-08-31",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -13650,7 +13680,7 @@
     },
     {
       "discovery_date": "2026-08-31",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -13710,7 +13740,7 @@
     },
     {
       "discovery_date": "2026-09-01",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -13769,7 +13799,7 @@
     },
     {
       "discovery_date": "2026-09-01",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -13828,7 +13858,7 @@
     },
     {
       "discovery_date": "2026-09-01",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -13887,7 +13917,7 @@
     },
     {
       "discovery_date": "2026-09-01",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -13946,7 +13976,7 @@
     },
     {
       "discovery_date": "2026-09-01",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -14005,7 +14035,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -14066,7 +14096,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -14127,7 +14157,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -14188,7 +14218,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -14249,7 +14279,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -14310,7 +14340,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -14370,7 +14400,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -14430,7 +14460,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -14490,7 +14520,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -14550,7 +14580,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -14610,7 +14640,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -14671,7 +14701,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -14732,7 +14762,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -14793,7 +14823,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -14854,7 +14884,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -14915,7 +14945,7 @@
     },
     {
       "discovery_date": "2026-09-07",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -14976,7 +15006,7 @@
     },
     {
       "discovery_date": "2026-09-07",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -15037,7 +15067,7 @@
     },
     {
       "discovery_date": "2026-09-07",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -15098,7 +15128,7 @@
     },
     {
       "discovery_date": "2026-09-07",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -15159,7 +15189,7 @@
     },
     {
       "discovery_date": "2026-09-07",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -15220,7 +15250,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -15281,7 +15311,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -15342,7 +15372,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -15403,7 +15433,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -15464,7 +15494,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -15525,7 +15555,7 @@
     },
     {
       "discovery_date": "2026-09-09",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -15585,7 +15615,7 @@
     },
     {
       "discovery_date": "2026-09-09",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -15645,7 +15675,7 @@
     },
     {
       "discovery_date": "2026-09-09",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -15705,7 +15735,7 @@
     },
     {
       "discovery_date": "2026-09-09",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -15765,7 +15795,7 @@
     },
     {
       "discovery_date": "2026-09-09",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -15825,7 +15855,7 @@
     },
     {
       "discovery_date": "2026-09-10",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -15884,7 +15914,7 @@
     },
     {
       "discovery_date": "2026-09-10",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -15943,7 +15973,7 @@
     },
     {
       "discovery_date": "2026-09-10",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -16002,7 +16032,7 @@
     },
     {
       "discovery_date": "2026-09-10",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -16061,7 +16091,7 @@
     },
     {
       "discovery_date": "2026-09-10",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -16120,7 +16150,7 @@
     },
     {
       "discovery_date": "2026-09-11",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -16180,7 +16210,7 @@
     },
     {
       "discovery_date": "2026-09-11",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1w",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -16240,7 +16270,7 @@
     },
     {
       "discovery_date": "2026-09-11",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "1y",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -16300,7 +16330,7 @@
     },
     {
       "discovery_date": "2026-09-11",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "3m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -16360,7 +16390,7 @@
     },
     {
       "discovery_date": "2026-09-11",
-      "validation_date": "2026-09-11",
+      "validation_date": "2026-09-14",
       "period": "6m",
       "ticker": "GOOGL",
       "company": "Alphabet Inc.",
@@ -16423,11 +16453,11 @@
     "count": 10,
     "latest": [
       {
-        "event_id": "GOOGL_f513412c539d72af",
+        "event_id": "GOOGL_316d0ba66a0c1cd0",
         "ticker": "GOOGL",
-        "published_at": "2026-09-11T23:20:00+00:00",
-        "title": "Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm Buying Now.",
-        "url": "https://www.fool.com/investing/2026/09/11/apple-microsoft-and-nvidia-top-the-list-of-largest/",
+        "published_at": "2026-09-14T22:16:01+00:00",
+        "title": "'We owe it to humanity to try': Anthropic's CEO Just Called For Global AI Slowdown. Elon Musk, Sam Altman, and Google’s AI Chief Agree.",
+        "url": "https://www.fool.com/investing/2026/09/14/we-owe-it-to-humanity-to-try-anthropics-ceo-just-called-for-global-ai-slowdown-elon-musk-sam-altman-and-googles-ai-chief-agree/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -16435,11 +16465,11 @@
         "volume": null
       },
       {
-        "event_id": "GOOGL_1ecf0f90536fcb85",
+        "event_id": "GOOGL_c9769336762d6cb2",
         "ticker": "GOOGL",
-        "published_at": "2026-09-11T23:12:24+00:00",
-        "title": "Google’s $15 Billion Finland AI Build Is Good News for Nvidia, With One Important Catch",
-        "url": "https://finance.yahoo.com/technology/ai/articles/google-15-billion-finland-ai-231224831.html",
+        "published_at": "2026-09-14T21:29:46+00:00",
+        "title": "Big Tech Issued About $220 Billion of Bonds. Alphabet and Meta Show How AI Is Warping the Credit Market",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/big-tech-issued-220-billion-212946047.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -16447,11 +16477,11 @@
         "volume": null
       },
       {
-        "event_id": "GOOGL_64636447ba09f7a9",
+        "event_id": "GOOGL_f914bb9fe6d58b21",
         "ticker": "GOOGL",
-        "published_at": "2026-09-11T21:47:42+00:00",
-        "title": "What Are You Really Paying For Reddit's Ad Growth?",
-        "url": "https://www.trefis.com/articles/615037/what-are-you-really-paying-for-reddits-ad-growth/2026-09-11",
+        "published_at": "2026-09-14T21:04:54+00:00",
+        "title": "Maryland Seeks To Reinstate Digital Ad Tax",
+        "url": "https://www.mediapost.com/publications/article/417948/maryland-seeks-to-reinstate-digital-ad-tax.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -16459,11 +16489,11 @@
         "volume": null
       },
       {
-        "event_id": "GOOGL_1513fc28553dcf61",
+        "event_id": "GOOGL_85d6f37c3aad8c4c",
         "ticker": "GOOGL",
-        "published_at": "2026-09-11T21:45:02+00:00",
-        "title": "Alphabet Inc. (GOOG) Outperforms Broader Market: What You Need to Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-inc-goog-outperforms-broader-214502479.html",
+        "published_at": "2026-09-14T20:36:26+00:00",
+        "title": "Stock Market Today: Dow Falls, Cyber Plays Soar Amid AI Fears; Bessent Makes This Move On Iran (Live Coverage)",
+        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-nvidia-nvda-stock-ai-warning/?src=A00220&yptr=yahoo",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -16471,11 +16501,11 @@
         "volume": null
       },
       {
-        "event_id": "GOOGL_638d144851696a9b",
+        "event_id": "GOOGL_7214c31ac58ff92d",
         "ticker": "GOOGL",
-        "published_at": "2026-09-11T21:45:02+00:00",
-        "title": "Alphabet (GOOGL) Beats Stock Market Upswing: What Investors Need to Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-googl-beats-stock-market-214502350.html",
+        "published_at": "2026-09-14T20:25:00+00:00",
+        "title": "Oracle, Corning, Alphabet, GE Vernova, CrowdStrike, SpaceX, and More Stocks That Explain Today’s Market",
+        "url": "https://www.barrons.com/articles/stock-movers-259d1f80?siteid=yhoof2&yptr=yahoo",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -16483,11 +16513,11 @@
         "volume": null
       },
       {
-        "event_id": "GOOGL_6e5ea0fc3af6c379",
+        "event_id": "GOOGL_3542a70dda35bdd0",
         "ticker": "GOOGL",
-        "published_at": "2026-09-11T21:05:32+00:00",
-        "title": "SCHD’s 3% Yield Hides a $216,000 Decade-Long Performance Gap Investors Miss",
-        "url": "https://247wallst.com/investing/etf/2026/09/11/schds-3-yield-hides-a-216000-decade-long-performance-gap-investors-miss/",
+        "published_at": "2026-09-14T20:21:33+00:00",
+        "title": "Is META Stock’s $130B AI Buildout Your Ticket to an 8.7% Yield?",
+        "url": "https://www.trefis.com/articles/615208/is-meta-stocks-130b-ai-buildout-your-ticket-to-an-8-7-yield/2026-09-14",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -16495,56 +16525,176 @@
         "volume": null
       },
       {
-        "event_id": "GOOGL_59b926f17d2048c2",
+        "event_id": "GOOGL_ff94feb2550e2f67",
         "ticker": "GOOGL",
-        "published_at": "2026-09-11T19:50:52+00:00",
-        "title": "SpaceX signs $1.1 billion-per month computing deal",
-        "url": "https://finance.yahoo.com/video/spacex-signs-1-1-billion-195052486.html",
+        "published_at": "2026-09-14T20:14:00+00:00",
+        "title": "The S&P 500 at 7400 or 8000? Why the Future of Stocks Is So Murky.",
+        "url": "https://www.barrons.com/articles/the-s-p-500-at-7400-or-8000-why-the-future-of-stocks-is-so-murky-1956c563?siteid=yhoof2&yptr=yahoo",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "GOOGL_887ae2f6b14d543f",
+        "ticker": "GOOGL",
+        "published_at": "2026-09-14T19:51:00+00:00",
+        "title": "Why Google and Meta Stocks Are the Big Winners From the Latest AI Concerns",
+        "url": "https://www.barrons.com/articles/google-meta-stock-ai-slowdown-7205d231?siteid=yhoof2&yptr=yahoo",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "GOOGL_0d45007da9e2d041",
+        "ticker": "GOOGL",
+        "published_at": "2026-09-14T14:39:00+00:00",
+        "title": "Tech pulls back on AI concerns, cybersecurity takes a step up",
+        "url": "https://finance.yahoo.com/video/tech-pulls-back-ai-concerns-143900977.html",
         "source": "VIDEO",
-        "close_price": 338.5,
-        "previous_close": 332.6000061035156,
-        "price_change_percent": 1.7739007180439168,
-        "volume": 24283830.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "GOOGL_d0615c89e755194c",
+        "event_id": "GOOGL_ca3797a9205c15e8",
         "ticker": "GOOGL",
-        "published_at": "2026-09-11T19:34:14+00:00",
-        "title": "How Far Could Alphabet Stock Move On You In A Year?",
-        "url": "https://www.trefis.com/articles/615032/how-far-could-alphabet-stock-move-on-you-in-a-year/2026-09-11",
+        "published_at": "2026-09-14T14:18:18+00:00",
+        "title": "Elon Musk: I've been 'sounding the alarm' on AI for a while",
+        "url": "https://finance.yahoo.com/markets/stocks/article/elon-musk-ive-been-sounding-the-alarm-on-ai-for-a-while-141818917.html",
         "source": "STORY",
-        "close_price": 338.5,
-        "previous_close": 332.6000061035156,
-        "price_change_percent": 1.7739007180439168,
-        "volume": 24283830.0
-      },
-      {
-        "event_id": "GOOGL_b8e5a18f9cb18b73",
-        "ticker": "GOOGL",
-        "published_at": "2026-09-11T19:27:09+00:00",
-        "title": "How Far Could Meta Stock Swing While Its Data Center Bill Climbs?",
-        "url": "https://www.trefis.com/articles/615033/how-far-could-meta-stock-swing-while-its-data-center-bill-climbs/2026-09-11",
-        "source": "STORY",
-        "close_price": 338.5,
-        "previous_close": 332.6000061035156,
-        "price_change_percent": 1.7739007180439168,
-        "volume": 24283830.0
-      },
-      {
-        "event_id": "GOOGL_286f8d42cca1354e",
-        "ticker": "GOOGL",
-        "published_at": "2026-09-11T12:00:00+00:00",
-        "title": "What a Republican 'wipeout' in the midterm elections means for investors",
-        "url": "https://finance.yahoo.com/video/republican-wipeout-midterm-elections-means-120000609.html",
-        "source": "VIDEO",
-        "close_price": 338.5,
-        "previous_close": 332.6000061035156,
-        "price_change_percent": 1.7739007180439168,
-        "volume": 24283830.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       }
     ],
-    "history_count": 449,
+    "history_count": 459,
     "history": [
+      {
+        "event_id": "GOOGL_316d0ba66a0c1cd0",
+        "ticker": "GOOGL",
+        "published_at": "2026-09-14T22:16:01+00:00",
+        "title": "'We owe it to humanity to try': Anthropic's CEO Just Called For Global AI Slowdown. Elon Musk, Sam Altman, and Google’s AI Chief Agree.",
+        "url": "https://www.fool.com/investing/2026/09/14/we-owe-it-to-humanity-to-try-anthropics-ceo-just-called-for-global-ai-slowdown-elon-musk-sam-altman-and-googles-ai-chief-agree/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "GOOGL_c9769336762d6cb2",
+        "ticker": "GOOGL",
+        "published_at": "2026-09-14T21:29:46+00:00",
+        "title": "Big Tech Issued About $220 Billion of Bonds. Alphabet and Meta Show How AI Is Warping the Credit Market",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/big-tech-issued-220-billion-212946047.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "GOOGL_f914bb9fe6d58b21",
+        "ticker": "GOOGL",
+        "published_at": "2026-09-14T21:04:54+00:00",
+        "title": "Maryland Seeks To Reinstate Digital Ad Tax",
+        "url": "https://www.mediapost.com/publications/article/417948/maryland-seeks-to-reinstate-digital-ad-tax.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "GOOGL_85d6f37c3aad8c4c",
+        "ticker": "GOOGL",
+        "published_at": "2026-09-14T20:36:26+00:00",
+        "title": "Stock Market Today: Dow Falls, Cyber Plays Soar Amid AI Fears; Bessent Makes This Move On Iran (Live Coverage)",
+        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-nvidia-nvda-stock-ai-warning/?src=A00220&yptr=yahoo",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "GOOGL_7214c31ac58ff92d",
+        "ticker": "GOOGL",
+        "published_at": "2026-09-14T20:25:00+00:00",
+        "title": "Oracle, Corning, Alphabet, GE Vernova, CrowdStrike, SpaceX, and More Stocks That Explain Today’s Market",
+        "url": "https://www.barrons.com/articles/stock-movers-259d1f80?siteid=yhoof2&yptr=yahoo",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "GOOGL_3542a70dda35bdd0",
+        "ticker": "GOOGL",
+        "published_at": "2026-09-14T20:21:33+00:00",
+        "title": "Is META Stock’s $130B AI Buildout Your Ticket to an 8.7% Yield?",
+        "url": "https://www.trefis.com/articles/615208/is-meta-stocks-130b-ai-buildout-your-ticket-to-an-8-7-yield/2026-09-14",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "GOOGL_ff94feb2550e2f67",
+        "ticker": "GOOGL",
+        "published_at": "2026-09-14T20:14:00+00:00",
+        "title": "The S&P 500 at 7400 or 8000? Why the Future of Stocks Is So Murky.",
+        "url": "https://www.barrons.com/articles/the-s-p-500-at-7400-or-8000-why-the-future-of-stocks-is-so-murky-1956c563?siteid=yhoof2&yptr=yahoo",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "GOOGL_887ae2f6b14d543f",
+        "ticker": "GOOGL",
+        "published_at": "2026-09-14T19:51:00+00:00",
+        "title": "Why Google and Meta Stocks Are the Big Winners From the Latest AI Concerns",
+        "url": "https://www.barrons.com/articles/google-meta-stock-ai-slowdown-7205d231?siteid=yhoof2&yptr=yahoo",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "GOOGL_0d45007da9e2d041",
+        "ticker": "GOOGL",
+        "published_at": "2026-09-14T14:39:00+00:00",
+        "title": "Tech pulls back on AI concerns, cybersecurity takes a step up",
+        "url": "https://finance.yahoo.com/video/tech-pulls-back-ai-concerns-143900977.html",
+        "source": "VIDEO",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "GOOGL_ca3797a9205c15e8",
+        "ticker": "GOOGL",
+        "published_at": "2026-09-14T14:18:18+00:00",
+        "title": "Elon Musk: I've been 'sounding the alarm' on AI for a while",
+        "url": "https://finance.yahoo.com/markets/stocks/article/elon-musk-ive-been-sounding-the-alarm-on-ai-for-a-while-141818917.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
       {
         "event_id": "GOOGL_f513412c539d72af",
         "ticker": "GOOGL",
@@ -21940,117 +22090,227 @@
     "latest": [
       {
         "ticker": "GOOGL",
-        "title": "Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm Buying Now.",
-        "summary": "Nvidia stands out as the best stock to buy of the three.",
-        "published_at": "2026-09-11T23:20:00+00:00",
+        "title": "'We owe it to humanity to try': Anthropic's CEO Just Called For Global AI Slowdown. Elon Musk, Sam Altman, and Google’s AI Chief Agree.",
+        "summary": "A rare moment of unity among AI's fiercest rivals.",
+        "published_at": "2026-09-14T22:16:01+00:00",
         "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/09/11/apple-microsoft-and-nvidia-top-the-list-of-largest/",
+        "url": "https://www.fool.com/investing/2026/09/14/we-owe-it-to-humanity-to-try-anthropics-ceo-just-called-for-global-ai-slowdown-elon-musk-sam-altman-and-googles-ai-chief-agree/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "GOOGL",
-        "title": "Google’s $15 Billion Finland AI Build Is Good News for Nvidia, With One Important Catch",
-        "summary": "Alphabet Inc. (NASDAQ:GOOGL) is putting another $15 billion behind the AI infrastructure race. Reuters reported September 9 that Google plans to invest at least €13 billion, or roughly $15.1 billion, in Finnish AI infrastructure over the next two years. The project includes three new data centers and a 22-year agreement to purchase as much as […]",
-        "published_at": "2026-09-11T23:12:24+00:00",
+        "title": "Big Tech Issued About $220 Billion of Bonds. Alphabet and Meta Show How AI Is Warping the Credit Market",
+        "summary": "AI spending is now large enough to distort the bond market around it. Reuters reported on September 10 that Alphabet, Amazon, Meta, Microsoft and Oracle issued roughly $220 billion of bonds over the prior year as they funded data-center expansion. Similar credits are no longer always trading at similar spreads as repeated giant deals flood […]",
+        "published_at": "2026-09-14T21:29:46+00:00",
         "publisher": "Insider Monkey",
-        "url": "https://finance.yahoo.com/technology/ai/articles/google-15-billion-finland-ai-231224831.html",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/big-tech-issued-220-billion-212946047.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "GOOGL",
-        "title": "What Are You Really Paying For Reddit's Ad Growth?",
-        "summary": "Reddit (RDDT) stock is down about 35% over the past twelve months. Yet at about $155 it still trades at about 26.5 times trailing adjusted earnings, meaning normalized net income with stock-based compensation added back. The forecast that makes Reddit look cheaper does not need wider margins. It needs advertising to keep growing while search referrals stay volatile.",
-        "published_at": "2026-09-11T21:47:42+00:00",
+        "title": "Maryland Seeks To Reinstate Digital Ad Tax",
+        "summary": "Maryland late last week appealed an agency ruling that struck down a 2021 law imposing taxes on digital ad sales.",
+        "published_at": "2026-09-14T21:04:54+00:00",
+        "publisher": "MediaPost",
+        "url": "https://www.mediapost.com/publications/article/417948/maryland-seeks-to-reinstate-digital-ad-tax.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "GOOGL",
+        "title": "Stock Market Today: Dow Falls, Cyber Plays Soar Amid AI Fears; Bessent Makes This Move On Iran (Live Coverage)",
+        "summary": "The Dow Jones index falls on the stock market today as President Trump hits out at AI slowdown calls. Treasury Secretary Bessent makes an Iran move.",
+        "published_at": "2026-09-14T20:36:26+00:00",
+        "publisher": "Investor's Business Daily",
+        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-nvidia-nvda-stock-ai-warning/?src=A00220&yptr=yahoo",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "GOOGL",
+        "title": "Oracle, Corning, Alphabet, GE Vernova, CrowdStrike, SpaceX, and More Stocks That Explain Today’s Market",
+        "summary": "Corning stock was the worst performer in the S&P 500 while CrowdStrike stock was the best-performer in the index.",
+        "published_at": "2026-09-14T20:25:00+00:00",
+        "publisher": "Barrons.com",
+        "url": "https://www.barrons.com/articles/stock-movers-259d1f80?siteid=yhoof2&yptr=yahoo",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "GOOGL",
+        "title": "Is META Stock’s $130B AI Buildout Your Ticket to an 8.7% Yield?",
+        "summary": "Meta Platforms (META) trades about 17% below its 52-week high, and has lost ground over the past year while the S&P 500 climbed. You can be paid now for agreeing to buy the shares well below today's price, whether or not you ever own them. The catch is the reason they have lagged: Meta is spending on data centers almost as fast as the business turns cash.",
+        "published_at": "2026-09-14T20:21:33+00:00",
         "publisher": "Trefis",
-        "url": "https://www.trefis.com/articles/615037/what-are-you-really-paying-for-reddits-ad-growth/2026-09-11",
+        "url": "https://www.trefis.com/articles/615208/is-meta-stocks-130b-ai-buildout-your-ticket-to-an-8-7-yield/2026-09-14",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "GOOGL",
-        "title": "Alphabet Inc. (GOOG) Outperforms Broader Market: What You Need to Know",
-        "summary": "In the latest trading session, Alphabet Inc. (GOOG) closed at $335.45, marking a +1.53% move from the previous day.",
-        "published_at": "2026-09-11T21:45:02+00:00",
-        "publisher": "Zacks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-inc-goog-outperforms-broader-214502479.html",
+        "title": "The S&P 500 at 7400 or 8000? Why the Future of Stocks Is So Murky.",
+        "summary": "As the bond market continues its long summer slump, Wall Street is adjusting its year-end market calls.",
+        "published_at": "2026-09-14T20:14:00+00:00",
+        "publisher": "Barrons.com",
+        "url": "https://www.barrons.com/articles/the-s-p-500-at-7400-or-8000-why-the-future-of-stocks-is-so-murky-1956c563?siteid=yhoof2&yptr=yahoo",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "GOOGL",
-        "title": "Alphabet (GOOGL) Beats Stock Market Upswing: What Investors Need to Know",
-        "summary": "Alphabet (GOOGL) closed the most recent trading day at $338.99, moving +1.92% from the previous trading session.",
-        "published_at": "2026-09-11T21:45:02+00:00",
-        "publisher": "Zacks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-googl-beats-stock-market-214502350.html",
+        "title": "Why Google and Meta Stocks Are the Big Winners From the Latest AI Concerns",
+        "summary": "Google owner  Alphabet  and Facebook parent  Meta Platforms  have been frustrating stocks to own in 2026—but they were getting some love from investors on Monday, even as a broader tech selloff raged on.  Alphabet climbed 2.7% and Meta added 2.9% in Monday trading.  The tech-heavy  fell 0.3% after the bosses of Anthropic, OpenAI, and  SpaceX  called for a slowdown in AI development.",
+        "published_at": "2026-09-14T19:51:00+00:00",
+        "publisher": "Barrons.com",
+        "url": "https://www.barrons.com/articles/google-meta-stock-ai-slowdown-7205d231?siteid=yhoof2&yptr=yahoo",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "GOOGL",
-        "title": "SCHD’s 3% Yield Hides a $216,000 Decade-Long Performance Gap Investors Miss",
-        "summary": "Most SCHD holders track the quarterly payout and call it a win, but a decade of reinvested dividends tells a story the fund's marketing materials never mention. The yield looks safe until you compare the account balance.",
-        "published_at": "2026-09-11T21:05:32+00:00",
-        "publisher": "24/7 Wall St.",
-        "url": "https://247wallst.com/investing/etf/2026/09/11/schds-3-yield-hides-a-216000-decade-long-performance-gap-investors-miss/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "GOOGL",
-        "title": "SpaceX signs $1.1 billion-per month computing deal",
-        "summary": "Yahoo Finance Senior Autos Reporter Pras Subramanian joins Market Domination host Ines Ferré to report that SpaceX (SPCX) has signed a $1.1 billion-per month AI computing deal. The move will bring the company closer to its $100 billion annual recurring revenue target this year, according to CFO Bret Johnson.",
-        "published_at": "2026-09-11T19:50:52+00:00",
+        "title": "Tech pulls back on AI concerns, cybersecurity takes a step up",
+        "summary": "Yahoo Finance Senior Markets Reporter Ines Ferre and DA Davidson Head of Technology Research Gil Luria break down the tech stock (XLK) pullback following calls to slow AI development, while highlighting the renewed strength in the cybersecurity sector.",
+        "published_at": "2026-09-14T14:39:00+00:00",
         "publisher": "Yahoo Finance Video",
-        "url": "https://finance.yahoo.com/video/spacex-signs-1-1-billion-195052486.html",
+        "url": "https://finance.yahoo.com/video/tech-pulls-back-ai-concerns-143900977.html",
         "language": null,
         "source": "VIDEO",
         "related_tickers": null
       },
       {
         "ticker": "GOOGL",
-        "title": "How Far Could Alphabet Stock Move On You In A Year?",
-        "summary": "Alphabet (GOOGL) stock trades at about $332, and options expiring roughly a year out price a 68% probability range running from roughly $233 to roughly $474. That floor sits just under the stock's 52-week low of $235.96, while the ceiling clears its 52-week high of $402.12. Yet, a range this wide is close to normal for these shares, not a sign of unusual fear.",
-        "published_at": "2026-09-11T19:34:14+00:00",
-        "publisher": "Trefis",
-        "url": "https://www.trefis.com/articles/615032/how-far-could-alphabet-stock-move-on-you-in-a-year/2026-09-11",
+        "title": "Elon Musk: I've been 'sounding the alarm' on AI for a while",
+        "summary": "Leave it to Elon Musk to say, essentially, I've been right all along.",
+        "published_at": "2026-09-14T14:18:18+00:00",
+        "publisher": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/article/elon-musk-ive-been-sounding-the-alarm-on-ai-for-a-while-141818917.html",
         "language": null,
         "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "GOOGL",
-        "title": "How Far Could Meta Stock Swing While Its Data Center Bill Climbs?",
-        "summary": "At about $644.38 a share, Meta Platforms (META) stock carries options that price a range from roughly $418 to $993 for about a year out. The floor of that band would take about a third off a position, and the ceiling would add more than half. Wide as it is, the range carries only a normal premium over how much the shares actually moved in the past year.",
-        "published_at": "2026-09-11T19:27:09+00:00",
-        "publisher": "Trefis",
-        "url": "https://www.trefis.com/articles/615033/how-far-could-meta-stock-swing-while-its-data-center-bill-climbs/2026-09-11",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "GOOGL",
-        "title": "What a Republican 'wipeout' in the midterm elections means for investors",
-        "summary": "Veda Partners managing partner and director of economic policy Henrietta Treyz outlines the type of policy shifts that could affect investors most if the Republicans end up \"wiping out\" in the midterm elections.",
-        "published_at": "2026-09-11T12:00:00+00:00",
-        "publisher": "Yahoo Finance Video",
-        "url": "https://finance.yahoo.com/video/republican-wipeout-midterm-elections-means-120000609.html",
-        "language": null,
-        "source": "VIDEO",
         "related_tickers": null
       }
     ],
-    "history_count": 447,
+    "history_count": 457,
     "history": [
+      {
+        "ticker": "GOOGL",
+        "title": "'We owe it to humanity to try': Anthropic's CEO Just Called For Global AI Slowdown. Elon Musk, Sam Altman, and Google’s AI Chief Agree.",
+        "summary": "A rare moment of unity among AI's fiercest rivals.",
+        "published_at": "2026-09-14T22:16:01+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/09/14/we-owe-it-to-humanity-to-try-anthropics-ceo-just-called-for-global-ai-slowdown-elon-musk-sam-altman-and-googles-ai-chief-agree/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "GOOGL",
+        "title": "Big Tech Issued About $220 Billion of Bonds. Alphabet and Meta Show How AI Is Warping the Credit Market",
+        "summary": "AI spending is now large enough to distort the bond market around it. Reuters reported on September 10 that Alphabet, Amazon, Meta, Microsoft and Oracle issued roughly $220 billion of bonds over the prior year as they funded data-center expansion. Similar credits are no longer always trading at similar spreads as repeated giant deals flood […]",
+        "published_at": "2026-09-14T21:29:46+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/big-tech-issued-220-billion-212946047.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "GOOGL",
+        "title": "Maryland Seeks To Reinstate Digital Ad Tax",
+        "summary": "Maryland late last week appealed an agency ruling that struck down a 2021 law imposing taxes on digital ad sales.",
+        "published_at": "2026-09-14T21:04:54+00:00",
+        "publisher": "MediaPost",
+        "url": "https://www.mediapost.com/publications/article/417948/maryland-seeks-to-reinstate-digital-ad-tax.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "GOOGL",
+        "title": "Stock Market Today: Dow Falls, Cyber Plays Soar Amid AI Fears; Bessent Makes This Move On Iran (Live Coverage)",
+        "summary": "The Dow Jones index falls on the stock market today as President Trump hits out at AI slowdown calls. Treasury Secretary Bessent makes an Iran move.",
+        "published_at": "2026-09-14T20:36:26+00:00",
+        "publisher": "Investor's Business Daily",
+        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-nvidia-nvda-stock-ai-warning/?src=A00220&yptr=yahoo",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "GOOGL",
+        "title": "Oracle, Corning, Alphabet, GE Vernova, CrowdStrike, SpaceX, and More Stocks That Explain Today’s Market",
+        "summary": "Corning stock was the worst performer in the S&P 500 while CrowdStrike stock was the best-performer in the index.",
+        "published_at": "2026-09-14T20:25:00+00:00",
+        "publisher": "Barrons.com",
+        "url": "https://www.barrons.com/articles/stock-movers-259d1f80?siteid=yhoof2&yptr=yahoo",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "GOOGL",
+        "title": "Is META Stock’s $130B AI Buildout Your Ticket to an 8.7% Yield?",
+        "summary": "Meta Platforms (META) trades about 17% below its 52-week high, and has lost ground over the past year while the S&P 500 climbed. You can be paid now for agreeing to buy the shares well below today's price, whether or not you ever own them. The catch is the reason they have lagged: Meta is spending on data centers almost as fast as the business turns cash.",
+        "published_at": "2026-09-14T20:21:33+00:00",
+        "publisher": "Trefis",
+        "url": "https://www.trefis.com/articles/615208/is-meta-stocks-130b-ai-buildout-your-ticket-to-an-8-7-yield/2026-09-14",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "GOOGL",
+        "title": "The S&P 500 at 7400 or 8000? Why the Future of Stocks Is So Murky.",
+        "summary": "As the bond market continues its long summer slump, Wall Street is adjusting its year-end market calls.",
+        "published_at": "2026-09-14T20:14:00+00:00",
+        "publisher": "Barrons.com",
+        "url": "https://www.barrons.com/articles/the-s-p-500-at-7400-or-8000-why-the-future-of-stocks-is-so-murky-1956c563?siteid=yhoof2&yptr=yahoo",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "GOOGL",
+        "title": "Why Google and Meta Stocks Are the Big Winners From the Latest AI Concerns",
+        "summary": "Google owner  Alphabet  and Facebook parent  Meta Platforms  have been frustrating stocks to own in 2026—but they were getting some love from investors on Monday, even as a broader tech selloff raged on.  Alphabet climbed 2.7% and Meta added 2.9% in Monday trading.  The tech-heavy  fell 0.3% after the bosses of Anthropic, OpenAI, and  SpaceX  called for a slowdown in AI development.",
+        "published_at": "2026-09-14T19:51:00+00:00",
+        "publisher": "Barrons.com",
+        "url": "https://www.barrons.com/articles/google-meta-stock-ai-slowdown-7205d231?siteid=yhoof2&yptr=yahoo",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "GOOGL",
+        "title": "Tech pulls back on AI concerns, cybersecurity takes a step up",
+        "summary": "Yahoo Finance Senior Markets Reporter Ines Ferre and DA Davidson Head of Technology Research Gil Luria break down the tech stock (XLK) pullback following calls to slow AI development, while highlighting the renewed strength in the cybersecurity sector.",
+        "published_at": "2026-09-14T14:39:00+00:00",
+        "publisher": "Yahoo Finance Video",
+        "url": "https://finance.yahoo.com/video/tech-pulls-back-ai-concerns-143900977.html",
+        "language": null,
+        "source": "VIDEO",
+        "related_tickers": null
+      },
+      {
+        "ticker": "GOOGL",
+        "title": "Elon Musk: I've been 'sounding the alarm' on AI for a while",
+        "summary": "Leave it to Elon Musk to say, essentially, I've been right all along.",
+        "published_at": "2026-09-14T14:18:18+00:00",
+        "publisher": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/article/elon-musk-ive-been-sounding-the-alarm-on-ai-for-a-while-141818917.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
       {
         "ticker": "GOOGL",
         "title": "Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm Buying Now.",
@@ -26976,7 +27236,7 @@
   },
   "SignalStrength": {
     "scoring": "Moderate",
-    "discovery": "Strong"
+    "discovery": "Moderate"
   },
-  "Timestamp": "2026-09-11T19:43:40.831937-04:00"
+  "Timestamp": "2026-09-14T20:07:09.962744-04:00"
 }

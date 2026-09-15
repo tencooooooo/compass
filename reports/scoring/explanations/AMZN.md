@@ -5,9 +5,9 @@
 ## Summary
 
 - Company: Amazon.com, Inc.
-- Total Score: 65 / 100
+- Total Score: 58 / 100
 - Confidence: Medium
-- Signal Strength: Strong
+- Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
@@ -17,18 +17,19 @@ Medium
 理由
 
 - 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 1 件です。
+- 欠損または計算不可の項目数は 2 件です。
 - 主要データは一定程度ありますが、欠損や未取得項目が残っています。
+- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
 
-Strong
+Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 65 点を獲得し、シグナル充足率は 65.0% です。
-- シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
+- データが確認できた 100 点満点のうち 58 点を獲得し、シグナル充足率は 58.0% です。
+- シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
@@ -98,7 +99,7 @@ Evidence
 
 理由
 
-- PER はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
+- PER はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - PEG はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
 - PBR はセクター内 25.00 パーセンタイル / 母数 5 で、相対的に割安寄りです。
@@ -111,12 +112,12 @@ Evidence
 
 使用データ
 
-- trailing_pe: 20.6747
-- forward_pe: 24.6812
-- peg_ratio: 1.4800
-- price_to_book: 5.0195
+- trailing_pe: 20.3974
+- forward_pe: 24.3697
+- peg_ratio: 1.5000
+- price_to_book: 4.9562
 - sector_peer_count: 10
-- trailing_pe_percentile: 44.4400
+- trailing_pe_percentile: 33.3300
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 77.7800
 - forward_pe_peer_count: 10
@@ -135,7 +136,7 @@ Evidence
 - 3M の対SPY超過リターンは +2.46pt で、市場並み以上です。
 - 6M の対SPY超過リターンは +7.19pt で、市場並み以上です。
 - 1Y の対SPY超過リターンは -7.00pt と、市場を小幅に下回っています。
-- 直近出来高が30日平均の 0.68 倍で、市場関心はやや弱めです。
+- 直近出来高が30日平均の 0.69 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -151,18 +152,18 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': -1.06, '3M': 3.86, '6M': 15.36, '1Y': 18.48}
 - excess_returns: {'1M': -2.87, '3M': 2.46, '6M': 7.19, '1Y': -7.0}
-- latest_volume: 26,352,379.0000
-- average_volume_30d: 38,918,809.3000
+- latest_volume: 26,682,800.0000
+- average_volume_30d: 38,929,823.3333
 
 ## News
 
-12点
+5点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 2 件(純比率 -0.33)で、センチメントは 2.7 点です。
-- イベント後の平均株価反応が 1.94% とプラスです。
+- ニュース見出し・要約の簡易分類では、好材料 0 件、悪材料 1 件(純比率 -1.00)で、センチメントは 0.0 点です。
+- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
 
 Evidence
 
@@ -173,11 +174,15 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 1
-- negative_count: 2
-- sentiment_net_ratio: -0.3300
+- positive_count: 0
+- negative_count: 1
+- sentiment_net_ratio: -1.0000
 - event_count: 10
-- events_with_price_reaction: 5
+- events_with_price_reaction: 0
+
+欠損・計算不可
+
+- event_price_reaction
 
 ## Note
 
