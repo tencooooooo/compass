@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-82 / 100
+74 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 17/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 8/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで +16.33pt と、市場を大きく上回っています。
-- 3Mモメンタムは対SPYで -15.08pt と弱く、候補評価では注意点です。
-- 6Mモメンタムは対SPYで +32.66pt と、市場を大きく上回っています。
+- 1Mモメンタムは対SPYで +17.00pt と、市場を大きく上回っています。
+- 3Mモメンタムは対SPYで -13.94pt と弱く、候補評価では注意点です。
+- 6Mモメンタムは対SPYで +28.74pt と、市場を大きく上回っています。
 
 ## Strengths
 
@@ -33,7 +33,8 @@
 
 ## Watch Points
 
-- 注意材料になり得るニュース表現が 1 件あります。
+- 注意材料になり得るニュース表現が 2 件あります。
+- イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Technology セクター全体の需要変化と競争環境を確認する必要があります。
@@ -46,7 +47,7 @@ High
 
 ## Signal Strength
 
-Strong(シグナル充足率: 82.05%)
+Strong(シグナル充足率: 74.0%)
 
 ## Evidence
 
@@ -65,20 +66,20 @@ Strong(シグナル充足率: 82.05%)
 
 ## Metrics
 
-- scoring_total: 80.0
-- signal_earned_points: 82.05
+- scoring_total: 72.0
+- signal_earned_points: 74.0
 - signal_max_points: 100.0
 - weak_signals: []
 - scoring_signal_strength: Strong
 - growth_score: 17.0
 - financial_health_score: 17.0
 - valuation_score: 16.0
-- news_score: 15.0
-- momentum: {'1m': 13.892342860928974, '3m': -14.486615133034366, '6m': 46.47152539157637, '1y': 18.464388573897036}
+- news_score: 8.0
+- momentum: {'1m': 14.59242396364806, '3m': -13.184481634555013, '6m': 41.75273300281771, '1y': 17.03837220885102}
 - benchmark: SPY
-- excess_momentum: {'1m': 16.33, '3m': -15.08, '6m': 32.66, '1y': 1.98}
-- positive_news: 3
-- watch_news: 1
+- excess_momentum: {'1m': 17.0, '3m': -13.94, '6m': 28.74, '1y': 1.68}
+- positive_news: 2
+- watch_news: 2
 - event_count: 10
-- events_with_reaction: 8
-- sector_average_score: 65.83333333333333
+- events_with_reaction: 10
+- sector_average_score: 65.58333333333333

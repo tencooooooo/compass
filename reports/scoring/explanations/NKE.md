@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: NIKE, Inc.
-- Total Score: 52 / 100
+- Total Score: 53 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 52 点を獲得し、シグナル充足率は 52.0% です。
+- データが確認できた 100 点満点のうち 53 点を獲得し、シグナル充足率は 53.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -110,10 +110,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 17.2476
-- forward_pe: 15.8252
+- trailing_pe: 17.0381
+- forward_pe: 15.6330
 - peg_ratio: 1.4400
-- price_to_book: 3.6133
+- price_to_book: 3.5694
 - sector_peer_count: 10
 - trailing_pe_percentile: 11.1100
 - trailing_pe_peer_count: 10
@@ -130,11 +130,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -7.69pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -19.61pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -46.40pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -65.23pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.04 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -5.09pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -20.47pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -46.82pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -64.75pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.10 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -143,25 +143,25 @@ Evidence
 
 使用データ
 
-- 1M: -10.1296
-- 3M: -19.0172
-- 6M: -32.5940
-- 1Y: -48.7476
+- 1M: -7.4967
+- 3M: -19.7168
+- 6M: -33.8115
+- 1Y: -49.3910
 - benchmark: SPY
-- benchmark_returns: {'1M': -2.44, '3M': 0.6, '6M': 13.81, '1Y': 16.48}
-- excess_returns: {'1M': -7.69, '3M': -19.61, '6M': -46.4, '1Y': -65.23}
-- latest_volume: 28,560,442.0000
-- average_volume_30d: 27,581,348.0667
+- benchmark_returns: {'1M': -2.41, '3M': 0.75, '6M': 13.01, '1Y': 15.36}
+- excess_returns: {'1M': -5.09, '3M': -20.47, '6M': -46.82, '1Y': -64.75}
+- latest_volume: 30,437,906.0000
+- average_volume_30d: 27,706,940.2000
 
 ## News
 
-6点
+7点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 4 件(純比率 -0.60)で、センチメントは 1.6 点です。
-- イベント後の平均株価反応が -1.88% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 3 件(純比率 -0.20)で、センチメントは 3.2 点です。
+- イベント後の平均株価反応が -1.36% と弱く、注意が必要です。
 
 Evidence
 
@@ -172,11 +172,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 1
-- negative_count: 4
-- sentiment_net_ratio: -0.6000
+- positive_count: 2
+- negative_count: 3
+- sentiment_net_ratio: -0.2000
 - event_count: 10
-- events_with_price_reaction: 8
+- events_with_price_reaction: 7
 
 ## Note
 

@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: -0.77%
+- 市場全体の1Mモメンタム平均: 0.18%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-09-15T23:38:09+00:00 / CRM / Investor's Business Daily: Dow Jones Futures Rise; ServiceNow, Twilio Lead New Buys As Fed Hike Looms
-- 2026-09-15T23:38:09+00:00 / NOW / Investor's Business Daily: Dow Jones Futures Rise; ServiceNow, Twilio Lead New Buys As Fed Hike Looms
-- 2026-09-15T23:15:47+00:00 / META / Trefis: Is AppLovin's Lead Over Its Peers Already In The Price?
-- 2026-09-15T23:00:00+00:00 / HD / TheStreet: Ulta Beauty faces rising customer backlash over anti-theft tool
-- 2026-09-15T23:00:00+00:00 / LOW / TheStreet: Ulta Beauty faces rising customer backlash over anti-theft tool
+- 2026-09-16T23:48:39+00:00 / AMD / Investor's Business Daily: Dow Jones Futures: S&P 500 Falls After Fed Rate Hike, Hawkish Warsh; Trump Fumes As AMD, Bloom Energy Lead Stocks To Watch
+- 2026-09-16T23:45:13+00:00 / NFLX / TheStreet: Duolingo beats Netflix by 80 spots in new power ranking
+- 2026-09-16T23:45:12+00:00 / AAPL / Reuters: Snap targets enterprises with Salesforce, Nvidia AI tools for augmented-reality glasses
+- 2026-09-16T23:45:12+00:00 / NVDA / Reuters: Snap targets enterprises with Salesforce, Nvidia AI tools for augmented-reality glasses
+- 2026-09-16T23:45:12+00:00 / CRM / Reuters: Snap targets enterprises with Salesforce, Nvidia AI tools for augmented-reality glasses
 
 ### 注目イベント
 
-- 2026-09-14T14:52:29+00:00 / AMAT: Chip Equipment Stocks Slide as AI Pacing Call Reaches Fab Spending: Applied Materials and Lam Research Fall 6%, ASML Sinks 5% (株価反応: -7.07%, 出来高: 8.06M)
-- 2026-09-14T12:04:43+00:00 / AMAT: Applied Materials Shares Fall 5.8% as Semiconductor Stocks Decline (株価反応: -7.07%, 出来高: 8.06M)
-- 2026-09-14T11:50:58+00:00 / AMAT: ASML Fell For a Month Straight: A Prominent Wall Street Ratings Agency Says It Will Return 70% From Today (株価反応: -7.07%, 出来高: 8.06M)
-- 2026-09-13T18:58:01+00:00 / AMAT: Prediction: Applied Materials Books Its First $10 Billion Quarter This Fall (株価反応: -7.07%, 出来高: 8.06M)
-- 2026-09-13T12:50:01+00:00 / AMAT: Applied Materials vs. ASML: Which Tech Stock Is a Better 投資判断表現 in 2026? (株価反応: -7.07%, 出来高: 8.06M)
+- 2026-09-15T19:26:12+00:00 / ADBE: Can CRM Stock Justify $260 While Its Cash Engine Cools Off? (株価反応: -2.95%, 出来高: 4.89M)
+- 2026-09-15T17:48:39+00:00 / ADBE: Should You 投資判断表現 Adobe Stock At $260? (株価反応: -2.95%, 出来高: 4.89M)
+- 2026-09-16T19:21:43+00:00 / CMCSA: Should You 投資判断表現 Netflix Stock Because Its Earnings Outrun Its Sales? (株価反応: -2.83%, 出来高: 24.26M)
+- 2026-09-16T18:50:36+00:00 / CMCSA: What Does AT&T Stock Do To Your Money When The Market Falls? (株価反応: -2.83%, 出来高: 24.26M)
+- 2026-09-16T02:25:55+00:00 / CMCSA: Is Comcast Stock Cheap Or Just Shrinking? (株価反応: -2.83%, 出来高: 24.26M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 60.50 | 19.28 | 11.20 | 0.89% | 60 |
-| Consumer Cyclical | 6 | 50.00 | 70.96 | 9.01 | -6.36% | 60 |
-| Technology | 12 | 65.83 | 42.66 | 9.17 | 1.20% | 120 |
+| Communication Services | 6 | 58.17 | 19.23 | 11.17 | 2.20% | 60 |
+| Consumer Cyclical | 6 | 50.50 | 71.54 | 9.01 | -5.57% | 60 |
+| Technology | 12 | 65.58 | 42.40 | 9.19 | 2.05% | 120 |
 
 ## 市場トレンド
 

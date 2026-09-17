@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-63 / 100
+61 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 17/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで -11.93pt と弱く、候補評価では注意点です。
-- 3Mモメンタムは対SPYで -9.83pt と、市場を小幅に下回っています。
-- 6Mモメンタムは対SPYで -7.22pt と、市場を小幅に下回っています。
+- 1Mモメンタムは対SPYで -11.08pt と弱く、候補評価では注意点です。
+- 3Mモメンタムは対SPYで -10.49pt と弱く、候補評価では注意点です。
+- 6Mモメンタムは対SPYで -6.96pt と、市場を小幅に下回っています。
 
 ## Strengths
 
@@ -33,7 +33,7 @@
 
 ## Watch Points
 
-- 注意材料になり得るニュース表現が 1 件あります。
+- 注意材料になり得るニュース表現が 2 件あります。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Technology セクター全体の需要変化と競争環境を確認する必要があります。
@@ -46,7 +46,7 @@ High
 
 ## Signal Strength
 
-Moderate(シグナル充足率: 63.05%)
+Moderate(シグナル充足率: 61.4%)
 
 ## Evidence
 
@@ -65,20 +65,20 @@ Moderate(シグナル充足率: 63.05%)
 
 ## Metrics
 
-- scoring_total: 63.0
-- signal_earned_points: 63.05
+- scoring_total: 61.0
+- signal_earned_points: 61.4
 - signal_max_points: 100.0
 - weak_signals: []
 - scoring_signal_strength: Moderate
 - growth_score: 20.0
 - financial_health_score: 17.0
 - valuation_score: 8.0
-- news_score: 13.0
-- momentum: {'1m': -12.993630367679444, '3m': -5.967033055018977, '6m': 8.141632615105218, '1y': -1.3333572894457353}
+- news_score: 12.0
+- momentum: {'1m': -13.485203449746985, '3m': -9.732324818631986, '6m': 6.053549441737327, '1y': -6.06783121621997}
 - benchmark: SPY
-- excess_momentum: {'1m': -11.93, '3m': -9.83, '6m': -7.22, '1y': -19.82}
+- excess_momentum: {'1m': -11.08, '3m': -10.49, '6m': -6.96, '1y': -21.42}
 - positive_news: 3
-- watch_news: 1
+- watch_news: 2
 - event_count: 10
-- events_with_reaction: 6
-- sector_average_score: 68.75
+- events_with_reaction: 9
+- sector_average_score: 65.58333333333333
