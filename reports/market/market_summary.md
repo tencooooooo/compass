@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 0.18%
+- 市場全体の1Mモメンタム平均: 1.12%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-09-16T23:48:39+00:00 / AMD / Investor's Business Daily: Dow Jones Futures: S&P 500 Falls After Fed Rate Hike, Hawkish Warsh; Trump Fumes As AMD, Bloom Energy Lead Stocks To Watch
-- 2026-09-16T23:45:13+00:00 / NFLX / TheStreet: Duolingo beats Netflix by 80 spots in new power ranking
-- 2026-09-16T23:45:12+00:00 / AAPL / Reuters: Snap targets enterprises with Salesforce, Nvidia AI tools for augmented-reality glasses
-- 2026-09-16T23:45:12+00:00 / NVDA / Reuters: Snap targets enterprises with Salesforce, Nvidia AI tools for augmented-reality glasses
-- 2026-09-16T23:45:12+00:00 / CRM / Reuters: Snap targets enterprises with Salesforce, Nvidia AI tools for augmented-reality glasses
+- 2026-09-17T23:41:04+00:00 / AMD / Investor's Business Daily: Dow Jones Futures Fall After S&P 500, Nasdaq Rebound Above Key Level; Moderna, AMD, SpaceX Flash 投資判断表現 Signals
+- 2026-09-17T23:35:49+00:00 / AMD / Motley Fool: Why AMD Stock Jumped Today
+- 2026-09-17T23:25:52+00:00 / TSLA / TechCrunch: Crusoe raises $3.9B to build massive data centers and small modular “AI factories”
+- 2026-09-17T23:24:04+00:00 / NVDA / Motley Fool: Why Intel Stock Jumped 7.6% Today
+- 2026-09-17T23:21:09+00:00 / NVDA / Simply Wall St.: Nebius Group (NBIS) Raises AI Cloud Prices As Compute Demand Tests Customer Costs
 
 ### 注目イベント
 
-- 2026-09-15T19:26:12+00:00 / ADBE: Can CRM Stock Justify $260 While Its Cash Engine Cools Off? (株価反応: -2.95%, 出来高: 4.89M)
-- 2026-09-15T17:48:39+00:00 / ADBE: Should You 投資判断表現 Adobe Stock At $260? (株価反応: -2.95%, 出来高: 4.89M)
-- 2026-09-16T19:21:43+00:00 / CMCSA: Should You 投資判断表現 Netflix Stock Because Its Earnings Outrun Its Sales? (株価反応: -2.83%, 出来高: 24.26M)
-- 2026-09-16T18:50:36+00:00 / CMCSA: What Does AT&T Stock Do To Your Money When The Market Falls? (株価反応: -2.83%, 出来高: 24.26M)
-- 2026-09-16T02:25:55+00:00 / CMCSA: Is Comcast Stock Cheap Or Just Shrinking? (株価反応: -2.83%, 出来高: 24.26M)
+- 2026-09-17T19:52:00+00:00 / AMD: Will 2026 Doom and Gloom Lead to Opportunity? (株価反応: 6.36%, 出来高: 28.33M)
+- 2026-09-17T19:50:20+00:00 / AMD: Update: US Equity Indexes Rise as Fed's Commitment to Controlling Inflation Sinks Treasury Yields (株価反応: 6.36%, 出来高: 28.33M)
+- 2026-09-17T19:13:00+00:00 / TMUS: Apple's iPhone 18 lineup keeps Bank of America bullish (株価反応: -5.57%, 出来高: 6.79M)
+- 2026-09-17T17:47:00+00:00 / TMUS: T-Mobile adds monthly fee to a new iPhone feature for customers (株価反応: -5.57%, 出来高: 6.79M)
+- 2026-09-17T14:07:51+00:00 / TMUS: Renewed Industry Competition Sparks T-Mobile US’s (TMUS) 投資判断表現-Off (株価反応: -5.57%, 出来高: 6.79M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 58.17 | 19.23 | 11.17 | 2.20% | 60 |
-| Consumer Cyclical | 6 | 50.50 | 71.54 | 9.01 | -5.57% | 60 |
-| Technology | 12 | 65.58 | 42.40 | 9.19 | 2.05% | 120 |
+| Communication Services | 6 | 56.83 | 18.89 | 11.19 | 0.62% | 60 |
+| Consumer Cyclical | 6 | 53.17 | 72.93 | 9.00 | -4.78% | 60 |
+| Technology | 12 | 68.50 | 43.51 | 9.17 | 4.32% | 120 |
 
 ## 市場トレンド
 

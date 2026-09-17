@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: T-Mobile US, Inc.
-- Total Score: 53 / 100
+- Total Score: 46 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 53 点を獲得し、シグナル充足率は 53.0% です。
+- データが確認できた 100 点満点のうち 46 点を獲得し、シグナル充足率は 46.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -98,7 +98,7 @@ Evidence
 
 理由
 
-- PER はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
+- PER はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
 - PEG はセクター内 0.00 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - PBR はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
@@ -111,12 +111,12 @@ Evidence
 
 使用データ
 
-- trailing_pe: 18.4372
-- forward_pe: 12.2076
-- peg_ratio: 0.6500
-- price_to_book: 3.3671
+- trailing_pe: 17.4293
+- forward_pe: 11.5282
+- peg_ratio: 0.6200
+- price_to_book: 3.1797
 - sector_peer_count: 10
-- trailing_pe_percentile: 55.5600
+- trailing_pe_percentile: 44.4400
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 44.4400
 - forward_pe_peer_count: 10
@@ -127,15 +127,15 @@ Evidence
 
 ## Momentum
 
-8点
+5点
 
 理由
 
-- 1M の対SPY超過リターンは +0.83pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -4.60pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -29.47pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -40.28pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.33 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは -7.76pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -10.85pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -34.45pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -45.30pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.68 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -144,25 +144,25 @@ Evidence
 
 使用データ
 
-- 1M: -1.5782
-- 3M: -3.8418
-- 6M: -16.4569
-- 1Y: -24.9255
+- 1M: -8.3936
+- 3M: -7.6661
+- 6M: -18.5369
+- 1Y: -28.4714
 - benchmark: SPY
-- benchmark_returns: {'1M': -2.41, '3M': 0.75, '6M': 13.01, '1Y': 15.36}
-- excess_returns: {'1M': 0.83, '3M': -4.6, '6M': -29.47, '1Y': -40.28}
-- latest_volume: 5,302,006.0000
-- average_volume_30d: 3,980,870.2000
+- benchmark_returns: {'1M': -0.63, '3M': 3.19, '6M': 15.91, '1Y': 16.83}
+- excess_returns: {'1M': -7.76, '3M': -10.85, '6M': -34.45, '1Y': -45.3}
+- latest_volume: 6,791,035.0000
+- average_volume_30d: 4,030,754.5000
 
 ## News
 
-12点
+8点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 1 件(純比率 +0.33)で、センチメントは 5.3 点です。
-- イベント後の平均株価反応が -0.46% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 1 件(純比率 +0.00)で、センチメントは 4.0 点です。
+- イベント後の平均株価反応が -4.38% と弱く、注意が必要です。
 
 Evidence
 
@@ -173,9 +173,9 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 2
+- positive_count: 1
 - negative_count: 1
-- sentiment_net_ratio: 0.3300
+- sentiment_net_ratio: 0.0000
 - event_count: 10
 - events_with_price_reaction: 9
 

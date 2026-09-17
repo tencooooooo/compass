@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-64 / 100
+76 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 18/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 4/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで +4.67pt と、市場並み以上です。
-- 3Mモメンタムは対SPYで +23.98pt と、市場を大きく上回っています。
-- 6Mモメンタムは対SPYで +10.24pt と、市場を大きく上回っています。
+- 1Mモメンタムは対SPYで +4.17pt と、市場並み以上です。
+- 3Mモメンタムは対SPYで +28.43pt と、市場を大きく上回っています。
+- 6Mモメンタムは対SPYで +11.65pt と、市場を大きく上回っています。
 
 ## Strengths
 
@@ -33,8 +33,7 @@
 
 ## Watch Points
 
-- 注意材料になり得るニュース表現が 2 件あります。
-- イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。
+- 注意材料になり得るニュース表現が 4 件あります。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Technology セクター全体の需要変化と競争環境を確認する必要があります。
@@ -47,7 +46,7 @@ High
 
 ## Signal Strength
 
-Moderate(シグナル充足率: 63.6%)
+Strong(シグナル充足率: 75.8%)
 
 ## Evidence
 
@@ -66,20 +65,20 @@ Moderate(シグナル充足率: 63.6%)
 
 ## Metrics
 
-- scoring_total: 61.0
-- signal_earned_points: 63.6
+- scoring_total: 71.0
+- signal_earned_points: 75.8
 - signal_max_points: 100.0
 - weak_signals: []
-- scoring_signal_strength: Moderate
+- scoring_signal_strength: Strong
 - growth_score: 18.0
 - financial_health_score: 18.0
 - valuation_score: 9.0
-- news_score: 4.0
-- momentum: {'1m': 2.26355132168009, '3m': 24.72970372197384, '6m': 23.253525132214765, '1y': -4.079863365530688}
+- news_score: 12.0
+- momentum: {'1m': 3.541517932698247, '3m': 31.61094516788911, '6m': 27.559951004030996, '1y': -1.4133856992194924}
 - benchmark: SPY
-- excess_momentum: {'1m': 4.67, '3m': 23.98, '6m': 10.24, '1y': -19.44}
-- positive_news: 0
-- watch_news: 2
+- excess_momentum: {'1m': 4.17, '3m': 28.43, '6m': 11.65, '1y': -18.24}
+- positive_news: 2
+- watch_news: 4
 - event_count: 10
-- events_with_reaction: 7
-- sector_average_score: 65.58333333333333
+- events_with_reaction: 6
+- sector_average_score: 68.5
