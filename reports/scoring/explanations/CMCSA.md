@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Comcast Corporation
-- Total Score: 53 / 100
+- Total Score: 52 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 53 点を獲得し、シグナル充足率は 53.0% です。
+- データが確認できた 100 点満点のうち 52 点を獲得し、シグナル充足率は 52.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -112,10 +112,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 7.3429
-- forward_pe: 6.3991
+- trailing_pe: 7.2885
+- forward_pe: 6.3516
 - peg_ratio: 142.9800
-- price_to_book: 0.9051
+- price_to_book: 0.8984
 - sector_peer_count: 10
 - trailing_pe_percentile: 11.1100
 - trailing_pe_peer_count: 10
@@ -128,15 +128,15 @@ Evidence
 
 ## Momentum
 
-5点
+7点
 
 理由
 
-- 1M の対SPY超過リターンは -11.93pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -0.84pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -33.68pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -37.45pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.53 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは -13.52pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは +0.76pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -35.59pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -38.39pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 2.63 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -145,25 +145,25 @@ Evidence
 
 使用データ
 
-- 1M: -12.5573
-- 3M: 2.3453
-- 6M: -17.7733
-- 1Y: -20.6281
+- 1M: -14.4791
+- 3M: 2.7634
+- 6M: -19.5381
+- 1Y: -21.5572
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.63, '3M': 3.19, '6M': 15.91, '1Y': 16.83}
-- excess_returns: {'1M': -11.93, '3M': -0.84, '6M': -33.68, '1Y': -37.45}
-- latest_volume: 35,247,079.0000
-- average_volume_30d: 23,054,035.9667
+- benchmark_returns: {'1M': -0.96, '3M': 2.0, '6M': 16.06, '1Y': 16.83}
+- excess_returns: {'1M': -13.52, '3M': 0.76, '6M': -35.59, '1Y': -38.39}
+- latest_volume: 63,887,636.0000
+- average_volume_30d: 24,298,471.2000
 
 ## News
 
-7点
+4点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 3 件(純比率 -0.20)で、センチメントは 3.2 点です。
-- イベント後の平均株価反応が -2.82% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 0 件、悪材料 5 件(純比率 -1.00)で、センチメントは 0.0 点です。
+- イベント後の平均株価反応が -2.11% と弱く、注意が必要です。
 
 Evidence
 
@@ -174,11 +174,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 2
-- negative_count: 3
-- sentiment_net_ratio: -0.2000
+- positive_count: 0
+- negative_count: 5
+- sentiment_net_ratio: -1.0000
 - event_count: 10
-- events_with_price_reaction: 10
+- events_with_price_reaction: 9
 
 ## Note
 

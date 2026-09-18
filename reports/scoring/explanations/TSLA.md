@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Tesla, Inc.
-- Total Score: 55 / 100
+- Total Score: 54 / 100
 - Confidence: High
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 55 点を獲得し、シグナル充足率は 55.0% です。
+- データが確認できた 100 点満点のうち 54 点を獲得し、シグナル充足率は 54.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -108,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 342.2430
-- forward_pe: 166.6394
+- trailing_pe: 343.6509
+- forward_pe: 165.7611
 - peg_ratio: 4.2800
-- price_to_book: 16.6492
+- price_to_book: 16.5615
 - sector_peer_count: 10
 - trailing_pe_percentile: 100
 - trailing_pe_peer_count: 10
@@ -124,15 +124,15 @@ Evidence
 
 ## Momentum
 
-6点
+7点
 
 理由
 
-- 1M の対SPY超過リターンは +9.34pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -10.80pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -22.68pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -29.97pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.06 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +4.70pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -11.05pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -20.27pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -31.29pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.38 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -141,25 +141,25 @@ Evidence
 
 使用データ
 
-- 1M: 8.7066
-- 3M: -7.6139
-- 6M: -6.7671
-- 1Y: -13.1445
+- 1M: 3.7452
+- 3M: -9.0439
+- 6M: -4.2151
+- 1Y: -14.4625
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.63, '3M': 3.19, '6M': 15.91, '1Y': 16.83}
-- excess_returns: {'1M': 9.34, '3M': -10.8, '6M': -22.68, '1Y': -29.97}
-- latest_volume: 38,770,658.0000
-- average_volume_30d: 36,728,965.2667
+- benchmark_returns: {'1M': -0.96, '3M': 2.0, '6M': 16.06, '1Y': 16.83}
+- excess_returns: {'1M': 4.7, '3M': -11.05, '6M': -20.27, '1Y': -31.29}
+- latest_volume: 51,771,532.0000
+- average_volume_30d: 37,592,004.4000
 
 ## News
 
-14点
+12点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
 - ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 1 件(純比率 +0.33)で、センチメントは 5.3 点です。
-- イベント後の平均株価反応が 2.27% とプラスです。
+- イベント後の平均株価反応が -0.53% と中立圏です。
 
 Evidence
 
@@ -174,7 +174,7 @@ Evidence
 - negative_count: 1
 - sentiment_net_ratio: 0.3300
 - event_count: 10
-- events_with_price_reaction: 4
+- events_with_price_reaction: 5
 
 ## Note
 

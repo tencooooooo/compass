@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: ServiceNow, Inc.
-- Total Score: 56 / 100
+- Total Score: 57 / 100
 - Confidence: High
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 56 点を獲得し、シグナル充足率は 56.0% です。
+- データが確認できた 100 点満点のうち 57 点を獲得し、シグナル充足率は 57.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -107,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 87.0880
-- forward_pe: 27.6635
+- trailing_pe: 84.1429
+- forward_pe: 27.0642
 - peg_ratio: 1.0100
-- price_to_book: 11.4381
+- price_to_book: 11.1903
 - sector_peer_count: 16
 - trailing_pe_percentile: 92.8600
 - trailing_pe_peer_count: 15
@@ -127,11 +127,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンが +16.52pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンが +41.84pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンは +5.87pt で、市場並み以上です。
-- 1Y の対SPY超過リターンは -42.54pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.59 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは +7.46pt で、市場並み以上です。
+- 3M の対SPY超過リターンが +40.54pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンは +3.54pt で、市場並み以上です。
+- 1Y の対SPY超過リターンは -45.56pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.14 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -140,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: 15.8842
-- 3M: 45.0251
-- 6M: 21.7747
-- 1Y: -25.7143
+- 1M: 6.5016
+- 3M: 42.5400
+- 6M: 19.5992
+- 1Y: -28.7278
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.63, '3M': 3.19, '6M': 15.91, '1Y': 16.83}
-- excess_returns: {'1M': 16.52, '3M': 41.84, '6M': 5.87, '1Y': -42.54}
-- latest_volume: 9,756,554.0000
-- average_volume_30d: 16,513,588.4667
+- benchmark_returns: {'1M': -0.96, '3M': 2.0, '6M': 16.06, '1Y': 16.83}
+- excess_returns: {'1M': 7.46, '3M': 40.54, '6M': 3.54, '1Y': -45.56}
+- latest_volume: 18,933,864.0000
+- average_volume_30d: 16,605,372.1333
 
 ## News
 
-8点
+9点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 1 件(純比率 +0.00)で、センチメントは 4.0 点です。
-- イベント後の平均株価反応が -1.27% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 2 件(純比率 +0.20)で、センチメントは 4.8 点です。
+- イベント後の平均株価反応が -1.39% と弱く、注意が必要です。
 
 Evidence
 
@@ -169,11 +169,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 1
-- negative_count: 1
-- sentiment_net_ratio: 0.0000
+- positive_count: 3
+- negative_count: 2
+- sentiment_net_ratio: 0.2000
 - event_count: 10
-- events_with_price_reaction: 10
+- events_with_price_reaction: 8
 
 ## Note
 

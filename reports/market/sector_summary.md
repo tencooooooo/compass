@@ -6,15 +6,15 @@
 
 - 銘柄数: 6
 - 銘柄: GOOGL, META, NFLX, DIS, CMCSA, TMUS
-- 平均スコア: 56.83
-- 平均PER: 18.89
-- 平均EPS: 11.19
-- 平均1Mモメンタム: 0.62%
+- 平均スコア: 54.50
+- 平均PER: 18.54
+- 平均EPS: 11.20
+- 平均1Mモメンタム: -2.14%
 - ニュース件数: 60
 
 ### Trend
 
-- Momentum: Positive
+- Momentum: Weak
 - News: High
 - Financial Health: Good
 
@@ -22,21 +22,21 @@
 
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| GOOGL | Alphabet Inc. | 64.00 | 17.44 | 19.92 | 0.97% | 10 |
-| META | Meta Platforms, Inc. | 75.00 | 25.72 | 26.53 | 25.50% | 10 |
-| NFLX | Netflix, Inc. | 49.00 | 23.68 | 3.18 | -3.16% | 10 |
-| DIS | The Walt Disney Company | 54.00 | 21.72 | 4.85 | 1.35% | 10 |
-| CMCSA | Comcast Corporation | 53.00 | 7.34 | 3.12 | -12.56% | 10 |
-| TMUS | T-Mobile US, Inc. | 46.00 | 17.43 | 9.55 | -8.39% | 10 |
+| GOOGL | Alphabet Inc. | 66.00 | 17.53 | 19.94 | 1.46% | 10 |
+| META | Meta Platforms, Inc. | 65.00 | 25.08 | 26.54 | 21.93% | 10 |
+| NFLX | Netflix, Inc. | 48.00 | 22.58 | 3.18 | -10.51% | 10 |
+| DIS | The Walt Disney Company | 49.00 | 21.17 | 4.85 | -3.98% | 10 |
+| CMCSA | Comcast Corporation | 52.00 | 7.29 | 3.12 | -14.48% | 10 |
+| TMUS | T-Mobile US, Inc. | 47.00 | 17.61 | 9.55 | -7.24% | 10 |
 
 ## Consumer Cyclical
 
 - 銘柄数: 6
 - 銘柄: AMZN, TSLA, HD, MCD, NKE, LOW
-- 平均スコア: 53.17
-- 平均PER: 72.93
+- 平均スコア: 52.00
+- 平均PER: 73.07
 - 平均EPS: 9.00
-- 平均1Mモメンタム: -4.78%
+- 平均1Mモメンタム: -7.44%
 - ニュース件数: 60
 
 ### Trend
@@ -49,21 +49,21 @@
 
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| AMZN | Amazon.com, Inc. | 68.00 | 20.22 | 12.42 | -3.18% | 10 |
-| TSLA | Tesla, Inc. | 55.00 | 342.24 | 1.07 | 8.71% | 10 |
-| HD | The Home Depot, Inc. | 51.00 | 21.18 | 14.28 | -9.70% | 10 |
-| MCD | McDonald's Corporation | 37.00 | 20.20 | 12.30 | -6.27% | 10 |
-| NKE | NIKE, Inc. | 61.00 | 17.31 | 2.10 | -8.27% | 10 |
-| LOW | Lowe's Companies, Inc. | 47.00 | 16.43 | 11.82 | -9.95% | 10 |
+| AMZN | Amazon.com, Inc. | 70.00 | 20.41 | 12.43 | -4.56% | 10 |
+| TSLA | Tesla, Inc. | 54.00 | 343.65 | 1.06 | 3.75% | 10 |
+| HD | The Home Depot, Inc. | 51.00 | 21.01 | 14.28 | -12.23% | 10 |
+| MCD | McDonald's Corporation | 39.00 | 20.18 | 12.30 | -6.52% | 10 |
+| NKE | NIKE, Inc. | 50.00 | 16.91 | 2.10 | -12.58% | 10 |
+| LOW | Lowe's Companies, Inc. | 48.00 | 16.27 | 11.83 | -12.50% | 10 |
 
 ## Technology
 
 - 銘柄数: 12
 - 銘柄: AAPL, MSFT, NVDA, AMD, AVGO, ORCL, CRM, ADBE, QCOM, TXN, NOW, AMAT
-- 平均スコア: 68.50
-- 平均PER: 43.51
-- 平均EPS: 9.17
-- 平均1Mモメンタム: 4.32%
+- 平均スコア: 70.08
+- 平均PER: 43.70
+- 平均EPS: 9.18
+- 平均1Mモメンタム: 3.76%
 - ニュース件数: 120
 
 ### Trend
@@ -76,15 +76,15 @@
 
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| AAPL | Apple Inc. | 63.00 | 38.69 | 8.71 | 8.70% | 10 |
-| MSFT | Microsoft Corporation | 71.00 | 27.75 | 17.94 | 3.54% | 10 |
-| NVDA | NVIDIA Corporation | 76.00 | 27.73 | 7.91 | -0.07% | 10 |
-| AMD | Advanced Micro Devices, Inc. | 79.00 | 139.77 | 3.90 | 12.53% | 10 |
-| AVGO | Broadcom Inc. | 64.00 | 44.30 | 7.84 | -8.61% | 10 |
-| ORCL | Oracle Corporation | 67.00 | 23.60 | 6.38 | 5.46% | 10 |
-| CRM | Salesforce, Inc. | 70.00 | 22.24 | 10.92 | 23.81% | 10 |
-| ADBE | Adobe Inc. | 65.00 | 14.11 | 17.91 | -3.98% | 10 |
-| QCOM | QUALCOMM Incorporated | 80.00 | 21.59 | 8.74 | 18.45% | 10 |
-| TXN | Texas Instruments Incorporated | 63.00 | 39.29 | 6.57 | -5.18% | 10 |
-| NOW | ServiceNow, Inc. | 56.00 | 87.09 | 1.59 | 15.88% | 10 |
-| AMAT | Applied Materials, Inc. | 68.00 | 36.01 | 11.59 | -18.76% | 10 |
+| AAPL | Apple Inc. | 64.00 | 38.50 | 8.73 | 6.09% | 10 |
+| MSFT | Microsoft Corporation | 73.00 | 27.48 | 17.97 | 2.15% | 10 |
+| NVDA | NVIDIA Corporation | 78.00 | 28.06 | 7.92 | 2.28% | 10 |
+| AMD | Advanced Micro Devices, Inc. | 81.00 | 142.81 | 3.92 | 20.02% | 10 |
+| AVGO | Broadcom Inc. | 68.00 | 45.56 | 7.85 | -1.34% | 10 |
+| ORCL | Oracle Corporation | 63.00 | 23.10 | 6.39 | 2.64% | 10 |
+| CRM | Salesforce, Inc. | 74.00 | 21.77 | 10.93 | 15.65% | 10 |
+| ADBE | Adobe Inc. | 65.00 | 13.90 | 17.91 | -8.64% | 10 |
+| QCOM | QUALCOMM Incorporated | 75.00 | 20.29 | 8.76 | 10.36% | 10 |
+| TXN | Texas Instruments Incorporated | 70.00 | 40.52 | 6.58 | -0.30% | 10 |
+| NOW | ServiceNow, Inc. | 57.00 | 84.14 | 1.61 | 6.50% | 10 |
+| AMAT | Applied Materials, Inc. | 73.00 | 38.33 | 11.60 | -10.30% | 10 |

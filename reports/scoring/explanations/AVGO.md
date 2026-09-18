@@ -5,9 +5,9 @@
 ## Summary
 
 - Company: Broadcom Inc.
-- Total Score: 64 / 100
+- Total Score: 68 / 100
 - Confidence: High
-- Signal Strength: Moderate
+- Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
@@ -23,12 +23,12 @@ High
 
 ## Signal Strength
 
-Moderate
+Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 64 点を獲得し、シグナル充足率は 64.0% です。
-- シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
+- データが確認できた 100 点満点のうち 68 点を獲得し、シグナル充足率は 68.0% です。
+- シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
@@ -96,7 +96,7 @@ Evidence
 理由
 
 - PER はセクター内 85.71 パーセンタイル / 母数 15 で、相対的な加点は抑えています。
-- Forward PER はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。
+- Forward PER はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。
 - PEG はセクター内 6.67 パーセンタイル / 母数 16 で、相対的に割安寄りです。
 - PBR はセクター内 86.67 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
@@ -108,14 +108,14 @@ Evidence
 
 使用データ
 
-- trailing_pe: 44.2985
-- forward_pe: 17.9169
+- trailing_pe: 45.5554
+- forward_pe: 18.4488
 - peg_ratio: 0.3400
-- price_to_book: 16.6315
+- price_to_book: 17.1253
 - sector_peer_count: 16
 - trailing_pe_percentile: 85.7100
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 40.0000
+- forward_pe_percentile: 46.6700
 - forward_pe_peer_count: 16
 - peg_ratio_percentile: 6.6700
 - peg_ratio_peer_count: 16
@@ -124,15 +124,15 @@ Evidence
 
 ## Momentum
 
-5点
+6点
 
 理由
 
-- 1M の対SPY超過リターンは -7.97pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -14.65pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -5.57pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンは -19.65pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.98 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -0.39pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -14.93pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -3.84pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは -12.77pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.79 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -141,25 +141,25 @@ Evidence
 
 使用データ
 
-- 1M: -8.6053
-- 3M: -11.4661
-- 6M: 10.3344
-- 1Y: -2.8209
+- 1M: -1.3435
+- 3M: -12.9267
+- 6M: 12.2209
+- 1Y: 4.0617
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.63, '3M': 3.19, '6M': 15.91, '1Y': 16.83}
-- excess_returns: {'1M': -7.97, '3M': -14.65, '6M': -5.57, '1Y': -19.65}
-- latest_volume: 22,973,542.0000
-- average_volume_30d: 23,428,798.0667
+- benchmark_returns: {'1M': -0.96, '3M': 2.0, '6M': 16.06, '1Y': 16.83}
+- excess_returns: {'1M': -0.39, '3M': -14.93, '6M': -3.84, '1Y': -12.77}
+- latest_volume: 43,901,731.0000
+- average_volume_30d: 24,475,807.7000
 
 ## News
 
-14点
+17点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 1 件(純比率 +0.33)で、センチメントは 5.3 点です。
-- イベント後の平均株価反応が 2.29% とプラスです。
+- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が 2.97% とプラスです。
 
 Evidence
 
@@ -170,11 +170,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 2
-- negative_count: 1
-- sentiment_net_ratio: 0.3300
+- positive_count: 4
+- negative_count: 0
+- sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 6
+- events_with_price_reaction: 9
 
 ## Note
 

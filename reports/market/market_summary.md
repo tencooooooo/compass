@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 1.12%
+- 市場全体の1Mモメンタム平均: -0.52%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,39 +21,39 @@
 
 ### 注目ニュース
 
-- 2026-09-17T23:41:04+00:00 / AMD / Investor's Business Daily: Dow Jones Futures Fall After S&P 500, Nasdaq Rebound Above Key Level; Moderna, AMD, SpaceX Flash 投資判断表現 Signals
-- 2026-09-17T23:35:49+00:00 / AMD / Motley Fool: Why AMD Stock Jumped Today
-- 2026-09-17T23:25:52+00:00 / TSLA / TechCrunch: Crusoe raises $3.9B to build massive data centers and small modular “AI factories”
-- 2026-09-17T23:24:04+00:00 / NVDA / Motley Fool: Why Intel Stock Jumped 7.6% Today
-- 2026-09-17T23:21:09+00:00 / NVDA / Simply Wall St.: Nebius Group (NBIS) Raises AI Cloud Prices As Compute Demand Tests Customer Costs
+- 2026-09-18T23:35:58+00:00 / NVDA / Stocktwits: Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus
+- 2026-09-18T23:35:58+00:00 / TSLA / Stocktwits: Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus
+- 2026-09-18T23:21:54+00:00 / NVDA / Insider Monkey: Jim Cramer Said This AI Firm Has More Orders Than “Almost Anybody” Other Than NVIDIA
+- 2026-09-18T23:21:54+00:00 / AVGO / Insider Monkey: Jim Cramer Said This AI Firm Has More Orders Than “Almost Anybody” Other Than NVIDIA
+- 2026-09-18T23:12:18+00:00 / AAPL / Insider Monkey: Here’s A Stock That Jim Cramer Like Before But Now He Just Doesn’t Want To 投資判断表現 It
 
 ### 注目イベント
 
-- 2026-09-17T19:52:00+00:00 / AMD: Will 2026 Doom and Gloom Lead to Opportunity? (株価反応: 6.36%, 出来高: 28.33M)
-- 2026-09-17T19:50:20+00:00 / AMD: Update: US Equity Indexes Rise as Fed's Commitment to Controlling Inflation Sinks Treasury Yields (株価反応: 6.36%, 出来高: 28.33M)
-- 2026-09-17T19:13:00+00:00 / TMUS: Apple's iPhone 18 lineup keeps Bank of America bullish (株価反応: -5.57%, 出来高: 6.79M)
-- 2026-09-17T17:47:00+00:00 / TMUS: T-Mobile adds monthly fee to a new iPhone feature for customers (株価反応: -5.57%, 出来高: 6.79M)
-- 2026-09-17T14:07:51+00:00 / TMUS: Renewed Industry Competition Sparks T-Mobile US’s (TMUS) 投資判断表現-Off (株価反応: -5.57%, 出来高: 6.79M)
+- 2026-09-18T17:18:00+00:00 / AMAT: KLAC Gains From AI Infrastructure: Can It Outpace AMAT & ASML? (株価反応: 6.51%, 出来高: 14.16M)
+- 2026-09-18T16:59:44+00:00 / AMAT: Lam Research Climbs 5% as Chip Equipment Names Outrun the Sector; Applied Materials Rises 4%, KLA Corp. Gains 3% (株価反応: 6.51%, 出来高: 14.16M)
+- 2026-09-18T14:38:52+00:00 / AMAT: Eisman Says 投資判断表現 Micron And SK Hynix. “In This Knife Fight You Want To Be The One 投資判断表現 The Knives” (株価反応: 6.51%, 出来高: 14.16M)
+- 2026-09-18T13:30:00+00:00 / AMAT: ASML Rides on Strength in Installed Base Business: Will it Sustain? (株価反応: 6.51%, 出来高: 14.16M)
+- 2026-09-18T10:08:00+00:00 / AMAT: The Zacks Analyst Blog Highlights Applied Materials, Philip Morris, Valero Energy, Crimson Wine and Global Self Storage (株価反応: 6.51%, 出来高: 14.16M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 56.83 | 18.89 | 11.19 | 0.62% | 60 |
-| Consumer Cyclical | 6 | 53.17 | 72.93 | 9.00 | -4.78% | 60 |
-| Technology | 12 | 68.50 | 43.51 | 9.17 | 4.32% | 120 |
+| Communication Services | 6 | 54.50 | 18.54 | 11.20 | -2.14% | 60 |
+| Consumer Cyclical | 6 | 52.00 | 73.07 | 9.00 | -7.44% | 60 |
+| Technology | 12 | 70.08 | 43.70 | 9.18 | 3.76% | 120 |
 
 ## 市場トレンド
 
 | セクター | Momentum | News | Financial Health |
 | --- | --- | --- | --- |
-| Communication Services | Positive | High | Good |
+| Communication Services | Weak | High | Good |
 | Consumer Cyclical | Weak | High | Neutral |
 | Technology | Positive | High | Good |
 
 ## 市場心理
 
-市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 240 件で、ポジティブなモメンタムのセクターは 2/3 です。
+市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 240 件で、ポジティブなモメンタムのセクターは 1/3 です。
 
 参照Knowledge: market_psychology.md
 
