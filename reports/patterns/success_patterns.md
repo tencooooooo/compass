@@ -20,6 +20,6 @@ Pattern candidates require human review before Knowledge updates.
 
 - Confidence: Low
 - Evidence: Companies in sectors with positive average 1M momentum.
-- Companies: AAPL, ACN, ADBE, AMAT, AMD, AVGO, CHTR, CMCSA, CRM, CSCO, DIS, EA, GOOGL, INTC, META, MSFT, MU, NFLX, NOW, NVDA, ORCL, QCOM, T, TMUS, TXN, VZ
+- Companies: AAPL, ACN, ADBE, AMAT, AMD, AVGO, CRM, CSCO, INTC, MSFT, MU, NOW, NVDA, ORCL, QCOM, TXN
 - Knowledge update: candidate only
 

@@ -1,9 +1,9 @@
 # Cybersecurity
 
-- Target companies: 10
-- Average Score: 64.29
-- Average Discovery: 71.33
-- Momentum: 2.78
+- Target companies: 9
+- Average Score: 69.50
+- Average Discovery: 73.00
+- Momentum: 3.57
 - Confidence: Medium
 
 ## Companies
@@ -12,33 +12,32 @@
 - AVGO - Broadcom Inc. (High): Keyword: cybersecurity; Keyword: security; Keyword: identity; Sector alignment: Technology
 - CSCO - Cisco Systems, Inc. (Medium): Keyword: security; Keyword: identity; Sector alignment: Technology
 - GOOGL - Alphabet Inc. (Low): Keyword: cybersecurity
-- META - Meta Platforms, Inc. (Low): Keyword: threat
-- MSFT - Microsoft Corporation (Medium): Keyword: security; Sector alignment: Technology
-- NFLX - Netflix, Inc. (Low): Keyword: threat
+- MSFT - Microsoft Corporation (Medium): Keyword: cybersecurity; Keyword: security; Sector alignment: Technology
 - NOW - ServiceNow, Inc. (Medium): Keyword: security; Sector alignment: Technology
+- NVDA - NVIDIA Corporation (Medium): Keyword: cybersecurity; Sector alignment: Technology
 - QCOM - QUALCOMM Incorporated (Medium): Keyword: security; Sector alignment: Technology
 - VZ - Verizon Communications Inc. (Low): Keyword: security
 
 ## Market
 
-- Communication Services: score 60.17, momentum 3.42, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
-- Technology: score 68.75, momentum 2.05, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 54.50, momentum -2.14, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 70.08, momentum 3.76, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- GOOGL: Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm Buying Now.
-- MSFT: Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm Buying Now.
-- AVGO: Broadcom’s Custom AI Chip Boom Has a Powerful Landlord: TSM
-- META: Broadcom’s Custom AI Chip Boom Has a Powerful Landlord: TSM
-- MSFT: S&P 500, Dow Break Past Four-Day Loss To End Higher As Investors Eye Fed Meeting Next Week — DELL, HPE, EL, WMT In Focus
+- NVDA: Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus
+- AVGO: Jim Cramer Said This AI Firm Has More Orders Than “Almost Anybody” Other Than NVIDIA
+- MSFT: CRWD Stock Keeps Climbing. Should You Climb On?
+- GOOGL: IONQ Stock Surges On Tech Wins, But The Heavy Burn Persists
+- MSFT: How Low Can UiPath Stock Go When Its Numbers Are Not The Problem?
 
 ## Similar Themes
 
-- AI: 0.999 (Shared companies: ACN, AVGO, CSCO, GOOGL, META; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
-- Cloud: 0.999 (Shared companies: ACN, AVGO, CSCO, GOOGL, META; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
-- Space: 0.999 (Shared companies: GOOGL, META; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
-- Energy: 0.994 (Shared companies: ACN, AVGO, NOW; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.982 (Shared companies: AVGO, META, QCOM; Shared sectors: Communication Services, Technology; Similar short-term momentum)
+- Robotics: 0.999 (Shared companies: ACN, AVGO, NOW, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Space: 0.999 (Shared companies: AVGO, NOW, QCOM; Shared sectors: Communication Services, Technology; Similar average Discovery score)
+- EV: 0.995 (Shared companies: NVDA; Shared sectors: Technology; Similar short-term momentum)
+- Energy: 0.995 (Shared companies: ACN, AVGO, NVDA, QCOM; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cloud: 0.992 (Shared companies: ACN, AVGO, CSCO, GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
 
 ## Review Note
 

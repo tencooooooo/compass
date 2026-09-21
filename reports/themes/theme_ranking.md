@@ -2,86 +2,86 @@
 
 Ranking combines Score, Discovery, momentum, validation, and theme breadth.
 
-## 1. Cloud
+## 1. AI
 
-- Momentum: 2.48
-- Discovery companies: 20
-- Validation: Excellent 203, Good 46, Neutral 1711, Poor 255
-- Ranking score: 909.96
-
-## 2. AI
-
-- Momentum: 1.59
+- Momentum: 4.38
 - Discovery companies: 22
-- Validation: Excellent 187, Good 37, Neutral 1609, Poor 237
-- Ranking score: 834.67
+- Validation: Excellent 252, Good 55, Neutral 1974, Poor 294
+- Ranking score: 1086.67
+
+## 2. Cloud
+
+- Momentum: 5.38
+- Discovery companies: 20
+- Validation: Excellent 246, Good 55, Neutral 1886, Poor 278
+- Ranking score: 1069.57
 
 ## 3. Semiconductor
 
-- Momentum: -0.56
-- Discovery companies: 10
-- Validation: Excellent 120, Good 22, Neutral 857, Poor 106
-- Ranking score: 582.92
+- Momentum: 4.88
+- Discovery companies: 14
+- Validation: Excellent 160, Good 45, Neutral 1347, Poor 198
+- Ranking score: 778.05
 
-## 4. Space
+## 4. Energy
 
-- Momentum: 3.39
-- Discovery companies: 8
-- Validation: Excellent 101, Good 26, Neutral 774, Poor 144
-- Ranking score: 528.21
+- Momentum: 3.83
+- Discovery companies: 13
+- Validation: Excellent 138, Good 32, Neutral 1060, Poor 150
+- Ranking score: 669.76
 
 ## 5. Cybersecurity
 
-- Momentum: 2.78
-- Discovery companies: 10
-- Validation: Excellent 82, Good 16, Neutral 734, Poor 108
-- Ranking score: 442.4
+- Momentum: 3.57
+- Discovery companies: 9
+- Validation: Excellent 119, Good 28, Neutral 838, Poor 105
+- Ranking score: 596.07
 
 ## 6. Robotics
 
-- Momentum: 0.42
-- Discovery companies: 9
-- Validation: Excellent 66, Good 12, Neutral 491, Poor 41
-- Ranking score: 377.62
+- Momentum: 2.56
+- Discovery companies: 8
+- Validation: Excellent 76, Good 13, Neutral 597, Poor 69
+- Ranking score: 417.27
 
-## 7. EV
+## 7. Space
 
-- Momentum: -2.67
-- Discovery companies: 4
-- Validation: Excellent 50, Good 8, Neutral 285, Poor 32
-- Ranking score: 322.5
+- Momentum: 8.80
+- Discovery companies: 7
+- Validation: Excellent 75, Good 8, Neutral 616, Poor 56
+- Ranking score: 400.4
 
-## 8. Energy
+## 8. Quantum Computing
 
-- Momentum: 0.04
-- Discovery companies: 9
-- Validation: Excellent 35, Good 11, Neutral 414, Poor 60
-- Ranking score: 274.58
-
-## 9. Healthcare
-
-- Momentum: 17.11
+- Momentum: 1.87
 - Discovery companies: 2
-- Validation: Excellent 12, Good 1, Neutral 136, Poor 11
-- Ranking score: 199.11
+- Validation: Excellent 57, Good 20, Neutral 406, Poor 72
+- Ranking score: 386.87
 
-## 10. Fintech
+## 9. EV
 
-- Momentum: N/A
+- Momentum: 0.99
+- Discovery companies: 4
+- Validation: Excellent 52, Good 9, Neutral 325, Poor 39
+- Ranking score: 335.32
+
+## 10. Biotechnology
+
+- Momentum: 20.02
 - Discovery companies: 1
-- Validation: Excellent 0, Good 0, Neutral 0, Poor 0
-- Ranking score: 1.0
+- Validation: Excellent 32, Good 6, Neutral 207, Poor 45
+- Ranking score: 305.02
 
-## 11. Biotechnology
+## 11. Fintech
 
-- Momentum: N/A
-- Discovery companies: 0
-- Validation: Excellent 0, Good 0, Neutral 0, Poor 0
-- Ranking score: 0.0
+- Momentum: 21.93
+- Discovery companies: 2
+- Validation: Excellent 32, Good 2, Neutral 170, Poor 26
+- Ranking score: 259.93
 
-## 12. Quantum Computing
+## 12. Healthcare
 
-- Momentum: N/A
-- Discovery companies: 0
-- Validation: Excellent 0, Good 0, Neutral 0, Poor 0
-- Ranking score: 0.0
+- Momentum: 11.07
+- Discovery companies: 3
+- Validation: Excellent 20, Good 1, Neutral 167, Poor 12
+- Ranking score: 200.74

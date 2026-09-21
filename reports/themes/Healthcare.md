@@ -1,35 +1,37 @@
 # Healthcare
 
-- Target companies: 2
-- Average Score: 67.50
-- Average Discovery: 73.50
-- Momentum: 17.11
+- Target companies: 3
+- Average Score: 56.67
+- Average Discovery: 67.00
+- Momentum: 11.07
 - Confidence: Medium
 
 ## Companies
 
 - CRM - Salesforce, Inc. (Low): Keyword: healthcare
+- MCD - McDonald's Corporation (Low): Keyword: patient
 - NOW - ServiceNow, Inc. (Low): Keyword: healthcare
 
 ## Market
 
-- Technology: score 68.75, momentum 2.05, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 52.00, momentum -7.44, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 70.08, momentum 3.76, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- CRM: Adobe Beat and Raised but Fell. Salesforce Shows What Investors Now Demand From AI Software
-- NOW: ServiceNow (NOW) Outperforms Broader Market: What You Need to Know
-- CRM: Salesforce Jumps 2.4% as Slack Builds Dashboards Inside Chats
-- CRM: Adobe vs. Salesforce: Which Software Stock Is a Better Buy in 2026?
-- NOW: Is Salesforce Stock Cheap Because Software Is Dying?
+- NOW: How Low Can UiPath Stock Go When Its Numbers Are Not The Problem?
+- NOW: ServiceNow (NOW) Stock Falls Amid Market Uptick: What Investors Need to Know
+- MCD: McDonald’s Stock’s Dividend Yield Hits 3.06%, Its Highest Mark on Record. Here’s Where Shares Could Go Further.
+- CRM: How Atlassian Stock Shook Off 'SaaSpocalypse' AI Fears For A Big Rally
+- NOW: Why Salesforce’s Homegrown AI Model Won’t Move the Stock Until 2027
 
 ## Similar Themes
 
-- EV: 0.91 (Shared sectors: Technology)
-- Energy: 0.895 (Shared companies: NOW; Shared sectors: Technology; Similar average Discovery score)
-- Robotics: 0.89 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar average Discovery score)
-- Semiconductor: 0.886 (Shared sectors: Technology; Similar average Discovery score)
-- Cybersecurity: 0.884 (Shared companies: NOW; Shared sectors: Technology; Similar average Discovery score)
+- Fintech: 0.981 (Shared sectors: Technology; Similar average Discovery score)
+- EV: 0.975 (Shared sectors: Consumer Cyclical, Technology)
+- Space: 0.964 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Robotics: 0.956 (Shared companies: CRM, NOW; Shared sectors: Consumer Cyclical, Technology)
+- Cybersecurity: 0.95 (Shared companies: NOW; Shared sectors: Technology)
 
 ## Review Note
 

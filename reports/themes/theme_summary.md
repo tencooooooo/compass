@@ -5,143 +5,155 @@ Theme Intelligence connects market, sector, company, Discovery, and Pattern cont
 ## AI
 
 - Target companies: 22
-- Average Score: 65.94
-- Average Discovery: 73.14
-- Market status: Communication Services Positive, Consumer Cyclical Weak, Technology Positive
-- Representative companies: AMD, NVDA, CRM
+- Average Score: 66.22
+- Average Discovery: 73.07
+- Market status: Communication Services Weak, Consumer Cyclical Weak, Technology Positive
+- Representative companies: AMD, NVDA, AMAT
 - Confidence: High
 - Major news:
-  - NVDA: Nvidia Is Letting Rival AI Chips Into Its Racks. Astera Labs Could Be the Quiet Winner
-  - GOOGL: Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm Buying Now.
-  - MSFT: Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm Buying Now.
+  - NVDA: Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus
+  - TSLA: Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus
+  - AVGO: Jim Cramer Said This AI Firm Has More Orders Than “Almost Anybody” Other Than NVIDIA
 
 ## Biotechnology
 
-- Target companies: 0
-- Average Score: N/A
-- Average Discovery: N/A
-- Market status: Unknown
-- Representative companies: None
-- Confidence: Low
+- Target companies: 1
+- Average Score: 81.00
+- Average Discovery: 89.00
+- Market status: Technology Positive
+- Representative companies: AMD
+- Confidence: Medium
+- Major news:
+  - AMD: Dow Jones Futures: Market Still Choppy; Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas
+  - AMD: The ARK Trade Watch: Cathie Wood Cuts Crypto Exposure, Then Reverses Course On CoreWeave
+  - AMD: AMD (AMD) Stock Looks Cheap After Its Huge 3 Year Run
 
 ## Cloud
 
 - Target companies: 20
 - Average Score: 67.19
-- Average Discovery: 73.29
-- Market status: Communication Services Positive, Consumer Cyclical Weak, Technology Positive
-- Representative companies: AMD, NVDA, CRM
+- Average Discovery: 74.00
+- Market status: Communication Services Weak, Consumer Cyclical Weak, Technology Positive
+- Representative companies: AMD, NVDA, AMAT
 - Confidence: High
 - Major news:
-  - NVDA: Nvidia Is Letting Rival AI Chips Into Its Racks. Astera Labs Could Be the Quiet Winner
-  - AAPL: Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm Buying Now.
-  - GOOGL: Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm Buying Now.
+  - NVDA: Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus
+  - AVGO: Jim Cramer Said This AI Firm Has More Orders Than “Almost Anybody” Other Than NVIDIA
+  - ORCL: Jim Cramer Said The Strength In Oracle (ORCL)’s Shares Was A “Positive Sign”
 
 ## Cybersecurity
 
-- Target companies: 10
-- Average Score: 64.29
-- Average Discovery: 71.33
-- Market status: Communication Services Positive, Technology Positive
-- Representative companies: QCOM, META, GOOGL
+- Target companies: 9
+- Average Score: 69.50
+- Average Discovery: 73.00
+- Market status: Communication Services Weak, Technology Positive
+- Representative companies: NVDA, QCOM, MSFT
 - Confidence: Medium
 - Major news:
-  - GOOGL: Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm Buying Now.
-  - MSFT: Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm Buying Now.
-  - AVGO: Broadcom’s Custom AI Chip Boom Has a Powerful Landlord: TSM
+  - NVDA: Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus
+  - AVGO: Jim Cramer Said This AI Firm Has More Orders Than “Almost Anybody” Other Than NVIDIA
+  - MSFT: CRWD Stock Keeps Climbing. Should You Climb On?
 
 ## EV
 
 - Target companies: 4
-- Average Score: 67.67
-- Average Discovery: 79.50
+- Average Score: 67.33
+- Average Discovery: 80.00
 - Market status: Consumer Cyclical Weak, Technology Positive
 - Representative companies: NVDA, TXN, TSLA
 - Confidence: Medium
 - Major news:
-  - NVDA: Nvidia Is Letting Rival AI Chips Into Its Racks. Astera Labs Could Be the Quiet Winner
-  - TSLA: Tesla Gains as Semi Opens a $17 Billion Software Door
-  - TSLA: Jason Calacanis Warns Chinese EVs Could End US Auto Industry: ‘Consumers Will Love to Buy These Cars’
+  - NVDA: Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus
+  - TSLA: Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus
+  - TSLA: Tesla, Inc. (TSLA) Eyes Europe’s Electric Truck Boom With Semi Expansion
 
 ## Energy
 
-- Target companies: 9
-- Average Score: 57.29
-- Average Discovery: 70.25
-- Market status: Consumer Cyclical Weak, Technology Positive
-- Representative companies: TXN, AAPL, NOW
+- Target companies: 13
+- Average Score: 65.64
+- Average Discovery: 77.29
+- Market status: Communication Services Weak, Consumer Cyclical Weak, Technology Positive
+- Representative companies: AMD, NVDA, AMAT
 - Confidence: Medium
 - Major news:
-  - AAPL: Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm Buying Now.
-  - AVGO: Broadcom’s Custom AI Chip Boom Has a Powerful Landlord: TSM
-  - AAPL: Dow Jones Futures: $100 Oil, Surging Yields Pressure Stocks With Fed Rate Hike Seen. Apple, Moderna Are New Buys.
+  - NVDA: Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus
+  - TSLA: Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus
+  - AVGO: Jim Cramer Said This AI Firm Has More Orders Than “Almost Anybody” Other Than NVIDIA
 
 ## Fintech
 
-- Target companies: 1
-- Average Score: N/A
-- Average Discovery: N/A
-- Market status: Technology Positive
-- Representative companies: ACN
+- Target companies: 2
+- Average Score: 65.00
+- Average Discovery: 69.00
+- Market status: Communication Services Weak, Technology Positive
+- Representative companies: META, ACN
 - Confidence: Medium
+- Major news:
+  - META: What Happens To Reddit Stock If Search Keeps Sending Fewer People?
+  - META: S&P 500 Posts Slight Weekly Decline as Utilities Weigh
+  - META: 'Astonishing theft of unprecedented proportions': NYT vs. OpenAI, Microsoft lawsuit
 
 ## Healthcare
 
-- Target companies: 2
-- Average Score: 67.50
-- Average Discovery: 73.50
-- Market status: Technology Positive
-- Representative companies: CRM, NOW
+- Target companies: 3
+- Average Score: 56.67
+- Average Discovery: 67.00
+- Market status: Consumer Cyclical Weak, Technology Positive
+- Representative companies: CRM, NOW, MCD
 - Confidence: Medium
 - Major news:
-  - CRM: Adobe Beat and Raised but Fell. Salesforce Shows What Investors Now Demand From AI Software
-  - NOW: ServiceNow (NOW) Outperforms Broader Market: What You Need to Know
-  - CRM: Salesforce Jumps 2.4% as Slack Builds Dashboards Inside Chats
+  - NOW: How Low Can UiPath Stock Go When Its Numbers Are Not The Problem?
+  - NOW: ServiceNow (NOW) Stock Falls Amid Market Uptick: What Investors Need to Know
+  - MCD: McDonald’s Stock’s Dividend Yield Hits 3.06%, Its Highest Mark on Record. Here’s Where Shares Could Go Further.
 
 ## Quantum Computing
 
-- Target companies: 0
-- Average Score: N/A
-- Average Discovery: N/A
-- Market status: Unknown
-- Representative companies: None
-- Confidence: Low
+- Target companies: 2
+- Average Score: 72.00
+- Average Discovery: 80.00
+- Market status: Communication Services Weak, Technology Positive
+- Representative companies: NVDA, GOOGL
+- Confidence: Medium
+- Major news:
+  - NVDA: Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus
+  - GOOGL: IONQ Stock Surges On Tech Wins, But The Heavy Burn Persists
+  - GOOGL: Sam Altman's Worldcoin just launched a global stablecoin app: What to know
 
 ## Robotics
 
-- Target companies: 9
-- Average Score: 62.00
-- Average Discovery: 72.20
+- Target companies: 8
+- Average Score: 66.71
+- Average Discovery: 73.00
 - Market status: Consumer Cyclical Weak, Technology Positive
-- Representative companies: NVDA, CRM, AMAT
+- Representative companies: NVDA, AMAT, CRM
 - Confidence: Medium
 - Major news:
-  - NVDA: Nvidia Is Letting Rival AI Chips Into Its Racks. Astera Labs Could Be the Quiet Winner
-  - AVGO: Broadcom’s Custom AI Chip Boom Has a Powerful Landlord: TSM
-  - AVGO: TSM Just Posted Record Sales. Nvidia May Be Both the Winner and the One Paying for It
+  - NVDA: Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus
+  - TSLA: Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus
+  - AVGO: Jim Cramer Said This AI Firm Has More Orders Than “Almost Anybody” Other Than NVIDIA
 
 ## Semiconductor
 
-- Target companies: 10
-- Average Score: 70.62
-- Average Discovery: 76.86
-- Market status: Communication Services Positive, Technology Positive
-- Representative companies: AMD, NVDA, QCOM
+- Target companies: 14
+- Average Score: 67.50
+- Average Discovery: 76.67
+- Market status: Communication Services Weak, Consumer Cyclical Weak, Technology Positive
+- Representative companies: AMD, NVDA, AMAT
 - Confidence: High
 - Major news:
-  - NVDA: Nvidia Is Letting Rival AI Chips Into Its Racks. Astera Labs Could Be the Quiet Winner
-  - AVGO: Broadcom’s Custom AI Chip Boom Has a Powerful Landlord: TSM
-  - META: Broadcom’s Custom AI Chip Boom Has a Powerful Landlord: TSM
+  - NVDA: Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus
+  - AVGO: Jim Cramer Said This AI Firm Has More Orders Than “Almost Anybody” Other Than NVIDIA
+  - ORCL: Jim Cramer Said The Strength In Oracle (ORCL)’s Shares Was A “Positive Sign”
 
 ## Space
 
-- Target companies: 8
-- Average Score: 63.62
-- Average Discovery: 72.20
-- Market status: Communication Services Positive, Consumer Cyclical Weak, Technology Positive
-- Representative companies: NVDA, META, AAPL
+- Target companies: 7
+- Average Score: 65.43
+- Average Discovery: 70.17
+- Market status: Communication Services Weak, Technology Positive
+- Representative companies: QCOM, TXN, CRM
 - Confidence: Medium
 - Major news:
-  - NVDA: Nvidia Is Letting Rival AI Chips Into Its Racks. Astera Labs Could Be the Quiet Winner
-  - AAPL: Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm Buying Now.
-  - GOOGL: Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm Buying Now.
+  - AVGO: Jim Cramer Said This AI Firm Has More Orders Than “Almost Anybody” Other Than NVIDIA
+  - NOW: How Low Can UiPath Stock Go When Its Numbers Are Not The Problem?
+  - NOW: ServiceNow (NOW) Stock Falls Amid Market Uptick: What Investors Need to Know

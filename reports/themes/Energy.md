@@ -1,43 +1,48 @@
 # Energy
 
-- Target companies: 9
-- Average Score: 57.29
-- Average Discovery: 70.25
-- Momentum: 0.04
+- Target companies: 13
+- Average Score: 65.64
+- Average Discovery: 77.29
+- Momentum: 3.83
 - Confidence: Medium
 
 ## Companies
 
 - AAPL - Apple Inc. (Low): Keyword: oil
 - ACN - Accenture plc (Low): Keyword: energy
+- AMAT - Applied Materials, Inc. (Medium): Keyword: energy; Keyword: oil
+- AMD - Advanced Micro Devices, Inc. (Low): Keyword: oil
 - AVGO - Broadcom Inc. (Low): Keyword: energy
-- HD - The Home Depot, Inc. (Medium): Keyword: energy; Keyword: oil
-- MCD - McDonald's Corporation (Medium): Keyword: energy; Keyword: oil
-- NOW - ServiceNow, Inc. (Low): Keyword: oil
+- LOW - Lowe's Companies, Inc. (Low): Keyword: energy
+- NFLX - Netflix, Inc. (Low): Keyword: oil
+- NVDA - NVIDIA Corporation (Medium): Keyword: energy; Keyword: oil
+- ORCL - Oracle Corporation (Low): Keyword: energy
 - ORLY - O'Reilly Automotive, Inc. (Medium): Keyword: battery; Keyword: oil
-- TSLA - Tesla, Inc. (Medium): Keyword: energy; Keyword: battery; Keyword: solar
+- QCOM - QUALCOMM Incorporated (Low): Keyword: oil
+- TSLA - Tesla, Inc. (High): Keyword: energy; Keyword: battery; Keyword: solar; Keyword: oil
 - TXN - Texas Instruments Incorporated (Low): Keyword: battery
 
 ## Market
 
-- Consumer Cyclical: score 52.00, momentum -4.43, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
-- Technology: score 68.75, momentum 2.05, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 54.50, momentum -2.14, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 52.00, momentum -7.44, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 70.08, momentum 3.76, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- AAPL: Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm Buying Now.
-- AVGO: Broadcom’s Custom AI Chip Boom Has a Powerful Landlord: TSM
-- AAPL: Dow Jones Futures: $100 Oil, Surging Yields Pressure Stocks With Fed Rate Hike Seen. Apple, Moderna Are New Buys.
-- AVGO: TSM Just Posted Record Sales. Nvidia May Be Both the Winner and the One Paying for It
-- AVGO: Marvell CEO reveals decade-long gem behind its explosive 239% surge
+- NVDA: Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus
+- TSLA: Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus
+- AVGO: Jim Cramer Said This AI Firm Has More Orders Than “Almost Anybody” Other Than NVIDIA
+- ORCL: Jim Cramer Said The Strength In Oracle (ORCL)’s Shares Was A “Positive Sign”
+- TSLA: Tesla, Inc. (TSLA) Eyes Europe’s Electric Truck Boom With Semi Expansion
 
 ## Similar Themes
 
-- Cybersecurity: 0.994 (Shared companies: ACN, AVGO, NOW; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Space: 0.992 (Shared companies: AAPL, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- AI: 0.99 (Shared companies: ACN, AVGO, NOW, TSLA, TXN; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Cloud: 0.987 (Shared companies: AAPL, ACN, AVGO, NOW, TXN; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.959 (Shared companies: AVGO, TXN; Shared sectors: Technology; Similar short-term momentum)
+- Cloud: 1.0 (Shared companies: AAPL, ACN, AMAT, AMD, AVGO; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- AI: 0.999 (Shared companies: AAPL, ACN, AMAT, AMD, AVGO; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Semiconductor: 0.999 (Shared companies: AAPL, AMAT, AMD, AVGO, NFLX; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Quantum Computing: 0.997 (Shared companies: NVDA; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- Robotics: 0.997 (Shared companies: ACN, AMAT, AVGO, NVDA, ORCL; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
 
 ## Review Note
 
