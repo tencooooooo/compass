@@ -26,8 +26,8 @@ Experiment Engine compares baseline and candidate Compass versions using reprodu
 - Baseline: primary-selection-current
 - Candidate: primary-selection-news-cap
 - Status: Completed
-- Winner: Tie
-- Reason: Baseline and candidate are tied on comparable metrics.
+- Winner: Baseline
+- Reason: Baseline wins 5.0 metrics vs candidate 0.0.
 
 ## EXP-OVEREXT-001 - Overextension Guard (Taper + News Cap)
 
