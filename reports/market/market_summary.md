@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-09-18T23:35:58+00:00 / NVDA / Stocktwits: Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus
-- 2026-09-18T23:35:58+00:00 / TSLA / Stocktwits: Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus
-- 2026-09-18T23:21:54+00:00 / NVDA / Insider Monkey: Jim Cramer Said This AI Firm Has More Orders Than “Almost Anybody” Other Than NVIDIA
-- 2026-09-18T23:21:54+00:00 / AVGO / Insider Monkey: Jim Cramer Said This AI Firm Has More Orders Than “Almost Anybody” Other Than NVIDIA
-- 2026-09-18T23:12:18+00:00 / AAPL / Insider Monkey: Here’s A Stock That Jim Cramer Like Before But Now He Just Doesn’t Want To 投資判断表現 It
+- 2026-09-22T00:14:22+00:00 / NVDA / Investor's Business Daily: Dow Jones Futures: Falling Oil Prices, Yields Spark Market Rally; AMD, Intel, Micron, Nvidia, Sandisk Are Key Movers
+- 2026-09-22T00:14:22+00:00 / AMD / Investor's Business Daily: Dow Jones Futures: Falling Oil Prices, Yields Spark Market Rally; AMD, Intel, Micron, Nvidia, Sandisk Are Key Movers
+- 2026-09-22T00:05:00+00:00 / AAPL / Zacks: Should Investors Chase the AI-Fueled Rally in AMD or META Stock?
+- 2026-09-22T00:05:00+00:00 / NVDA / Zacks: Should Investors Chase the AI-Fueled Rally in AMD or META Stock?
+- 2026-09-22T00:05:00+00:00 / AMD / Zacks: Should Investors Chase the AI-Fueled Rally in AMD or META Stock?
 
 ### 注目イベント
 
-- 2026-09-18T17:18:00+00:00 / AMAT: KLAC Gains From AI Infrastructure: Can It Outpace AMAT & ASML? (株価反応: 6.51%, 出来高: 14.16M)
-- 2026-09-18T16:59:44+00:00 / AMAT: Lam Research Climbs 5% as Chip Equipment Names Outrun the Sector; Applied Materials Rises 4%, KLA Corp. Gains 3% (株価反応: 6.51%, 出来高: 14.16M)
-- 2026-09-18T14:38:52+00:00 / AMAT: Eisman Says 投資判断表現 Micron And SK Hynix. “In This Knife Fight You Want To Be The One 投資判断表現 The Knives” (株価反応: 6.51%, 出来高: 14.16M)
-- 2026-09-18T13:30:00+00:00 / AMAT: ASML Rides on Strength in Installed Base Business: Will it Sustain? (株価反応: 6.51%, 出来高: 14.16M)
-- 2026-09-18T10:08:00+00:00 / AMAT: The Zacks Analyst Blog Highlights Applied Materials, Philip Morris, Valero Energy, Crimson Wine and Global Self Storage (株価反応: 6.51%, 出来高: 14.16M)
+- 2026-09-18T17:18:00+00:00 / AMAT: KLAC Gains From AI Infrastructure: Can It Outpace AMAT & ASML? (株価反応: 6.51%, 出来高: 14.28M)
+- 2026-09-18T16:59:44+00:00 / AMAT: Lam Research Climbs 5% as Chip Equipment Names Outrun the Sector; Applied Materials Rises 4%, KLA Corp. Gains 3% (株価反応: 6.51%, 出来高: 14.28M)
+- 2026-09-18T14:03:30+00:00 / TXN: What Needs To Be True To 投資判断表現 Qualcomm Stock Now? (株価反応: 3.29%, 出来高: 19.05M)
+- 2026-09-18T12:00:32+00:00 / TXN: 5 Stocks, 5 Different Industries, 1 Thing in Common: Reliable Income (株価反応: 3.29%, 出来高: 19.05M)
+- 2026-09-17T20:37:51+00:00 / TXN: ON Semiconductor Stock Is Already Half Off Its High, So How Low Could A Market Shock Take It? (株価反応: 3.29%, 出来高: 19.05M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 54.50 | 18.54 | 11.20 | -2.14% | 60 |
-| Consumer Cyclical | 6 | 52.00 | 73.07 | 9.00 | -7.44% | 60 |
-| Technology | 12 | 70.08 | 43.70 | 9.18 | 3.76% | 120 |
+| Communication Services | 6 | 57.67 | 19.16 | 11.20 | -2.14% | 60 |
+| Consumer Cyclical | 6 | 53.00 | 73.23 | 9.01 | -7.44% | 60 |
+| Technology | 12 | 68.67 | 45.60 | 9.17 | 3.76% | 120 |
 
 ## 市場トレンド
 

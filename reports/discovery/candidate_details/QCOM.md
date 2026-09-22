@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-76 / 100
+72 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 17/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで +11.32pt と、市場を大きく上回っています。
-- 3Mモメンタムは対SPYで -22.98pt と弱く、候補評価では注意点です。
-- 6Mモメンタムは対SPYで +20.56pt と、市場を大きく上回っています。
+- 1Mモメンタムは対SPYで +11.07pt と、市場を大きく上回っています。
+- 3Mモメンタムは対SPYで -23.23pt と弱く、候補評価では注意点です。
+- 6Mモメンタムは対SPYで +20.27pt と、市場を大きく上回っています。
 
 ## Strengths
 
@@ -33,7 +33,7 @@
 
 ## Watch Points
 
-- イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。
+- Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Technology セクター全体の需要変化と競争環境を確認する必要があります。
@@ -42,11 +42,11 @@
 
 ## Confidence
 
-High
+Medium
 
 ## Signal Strength
 
-Strong(シグナル充足率: 76.15%)
+Strong(シグナル充足率: 75.26%)
 
 ## Evidence
 
@@ -61,24 +61,24 @@ Strong(シグナル充足率: 76.15%)
 
 ## Missing Data
 
-- N/A
+- event_price_reaction
 
 ## Metrics
 
-- scoring_total: 75.0
-- signal_earned_points: 76.15
-- signal_max_points: 100.0
+- scoring_total: 74.0
+- signal_earned_points: 71.5
+- signal_max_points: 95.0
 - weak_signals: []
 - scoring_signal_strength: Strong
 - growth_score: 17.0
 - financial_health_score: 17.0
-- valuation_score: 16.0
-- news_score: 12.0
-- momentum: {'1m': 10.362082858609128, '3m': -20.973309236204425, '6m': 36.61428853774644, '1y': 9.779145855200454}
+- valuation_score: 14.0
+- news_score: 13.0
+- momentum: {'1m': 10.362082858609128, '3m': -20.973309236204425, '6m': 36.61427251356107, '1y': 9.779135507986823}
 - benchmark: SPY
-- excess_momentum: {'1m': 11.32, '3m': -22.98, '6m': 20.56, '1y': -7.05}
-- positive_news: 5
+- excess_momentum: {'1m': 11.07, '3m': -23.23, '6m': 20.27, '1y': -7.34}
+- positive_news: 4
 - watch_news: 0
 - event_count: 10
-- events_with_reaction: 10
-- sector_average_score: 70.08333333333333
+- events_with_reaction: 0
+- sector_average_score: 68.66666666666667

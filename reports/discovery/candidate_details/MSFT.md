@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-75 / 100
+70 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 18/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 10/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで +3.11pt と、市場並み以上です。
-- 3Mモメンタムは対SPYで +28.39pt と、市場を大きく上回っています。
-- 6Mモメンタムは対SPYで +11.39pt と、市場を大きく上回っています。
+- 1Mモメンタムは対SPYで +2.86pt と、市場並み以上です。
+- 3Mモメンタムは対SPYで +28.14pt と、市場を大きく上回っています。
+- 6Mモメンタムは対SPYで +11.10pt と、市場を大きく上回っています。
 
 ## Strengths
 
@@ -33,8 +33,8 @@
 
 ## Watch Points
 
-- 注意材料になり得るニュース表現が 2 件あります。
-- イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。
+- 注意材料になり得るニュース表現が 1 件あります。
+- Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Technology セクター全体の需要変化と競争環境を確認する必要があります。
@@ -43,11 +43,11 @@
 
 ## Confidence
 
-High
+Medium
 
 ## Signal Strength
 
-Strong(シグナル充足率: 75.45%)
+Strong(シグナル充足率: 73.68%)
 
 ## Evidence
 
@@ -62,24 +62,24 @@ Strong(シグナル充足率: 75.45%)
 
 ## Missing Data
 
-- N/A
+- event_price_reaction
 
 ## Metrics
 
-- scoring_total: 73.0
-- signal_earned_points: 75.45
-- signal_max_points: 100.0
+- scoring_total: 70.0
+- signal_earned_points: 70.0
+- signal_max_points: 95.0
 - weak_signals: []
 - scoring_signal_strength: Strong
 - growth_score: 18.0
 - financial_health_score: 18.0
 - valuation_score: 9.0
-- news_score: 13.0
+- news_score: 10.0
 - momentum: {'1m': 2.147291066171441, '3m': 30.39261028789283, '6m': 27.443586962369203, '1y': -2.387615360637183}
 - benchmark: SPY
-- excess_momentum: {'1m': 3.11, '3m': 28.39, '6m': 11.39, '1y': -19.22}
-- positive_news: 5
-- watch_news: 2
+- excess_momentum: {'1m': 2.86, '3m': 28.14, '6m': 11.1, '1y': -19.51}
+- positive_news: 2
+- watch_news: 1
 - event_count: 10
-- events_with_reaction: 7
-- sector_average_score: 70.08333333333333
+- events_with_reaction: 0
+- sector_average_score: 68.66666666666667

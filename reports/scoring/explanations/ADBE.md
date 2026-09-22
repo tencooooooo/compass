@@ -94,9 +94,9 @@ Evidence
 理由
 
 - PER はセクター内 0.00 パーセンタイル / 母数 15 で、相対的に割安寄りです。
-- Forward PER はセクター内 6.67 パーセンタイル / 母数 16 で、相対的に割安寄りです。
+- Forward PER はセクター内 7.14 パーセンタイル / 母数 15 で、相対的に割安寄りです。
 - PEG はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。
-- PBR はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。
+- PBR はセクター内 33.33 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -106,18 +106,18 @@ Evidence
 
 使用データ
 
-- trailing_pe: 13.8984
-- forward_pe: 8.9950
-- peg_ratio: 0.6100
-- price_to_book: 8.3581
+- trailing_pe: 13.9241
+- forward_pe: 9.0166
+- peg_ratio: 0.6000
+- price_to_book: 8.3782
 - sector_peer_count: 16
 - trailing_pe_percentile: 0
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 6.6700
-- forward_pe_peer_count: 16
+- forward_pe_percentile: 7.1400
+- forward_pe_peer_count: 15
 - peg_ratio_percentile: 26.6700
 - peg_ratio_peer_count: 16
-- price_to_book_percentile: 40.0000
+- price_to_book_percentile: 33.3300
 - price_to_book_peer_count: 16
 
 ## Momentum
@@ -126,11 +126,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -7.68pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンが +25.54pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンは -14.86pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -48.08pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 2.00 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは -7.93pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンが +25.29pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンは -15.15pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -48.37pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 2.01 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -144,10 +144,10 @@ Evidence
 - 6M: 1.1911
 - 1Y: -31.2509
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.96, '3M': 2.0, '6M': 16.06, '1Y': 16.83}
-- excess_returns: {'1M': -7.68, '3M': 25.54, '6M': -14.86, '1Y': -48.08}
-- latest_volume: 10,155,127.0000
-- average_volume_30d: 5,076,750.9000
+- benchmark_returns: {'1M': -0.71, '3M': 2.26, '6M': 16.34, '1Y': 17.12}
+- excess_returns: {'1M': -7.93, '3M': 25.29, '6M': -15.15, '1Y': -48.37}
+- latest_volume: 10,194,800.0000
+- average_volume_30d: 5,078,073.3333
 
 ## News
 
@@ -156,8 +156,8 @@ Evidence
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 2 件(純比率 +0.33)で、センチメントは 5.3 点です。
-- イベント後の平均株価反応が -0.62% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 1 件(純比率 +0.33)で、センチメントは 5.3 点です。
+- イベント後の平均株価反応が -0.31% と中立圏です。
 
 Evidence
 
@@ -168,11 +168,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 4
-- negative_count: 2
+- positive_count: 2
+- negative_count: 1
 - sentiment_net_ratio: 0.3300
 - event_count: 10
-- events_with_price_reaction: 9
+- events_with_price_reaction: 2
 
 ## Note
 

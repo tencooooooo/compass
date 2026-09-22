@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: The Walt Disney Company
-- Total Score: 49 / 100
+- Total Score: 50 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -17,8 +17,9 @@ Medium
 理由
 
 - 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 1 件です。
+- 欠損または計算不可の項目数は 2 件です。
 - 主要データは一定程度ありますが、欠損や未取得項目が残っています。
+- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
@@ -27,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 49 点を獲得し、シグナル充足率は 49.0% です。
+- データが確認できた 100 点満点のうち 50 点を獲得し、シグナル充足率は 50.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -111,10 +112,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 21.1691
-- forward_pe: 13.7296
-- peg_ratio: 2.8300
-- price_to_book: 1.6143
+- trailing_pe: 21.4907
+- forward_pe: 13.9382
+- peg_ratio: 3.3500
+- price_to_book: 1.6388
 - sector_peer_count: 10
 - trailing_pe_percentile: 66.6700
 - trailing_pe_peer_count: 10
@@ -131,10 +132,10 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -3.03pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -2.42pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -11.77pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -27.12pt と、市場を大きく下回っています。
+- 1M の対SPY超過リターンは -3.27pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -2.67pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -12.05pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -27.41pt と、市場を大きく下回っています。
 - 直近出来高が30日平均の 2.34 倍で、市場関心の高まりが確認できます。
 
 Evidence
@@ -149,20 +150,20 @@ Evidence
 - 6M: 4.2910
 - 1Y: -10.2871
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.96, '3M': 2.0, '6M': 16.06, '1Y': 16.83}
-- excess_returns: {'1M': -3.03, '3M': -2.42, '6M': -11.77, '1Y': -27.12}
-- latest_volume: 19,094,381.0000
-- average_volume_30d: 8,171,322.7000
+- benchmark_returns: {'1M': -0.71, '3M': 2.26, '6M': 16.34, '1Y': 17.12}
+- excess_returns: {'1M': -3.27, '3M': -2.67, '6M': -12.05, '1Y': -27.41}
+- latest_volume: 19,115,700.0000
+- average_volume_30d: 8,172,033.3333
 
 ## News
 
-8点
+9点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
 - ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 2 件(純比率 +0.00)で、センチメントは 4.0 点です。
-- イベント後の平均株価反応が -2.54% と弱く、注意が必要です。
+- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
 
 Evidence
 
@@ -177,7 +178,11 @@ Evidence
 - negative_count: 2
 - sentiment_net_ratio: 0.0000
 - event_count: 10
-- events_with_price_reaction: 8
+- events_with_price_reaction: 0
+
+欠損・計算不可
+
+- event_price_reaction
 
 ## Note
 
