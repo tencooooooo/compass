@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: The Home Depot, Inc.
-- Total Score: 46 / 100
+- Total Score: 47 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 46 点を獲得し、シグナル充足率は 46.0% です。
+- データが確認できた 100 点満点のうち 47 点を獲得し、シグナル充足率は 47.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -100,7 +100,7 @@ Evidence
 
 - PER はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
-- PEG はセクター内 88.89 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
+- PEG はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - PBR はセクター内 100.00 パーセンタイル / 母数 5 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -111,31 +111,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 20.8123
-- forward_pe: 18.5463
-- peg_ratio: 2.5300
-- price_to_book: 17.8499
+- trailing_pe: 21.3531
+- forward_pe: 19.0548
+- peg_ratio: 2.5100
+- price_to_book: 18.3393
 - sector_peer_count: 10
 - trailing_pe_percentile: 55.5600
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 44.4400
 - forward_pe_peer_count: 10
-- peg_ratio_percentile: 88.8900
+- peg_ratio_percentile: 77.7800
 - peg_ratio_peer_count: 10
 - price_to_book_percentile: 100
 - price_to_book_peer_count: 5
 
 ## Momentum
 
-4点
+5点
 
 理由
 
-- 1M の対SPY超過リターンは -11.52pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -11.85pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -23.58pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -43.15pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 2.07 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは -9.60pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -10.88pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -24.95pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -42.25pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.33 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -144,15 +144,15 @@ Evidence
 
 使用データ
 
-- 1M: -12.2304
-- 3M: -9.5995
-- 6M: -7.2371
-- 1Y: -26.0252
+- 1M: -8.3459
+- 3M: -5.1933
+- 6M: -6.3441
+- 1Y: -24.4636
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.71, '3M': 2.26, '6M': 16.34, '1Y': 17.12}
-- excess_returns: {'1M': -11.52, '3M': -11.85, '6M': -23.58, '1Y': -43.15}
-- latest_volume: 8,191,600.0000
-- average_volume_30d: 3,948,560.0000
+- benchmark_returns: {'1M': 1.25, '3M': 5.69, '6M': 18.6, '1Y': 17.78}
+- excess_returns: {'1M': -9.6, '3M': -10.88, '6M': -24.95, '1Y': -42.25}
+- latest_volume: 5,448,885.0000
+- average_volume_30d: 4,087,679.5000
 
 ## News
 
@@ -161,8 +161,8 @@ Evidence
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。
-- イベント後の平均株価反応が -0.52% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 2 件(純比率 +0.00)で、センチメントは 4.0 点です。
+- イベント後の平均株価反応が 1.17% とプラスです。
 
 Evidence
 
@@ -173,11 +173,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 3
-- negative_count: 1
-- sentiment_net_ratio: 0.5000
+- positive_count: 2
+- negative_count: 2
+- sentiment_net_ratio: 0.0000
 - event_count: 10
-- events_with_price_reaction: 8
+- events_with_price_reaction: 7
 
 ## Note
 

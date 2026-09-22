@@ -5,21 +5,20 @@
 ## Summary
 
 - Company: QUALCOMM Incorporated
-- Total Score: 74 / 100
-- Confidence: Medium
+- Total Score: 76 / 100
+- Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
 
-Medium
+High
 
 理由
 
 - 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 1 件です。
-- 主要データは一定程度ありますが、欠損や未取得項目が残っています。
-- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
+- 欠損または計算不可の項目数は 0 件です。
+- 主要データが比較的そろっており、説明可能性は高めです。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
@@ -28,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 74 点を獲得し、シグナル充足率は 74.0% です。
+- データが確認できた 100 点満点のうち 76 点を獲得し、シグナル充足率は 76.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -96,8 +95,8 @@ Evidence
 理由
 
 - PER はセクター内 21.43 パーセンタイル / 母数 15 で、相対的に割安寄りです。
-- Forward PER はセクター内 42.86 パーセンタイル / 母数 15 で、中位レンジです。
-- PEG はセクター内 36.67 パーセンタイル / 母数 16 で、中位レンジです。
+- Forward PER はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。
+- PEG はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。
 - PBR はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -108,31 +107,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 22.2231
-- forward_pe: 19.0347
-- peg_ratio: 0.7900
-- price_to_book: 7.4227
+- trailing_pe: 22.6854
+- forward_pe: 19.4306
+- peg_ratio: 0.8600
+- price_to_book: 7.5771
 - sector_peer_count: 16
 - trailing_pe_percentile: 21.4300
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 42.8600
-- forward_pe_peer_count: 15
-- peg_ratio_percentile: 36.6700
+- forward_pe_percentile: 53.3300
+- forward_pe_peer_count: 16
+- peg_ratio_percentile: 46.6700
 - peg_ratio_peer_count: 16
 - price_to_book_percentile: 26.6700
 - price_to_book_peer_count: 16
 
 ## Momentum
 
-13点
+15点
 
 理由
 
-- 1M の対SPY超過リターンが +11.07pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンは -23.23pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンが +20.27pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -7.34pt と、市場を小幅に下回っています。
-- 直近出来高が30日平均の 4.49 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンが +22.76pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンは -8.03pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンが +37.29pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは +3.52pt で、市場並み以上です。
+- 直近出来高が30日平均の 0.92 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,15 +140,15 @@ Evidence
 
 使用データ
 
-- 1M: 10.3621
-- 3M: -20.9733
-- 6M: 36.6143
-- 1Y: 9.7791
+- 1M: 24.0119
+- 3M: -2.3421
+- 6M: 55.8904
+- 1Y: 21.3059
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.71, '3M': 2.26, '6M': 16.34, '1Y': 17.12}
-- excess_returns: {'1M': 11.07, '3M': -23.23, '6M': 20.27, '1Y': -7.34}
-- latest_volume: 54,427,700.0000
-- average_volume_30d: 12,127,476.6667
+- benchmark_returns: {'1M': 1.25, '3M': 5.69, '6M': 18.6, '1Y': 17.78}
+- excess_returns: {'1M': 22.76, '3M': -8.03, '6M': 37.29, '1Y': 3.52}
+- latest_volume: 11,465,322.0000
+- average_volume_30d: 12,493,450.7333
 
 ## News
 
@@ -158,8 +157,8 @@ Evidence
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
+- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 2 件(純比率 +0.00)で、センチメントは 4.0 点です。
+- イベント後の平均株価反応が 2.08% とプラスです。
 
 Evidence
 
@@ -170,15 +169,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 4
-- negative_count: 0
-- sentiment_net_ratio: 1.0000
+- positive_count: 2
+- negative_count: 2
+- sentiment_net_ratio: 0.0000
 - event_count: 10
-- events_with_price_reaction: 0
-
-欠損・計算不可
-
-- event_price_reaction
+- events_with_price_reaction: 6
 
 ## Note
 

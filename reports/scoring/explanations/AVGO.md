@@ -5,21 +5,20 @@
 ## Summary
 
 - Company: Broadcom Inc.
-- Total Score: 64 / 100
-- Confidence: Medium
+- Total Score: 58 / 100
+- Confidence: High
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
 
-Medium
+High
 
 理由
 
 - 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 1 件です。
-- 主要データは一定程度ありますが、欠損や未取得項目が残っています。
-- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
+- 欠損または計算不可の項目数は 0 件です。
+- 主要データが比較的そろっており、説明可能性は高めです。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
@@ -28,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 64 点を獲得し、シグナル充足率は 64.0% です。
+- データが確認できた 100 点満点のうち 58 点を獲得し、シグナル充足率は 58.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -97,7 +96,7 @@ Evidence
 理由
 
 - PER はセクター内 85.71 パーセンタイル / 母数 15 で、相対的な加点は抑えています。
-- Forward PER はセクター内 35.71 パーセンタイル / 母数 15 で、中位レンジです。
+- Forward PER はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。
 - PEG はセクター内 6.67 パーセンタイル / 母数 16 で、相対的に割安寄りです。
 - PBR はセクター内 86.67 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
@@ -109,15 +108,15 @@ Evidence
 
 使用データ
 
-- trailing_pe: 46.3167
-- forward_pe: 18.7093
-- peg_ratio: 0.3500
-- price_to_book: 17.3671
+- trailing_pe: 46.5568
+- forward_pe: 18.8063
+- peg_ratio: 0.3600
+- price_to_book: 17.4571
 - sector_peer_count: 16
 - trailing_pe_percentile: 85.7100
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 35.7100
-- forward_pe_peer_count: 15
+- forward_pe_percentile: 40.0000
+- forward_pe_peer_count: 16
 - peg_ratio_percentile: 6.6700
 - peg_ratio_peer_count: 16
 - price_to_book_percentile: 86.6700
@@ -129,11 +128,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -0.63pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -15.18pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -4.12pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンは -13.06pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.80 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは -2.13pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -9.62pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -5.19pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは -11.13pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.81 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -142,25 +141,25 @@ Evidence
 
 使用データ
 
-- 1M: -1.3435
-- 3M: -12.9267
-- 6M: 12.2209
-- 1Y: 4.0617
+- 1M: -0.8810
+- 3M: -3.9317
+- 6M: 13.4172
+- 1Y: 6.6503
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.71, '3M': 2.26, '6M': 16.34, '1Y': 17.12}
-- excess_returns: {'1M': -0.63, '3M': -15.18, '6M': -4.12, '1Y': -13.06}
-- latest_volume: 43,948,400.0000
-- average_volume_30d: 24,477,363.3333
+- benchmark_returns: {'1M': 1.25, '3M': 5.69, '6M': 18.6, '1Y': 17.78}
+- excess_returns: {'1M': -2.13, '3M': -9.62, '6M': -5.19, '1Y': -11.13}
+- latest_volume: 20,440,459.0000
+- average_volume_30d: 25,093,065.3000
 
 ## News
 
-13点
+7点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
+- ニュース見出し・要約の簡易分類では、好材料 0 件、悪材料 1 件(純比率 -1.00)で、センチメントは 0.0 点です。
+- イベント後の平均株価反応が 0.52% と中立圏です。
 
 Evidence
 
@@ -171,15 +170,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 3
-- negative_count: 0
-- sentiment_net_ratio: 1.0000
+- positive_count: 0
+- negative_count: 1
+- sentiment_net_ratio: -1.0000
 - event_count: 10
-- events_with_price_reaction: 0
-
-欠損・計算不可
-
-- event_price_reaction
+- events_with_price_reaction: 10
 
 ## Note
 

@@ -4,38 +4,38 @@
 
 ## Overview
 
-- 生成日時: 2026-09-21T20:26:43.977630-04:00
-- Validation件数: 2710
-- 完了済みValidation: 706
-- 未完了Validation: 2004
-- 成功率: 43.48%
-- 失敗率: 43.48%
-- Result Counts(期間完了分): {'Excellent': 251, 'Poor': 307, 'Neutral': 92, 'Good': 56}
+- 生成日時: 2026-09-22T19:57:19.575993-04:00
+- Validation件数: 2775
+- 完了済みValidation: 756
+- 未完了Validation: 2019
+- 成功率: 44.84%
+- 失敗率: 42.46%
+- Result Counts(期間完了分): {'Excellent': 274, 'Poor': 321, 'Neutral': 96, 'Good': 65}
 
 ## Discovery Accuracy
 
 | Result | Total | Completed | Success Rate | Failure Rate |
 | --- | --- | --- | --- | --- |
-| Excellent | 251 | 251 | 100.00% | 0.00% |
-| Good | 56 | 56 | 100.00% | 0.00% |
-| Neutral | 2096 | 92 | 0.00% | 0.00% |
-| Poor | 307 | 307 | 0.00% | 100.00% |
+| Excellent | 274 | 274 | 100.00% | 0.00% |
+| Good | 65 | 65 | 100.00% | 0.00% |
+| Neutral | 2115 | 96 | 0.00% | 0.00% |
+| Poor | 321 | 321 | 0.00% | 100.00% |
 
 ## Score Accuracy
 
 | Score Bucket | Total | Completed | Result Counts |
 | --- | --- | --- | --- |
-| High Score (75+) | 125 | 22 | {'Excellent': 4, 'Good': 2, 'Neutral': 0, 'Poor': 16, 'Unknown': 0, 'Pending': 103} |
-| Mid Score (60-74) | 2450 | 655 | {'Excellent': 238, 'Good': 54, 'Neutral': 90, 'Poor': 273, 'Unknown': 0, 'Pending': 1795} |
-| Low Score (<60) | 135 | 29 | {'Excellent': 9, 'Good': 0, 'Neutral': 2, 'Poor': 18, 'Unknown': 0, 'Pending': 106} |
+| High Score (75+) | 555 | 145 | {'Excellent': 61, 'Good': 11, 'Neutral': 8, 'Poor': 65, 'Unknown': 0, 'Pending': 410} |
+| Mid Score (60-74) | 1650 | 459 | {'Excellent': 167, 'Good': 41, 'Neutral': 68, 'Poor': 183, 'Unknown': 0, 'Pending': 1191} |
+| Low Score (<60) | 570 | 152 | {'Excellent': 46, 'Good': 13, 'Neutral': 20, 'Poor': 73, 'Unknown': 0, 'Pending': 418} |
 | Unknown | 0 | 0 | {'Excellent': 0, 'Good': 0, 'Neutral': 0, 'Poor': 0, 'Unknown': 0, 'Pending': 0} |
 
 ## Confidence Accuracy
 
 | Confidence | Total | Completed | Success Rate | Failure Rate | Neutral |
 | --- | --- | --- | --- | --- | --- |
-| High | 1895 | 488 | 45.49% | 42.21% | 60 |
-| Medium | 815 | 218 | 38.99% | 46.33% | 32 |
+| High | 1945 | 521 | 46.64% | 41.27% | 63 |
+| Medium | 830 | 235 | 40.85% | 45.11% | 33 |
 
 ## Signal Strength Accuracy
 
@@ -43,40 +43,40 @@ Confidence(データ充足度)と分離したシグナル強度別の成績で�
 
 | Signal Strength | Total | Completed | Success Rate | Failure Rate | Neutral |
 | --- | --- | --- | --- | --- | --- |
-| Strong | 1825 | 428 | 42.76% | 43.46% | 59 |
-| Moderate | 425 | 94 | 50.00% | 35.11% | 14 |
+| Strong | 1875 | 466 | 44.64% | 42.06% | 62 |
+| Moderate | 440 | 106 | 50.94% | 34.91% | 15 |
 | Unknown | 460 | 184 | 41.85% | 47.83% | 19 |
 
 ## Sector Accuracy
 
 | Sector | Total | Completed | Success Rate | Failure Rate | Neutral |
 | --- | --- | --- | --- | --- | --- |
-| Communication Services | 590 | 168 | 33.93% | 51.79% | 24 |
-| Consumer Cyclical | 210 | 66 | 22.73% | 68.18% | 6 |
-| Technology | 1910 | 472 | 49.79% | 37.08% | 62 |
+| Communication Services | 600 | 176 | 35.80% | 50.57% | 24 |
+| Consumer Cyclical | 215 | 68 | 22.06% | 67.65% | 7 |
+| Technology | 1960 | 512 | 50.98% | 36.33% | 65 |
 
 ## Event Accuracy
 
 | Event Bucket | Total | Completed | Result Counts |
 | --- | --- | --- | --- |
-| Has Events | 2710 | 706 | {'Excellent': 251, 'Good': 56, 'Neutral': 92, 'Poor': 307, 'Unknown': 0, 'Pending': 2004} |
+| Has Events | 2775 | 756 | {'Excellent': 274, 'Good': 65, 'Neutral': 96, 'Poor': 321, 'Unknown': 0, 'Pending': 2019} |
 | No Events | 0 | 0 | {'Excellent': 0, 'Good': 0, 'Neutral': 0, 'Poor': 0, 'Unknown': 0, 'Pending': 0} |
 
 ## Success Patterns
 
-- Momentum: 938 件 / 例: 1Mモメンタムは -3.89% と弱めですが、大きな崩れではありません。
-- Growth: 921 件 / 例: Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。
-- Financial Health: 611 件 / 例: Financial Healthが 12/20 で、継続調査に必要な財務基盤を評価しています。
-- News: 307 件 / 例: Newsスコアが 16/20 で、材料の量と市場関心を候補評価に反映しています。
-- R&D: 293 件 / 例: 研究開発費が確認でき、将来成長への投資シグナルがあります。
+- Momentum: 1034 件 / 例: 1Mモメンタムは -3.89% と弱めですが、大きな崩れではありません。
+- Growth: 1017 件 / 例: Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。
+- Financial Health: 675 件 / 例: Financial Healthが 12/20 で、継続調査に必要な財務基盤を評価しています。
+- News: 339 件 / 例: Newsスコアが 16/20 で、材料の量と市場関心を候補評価に反映しています。
+- R&D: 325 件 / 例: 研究開発費が確認でき、将来成長への投資シグナルがあります。
 
 ## Failure Patterns
 
-- Momentum: 965 件 / 例: 1Mモメンタムが 6.03% とプラス圏です。
-- Growth: 921 件 / 例: Scoring EngineのGrowthが 18/20 で、成長性の基礎条件が確認できます。
-- Financial Health: 612 件 / 例: Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。
-- News: 307 件 / 例: Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。
-- R&D: 265 件 / 例: 研究開発費が確認でき、将来成長への投資シグナルがあります。
+- Momentum: 1010 件 / 例: 1Mモメンタムが 6.03% とプラス圏です。
+- Growth: 963 件 / 例: Scoring EngineのGrowthが 18/20 で、成長性の基礎条件が確認できます。
+- Financial Health: 640 件 / 例: Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。
+- News: 321 件 / 例: Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。
+- R&D: 276 件 / 例: 研究開発費が確認でき、将来成長への投資シグナルがあります。
 
 ## Notes
 

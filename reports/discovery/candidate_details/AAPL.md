@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-67 / 100
+68 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 12/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 10/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで +6.80pt と、市場並み以上です。
-- 3Mモメンタムは対SPYで +10.63pt と、市場を大きく上回っています。
-- 6Mモメンタムは対SPYで +18.91pt と、市場を大きく上回っています。
+- 1Mモメンタムは対SPYで +8.58pt と、市場並み以上です。
+- 3Mモメンタムは対SPYで +9.86pt と、市場並み以上です。
+- 6Mモメンタムは対SPYで +16.73pt と、市場を大きく上回っています。
 
 ## Strengths
 
@@ -34,7 +34,7 @@
 ## Watch Points
 
 - バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。
-- Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。
+- 注意材料になり得るニュース表現が 2 件あります。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Technology セクター全体の需要変化と競争環境を確認する必要があります。
@@ -43,11 +43,11 @@
 
 ## Confidence
 
-Medium
+High
 
 ## Signal Strength
 
-Strong(シグナル充足率: 70.74%)
+Strong(シグナル充足率: 68.5%)
 
 ## Evidence
 
@@ -62,24 +62,24 @@ Strong(シグナル充足率: 70.74%)
 
 ## Missing Data
 
-- event_price_reaction
+- N/A
 
 ## Metrics
 
-- scoring_total: 64.0
-- signal_earned_points: 67.2
-- signal_max_points: 95.0
+- scoring_total: 58.0
+- signal_earned_points: 68.5
+- signal_max_points: 100.0
 - weak_signals: []
 - scoring_signal_strength: Moderate
 - growth_score: 17.0
 - financial_health_score: 12.0
 - valuation_score: 3.0
-- news_score: 13.0
-- momentum: {'1m': 6.091600899066017, '3m': 12.888795142084316, '6m': 35.25458901357966, '1y': 41.165596109659816}
+- news_score: 10.0
+- momentum: {'1m': 9.827054564955088, '3m': 15.542994352440273, '6m': 35.3359158716456, '1y': 38.90225213248713}
 - benchmark: SPY
-- excess_momentum: {'1m': 6.8, '3m': 10.63, '6m': 18.91, '1y': 24.04}
-- positive_news: 2
-- watch_news: 0
+- excess_momentum: {'1m': 8.58, '3m': 9.86, '6m': 16.73, '1y': 21.12}
+- positive_news: 1
+- watch_news: 2
 - event_count: 10
-- events_with_reaction: 0
-- sector_average_score: 68.66666666666667
+- events_with_reaction: 2
+- sector_average_score: 67.83333333333333
