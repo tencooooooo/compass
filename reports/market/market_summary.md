@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-09-22T23:39:30+00:00 / META / Stocktwits: INOD Stock Rallies After Hunterbrook Ties Firm To Meta’s Muse, Reveals Long Position
-- 2026-09-22T23:37:00+00:00 / HD / TheStreet: Home Depot issues dire warning about squeezed American shoppers
-- 2026-09-22T23:37:00+00:00 / LOW / TheStreet: Home Depot issues dire warning about squeezed American shoppers
-- 2026-09-22T23:35:01+00:00 / NVDA / Motley Fool: Google Goes Nuclear With Power Upgrade Agreement in Georgia
-- 2026-09-22T23:35:01+00:00 / GOOGL / Motley Fool: Google Goes Nuclear With Power Upgrade Agreement in Georgia
+- 2026-09-23T23:57:54+00:00 / META / Investor's Business Daily: Dow Jones Futures: Stocks Fall As Treasury Yields Soar; Palantir, Palo Alto Flash 投資判断表現 Signals
+- 2026-09-23T23:56:24+00:00 / AAPL / TheStreet: Billionaire Tim Draper takes aim at Apple, Meta's Bitcoin-free balance sheets
+- 2026-09-23T23:56:24+00:00 / META / TheStreet: Billionaire Tim Draper takes aim at Apple, Meta's Bitcoin-free balance sheets
+- 2026-09-23T23:52:50+00:00 / META / TheStreet: History of Meta Platforms: Company timeline, facts & milestones
+- 2026-09-23T23:46:39+00:00 / META / Yahoo Finance: Meta's Zuckerberg says Muse AI agent will take a small fee from transactions
 
 ### 注目イベント
 
-- 2026-09-22T18:59:24+00:00 / ADBE: Adobe Is Down 32% This Year: Is ADBE Stock Dead Money or Due for a Bounce? (株価反応: -4.52%, 出来高: 7.33M)
-- 2026-09-22T14:39:22+00:00 / ADBE: Is It Too Early To 投資判断表現 Adobe Stock Before Its Free Users Pay Off? (株価反応: -4.52%, 出来高: 7.33M)
-- 2026-09-22T14:20:42+00:00 / ADBE: Market Chatter: Big Software Firms Offer AI Discounts in Bid to Counter Anthropic, OpenAI (株価反応: -4.52%, 出来高: 7.33M)
-- 2026-09-22T00:29:40+00:00 / ADBE: Adobe (ADBE) Could Be 22% Undervalued As Acrobat AI Push Expands Its Platform (株価反応: -4.52%, 出来高: 7.33M)
-- 2026-09-21T23:16:55+00:00 / ADBE: Adobe (ADBE) Stock Still Looks Like A Bargain Following A 59% Slump (株価反応: -4.52%, 出来高: 7.33M)
+- 2026-09-22T19:08:18+00:00 / ADBE: Update: Market Chatter: Big Software Firms Offer AI Discounts in Bid to Counter Anthropic, OpenAI (株価反応: -4.52%, 出来高: 7.37M)
+- 2026-09-22T18:59:24+00:00 / ADBE: Adobe Is Down 32% This Year: Is ADBE Stock Dead Money or Due for a Bounce? (株価反応: -4.52%, 出来高: 7.37M)
+- 2026-09-22T18:00:10+00:00 / HD: How Much Further Could Lowe's Stock Fall With Its DIY Shoppers 投資判断表現 Back? (株価反応: 2.74%, 出来高: 5.45M)
+- 2026-09-22T14:09:24+00:00 / HD: His Bet On Home Depot Made Ken Langone A Billionaire. Now He Sees Eli Lilly Stock Hitting $2,000 (株価反応: 2.74%, 出来高: 5.45M)
+- 2026-09-22T13:43:00+00:00 / HD: Is Home Depot Winning Bigger Projects Through Pro Investments? (株価反応: 2.74%, 出来高: 5.45M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 56.33 | 18.95 | 11.19 | -0.72% | 60 |
-| Consumer Cyclical | 6 | 52.50 | 73.93 | 9.01 | -5.34% | 60 |
-| Technology | 12 | 67.83 | 45.74 | 9.17 | 6.66% | 120 |
+| Communication Services | 6 | 55.00 | 18.88 | 11.20 | -0.72% | 60 |
+| Consumer Cyclical | 6 | 52.67 | 73.71 | 9.01 | -5.34% | 60 |
+| Technology | 12 | 68.00 | 45.52 | 9.16 | 6.66% | 120 |
 
 ## 市場トレンド
 

@@ -7,20 +7,20 @@
     "country": "United States",
     "currency": "USD",
     "exchange": "NYQ",
-    "market_cap": 451141402624,
-    "enterprise_value": 586650222592,
+    "market_cap": 437111291904,
+    "enterprise_value": 574555291648,
     "shares_outstanding": 3023736000,
     "beta": 1.732,
-    "trailing_pe": 23.422293,
-    "forward_pe": 13.5671015,
+    "trailing_pe": 22.622849,
+    "forward_pe": 13.145175,
     "peg_ratio": 0.83,
-    "price_to_book": 7.298699,
-    "eps": 6.37,
+    "price_to_book": 11.08589,
+    "eps": 6.39,
     "forward_eps": 10.99719,
-    "dividend_yield": 1.35,
-    "52_week_high": 325.0,
+    "dividend_yield": 1.34,
+    "52_week_high": 322.54,
     "52_week_low": 114.5,
-    "average_volume": 33255980,
+    "average_volume": 33223461,
     "employees": 141000,
     "website": "https://www.oracle.com",
     "business_summary": "Oracle Corporation offers products and services that build, run and support enterprise information technology frameworks worldwide. Its Oracle cloud software as a service offering includes various cloud software applications, including Oracle Fusion cloud enterprise resource planning ERP, Oracle Fusion cloud enterprise performance management EPM, Oracle Fusion cloud supply chain and manufacturing management SCM, Oracle Fusion cloud human capital management HCM, and NetSuite applications suite, Oracle Health applications, as well as Oracle Fusion Sales, Service, and Marketing. The company also offers cloud-based industry solutions for various industries; Oracle cloud license and on-premise license; and Oracle license support services. In addition, it provides cloud and license business' infrastructure technologies, such as the Oracle Database and MySQL Database; Java, a software development language; and middleware, including development tools and others. The company's cloud and license business' infrastructure technologies also comprise cloud-based compute, storage, and networking capabilities; and Oracle autonomous database, as well as AI, Internet-of-Things, machine learning, digital assistant, and blockchain. Further, it provides hardware products and other hardware-related software offerings, including Oracle engineered systems, enterprise servers, storage solutions, industry-specific hardware, virtualization software, operating systems, management software, and related hardware support services, and consulting and advanced customer services. It markets and sells its cloud, license, hardware, support, and services offerings directly to businesses in various industries, government agencies, and educational institutions, as well as through indirect channels. Oracle Corporation has a strategic alliance with Metron, Inc. The company was founded in 1977 and is headquartered in Austin, Texas."
@@ -1105,29 +1105,54 @@
         "scoring": "Moderate",
         "discovery": "Moderate"
       }
+    },
+    {
+      "date": "2026-09-23",
+      "timestamp": "2026-09-23T20:08:54.451817-04:00",
+      "score": 60,
+      "discovery_score": 50,
+      "discovery_status": "Not Selected",
+      "validation_results": {
+        "Excellent": 2,
+        "Good": 1,
+        "Neutral": 1,
+        "Poor": 2,
+        "Pending": 34
+      },
+      "event_count": 10,
+      "news_count": 10,
+      "confidence": {
+        "scoring": "Medium",
+        "discovery": "Medium"
+      },
+      "signal_strength": {
+        "scoring": "Moderate",
+        "discovery": "Moderate"
+      }
     }
   ],
   "Scores": {
     "ticker": "ORCL",
     "company_name": "Oracle Corporation",
-    "total_score": 64,
+    "total_score": 60,
     "max_score": 100,
     "confidence": {
-      "level": "High",
-      "completeness_score": 100,
+      "level": "Medium",
+      "completeness_score": 95.0,
       "reasons": [
         "利用可能な主要データ領域は5領域中 5 領域です。",
-        "欠損または計算不可の項目数は 0 件です。",
-        "主要データが比較的そろっており、説明可能性は高めです。",
+        "欠損または計算不可の項目数は 1 件です。",
+        "主要データは一定程度ありますが、欠損や未取得項目が残っています。",
+        "イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。",
         "Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。"
       ]
     },
     "signal_strength": {
       "level": "Moderate",
-      "signal_rate": 64.0,
+      "signal_rate": 60.0,
       "evaluated_max_score": 100,
       "reasons": [
-        "データが確認できた 100 点満点のうち 64 点を獲得し、シグナル充足率は 64.0% です。",
+        "データが確認できた 100 点満点のうち 60 点を獲得し、シグナル充足率は 60.0% です。",
         "シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。"
       ]
     },
@@ -1198,13 +1223,13 @@
         }
       },
       "Valuation": {
-        "score": 16,
+        "score": 14,
         "max_score": 20,
         "reasons": [
           "PER はセクター内 28.57 パーセンタイル / 母数 15 で、中位レンジです。",
           "Forward PER はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。",
           "PEG はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。",
-          "PBR はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。",
+          "PBR はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。",
           "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
         ],
         "evidence": [
@@ -1213,10 +1238,10 @@
         ],
         "missing_data": [],
         "metrics": {
-          "trailing_pe": 23.422293,
-          "forward_pe": 13.5671015,
+          "trailing_pe": 22.622849,
+          "forward_pe": 13.145175,
           "peg_ratio": 0.83,
-          "price_to_book": 7.298699,
+          "price_to_book": 11.08589,
           "sector_peer_count": 16,
           "trailing_pe_percentile": 28.57,
           "trailing_pe_peer_count": 15,
@@ -1224,7 +1249,7 @@
           "forward_pe_peer_count": 16,
           "peg_ratio_percentile": 40.0,
           "peg_ratio_peer_count": 16,
-          "price_to_book_percentile": 20.0,
+          "price_to_book_percentile": 46.67,
           "price_to_book_peer_count": 16
         }
       },
@@ -1236,7 +1261,7 @@
           "3M の対SPY超過リターンは -15.04pt と、市場を大きく下回っています。",
           "6M の対SPY超過リターンは -21.26pt と、市場を大きく下回っています。",
           "1Y の対SPY超過リターンは -68.89pt と、市場を大きく下回っています。",
-          "直近出来高が30日平均の 1.07 倍で、通常水準の流動性があります。"
+          "直近出来高が30日平均の 1.09 倍で、通常水準の流動性があります。"
         ],
         "evidence": [
           "Prices",
@@ -1261,31 +1286,33 @@
             "6M": -21.26,
             "1Y": -68.89
           },
-          "latest_volume": 30813324.0,
-          "average_volume_30d": 28699170.8
+          "latest_volume": 31260000.0,
+          "average_volume_30d": 28714060.0
         }
       },
       "News": {
-        "score": 10,
+        "score": 8,
         "max_score": 20,
         "reasons": [
           "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
           "ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 2 件(純比率 -0.33)で、センチメントは 2.7 点です。",
-          "イベント後の平均株価反応が 0.43% と中立圏です。"
+          "イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。"
         ],
         "evidence": [
           "News",
           "Events",
           "Knowledge"
         ],
-        "missing_data": [],
+        "missing_data": [
+          "event_price_reaction"
+        ],
         "metrics": {
           "news_count": 10,
           "positive_count": 1,
           "negative_count": 2,
           "sentiment_net_ratio": -0.33,
           "event_count": 10,
-          "events_with_price_reaction": 5
+          "events_with_price_reaction": 0
         }
       }
     },
@@ -1303,13 +1330,13 @@
     "company": "Oracle Corporation",
     "sector": "Technology",
     "industry": "Software - Infrastructure",
-    "discovery_score": 57,
+    "discovery_score": 50,
     "max_score": 100,
     "status": "Not Selected",
     "discovery_reasons": [
       "Scoring EngineのGrowthが 19/20 で、成長性の基礎条件が確認できます。",
       "Financial Healthが 13/20 で、継続調査に必要な財務基盤を評価しています。",
-      "Newsスコアが 10/20 で、材料の量と市場関心を候補評価に反映しています。",
+      "Newsスコアが 8/20 で、材料の量と市場関心を候補評価に反映しています。",
       "売上が取得でき、事業規模の確認ができます。",
       "EPSがプラスで、利益を伴う成長候補として確認できます。",
       "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -1325,6 +1352,7 @@
     ],
     "watch_points": [
       "注意材料になり得るニュース表現が 2 件あります。",
+      "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
       "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
       "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
       "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
@@ -1332,9 +1360,9 @@
       "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。",
       "データは取得済みですがシグナルが弱い項目: free_cash_flow"
     ],
-    "confidence": "High",
+    "confidence": "Medium",
     "signal_strength": "Moderate",
-    "signal_rate": 56.95,
+    "signal_rate": 53.0,
     "evidence": [
       "Company",
       "Events",
@@ -1345,19 +1373,21 @@
       "Prices",
       "Scoring"
     ],
-    "missing_data": [],
+    "missing_data": [
+      "event_price_reaction"
+    ],
     "metrics": {
-      "scoring_total": 64.0,
-      "signal_earned_points": 56.95,
-      "signal_max_points": 100.0,
+      "scoring_total": 60.0,
+      "signal_earned_points": 50.35,
+      "signal_max_points": 95.0,
       "weak_signals": [
         "free_cash_flow"
       ],
       "scoring_signal_strength": "Moderate",
       "growth_score": 19.0,
       "financial_health_score": 13.0,
-      "valuation_score": 16.0,
-      "news_score": 10.0,
+      "valuation_score": 14.0,
+      "news_score": 8.0,
       "momentum": {
         "1m": 1.8638599745933404,
         "3m": -9.349078469183416,
@@ -1374,14 +1404,14 @@
       "positive_news": 1,
       "watch_news": 2,
       "event_count": 10,
-      "events_with_reaction": 5,
-      "sector_average_score": 67.83333333333333
+      "events_with_reaction": 0,
+      "sector_average_score": 68.0
     }
   },
   "Validation": [
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -1407,8 +1437,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 1.266884441063472,
       "benchmark_diff_percent": 0.16002640789691558,
-      "sector_average_return_percent": 8.089757320508468,
-      "sector_diff_percent": -6.662846471548081,
+      "sector_average_return_percent": 8.08975732050847,
+      "sector_diff_percent": -6.662846471548082,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 6.419395434822089,
       "sector_benchmark_diff_percent": -4.9924845858617015,
@@ -1440,7 +1470,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -1466,8 +1496,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 0.4740668409714187,
       "benchmark_diff_percent": 2.5163099230818875,
-      "sector_average_return_percent": 2.7486181967335073,
-      "sector_diff_percent": 0.24175856731979906,
+      "sector_average_return_percent": 2.748618196733507,
+      "sector_diff_percent": 0.2417585673197995,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 1.2983481425447663,
       "sector_benchmark_diff_percent": 1.69202862150854,
@@ -1499,7 +1529,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -1558,7 +1588,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -1617,7 +1647,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -1676,7 +1706,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -1736,7 +1766,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -1796,7 +1826,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -1856,7 +1886,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -1916,7 +1946,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2271,7 +2301,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2331,7 +2361,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2391,7 +2421,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2451,7 +2481,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2511,7 +2541,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2571,7 +2601,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2597,8 +2627,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 0.27554876098813896,
       "benchmark_diff_percent": -3.4175875488633247,
-      "sector_average_return_percent": 5.457717896350132,
-      "sector_diff_percent": -8.599756684225317,
+      "sector_average_return_percent": 5.457717896350131,
+      "sector_diff_percent": -8.599756684225316,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 5.661688431386,
       "sector_benchmark_diff_percent": -8.803727219261186,
@@ -2631,7 +2661,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2691,7 +2721,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2717,8 +2747,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 0.27554876098813896,
       "benchmark_diff_percent": -3.4175875488633247,
-      "sector_average_return_percent": 5.457717896350132,
-      "sector_diff_percent": -8.599756684225317,
+      "sector_average_return_percent": 5.457717896350131,
+      "sector_diff_percent": -8.599756684225316,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 5.661688431386,
       "sector_benchmark_diff_percent": -8.803727219261186,
@@ -2751,7 +2781,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2777,8 +2807,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 0.27554876098813896,
       "benchmark_diff_percent": -3.4175875488633247,
-      "sector_average_return_percent": 5.457717896350132,
-      "sector_diff_percent": -8.599756684225317,
+      "sector_average_return_percent": 5.457717896350131,
+      "sector_diff_percent": -8.599756684225316,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 5.661688431386,
       "sector_benchmark_diff_percent": -8.803727219261186,
@@ -2811,7 +2841,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2837,8 +2867,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 0.27554876098813896,
       "benchmark_diff_percent": -3.4175875488633247,
-      "sector_average_return_percent": 5.457717896350132,
-      "sector_diff_percent": -8.599756684225317,
+      "sector_average_return_percent": 5.457717896350131,
+      "sector_diff_percent": -8.599756684225316,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 5.661688431386,
       "sector_benchmark_diff_percent": -8.803727219261186,
@@ -2871,7 +2901,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2931,7 +2961,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2957,7 +2987,7 @@
       "benchmark": "SPY",
       "benchmark_return_percent": -1.1188567743026008,
       "benchmark_diff_percent": -12.52253972220366,
-      "sector_average_return_percent": -0.4610389634205841,
+      "sector_average_return_percent": -0.46103896342058376,
       "sector_diff_percent": -13.180357533085676,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": -2.1983191271092224,
@@ -2991,7 +3021,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3051,7 +3081,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3111,7 +3141,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3171,7 +3201,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3197,8 +3227,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 2.8181755995921045,
       "benchmark_diff_percent": 1.4008752048410877,
-      "sector_average_return_percent": 5.873443206992587,
-      "sector_diff_percent": -1.6543924025593943,
+      "sector_average_return_percent": 5.873443206992586,
+      "sector_diff_percent": -1.6543924025593935,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 6.833613164800423,
       "sector_benchmark_diff_percent": -2.6145623603672306,
@@ -3231,7 +3261,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3257,8 +3287,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 2.8181755995921045,
       "benchmark_diff_percent": 1.4008752048410877,
-      "sector_average_return_percent": 5.873443206992587,
-      "sector_diff_percent": -1.6543924025593943,
+      "sector_average_return_percent": 5.873443206992586,
+      "sector_diff_percent": -1.6543924025593935,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 6.833613164800423,
       "sector_benchmark_diff_percent": -2.6145623603672306,
@@ -3291,7 +3321,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3317,8 +3347,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 2.8181755995921045,
       "benchmark_diff_percent": 1.4008752048410877,
-      "sector_average_return_percent": 5.873443206992587,
-      "sector_diff_percent": -1.6543924025593943,
+      "sector_average_return_percent": 5.873443206992586,
+      "sector_diff_percent": -1.6543924025593935,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 6.833613164800423,
       "sector_benchmark_diff_percent": -2.6145623603672306,
@@ -3351,7 +3381,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3377,8 +3407,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 2.8181755995921045,
       "benchmark_diff_percent": 1.4008752048410877,
-      "sector_average_return_percent": 5.873443206992587,
-      "sector_diff_percent": -1.6543924025593943,
+      "sector_average_return_percent": 5.873443206992586,
+      "sector_diff_percent": -1.6543924025593935,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 6.833613164800423,
       "sector_benchmark_diff_percent": -2.6145623603672306,
@@ -3411,7 +3441,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3437,8 +3467,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 2.8181755995921045,
       "benchmark_diff_percent": 1.4008752048410877,
-      "sector_average_return_percent": 5.873443206992587,
-      "sector_diff_percent": -1.6543924025593943,
+      "sector_average_return_percent": 5.873443206992586,
+      "sector_diff_percent": -1.6543924025593935,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 6.833613164800423,
       "sector_benchmark_diff_percent": -2.6145623603672306,
@@ -3471,7 +3501,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3531,7 +3561,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3591,7 +3621,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3651,7 +3681,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3711,7 +3741,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-09-22",
+      "validation_date": "2026-09-23",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3774,11 +3804,11 @@
     "count": 10,
     "latest": [
       {
-        "event_id": "ORCL_04810d3324c5e958",
+        "event_id": "ORCL_a4ed8c0309919418",
         "ticker": "ORCL",
-        "published_at": "2026-09-22T23:09:48+00:00",
-        "title": "Wells Fargo Starts Applied Digital (APLD) at Overweight and Calls it a Top Idea",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-starts-applied-digital-230948097.html",
+        "published_at": "2026-09-23T23:16:22+00:00",
+        "title": "3 Reasons ORCL is Risky and 1 Stock to Buy Instead",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-orcl-risky-1-231622744.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -3786,11 +3816,11 @@
         "volume": null
       },
       {
-        "event_id": "ORCL_41865d74e5dba322",
+        "event_id": "ORCL_d346249192ff5a08",
         "ticker": "ORCL",
-        "published_at": "2026-09-22T22:22:43+00:00",
-        "title": "Oracle Edged Higher While AI Borrowers Pay 37 Extra Basis Points",
-        "url": "https://finance.yahoo.com/technology/ai/articles/oracle-edged-higher-while-ai-222243877.html",
+        "published_at": "2026-09-23T22:07:00+00:00",
+        "title": "Oracle layoffs top 2,500 workers as AI spending surges",
+        "url": "https://www.thestreet.com/employment/oracle-layoffs-top-2500-workers-ai-spending-surge-2026",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -3798,11 +3828,11 @@
         "volume": null
       },
       {
-        "event_id": "ORCL_eae10e376523bf63",
+        "event_id": "ORCL_c3e7ac4074e9dde2",
         "ticker": "ORCL",
-        "published_at": "2026-09-22T21:51:24+00:00",
-        "title": "$223 Billion Back To Shareholders: Inside The MSFT Machine",
-        "url": "https://www.trefis.com/articles/616107/223-billion-back-to-shareholders-inside-the-msft-machine/2026-09-22",
+        "published_at": "2026-09-23T21:00:00+00:00",
+        "title": "Paramount Courts Elon Musk for Investment as Stock Nears Multi-Year Lows",
+        "url": "https://beincrypto.com/paramount-courts-elon-musk-investment-stock/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -3810,11 +3840,11 @@
         "volume": null
       },
       {
-        "event_id": "ORCL_699d888e7e349761",
+        "event_id": "ORCL_a8897df82f16e46c",
         "ticker": "ORCL",
-        "published_at": "2026-09-22T20:57:37+00:00",
-        "title": "How Far Could CRM Stock Swing In A Year?",
-        "url": "https://www.trefis.com/articles/616138/how-far-could-crm-stock-swing-in-a-year/2026-09-22",
+        "published_at": "2026-09-23T20:37:03+00:00",
+        "title": "Debt-Financed AI Investment Boom Risks Equity Market Selloff, IMF Says",
+        "url": "https://finance.yahoo.com/technology/ai/articles/debt-financed-ai-investment-boom-203703821.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -3822,11 +3852,11 @@
         "volume": null
       },
       {
-        "event_id": "ORCL_e9cdb8b99072bf6d",
+        "event_id": "ORCL_6b28411353b4103d",
         "ticker": "ORCL",
-        "published_at": "2026-09-22T20:48:36+00:00",
-        "title": "Can This Number Push IBM Stock Higher?",
-        "url": "https://www.trefis.com/articles/616158/can-this-number-push-ibm-stock-higher/2026-09-22",
+        "published_at": "2026-09-23T18:47:27+00:00",
+        "title": "AMD Just Hit $1 Trillion. Can Oracle’s 50,000-GPU Deployment Help Justify It?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amd-just-hit-1-trillion-184727280.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -3834,68 +3864,188 @@
         "volume": null
       },
       {
-        "event_id": "ORCL_54ae9a2b51b39433",
+        "event_id": "ORCL_86935e45e3ef5b1c",
         "ticker": "ORCL",
-        "published_at": "2026-09-22T17:42:36+00:00",
-        "title": "Trump disclosed $25M Microsoft and Amazon stock sales in July",
-        "url": "https://qz.com/trump-july-financial-disclosure-microsoft-amazon-stock-sales-092226",
+        "published_at": "2026-09-23T18:33:07+00:00",
+        "title": "Oracle Drops as AI Debt Carries a 37-Basis-Point Premium",
+        "url": "https://finance.yahoo.com/technology/ai/articles/oracle-drops-ai-debt-carries-183307030.html",
         "source": "STORY",
-        "close_price": 149.1999969482422,
-        "previous_close": 148.55999755859375,
-        "price_change_percent": 0.43080196564759266,
-        "volume": 30813324.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "ORCL_61f572c1496d5625",
+        "event_id": "ORCL_305eaf68e7563b9f",
         "ticker": "ORCL",
-        "published_at": "2026-09-22T17:30:10+00:00",
-        "title": "The AI Software Story Wall Street Is Underrating",
-        "url": "https://247wallst.com/investing/2026/09/22/the-ai-software-story-wall-street-is-underrating/",
+        "published_at": "2026-09-23T18:17:00+00:00",
+        "title": "Michael Burry sends stark warning on AI hyperscalers",
+        "url": "https://www.thestreet.com/investing/stocks/michael-burry-sends-stark-warning-on-ai-hyperscalers",
         "source": "STORY",
-        "close_price": 149.1999969482422,
-        "previous_close": 148.55999755859375,
-        "price_change_percent": 0.43080196564759266,
-        "volume": 30813324.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "ORCL_5f0b01cf582d2109",
+        "event_id": "ORCL_e10827ffbd2110a0",
         "ticker": "ORCL",
-        "published_at": "2026-09-22T17:16:48+00:00",
-        "title": "Oracle cloud layoffs hit developers, engineers hardest",
-        "url": "https://qz.com/oracle-cloud-layoffs-software-developers-engineers-092226",
+        "published_at": "2026-09-23T16:57:07+00:00",
+        "title": "Paramount Weighs A Musk Check As The Warner Deal Nears Finish Line, Says Report",
+        "url": "https://stocktwits.com/news-articles/markets/equity/paramount-weighs-a-musk-check-as-the-warner-deal-nears-finish-line-says-report/cZM4GsmRBJU",
         "source": "STORY",
-        "close_price": 149.1999969482422,
-        "previous_close": 148.55999755859375,
-        "price_change_percent": 0.43080196564759266,
-        "volume": 30813324.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "ORCL_8b4922e878ca58d9",
+        "event_id": "ORCL_35b81c2d30175b8f",
         "ticker": "ORCL",
-        "published_at": "2026-09-22T15:42:00+00:00",
-        "title": "HPE's Networking Orders Signal Continued Growth: What's Ahead?",
-        "url": "https://finance.yahoo.com/technology/articles/hpes-networking-orders-signal-continued-154200642.html",
+        "published_at": "2026-09-23T16:17:48+00:00",
+        "title": "How Big A Swing Are You Carrying In Adobe Stock?",
+        "url": "https://www.trefis.com/articles/616303/how-big-a-swing-are-you-carrying-in-adobe-stock/2026-09-23",
         "source": "STORY",
-        "close_price": 149.1999969482422,
-        "previous_close": 148.55999755859375,
-        "price_change_percent": 0.43080196564759266,
-        "volume": 30813324.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "ORCL_70dc836ab309efe9",
+        "event_id": "ORCL_0403a5d4548f4c7b",
         "ticker": "ORCL",
-        "published_at": "2026-09-22T14:52:47+00:00",
-        "title": "Paramount Nashville Talks Surface Amid Hollywood Exit",
-        "url": "https://www.credaily.com/briefs/paramount-nashville-talks-surface-amid-hollywood-exit/",
-        "source": "STORY",
-        "close_price": 149.1999969482422,
-        "previous_close": 148.55999755859375,
-        "price_change_percent": 0.43080196564759266,
-        "volume": 30813324.0
+        "published_at": "2026-09-23T14:14:49+00:00",
+        "title": "Nasdaq climbs higher, McDonald's investor day updates",
+        "url": "https://finance.yahoo.com/video/nasdaq-climbs-higher-mcdonalds-investor-day-updates-141449878.html",
+        "source": "VIDEO",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       }
     ],
-    "history_count": 270,
+    "history_count": 280,
     "history": [
+      {
+        "event_id": "ORCL_a4ed8c0309919418",
+        "ticker": "ORCL",
+        "published_at": "2026-09-23T23:16:22+00:00",
+        "title": "3 Reasons ORCL is Risky and 1 Stock to Buy Instead",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-orcl-risky-1-231622744.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_d346249192ff5a08",
+        "ticker": "ORCL",
+        "published_at": "2026-09-23T22:07:00+00:00",
+        "title": "Oracle layoffs top 2,500 workers as AI spending surges",
+        "url": "https://www.thestreet.com/employment/oracle-layoffs-top-2500-workers-ai-spending-surge-2026",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_c3e7ac4074e9dde2",
+        "ticker": "ORCL",
+        "published_at": "2026-09-23T21:00:00+00:00",
+        "title": "Paramount Courts Elon Musk for Investment as Stock Nears Multi-Year Lows",
+        "url": "https://beincrypto.com/paramount-courts-elon-musk-investment-stock/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_a8897df82f16e46c",
+        "ticker": "ORCL",
+        "published_at": "2026-09-23T20:37:03+00:00",
+        "title": "Debt-Financed AI Investment Boom Risks Equity Market Selloff, IMF Says",
+        "url": "https://finance.yahoo.com/technology/ai/articles/debt-financed-ai-investment-boom-203703821.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_6b28411353b4103d",
+        "ticker": "ORCL",
+        "published_at": "2026-09-23T18:47:27+00:00",
+        "title": "AMD Just Hit $1 Trillion. Can Oracle’s 50,000-GPU Deployment Help Justify It?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amd-just-hit-1-trillion-184727280.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_86935e45e3ef5b1c",
+        "ticker": "ORCL",
+        "published_at": "2026-09-23T18:33:07+00:00",
+        "title": "Oracle Drops as AI Debt Carries a 37-Basis-Point Premium",
+        "url": "https://finance.yahoo.com/technology/ai/articles/oracle-drops-ai-debt-carries-183307030.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_305eaf68e7563b9f",
+        "ticker": "ORCL",
+        "published_at": "2026-09-23T18:17:00+00:00",
+        "title": "Michael Burry sends stark warning on AI hyperscalers",
+        "url": "https://www.thestreet.com/investing/stocks/michael-burry-sends-stark-warning-on-ai-hyperscalers",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_e10827ffbd2110a0",
+        "ticker": "ORCL",
+        "published_at": "2026-09-23T16:57:07+00:00",
+        "title": "Paramount Weighs A Musk Check As The Warner Deal Nears Finish Line, Says Report",
+        "url": "https://stocktwits.com/news-articles/markets/equity/paramount-weighs-a-musk-check-as-the-warner-deal-nears-finish-line-says-report/cZM4GsmRBJU",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_35b81c2d30175b8f",
+        "ticker": "ORCL",
+        "published_at": "2026-09-23T16:17:48+00:00",
+        "title": "How Big A Swing Are You Carrying In Adobe Stock?",
+        "url": "https://www.trefis.com/articles/616303/how-big-a-swing-are-you-carrying-in-adobe-stock/2026-09-23",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_0403a5d4548f4c7b",
+        "ticker": "ORCL",
+        "published_at": "2026-09-23T14:14:49+00:00",
+        "title": "Nasdaq climbs higher, McDonald's investor day updates",
+        "url": "https://finance.yahoo.com/video/nasdaq-climbs-higher-mcdonalds-investor-day-updates-141449878.html",
+        "source": "VIDEO",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
       {
         "event_id": "ORCL_04810d3324c5e958",
         "ticker": "ORCL",
@@ -7143,117 +7293,227 @@
     "latest": [
       {
         "ticker": "ORCL",
-        "title": "Wells Fargo Starts Applied Digital (APLD) at Overweight and Calls it a Top Idea",
-        "summary": "Wells Fargo began coverage of Applied Digital Corporation (NASDAQ:APLD) on September 17 with an Overweight rating and a $50 price target. Analyst Eric Luebchow named it a Top Idea. The shares rose after the note and have stayed above their pre-call level since. Wells Fargo’s call is built on leases already signed, not on demand […]",
-        "published_at": "2026-09-22T23:09:48+00:00",
+        "title": "3 Reasons ORCL is Risky and 1 Stock to Buy Instead",
+        "summary": "Oracle currently trades at $149.10 per share and has shown little upside over the past six months, posting a small loss of 3.4%. The stock also fell short of the S&P 500’s 18% gain during that period.",
+        "published_at": "2026-09-23T23:16:22+00:00",
+        "publisher": "StockStory",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-orcl-risky-1-231622744.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Oracle layoffs top 2,500 workers as AI spending surges",
+        "summary": "Oracle’s latest layoffs are scheduled for November.",
+        "published_at": "2026-09-23T22:07:00+00:00",
+        "publisher": "TheStreet",
+        "url": "https://www.thestreet.com/employment/oracle-layoffs-top-2500-workers-ai-spending-surge-2026",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Paramount Courts Elon Musk for Investment as Stock Nears Multi-Year Lows",
+        "summary": "Paramount has discussed bringing Elon Musk in as an equity investor as its stock trades near multi-year lows.",
+        "published_at": "2026-09-23T21:00:00+00:00",
+        "publisher": "BeInCrypto",
+        "url": "https://beincrypto.com/paramount-courts-elon-musk-investment-stock/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Debt-Financed AI Investment Boom Risks Equity Market Selloff, IMF Says",
+        "summary": "Massive artificial intelligence investments that are increasingly being financed with debt could tri",
+        "published_at": "2026-09-23T20:37:03+00:00",
+        "publisher": "MT Newswires",
+        "url": "https://finance.yahoo.com/technology/ai/articles/debt-financed-ai-investment-boom-203703821.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "AMD Just Hit $1 Trillion. Can Oracle’s 50,000-GPU Deployment Help Justify It?",
+        "summary": "Advanced Micro Devices crossed a $1 trillion market value for the first time on September 21 after the shares jumped roughly 10%, a milestone that forces investors to ask what kind of AI business is already embedded in the price. One answer is sitting inside Oracle Corporation (NYSE:ORCL): Oracle and Advanced Micro Devices, Inc. (NASDAQ:AMD) […]",
+        "published_at": "2026-09-23T18:47:27+00:00",
         "publisher": "Insider Monkey",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-starts-applied-digital-230948097.html",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amd-just-hit-1-trillion-184727280.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "ORCL",
-        "title": "Oracle Edged Higher While AI Borrowers Pay 37 Extra Basis Points",
-        "summary": "Persistent issuance--not default anxiety--is widening financing costs around the data-center expansion cycle.",
-        "published_at": "2026-09-22T22:22:43+00:00",
+        "title": "Oracle Drops as AI Debt Carries a 37-Basis-Point Premium",
+        "summary": "Heavy infrastructure issuance is raising financing friction before cloud investments deliver their full returns.",
+        "published_at": "2026-09-23T18:33:07+00:00",
         "publisher": "GuruFocus.com",
-        "url": "https://finance.yahoo.com/technology/ai/articles/oracle-edged-higher-while-ai-222243877.html",
+        "url": "https://finance.yahoo.com/technology/ai/articles/oracle-drops-ai-debt-carries-183307030.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "ORCL",
-        "title": "$223 Billion Back To Shareholders: Inside The MSFT Machine",
-        "summary": "Microsoft handed shareholders one of the largest cash returns in market history, but what did that money actually buy for the owners who held on.",
-        "published_at": "2026-09-22T21:51:24+00:00",
+        "title": "Michael Burry sends stark warning on AI hyperscalers",
+        "summary": "Michael Burry did not short a stock this time. He went through the fine print of five balance sheets and published what he found on September 19.",
+        "published_at": "2026-09-23T18:17:00+00:00",
+        "publisher": "TheStreet",
+        "url": "https://www.thestreet.com/investing/stocks/michael-burry-sends-stark-warning-on-ai-hyperscalers",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Paramount Weighs A Musk Check As The Warner Deal Nears Finish Line, Says Report",
+        "summary": "Paramount executives have discussed asking billionaire Elon Musk to join a syndicate of equity investors, Semafor reported.",
+        "published_at": "2026-09-23T16:57:07+00:00",
+        "publisher": "Stocktwits",
+        "url": "https://stocktwits.com/news-articles/markets/equity/paramount-weighs-a-musk-check-as-the-warner-deal-nears-finish-line-says-report/cZM4GsmRBJU",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "How Big A Swing Are You Carrying In Adobe Stock?",
+        "summary": "Adobe (ADBE) trades at about $238 a share. Options that expire in about a year, 361 days out, imply an expected trading range running from $152 to $373 under standard lognormal market-pricing assumptions. The floor sits about 36% below today's price and the ceiling about 56% above. If you own the stock, that spread is what you are carrying.",
+        "published_at": "2026-09-23T16:17:48+00:00",
         "publisher": "Trefis",
-        "url": "https://www.trefis.com/articles/616107/223-billion-back-to-shareholders-inside-the-msft-machine/2026-09-22",
+        "url": "https://www.trefis.com/articles/616303/how-big-a-swing-are-you-carrying-in-adobe-stock/2026-09-23",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "ORCL",
-        "title": "How Far Could CRM Stock Swing In A Year?",
-        "summary": "Salesforce (CRM) stock trades at about $236 after returning about 58% over three months. Its options now price a range over roughly a year that runs from about $152 to about $368. The bottom of that band is a price the stock has already traded through within the past year, and the market is pricing the band a little calmer than the stock has actually moved.",
-        "published_at": "2026-09-22T20:57:37+00:00",
-        "publisher": "Trefis",
-        "url": "https://www.trefis.com/articles/616138/how-far-could-crm-stock-swing-in-a-year/2026-09-22",
+        "title": "Nasdaq climbs higher, McDonald's investor day updates",
+        "summary": "The 8:30 Hosts Julie Hyman, Jake Conley, and Pras Subramanian break down the day's biggest headlines, including the AI trade sending the Nasdaq (^IXIC) higher, Meta's (META) Muse AI sparking fresh AI-disruption fears, and McDonald's (MCD) dipping 5% as the fast-food giant plans to invest $8.5 billion in restaurant upgrades and franchisee support through 2036.",
+        "published_at": "2026-09-23T14:14:49+00:00",
+        "publisher": "Yahoo Finance Video",
+        "url": "https://finance.yahoo.com/video/nasdaq-climbs-higher-mcdonalds-investor-day-updates-141449878.html",
         "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "ORCL",
-        "title": "Can This Number Push IBM Stock Higher?",
-        "summary": "The number worth watching at International Business Machines (IBM) is its annual recurring revenue. It kept growing through a weak quarter. You may expect the story here to be the missed second quarter or the falling stock. It is not. So how big is this recurring revenue business, and how fast is it growing.",
-        "published_at": "2026-09-22T20:48:36+00:00",
-        "publisher": "Trefis",
-        "url": "https://www.trefis.com/articles/616158/can-this-number-push-ibm-stock-higher/2026-09-22",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "ORCL",
-        "title": "Trump disclosed $25M Microsoft and Amazon stock sales in July",
-        "summary": "The 1,156 transactions in July totaled between roughly $79 million and $270 million, according to a CNBC analysis",
-        "published_at": "2026-09-22T17:42:36+00:00",
-        "publisher": "Quartz",
-        "url": "https://qz.com/trump-july-financial-disclosure-microsoft-amazon-stock-sales-092226",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "ORCL",
-        "title": "The AI Software Story Wall Street Is Underrating",
-        "summary": "Salesforce's agentic AI business is scaling at a pace that would make most enterprise software companies envious, yet the stock keeps getting priced like a relic from the CRM era. Something in that gap looks like an opportunity Wall Street has not yet caught up to.",
-        "published_at": "2026-09-22T17:30:10+00:00",
-        "publisher": "24/7 Wall St.",
-        "url": "https://247wallst.com/investing/2026/09/22/the-ai-software-story-wall-street-is-underrating/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "ORCL",
-        "title": "Oracle cloud layoffs hit developers, engineers hardest",
-        "summary": "A leaked document covering 546 employees in Oracle's cloud infrastructure division shows software developers made up about 17% of the cuts",
-        "published_at": "2026-09-22T17:16:48+00:00",
-        "publisher": "Quartz",
-        "url": "https://qz.com/oracle-cloud-layoffs-software-developers-engineers-092226",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "ORCL",
-        "title": "HPE's Networking Orders Signal Continued Growth: What's Ahead?",
-        "summary": "Hewlett Packard Enterprise's networking orders are surging ahead of shipments amid growing AI demand, with major deals and Juniper integration shaping what's next.",
-        "published_at": "2026-09-22T15:42:00+00:00",
-        "publisher": "Zacks",
-        "url": "https://finance.yahoo.com/technology/articles/hpes-networking-orders-signal-continued-154200642.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "ORCL",
-        "title": "Paramount Nashville Talks Surface Amid Hollywood Exit",
-        "summary": "Paramount is scouting Nashville office space as CEO David Ellison considers relocating the studio from Hollywood.",
-        "published_at": "2026-09-22T14:52:47+00:00",
-        "publisher": "CRE Daily",
-        "url": "https://www.credaily.com/briefs/paramount-nashville-talks-surface-amid-hollywood-exit/",
-        "language": null,
-        "source": "STORY",
+        "source": "VIDEO",
         "related_tickers": null
       }
     ],
-    "history_count": 269,
+    "history_count": 279,
     "history": [
+      {
+        "ticker": "ORCL",
+        "title": "3 Reasons ORCL is Risky and 1 Stock to Buy Instead",
+        "summary": "Oracle currently trades at $149.10 per share and has shown little upside over the past six months, posting a small loss of 3.4%. The stock also fell short of the S&P 500’s 18% gain during that period.",
+        "published_at": "2026-09-23T23:16:22+00:00",
+        "publisher": "StockStory",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-orcl-risky-1-231622744.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Oracle layoffs top 2,500 workers as AI spending surges",
+        "summary": "Oracle’s latest layoffs are scheduled for November.",
+        "published_at": "2026-09-23T22:07:00+00:00",
+        "publisher": "TheStreet",
+        "url": "https://www.thestreet.com/employment/oracle-layoffs-top-2500-workers-ai-spending-surge-2026",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Paramount Courts Elon Musk for Investment as Stock Nears Multi-Year Lows",
+        "summary": "Paramount has discussed bringing Elon Musk in as an equity investor as its stock trades near multi-year lows.",
+        "published_at": "2026-09-23T21:00:00+00:00",
+        "publisher": "BeInCrypto",
+        "url": "https://beincrypto.com/paramount-courts-elon-musk-investment-stock/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Debt-Financed AI Investment Boom Risks Equity Market Selloff, IMF Says",
+        "summary": "Massive artificial intelligence investments that are increasingly being financed with debt could tri",
+        "published_at": "2026-09-23T20:37:03+00:00",
+        "publisher": "MT Newswires",
+        "url": "https://finance.yahoo.com/technology/ai/articles/debt-financed-ai-investment-boom-203703821.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "AMD Just Hit $1 Trillion. Can Oracle’s 50,000-GPU Deployment Help Justify It?",
+        "summary": "Advanced Micro Devices crossed a $1 trillion market value for the first time on September 21 after the shares jumped roughly 10%, a milestone that forces investors to ask what kind of AI business is already embedded in the price. One answer is sitting inside Oracle Corporation (NYSE:ORCL): Oracle and Advanced Micro Devices, Inc. (NASDAQ:AMD) […]",
+        "published_at": "2026-09-23T18:47:27+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amd-just-hit-1-trillion-184727280.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Oracle Drops as AI Debt Carries a 37-Basis-Point Premium",
+        "summary": "Heavy infrastructure issuance is raising financing friction before cloud investments deliver their full returns.",
+        "published_at": "2026-09-23T18:33:07+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/technology/ai/articles/oracle-drops-ai-debt-carries-183307030.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Michael Burry sends stark warning on AI hyperscalers",
+        "summary": "Michael Burry did not short a stock this time. He went through the fine print of five balance sheets and published what he found on September 19.",
+        "published_at": "2026-09-23T18:17:00+00:00",
+        "publisher": "TheStreet",
+        "url": "https://www.thestreet.com/investing/stocks/michael-burry-sends-stark-warning-on-ai-hyperscalers",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Paramount Weighs A Musk Check As The Warner Deal Nears Finish Line, Says Report",
+        "summary": "Paramount executives have discussed asking billionaire Elon Musk to join a syndicate of equity investors, Semafor reported.",
+        "published_at": "2026-09-23T16:57:07+00:00",
+        "publisher": "Stocktwits",
+        "url": "https://stocktwits.com/news-articles/markets/equity/paramount-weighs-a-musk-check-as-the-warner-deal-nears-finish-line-says-report/cZM4GsmRBJU",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "How Big A Swing Are You Carrying In Adobe Stock?",
+        "summary": "Adobe (ADBE) trades at about $238 a share. Options that expire in about a year, 361 days out, imply an expected trading range running from $152 to $373 under standard lognormal market-pricing assumptions. The floor sits about 36% below today's price and the ceiling about 56% above. If you own the stock, that spread is what you are carrying.",
+        "published_at": "2026-09-23T16:17:48+00:00",
+        "publisher": "Trefis",
+        "url": "https://www.trefis.com/articles/616303/how-big-a-swing-are-you-carrying-in-adobe-stock/2026-09-23",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Nasdaq climbs higher, McDonald's investor day updates",
+        "summary": "The 8:30 Hosts Julie Hyman, Jake Conley, and Pras Subramanian break down the day's biggest headlines, including the AI trade sending the Nasdaq (^IXIC) higher, Meta's (META) Muse AI sparking fresh AI-disruption fears, and McDonald's (MCD) dipping 5% as the fast-food giant plans to invest $8.5 billion in restaurant upgrades and franchisee support through 2036.",
+        "published_at": "2026-09-23T14:14:49+00:00",
+        "publisher": "Yahoo Finance Video",
+        "url": "https://finance.yahoo.com/video/nasdaq-climbs-higher-mcdonalds-investor-day-updates-141449878.html",
+        "language": null,
+        "source": "VIDEO",
+        "related_tickers": null
+      },
       {
         "ticker": "ORCL",
         "title": "Wells Fargo Starts Applied Digital (APLD) at Overweight and Calls it a Top Idea",
@@ -10216,12 +10476,12 @@
     ]
   },
   "Confidence": {
-    "scoring": "High",
-    "discovery": "High"
+    "scoring": "Medium",
+    "discovery": "Medium"
   },
   "SignalStrength": {
     "scoring": "Moderate",
     "discovery": "Moderate"
   },
-  "Timestamp": "2026-09-22T19:57:18.694960-04:00"
+  "Timestamp": "2026-09-23T20:08:54.451817-04:00"
 }

@@ -10,7 +10,7 @@
 
 ## Discovery Score
 
-82 / 100
+81 / 100
 
 ## Discovery Reasons
 
@@ -33,7 +33,7 @@
 
 ## Watch Points
 
-- 注意材料になり得るニュース表現が 2 件あります。
+- 注意材料になり得るニュース表現が 1 件あります。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Technology セクター全体の需要変化と競争環境を確認する必要があります。
@@ -46,7 +46,7 @@ High
 
 ## Signal Strength
 
-Strong(シグナル充足率: 81.95%)
+Strong(シグナル充足率: 81.2%)
 
 ## Evidence
 
@@ -66,7 +66,7 @@ Strong(シグナル充足率: 81.95%)
 ## Metrics
 
 - scoring_total: 75.0
-- signal_earned_points: 81.95
+- signal_earned_points: 81.2
 - signal_max_points: 100.0
 - weak_signals: []
 - scoring_signal_strength: Strong
@@ -74,11 +74,11 @@ Strong(シグナル充足率: 81.95%)
 - financial_health_score: 20.0
 - valuation_score: 12.0
 - news_score: 14.0
-- momentum: {'1m': -4.033964814284261, '3m': -19.272688306832812, '6m': 30.89173129636389, '1y': 149.9069844586684}
+- momentum: {'1m': -4.033964814284261, '3m': -19.272688306832812, '6m': 30.891720229886143, '1y': 149.9069844586684}
 - benchmark: SPY
 - excess_momentum: {'1m': -5.29, '3m': -24.96, '6m': 12.29, '1y': 132.12}
-- positive_news: 3
-- watch_news: 2
+- positive_news: 2
+- watch_news: 1
 - event_count: 10
-- events_with_reaction: 9
-- sector_average_score: 67.83333333333333
+- events_with_reaction: 5
+- sector_average_score: 68.0

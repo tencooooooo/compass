@@ -6,19 +6,20 @@
 
 - Company: Apple Inc.
 - Total Score: 58 / 100
-- Confidence: High
+- Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
 
-High
+Medium
 
 理由
 
 - 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 0 件です。
-- 主要データが比較的そろっており、説明可能性は高めです。
+- 欠損または計算不可の項目数は 1 件です。
+- 主要データは一定程度ありますが、欠損や未取得項目が残っています。
+- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
@@ -107,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 39.0069
-- forward_pe: 35.4327
-- peg_ratio: 2.7200
-- price_to_book: 46.1617
+- trailing_pe: 38.6048
+- forward_pe: 35.2565
+- peg_ratio: 2.7300
+- price_to_book: 45.7908
 - sector_peer_count: 16
 - trailing_pe_percentile: 64.2900
 - trailing_pe_peer_count: 15
@@ -131,7 +132,7 @@ Evidence
 - 3M の対SPY超過リターンは +9.86pt で、市場並み以上です。
 - 6M の対SPY超過リターンが +16.73pt と、市場を大きく上回っています。
 - 1Y の対SPY超過リターンが +21.12pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.95 倍で、通常水準の流動性があります。
+- 直近出来高が30日平均の 0.96 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -147,8 +148,8 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': 1.25, '3M': 5.69, '6M': 18.6, '1Y': 17.78}
 - excess_returns: {'1M': 8.58, '3M': 9.86, '6M': 16.73, '1Y': 21.12}
-- latest_volume: 40,599,377.0000
-- average_volume_30d: 42,534,515.9000
+- latest_volume: 40,711,800.0000
+- average_volume_30d: 42,538,263.3333
 
 ## News
 
@@ -157,8 +158,8 @@ Evidence
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 2 件(純比率 -0.33)で、センチメントは 2.7 点です。
-- イベント後の平均株価反応が 0.23% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 1 件(純比率 +0.33)で、センチメントは 5.3 点です。
+- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
 
 Evidence
 
@@ -169,11 +170,15 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 1
-- negative_count: 2
-- sentiment_net_ratio: -0.3300
+- positive_count: 2
+- negative_count: 1
+- sentiment_net_ratio: 0.3300
 - event_count: 10
-- events_with_price_reaction: 2
+- events_with_price_reaction: 0
+
+欠損・計算不可
+
+- event_price_reaction
 
 ## Note
 

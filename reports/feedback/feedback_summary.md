@@ -4,10 +4,10 @@
 
 ## Overview
 
-- 生成日時: 2026-09-22T19:57:19.575993-04:00
-- Validation件数: 2775
+- 生成日時: 2026-09-23T20:08:55.161271-04:00
+- Validation件数: 2830
 - 完了済みValidation: 756
-- 未完了Validation: 2019
+- 未完了Validation: 2074
 - 成功率: 44.84%
 - 失敗率: 42.46%
 - Result Counts(期間完了分): {'Excellent': 274, 'Poor': 321, 'Neutral': 96, 'Good': 65}
@@ -18,24 +18,24 @@
 | --- | --- | --- | --- | --- |
 | Excellent | 274 | 274 | 100.00% | 0.00% |
 | Good | 65 | 65 | 100.00% | 0.00% |
-| Neutral | 2115 | 96 | 0.00% | 0.00% |
+| Neutral | 2170 | 96 | 0.00% | 0.00% |
 | Poor | 321 | 321 | 0.00% | 100.00% |
 
 ## Score Accuracy
 
 | Score Bucket | Total | Completed | Result Counts |
 | --- | --- | --- | --- |
-| High Score (75+) | 555 | 145 | {'Excellent': 61, 'Good': 11, 'Neutral': 8, 'Poor': 65, 'Unknown': 0, 'Pending': 410} |
-| Mid Score (60-74) | 1650 | 459 | {'Excellent': 167, 'Good': 41, 'Neutral': 68, 'Poor': 183, 'Unknown': 0, 'Pending': 1191} |
-| Low Score (<60) | 570 | 152 | {'Excellent': 46, 'Good': 13, 'Neutral': 20, 'Poor': 73, 'Unknown': 0, 'Pending': 418} |
+| High Score (75+) | 555 | 140 | {'Excellent': 73, 'Good': 15, 'Neutral': 11, 'Poor': 41, 'Unknown': 0, 'Pending': 415} |
+| Mid Score (60-74) | 1785 | 483 | {'Excellent': 158, 'Good': 38, 'Neutral': 70, 'Poor': 217, 'Unknown': 0, 'Pending': 1302} |
+| Low Score (<60) | 490 | 133 | {'Excellent': 43, 'Good': 12, 'Neutral': 15, 'Poor': 63, 'Unknown': 0, 'Pending': 357} |
 | Unknown | 0 | 0 | {'Excellent': 0, 'Good': 0, 'Neutral': 0, 'Poor': 0, 'Unknown': 0, 'Pending': 0} |
 
 ## Confidence Accuracy
 
 | Confidence | Total | Completed | Success Rate | Failure Rate | Neutral |
 | --- | --- | --- | --- | --- | --- |
-| High | 1945 | 521 | 46.64% | 41.27% | 63 |
-| Medium | 830 | 235 | 40.85% | 45.11% | 33 |
+| High | 1960 | 521 | 46.64% | 41.27% | 63 |
+| Medium | 870 | 235 | 40.85% | 45.11% | 33 |
 
 ## Signal Strength Accuracy
 
@@ -43,23 +43,23 @@ Confidence(データ充足度)と分離したシグナル強度別の成績で�
 
 | Signal Strength | Total | Completed | Success Rate | Failure Rate | Neutral |
 | --- | --- | --- | --- | --- | --- |
-| Strong | 1875 | 466 | 44.64% | 42.06% | 62 |
-| Moderate | 440 | 106 | 50.94% | 34.91% | 15 |
+| Strong | 1925 | 466 | 44.64% | 42.06% | 62 |
+| Moderate | 445 | 106 | 50.94% | 34.91% | 15 |
 | Unknown | 460 | 184 | 41.85% | 47.83% | 19 |
 
 ## Sector Accuracy
 
 | Sector | Total | Completed | Success Rate | Failure Rate | Neutral |
 | --- | --- | --- | --- | --- | --- |
-| Communication Services | 600 | 176 | 35.80% | 50.57% | 24 |
+| Communication Services | 610 | 176 | 35.80% | 50.57% | 24 |
 | Consumer Cyclical | 215 | 68 | 22.06% | 67.65% | 7 |
-| Technology | 1960 | 512 | 50.98% | 36.33% | 65 |
+| Technology | 2005 | 512 | 50.98% | 36.33% | 65 |
 
 ## Event Accuracy
 
 | Event Bucket | Total | Completed | Result Counts |
 | --- | --- | --- | --- |
-| Has Events | 2775 | 756 | {'Excellent': 274, 'Good': 65, 'Neutral': 96, 'Poor': 321, 'Unknown': 0, 'Pending': 2019} |
+| Has Events | 2830 | 756 | {'Excellent': 274, 'Good': 65, 'Neutral': 96, 'Poor': 321, 'Unknown': 0, 'Pending': 2074} |
 | No Events | 0 | 0 | {'Excellent': 0, 'Good': 0, 'Neutral': 0, 'Poor': 0, 'Unknown': 0, 'Pending': 0} |
 
 ## Success Patterns

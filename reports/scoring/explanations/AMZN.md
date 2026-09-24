@@ -5,9 +5,9 @@
 ## Summary
 
 - Company: Amazon.com, Inc.
-- Total Score: 65 / 100
+- Total Score: 64 / 100
 - Confidence: Medium
-- Signal Strength: Strong
+- Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
@@ -17,18 +17,19 @@ Medium
 理由
 
 - 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 1 件です。
+- 欠損または計算不可の項目数は 2 件です。
 - 主要データは一定程度ありますが、欠損や未取得項目が残っています。
+- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
 
-Strong
+Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 65 点を獲得し、シグナル充足率は 65.0% です。
-- シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
+- データが確認できた 100 点満点のうち 64 点を獲得し、シグナル充足率は 64.0% です。
+- シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
@@ -111,10 +112,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 20.5133
-- forward_pe: 24.5445
-- peg_ratio: 1.5300
-- price_to_book: 4.9844
+- trailing_pe: 20.0700
+- forward_pe: 23.9949
+- peg_ratio: 1.5100
+- price_to_book: 4.8727
 - sector_peer_count: 10
 - trailing_pe_percentile: 44.4400
 - trailing_pe_peer_count: 10
@@ -135,7 +136,7 @@ Evidence
 - 3M の対SPY超過リターンは +3.23pt で、市場並み以上です。
 - 6M の対SPY超過リターンは +2.74pt で、市場並み以上です。
 - 1Y の対SPY超過リターンは -7.63pt と、市場を小幅に下回っています。
-- 直近出来高が30日平均の 1.23 倍で、市場関心の高まりが確認できます。
+- 直近出来高が30日平均の 1.25 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -151,18 +152,18 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': 1.25, '3M': 5.69, '6M': 18.6, '1Y': 17.78}
 - excess_returns: {'1M': -2.66, '3M': 3.23, '6M': 2.74, '1Y': -7.63}
-- latest_volume: 41,258,805.0000
-- average_volume_30d: 33,466,176.8333
+- latest_volume: 41,982,600.0000
+- average_volume_30d: 33,490,303.3333
 
 ## News
 
-9点
+8点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 1 件(純比率 +0.33)で、センチメントは 5.3 点です。
-- イベント後の平均株価反応が -1.34% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 2 件(純比率 -0.33)で、センチメントは 2.7 点です。
+- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
 
 Evidence
 
@@ -173,11 +174,15 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 2
-- negative_count: 1
-- sentiment_net_ratio: 0.3300
+- positive_count: 1
+- negative_count: 2
+- sentiment_net_ratio: -0.3300
 - event_count: 10
-- events_with_price_reaction: 3
+- events_with_price_reaction: 0
+
+欠損・計算不可
+
+- event_price_reaction
 
 ## Note
 

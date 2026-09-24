@@ -48,7 +48,7 @@ High
 
 ## Signal Strength
 
-Moderate(シグナル充足率: 61.5%)
+Moderate(シグナル充足率: 62.25%)
 
 ## Evidence
 
@@ -68,7 +68,7 @@ Moderate(シグナル充足率: 61.5%)
 ## Metrics
 
 - scoring_total: 59.0
-- signal_earned_points: 61.5
+- signal_earned_points: 62.25
 - signal_max_points: 100.0
 - weak_signals: []
 - scoring_signal_strength: Moderate
@@ -79,8 +79,8 @@ Moderate(シグナル充足率: 61.5%)
 - momentum: {'1m': 6.631385862223153, '3m': 42.79757818817075, '6m': 23.47904801106938, '1y': -28.731205823788475}
 - benchmark: SPY
 - excess_momentum: {'1m': 5.38, '3m': 37.11, '6m': 4.88, '1y': -46.51}
-- positive_news: 3
+- positive_news: 4
 - watch_news: 1
 - event_count: 10
-- events_with_reaction: 9
-- sector_average_score: 67.83333333333333
+- events_with_reaction: 5
+- sector_average_score: 68.0

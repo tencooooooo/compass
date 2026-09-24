@@ -96,7 +96,7 @@ Evidence
 
 - PER はセクター内 92.86 パーセンタイル / 母数 15 で、相対的な加点は抑えています。
 - Forward PER はセクター内 80.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
-- PEG はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。
+- PEG はセクター内 73.33 パーセンタイル / 母数 16 で、中位レンジです。
 - PBR はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -107,16 +107,16 @@ Evidence
 
 使用データ
 
-- trailing_pe: 85.6250
-- forward_pe: 27.3698
+- trailing_pe: 88.5409
+- forward_pe: 28.1250
 - peg_ratio: 0.9900
-- price_to_book: 11.3167
+- price_to_book: 11.6289
 - sector_peer_count: 16
 - trailing_pe_percentile: 92.8600
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 80.0000
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 66.6700
+- peg_ratio_percentile: 73.3300
 - peg_ratio_peer_count: 16
 - price_to_book_percentile: 53.3300
 - price_to_book_peer_count: 16
@@ -147,8 +147,8 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': 1.25, '3M': 5.69, '6M': 18.6, '1Y': 17.78}
 - excess_returns: {'1M': 5.38, '3M': 37.11, '6M': 4.88, '1Y': -46.51}
-- latest_volume: 12,512,405.0000
-- average_volume_30d: 15,932,043.5000
+- latest_volume: 12,580,700.0000
+- average_volume_30d: 15,934,320.0000
 
 ## News
 
@@ -157,7 +157,7 @@ Evidence
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。
+- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 1 件(純比率 +0.60)で、センチメントは 6.4 点です。
 - イベント後の平均株価反応が -0.49% と中立圏です。
 
 Evidence
@@ -169,11 +169,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 3
+- positive_count: 4
 - negative_count: 1
-- sentiment_net_ratio: 0.5000
+- sentiment_net_ratio: 0.6000
 - event_count: 10
-- events_with_price_reaction: 9
+- events_with_price_reaction: 5
 
 ## Note
 

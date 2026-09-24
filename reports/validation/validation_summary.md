@@ -4,11 +4,11 @@
 
 ## Overview
 
-- 生成日時: 2026-09-22T19:56:45.555587-04:00
+- 生成日時: 2026-09-23T20:08:28.623786-04:00
 - 対象期間: 1w, 1m, 3m, 6m, 1y
-- 検証対象数: 2775
+- 検証対象数: 2830
 - 期間完了済み: 756
-- 期間未完了: 2019
+- 期間未完了: 2074
 - ベンチマーク: SPY
 - 平均騰落率(期間完了分): 1.19%
 - ユニーク銘柄数(期間完了分): 18
@@ -21,7 +21,7 @@
 - Good: 65
 - Neutral: 96
 - Poor: 321
-- Pending(期間未完了): 2019
+- Pending(期間未完了): 2074
 
 ## Validation Table
 
@@ -49,9 +49,9 @@
 | GOOGL | 6m | 74 | -2.72% | -6.68% | -6.89% | -6.51% | Neutral | No | Medium | N/A |
 | META | 1m | 72 | -9.17% | -9.34% | -12.59% | -7.80% | Poor | Yes | High | N/A |
 | META | 1w | 72 | -1.60% | -1.55% | -2.08% | -1.34% | Poor | Yes | High | N/A |
-| META | 1y | 72 | 20.27% | 16.31% | 18.66% | 16.48% | Neutral | No | High | N/A |
-| META | 3m | 72 | 20.27% | 16.31% | 18.66% | 16.48% | Neutral | No | High | N/A |
-| META | 6m | 72 | 20.27% | 16.31% | 18.66% | 16.48% | Neutral | No | High | N/A |
+| META | 1y | 72 | 20.28% | 16.31% | 18.66% | 16.48% | Neutral | No | High | N/A |
+| META | 3m | 72 | 20.28% | 16.31% | 18.66% | 16.48% | Neutral | No | High | N/A |
+| META | 6m | 72 | 20.28% | 16.31% | 18.66% | 16.48% | Neutral | No | High | N/A |
 | MSFT | 1m | 67 | 20.93% | 20.76% | 23.71% | 26.47% | Excellent | Yes | High | N/A |
 | MSFT | 1w | 67 | -0.24% | -0.20% | 0.42% | 2.03% | Neutral | Yes | High | N/A |
 | MSFT | 1y | 67 | 29.84% | 25.88% | 20.05% | 23.98% | Neutral | No | High | N/A |
@@ -629,9 +629,9 @@
 | GOOGL | 6m | 68 | 5.30% | 0.65% | 6.02% | 1.44% | Neutral | No | Medium | Strong |
 | META | 1m | 66 | -3.76% | -7.84% | -8.10% | -5.35% | Poor | Yes | High | Strong |
 | META | 1w | 66 | -0.92% | -5.03% | -2.72% | -3.08% | Poor | Yes | High | Strong |
-| META | 1y | 66 | 24.23% | 19.58% | 27.05% | 20.37% | Neutral | No | High | Strong |
-| META | 3m | 66 | 24.23% | 19.58% | 27.05% | 20.37% | Neutral | No | High | Strong |
-| META | 6m | 66 | 24.23% | 19.58% | 27.05% | 20.37% | Neutral | No | High | Strong |
+| META | 1y | 66 | 24.23% | 19.58% | 27.06% | 20.37% | Neutral | No | High | Strong |
+| META | 3m | 66 | 24.23% | 19.58% | 27.06% | 20.37% | Neutral | No | High | Strong |
+| META | 6m | 66 | 24.23% | 19.58% | 27.06% | 20.37% | Neutral | No | High | Strong |
 | MSFT | 1m | 65 | 28.64% | 24.56% | 18.77% | 18.40% | Excellent | Yes | High | Moderate |
 | MSFT | 1w | 65 | 25.29% | 21.17% | 17.87% | 16.04% | Excellent | Yes | High | Moderate |
 | MSFT | 1y | 65 | 26.84% | 22.19% | 11.99% | 11.99% | Neutral | No | High | Moderate |
@@ -714,9 +714,9 @@
 | GOOGL | 6m | 77 | -1.33% | -5.12% | -3.23% | -6.57% | Neutral | No | High | Strong |
 | META | 1m | 65 | 2.81% | 0.13% | -3.81% | -0.17% | Neutral | Yes | High | Strong |
 | META | 1w | 65 | 6.36% | 2.85% | 3.20% | 3.58% | Excellent | Yes | High | Strong |
-| META | 1y | 65 | 32.42% | 28.63% | 34.26% | 27.18% | Neutral | No | High | Strong |
-| META | 3m | 65 | 32.42% | 28.63% | 34.26% | 27.18% | Neutral | No | High | Strong |
-| META | 6m | 65 | 32.42% | 28.63% | 34.26% | 27.18% | Neutral | No | High | Strong |
+| META | 1y | 65 | 32.42% | 28.63% | 34.27% | 27.18% | Neutral | No | High | Strong |
+| META | 3m | 65 | 32.42% | 28.63% | 34.27% | 27.18% | Neutral | No | High | Strong |
+| META | 6m | 65 | 32.42% | 28.63% | 34.27% | 27.18% | Neutral | No | High | Strong |
 | MSFT | 1m | 76 | 9.37% | 6.69% | 0.22% | 3.01% | Excellent | Yes | High | Strong |
 | MSFT | 1w | 76 | 7.59% | 4.08% | -0.02% | 0.39% | Excellent | Yes | High | Strong |
 | MSFT | 1y | 76 | 7.36% | 3.58% | -6.56% | -4.70% | Neutral | No | High | Strong |
@@ -749,9 +749,9 @@
 | GOOGL | 6m | 78 | -5.92% | -8.25% | -5.74% | -8.23% | Neutral | No | Medium | Strong |
 | META | 1m | 63 | 0.44% | -0.55% | -5.66% | -0.53% | Neutral | Yes | High | Moderate |
 | META | 1w | 63 | 0.79% | -1.23% | -0.95% | 0.35% | Poor | Yes | High | Moderate |
-| META | 1y | 63 | 24.89% | 22.57% | 28.50% | 22.59% | Neutral | No | High | Moderate |
-| META | 3m | 63 | 24.89% | 22.57% | 28.50% | 22.59% | Neutral | No | High | Moderate |
-| META | 6m | 63 | 24.89% | 22.57% | 28.50% | 22.59% | Neutral | No | High | Moderate |
+| META | 1y | 63 | 24.90% | 22.57% | 28.50% | 22.59% | Neutral | No | High | Moderate |
+| META | 3m | 63 | 24.90% | 22.57% | 28.50% | 22.59% | Neutral | No | High | Moderate |
+| META | 6m | 63 | 24.90% | 22.57% | 28.50% | 22.59% | Neutral | No | High | Moderate |
 | MSFT | 1m | 80 | 2.07% | 1.08% | -3.87% | -1.05% | Neutral | Yes | High | Strong |
 | MSFT | 1w | 80 | 3.78% | 1.75% | -1.61% | -0.88% | Excellent | Yes | High | Strong |
 | MSFT | 1y | 80 | 2.31% | -0.01% | -10.02% | -8.05% | Neutral | No | High | Strong |
@@ -1652,11 +1652,11 @@
 | GOOGL | 1y | 74 | 1.38% | 0.61% | 6.96% | 0.57% | Neutral | No | Medium | Strong |
 | GOOGL | 3m | 74 | 1.38% | 0.61% | 6.96% | 0.57% | Neutral | No | Medium | Strong |
 | GOOGL | 6m | 74 | 1.38% | 0.61% | 6.96% | 0.57% | Neutral | No | Medium | Strong |
-| META | 1m | 69 | 27.53% | 26.76% | 36.02% | 26.73% | Neutral | No | High | Strong |
+| META | 1m | 69 | 27.54% | 26.76% | 36.02% | 26.73% | Neutral | No | High | Strong |
 | META | 1w | 69 | 6.70% | 6.59% | 8.19% | 7.55% | Excellent | Yes | High | Strong |
-| META | 1y | 69 | 27.53% | 26.76% | 36.02% | 26.73% | Neutral | No | High | Strong |
-| META | 3m | 69 | 27.53% | 26.76% | 36.02% | 26.73% | Neutral | No | High | Strong |
-| META | 6m | 69 | 27.53% | 26.76% | 36.02% | 26.73% | Neutral | No | High | Strong |
+| META | 1y | 69 | 27.54% | 26.76% | 36.02% | 26.73% | Neutral | No | High | Strong |
+| META | 3m | 69 | 27.54% | 26.76% | 36.02% | 26.73% | Neutral | No | High | Strong |
+| META | 6m | 69 | 27.54% | 26.76% | 36.02% | 26.73% | Neutral | No | High | Strong |
 | MSFT | 1m | 73 | -3.02% | -3.80% | -8.99% | -8.85% | Neutral | No | Medium | Strong |
 | MSFT | 1w | 73 | -2.69% | -2.80% | -3.81% | -3.55% | Poor | Yes | Medium | Strong |
 | MSFT | 1y | 73 | -3.02% | -3.80% | -8.99% | -8.85% | Neutral | No | Medium | Strong |
@@ -1732,11 +1732,11 @@
 | GOOGL | 1y | 61 | 3.55% | 2.47% | 8.51% | 1.35% | Neutral | No | Medium | Moderate |
 | GOOGL | 3m | 61 | 3.55% | 2.47% | 8.51% | 1.35% | Neutral | No | Medium | Moderate |
 | GOOGL | 6m | 61 | 3.55% | 2.47% | 8.51% | 1.35% | Neutral | No | Medium | Moderate |
-| META | 1m | 66 | 28.80% | 27.72% | 36.57% | 26.61% | Neutral | No | High | Strong |
+| META | 1m | 66 | 28.80% | 27.73% | 36.57% | 26.61% | Neutral | No | High | Strong |
 | META | 1w | 66 | 7.19% | 7.33% | 8.63% | 7.13% | Excellent | Yes | High | Strong |
-| META | 1y | 66 | 28.80% | 27.72% | 36.57% | 26.61% | Neutral | No | High | Strong |
-| META | 3m | 66 | 28.80% | 27.72% | 36.57% | 26.61% | Neutral | No | High | Strong |
-| META | 6m | 66 | 28.80% | 27.72% | 36.57% | 26.61% | Neutral | No | High | Strong |
+| META | 1y | 66 | 28.80% | 27.73% | 36.57% | 26.61% | Neutral | No | High | Strong |
+| META | 3m | 66 | 28.80% | 27.73% | 36.57% | 26.61% | Neutral | No | High | Strong |
+| META | 6m | 66 | 28.80% | 27.73% | 36.57% | 26.61% | Neutral | No | High | Strong |
 | MSFT | 1m | 73 | -1.83% | -2.91% | -6.95% | -7.19% | Neutral | No | High | Strong |
 | MSFT | 1w | 73 | -2.63% | -2.49% | -3.46% | -3.36% | Poor | Yes | High | Strong |
 | MSFT | 1y | 73 | -1.83% | -2.91% | -6.95% | -7.19% | Neutral | No | High | Strong |
@@ -1867,11 +1867,11 @@
 | GOOGL | 1y | 67 | 4.23% | 2.91% | 10.78% | 2.91% | Neutral | No | Medium | Strong |
 | GOOGL | 3m | 67 | 4.23% | 2.91% | 10.78% | 2.91% | Neutral | No | Medium | Strong |
 | GOOGL | 6m | 67 | 4.23% | 2.91% | 10.78% | 2.91% | Neutral | No | Medium | Strong |
-| META | 1m | 68 | 24.34% | 23.02% | 33.13% | 23.02% | Neutral | No | High | Strong |
+| META | 1m | 68 | 24.35% | 23.02% | 33.13% | 23.03% | Neutral | No | High | Strong |
 | META | 1w | 68 | 10.26% | 10.62% | 15.47% | 11.68% | Excellent | Yes | High | Strong |
-| META | 1y | 68 | 24.34% | 23.02% | 33.13% | 23.02% | Neutral | No | High | Strong |
-| META | 3m | 68 | 24.34% | 23.02% | 33.13% | 23.02% | Neutral | No | High | Strong |
-| META | 6m | 68 | 24.34% | 23.02% | 33.13% | 23.02% | Neutral | No | High | Strong |
+| META | 1y | 68 | 24.35% | 23.02% | 33.13% | 23.03% | Neutral | No | High | Strong |
+| META | 3m | 68 | 24.35% | 23.02% | 33.13% | 23.03% | Neutral | No | High | Strong |
+| META | 6m | 68 | 24.35% | 23.02% | 33.13% | 23.03% | Neutral | No | High | Strong |
 | MSFT | 1m | 68 | 0.24% | -1.09% | -6.44% | -6.79% | Neutral | No | High | Strong |
 | MSFT | 1w | 68 | -1.04% | -0.68% | -3.44% | -3.37% | Neutral | Yes | High | Strong |
 | MSFT | 1y | 68 | 0.24% | -1.09% | -6.44% | -6.79% | Neutral | No | High | Strong |
@@ -2247,11 +2247,11 @@
 | GOOGL | 1y | 72 | 5.58% | 3.27% | 9.71% | 3.42% | Neutral | No | Medium | Strong |
 | GOOGL | 3m | 72 | 5.58% | 3.27% | 9.71% | 3.42% | Neutral | No | Medium | Strong |
 | GOOGL | 6m | 72 | 5.58% | 3.27% | 9.71% | 3.42% | Neutral | No | Medium | Strong |
-| META | 1m | 69 | 14.40% | 12.10% | 19.51% | 12.24% | Neutral | No | High | Strong |
+| META | 1m | 69 | 14.40% | 12.10% | 19.51% | 12.25% | Neutral | No | High | Strong |
 | META | 1w | 69 | 5.89% | 5.26% | 8.22% | 5.12% | Excellent | Yes | High | Strong |
-| META | 1y | 69 | 14.40% | 12.10% | 19.51% | 12.24% | Neutral | No | High | Strong |
-| META | 3m | 69 | 14.40% | 12.10% | 19.51% | 12.24% | Neutral | No | High | Strong |
-| META | 6m | 69 | 14.40% | 12.10% | 19.51% | 12.24% | Neutral | No | High | Strong |
+| META | 1y | 69 | 14.40% | 12.10% | 19.51% | 12.25% | Neutral | No | High | Strong |
+| META | 3m | 69 | 14.40% | 12.10% | 19.51% | 12.25% | Neutral | No | High | Strong |
+| META | 6m | 69 | 14.40% | 12.10% | 19.51% | 12.25% | Neutral | No | High | Strong |
 | MSFT | 1m | 68 | 1.13% | -1.18% | -4.66% | -4.96% | Neutral | No | High | Strong |
 | MSFT | 1w | 68 | 1.08% | 0.45% | -0.94% | -0.46% | Neutral | Yes | High | Strong |
 | MSFT | 1y | 68 | 1.13% | -1.18% | -4.66% | -4.96% | Neutral | No | High | Strong |
@@ -2802,6 +2802,61 @@
 | TXN | 1y | 79 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
 | TXN | 3m | 79 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
 | TXN | 6m | 79 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| AAPL | 1m | 64 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AAPL | 1w | 64 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AAPL | 1y | 64 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AAPL | 3m | 64 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AAPL | 6m | 64 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMAT | 1m | 81 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| AMAT | 1w | 81 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| AMAT | 1y | 81 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| AMAT | 3m | 81 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| AMAT | 6m | 81 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| AMD | 1m | 79 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMD | 1w | 79 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMD | 1y | 79 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMD | 3m | 79 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMD | 6m | 79 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| CRM | 1m | 72 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| CRM | 1w | 72 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| CRM | 1y | 72 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| CRM | 3m | 72 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| CRM | 6m | 72 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| GOOGL | 1m | 70 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| GOOGL | 1w | 70 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| GOOGL | 1y | 70 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| GOOGL | 3m | 70 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| GOOGL | 6m | 70 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 1m | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 1w | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 1y | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 3m | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 6m | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 1m | 72 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 1w | 72 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 1y | 72 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 3m | 72 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 6m | 72 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| NOW | 1m | 62 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Moderate |
+| NOW | 1w | 62 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Moderate |
+| NOW | 1y | 62 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Moderate |
+| NOW | 3m | 62 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Moderate |
+| NOW | 6m | 62 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Moderate |
+| NVDA | 1m | 84 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| NVDA | 1w | 84 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| NVDA | 1y | 84 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| NVDA | 3m | 84 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| NVDA | 6m | 84 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| QCOM | 1m | 76 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| QCOM | 1w | 76 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| QCOM | 1y | 76 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| QCOM | 3m | 76 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| QCOM | 6m | 76 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| TXN | 1m | 80 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| TXN | 1w | 80 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| TXN | 1y | 80 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| TXN | 3m | 80 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| TXN | 6m | 80 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
 
 ## 良かった特徴
 

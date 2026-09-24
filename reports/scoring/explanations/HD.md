@@ -100,7 +100,7 @@ Evidence
 
 - PER はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
-- PEG はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
+- PEG はセクター内 88.89 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - PBR はセクター内 100.00 パーセンタイル / 母数 5 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -111,16 +111,16 @@ Evidence
 
 使用データ
 
-- trailing_pe: 21.3531
-- forward_pe: 19.0548
-- peg_ratio: 2.5100
-- price_to_book: 18.3393
+- trailing_pe: 20.7497
+- forward_pe: 18.5163
+- peg_ratio: 2.5800
+- price_to_book: 17.8210
 - sector_peer_count: 10
 - trailing_pe_percentile: 55.5600
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 44.4400
 - forward_pe_peer_count: 10
-- peg_ratio_percentile: 77.7800
+- peg_ratio_percentile: 88.8900
 - peg_ratio_peer_count: 10
 - price_to_book_percentile: 100
 - price_to_book_peer_count: 5
@@ -162,7 +162,7 @@ Evidence
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
 - ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 2 件(純比率 +0.00)で、センチメントは 4.0 点です。
-- イベント後の平均株価反応が 1.17% とプラスです。
+- イベント後の平均株価反応が 2.74% とプラスです。
 
 Evidence
 
@@ -177,7 +177,7 @@ Evidence
 - negative_count: 2
 - sentiment_net_ratio: 0.0000
 - event_count: 10
-- events_with_price_reaction: 7
+- events_with_price_reaction: 4
 
 ## Note
 
