@@ -6,9 +6,9 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 1.82%
-- ニュース件数: 240
-- Event数: 240
+- 市場全体の1Mモメンタム平均: 1.67%
+- ニュース件数: 230
+- Event数: 230
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
 
 ### セクター構成
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-09-23T23:57:54+00:00 / META / Investor's Business Daily: Dow Jones Futures: Stocks Fall As Treasury Yields Soar; Palantir, Palo Alto Flash 投資判断表現 Signals
-- 2026-09-23T23:56:24+00:00 / AAPL / TheStreet: Billionaire Tim Draper takes aim at Apple, Meta's Bitcoin-free balance sheets
-- 2026-09-23T23:56:24+00:00 / META / TheStreet: Billionaire Tim Draper takes aim at Apple, Meta's Bitcoin-free balance sheets
-- 2026-09-23T23:52:50+00:00 / META / TheStreet: History of Meta Platforms: Company timeline, facts & milestones
-- 2026-09-23T23:46:39+00:00 / META / Yahoo Finance: Meta's Zuckerberg says Muse AI agent will take a small fee from transactions
+- 2026-09-24T23:58:17+00:00 / TSLA / Investor's Business Daily: Dow Jones Futures: Market Rally Resilient As Yields, Oil Prices Keep Rising; Tesla Event On Deck
+- 2026-09-24T23:54:09+00:00 / GOOGL / Insider Monkey: Waymo Takes On Zoox in Las Vegas. Is Alphabet Winning the Robotaxi Race?
+- 2026-09-24T23:54:09+00:00 / AMZN / Insider Monkey: Waymo Takes On Zoox in Las Vegas. Is Alphabet Winning the Robotaxi Race?
+- 2026-09-24T23:53:02+00:00 / TSLA / Insider Monkey: Tesla (TSLA) vs Rivian (RIVN): Which is a Better EV Stock to 投資判断表現
+- 2026-09-24T23:52:47+00:00 / NVDA / Motley Fool: Why Welltower Stock Topped the Market on Thursday
 
 ### 注目イベント
 
-- 2026-09-22T19:08:18+00:00 / ADBE: Update: Market Chatter: Big Software Firms Offer AI Discounts in Bid to Counter Anthropic, OpenAI (株価反応: -4.52%, 出来高: 7.37M)
-- 2026-09-22T18:59:24+00:00 / ADBE: Adobe Is Down 32% This Year: Is ADBE Stock Dead Money or Due for a Bounce? (株価反応: -4.52%, 出来高: 7.37M)
-- 2026-09-22T18:00:10+00:00 / HD: How Much Further Could Lowe's Stock Fall With Its DIY Shoppers 投資判断表現 Back? (株価反応: 2.74%, 出来高: 5.45M)
-- 2026-09-22T14:09:24+00:00 / HD: His Bet On Home Depot Made Ken Langone A Billionaire. Now He Sees Eli Lilly Stock Hitting $2,000 (株価反応: 2.74%, 出来高: 5.45M)
-- 2026-09-22T13:43:00+00:00 / HD: Is Home Depot Winning Bigger Projects Through Pro Investments? (株価反応: 2.74%, 出来高: 5.45M)
+- 2026-09-23T19:55:23+00:00 / HD: Home Depot’s Real Story Isn’t Housing, It’s the Balance Sheet (株価反応: -2.83%, 出来高: 4.68M)
+- 2026-09-23T15:15:15+00:00 / HD: Home Depot (HD) is Positioned to benefit from Housing Market Recovery (株価反応: -2.83%, 出来高: 4.68M)
+- 2026-09-23T03:07:00+00:00 / HD: How Walmart, Home Depot, Lowe’s tariff refunds affect shoppers (株価反応: -2.83%, 出来高: 4.68M)
+- 2026-09-23T04:33:07+00:00 / LOW: Why Is Lowe's (LOW) Eyeing Tuck In Acquisitions As It Pursues Growth? (株価反応: -2.41%, 出来高: 2.93M)
+- 2026-09-23T16:12:43+00:00 / TMUS: Telecom Dividends Get Taxed Hard: Here’s How Much More You Keep With a Roth Strategy (株価反応: 2.00%, 出来高: 8.04M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 55.00 | 18.88 | 11.20 | -0.72% | 60 |
-| Consumer Cyclical | 6 | 52.67 | 73.71 | 9.01 | -5.34% | 60 |
-| Technology | 12 | 68.00 | 45.52 | 9.16 | 6.66% | 120 |
+| Communication Services | 6 | 55.67 | 19.12 | 11.22 | -2.04% | 60 |
+| Consumer Cyclical | 6 | 50.17 | 74.89 | 9.01 | -6.95% | 60 |
+| Technology | 12 | 65.92 | 45.58 | 9.17 | 7.84% | 110 |
 
 ## 市場トレンド
 
@@ -53,7 +53,7 @@
 
 ## 市場心理
 
-市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 240 件で、ポジティブなモメンタムのセクターは 1/3 です。
+市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 230 件で、ポジティブなモメンタムのセクターは 1/3 です。
 
 参照Knowledge: market_psychology.md
 

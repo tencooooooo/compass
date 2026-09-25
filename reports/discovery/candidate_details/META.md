@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-68 / 100
+70 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 10/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで +32.81pt と、市場を大きく上回っています。
-- 3Mモメンタムは対SPYで +25.44pt と、市場を大きく上回っています。
-- 6Mモメンタムは対SPYで +3.55pt と、市場並み以上です。
+- 1Mモメンタムは対SPYで +32.39pt と、市場を大きく上回っています。
+- 3Mモメンタムは対SPYで +28.56pt と、市場を大きく上回っています。
+- 6Mモメンタムは対SPYで +7.57pt と、市場並み以上です。
 
 ## Strengths
 
@@ -34,13 +34,13 @@
 ## Watch Points
 
 - バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。
-- 注意材料になり得るニュース表現が 1 件あります。
 - Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。
 - Communication ServicesのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Communication Services セクター全体の需要変化と競争環境を確認する必要があります。
 - yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。
+- ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。
 
 ## Confidence
 
@@ -48,7 +48,7 @@ Medium
 
 ## Signal Strength
 
-Strong(シグナル充足率: 71.32%)
+Strong(シグナル充足率: 73.37%)
 
 ## Evidence
 
@@ -67,20 +67,20 @@ Strong(シグナル充足率: 71.32%)
 
 ## Metrics
 
-- scoring_total: 65.0
-- signal_earned_points: 67.75
+- scoring_total: 68.0
+- signal_earned_points: 69.7
 - signal_max_points: 95.0
 - weak_signals: []
 - scoring_signal_strength: Strong
 - growth_score: 17.0
 - financial_health_score: 20.0
 - valuation_score: 3.0
-- news_score: 10.0
-- momentum: {'1m': 34.0573356806925, '3m': 31.124388446928723, '6m': 22.15086339435856, '1y': -4.982469499953233}
+- news_score: 13.0
+- momentum: {'1m': 33.21297035477977, '3m': 33.53546572380571, '6m': 25.712977016428447, '1y': -2.4224907955818793}
 - benchmark: SPY
-- excess_momentum: {'1m': 32.81, '3m': 25.44, '6m': 3.55, '1y': -22.77}
-- positive_news: 2
-- watch_news: 1
+- excess_momentum: {'1m': 32.39, '3m': 28.56, '6m': 7.57, '1y': -18.81}
+- positive_news: 3
+- watch_news: 0
 - event_count: 10
 - events_with_reaction: 0
-- sector_average_score: 55.0
+- sector_average_score: 55.666666666666664

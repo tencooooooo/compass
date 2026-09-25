@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Texas Instruments Incorporated
-- Total Score: 72 / 100
+- Total Score: 71 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 72 点を獲得し、シグナル充足率は 72.0% です。
+- データが確認できた 100 点満点のうち 71 点を獲得し、シグナル充足率は 71.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -107,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 41.4947
-- forward_pe: 25.6105
+- trailing_pe: 41.1948
+- forward_pe: 25.4254
 - peg_ratio: 0.9700
-- price_to_book: 13.8224
+- price_to_book: 13.7226
 - sector_peer_count: 16
 - trailing_pe_percentile: 78.5700
 - trailing_pe_peer_count: 15
@@ -123,15 +123,15 @@ Evidence
 
 ## Momentum
 
-15点
+14点
 
 理由
 
-- 1M の対SPY超過リターンは +1.42pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -16.06pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンが +26.75pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンが +37.45pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 1.28 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは +4.46pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -14.57pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンが +23.36pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンが +39.32pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.92 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -140,15 +140,15 @@ Evidence
 
 使用データ
 
-- 1M: 2.6668
-- 3M: -10.3694
-- 6M: 45.3564
-- 1Y: 55.2315
+- 1M: 5.2831
+- 3M: -9.5985
+- 6M: 41.5034
+- 1Y: 55.7065
 - benchmark: SPY
-- benchmark_returns: {'1M': 1.25, '3M': 5.69, '6M': 18.6, '1Y': 17.78}
-- excess_returns: {'1M': 1.42, '3M': -16.06, '6M': 26.75, '1Y': 37.45}
-- latest_volume: 7,716,773.0000
-- average_volume_30d: 6,011,332.4333
+- benchmark_returns: {'1M': 0.82, '3M': 4.97, '6M': 18.15, '1Y': 16.38}
+- excess_returns: {'1M': 4.46, '3M': -14.57, '6M': 23.36, '1Y': 39.32}
+- latest_volume: 5,555,000.0000
+- average_volume_30d: 6,047,495.7667
 
 ## News
 
@@ -158,7 +158,7 @@ Evidence
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
 - ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 1 件(純比率 +0.67)で、センチメントは 6.7 点です。
-- イベント後の平均株価反応が 0.20% と中立圏です。
+- イベント後の平均株価反応が 0.32% と中立圏です。
 
 Evidence
 

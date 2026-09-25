@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-72 / 100
+60 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 16/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 11/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 0/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで +10.47pt と、市場を大きく上回っています。
-- 3Mモメンタムは対SPYで +46.63pt と、市場を大きく上回っています。
-- 6Mモメンタムは対SPYで +1.74pt と、市場並み以上です。
+- 1Mモメンタムは対SPYで +13.02pt と、市場を大きく上回っています。
+- 3Mモメンタムは対SPYで +50.82pt と、市場を大きく上回っています。
+- 6Mモメンタムは対SPYで +12.56pt と、市場を大きく上回っています。
 
 ## Strengths
 
@@ -33,8 +33,6 @@
 
 ## Watch Points
 
-- 注意材料になり得るニュース表現が 1 件あります。
-- Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Technology セクター全体の需要変化と競争環境を確認する必要があります。
@@ -47,7 +45,7 @@ Medium
 
 ## Signal Strength
 
-Strong(シグナル充足率: 75.84%)
+Strong(シグナル充足率: 67.3%)
 
 ## Evidence
 
@@ -62,24 +60,25 @@ Strong(シグナル充足率: 75.84%)
 
 ## Missing Data
 
-- event_price_reaction
+- recent_news
+- events
 
 ## Metrics
 
-- scoring_total: 72.0
-- signal_earned_points: 72.05
-- signal_max_points: 95.0
+- scoring_total: 62.0
+- signal_earned_points: 59.9
+- signal_max_points: 89.0
 - weak_signals: []
 - scoring_signal_strength: Strong
 - growth_score: 17.0
 - financial_health_score: 16.0
 - valuation_score: 16.0
-- news_score: 11.0
-- momentum: {'1m': 11.72271508571523, '3m': 52.32069742823339, '6m': 20.339953502020748, '1y': -4.788275538740006}
+- news_score: 0.0
+- momentum: {'1m': 13.84194292637329, '3m': 55.7986298764111, '6m': 30.701012145171237, '1y': -4.042960285604832}
 - benchmark: SPY
-- excess_momentum: {'1m': 10.47, '3m': 46.63, '6m': 1.74, '1y': -22.57}
-- positive_news: 4
-- watch_news: 1
-- event_count: 10
+- excess_momentum: {'1m': 13.02, '3m': 50.82, '6m': 12.56, '1y': -20.43}
+- positive_news: 0
+- watch_news: 0
+- event_count: 0
 - events_with_reaction: 0
-- sector_average_score: 68.0
+- sector_average_score: 65.91666666666667

@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Advanced Micro Devices, Inc.
-- Total Score: 72 / 100
+- Total Score: 75 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 72 点を獲得し、シグナル充足率は 72.0% です。
+- データが確認できた 100 点満点のうち 75 点を獲得し、シグナル充足率は 75.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -109,10 +109,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 154.0376
-- forward_pe: 39.4722
-- peg_ratio: 0.6400
-- price_to_book: 14.9210
+- trailing_pe: 160.1171
+- forward_pe: 40.4131
+- peg_ratio: 0.6300
+- price_to_book: 15.2766
 - sector_peer_count: 16
 - trailing_pe_percentile: 100
 - trailing_pe_peer_count: 15
@@ -125,15 +125,15 @@ Evidence
 
 ## Momentum
 
-20点
+19点
 
 理由
 
-- 1M の対SPY超過リターンが +30.55pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンが +14.30pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +189.16pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンが +278.54pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 1.38 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンが +33.74pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンが +13.28pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +181.12pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンが +268.25pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.80 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -142,24 +142,24 @@ Evidence
 
 使用データ
 
-- 1M: 31.8056
-- 3M: 19.9904
-- 6M: 207.7610
-- 1Y: 296.3213
+- 1M: 34.5616
+- 3M: 18.2534
+- 6M: 199.2696
+- 1Y: 284.6361
 - benchmark: SPY
-- benchmark_returns: {'1M': 1.25, '3M': 5.69, '6M': 18.6, '1Y': 17.78}
-- excess_returns: {'1M': 30.55, '3M': 14.3, '6M': 189.16, '1Y': 278.54}
-- latest_volume: 28,282,800.0000
-- average_volume_30d: 20,439,220.0000
+- benchmark_returns: {'1M': 0.82, '3M': 4.97, '6M': 18.15, '1Y': 16.38}
+- excess_returns: {'1M': 33.74, '3M': 13.28, '6M': 181.12, '1Y': 268.25}
+- latest_volume: 16,338,200.0000
+- average_volume_30d: 20,382,076.6667
 
 ## News
 
-9点
+13点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 1 件(純比率 +0.00)で、センチメントは 4.0 点です。
+- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
 - イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
 
 Evidence
@@ -171,9 +171,9 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 1
-- negative_count: 1
-- sentiment_net_ratio: 0.0000
+- positive_count: 4
+- negative_count: 0
+- sentiment_net_ratio: 1.0000
 - event_count: 10
 - events_with_price_reaction: 0
 

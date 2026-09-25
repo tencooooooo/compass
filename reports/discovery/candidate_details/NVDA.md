@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-84 / 100
+73 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。
-- Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 11/20 で、材料の量と市場関心を候補評価に反映しています。
+- Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。
+- Newsスコアが 10/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで +5.46pt と、市場並み以上です。
-- 3Mモメンタムは対SPYで +8.85pt と、市場並み以上です。
-- 6Mモメンタムは対SPYで +12.00pt と、市場を大きく上回っています。
+- 1Mモメンタムは対SPYで +7.47pt と、市場並み以上です。
+- 3Mモメンタムは対SPYで +8.47pt と、市場並み以上です。
+- 6Mモメンタムは対SPYで +10.86pt と、市場を大きく上回っています。
 
 ## Strengths
 
@@ -47,7 +47,7 @@ Medium
 
 ## Signal Strength
 
-Strong(シグナル充足率: 88.05%)
+Strong(シグナル充足率: 77.11%)
 
 ## Evidence
 
@@ -66,20 +66,20 @@ Strong(シグナル充足率: 88.05%)
 
 ## Metrics
 
-- scoring_total: 76.0
-- signal_earned_points: 83.65
+- scoring_total: 68.0
+- signal_earned_points: 73.25
 - signal_max_points: 95.0
 - weak_signals: []
 - scoring_signal_strength: Strong
 - growth_score: 20.0
-- financial_health_score: 20.0
+- financial_health_score: 14.0
 - valuation_score: 11.0
-- news_score: 11.0
-- momentum: {'1m': 6.709242537187634, '3m': 14.540141829413718, '6m': 30.604157327986297, '1y': 29.856991485529154}
+- news_score: 10.0
+- momentum: {'1m': 8.289683648656936, '3m': 13.448409456388829, '6m': 29.009965500210306, '1y': 23.11435772416645}
 - benchmark: SPY
-- excess_momentum: {'1m': 5.46, '3m': 8.85, '6m': 12.0, '1y': 12.07}
-- positive_news: 4
+- excess_momentum: {'1m': 7.47, '3m': 8.47, '6m': 10.86, '1y': 6.73}
+- positive_news: 2
 - watch_news: 1
 - event_count: 10
 - events_with_reaction: 0
-- sector_average_score: 68.0
+- sector_average_score: 65.91666666666667
