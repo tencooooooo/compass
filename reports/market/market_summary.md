@@ -6,9 +6,9 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 1.67%
-- ニュース件数: 230
-- Event数: 230
+- 市場全体の1Mモメンタム平均: 1.15%
+- ニュース件数: 240
+- Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
 
 ### セクター構成
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-09-24T23:58:17+00:00 / TSLA / Investor's Business Daily: Dow Jones Futures: Market Rally Resilient As Yields, Oil Prices Keep Rising; Tesla Event On Deck
-- 2026-09-24T23:54:09+00:00 / GOOGL / Insider Monkey: Waymo Takes On Zoox in Las Vegas. Is Alphabet Winning the Robotaxi Race?
-- 2026-09-24T23:54:09+00:00 / AMZN / Insider Monkey: Waymo Takes On Zoox in Las Vegas. Is Alphabet Winning the Robotaxi Race?
-- 2026-09-24T23:53:02+00:00 / TSLA / Insider Monkey: Tesla (TSLA) vs Rivian (RIVN): Which is a Better EV Stock to 投資判断表現
-- 2026-09-24T23:52:47+00:00 / NVDA / Motley Fool: Why Welltower Stock Topped the Market on Thursday
+- 2026-09-26T00:13:04+00:00 / META / Insider Monkey: Disney (DIS) Names its First Technology Chief. Can AI Investment Deliver Returns?
+- 2026-09-26T00:13:04+00:00 / DIS / Insider Monkey: Disney (DIS) Names its First Technology Chief. Can AI Investment Deliver Returns?
+- 2026-09-25T23:47:37+00:00 / TSLA / Insider Monkey: Tesla (TSLA), Ford (F), and GM (GM) Face a Weaker EV Market. Who Can Protect Profits?
+- 2026-09-25T23:44:01+00:00 / NVDA / Motley Fool: Nvidia Would Have to Add Almost a Whole Broadcom to Reach $7 Trillion
+- 2026-09-25T23:44:01+00:00 / AVGO / Motley Fool: Nvidia Would Have to Add Almost a Whole Broadcom to Reach $7 Trillion
 
 ### 注目イベント
 
-- 2026-09-23T19:55:23+00:00 / HD: Home Depot’s Real Story Isn’t Housing, It’s the Balance Sheet (株価反応: -2.83%, 出来高: 4.68M)
-- 2026-09-23T15:15:15+00:00 / HD: Home Depot (HD) is Positioned to benefit from Housing Market Recovery (株価反応: -2.83%, 出来高: 4.68M)
-- 2026-09-23T03:07:00+00:00 / HD: How Walmart, Home Depot, Lowe’s tariff refunds affect shoppers (株価反応: -2.83%, 出来高: 4.68M)
-- 2026-09-23T04:33:07+00:00 / LOW: Why Is Lowe's (LOW) Eyeing Tuck In Acquisitions As It Pursues Growth? (株価反応: -2.41%, 出来高: 2.93M)
-- 2026-09-23T16:12:43+00:00 / TMUS: Telecom Dividends Get Taxed Hard: Here’s How Much More You Keep With a Roth Strategy (株価反応: 2.00%, 出来高: 8.04M)
+- 2026-09-24T18:29:27+00:00 / META: Meta is banking its future on its Muse AI agent — and winning user trust (株価反応: 4.50%, 出来高: 34.81M)
+- 2026-09-24T19:16:08+00:00 / NOW: Figma vs. ServiceNow: Which Technology Stock Is a Better 投資判断表現 in 2026? (株価反応: -2.13%, 出来高: 9.58M)
+- 2026-09-24T18:36:43+00:00 / NOW: What Is Salesforce No Longer Telling You? (株価反応: -2.13%, 出来高: 9.58M)
+- 2026-09-24T17:02:31+00:00 / NOW: UiPath Slides 3%, Extending a 24% Monthly Decline; ServiceNow and Pegasystems Slip (株価反応: -2.13%, 出来高: 9.58M)
+- 2026-09-24T18:17:02+00:00 / DIS: Streamers are getting expensive–but parents will keep paying (株価反応: 2.03%, 出来高: 7.88M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 55.67 | 19.12 | 11.22 | -2.04% | 60 |
-| Consumer Cyclical | 6 | 50.17 | 74.89 | 9.01 | -6.95% | 60 |
-| Technology | 12 | 65.92 | 45.58 | 9.17 | 7.84% | 110 |
+| Communication Services | 6 | 56.83 | 19.03 | 11.19 | -1.57% | 60 |
+| Consumer Cyclical | 6 | 48.00 | 71.85 | 9.01 | -6.74% | 60 |
+| Technology | 12 | 68.50 | 45.92 | 9.17 | 6.46% | 120 |
 
 ## 市場トレンド
 
@@ -53,7 +53,7 @@
 
 ## 市場心理
 
-市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 230 件で、ポジティブなモメンタムのセクターは 1/3 です。
+市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 240 件で、ポジティブなモメンタムのセクターは 1/3 です。
 
 参照Knowledge: market_psychology.md
 

@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Oracle Corporation
-- Total Score: 60 / 100
+- Total Score: 61 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 60 点を獲得し、シグナル充足率は 60.0% です。
+- データが確認できた 100 点満点のうち 61 点を獲得し、シグナル充足率は 61.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -92,14 +92,14 @@ Evidence
 
 ## Valuation
 
-18点
+16点
 
 理由
 
 - PER はセクター内 21.43 パーセンタイル / 母数 15 で、相対的に割安寄りです。
 - Forward PER はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。
-- PEG はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。
-- PBR はセクター内 13.33 パーセンタイル / 母数 16 で、相対的に割安寄りです。
+- PEG はセクター内 33.33 パーセンタイル / 母数 16 で、中位レンジです。
+- PBR はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -109,31 +109,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 21.8715
-- forward_pe: 12.6887
-- peg_ratio: 0.8100
-- price_to_book: 6.8261
+- trailing_pe: 21.4890
+- forward_pe: 12.4668
+- peg_ratio: 0.7800
+- price_to_book: 10.5138
 - sector_peer_count: 16
 - trailing_pe_percentile: 21.4300
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 20.0000
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 40.0000
+- peg_ratio_percentile: 33.3300
 - peg_ratio_peer_count: 16
-- price_to_book_percentile: 13.3300
+- price_to_book_percentile: 46.6700
 - price_to_book_peer_count: 16
 
 ## Momentum
 
-4点
+5点
 
 理由
 
-- 1M の対SPY超過リターンは +0.66pt で、市場並み以上です。
+- 1M の対SPY超過リターンは -4.02pt と、市場を小幅に下回っています。
 - 3M の対SPY超過リターンは -12.89pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -19.18pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -71.83pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.80 倍で、市場関心はやや弱めです。
+- 6M の対SPY超過リターンは -21.16pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -71.95pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.96 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -142,24 +142,24 @@ Evidence
 
 使用データ
 
-- 1M: 1.4812
-- 3M: -7.9141
-- 6M: -1.0337
-- 1Y: -55.4449
+- 1M: -3.6060
+- 3M: -8.1559
+- 6M: -3.7704
+- 1Y: -55.0297
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.82, '3M': 4.97, '6M': 18.15, '1Y': 16.38}
-- excess_returns: {'1M': 0.66, '3M': -12.89, '6M': -19.18, '1Y': -71.83}
-- latest_volume: 22,682,300.0000
-- average_volume_30d: 28,511,410.0000
+- benchmark_returns: {'1M': 0.41, '3M': 4.74, '6M': 17.39, '1Y': 16.92}
+- excess_returns: {'1M': -4.02, '3M': -12.89, '6M': -21.16, '1Y': -71.95}
+- latest_volume: 56,629,400.0000
+- average_volume_30d: 28,947,076.6667
 
 ## News
 
-6点
+8点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 5 件(純比率 -0.67)で、センチメントは 1.3 点です。
+- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 2 件(純比率 -0.33)で、センチメントは 2.7 点です。
 - イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
 
 Evidence
@@ -172,8 +172,8 @@ Evidence
 
 - news_count: 10
 - positive_count: 1
-- negative_count: 5
-- sentiment_net_ratio: -0.6700
+- negative_count: 2
+- sentiment_net_ratio: -0.3300
 - event_count: 10
 - events_with_price_reaction: 0
 

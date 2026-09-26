@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Tesla, Inc.
-- Total Score: 52 / 100
+- Total Score: 49 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 52 点を獲得し、シグナル充足率は 52.0% です。
+- データが確認できた 100 点満点のうち 49 点を獲得し、シグナル充足率は 49.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -109,10 +109,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 356.5472
-- forward_pe: 172.0067
-- peg_ratio: 4.5400
-- price_to_book: 17.1830
+- trailing_pe: 338.2818
+- forward_pe: 171.2512
+- peg_ratio: 4.5200
+- price_to_book: 16.9179
 - sector_peer_count: 10
 - trailing_pe_percentile: 100
 - trailing_pe_peer_count: 10
@@ -125,15 +125,15 @@ Evidence
 
 ## Momentum
 
-7点
+5点
 
 理由
 
-- 1M の対SPY超過リターンは +8.11pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -3.75pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -18.90pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -28.84pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.88 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +7.49pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -3.99pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -19.47pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -28.18pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.69 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -142,24 +142,24 @@ Evidence
 
 使用データ
 
-- 1M: 8.9325
-- 3M: 1.2223
-- 6M: -0.7597
-- 1Y: -12.4571
+- 1M: 7.9058
+- 3M: 0.7518
+- 6M: -2.0754
+- 1Y: -11.2504
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.82, '3M': 4.97, '6M': 18.15, '1Y': 16.38}
-- excess_returns: {'1M': 8.11, '3M': -3.75, '6M': -18.9, '1Y': -28.84}
-- latest_volume: 33,522,500.0000
-- average_volume_30d: 37,947,386.6667
+- benchmark_returns: {'1M': 0.41, '3M': 4.74, '6M': 17.39, '1Y': 16.92}
+- excess_returns: {'1M': 7.49, '3M': -3.99, '6M': -19.47, '1Y': -28.18}
+- latest_volume: 26,165,700.0000
+- average_volume_30d: 37,862,946.6667
 
 ## News
 
-10点
+9点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 1 件(純比率 +0.33)で、センチメントは 5.3 点です。
+- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 3 件(純比率 +0.00)で、センチメントは 4.0 点です。
 - イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
 
 Evidence
@@ -171,9 +171,9 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 2
-- negative_count: 1
-- sentiment_net_ratio: 0.3300
+- positive_count: 3
+- negative_count: 3
+- sentiment_net_ratio: 0.0000
 - event_count: 10
 - events_with_price_reaction: 0
 
