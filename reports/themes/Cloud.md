@@ -1,9 +1,9 @@
 # Cloud
 
-- Target companies: 20
-- Average Score: 67.19
-- Average Discovery: 74.00
-- Momentum: 5.38
+- Target companies: 18
+- Average Score: 65.07
+- Average Discovery: 74.67
+- Momentum: 10.02
 - Confidence: High
 
 ## Companies
@@ -12,44 +12,42 @@
 - ACN - Accenture plc (High): Keyword: cloud; Keyword: aws; Keyword: infrastructure; Sector alignment: Technology
 - AMAT - Applied Materials, Inc. (Medium): Keyword: infrastructure; Sector alignment: Technology
 - AMD - Advanced Micro Devices, Inc. (High): Keyword: cloud; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology
-- AMZN - Amazon.com, Inc. (Medium): Keyword: cloud; Keyword: aws
+- AMZN - Amazon.com, Inc. (Medium): Keyword: cloud; Keyword: aws; Keyword: infrastructure
 - AVGO - Broadcom Inc. (High): Keyword: cloud; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology
-- CRM - Salesforce, Inc. (Medium): Keyword: cloud; Keyword: azure; Sector alignment: Technology
+- CRM - Salesforce, Inc. (High): Keyword: cloud; Keyword: aws; Keyword: google cloud; Keyword: data center; Sector alignment: Technology
 - CSCO - Cisco Systems, Inc. (Medium): Keyword: cloud; Keyword: data center; Sector alignment: Technology
-- GOOGL - Alphabet Inc. (High): Keyword: cloud; Keyword: google cloud; Keyword: infrastructure; Sector alignment: Communication Services
-- HD - The Home Depot, Inc. (Low): Keyword: infrastructure
+- GOOGL - Alphabet Inc. (High): Keyword: cloud; Keyword: google cloud; Keyword: data center; Keyword: infrastructure; Sector alignment: Communication Services
 - INTC - Intel Corporation (High): Keyword: cloud; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology
-- META - Meta Platforms, Inc. (Medium): Keyword: cloud; Sector alignment: Communication Services
-- MSFT - Microsoft Corporation (High): Keyword: cloud; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology
+- MSFT - Microsoft Corporation (High): Keyword: cloud; Keyword: azure; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology
 - MU - Micron Technology, Inc. (Medium): Keyword: cloud; Keyword: data center; Sector alignment: Technology
-- NOW - ServiceNow, Inc. (Medium): Keyword: cloud; Keyword: infrastructure; Sector alignment: Technology
+- NFLX - Netflix, Inc. (Medium): Keyword: cloud; Sector alignment: Communication Services
+- NOW - ServiceNow, Inc. (High): Keyword: cloud; Keyword: aws; Keyword: google cloud; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology
 - NVDA - NVIDIA Corporation (High): Keyword: cloud; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology
 - ORCL - Oracle Corporation (High): Keyword: cloud; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology
 - QCOM - QUALCOMM Incorporated (Medium): Keyword: cloud; Keyword: data center; Sector alignment: Technology
 - TMUS - T-Mobile US, Inc. (Medium): Keyword: infrastructure; Sector alignment: Communication Services
-- TXN - Texas Instruments Incorporated (Medium): Keyword: data center; Sector alignment: Technology
 
 ## Market
 
-- Communication Services: score 54.50, momentum -2.14, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Consumer Cyclical: score 52.00, momentum -7.44, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
-- Technology: score 70.08, momentum 3.76, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 56.83, momentum -1.57, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 48.00, momentum -6.74, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 68.50, momentum 6.46, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- NVDA: Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus
-- AVGO: Jim Cramer Said This AI Firm Has More Orders Than “Almost Anybody” Other Than NVIDIA
-- ORCL: Jim Cramer Said The Strength In Oracle (ORCL)’s Shares Was A “Positive Sign”
-- MSFT: CRWD Stock Keeps Climbing. Should You Climb On?
-- ORCL: Why Oracle (ORCL) Stock Is Trading Lower Today
+- AVGO: Nvidia Would Have to Add Almost a Whole Broadcom to Reach $7 Trillion
+- NVDA: Nvidia Would Have to Add Almost a Whole Broadcom to Reach $7 Trillion
+- AMZN: Let’s Take a Closer Look at Amazon’s (AMZN) Debt-Fueled AI Buildout
+- NFLX: Netflix (NFLX)’s YouTube Problem Is Becoming Harder to Dismiss
+- NFLX: Walt Disney vs. Netflix: Which Stock Is a Better Buy in 2026?
 
 ## Similar Themes
 
 - AI: 1.0 (Shared companies: AAPL, ACN, AMAT, AMD, AMZN; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Energy: 1.0 (Shared companies: AAPL, ACN, AMAT, AMD, AVGO; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 1.0 (Shared companies: AAPL, AMAT, AMD, AVGO, CRM; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Quantum Computing: 0.997 (Shared companies: GOOGL, NVDA; Shared sectors: Communication Services, Technology; Similar short-term momentum)
-- Robotics: 0.994 (Shared companies: ACN, AMAT, AVGO, CRM, NOW; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Semiconductor: 1.0 (Shared companies: AAPL, AMAT, AMD, AMZN, AVGO; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cybersecurity: 0.999 (Shared companies: ACN, AVGO, CRM, CSCO, GOOGL; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Energy: 0.991 (Shared companies: ACN, AMD, AVGO, MSFT, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Robotics: 0.99 (Shared companies: ACN, AMAT, AVGO, CRM, NOW; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
 
 ## Review Note
 

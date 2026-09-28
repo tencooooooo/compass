@@ -1,9 +1,9 @@
 # EV
 
 - Target companies: 4
-- Average Score: 67.33
-- Average Discovery: 80.00
-- Momentum: 0.99
+- Average Score: 65.33
+- Average Discovery: 78.00
+- Momentum: 4.80
 - Confidence: Medium
 
 ## Companies
@@ -15,24 +15,24 @@
 
 ## Market
 
-- Consumer Cyclical: score 52.00, momentum -7.44, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
-- Technology: score 70.08, momentum 3.76, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 48.00, momentum -6.74, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 68.50, momentum 6.46, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- NVDA: Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus
-- TSLA: Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus
-- TSLA: Tesla, Inc. (TSLA) Eyes Europe’s Electric Truck Boom With Semi Expansion
-- TXN: Chip Stocks Break Through Ceiling As Sector Rebounds. Macom Is A Standout.
-- TSLA: The SEC is bringing tokenized stocks to markets: 7 key details you need to know
+- NVDA: Nvidia Would Have to Add Almost a Whole Broadcom to Reach $7 Trillion
+- TXN: Texas Instruments (TXN) Laps the Stock Market: Here's Why
+- NVDA: Trump says China's Xi 'seemed to like' renaming AI as super intelligence
+- TSLA: Trump says China's Xi 'seemed to like' renaming AI as super intelligence
+- TSLA: Tesla Semi: Diesel's surge gives the electric truck an opening as high prices improve the math for fleets
 
 ## Similar Themes
 
-- Space: 0.998 (Shared companies: TXN; Shared sectors: Technology)
-- Cybersecurity: 0.995 (Shared companies: NVDA; Shared sectors: Technology; Similar short-term momentum)
-- Robotics: 0.994 (Shared companies: NVDA, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar short-term momentum)
-- Fintech: 0.993 (Shared sectors: Technology)
-- Energy: 0.983 (Shared companies: NVDA, ORLY, TSLA, TXN; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Healthcare: 0.997 (Shared sectors: Consumer Cyclical, Technology)
+- Robotics: 0.993 (Shared companies: NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Fintech: 0.992 (Shared sectors: Technology; Similar average Discovery score)
+- Energy: 0.991 (Shared companies: NVDA, ORLY, TSLA, TXN; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
+- Cybersecurity: 0.974 (Shared companies: TSLA, TXN; Shared sectors: Consumer Cyclical, Technology)
 
 ## Review Note
 

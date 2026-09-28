@@ -1,37 +1,39 @@
 # Healthcare
 
-- Target companies: 3
-- Average Score: 56.67
-- Average Discovery: 67.00
-- Momentum: 11.07
+- Target companies: 4
+- Average Score: 60.25
+- Average Discovery: 72.33
+- Momentum: 20.34
 - Confidence: Medium
 
 ## Companies
 
 - CRM - Salesforce, Inc. (Low): Keyword: healthcare
-- MCD - McDonald's Corporation (Low): Keyword: patient
+- HD - The Home Depot, Inc. (Low): Keyword: healthcare
+- META - Meta Platforms, Inc. (Low): Keyword: healthcare
 - NOW - ServiceNow, Inc. (Low): Keyword: healthcare
 
 ## Market
 
-- Consumer Cyclical: score 52.00, momentum -7.44, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
-- Technology: score 70.08, momentum 3.76, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 56.83, momentum -1.57, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 48.00, momentum -6.74, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 68.50, momentum 6.46, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- NOW: How Low Can UiPath Stock Go When Its Numbers Are Not The Problem?
-- NOW: ServiceNow (NOW) Stock Falls Amid Market Uptick: What Investors Need to Know
-- MCD: McDonald’s Stock’s Dividend Yield Hits 3.06%, Its Highest Mark on Record. Here’s Where Shares Could Go Further.
-- CRM: How Atlassian Stock Shook Off 'SaaSpocalypse' AI Fears For A Big Rally
-- NOW: Why Salesforce’s Homegrown AI Model Won’t Move the Stock Until 2027
+- HD: Is Home Depot's Next Big Thing Already In Its Stores?
+- META: Why this early Uber investor would short OpenAI
+- CRM: Can Palantir’s AI moat survive the competition?
+- HD: Musk’s ‘Zuckerberg moment,’ mortgage rates, and Google’s space bet
+- CRM: Here’s The Actual Reason I Keep Buying Salesforce On Repeat
 
 ## Similar Themes
 
-- Fintech: 0.981 (Shared sectors: Technology; Similar average Discovery score)
-- EV: 0.975 (Shared sectors: Consumer Cyclical, Technology)
-- Space: 0.964 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Robotics: 0.956 (Shared companies: CRM, NOW; Shared sectors: Consumer Cyclical, Technology)
-- Cybersecurity: 0.95 (Shared companies: NOW; Shared sectors: Technology)
+- Robotics: 0.999 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar average Discovery score)
+- EV: 0.997 (Shared sectors: Consumer Cyclical, Technology)
+- Energy: 0.997 (Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
+- Fintech: 0.995 (Shared companies: META; Shared sectors: Communication Services, Technology; Similar average Discovery score)
+- Cybersecurity: 0.987 (Shared companies: CRM, META, NOW; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
 
 ## Review Note
 

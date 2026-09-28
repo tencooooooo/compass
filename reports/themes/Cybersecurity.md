@@ -1,43 +1,48 @@
 # Cybersecurity
 
-- Target companies: 9
-- Average Score: 69.50
-- Average Discovery: 73.00
-- Momentum: 3.57
+- Target companies: 13
+- Average Score: 64.00
+- Average Discovery: 72.86
+- Momentum: 12.39
 - Confidence: Medium
 
 ## Companies
 
 - ACN - Accenture plc (Medium): Keyword: security; Sector alignment: Technology
 - AVGO - Broadcom Inc. (High): Keyword: cybersecurity; Keyword: security; Keyword: identity; Sector alignment: Technology
+- CRM - Salesforce, Inc. (Medium): Keyword: security; Sector alignment: Technology
 - CSCO - Cisco Systems, Inc. (Medium): Keyword: security; Keyword: identity; Sector alignment: Technology
-- GOOGL - Alphabet Inc. (Low): Keyword: cybersecurity
-- MSFT - Microsoft Corporation (Medium): Keyword: cybersecurity; Keyword: security; Sector alignment: Technology
+- GOOGL - Alphabet Inc. (Medium): Keyword: cybersecurity; Keyword: security
+- META - Meta Platforms, Inc. (Low): Keyword: security
+- MSFT - Microsoft Corporation (Medium): Keyword: security; Sector alignment: Technology
+- NFLX - Netflix, Inc. (Low): Keyword: threat
 - NOW - ServiceNow, Inc. (Medium): Keyword: security; Sector alignment: Technology
-- NVDA - NVIDIA Corporation (Medium): Keyword: cybersecurity; Sector alignment: Technology
 - QCOM - QUALCOMM Incorporated (Medium): Keyword: security; Sector alignment: Technology
+- TSLA - Tesla, Inc. (Low): Keyword: security
+- TXN - Texas Instruments Incorporated (Medium): Keyword: identity; Sector alignment: Technology
 - VZ - Verizon Communications Inc. (Low): Keyword: security
 
 ## Market
 
-- Communication Services: score 54.50, momentum -2.14, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Technology: score 70.08, momentum 3.76, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 56.83, momentum -1.57, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 48.00, momentum -6.74, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 68.50, momentum 6.46, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- NVDA: Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus
-- AVGO: Jim Cramer Said This AI Firm Has More Orders Than “Almost Anybody” Other Than NVIDIA
-- MSFT: CRWD Stock Keeps Climbing. Should You Climb On?
-- GOOGL: IONQ Stock Surges On Tech Wins, But The Heavy Burn Persists
-- MSFT: How Low Can UiPath Stock Go When Its Numbers Are Not The Problem?
+- AVGO: Nvidia Would Have to Add Almost a Whole Broadcom to Reach $7 Trillion
+- NFLX: Netflix (NFLX)’s YouTube Problem Is Becoming Harder to Dismiss
+- NFLX: Walt Disney vs. Netflix: Which Stock Is a Better Buy in 2026?
+- TXN: Texas Instruments (TXN) Laps the Stock Market: Here's Why
+- NFLX: 1 Wall Street Analyst Just Called Netflix a Sell. Is It Time To Dump the Streaming Stock?
 
 ## Similar Themes
 
-- Robotics: 0.999 (Shared companies: ACN, AVGO, NOW, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Space: 0.999 (Shared companies: AVGO, NOW, QCOM; Shared sectors: Communication Services, Technology; Similar average Discovery score)
-- EV: 0.995 (Shared companies: NVDA; Shared sectors: Technology; Similar short-term momentum)
-- Energy: 0.995 (Shared companies: ACN, AVGO, NVDA, QCOM; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
-- Cloud: 0.992 (Shared companies: ACN, AVGO, CSCO, GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- AI: 0.999 (Shared companies: ACN, AVGO, CRM, CSCO, GOOGL; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cloud: 0.999 (Shared companies: ACN, AVGO, CRM, CSCO, GOOGL; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Semiconductor: 0.999 (Shared companies: AVGO, GOOGL, MSFT, QCOM, TXN; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Energy: 0.994 (Shared companies: ACN, AVGO, MSFT, QCOM, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Robotics: 0.994 (Shared companies: ACN, AVGO, CRM, NOW; Shared sectors: Technology; Similar average Discovery score)
 
 ## Review Note
 

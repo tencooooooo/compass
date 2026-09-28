@@ -1,32 +1,29 @@
 # Biotechnology
 
-- Target companies: 1
-- Average Score: 81.00
-- Average Discovery: 89.00
-- Momentum: 20.02
-- Confidence: Medium
+- Target companies: 0
+- Average Score: N/A
+- Average Discovery: N/A
+- Momentum: N/A
+- Confidence: Low
 
 ## Companies
 
-- AMD - Advanced Micro Devices, Inc. (Low): Keyword: drug
+No companies are classified into this theme yet.
 
 ## Market
 
-- Technology: score 70.08, momentum 3.76, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- AMD: Dow Jones Futures: Market Still Choppy; Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas
-- AMD: The ARK Trade Watch: Cathie Wood Cuts Crypto Exposure, Then Reverses Course On CoreWeave
-- AMD: AMD (AMD) Stock Looks Cheap After Its Huge 3 Year Run
+No theme news available yet.
 
 ## Similar Themes
 
-- Quantum Computing: 0.988 (Shared sectors: Technology)
-- Semiconductor: 0.98 (Shared companies: AMD; Shared sectors: Technology)
-- AI: 0.978 (Shared companies: AMD; Shared sectors: Technology)
-- Fintech: 0.977 (Shared sectors: Technology; Similar short-term momentum)
-- Cloud: 0.976 (Shared companies: AMD; Shared sectors: Technology)
+- AI: 0.0 (Theme metric similarity)
+- Cloud: 0.0 (Theme metric similarity)
+- Cybersecurity: 0.0 (Theme metric similarity)
+- EV: 0.0 (Similar short-term momentum)
+- Energy: 0.0 (Theme metric similarity)
 
 ## Review Note
 
