@@ -5,20 +5,21 @@
 ## Summary
 
 - Company: ServiceNow, Inc.
-- Total Score: 57 / 100
-- Confidence: High
+- Total Score: 62 / 100
+- Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
 
-High
+Medium
 
 理由
 
 - 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 0 件です。
-- 主要データが比較的そろっており、説明可能性は高めです。
+- 欠損または計算不可の項目数は 1 件です。
+- 主要データは一定程度ありますが、欠損や未取得項目が残っています。
+- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
@@ -27,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 57 点を獲得し、シグナル充足率は 57.0% です。
+- データが確認できた 100 点満点のうち 62 点を獲得し、シグナル充足率は 62.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -90,13 +91,13 @@ Evidence
 
 ## Valuation
 
-6点
+9点
 
 理由
 
 - PER はセクター内 92.86 パーセンタイル / 母数 15 で、相対的な加点は抑えています。
-- Forward PER はセクター内 80.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
-- PEG はセクター内 70.00 パーセンタイル / 母数 16 で、中位レンジです。
+- Forward PER はセクター内 73.33 パーセンタイル / 母数 16 で、中位レンジです。
+- PEG はセクター内 63.33 パーセンタイル / 母数 16 で、中位レンジです。
 - PBR はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -107,16 +108,16 @@ Evidence
 
 使用データ
 
-- trailing_pe: 84.7625
-- forward_pe: 27.0941
-- peg_ratio: 0.9900
-- price_to_book: 11.2027
+- trailing_pe: 82.1562
+- forward_pe: 26.2611
+- peg_ratio: 0.9800
+- price_to_book: 10.8583
 - sector_peer_count: 16
 - trailing_pe_percentile: 92.8600
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 80.0000
+- forward_pe_percentile: 73.3300
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 70.0000
+- peg_ratio_percentile: 63.3300
 - peg_ratio_peer_count: 16
 - price_to_book_percentile: 53.3300
 - price_to_book_peer_count: 16
@@ -127,11 +128,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは +8.07pt で、市場並み以上です。
-- 3M の対SPY超過リターンが +49.17pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +16.30pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -42.66pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.61 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは +6.87pt で、市場並み以上です。
+- 3M の対SPY超過リターンが +31.84pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +10.68pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -45.28pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.52 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -140,25 +141,25 @@ Evidence
 
 使用データ
 
-- 1M: 8.4882
-- 3M: 53.9097
-- 6M: 33.6891
-- 1Y: -25.7387
+- 1M: 7.8060
+- 3M: 37.9093
+- 6M: 30.8568
+- 1Y: -27.3493
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.41, '3M': 4.74, '6M': 17.39, '1Y': 16.92}
-- excess_returns: {'1M': 8.07, '3M': 49.17, '6M': 16.3, '1Y': -42.66}
-- latest_volume: 9,578,700.0000
-- average_volume_30d: 15,761,963.3333
+- benchmark_returns: {'1M': 0.94, '3M': 6.07, '6M': 20.18, '1Y': 17.94}
+- excess_returns: {'1M': 6.87, '3M': 31.84, '6M': 10.68, '1Y': -45.28}
+- latest_volume: 7,980,300.0000
+- average_volume_30d: 15,257,143.3333
 
 ## News
 
-9点
+11点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 2 件(純比率 +0.20)で、センチメントは 4.8 点です。
-- イベント後の平均株価反応が -2.13% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。
+- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
 
 Evidence
 
@@ -170,10 +171,14 @@ Evidence
 
 - news_count: 10
 - positive_count: 3
-- negative_count: 2
-- sentiment_net_ratio: 0.2000
+- negative_count: 1
+- sentiment_net_ratio: 0.5000
 - event_count: 10
-- events_with_price_reaction: 3
+- events_with_price_reaction: 0
+
+欠損・計算不可
+
+- event_price_reaction
 
 ## Note
 

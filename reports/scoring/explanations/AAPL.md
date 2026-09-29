@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Apple Inc.
-- Total Score: 61 / 100
+- Total Score: 59 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 61 点を獲得し、シグナル充足率は 61.0% です。
+- データが確認できた 100 点満点のうち 59 点を獲得し、シグナル充足率は 59.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -108,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 39.0687
-- forward_pe: 35.5824
-- peg_ratio: 2.7000
-- price_to_book: 46.3410
+- trailing_pe: 39.0762
+- forward_pe: 35.3039
+- peg_ratio: 2.7400
+- price_to_book: 45.9783
 - sector_peer_count: 16
 - trailing_pe_percentile: 64.2900
 - trailing_pe_peer_count: 15
@@ -128,11 +128,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは +7.98pt で、市場並み以上です。
-- 3M の対SPY超過リターンが +17.45pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +15.82pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンが +15.59pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.59 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは +7.87pt で、市場並み以上です。
+- 3M の対SPY超過リターンが +14.22pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +14.93pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンが +17.74pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.72 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -141,24 +141,24 @@ Evidence
 
 使用データ
 
-- 1M: 8.3963
-- 3M: 22.1914
-- 6M: 33.2117
-- 1Y: 32.5162
+- 1M: 8.8116
+- 3M: 20.2918
+- 6M: 35.1096
+- 1Y: 35.6783
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.41, '3M': 4.74, '6M': 17.39, '1Y': 16.92}
-- excess_returns: {'1M': 7.98, '3M': 17.45, '6M': 15.82, '1Y': 15.59}
-- latest_volume: 24,733,100.0000
-- average_volume_30d: 41,780,176.6667
+- benchmark_returns: {'1M': 0.94, '3M': 6.07, '6M': 20.18, '1Y': 17.94}
+- excess_returns: {'1M': 7.87, '3M': 14.22, '6M': 14.93, '1Y': 17.74}
+- latest_volume: 29,950,100.0000
+- average_volume_30d: 41,433,536.6667
 
 ## News
 
-13点
+11点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。
 - イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
 
 Evidence
@@ -171,8 +171,8 @@ Evidence
 
 - news_count: 10
 - positive_count: 3
-- negative_count: 0
-- sentiment_net_ratio: 1.0000
+- negative_count: 1
+- sentiment_net_ratio: 0.5000
 - event_count: 10
 - events_with_price_reaction: 0
 

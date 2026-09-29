@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 1.15%
+- 市場全体の1Mモメンタム平均: 1.47%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-09-26T00:13:04+00:00 / META / Insider Monkey: Disney (DIS) Names its First Technology Chief. Can AI Investment Deliver Returns?
-- 2026-09-26T00:13:04+00:00 / DIS / Insider Monkey: Disney (DIS) Names its First Technology Chief. Can AI Investment Deliver Returns?
-- 2026-09-25T23:47:37+00:00 / TSLA / Insider Monkey: Tesla (TSLA), Ford (F), and GM (GM) Face a Weaker EV Market. Who Can Protect Profits?
-- 2026-09-25T23:44:01+00:00 / NVDA / Motley Fool: Nvidia Would Have to Add Almost a Whole Broadcom to Reach $7 Trillion
-- 2026-09-25T23:44:01+00:00 / AVGO / Motley Fool: Nvidia Would Have to Add Almost a Whole Broadcom to Reach $7 Trillion
+- 2026-09-29T01:17:00+00:00 / META / TheStreet: MongoDB stock crashes 26% as its CEO jumps ship
+- 2026-09-29T00:55:55+00:00 / AAPL / Insider Monkey: Can Cloudflare (NET) Become the Gatekeeper of the AI Web?
+- 2026-09-29T00:55:55+00:00 / MSFT / Insider Monkey: Can Cloudflare (NET) Become the Gatekeeper of the AI Web?
+- 2026-09-29T00:55:55+00:00 / GOOGL / Insider Monkey: Can Cloudflare (NET) Become the Gatekeeper of the AI Web?
+- 2026-09-29T00:51:18+00:00 / NVDA / Investing.com: Samsung, affiliates to invest $1 billion in AI infrastructure firm Helix
 
 ### 注目イベント
 
-- 2026-09-24T18:29:27+00:00 / META: Meta is banking its future on its Muse AI agent — and winning user trust (株価反応: 4.50%, 出来高: 34.81M)
-- 2026-09-24T19:16:08+00:00 / NOW: Figma vs. ServiceNow: Which Technology Stock Is a Better 投資判断表現 in 2026? (株価反応: -2.13%, 出来高: 9.58M)
-- 2026-09-24T18:36:43+00:00 / NOW: What Is Salesforce No Longer Telling You? (株価反応: -2.13%, 出来高: 9.58M)
-- 2026-09-24T17:02:31+00:00 / NOW: UiPath Slides 3%, Extending a 24% Monthly Decline; ServiceNow and Pegasystems Slip (株価反応: -2.13%, 出来高: 9.58M)
-- 2026-09-24T18:17:02+00:00 / DIS: Streamers are getting expensive–but parents will keep paying (株価反応: 2.03%, 出来高: 7.88M)
+- 2026-09-25T14:27:52+00:00 / TXN: What Does NVIDIA Offer That Texas Instruments Does Not? (株価反応: 2.74%, 出来高: 3.96M)
+- 2026-09-25T14:22:00+00:00 / TXN: MCHP Expands 48V Power Portfolio: Can It Outpace TXN & ADI? (株価反応: 2.74%, 出来高: 3.96M)
+- 2026-09-25T14:00:00+00:00 / TXN: Benjamin Rosen, Who Persuaded Wall Street to Take PCs Seriously, Dies at 93 (株価反応: 2.74%, 出来高: 3.96M)
+- 2026-09-25T04:25:30+00:00 / AMAT: Applied Materials (AMAT), What Is Behind The Fresh Attention Today? (株価反応: 2.27%, 出来高: 5.20M)
+- 2026-09-25T04:07:17+00:00 / AMAT: ASML vs. Applied Materials: Which AI Chip-Equipment Stock Is the Better 投資判断表現? (株価反応: 2.27%, 出来高: 5.20M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 56.83 | 19.03 | 11.19 | -1.57% | 60 |
-| Consumer Cyclical | 6 | 48.00 | 71.85 | 9.01 | -6.74% | 60 |
-| Technology | 12 | 68.50 | 45.92 | 9.17 | 6.46% | 120 |
+| Communication Services | 6 | 58.00 | 18.79 | 11.17 | -1.91% | 60 |
+| Consumer Cyclical | 6 | 49.67 | 72.69 | 8.98 | -5.91% | 60 |
+| Technology | 12 | 67.92 | 45.04 | 9.09 | 6.85% | 120 |
 
 ## 市場トレンド
 

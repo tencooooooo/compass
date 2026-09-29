@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: NIKE, Inc.
-- Total Score: 54 / 100
+- Total Score: 55 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 54 点を獲得し、シグナル充足率は 54.0% です。
+- データが確認できた 100 点満点のうち 55 点を獲得し、シグナル充足率は 55.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -111,10 +111,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 17.0238
-- forward_pe: 16.1723
-- peg_ratio: 1.4100
-- price_to_book: 3.5664
+- trailing_pe: 17.3286
+- forward_pe: 16.7574
+- peg_ratio: 1.4000
+- price_to_book: 3.6303
 - sector_peer_count: 10
 - trailing_pe_percentile: 11.1100
 - trailing_pe_peer_count: 10
@@ -127,15 +127,15 @@ Evidence
 
 ## Momentum
 
-5点
+4点
 
 理由
 
-- 1M の対SPY超過リターンは -8.29pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -15.81pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -48.13pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -64.51pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.25 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは -7.31pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -17.41pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -50.17pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -66.08pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.20 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -144,24 +144,24 @@ Evidence
 
 使用データ
 
-- 1M: -7.8729
-- 3M: -11.0714
-- 6M: -30.7338
-- 1Y: -47.5868
+- 1M: -6.3767
+- 3M: -11.3393
+- 6M: -29.9932
+- 1Y: -48.1483
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.41, '3M': 4.74, '6M': 17.39, '1Y': 16.92}
-- excess_returns: {'1M': -8.29, '3M': -15.81, '6M': -48.13, '1Y': -64.51}
-- latest_volume: 39,238,500.0000
-- average_volume_30d: 31,474,120.0000
+- benchmark_returns: {'1M': 0.94, '3M': 6.07, '6M': 20.18, '1Y': 17.94}
+- excess_returns: {'1M': -7.31, '3M': -17.41, '6M': -50.17, '1Y': -66.08}
+- latest_volume: 38,219,700.0000
+- average_volume_30d: 31,960,053.3333
 
 ## News
 
-5点
+7点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 0 件、悪材料 6 件(純比率 -1.00)で、センチメントは 0.0 点です。
+- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 3 件(純比率 -0.50)で、センチメントは 2.0 点です。
 - イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
 
 Evidence
@@ -173,9 +173,9 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 0
-- negative_count: 6
-- sentiment_net_ratio: -1.0000
+- positive_count: 1
+- negative_count: 3
+- sentiment_net_ratio: -0.5000
 - event_count: 10
 - events_with_price_reaction: 0
 
