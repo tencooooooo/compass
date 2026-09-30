@@ -5,9 +5,9 @@
 ## Summary
 
 - Company: McDonald's Corporation
-- Total Score: 40 / 100
+- Total Score: 30 / 100
 - Confidence: Medium
-- Signal Strength: Moderate
+- Signal Strength: Weak
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
@@ -16,20 +16,20 @@ Medium
 
 理由
 
-- 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 2 件です。
+- 利用可能な主要データ領域は5領域中 4 領域です。
+- 欠損または計算不可の項目数は 3 件です。
+- データが不足している領域: News。
 - 主要データは一定程度ありますが、欠損や未取得項目が残っています。
-- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
 
-Moderate
+Weak
 
 理由
 
-- データが確認できた 100 点満点のうち 40 点を獲得し、シグナル充足率は 40.0% です。
-- シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
+- データが確認できた 80 点満点のうち 30 点を獲得し、シグナル充足率は 37.5% です。
+- シグナル強度は Weak(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
@@ -102,7 +102,7 @@ Evidence
 - PER はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。
 - PEG はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
-- PBR は -161.55 で、指標がマイナスのため加点対象外です。
+- PBR は -161.81 で、指標がマイナスのため加点対象外です。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -112,10 +112,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 19.1947
-- forward_pe: 16.8457
-- peg_ratio: 2.0400
-- price_to_book: -161.5491
+- trailing_pe: 19.0073
+- forward_pe: 16.8784
+- peg_ratio: 2.0200
+- price_to_book: -161.8119
 - sector_peer_count: 10
 - trailing_pe_percentile: 33.3300
 - trailing_pe_peer_count: 10
@@ -132,11 +132,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -11.71pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -17.78pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -42.56pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -38.23pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.25 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは -9.07pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -15.52pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -43.92pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -38.34pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.01 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -145,25 +145,24 @@ Evidence
 
 使用データ
 
-- 1M: -10.7702
-- 3M: -11.7063
-- 6M: -22.3784
-- 1Y: -20.2895
+- 1M: -9.5361
+- 3M: -11.9468
+- 6M: -22.5708
+- 1Y: -20.7382
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.94, '3M': 6.07, '6M': 20.18, '1Y': 17.94}
-- excess_returns: {'1M': -11.71, '3M': -17.78, '6M': -42.56, '1Y': -38.23}
-- latest_volume: 6,530,000.0000
-- average_volume_30d: 5,238,423.3333
+- benchmark_returns: {'1M': -0.47, '3M': 3.58, '6M': 21.35, '1Y': 17.6}
+- excess_returns: {'1M': -9.07, '3M': -15.52, '6M': -43.92, '1Y': -38.34}
+- latest_volume: 5,365,000.0000
+- average_volume_30d: 5,326,076.6667
 
 ## News
 
-10点
+0点
 
 理由
 
-- ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 2 件(純比率 +0.33)で、センチメントは 5.3 点です。
-- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
+- ニュースが取得できないため、News項目は評価を控えています。
+- イベントDBが取得できないため、イベント項目は加点していません。
 
 Evidence
 
@@ -173,16 +172,17 @@ Evidence
 
 使用データ
 
-- news_count: 10
-- positive_count: 4
-- negative_count: 2
-- sentiment_net_ratio: 0.3300
-- event_count: 10
+- news_count: 0
+- positive_count: 0
+- negative_count: 0
+- sentiment_net_ratio: N/A
+- event_count: 0
 - events_with_price_reaction: 0
 
 欠損・計算不可
 
-- event_price_reaction
+- news
+- events
 
 ## Note
 

@@ -6,9 +6,9 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 1.47%
-- ニュース件数: 240
-- Event数: 240
+- 市場全体の1Mモメンタム平均: -1.93%
+- ニュース件数: 0
+- Event数: 0
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
 
 ### セクター構成
@@ -21,39 +21,31 @@
 
 ### 注目ニュース
 
-- 2026-09-29T01:17:00+00:00 / META / TheStreet: MongoDB stock crashes 26% as its CEO jumps ship
-- 2026-09-29T00:55:55+00:00 / AAPL / Insider Monkey: Can Cloudflare (NET) Become the Gatekeeper of the AI Web?
-- 2026-09-29T00:55:55+00:00 / MSFT / Insider Monkey: Can Cloudflare (NET) Become the Gatekeeper of the AI Web?
-- 2026-09-29T00:55:55+00:00 / GOOGL / Insider Monkey: Can Cloudflare (NET) Become the Gatekeeper of the AI Web?
-- 2026-09-29T00:51:18+00:00 / NVDA / Investing.com: Samsung, affiliates to invest $1 billion in AI infrastructure firm Helix
+- 注目ニュースは取得できていません。
 
 ### 注目イベント
 
-- 2026-09-25T14:27:52+00:00 / TXN: What Does NVIDIA Offer That Texas Instruments Does Not? (株価反応: 2.74%, 出来高: 3.96M)
-- 2026-09-25T14:22:00+00:00 / TXN: MCHP Expands 48V Power Portfolio: Can It Outpace TXN & ADI? (株価反応: 2.74%, 出来高: 3.96M)
-- 2026-09-25T14:00:00+00:00 / TXN: Benjamin Rosen, Who Persuaded Wall Street to Take PCs Seriously, Dies at 93 (株価反応: 2.74%, 出来高: 3.96M)
-- 2026-09-25T04:25:30+00:00 / AMAT: Applied Materials (AMAT), What Is Behind The Fresh Attention Today? (株価反応: 2.27%, 出来高: 5.20M)
-- 2026-09-25T04:07:17+00:00 / AMAT: ASML vs. Applied Materials: Which AI Chip-Equipment Stock Is the Better 投資判断表現? (株価反応: 2.27%, 出来高: 5.20M)
+- Event Databaseに表示可能なイベントがありません。
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 58.00 | 18.79 | 11.17 | -1.91% | 60 |
-| Consumer Cyclical | 6 | 49.67 | 72.69 | 8.98 | -5.91% | 60 |
-| Technology | 12 | 67.92 | 45.04 | 9.09 | 6.85% | 120 |
+| Communication Services | 6 | 46.50 | 18.80 | 11.19 | -1.94% | 0 |
+| Consumer Cyclical | 6 | 40.67 | 70.28 | 9.00 | -6.24% | 0 |
+| Technology | 12 | 56.08 | 45.11 | 9.16 | 0.24% | 0 |
 
 ## 市場トレンド
 
 | セクター | Momentum | News | Financial Health |
 | --- | --- | --- | --- |
-| Communication Services | Weak | High | Good |
-| Consumer Cyclical | Weak | High | Neutral |
-| Technology | Positive | High | Good |
+| Communication Services | Weak | Low | Good |
+| Consumer Cyclical | Weak | Low | Neutral |
+| Technology | Positive | Low | Good |
 
 ## 市場心理
 
-市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 240 件で、ポジティブなモメンタムのセクターは 1/3 です。
+市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 0 件で、ポジティブなモメンタムのセクターは 1/3 です。
 
 参照Knowledge: market_psychology.md
 

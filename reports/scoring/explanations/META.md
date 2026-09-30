@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Meta Platforms, Inc.
-- Total Score: 67 / 100
+- Total Score: 56 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -16,10 +16,10 @@ Medium
 
 理由
 
-- 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 1 件です。
+- 利用可能な主要データ領域は5領域中 4 領域です。
+- 欠損または計算不可の項目数は 2 件です。
+- データが不足している領域: News。
 - 主要データは一定程度ありますが、欠損や未取得項目が残っています。
-- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 67 点を獲得し、シグナル充足率は 67.0% です。
+- データが確認できた 80 点満点のうち 56 点を獲得し、シグナル充足率は 70.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -109,10 +109,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 26.9740
-- forward_pe: 20.5476
-- peg_ratio: 0.9900
-- price_to_book: 6.9803
+- trailing_pe: 27.8264
+- forward_pe: 21.1285
+- peg_ratio: 0.9500
+- price_to_book: 7.2063
 - sector_peer_count: 10
 - trailing_pe_percentile: 88.8900
 - trailing_pe_peer_count: 10
@@ -129,11 +129,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンが +29.63pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンが +30.64pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +17.34pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -18.78pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.23 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンが +25.87pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンが +23.72pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +15.00pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -21.72pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.30 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -142,25 +142,24 @@ Evidence
 
 使用データ
 
-- 1M: 30.5678
-- 3M: 36.7112
-- 6M: 37.5151
-- 1Y: -0.8480
+- 1M: 25.4045
+- 3M: 27.2991
+- 6M: 36.3556
+- 1Y: -4.1210
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.94, '3M': 6.07, '6M': 20.18, '1Y': 17.94}
-- excess_returns: {'1M': 29.63, '3M': 30.64, '6M': 17.34, '1Y': -18.78}
-- latest_volume: 25,753,100.0000
-- average_volume_30d: 20,857,496.6667
+- benchmark_returns: {'1M': -0.47, '3M': 3.58, '6M': 21.35, '1Y': 17.6}
+- excess_returns: {'1M': 25.87, '3M': 23.72, '6M': 15.0, '1Y': -21.72}
+- latest_volume: 27,943,100.0000
+- average_volume_30d: 21,499,453.3333
 
 ## News
 
-11点
+0点
 
 理由
 
-- ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。
-- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
+- ニュースが取得できないため、News項目は評価を控えています。
+- イベントDBが取得できないため、イベント項目は加点していません。
 
 Evidence
 
@@ -170,16 +169,17 @@ Evidence
 
 使用データ
 
-- news_count: 10
-- positive_count: 3
-- negative_count: 1
-- sentiment_net_ratio: 0.5000
-- event_count: 10
+- news_count: 0
+- positive_count: 0
+- negative_count: 0
+- sentiment_net_ratio: N/A
+- event_count: 0
 - events_with_price_reaction: 0
 
 欠損・計算不可
 
-- event_price_reaction
+- news
+- events
 
 ## Note
 
