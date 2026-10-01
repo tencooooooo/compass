@@ -7,20 +7,20 @@
     "country": "United States",
     "currency": "USD",
     "exchange": "NYQ",
-    "market_cap": 165573967872,
-    "enterprise_value": 219355971584,
+    "market_cap": 163422732288,
+    "enterprise_value": 217204736000,
     "shares_outstanding": 707641531,
     "beta": 0.414,
-    "trailing_pe": 19.00731,
-    "forward_pe": 16.878422,
+    "trailing_pe": 18.760357,
+    "forward_pe": 16.665886,
     "peg_ratio": 2.02,
-    "price_to_book": -161.81189,
+    "price_to_book": -159.70955,
     "eps": 12.31,
-    "forward_eps": 13.86267,
+    "forward_eps": 13.85705,
     "dividend_yield": 3.3,
     "52_week_high": 341.75,
-    "52_week_low": 232.06,
-    "average_volume": 4932466,
+    "52_week_low": 230.88,
+    "average_volume": 4940750,
     "employees": 150000,
     "website": "https://www.mcdonalds.com",
     "business_summary": "McDonald's Corporation owns, operates, and franchises restaurants under the McDonald's brand in the United States and internationally. It offers food and beverages, including hamburgers and cheeseburgers, various chicken sandwiches, fries, shakes, frozen desserts, sundaes, soft serve cones, cookies, pies, soft drinks, coffee, and other beverages; and full or limited breakfast, as well as sells various other products during limited-time promotions. The company owns and operates franchised restaurants under various structures, including conventional franchise, developmental license, or affiliate. McDonald's Corporation was founded in 1940 and is based in Chicago, Illinois."
@@ -1225,31 +1225,55 @@
         "scoring": "Weak",
         "discovery": "Weak"
       }
+    },
+    {
+      "date": "2026-09-30",
+      "timestamp": "2026-09-30T20:57:31.781058-04:00",
+      "score": 42,
+      "discovery_score": 33,
+      "discovery_status": "Not Selected",
+      "validation_results": {
+        "Excellent": 0,
+        "Good": 0,
+        "Neutral": 0,
+        "Poor": 0,
+        "Pending": 0
+      },
+      "event_count": 10,
+      "news_count": 10,
+      "confidence": {
+        "scoring": "Medium",
+        "discovery": "Medium"
+      },
+      "signal_strength": {
+        "scoring": "Moderate",
+        "discovery": "Weak"
+      }
     }
   ],
   "Scores": {
     "ticker": "MCD",
     "company_name": "McDonald's Corporation",
-    "total_score": 30,
+    "total_score": 42,
     "max_score": 100,
     "confidence": {
       "level": "Medium",
-      "completeness_score": 65.0,
+      "completeness_score": 90.0,
       "reasons": [
-        "利用可能な主要データ領域は5領域中 4 領域です。",
-        "欠損または計算不可の項目数は 3 件です。",
-        "データが不足している領域: News。",
+        "利用可能な主要データ領域は5領域中 5 領域です。",
+        "欠損または計算不可の項目数は 2 件です。",
         "主要データは一定程度ありますが、欠損や未取得項目が残っています。",
+        "イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。",
         "Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。"
       ]
     },
     "signal_strength": {
-      "level": "Weak",
-      "signal_rate": 37.5,
-      "evaluated_max_score": 80,
+      "level": "Moderate",
+      "signal_rate": 42.0,
+      "evaluated_max_score": 100,
       "reasons": [
-        "データが確認できた 80 点満点のうち 30 点を獲得し、シグナル充足率は 37.5% です。",
-        "シグナル強度は Weak(Strong: 65%以上 / Moderate: 40%以上)です。"
+        "データが確認できた 100 点満点のうち 42 点を獲得し、シグナル充足率は 42.0% です。",
+        "シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。"
       ]
     },
     "scores": {
@@ -1326,7 +1350,7 @@
           "PER はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。",
           "Forward PER はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。",
           "PEG はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。",
-          "PBR は -161.81 で、指標がマイナスのため加点対象外です。",
+          "PBR は -159.71 で、指標がマイナスのため加点対象外です。",
           "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
         ],
         "evidence": [
@@ -1335,10 +1359,10 @@
         ],
         "missing_data": [],
         "metrics": {
-          "trailing_pe": 19.00731,
-          "forward_pe": 16.878422,
+          "trailing_pe": 18.760357,
+          "forward_pe": 16.665886,
           "peg_ratio": 2.02,
-          "price_to_book": -161.81189,
+          "price_to_book": -159.70955,
           "sector_peer_count": 10,
           "trailing_pe_percentile": 33.33,
           "trailing_pe_peer_count": 10,
@@ -1351,14 +1375,14 @@
         }
       },
       "Momentum": {
-        "score": 4,
+        "score": 3,
         "max_score": 20,
         "reasons": [
-          "1M の対SPY超過リターンは -9.07pt と、市場を小幅に下回っています。",
-          "3M の対SPY超過リターンは -15.52pt と、市場を大きく下回っています。",
-          "6M の対SPY超過リターンは -43.92pt と、市場を大きく下回っています。",
-          "1Y の対SPY超過リターンは -38.34pt と、市場を大きく下回っています。",
-          "直近出来高が30日平均の 1.01 倍で、通常水準の流動性があります。"
+          "1M の対SPY超過リターンは -10.66pt と、市場を大きく下回っています。",
+          "3M の対SPY超過リターンは -15.41pt と、市場を大きく下回っています。",
+          "6M の対SPY超過リターンは -44.64pt と、市場を大きく下回っています。",
+          "1Y の対SPY超過リターンは -38.09pt と、市場を大きく下回っています。",
+          "直近出来高が30日平均の 0.98 倍で、通常水準の流動性があります。"
         ],
         "evidence": [
           "Prices",
@@ -1366,33 +1390,34 @@
         ],
         "missing_data": [],
         "metrics": {
-          "1M": -9.536107237685798,
-          "3M": -11.946846970792233,
-          "6M": -22.57078462652866,
-          "1Y": -20.738211258529894,
+          "1M": -11.078074429434425,
+          "3M": -12.824866253613996,
+          "6M": -23.105934709827594,
+          "1Y": -21.373958163911368,
           "benchmark": "SPY",
           "benchmark_returns": {
-            "1M": -0.47,
-            "3M": 3.58,
-            "6M": 21.35,
-            "1Y": 17.6
+            "1M": -0.42,
+            "3M": 2.59,
+            "6M": 21.54,
+            "1Y": 16.72
           },
           "excess_returns": {
-            "1M": -9.07,
-            "3M": -15.52,
-            "6M": -43.92,
-            "1Y": -38.34
+            "1M": -10.66,
+            "3M": -15.41,
+            "6M": -44.64,
+            "1Y": -38.09
           },
-          "latest_volume": 5365000.0,
-          "average_volume_30d": 5326076.666666667
+          "latest_volume": 5239500.0,
+          "average_volume_30d": 5337000.0
         }
       },
       "News": {
-        "score": 0,
+        "score": 13,
         "max_score": 20,
         "reasons": [
-          "ニュースが取得できないため、News項目は評価を控えています。",
-          "イベントDBが取得できないため、イベント項目は加点していません。"
+          "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
+          "ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
+          "イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。"
         ],
         "evidence": [
           "News",
@@ -1400,15 +1425,14 @@
           "Knowledge"
         ],
         "missing_data": [
-          "news",
-          "events"
+          "event_price_reaction"
         ],
         "metrics": {
-          "news_count": 0,
-          "positive_count": 0,
+          "news_count": 10,
+          "positive_count": 1,
           "negative_count": 0,
-          "sentiment_net_ratio": null,
-          "event_count": 0,
+          "sentiment_net_ratio": 1.0,
+          "event_count": 10,
           "events_with_price_reaction": 0
         }
       }
@@ -1427,20 +1451,20 @@
     "company": "McDonald's Corporation",
     "sector": "Consumer Cyclical",
     "industry": "Restaurants",
-    "discovery_score": 26,
+    "discovery_score": 33,
     "max_score": 100,
     "status": "Not Selected",
     "discovery_reasons": [
       "Scoring EngineのGrowthが 10/20 で、成長性の基礎条件が確認できます。",
       "Financial Healthが 7/20 で、継続調査に必要な財務基盤を評価しています。",
-      "Newsスコアが 0/20 で、材料の量と市場関心を候補評価に反映しています。",
+      "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
       "売上が取得でき、事業規模の確認ができます。",
       "EPSがプラスで、利益を伴う成長候補として確認できます。",
       "FCFがプラスで、成長投資を支える現金創出力があります。",
-      "1Mモメンタムは対SPYで -9.07pt と、市場を小幅に下回っています。",
-      "3Mモメンタムは対SPYで -15.52pt と弱く、候補評価では注意点です。",
-      "6Mモメンタムは対SPYで -43.92pt と弱く、候補評価では注意点です。",
-      "1Yモメンタムは対SPYで -38.34pt と弱く、候補評価では注意点です。"
+      "1Mモメンタムは対SPYで -10.66pt と弱く、候補評価では注意点です。",
+      "3Mモメンタムは対SPYで -15.41pt と弱く、候補評価では注意点です。",
+      "6Mモメンタムは対SPYで -44.64pt と弱く、候補評価では注意点です。",
+      "1Yモメンタムは対SPYで -38.09pt と弱く、候補評価では注意点です。"
     ],
     "strengths": [
       "時価総額が大きく、事業基盤や市場での存在感が確認できます。",
@@ -1448,6 +1472,7 @@
       "純利益率が高く、売上から利益を残す力があります。"
     ],
     "watch_points": [
+      "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
       "Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
       "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
       "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -1457,7 +1482,7 @@
     ],
     "confidence": "Medium",
     "signal_strength": "Weak",
-    "signal_rate": 29.65,
+    "signal_rate": 36.36,
     "evidence": [
       "Company",
       "Events",
@@ -1470,49 +1495,48 @@
     ],
     "missing_data": [
       "research_and_development",
-      "recent_news",
-      "events"
+      "event_price_reaction"
     ],
     "metrics": {
-      "scoring_total": 30.0,
-      "signal_earned_points": 25.5,
-      "signal_max_points": 86.0,
+      "scoring_total": 42.0,
+      "signal_earned_points": 33.45,
+      "signal_max_points": 92.0,
       "weak_signals": [],
-      "scoring_signal_strength": "Weak",
+      "scoring_signal_strength": "Moderate",
       "growth_score": 10.0,
       "financial_health_score": 7.0,
       "valuation_score": 9.0,
-      "news_score": 0.0,
+      "news_score": 13.0,
       "momentum": {
-        "1m": -9.536107237685798,
-        "3m": -11.946846970792233,
-        "6m": -22.57078462652866,
-        "1y": -20.738211258529894
+        "1m": -11.078074429434425,
+        "3m": -12.824866253613996,
+        "6m": -23.105934709827594,
+        "1y": -21.373958163911368
       },
       "benchmark": "SPY",
       "excess_momentum": {
-        "1m": -9.07,
-        "3m": -15.52,
-        "6m": -43.92,
-        "1y": -38.34
+        "1m": -10.66,
+        "3m": -15.41,
+        "6m": -44.64,
+        "1y": -38.09
       },
-      "positive_news": 0,
+      "positive_news": 1,
       "watch_news": 0,
-      "event_count": 0,
+      "event_count": 10,
       "events_with_reaction": 0,
-      "sector_average_score": 40.666666666666664
+      "sector_average_score": 52.166666666666664
     }
   },
   "Validation": [],
   "Events": {
-    "count": 0,
+    "count": 10,
     "latest": [
       {
-        "event_id": "MCD_5e1a25be1aa051be",
+        "event_id": "MCD_846729decb49763a",
         "ticker": "MCD",
-        "published_at": "2026-09-28T23:19:50+00:00",
-        "title": "McDonald’s (MCD): Let’s Begin With a Smile",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-mcd-let-begin-smile-231950122.html",
+        "published_at": "2026-09-30T20:50:04+00:00",
+        "title": "Here's Why McDonald's (MCD) Fell More Than Broader Market",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-mcdonalds-mcd-fell-205004434.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -1520,11 +1544,11 @@
         "volume": null
       },
       {
-        "event_id": "MCD_c0aa5489502490ca",
+        "event_id": "MCD_326dd2a84e2150bc",
         "ticker": "MCD",
-        "published_at": "2026-09-28T23:12:58+00:00",
-        "title": "McDonald's (MCD), What Is Behind The Fresh Attention Now?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-mcd-behind-fresh-attention-231258009.html",
+        "published_at": "2026-09-30T15:30:00+00:00",
+        "title": "McDonald's is spending $8.5 billion to put an AI called Archy in drive-thrus — even after its first attempt failed",
+        "url": "https://finance.yahoo.com/technology/ai/articles/mcdonalds-spending-8-5-billion-153000377.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -1532,11 +1556,11 @@
         "volume": null
       },
       {
-        "event_id": "MCD_898f396e3dfe4724",
+        "event_id": "MCD_1b5a075132137529",
         "ticker": "MCD",
-        "published_at": "2026-09-28T21:03:57+00:00",
-        "title": "How Low Can Dutch Bros Stock Go?",
-        "url": "https://www.trefis.com/articles/616796/how-low-can-dutch-bros-stock-go/2026-09-28",
+        "published_at": "2026-09-30T15:28:00+00:00",
+        "title": "Can McDonald's Beverage Expansion Become Its Next Global Growth Wave?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-beverage-expansion-become-next-152800383.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -1544,11 +1568,11 @@
         "volume": null
       },
       {
-        "event_id": "MCD_c340a56569c80b9f",
+        "event_id": "MCD_7e14c3308124dd16",
         "ticker": "MCD",
-        "published_at": "2026-09-28T19:31:00+00:00",
-        "title": "McDonald's US Comparable Sales Seen Pressured Through Year-End Amid Tough Comparisons, Morgan Stanley Says",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-apos-us-comparable-sales-193100785.html",
+        "published_at": "2026-09-30T13:40:41+00:00",
+        "title": "McDonald’s Reveals How AI Helps Set The Price Of Your Big Mac",
+        "url": "https://firstformoney.com/mcdonalds-reveals-how-ai-helps-set-the-price-of-your-big-mac/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -1556,11 +1580,11 @@
         "volume": null
       },
       {
-        "event_id": "MCD_1c713f8b8e43432c",
+        "event_id": "MCD_bf1d4866872cdddd",
         "ticker": "MCD",
-        "published_at": "2026-09-28T18:45:07+00:00",
-        "title": "How GLP-1 weight-loss drugs are changing fast-food menus",
-        "url": "https://www.cbsnews.com/news/fast-food-menus-glp-1-users/",
+        "published_at": "2026-09-30T12:08:48+00:00",
+        "title": "McDonald’s Deploys AI to Drive Dynamic Menu Pricing Across US Restaurants",
+        "url": "https://www.tikr.com/blog/mcdonalds-stock-ai-dynamic-menu-pricing?ref=yahoofinance",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -1568,11 +1592,11 @@
         "volume": null
       },
       {
-        "event_id": "MCD_a6208467cb630a72",
+        "event_id": "MCD_2cd70294db9d6c9d",
         "ticker": "MCD",
-        "published_at": "2026-09-28T18:45:00+00:00",
-        "title": "Chipotle Stock Jumps. It’s Bringing Back an Old Menu Favorite.",
-        "url": "https://www.barrons.com/articles/chipotle-stock-menu-restaurants-fast-casual-f056d79a?siteid=yhoof2&yptr=yahoo",
+        "published_at": "2026-09-30T11:06:59+00:00",
+        "title": "McDonald's AI ‘Pricing Engine’ Gauges What Customers Will Pay for a Big Mac: Report",
+        "url": "https://decrypt.co/379632/mcdonalds-ai-pricing-engine-gauges-what-customers-will-pay-for-a-big-mac-report",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -1580,11 +1604,11 @@
         "volume": null
       },
       {
-        "event_id": "MCD_e6e526dc540d0ce5",
+        "event_id": "MCD_feb8939271ff9a3a",
         "ticker": "MCD",
-        "published_at": "2026-09-28T17:57:30+00:00",
-        "title": "MCD Stock Gets Price Target Cuts From Morgan Stanley, Melius Research – A Look At Some Key Street Action Post Investor Day",
-        "url": "https://stocktwits.com/news-articles/markets/equity/mcd-stock-gets-price-target-cuts-from-morgan-stanley-melius-research-a-look-at-some-key-street-action-post-investor-day/cZMjR5WRBX4",
+        "published_at": "2026-09-30T10:13:13+00:00",
+        "title": "2 of Wall Street’s Favorite Stocks for Long-Term Investors and 1 That Underwhelm",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/2-wall-street-favorite-stocks-101313485.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -1592,11 +1616,11 @@
         "volume": null
       },
       {
-        "event_id": "MCD_bd2c8f22d7723379",
+        "event_id": "MCD_7fe12d358e05255d",
         "ticker": "MCD",
-        "published_at": "2026-09-28T17:50:01+00:00",
-        "title": "McDonald's Just Announced a Big Move That Could Unlock a Billion-Dollar Growth Opportunity for Its Business",
-        "url": "https://www.fool.com/investing/2026/09/28/mcdonald-s-just-announced-a-big-move-that-could-unlock-a-billion-dollar-growth-opportunity-for-its-business/",
+        "published_at": "2026-09-30T04:23:11+00:00",
+        "title": "McDonald’s (MCD) vs. Starbucks (SBUX): Which Is the Better Stock to Buy?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-mcd-vs-starbucks-sbux-042311364.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -1604,11 +1628,11 @@
         "volume": null
       },
       {
-        "event_id": "MCD_f71ffafd80029bc5",
+        "event_id": "MCD_03372e5c103bc2db",
         "ticker": "MCD",
-        "published_at": "2026-09-28T17:36:00+00:00",
-        "title": "McDonald’s and Fast Food Are a Mess. Look at These Stocks Instead.",
-        "url": "https://www.barrons.com/articles/restaurant-stocks-mcdonalds-brinker-casual-dining-fa644fdf?siteid=yhoof2&yptr=yahoo",
+        "published_at": "2026-09-30T02:03:00+00:00",
+        "title": "McDonald's has a plan to win back 150 million customers",
+        "url": "https://www.thestreet.com/restaurants/mcdonalds-plan-to-win-back-150-million-loyalty-rewards-customers",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -1616,11 +1640,11 @@
         "volume": null
       },
       {
-        "event_id": "MCD_5cf32db3378aba2d",
+        "event_id": "MCD_e7781365941f248d",
         "ticker": "MCD",
-        "published_at": "2026-09-28T17:22:59+00:00",
-        "title": "McDonald's launches media network with drive-thru ads",
-        "url": "https://qz.com/mcdonalds-media-network-drive-thru-ads-092826",
+        "published_at": "2026-09-29T20:59:16+00:00",
+        "title": "Inside McDonald’s push to have AI price your Big Mac",
+        "url": "https://finance.yahoo.com/news/inside-mcdonald-push-ai-price-100231537.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -1628,8 +1652,128 @@
         "volume": null
       }
     ],
-    "history_count": 202,
+    "history_count": 212,
     "history": [
+      {
+        "event_id": "MCD_846729decb49763a",
+        "ticker": "MCD",
+        "published_at": "2026-09-30T20:50:04+00:00",
+        "title": "Here's Why McDonald's (MCD) Fell More Than Broader Market",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-mcdonalds-mcd-fell-205004434.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "MCD_326dd2a84e2150bc",
+        "ticker": "MCD",
+        "published_at": "2026-09-30T15:30:00+00:00",
+        "title": "McDonald's is spending $8.5 billion to put an AI called Archy in drive-thrus — even after its first attempt failed",
+        "url": "https://finance.yahoo.com/technology/ai/articles/mcdonalds-spending-8-5-billion-153000377.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "MCD_1b5a075132137529",
+        "ticker": "MCD",
+        "published_at": "2026-09-30T15:28:00+00:00",
+        "title": "Can McDonald's Beverage Expansion Become Its Next Global Growth Wave?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-beverage-expansion-become-next-152800383.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "MCD_7e14c3308124dd16",
+        "ticker": "MCD",
+        "published_at": "2026-09-30T13:40:41+00:00",
+        "title": "McDonald’s Reveals How AI Helps Set The Price Of Your Big Mac",
+        "url": "https://firstformoney.com/mcdonalds-reveals-how-ai-helps-set-the-price-of-your-big-mac/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "MCD_bf1d4866872cdddd",
+        "ticker": "MCD",
+        "published_at": "2026-09-30T12:08:48+00:00",
+        "title": "McDonald’s Deploys AI to Drive Dynamic Menu Pricing Across US Restaurants",
+        "url": "https://www.tikr.com/blog/mcdonalds-stock-ai-dynamic-menu-pricing?ref=yahoofinance",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "MCD_2cd70294db9d6c9d",
+        "ticker": "MCD",
+        "published_at": "2026-09-30T11:06:59+00:00",
+        "title": "McDonald's AI ‘Pricing Engine’ Gauges What Customers Will Pay for a Big Mac: Report",
+        "url": "https://decrypt.co/379632/mcdonalds-ai-pricing-engine-gauges-what-customers-will-pay-for-a-big-mac-report",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "MCD_feb8939271ff9a3a",
+        "ticker": "MCD",
+        "published_at": "2026-09-30T10:13:13+00:00",
+        "title": "2 of Wall Street’s Favorite Stocks for Long-Term Investors and 1 That Underwhelm",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/2-wall-street-favorite-stocks-101313485.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "MCD_7fe12d358e05255d",
+        "ticker": "MCD",
+        "published_at": "2026-09-30T04:23:11+00:00",
+        "title": "McDonald’s (MCD) vs. Starbucks (SBUX): Which Is the Better Stock to Buy?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-mcd-vs-starbucks-sbux-042311364.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "MCD_03372e5c103bc2db",
+        "ticker": "MCD",
+        "published_at": "2026-09-30T02:03:00+00:00",
+        "title": "McDonald's has a plan to win back 150 million customers",
+        "url": "https://www.thestreet.com/restaurants/mcdonalds-plan-to-win-back-150-million-loyalty-rewards-customers",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "MCD_e7781365941f248d",
+        "ticker": "MCD",
+        "published_at": "2026-09-29T20:59:16+00:00",
+        "title": "Inside McDonald’s push to have AI price your Big Mac",
+        "url": "https://finance.yahoo.com/news/inside-mcdonald-push-ai-price-100231537.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
       {
         "event_id": "MCD_5e1a25be1aa051be",
         "ticker": "MCD",
@@ -4057,121 +4201,231 @@
     ]
   },
   "News": {
-    "count": 0,
+    "count": 10,
     "latest": [
       {
         "ticker": "MCD",
-        "title": "McDonald’s (MCD): Let’s Begin With a Smile",
-        "summary": "McDonald’s Corporation (NYSE:MCD) has spent years trying to make its restaurants faster and more convenient. Pushing app ordering, self-service technology, and loyalty programs has been a major part of that strategy. But convenience is only part of the story. The bigger question is whether better restaurant economics can drive repeat visits and faster growth. We […]",
-        "published_at": "2026-09-28T23:19:50+00:00",
+        "title": "Here's Why McDonald's (MCD) Fell More Than Broader Market",
+        "summary": "McDonald's (MCD) concluded the recent trading session at $230.94, signifying a -1.3% move from its prior day's close.",
+        "published_at": "2026-09-30T20:50:04+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-mcdonalds-mcd-fell-205004434.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "McDonald's is spending $8.5 billion to put an AI called Archy in drive-thrus — even after its first attempt failed",
+        "summary": "McDonald’s is going back for seconds after its first AI tool rollout failed.",
+        "published_at": "2026-09-30T15:30:00+00:00",
+        "publisher": "Moneywise",
+        "url": "https://finance.yahoo.com/technology/ai/articles/mcdonalds-spending-8-5-billion-153000377.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "Can McDonald's Beverage Expansion Become Its Next Global Growth Wave?",
+        "summary": "MCD's beverage platform is driving new visits, higher checks and cash-flow gains, setting up a broader rollout across more global markets.",
+        "published_at": "2026-09-30T15:28:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-beverage-expansion-become-next-152800383.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "McDonald’s Reveals How AI Helps Set The Price Of Your Big Mac",
+        "summary": "McDonald’s has turned to artificial intelligence to help it with menu prices across the U.S. and some global markets. But the decision has caused some controversy and not gone down well with all customers, who have noticed price differences occur in some restaurants within the same town. According to a Reuters report published on Tuesday, […]",
+        "published_at": "2026-09-30T13:40:41+00:00",
+        "publisher": "First for Money",
+        "url": "https://firstformoney.com/mcdonalds-reveals-how-ai-helps-set-the-price-of-your-big-mac/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "McDonald’s Deploys AI to Drive Dynamic Menu Pricing Across US Restaurants",
+        "summary": "Key Stats for McDonalds StockPrice change for McDonald’s stock in last 6 months: -25%$MCD Stock Price as of Sep. 29: $2352-Week High: $342$MCD Stock Price Target: $299What Happened?McDonald’s (MCD:NYSE) is using artificial intelligence more and more to set menu prices across the U.",
+        "published_at": "2026-09-30T12:08:48+00:00",
+        "publisher": "TIKR",
+        "url": "https://www.tikr.com/blog/mcdonalds-stock-ai-dynamic-menu-pricing?ref=yahoofinance",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "McDonald's AI ‘Pricing Engine’ Gauges What Customers Will Pay for a Big Mac: Report",
+        "summary": "Machine-learning models set an 'optimal price' per item per restaurant, and have widened the gap between branches two miles apart.",
+        "published_at": "2026-09-30T11:06:59+00:00",
+        "publisher": "decrypt",
+        "url": "https://decrypt.co/379632/mcdonalds-ai-pricing-engine-gauges-what-customers-will-pay-for-a-big-mac-report",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "2 of Wall Street’s Favorite Stocks for Long-Term Investors and 1 That Underwhelm",
+        "summary": "Wall Street is overwhelmingly bullish on the stocks in this article, with price targets suggesting significant upside potential. However, it’s worth remembering that analysts rarely issue sell ratings, partly because their firms often seek other business from the same companies they cover.",
+        "published_at": "2026-09-30T10:13:13+00:00",
+        "publisher": "StockStory",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/2-wall-street-favorite-stocks-101313485.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "McDonald’s (MCD) vs. Starbucks (SBUX): Which Is the Better Stock to Buy?",
+        "summary": "McDonald’s Corporation (NYSE:MCD) and Starbucks Corporation (NASDAQ:SBUX) are two of the world’s most recognizable restaurant brands, but they are at very different points in their stories. McDonald’s is trying to reignite traffic among value-conscious customers, while Starbucks is showing signs that its turnaround is gaining traction. That makes this less about which company has the […]",
+        "published_at": "2026-09-30T04:23:11+00:00",
         "publisher": "Insider Monkey",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-mcd-let-begin-smile-231950122.html",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-mcd-vs-starbucks-sbux-042311364.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "MCD",
-        "title": "McDonald's (MCD), What Is Behind The Fresh Attention Now?",
-        "summary": "McDonald's (MCD) just lifted its quarterly cash dividend to US$1.93 per share, a 4% rise that takes the annual payout to US$7.72. The move lands while the stock trades well below its 1 year high. The richer payout comes at a tougher time for the share price. McDonald's stock has fallen about 23% on a year to date share price basis and is around US$100 below its 52 week peak, with the 1 year total shareholder return down roughly 21% even after dividends. This indicates that momentum has cooled...",
-        "published_at": "2026-09-28T23:12:58+00:00",
-        "publisher": "Simply Wall St.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-mcd-behind-fresh-attention-231258009.html",
+        "title": "McDonald's has a plan to win back 150 million customers",
+        "summary": "Millions of diners signed up, but many stopped coming back.",
+        "published_at": "2026-09-30T02:03:00+00:00",
+        "publisher": "TheStreet",
+        "url": "https://www.thestreet.com/restaurants/mcdonalds-plan-to-win-back-150-million-loyalty-rewards-customers",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "MCD",
-        "title": "How Low Can Dutch Bros Stock Go?",
-        "summary": "Dutch Bros (BROS) stock lost 47% over the past three months, while the S&P 500 gained 5.6% (as of September 25, 2026). The shares still cost 55.2 times the coffee chain's yearly profit, against 22.1 times for the S&P 500. The question now is how much lower Dutch Bros stock could go if the whole market falls too.",
-        "published_at": "2026-09-28T21:03:57+00:00",
-        "publisher": "Trefis",
-        "url": "https://www.trefis.com/articles/616796/how-low-can-dutch-bros-stock-go/2026-09-28",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "MCD",
-        "title": "McDonald's US Comparable Sales Seen Pressured Through Year-End Amid Tough Comparisons, Morgan Stanley Says",
-        "summary": "McDonald's (MCD) same-store sales in the US are likely to remain pressured through the end of the ye",
-        "published_at": "2026-09-28T19:31:00+00:00",
-        "publisher": "MT Newswires",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-apos-us-comparable-sales-193100785.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "MCD",
-        "title": "How GLP-1 weight-loss drugs are changing fast-food menus",
-        "summary": "Chipotle, McDonald's and Shake Shack are among the restaurant chains revamping their menus as more consumers go on weight-loss drugs.",
-        "published_at": "2026-09-28T18:45:07+00:00",
-        "publisher": "CBS News",
-        "url": "https://www.cbsnews.com/news/fast-food-menus-glp-1-users/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "MCD",
-        "title": "Chipotle Stock Jumps. It’s Bringing Back an Old Menu Favorite.",
-        "summary": "Chipotle shares rise after unveiling the return, for a limited time, of its classic margaritas, which were discontinued in 2019.",
-        "published_at": "2026-09-28T18:45:00+00:00",
-        "publisher": "Barrons.com",
-        "url": "https://www.barrons.com/articles/chipotle-stock-menu-restaurants-fast-casual-f056d79a?siteid=yhoof2&yptr=yahoo",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "MCD",
-        "title": "MCD Stock Gets Price Target Cuts From Morgan Stanley, Melius Research – A Look At Some Key Street Action Post Investor Day",
-        "summary": "McDonald’s NEXT rollout is drawing renewed attention to its long-term growth and investment plans.",
-        "published_at": "2026-09-28T17:57:30+00:00",
-        "publisher": "Stocktwits",
-        "url": "https://stocktwits.com/news-articles/markets/equity/mcd-stock-gets-price-target-cuts-from-morgan-stanley-melius-research-a-look-at-some-key-street-action-post-investor-day/cZMjR5WRBX4",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "MCD",
-        "title": "McDonald's Just Announced a Big Move That Could Unlock a Billion-Dollar Growth Opportunity for Its Business",
-        "summary": "The fast food giant is investing heavily in changing its stores and menus, and it's also experimenting with ads on its drive-thru order boards.",
-        "published_at": "2026-09-28T17:50:01+00:00",
-        "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/09/28/mcdonald-s-just-announced-a-big-move-that-could-unlock-a-billion-dollar-growth-opportunity-for-its-business/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "MCD",
-        "title": "McDonald’s and Fast Food Are a Mess. Look at These Stocks Instead.",
-        "summary": "McDonald’s and other fast-food stocks face pressure, but Brinker International, Bloomin’ Brands and several casual-dining peers have outperformed.",
-        "published_at": "2026-09-28T17:36:00+00:00",
-        "publisher": "Barrons.com",
-        "url": "https://www.barrons.com/articles/restaurant-stocks-mcdonalds-brinker-casual-dining-fa644fdf?siteid=yhoof2&yptr=yahoo",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "MCD",
-        "title": "McDonald's launches media network with drive-thru ads",
-        "summary": "The chain launched a pilot at 450 company-owned U.S. restaurants in August and hopes the business will eventually reach $1 billion",
-        "published_at": "2026-09-28T17:22:59+00:00",
-        "publisher": "Quartz",
-        "url": "https://qz.com/mcdonalds-media-network-drive-thru-ads-092826",
+        "title": "Inside McDonald’s push to have AI price your Big Mac",
+        "summary": "By Waylon Cunningham NEW YORK, Sept 29 (Reuters) - McDonald’s is increasingly using artificial intelligence to guide menu prices across the U.S. and some global markets, a plan that aims to boost",
+        "published_at": "2026-09-29T20:59:16+00:00",
+        "publisher": "Reuters",
+        "url": "https://finance.yahoo.com/news/inside-mcdonald-push-ai-price-100231537.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       }
     ],
-    "history_count": 197,
+    "history_count": 207,
     "history": [
+      {
+        "ticker": "MCD",
+        "title": "Here's Why McDonald's (MCD) Fell More Than Broader Market",
+        "summary": "McDonald's (MCD) concluded the recent trading session at $230.94, signifying a -1.3% move from its prior day's close.",
+        "published_at": "2026-09-30T20:50:04+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-mcdonalds-mcd-fell-205004434.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "McDonald's is spending $8.5 billion to put an AI called Archy in drive-thrus — even after its first attempt failed",
+        "summary": "McDonald’s is going back for seconds after its first AI tool rollout failed.",
+        "published_at": "2026-09-30T15:30:00+00:00",
+        "publisher": "Moneywise",
+        "url": "https://finance.yahoo.com/technology/ai/articles/mcdonalds-spending-8-5-billion-153000377.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "Can McDonald's Beverage Expansion Become Its Next Global Growth Wave?",
+        "summary": "MCD's beverage platform is driving new visits, higher checks and cash-flow gains, setting up a broader rollout across more global markets.",
+        "published_at": "2026-09-30T15:28:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-beverage-expansion-become-next-152800383.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "McDonald’s Reveals How AI Helps Set The Price Of Your Big Mac",
+        "summary": "McDonald’s has turned to artificial intelligence to help it with menu prices across the U.S. and some global markets. But the decision has caused some controversy and not gone down well with all customers, who have noticed price differences occur in some restaurants within the same town. According to a Reuters report published on Tuesday, […]",
+        "published_at": "2026-09-30T13:40:41+00:00",
+        "publisher": "First for Money",
+        "url": "https://firstformoney.com/mcdonalds-reveals-how-ai-helps-set-the-price-of-your-big-mac/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "McDonald’s Deploys AI to Drive Dynamic Menu Pricing Across US Restaurants",
+        "summary": "Key Stats for McDonalds StockPrice change for McDonald’s stock in last 6 months: -25%$MCD Stock Price as of Sep. 29: $2352-Week High: $342$MCD Stock Price Target: $299What Happened?McDonald’s (MCD:NYSE) is using artificial intelligence more and more to set menu prices across the U.",
+        "published_at": "2026-09-30T12:08:48+00:00",
+        "publisher": "TIKR",
+        "url": "https://www.tikr.com/blog/mcdonalds-stock-ai-dynamic-menu-pricing?ref=yahoofinance",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "McDonald's AI ‘Pricing Engine’ Gauges What Customers Will Pay for a Big Mac: Report",
+        "summary": "Machine-learning models set an 'optimal price' per item per restaurant, and have widened the gap between branches two miles apart.",
+        "published_at": "2026-09-30T11:06:59+00:00",
+        "publisher": "decrypt",
+        "url": "https://decrypt.co/379632/mcdonalds-ai-pricing-engine-gauges-what-customers-will-pay-for-a-big-mac-report",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "2 of Wall Street’s Favorite Stocks for Long-Term Investors and 1 That Underwhelm",
+        "summary": "Wall Street is overwhelmingly bullish on the stocks in this article, with price targets suggesting significant upside potential. However, it’s worth remembering that analysts rarely issue sell ratings, partly because their firms often seek other business from the same companies they cover.",
+        "published_at": "2026-09-30T10:13:13+00:00",
+        "publisher": "StockStory",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/2-wall-street-favorite-stocks-101313485.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "McDonald’s (MCD) vs. Starbucks (SBUX): Which Is the Better Stock to Buy?",
+        "summary": "McDonald’s Corporation (NYSE:MCD) and Starbucks Corporation (NASDAQ:SBUX) are two of the world’s most recognizable restaurant brands, but they are at very different points in their stories. McDonald’s is trying to reignite traffic among value-conscious customers, while Starbucks is showing signs that its turnaround is gaining traction. That makes this less about which company has the […]",
+        "published_at": "2026-09-30T04:23:11+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-mcd-vs-starbucks-sbux-042311364.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "McDonald's has a plan to win back 150 million customers",
+        "summary": "Millions of diners signed up, but many stopped coming back.",
+        "published_at": "2026-09-30T02:03:00+00:00",
+        "publisher": "TheStreet",
+        "url": "https://www.thestreet.com/restaurants/mcdonalds-plan-to-win-back-150-million-loyalty-rewards-customers",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "MCD",
+        "title": "Inside McDonald’s push to have AI price your Big Mac",
+        "summary": "By Waylon Cunningham NEW YORK, Sept 29 (Reuters) - McDonald’s is increasingly using artificial intelligence to guide menu prices across the U.S. and some global markets, a plan that aims to boost",
+        "published_at": "2026-09-29T20:59:16+00:00",
+        "publisher": "Reuters",
+        "url": "https://finance.yahoo.com/news/inside-mcdonald-push-ai-price-100231537.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
       {
         "ticker": "MCD",
         "title": "McDonald’s (MCD): Let’s Begin With a Smile",
@@ -6346,8 +6600,8 @@
     "discovery": "Medium"
   },
   "SignalStrength": {
-    "scoring": "Weak",
+    "scoring": "Moderate",
     "discovery": "Weak"
   },
-  "Timestamp": "2026-09-29T20:56:31.270489-04:00"
+  "Timestamp": "2026-09-30T20:57:31.781058-04:00"
 }
