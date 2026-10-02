@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Microsoft Corporation
-- Total Score: 69 / 100
+- Total Score: 60 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -16,10 +16,10 @@ Medium
 
 理由
 
-- 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 1 件です。
+- 利用可能な主要データ領域は5領域中 4 領域です。
+- 欠損または計算不可の項目数は 2 件です。
+- データが不足している領域: News。
 - 主要データは一定程度ありますが、欠損や未取得項目が残っています。
-- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 69 点を獲得し、シグナル充足率は 69.0% です。
+- データが確認できた 80 点満点のうち 60 点を獲得し、シグナル充足率は 75.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -98,7 +98,7 @@ Evidence
 - PER はセクター内 42.86 パーセンタイル / 母数 15 で、中位レンジです。
 - Forward PER はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。
 - PEG はセクター内 93.33 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
-- PBR はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。
+- PBR はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -108,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 28.5420
-- forward_pe: 21.6927
-- peg_ratio: 1.6500
-- price_to_book: 8.6108
+- trailing_pe: 28.5682
+- forward_pe: 21.6853
+- peg_ratio: 1.6700
+- price_to_book: 8.6091
 - sector_peer_count: 16
 - trailing_pe_percentile: 42.8600
 - trailing_pe_peer_count: 15
@@ -119,20 +119,20 @@ Evidence
 - forward_pe_peer_count: 16
 - peg_ratio_percentile: 93.3300
 - peg_ratio_peer_count: 16
-- price_to_book_percentile: 40.0000
+- price_to_book_percentile: 46.6700
 - price_to_book_peer_count: 16
 
 ## Momentum
 
-12点
+15点
 
 理由
 
-- 1M の対SPY超過リターンは -0.47pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンが +34.11pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +20.83pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -16.39pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.98 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +1.44pt で、市場並み以上です。
+- 3M の対SPY超過リターンが +31.21pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +21.26pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -15.66pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.25 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -141,25 +141,24 @@ Evidence
 
 使用データ
 
-- 1M: -0.8899
-- 3M: 36.6999
-- 6M: 42.3620
-- 1Y: 0.3300
+- 1M: 1.1059
+- 3M: 33.7217
+- 6M: 39.1195
+- 1Y: 0.4897
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.42, '3M': 2.59, '6M': 21.54, '1Y': 16.72}
-- excess_returns: {'1M': -0.47, '3M': 34.11, '6M': 20.83, '1Y': -16.39}
-- latest_volume: 21,341,800.0000
-- average_volume_30d: 21,667,503.3333
+- benchmark_returns: {'1M': -0.33, '3M': 2.52, '6M': 17.86, '1Y': 16.15}
+- excess_returns: {'1M': 1.44, '3M': 31.21, '6M': 21.26, '1Y': -15.66}
+- latest_volume: 27,223,300.0000
+- average_volume_30d: 21,772,026.6667
 
 ## News
 
-12点
+0点
 
 理由
 
-- ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 6 件、悪材料 1 件(純比率 +0.71)で、センチメントは 6.8 点です。
-- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
+- ニュースが取得できないため、News項目は評価を控えています。
+- イベントDBが取得できないため、イベント項目は加点していません。
 
 Evidence
 
@@ -169,16 +168,17 @@ Evidence
 
 使用データ
 
-- news_count: 10
-- positive_count: 6
-- negative_count: 1
-- sentiment_net_ratio: 0.7100
-- event_count: 10
+- news_count: 0
+- positive_count: 0
+- negative_count: 0
+- sentiment_net_ratio: N/A
+- event_count: 0
 - events_with_price_reaction: 0
 
 欠損・計算不可
 
-- event_price_reaction
+- news
+- events
 
 ## Note
 

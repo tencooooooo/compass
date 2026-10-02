@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: NIKE, Inc.
-- Total Score: 60 / 100
+- Total Score: 49 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -16,8 +16,9 @@ Medium
 
 理由
 
-- 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 1 件です。
+- 利用可能な主要データ領域は5領域中 4 領域です。
+- 欠損または計算不可の項目数は 3 件です。
+- データが不足している領域: News。
 - 主要データは一定程度ありますが、欠損や未取得項目が残っています。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
@@ -27,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 60 点を獲得し、シグナル充足率は 60.0% です。
+- データが確認できた 80 点満点のうち 49 点を獲得し、シグナル充足率は 61.2% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -110,10 +111,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 16.8571
-- forward_pe: 16.3737
-- peg_ratio: 1.4100
-- price_to_book: 3.5315
+- trailing_pe: 16.7381
+- forward_pe: 16.3555
+- peg_ratio: 1.4200
+- price_to_book: 3.5066
 - sector_peer_count: 10
 - trailing_pe_percentile: 11.1100
 - trailing_pe_peer_count: 10
@@ -126,15 +127,15 @@ Evidence
 
 ## Momentum
 
-4点
+5点
 
 理由
 
-- 1M の対SPY超過リターンは -8.11pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -14.35pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -50.22pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -63.30pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.92 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -8.08pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -19.43pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -49.52pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -63.57pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.22 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -143,25 +144,24 @@ Evidence
 
 使用データ
 
-- 1M: -8.5349
-- 3M: -11.7657
-- 6M: -28.6801
-- 1Y: -46.5853
+- 1M: -8.4088
+- 3M: -16.9170
+- 6M: -31.6629
+- 1Y: -47.4231
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.42, '3M': 2.59, '6M': 21.54, '1Y': 16.72}
-- excess_returns: {'1M': -8.11, '3M': -14.35, '6M': -50.22, '1Y': -63.3}
-- latest_volume: 28,960,000.0000
-- average_volume_30d: 31,333,560.0000
+- benchmark_returns: {'1M': -0.33, '3M': 2.52, '6M': 17.86, '1Y': 16.15}
+- excess_returns: {'1M': -8.08, '3M': -19.43, '6M': -49.52, '1Y': -63.57}
+- latest_volume: 38,151,700.0000
+- average_volume_30d: 31,299,506.6667
 
 ## News
 
-12点
+0点
 
 理由
 
-- ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が -1.51% と弱く、注意が必要です。
+- ニュースが取得できないため、News項目は評価を控えています。
+- イベントDBが取得できないため、イベント項目は加点していません。
 
 Evidence
 
@@ -171,12 +171,17 @@ Evidence
 
 使用データ
 
-- news_count: 10
-- positive_count: 2
+- news_count: 0
+- positive_count: 0
 - negative_count: 0
-- sentiment_net_ratio: 1.0000
-- event_count: 10
-- events_with_price_reaction: 5
+- sentiment_net_ratio: N/A
+- event_count: 0
+- events_with_price_reaction: 0
+
+欠損・計算不可
+
+- news
+- events
 
 ## Note
 
