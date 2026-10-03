@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: McDonald's Corporation
-- Total Score: 29 / 100
+- Total Score: 28 / 100
 - Confidence: Medium
 - Signal Strength: Weak
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Weak
 
 理由
 
-- データが確認できた 80 点満点のうち 29 点を獲得し、シグナル充足率は 36.2% です。
+- データが確認できた 80 点満点のうち 28 点を獲得し、シグナル充足率は 35.0% です。
 - シグナル強度は Weak(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -95,14 +95,14 @@ Evidence
 
 ## Valuation
 
-9点
+8点
 
 理由
 
 - PER はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。
-- Forward PER はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。
-- PEG はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
-- PBR は -160.33 で、指標がマイナスのため加点対象外です。
+- Forward PER はセクター内 22.22 パーセンタイル / 母数 10 で、相対的に割安寄りです。
+- PEG はセクター内 88.89 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
+- PBR は -160.37 で、指標がマイナスのため加点対象外です。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -112,16 +112,16 @@ Evidence
 
 使用データ
 
-- trailing_pe: 18.7565
-- forward_pe: 16.7713
-- peg_ratio: 2.0000
-- price_to_book: -160.3250
+- trailing_pe: 18.8375
+- forward_pe: 16.7757
+- peg_ratio: 2.4500
+- price_to_book: -160.3665
 - sector_peer_count: 10
 - trailing_pe_percentile: 33.3300
 - trailing_pe_peer_count: 10
-- forward_pe_percentile: 33.3300
+- forward_pe_percentile: 22.2200
 - forward_pe_peer_count: 10
-- peg_ratio_percentile: 55.5600
+- peg_ratio_percentile: 88.8900
 - peg_ratio_peer_count: 10
 - price_to_book_percentile: N/A
 - price_to_book_peer_count: 0
@@ -132,11 +132,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -11.42pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -16.19pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -42.52pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -37.97pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.03 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -11.75pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -19.64pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -40.69pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -37.67pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.09 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -145,15 +145,15 @@ Evidence
 
 使用データ
 
-- 1M: -11.7472
-- 3M: -13.6765
-- 6M: -24.6569
-- 1Y: -21.8192
+- 1M: -11.2137
+- 3M: -16.8023
+- 6M: -23.5051
+- 1Y: -21.7504
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.33, '3M': 2.52, '6M': 17.86, '1Y': 16.15}
-- excess_returns: {'1M': -11.42, '3M': -16.19, '6M': -42.52, '1Y': -37.97}
-- latest_volume: 5,575,900.0000
-- average_volume_30d: 5,419,890.0000
+- benchmark_returns: {'1M': 0.54, '3M': 2.83, '6M': 17.19, '1Y': 15.92}
+- excess_returns: {'1M': -11.75, '3M': -19.64, '6M': -40.69, '1Y': -37.67}
+- latest_volume: 5,937,100.0000
+- average_volume_30d: 5,439,406.6667
 
 ## News
 

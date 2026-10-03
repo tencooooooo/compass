@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Texas Instruments Incorporated
-- Total Score: 59 / 100
+- Total Score: 60 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 59 点を獲得し、シグナル充足率は 73.8% です。
+- データが確認できた 80 点満点のうち 60 点を獲得し、シグナル充足率は 75.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -96,8 +96,8 @@ Evidence
 理由
 
 - PER はセクター内 71.43 パーセンタイル / 母数 15 で、中位レンジです。
-- Forward PER はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。
-- PEG はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。
+- Forward PER はセクター内 73.33 パーセンタイル / 母数 16 で、中位レンジです。
+- PEG はセクター内 63.33 パーセンタイル / 母数 16 で、中位レンジです。
 - PBR はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -108,31 +108,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 42.5582
-- forward_pe: 26.4269
+- trailing_pe: 44.6505
+- forward_pe: 27.6002
 - peg_ratio: 1.0000
-- price_to_book: 14.2630
+- price_to_book: 14.8963
 - sector_peer_count: 16
 - trailing_pe_percentile: 71.4300
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 66.6700
+- forward_pe_percentile: 73.3300
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 66.6700
+- peg_ratio_percentile: 63.3300
 - peg_ratio_peer_count: 16
 - price_to_book_percentile: 66.6700
 - price_to_book_peer_count: 16
 
 ## Momentum
 
-13点
+14点
 
 理由
 
-- 1M の対SPY超過リターンは +7.68pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -8.17pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンが +27.89pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンが +40.67pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.69 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンが +10.50pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンは -6.36pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンが +27.58pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンが +41.16pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.65 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: 7.3512
-- 3M: -5.6586
-- 6M: 45.7477
-- 1Y: 56.8212
+- 1M: 11.0405
+- 3M: -3.5245
+- 6M: 44.7718
+- 1Y: 57.0756
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.33, '3M': 2.52, '6M': 17.86, '1Y': 16.15}
-- excess_returns: {'1M': 7.68, '3M': -8.17, '6M': 27.89, '1Y': 40.67}
-- latest_volume: 3,959,000.0000
-- average_volume_30d: 5,777,093.3333
+- benchmark_returns: {'1M': 0.54, '3M': 2.83, '6M': 17.19, '1Y': 15.92}
+- excess_returns: {'1M': 10.5, '3M': -6.36, '6M': 27.58, '1Y': 41.16}
+- latest_volume: 3,696,200.0000
+- average_volume_30d: 5,675,540.0000
 
 ## News
 

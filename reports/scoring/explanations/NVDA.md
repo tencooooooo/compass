@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: NVIDIA Corporation
-- Total Score: 61 / 100
+- Total Score: 59 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 61 点を獲得し、シグナル充足率は 76.2% です。
+- データが確認できた 80 点満点のうち 59 点を獲得し、シグナル充足率は 73.8% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -101,8 +101,8 @@ Evidence
 理由
 
 - PER はセクター内 50.00 パーセンタイル / 母数 15 で、中位レンジです。
-- Forward PER はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。
-- PEG はセクター内 13.33 パーセンタイル / 母数 16 で、相対的に割安寄りです。
+- Forward PER はセクター内 33.33 パーセンタイル / 母数 16 で、中位レンジです。
+- PEG はセクター内 6.67 パーセンタイル / 母数 16 で、相対的に割安寄りです。
 - PBR はセクター内 93.33 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -113,31 +113,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 29.2228
-- forward_pe: 14.7091
-- peg_ratio: 0.4800
-- price_to_book: 24.3446
+- trailing_pe: 29.5391
+- forward_pe: 14.9059
+- peg_ratio: 0.2800
+- price_to_book: 24.6705
 - sector_peer_count: 16
 - trailing_pe_percentile: 50.0000
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 26.6700
+- forward_pe_percentile: 33.3300
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 13.3300
+- peg_ratio_percentile: 6.6700
 - peg_ratio_peer_count: 16
 - price_to_book_percentile: 93.3300
 - price_to_book_peer_count: 16
 
 ## Momentum
 
-16点
+14点
 
 理由
 
-- 1M の対SPY超過リターンは +3.89pt で、市場並み以上です。
-- 3M の対SPY超過リターンが +13.20pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +13.39pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは +9.74pt で、市場並み以上です。
-- 直近出来高が30日平均の 0.98 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +5.75pt で、市場並み以上です。
+- 3M の対SPY超過リターンが +15.79pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +14.47pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは +8.11pt で、市場並み以上です。
+- 直近出来高が30日平均の 0.80 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -146,15 +146,15 @@ Evidence
 
 使用データ
 
-- 1M: 3.5581
-- 3M: 15.7180
-- 6M: 31.2512
-- 1Y: 25.8879
+- 1M: 6.2906
+- 3M: 18.6256
+- 6M: 31.6573
+- 1Y: 24.0289
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.33, '3M': 2.52, '6M': 17.86, '1Y': 16.15}
-- excess_returns: {'1M': 3.89, '3M': 13.2, '6M': 13.39, '1Y': 9.74}
-- latest_volume: 121,732,200.0000
-- average_volume_30d: 123,711,706.6667
+- benchmark_returns: {'1M': 0.54, '3M': 2.83, '6M': 17.19, '1Y': 15.92}
+- excess_returns: {'1M': 5.75, '3M': 15.79, '6M': 14.47, '1Y': 8.11}
+- latest_volume: 98,591,400.0000
+- average_volume_30d: 123,771,510.0000
 
 ## News
 

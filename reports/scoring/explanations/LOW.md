@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Lowe's Companies, Inc.
-- Total Score: 34 / 100
+- Total Score: 37 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 34 点を獲得し、シグナル充足率は 42.5% です。
+- データが確認できた 80 点満点のうち 37 点を獲得し、シグナル充足率は 46.2% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -94,14 +94,14 @@ Evidence
 
 ## Valuation
 
-13点
+15点
 
 理由
 
 - PER はセクター内 0.00 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - Forward PER はセクター内 11.11 パーセンタイル / 母数 10 で、相対的に割安寄りです。
-- PEG はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
-- PBR は -13.76 で、指標がマイナスのため加点対象外です。
+- PEG はセクター内 22.22 パーセンタイル / 母数 10 で、相対的に割安寄りです。
+- PBR は -13.64 で、指標がマイナスのため加点対象外です。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -111,31 +111,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 15.4167
-- forward_pe: 14.0047
-- peg_ratio: 2.1800
-- price_to_book: -13.7573
+- trailing_pe: 15.2703
+- forward_pe: 13.8833
+- peg_ratio: 1.1600
+- price_to_book: -13.6381
 - sector_peer_count: 10
 - trailing_pe_percentile: 0
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 11.1100
 - forward_pe_peer_count: 10
-- peg_ratio_percentile: 66.6700
+- peg_ratio_percentile: 22.2200
 - peg_ratio_peer_count: 10
 - price_to_book_percentile: N/A
 - price_to_book_peer_count: 0
 
 ## Momentum
 
-4点
+5点
 
 理由
 
-- 1M の対SPY超過リターンは -9.64pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -18.96pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -39.01pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -41.90pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.10 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -9.37pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -22.17pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -39.05pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -41.86pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.31 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -144,15 +144,15 @@ Evidence
 
 使用データ
 
-- 1M: -9.9707
-- 3M: -16.4433
-- 6M: -21.1448
-- 1Y: -25.7556
+- 1M: -8.8328
+- 3M: -19.3375
+- 6M: -21.8629
+- 1Y: -25.9374
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.33, '3M': 2.52, '6M': 17.86, '1Y': 16.15}
-- excess_returns: {'1M': -9.64, '3M': -18.96, '6M': -39.01, '1Y': -41.9}
-- latest_volume: 3,694,400.0000
-- average_volume_30d: 3,368,026.6667
+- benchmark_returns: {'1M': 0.54, '3M': 2.83, '6M': 17.19, '1Y': 15.92}
+- excess_returns: {'1M': -9.37, '3M': -22.17, '6M': -39.05, '1Y': -41.86}
+- latest_volume: 4,384,700.0000
+- average_volume_30d: 3,348,933.3333
 
 ## News
 

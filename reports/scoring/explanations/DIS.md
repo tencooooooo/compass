@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: The Walt Disney Company
-- Total Score: 44 / 100
+- Total Score: 40 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 44 点を獲得し、シグナル充足率は 55.0% です。
+- データが確認できた 80 点満点のうち 40 点を獲得し、シグナル充足率は 50.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -112,10 +112,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 21.6517
-- forward_pe: 13.5368
-- peg_ratio: 3.4200
-- price_to_book: 1.5932
+- trailing_pe: 21.0701
+- forward_pe: 13.6517
+- peg_ratio: 3.3000
+- price_to_book: 1.6067
 - sector_peer_count: 10
 - trailing_pe_percentile: 66.6700
 - trailing_pe_peer_count: 10
@@ -128,15 +128,15 @@ Evidence
 
 ## Momentum
 
-9点
+5点
 
 理由
 
-- 1M の対SPY超過リターンは -2.13pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは +7.09pt で、市場並み以上です。
-- 6M の対SPY超過リターンは -8.19pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンは -23.43pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.38 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは -5.14pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -0.99pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -11.44pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -26.14pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.09 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -145,15 +145,15 @@ Evidence
 
 使用データ
 
-- 1M: -2.4640
-- 3M: 9.6019
-- 6M: 9.6740
-- 1Y: -7.2844
+- 1M: -4.6037
+- 3M: 1.8392
+- 6M: 5.7440
+- 1Y: -10.2207
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.33, '3M': 2.52, '6M': 17.86, '1Y': 16.15}
-- excess_returns: {'1M': -2.13, '3M': 7.09, '6M': -8.19, '1Y': -23.43}
-- latest_volume: 11,601,200.0000
-- average_volume_30d: 8,395,156.6667
+- benchmark_returns: {'1M': 0.54, '3M': 2.83, '6M': 17.19, '1Y': 15.92}
+- excess_returns: {'1M': -5.14, '3M': -0.99, '6M': -11.44, '1Y': -26.14}
+- latest_volume: 9,207,400.0000
+- average_volume_30d: 8,433,866.6667
 
 ## News
 

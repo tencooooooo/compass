@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Microsoft Corporation
-- Total Score: 60 / 100
+- Total Score: 59 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 60 点を獲得し、シグナル充足率は 75.0% です。
+- データが確認できた 80 点満点のうち 59 点を獲得し、シグナル充足率は 73.8% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -98,7 +98,7 @@ Evidence
 - PER はセクター内 42.86 パーセンタイル / 母数 15 で、中位レンジです。
 - Forward PER はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。
 - PEG はセクター内 93.33 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
-- PBR はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。
+- PBR はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -108,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 28.5682
-- forward_pe: 21.6853
+- trailing_pe: 28.8318
+- forward_pe: 21.8854
 - peg_ratio: 1.6700
-- price_to_book: 8.6091
+- price_to_book: 8.6885
 - sector_peer_count: 16
 - trailing_pe_percentile: 42.8600
 - trailing_pe_peer_count: 15
@@ -119,20 +119,20 @@ Evidence
 - forward_pe_peer_count: 16
 - peg_ratio_percentile: 93.3300
 - peg_ratio_peer_count: 16
-- price_to_book_percentile: 46.6700
+- price_to_book_percentile: 40.0000
 - price_to_book_peer_count: 16
 
 ## Momentum
 
-15点
+14点
 
 理由
 
-- 1M の対SPY超過リターンは +1.44pt で、市場並み以上です。
-- 3M の対SPY超過リターンが +31.21pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +21.26pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -15.66pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.25 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは +1.81pt で、市場並み以上です。
+- 3M の対SPY超過リターンが +28.74pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +22.21pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -16.10pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.91 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: 1.1059
-- 3M: 33.7217
-- 6M: 39.1195
-- 1Y: 0.4897
+- 1M: 2.3512
+- 3M: 31.5694
+- 6M: 39.3936
+- 1Y: -0.1797
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.33, '3M': 2.52, '6M': 17.86, '1Y': 16.15}
-- excess_returns: {'1M': 1.44, '3M': 31.21, '6M': 21.26, '1Y': -15.66}
-- latest_volume: 27,223,300.0000
-- average_volume_30d: 21,772,026.6667
+- benchmark_returns: {'1M': 0.54, '3M': 2.83, '6M': 17.19, '1Y': 15.92}
+- excess_returns: {'1M': 1.81, '3M': 28.74, '6M': 22.21, '1Y': -16.1}
+- latest_volume: 19,731,900.0000
+- average_volume_30d: 21,764,360.0000
 
 ## News
 
