@@ -1,48 +1,37 @@
 # Semiconductor
 
-- Target companies: 13
-- Average Score: 67.27
-- Average Discovery: 75.62
-- Momentum: 8.72
+- Target companies: 8
+- Average Score: 58.17
+- Average Discovery: 64.60
+- Momentum: 16.20
 - Confidence: High
 
 ## Companies
 
-- AAPL - Apple Inc. (Medium): Keyword: chips; Sector alignment: Technology
-- AMAT - Applied Materials, Inc. (High): Keyword: semiconductor; Keyword: chip; Keyword: chips; Keyword: memory; Sector alignment: Technology
-- AMD - Advanced Micro Devices, Inc. (High): Keyword: semiconductor; Keyword: semiconductors; Keyword: chip; Keyword: chips; Sector alignment: Technology
-- AMZN - Amazon.com, Inc. (Low): Keyword: cpu
-- AVGO - Broadcom Inc. (High): Keyword: semiconductor; Keyword: semiconductors; Keyword: chip; Keyword: chips; Sector alignment: Technology
-- CMCSA - Comcast Corporation (Low): Keyword: semiconductor
-- GOOGL - Alphabet Inc. (Low): Keyword: chips
+- AMAT - Applied Materials, Inc. (Medium): Keyword: semiconductor; Keyword: chips; Sector alignment: Technology
+- AMD - Advanced Micro Devices, Inc. (High): Keyword: semiconductor; Keyword: semiconductors; Keyword: chip; Sector alignment: Technology
+- AVGO - Broadcom Inc. (Medium): Keyword: semiconductor; Keyword: semiconductors; Sector alignment: Technology
 - INTC - Intel Corporation (Medium): Keyword: semiconductors; Keyword: foundry; Sector alignment: Technology
-- MSFT - Microsoft Corporation (Medium): Keyword: chip; Sector alignment: Technology
 - MU - Micron Technology, Inc. (High): Keyword: semiconductor; Keyword: semiconductors; Keyword: memory; Sector alignment: Technology
-- NVDA - NVIDIA Corporation (High): Keyword: semiconductors; Keyword: chip; Keyword: memory; Sector alignment: Technology
-- QCOM - QUALCOMM Incorporated (High): Keyword: semiconductor; Keyword: semiconductors; Keyword: chip; Sector alignment: Technology
-- TXN - Texas Instruments Incorporated (High): Keyword: semiconductor; Keyword: semiconductors; Keyword: chip; Keyword: chips; Sector alignment: Technology
+- NVDA - NVIDIA Corporation (Medium): Keyword: semiconductors; Sector alignment: Technology
+- QCOM - QUALCOMM Incorporated (Medium): Keyword: semiconductors; Sector alignment: Technology
+- TXN - Texas Instruments Incorporated (Medium): Keyword: semiconductor; Keyword: semiconductors; Sector alignment: Technology
 
 ## Market
 
-- Communication Services: score 56.83, momentum -1.57, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Consumer Cyclical: score 48.00, momentum -6.74, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
-- Technology: score 68.50, momentum 6.46, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 55.75, momentum 4.03, trend {'momentum': 'Positive', 'news': 'Low', 'financial_health': 'Good'}
 
 ## Major News
 
-- AVGO: Nvidia Would Have to Add Almost a Whole Broadcom to Reach $7 Trillion
-- NVDA: Nvidia Would Have to Add Almost a Whole Broadcom to Reach $7 Trillion
-- AMZN: Let’s Take a Closer Look at Amazon’s (AMZN) Debt-Fueled AI Buildout
-- CMCSA: Comcast vs. Walt Disney: Comparing Recent Revenue Trends Between These Media Companies
-- AAPL: Evercore ISI’s Bullish iPhone Survey Faces a Reality Check From Pre-Order Data
+No theme news available yet.
 
 ## Similar Themes
 
-- AI: 1.0 (Shared companies: AAPL, AMAT, AMD, AMZN, AVGO; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Cloud: 1.0 (Shared companies: AAPL, AMAT, AMD, AMZN, AVGO; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Cybersecurity: 0.999 (Shared companies: AVGO, GOOGL, MSFT, QCOM, TXN; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Energy: 0.988 (Shared companies: AMD, AVGO, CMCSA, MSFT, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Robotics: 0.987 (Shared companies: AMAT, AVGO, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Robotics: 0.995 (Shared companies: AMAT, AVGO, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- EV: 0.993 (Shared companies: NVDA, TXN; Shared sectors: Technology; Similar average Discovery score)
+- Cloud: 0.984 (Shared companies: AMD, AVGO, INTC, MU, NVDA; Shared sectors: Technology; Similar average Discovery score)
+- AI: 0.978 (Shared companies: AMD, AVGO, INTC, MU, NVDA; Shared sectors: Technology; Similar average Discovery score)
+- Cybersecurity: 0.976 (Shared companies: AVGO, QCOM; Shared sectors: Technology; Similar average Discovery score)
 
 ## Review Note
 

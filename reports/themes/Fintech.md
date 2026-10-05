@@ -1,34 +1,30 @@
 # Fintech
 
-- Target companies: 2
-- Average Score: 65.00
-- Average Discovery: 73.00
-- Momentum: 36.51
+- Target companies: 1
+- Average Score: N/A
+- Average Discovery: N/A
+- Momentum: N/A
 - Confidence: Medium
 
 ## Companies
 
 - ACN - Accenture plc (Medium): Keyword: banking; Sector alignment: Technology
-- META - Meta Platforms, Inc. (Low): Keyword: banking
 
 ## Market
 
-- Communication Services: score 56.83, momentum -1.57, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Technology: score 68.50, momentum 6.46, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 55.75, momentum 4.03, trend {'momentum': 'Positive', 'news': 'Low', 'financial_health': 'Good'}
 
 ## Major News
 
-- META: Why this early Uber investor would short OpenAI
-- META: What Meta's Muse event reveals about Mark Zuckerberg's mindset right now
-- META: 'Meta is having its moment' as stock's monster rally vindicates the bulls: Chart of the Day
+No theme news available yet.
 
 ## Similar Themes
 
-- Healthcare: 0.995 (Shared companies: META; Shared sectors: Communication Services, Technology; Similar average Discovery score)
-- EV: 0.992 (Shared sectors: Technology; Similar average Discovery score)
-- Robotics: 0.99 (Shared companies: ACN; Shared sectors: Technology; Similar average Discovery score)
-- Energy: 0.985 (Shared companies: ACN; Shared sectors: Communication Services, Technology; Similar average Discovery score)
-- Cybersecurity: 0.976 (Shared companies: ACN, META; Shared sectors: Communication Services, Technology; Similar average Discovery score)
+- Space: 0.243 (Similar average Discovery score; Similar short-term momentum)
+- Energy: 0.11 (Shared companies: ACN; Shared sectors: Technology)
+- Cybersecurity: 0.046 (Shared companies: ACN; Shared sectors: Technology; Similar short-term momentum)
+- Healthcare: 0.045 (Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Robotics: 0.044 (Shared companies: ACN; Shared sectors: Technology)
 
 ## Review Note
 

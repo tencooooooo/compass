@@ -1,39 +1,31 @@
 # Healthcare
 
-- Target companies: 4
-- Average Score: 60.25
-- Average Discovery: 72.33
-- Momentum: 20.34
+- Target companies: 2
+- Average Score: 54.00
+- Average Discovery: N/A
+- Momentum: N/A
 - Confidence: Medium
 
 ## Companies
 
 - CRM - Salesforce, Inc. (Low): Keyword: healthcare
-- HD - The Home Depot, Inc. (Low): Keyword: healthcare
-- META - Meta Platforms, Inc. (Low): Keyword: healthcare
 - NOW - ServiceNow, Inc. (Low): Keyword: healthcare
 
 ## Market
 
-- Communication Services: score 56.83, momentum -1.57, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Consumer Cyclical: score 48.00, momentum -6.74, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
-- Technology: score 68.50, momentum 6.46, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Good'}
+- Technology: score 55.75, momentum 4.03, trend {'momentum': 'Positive', 'news': 'Low', 'financial_health': 'Good'}
 
 ## Major News
 
-- HD: Is Home Depot's Next Big Thing Already In Its Stores?
-- META: Why this early Uber investor would short OpenAI
-- CRM: Can Palantir’s AI moat survive the competition?
-- HD: Musk’s ‘Zuckerberg moment,’ mortgage rates, and Google’s space bet
-- CRM: Here’s The Actual Reason I Keep Buying Salesforce On Repeat
+No theme news available yet.
 
 ## Similar Themes
 
-- Robotics: 0.999 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar average Discovery score)
-- EV: 0.997 (Shared sectors: Consumer Cyclical, Technology)
-- Energy: 0.997 (Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
-- Fintech: 0.995 (Shared companies: META; Shared sectors: Communication Services, Technology; Similar average Discovery score)
-- Cybersecurity: 0.987 (Shared companies: CRM, META, NOW; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
+- Cybersecurity: 0.993 (Shared companies: NOW; Shared sectors: Technology; Similar short-term momentum)
+- AI: 0.991 (Shared companies: CRM, NOW; Shared sectors: Technology)
+- Cloud: 0.989 (Shared companies: CRM, NOW; Shared sectors: Technology)
+- Energy: 0.981 (Shared sectors: Technology)
+- Robotics: 0.979 (Shared companies: CRM, NOW; Shared sectors: Technology)
 
 ## Review Note
 

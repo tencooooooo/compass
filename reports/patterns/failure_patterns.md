@@ -2,13 +2,6 @@
 
 Pattern candidates require human review before Knowledge updates.
 
-## News-heavy but weak momentum
-
-- Confidence: Low
-- Evidence: High news volume with negative 1M momentum may indicate temporary attention.
-- Companies: ADBE, AMAT, AMZN, AVGO, CMCSA, DIS, GOOGL, HD, LOW, MCD, NFLX, NKE, ORCL, TMUS
-- Knowledge update: candidate only
-
 ## Elevated valuation
 
 - Confidence: Low
