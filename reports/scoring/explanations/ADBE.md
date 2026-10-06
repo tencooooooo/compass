@@ -5,9 +5,9 @@
 ## Summary
 
 - Company: Adobe Inc.
-- Total Score: 52 / 100
+- Total Score: 50 / 100
 - Confidence: Medium
-- Signal Strength: Strong
+- Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
@@ -24,12 +24,12 @@ Medium
 
 ## Signal Strength
 
-Strong
+Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 52 点を獲得し、シグナル充足率は 65.0% です。
-- シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
+- データが確認できた 80 点満点のうち 50 点を獲得し、シグナル充足率は 62.5% です。
+- シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
@@ -107,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 13.2788
-- forward_pe: 8.5892
-- peg_ratio: 0.5800
-- price_to_book: 7.9001
+- trailing_pe: 13.3325
+- forward_pe: 8.6287
+- peg_ratio: 0.5700
+- price_to_book: 7.9365
 - sector_peer_count: 16
 - trailing_pe_percentile: 0
 - trailing_pe_peer_count: 15
@@ -123,15 +123,15 @@ Evidence
 
 ## Momentum
 
-6点
+4点
 
 理由
 
-- 1M の対SPY超過リターンは -16.20pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは +6.98pt で、市場並み以上です。
-- 6M の対SPY超過リターンは -17.22pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -47.52pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.93 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -16.90pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは +3.90pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -20.46pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -49.09pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.64 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -140,15 +140,15 @@ Evidence
 
 使用データ
 
-- 1M: -15.6600
-- 3M: 9.8125
-- 6M: -0.0373
-- 1Y: -31.6003
+- 1M: -16.4339
+- 3M: 7.7864
+- 6M: -2.2794
+- 1Y: -32.0616
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.54, '3M': 2.83, '6M': 17.19, '1Y': 15.92}
-- excess_returns: {'1M': -16.2, '3M': 6.98, '6M': -17.22, '1Y': -47.52}
-- latest_volume: 4,762,900.0000
-- average_volume_30d: 5,140,206.6667
+- benchmark_returns: {'1M': 0.46, '3M': 3.88, '6M': 18.18, '1Y': 17.03}
+- excess_returns: {'1M': -16.9, '3M': 3.9, '6M': -20.46, '1Y': -49.09}
+- latest_volume: 3,292,400.0000
+- average_volume_30d: 5,121,240.0000
 
 ## News
 

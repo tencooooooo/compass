@@ -5,9 +5,9 @@
 ## Summary
 
 - Company: Oracle Corporation
-- Total Score: 53 / 100
+- Total Score: 49 / 100
 - Confidence: Medium
-- Signal Strength: Strong
+- Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
@@ -24,12 +24,12 @@ Medium
 
 ## Signal Strength
 
-Strong
+Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 53 点を獲得し、シグナル充足率は 66.2% です。
-- シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
+- データが確認できた 80 点満点のうち 49 点を獲得し、シグナル充足率は 61.2% です。
+- シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
@@ -92,14 +92,14 @@ Evidence
 
 ## Valuation
 
-16点
+14点
 
 理由
 
 - PER はセクター内 35.71 パーセンタイル / 母数 15 で、中位レンジです。
-- Forward PER はセクター内 13.33 パーセンタイル / 母数 16 で、相対的に割安寄りです。
+- Forward PER はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。
 - PEG はセクター内 33.33 パーセンタイル / 母数 16 で、中位レンジです。
-- PBR はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。
+- PBR はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -109,31 +109,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 22.3041
-- forward_pe: 12.9397
-- peg_ratio: 0.7700
-- price_to_book: 6.9612
+- trailing_pe: 22.3323
+- forward_pe: 12.9560
+- peg_ratio: 0.7900
+- price_to_book: 6.9700
 - sector_peer_count: 16
 - trailing_pe_percentile: 35.7100
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 13.3300
+- forward_pe_percentile: 20.0000
 - forward_pe_peer_count: 16
 - peg_ratio_percentile: 33.3300
 - peg_ratio_peer_count: 16
-- price_to_book_percentile: 20.0000
+- price_to_book_percentile: 26.6700
 - price_to_book_peer_count: 16
 
 ## Momentum
 
-5点
+3点
 
 理由
 
-- 1M の対SPY超過リターンは -2.84pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -4.06pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -21.45pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -66.27pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.84 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -7.97pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -2.91pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -19.60pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -67.13pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.58 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -142,15 +142,15 @@ Evidence
 
 使用データ
 
-- 1M: -2.2997
-- 3M: -1.2260
-- 6M: -4.2662
-- 1Y: -50.3471
+- 1M: -7.5045
+- 3M: 0.9715
+- 6M: -1.4188
+- 1Y: -50.0991
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.54, '3M': 2.83, '6M': 17.19, '1Y': 15.92}
-- excess_returns: {'1M': -2.84, '3M': -4.06, '6M': -21.45, '1Y': -66.27}
-- latest_volume: 25,459,100.0000
-- average_volume_30d: 30,253,836.6667
+- benchmark_returns: {'1M': 0.46, '3M': 3.88, '6M': 18.18, '1Y': 17.03}
+- excess_returns: {'1M': -7.97, '3M': -2.91, '6M': -19.6, '1Y': -67.13}
+- latest_volume: 18,014,400.0000
+- average_volume_30d: 30,873,980.0000
 
 ## News
 
