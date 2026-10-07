@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Apple Inc.
-- Total Score: 48 / 100
+- Total Score: 46 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 48 点を獲得し、シグナル充足率は 60.0% です。
+- データが確認できた 80 点満点のうち 46 点を獲得し、シグナル充足率は 57.5% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -108,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 38.1755
-- forward_pe: 34.7381
+- trailing_pe: 38.1728
+- forward_pe: 34.8153
 - peg_ratio: 2.6700
-- price_to_book: 45.2296
+- price_to_book: 45.3302
 - sector_peer_count: 16
 - trailing_pe_percentile: 64.2900
 - trailing_pe_peer_count: 15
@@ -124,15 +124,15 @@ Evidence
 
 ## Momentum
 
-16点
+14点
 
 理由
 
-- 1M の対SPY超過リターンは +0.96pt で、市場並み以上です。
-- 3M の対SPY超過リターンは +3.36pt で、市場並み以上です。
-- 6M の対SPY超過リターンが +10.64pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンが +12.91pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.85 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +2.86pt で、市場並み以上です。
+- 3M の対SPY超過リターンは +1.77pt で、市場並み以上です。
+- 6M の対SPY超過リターンが +13.06pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンが +12.11pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.76 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: 1.4259
-- 3M: 7.2482
-- 6M: 28.8280
-- 1Y: 29.9419
+- 1M: 4.2692
+- 3M: 6.5502
+- 6M: 31.8443
+- 1Y: 29.7816
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.46, '3M': 3.88, '6M': 18.18, '1Y': 17.03}
-- excess_returns: {'1M': 0.96, '3M': 3.36, '6M': 10.64, '1Y': 12.91}
-- latest_volume: 34,350,900.0000
-- average_volume_30d: 40,337,230.0000
+- benchmark_returns: {'1M': 1.41, '3M': 4.78, '6M': 18.78, '1Y': 17.68}
+- excess_returns: {'1M': 2.86, '3M': 1.77, '6M': 13.06, '1Y': 12.11}
+- latest_volume: 30,425,700.0000
+- average_volume_30d: 40,197,300.0000
 
 ## News
 

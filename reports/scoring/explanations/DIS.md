@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: The Walt Disney Company
-- Total Score: 40 / 100
+- Total Score: 41 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 40 点を獲得し、シグナル充足率は 50.0% です。
+- データが確認できた 80 点満点のうち 41 点を獲得し、シグナル充足率は 51.2% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -95,11 +95,11 @@ Evidence
 
 ## Valuation
 
-6点
+9点
 
 理由
 
-- PER はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
+- PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
 - PEG はセクター内 88.89 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - PBR はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。
@@ -112,12 +112,12 @@ Evidence
 
 使用データ
 
-- trailing_pe: 21.3629
-- forward_pe: 13.8414
+- trailing_pe: 21.3614
+- forward_pe: 13.9097
 - peg_ratio: 3.3300
-- price_to_book: 1.6290
+- price_to_book: 1.6356
 - sector_peer_count: 10
-- trailing_pe_percentile: 77.7800
+- trailing_pe_percentile: 66.6700
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 55.5600
 - forward_pe_peer_count: 10
@@ -128,15 +128,15 @@ Evidence
 
 ## Momentum
 
-8点
+6点
 
 理由
 
-- 1M の対SPY超過リターンは -3.78pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは +2.40pt で、市場並み以上です。
-- 6M の対SPY超過リターンは -9.75pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンは -23.30pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.84 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -2.62pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは +2.80pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -9.34pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは -23.84pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.75 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -145,15 +145,15 @@ Evidence
 
 使用データ
 
-- 1M: -3.3128
-- 3M: 6.2885
-- 6M: 8.4378
-- 1Y: -6.2687
+- 1M: -1.2155
+- 3M: 7.5801
+- 6M: 9.4457
+- 1Y: -6.1649
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.46, '3M': 3.88, '6M': 18.18, '1Y': 17.03}
-- excess_returns: {'1M': -3.78, '3M': 2.4, '6M': -9.75, '1Y': -23.3}
-- latest_volume: 7,037,600.0000
-- average_volume_30d: 8,398,186.6667
+- benchmark_returns: {'1M': 1.41, '3M': 4.78, '6M': 18.78, '1Y': 17.68}
+- excess_returns: {'1M': -2.62, '3M': 2.8, '6M': -9.34, '1Y': -23.84}
+- latest_volume: 6,112,600.0000
+- average_volume_30d: 8,179,993.3333
 
 ## News
 

@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: T-Mobile US, Inc.
-- Total Score: 36 / 100
+- Total Score: 37 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 36 点を獲得し、シグナル充足率は 45.0% です。
+- データが確認できた 80 点満点のうち 37 点を獲得し、シグナル充足率は 46.2% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -112,10 +112,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 17.2038
-- forward_pe: 11.4039
+- trailing_pe: 17.1948
+- forward_pe: 11.4933
 - peg_ratio: 0.5800
-- price_to_book: 3.1451
+- price_to_book: 3.1697
 - sector_peer_count: 10
 - trailing_pe_percentile: 44.4400
 - trailing_pe_peer_count: 10
@@ -128,14 +128,14 @@ Evidence
 
 ## Momentum
 
-3点
+4点
 
 理由
 
-- 1M の対SPY超過リターンは -12.90pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -14.25pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -34.36pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -43.98pt と、市場を大きく下回っています。
+- 1M の対SPY超過リターンは -10.00pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -12.14pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -35.11pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -44.09pt と、市場を大きく下回っています。
 - 直近出来高が30日平均の 0.91 倍で、通常水準の流動性があります。
 
 Evidence
@@ -145,15 +145,15 @@ Evidence
 
 使用データ
 
-- 1M: -12.4348
-- 3M: -10.3610
-- 6M: -16.1731
-- 1Y: -26.9497
+- 1M: -8.5886
+- 3M: -7.3567
+- 6M: -16.3293
+- 1Y: -26.4189
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.46, '3M': 3.88, '6M': 18.18, '1Y': 17.03}
-- excess_returns: {'1M': -12.9, '3M': -14.25, '6M': -34.36, '1Y': -43.98}
-- latest_volume: 4,296,200.0000
-- average_volume_30d: 4,733,523.3333
+- benchmark_returns: {'1M': 1.41, '3M': 4.78, '6M': 18.78, '1Y': 17.68}
+- excess_returns: {'1M': -10.0, '3M': -12.14, '6M': -35.11, '1Y': -44.09}
+- latest_volume: 4,323,900.0000
+- average_volume_30d: 4,743,530.0000
 
 ## News
 

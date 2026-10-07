@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Alphabet Inc.
-- Total Score: 55 / 100
+- Total Score: 53 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 55 点を獲得し、シグナル充足率は 68.8% です。
+- データが確認できた 80 点満点のうち 53 点を獲得し、シグナル充足率は 66.2% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -112,10 +112,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 17.3843
-- forward_pe: 22.9884
+- trailing_pe: 17.4451
+- forward_pe: 23.0686
 - peg_ratio: 1.2300
-- price_to_book: 6.8074
+- price_to_book: 6.8312
 - sector_peer_count: 10
 - trailing_pe_percentile: 55.5600
 - trailing_pe_peer_count: 10
@@ -128,15 +128,15 @@ Evidence
 
 ## Momentum
 
-12点
+10点
 
 理由
 
-- 1M の対SPY超過リターンは +0.77pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -9.43pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -2.55pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンが +24.36pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.97 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +1.32pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -8.65pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -4.82pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンが +24.40pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.71 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -145,15 +145,15 @@ Evidence
 
 使用データ
 
-- 1M: 1.2301
-- 3M: -5.5410
-- 6M: 15.6371
-- 1Y: 41.3859
+- 1M: 2.7241
+- 3M: -3.8728
+- 6M: 13.9630
+- 1Y: 42.0763
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.46, '3M': 3.88, '6M': 18.18, '1Y': 17.03}
-- excess_returns: {'1M': 0.77, '3M': -9.43, '6M': -2.55, '1Y': 24.36}
-- latest_volume: 25,591,100.0000
-- average_volume_30d: 26,310,586.6667
+- benchmark_returns: {'1M': 1.41, '3M': 4.78, '6M': 18.78, '1Y': 17.68}
+- excess_returns: {'1M': 1.32, '3M': -8.65, '6M': -4.82, '1Y': 24.4}
+- latest_volume: 18,394,700.0000
+- average_volume_30d: 26,047,120.0000
 
 ## News
 

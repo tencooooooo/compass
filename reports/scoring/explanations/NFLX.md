@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Netflix, Inc.
-- Total Score: 44 / 100
+- Total Score: 41 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 44 点を獲得し、シグナル充足率は 55.0% です。
+- データが確認できた 80 点満点のうち 41 点を獲得し、シグナル充足率は 51.2% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -91,11 +91,11 @@ Evidence
 
 ## Valuation
 
-9点
+6点
 
 理由
 
-- PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
+- PER はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - Forward PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
 - PEG はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
 - PBR はセクター内 100.00 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
@@ -108,12 +108,12 @@ Evidence
 
 使用データ
 
-- trailing_pe: 21.2264
-- forward_pe: 17.7147
+- trailing_pe: 21.6006
+- forward_pe: 18.0381
 - peg_ratio: 1.1500
-- price_to_book: 9.3219
+- price_to_book: 9.4863
 - sector_peer_count: 10
-- trailing_pe_percentile: 66.6700
+- trailing_pe_percentile: 77.7800
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 66.6700
 - forward_pe_peer_count: 10
@@ -128,11 +128,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -18.81pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -15.28pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -49.95pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -58.97pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.12 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -13.62pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -13.91pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -49.27pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -58.12pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.06 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: -18.3501
-- 3M: -11.3941
-- 6M: -31.7699
-- 1Y: -41.9370
+- 1M: -12.2172
+- 3M: -9.1282
+- 6M: -30.4898
+- 1Y: -40.4415
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.46, '3M': 3.88, '6M': 18.18, '1Y': 17.03}
-- excess_returns: {'1M': -18.81, '3M': -15.28, '6M': -49.95, '1Y': -58.97}
-- latest_volume: 36,724,900.0000
-- average_volume_30d: 32,686,713.3333
+- benchmark_returns: {'1M': 1.41, '3M': 4.78, '6M': 18.78, '1Y': 17.68}
+- excess_returns: {'1M': -13.62, '3M': -13.91, '6M': -49.27, '1Y': -58.12}
+- latest_volume: 35,052,500.0000
+- average_volume_30d: 33,155,463.3333
 
 ## News
 

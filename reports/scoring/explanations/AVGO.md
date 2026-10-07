@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Broadcom Inc.
-- Total Score: 54 / 100
+- Total Score: 55 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 54 点を獲得し、シグナル充足率は 67.5% です。
+- データが確認できた 80 点満点のうち 55 点を獲得し、シグナル充足率は 68.8% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -96,7 +96,7 @@ Evidence
 
 理由
 
-- PER はセクター内 78.57 パーセンタイル / 母数 15 で、相対的な加点は抑えています。
+- PER はセクター内 85.71 パーセンタイル / 母数 15 で、相対的な加点は抑えています。
 - Forward PER はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。
 - PEG はセクター内 13.33 パーセンタイル / 母数 16 で、相対的に割安寄りです。
 - PBR はセクター内 86.67 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
@@ -109,12 +109,12 @@ Evidence
 
 使用データ
 
-- trailing_pe: 46.2976
-- forward_pe: 18.6920
+- trailing_pe: 47.9962
+- forward_pe: 19.3778
 - peg_ratio: 0.3500
-- price_to_book: 17.3599
+- price_to_book: 17.9968
 - sector_peer_count: 16
-- trailing_pe_percentile: 78.5700
+- trailing_pe_percentile: 85.7100
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 46.6700
 - forward_pe_peer_count: 16
@@ -125,15 +125,15 @@ Evidence
 
 ## Momentum
 
-9点
+10点
 
 理由
 
-- 1M の対SPY超過リターンは +1.22pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -5.94pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -2.50pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンは -9.04pt と、市場を小幅に下回っています。
-- 直近出来高が30日平均の 0.85 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +3.79pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -7.92pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -5.87pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは -5.78pt と、市場を小幅に下回っています。
+- 直近出来高が30日平均の 1.20 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -142,15 +142,15 @@ Evidence
 
 使用データ
 
-- 1M: 1.6828
-- 3M: -2.0524
-- 6M: 15.6839
-- 1Y: 7.9914
+- 1M: 5.1954
+- 3M: -3.1376
+- 6M: 12.9114
+- 1Y: 11.8906
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.46, '3M': 3.88, '6M': 18.18, '1Y': 17.03}
-- excess_returns: {'1M': 1.22, '3M': -5.94, '6M': -2.5, '1Y': -9.04}
-- latest_volume: 21,428,100.0000
-- average_volume_30d: 25,213,286.6667
+- benchmark_returns: {'1M': 1.41, '3M': 4.78, '6M': 18.78, '1Y': 17.68}
+- excess_returns: {'1M': 3.79, '3M': -7.92, '6M': -5.87, '1Y': -5.78}
+- latest_volume: 30,791,100.0000
+- average_volume_30d: 25,617,533.3333
 
 ## News
 
