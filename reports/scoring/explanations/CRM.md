@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Salesforce, Inc.
-- Total Score: 57 / 100
+- Total Score: 55 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 57 点を獲得し、シグナル充足率は 71.2% です。
+- データが確認できた 80 点満点のうち 55 点を獲得し、シグナル充足率は 68.8% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -91,11 +91,11 @@ Evidence
 
 ## Valuation
 
-16点
+14点
 
 理由
 
-- PER はセクター内 21.43 パーセンタイル / 母数 15 で、相対的に割安寄りです。
+- PER はセクター内 28.57 パーセンタイル / 母数 15 で、中位レンジです。
 - Forward PER はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。
 - PEG はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。
 - PBR はセクター内 6.67 パーセンタイル / 母数 16 で、相対的に割安寄りです。
@@ -108,12 +108,12 @@ Evidence
 
 使用データ
 
-- trailing_pe: 20.5846
-- forward_pe: 14.0437
-- peg_ratio: 0.8400
-- price_to_book: 4.8248
+- trailing_pe: 20.5453
+- forward_pe: 14.0169
+- peg_ratio: 0.8200
+- price_to_book: 4.8156
 - sector_peer_count: 16
-- trailing_pe_percentile: 21.4300
+- trailing_pe_percentile: 28.5700
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 26.6700
 - forward_pe_peer_count: 16

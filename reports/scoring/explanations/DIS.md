@@ -112,10 +112,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 21.3614
-- forward_pe: 13.9097
-- peg_ratio: 3.3300
-- price_to_book: 1.6356
+- trailing_pe: 21.5979
+- forward_pe: 14.0059
+- peg_ratio: 3.3700
+- price_to_book: 1.6470
 - sector_peer_count: 10
 - trailing_pe_percentile: 66.6700
 - trailing_pe_peer_count: 10

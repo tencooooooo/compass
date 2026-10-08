@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 0.24%
+- 市場全体の1Mモメンタム平均: 0.34%
 - ニュース件数: 0
 - Event数: 0
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -31,9 +31,9 @@
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 44.83 | 18.73 | 11.21 | -2.72% | 0 |
-| Consumer Cyclical | 6 | 39.67 | 74.02 | 9.00 | -5.53% | 0 |
-| Technology | 12 | 55.75 | 47.22 | 9.15 | 4.60% | 0 |
+| Communication Services | 6 | 44.67 | 18.78 | 11.18 | -3.00% | 0 |
+| Consumer Cyclical | 6 | 39.67 | 73.53 | 9.01 | -5.53% | 0 |
+| Technology | 12 | 55.75 | 46.88 | 9.16 | 4.95% | 0 |
 
 ## 市場トレンド
 

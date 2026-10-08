@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: QUALCOMM Incorporated
-- Total Score: 58 / 100
+- Total Score: 60 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 58 点を獲得し、シグナル充足率は 72.5% です。
+- データが確認できた 80 点満点のうち 60 点を獲得し、シグナル充足率は 75.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -91,11 +91,11 @@ Evidence
 
 ## Valuation
 
-14点
+16点
 
 理由
 
-- PER はセクター内 28.57 パーセンタイル / 母数 15 で、中位レンジです。
+- PER はセクター内 21.43 パーセンタイル / 母数 15 で、相対的に割安寄りです。
 - Forward PER はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。
 - PEG はセクター内 36.67 パーセンタイル / 母数 16 で、中位レンジです。
 - PBR はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。
@@ -108,12 +108,12 @@ Evidence
 
 使用データ
 
-- trailing_pe: 20.9283
-- forward_pe: 17.7539
+- trailing_pe: 20.5000
+- forward_pe: 17.3704
 - peg_ratio: 0.8000
-- price_to_book: 6.9183
+- price_to_book: 6.7688
 - sector_peer_count: 16
-- trailing_pe_percentile: 28.5700
+- trailing_pe_percentile: 21.4300
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 40.0000
 - forward_pe_peer_count: 16
@@ -148,8 +148,8 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': 1.41, '3M': 4.78, '6M': 18.78, '1Y': 17.68}
 - excess_returns: {'1M': 5.88, '3M': -7.22, '6M': 28.46, '1Y': -8.44}
-- latest_volume: 8,217,000.0000
-- average_volume_30d: 13,464,410.0000
+- latest_volume: 8,227,100.0000
+- average_volume_30d: 13,464,746.6667
 
 ## News
 

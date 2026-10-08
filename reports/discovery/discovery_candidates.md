@@ -6,8 +6,8 @@
 
 - 対象企業数: 24
 - セクター数: 3
-- 市場平均スコア: 49.0
-- 1M市場モメンタム平均: 0.23722701501119067
+- 市場平均スコア: 48.958333333333336
+- 1M市場モメンタム平均: 0.3419123720198194
 - ニュース件数: 0
 - Event数: 0
 
@@ -21,7 +21,6 @@
 | MSFT | Microsoft Corporation | Technology | 60 | Watch Candidate | Medium | Strong |
 | AMAT | Applied Materials, Inc. | Technology | 60 | Watch Candidate | Medium | Strong |
 | GOOGL | Alphabet Inc. | Communication Services | 60 | Watch Candidate | Medium | Strong |
-| META | Meta Platforms, Inc. | Communication Services | 60 | Watch Candidate | Medium | Strong |
 
 ## Top Candidate
 
