@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: QUALCOMM Incorporated
-- Total Score: 60 / 100
+- Total Score: 58 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 60 点を獲得し、シグナル充足率は 75.0% です。
+- データが確認できた 80 点満点のうち 58 点を獲得し、シグナル充足率は 72.5% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -108,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 20.5000
-- forward_pe: 17.3704
+- trailing_pe: 20.3715
+- forward_pe: 17.2615
 - peg_ratio: 0.8000
-- price_to_book: 6.7688
+- price_to_book: 6.7264
 - sector_peer_count: 16
 - trailing_pe_percentile: 21.4300
 - trailing_pe_peer_count: 15
@@ -124,15 +124,15 @@ Evidence
 
 ## Momentum
 
-10点
+8点
 
 理由
 
-- 1M の対SPY超過リターンは +5.88pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -7.22pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンが +28.46pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -8.44pt と、市場を小幅に下回っています。
-- 直近出来高が30日平均の 0.61 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -1.99pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -9.21pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンが +24.63pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -8.32pt と、市場を小幅に下回っています。
+- 直近出来高が30日平均の 0.72 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: 7.2834
-- 3M: -2.4361
-- 6M: 47.2455
-- 1Y: 9.2327
+- 1M: -0.2211
+- 3M: -6.4454
+- 6M: 39.0384
+- 1Y: 8.5914
 - benchmark: SPY
-- benchmark_returns: {'1M': 1.41, '3M': 4.78, '6M': 18.78, '1Y': 17.68}
-- excess_returns: {'1M': 5.88, '3M': -7.22, '6M': 28.46, '1Y': -8.44}
-- latest_volume: 8,227,100.0000
-- average_volume_30d: 13,464,746.6667
+- benchmark_returns: {'1M': 1.76, '3M': 2.77, '6M': 14.4, '1Y': 16.91}
+- excess_returns: {'1M': -1.99, '3M': -9.21, '6M': 24.63, '1Y': -8.32}
+- latest_volume: 9,555,600.0000
+- average_volume_30d: 13,316,926.6667
 
 ## News
 

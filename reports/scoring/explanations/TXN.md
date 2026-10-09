@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Texas Instruments Incorporated
-- Total Score: 60 / 100
+- Total Score: 61 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 60 点を獲得し、シグナル充足率は 75.0% です。
+- データが確認できた 80 点満点のうち 61 点を獲得し、シグナル充足率は 76.2% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -108,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 43.9848
-- forward_pe: 27.1474
-- peg_ratio: 1.0500
-- price_to_book: 14.6519
+- trailing_pe: 43.8661
+- forward_pe: 27.0741
+- peg_ratio: 1.0600
+- price_to_book: 14.6124
 - sector_peer_count: 16
 - trailing_pe_percentile: 71.4300
 - trailing_pe_peer_count: 15
@@ -124,15 +124,15 @@ Evidence
 
 ## Momentum
 
-14点
+15点
 
 理由
 
-- 1M の対SPY超過リターンが +13.60pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンは -5.63pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンが +31.55pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンが +51.43pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.60 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは +8.41pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -9.76pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンが +21.03pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンが +50.08pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 1.07 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: 15.0093
-- 3M: -0.8523
-- 6M: 50.3303
-- 1Y: 69.1035
+- 1M: 10.1724
+- 3M: -6.9943
+- 6M: 35.4300
+- 1Y: 66.9944
 - benchmark: SPY
-- benchmark_returns: {'1M': 1.41, '3M': 4.78, '6M': 18.78, '1Y': 17.68}
-- excess_returns: {'1M': 13.6, '3M': -5.63, '6M': 31.55, '1Y': 51.43}
-- latest_volume: 3,285,600.0000
-- average_volume_30d: 5,499,286.6667
+- benchmark_returns: {'1M': 1.76, '3M': 2.77, '6M': 14.4, '1Y': 16.91}
+- excess_returns: {'1M': 8.41, '3M': -9.76, '6M': 21.03, '1Y': 50.08}
+- latest_volume: 5,944,400.0000
+- average_volume_30d: 5,581,240.0000
 
 ## News
 

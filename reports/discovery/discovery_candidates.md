@@ -6,8 +6,8 @@
 
 - 対象企業数: 24
 - セクター数: 3
-- 市場平均スコア: 48.958333333333336
-- 1M市場モメンタム平均: 0.3419123720198194
+- 市場平均スコア: 49.666666666666664
+- 1M市場モメンタム平均: 0.36936350731681616
 - ニュース件数: 0
 - Event数: 0
 
@@ -15,16 +15,16 @@
 
 | Ticker | Company | Sector | Discovery Score | Status | Confidence | Signal |
 | --- | --- | --- | --- | --- | --- | --- |
-| NVDA | NVIDIA Corporation | Technology | 74 | Watch Candidate | Medium | Strong |
-| AMD | Advanced Micro Devices, Inc. | Technology | 73 | Watch Candidate | Medium | Strong |
-| TXN | Texas Instruments Incorporated | Technology | 65 | Watch Candidate | Medium | Strong |
+| AMD | Advanced Micro Devices, Inc. | Technology | 70 | Watch Candidate | Medium | Strong |
+| NVDA | NVIDIA Corporation | Technology | 69 | Watch Candidate | Medium | Strong |
+| TXN | Texas Instruments Incorporated | Technology | 64 | Watch Candidate | Medium | Strong |
+| AMAT | Applied Materials, Inc. | Technology | 62 | Watch Candidate | Medium | Strong |
 | MSFT | Microsoft Corporation | Technology | 60 | Watch Candidate | Medium | Strong |
-| AMAT | Applied Materials, Inc. | Technology | 60 | Watch Candidate | Medium | Strong |
 | GOOGL | Alphabet Inc. | Communication Services | 60 | Watch Candidate | Medium | Strong |
 
 ## Top Candidate
 
-NVDA
+AMD
 
 理由
 
