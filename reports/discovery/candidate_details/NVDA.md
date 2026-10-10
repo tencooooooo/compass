@@ -10,12 +10,12 @@
 
 ## Discovery Score
 
-69 / 100
+63 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。
-- Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。
+- Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。
 - Newsスコアが 0/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
@@ -45,7 +45,7 @@ Medium
 
 ## Signal Strength
 
-Strong(シグナル充足率: 77.47%)
+Strong(シグナル充足率: 71.07%)
 
 ## Evidence
 
@@ -65,20 +65,20 @@ Strong(シグナル充足率: 77.47%)
 
 ## Metrics
 
-- scoring_total: 66.0
-- signal_earned_points: 68.95
+- scoring_total: 60.0
+- signal_earned_points: 63.25
 - signal_max_points: 89.0
 - weak_signals: []
 - scoring_signal_strength: Strong
 - growth_score: 20.0
-- financial_health_score: 20.0
+- financial_health_score: 14.0
 - valuation_score: 11.0
 - news_score: 0.0
-- momentum: {'1m': 3.159966706854552, '3m': 9.37518419594115, '6m': 25.608621999113684, '1y': 24.855269103953372}
+- momentum: {'1m': 3.159966706854552, '3m': 9.37518419594115, '6m': 25.608611553698708, '1y': 24.855269103953372}
 - benchmark: SPY
 - excess_momentum: {'1m': 1.4, '3m': 6.61, '6m': 11.2, '1y': 7.94}
 - positive_news: 0
 - watch_news: 0
 - event_count: 0
 - events_with_reaction: 0
-- sector_average_score: 56.25
+- sector_average_score: 55.75

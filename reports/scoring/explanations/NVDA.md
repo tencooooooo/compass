@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: NVIDIA Corporation
-- Total Score: 66 / 100
+- Total Score: 60 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -17,7 +17,7 @@ Medium
 理由
 
 - 利用可能な主要データ領域は5領域中 4 領域です。
-- 欠損または計算不可の項目数は 2 件です。
+- 欠損または計算不可の項目数は 3 件です。
 - データが不足している領域: News。
 - 主要データは一定程度ありますが、欠損や未取得項目が残っています。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 66 点を獲得し、シグナル充足率は 82.5% です。
+- データが確認できた 80 点満点のうち 60 点を獲得し、シグナル充足率は 75.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -67,14 +67,14 @@ Evidence
 
 ## Financial Health
 
-20点
+14点
 
 理由
 
 - 現金 がプラスで確認できるため加点しています。
 - 自己資本がプラスで、財務基盤を確認できます。
-- 総負債/自己資本が 0.31 倍で、負債負担は相対的に抑えられています。
-- 長期債務が総負債に対して過度に大きくないため加点しています。
+- 総負債が取得できないため、負債項目は加点していません。
+- 長期債務が確認できるため、返済負担の継続確認が必要です。
 - Current Ratio が 3.91 で、短期支払余力が確認できます。
 
 Evidence
@@ -85,10 +85,14 @@ Evidence
 使用データ
 
 - cash: 10,605,000,000.0000
-- total_liabilities: 49,510,000,000.0000
+- total_liabilities: N/A
 - shareholders_equity: 157,293,000,000.0000
 - long_term_debt: 7,469,000,000.0000
 - current_ratio: 3.9053
+
+欠損・計算不可
+
+- total_liabilities
 
 ## Valuation
 
@@ -96,7 +100,7 @@ Evidence
 
 理由
 
-- PER はセクター内 50.00 パーセンタイル / 母数 15 で、中位レンジです。
+- PER はセクター内 42.86 パーセンタイル / 母数 15 で、中位レンジです。
 - Forward PER はセクター内 33.33 パーセンタイル / 母数 16 で、中位レンジです。
 - PEG はセクター内 6.67 パーセンタイル / 母数 16 で、相対的に割安寄りです。
 - PBR はセクター内 93.33 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
@@ -109,12 +113,12 @@ Evidence
 
 使用データ
 
-- trailing_pe: 29.1378
-- forward_pe: 14.4823
-- peg_ratio: 0.2900
-- price_to_book: 24.3045
+- trailing_pe: 28.9861
+- forward_pe: 14.4069
+- peg_ratio: 0.2800
+- price_to_book: 24.1780
 - sector_peer_count: 16
-- trailing_pe_percentile: 50.0000
+- trailing_pe_percentile: 42.8600
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 33.3300
 - forward_pe_peer_count: 16
@@ -133,7 +137,7 @@ Evidence
 - 3M の対SPY超過リターンは +6.61pt で、市場並み以上です。
 - 6M の対SPY超過リターンが +11.20pt と、市場を大きく上回っています。
 - 1Y の対SPY超過リターンは +7.94pt で、市場並み以上です。
-- 直近出来高が30日平均の 0.97 倍で、通常水準の流動性があります。
+- 直近出来高が30日平均の 0.98 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -149,8 +153,8 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': 1.76, '3M': 2.77, '6M': 14.4, '1Y': 16.91}
 - excess_returns: {'1M': 1.4, '3M': 6.61, '6M': 11.2, '1Y': 7.94}
-- latest_volume: 118,311,700.0000
-- average_volume_30d: 121,618,266.6667
+- latest_volume: 118,697,400.0000
+- average_volume_30d: 121,631,123.3333
 
 ## News
 

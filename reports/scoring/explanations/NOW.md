@@ -97,8 +97,8 @@ Evidence
 
 - PER はセクター内 92.86 パーセンタイル / 母数 15 で、相対的な加点は抑えています。
 - Forward PER はセクター内 80.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
-- PEG はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。
-- PBR はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。
+- PEG はセクター内 56.67 パーセンタイル / 母数 16 で、中位レンジです。
+- PBR はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -108,18 +108,18 @@ Evidence
 
 使用データ
 
-- trailing_pe: 87.3438
-- forward_pe: 27.9192
-- peg_ratio: 0.9900
-- price_to_book: 11.5439
+- trailing_pe: 88.0375
+- forward_pe: 28.1410
+- peg_ratio: 1.0100
+- price_to_book: 11.6356
 - sector_peer_count: 16
 - trailing_pe_percentile: 92.8600
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 80.0000
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 53.3300
+- peg_ratio_percentile: 56.6700
 - peg_ratio_peer_count: 16
-- price_to_book_percentile: 53.3300
+- price_to_book_percentile: 60.0000
 - price_to_book_peer_count: 16
 
 ## Momentum
@@ -148,8 +148,8 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': 1.76, '3M': 2.77, '6M': 14.4, '1Y': 16.91}
 - excess_returns: {'1M': 4.83, '3M': 26.98, '6M': 41.2, '1Y': -39.64}
-- latest_volume: 11,819,100.0000
-- average_volume_30d: 13,535,783.3333
+- latest_volume: 11,834,400.0000
+- average_volume_30d: 13,536,293.3333
 
 ## News
 

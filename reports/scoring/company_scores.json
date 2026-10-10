@@ -2,7 +2,7 @@
   "project": "Compass",
   "engine": "Explainable Scoring Engine",
   "version": "v1.0-alpha",
-  "generated_at": "2026-10-08T21:36:03.630269-04:00",
+  "generated_at": "2026-10-09T21:25:55.598895-04:00",
   "max_score": 100,
   "category_max_score": 20,
   "failed_tickers": [],
@@ -113,10 +113,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 39.03899,
-            "forward_pe": 35.506687,
-            "peg_ratio": 2.67,
-            "price_to_book": 46.25272,
+            "trailing_pe": 38.605507,
+            "forward_pe": 35.11173,
+            "peg_ratio": 2.72,
+            "price_to_book": 45.739132,
             "sector_peer_count": 16,
             "trailing_pe_percentile": 64.29,
             "trailing_pe_peer_count": 15,
@@ -147,7 +147,7 @@
             "1M": 7.953325737649279,
             "3M": 8.053274164786895,
             "6M": 30.917712865279505,
-            "1Y": 33.21799595158744,
+            "1Y": 33.217987996760236,
             "benchmark": "SPY",
             "benchmark_returns": {
               "1M": 1.76,
@@ -161,8 +161,8 @@
               "6M": 16.51,
               "1Y": 16.31
             },
-            "latest_volume": 35279900.0,
-            "average_volume_30d": 40515860.0
+            "latest_volume": 35332400.0,
+            "average_volume_30d": 40517610.0
           }
         },
         "News": {
@@ -294,10 +294,10 @@
           "score": 9,
           "max_score": 20,
           "reasons": [
-            "PER はセクター内 42.86 パーセンタイル / 母数 15 で、中位レンジです。",
+            "PER はセクター内 50.00 パーセンタイル / 母数 15 で、中位レンジです。",
             "Forward PER はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。",
             "PEG はセクター内 86.67 パーセンタイル / 母数 16 で、相対的な加点は抑えています。",
-            "PBR はセクター内 33.33 パーセンタイル / 母数 16 で、中位レンジです。",
+            "PBR はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。",
             "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
           ],
           "evidence": [
@@ -306,18 +306,18 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 29.114761,
-            "forward_pe": 22.072176,
-            "peg_ratio": 1.72,
-            "price_to_book": 8.773776,
+            "trailing_pe": 29.808912,
+            "forward_pe": 22.59842,
+            "peg_ratio": 1.7,
+            "price_to_book": 8.98296,
             "sector_peer_count": 16,
-            "trailing_pe_percentile": 42.86,
+            "trailing_pe_percentile": 50.0,
             "trailing_pe_peer_count": 15,
             "forward_pe_percentile": 60.0,
             "forward_pe_peer_count": 16,
             "peg_ratio_percentile": 86.67,
             "peg_ratio_peer_count": 16,
-            "price_to_book_percentile": 33.33,
+            "price_to_book_percentile": 40.0,
             "price_to_book_peer_count": 16
           }
         },
@@ -329,7 +329,7 @@
             "3M の対SPY超過リターンが +33.19pt と、市場を大きく上回っています。",
             "6M の対SPY超過リターンが +26.25pt と、市場を大きく上回っています。",
             "1Y の対SPY超過リターンは -16.35pt と、市場を大きく下回っています。",
-            "直近出来高が30日平均の 0.92 倍で、通常水準の流動性があります。"
+            "直近出来高が30日平均の 0.93 倍で、通常水準の流動性があります。"
           ],
           "evidence": [
             "Prices",
@@ -339,7 +339,7 @@
           "metrics": {
             "1M": 6.297160955847926,
             "3M": 35.96307686249241,
-            "6M": 40.65130248505635,
+            "6M": 40.651314037129076,
             "1Y": 0.5591655969643551,
             "benchmark": "SPY",
             "benchmark_returns": {
@@ -354,8 +354,8 @@
               "6M": 26.25,
               "1Y": -16.35
             },
-            "latest_volume": 20201700.0,
-            "average_volume_30d": 21847233.333333332
+            "latest_volume": 20228700.0,
+            "average_volume_30d": 21848133.333333332
           }
         },
         "News": {
@@ -396,14 +396,14 @@
     {
       "ticker": "NVDA",
       "company_name": "NVIDIA Corporation",
-      "total_score": 66,
+      "total_score": 60,
       "max_score": 100,
       "confidence": {
         "level": "Medium",
-        "completeness_score": 70.0,
+        "completeness_score": 65.0,
         "reasons": [
           "利用可能な主要データ領域は5領域中 4 領域です。",
-          "欠損または計算不可の項目数は 2 件です。",
+          "欠損または計算不可の項目数は 3 件です。",
           "データが不足している領域: News。",
           "主要データは一定程度ありますが、欠損や未取得項目が残っています。",
           "Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。"
@@ -411,10 +411,10 @@
       },
       "signal_strength": {
         "level": "Strong",
-        "signal_rate": 82.5,
+        "signal_rate": 75.0,
         "evaluated_max_score": 80,
         "reasons": [
-          "データが確認できた 80 点満点のうち 66 点を獲得し、シグナル充足率は 82.5% です。",
+          "データが確認できた 80 点満点のうち 60 点を獲得し、シグナル充足率は 75.0% です。",
           "シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。"
         ]
       },
@@ -462,23 +462,25 @@
           }
         },
         "Financial Health": {
-          "score": 20,
+          "score": 14,
           "max_score": 20,
           "reasons": [
             "現金 がプラスで確認できるため加点しています。",
             "自己資本がプラスで、財務基盤を確認できます。",
-            "総負債/自己資本が 0.31 倍で、負債負担は相対的に抑えられています。",
-            "長期債務が総負債に対して過度に大きくないため加点しています。",
+            "総負債が取得できないため、負債項目は加点していません。",
+            "長期債務が確認できるため、返済負担の継続確認が必要です。",
             "Current Ratio が 3.91 で、短期支払余力が確認できます。"
           ],
           "evidence": [
             "Financials",
             "Knowledge"
           ],
-          "missing_data": [],
+          "missing_data": [
+            "total_liabilities"
+          ],
           "metrics": {
             "cash": 10605000000.0,
-            "total_liabilities": 49510000000.0,
+            "total_liabilities": null,
             "shareholders_equity": 157293000000.0,
             "long_term_debt": 7469000000.0,
             "current_ratio": 3.905263812455306
@@ -488,7 +490,7 @@
           "score": 11,
           "max_score": 20,
           "reasons": [
-            "PER はセクター内 50.00 パーセンタイル / 母数 15 で、中位レンジです。",
+            "PER はセクター内 42.86 パーセンタイル / 母数 15 で、中位レンジです。",
             "Forward PER はセクター内 33.33 パーセンタイル / 母数 16 で、中位レンジです。",
             "PEG はセクター内 6.67 パーセンタイル / 母数 16 で、相対的に割安寄りです。",
             "PBR はセクター内 93.33 パーセンタイル / 母数 16 で、相対的な加点は抑えています。",
@@ -500,12 +502,12 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 29.1378,
-            "forward_pe": 14.482299,
-            "peg_ratio": 0.29,
-            "price_to_book": 24.304544,
+            "trailing_pe": 28.986094,
+            "forward_pe": 14.406897,
+            "peg_ratio": 0.28,
+            "price_to_book": 24.178003,
             "sector_peer_count": 16,
-            "trailing_pe_percentile": 50.0,
+            "trailing_pe_percentile": 42.86,
             "trailing_pe_peer_count": 15,
             "forward_pe_percentile": 33.33,
             "forward_pe_peer_count": 16,
@@ -523,7 +525,7 @@
             "3M の対SPY超過リターンは +6.61pt で、市場並み以上です。",
             "6M の対SPY超過リターンが +11.20pt と、市場を大きく上回っています。",
             "1Y の対SPY超過リターンは +7.94pt で、市場並み以上です。",
-            "直近出来高が30日平均の 0.97 倍で、通常水準の流動性があります。"
+            "直近出来高が30日平均の 0.98 倍で、通常水準の流動性があります。"
           ],
           "evidence": [
             "Prices",
@@ -533,7 +535,7 @@
           "metrics": {
             "1M": 3.159966706854552,
             "3M": 9.37518419594115,
-            "6M": 25.608621999113684,
+            "6M": 25.608611553698708,
             "1Y": 24.855269103953372,
             "benchmark": "SPY",
             "benchmark_returns": {
@@ -548,8 +550,8 @@
               "6M": 11.2,
               "1Y": 7.94
             },
-            "latest_volume": 118311700.0,
-            "average_volume_30d": 121618266.66666667
+            "latest_volume": 118697400.0,
+            "average_volume_30d": 121631123.33333333
           }
         },
         "News": {
@@ -694,10 +696,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 158.33673,
-            "forward_pe": 39.478714,
-            "peg_ratio": 0.66,
-            "price_to_book": 15.068339,
+            "trailing_pe": 158.35938,
+            "forward_pe": 38.678555,
+            "peg_ratio": 0.62,
+            "price_to_book": 14.762933,
             "sector_peer_count": 16,
             "trailing_pe_percentile": 100,
             "trailing_pe_peer_count": 15,
@@ -742,8 +744,8 @@
               "6M": 147.88,
               "1Y": 176.54
             },
-            "latest_volume": 23423900.0,
-            "average_volume_30d": 20710770.0
+            "latest_volume": 23488200.0,
+            "average_volume_30d": 20712913.333333332
           }
         },
         "News": {
@@ -888,10 +890,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 45.994892,
-            "forward_pe": 18.569834,
-            "peg_ratio": 0.37,
-            "price_to_book": 17.246433,
+            "trailing_pe": 46.17369,
+            "forward_pe": 18.642021,
+            "peg_ratio": 0.36,
+            "price_to_book": 17.313477,
             "sector_peer_count": 16,
             "trailing_pe_percentile": 85.71,
             "trailing_pe_peer_count": 15,
@@ -911,7 +913,7 @@
             "3M の対SPY超過リターンは -12.56pt と、市場を大きく下回っています。",
             "6M の対SPY超過リターンは -12.59pt と、市場を大きく下回っています。",
             "1Y の対SPY超過リターンは -9.06pt と、市場を小幅に下回っています。",
-            "直近出来高が30日平均の 1.04 倍で、通常水準の流動性があります。"
+            "直近出来高が30日平均の 1.05 倍で、通常水準の流動性があります。"
           ],
           "evidence": [
             "Prices",
@@ -921,8 +923,8 @@
           "metrics": {
             "1M": -0.9836385236452746,
             "3M": -9.79428460920191,
-            "6M": 1.8192943560633252,
-            "1Y": 7.849883624056901,
+            "6M": 1.8192855711230056,
+            "1Y": 7.849863911272836,
             "benchmark": "SPY",
             "benchmark_returns": {
               "1M": 1.76,
@@ -936,8 +938,8 @@
               "6M": -12.59,
               "1Y": -9.06
             },
-            "latest_volume": 27042200.0,
-            "average_volume_30d": 25881543.333333332
+            "latest_volume": 27145200.0,
+            "average_volume_30d": 25884976.666666668
           }
         },
         "News": {
@@ -1072,8 +1074,8 @@
           "reasons": [
             "PER はセクター内 35.71 パーセンタイル / 母数 15 で、中位レンジです。",
             "Forward PER はセクター内 13.33 パーセンタイル / 母数 16 で、相対的に割安寄りです。",
-            "PEG はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。",
-            "PBR はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。",
+            "PEG はセクター内 33.33 パーセンタイル / 母数 16 で、中位レンジです。",
+            "PBR はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。",
             "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
           ],
           "evidence": [
@@ -1082,18 +1084,18 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 21.268024,
-            "forward_pe": 12.336587,
-            "peg_ratio": 0.81,
-            "price_to_book": 10.405675,
+            "trailing_pe": 22.163008,
+            "forward_pe": 12.855725,
+            "peg_ratio": 0.76,
+            "price_to_book": 6.9171314,
             "sector_peer_count": 16,
             "trailing_pe_percentile": 35.71,
             "trailing_pe_peer_count": 15,
             "forward_pe_percentile": 13.33,
             "forward_pe_peer_count": 16,
-            "peg_ratio_percentile": 46.67,
+            "peg_ratio_percentile": 33.33,
             "peg_ratio_peer_count": 16,
-            "price_to_book_percentile": 46.67,
+            "price_to_book_percentile": 26.67,
             "price_to_book_peer_count": 16
           }
         },
@@ -1105,7 +1107,7 @@
             "3M の対SPY超過リターンは -6.29pt と、市場を小幅に下回っています。",
             "6M の対SPY超過リターンは -15.64pt と、市場を大きく下回っています。",
             "1Y の対SPY超過リターンは -68.63pt と、市場を大きく下回っています。",
-            "直近出来高が30日平均の 1.32 倍で、市場関心の高まりが確認できます。"
+            "直近出来高が30日平均の 1.33 倍で、市場関心の高まりが確認できます。"
           ],
           "evidence": [
             "Prices",
@@ -1116,7 +1118,7 @@
             "1M": -16.04900182995953,
             "3M": -3.519622418745917,
             "6M": -1.2316362469136901,
-            "1Y": -51.71807191105672,
+            "1Y": -51.71806666815796,
             "benchmark": "SPY",
             "benchmark_returns": {
               "1M": 1.76,
@@ -1130,8 +1132,8 @@
               "6M": -15.64,
               "1Y": -68.63
             },
-            "latest_volume": 42225400.0,
-            "average_volume_30d": 31945563.333333332
+            "latest_volume": 42412600.0,
+            "average_volume_30d": 31951803.333333332
           }
         },
         "News": {
@@ -1265,7 +1267,7 @@
           "reasons": [
             "PER はセクター内 28.57 パーセンタイル / 母数 15 で、中位レンジです。",
             "Forward PER はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。",
-            "PEG はセクター内 36.67 パーセンタイル / 母数 16 で、中位レンジです。",
+            "PEG はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。",
             "PBR はセクター内 6.67 パーセンタイル / 母数 16 で、相対的に割安寄りです。",
             "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
           ],
@@ -1275,16 +1277,16 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 20.84172,
-            "forward_pe": 14.219104,
-            "peg_ratio": 0.8,
-            "price_to_book": 4.8850574,
+            "trailing_pe": 20.963404,
+            "forward_pe": 14.302121,
+            "peg_ratio": 0.81,
+            "price_to_book": 4.913579,
             "sector_peer_count": 16,
             "trailing_pe_percentile": 28.57,
             "trailing_pe_peer_count": 15,
             "forward_pe_percentile": 26.67,
             "forward_pe_peer_count": 16,
-            "peg_ratio_percentile": 36.67,
+            "peg_ratio_percentile": 46.67,
             "peg_ratio_peer_count": 16,
             "price_to_book_percentile": 6.67,
             "price_to_book_peer_count": 16
@@ -1308,8 +1310,8 @@
           "metrics": {
             "1M": -6.536386110983999,
             "3M": 39.72615394032295,
-            "6M": 33.912630784591386,
-            "1Y": -4.174445874461466,
+            "6M": 33.9126427964294,
+            "1Y": -4.174452025224475,
             "benchmark": "SPY",
             "benchmark_returns": {
               "1M": 1.76,
@@ -1458,7 +1460,7 @@
             "PER はセクター内 0.00 パーセンタイル / 母数 15 で、相対的に割安寄りです。",
             "Forward PER はセクター内 6.67 パーセンタイル / 母数 16 で、相対的に割安寄りです。",
             "PEG はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。",
-            "PBR はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。",
+            "PBR はセクター内 33.33 パーセンタイル / 母数 16 で、中位レンジです。",
             "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
           ],
           "evidence": [
@@ -1467,10 +1469,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 13.4589615,
-            "forward_pe": 8.710568,
+            "trailing_pe": 13.459445,
+            "forward_pe": 8.754654,
             "peg_ratio": 0.58,
-            "price_to_book": 8.011766,
+            "price_to_book": 8.052315,
             "sector_peer_count": 16,
             "trailing_pe_percentile": 0,
             "trailing_pe_peer_count": 15,
@@ -1478,7 +1480,7 @@
             "forward_pe_peer_count": 16,
             "peg_ratio_percentile": 20.0,
             "peg_ratio_peer_count": 16,
-            "price_to_book_percentile": 26.67,
+            "price_to_book_percentile": 33.33,
             "price_to_book_peer_count": 16
           }
         },
@@ -1650,7 +1652,7 @@
           "reasons": [
             "PER はセクター内 21.43 パーセンタイル / 母数 15 で、相対的に割安寄りです。",
             "Forward PER はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。",
-            "PEG はセクター内 36.67 パーセンタイル / 母数 16 で、中位レンジです。",
+            "PEG はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。",
             "PBR はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。",
             "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
           ],
@@ -1660,16 +1662,16 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 20.371527,
-            "forward_pe": 17.26155,
-            "peg_ratio": 0.8,
-            "price_to_book": 6.726411,
+            "trailing_pe": 20.383276,
+            "forward_pe": 17.211536,
+            "peg_ratio": 0.78,
+            "price_to_book": 6.706921,
             "sector_peer_count": 16,
             "trailing_pe_percentile": 21.43,
             "trailing_pe_peer_count": 15,
             "forward_pe_percentile": 40.0,
             "forward_pe_peer_count": 16,
-            "peg_ratio_percentile": 36.67,
+            "peg_ratio_percentile": 40.0,
             "peg_ratio_peer_count": 16,
             "price_to_book_percentile": 20.0,
             "price_to_book_peer_count": 16
@@ -1693,7 +1695,7 @@
           "metrics": {
             "1M": -0.22108809701960547,
             "3M": -6.445371475426988,
-            "6M": 39.03839596213379,
+            "6M": 39.03840434171412,
             "1Y": 8.591418983583525,
             "benchmark": "SPY",
             "benchmark_returns": {
@@ -1708,8 +1710,8 @@
               "6M": 24.63,
               "1Y": -8.32
             },
-            "latest_volume": 9555600.0,
-            "average_volume_30d": 13316926.666666666
+            "latest_volume": 9566200.0,
+            "average_volume_30d": 13317280.0
           }
         },
         "News": {
@@ -1853,10 +1855,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 43.86606,
-            "forward_pe": 27.074127,
-            "peg_ratio": 1.06,
-            "price_to_book": 14.612383,
+            "trailing_pe": 43.854713,
+            "forward_pe": 26.655142,
+            "peg_ratio": 1.03,
+            "price_to_book": 14.38625,
             "sector_peer_count": 16,
             "trailing_pe_percentile": 71.43,
             "trailing_pe_peer_count": 15,
@@ -2036,8 +2038,8 @@
           "reasons": [
             "PER はセクター内 92.86 パーセンタイル / 母数 15 で、相対的な加点は抑えています。",
             "Forward PER はセクター内 80.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。",
-            "PEG はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。",
-            "PBR はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。",
+            "PEG はセクター内 56.67 パーセンタイル / 母数 16 で、中位レンジです。",
+            "PBR はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。",
             "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
           ],
           "evidence": [
@@ -2046,18 +2048,18 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 87.34375,
-            "forward_pe": 27.919233,
-            "peg_ratio": 0.99,
-            "price_to_book": 11.543862,
+            "trailing_pe": 88.0375,
+            "forward_pe": 28.14099,
+            "peg_ratio": 1.01,
+            "price_to_book": 11.635552,
             "sector_peer_count": 16,
             "trailing_pe_percentile": 92.86,
             "trailing_pe_peer_count": 15,
             "forward_pe_percentile": 80.0,
             "forward_pe_peer_count": 16,
-            "peg_ratio_percentile": 53.33,
+            "peg_ratio_percentile": 56.67,
             "peg_ratio_peer_count": 16,
-            "price_to_book_percentile": 53.33,
+            "price_to_book_percentile": 60.0,
             "price_to_book_peer_count": 16
           }
         },
@@ -2094,8 +2096,8 @@
               "6M": 41.2,
               "1Y": -39.64
             },
-            "latest_volume": 11819100.0,
-            "average_volume_30d": 13535783.333333334
+            "latest_volume": 11834400.0,
+            "average_volume_30d": 13536293.333333334
           }
         },
         "News": {
@@ -2230,7 +2232,7 @@
           "reasons": [
             "PER はセクター内 78.57 パーセンタイル / 母数 15 で、相対的な加点は抑えています。",
             "Forward PER はセクター内 73.33 パーセンタイル / 母数 16 で、中位レンジです。",
-            "PEG はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。",
+            "PEG はセクター内 56.67 パーセンタイル / 母数 16 で、中位レンジです。",
             "PBR はセクター内 80.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。",
             "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
           ],
@@ -2240,16 +2242,16 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 43.96635,
-            "forward_pe": 27.581255,
-            "peg_ratio": 1.05,
-            "price_to_book": 15.780558,
+            "trailing_pe": 43.97485,
+            "forward_pe": 27.443773,
+            "peg_ratio": 1.01,
+            "price_to_book": 15.701899,
             "sector_peer_count": 16,
             "trailing_pe_percentile": 78.57,
             "trailing_pe_peer_count": 15,
             "forward_pe_percentile": 73.33,
             "forward_pe_peer_count": 16,
-            "peg_ratio_percentile": 60.0,
+            "peg_ratio_percentile": 56.67,
             "peg_ratio_peer_count": 16,
             "price_to_book_percentile": 80.0,
             "price_to_book_peer_count": 16
@@ -2288,8 +2290,8 @@
               "6M": 13.99,
               "1Y": 125.28
             },
-            "latest_volume": 6748000.0,
-            "average_volume_30d": 6181316.666666667
+            "latest_volume": 6767300.0,
+            "average_volume_30d": 6181960.0
           }
         },
         "News": {
@@ -2425,7 +2427,7 @@
           "reasons": [
             "PER はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。",
             "Forward PER はセクター内 100.00 パーセンタイル / 母数 10 で、相対的な加点は抑えています。",
-            "PEG はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。",
+            "PEG はセクター内 50.00 パーセンタイル / 母数 10 で、中位レンジです。",
             "PBR はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。",
             "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
           ],
@@ -2435,16 +2437,16 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 17.475664,
-            "forward_pe": 22.894041,
-            "peg_ratio": 1.24,
-            "price_to_book": 6.8431706,
+            "trailing_pe": 17.47813,
+            "forward_pe": 23.33272,
+            "peg_ratio": 1.22,
+            "price_to_book": 6.909384,
             "sector_peer_count": 10,
             "trailing_pe_percentile": 44.44,
             "trailing_pe_peer_count": 10,
             "forward_pe_percentile": 100,
             "forward_pe_peer_count": 10,
-            "peg_ratio_percentile": 55.56,
+            "peg_ratio_percentile": 50.0,
             "peg_ratio_peer_count": 10,
             "price_to_book_percentile": 66.67,
             "price_to_book_peer_count": 10
@@ -2483,8 +2485,8 @@
               "6M": -4.91,
               "1Y": 25.18
             },
-            "latest_volume": 23461600.0,
-            "average_volume_30d": 26167923.333333332
+            "latest_volume": 23511100.0,
+            "average_volume_30d": 26169573.333333332
           }
         },
         "News": {
@@ -2629,10 +2631,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 27.162395,
-            "forward_pe": 20.867945,
-            "peg_ratio": 0.98,
-            "price_to_book": 7.0317016,
+            "trailing_pe": 27.078747,
+            "forward_pe": 20.80368,
+            "peg_ratio": 0.95,
+            "price_to_book": 7.010047,
             "sector_peer_count": 10,
             "trailing_pe_percentile": 88.89,
             "trailing_pe_peer_count": 10,
@@ -2663,7 +2665,7 @@
             "1M": 10.367140050222346,
             "3M": 7.80754951924073,
             "6M": 14.91709686163455,
-            "1Y": 1.4381711783985838,
+            "1Y": 1.4381624664794623,
             "benchmark": "SPY",
             "benchmark_returns": {
               "1M": 1.76,
@@ -2677,8 +2679,8 @@
               "6M": 0.51,
               "1Y": -15.47
             },
-            "latest_volume": 16008000.0,
-            "average_volume_30d": 20902326.666666668
+            "latest_volume": 16041100.0,
+            "average_volume_30d": 20903430.0
           }
         },
         "News": {
@@ -2812,7 +2814,7 @@
           "reasons": [
             "PER はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。",
             "Forward PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。",
-            "PEG はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。",
+            "PEG はセクター内 50.00 パーセンタイル / 母数 10 で、中位レンジです。",
             "PBR はセクター内 100.00 パーセンタイル / 母数 10 で、相対的な加点は抑えています。",
             "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
           ],
@@ -2822,16 +2824,16 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 22.506289,
-            "forward_pe": 18.801456,
-            "peg_ratio": 1.17,
-            "price_to_book": 9.883994,
+            "trailing_pe": 22.532053,
+            "forward_pe": 18.467829,
+            "peg_ratio": 1.22,
+            "price_to_book": 9.708604,
             "sector_peer_count": 10,
             "trailing_pe_percentile": 77.78,
             "trailing_pe_peer_count": 10,
             "forward_pe_percentile": 66.67,
             "forward_pe_peer_count": 10,
-            "peg_ratio_percentile": 44.44,
+            "peg_ratio_percentile": 50.0,
             "peg_ratio_peer_count": 10,
             "price_to_book_percentile": 100,
             "price_to_book_peer_count": 10
@@ -2870,8 +2872,8 @@
               "6M": -44.27,
               "1Y": -56.82
             },
-            "latest_volume": 46060600.0,
-            "average_volume_30d": 33959456.666666664
+            "latest_volume": 46130300.0,
+            "average_volume_30d": 33961780.0
           }
         },
         "News": {
@@ -3008,7 +3010,7 @@
             "PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。",
             "Forward PER はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。",
             "PEG はセクター内 88.89 パーセンタイル / 母数 10 で、相対的な加点は抑えています。",
-            "PBR はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。",
+            "PBR はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。",
             "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
           ],
           "evidence": [
@@ -3017,10 +3019,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 22.065979,
-            "forward_pe": 14.316884,
-            "peg_ratio": 3.39,
-            "price_to_book": 1.6826514,
+            "trailing_pe": 22.05102,
+            "forward_pe": 14.45601,
+            "peg_ratio": 3.49,
+            "price_to_book": 1.698846,
             "sector_peer_count": 10,
             "trailing_pe_percentile": 66.67,
             "trailing_pe_peer_count": 10,
@@ -3028,7 +3030,7 @@
             "forward_pe_peer_count": 10,
             "peg_ratio_percentile": 88.89,
             "peg_ratio_peer_count": 10,
-            "price_to_book_percentile": 33.33,
+            "price_to_book_percentile": 44.44,
             "price_to_book_peer_count": 10
           }
         },
@@ -3213,10 +3215,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 6.8419356,
-            "forward_pe": 5.915889,
+            "trailing_pe": 6.8410597,
+            "forward_pe": 5.762483,
             "peg_ratio": 142.98,
-            "price_to_book": 0.8379755,
+            "price_to_book": 0.81624585,
             "sector_peer_count": 10,
             "trailing_pe_percentile": 11.11,
             "trailing_pe_peer_count": 10,
@@ -3236,7 +3238,7 @@
             "3M の対SPY超過リターンは -11.38pt と、市場を大きく下回っています。",
             "6M の対SPY超過リターンは -37.28pt と、市場を大きく下回っています。",
             "1Y の対SPY超過リターンは -38.99pt と、市場を大きく下回っています。",
-            "直近出来高が30日平均の 1.49 倍で、市場関心の高まりが確認できます。"
+            "直近出来高が30日平均の 1.50 倍で、市場関心の高まりが確認できます。"
           ],
           "evidence": [
             "Prices",
@@ -3247,7 +3249,7 @@
             "1M": -12.404686223898203,
             "3M": -8.613964307160485,
             "6M": -22.878245442404236,
-            "1Y": -22.08121117819839,
+            "1Y": -22.081205718434653,
             "benchmark": "SPY",
             "benchmark_returns": {
               "1M": 1.76,
@@ -3261,8 +3263,8 @@
               "6M": -37.28,
               "1Y": -38.99
             },
-            "latest_volume": 44699900.0,
-            "average_volume_30d": 29917780.0
+            "latest_volume": 44732600.0,
+            "average_volume_30d": 29918870.0
           }
         },
         "News": {
@@ -3408,10 +3410,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 17.900732,
-            "forward_pe": 11.865939,
-            "peg_ratio": 0.59,
-            "price_to_book": 3.2725224,
+            "trailing_pe": 17.901205,
+            "forward_pe": 10.291526,
+            "peg_ratio": 0.61,
+            "price_to_book": 2.8383129,
             "sector_peer_count": 10,
             "trailing_pe_percentile": 55.56,
             "trailing_pe_peer_count": 10,
@@ -3431,7 +3433,7 @@
             "3M の対SPY超過リターンは -10.93pt と、市場を大きく下回っています。",
             "6M の対SPY超過リターンは -26.71pt と、市場を大きく下回っています。",
             "1Y の対SPY超過リターンは -40.08pt と、市場を大きく下回っています。",
-            "直近出来高が30日平均の 0.90 倍で、通常水準の流動性があります。"
+            "直近出来高が30日平均の 0.91 倍で、通常水準の流動性があります。"
           ],
           "evidence": [
             "Prices",
@@ -3442,7 +3444,7 @@
             "1M": -3.4002474928485715,
             "3M": -8.16122893948573,
             "6M": -12.304552590021627,
-            "1Y": -23.168953582763724,
+            "1Y": -23.16894832488111,
             "benchmark": "SPY",
             "benchmark_returns": {
               "1M": 1.76,
@@ -3456,8 +3458,8 @@
               "6M": -26.71,
               "1Y": -40.08
             },
-            "latest_volume": 4338200.0,
-            "average_volume_30d": 4800660.0
+            "latest_volume": 4391800.0,
+            "average_volume_30d": 4802446.666666667
           }
         },
         "News": {
@@ -3591,9 +3593,9 @@
           "score": 11,
           "max_score": 20,
           "reasons": [
-            "PER はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。",
+            "PER はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。",
             "Forward PER はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。",
-            "PEG はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。",
+            "PEG はセクター内 38.89 パーセンタイル / 母数 10 で、中位レンジです。",
             "PBR はセクター内 25.00 パーセンタイル / 母数 5 で、相対的に割安寄りです。",
             "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
           ],
@@ -3603,16 +3605,16 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 20.439259,
-            "forward_pe": 24.273798,
-            "peg_ratio": 1.52,
-            "price_to_book": 4.9663773,
+            "trailing_pe": 20.438473,
+            "forward_pe": 25.073498,
+            "peg_ratio": 1.48,
+            "price_to_book": 5.1299944,
             "sector_peer_count": 10,
-            "trailing_pe_percentile": 44.44,
+            "trailing_pe_percentile": 55.56,
             "trailing_pe_peer_count": 10,
             "forward_pe_percentile": 77.78,
             "forward_pe_peer_count": 10,
-            "peg_ratio_percentile": 55.56,
+            "peg_ratio_percentile": 38.89,
             "peg_ratio_peer_count": 10,
             "price_to_book_percentile": 25.0,
             "price_to_book_peer_count": 5
@@ -3626,7 +3628,7 @@
             "3M の対SPY超過リターンは +0.79pt で、市場並み以上です。",
             "6M の対SPY超過リターンは -5.67pt と、市場を小幅に下回っています。",
             "1Y の対SPY超過リターンは -2.36pt と、市場を小幅に下回っています。",
-            "直近出来高が30日平均の 1.08 倍で、通常水準の流動性があります。"
+            "直近出来高が30日平均の 1.09 倍で、通常水準の流動性があります。"
           ],
           "evidence": [
             "Prices",
@@ -3651,8 +3653,8 @@
               "6M": -5.67,
               "1Y": -2.36
             },
-            "latest_volume": 38544500.0,
-            "average_volume_30d": 35532323.333333336
+            "latest_volume": 38649900.0,
+            "average_volume_30d": 35535836.666666664
           }
         },
         "News": {
@@ -3797,10 +3799,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 347.2222,
-            "forward_pe": 174.77058,
-            "peg_ratio": 4.55,
-            "price_to_book": 17.049328,
+            "trailing_pe": 354.35184,
+            "forward_pe": 178.43654,
+            "peg_ratio": 4.48,
+            "price_to_book": 17.399408,
             "sector_peer_count": 10,
             "trailing_pe_percentile": 100,
             "trailing_pe_peer_count": 10,
@@ -3845,8 +3847,8 @@
               "6M": -5.9,
               "1Y": -30.32
             },
-            "latest_volume": 28313500.0,
-            "average_volume_30d": 38162436.666666664
+            "latest_volume": 28394900.0,
+            "average_volume_30d": 38165150.0
           }
         },
         "News": {
@@ -3980,9 +3982,9 @@
           "score": 9,
           "max_score": 20,
           "reasons": [
-            "PER はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。",
+            "PER はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。",
             "Forward PER はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。",
-            "PEG はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。",
+            "PEG はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。",
             "PBR はセクター内 100.00 パーセンタイル / 母数 5 で、相対的な加点は抑えています。",
             "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
           ],
@@ -3992,16 +3994,16 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 20.676697,
-            "forward_pe": 18.438297,
-            "peg_ratio": 1.51,
-            "price_to_book": 17.745947,
+            "trailing_pe": 20.345695,
+            "forward_pe": 18.18317,
+            "peg_ratio": 1.56,
+            "price_to_book": 17.461863,
             "sector_peer_count": 10,
-            "trailing_pe_percentile": 55.56,
+            "trailing_pe_percentile": 44.44,
             "trailing_pe_peer_count": 10,
             "forward_pe_percentile": 33.33,
             "forward_pe_peer_count": 10,
-            "peg_ratio_percentile": 44.44,
+            "peg_ratio_percentile": 55.56,
             "peg_ratio_peer_count": 10,
             "price_to_book_percentile": 100,
             "price_to_book_peer_count": 5
@@ -4178,7 +4180,7 @@
             "PER はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。",
             "Forward PER はセクター内 22.22 パーセンタイル / 母数 10 で、相対的に割安寄りです。",
             "PEG はセクター内 88.89 パーセンタイル / 母数 10 で、相対的な加点は抑えています。",
-            "PBR は -163.83 で、指標がマイナスのため加点対象外です。",
+            "PBR は -162.68 で、指標がマイナスのため加点対象外です。",
             "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
           ],
           "evidence": [
@@ -4187,10 +4189,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 19.244516,
-            "forward_pe": 17.20924,
-            "peg_ratio": 2.45,
-            "price_to_book": -163.83125,
+            "trailing_pe": 19.24959,
+            "forward_pe": 17.087927,
+            "peg_ratio": 2.5,
+            "price_to_book": -162.67635,
             "sector_peer_count": 10,
             "trailing_pe_percentile": 33.33,
             "trailing_pe_peer_count": 10,
@@ -4372,7 +4374,7 @@
           "reasons": [
             "PER はセクター内 11.11 パーセンタイル / 母数 10 で、相対的に割安寄りです。",
             "Forward PER はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。",
-            "PEG はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。",
+            "PEG はセクター内 38.89 パーセンタイル / 母数 10 で、中位レンジです。",
             "PBR はセクター内 0.00 パーセンタイル / 母数 5 で、相対的に割安寄りです。",
             "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
           ],
@@ -4382,16 +4384,16 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 16.701925,
-            "forward_pe": 20.42304,
-            "peg_ratio": 1.47,
-            "price_to_book": 3.4656825,
+            "trailing_pe": 16.6875,
+            "forward_pe": 20.527773,
+            "peg_ratio": 1.48,
+            "price_to_book": 3.4626894,
             "sector_peer_count": 10,
             "trailing_pe_percentile": 11.11,
             "trailing_pe_peer_count": 10,
             "forward_pe_percentile": 44.44,
             "forward_pe_peer_count": 10,
-            "peg_ratio_percentile": 33.33,
+            "peg_ratio_percentile": 38.89,
             "peg_ratio_peer_count": 10,
             "price_to_book_percentile": 0,
             "price_to_book_peer_count": 5
@@ -4405,7 +4407,7 @@
             "3M の対SPY超過リターンは -23.64pt と、市場を大きく下回っています。",
             "6M の対SPY超過リターンは -33.90pt と、市場を大きく下回っています。",
             "1Y の対SPY超過リターンは -64.84pt と、市場を大きく下回っています。",
-            "直近出来高が30日平均の 1.05 倍で、通常水準の流動性があります。"
+            "直近出来高が30日平均の 1.06 倍で、通常水準の流動性があります。"
           ],
           "evidence": [
             "Prices",
@@ -4415,8 +4417,8 @@
           "metrics": {
             "1M": -6.987943513472146,
             "3M": -20.873282760050426,
-            "6M": -19.49392169973879,
-            "1Y": -47.924185743841115,
+            "6M": -19.49391458289188,
+            "1Y": -47.92417978814642,
             "benchmark": "SPY",
             "benchmark_returns": {
               "1M": 1.76,
@@ -4430,8 +4432,8 @@
               "6M": -33.9,
               "1Y": -64.84
             },
-            "latest_volume": 43696600.0,
-            "average_volume_30d": 41425523.333333336
+            "latest_volume": 43802400.0,
+            "average_volume_30d": 41429050.0
           }
         },
         "News": {
@@ -4567,7 +4569,7 @@
             "PER はセクター内 0.00 パーセンタイル / 母数 10 で、相対的に割安寄りです。",
             "Forward PER はセクター内 11.11 パーセンタイル / 母数 10 で、相対的に割安寄りです。",
             "PEG はセクター内 22.22 パーセンタイル / 母数 10 で、相対的に割安寄りです。",
-            "PBR は -14.25 で、指標がマイナスのため加点対象外です。",
+            "PBR は -14.03 で、指標がマイナスのため加点対象外です。",
             "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
           ],
           "evidence": [
@@ -4576,10 +4578,10 @@
           ],
           "missing_data": [],
           "metrics": {
-            "trailing_pe": 15.963653,
-            "forward_pe": 14.526923,
-            "peg_ratio": 1.17,
-            "price_to_book": -14.245305,
+            "trailing_pe": 15.965666,
+            "forward_pe": 14.307693,
+            "peg_ratio": 1.2,
+            "price_to_book": -14.030324,
             "sector_peer_count": 10,
             "trailing_pe_percentile": 0,
             "trailing_pe_peer_count": 10,

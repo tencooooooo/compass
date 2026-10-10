@@ -102,7 +102,7 @@ Evidence
 - PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
 - PEG はセクター内 88.89 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
-- PBR はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。
+- PBR はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -112,10 +112,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 22.0660
-- forward_pe: 14.3169
-- peg_ratio: 3.3900
-- price_to_book: 1.6827
+- trailing_pe: 22.0510
+- forward_pe: 14.4560
+- peg_ratio: 3.4900
+- price_to_book: 1.6988
 - sector_peer_count: 10
 - trailing_pe_percentile: 66.6700
 - trailing_pe_peer_count: 10
@@ -123,7 +123,7 @@ Evidence
 - forward_pe_peer_count: 10
 - peg_ratio_percentile: 88.8900
 - peg_ratio_peer_count: 10
-- price_to_book_percentile: 33.3300
+- price_to_book_percentile: 44.4400
 - price_to_book_peer_count: 10
 
 ## Momentum
