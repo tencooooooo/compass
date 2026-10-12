@@ -624,7 +624,7 @@
 - COMPETES_WITH: MU (Same theme)
 - COMPETES_WITH: NOW (Same theme)
 - COMPETES_WITH: NVDA (Same theme)
-- BELONGS_TO: AI (Keyword: artificial intelligence; Keyword: data center; Sector alignment: Technology)
+- BELONGS_TO: AI (Keyword: ai; Keyword: artificial intelligence; Keyword: data center; Sector alignment: Technology)
 - BELONGS_TO: Cloud (Keyword: cloud; Keyword: data center; Sector alignment: Technology)
 - BELONGS_TO: Cybersecurity (Keyword: security; Sector alignment: Technology)
 - BELONGS_TO: Semiconductor (Keyword: semiconductors; Sector alignment: Technology)
