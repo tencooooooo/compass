@@ -21,7 +21,7 @@ No theme news available yet.
 
 - AI: 0.0 (Theme metric similarity)
 - Cloud: 0.0 (Theme metric similarity)
-- Cybersecurity: 0.0 (Similar short-term momentum)
+- Cybersecurity: 0.0 (Theme metric similarity)
 - EV: 0.0 (Theme metric similarity)
 - Energy: 0.0 (Theme metric similarity)
 

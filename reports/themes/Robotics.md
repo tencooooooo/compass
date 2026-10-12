@@ -1,9 +1,9 @@
 # Robotics
 
 - Target companies: 7
-- Average Score: 54.33
+- Average Score: 54.17
 - Average Discovery: 62.50
-- Momentum: 13.04
+- Momentum: 5.92
 - Confidence: Medium
 
 ## Companies
@@ -18,7 +18,7 @@
 
 ## Market
 
-- Technology: score 55.75, momentum 4.03, trend {'momentum': 'Positive', 'news': 'Low', 'financial_health': 'Good'}
+- Technology: score 55.75, momentum 2.73, trend {'momentum': 'Positive', 'news': 'Low', 'financial_health': 'Good'}
 
 ## Major News
 
@@ -26,11 +26,11 @@ No theme news available yet.
 
 ## Similar Themes
 
-- Cloud: 0.996 (Shared companies: ACN, AVGO, CRM, NOW, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.995 (Shared companies: AMAT, AVGO, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- AI: 0.993 (Shared companies: ACN, AVGO, CRM, NOW, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Cybersecurity: 0.993 (Shared companies: ACN, AVGO, NOW; Shared sectors: Technology; Similar average Discovery score)
-- Healthcare: 0.979 (Shared companies: CRM, NOW; Shared sectors: Technology)
+- Cloud: 0.998 (Shared companies: ACN, AVGO, CRM, NOW, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- AI: 0.995 (Shared companies: ACN, AVGO, CRM, NOW, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Cybersecurity: 0.994 (Shared companies: ACN, AVGO, NOW; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Semiconductor: 0.989 (Shared companies: AMAT, AVGO, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Energy: 0.973 (Shared companies: ACN, AVGO; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
 
 ## Review Note
 

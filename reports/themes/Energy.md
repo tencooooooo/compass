@@ -1,9 +1,9 @@
 # Energy
 
 - Target companies: 5
-- Average Score: 50.00
-- Average Discovery: 65.00
-- Momentum: 11.04
+- Average Score: 50.33
+- Average Discovery: 64.00
+- Momentum: 10.17
 - Confidence: Medium
 
 ## Companies
@@ -16,8 +16,8 @@
 
 ## Market
 
-- Consumer Cyclical: score 39.83, momentum -7.01, trend {'momentum': 'Weak', 'news': 'Low', 'financial_health': 'Neutral'}
-- Technology: score 55.75, momentum 4.03, trend {'momentum': 'Positive', 'news': 'Low', 'financial_health': 'Good'}
+- Consumer Cyclical: score 40.33, momentum -3.44, trend {'momentum': 'Weak', 'news': 'Low', 'financial_health': 'Neutral'}
+- Technology: score 55.75, momentum 2.73, trend {'momentum': 'Positive', 'news': 'Low', 'financial_health': 'Good'}
 
 ## Major News
 
@@ -25,11 +25,11 @@ No theme news available yet.
 
 ## Similar Themes
 
-- Healthcare: 0.981 (Shared sectors: Technology)
-- Cybersecurity: 0.973 (Shared companies: ACN, AVGO; Shared sectors: Technology; Similar average Discovery score)
-- AI: 0.967 (Shared companies: ACN, AVGO, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Cloud: 0.96 (Shared companies: ACN, AVGO; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Robotics: 0.946 (Shared companies: ACN, AVGO; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Cybersecurity: 0.989 (Shared companies: ACN, AVGO; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Healthcare: 0.989 (Shared sectors: Technology)
+- AI: 0.984 (Shared companies: ACN, AVGO, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cloud: 0.98 (Shared companies: ACN, AVGO; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Robotics: 0.973 (Shared companies: ACN, AVGO; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
 
 ## Review Note
 

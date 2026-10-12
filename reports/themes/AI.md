@@ -1,9 +1,9 @@
 # AI
 
 - Target companies: 17
-- Average Score: 54.38
-- Average Discovery: 63.60
-- Momentum: 10.70
+- Average Score: 53.92
+- Average Discovery: 63.25
+- Momentum: 8.48
 - Confidence: High
 
 ## Companies
@@ -23,14 +23,14 @@
 - NOW - ServiceNow, Inc. (Medium): Keyword: ai; Sector alignment: Technology
 - NVDA - NVIDIA Corporation (High): Keyword: ai; Keyword: artificial intelligence; Keyword: data center; Sector alignment: Technology
 - ORCL - Oracle Corporation (Medium): Keyword: ai; Keyword: machine learning; Sector alignment: Technology
-- QCOM - QUALCOMM Incorporated (Medium): Keyword: artificial intelligence; Keyword: data center; Sector alignment: Technology
+- QCOM - QUALCOMM Incorporated (High): Keyword: ai; Keyword: artificial intelligence; Keyword: data center; Sector alignment: Technology
 - TSLA - Tesla, Inc. (Low): Keyword: artificial intelligence
 
 ## Market
 
-- Communication Services: score 44.67, momentum -3.79, trend {'momentum': 'Weak', 'news': 'Low', 'financial_health': 'Good'}
-- Consumer Cyclical: score 39.83, momentum -7.01, trend {'momentum': 'Weak', 'news': 'Low', 'financial_health': 'Neutral'}
-- Technology: score 55.75, momentum 4.03, trend {'momentum': 'Positive', 'news': 'Low', 'financial_health': 'Good'}
+- Communication Services: score 45.83, momentum -0.54, trend {'momentum': 'Weak', 'news': 'Low', 'financial_health': 'Good'}
+- Consumer Cyclical: score 40.33, momentum -3.44, trend {'momentum': 'Weak', 'news': 'Low', 'financial_health': 'Neutral'}
+- Technology: score 55.75, momentum 2.73, trend {'momentum': 'Positive', 'news': 'Low', 'financial_health': 'Good'}
 
 ## Major News
 
@@ -38,11 +38,11 @@ No theme news available yet.
 
 ## Similar Themes
 
-- Cybersecurity: 1.0 (Shared companies: ACN, AVGO, CSCO, GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score)
+- Cybersecurity: 1.0 (Shared companies: ACN, AVGO, CSCO, GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
 - Cloud: 0.999 (Shared companies: ACN, AMD, AMZN, AVGO, CRM; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Robotics: 0.993 (Shared companies: ACN, AVGO, CRM, NOW, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Healthcare: 0.991 (Shared companies: CRM, NOW; Shared sectors: Technology)
-- Semiconductor: 0.978 (Shared companies: AMD, AVGO, INTC, MU, NVDA; Shared sectors: Technology; Similar average Discovery score)
+- Robotics: 0.995 (Shared companies: ACN, AVGO, CRM, NOW, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Energy: 0.984 (Shared companies: ACN, AVGO, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Healthcare: 0.98 (Shared companies: CRM, NOW; Shared sectors: Technology)
 
 ## Review Note
 

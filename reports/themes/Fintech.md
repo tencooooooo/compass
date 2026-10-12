@@ -12,7 +12,7 @@
 
 ## Market
 
-- Technology: score 55.75, momentum 4.03, trend {'momentum': 'Positive', 'news': 'Low', 'financial_health': 'Good'}
+- Technology: score 55.75, momentum 2.73, trend {'momentum': 'Positive', 'news': 'Low', 'financial_health': 'Good'}
 
 ## Major News
 
@@ -20,11 +20,11 @@ No theme news available yet.
 
 ## Similar Themes
 
-- Space: 0.243 (Similar average Discovery score; Similar short-term momentum)
-- Energy: 0.11 (Shared companies: ACN; Shared sectors: Technology)
-- Cybersecurity: 0.046 (Shared companies: ACN; Shared sectors: Technology; Similar short-term momentum)
-- Healthcare: 0.045 (Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Robotics: 0.044 (Shared companies: ACN; Shared sectors: Technology)
+- Space: 0.217 (Similar average Discovery score; Similar short-term momentum)
+- Energy: 0.089 (Shared companies: ACN; Shared sectors: Technology)
+- Cybersecurity: 0.04 (Shared companies: ACN; Shared sectors: Technology)
+- Healthcare: 0.038 (Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Robotics: 0.037 (Shared companies: ACN; Shared sectors: Technology)
 
 ## Review Note
 
