@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Oracle Corporation
-- Total Score: 51 / 100
+- Total Score: 50 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 51 点を獲得し、シグナル充足率は 63.8% です。
+- データが確認できた 80 点満点のうち 50 点を獲得し、シグナル充足率は 62.5% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -98,7 +98,7 @@ Evidence
 
 - PER はセクター内 35.71 パーセンタイル / 母数 15 で、中位レンジです。
 - Forward PER はセクター内 13.33 パーセンタイル / 母数 16 で、相対的に割安寄りです。
-- PEG はセクター内 33.33 パーセンタイル / 母数 16 で、中位レンジです。
+- PEG はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。
 - PBR はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -109,31 +109,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 22.1630
-- forward_pe: 12.8557
-- peg_ratio: 0.7600
-- price_to_book: 6.9171
+- trailing_pe: 21.5345
+- forward_pe: 12.4911
+- peg_ratio: 0.7900
+- price_to_book: 6.7210
 - sector_peer_count: 16
 - trailing_pe_percentile: 35.7100
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 13.3300
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 33.3300
+- peg_ratio_percentile: 40.0000
 - peg_ratio_peer_count: 16
 - price_to_book_percentile: 26.6700
 - price_to_book_peer_count: 16
 
 ## Momentum
 
-5点
+4点
 
 理由
 
-- 1M の対SPY超過リターンは -17.81pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -6.29pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -15.64pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -68.63pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.33 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは -10.30pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは +4.03pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -25.06pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -70.30pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.67 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -142,15 +142,15 @@ Evidence
 
 使用データ
 
-- 1M: -16.0490
-- 3M: -3.5196
-- 6M: -1.2316
-- 1Y: -51.7181
+- 1M: -8.2392
+- 3M: 7.7834
+- 6M: -11.0796
+- 1Y: -53.1155
 - benchmark: SPY
-- benchmark_returns: {'1M': 1.76, '3M': 2.77, '6M': 14.4, '1Y': 16.91}
-- excess_returns: {'1M': -17.81, '3M': -6.29, '6M': -15.64, '1Y': -68.63}
-- latest_volume: 42,412,600.0000
-- average_volume_30d: 31,951,803.3333
+- benchmark_returns: {'1M': 2.06, '3M': 3.75, '6M': 13.98, '1Y': 17.18}
+- excess_returns: {'1M': -10.3, '3M': 4.03, '6M': -25.06, '1Y': -70.3}
+- latest_volume: 21,465,200.0000
+- average_volume_30d: 31,916,593.3333
 
 ## News
 

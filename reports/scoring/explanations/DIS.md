@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: The Walt Disney Company
-- Total Score: 45 / 100
+- Total Score: 38 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 45 点を獲得し、シグナル充足率は 56.2% です。
+- データが確認できた 80 点満点のうち 38 点を獲得し、シグナル充足率は 47.5% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -95,14 +95,14 @@ Evidence
 
 ## Valuation
 
-9点
+6点
 
 理由
 
-- PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
+- PER はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - Forward PER はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
 - PEG はセクター内 88.89 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
-- PBR はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
+- PBR はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -112,31 +112,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 22.0510
-- forward_pe: 14.4560
-- peg_ratio: 3.4900
-- price_to_book: 1.6988
+- trailing_pe: 22.3691
+- forward_pe: 14.5176
+- peg_ratio: 3.5200
+- price_to_book: 1.7058
 - sector_peer_count: 10
-- trailing_pe_percentile: 66.6700
+- trailing_pe_percentile: 77.7800
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 55.5600
 - forward_pe_peer_count: 10
 - peg_ratio_percentile: 88.8900
 - peg_ratio_peer_count: 10
-- price_to_book_percentile: 44.4400
+- price_to_book_percentile: 33.3300
 - price_to_book_peer_count: 10
 
 ## Momentum
 
-10点
+6点
 
 理由
 
-- 1M の対SPY超過リターンは +0.96pt で、市場並み以上です。
-- 3M の対SPY超過リターンは +9.15pt で、市場並み以上です。
-- 6M の対SPY超過リターンは -6.34pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンは -20.43pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.69 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは -0.24pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは +9.41pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -5.94pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは -18.02pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.79 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -145,15 +145,15 @@ Evidence
 
 使用データ
 
-- 1M: 2.7260
-- 3M: 11.9222
-- 6M: 8.0670
-- 1Y: -3.5194
+- 1M: 1.8207
+- 3M: 13.1637
+- 6M: 8.0464
+- 1Y: -0.8371
 - benchmark: SPY
-- benchmark_returns: {'1M': 1.76, '3M': 2.77, '6M': 14.4, '1Y': 16.91}
-- excess_returns: {'1M': 0.96, '3M': 9.15, '6M': -6.34, '1Y': -20.43}
-- latest_volume: 14,271,300.0000
-- average_volume_30d: 8,434,756.6667
+- benchmark_returns: {'1M': 2.06, '3M': 3.75, '6M': 13.98, '1Y': 17.18}
+- excess_returns: {'1M': -0.24, '3M': 9.41, '6M': -5.94, '1Y': -18.02}
+- latest_volume: 6,621,800.0000
+- average_volume_30d: 8,421,623.3333
 
 ## News
 

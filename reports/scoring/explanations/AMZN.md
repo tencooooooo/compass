@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Amazon.com, Inc.
-- Total Score: 54 / 100
+- Total Score: 52 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 54 点を獲得し、シグナル充足率は 67.5% です。
+- データが確認できた 80 点満点のうち 52 点を獲得し、シグナル充足率は 65.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -101,7 +101,7 @@ Evidence
 
 - PER はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
-- PEG はセクター内 38.89 パーセンタイル / 母数 10 で、中位レンジです。
+- PEG はセクター内 50.00 パーセンタイル / 母数 10 で、中位レンジです。
 - PBR はセクター内 25.00 パーセンタイル / 母数 5 で、相対的に割安寄りです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -112,31 +112,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 20.4385
-- forward_pe: 25.0735
-- peg_ratio: 1.4800
-- price_to_book: 5.1300
+- trailing_pe: 20.8793
+- forward_pe: 24.7678
+- peg_ratio: 1.5300
+- price_to_book: 5.0733
 - sector_peer_count: 10
 - trailing_pe_percentile: 55.5600
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 77.7800
 - forward_pe_peer_count: 10
-- peg_ratio_percentile: 38.8900
+- peg_ratio_percentile: 50.0000
 - peg_ratio_peer_count: 10
 - price_to_book_percentile: 25.0000
 - price_to_book_peer_count: 5
 
 ## Momentum
 
-9点
+7点
 
 理由
 
-- 1M の対SPY超過リターンは -1.11pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは +0.79pt で、市場並み以上です。
-- 6M の対SPY超過リターンは -5.67pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンは -2.36pt と、市場を小幅に下回っています。
-- 直近出来高が30日平均の 1.09 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -0.99pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは +1.11pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -5.80pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは -3.23pt と、市場を小幅に下回っています。
+- 直近出来高が30日平均の 0.76 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -145,15 +145,15 @@ Evidence
 
 使用データ
 
-- 1M: 0.6577
-- 3M: 3.5543
-- 6M: 8.7353
-- 1Y: 14.5550
+- 1M: 1.0710
+- 3M: 4.8648
+- 6M: 8.1871
+- 1Y: 13.9589
 - benchmark: SPY
-- benchmark_returns: {'1M': 1.76, '3M': 2.77, '6M': 14.4, '1Y': 16.91}
-- excess_returns: {'1M': -1.11, '3M': 0.79, '6M': -5.67, '1Y': -2.36}
-- latest_volume: 38,649,900.0000
-- average_volume_30d: 35,535,836.6667
+- benchmark_returns: {'1M': 2.06, '3M': 3.75, '6M': 13.98, '1Y': 17.18}
+- excess_returns: {'1M': -0.99, '3M': 1.11, '6M': -5.8, '1Y': -3.23}
+- latest_volume: 26,524,900.0000
+- average_volume_30d: 34,729,826.6667
 
 ## News
 
