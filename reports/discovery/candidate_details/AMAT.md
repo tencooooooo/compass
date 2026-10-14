@@ -10,7 +10,7 @@
 
 ## Discovery Score
 
-62 / 100
+65 / 100
 
 ## Discovery Reasons
 
@@ -33,7 +33,6 @@
 
 ## Watch Points
 
-- バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Technology セクター全体の需要変化と競争環境を確認する必要があります。
@@ -46,7 +45,7 @@ Medium
 
 ## Signal Strength
 
-Strong(シグナル充足率: 70.0%)
+Strong(シグナル充足率: 72.7%)
 
 ## Evidence
 
@@ -66,14 +65,14 @@ Strong(シグナル充足率: 70.0%)
 
 ## Metrics
 
-- scoring_total: 55.0
-- signal_earned_points: 62.3
+- scoring_total: 61.0
+- signal_earned_points: 64.7
 - signal_max_points: 89.0
 - weak_signals: []
 - scoring_signal_strength: Strong
 - growth_score: 17.0
 - financial_health_score: 20.0
-- valuation_score: 6.0
+- valuation_score: 12.0
 - news_score: 0.0
 - momentum: {'1m': 8.990341392557317, '3m': -16.390466857664027, '6m': 26.015503796875823, '1y': 127.09117773754515}
 - benchmark: SPY

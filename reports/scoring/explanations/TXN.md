@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Texas Instruments Incorporated
-- Total Score: 58 / 100
+- Total Score: 55 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 58 点を獲得し、シグナル充足率は 72.5% です。
+- データが確認できた 80 点満点のうち 55 点を獲得し、シグナル充足率は 68.8% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -91,14 +91,14 @@ Evidence
 
 ## Valuation
 
-12点
+9点
 
 理由
 
-- PER はセクター内 71.43 パーセンタイル / 母数 15 で、中位レンジです。
-- Forward PER はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。
-- PEG はセクター内 56.67 パーセンタイル / 母数 16 で、中位レンジです。
-- PBR はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。
+- PER はセクター内 78.57 パーセンタイル / 母数 15 で、相対的な加点は抑えています。
+- Forward PER はセクター内 73.33 パーセンタイル / 母数 16 で、中位レンジです。
+- PEG はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。
+- PBR はセクター内 73.33 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -108,18 +108,18 @@ Evidence
 
 使用データ
 
-- trailing_pe: 42.8828
-- forward_pe: 26.4673
-- peg_ratio: 1.0100
-- price_to_book: 14.2848
+- trailing_pe: 43.8128
+- forward_pe: 27.0412
+- peg_ratio: 1.0000
+- price_to_book: 14.5946
 - sector_peer_count: 16
-- trailing_pe_percentile: 71.4300
+- trailing_pe_percentile: 78.5700
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 66.6700
+- forward_pe_percentile: 73.3300
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 56.6700
+- peg_ratio_percentile: 53.3300
 - peg_ratio_peer_count: 16
-- price_to_book_percentile: 66.6700
+- price_to_book_percentile: 73.3300
 - price_to_book_peer_count: 16
 
 ## Momentum

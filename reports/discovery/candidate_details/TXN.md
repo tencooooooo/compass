@@ -10,7 +10,7 @@
 
 ## Discovery Score
 
-63 / 100
+61 / 100
 
 ## Discovery Reasons
 
@@ -45,7 +45,7 @@ Medium
 
 ## Signal Strength
 
-Strong(シグナル充足率: 70.34%)
+Strong(シグナル充足率: 68.99%)
 
 ## Evidence
 
@@ -65,16 +65,16 @@ Strong(シグナル充足率: 70.34%)
 
 ## Metrics
 
-- scoring_total: 58.0
-- signal_earned_points: 62.6
+- scoring_total: 55.0
+- signal_earned_points: 61.4
 - signal_max_points: 89.0
 - weak_signals: []
 - scoring_signal_strength: Strong
 - growth_score: 17.0
 - financial_health_score: 17.0
-- valuation_score: 12.0
+- valuation_score: 9.0
 - news_score: 0.0
-- momentum: {'1m': 4.852987508350594, '3m': -7.320399226603863, '6m': 31.33744870017686, '1y': 61.50882476276348}
+- momentum: {'1m': 4.852987508350594, '3m': -7.320399226603863, '6m': 31.337439357986902, '1y': 61.50883889022478}
 - benchmark: SPY
 - excess_momentum: {'1m': 2.79, '3m': -11.07, '6m': 17.35, '1y': 44.32}
 - positive_news: 0

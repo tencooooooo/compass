@@ -15,10 +15,10 @@
 
 | Ticker | Company | Sector | Discovery Score | Status | Confidence | Signal |
 | --- | --- | --- | --- | --- | --- | --- |
-| AMD | Advanced Micro Devices, Inc. | Technology | 70 | Watch Candidate | Medium | Strong |
-| TXN | Texas Instruments Incorporated | Technology | 63 | Watch Candidate | Medium | Strong |
+| AMD | Advanced Micro Devices, Inc. | Technology | 68 | Watch Candidate | Medium | Strong |
+| AMAT | Applied Materials, Inc. | Technology | 65 | Watch Candidate | Medium | Strong |
 | NVDA | NVIDIA Corporation | Technology | 62 | Watch Candidate | Medium | Strong |
-| AMAT | Applied Materials, Inc. | Technology | 62 | Watch Candidate | Medium | Strong |
+| TXN | Texas Instruments Incorporated | Technology | 61 | Watch Candidate | Medium | Strong |
 | MSFT | Microsoft Corporation | Technology | 60 | Watch Candidate | Medium | Strong |
 | GOOGL | Alphabet Inc. | Communication Services | 60 | Watch Candidate | Medium | Strong |
 

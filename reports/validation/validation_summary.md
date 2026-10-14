@@ -4,11 +4,11 @@
 
 ## Overview
 
-- 生成日時: 2026-10-12T22:47:39.834782-04:00
+- 生成日時: 2026-10-13T20:46:16.858351-04:00
 - 対象期間: 1w, 1m, 3m, 6m, 1y
-- 検証対象数: 3370
+- 検証対象数: 3400
 - 期間完了済み: 1181
-- 期間未完了: 2189
+- 期間未完了: 2219
 - ベンチマーク: SPY
 - 平均騰落率(期間完了分): 2.34%
 - ユニーク銘柄数(期間完了分): 18
@@ -21,7 +21,7 @@
 - Good: 114
 - Neutral: 152
 - Poor: 462
-- Pending(期間未完了): 2189
+- Pending(期間未完了): 2219
 
 ## Validation Table
 
@@ -3397,6 +3397,36 @@
 | TXN | 1y | 63 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
 | TXN | 3m | 63 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
 | TXN | 6m | 63 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMAT | 1m | 65 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMAT | 1w | 65 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMAT | 1y | 65 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMAT | 3m | 65 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMAT | 6m | 65 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMD | 1m | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMD | 1w | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMD | 1y | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMD | 3m | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMD | 6m | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| GOOGL | 1m | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| GOOGL | 1w | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| GOOGL | 1y | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| GOOGL | 3m | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| GOOGL | 6m | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 1m | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 1w | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 1y | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 3m | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 6m | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| NVDA | 1m | 62 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| NVDA | 1w | 62 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| NVDA | 1y | 62 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| NVDA | 3m | 62 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| NVDA | 6m | 62 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| TXN | 1m | 61 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| TXN | 1w | 61 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| TXN | 1y | 61 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| TXN | 3m | 61 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| TXN | 6m | 61 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
 
 ## 良かった特徴
 

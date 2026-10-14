@@ -94,10 +94,10 @@ Evidence
 
 理由
 
-- PER はセクター内 0.00 パーセンタイル / 母数 15 で、相対的に割安寄りです。
+- PER はセクター内 7.14 パーセンタイル / 母数 15 で、相対的に割安寄りです。
 - Forward PER はセクター内 6.67 パーセンタイル / 母数 16 で、相対的に割安寄りです。
 - PEG はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。
-- PBR はセクター内 33.33 パーセンタイル / 母数 16 で、中位レンジです。
+- PBR はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -107,18 +107,18 @@ Evidence
 
 使用データ
 
-- trailing_pe: 13.2965
-- forward_pe: 8.6114
-- peg_ratio: 0.5900
-- price_to_book: 7.9150
+- trailing_pe: 13.1926
+- forward_pe: 8.5479
+- peg_ratio: 0.5800
+- price_to_book: 7.8532
 - sector_peer_count: 16
-- trailing_pe_percentile: 0
+- trailing_pe_percentile: 7.1400
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 6.6700
 - forward_pe_peer_count: 16
 - peg_ratio_percentile: 20.0000
 - peg_ratio_peer_count: 16
-- price_to_book_percentile: 33.3300
+- price_to_book_percentile: 40.0000
 - price_to_book_peer_count: 16
 
 ## Momentum

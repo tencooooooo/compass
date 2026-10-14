@@ -112,10 +112,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 17.6979
-- forward_pe: 23.1852
-- peg_ratio: 1.2300
-- price_to_book: 6.9302
+- trailing_pe: 17.7511
+- forward_pe: 23.2079
+- peg_ratio: 1.2400
+- price_to_book: 6.9510
 - sector_peer_count: 10
 - trailing_pe_percentile: 55.5600
 - trailing_pe_peer_count: 10
@@ -152,8 +152,8 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': 2.06, '3M': 3.75, '6M': 13.98, '1Y': 17.18}
 - excess_returns: {'1M': 2.14, '3M': -5.58, '6M': -4.07, '1Y': 29.23}
-- latest_volume: 19,038,700.0000
-- average_volume_30d: 25,755,626.6667
+- latest_volume: 19,076,400.0000
+- average_volume_30d: 25,756,883.3333
 
 ## News
 
