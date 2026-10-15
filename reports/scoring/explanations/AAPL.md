@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Apple Inc.
-- Total Score: 46 / 100
+- Total Score: 47 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 46 点を獲得し、シグナル充足率は 57.5% です。
+- データが確認できた 80 点満点のうち 47 点を獲得し、シグナル充足率は 58.8% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -95,7 +95,7 @@ Evidence
 
 理由
 
-- PER はセクター内 64.29 パーセンタイル / 母数 15 で、中位レンジです。
+- PER はセクター内 71.43 パーセンタイル / 母数 15 で、中位レンジです。
 - Forward PER はセクター内 86.67 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - PEG はセクター内 100.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - PBR はセクター内 100.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
@@ -108,12 +108,12 @@ Evidence
 
 使用データ
 
-- trailing_pe: 39.1365
-- forward_pe: 35.5847
+- trailing_pe: 39.3303
+- forward_pe: 35.7600
 - peg_ratio: 2.7300
-- price_to_book: 46.3682
+- price_to_book: 46.5978
 - sector_peer_count: 16
-- trailing_pe_percentile: 64.2900
+- trailing_pe_percentile: 71.4300
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 86.6700
 - forward_pe_peer_count: 16
@@ -124,15 +124,15 @@ Evidence
 
 ## Momentum
 
-14点
+15点
 
 理由
 
-- 1M の対SPY超過リターンは +0.56pt で、市場並み以上です。
-- 3M の対SPY超過リターンは +4.63pt で、市場並み以上です。
-- 6M の対SPY超過リターンが +17.80pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンが +17.53pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.64 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -0.05pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは +0.96pt で、市場並み以上です。
+- 6M の対SPY超過リターンが +19.49pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンが +19.23pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.97 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: 2.6184
-- 3M: 8.3860
-- 6M: 31.7818
-- 1Y: 34.7148
+- 1M: 2.4589
+- 3M: 4.2944
+- 6M: 32.0863
+- 1Y: 39.6545
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.06, '3M': 3.75, '6M': 13.98, '1Y': 17.18}
-- excess_returns: {'1M': 0.56, '3M': 4.63, '6M': 17.8, '1Y': 17.53}
-- latest_volume: 25,900,600.0000
-- average_volume_30d: 40,274,716.6667
+- benchmark_returns: {'1M': 2.51, '3M': 3.33, '6M': 12.6, '1Y': 20.43}
+- excess_returns: {'1M': -0.05, '3M': 0.96, '6M': 19.49, '1Y': 19.23}
+- latest_volume: 38,983,800.0000
+- average_volume_30d: 40,199,420.0000
 
 ## News
 

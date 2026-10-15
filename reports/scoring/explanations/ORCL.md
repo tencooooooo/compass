@@ -5,9 +5,9 @@
 ## Summary
 
 - Company: Oracle Corporation
-- Total Score: 50 / 100
+- Total Score: 55 / 100
 - Confidence: Medium
-- Signal Strength: Moderate
+- Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
@@ -24,12 +24,12 @@ Medium
 
 ## Signal Strength
 
-Moderate
+Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 50 点を獲得し、シグナル充足率は 62.5% です。
-- シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
+- データが確認できた 80 点満点のうち 55 点を獲得し、シグナル充足率は 68.8% です。
+- シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
@@ -92,14 +92,14 @@ Evidence
 
 ## Valuation
 
-14点
+16点
 
 理由
 
-- PER はセクター内 35.71 パーセンタイル / 母数 15 で、中位レンジです。
+- PER はセクター内 28.57 パーセンタイル / 母数 15 で、中位レンジです。
 - Forward PER はセクター内 13.33 パーセンタイル / 母数 16 で、相対的に割安寄りです。
-- PEG はセクター内 36.67 パーセンタイル / 母数 16 で、中位レンジです。
-- PBR はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。
+- PEG はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。
+- PBR はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -109,31 +109,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 22.4451
-- forward_pe: 13.0194
-- peg_ratio: 0.7700
-- price_to_book: 7.0052
+- trailing_pe: 20.4624
+- forward_pe: 11.8693
+- peg_ratio: 0.8000
+- price_to_book: 6.3864
 - sector_peer_count: 16
-- trailing_pe_percentile: 35.7100
+- trailing_pe_percentile: 28.5700
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 13.3300
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 36.6700
+- peg_ratio_percentile: 40.0000
 - peg_ratio_peer_count: 16
-- price_to_book_percentile: 26.6700
+- price_to_book_percentile: 20.0000
 - price_to_book_peer_count: 16
 
 ## Momentum
 
-4点
+7点
 
 理由
 
-- 1M の対SPY超過リターンは -10.30pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは +4.03pt で、市場並み以上です。
-- 6M の対SPY超過リターンは -25.06pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -70.30pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.67 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -3.24pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは +5.15pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -24.11pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -70.89pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.82 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -142,15 +142,15 @@ Evidence
 
 使用データ
 
-- 1M: -8.2392
-- 3M: 7.7834
-- 6M: -11.0796
-- 1Y: -53.1155
+- 1M: -0.7323
+- 3M: 8.4834
+- 6M: -11.5156
+- 1Y: -50.4656
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.06, '3M': 3.75, '6M': 13.98, '1Y': 17.18}
-- excess_returns: {'1M': -10.3, '3M': 4.03, '6M': -25.06, '1Y': -70.3}
-- latest_volume: 21,533,100.0000
-- average_volume_30d: 31,918,856.6667
+- benchmark_returns: {'1M': 2.51, '3M': 3.33, '6M': 12.6, '1Y': 20.43}
+- excess_returns: {'1M': -3.24, '3M': 5.15, '6M': -24.11, '1Y': -70.89}
+- latest_volume: 26,325,800.0000
+- average_volume_30d: 32,259,086.6667
 
 ## News
 

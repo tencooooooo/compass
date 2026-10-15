@@ -91,14 +91,14 @@ Evidence
 
 ## Valuation
 
-16点
+14点
 
 理由
 
 - PER はセクター内 21.43 パーセンタイル / 母数 15 で、相対的に割安寄りです。
 - Forward PER はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。
-- PEG はセクター内 36.67 パーセンタイル / 母数 16 で、中位レンジです。
-- PBR はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。
+- PEG はセクター内 33.33 パーセンタイル / 母数 16 で、中位レンジです。
+- PBR はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -108,31 +108,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 20.4699
-- forward_pe: 17.3449
-- peg_ratio: 0.7700
-- price_to_book: 6.7589
+- trailing_pe: 19.9792
+- forward_pe: 16.9291
+- peg_ratio: 0.7900
+- price_to_book: 6.5969
 - sector_peer_count: 16
 - trailing_pe_percentile: 21.4300
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 40.0000
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 36.6700
+- peg_ratio_percentile: 33.3300
 - peg_ratio_peer_count: 16
-- price_to_book_percentile: 20.0000
+- price_to_book_percentile: 26.6700
 - price_to_book_peer_count: 16
 
 ## Momentum
 
-8点
+10点
 
 理由
 
-- 1M の対SPY超過リターンは -6.20pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -5.28pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンが +20.14pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -9.70pt と、市場を小幅に下回っています。
-- 直近出来高が30日平均の 0.53 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -4.33pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -3.42pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンが +21.76pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -2.88pt と、市場を小幅に下回っています。
+- 直近出来高が30日平均の 0.95 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: -4.1435
-- 3M: -1.5276
-- 6M: 34.1261
-- 1Y: 7.4867
+- 1M: -1.8263
+- 3M: -0.0885
+- 6M: 34.3566
+- 1Y: 17.5487
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.06, '3M': 3.75, '6M': 13.98, '1Y': 17.18}
-- excess_returns: {'1M': -6.2, '3M': -5.28, '6M': 20.14, '1Y': -9.7}
-- latest_volume: 6,904,700.0000
-- average_volume_30d: 13,039,370.0000
+- benchmark_returns: {'1M': 2.51, '3M': 3.33, '6M': 12.6, '1Y': 20.43}
+- excess_returns: {'1M': -4.33, '3M': -3.42, '6M': 21.76, '1Y': -2.88}
+- latest_volume: 12,311,700.0000
+- average_volume_30d: 13,025,273.3333
 
 ## News
 

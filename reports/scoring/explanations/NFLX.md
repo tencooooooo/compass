@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Netflix, Inc.
-- Total Score: 43 / 100
+- Total Score: 45 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 43 点を獲得し、シグナル充足率は 53.8% です。
+- データが確認できた 80 点満点のうち 45 点を獲得し、シグナル充足率は 56.2% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -108,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 22.1572
-- forward_pe: 18.5346
+- trailing_pe: 22.1918
+- forward_pe: 18.5635
 - peg_ratio: 1.2100
-- price_to_book: 9.7307
+- price_to_book: 9.7459
 - sector_peer_count: 10
 - trailing_pe_percentile: 66.6700
 - trailing_pe_peer_count: 10
@@ -124,15 +124,15 @@ Evidence
 
 ## Momentum
 
-2点
+4点
 
 理由
 
-- 1M の対SPY超過リターンは -10.83pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -7.72pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -45.54pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -59.83pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.71 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -14.78pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -7.70pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -46.30pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -62.68pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.82 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: -8.7726
-- 3M: -3.9712
-- 6M: -31.5529
-- 1Y: -42.6434
+- 1M: -12.2759
+- 3M: -4.3703
+- 6M: -33.7034
+- 1Y: -42.2497
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.06, '3M': 3.75, '6M': 13.98, '1Y': 17.18}
-- excess_returns: {'1M': -10.83, '3M': -7.72, '6M': -45.54, '1Y': -59.83}
-- latest_volume: 24,200,200.0000
-- average_volume_30d: 33,863,693.3333
+- benchmark_returns: {'1M': 2.51, '3M': 3.33, '6M': 12.6, '1Y': 20.43}
+- excess_returns: {'1M': -14.78, '3M': -7.7, '6M': -46.3, '1Y': -62.68}
+- latest_volume: 27,786,400.0000
+- average_volume_30d: 33,765,213.3333
 
 ## News
 
