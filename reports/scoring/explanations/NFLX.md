@@ -91,13 +91,13 @@ Evidence
 
 ## Valuation
 
-9点
+6点
 
 理由
 
-- PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
+- PER はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - Forward PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
-- PEG はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
+- PEG はセクター内 50.00 パーセンタイル / 母数 10 で、中位レンジです。
 - PBR はセクター内 100.00 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -108,31 +108,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 22.1918
-- forward_pe: 18.5635
-- peg_ratio: 1.2100
-- price_to_book: 9.7459
+- trailing_pe: 22.8333
+- forward_pe: 19.0727
+- peg_ratio: 1.2200
+- price_to_book: 10.0276
 - sector_peer_count: 10
-- trailing_pe_percentile: 66.6700
+- trailing_pe_percentile: 77.7800
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 66.6700
 - forward_pe_peer_count: 10
-- peg_ratio_percentile: 44.4400
+- peg_ratio_percentile: 50.0000
 - peg_ratio_peer_count: 10
 - price_to_book_percentile: 100
 - price_to_book_peer_count: 10
 
 ## Momentum
 
-4点
+7点
 
 理由
 
-- 1M の対SPY超過リターンは -14.78pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -7.70pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -46.30pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -62.68pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.82 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -7.58pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは +1.22pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -43.19pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -58.06pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.15 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: -12.2759
-- 3M: -4.3703
-- 6M: -33.7034
-- 1Y: -42.2497
+- 1M: -4.9732
+- 3M: 5.3082
+- 6M: -32.6375
+- 1Y: -40.2559
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.51, '3M': 3.33, '6M': 12.6, '1Y': 20.43}
-- excess_returns: {'1M': -14.78, '3M': -7.7, '6M': -46.3, '1Y': -62.68}
-- latest_volume: 27,786,400.0000
-- average_volume_30d: 33,765,213.3333
+- benchmark_returns: {'1M': 2.61, '3M': 4.09, '6M': 10.55, '1Y': 17.8}
+- excess_returns: {'1M': -7.58, '3M': 1.22, '6M': -43.19, '1Y': -58.06}
+- latest_volume: 40,068,614.0000
+- average_volume_30d: 34,993,773.8000
 
 ## News
 

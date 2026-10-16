@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: McDonald's Corporation
-- Total Score: 26 / 100
+- Total Score: 29 / 100
 - Confidence: Medium
 - Signal Strength: Weak
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Weak
 
 理由
 
-- データが確認できた 80 点満点のうち 26 点を獲得し、シグナル充足率は 32.5% です。
+- データが確認できた 80 点満点のうち 29 点を獲得し、シグナル充足率は 36.2% です。
 - シグナル強度は Weak(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -102,7 +102,7 @@ Evidence
 - PER はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 22.22 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - PEG はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
-- PBR は -164.81 で、指標がマイナスのため加点対象外です。
+- PBR は -167.70 で、指標がマイナスのため加点対象外です。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -112,10 +112,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 19.3591
-- forward_pe: 17.3117
-- peg_ratio: 2.4900
-- price_to_book: -164.8064
+- trailing_pe: 19.4936
+- forward_pe: 17.6208
+- peg_ratio: 2.5200
+- price_to_book: -167.7040
 - sector_peer_count: 10
 - trailing_pe_percentile: 33.3300
 - trailing_pe_peer_count: 10
@@ -128,15 +128,15 @@ Evidence
 
 ## Momentum
 
-1点
+4点
 
 理由
 
-- 1M の対SPY超過リターンは -10.92pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -13.70pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -33.75pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -38.99pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.77 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -5.04pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -12.87pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -30.45pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -36.13pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.09 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -145,15 +145,15 @@ Evidence
 
 使用データ
 
-- 1M: -8.4197
-- 3M: -10.3657
-- 6M: -21.1474
-- 1Y: -18.5633
+- 1M: -2.4380
+- 3M: -8.7730
+- 6M: -19.8983
+- 1Y: -18.3290
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.51, '3M': 3.33, '6M': 12.6, '1Y': 20.43}
-- excess_returns: {'1M': -10.92, '3M': -13.7, '6M': -33.75, '1Y': -38.99}
-- latest_volume: 4,541,600.0000
-- average_volume_30d: 5,928,210.0000
+- benchmark_returns: {'1M': 2.61, '3M': 4.09, '6M': 10.55, '1Y': 17.8}
+- excess_returns: {'1M': -5.04, '3M': -12.87, '6M': -30.45, '1Y': -36.13}
+- latest_volume: 6,598,418.0000
+- average_volume_30d: 6,028,157.2667
 
 ## News
 

@@ -96,9 +96,9 @@ Evidence
 
 理由
 
-- PER はセクター内 28.57 パーセンタイル / 母数 15 で、中位レンジです。
+- PER はセクター内 35.71 パーセンタイル / 母数 15 で、中位レンジです。
 - Forward PER はセクター内 13.33 パーセンタイル / 母数 16 で、相対的に割安寄りです。
-- PEG はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。
+- PEG はセクター内 33.33 パーセンタイル / 母数 16 で、中位レンジです。
 - PBR はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -109,16 +109,16 @@ Evidence
 
 使用データ
 
-- trailing_pe: 20.4624
-- forward_pe: 11.8693
-- peg_ratio: 0.8000
-- price_to_book: 6.3864
+- trailing_pe: 23.1048
+- forward_pe: 12.2339
+- peg_ratio: 0.7300
+- price_to_book: 6.5781
 - sector_peer_count: 16
-- trailing_pe_percentile: 28.5700
+- trailing_pe_percentile: 35.7100
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 13.3300
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 40.0000
+- peg_ratio_percentile: 33.3300
 - peg_ratio_peer_count: 16
 - price_to_book_percentile: 20.0000
 - price_to_book_peer_count: 16
@@ -129,11 +129,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -3.24pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは +5.15pt で、市場並み以上です。
-- 6M の対SPY超過リターンは -24.11pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -70.89pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.82 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -8.33pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは +2.68pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -34.61pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -72.23pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.90 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -142,15 +142,15 @@ Evidence
 
 使用データ
 
-- 1M: -0.7323
-- 3M: 8.4834
-- 6M: -11.5156
-- 1Y: -50.4656
+- 1M: -5.7227
+- 3M: 6.7695
+- 6M: -24.0569
+- 1Y: -54.4250
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.51, '3M': 3.33, '6M': 12.6, '1Y': 20.43}
-- excess_returns: {'1M': -3.24, '3M': 5.15, '6M': -24.11, '1Y': -70.89}
-- latest_volume: 26,325,800.0000
-- average_volume_30d: 32,259,086.6667
+- benchmark_returns: {'1M': 2.61, '3M': 4.09, '6M': 10.55, '1Y': 17.8}
+- excess_returns: {'1M': -8.33, '3M': 2.68, '6M': -34.61, '1Y': -72.23}
+- latest_volume: 30,123,665.0000
+- average_volume_30d: 33,435,328.8333
 
 ## News
 

@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: ServiceNow, Inc.
-- Total Score: 48 / 100
+- Total Score: 51 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 48 点を獲得し、シグナル充足率は 60.0% です。
+- データが確認できた 80 点満点のうち 51 点を獲得し、シグナル充足率は 63.8% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -97,7 +97,7 @@ Evidence
 
 - PER はセクター内 92.86 パーセンタイル / 母数 15 で、相対的な加点は抑えています。
 - Forward PER はセクター内 80.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
-- PEG はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。
+- PEG はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。
 - PBR はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -108,31 +108,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 87.4875
-- forward_pe: 27.9588
-- peg_ratio: 1.0000
-- price_to_book: 11.5629
+- trailing_pe: 91.7099
+- forward_pe: 29.6745
+- peg_ratio: 1.0100
+- price_to_book: 12.2724
 - sector_peer_count: 16
 - trailing_pe_percentile: 92.8600
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 80.0000
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 60.0000
+- peg_ratio_percentile: 66.6700
 - peg_ratio_peer_count: 16
 - price_to_book_percentile: 60.0000
 - price_to_book_peer_count: 16
 
 ## Momentum
 
-12点
+15点
 
 理由
 
-- 1M の対SPY超過リターンは -5.13pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンが +29.02pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +45.29pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -42.44pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.13 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +3.65pt で、市場並み以上です。
+- 3M の対SPY超過リターンが +39.82pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +43.50pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -36.28pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.50 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: -2.6273
-- 3M: 32.3498
-- 6M: 57.8881
-- 1Y: -22.0162
+- 1M: 6.2580
+- 3M: 43.9074
+- 6M: 54.0543
+- 1Y: -18.4810
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.51, '3M': 3.33, '6M': 12.6, '1Y': 20.43}
-- excess_returns: {'1M': -5.13, '3M': 29.02, '6M': 45.29, '1Y': -42.44}
-- latest_volume: 13,213,900.0000
-- average_volume_30d: 11,745,326.6667
+- benchmark_returns: {'1M': 2.61, '3M': 4.09, '6M': 10.55, '1Y': 17.8}
+- excess_returns: {'1M': 3.65, '3M': 39.82, '6M': 43.5, '1Y': -36.28}
+- latest_volume: 17,588,674.0000
+- average_volume_30d: 11,725,919.1333
 
 ## News
 
