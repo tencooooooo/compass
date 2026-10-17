@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Netflix, Inc.
-- Total Score: 45 / 100
+- Total Score: 48 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 45 点を獲得し、シグナル充足率は 56.2% です。
+- データが確認できた 80 点満点のうち 48 点を獲得し、シグナル充足率は 60.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -91,13 +91,13 @@ Evidence
 
 ## Valuation
 
-6点
+9点
 
 理由
 
-- PER はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
+- PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
-- PEG はセクター内 50.00 パーセンタイル / 母数 10 で、中位レンジです。
+- PEG はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
 - PBR はセクター内 100.00 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -108,16 +108,16 @@ Evidence
 
 使用データ
 
-- trailing_pe: 22.8333
-- forward_pe: 19.0727
-- peg_ratio: 1.2200
-- price_to_book: 10.0276
+- trailing_pe: 22.1792
+- forward_pe: 18.5600
+- peg_ratio: 1.2500
+- price_to_book: 9.7404
 - sector_peer_count: 10
-- trailing_pe_percentile: 77.7800
+- trailing_pe_percentile: 66.6700
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 66.6700
 - forward_pe_peer_count: 10
-- peg_ratio_percentile: 50.0000
+- peg_ratio_percentile: 55.5600
 - peg_ratio_peer_count: 10
 - price_to_book_percentile: 100
 - price_to_book_peer_count: 10
@@ -148,8 +148,8 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': 2.61, '3M': 4.09, '6M': 10.55, '1Y': 17.8}
 - excess_returns: {'1M': -7.58, '3M': 1.22, '6M': -43.19, '1Y': -58.06}
-- latest_volume: 40,068,614.0000
-- average_volume_30d: 34,993,773.8000
+- latest_volume: 40,397,500.0000
+- average_volume_30d: 35,004,736.6667
 
 ## News
 

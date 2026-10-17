@@ -7,20 +7,20 @@
     "country": "United States",
     "currency": "USD",
     "exchange": "NMS",
-    "market_cap": 5245452681216,
-    "enterprise_value": 5211634008064,
+    "market_cap": 5170596937728,
+    "enterprise_value": 5136442195968,
     "shares_outstanding": 24147000000,
     "beta": 2.216,
-    "trailing_pe": 28.359009,
-    "forward_pe": 13.64973,
+    "trailing_pe": 27.070797,
+    "forward_pe": 13.454941,
     "peg_ratio": 0.27,
-    "price_to_book": 22.907309,
-    "eps": 7.66,
+    "price_to_book": 22.580408,
+    "eps": 7.91,
     "forward_eps": 15.9146,
-    "dividend_yield": 0.44,
+    "dividend_yield": 0.46,
     "52_week_high": 243.37,
     "52_week_low": 164.27,
-    "average_volume": 118784690,
+    "average_volume": 118867254,
     "employees": 42000,
     "website": "https://www.nvidia.com",
     "business_summary": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants. It has a collaboration with Cisco to develop Ultra-Dense Small Form Factor Pluggable (USFP), a high-density optical module pluggable transceiver. It has a collaboration with ChipAgents to develop Build-A-Chip-Bench, a benchmark for AI agents carrying chip design tasks. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California."
@@ -1759,19 +1759,43 @@
         "scoring": "Strong",
         "discovery": "Strong"
       }
+    },
+    {
+      "date": "2026-10-16",
+      "timestamp": "2026-10-16T20:06:14.378381-04:00",
+      "score": 63,
+      "discovery_score": 63,
+      "discovery_status": "Watch Candidate",
+      "validation_results": {
+        "Excellent": 69,
+        "Good": 25,
+        "Neutral": 15,
+        "Poor": 27,
+        "Pending": 234
+      },
+      "event_count": 0,
+      "news_count": 0,
+      "confidence": {
+        "scoring": "Medium",
+        "discovery": "Medium"
+      },
+      "signal_strength": {
+        "scoring": "Strong",
+        "discovery": "Strong"
+      }
     }
   ],
   "Scores": {
     "ticker": "NVDA",
     "company_name": "NVIDIA Corporation",
-    "total_score": 57,
+    "total_score": 63,
     "max_score": 100,
     "confidence": {
       "level": "Medium",
-      "completeness_score": 65.0,
+      "completeness_score": 70.0,
       "reasons": [
         "利用可能な主要データ領域は5領域中 4 領域です。",
-        "欠損または計算不可の項目数は 3 件です。",
+        "欠損または計算不可の項目数は 2 件です。",
         "データが不足している領域: News。",
         "主要データは一定程度ありますが、欠損や未取得項目が残っています。",
         "Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。"
@@ -1779,10 +1803,10 @@
     },
     "signal_strength": {
       "level": "Strong",
-      "signal_rate": 71.25,
+      "signal_rate": 78.75,
       "evaluated_max_score": 80,
       "reasons": [
-        "データが確認できた 80 点満点のうち 57 点を獲得し、シグナル充足率は 71.2% です。",
+        "データが確認できた 80 点満点のうち 63 点を獲得し、シグナル充足率は 78.8% です。",
         "シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。"
       ]
     },
@@ -1830,25 +1854,23 @@
         }
       },
       "Financial Health": {
-        "score": 14,
+        "score": 20,
         "max_score": 20,
         "reasons": [
           "現金 がプラスで確認できるため加点しています。",
           "自己資本がプラスで、財務基盤を確認できます。",
-          "総負債が取得できないため、負債項目は加点していません。",
-          "長期債務が確認できるため、返済負担の継続確認が必要です。",
+          "総負債/自己資本が 0.31 倍で、負債負担は相対的に抑えられています。",
+          "長期債務が総負債に対して過度に大きくないため加点しています。",
           "Current Ratio が 3.91 で、短期支払余力が確認できます。"
         ],
         "evidence": [
           "Financials",
           "Knowledge"
         ],
-        "missing_data": [
-          "total_liabilities"
-        ],
+        "missing_data": [],
         "metrics": {
           "cash": 10605000000.0,
-          "total_liabilities": null,
+          "total_liabilities": 49510000000.0,
           "shareholders_equity": 157293000000.0,
           "long_term_debt": 7469000000.0,
           "current_ratio": 3.905263812455306
@@ -1870,10 +1892,10 @@
         ],
         "missing_data": [],
         "metrics": {
-          "trailing_pe": 28.359009,
-          "forward_pe": 13.64973,
+          "trailing_pe": 27.070797,
+          "forward_pe": 13.454941,
           "peg_ratio": 0.27,
-          "price_to_book": 22.907309,
+          "price_to_book": 22.580408,
           "sector_peer_count": 16,
           "trailing_pe_percentile": 42.86,
           "trailing_pe_peer_count": 15,
@@ -1918,8 +1940,8 @@
             "6M": -0.78,
             "1Y": 3.15
           },
-          "latest_volume": 126396690.0,
-          "average_volume_30d": 108261449.66666667
+          "latest_volume": 127087900.0,
+          "average_volume_30d": 108284490.0
         }
       },
       "News": {
@@ -1962,12 +1984,12 @@
     "company": "NVIDIA Corporation",
     "sector": "Technology",
     "industry": "Semiconductors",
-    "discovery_score": 59,
+    "discovery_score": 63,
     "max_score": 100,
-    "status": "Not Selected",
+    "status": "Watch Candidate",
     "discovery_reasons": [
       "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
-      "Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。",
+      "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
       "Newsスコアが 0/20 で、材料の量と市場関心を候補評価に反映しています。",
       "売上が取得でき、事業規模の確認ができます。",
       "EPSがプラスで、利益を伴う成長候補として確認できます。",
@@ -1991,7 +2013,7 @@
     ],
     "confidence": "Medium",
     "signal_strength": "Strong",
-    "signal_rate": 65.96,
+    "signal_rate": 70.67,
     "evidence": [
       "Company",
       "Events",
@@ -2007,13 +2029,13 @@
       "events"
     ],
     "metrics": {
-      "scoring_total": 57.0,
-      "signal_earned_points": 58.7,
+      "scoring_total": 63.0,
+      "signal_earned_points": 62.9,
       "signal_max_points": 89.0,
       "weak_signals": [],
       "scoring_signal_strength": "Strong",
       "growth_score": 20.0,
-      "financial_health_score": 14.0,
+      "financial_health_score": 20.0,
       "valuation_score": 13.0,
       "news_score": 0.0,
       "momentum": {
@@ -2033,13 +2055,13 @@
       "watch_news": 0,
       "event_count": 0,
       "events_with_reaction": 0,
-      "sector_average_score": 56.0
+      "sector_average_score": 56.5
     }
   },
   "Validation": [
     {
       "discovery_date": "2026-07-01",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -2065,8 +2087,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 0.17030314238301003,
       "benchmark_diff_percent": 1.43411091561704,
-      "sector_average_return_percent": -1.4915203949500253,
-      "sector_diff_percent": 3.0959344529500754,
+      "sector_average_return_percent": -1.491519108559961,
+      "sector_diff_percent": 3.095933166560011,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": -5.5327995001404044,
       "sector_benchmark_diff_percent": 7.137213558140455,
@@ -2086,7 +2108,7 @@
     },
     {
       "discovery_date": "2026-07-01",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -2112,8 +2134,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": -0.048267735541708726,
       "benchmark_diff_percent": 3.3583164206871343,
-      "sector_average_return_percent": -0.9003410974421834,
-      "sector_diff_percent": 4.210389782587609,
+      "sector_average_return_percent": -0.9003396636522922,
+      "sector_diff_percent": 4.210388348797718,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": -2.27345750156453,
       "sector_benchmark_diff_percent": 5.583506186709956,
@@ -2133,7 +2155,7 @@
     },
     {
       "discovery_date": "2026-07-01",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -2159,8 +2181,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 3.7473829337167404,
       "benchmark_diff_percent": 6.320978834720704,
-      "sector_average_return_percent": 10.27276205761049,
-      "sector_diff_percent": -0.2044002891730461,
+      "sector_average_return_percent": 10.272763452599635,
+      "sector_diff_percent": -0.20440168416219073,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 2.04223458044747,
       "sector_benchmark_diff_percent": 8.026127187989974,
@@ -2180,7 +2202,7 @@
     },
     {
       "discovery_date": "2026-07-01",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -2206,8 +2228,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 2.727106546575206,
       "benchmark_diff_percent": 12.398031363744236,
-      "sector_average_return_percent": 8.016367328582822,
-      "sector_diff_percent": 7.10877058173662,
+      "sector_average_return_percent": 8.01636884001279,
+      "sector_diff_percent": 7.108769070306652,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 4.906254927735327,
       "sector_benchmark_diff_percent": 10.218882982584114,
@@ -2227,7 +2249,7 @@
     },
     {
       "discovery_date": "2026-07-01",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -2253,8 +2275,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 3.7473829337167404,
       "benchmark_diff_percent": 6.320978834720704,
-      "sector_average_return_percent": 10.27276205761049,
-      "sector_diff_percent": -0.2044002891730461,
+      "sector_average_return_percent": 10.272763452599635,
+      "sector_diff_percent": -0.20440168416219073,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 2.04223458044747,
       "sector_benchmark_diff_percent": 8.026127187989974,
@@ -2274,7 +2296,7 @@
     },
     {
       "discovery_date": "2026-07-02",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -2300,8 +2322,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 1.730707141243402,
       "benchmark_diff_percent": 4.330986863543149,
-      "sector_average_return_percent": 0.7335086319416959,
-      "sector_diff_percent": 5.328185372844856,
+      "sector_average_return_percent": 0.7335095547319663,
+      "sector_diff_percent": 5.328184450054586,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": -1.4120467279924265,
       "sector_benchmark_diff_percent": 7.473740732778978,
@@ -2321,7 +2343,7 @@
     },
     {
       "discovery_date": "2026-07-02",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -2347,8 +2369,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 0.9304771098194664,
       "benchmark_diff_percent": 3.149996412907501,
-      "sector_average_return_percent": 2.428820770157765,
-      "sector_diff_percent": 1.651652752569202,
+      "sector_average_return_percent": 2.4288215443084877,
+      "sector_diff_percent": 1.6516519784184793,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 2.635807024087179,
       "sector_benchmark_diff_percent": 1.444666498639788,
@@ -2368,7 +2390,7 @@
     },
     {
       "discovery_date": "2026-07-02",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -2394,8 +2416,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 3.88389163876851,
       "benchmark_diff_percent": 7.738065772914064,
-      "sector_average_return_percent": 10.807611947325434,
-      "sector_diff_percent": 0.8143454643571406,
+      "sector_average_return_percent": 10.807613209505819,
+      "sector_diff_percent": 0.8143442021767555,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 4.8844248005156095,
       "sector_benchmark_diff_percent": 6.737532611166965,
@@ -2415,7 +2437,7 @@
     },
     {
       "discovery_date": "2026-07-02",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -2441,8 +2463,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 2.6509478526977346,
       "benchmark_diff_percent": 14.700355742975143,
-      "sector_average_return_percent": 10.217862440613477,
-      "sector_diff_percent": 7.133441155059401,
+      "sector_average_return_percent": 10.217863461439135,
+      "sector_diff_percent": 7.133440134233743,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 8.52120032642631,
       "sector_benchmark_diff_percent": 8.830103269246568,
@@ -2462,7 +2484,7 @@
     },
     {
       "discovery_date": "2026-07-02",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -2488,8 +2510,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 3.88389163876851,
       "benchmark_diff_percent": 7.738065772914064,
-      "sector_average_return_percent": 10.807611947325434,
-      "sector_diff_percent": 0.8143454643571406,
+      "sector_average_return_percent": 10.807613209505819,
+      "sector_diff_percent": 0.8143442021767555,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 4.8844248005156095,
       "sector_benchmark_diff_percent": 6.737532611166965,
@@ -2509,7 +2531,7 @@
     },
     {
       "discovery_date": "2026-07-03",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -2535,8 +2557,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 1.730707141243402,
       "benchmark_diff_percent": 4.330986863543149,
-      "sector_average_return_percent": 0.7335086319416959,
-      "sector_diff_percent": 5.328185372844856,
+      "sector_average_return_percent": 0.7335095547319663,
+      "sector_diff_percent": 5.328184450054586,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": -1.4120467279924265,
       "sector_benchmark_diff_percent": 7.473740732778978,
@@ -2556,7 +2578,7 @@
     },
     {
       "discovery_date": "2026-07-03",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -2582,8 +2604,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 0.9304771098194664,
       "benchmark_diff_percent": 3.149996412907501,
-      "sector_average_return_percent": 2.428820770157765,
-      "sector_diff_percent": 1.651652752569202,
+      "sector_average_return_percent": 2.4288215443084877,
+      "sector_diff_percent": 1.6516519784184793,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 2.635807024087179,
       "sector_benchmark_diff_percent": 1.444666498639788,
@@ -2603,7 +2625,7 @@
     },
     {
       "discovery_date": "2026-07-03",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -2629,8 +2651,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 3.88389163876851,
       "benchmark_diff_percent": 7.738065772914064,
-      "sector_average_return_percent": 10.807611947325434,
-      "sector_diff_percent": 0.8143454643571406,
+      "sector_average_return_percent": 10.807613209505819,
+      "sector_diff_percent": 0.8143442021767555,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 4.8844248005156095,
       "sector_benchmark_diff_percent": 6.737532611166965,
@@ -2650,7 +2672,7 @@
     },
     {
       "discovery_date": "2026-07-03",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -2676,8 +2698,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 2.6509478526977346,
       "benchmark_diff_percent": 14.700355742975143,
-      "sector_average_return_percent": 10.217862440613477,
-      "sector_diff_percent": 7.133441155059401,
+      "sector_average_return_percent": 10.217863461439135,
+      "sector_diff_percent": 7.133440134233743,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 8.52120032642631,
       "sector_benchmark_diff_percent": 8.830103269246568,
@@ -2697,7 +2719,7 @@
     },
     {
       "discovery_date": "2026-07-03",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -2723,8 +2745,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 3.88389163876851,
       "benchmark_diff_percent": 7.738065772914064,
-      "sector_average_return_percent": 10.807611947325434,
-      "sector_diff_percent": 0.8143454643571406,
+      "sector_average_return_percent": 10.807613209505819,
+      "sector_diff_percent": 0.8143442021767555,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 4.8844248005156095,
       "sector_benchmark_diff_percent": 6.737532611166965,
@@ -2744,7 +2766,7 @@
     },
     {
       "discovery_date": "2026-07-04",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -2770,8 +2792,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 1.730707141243402,
       "benchmark_diff_percent": 4.330986863543149,
-      "sector_average_return_percent": 0.7335086319416959,
-      "sector_diff_percent": 5.328185372844856,
+      "sector_average_return_percent": 0.7335095547319663,
+      "sector_diff_percent": 5.328184450054586,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": -1.4120467279924265,
       "sector_benchmark_diff_percent": 7.473740732778978,
@@ -2791,7 +2813,7 @@
     },
     {
       "discovery_date": "2026-07-04",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -2817,8 +2839,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 0.9304771098194664,
       "benchmark_diff_percent": 3.149996412907501,
-      "sector_average_return_percent": 2.428820770157765,
-      "sector_diff_percent": 1.651652752569202,
+      "sector_average_return_percent": 2.4288215443084877,
+      "sector_diff_percent": 1.6516519784184793,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 2.635807024087179,
       "sector_benchmark_diff_percent": 1.444666498639788,
@@ -2838,7 +2860,7 @@
     },
     {
       "discovery_date": "2026-07-04",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -2864,8 +2886,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 3.88389163876851,
       "benchmark_diff_percent": 7.738065772914064,
-      "sector_average_return_percent": 10.807611947325434,
-      "sector_diff_percent": 0.8143454643571406,
+      "sector_average_return_percent": 10.807613209505819,
+      "sector_diff_percent": 0.8143442021767555,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 4.8844248005156095,
       "sector_benchmark_diff_percent": 6.737532611166965,
@@ -2885,7 +2907,7 @@
     },
     {
       "discovery_date": "2026-07-04",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -2911,8 +2933,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 2.6509478526977346,
       "benchmark_diff_percent": 14.700355742975143,
-      "sector_average_return_percent": 10.217862440613477,
-      "sector_diff_percent": 7.133441155059401,
+      "sector_average_return_percent": 10.217863461439135,
+      "sector_diff_percent": 7.133440134233743,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 8.52120032642631,
       "sector_benchmark_diff_percent": 8.830103269246568,
@@ -2932,7 +2954,7 @@
     },
     {
       "discovery_date": "2026-07-04",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -2958,8 +2980,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 3.88389163876851,
       "benchmark_diff_percent": 7.738065772914064,
-      "sector_average_return_percent": 10.807611947325434,
-      "sector_diff_percent": 0.8143454643571406,
+      "sector_average_return_percent": 10.807613209505819,
+      "sector_diff_percent": 0.8143442021767555,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 4.8844248005156095,
       "sector_benchmark_diff_percent": 6.737532611166965,
@@ -2979,7 +3001,7 @@
     },
     {
       "discovery_date": "2026-07-05",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -3005,8 +3027,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 1.730707141243402,
       "benchmark_diff_percent": 4.330986863543149,
-      "sector_average_return_percent": 0.7335086319416959,
-      "sector_diff_percent": 5.328185372844856,
+      "sector_average_return_percent": 0.7335095547319663,
+      "sector_diff_percent": 5.328184450054586,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": -1.4120467279924265,
       "sector_benchmark_diff_percent": 7.473740732778978,
@@ -3026,7 +3048,7 @@
     },
     {
       "discovery_date": "2026-07-05",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -3052,8 +3074,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 0.9304771098194664,
       "benchmark_diff_percent": 3.149996412907501,
-      "sector_average_return_percent": 2.428820770157765,
-      "sector_diff_percent": 1.651652752569202,
+      "sector_average_return_percent": 2.4288215443084877,
+      "sector_diff_percent": 1.6516519784184793,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 2.635807024087179,
       "sector_benchmark_diff_percent": 1.444666498639788,
@@ -3073,7 +3095,7 @@
     },
     {
       "discovery_date": "2026-07-05",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -3099,8 +3121,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 3.88389163876851,
       "benchmark_diff_percent": 7.738065772914064,
-      "sector_average_return_percent": 10.807611947325434,
-      "sector_diff_percent": 0.8143454643571406,
+      "sector_average_return_percent": 10.807613209505819,
+      "sector_diff_percent": 0.8143442021767555,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 4.8844248005156095,
       "sector_benchmark_diff_percent": 6.737532611166965,
@@ -3120,7 +3142,7 @@
     },
     {
       "discovery_date": "2026-07-05",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -3146,8 +3168,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 2.6509478526977346,
       "benchmark_diff_percent": 14.700355742975143,
-      "sector_average_return_percent": 10.217862440613477,
-      "sector_diff_percent": 7.133441155059401,
+      "sector_average_return_percent": 10.217863461439135,
+      "sector_diff_percent": 7.133440134233743,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 8.52120032642631,
       "sector_benchmark_diff_percent": 8.830103269246568,
@@ -3167,7 +3189,7 @@
     },
     {
       "discovery_date": "2026-07-05",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -3193,8 +3215,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 3.88389163876851,
       "benchmark_diff_percent": 7.738065772914064,
-      "sector_average_return_percent": 10.807611947325434,
-      "sector_diff_percent": 0.8143454643571406,
+      "sector_average_return_percent": 10.807613209505819,
+      "sector_diff_percent": 0.8143442021767555,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 4.8844248005156095,
       "sector_benchmark_diff_percent": 6.737532611166965,
@@ -3214,7 +3236,7 @@
     },
     {
       "discovery_date": "2026-07-06",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -3261,7 +3283,7 @@
     },
     {
       "discovery_date": "2026-07-06",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -3308,7 +3330,7 @@
     },
     {
       "discovery_date": "2026-07-06",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -3355,7 +3377,7 @@
     },
     {
       "discovery_date": "2026-07-06",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -3402,7 +3424,7 @@
     },
     {
       "discovery_date": "2026-07-06",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -3449,7 +3471,7 @@
     },
     {
       "discovery_date": "2026-07-07",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -3475,8 +3497,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 2.788512337342236,
       "benchmark_diff_percent": 8.413443606146146,
-      "sector_average_return_percent": 4.342953441883963,
-      "sector_diff_percent": 6.859002501604418,
+      "sector_average_return_percent": 4.342952706213684,
+      "sector_diff_percent": 6.859003237274696,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 3.432314904904506,
       "sector_benchmark_diff_percent": 7.769641038583875,
@@ -3496,7 +3518,7 @@
     },
     {
       "discovery_date": "2026-07-07",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -3522,8 +3544,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 0.5510167808279711,
       "benchmark_diff_percent": 6.9998968814937665,
-      "sector_average_return_percent": 0.48194012105253053,
-      "sector_diff_percent": 7.068973541269207,
+      "sector_average_return_percent": 0.4819394650153267,
+      "sector_diff_percent": 7.068974197306411,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 2.477958150411474,
       "sector_benchmark_diff_percent": 5.072955511910264,
@@ -3543,7 +3565,7 @@
     },
     {
       "discovery_date": "2026-07-07",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -3569,8 +3591,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 3.476810732711976,
       "benchmark_diff_percent": 6.954851672645801,
-      "sector_average_return_percent": 10.494202033100363,
-      "sector_diff_percent": -0.06253962774258603,
+      "sector_average_return_percent": 10.494201341029127,
+      "sector_diff_percent": -0.06253893567135016,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 5.70978796922377,
       "sector_benchmark_diff_percent": 4.721874436134007,
@@ -3590,7 +3612,7 @@
     },
     {
       "discovery_date": "2026-07-07",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -3616,8 +3638,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 3.8844003045465287,
       "benchmark_diff_percent": 17.56348439600103,
-      "sector_average_return_percent": 12.499550308566347,
-      "sector_diff_percent": 8.948334391981211,
+      "sector_average_return_percent": 12.49954957797252,
+      "sector_diff_percent": 8.948335122575038,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 12.269499700402045,
       "sector_benchmark_diff_percent": 9.178385000145513,
@@ -3637,7 +3659,7 @@
     },
     {
       "discovery_date": "2026-07-07",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -3663,8 +3685,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": 3.476810732711976,
       "benchmark_diff_percent": 6.954851672645801,
-      "sector_average_return_percent": 10.494202033100363,
-      "sector_diff_percent": -0.06253962774258603,
+      "sector_average_return_percent": 10.494201341029127,
+      "sector_diff_percent": -0.06253893567135016,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 5.70978796922377,
       "sector_benchmark_diff_percent": 4.721874436134007,
@@ -3684,7 +3706,7 @@
     },
     {
       "discovery_date": "2026-07-08",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -3731,7 +3753,7 @@
     },
     {
       "discovery_date": "2026-07-08",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -3778,7 +3800,7 @@
     },
     {
       "discovery_date": "2026-07-08",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -3825,7 +3847,7 @@
     },
     {
       "discovery_date": "2026-07-08",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -3872,7 +3894,7 @@
     },
     {
       "discovery_date": "2026-07-08",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -3919,7 +3941,7 @@
     },
     {
       "discovery_date": "2026-07-09",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -3966,7 +3988,7 @@
     },
     {
       "discovery_date": "2026-07-09",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -4013,7 +4035,7 @@
     },
     {
       "discovery_date": "2026-07-09",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -4060,7 +4082,7 @@
     },
     {
       "discovery_date": "2026-07-09",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -4107,7 +4129,7 @@
     },
     {
       "discovery_date": "2026-07-09",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -4154,7 +4176,7 @@
     },
     {
       "discovery_date": "2026-07-10",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -4201,7 +4223,7 @@
     },
     {
       "discovery_date": "2026-07-10",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -4248,7 +4270,7 @@
     },
     {
       "discovery_date": "2026-07-10",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -4295,7 +4317,7 @@
     },
     {
       "discovery_date": "2026-07-10",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -4342,7 +4364,7 @@
     },
     {
       "discovery_date": "2026-07-10",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -4389,7 +4411,7 @@
     },
     {
       "discovery_date": "2026-07-13",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -4449,7 +4471,7 @@
     },
     {
       "discovery_date": "2026-07-13",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -4509,7 +4531,7 @@
     },
     {
       "discovery_date": "2026-07-13",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -4569,7 +4591,7 @@
     },
     {
       "discovery_date": "2026-07-13",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -4629,7 +4651,7 @@
     },
     {
       "discovery_date": "2026-07-13",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -4689,7 +4711,7 @@
     },
     {
       "discovery_date": "2026-07-14",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -4748,7 +4770,7 @@
     },
     {
       "discovery_date": "2026-07-14",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -4807,7 +4829,7 @@
     },
     {
       "discovery_date": "2026-07-14",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -4866,7 +4888,7 @@
     },
     {
       "discovery_date": "2026-07-14",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -4925,7 +4947,7 @@
     },
     {
       "discovery_date": "2026-07-14",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -4984,7 +5006,7 @@
     },
     {
       "discovery_date": "2026-07-15",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -5042,7 +5064,7 @@
     },
     {
       "discovery_date": "2026-07-15",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -5100,7 +5122,7 @@
     },
     {
       "discovery_date": "2026-07-15",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -5158,7 +5180,7 @@
     },
     {
       "discovery_date": "2026-07-15",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -5216,7 +5238,7 @@
     },
     {
       "discovery_date": "2026-07-15",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -5274,7 +5296,7 @@
     },
     {
       "discovery_date": "2026-07-16",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -5333,7 +5355,7 @@
     },
     {
       "discovery_date": "2026-07-16",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -5392,7 +5414,7 @@
     },
     {
       "discovery_date": "2026-07-16",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -5451,7 +5473,7 @@
     },
     {
       "discovery_date": "2026-07-16",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -5510,7 +5532,7 @@
     },
     {
       "discovery_date": "2026-07-16",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -5569,7 +5591,7 @@
     },
     {
       "discovery_date": "2026-07-17",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -5629,7 +5651,7 @@
     },
     {
       "discovery_date": "2026-07-17",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -5689,7 +5711,7 @@
     },
     {
       "discovery_date": "2026-07-17",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -5749,7 +5771,7 @@
     },
     {
       "discovery_date": "2026-07-17",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -5809,7 +5831,7 @@
     },
     {
       "discovery_date": "2026-07-17",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -5869,7 +5891,7 @@
     },
     {
       "discovery_date": "2026-07-20",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -5928,7 +5950,7 @@
     },
     {
       "discovery_date": "2026-07-20",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -5987,7 +6009,7 @@
     },
     {
       "discovery_date": "2026-07-20",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -6046,7 +6068,7 @@
     },
     {
       "discovery_date": "2026-07-20",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -6105,7 +6127,7 @@
     },
     {
       "discovery_date": "2026-07-20",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -6164,7 +6186,7 @@
     },
     {
       "discovery_date": "2026-07-23",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -6223,7 +6245,7 @@
     },
     {
       "discovery_date": "2026-07-23",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -6282,7 +6304,7 @@
     },
     {
       "discovery_date": "2026-07-23",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -6341,7 +6363,7 @@
     },
     {
       "discovery_date": "2026-07-23",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -6400,7 +6422,7 @@
     },
     {
       "discovery_date": "2026-07-23",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -6459,7 +6481,7 @@
     },
     {
       "discovery_date": "2026-07-24",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -6519,7 +6541,7 @@
     },
     {
       "discovery_date": "2026-07-24",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -6579,7 +6601,7 @@
     },
     {
       "discovery_date": "2026-07-24",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -6639,7 +6661,7 @@
     },
     {
       "discovery_date": "2026-07-24",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -6699,7 +6721,7 @@
     },
     {
       "discovery_date": "2026-07-24",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -6759,7 +6781,7 @@
     },
     {
       "discovery_date": "2026-07-27",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -6819,7 +6841,7 @@
     },
     {
       "discovery_date": "2026-07-27",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -6879,7 +6901,7 @@
     },
     {
       "discovery_date": "2026-07-27",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -6939,7 +6961,7 @@
     },
     {
       "discovery_date": "2026-07-27",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -6999,7 +7021,7 @@
     },
     {
       "discovery_date": "2026-07-27",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -7059,7 +7081,7 @@
     },
     {
       "discovery_date": "2026-07-28",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -7117,7 +7139,7 @@
     },
     {
       "discovery_date": "2026-07-28",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -7175,7 +7197,7 @@
     },
     {
       "discovery_date": "2026-07-28",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -7233,7 +7255,7 @@
     },
     {
       "discovery_date": "2026-07-28",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -7291,7 +7313,7 @@
     },
     {
       "discovery_date": "2026-07-28",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -7349,7 +7371,7 @@
     },
     {
       "discovery_date": "2026-07-30",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -7407,7 +7429,7 @@
     },
     {
       "discovery_date": "2026-07-30",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -7465,7 +7487,7 @@
     },
     {
       "discovery_date": "2026-07-30",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -7523,7 +7545,7 @@
     },
     {
       "discovery_date": "2026-07-30",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -7581,7 +7603,7 @@
     },
     {
       "discovery_date": "2026-07-30",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -7639,7 +7661,7 @@
     },
     {
       "discovery_date": "2026-07-31",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -7698,7 +7720,7 @@
     },
     {
       "discovery_date": "2026-07-31",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -7757,7 +7779,7 @@
     },
     {
       "discovery_date": "2026-07-31",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -7816,7 +7838,7 @@
     },
     {
       "discovery_date": "2026-07-31",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -7875,7 +7897,7 @@
     },
     {
       "discovery_date": "2026-07-31",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -7934,7 +7956,7 @@
     },
     {
       "discovery_date": "2026-08-03",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -7992,7 +8014,7 @@
     },
     {
       "discovery_date": "2026-08-03",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -8050,7 +8072,7 @@
     },
     {
       "discovery_date": "2026-08-03",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -8108,7 +8130,7 @@
     },
     {
       "discovery_date": "2026-08-03",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -8166,7 +8188,7 @@
     },
     {
       "discovery_date": "2026-08-03",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -8224,7 +8246,7 @@
     },
     {
       "discovery_date": "2026-08-04",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -8283,7 +8305,7 @@
     },
     {
       "discovery_date": "2026-08-04",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -8342,7 +8364,7 @@
     },
     {
       "discovery_date": "2026-08-04",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -8401,7 +8423,7 @@
     },
     {
       "discovery_date": "2026-08-04",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -8460,7 +8482,7 @@
     },
     {
       "discovery_date": "2026-08-04",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -8519,7 +8541,7 @@
     },
     {
       "discovery_date": "2026-08-05",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -8577,7 +8599,7 @@
     },
     {
       "discovery_date": "2026-08-05",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -8635,7 +8657,7 @@
     },
     {
       "discovery_date": "2026-08-05",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -8693,7 +8715,7 @@
     },
     {
       "discovery_date": "2026-08-05",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -8751,7 +8773,7 @@
     },
     {
       "discovery_date": "2026-08-05",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -8809,7 +8831,7 @@
     },
     {
       "discovery_date": "2026-08-06",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -8869,7 +8891,7 @@
     },
     {
       "discovery_date": "2026-08-06",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -8929,7 +8951,7 @@
     },
     {
       "discovery_date": "2026-08-06",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -8989,7 +9011,7 @@
     },
     {
       "discovery_date": "2026-08-06",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -9049,7 +9071,7 @@
     },
     {
       "discovery_date": "2026-08-06",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -9109,7 +9131,7 @@
     },
     {
       "discovery_date": "2026-08-07",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -9168,7 +9190,7 @@
     },
     {
       "discovery_date": "2026-08-07",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -9227,7 +9249,7 @@
     },
     {
       "discovery_date": "2026-08-07",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -9286,7 +9308,7 @@
     },
     {
       "discovery_date": "2026-08-07",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -9345,7 +9367,7 @@
     },
     {
       "discovery_date": "2026-08-07",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -9404,7 +9426,7 @@
     },
     {
       "discovery_date": "2026-08-10",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -9464,7 +9486,7 @@
     },
     {
       "discovery_date": "2026-08-10",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -9524,7 +9546,7 @@
     },
     {
       "discovery_date": "2026-08-10",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -9584,7 +9606,7 @@
     },
     {
       "discovery_date": "2026-08-10",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -9644,7 +9666,7 @@
     },
     {
       "discovery_date": "2026-08-10",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -9704,7 +9726,7 @@
     },
     {
       "discovery_date": "2026-08-11",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -9764,7 +9786,7 @@
     },
     {
       "discovery_date": "2026-08-11",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -9824,7 +9846,7 @@
     },
     {
       "discovery_date": "2026-08-11",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -9884,7 +9906,7 @@
     },
     {
       "discovery_date": "2026-08-11",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -9944,7 +9966,7 @@
     },
     {
       "discovery_date": "2026-08-11",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -10004,7 +10026,7 @@
     },
     {
       "discovery_date": "2026-08-12",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -10063,7 +10085,7 @@
     },
     {
       "discovery_date": "2026-08-12",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -10122,7 +10144,7 @@
     },
     {
       "discovery_date": "2026-08-12",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -10181,7 +10203,7 @@
     },
     {
       "discovery_date": "2026-08-12",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -10240,7 +10262,7 @@
     },
     {
       "discovery_date": "2026-08-12",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -10299,7 +10321,7 @@
     },
     {
       "discovery_date": "2026-08-13",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -10357,7 +10379,7 @@
     },
     {
       "discovery_date": "2026-08-13",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -10415,7 +10437,7 @@
     },
     {
       "discovery_date": "2026-08-13",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -10473,7 +10495,7 @@
     },
     {
       "discovery_date": "2026-08-13",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -10531,7 +10553,7 @@
     },
     {
       "discovery_date": "2026-08-13",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -10589,7 +10611,7 @@
     },
     {
       "discovery_date": "2026-08-14",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -10649,7 +10671,7 @@
     },
     {
       "discovery_date": "2026-08-14",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -10709,7 +10731,7 @@
     },
     {
       "discovery_date": "2026-08-14",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -10769,7 +10791,7 @@
     },
     {
       "discovery_date": "2026-08-14",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -10829,7 +10851,7 @@
     },
     {
       "discovery_date": "2026-08-14",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -10889,7 +10911,7 @@
     },
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -10949,7 +10971,7 @@
     },
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -11009,7 +11031,7 @@
     },
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -11069,7 +11091,7 @@
     },
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -11129,7 +11151,7 @@
     },
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -11189,7 +11211,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -11249,7 +11271,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -11309,7 +11331,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -11369,7 +11391,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -11429,7 +11451,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -11489,7 +11511,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -11548,7 +11570,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -11607,7 +11629,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -11666,7 +11688,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -11725,7 +11747,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -11784,7 +11806,7 @@
     },
     {
       "discovery_date": "2026-08-20",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -11843,7 +11865,7 @@
     },
     {
       "discovery_date": "2026-08-20",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -11902,7 +11924,7 @@
     },
     {
       "discovery_date": "2026-08-20",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -11961,7 +11983,7 @@
     },
     {
       "discovery_date": "2026-08-20",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -12020,7 +12042,7 @@
     },
     {
       "discovery_date": "2026-08-20",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -12079,7 +12101,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -12139,7 +12161,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -12199,7 +12221,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -12259,7 +12281,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -12319,7 +12341,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -12379,7 +12401,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -12437,7 +12459,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -12495,7 +12517,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -12553,7 +12575,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -12611,7 +12633,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -12669,7 +12691,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -12729,7 +12751,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -12789,7 +12811,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -12849,7 +12871,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -12909,7 +12931,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -12969,7 +12991,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -13027,7 +13049,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -13085,7 +13107,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -13143,7 +13165,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -13201,7 +13223,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -13259,7 +13281,7 @@
     },
     {
       "discovery_date": "2026-08-31",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -13318,7 +13340,7 @@
     },
     {
       "discovery_date": "2026-08-31",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -13377,7 +13399,7 @@
     },
     {
       "discovery_date": "2026-08-31",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -13436,7 +13458,7 @@
     },
     {
       "discovery_date": "2026-08-31",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -13495,7 +13517,7 @@
     },
     {
       "discovery_date": "2026-08-31",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -13554,7 +13576,7 @@
     },
     {
       "discovery_date": "2026-09-01",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -13614,7 +13636,7 @@
     },
     {
       "discovery_date": "2026-09-01",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -13674,7 +13696,7 @@
     },
     {
       "discovery_date": "2026-09-01",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -13734,7 +13756,7 @@
     },
     {
       "discovery_date": "2026-09-01",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -13794,7 +13816,7 @@
     },
     {
       "discovery_date": "2026-09-01",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -13854,7 +13876,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -13912,7 +13934,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -13970,7 +13992,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -14028,7 +14050,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -14086,7 +14108,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -14144,7 +14166,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -14202,7 +14224,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -14260,7 +14282,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -14318,7 +14340,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -14376,7 +14398,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -14434,7 +14456,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -14492,7 +14514,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -14550,7 +14572,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -14608,7 +14630,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -14666,7 +14688,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -14724,7 +14746,7 @@
     },
     {
       "discovery_date": "2026-09-07",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -14784,7 +14806,7 @@
     },
     {
       "discovery_date": "2026-09-07",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -14844,7 +14866,7 @@
     },
     {
       "discovery_date": "2026-09-07",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -14904,7 +14926,7 @@
     },
     {
       "discovery_date": "2026-09-07",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -14964,7 +14986,7 @@
     },
     {
       "discovery_date": "2026-09-07",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -15024,7 +15046,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -15083,7 +15105,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -15142,7 +15164,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -15201,7 +15223,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -15260,7 +15282,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -15319,7 +15341,7 @@
     },
     {
       "discovery_date": "2026-09-09",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -15378,7 +15400,7 @@
     },
     {
       "discovery_date": "2026-09-09",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -15437,7 +15459,7 @@
     },
     {
       "discovery_date": "2026-09-09",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -15496,7 +15518,7 @@
     },
     {
       "discovery_date": "2026-09-09",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -15555,7 +15577,7 @@
     },
     {
       "discovery_date": "2026-09-09",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -15614,7 +15636,7 @@
     },
     {
       "discovery_date": "2026-09-10",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -15673,7 +15695,7 @@
     },
     {
       "discovery_date": "2026-09-10",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -15732,7 +15754,7 @@
     },
     {
       "discovery_date": "2026-09-10",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -15791,7 +15813,7 @@
     },
     {
       "discovery_date": "2026-09-10",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -15850,7 +15872,7 @@
     },
     {
       "discovery_date": "2026-09-10",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -15909,7 +15931,7 @@
     },
     {
       "discovery_date": "2026-09-11",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -15968,7 +15990,7 @@
     },
     {
       "discovery_date": "2026-09-11",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -16027,7 +16049,7 @@
     },
     {
       "discovery_date": "2026-09-11",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -16086,7 +16108,7 @@
     },
     {
       "discovery_date": "2026-09-11",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -16145,7 +16167,7 @@
     },
     {
       "discovery_date": "2026-09-11",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -16204,7 +16226,7 @@
     },
     {
       "discovery_date": "2026-09-14",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -16264,7 +16286,7 @@
     },
     {
       "discovery_date": "2026-09-14",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -16324,7 +16346,7 @@
     },
     {
       "discovery_date": "2026-09-14",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -16384,7 +16406,7 @@
     },
     {
       "discovery_date": "2026-09-14",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -16444,7 +16466,7 @@
     },
     {
       "discovery_date": "2026-09-14",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -16504,7 +16526,7 @@
     },
     {
       "discovery_date": "2026-09-15",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -16563,7 +16585,7 @@
     },
     {
       "discovery_date": "2026-09-15",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -16622,7 +16644,7 @@
     },
     {
       "discovery_date": "2026-09-15",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -16681,7 +16703,7 @@
     },
     {
       "discovery_date": "2026-09-15",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -16740,7 +16762,7 @@
     },
     {
       "discovery_date": "2026-09-15",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -16799,7 +16821,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -16858,7 +16880,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -16917,7 +16939,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -16976,7 +16998,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -17035,7 +17057,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -17094,7 +17116,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -17153,7 +17175,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -17212,7 +17234,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -17271,7 +17293,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -17330,7 +17352,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -17389,7 +17411,7 @@
     },
     {
       "discovery_date": "2026-09-18",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -17447,7 +17469,7 @@
     },
     {
       "discovery_date": "2026-09-18",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -17505,7 +17527,7 @@
     },
     {
       "discovery_date": "2026-09-18",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -17563,7 +17585,7 @@
     },
     {
       "discovery_date": "2026-09-18",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -17621,7 +17643,7 @@
     },
     {
       "discovery_date": "2026-09-18",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -17679,7 +17701,7 @@
     },
     {
       "discovery_date": "2026-09-21",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -17739,7 +17761,7 @@
     },
     {
       "discovery_date": "2026-09-21",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -17799,7 +17821,7 @@
     },
     {
       "discovery_date": "2026-09-21",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -17859,7 +17881,7 @@
     },
     {
       "discovery_date": "2026-09-21",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -17919,7 +17941,7 @@
     },
     {
       "discovery_date": "2026-09-21",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -17979,7 +18001,7 @@
     },
     {
       "discovery_date": "2026-09-22",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -18038,7 +18060,7 @@
     },
     {
       "discovery_date": "2026-09-22",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -18097,7 +18119,7 @@
     },
     {
       "discovery_date": "2026-09-22",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -18156,7 +18178,7 @@
     },
     {
       "discovery_date": "2026-09-22",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -18215,7 +18237,7 @@
     },
     {
       "discovery_date": "2026-09-22",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -18274,7 +18296,7 @@
     },
     {
       "discovery_date": "2026-09-23",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -18334,7 +18356,7 @@
     },
     {
       "discovery_date": "2026-09-23",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -18394,7 +18416,7 @@
     },
     {
       "discovery_date": "2026-09-23",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -18454,7 +18476,7 @@
     },
     {
       "discovery_date": "2026-09-23",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -18514,7 +18536,7 @@
     },
     {
       "discovery_date": "2026-09-23",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -18574,7 +18596,7 @@
     },
     {
       "discovery_date": "2026-09-24",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -18634,7 +18656,7 @@
     },
     {
       "discovery_date": "2026-09-24",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -18694,7 +18716,7 @@
     },
     {
       "discovery_date": "2026-09-24",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -18754,7 +18776,7 @@
     },
     {
       "discovery_date": "2026-09-24",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -18814,7 +18836,7 @@
     },
     {
       "discovery_date": "2026-09-24",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -18874,7 +18896,7 @@
     },
     {
       "discovery_date": "2026-09-25",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -18933,7 +18955,7 @@
     },
     {
       "discovery_date": "2026-09-25",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -18992,7 +19014,7 @@
     },
     {
       "discovery_date": "2026-09-25",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -19051,7 +19073,7 @@
     },
     {
       "discovery_date": "2026-09-25",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -19110,7 +19132,7 @@
     },
     {
       "discovery_date": "2026-09-25",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -19169,7 +19191,7 @@
     },
     {
       "discovery_date": "2026-09-28",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -19229,7 +19251,7 @@
     },
     {
       "discovery_date": "2026-09-28",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -19289,7 +19311,7 @@
     },
     {
       "discovery_date": "2026-09-28",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -19349,7 +19371,7 @@
     },
     {
       "discovery_date": "2026-09-28",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -19409,7 +19431,7 @@
     },
     {
       "discovery_date": "2026-09-28",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -19469,7 +19491,7 @@
     },
     {
       "discovery_date": "2026-09-29",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -19527,7 +19549,7 @@
     },
     {
       "discovery_date": "2026-09-29",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -19585,7 +19607,7 @@
     },
     {
       "discovery_date": "2026-09-29",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -19643,7 +19665,7 @@
     },
     {
       "discovery_date": "2026-09-29",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -19701,7 +19723,7 @@
     },
     {
       "discovery_date": "2026-09-29",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -19759,7 +19781,7 @@
     },
     {
       "discovery_date": "2026-09-30",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -19819,7 +19841,7 @@
     },
     {
       "discovery_date": "2026-09-30",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -19879,7 +19901,7 @@
     },
     {
       "discovery_date": "2026-09-30",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -19939,7 +19961,7 @@
     },
     {
       "discovery_date": "2026-09-30",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -19999,7 +20021,7 @@
     },
     {
       "discovery_date": "2026-09-30",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -20059,7 +20081,7 @@
     },
     {
       "discovery_date": "2026-10-01",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -20117,7 +20139,7 @@
     },
     {
       "discovery_date": "2026-10-01",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -20175,7 +20197,7 @@
     },
     {
       "discovery_date": "2026-10-01",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -20233,7 +20255,7 @@
     },
     {
       "discovery_date": "2026-10-01",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -20291,7 +20313,7 @@
     },
     {
       "discovery_date": "2026-10-01",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -20349,7 +20371,7 @@
     },
     {
       "discovery_date": "2026-10-02",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -20407,7 +20429,7 @@
     },
     {
       "discovery_date": "2026-10-02",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -20465,7 +20487,7 @@
     },
     {
       "discovery_date": "2026-10-02",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -20523,7 +20545,7 @@
     },
     {
       "discovery_date": "2026-10-02",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -20581,7 +20603,7 @@
     },
     {
       "discovery_date": "2026-10-02",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -20639,7 +20661,7 @@
     },
     {
       "discovery_date": "2026-10-05",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -20697,7 +20719,7 @@
     },
     {
       "discovery_date": "2026-10-05",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -20755,7 +20777,7 @@
     },
     {
       "discovery_date": "2026-10-05",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -20813,7 +20835,7 @@
     },
     {
       "discovery_date": "2026-10-05",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -20871,7 +20893,7 @@
     },
     {
       "discovery_date": "2026-10-05",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -20929,7 +20951,7 @@
     },
     {
       "discovery_date": "2026-10-06",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -20987,7 +21009,7 @@
     },
     {
       "discovery_date": "2026-10-06",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -21045,7 +21067,7 @@
     },
     {
       "discovery_date": "2026-10-06",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -21103,7 +21125,7 @@
     },
     {
       "discovery_date": "2026-10-06",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -21161,7 +21183,7 @@
     },
     {
       "discovery_date": "2026-10-06",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -21219,7 +21241,7 @@
     },
     {
       "discovery_date": "2026-10-07",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -21277,7 +21299,7 @@
     },
     {
       "discovery_date": "2026-10-07",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -21335,7 +21357,7 @@
     },
     {
       "discovery_date": "2026-10-07",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -21393,7 +21415,7 @@
     },
     {
       "discovery_date": "2026-10-07",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -21451,7 +21473,7 @@
     },
     {
       "discovery_date": "2026-10-07",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -21509,7 +21531,7 @@
     },
     {
       "discovery_date": "2026-10-08",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -21567,7 +21589,7 @@
     },
     {
       "discovery_date": "2026-10-08",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -21625,7 +21647,7 @@
     },
     {
       "discovery_date": "2026-10-08",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -21683,7 +21705,7 @@
     },
     {
       "discovery_date": "2026-10-08",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -21741,7 +21763,7 @@
     },
     {
       "discovery_date": "2026-10-08",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -21799,7 +21821,7 @@
     },
     {
       "discovery_date": "2026-10-09",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -21857,7 +21879,7 @@
     },
     {
       "discovery_date": "2026-10-09",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -21915,7 +21937,7 @@
     },
     {
       "discovery_date": "2026-10-09",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -21973,7 +21995,7 @@
     },
     {
       "discovery_date": "2026-10-09",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -22031,7 +22053,7 @@
     },
     {
       "discovery_date": "2026-10-09",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -22089,7 +22111,7 @@
     },
     {
       "discovery_date": "2026-10-12",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -22147,7 +22169,7 @@
     },
     {
       "discovery_date": "2026-10-12",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -22205,7 +22227,7 @@
     },
     {
       "discovery_date": "2026-10-12",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -22263,7 +22285,7 @@
     },
     {
       "discovery_date": "2026-10-12",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -22321,7 +22343,7 @@
     },
     {
       "discovery_date": "2026-10-12",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -22379,7 +22401,7 @@
     },
     {
       "discovery_date": "2026-10-13",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -22437,7 +22459,7 @@
     },
     {
       "discovery_date": "2026-10-13",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -22495,7 +22517,7 @@
     },
     {
       "discovery_date": "2026-10-13",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -22553,7 +22575,7 @@
     },
     {
       "discovery_date": "2026-10-13",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -22611,7 +22633,7 @@
     },
     {
       "discovery_date": "2026-10-13",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -22669,7 +22691,7 @@
     },
     {
       "discovery_date": "2026-10-14",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -22727,7 +22749,7 @@
     },
     {
       "discovery_date": "2026-10-14",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1w",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -22785,7 +22807,7 @@
     },
     {
       "discovery_date": "2026-10-14",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "1y",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -22843,7 +22865,7 @@
     },
     {
       "discovery_date": "2026-10-14",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "3m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -22901,7 +22923,7 @@
     },
     {
       "discovery_date": "2026-10-14",
-      "validation_date": "2026-10-15",
+      "validation_date": "2026-10-16",
       "period": "6m",
       "ticker": "NVDA",
       "company": "NVIDIA Corporation",
@@ -22932,6 +22954,296 @@
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": -0.6511528026397394,
       "sector_benchmark_diff_percent": -1.1879828810895021,
+      "validation_result": "Neutral",
+      "confidence": "Medium",
+      "signal_strength": "Strong",
+      "watch_points": [
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "evidence": [
+        "Company",
+        "Discovery",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "thresholds": "Validation thresholds 6m: Excellent >= 13.0% or benchmark diff >= 9.0%; Good >= 7.0% or benchmark diff >= 4.0%; Poor <= -7.0% or benchmark diff <= -4.0%.",
+      "event_count": 0,
+      "period_complete": false
+    },
+    {
+      "discovery_date": "2026-10-16",
+      "validation_date": "2026-10-16",
+      "period": "1m",
+      "ticker": "NVDA",
+      "company": "NVIDIA Corporation",
+      "sector": "Technology",
+      "discovery_score": 63,
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 0/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで -1.05pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +3.14pt と、市場並み以上です。",
+        "6Mモメンタムは対SPYで -0.78pt と、市場を小幅に下回っています。"
+      ],
+      "start_date": "2026-10-15",
+      "end_date": "2026-10-15",
+      "start_price": 217.22999572753903,
+      "end_price": 217.22999572753903,
+      "return_percent": 0.0,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
+      "sector_average_return_percent": 0.0,
+      "sector_diff_percent": 0.0,
+      "sector_benchmark": "XLK",
+      "sector_benchmark_return_percent": 0.0,
+      "sector_benchmark_diff_percent": 0.0,
+      "validation_result": "Neutral",
+      "confidence": "Medium",
+      "signal_strength": "Strong",
+      "watch_points": [
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "evidence": [
+        "Company",
+        "Discovery",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "thresholds": "Validation thresholds 1m: Excellent >= 6.0% or benchmark diff >= 4.0%; Good >= 3.0% or benchmark diff >= 2.0%; Poor <= -3.0% or benchmark diff <= -2.0%.",
+      "event_count": 0,
+      "period_complete": false
+    },
+    {
+      "discovery_date": "2026-10-16",
+      "validation_date": "2026-10-16",
+      "period": "1w",
+      "ticker": "NVDA",
+      "company": "NVIDIA Corporation",
+      "sector": "Technology",
+      "discovery_score": 63,
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 0/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで -1.05pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +3.14pt と、市場並み以上です。",
+        "6Mモメンタムは対SPYで -0.78pt と、市場を小幅に下回っています。"
+      ],
+      "start_date": "2026-10-15",
+      "end_date": "2026-10-15",
+      "start_price": 217.22999572753903,
+      "end_price": 217.22999572753903,
+      "return_percent": 0.0,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
+      "sector_average_return_percent": 0.0,
+      "sector_diff_percent": 0.0,
+      "sector_benchmark": "XLK",
+      "sector_benchmark_return_percent": 0.0,
+      "sector_benchmark_diff_percent": 0.0,
+      "validation_result": "Neutral",
+      "confidence": "Medium",
+      "signal_strength": "Strong",
+      "watch_points": [
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "evidence": [
+        "Company",
+        "Discovery",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "thresholds": "Validation thresholds 1w: Excellent >= 3.0% or benchmark diff >= 2.0%; Good >= 1.5% or benchmark diff >= 1.0%; Poor <= -1.5% or benchmark diff <= -1.0%.",
+      "event_count": 0,
+      "period_complete": false
+    },
+    {
+      "discovery_date": "2026-10-16",
+      "validation_date": "2026-10-16",
+      "period": "1y",
+      "ticker": "NVDA",
+      "company": "NVIDIA Corporation",
+      "sector": "Technology",
+      "discovery_score": 63,
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 0/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで -1.05pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +3.14pt と、市場並み以上です。",
+        "6Mモメンタムは対SPYで -0.78pt と、市場を小幅に下回っています。"
+      ],
+      "start_date": "2026-10-15",
+      "end_date": "2026-10-15",
+      "start_price": 217.22999572753903,
+      "end_price": 217.22999572753903,
+      "return_percent": 0.0,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
+      "sector_average_return_percent": 0.0,
+      "sector_diff_percent": 0.0,
+      "sector_benchmark": "XLK",
+      "sector_benchmark_return_percent": 0.0,
+      "sector_benchmark_diff_percent": 0.0,
+      "validation_result": "Neutral",
+      "confidence": "Medium",
+      "signal_strength": "Strong",
+      "watch_points": [
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "evidence": [
+        "Company",
+        "Discovery",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "thresholds": "Validation thresholds 1y: Excellent >= 15.0% or benchmark diff >= 10.0%; Good >= 8.0% or benchmark diff >= 5.0%; Poor <= -8.0% or benchmark diff <= -5.0%.",
+      "event_count": 0,
+      "period_complete": false
+    },
+    {
+      "discovery_date": "2026-10-16",
+      "validation_date": "2026-10-16",
+      "period": "3m",
+      "ticker": "NVDA",
+      "company": "NVIDIA Corporation",
+      "sector": "Technology",
+      "discovery_score": 63,
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 0/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで -1.05pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +3.14pt と、市場並み以上です。",
+        "6Mモメンタムは対SPYで -0.78pt と、市場を小幅に下回っています。"
+      ],
+      "start_date": "2026-10-15",
+      "end_date": "2026-10-15",
+      "start_price": 217.22999572753903,
+      "end_price": 217.22999572753903,
+      "return_percent": 0.0,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
+      "sector_average_return_percent": 0.0,
+      "sector_diff_percent": 0.0,
+      "sector_benchmark": "XLK",
+      "sector_benchmark_return_percent": 0.0,
+      "sector_benchmark_diff_percent": 0.0,
+      "validation_result": "Neutral",
+      "confidence": "Medium",
+      "signal_strength": "Strong",
+      "watch_points": [
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "evidence": [
+        "Company",
+        "Discovery",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "thresholds": "Validation thresholds 3m: Excellent >= 10.0% or benchmark diff >= 7.0%; Good >= 5.0% or benchmark diff >= 3.0%; Poor <= -5.0% or benchmark diff <= -3.0%.",
+      "event_count": 0,
+      "period_complete": false
+    },
+    {
+      "discovery_date": "2026-10-16",
+      "validation_date": "2026-10-16",
+      "period": "6m",
+      "ticker": "NVDA",
+      "company": "NVIDIA Corporation",
+      "sector": "Technology",
+      "discovery_score": 63,
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 0/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで -1.05pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +3.14pt と、市場並み以上です。",
+        "6Mモメンタムは対SPYで -0.78pt と、市場を小幅に下回っています。"
+      ],
+      "start_date": "2026-10-15",
+      "end_date": "2026-10-15",
+      "start_price": 217.22999572753903,
+      "end_price": 217.22999572753903,
+      "return_percent": 0.0,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
+      "sector_average_return_percent": 0.0,
+      "sector_diff_percent": 0.0,
+      "sector_benchmark": "XLK",
+      "sector_benchmark_return_percent": 0.0,
+      "sector_benchmark_diff_percent": 0.0,
       "validation_result": "Neutral",
       "confidence": "Medium",
       "signal_strength": "Strong",
@@ -36277,5 +36589,5 @@
     "scoring": "Strong",
     "discovery": "Strong"
   },
-  "Timestamp": "2026-10-15T20:00:15.589153-04:00"
+  "Timestamp": "2026-10-16T20:06:14.378381-04:00"
 }

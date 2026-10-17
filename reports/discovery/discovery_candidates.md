@@ -6,7 +6,7 @@
 
 - 対象企業数: 24
 - セクター数: 3
-- 市場平均スコア: 49.541666666666664
+- 市場平均スコア: 49.791666666666664
 - 1M市場モメンタム平均: 1.397317763103486
 - ニュース件数: 0
 - Event数: 0
@@ -16,7 +16,7 @@
 | Ticker | Company | Sector | Discovery Score | Status | Confidence | Signal |
 | --- | --- | --- | --- | --- | --- | --- |
 | AMD | Advanced Micro Devices, Inc. | Technology | 71 | Watch Candidate | Medium | Strong |
-| TXN | Texas Instruments Incorporated | Technology | 61 | Watch Candidate | Medium | Strong |
+| NVDA | NVIDIA Corporation | Technology | 63 | Watch Candidate | Medium | Strong |
 | AMAT | Applied Materials, Inc. | Technology | 61 | Watch Candidate | Medium | Strong |
 | MSFT | Microsoft Corporation | Technology | 60 | Watch Candidate | Medium | Strong |
 

@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: NVIDIA Corporation
-- Total Score: 57 / 100
+- Total Score: 63 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -17,7 +17,7 @@ Medium
 理由
 
 - 利用可能な主要データ領域は5領域中 4 領域です。
-- 欠損または計算不可の項目数は 3 件です。
+- 欠損または計算不可の項目数は 2 件です。
 - データが不足している領域: News。
 - 主要データは一定程度ありますが、欠損や未取得項目が残っています。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 57 点を獲得し、シグナル充足率は 71.2% です。
+- データが確認できた 80 点満点のうち 63 点を獲得し、シグナル充足率は 78.8% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -67,14 +67,14 @@ Evidence
 
 ## Financial Health
 
-14点
+20点
 
 理由
 
 - 現金 がプラスで確認できるため加点しています。
 - 自己資本がプラスで、財務基盤を確認できます。
-- 総負債が取得できないため、負債項目は加点していません。
-- 長期債務が確認できるため、返済負担の継続確認が必要です。
+- 総負債/自己資本が 0.31 倍で、負債負担は相対的に抑えられています。
+- 長期債務が総負債に対して過度に大きくないため加点しています。
 - Current Ratio が 3.91 で、短期支払余力が確認できます。
 
 Evidence
@@ -85,14 +85,10 @@ Evidence
 使用データ
 
 - cash: 10,605,000,000.0000
-- total_liabilities: N/A
+- total_liabilities: 49,510,000,000.0000
 - shareholders_equity: 157,293,000,000.0000
 - long_term_debt: 7,469,000,000.0000
 - current_ratio: 3.9053
-
-欠損・計算不可
-
-- total_liabilities
 
 ## Valuation
 
@@ -113,10 +109,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 28.3590
-- forward_pe: 13.6497
+- trailing_pe: 27.0708
+- forward_pe: 13.4549
 - peg_ratio: 0.2700
-- price_to_book: 22.9073
+- price_to_book: 22.5804
 - sector_peer_count: 16
 - trailing_pe_percentile: 42.8600
 - trailing_pe_peer_count: 15
@@ -153,8 +149,8 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': 2.61, '3M': 4.09, '6M': 10.55, '1Y': 17.8}
 - excess_returns: {'1M': -1.05, '3M': 3.14, '6M': -0.78, '1Y': 3.15}
-- latest_volume: 126,396,690.0000
-- average_volume_30d: 108,261,449.6667
+- latest_volume: 127,087,900.0000
+- average_volume_30d: 108,284,490.0000
 
 ## News
 

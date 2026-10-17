@@ -74,11 +74,11 @@ Strong(シグナル充足率: 67.42%)
 - financial_health_score: 18.0
 - valuation_score: 9.0
 - news_score: 0.0
-- momentum: {'1m': 10.022438480905492, '3m': 37.234145463596526, '6m': 28.878805567249525, '1y': 5.90150060531422}
+- momentum: {'1m': 10.022438480905492, '3m': 37.234145463596526, '6m': 28.878805567249525, '1y': 5.901494260613832}
 - benchmark: SPY
 - excess_momentum: {'1m': 7.42, '3m': 33.14, '6m': 18.33, '1y': -11.9}
 - positive_news: 0
 - watch_news: 0
 - event_count: 0
 - events_with_reaction: 0
-- sector_average_score: 56.0
+- sector_average_score: 56.5

@@ -95,7 +95,7 @@ Evidence
 
 理由
 
-- PER はセクター内 28.57 パーセンタイル / 母数 15 で、中位レンジです。
+- PER はセクター内 35.71 パーセンタイル / 母数 15 で、中位レンジです。
 - Forward PER はセクター内 33.33 パーセンタイル / 母数 16 で、中位レンジです。
 - PEG はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。
 - PBR はセクター内 6.67 パーセンタイル / 母数 16 で、相対的に割安寄りです。
@@ -108,12 +108,12 @@ Evidence
 
 使用データ
 
-- trailing_pe: 22.7620
-- forward_pe: 15.3991
-- peg_ratio: 0.8400
-- price_to_book: 5.2912
+- trailing_pe: 22.2048
+- forward_pe: 15.0222
+- peg_ratio: 0.8800
+- price_to_book: 5.1617
 - sector_peer_count: 16
-- trailing_pe_percentile: 28.5700
+- trailing_pe_percentile: 35.7100
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 33.3300
 - forward_pe_peer_count: 16
@@ -148,8 +148,8 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': 2.61, '3M': 4.09, '6M': 10.55, '1Y': 17.8}
 - excess_returns: {'1M': -3.95, '3M': 40.65, '6M': 26.19, '1Y': -14.02}
-- latest_volume: 8,717,573.0000
-- average_volume_30d: 10,674,612.4333
+- latest_volume: 8,731,200.0000
+- average_volume_30d: 10,675,066.6667
 
 ## News
 

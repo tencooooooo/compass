@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: The Walt Disney Company
-- Total Score: 44 / 100
+- Total Score: 41 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 44 点を獲得し、シグナル充足率は 55.0% です。
+- データが確認できた 80 点満点のうち 41 点を獲得し、シグナル充足率は 51.2% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -95,11 +95,11 @@ Evidence
 
 ## Valuation
 
-9点
+6点
 
 理由
 
-- PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
+- PER はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - Forward PER はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
 - PEG はセクター内 88.89 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - PBR はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。
@@ -112,12 +112,12 @@ Evidence
 
 使用データ
 
-- trailing_pe: 22.7269
-- forward_pe: 14.8047
-- peg_ratio: 3.5400
-- price_to_book: 1.7402
+- trailing_pe: 22.8021
+- forward_pe: 14.7653
+- peg_ratio: 3.6000
+- price_to_book: 1.7388
 - sector_peer_count: 10
-- trailing_pe_percentile: 66.6700
+- trailing_pe_percentile: 77.7800
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 55.5600
 - forward_pe_peer_count: 10
@@ -152,8 +152,8 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': 2.61, '3M': 4.09, '6M': 10.55, '1Y': 17.8}
 - excess_returns: {'1M': 0.84, '3M': 9.23, '6M': -3.21, '1Y': -16.8}
-- latest_volume: 9,772,962.0000
-- average_volume_30d: 8,598,282.0667
+- latest_volume: 9,808,800.0000
+- average_volume_30d: 8,599,476.6667
 
 ## News
 
