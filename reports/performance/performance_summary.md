@@ -2,17 +2,17 @@
 
 Performance Evaluation is Compass's scorecard. It measures outcomes without changing Feedback, Learning, Knowledge, or Scoring.
 
-- Evaluation date: 2026-10-12
-- Signals: 667
-- Evaluation rows: 3335
-- Completed rows: 1117
-- Pending rows: 2218
-- Discovery Success Rate: 55.60%
-- Average Return: 2.22%
-- Median Return: 0.98%
-- Win Rate: 55.60%
-- Loss Rate: 44.40%
-- Alpha vs Benchmark: 1.54%
+- Evaluation date: 2026-10-19
+- Signals: 691
+- Evaluation rows: 3455
+- Completed rows: 1239
+- Pending rows: 2216
+- Discovery Success Rate: 56.66%
+- Average Return: 2.32%
+- Median Return: 1.10%
+- Win Rate: 56.66%
+- Loss Rate: 43.34%
+- Alpha vs Benchmark: 1.52%
 - Worst Return: -26.83%
 
 ## Ticker Equal Weight (pseudo-replication adjusted)
@@ -21,8 +21,8 @@ Row-level averages overweight tickers that are re-discovered day after day. The 
 
 - Unique Tickers: 18
 - Completed Tickers: 18
-- Equal-Weight Average Return: -0.27%
-- Equal-Weight Alpha: -0.77%
+- Equal-Weight Average Return: -0.33%
+- Equal-Weight Alpha: -0.95%
 - Equal-Weight Win Rate: 55.56%
 
 ## Note

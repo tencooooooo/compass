@@ -27,14 +27,14 @@ Benchmarks: S&P500, Nasdaq100, Russell2000.
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 4.04%
+- Benchmark average: 3.75%
 - Alpha: N/A
 
 ## GOOGL - 365 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 4.04%
+- Benchmark average: 3.75%
 - Alpha: N/A
 
 ## AMD - 7 days
@@ -62,14 +62,14 @@ Benchmarks: S&P500, Nasdaq100, Russell2000.
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 4.04%
+- Benchmark average: 3.75%
 - Alpha: N/A
 
 ## AMD - 365 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 4.04%
+- Benchmark average: 3.75%
 - Alpha: N/A
 
 ## META - 7 days
@@ -97,14 +97,14 @@ Benchmarks: S&P500, Nasdaq100, Russell2000.
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 4.04%
+- Benchmark average: 3.75%
 - Alpha: N/A
 
 ## META - 365 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 4.04%
+- Benchmark average: 3.75%
 - Alpha: N/A
 
 ## AMZN - 7 days
@@ -132,14 +132,14 @@ Benchmarks: S&P500, Nasdaq100, Russell2000.
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 4.04%
+- Benchmark average: 3.75%
 - Alpha: N/A
 
 ## AMZN - 365 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 4.04%
+- Benchmark average: 3.75%
 - Alpha: N/A
 
 ## TSLA - 7 days
@@ -167,14 +167,14 @@ Benchmarks: S&P500, Nasdaq100, Russell2000.
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 4.04%
+- Benchmark average: 3.75%
 - Alpha: N/A
 
 ## TSLA - 365 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 4.04%
+- Benchmark average: 3.75%
 - Alpha: N/A
 
 ## AAPL - 7 days
@@ -202,14 +202,14 @@ Benchmarks: S&P500, Nasdaq100, Russell2000.
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 4.04%
+- Benchmark average: 3.75%
 - Alpha: N/A
 
 ## AAPL - 365 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 4.04%
+- Benchmark average: 3.75%
 - Alpha: N/A
 
 ## MSFT - 7 days
@@ -237,14 +237,14 @@ Benchmarks: S&P500, Nasdaq100, Russell2000.
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 4.04%
+- Benchmark average: 3.75%
 - Alpha: N/A
 
 ## MSFT - 365 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 4.04%
+- Benchmark average: 3.75%
 - Alpha: N/A
 
 ## NVDA - 7 days
@@ -272,14 +272,14 @@ Benchmarks: S&P500, Nasdaq100, Russell2000.
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 4.04%
+- Benchmark average: 3.75%
 - Alpha: N/A
 
 ## NVDA - 365 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 4.04%
+- Benchmark average: 3.75%
 - Alpha: N/A
 
 ## NVDA - 7 days
@@ -307,14 +307,14 @@ Benchmarks: S&P500, Nasdaq100, Russell2000.
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 4.17%
+- Benchmark average: 3.88%
 - Alpha: N/A
 
 ## NVDA - 365 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 4.17%
+- Benchmark average: 3.88%
 - Alpha: N/A
 
 ## AMD - 7 days
@@ -342,12 +342,12 @@ Benchmarks: S&P500, Nasdaq100, Russell2000.
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 4.17%
+- Benchmark average: 3.88%
 - Alpha: N/A
 
 ## AMD - 365 days
 
 - Status: pending
 - Return: N/A
-- Benchmark average: 4.17%
+- Benchmark average: 3.88%
 - Alpha: N/A

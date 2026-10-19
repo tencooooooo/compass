@@ -2,108 +2,108 @@
 
 ## AI
 
-- Evaluated: 2565
-- Completed: 873
-- Pending: 1692
-- Success Rate: 54.98%
-- Average Return: 2.63%
-- Win Rate: 54.98%
-- Alpha vs Benchmark: 1.92%
+- Evaluated: 2645
+- Completed: 963
+- Pending: 1682
+- Success Rate: 56.18%
+- Average Return: 2.79%
+- Win Rate: 56.18%
+- Alpha vs Benchmark: 1.96%
 - Unique Tickers: 13 (completed: 13)
-- Equal-Weight Alpha: 0.02%
+- Equal-Weight Alpha: -0.09%
 
 ## Cloud
 
-- Evaluated: 2465
-- Completed: 846
-- Pending: 1619
-- Success Rate: 57.09%
-- Average Return: 2.71%
-- Win Rate: 57.09%
-- Alpha vs Benchmark: 1.97%
+- Evaluated: 2545
+- Completed: 932
+- Pending: 1613
+- Success Rate: 58.26%
+- Average Return: 2.82%
+- Win Rate: 58.26%
+- Alpha vs Benchmark: 1.96%
 - Unique Tickers: 11 (completed: 11)
-- Equal-Weight Alpha: 1.32%
+- Equal-Weight Alpha: 1.17%
 
 ## Cybersecurity
 
-- Evaluated: 1050
-- Completed: 343
-- Pending: 707
-- Success Rate: 53.35%
-- Average Return: 2.50%
-- Win Rate: 53.35%
-- Alpha vs Benchmark: 1.85%
+- Evaluated: 1085
+- Completed: 381
+- Pending: 704
+- Success Rate: 55.12%
+- Average Return: 2.72%
+- Win Rate: 55.12%
+- Alpha vs Benchmark: 1.93%
 - Unique Tickers: 5 (completed: 5)
-- Equal-Weight Alpha: 1.63%
+- Equal-Weight Alpha: 1.55%
 
 ## EV
 
-- Evaluated: 575
-- Completed: 187
-- Pending: 388
-- Success Rate: 70.05%
-- Average Return: 2.58%
-- Win Rate: 70.05%
-- Alpha vs Benchmark: 1.84%
+- Evaluated: 610
+- Completed: 212
+- Pending: 398
+- Success Rate: 68.87%
+- Average Return: 2.54%
+- Win Rate: 68.87%
+- Alpha vs Benchmark: 1.69%
 - Unique Tickers: 3 (completed: 3)
-- Equal-Weight Alpha: -2.02%
+- Equal-Weight Alpha: -2.23%
 
 ## Energy
 
-- Evaluated: 320
-- Completed: 98
-- Pending: 222
-- Success Rate: 44.90%
-- Average Return: -1.12%
-- Win Rate: 44.90%
-- Alpha vs Benchmark: -1.46%
+- Evaluated: 335
+- Completed: 110
+- Pending: 225
+- Success Rate: 46.36%
+- Average Return: -0.82%
+- Win Rate: 46.36%
+- Alpha vs Benchmark: -1.27%
 - Unique Tickers: 3 (completed: 3)
-- Equal-Weight Alpha: -3.89%
+- Equal-Weight Alpha: -4.01%
 
 ## Healthcare
 
 - Evaluated: 270
-- Completed: 81
-- Pending: 189
-- Success Rate: 49.38%
-- Average Return: 2.19%
-- Win Rate: 49.38%
-- Alpha vs Benchmark: 2.04%
+- Completed: 89
+- Pending: 181
+- Success Rate: 48.31%
+- Average Return: 1.85%
+- Win Rate: 48.31%
+- Alpha vs Benchmark: 1.50%
 - Unique Tickers: 2 (completed: 2)
-- Equal-Weight Alpha: 1.86%
+- Equal-Weight Alpha: 1.43%
 
 ## Robotics
 
-- Evaluated: 940
-- Completed: 294
-- Pending: 646
-- Success Rate: 58.50%
-- Average Return: 2.34%
-- Win Rate: 58.50%
-- Alpha vs Benchmark: 1.87%
+- Evaluated: 985
+- Completed: 329
+- Pending: 656
+- Success Rate: 58.36%
+- Average Return: 2.11%
+- Win Rate: 58.36%
+- Alpha vs Benchmark: 1.49%
 - Unique Tickers: 6 (completed: 6)
-- Equal-Weight Alpha: 0.49%
+- Equal-Weight Alpha: 0.16%
 
 ## Semiconductor
 
-- Evaluated: 1355
-- Completed: 423
-- Pending: 932
-- Success Rate: 64.54%
-- Average Return: 3.76%
-- Win Rate: 64.54%
-- Alpha vs Benchmark: 3.14%
+- Evaluated: 1440
+- Completed: 481
+- Pending: 959
+- Success Rate: 63.41%
+- Average Return: 3.57%
+- Win Rate: 63.41%
+- Alpha vs Benchmark: 2.82%
 - Unique Tickers: 6 (completed: 6)
-- Equal-Weight Alpha: 2.51%
+- Equal-Weight Alpha: 2.08%
 
 ## Unknown
 
 - Evaluated: 70
-- Completed: 26
-- Pending: 44
-- Success Rate: 7.69%
-- Average Return: -9.73%
-- Win Rate: 7.69%
-- Alpha vs Benchmark: -9.93%
+- Completed: 28
+- Pending: 42
+- Success Rate: 7.14%
+- Average Return: -10.13%
+- Win Rate: 7.14%
+- Alpha vs Benchmark: -10.45%
 - Unique Tickers: 2 (completed: 2)
-- Equal-Weight Alpha: -9.62%
+- Equal-Weight Alpha: -9.96%
