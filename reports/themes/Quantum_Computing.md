@@ -23,7 +23,7 @@ No theme news available yet.
 - Biotechnology: 0.0 (Similar average Discovery score; Similar short-term momentum)
 - Cloud: 0.0 (Theme metric similarity)
 - Cybersecurity: 0.0 (Theme metric similarity)
-- EV: 0.0 (Theme metric similarity)
+- EV: 0.0 (Similar short-term momentum)
 
 ## Review Note
 

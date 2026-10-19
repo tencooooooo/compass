@@ -1,7 +1,7 @@
 # Space
 
 - Target companies: 1
-- Average Score: 45.00
+- Average Score: 41.00
 - Average Discovery: N/A
 - Momentum: N/A
 - Confidence: Medium
@@ -12,7 +12,7 @@
 
 ## Market
 
-- Communication Services: score 45.83, momentum -0.54, trend {'momentum': 'Weak', 'news': 'Low', 'financial_health': 'Good'}
+- Communication Services: score 45.33, momentum -1.32, trend {'momentum': 'Weak', 'news': 'Low', 'financial_health': 'Good'}
 
 ## Major News
 
@@ -20,11 +20,11 @@ No theme news available yet.
 
 ## Similar Themes
 
-- Fintech: 0.217 (Similar average Discovery score; Similar short-term momentum)
-- Healthcare: 0.108 (Similar average Discovery score; Similar short-term momentum)
-- Energy: 0.107 (Theme metric similarity)
-- EV: 0.048 (Theme metric similarity)
-- Cybersecurity: 0.036 (Shared sectors: Communication Services)
+- Fintech: 0.237 (Similar average Discovery score; Similar short-term momentum)
+- Healthcare: 0.1 (Similar average Discovery score; Similar short-term momentum)
+- Energy: 0.091 (Similar average Discovery score; Similar short-term momentum)
+- EV: 0.042 (Similar short-term momentum)
+- Robotics: 0.034 (Similar short-term momentum)
 
 ## Review Note
 
