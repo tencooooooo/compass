@@ -42,8 +42,8 @@
 - BELONGS_TO: AVGO (Keyword: semiconductor; Keyword: semiconductors; Sector alignment: Technology)
 - RELATED_TO: Cloud (Shared company overlap 0.35)
 - BELONGS_TO: INTC (Keyword: semiconductors; Keyword: foundry; Sector alignment: Technology)
-- BELONGS_TO: MU (Keyword: semiconductor; Keyword: semiconductors; Keyword: memory; Sector alignment: Technology)
-- BELONGS_TO: NVDA (Keyword: semiconductors; Sector alignment: Technology)
+- BELONGS_TO: MU (Keyword: semiconductor; Keyword: semiconductors; Keyword: chip; Keyword: memory; Sector alignment: Technology)
+- BELONGS_TO: NVDA (Keyword: semiconductors; Keyword: chip; Sector alignment: Technology)
 - BELONGS_TO: QCOM (Keyword: semiconductors; Sector alignment: Technology)
 - BELONGS_TO: TXN (Keyword: semiconductor; Keyword: semiconductors; Sector alignment: Technology)
 
