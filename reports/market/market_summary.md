@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: 1.40%
+- 市場全体の1Mモメンタム平均: -1.17%
 - ニュース件数: 0
 - Event数: 0
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -31,9 +31,9 @@
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 45.33 | 18.75 | 11.20 | -1.32% | 0 |
-| Consumer Cyclical | 6 | 40.83 | 70.73 | 9.00 | 1.48% | 0 |
-| Technology | 12 | 56.50 | 43.01 | 9.13 | 2.71% | 0 |
+| Communication Services | 6 | 46.17 | 18.63 | 11.20 | -1.10% | 0 |
+| Consumer Cyclical | 6 | 41.33 | 72.96 | 9.00 | 0.05% | 0 |
+| Technology | 12 | 55.42 | 43.45 | 9.16 | -1.82% | 0 |
 
 ## 市場トレンド
 
@@ -41,11 +41,11 @@
 | --- | --- | --- | --- |
 | Communication Services | Weak | Low | Good |
 | Consumer Cyclical | Positive | Low | Neutral |
-| Technology | Positive | Low | Good |
+| Technology | Weak | Low | Good |
 
 ## 市場心理
 
-市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 0 件で、ポジティブなモメンタムのセクターは 2/3 です。
+市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 0 件で、ポジティブなモメンタムのセクターは 1/3 です。
 
 参照Knowledge: market_psychology.md
 

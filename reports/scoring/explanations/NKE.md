@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: NIKE, Inc.
-- Total Score: 46 / 100
+- Total Score: 44 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 46 点を獲得し、シグナル充足率は 57.5% です。
+- データが確認できた 80 点満点のうち 44 点を獲得し、シグナル充足率は 55.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -112,10 +112,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 17.8510
-- forward_pe: 23.2595
+- trailing_pe: 17.8894
+- forward_pe: 23.3096
 - peg_ratio: 1.5800
-- price_to_book: 3.6179
+- price_to_book: 3.6256
 - sector_peer_count: 10
 - trailing_pe_percentile: 11.1100
 - trailing_pe_peer_count: 10
@@ -128,15 +128,15 @@ Evidence
 
 ## Momentum
 
-6点
+4点
 
 理由
 
-- 1M の対SPY超過リターンは +1.19pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -18.32pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -27.69pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -61.08pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.11 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +1.78pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -16.79pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -25.77pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -59.96pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.74 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -145,15 +145,15 @@ Evidence
 
 使用データ
 
-- 1M: 3.8010
-- 3M: -14.2276
-- 6M: -17.1338
-- 1Y: -43.2812
+- 1M: 2.1177
+- 3M: -13.6787
+- 6M: -17.7501
+- 1Y: -43.9757
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.61, '3M': 4.09, '6M': 10.55, '1Y': 17.8}
-- excess_returns: {'1M': 1.19, '3M': -18.32, '6M': -27.69, '1Y': -61.08}
-- latest_volume: 46,436,500.0000
-- average_volume_30d: 41,940,483.3333
+- benchmark_returns: {'1M': 0.33, '3M': 3.11, '6M': 8.02, '1Y': 15.98}
+- excess_returns: {'1M': 1.78, '3M': -16.79, '6M': -25.77, '1Y': -59.96}
+- latest_volume: 30,969,100.0000
+- average_volume_30d: 41,986,203.3333
 
 ## News
 

@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Applied Materials, Inc.
-- Total Score: 61 / 100
+- Total Score: 59 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 61 点を獲得し、シグナル充足率は 76.2% です。
+- データが確認できた 80 点満点のうち 59 点を獲得し、シグナル充足率は 73.8% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -109,10 +109,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 35.3141
-- forward_pe: 22.1757
-- peg_ratio: 0.9100
-- price_to_book: 12.6750
+- trailing_pe: 35.6437
+- forward_pe: 22.3412
+- peg_ratio: 0.8700
+- price_to_book: 12.7933
 - sector_peer_count: 16
 - trailing_pe_percentile: 64.2900
 - trailing_pe_peer_count: 15
@@ -125,15 +125,15 @@ Evidence
 
 ## Momentum
 
-12点
+10点
 
 理由
 
-- 1M の対SPY超過リターンは +0.92pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -22.82pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -0.01pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンが +80.37pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 1.90 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは -2.28pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -25.17pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -4.67pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンが +64.86pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 1.32 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -142,15 +142,15 @@ Evidence
 
 使用データ
 
-- 1M: 3.5221
-- 3M: -18.7271
-- 6M: 10.5424
-- 1Y: 98.1706
+- 1M: -1.9430
+- 3M: -22.0606
+- 6M: 3.3499
+- 1Y: 80.8392
 - benchmark: SPY
-- benchmark_returns: {'1M': 2.61, '3M': 4.09, '6M': 10.55, '1Y': 17.8}
-- excess_returns: {'1M': 0.92, '3M': -22.82, '6M': -0.01, '1Y': 80.37}
-- latest_volume: 12,167,300.0000
-- average_volume_30d: 6,395,813.3333
+- benchmark_returns: {'1M': 0.33, '3M': 3.11, '6M': 8.02, '1Y': 15.98}
+- excess_returns: {'1M': -2.28, '3M': -25.17, '6M': -4.67, '1Y': 64.86}
+- latest_volume: 8,536,500.0000
+- average_volume_30d: 6,480,390.0000
 
 ## News
 
