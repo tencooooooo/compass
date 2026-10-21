@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: QUALCOMM Incorporated
-- Total Score: 58 / 100
+- Total Score: 56 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 58 点を獲得し、シグナル充足率は 72.5% です。
+- データが確認できた 80 点満点のうち 56 点を獲得し、シグナル充足率は 70.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -96,7 +96,7 @@ Evidence
 理由
 
 - PER はセクター内 21.43 パーセンタイル / 母数 15 で、相対的に割安寄りです。
-- Forward PER はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。
+- Forward PER はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。
 - PEG はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。
 - PBR はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
@@ -108,14 +108,14 @@ Evidence
 
 使用データ
 
-- trailing_pe: 20.0845
-- forward_pe: 17.0291
+- trailing_pe: 20.3368
+- forward_pe: 17.2431
 - peg_ratio: 0.7800
-- price_to_book: 6.6316
+- price_to_book: 6.7149
 - sector_peer_count: 16
 - trailing_pe_percentile: 21.4300
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 40.0000
+- forward_pe_percentile: 46.6700
 - forward_pe_peer_count: 16
 - peg_ratio_percentile: 40.0000
 - peg_ratio_peer_count: 16
@@ -124,15 +124,15 @@ Evidence
 
 ## Momentum
 
-10点
+8点
 
 理由
 
-- 1M の対SPY超過リターンは -9.13pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -1.51pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンが +19.50pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -8.18pt と、市場を小幅に下回っています。
-- 直近出来高が30日平均の 0.93 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -2.99pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -2.12pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンが +18.64pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -9.31pt と、市場を小幅に下回っています。
+- 直近出来高が30日平均の 0.78 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: -8.7966
-- 3M: 1.6009
-- 6M: 27.5227
-- 1Y: 7.8077
+- 1M: -2.3576
+- 3M: 0.5616
+- 6M: 27.3406
+- 1Y: 7.9618
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.33, '3M': 3.11, '6M': 8.02, '1Y': 15.98}
-- excess_returns: {'1M': -9.13, '3M': -1.51, '6M': 19.5, '1Y': -8.18}
-- latest_volume: 12,517,300.0000
-- average_volume_30d: 13,428,450.0000
+- benchmark_returns: {'1M': 0.63, '3M': 2.69, '6M': 8.7, '1Y': 17.27}
+- excess_returns: {'1M': -2.99, '3M': -2.12, '6M': 18.64, '1Y': -9.31}
+- latest_volume: 10,554,800.0000
+- average_volume_30d: 13,496,560.0000
 
 ## News
 

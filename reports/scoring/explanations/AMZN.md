@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Amazon.com, Inc.
-- Total Score: 55 / 100
+- Total Score: 61 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 55 点を獲得し、シグナル充足率は 68.8% です。
+- データが確認できた 80 点満点のうち 61 点を獲得し、シグナル充足率は 76.2% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -112,10 +112,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 21.1142
-- forward_pe: 25.1313
+- trailing_pe: 21.1287
+- forward_pe: 25.1485
 - peg_ratio: 1.4500
-- price_to_book: 5.1304
+- price_to_book: 5.1339
 - sector_peer_count: 10
 - trailing_pe_percentile: 44.4400
 - trailing_pe_peer_count: 10
@@ -128,15 +128,15 @@ Evidence
 
 ## Momentum
 
-7点
+13点
 
 理由
 
-- 1M の対SPY超過リターンは -0.81pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -3.10pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -8.25pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンは -0.01pt と、市場を小幅に下回っています。
-- 直近出来高が30日平均の 1.15 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +2.82pt で、市場並み以上です。
+- 3M の対SPY超過リターンは +3.33pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -2.99pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは +5.10pt で、市場並み以上です。
+- 直近出来高が30日平均の 1.57 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -145,15 +145,15 @@ Evidence
 
 使用データ
 
-- 1M: -0.4737
-- 3M: 0.0040
-- 6M: -0.2235
-- 1Y: 15.9716
+- 1M: 3.4449
+- 3M: 6.0190
+- 6M: 5.7073
+- 1Y: 22.3714
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.33, '3M': 3.11, '6M': 8.02, '1Y': 15.98}
-- excess_returns: {'1M': -0.81, '3M': -3.1, '6M': -8.25, '1Y': -0.01}
-- latest_volume: 40,306,000.0000
-- average_volume_30d: 34,941,473.3333
+- benchmark_returns: {'1M': 0.63, '3M': 2.69, '6M': 8.7, '1Y': 17.27}
+- excess_returns: {'1M': 2.82, '3M': 3.33, '6M': -2.99, '1Y': 5.1}
+- latest_volume: 56,188,800.0000
+- average_volume_30d: 35,793,480.0000
 
 ## News
 

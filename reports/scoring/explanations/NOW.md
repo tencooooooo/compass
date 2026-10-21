@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: ServiceNow, Inc.
-- Total Score: 51 / 100
+- Total Score: 50 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 51 点を獲得し、シグナル充足率は 63.8% です。
+- データが確認できた 80 点満点のうち 50 点を獲得し、シグナル充足率は 62.5% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -108,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 90.8500
-- forward_pe: 29.0413
+- trailing_pe: 93.4625
+- forward_pe: 29.8655
 - peg_ratio: 1.0200
-- price_to_book: 12.0073
+- price_to_book: 12.3526
 - sector_peer_count: 16
 - trailing_pe_percentile: 92.8600
 - trailing_pe_peer_count: 15
@@ -124,15 +124,15 @@ Evidence
 
 ## Momentum
 
-15点
+14点
 
 理由
 
-- 1M の対SPY超過リターンは +2.19pt で、市場並み以上です。
-- 3M の対SPY超過リターンが +32.49pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +38.85pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -37.38pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.33 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは +6.67pt で、市場並み以上です。
+- 3M の対SPY超過リターンが +39.74pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +37.07pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -36.02pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.83 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: 2.5276
-- 3M: 35.5969
-- 6M: 46.8756
-- 1Y: -21.3942
+- 1M: 7.3005
+- 3M: 42.4260
+- 6M: 45.7681
+- 1Y: -18.7470
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.33, '3M': 3.11, '6M': 8.02, '1Y': 15.98}
-- excess_returns: {'1M': 2.19, '3M': 32.49, '6M': 38.85, '1Y': -37.38}
-- latest_volume: 15,481,900.0000
-- average_volume_30d: 11,637,566.6667
+- benchmark_returns: {'1M': 0.63, '3M': 2.69, '6M': 8.7, '1Y': 17.27}
+- excess_returns: {'1M': 6.67, '3M': 39.74, '6M': 37.07, '1Y': -36.02}
+- latest_volume: 9,564,200.0000
+- average_volume_30d: 11,541,110.0000
 
 ## News
 

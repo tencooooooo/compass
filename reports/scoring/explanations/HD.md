@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: The Home Depot, Inc.
-- Total Score: 40 / 100
+- Total Score: 37 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 40 点を獲得し、シグナル充足率は 50.0% です。
+- データが確認できた 80 点満点のうち 37 点を獲得し、シグナル充足率は 46.2% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -112,10 +112,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 21.6851
-- forward_pe: 19.3802
+- trailing_pe: 22.0511
+- forward_pe: 19.7073
 - peg_ratio: 1.6300
-- price_to_book: 18.6114
+- price_to_book: 18.9255
 - sector_peer_count: 10
 - trailing_pe_percentile: 55.5600
 - trailing_pe_peer_count: 10
@@ -128,15 +128,15 @@ Evidence
 
 ## Momentum
 
-8点
+5点
 
 理由
 
-- 1M の対SPY超過リターンは +2.02pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -9.45pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -18.08pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -33.99pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.33 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは +2.67pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -8.55pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -19.09pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -35.02pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.74 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -145,15 +145,15 @@ Evidence
 
 使用データ
 
-- 1M: 2.3536
-- 3M: -6.3441
-- 6M: -10.0597
-- 1Y: -18.0020
+- 1M: 3.3002
+- 3M: -5.8614
+- 6M: -10.3949
+- 1Y: -17.7430
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.33, '3M': 3.11, '6M': 8.02, '1Y': 15.98}
-- excess_returns: {'1M': 2.02, '3M': -9.45, '6M': -18.08, '1Y': -33.99}
-- latest_volume: 7,035,400.0000
-- average_volume_30d: 5,284,350.0000
+- benchmark_returns: {'1M': 0.63, '3M': 2.69, '6M': 8.7, '1Y': 17.27}
+- excess_returns: {'1M': 2.67, '3M': -8.55, '6M': -19.09, '1Y': -35.02}
+- latest_volume: 3,936,500.0000
+- average_volume_30d: 5,340,200.0000
 
 ## News
 

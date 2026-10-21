@@ -6,8 +6,8 @@
 
 - 対象企業数: 24
 - セクター数: 3
-- 市場平均スコア: 49.583333333333336
-- 1M市場モメンタム平均: -1.1725420941618572
+- 市場平均スコア: 48.791666666666664
+- 1M市場モメンタム平均: -0.0174318614661938
 - ニュース件数: 0
 - Event数: 0
 
@@ -15,9 +15,10 @@
 
 | Ticker | Company | Sector | Discovery Score | Status | Confidence | Signal |
 | --- | --- | --- | --- | --- | --- | --- |
-| AMD | Advanced Micro Devices, Inc. | Technology | 67 | Watch Candidate | Medium | Strong |
+| AMD | Advanced Micro Devices, Inc. | Technology | 65 | Watch Candidate | Medium | Strong |
 | TXN | Texas Instruments Incorporated | Technology | 61 | Watch Candidate | Medium | Strong |
 | MSFT | Microsoft Corporation | Technology | 60 | Watch Candidate | Medium | Strong |
+| CRM | Salesforce, Inc. | Technology | 60 | Watch Candidate | Medium | Strong |
 
 ## Top Candidate
 

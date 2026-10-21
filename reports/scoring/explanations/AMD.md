@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Advanced Micro Devices, Inc.
-- Total Score: 63 / 100
+- Total Score: 61 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 63 点を獲得し、シグナル充足率は 78.8% です。
+- データが確認できた 80 点満点のうち 61 点を獲得し、シグナル充足率は 76.2% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -109,10 +109,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 137.2576
-- forward_pe: 34.1357
+- trailing_pe: 136.4133
+- forward_pe: 33.9240
 - peg_ratio: 0.5300
-- price_to_book: 13.0623
+- price_to_book: 12.9820
 - sector_peer_count: 16
 - trailing_pe_percentile: 100
 - trailing_pe_peer_count: 15
@@ -125,15 +125,15 @@ Evidence
 
 ## Momentum
 
-15点
+13点
 
 理由
 
-- 1M の対SPY超過リターンは -3.33pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは +1.89pt で、市場並み以上です。
-- 6M の対SPY超過リターンが +81.91pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンが +105.62pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 1.03 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -4.52pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -3.86pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンが +86.99pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンが +112.11pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.92 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -142,15 +142,15 @@ Evidence
 
 使用データ
 
-- 1M: -2.9977
-- 3M: 5.0003
-- 6M: 89.9314
-- 1Y: 121.6052
+- 1M: -3.8888
+- 3M: -1.1719
+- 6M: 95.6901
+- 1Y: 129.3869
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.33, '3M': 3.11, '6M': 8.02, '1Y': 15.98}
-- excess_returns: {'1M': -3.33, '3M': 1.89, '6M': 81.91, '1Y': 105.62}
-- latest_volume: 22,481,800.0000
-- average_volume_30d: 21,825,693.3333
+- benchmark_returns: {'1M': 0.63, '3M': 2.69, '6M': 8.7, '1Y': 17.27}
+- excess_returns: {'1M': -4.52, '3M': -3.86, '6M': 86.99, '1Y': 112.11}
+- latest_volume: 20,199,700.0000
+- average_volume_30d: 21,846,183.3333
 
 ## News
 

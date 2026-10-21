@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Tesla, Inc.
-- Total Score: 41 / 100
+- Total Score: 42 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 41 点を獲得し、シグナル充足率は 51.2% です。
+- データが確認できた 80 点満点のうち 42 点を獲得し、シグナル充足率は 52.5% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -109,10 +109,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 340.7963
-- forward_pe: 169.7373
+- trailing_pe: 346.0278
+- forward_pe: 172.3429
 - peg_ratio: 3.6100
-- price_to_book: 16.7338
+- price_to_book: 16.9907
 - sector_peer_count: 10
 - trailing_pe_percentile: 100
 - trailing_pe_peer_count: 10
@@ -125,15 +125,15 @@ Evidence
 
 ## Momentum
 
-6点
+7点
 
 理由
 
-- 1M の対SPY超過リターンは -3.47pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -7.12pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -19.48pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -34.47pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.71 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは +0.41pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -5.56pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -14.92pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -31.43pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.10 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -142,15 +142,15 @@ Evidence
 
 使用データ
 
-- 1M: -3.1349
-- 3M: -4.0182
-- 6M: -11.4572
-- 1Y: -18.4833
+- 1M: 1.0404
+- 3M: -2.8686
+- 6M: -6.2268
+- 1Y: -14.1551
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.33, '3M': 3.11, '6M': 8.02, '1Y': 15.98}
-- excess_returns: {'1M': -3.47, '3M': -7.12, '6M': -19.48, '1Y': -34.47}
-- latest_volume: 61,855,000.0000
-- average_volume_30d: 36,118,046.6667
+- benchmark_returns: {'1M': 0.63, '3M': 2.69, '6M': 8.7, '1Y': 17.27}
+- excess_returns: {'1M': 0.41, '3M': -5.56, '6M': -14.92, '1Y': -31.43}
+- latest_volume: 38,817,900.0000
+- average_volume_30d: 35,251,780.0000
 
 ## News
 
