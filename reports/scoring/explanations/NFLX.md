@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Netflix, Inc.
-- Total Score: 46 / 100
+- Total Score: 45 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,18 +28,18 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 46 点を獲得し、シグナル充足率は 57.5% です。
+- データが確認できた 80 点満点のうち 45 点を獲得し、シグナル充足率は 56.2% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
-16点
+14点
 
 理由
 
-- revenue_growth(直近4四半期平均) は 15.65% で、+15%以上の成長です。
-- eps_growth(直近4四半期平均) は 5.23% で、プラス成長を維持しています。
-- eps_growth は直近四半期が前四半期より -75.25pt 低く、成長の減速に注意が必要です。
+- revenue_growth(直近4四半期平均) は 14.64% で、プラス成長を維持しています。
+- eps_growth(直近4四半期平均) は 13.97% で、プラス成長を維持しています。
+- eps_growth は直近四半期が前四半期より +36.35pt 高く、成長の加速がみられます。
 - 純利益 がプラスで確認できるため加点しています。
 - 営業利益 がプラスで確認できるため加点しています。
 - 研究開発費が確認でき、将来成長への投資が続いています。
@@ -57,12 +57,12 @@ Evidence
 - net_income: 10,981,201,000.0000
 - operating_income: 13,326,603,000.0000
 - research_and_development: 3,391,390,000.0000
-- revenue_yoy_growth: 13.3700
-- eps_yoy_growth: 11.1100
-- revenue_yoy_growth_avg: 15.6500
-- eps_yoy_growth_avg: 5.2300
-- revenue_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
-- eps_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
+- revenue_yoy_growth: 11.8500
+- eps_yoy_growth: 47.4600
+- revenue_yoy_growth_avg: 14.6400
+- eps_yoy_growth_avg: 13.9700
+- revenue_growth_quarters: ['2026-Q3', '2026-Q2', '2026-Q1', '2025-Q3']
+- eps_growth_quarters: ['2026-Q3', '2026-Q2', '2026-Q1', '2025-Q3']
 
 ## Financial Health
 
@@ -97,7 +97,7 @@ Evidence
 
 - PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
-- PEG はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
+- PEG はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
 - PBR はセクター内 100.00 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -108,31 +108,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 21.6006
-- forward_pe: 18.0747
-- peg_ratio: 1.2100
-- price_to_book: 9.4863
+- trailing_pe: 18.7977
+- forward_pe: 17.2133
+- peg_ratio: 1.1100
+- price_to_book: 9.1825
 - sector_peer_count: 10
 - trailing_pe_percentile: 66.6700
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 66.6700
 - forward_pe_peer_count: 10
-- peg_ratio_percentile: 55.5600
+- peg_ratio_percentile: 44.4400
 - peg_ratio_peer_count: 10
 - price_to_book_percentile: 100
 - price_to_book_peer_count: 10
 
 ## Momentum
 
-5点
+6点
 
 理由
 
-- 1M の対SPY超過リターンは -3.33pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -0.97pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -35.04pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -58.26pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.96 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -5.79pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -2.92pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -35.59pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -59.73pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.83 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: -2.7023
-- 3M: 1.7184
-- 6M: -26.3419
-- 1Y: -40.9846
+- 1M: -6.3659
+- 3M: 0.2335
+- 6M: -25.8047
+- 1Y: -42.7278
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.63, '3M': 2.69, '6M': 8.7, '1Y': 17.27}
-- excess_returns: {'1M': -3.33, '3M': -0.97, '6M': -35.04, '1Y': -58.26}
-- latest_volume: 33,962,400.0000
-- average_volume_30d: 35,468,646.6667
+- benchmark_returns: {'1M': -0.58, '3M': 3.15, '6M': 9.78, '1Y': 17.0}
+- excess_returns: {'1M': -5.79, '3M': -2.92, '6M': -35.59, '1Y': -59.73}
+- latest_volume: 67,039,300.0000
+- average_volume_30d: 36,574,440.0000
 
 ## News
 

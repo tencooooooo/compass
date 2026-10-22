@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Meta Platforms, Inc.
-- Total Score: 47 / 100
+- Total Score: 46 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 47 点を獲得し、シグナル充足率は 58.8% です。
+- データが確認できた 80 点満点のうち 46 点を獲得し、シグナル充足率は 57.5% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -109,10 +109,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 26.1586
-- forward_pe: 20.0356
-- peg_ratio: 0.9400
-- price_to_book: 6.7718
+- trailing_pe: 26.2818
+- forward_pe: 20.1300
+- peg_ratio: 0.9200
+- price_to_book: 6.8037
 - sector_peer_count: 10
 - trailing_pe_percentile: 88.8900
 - trailing_pe_peer_count: 10
@@ -125,15 +125,15 @@ Evidence
 
 ## Momentum
 
-7点
+6点
 
 理由
 
-- 1M の対SPY超過リターンは +5.42pt で、市場並み以上です。
-- 3M の対SPY超過リターンは +6.97pt で、市場並み以上です。
-- 6M の対SPY超過リターンは -3.37pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンは -17.87pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.76 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -5.77pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは +7.63pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -5.80pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは -19.84pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.80 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -142,15 +142,15 @@ Evidence
 
 使用データ
 
-- 1M: 6.0453
-- 3M: 9.6592
-- 6M: 5.3273
-- 1Y: -0.5950
+- 1M: -6.3406
+- 3M: 10.7830
+- 6M: 3.9773
+- 1Y: -2.8337
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.63, '3M': 2.69, '6M': 8.7, '1Y': 17.27}
-- excess_returns: {'1M': 5.42, '3M': 6.97, '6M': -3.37, '1Y': -17.87}
-- latest_volume: 16,260,900.0000
-- average_volume_30d: 21,488,113.3333
+- benchmark_returns: {'1M': -0.58, '3M': 3.15, '6M': 9.78, '1Y': 17.0}
+- excess_returns: {'1M': -5.77, '3M': 7.63, '6M': -5.8, '1Y': -19.84}
+- latest_volume: 17,049,100.0000
+- average_volume_30d: 21,426,093.3333
 
 ## News
 

@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Applied Materials, Inc.
-- Total Score: 58 / 100
+- Total Score: 57 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 58 点を獲得し、シグナル充足率は 72.5% です。
+- データが確認できた 80 点満点のうち 57 点を獲得し、シグナル充足率は 71.2% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -98,7 +98,7 @@ Evidence
 
 - PER はセクター内 64.29 パーセンタイル / 母数 15 で、中位レンジです。
 - Forward PER はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。
-- PEG はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。
+- PEG はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。
 - PBR はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -109,31 +109,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 34.9422
-- forward_pe: 21.9015
-- peg_ratio: 0.8700
-- price_to_book: 12.5416
+- trailing_pe: 35.2839
+- forward_pe: 22.1157
+- peg_ratio: 0.8600
+- price_to_book: 12.6642
 - sector_peer_count: 16
 - trailing_pe_percentile: 64.2900
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 60.0000
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 53.3300
+- peg_ratio_percentile: 46.6700
 - peg_ratio_peer_count: 16
 - price_to_book_percentile: 66.6700
 - price_to_book_peer_count: 16
 
 ## Momentum
 
-9点
+8点
 
 理由
 
-- 1M の対SPY超過リターンは -7.71pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -29.43pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -2.97pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンが +65.14pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 1.04 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -12.19pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -29.96pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -6.84pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンが +63.99pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 1.05 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -142,15 +142,15 @@ Evidence
 
 使用データ
 
-- 1M: -7.0765
-- 3M: -26.7467
-- 6M: 5.7315
-- 1Y: 82.4148
+- 1M: -12.7649
+- 3M: -26.8102
+- 6M: 2.9384
+- 1Y: 80.9947
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.63, '3M': 2.69, '6M': 8.7, '1Y': 17.27}
-- excess_returns: {'1M': -7.71, '3M': -29.43, '6M': -2.97, '1Y': 65.14}
-- latest_volume: 6,750,300.0000
-- average_volume_30d: 6,505,586.6667
+- benchmark_returns: {'1M': -0.58, '3M': 3.15, '6M': 9.78, '1Y': 17.0}
+- excess_returns: {'1M': -12.19, '3M': -29.96, '6M': -6.84, '1Y': 63.99}
+- latest_volume: 6,856,500.0000
+- average_volume_30d: 6,523,983.3333
 
 ## News
 
