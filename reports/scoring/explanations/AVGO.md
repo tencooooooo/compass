@@ -96,10 +96,10 @@ Evidence
 
 理由
 
-- PER はセクター内 78.57 パーセンタイル / 母数 15 で、相対的な加点は抑えています。
+- PER はセクター内 85.71 パーセンタイル / 母数 15 で、相対的な加点は抑えています。
 - Forward PER はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。
 - PEG はセクター内 13.33 パーセンタイル / 母数 16 で、相対的に割安寄りです。
-- PBR はセクター内 86.67 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
+- PBR はセクター内 80.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -109,18 +109,18 @@ Evidence
 
 使用データ
 
-- trailing_pe: 43.1418
-- forward_pe: 17.4151
+- trailing_pe: 41.2822
+- forward_pe: 16.6645
 - peg_ratio: 0.3300
-- price_to_book: 16.1766
+- price_to_book: 15.4794
 - sector_peer_count: 16
-- trailing_pe_percentile: 78.5700
+- trailing_pe_percentile: 85.7100
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 40.0000
 - forward_pe_peer_count: 16
 - peg_ratio_percentile: 13.3300
 - peg_ratio_peer_count: 16
-- price_to_book_percentile: 86.6700
+- price_to_book_percentile: 80.0000
 - price_to_book_peer_count: 16
 
 ## Momentum
@@ -129,11 +129,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -7.23pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -18.73pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -26.36pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -20.57pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.68 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -7.30pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -18.76pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -29.05pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -18.96pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.74 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -142,15 +142,15 @@ Evidence
 
 使用データ
 
-- 1M: -7.8007
-- 3M: -15.5821
-- 6M: -16.5753
-- 1Y: -3.5708
+- 1M: -7.3353
+- 3M: -13.7730
+- 6M: -19.8035
+- 1Y: -2.5565
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.58, '3M': 3.15, '6M': 9.78, '1Y': 17.0}
-- excess_returns: {'1M': -7.23, '3M': -18.73, '6M': -26.36, '1Y': -20.57}
-- latest_volume: 15,951,800.0000
-- average_volume_30d: 23,340,680.0000
+- benchmark_returns: {'1M': -0.04, '3M': 4.99, '6M': 9.25, '1Y': 16.41}
+- excess_returns: {'1M': -7.3, '3M': -18.76, '6M': -29.05, '1Y': -18.96}
+- latest_volume: 17,123,600.0000
+- average_volume_30d: 23,047,526.6667
 
 ## News
 

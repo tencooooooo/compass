@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Tesla, Inc.
-- Total Score: 42 / 100
+- Total Score: 47 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 42 点を獲得し、シグナル充足率は 52.5% です。
+- データが確認できた 80 点満点のうち 47 点を獲得し、シグナル充足率は 58.8% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -37,10 +37,10 @@ Moderate
 
 理由
 
-- revenue_growth(直近4四半期平均) は 10.27% で、プラス成長を維持しています。
-- eps_growth(直近4四半期平均) は -12.32% で、前年同期比ではマイナスです。
-- revenue_growth は直近四半期が前四半期より +9.74pt 高く、成長の加速がみられます。
-- eps_growth は直近四半期が前四半期より -11.36pt 低く、成長の減速に注意が必要です。
+- revenue_growth(直近4四半期平均) は 13.17% で、プラス成長を維持しています。
+- eps_growth(直近4四半期平均) は -18.85% で、前年同期比ではマイナスです。
+- revenue_growth は直近四半期が前四半期より -25.69pt 低く、成長の減速に注意が必要です。
+- eps_growth は直近四半期が前四半期より -40.56pt 低く、成長の減速に注意が必要です。
 - 純利益 がプラスで確認できるため加点しています。
 - 営業利益 がプラスで確認できるため加点しています。
 - 研究開発費が確認でき、将来成長への投資が続いています。
@@ -58,12 +58,12 @@ Evidence
 - net_income: 3,794,000,000.0000
 - operating_income: 4,849,000,000.0000
 - research_and_development: 6,411,000,000.0000
-- revenue_yoy_growth: 25.5200
-- eps_yoy_growth: -3.0300
-- revenue_yoy_growth_avg: 10.2700
-- eps_yoy_growth_avg: -12.3200
-- revenue_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
-- eps_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
+- revenue_yoy_growth: -0.1700
+- eps_yoy_growth: -43.5900
+- revenue_yoy_growth_avg: 13.1700
+- eps_yoy_growth_avg: -18.8500
+- revenue_growth_quarters: ['2026-Q3', '2026-Q2', '2026-Q1', '2025-Q3']
+- eps_growth_quarters: ['2026-Q3', '2026-Q2', '2026-Q1', '2025-Q3']
 
 ## Financial Health
 
@@ -109,10 +109,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 357.8426
-- forward_pe: 178.2224
-- peg_ratio: 3.8100
-- price_to_book: 17.5708
+- trailing_pe: 346.8333
+- forward_pe: 171.1341
+- peg_ratio: 3.9400
+- price_to_book: 17.1065
 - sector_peer_count: 10
 - trailing_pe_percentile: 100
 - trailing_pe_peer_count: 10
@@ -125,15 +125,15 @@ Evidence
 
 ## Momentum
 
-7点
+12点
 
 理由
 
-- 1M の対SPY超過リターンは +0.15pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -3.23pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -13.07pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -31.93pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.93 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +2.04pt で、市場並み以上です。
+- 3M の対SPY超過リターンが +15.90pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンは -9.52pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは -30.03pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.39 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -142,15 +142,15 @@ Evidence
 
 使用データ
 
-- 1M: -0.4237
-- 3M: -0.0802
-- 6M: -3.2892
-- 1Y: -14.9325
+- 1M: 1.9979
+- 3M: 20.8890
+- 6M: -0.2684
+- 1Y: -13.6245
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.58, '3M': 3.15, '6M': 9.78, '1Y': 17.0}
-- excess_returns: {'1M': 0.15, '3M': -3.23, '6M': -13.07, '1Y': -31.93}
-- latest_volume: 32,123,300.0000
-- average_volume_30d: 34,619,930.0000
+- benchmark_returns: {'1M': -0.04, '3M': 4.99, '6M': 9.25, '1Y': 16.41}
+- excess_returns: {'1M': 2.04, '3M': 15.9, '6M': -9.52, '1Y': -30.03}
+- latest_volume: 48,875,800.0000
+- average_volume_30d: 35,163,646.6667
 
 ## News
 

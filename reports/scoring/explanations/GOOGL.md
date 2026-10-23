@@ -5,9 +5,9 @@
 ## Summary
 
 - Company: Alphabet Inc.
-- Total Score: 51 / 100
+- Total Score: 54 / 100
 - Confidence: Medium
-- Signal Strength: Moderate
+- Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
@@ -24,12 +24,12 @@ Medium
 
 ## Signal Strength
 
-Moderate
+Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 51 点を獲得し、シグナル充足率は 63.8% です。
-- シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
+- データが確認できた 80 点満点のうち 54 点を獲得し、シグナル充足率は 67.5% です。
+- シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
@@ -99,8 +99,8 @@ Evidence
 
 理由
 
-- PER はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
-- Forward PER はセクター内 100.00 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
+- PER はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
+- Forward PER はセクター内 88.89 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - PEG はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
 - PBR はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
@@ -112,14 +112,14 @@ Evidence
 
 使用データ
 
-- trailing_pe: 16.7968
-- forward_pe: 21.8116
-- peg_ratio: 1.1900
-- price_to_book: 6.5773
+- trailing_pe: 16.2679
+- forward_pe: 21.1099
+- peg_ratio: 1.1800
+- price_to_book: 6.3702
 - sector_peer_count: 10
-- trailing_pe_percentile: 55.5600
+- trailing_pe_percentile: 44.4400
 - trailing_pe_peer_count: 10
-- forward_pe_percentile: 100
+- forward_pe_percentile: 88.8900
 - forward_pe_peer_count: 10
 - peg_ratio_percentile: 55.5600
 - peg_ratio_peer_count: 10
@@ -128,15 +128,15 @@ Evidence
 
 ## Momentum
 
-8点
+11点
 
 理由
 
-- 1M の対SPY超過リターンは -3.56pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -3.62pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -7.25pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンが +17.69pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.72 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -4.63pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは +0.45pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -10.47pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンが +14.42pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 1.15 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -145,15 +145,15 @@ Evidence
 
 使用データ
 
-- 1M: -4.1384
-- 3M: -0.4652
-- 6M: 2.5316
-- 1Y: 34.6881
+- 1M: -4.6702
+- 3M: 5.4409
+- 6M: -1.2215
+- 1Y: 30.8247
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.58, '3M': 3.15, '6M': 9.78, '1Y': 17.0}
-- excess_returns: {'1M': -3.56, '3M': -3.62, '6M': -7.25, '1Y': 17.69}
-- latest_volume: 18,316,900.0000
-- average_volume_30d: 25,525,913.3333
+- benchmark_returns: {'1M': -0.04, '3M': 4.99, '6M': 9.25, '1Y': 16.41}
+- excess_returns: {'1M': -4.63, '3M': 0.45, '6M': -10.47, '1Y': 14.42}
+- latest_volume: 29,165,500.0000
+- average_volume_30d: 25,393,043.3333
 
 ## News
 
