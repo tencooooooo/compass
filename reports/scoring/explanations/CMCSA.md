@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Comcast Corporation
-- Total Score: 44 / 100
+- Total Score: 45 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 44 点を獲得し、シグナル充足率は 55.0% です。
+- データが確認できた 80 点満点のうち 45 点を獲得し、シグナル充足率は 56.2% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -112,10 +112,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 7.3677
-- forward_pe: 6.3976
+- trailing_pe: 7.1804
+- forward_pe: 6.4036
 - peg_ratio: 142.9800
-- price_to_book: 0.8495
+- price_to_book: 0.8735
 - sector_peer_count: 10
 - trailing_pe_percentile: 11.1100
 - trailing_pe_peer_count: 10
@@ -128,15 +128,15 @@ Evidence
 
 ## Momentum
 
-8点
+9点
 
 理由
 
-- 1M の対SPY超過リターンは +0.05pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -2.69pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -31.86pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -32.47pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.26 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは +3.36pt で、市場並み以上です。
+- 3M の対SPY超過リターンは +0.37pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -34.07pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -29.36pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.66 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -145,15 +145,15 @@ Evidence
 
 使用データ
 
-- 1M: 0.0143
-- 3M: 2.2957
-- 6M: -22.6124
-- 1Y: -16.0597
+- 1M: 2.8604
+- 3M: 4.0136
+- 6M: -25.6920
+- 1Y: -14.3293
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.04, '3M': 4.99, '6M': 9.25, '1Y': 16.41}
-- excess_returns: {'1M': 0.05, '3M': -2.69, '6M': -31.86, '1Y': -32.47}
-- latest_volume: 40,201,400.0000
-- average_volume_30d: 31,819,250.0000
+- benchmark_returns: {'1M': -0.5, '3M': 3.64, '6M': 8.38, '1Y': 15.03}
+- excess_returns: {'1M': 3.36, '3M': 0.37, '6M': -34.07, '1Y': -29.36}
+- latest_volume: 54,428,800.0000
+- average_volume_30d: 32,840,156.6667
 
 ## News
 

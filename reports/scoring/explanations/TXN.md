@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Texas Instruments Incorporated
-- Total Score: 59 / 100
+- Total Score: 58 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,18 +28,18 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 59 点を獲得し、シグナル充足率は 73.8% です。
+- データが確認できた 80 点満点のうち 58 点を獲得し、シグナル充足率は 72.5% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
-17点
+19点
 
 理由
 
-- revenue_growth(直近4四半期平均) は 18.00% で、+15%以上の成長です。
-- eps_growth(直近4四半期平均) は 24.82% で、+15%以上の成長です。
-- eps_growth は直近四半期が前四半期より +20.52pt 高く、成長の加速がみられます。
+- revenue_growth(直近4四半期平均) は 20.83% で、+15%以上の成長です。
+- eps_growth(直近4四半期平均) は 40.18% で、+30%以上の高成長です。
+- eps_growth は直近四半期が前四半期より +25.26pt 高く、成長の加速がみられます。
 - 純利益 がプラスで確認できるため加点しています。
 - 営業利益 がプラスで確認できるため加点しています。
 - 研究開発費が確認でき、将来成長への投資が続いています。
@@ -57,12 +57,12 @@ Evidence
 - net_income: 5,001,000,000.0000
 - operating_income: 6,140,000,000.0000
 - research_and_development: 2,083,000,000.0000
-- revenue_yoy_growth: 22.8200
-- eps_yoy_growth: 51.7700
-- revenue_yoy_growth_avg: 18.0000
-- eps_yoy_growth_avg: 24.8200
-- revenue_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
-- eps_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
+- revenue_yoy_growth: 27.6900
+- eps_yoy_growth: 77.0300
+- revenue_yoy_growth_avg: 20.8300
+- eps_yoy_growth_avg: 40.1800
+- revenue_growth_quarters: ['2026-Q3', '2026-Q2', '2026-Q1', '2025-Q3']
+- eps_growth_quarters: ['2026-Q3', '2026-Q2', '2026-Q1', '2025-Q3']
 
 ## Financial Health
 
@@ -98,7 +98,7 @@ Evidence
 - PER はセクター内 71.43 パーセンタイル / 母数 15 で、中位レンジです。
 - Forward PER はセクター内 73.33 パーセンタイル / 母数 16 で、中位レンジです。
 - PEG はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。
-- PBR はセクター内 86.67 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
+- PBR はセクター内 80.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -108,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 36.9221
-- forward_pe: 24.2568
-- peg_ratio: 0.9600
-- price_to_book: 15.5780
+- trailing_pe: 36.9248
+- forward_pe: 24.7072
+- peg_ratio: 0.9500
+- price_to_book: 13.5631
 - sector_peer_count: 16
 - trailing_pe_percentile: 71.4300
 - trailing_pe_peer_count: 15
@@ -119,20 +119,20 @@ Evidence
 - forward_pe_peer_count: 16
 - peg_ratio_percentile: 60.0000
 - peg_ratio_peer_count: 16
-- price_to_book_percentile: 86.6700
+- price_to_book_percentile: 80.0000
 - price_to_book_peer_count: 16
 
 ## Momentum
 
-16点
+13点
 
 理由
 
-- 1M の対SPY超過リターンは +4.92pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -4.60pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンが +12.44pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンが +46.20pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 1.70 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは +3.03pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -3.16pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -8.34pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンが +43.53pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 2.17 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: 4.8782
-- 3M: 0.3921
-- 6M: 21.6881
-- 1Y: 62.6046
+- 1M: 2.5237
+- 3M: 0.4832
+- 6M: 0.0455
+- 1Y: 58.5591
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.04, '3M': 4.99, '6M': 9.25, '1Y': 16.41}
-- excess_returns: {'1M': 4.92, '3M': -4.6, '6M': 12.44, '1Y': 46.2}
-- latest_volume: 10,433,000.0000
-- average_volume_30d: 6,126,993.3333
+- benchmark_returns: {'1M': -0.5, '3M': 3.64, '6M': 8.38, '1Y': 15.03}
+- excess_returns: {'1M': 3.03, '3M': -3.16, '6M': -8.34, '1Y': 43.53}
+- latest_volume: 13,865,800.0000
+- average_volume_30d: 6,394,513.3333
 
 ## News
 

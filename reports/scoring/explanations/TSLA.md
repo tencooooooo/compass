@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Tesla, Inc.
-- Total Score: 47 / 100
+- Total Score: 45 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 47 点を獲得し、シグナル充足率は 58.8% です。
+- データが確認できた 80 点満点のうち 45 点を獲得し、シグナル充足率は 56.2% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -99,7 +99,7 @@ Evidence
 - PER はセクター内 100.00 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - Forward PER はセクター内 100.00 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - PEG はセクター内 100.00 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
-- PBR はセクター内 75.00 パーセンタイル / 母数 5 で、中位レンジです。
+- PBR はセクター内 50.00 パーセンタイル / 母数 5 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -109,10 +109,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 346.8333
-- forward_pe: 171.1341
-- peg_ratio: 3.9400
-- price_to_book: 17.1065
+- trailing_pe: 409.0330
+- forward_pe: 172.0087
+- peg_ratio: 3.8200
+- price_to_book: 13.5068
 - sector_peer_count: 10
 - trailing_pe_percentile: 100
 - trailing_pe_peer_count: 10
@@ -120,20 +120,20 @@ Evidence
 - forward_pe_peer_count: 10
 - peg_ratio_percentile: 100
 - peg_ratio_peer_count: 10
-- price_to_book_percentile: 75.0000
+- price_to_book_percentile: 50.0000
 - price_to_book_peer_count: 5
 
 ## Momentum
 
-12点
+10点
 
 理由
 
-- 1M の対SPY超過リターンは +2.04pt で、市場並み以上です。
-- 3M の対SPY超過リターンが +15.90pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンは -9.52pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンは -30.03pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.39 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは -0.96pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンが +16.02pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンは -8.15pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは -30.40pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.44 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -142,15 +142,15 @@ Evidence
 
 使用データ
 
-- 1M: 1.9979
-- 3M: 20.8890
-- 6M: -0.2684
-- 1Y: -13.6245
+- 1M: -1.4574
+- 3M: 19.6626
+- 6M: 0.2301
+- 1Y: -15.3683
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.04, '3M': 4.99, '6M': 9.25, '1Y': 16.41}
-- excess_returns: {'1M': 2.04, '3M': 15.9, '6M': -9.52, '1Y': -30.03}
-- latest_volume: 48,875,800.0000
-- average_volume_30d: 35,163,646.6667
+- benchmark_returns: {'1M': -0.5, '3M': 3.64, '6M': 8.38, '1Y': 15.03}
+- excess_returns: {'1M': -0.96, '3M': 16.02, '6M': -8.15, '1Y': -30.4}
+- latest_volume: 51,610,900.0000
+- average_volume_30d: 35,895,103.3333
 
 ## News
 
