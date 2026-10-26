@@ -26,13 +26,12 @@
 ## Accenture plc
 
 - COMPETES_WITH: AAPL (Same sector)
-- BELONGS_TO: AI (Keyword: ai; Sector alignment: Technology)
-- BELONGS_TO: Cloud (Keyword: cloud; Keyword: aws; Keyword: infrastructure; Sector alignment: Technology)
-- BELONGS_TO: Cybersecurity (Keyword: security; Sector alignment: Technology)
+- BELONGS_TO: AI (Keyword: ai; Keyword: artificial intelligence; Sector alignment: Technology)
+- BELONGS_TO: Cloud (Keyword: cloud; Keyword: infrastructure; Sector alignment: Technology)
+- BELONGS_TO: Cybersecurity (Keyword: cybersecurity; Sector alignment: Technology)
 - BELONGS_TO: Energy (Keyword: energy)
 - BELONGS_TO: Fintech (Keyword: banking; Sector alignment: Technology)
 - BELONGS_TO: Ireland (Company profile country)
-- BELONGS_TO: Robotics (Keyword: robotics; Keyword: automation; Sector alignment: Technology)
 - BELONGS_TO: Technology (Company profile sector)
 - COMPETES_WITH: AAPL (Same sector)
 - COMPETES_WITH: ADBE (Same sector)
@@ -45,6 +44,7 @@
 - COMPETES_WITH: GOOGL (Same theme)
 - COMPETES_WITH: MSFT (Same theme)
 - COMPETES_WITH: NOW (Same theme)
+- COMPETES_WITH: ORLY (Same theme)
 
 ## Adobe Inc.
 
@@ -544,7 +544,6 @@
 
 ## NVIDIA Corporation
 
-- COMPETES_WITH: ACN (Same theme)
 - COMPETES_WITH: AMAT (Same theme)
 - COMPETES_WITH: AMD (Same theme)
 - COMPETES_WITH: AVGO (Same theme)
@@ -559,15 +558,15 @@
 - BELONGS_TO: Semiconductor (Keyword: semiconductors; Keyword: chip; Sector alignment: Technology)
 - BELONGS_TO: Technology (Company profile sector)
 - BELONGS_TO: United States (Company profile country)
-- COMPETES_WITH: ACN (Same theme)
 - COMPETES_WITH: AMAT (Same theme)
 - COMPETES_WITH: AMD (Same theme)
 - COMPETES_WITH: AVGO (Same theme)
 - COMPETES_WITH: CRM (Same theme)
+- COMPETES_WITH: INTC (Same theme)
+- COMPETES_WITH: MU (Same theme)
 
 ## Oracle Corporation
 
-- COMPETES_WITH: ACN (Same theme)
 - COMPETES_WITH: AMAT (Same theme)
 - COMPETES_WITH: AVGO (Same theme)
 - COMPETES_WITH: CRM (Same theme)
@@ -578,7 +577,6 @@
 - BELONGS_TO: Robotics (Keyword: autonomous; Sector alignment: Technology)
 - BELONGS_TO: Technology (Company profile sector)
 - BELONGS_TO: United States (Company profile country)
-- COMPETES_WITH: ACN (Same theme)
 - COMPETES_WITH: AMAT (Same theme)
 - COMPETES_WITH: AVGO (Same theme)
 - COMPETES_WITH: CRM (Same theme)

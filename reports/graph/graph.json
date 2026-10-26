@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-10-19T03:37:45.026956+00:00",
+    "generated_at": "2026-10-26T03:37:37.139272+00:00",
     "node_count": 60,
-    "edge_count": 554,
+    "edge_count": 547,
     "relationships": [
       "ACQUIRES",
       "BELONGS_TO",
@@ -595,21 +595,21 @@
       "target": "AI",
       "relationship": "BELONGS_TO",
       "weight": 1.0,
-      "evidence": "Keyword: ai; Sector alignment: Technology"
+      "evidence": "Keyword: ai; Keyword: artificial intelligence; Sector alignment: Technology"
     },
     {
       "source": "ACN",
       "target": "Cloud",
       "relationship": "BELONGS_TO",
       "weight": 1.0,
-      "evidence": "Keyword: cloud; Keyword: aws; Keyword: infrastructure; Sector alignment: Technology"
+      "evidence": "Keyword: cloud; Keyword: infrastructure; Sector alignment: Technology"
     },
     {
       "source": "ACN",
       "target": "Cybersecurity",
       "relationship": "BELONGS_TO",
       "weight": 1.0,
-      "evidence": "Keyword: security; Sector alignment: Technology"
+      "evidence": "Keyword: cybersecurity; Sector alignment: Technology"
     },
     {
       "source": "ACN",
@@ -631,13 +631,6 @@
       "relationship": "BELONGS_TO",
       "weight": 1.0,
       "evidence": "Company profile country"
-    },
-    {
-      "source": "ACN",
-      "target": "Robotics",
-      "relationship": "BELONGS_TO",
-      "weight": 1.0,
-      "evidence": "Keyword: robotics; Keyword: automation; Sector alignment: Technology"
     },
     {
       "source": "ACN",
@@ -725,20 +718,6 @@
     },
     {
       "source": "ACN",
-      "target": "NVDA",
-      "relationship": "COMPETES_WITH",
-      "weight": 1.0,
-      "evidence": "Same theme"
-    },
-    {
-      "source": "ACN",
-      "target": "ORCL",
-      "relationship": "COMPETES_WITH",
-      "weight": 1.0,
-      "evidence": "Same theme"
-    },
-    {
-      "source": "ACN",
       "target": "ORLY",
       "relationship": "COMPETES_WITH",
       "weight": 1.0,
@@ -781,13 +760,6 @@
     },
     {
       "source": "ACN",
-      "target": "AWS",
-      "relationship": "USES",
-      "weight": 1.0,
-      "evidence": "Product keyword match"
-    },
-    {
-      "source": "ACN",
       "target": "Cloud",
       "relationship": "USES",
       "weight": 1.0,
@@ -796,13 +768,6 @@
     {
       "source": "ACN",
       "target": "Cybersecurity",
-      "relationship": "USES",
-      "weight": 1.0,
-      "evidence": "Company profile or news keyword match"
-    },
-    {
-      "source": "ACN",
-      "target": "Robotics",
       "relationship": "USES",
       "weight": 1.0,
       "evidence": "Company profile or news keyword match"
@@ -911,13 +876,6 @@
       "relationship": "RELATED_TO",
       "weight": 0.389,
       "evidence": "Shared company overlap 0.39"
-    },
-    {
-      "source": "AI",
-      "target": "Robotics",
-      "relationship": "RELATED_TO",
-      "weight": 0.333,
-      "evidence": "Shared company overlap 0.33"
     },
     {
       "source": "AI",
@@ -2078,8 +2036,8 @@
       "source": "Cloud",
       "target": "Robotics",
       "relationship": "RELATED_TO",
-      "weight": 0.375,
-      "evidence": "Shared company overlap 0.38"
+      "weight": 0.312,
+      "evidence": "Shared company overlap 0.31"
     },
     {
       "source": "Cloud",
@@ -2507,6 +2465,13 @@
       "relationship": "USES",
       "weight": 1.0,
       "evidence": "Company profile or news keyword match"
+    },
+    {
+      "source": "Healthcare",
+      "target": "Robotics",
+      "relationship": "RELATED_TO",
+      "weight": 0.333,
+      "evidence": "Shared company overlap 0.33"
     },
     {
       "source": "INTC",
@@ -3371,13 +3336,6 @@
     },
     {
       "source": "NVDA",
-      "target": "ACN",
-      "relationship": "COMPETES_WITH",
-      "weight": 1.0,
-      "evidence": "Same theme"
-    },
-    {
-      "source": "NVDA",
       "target": "AMAT",
       "relationship": "COMPETES_WITH",
       "weight": 1.0,
@@ -3543,13 +3501,6 @@
       "relationship": "BELONGS_TO",
       "weight": 1.0,
       "evidence": "Company profile country"
-    },
-    {
-      "source": "ORCL",
-      "target": "ACN",
-      "relationship": "COMPETES_WITH",
-      "weight": 1.0,
-      "evidence": "Same theme"
     },
     {
       "source": "ORCL",
@@ -4435,21 +4386,6 @@
         ]
       },
       {
-        "node": "ORCL",
-        "type": "Company",
-        "similarity": 0.471,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "AMAT",
-          "AVGO",
-          "CRM",
-          "Cloud",
-          "Technology",
-          "United States"
-        ]
-      },
-      {
         "node": "NOW",
         "type": "Company",
         "similarity": 0.455,
@@ -4499,6 +4435,23 @@
         ]
       },
       {
+        "node": "ACN",
+        "type": "Company",
+        "similarity": 0.423,
+        "shared_neighbors": [
+          "ADBE",
+          "AI",
+          "AMAT",
+          "AMD",
+          "AMZN",
+          "AVGO",
+          "CRM",
+          "CSCO",
+          "Cloud",
+          "GOOGL"
+        ]
+      },
+      {
         "node": "AMZN",
         "type": "Company",
         "similarity": 0.417,
@@ -4516,20 +4469,17 @@
         ]
       },
       {
-        "node": "AVGO",
+        "node": "ORCL",
         "type": "Company",
-        "similarity": 0.4,
+        "similarity": 0.412,
         "shared_neighbors": [
-          "ACN",
-          "ADBE",
           "AI",
           "AMAT",
-          "AMD",
-          "AMZN",
+          "AVGO",
           "CRM",
-          "CSCO",
           "Cloud",
-          "GOOGL"
+          "Technology",
+          "United States"
         ]
       }
     ],
@@ -4537,7 +4487,7 @@
       {
         "node": "AI",
         "type": "Technology",
-        "similarity": 0.462,
+        "similarity": 0.436,
         "shared_neighbors": [
           "AAPL",
           "ACN",
@@ -4569,10 +4519,8 @@
       {
         "node": "Robotics",
         "type": "Technology",
-        "similarity": 0.333,
+        "similarity": 0.227,
         "shared_neighbors": [
-          "ACN",
-          "AI",
           "AVGO",
           "CRM",
           "NOW",
@@ -4605,7 +4553,7 @@
       {
         "node": "AVGO",
         "type": "Company",
-        "similarity": 0.719,
+        "similarity": 0.645,
         "shared_neighbors": [
           "AAPL",
           "ADBE",
@@ -4622,7 +4570,7 @@
       {
         "node": "CSCO",
         "type": "Company",
-        "similarity": 0.552,
+        "similarity": 0.64,
         "shared_neighbors": [
           "AAPL",
           "ADBE",
@@ -4637,60 +4585,9 @@
         ]
       },
       {
-        "node": "CRM",
-        "type": "Company",
-        "similarity": 0.5,
-        "shared_neighbors": [
-          "AAPL",
-          "ADBE",
-          "AI",
-          "AMAT",
-          "AMD",
-          "AMZN",
-          "AVGO",
-          "CSCO",
-          "Cloud",
-          "GOOGL"
-        ]
-      },
-      {
-        "node": "NOW",
-        "type": "Company",
-        "similarity": 0.5,
-        "shared_neighbors": [
-          "AI",
-          "AMAT",
-          "AVGO",
-          "CRM",
-          "CSCO",
-          "Cloud",
-          "Cybersecurity",
-          "GOOGL",
-          "MSFT",
-          "NVDA"
-        ]
-      },
-      {
-        "node": "AMAT",
-        "type": "Company",
-        "similarity": 0.438,
-        "shared_neighbors": [
-          "AAPL",
-          "ADBE",
-          "AI",
-          "AMD",
-          "AVGO",
-          "CRM",
-          "CSCO",
-          "NOW",
-          "NVDA",
-          "ORCL"
-        ]
-      },
-      {
         "node": "QCOM",
         "type": "Company",
-        "similarity": 0.438,
+        "similarity": 0.448,
         "shared_neighbors": [
           "AI",
           "AMAT",
@@ -4707,7 +4604,7 @@
       {
         "node": "AMD",
         "type": "Company",
-        "similarity": 0.424,
+        "similarity": 0.433,
         "shared_neighbors": [
           "AAPL",
           "ADBE",
@@ -4722,26 +4619,60 @@
         ]
       },
       {
-        "node": "NVDA",
+        "node": "AAPL",
         "type": "Company",
-        "similarity": 0.378,
+        "similarity": 0.423,
         "shared_neighbors": [
+          "ADBE",
           "AI",
           "AMAT",
           "AMD",
+          "AMZN",
           "AVGO",
           "CRM",
+          "CSCO",
           "Cloud",
-          "NOW",
-          "ORCL",
-          "ORLY",
+          "GOOGL"
+        ]
+      },
+      {
+        "node": "CRM",
+        "type": "Company",
+        "similarity": 0.414,
+        "shared_neighbors": [
+          "AAPL",
+          "ADBE",
+          "AI",
+          "AMAT",
+          "AMD",
+          "AMZN",
+          "AVGO",
+          "CSCO",
+          "Cloud",
+          "GOOGL"
+        ]
+      },
+      {
+        "node": "NOW",
+        "type": "Company",
+        "similarity": 0.414,
+        "shared_neighbors": [
+          "AI",
+          "AMAT",
+          "AVGO",
+          "CRM",
+          "CSCO",
+          "Cloud",
+          "Cybersecurity",
+          "GOOGL",
+          "MSFT",
           "QCOM"
         ]
       },
       {
         "node": "GOOGL",
         "type": "Company",
-        "similarity": 0.368,
+        "similarity": 0.412,
         "shared_neighbors": [
           "AAPL",
           "ADBE",
@@ -4756,11 +4687,11 @@
         ]
       },
       {
-        "node": "AAPL",
+        "node": "ADBE",
         "type": "Company",
-        "similarity": 0.367,
+        "similarity": 0.4,
         "shared_neighbors": [
-          "ADBE",
+          "AAPL",
           "AI",
           "AMAT",
           "AMD",
@@ -4768,8 +4699,25 @@
           "AVGO",
           "CRM",
           "CSCO",
+          "GOOGL",
+          "Technology"
+        ]
+      },
+      {
+        "node": "MSFT",
+        "type": "Company",
+        "similarity": 0.4,
+        "shared_neighbors": [
+          "AI",
+          "AVGO",
+          "CSCO",
           "Cloud",
-          "GOOGL"
+          "Cybersecurity",
+          "GOOGL",
+          "NOW",
+          "QCOM",
+          "Technology",
+          "VZ"
         ]
       }
     ],
@@ -4843,20 +4791,6 @@
         ]
       },
       {
-        "node": "ORCL",
-        "type": "Company",
-        "similarity": 0.438,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "AMAT",
-          "AVGO",
-          "CRM",
-          "Technology",
-          "United States"
-        ]
-      },
-      {
         "node": "NOW",
         "type": "Company",
         "similarity": 0.429,
@@ -4916,6 +4850,23 @@
           "GOOGL",
           "Technology",
           "United States"
+        ]
+      },
+      {
+        "node": "ACN",
+        "type": "Company",
+        "similarity": 0.4,
+        "shared_neighbors": [
+          "AAPL",
+          "AI",
+          "AMAT",
+          "AMD",
+          "AMZN",
+          "AVGO",
+          "CRM",
+          "CSCO",
+          "GOOGL",
+          "Technology"
         ]
       },
       {
@@ -4988,23 +4939,6 @@
         ]
       },
       {
-        "node": "NVDA",
-        "type": "Company",
-        "similarity": 0.536,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "AMD",
-          "AVGO",
-          "CRM",
-          "INTC",
-          "MU",
-          "NOW",
-          "ORCL",
-          "QCOM"
-        ]
-      },
-      {
         "node": "QCOM",
         "type": "Company",
         "similarity": 0.52,
@@ -5019,6 +4953,23 @@
           "NOW",
           "NVDA",
           "Semiconductor"
+        ]
+      },
+      {
+        "node": "NVDA",
+        "type": "Company",
+        "similarity": 0.5,
+        "shared_neighbors": [
+          "AI",
+          "AMD",
+          "AVGO",
+          "CRM",
+          "INTC",
+          "MU",
+          "NOW",
+          "ORCL",
+          "QCOM",
+          "Robotics"
         ]
       },
       {
@@ -5073,36 +5024,37 @@
         ]
       },
       {
-        "node": "ACN",
+        "node": "CSCO",
         "type": "Company",
-        "similarity": 0.438,
+        "similarity": 0.423,
         "shared_neighbors": [
           "AAPL",
+          "ACN",
           "ADBE",
           "AI",
           "AMD",
           "AVGO",
           "CRM",
-          "CSCO",
           "NOW",
-          "NVDA",
-          "ORCL"
+          "QCOM",
+          "Technology"
         ]
       },
       {
-        "node": "ORCL",
+        "node": "NOW",
         "type": "Company",
-        "similarity": 0.429,
+        "similarity": 0.423,
         "shared_neighbors": [
           "ACN",
           "AI",
           "AVGO",
           "CRM",
-          "NOW",
+          "CSCO",
           "NVDA",
+          "ORCL",
+          "QCOM",
           "Robotics",
-          "Technology",
-          "United States"
+          "Technology"
         ]
       }
     ],
@@ -5261,19 +5213,19 @@
         ]
       },
       {
-        "node": "NVDA",
+        "node": "NOW",
         "type": "Company",
-        "similarity": 0.467,
+        "similarity": 0.462,
         "shared_neighbors": [
           "ACN",
           "AI",
           "AMAT",
           "AVGO",
           "CRM",
+          "CSCO",
           "Cloud",
-          "GPU",
-          "INTC",
-          "MU",
+          "GOOGL",
+          "NVDA",
           "QCOM"
         ]
       }
@@ -5445,7 +5397,7 @@
       {
         "node": "ACN",
         "type": "Company",
-        "similarity": 0.719,
+        "similarity": 0.645,
         "shared_neighbors": [
           "AAPL",
           "ADBE",
@@ -5564,9 +5516,8 @@
       {
         "node": "NVDA",
         "type": "Company",
-        "similarity": 0.529,
+        "similarity": 0.5,
         "shared_neighbors": [
-          "ACN",
           "AI",
           "AMAT",
           "AMD",
@@ -5575,7 +5526,8 @@
           "INTC",
           "MU",
           "NOW",
-          "ORCL"
+          "ORCL",
+          "ORLY"
         ]
       },
       {
@@ -5717,23 +5669,6 @@
         ]
       },
       {
-        "node": "ORCL",
-        "type": "Company",
-        "similarity": 0.526,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "AMAT",
-          "AVGO",
-          "Cloud",
-          "NOW",
-          "NVDA",
-          "Robotics",
-          "Technology",
-          "United States"
-        ]
-      },
-      {
         "node": "AMD",
         "type": "Company",
         "similarity": 0.52,
@@ -5743,23 +5678,6 @@
           "ADBE",
           "AI",
           "AMAT",
-          "AMZN",
-          "AVGO",
-          "CSCO",
-          "Cloud",
-          "GOOGL"
-        ]
-      },
-      {
-        "node": "ACN",
-        "type": "Company",
-        "similarity": 0.5,
-        "shared_neighbors": [
-          "AAPL",
-          "ADBE",
-          "AI",
-          "AMAT",
-          "AMD",
           "AMZN",
           "AVGO",
           "CSCO",
@@ -5783,9 +5701,58 @@
           "NOW",
           "NVDA"
         ]
+      },
+      {
+        "node": "ORCL",
+        "type": "Company",
+        "similarity": 0.474,
+        "shared_neighbors": [
+          "AI",
+          "AMAT",
+          "AVGO",
+          "Cloud",
+          "NOW",
+          "NVDA",
+          "Robotics",
+          "Technology",
+          "United States"
+        ]
+      },
+      {
+        "node": "MSFT",
+        "type": "Company",
+        "similarity": 0.429,
+        "shared_neighbors": [
+          "ACN",
+          "AI",
+          "AVGO",
+          "CSCO",
+          "Cloud",
+          "GOOGL",
+          "NOW",
+          "Technology",
+          "United States"
+        ]
       }
     ],
     "CSCO": [
+      {
+        "node": "ACN",
+        "type": "Company",
+        "similarity": 0.64,
+        "shared_neighbors": [
+          "AAPL",
+          "ADBE",
+          "AI",
+          "AMAT",
+          "AMD",
+          "AMZN",
+          "AVGO",
+          "CRM",
+          "Cloud",
+          "Cybersecurity"
+        ]
+      },
       {
         "node": "AAPL",
         "type": "Company",
@@ -5889,23 +5856,6 @@
         ]
       },
       {
-        "node": "ACN",
-        "type": "Company",
-        "similarity": 0.552,
-        "shared_neighbors": [
-          "AAPL",
-          "ADBE",
-          "AI",
-          "AMAT",
-          "AMD",
-          "AMZN",
-          "AVGO",
-          "CRM",
-          "Cloud",
-          "Cybersecurity"
-        ]
-      },
-      {
         "node": "QCOM",
         "type": "Company",
         "similarity": 0.542,
@@ -5976,6 +5926,23 @@
         ]
       },
       {
+        "node": "ACN",
+        "type": "Company",
+        "similarity": 0.412,
+        "shared_neighbors": [
+          "AAPL",
+          "ADBE",
+          "AI",
+          "AMD",
+          "AMZN",
+          "AVGO",
+          "CRM",
+          "CSCO",
+          "Cloud",
+          "Cybersecurity"
+        ]
+      },
+      {
         "node": "AVGO",
         "type": "Company",
         "similarity": 0.395,
@@ -6024,23 +5991,6 @@
           "QCOM",
           "United States",
           "VZ"
-        ]
-      },
-      {
-        "node": "ACN",
-        "type": "Company",
-        "similarity": 0.368,
-        "shared_neighbors": [
-          "AAPL",
-          "ADBE",
-          "AI",
-          "AMD",
-          "AMZN",
-          "AVGO",
-          "CRM",
-          "CSCO",
-          "Cloud",
-          "Cybersecurity"
         ]
       },
       {
@@ -6128,7 +6078,7 @@
       {
         "node": "Cloud",
         "type": "Technology",
-        "similarity": 0.462,
+        "similarity": 0.436,
         "shared_neighbors": [
           "AAPL",
           "ACN",
@@ -6145,7 +6095,7 @@
       {
         "node": "Cybersecurity",
         "type": "Technology",
-        "similarity": 0.231,
+        "similarity": 0.237,
         "shared_neighbors": [
           "ACN",
           "AVGO",
@@ -6161,9 +6111,8 @@
       {
         "node": "Robotics",
         "type": "Technology",
-        "similarity": 0.205,
+        "similarity": 0.184,
         "shared_neighbors": [
-          "ACN",
           "AMAT",
           "AVGO",
           "CRM",
@@ -6176,7 +6125,7 @@
       {
         "node": "EV Battery",
         "type": "Technology",
-        "similarity": 0.105,
+        "similarity": 0.108,
         "shared_neighbors": [
           "NVDA",
           "ORLY",
@@ -6187,7 +6136,7 @@
       {
         "node": "GPU",
         "type": "Technology",
-        "similarity": 0.079,
+        "similarity": 0.081,
         "shared_neighbors": [
           "AMD",
           "INTC",
@@ -6213,21 +6162,9 @@
         ]
       },
       {
-        "node": "Robotics",
-        "type": "Technology",
-        "similarity": 0.357,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "AVGO",
-          "Cloud",
-          "NOW"
-        ]
-      },
-      {
         "node": "AI",
         "type": "Technology",
-        "similarity": 0.231,
+        "similarity": 0.237,
         "shared_neighbors": [
           "ACN",
           "AVGO",
@@ -6238,6 +6175,16 @@
           "NOW",
           "QCOM",
           "VZ"
+        ]
+      },
+      {
+        "node": "Robotics",
+        "type": "Technology",
+        "similarity": 0.2,
+        "shared_neighbors": [
+          "AVGO",
+          "Cloud",
+          "NOW"
         ]
       }
     ],
@@ -6281,65 +6228,6 @@
       }
     ],
     "Ireland": [],
-    "Robotics": [
-      {
-        "node": "Cybersecurity",
-        "type": "Technology",
-        "similarity": 0.357,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "AVGO",
-          "Cloud",
-          "NOW"
-        ]
-      },
-      {
-        "node": "Cloud",
-        "type": "Technology",
-        "similarity": 0.333,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "AVGO",
-          "CRM",
-          "NOW",
-          "NVDA",
-          "ORCL"
-        ]
-      },
-      {
-        "node": "AI",
-        "type": "Technology",
-        "similarity": 0.205,
-        "shared_neighbors": [
-          "ACN",
-          "AMAT",
-          "AVGO",
-          "CRM",
-          "Cloud",
-          "NOW",
-          "NVDA",
-          "ORCL"
-        ]
-      },
-      {
-        "node": "GPU",
-        "type": "Technology",
-        "similarity": 0.091,
-        "shared_neighbors": [
-          "NVDA"
-        ]
-      },
-      {
-        "node": "EV Battery",
-        "type": "Technology",
-        "similarity": 0.083,
-        "shared_neighbors": [
-          "NVDA"
-        ]
-      }
-    ],
     "MSFT": [
       {
         "node": "VZ",
@@ -6424,20 +6312,6 @@
         ]
       },
       {
-        "node": "ORCL",
-        "type": "Company",
-        "similarity": 0.438,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "AVGO",
-          "Cloud",
-          "NOW",
-          "Technology",
-          "United States"
-        ]
-      },
-      {
         "node": "CRM",
         "type": "Company",
         "similarity": 0.429,
@@ -6465,6 +6339,23 @@
           "GOOGL",
           "Technology",
           "United States"
+        ]
+      },
+      {
+        "node": "ACN",
+        "type": "Company",
+        "similarity": 0.4,
+        "shared_neighbors": [
+          "AI",
+          "AVGO",
+          "CSCO",
+          "Cloud",
+          "Cybersecurity",
+          "GOOGL",
+          "NOW",
+          "QCOM",
+          "Technology",
+          "VZ"
         ]
       },
       {
@@ -6590,9 +6481,8 @@
       {
         "node": "ORCL",
         "type": "Company",
-        "similarity": 0.526,
+        "similarity": 0.474,
         "shared_neighbors": [
-          "ACN",
           "AI",
           "AMAT",
           "AVGO",
@@ -6602,23 +6492,6 @@
           "Robotics",
           "Technology",
           "United States"
-        ]
-      },
-      {
-        "node": "ACN",
-        "type": "Company",
-        "similarity": 0.5,
-        "shared_neighbors": [
-          "AI",
-          "AMAT",
-          "AVGO",
-          "CRM",
-          "CSCO",
-          "Cloud",
-          "Cybersecurity",
-          "GOOGL",
-          "MSFT",
-          "NVDA"
         ]
       },
       {
@@ -6670,330 +6543,19 @@
           "QCOM",
           "United States"
         ]
-      }
-    ],
-    "NVDA": [
-      {
-        "node": "TXN",
-        "type": "Company",
-        "similarity": 0.577,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "AMAT",
-          "AMD",
-          "AVGO",
-          "EV",
-          "EV Battery",
-          "INTC",
-          "MU",
-          "ORLY"
-        ]
-      },
-      {
-        "node": "AMAT",
-        "type": "Company",
-        "similarity": 0.536,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "AMD",
-          "AVGO",
-          "CRM",
-          "INTC",
-          "MU",
-          "NOW",
-          "ORCL",
-          "QCOM"
-        ]
-      },
-      {
-        "node": "AVGO",
-        "type": "Company",
-        "similarity": 0.529,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "AMAT",
-          "AMD",
-          "CRM",
-          "Cloud",
-          "INTC",
-          "MU",
-          "NOW",
-          "ORCL"
-        ]
-      },
-      {
-        "node": "INTC",
-        "type": "Company",
-        "similarity": 0.48,
-        "shared_neighbors": [
-          "AI",
-          "AMAT",
-          "AMD",
-          "AVGO",
-          "Cloud",
-          "GPU",
-          "MU",
-          "QCOM",
-          "Semiconductor",
-          "TXN"
-        ]
-      },
-      {
-        "node": "AMD",
-        "type": "Company",
-        "similarity": 0.467,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "AMAT",
-          "AVGO",
-          "CRM",
-          "Cloud",
-          "GPU",
-          "INTC",
-          "MU",
-          "QCOM"
-        ]
-      },
-      {
-        "node": "MU",
-        "type": "Company",
-        "similarity": 0.44,
-        "shared_neighbors": [
-          "AI",
-          "AMAT",
-          "AMD",
-          "AVGO",
-          "Cloud",
-          "INTC",
-          "QCOM",
-          "Semiconductor",
-          "TXN",
-          "Technology"
-        ]
-      },
-      {
-        "node": "QCOM",
-        "type": "Company",
-        "similarity": 0.433,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "AMAT",
-          "AMD",
-          "AVGO",
-          "Cloud",
-          "INTC",
-          "MU",
-          "NOW",
-          "Semiconductor"
-        ]
-      },
-      {
-        "node": "ORCL",
-        "type": "Company",
-        "similarity": 0.4,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "AMAT",
-          "AVGO",
-          "CRM",
-          "Cloud",
-          "NOW",
-          "Robotics",
-          "Technology",
-          "United States"
-        ]
-      },
-      {
-        "node": "ACN",
-        "type": "Company",
-        "similarity": 0.378,
-        "shared_neighbors": [
-          "AI",
-          "AMAT",
-          "AMD",
-          "AVGO",
-          "CRM",
-          "Cloud",
-          "NOW",
-          "ORCL",
-          "ORLY",
-          "QCOM"
-        ]
-      },
-      {
-        "node": "CRM",
-        "type": "Company",
-        "similarity": 0.355,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "AMAT",
-          "AMD",
-          "AVGO",
-          "Cloud",
-          "NOW",
-          "ORCL",
-          "Robotics",
-          "Technology"
-        ]
-      }
-    ],
-    "ORCL": [
-      {
-        "node": "CRM",
-        "type": "Company",
-        "similarity": 0.526,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "AMAT",
-          "AVGO",
-          "Cloud",
-          "NOW",
-          "NVDA",
-          "Robotics",
-          "Technology",
-          "United States"
-        ]
-      },
-      {
-        "node": "NOW",
-        "type": "Company",
-        "similarity": 0.526,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "AMAT",
-          "AVGO",
-          "CRM",
-          "Cloud",
-          "NVDA",
-          "Robotics",
-          "Technology",
-          "United States"
-        ]
-      },
-      {
-        "node": "AAPL",
-        "type": "Company",
-        "similarity": 0.471,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "AMAT",
-          "AVGO",
-          "CRM",
-          "Cloud",
-          "Technology",
-          "United States"
-        ]
-      },
-      {
-        "node": "CSCO",
-        "type": "Company",
-        "similarity": 0.45,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "AMAT",
-          "AVGO",
-          "CRM",
-          "Cloud",
-          "NOW",
-          "Technology",
-          "United States"
-        ]
       },
       {
         "node": "ADBE",
         "type": "Company",
-        "similarity": 0.438,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "AMAT",
-          "AVGO",
-          "CRM",
-          "Technology",
-          "United States"
-        ]
-      },
-      {
-        "node": "MSFT",
-        "type": "Company",
-        "similarity": 0.438,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "AVGO",
-          "Cloud",
-          "NOW",
-          "Technology",
-          "United States"
-        ]
-      },
-      {
-        "node": "MU",
-        "type": "Company",
-        "similarity": 0.438,
-        "shared_neighbors": [
-          "AI",
-          "AMAT",
-          "AVGO",
-          "Cloud",
-          "NVDA",
-          "Technology",
-          "United States"
-        ]
-      },
-      {
-        "node": "AMAT",
-        "type": "Company",
-        "similarity": 0.429,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "AVGO",
-          "CRM",
-          "NOW",
-          "NVDA",
-          "Robotics",
-          "Technology",
-          "United States"
-        ]
-      },
-      {
-        "node": "QCOM",
-        "type": "Company",
         "similarity": 0.429,
         "shared_neighbors": [
           "ACN",
           "AI",
           "AMAT",
           "AVGO",
-          "Cloud",
-          "NOW",
-          "NVDA",
-          "Technology",
-          "United States"
-        ]
-      },
-      {
-        "node": "INTC",
-        "type": "Company",
-        "similarity": 0.412,
-        "shared_neighbors": [
-          "AI",
-          "AMAT",
-          "AVGO",
-          "Cloud",
-          "NVDA",
+          "CRM",
+          "CSCO",
+          "GOOGL",
           "Technology",
           "United States"
         ]
@@ -7145,16 +6707,15 @@
         ]
       },
       {
-        "node": "NVDA",
+        "node": "AMD",
         "type": "Company",
-        "similarity": 0.235,
+        "similarity": 0.226,
         "shared_neighbors": [
           "ACN",
           "AI",
+          "AMZN",
           "AVGO",
-          "EV",
-          "EV Battery",
-          "TSLA",
+          "NVDA",
           "TXN",
           "United States"
         ]
@@ -7315,20 +6876,20 @@
         ]
       },
       {
-        "node": "TXN",
+        "node": "ACN",
         "type": "Company",
-        "similarity": 0.44,
+        "similarity": 0.448,
         "shared_neighbors": [
-          "ACN",
           "AI",
           "AMAT",
           "AMD",
           "AVGO",
-          "INTC",
-          "MU",
-          "NVDA",
-          "Semiconductor",
-          "Technology"
+          "CSCO",
+          "Cloud",
+          "Cybersecurity",
+          "GOOGL",
+          "MSFT",
+          "NOW"
         ]
       }
     ],
@@ -7369,9 +6930,8 @@
       {
         "node": "NVDA",
         "type": "Company",
-        "similarity": 0.333,
+        "similarity": 0.296,
         "shared_neighbors": [
-          "ACN",
           "AI",
           "AVGO",
           "EV",
@@ -7379,18 +6939,6 @@
           "ORLY",
           "TXN",
           "Tesla EV",
-          "United States"
-        ]
-      },
-      {
-        "node": "ORCL",
-        "type": "Company",
-        "similarity": 0.278,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "AVGO",
-          "NVDA",
           "United States"
         ]
       },
@@ -7466,15 +7014,27 @@
           "TXN",
           "United States"
         ]
+      },
+      {
+        "node": "AMZN",
+        "type": "Company",
+        "similarity": 0.231,
+        "shared_neighbors": [
+          "ACN",
+          "AI",
+          "AVGO",
+          "Consumer Cyclical",
+          "ORLY",
+          "United States"
+        ]
       }
     ],
     "TXN": [
       {
         "node": "NVDA",
         "type": "Company",
-        "similarity": 0.577,
+        "similarity": 0.538,
         "shared_neighbors": [
-          "ACN",
           "AI",
           "AMAT",
           "AMD",
@@ -7483,7 +7043,8 @@
           "EV Battery",
           "INTC",
           "MU",
-          "ORLY"
+          "ORLY",
+          "QCOM"
         ]
       },
       {
@@ -7621,15 +7182,15 @@
         ]
       },
       {
-        "node": "ORCL",
+        "node": "ADBE",
         "type": "Company",
-        "similarity": 0.333,
+        "similarity": 0.318,
         "shared_neighbors": [
           "ACN",
           "AI",
           "AMAT",
+          "AMD",
           "AVGO",
-          "NVDA",
           "Technology",
           "United States"
         ]
@@ -7758,6 +7319,21 @@
         ]
       },
       {
+        "node": "ACN",
+        "type": "Company",
+        "similarity": 0.308,
+        "shared_neighbors": [
+          "AI",
+          "AVGO",
+          "CSCO",
+          "Cybersecurity",
+          "GOOGL",
+          "MSFT",
+          "NOW",
+          "QCOM"
+        ]
+      },
+      {
         "node": "AMAT",
         "type": "Company",
         "similarity": 0.304,
@@ -7770,25 +7346,8 @@
           "QCOM",
           "United States"
         ]
-      },
-      {
-        "node": "AVGO",
-        "type": "Company",
-        "similarity": 0.3,
-        "shared_neighbors": [
-          "ACN",
-          "AI",
-          "CSCO",
-          "Cybersecurity",
-          "GOOGL",
-          "MSFT",
-          "NOW",
-          "QCOM",
-          "United States"
-        ]
       }
     ],
-    "AWS": [],
     "Semiconductor": [
       {
         "node": "EV",
@@ -7806,6 +7365,60 @@
         "shared_neighbors": [
           "AVGO",
           "TXN"
+        ]
+      }
+    ],
+    "Robotics": [
+      {
+        "node": "Cloud",
+        "type": "Technology",
+        "similarity": 0.227,
+        "shared_neighbors": [
+          "AVGO",
+          "CRM",
+          "NOW",
+          "NVDA",
+          "ORCL"
+        ]
+      },
+      {
+        "node": "Cybersecurity",
+        "type": "Technology",
+        "similarity": 0.2,
+        "shared_neighbors": [
+          "AVGO",
+          "Cloud",
+          "NOW"
+        ]
+      },
+      {
+        "node": "AI",
+        "type": "Technology",
+        "similarity": 0.184,
+        "shared_neighbors": [
+          "AMAT",
+          "AVGO",
+          "CRM",
+          "Cloud",
+          "NOW",
+          "NVDA",
+          "ORCL"
+        ]
+      },
+      {
+        "node": "GPU",
+        "type": "Technology",
+        "similarity": 0.1,
+        "shared_neighbors": [
+          "NVDA"
+        ]
+      },
+      {
+        "node": "EV Battery",
+        "type": "Technology",
+        "similarity": 0.091,
+        "shared_neighbors": [
+          "NVDA"
         ]
       }
     ],
@@ -7881,7 +7494,7 @@
       {
         "node": "NVDA",
         "type": "Company",
-        "similarity": 0.48,
+        "similarity": 0.5,
         "shared_neighbors": [
           "AI",
           "AMAT",
@@ -7915,7 +7528,7 @@
       {
         "node": "ORCL",
         "type": "Company",
-        "similarity": 0.412,
+        "similarity": 0.438,
         "shared_neighbors": [
           "AI",
           "AMAT",
@@ -8060,9 +7673,23 @@
         ]
       },
       {
+        "node": "ORCL",
+        "type": "Company",
+        "similarity": 0.467,
+        "shared_neighbors": [
+          "AI",
+          "AMAT",
+          "AVGO",
+          "Cloud",
+          "NVDA",
+          "Technology",
+          "United States"
+        ]
+      },
+      {
         "node": "NVDA",
         "type": "Company",
-        "similarity": 0.44,
+        "similarity": 0.458,
         "shared_neighbors": [
           "AI",
           "AMAT",
@@ -8074,20 +7701,6 @@
           "Semiconductor",
           "TXN",
           "Technology"
-        ]
-      },
-      {
-        "node": "ORCL",
-        "type": "Company",
-        "similarity": 0.438,
-        "shared_neighbors": [
-          "AI",
-          "AMAT",
-          "AVGO",
-          "Cloud",
-          "NVDA",
-          "Technology",
-          "United States"
         ]
       },
       {
@@ -8137,6 +7750,324 @@
         ]
       }
     ],
+    "NVDA": [
+      {
+        "node": "TXN",
+        "type": "Company",
+        "similarity": 0.538,
+        "shared_neighbors": [
+          "AI",
+          "AMAT",
+          "AMD",
+          "AVGO",
+          "EV",
+          "EV Battery",
+          "INTC",
+          "MU",
+          "ORLY",
+          "QCOM"
+        ]
+      },
+      {
+        "node": "AMAT",
+        "type": "Company",
+        "similarity": 0.5,
+        "shared_neighbors": [
+          "AI",
+          "AMD",
+          "AVGO",
+          "CRM",
+          "INTC",
+          "MU",
+          "NOW",
+          "ORCL",
+          "QCOM",
+          "Robotics"
+        ]
+      },
+      {
+        "node": "AVGO",
+        "type": "Company",
+        "similarity": 0.5,
+        "shared_neighbors": [
+          "AI",
+          "AMAT",
+          "AMD",
+          "CRM",
+          "Cloud",
+          "INTC",
+          "MU",
+          "NOW",
+          "ORCL",
+          "ORLY"
+        ]
+      },
+      {
+        "node": "INTC",
+        "type": "Company",
+        "similarity": 0.5,
+        "shared_neighbors": [
+          "AI",
+          "AMAT",
+          "AMD",
+          "AVGO",
+          "Cloud",
+          "GPU",
+          "MU",
+          "QCOM",
+          "Semiconductor",
+          "TXN"
+        ]
+      },
+      {
+        "node": "MU",
+        "type": "Company",
+        "similarity": 0.458,
+        "shared_neighbors": [
+          "AI",
+          "AMAT",
+          "AMD",
+          "AVGO",
+          "Cloud",
+          "INTC",
+          "QCOM",
+          "Semiconductor",
+          "TXN",
+          "Technology"
+        ]
+      },
+      {
+        "node": "AMD",
+        "type": "Company",
+        "similarity": 0.433,
+        "shared_neighbors": [
+          "AI",
+          "AMAT",
+          "AVGO",
+          "CRM",
+          "Cloud",
+          "GPU",
+          "INTC",
+          "MU",
+          "QCOM",
+          "Semiconductor"
+        ]
+      },
+      {
+        "node": "QCOM",
+        "type": "Company",
+        "similarity": 0.4,
+        "shared_neighbors": [
+          "AI",
+          "AMAT",
+          "AMD",
+          "AVGO",
+          "Cloud",
+          "INTC",
+          "MU",
+          "NOW",
+          "Semiconductor",
+          "TXN"
+        ]
+      },
+      {
+        "node": "ORCL",
+        "type": "Company",
+        "similarity": 0.375,
+        "shared_neighbors": [
+          "AI",
+          "AMAT",
+          "AVGO",
+          "CRM",
+          "Cloud",
+          "NOW",
+          "Robotics",
+          "Technology",
+          "United States"
+        ]
+      },
+      {
+        "node": "ACN",
+        "type": "Company",
+        "similarity": 0.353,
+        "shared_neighbors": [
+          "AI",
+          "AMAT",
+          "AMD",
+          "AVGO",
+          "CRM",
+          "Cloud",
+          "NOW",
+          "ORLY",
+          "QCOM",
+          "TSLA"
+        ]
+      },
+      {
+        "node": "CRM",
+        "type": "Company",
+        "similarity": 0.323,
+        "shared_neighbors": [
+          "AI",
+          "AMAT",
+          "AMD",
+          "AVGO",
+          "Cloud",
+          "NOW",
+          "ORCL",
+          "Robotics",
+          "Technology",
+          "United States"
+        ]
+      }
+    ],
+    "ORCL": [
+      {
+        "node": "CRM",
+        "type": "Company",
+        "similarity": 0.474,
+        "shared_neighbors": [
+          "AI",
+          "AMAT",
+          "AVGO",
+          "Cloud",
+          "NOW",
+          "NVDA",
+          "Robotics",
+          "Technology",
+          "United States"
+        ]
+      },
+      {
+        "node": "NOW",
+        "type": "Company",
+        "similarity": 0.474,
+        "shared_neighbors": [
+          "AI",
+          "AMAT",
+          "AVGO",
+          "CRM",
+          "Cloud",
+          "NVDA",
+          "Robotics",
+          "Technology",
+          "United States"
+        ]
+      },
+      {
+        "node": "MU",
+        "type": "Company",
+        "similarity": 0.467,
+        "shared_neighbors": [
+          "AI",
+          "AMAT",
+          "AVGO",
+          "Cloud",
+          "NVDA",
+          "Technology",
+          "United States"
+        ]
+      },
+      {
+        "node": "INTC",
+        "type": "Company",
+        "similarity": 0.438,
+        "shared_neighbors": [
+          "AI",
+          "AMAT",
+          "AVGO",
+          "Cloud",
+          "NVDA",
+          "Technology",
+          "United States"
+        ]
+      },
+      {
+        "node": "AAPL",
+        "type": "Company",
+        "similarity": 0.412,
+        "shared_neighbors": [
+          "AI",
+          "AMAT",
+          "AVGO",
+          "CRM",
+          "Cloud",
+          "Technology",
+          "United States"
+        ]
+      },
+      {
+        "node": "CSCO",
+        "type": "Company",
+        "similarity": 0.4,
+        "shared_neighbors": [
+          "AI",
+          "AMAT",
+          "AVGO",
+          "CRM",
+          "Cloud",
+          "NOW",
+          "Technology",
+          "United States"
+        ]
+      },
+      {
+        "node": "AMAT",
+        "type": "Company",
+        "similarity": 0.381,
+        "shared_neighbors": [
+          "AI",
+          "AVGO",
+          "CRM",
+          "NOW",
+          "NVDA",
+          "Robotics",
+          "Technology",
+          "United States"
+        ]
+      },
+      {
+        "node": "QCOM",
+        "type": "Company",
+        "similarity": 0.381,
+        "shared_neighbors": [
+          "AI",
+          "AMAT",
+          "AVGO",
+          "Cloud",
+          "NOW",
+          "NVDA",
+          "Technology",
+          "United States"
+        ]
+      },
+      {
+        "node": "ADBE",
+        "type": "Company",
+        "similarity": 0.375,
+        "shared_neighbors": [
+          "AI",
+          "AMAT",
+          "AVGO",
+          "CRM",
+          "Technology",
+          "United States"
+        ]
+      },
+      {
+        "node": "MSFT",
+        "type": "Company",
+        "similarity": 0.375,
+        "shared_neighbors": [
+          "AI",
+          "AVGO",
+          "Cloud",
+          "NOW",
+          "Technology",
+          "United States"
+        ]
+      }
+    ],
     "GPU": [
       {
         "node": "EV Battery",
@@ -8159,7 +8090,7 @@
       {
         "node": "Robotics",
         "type": "Technology",
-        "similarity": 0.091,
+        "similarity": 0.1,
         "shared_neighbors": [
           "NVDA"
         ]
@@ -8167,7 +8098,7 @@
       {
         "node": "AI",
         "type": "Technology",
-        "similarity": 0.079,
+        "similarity": 0.081,
         "shared_neighbors": [
           "AMD",
           "INTC",
@@ -9014,6 +8945,7 @@
         ]
       }
     ],
+    "AWS": [],
     "CHTR": [
       {
         "node": "CMCSA",
@@ -10059,7 +9991,7 @@
       {
         "node": "AI",
         "type": "Technology",
-        "similarity": 0.105,
+        "similarity": 0.108,
         "shared_neighbors": [
           "NVDA",
           "ORLY",
@@ -10070,7 +10002,7 @@
       {
         "node": "Robotics",
         "type": "Technology",
-        "similarity": 0.083,
+        "similarity": 0.091,
         "shared_neighbors": [
           "NVDA"
         ]
@@ -10183,7 +10115,7 @@
         ]
       },
       {
-        "node": "CHTR",
+        "node": "ORCL",
         "type": "Company",
         "similarity": 0.182,
         "shared_neighbors": [
@@ -10192,7 +10124,7 @@
         ]
       },
       {
-        "node": "CMCSA",
+        "node": "CHTR",
         "type": "Company",
         "similarity": 0.182,
         "shared_neighbors": [
@@ -10292,7 +10224,7 @@
         ]
       },
       {
-        "node": "HD",
+        "node": "ORCL",
         "type": "Company",
         "similarity": 0.182,
         "shared_neighbors": [

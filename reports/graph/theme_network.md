@@ -28,6 +28,7 @@
 ## Healthcare
 
 - BELONGS_TO: CRM (Keyword: healthcare)
+- RELATED_TO: Robotics (Shared company overlap 0.33)
 - BELONGS_TO: NOW (Keyword: healthcare)
 
 ## Quantum Computing
