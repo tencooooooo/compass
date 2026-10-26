@@ -1,9 +1,9 @@
 # Energy
 
 - Target companies: 5
-- Average Score: 47.67
-- Average Discovery: N/A
-- Momentum: N/A
+- Average Score: 51.00
+- Average Discovery: 61.00
+- Momentum: 2.52
 - Confidence: Medium
 
 ## Companies
@@ -16,8 +16,8 @@
 
 ## Market
 
-- Consumer Cyclical: score 40.83, momentum 1.48, trend {'momentum': 'Positive', 'news': 'Low', 'financial_health': 'Neutral'}
-- Technology: score 56.50, momentum 2.71, trend {'momentum': 'Positive', 'news': 'Low', 'financial_health': 'Good'}
+- Consumer Cyclical: score 42.67, momentum 4.87, trend {'momentum': 'Positive', 'news': 'Low', 'financial_health': 'Neutral'}
+- Technology: score 56.33, momentum -3.25, trend {'momentum': 'Weak', 'news': 'Low', 'financial_health': 'Good'}
 
 ## Major News
 
@@ -25,11 +25,11 @@ No theme news available yet.
 
 ## Similar Themes
 
-- Healthcare: 0.997 (Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Cybersecurity: 0.989 (Shared companies: ACN, AVGO; Shared sectors: Technology)
-- AI: 0.987 (Shared companies: ACN, AVGO, TSLA; Shared sectors: Consumer Cyclical, Technology)
-- Cloud: 0.982 (Shared companies: ACN, AVGO; Shared sectors: Consumer Cyclical, Technology)
-- Robotics: 0.978 (Shared companies: ACN, AVGO; Shared sectors: Technology; Similar short-term momentum)
+- Healthcare: 0.999 (Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Cybersecurity: 0.992 (Shared companies: ACN, AVGO; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- AI: 0.989 (Shared companies: ACN, AVGO, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
+- Robotics: 0.987 (Shared companies: AVGO; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Cloud: 0.985 (Shared companies: ACN, AVGO; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
 
 ## Review Note
 

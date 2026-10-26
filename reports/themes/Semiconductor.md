@@ -1,9 +1,9 @@
 # Semiconductor
 
 - Target companies: 8
-- Average Score: 59.00
-- Average Discovery: 65.00
-- Momentum: 4.93
+- Average Score: 57.33
+- Average Discovery: 62.00
+- Momentum: -6.91
 - Confidence: High
 
 ## Companies
@@ -19,7 +19,7 @@
 
 ## Market
 
-- Technology: score 56.50, momentum 2.71, trend {'momentum': 'Positive', 'news': 'Low', 'financial_health': 'Good'}
+- Technology: score 56.33, momentum -3.25, trend {'momentum': 'Weak', 'news': 'Low', 'financial_health': 'Good'}
 
 ## Major News
 
@@ -27,11 +27,11 @@ No theme news available yet.
 
 ## Similar Themes
 
-- EV: 0.994 (Shared companies: NVDA, TXN; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Robotics: 0.991 (Shared companies: AMAT, AVGO, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Cloud: 0.987 (Shared companies: AMD, AVGO, INTC, MU, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- AI: 0.982 (Shared companies: AMD, AVGO, INTC, MU, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Cybersecurity: 0.98 (Shared companies: AVGO, QCOM; Shared sectors: Technology; Similar average Discovery score)
+- Cloud: 0.994 (Shared companies: AMD, AVGO, INTC, MU, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Robotics: 0.994 (Shared companies: AMAT, AVGO, NVDA; Shared sectors: Technology; Similar average Discovery score)
+- AI: 0.99 (Shared companies: AMD, AVGO, INTC, MU, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Cybersecurity: 0.989 (Shared companies: AVGO, QCOM; Shared sectors: Technology; Similar average Discovery score)
+- EV: 0.989 (Shared companies: NVDA, TXN; Shared sectors: Technology; Similar average Discovery score)
 
 ## Review Note
 

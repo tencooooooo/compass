@@ -1,9 +1,9 @@
 # EV
 
 - Target companies: 4
-- Average Score: 52.33
-- Average Discovery: 63.00
-- Momentum: 1.56
+- Average Score: 55.00
+- Average Discovery: 61.00
+- Momentum: -1.69
 - Confidence: Medium
 
 ## Companies
@@ -15,8 +15,8 @@
 
 ## Market
 
-- Consumer Cyclical: score 40.83, momentum 1.48, trend {'momentum': 'Positive', 'news': 'Low', 'financial_health': 'Neutral'}
-- Technology: score 56.50, momentum 2.71, trend {'momentum': 'Positive', 'news': 'Low', 'financial_health': 'Good'}
+- Consumer Cyclical: score 42.67, momentum 4.87, trend {'momentum': 'Positive', 'news': 'Low', 'financial_health': 'Neutral'}
+- Technology: score 56.33, momentum -3.25, trend {'momentum': 'Weak', 'news': 'Low', 'financial_health': 'Good'}
 
 ## Major News
 
@@ -24,10 +24,10 @@ No theme news available yet.
 
 ## Similar Themes
 
-- Semiconductor: 0.994 (Shared companies: NVDA, TXN; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Robotics: 0.972 (Shared companies: NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Cloud: 0.965 (Shared companies: NVDA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
-- AI: 0.957 (Shared companies: NVDA, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
+- Semiconductor: 0.989 (Shared companies: NVDA, TXN; Shared sectors: Technology; Similar average Discovery score)
+- Cloud: 0.967 (Shared companies: NVDA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Robotics: 0.967 (Shared companies: NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- AI: 0.959 (Shared companies: NVDA, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
 - Cybersecurity: 0.956 (Shared sectors: Technology; Similar average Discovery score)
 
 ## Review Note

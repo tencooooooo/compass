@@ -1,14 +1,13 @@
 # Robotics
 
-- Target companies: 7
+- Target companies: 6
 - Average Score: 56.33
-- Average Discovery: 62.00
-- Momentum: 2.54
+- Average Discovery: 60.50
+- Momentum: -0.27
 - Confidence: Medium
 
 ## Companies
 
-- ACN - Accenture plc (Medium): Keyword: robotics; Keyword: automation; Sector alignment: Technology
 - AMAT - Applied Materials, Inc. (Medium): Keyword: automation; Sector alignment: Technology
 - AVGO - Broadcom Inc. (Medium): Keyword: automation; Sector alignment: Technology
 - CRM - Salesforce, Inc. (Medium): Keyword: autonomous; Sector alignment: Technology
@@ -18,7 +17,7 @@
 
 ## Market
 
-- Technology: score 56.50, momentum 2.71, trend {'momentum': 'Positive', 'news': 'Low', 'financial_health': 'Good'}
+- Technology: score 56.33, momentum -3.25, trend {'momentum': 'Weak', 'news': 'Low', 'financial_health': 'Good'}
 
 ## Major News
 
@@ -26,11 +25,11 @@ No theme news available yet.
 
 ## Similar Themes
 
-- Cloud: 0.999 (Shared companies: ACN, AVGO, CRM, NOW, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- AI: 0.998 (Shared companies: ACN, AVGO, CRM, NOW, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Cybersecurity: 0.998 (Shared companies: ACN, AVGO, NOW; Shared sectors: Technology; Similar average Discovery score)
-- Semiconductor: 0.991 (Shared companies: AMAT, AVGO, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Energy: 0.978 (Shared companies: ACN, AVGO; Shared sectors: Technology; Similar short-term momentum)
+- Cloud: 1.0 (Shared companies: AVGO, CRM, NOW, NVDA, ORCL; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- AI: 0.999 (Shared companies: AVGO, CRM, NOW, NVDA, ORCL; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Cybersecurity: 0.999 (Shared companies: AVGO, NOW; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Semiconductor: 0.994 (Shared companies: AMAT, AVGO, NVDA; Shared sectors: Technology; Similar average Discovery score)
+- Energy: 0.987 (Shared companies: AVGO; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
 
 ## Review Note
 
