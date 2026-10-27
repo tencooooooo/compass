@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Salesforce, Inc.
-- Total Score: 61 / 100
+- Total Score: 59 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 61 点を獲得し、シグナル充足率は 76.2% です。
+- データが確認できた 80 点満点のうち 59 点を獲得し、シグナル充足率は 73.8% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -108,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 22.7420
-- forward_pe: 15.5134
+- trailing_pe: 22.6542
+- forward_pe: 15.4609
 - peg_ratio: 0.8900
-- price_to_book: 5.3305
+- price_to_book: 5.3099
 - sector_peer_count: 16
 - trailing_pe_percentile: 35.7100
 - trailing_pe_peer_count: 15
@@ -124,15 +124,15 @@ Evidence
 
 ## Momentum
 
-14点
+12点
 
 理由
 
-- 1M の対SPY超過リターンは +5.85pt で、市場並み以上です。
-- 3M の対SPY超過リターンが +49.56pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +36.67pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -19.21pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.00 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +5.28pt で、市場並み以上です。
+- 3M の対SPY超過リターンが +40.36pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +33.14pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -17.35pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.61 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: 5.3498
-- 3M: 53.2020
-- 6M: 45.0533
-- 1Y: -4.1749
+- 1M: 4.3447
+- 3M: 43.4374
+- 6M: 40.1268
+- 1Y: -2.3230
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.5, '3M': 3.64, '6M': 8.38, '1Y': 15.03}
-- excess_returns: {'1M': 5.85, '3M': 49.56, '6M': 36.67, '1Y': -19.21}
-- latest_volume: 9,741,300.0000
-- average_volume_30d: 9,745,063.3333
+- benchmark_returns: {'1M': -0.94, '3M': 3.08, '6M': 6.99, '1Y': 15.03}
+- excess_returns: {'1M': 5.28, '3M': 40.36, '6M': 33.14, '1Y': -17.35}
+- latest_volume: 5,841,700.0000
+- average_volume_30d: 9,615,176.6667
 
 ## News
 

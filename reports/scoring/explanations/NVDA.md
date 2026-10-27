@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: NVIDIA Corporation
-- Total Score: 62 / 100
+- Total Score: 55 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -17,7 +17,7 @@ Medium
 理由
 
 - 利用可能な主要データ領域は5領域中 4 領域です。
-- 欠損または計算不可の項目数は 2 件です。
+- 欠損または計算不可の項目数は 3 件です。
 - データが不足している領域: News。
 - 主要データは一定程度ありますが、欠損や未取得項目が残っています。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 62 点を獲得し、シグナル充足率は 77.5% です。
+- データが確認できた 80 点満点のうち 55 点を獲得し、シグナル充足率は 68.8% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -67,14 +67,14 @@ Evidence
 
 ## Financial Health
 
-20点
+14点
 
 理由
 
 - 現金 がプラスで確認できるため加点しています。
 - 自己資本がプラスで、財務基盤を確認できます。
-- 総負債/自己資本が 0.31 倍で、負債負担は相対的に抑えられています。
-- 長期債務が総負債に対して過度に大きくないため加点しています。
+- 総負債が取得できないため、負債項目は加点していません。
+- 長期債務が確認できるため、返済負担の継続確認が必要です。
 - Current Ratio が 3.91 で、短期支払余力が確認できます。
 
 Evidence
@@ -85,10 +85,14 @@ Evidence
 使用データ
 
 - cash: 10,605,000,000.0000
-- total_liabilities: 49,510,000,000.0000
+- total_liabilities: N/A
 - shareholders_equity: 157,293,000,000.0000
 - long_term_debt: 7,469,000,000.0000
 - current_ratio: 3.9053
+
+欠損・計算不可
+
+- total_liabilities
 
 ## Valuation
 
@@ -109,10 +113,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 26.6700
-- forward_pe: 13.2558
+- trailing_pe: 27.3072
+- forward_pe: 13.5724
 - peg_ratio: 0.2600
-- price_to_book: 22.2461
+- price_to_book: 22.7776
 - sector_peer_count: 16
 - trailing_pe_percentile: 42.8600
 - trailing_pe_peer_count: 15
@@ -125,15 +129,15 @@ Evidence
 
 ## Momentum
 
-9点
+8点
 
 理由
 
-- 1M の対SPY超過リターンは -5.40pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -0.93pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -1.84pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンは +2.39pt で、市場並み以上です。
-- 直近出来高が30日平均の 1.18 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -5.12pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは +4.39pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -5.46pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは +2.27pt で、市場並み以上です。
+- 直近出来高が30日平均の 0.76 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -142,15 +146,15 @@ Evidence
 
 使用データ
 
-- 1M: -5.8977
-- 3M: 2.7110
-- 6M: 6.5393
-- 1Y: 17.4202
+- 1M: -6.0647
+- 3M: 7.4734
+- 6M: 1.5231
+- 1Y: 17.2983
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.5, '3M': 3.64, '6M': 8.38, '1Y': 15.03}
-- excess_returns: {'1M': -5.4, '3M': -0.93, '6M': -1.84, '1Y': 2.39}
-- latest_volume: 125,407,600.0000
-- average_volume_30d: 105,961,706.6667
+- benchmark_returns: {'1M': -0.94, '3M': 3.08, '6M': 6.99, '1Y': 15.03}
+- excess_returns: {'1M': -5.12, '3M': 4.39, '6M': -5.46, '1Y': 2.27}
+- latest_volume: 79,987,200.0000
+- average_volume_30d: 105,659,276.6667
 
 ## News
 

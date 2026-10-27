@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Oracle Corporation
-- Total Score: 56 / 100
+- Total Score: 55 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 56 点を獲得し、シグナル充足率は 70.0% です。
+- データが確認できた 80 点満点のうち 55 点を獲得し、シグナル充足率は 68.8% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -109,10 +109,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 19.7743
-- forward_pe: 11.4797
-- peg_ratio: 0.7000
-- price_to_book: 6.1716
+- trailing_pe: 19.7586
+- forward_pe: 11.4687
+- peg_ratio: 0.7100
+- price_to_book: 6.1667
 - sector_peer_count: 16
 - trailing_pe_percentile: 21.4300
 - trailing_pe_peer_count: 15
@@ -125,15 +125,15 @@ Evidence
 
 ## Momentum
 
-6点
+5点
 
 理由
 
-- 1M の対SPY超過リターンは -12.33pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは +5.93pt で、市場並み以上です。
-- 6M の対SPY超過リターンは -36.65pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -68.80pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.12 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -8.31pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは +2.53pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -33.66pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -68.14pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.63 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -142,15 +142,15 @@ Evidence
 
 使用データ
 
-- 1M: -12.8360
-- 3M: 9.5785
-- 6M: -28.2717
-- 1Y: -53.7635
+- 1M: -9.2543
+- 3M: 5.6102
+- 6M: -26.6695
+- 1Y: -53.1108
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.5, '3M': 3.64, '6M': 8.38, '1Y': 15.03}
-- excess_returns: {'1M': -12.33, '3M': 5.93, '6M': -36.65, '1Y': -68.8}
-- latest_volume: 36,620,100.0000
-- average_volume_30d: 32,677,083.3333
+- benchmark_returns: {'1M': -0.94, '3M': 3.08, '6M': 6.99, '1Y': 15.03}
+- excess_returns: {'1M': -8.31, '3M': 2.53, '6M': -33.66, '1Y': -68.14}
+- latest_volume: 19,178,400.0000
+- average_volume_30d: 30,635,076.6667
 
 ## News
 

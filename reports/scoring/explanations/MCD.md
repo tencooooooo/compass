@@ -5,9 +5,9 @@
 ## Summary
 
 - Company: McDonald's Corporation
-- Total Score: 32 / 100
+- Total Score: 29 / 100
 - Confidence: Medium
-- Signal Strength: Moderate
+- Signal Strength: Weak
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
@@ -24,12 +24,12 @@ Medium
 
 ## Signal Strength
 
-Moderate
+Weak
 
 理由
 
-- データが確認できた 80 点満点のうち 32 点を獲得し、シグナル充足率は 40.0% です。
-- シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
+- データが確認できた 80 点満点のうち 29 点を獲得し、シグナル充足率は 36.2% です。
+- シグナル強度は Weak(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
@@ -102,7 +102,7 @@ Evidence
 - PER はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 22.22 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - PEG はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
-- PBR は -171.83 で、指標がマイナスのため加点対象外です。
+- PBR は -173.46 で、指標がマイナスのため加点対象外です。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -112,10 +112,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 20.1836
-- forward_pe: 18.0806
-- peg_ratio: 2.6700
-- price_to_book: -171.8257
+- trailing_pe: 20.3761
+- forward_pe: 18.2539
+- peg_ratio: 2.6300
+- price_to_book: -173.4647
 - sector_peer_count: 10
 - trailing_pe_percentile: 44.4400
 - trailing_pe_peer_count: 10
@@ -128,15 +128,15 @@ Evidence
 
 ## Momentum
 
-7点
+4点
 
 理由
 
-- 1M の対SPY超過リターンは +6.51pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -7.55pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -23.71pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -30.76pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.82 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +5.77pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -10.63pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -22.83pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -32.85pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.67 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -145,15 +145,15 @@ Evidence
 
 使用データ
 
-- 1M: 6.0045
-- 3M: -3.9033
-- 6M: -15.3303
-- 1Y: -15.7253
+- 1M: 4.8266
+- 3M: -7.5531
+- 6M: -15.8461
+- 1Y: -17.8193
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.5, '3M': 3.64, '6M': 8.38, '1Y': 15.03}
-- excess_returns: {'1M': 6.51, '3M': -7.55, '6M': -23.71, '1Y': -30.76}
-- latest_volume: 5,084,800.0000
-- average_volume_30d: 6,230,116.6667
+- benchmark_returns: {'1M': -0.94, '3M': 3.08, '6M': 6.99, '1Y': 15.03}
+- excess_returns: {'1M': 5.77, '3M': -10.63, '6M': -22.83, '1Y': -32.85}
+- latest_volume: 4,158,500.0000
+- average_volume_30d: 6,232,173.3333
 
 ## News
 

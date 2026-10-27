@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Tesla, Inc.
-- Total Score: 45 / 100
+- Total Score: 44 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 45 点を獲得し、シグナル充足率は 56.2% です。
+- データが確認できた 80 点満点のうち 44 点を獲得し、シグナル充足率は 55.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -54,7 +54,7 @@ Evidence
 使用データ
 
 - total_revenue: 94,827,000,000.0000
-- eps: 1.1765
+- eps: 1.1800
 - net_income: 3,794,000,000.0000
 - operating_income: 4,849,000,000.0000
 - research_and_development: 6,411,000,000.0000
@@ -99,7 +99,7 @@ Evidence
 - PER はセクター内 100.00 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - Forward PER はセクター内 100.00 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - PEG はセクター内 100.00 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
-- PBR はセクター内 50.00 パーセンタイル / 母数 5 で、中位レンジです。
+- PBR はセクター内 75.00 パーセンタイル / 母数 5 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -109,10 +109,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 409.0330
-- forward_pe: 172.0087
-- peg_ratio: 3.8200
-- price_to_book: 13.5068
+- trailing_pe: 430.3516
+- forward_pe: 179.6290
+- peg_ratio: 3.8000
+- price_to_book: 17.3375
 - sector_peer_count: 10
 - trailing_pe_percentile: 100
 - trailing_pe_peer_count: 10
@@ -120,20 +120,20 @@ Evidence
 - forward_pe_peer_count: 10
 - peg_ratio_percentile: 100
 - peg_ratio_peer_count: 10
-- price_to_book_percentile: 50.0000
+- price_to_book_percentile: 75.0000
 - price_to_book_peer_count: 5
 
 ## Momentum
 
-10点
+9点
 
 理由
 
-- 1M の対SPY超過リターンは -0.96pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンが +16.02pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンは -8.15pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンは -30.40pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.44 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは -0.57pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンが +17.29pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンは -8.07pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは -30.24pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.96 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -142,15 +142,15 @@ Evidence
 
 使用データ
 
-- 1M: -1.4574
-- 3M: 19.6626
-- 6M: 0.2301
-- 1Y: -15.3683
+- 1M: -1.5135
+- 3M: 20.3738
+- 6M: -1.0842
+- 1Y: -15.2061
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.5, '3M': 3.64, '6M': 8.38, '1Y': 15.03}
-- excess_returns: {'1M': -0.96, '3M': 16.02, '6M': -8.15, '1Y': -30.4}
-- latest_volume: 51,610,900.0000
-- average_volume_30d: 35,895,103.3333
+- benchmark_returns: {'1M': -0.94, '3M': 3.08, '6M': 6.99, '1Y': 15.03}
+- excess_returns: {'1M': -0.57, '3M': 17.29, '6M': -8.07, '1Y': -30.24}
+- latest_volume: 34,689,700.0000
+- average_volume_30d: 36,046,326.6667
 
 ## News
 
