@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Lowe's Companies, Inc.
-- Total Score: 39 / 100
+- Total Score: 38 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 39 点を獲得し、シグナル充足率は 48.8% です。
+- データが確認できた 80 点満点のうち 38 点を獲得し、シグナル充足率は 47.5% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -98,7 +98,7 @@ Evidence
 
 理由
 
-- PER はセクター内 0.00 パーセンタイル / 母数 10 で、相対的に割安寄りです。
+- PER はセクター内 11.11 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - Forward PER はセクター内 11.11 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - PEG はセクター内 22.22 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - PBR は -14.95 で、指標がマイナスのため加点対象外です。
@@ -111,12 +111,12 @@ Evidence
 
 使用データ
 
-- trailing_pe: 16.7557
-- forward_pe: 15.2642
-- peg_ratio: 1.2700
-- price_to_book: -14.9521
+- trailing_pe: 16.7523
+- forward_pe: 15.2611
+- peg_ratio: 1.2600
+- price_to_book: -14.9491
 - sector_peer_count: 10
-- trailing_pe_percentile: 0
+- trailing_pe_percentile: 11.1100
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 11.1100
 - forward_pe_peer_count: 10
@@ -127,15 +127,15 @@ Evidence
 
 ## Momentum
 
-7点
+6点
 
 理由
 
-- 1M の対SPY超過リターンは +7.01pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -8.57pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -24.69pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -31.65pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.85 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +6.16pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -12.16pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -24.81pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -32.10pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.94 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -144,15 +144,15 @@ Evidence
 
 使用データ
 
-- 1M: 6.0740
-- 3M: -5.4886
-- 6M: -17.7032
-- 1Y: -16.6230
+- 1M: 5.3867
+- 3M: -8.5979
+- 6M: -17.2506
+- 1Y: -16.9320
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.94, '3M': 3.08, '6M': 6.99, '1Y': 15.03}
-- excess_returns: {'1M': 7.01, '3M': -8.57, '6M': -24.69, '1Y': -31.65}
-- latest_volume: 2,846,500.0000
-- average_volume_30d: 3,342,903.3333
+- benchmark_returns: {'1M': -0.78, '3M': 3.56, '6M': 7.56, '1Y': 15.16}
+- excess_returns: {'1M': 6.16, '3M': -12.16, '6M': -24.81, '1Y': -32.1}
+- latest_volume: 3,164,500.0000
+- average_volume_30d: 3,369,590.0000
 
 ## News
 

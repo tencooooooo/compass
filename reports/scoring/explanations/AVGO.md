@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Broadcom Inc.
-- Total Score: 47 / 100
+- Total Score: 49 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 47 点を獲得し、シグナル充足率は 58.8% です。
+- データが確認できた 80 点満点のうち 49 点を獲得し、シグナル充足率は 61.2% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -109,10 +109,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 42.0396
-- forward_pe: 16.9400
-- peg_ratio: 0.3200
-- price_to_book: 15.7633
+- trailing_pe: 43.7203
+- forward_pe: 17.5869
+- peg_ratio: 0.3300
+- price_to_book: 16.3935
 - sector_peer_count: 16
 - trailing_pe_percentile: 85.7100
 - trailing_pe_peer_count: 15
@@ -125,15 +125,15 @@ Evidence
 
 ## Momentum
 
-2点
+4点
 
 理由
 
-- 1M の対SPY超過リターンは -7.25pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -18.99pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -30.64pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -19.80pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.69 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -5.93pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -16.99pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -28.58pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -18.85pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.83 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -142,15 +142,15 @@ Evidence
 
 使用データ
 
-- 1M: -8.1859
-- 3M: -15.9058
-- 6M: -23.6503
-- 1Y: -4.7688
+- 1M: -6.7005
+- 3M: -13.4259
+- 6M: -21.0207
+- 1Y: -3.6808
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.94, '3M': 3.08, '6M': 6.99, '1Y': 15.03}
-- excess_returns: {'1M': -7.25, '3M': -18.99, '6M': -30.64, '1Y': -19.8}
-- latest_volume: 15,871,100.0000
-- average_volume_30d: 23,009,160.0000
+- benchmark_returns: {'1M': -0.78, '3M': 3.56, '6M': 7.56, '1Y': 15.16}
+- excess_returns: {'1M': -5.93, '3M': -16.99, '6M': -28.58, '1Y': -18.85}
+- latest_volume: 18,646,700.0000
+- average_volume_30d: 22,543,486.6667
 
 ## News
 

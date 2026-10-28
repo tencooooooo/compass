@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: QUALCOMM Incorporated
-- Total Score: 56 / 100
+- Total Score: 55 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 56 点を獲得し、シグナル充足率は 70.0% です。
+- データが確認できた 80 点満点のうち 55 点を獲得し、シグナル充足率は 68.8% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -97,7 +97,7 @@ Evidence
 
 - PER はセクター内 28.57 パーセンタイル / 母数 15 で、中位レンジです。
 - Forward PER はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。
-- PEG はセクター内 43.33 パーセンタイル / 母数 16 で、中位レンジです。
+- PEG はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。
 - PBR はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -108,31 +108,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 20.7870
-- forward_pe: 17.6314
-- peg_ratio: 0.8000
-- price_to_book: 6.8636
+- trailing_pe: 21.3160
+- forward_pe: 18.0800
+- peg_ratio: 0.8100
+- price_to_book: 7.0383
 - sector_peer_count: 16
 - trailing_pe_percentile: 28.5700
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 46.6700
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 43.3300
+- peg_ratio_percentile: 40.0000
 - peg_ratio_peer_count: 16
 - price_to_book_percentile: 26.6700
 - price_to_book_peer_count: 16
 
 ## Momentum
 
-10点
+9点
 
 理由
 
-- 1M の対SPY超過リターンは -8.51pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは +0.93pt で、市場並み以上です。
-- 6M の対SPY超過リターンが +12.27pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -8.94pt と、市場を小幅に下回っています。
-- 直近出来高が30日平均の 0.58 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -10.30pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは +7.30pt で、市場並み以上です。
+- 6M の対SPY超過リターンが +13.06pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -7.34pt と、市場を小幅に下回っています。
+- 直近出来高が30日平均の 0.79 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: -9.4461
-- 3M: 4.0152
-- 6M: 19.2614
-- 1Y: 6.0869
+- 1M: -11.0759
+- 3M: 10.8653
+- 6M: 20.6206
+- 1Y: 7.8281
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.94, '3M': 3.08, '6M': 6.99, '1Y': 15.03}
-- excess_returns: {'1M': -8.51, '3M': 0.93, '6M': 12.27, '1Y': -8.94}
-- latest_volume: 7,244,700.0000
-- average_volume_30d: 12,440,816.6667
+- benchmark_returns: {'1M': -0.78, '3M': 3.56, '6M': 7.56, '1Y': 15.16}
+- excess_returns: {'1M': -10.3, '3M': 7.3, '6M': 13.06, '1Y': -7.34}
+- latest_volume: 9,668,300.0000
+- average_volume_30d: 12,303,970.0000
 
 ## News
 

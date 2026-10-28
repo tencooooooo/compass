@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Microsoft Corporation
-- Total Score: 57 / 100
+- Total Score: 59 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 57 点を獲得し、シグナル充足率は 71.2% です。
+- データが確認できた 80 点満点のうち 59 点を獲得し、シグナル充足率は 73.8% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -108,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 29.6713
-- forward_pe: 22.4823
-- peg_ratio: 1.7000
-- price_to_book: 8.9415
+- trailing_pe: 29.6006
+- forward_pe: 22.4287
+- peg_ratio: 1.7300
+- price_to_book: 8.9202
 - sector_peer_count: 16
 - trailing_pe_percentile: 50.0000
 - trailing_pe_peer_count: 15
@@ -124,15 +124,15 @@ Evidence
 
 ## Momentum
 
-12点
+14点
 
 理由
 
-- 1M の対SPY超過リターンは +6.28pt で、市場並み以上です。
-- 3M の対SPY超過リターンが +31.97pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +17.04pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -13.44pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.64 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは +3.96pt で、市場並み以上です。
+- 3M の対SPY超過リターンが +32.09pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +18.32pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -12.01pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.89 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: 5.3381
-- 3M: 35.0546
-- 6M: 24.0251
-- 1Y: 1.5917
+- 1M: 3.1831
+- 3M: 35.6559
+- 6M: 25.8788
+- 1Y: 3.1547
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.94, '3M': 3.08, '6M': 6.99, '1Y': 15.03}
-- excess_returns: {'1M': 6.28, '3M': 31.97, '6M': 17.04, '1Y': -13.44}
-- latest_volume: 13,671,500.0000
-- average_volume_30d: 21,428,163.3333
+- benchmark_returns: {'1M': -0.78, '3M': 3.56, '6M': 7.56, '1Y': 15.16}
+- excess_returns: {'1M': 3.96, '3M': 32.09, '6M': 18.32, '1Y': -12.01}
+- latest_volume: 19,021,000.0000
+- average_volume_30d: 21,292,466.6667
 
 ## News
 
