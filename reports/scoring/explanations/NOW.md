@@ -5,9 +5,9 @@
 ## Summary
 
 - Company: ServiceNow, Inc.
-- Total Score: 52 / 100
+- Total Score: 51 / 100
 - Confidence: Medium
-- Signal Strength: Strong
+- Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
@@ -24,12 +24,12 @@ Medium
 
 ## Signal Strength
 
-Strong
+Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 52 点を獲得し、シグナル充足率は 65.0% です。
-- シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
+- データが確認できた 80 点満点のうち 51 点を獲得し、シグナル充足率は 63.8% です。
+- シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
@@ -37,9 +37,9 @@ Strong
 
 理由
 
-- revenue_growth(直近4四半期平均) は 22.57% で、+15%以上の成長です。
-- eps_growth(直近4四半期平均) は -18.51% で、前年同期比ではマイナスです。
-- eps_growth は直近四半期が前四半期より -23.89pt 低く、成長の減速に注意が必要です。
+- revenue_growth(直近4四半期平均) は 22.11% で、+15%以上の成長です。
+- eps_growth(直近4四半期平均) は -34.98% で、前年同期比ではマイナスです。
+- eps_growth は直近四半期が前四半期より -22.13pt 低く、成長の減速に注意が必要です。
 - 純利益 がプラスで確認できるため加点しています。
 - 営業利益 がプラスで確認できるため加点しています。
 - 研究開発費が確認でき、将来成長への投資が続いています。
@@ -57,12 +57,12 @@ Evidence
 - net_income: 1,748,000,000.0000
 - operating_income: 1,824,000,000.0000
 - research_and_development: 2,960,000,000.0000
-- revenue_yoy_growth: 24.0100
-- eps_yoy_growth: -21.6200
-- revenue_yoy_growth_avg: 22.5700
-- eps_yoy_growth_avg: -18.5100
-- revenue_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
-- eps_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
+- revenue_yoy_growth: 20.5200
+- eps_yoy_growth: -43.7500
+- revenue_yoy_growth_avg: 22.1100
+- eps_yoy_growth_avg: -34.9800
+- revenue_growth_quarters: ['2026-Q3', '2026-Q2', '2026-Q1', '2025-Q3']
+- eps_growth_quarters: ['2026-Q3', '2026-Q2', '2026-Q1', '2025-Q3']
 
 ## Financial Health
 
@@ -98,7 +98,7 @@ Evidence
 - PER はセクター内 92.86 パーセンタイル / 母数 15 で、相対的な加点は抑えています。
 - Forward PER はセクター内 80.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - PEG はセクター内 73.33 パーセンタイル / 母数 16 で、中位レンジです。
-- PBR はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。
+- PBR はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -108,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 96.7375
-- forward_pe: 30.9457
-- peg_ratio: 1.1400
-- price_to_book: 12.7854
+- trailing_pe: 93.8312
+- forward_pe: 30.0160
+- peg_ratio: 1.1200
+- price_to_book: 12.4013
 - sector_peer_count: 16
 - trailing_pe_percentile: 92.8600
 - trailing_pe_peer_count: 15
@@ -119,20 +119,20 @@ Evidence
 - forward_pe_peer_count: 16
 - peg_ratio_percentile: 73.3300
 - peg_ratio_peer_count: 16
-- price_to_book_percentile: 66.6700
+- price_to_book_percentile: 60.0000
 - price_to_book_peer_count: 16
 
 ## Momentum
 
-16点
+15点
 
 理由
 
-- 1M の対SPY超過リターンが +17.41pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンが +39.43pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +67.32pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -30.95pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.28 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンが +17.22pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンが +27.93pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +62.35pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -31.67pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.17 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: 16.6347
-- 3M: 42.9940
-- 6M: 74.8811
-- 1Y: -15.7873
+- 1M: 17.7482
+- 3M: 33.7077
+- 6M: 71.0465
+- 1Y: -16.8002
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.78, '3M': 3.56, '6M': 7.56, '1Y': 15.16}
-- excess_returns: {'1M': 17.41, '3M': 39.43, '6M': 67.32, '1Y': -30.95}
-- latest_volume: 14,739,100.0000
-- average_volume_30d: 11,532,306.6667
+- benchmark_returns: {'1M': 0.53, '3M': 5.77, '6M': 8.69, '1Y': 14.87}
+- excess_returns: {'1M': 17.22, '3M': 27.93, '6M': 62.35, '1Y': -31.67}
+- latest_volume: 13,481,100.0000
+- average_volume_30d: 11,491,526.6667
 
 ## News
 

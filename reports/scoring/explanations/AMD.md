@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Advanced Micro Devices, Inc.
-- Total Score: 61 / 100
+- Total Score: 64 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 61 点を獲得し、シグナル充足率は 76.2% です。
+- データが確認できた 80 点満点のうち 64 点を獲得し、シグナル充足率は 80.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -97,7 +97,7 @@ Evidence
 理由
 
 - PER はセクター内 100.00 パーセンタイル / 母数 15 で、相対的な加点は抑えています。
-- Forward PER はセクター内 86.67 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
+- Forward PER はセクター内 93.33 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - PEG はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。
 - PBR はセクター内 73.33 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
@@ -109,14 +109,14 @@ Evidence
 
 使用データ
 
-- trailing_pe: 142.9235
-- forward_pe: 35.5590
-- peg_ratio: 0.5300
-- price_to_book: 13.6015
+- trailing_pe: 147.5612
+- forward_pe: 36.5011
+- peg_ratio: 0.5600
+- price_to_book: 14.0429
 - sector_peer_count: 16
 - trailing_pe_percentile: 100
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 86.6700
+- forward_pe_percentile: 93.3300
 - forward_pe_peer_count: 16
 - peg_ratio_percentile: 20.0000
 - peg_ratio_peer_count: 16
@@ -125,15 +125,15 @@ Evidence
 
 ## Momentum
 
-13点
+16点
 
 理由
 
-- 1M の対SPY超過リターンは -14.98pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンが +13.30pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +51.20pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンが +110.92pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.79 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -8.36pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンが +24.65pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +64.65pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンが +106.65pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.96 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -142,15 +142,15 @@ Evidence
 
 使用データ
 
-- 1M: -15.7541
-- 3M: 16.8624
-- 6M: 58.7664
-- 1Y: 126.0862
+- 1M: -7.8323
+- 3M: 30.4265
+- 6M: 73.3424
+- 1Y: 121.5167
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.78, '3M': 3.56, '6M': 7.56, '1Y': 15.16}
-- excess_returns: {'1M': -14.98, '3M': 13.3, '6M': 51.2, '1Y': 110.92}
-- latest_volume: 16,796,800.0000
-- average_volume_30d: 21,279,750.0000
+- benchmark_returns: {'1M': 0.53, '3M': 5.77, '6M': 8.69, '1Y': 14.87}
+- excess_returns: {'1M': -8.36, '3M': 24.65, '6M': 64.65, '1Y': 106.65}
+- latest_volume: 20,599,900.0000
+- average_volume_30d: 21,395,280.0000
 
 ## News
 

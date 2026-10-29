@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: T-Mobile US, Inc.
-- Total Score: 37 / 100
+- Total Score: 38 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,18 +28,18 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 37 点を獲得し、シグナル充足率は 46.2% です。
+- データが確認できた 80 点満点のうち 38 点を獲得し、シグナル充足率は 47.5% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
-8点
+10点
 
 理由
 
-- revenue_growth(直近4四半期平均) は 8.57% で、プラス成長を維持しています。
-- eps_growth(直近4四半期平均) は -0.08% で、前年同期比ではマイナスです。
-- eps_growth は直近四半期が前四半期より +17.30pt 高く、成長の加速がみられます。
+- revenue_growth(直近4四半期平均) は 8.70% で、プラス成長を維持しています。
+- eps_growth(直近4四半期平均) は 4.80% で、プラス成長を維持しています。
+- eps_growth は直近四半期が前四半期より +28.33pt 高く、成長の加速がみられます。
 - 純利益 がプラスで確認できるため加点しています。
 - 営業利益 がプラスで確認できるため加点しています。
 - 研究開発費が取得できないため、R&D項目は加点していません。
@@ -57,12 +57,12 @@ Evidence
 - net_income: 10,992,000,000.0000
 - operating_income: 18,557,000,000.0000
 - research_and_development: N/A
-- revenue_yoy_growth: 7.8500
-- eps_yoy_growth: 5.2800
-- revenue_yoy_growth_avg: 8.5700
-- eps_yoy_growth_avg: -0.0800
-- revenue_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
-- eps_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
+- revenue_yoy_growth: 7.4100
+- eps_yoy_growth: 33.6100
+- revenue_yoy_growth_avg: 8.7000
+- eps_yoy_growth_avg: 4.8000
+- revenue_growth_quarters: ['2026-Q3', '2026-Q2', '2026-Q1', '2025-Q3']
+- eps_growth_quarters: ['2026-Q3', '2026-Q2', '2026-Q1', '2025-Q3']
 
 欠損・計算不可
 
@@ -112,10 +112,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 15.3427
-- forward_pe: 10.1794
+- trailing_pe: 15.3451
+- forward_pe: 10.2660
 - peg_ratio: 0.5300
-- price_to_book: 2.8049
+- price_to_book: 2.8288
 - sector_peer_count: 10
 - trailing_pe_percentile: 44.4400
 - trailing_pe_peer_count: 10
@@ -128,15 +128,15 @@ Evidence
 
 ## Momentum
 
-4点
+3点
 
 理由
 
-- 1M の対SPY超過リターンは -10.41pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -22.54pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -26.26pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -46.96pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.22 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは -12.32pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -24.42pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -29.17pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -46.02pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.19 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -145,15 +145,15 @@ Evidence
 
 使用データ
 
-- 1M: -11.1830
-- 3M: -18.9769
-- 6M: -18.6978
-- 1Y: -31.7997
+- 1M: -11.7873
+- 3M: -18.6440
+- 6M: -20.4806
+- 1Y: -31.1513
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.78, '3M': 3.56, '6M': 7.56, '1Y': 15.16}
-- excess_returns: {'1M': -10.41, '3M': -22.54, '6M': -26.26, '1Y': -46.96}
-- latest_volume: 7,658,300.0000
-- average_volume_30d: 6,282,936.6667
+- benchmark_returns: {'1M': 0.53, '3M': 5.77, '6M': 8.69, '1Y': 14.87}
+- excess_returns: {'1M': -12.32, '3M': -24.42, '6M': -29.17, '1Y': -46.02}
+- latest_volume: 7,607,600.0000
+- average_volume_30d: 6,415,666.6667
 
 ## News
 

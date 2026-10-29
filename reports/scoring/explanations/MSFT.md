@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Microsoft Corporation
-- Total Score: 59 / 100
+- Total Score: 61 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,18 +28,18 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 59 点を獲得し、シグナル充足率は 73.8% です。
+- データが確認できた 80 点満点のうち 61 点を獲得し、シグナル充足率は 76.2% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
-18点
+20点
 
 理由
 
-- revenue_growth(直近4四半期平均) は 16.68% で、+15%以上の成長です。
-- eps_growth(直近4四半期平均) は 28.39% で、+15%以上の成長です。
-- eps_growth は直近四半期が前四半期より -36.34pt 低く、成長の減速に注意が必要です。
+- revenue_growth(直近4四半期平均) は 18.06% で、+15%以上の成長です。
+- eps_growth(直近4四半期平均) は 32.04% で、+30%以上の高成長です。
+- eps_growth は直近四半期が前四半期より +8.85pt 高く、成長の加速がみられます。
 - 純利益 がプラスで確認できるため加点しています。
 - 営業利益 がプラスで確認できるため加点しています。
 - 研究開発費が確認でき、将来成長への投資が続いています。
@@ -57,12 +57,12 @@ Evidence
 - net_income: 133,749,000,000.0000
 - operating_income: 155,237,000,000.0000
 - research_and_development: 35,562,000,000.0000
-- revenue_yoy_growth: 18.3000
-- eps_yoy_growth: 23.4100
-- revenue_yoy_growth_avg: 16.6800
-- eps_yoy_growth_avg: 28.3900
-- revenue_growth_quarters: ['2026-Q1', '2025-Q4', '2025-Q3', '2025-Q1']
-- eps_growth_quarters: ['2026-Q1', '2025-Q4', '2025-Q3', '2025-Q1']
+- revenue_yoy_growth: 18.8000
+- eps_yoy_growth: 32.2600
+- revenue_yoy_growth_avg: 18.0600
+- eps_yoy_growth_avg: 32.0400
+- revenue_growth_quarters: ['2026-Q3', '2026-Q1', '2025-Q4', '2025-Q3']
+- eps_growth_quarters: ['2026-Q3', '2026-Q1', '2025-Q4', '2025-Q3']
 
 ## Financial Health
 
@@ -96,7 +96,7 @@ Evidence
 理由
 
 - PER はセクター内 50.00 パーセンタイル / 母数 15 で、中位レンジです。
-- Forward PER はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。
+- Forward PER はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。
 - PEG はセクター内 86.67 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - PBR はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
@@ -108,14 +108,14 @@ Evidence
 
 使用データ
 
-- trailing_pe: 29.6006
-- forward_pe: 22.4287
+- trailing_pe: 29.5827
+- forward_pe: 22.4152
 - peg_ratio: 1.7300
-- price_to_book: 8.9202
+- price_to_book: 8.9148
 - sector_peer_count: 16
 - trailing_pe_percentile: 50.0000
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 66.6700
+- forward_pe_percentile: 60.0000
 - forward_pe_peer_count: 16
 - peg_ratio_percentile: 86.6700
 - peg_ratio_peer_count: 16
@@ -128,11 +128,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは +3.96pt で、市場並み以上です。
-- 3M の対SPY超過リターンが +32.09pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +18.32pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -12.01pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.89 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +3.81pt で、市場並み以上です。
+- 3M の対SPY超過リターンが +30.53pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +15.59pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -12.56pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.91 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: 3.1831
-- 3M: 35.6559
-- 6M: 25.8788
-- 1Y: 3.1547
+- 1M: 4.3419
+- 3M: 36.3062
+- 6M: 24.2826
+- 1Y: 2.3093
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.78, '3M': 3.56, '6M': 7.56, '1Y': 15.16}
-- excess_returns: {'1M': 3.96, '3M': 32.09, '6M': 18.32, '1Y': -12.01}
-- latest_volume: 19,021,000.0000
-- average_volume_30d: 21,292,466.6667
+- benchmark_returns: {'1M': 0.53, '3M': 5.77, '6M': 8.69, '1Y': 14.87}
+- excess_returns: {'1M': 3.81, '3M': 30.53, '6M': 15.59, '1Y': -12.56}
+- latest_volume: 19,532,300.0000
+- average_volume_30d: 21,350,390.0000
 
 ## News
 

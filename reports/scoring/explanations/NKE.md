@@ -101,7 +101,7 @@ Evidence
 
 - PER はセクター内 22.22 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - Forward PER はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
-- PEG はセクター内 88.89 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
+- PEG はセクター内 100.00 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - PBR はセクター内 0.00 パーセンタイル / 母数 5 で、相対的に割安寄りです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -112,16 +112,16 @@ Evidence
 
 使用データ
 
-- trailing_pe: 18.0577
-- forward_pe: 24.1537
-- peg_ratio: 3.2000
-- price_to_book: 3.6597
+- trailing_pe: 17.8606
+- forward_pe: 23.8901
+- peg_ratio: 9.2300
+- price_to_book: 3.6198
 - sector_peer_count: 10
 - trailing_pe_percentile: 22.2200
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 44.4400
 - forward_pe_peer_count: 10
-- peg_ratio_percentile: 88.8900
+- peg_ratio_percentile: 100
 - peg_ratio_peer_count: 10
 - price_to_book_percentile: 0
 - price_to_book_peer_count: 5
@@ -132,11 +132,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは +6.82pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -14.57pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -21.93pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -58.96pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.60 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは +2.69pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -17.95pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -23.64pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -58.73pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.36 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -145,15 +145,15 @@ Evidence
 
 使用データ
 
-- 1M: 6.0420
-- 3M: -11.0055
-- 6M: -14.3665
-- 1Y: -43.8003
+- 1M: 3.2152
+- 3M: -12.1739
+- 6M: -14.9498
+- 1Y: -43.8599
 - benchmark: SPY
-- benchmark_returns: {'1M': -0.78, '3M': 3.56, '6M': 7.56, '1Y': 15.16}
-- excess_returns: {'1M': 6.82, '3M': -14.57, '6M': -21.93, '1Y': -58.96}
-- latest_volume: 24,447,300.0000
-- average_volume_30d: 40,841,173.3333
+- benchmark_returns: {'1M': 0.53, '3M': 5.77, '6M': 8.69, '1Y': 14.87}
+- excess_returns: {'1M': 2.69, '3M': -17.95, '6M': -23.64, '1Y': -58.73}
+- latest_volume: 14,685,800.0000
+- average_volume_30d: 40,340,930.0000
 
 ## News
 

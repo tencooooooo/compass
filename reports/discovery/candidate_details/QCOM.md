@@ -10,7 +10,7 @@
 
 ## Discovery Score
 
-60 / 100
+61 / 100
 
 ## Discovery Reasons
 
@@ -21,9 +21,9 @@
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで +9.35pt と、市場並み以上です。
-- 3Mモメンタムは対SPYで +1.04pt と、市場並み以上です。
-- 6Mモメンタムは対SPYで +27.18pt と、市場を大きく上回っています。
+- 1Mモメンタムは対SPYで -2.29pt と、市場を小幅に下回っています。
+- 3Mモメンタムは対SPYで +13.17pt と、市場を大きく上回っています。
+- 6Mモメンタムは対SPYで +15.21pt と、市場を大きく上回っています。
 
 ## Strengths
 
@@ -45,7 +45,7 @@ Medium
 
 ## Signal Strength
 
-Strong(シグナル充足率: 67.25%)
+Strong(シグナル充足率: 68.31%)
 
 ## Evidence
 
@@ -65,20 +65,20 @@ Strong(シグナル充足率: 67.25%)
 
 ## Metrics
 
-- scoring_total: 59.0
-- signal_earned_points: 59.85
+- scoring_total: 61.0
+- signal_earned_points: 60.8
 - signal_max_points: 89.0
 - weak_signals: []
 - scoring_signal_strength: Strong
 - growth_score: 17.0
 - financial_health_score: 17.0
-- valuation_score: 12.0
+- valuation_score: 14.0
 - news_score: 0.0
-- momentum: {'1m': 9.885976304640746, '3m': 3.875761161783917, '6m': 44.3724249509164, '1y': 11.734780677849603}
+- momentum: {'1m': -1.7655203936552653, '3m': 18.944210137417237, '6m': 23.904178629161947, '1y': 11.285244202105684}
 - benchmark: SPY
-- excess_momentum: {'1m': 9.35, '3m': 1.04, '6m': 27.18, '1y': -4.18}
+- excess_momentum: {'1m': -2.29, '3m': 13.17, '6m': 15.21, '1y': -3.59}
 - positive_news: 0
 - watch_news: 0
 - event_count: 0
 - events_with_reaction: 0
-- sector_average_score: 55.75
+- sector_average_score: 56.583333333333336
