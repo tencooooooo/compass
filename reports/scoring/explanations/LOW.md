@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Lowe's Companies, Inc.
-- Total Score: 38 / 100
+- Total Score: 37 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 38 点を獲得し、シグナル充足率は 47.5% です。
+- データが確認できた 80 点満点のうち 37 点を獲得し、シグナル充足率は 46.2% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -101,7 +101,7 @@ Evidence
 - PER はセクター内 11.11 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - Forward PER はセクター内 11.11 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - PEG はセクター内 22.22 パーセンタイル / 母数 10 で、相対的に割安寄りです。
-- PBR は -14.97 で、指標がマイナスのため加点対象外です。
+- PBR は -15.64 で、指標がマイナスのため加点対象外です。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -111,10 +111,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 16.7568
-- forward_pe: 15.2781
-- peg_ratio: 1.2600
-- price_to_book: -14.9657
+- trailing_pe: 17.5216
+- forward_pe: 15.9619
+- peg_ratio: 1.2700
+- price_to_book: -15.6355
 - sector_peer_count: 10
 - trailing_pe_percentile: 11.1100
 - trailing_pe_peer_count: 10
@@ -127,15 +127,15 @@ Evidence
 
 ## Momentum
 
-6点
+5点
 
 理由
 
-- 1M の対SPY超過リターンは +5.75pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -13.30pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -25.19pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -31.42pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.81 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +5.56pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -9.35pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -23.05pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -30.70pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.58 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -144,15 +144,15 @@ Evidence
 
 使用データ
 
-- 1M: 6.2750
-- 3M: -7.5317
-- 6M: -16.4996
-- 1Y: -16.5518
+- 1M: 6.6203
+- 3M: -4.9614
+- 6M: -13.9653
+- 1Y: -16.7815
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.53, '3M': 5.77, '6M': 8.69, '1Y': 14.87}
-- excess_returns: {'1M': 5.75, '3M': -13.3, '6M': -25.19, '1Y': -31.42}
-- latest_volume: 2,681,200.0000
-- average_volume_30d: 3,322,523.3333
+- benchmark_returns: {'1M': 1.06, '3M': 4.39, '6M': 9.08, '1Y': 13.92}
+- excess_returns: {'1M': 5.56, '3M': -9.35, '6M': -23.05, '1Y': -30.7}
+- latest_volume: 1,910,500.0000
+- average_volume_30d: 3,286,746.6667
 
 ## News
 

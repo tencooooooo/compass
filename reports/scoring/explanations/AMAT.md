@@ -97,8 +97,8 @@ Evidence
 理由
 
 - PER はセクター内 64.29 パーセンタイル / 母数 15 で、中位レンジです。
-- Forward PER はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。
-- PEG はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。
+- Forward PER はセクター内 73.33 パーセンタイル / 母数 16 で、中位レンジです。
+- PEG はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。
 - PBR はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -109,16 +109,16 @@ Evidence
 
 使用データ
 
-- trailing_pe: 34.1544
-- forward_pe: 22.4975
-- peg_ratio: 0.8400
-- price_to_book: 12.8828
+- trailing_pe: 36.3814
+- forward_pe: 22.7253
+- peg_ratio: 0.8800
+- price_to_book: 13.0581
 - sector_peer_count: 16
 - trailing_pe_percentile: 64.2900
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 66.6700
+- forward_pe_percentile: 73.3300
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 46.6700
+- peg_ratio_percentile: 53.3300
 - peg_ratio_peer_count: 16
 - price_to_book_percentile: 66.6700
 - price_to_book_peer_count: 16
@@ -129,11 +129,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -19.19pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -14.96pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -4.56pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンが +59.17pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.92 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -19.81pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -21.39pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -0.10pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンが +66.90pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 1.02 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -142,15 +142,15 @@ Evidence
 
 使用データ
 
-- 1M: -18.6601
-- 3M: -9.1870
-- 6M: 4.1290
-- 1Y: 74.0415
+- 1M: -18.7516
+- 3M: -17.0048
+- 6M: 8.9842
+- 1Y: 80.8243
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.53, '3M': 5.77, '6M': 8.69, '1Y': 14.87}
-- excess_returns: {'1M': -19.19, '3M': -14.96, '6M': -4.56, '1Y': 59.17}
-- latest_volume: 6,383,100.0000
-- average_volume_30d: 6,923,973.3333
+- benchmark_returns: {'1M': 1.06, '3M': 4.39, '6M': 9.08, '1Y': 13.92}
+- excess_returns: {'1M': -19.81, '3M': -21.39, '6M': -0.1, '1Y': 66.9}
+- latest_volume: 7,099,600.0000
+- average_volume_30d: 6,976,926.6667
 
 ## News
 

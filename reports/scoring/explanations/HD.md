@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: The Home Depot, Inc.
-- Total Score: 36 / 100
+- Total Score: 38 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 36 点を獲得し、シグナル充足率は 45.0% です。
+- データが確認できた 80 点満点のうち 38 点を獲得し、シグナル充足率は 47.5% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -101,7 +101,7 @@ Evidence
 
 - PER はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。
-- PEG はセクター内 50.00 パーセンタイル / 母数 10 で、中位レンジです。
+- PEG はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
 - PBR はセクター内 100.00 パーセンタイル / 母数 5 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -112,31 +112,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 22.2225
-- forward_pe: 19.8168
-- peg_ratio: 1.6800
-- price_to_book: 19.0727
+- trailing_pe: 23.0217
+- forward_pe: 20.6009
+- peg_ratio: 1.6700
+- price_to_book: 19.7586
 - sector_peer_count: 10
 - trailing_pe_percentile: 55.5600
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 33.3300
 - forward_pe_peer_count: 10
-- peg_ratio_percentile: 50.0000
+- peg_ratio_percentile: 44.4400
 - peg_ratio_peer_count: 10
 - price_to_book_percentile: 100
 - price_to_book_peer_count: 5
 
 ## Momentum
 
-4点
+6点
 
 理由
 
-- 1M の対SPY超過リターンは +9.34pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -10.92pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -10.46pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -30.17pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.67 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは +9.19pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -8.42pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -9.24pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは -29.16pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.60 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -145,15 +145,15 @@ Evidence
 
 使用データ
 
-- 1M: 9.8693
-- 3M: -5.1506
-- 6M: -1.7645
-- 1Y: -15.2996
+- 1M: 10.2486
+- 3M: -4.0347
+- 6M: -0.1581
+- 1Y: -15.2405
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.53, '3M': 5.77, '6M': 8.69, '1Y': 14.87}
-- excess_returns: {'1M': 9.34, '3M': -10.92, '6M': -10.46, '1Y': -30.17}
-- latest_volume: 3,522,300.0000
-- average_volume_30d: 5,249,890.0000
+- benchmark_returns: {'1M': 1.06, '3M': 4.39, '6M': 9.08, '1Y': 13.92}
+- excess_returns: {'1M': 9.19, '3M': -8.42, '6M': -9.24, '1Y': -29.16}
+- latest_volume: 3,136,400.0000
+- average_volume_30d: 5,230,423.3333
 
 ## News
 

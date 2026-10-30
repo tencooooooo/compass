@@ -5,9 +5,9 @@
 ## Summary
 
 - Company: ServiceNow, Inc.
-- Total Score: 51 / 100
+- Total Score: 55 / 100
 - Confidence: Medium
-- Signal Strength: Moderate
+- Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
@@ -24,12 +24,12 @@ Medium
 
 ## Signal Strength
 
-Moderate
+Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 51 点を獲得し、シグナル充足率は 63.8% です。
-- シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
+- データが確認できた 80 点満点のうち 55 点を獲得し、シグナル充足率は 68.8% です。
+- シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
@@ -91,14 +91,14 @@ Evidence
 
 ## Valuation
 
-6点
+9点
 
 理由
 
 - PER はセクター内 92.86 パーセンタイル / 母数 15 で、相対的な加点は抑えています。
-- Forward PER はセクター内 80.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
+- Forward PER はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。
 - PEG はセクター内 73.33 パーセンタイル / 母数 16 で、中位レンジです。
-- PBR はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。
+- PBR はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -108,31 +108,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 93.8312
-- forward_pe: 30.0160
-- peg_ratio: 1.1200
-- price_to_book: 12.4013
+- trailing_pe: 78.8993
+- forward_pe: 21.9267
+- peg_ratio: 1.0800
+- price_to_book: 8.8594
 - sector_peer_count: 16
 - trailing_pe_percentile: 92.8600
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 80.0000
+- forward_pe_percentile: 60.0000
 - forward_pe_peer_count: 16
 - peg_ratio_percentile: 73.3300
 - peg_ratio_peer_count: 16
-- price_to_book_percentile: 60.0000
+- price_to_book_percentile: 53.3300
 - price_to_book_peer_count: 16
 
 ## Momentum
 
-15点
+16点
 
 理由
 
-- 1M の対SPY超過リターンが +17.22pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンが +27.93pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +62.35pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -31.67pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.17 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンが +14.48pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンが +32.01pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +59.81pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -34.60pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 2.37 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: 17.7482
-- 3M: 33.7077
-- 6M: 71.0465
-- 1Y: -16.8002
+- 1M: 15.5379
+- 3M: 36.3950
+- 6M: 68.8941
+- 1Y: -20.6744
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.53, '3M': 5.77, '6M': 8.69, '1Y': 14.87}
-- excess_returns: {'1M': 17.22, '3M': 27.93, '6M': 62.35, '1Y': -31.67}
-- latest_volume: 13,481,100.0000
-- average_volume_30d: 11,491,526.6667
+- benchmark_returns: {'1M': 1.06, '3M': 4.39, '6M': 9.08, '1Y': 13.92}
+- excess_returns: {'1M': 14.48, '3M': 32.01, '6M': 59.81, '1Y': -34.6}
+- latest_volume: 28,786,300.0000
+- average_volume_30d: 12,122,550.0000
 
 ## News
 

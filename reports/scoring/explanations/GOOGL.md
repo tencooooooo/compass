@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Alphabet Inc.
-- Total Score: 47 / 100
+- Total Score: 49 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 47 点を獲得し、シグナル充足率は 58.8% です。
+- データが確認できた 80 点満点のうち 49 点を獲得し、シグナル充足率は 61.2% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -37,9 +37,9 @@ Moderate
 
 理由
 
-- revenue_growth(直近4四半期平均) は 18.94% で、+15%以上の成長です。
-- eps_growth(直近4四半期平均) は 108.46% で、+30%以上の高成長です。
-- eps_growth は直近四半期が前四半期より +212.52pt 高く、成長の加速がみられます。
+- revenue_growth(直近4四半期平均) は 21.65% で、+15%以上の成長です。
+- eps_growth(直近4四半期平均) は 96.37% で、+30%以上の高成長です。
+- eps_growth は直近四半期が前四半期より -320.50pt 低く、成長の減速に注意が必要です。
 - 純利益 がプラスで確認できるため加点しています。
 - 営業利益 がプラスで確認できるため加点しています。
 - 研究開発費が確認でき、将来成長への投資が続いています。
@@ -57,12 +57,12 @@ Evidence
 - net_income: 132,170,000,000.0000
 - operating_income: 129,039,000,000.0000
 - research_and_development: 61,087,000,000.0000
-- revenue_yoy_growth: 24.2300
-- eps_yoy_growth: 294.3700
-- revenue_yoy_growth_avg: 18.9400
-- eps_yoy_growth_avg: 108.4600
-- revenue_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
-- eps_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
+- revenue_yoy_growth: 24.6500
+- eps_yoy_growth: -26.1300
+- revenue_yoy_growth_avg: 21.6500
+- eps_yoy_growth_avg: 96.3700
+- revenue_growth_quarters: ['2026-Q3', '2026-Q2', '2026-Q1', '2025-Q3']
+- eps_growth_quarters: ['2026-Q3', '2026-Q2', '2026-Q1', '2025-Q3']
 
 ## Financial Health
 
@@ -101,8 +101,8 @@ Evidence
 
 - PER はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 88.89 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
-- PEG はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
-- PBR はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
+- PEG はセクター内 61.11 パーセンタイル / 母数 10 で、中位レンジです。
+- PBR はセクター内 88.89 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -112,31 +112,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 16.0837
-- forward_pe: 21.3910
-- peg_ratio: 1.1300
-- price_to_book: 6.3834
+- trailing_pe: 14.8209
+- forward_pe: 18.7480
+- peg_ratio: 1.1400
+- price_to_book: 8.2619
 - sector_peer_count: 10
 - trailing_pe_percentile: 55.5600
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 88.8900
 - forward_pe_peer_count: 10
-- peg_ratio_percentile: 55.5600
+- peg_ratio_percentile: 61.1100
 - peg_ratio_peer_count: 10
-- price_to_book_percentile: 77.7800
+- price_to_book_percentile: 88.8900
 - price_to_book_peer_count: 10
 
 ## Momentum
 
-7点
+9点
 
 理由
 
-- 1M の対SPY超過リターンは -7.00pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -10.50pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -16.93pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは +8.79pt で、市場並み以上です。
-- 直近出来高が30日平均の 1.14 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -5.76pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -6.95pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -16.13pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは +7.05pt で、市場並み以上です。
+- 直近出来高が30日平均の 2.37 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -145,15 +145,15 @@ Evidence
 
 使用データ
 
-- 1M: -6.4683
-- 3M: -4.7293
-- 6M: -8.2344
-- 1Y: 23.6587
+- 1M: -4.7020
+- 3M: -2.5658
+- 6M: -7.0432
+- 1Y: 20.9696
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.53, '3M': 5.77, '6M': 8.69, '1Y': 14.87}
-- excess_returns: {'1M': -7.0, '3M': -10.5, '6M': -16.93, '1Y': 8.79}
-- latest_volume: 28,633,100.0000
-- average_volume_30d: 25,121,133.3333
+- benchmark_returns: {'1M': 1.06, '3M': 4.39, '6M': 9.08, '1Y': 13.92}
+- excess_returns: {'1M': -5.76, '3M': -6.95, '6M': -16.13, '1Y': 7.05}
+- latest_volume: 63,109,000.0000
+- average_volume_30d: 26,593,803.3333
 
 ## News
 
