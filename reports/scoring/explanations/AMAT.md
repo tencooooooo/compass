@@ -97,8 +97,8 @@ Evidence
 理由
 
 - PER はセクター内 64.29 パーセンタイル / 母数 15 で、中位レンジです。
-- Forward PER はセクター内 73.33 パーセンタイル / 母数 16 で、中位レンジです。
-- PEG はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。
+- Forward PER はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。
+- PEG はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。
 - PBR はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -109,16 +109,16 @@ Evidence
 
 使用データ
 
-- trailing_pe: 36.3814
-- forward_pe: 22.7253
-- peg_ratio: 0.8800
-- price_to_book: 13.0581
+- trailing_pe: 33.6575
+- forward_pe: 21.0239
+- peg_ratio: 0.8900
+- price_to_book: 12.0805
 - sector_peer_count: 16
 - trailing_pe_percentile: 64.2900
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 73.3300
+- forward_pe_percentile: 60.0000
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 53.3300
+- peg_ratio_percentile: 60.0000
 - peg_ratio_peer_count: 16
 - price_to_book_percentile: 66.6700
 - price_to_book_peer_count: 16
@@ -129,11 +129,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -19.81pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -21.39pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -0.10pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンが +66.90pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 1.02 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -18.43pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -20.10pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -0.46pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンが +73.07pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 0.96 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -142,15 +142,15 @@ Evidence
 
 使用データ
 
-- 1M: -18.7516
-- 3M: -17.0048
-- 6M: 8.9842
-- 1Y: 80.8243
+- 1M: -17.5447
+- 3M: -16.8533
+- 6M: 7.1347
+- 1Y: 86.2556
 - benchmark: SPY
-- benchmark_returns: {'1M': 1.06, '3M': 4.39, '6M': 9.08, '1Y': 13.92}
-- excess_returns: {'1M': -19.81, '3M': -21.39, '6M': -0.1, '1Y': 66.9}
-- latest_volume: 7,099,600.0000
-- average_volume_30d: 6,976,926.6667
+- benchmark_returns: {'1M': 0.88, '3M': 3.24, '6M': 7.6, '1Y': 13.19}
+- excess_returns: {'1M': -18.43, '3M': -20.1, '6M': -0.46, '1Y': 73.07}
+- latest_volume: 6,701,600.0000
+- average_volume_30d: 6,969,336.6667
 
 ## News
 

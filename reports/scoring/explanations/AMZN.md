@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Amazon.com, Inc.
-- Total Score: 57 / 100
+- Total Score: 54 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 57 点を獲得し、シグナル充足率は 71.2% です。
+- データが確認できた 80 点満点のうち 54 点を獲得し、シグナル充足率は 67.5% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -37,9 +37,10 @@ Strong
 
 理由
 
-- revenue_growth(直近4四半期平均) は 15.74% で、+15%以上の成長です。
-- eps_growth(直近4四半期平均) は 96.70% で、+30%以上の高成長です。
-- eps_growth は直近四半期が前四半期より +167.42pt 高く、成長の加速がみられます。
+- revenue_growth(直近4四半期平均) は 15.43% で、+15%以上の成長です。
+- eps_growth(直近4四半期平均) は 87.59% で、+30%以上の高成長です。
+- revenue_growth は直近四半期が前四半期より -7.53pt 低く、成長の減速に注意が必要です。
+- eps_growth は直近四半期が前四半期より -245.34pt 低く、成長の減速に注意が必要です。
 - 純利益 がプラスで確認できるため加点しています。
 - 営業利益 がプラスで確認できるため加点しています。
 - 研究開発費が取得できないため、R&D項目は加点していません。
@@ -57,12 +58,12 @@ Evidence
 - net_income: 77,670,000,000.0000
 - operating_income: 79,975,000,000.0000
 - research_and_development: N/A
-- revenue_yoy_growth: 19.6200
-- eps_yoy_growth: 242.2600
-- revenue_yoy_growth_avg: 15.7400
-- eps_yoy_growth_avg: 96.7000
-- revenue_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
-- eps_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
+- revenue_yoy_growth: 12.0900
+- eps_yoy_growth: -3.0800
+- revenue_yoy_growth_avg: 15.4300
+- eps_yoy_growth_avg: 87.5900
+- revenue_growth_quarters: ['2026-Q3', '2026-Q2', '2026-Q1', '2025-Q3']
+- eps_growth_quarters: ['2026-Q3', '2026-Q2', '2026-Q1', '2025-Q3']
 
 欠損・計算不可
 
@@ -112,10 +113,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 19.6130
-- forward_pe: 23.3290
-- peg_ratio: 1.4800
-- price_to_book: 4.7656
+- trailing_pe: 19.3363
+- forward_pe: 22.7667
+- peg_ratio: 1.4100
+- price_to_book: 6.2745
 - sector_peer_count: 10
 - trailing_pe_percentile: 33.3300
 - trailing_pe_peer_count: 10
@@ -128,15 +129,15 @@ Evidence
 
 ## Momentum
 
-9点
+6点
 
 理由
 
-- 1M の対SPY超過リターンは +2.15pt で、市場並み以上です。
-- 3M の対SPY超過リターンは +3.72pt で、市場並み以上です。
-- 6M の対SPY超過リターンは -12.29pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -1.75pt と、市場を小幅に下回っています。
-- 直近出来高が30日平均の 0.95 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -3.03pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -13.48pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -15.62pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -6.84pt と、市場を小幅に下回っています。
+- 直近出来高が30日平均の 2.22 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -145,15 +146,15 @@ Evidence
 
 使用データ
 
-- 1M: 3.2148
-- 3M: 8.1104
-- 6M: -3.2086
-- 1Y: 12.1734
+- 1M: -2.1513
+- 3M: -10.2327
+- 6M: -8.0246
+- 1Y: 6.3424
 - benchmark: SPY
-- benchmark_returns: {'1M': 1.06, '3M': 4.39, '6M': 9.08, '1Y': 13.92}
-- excess_returns: {'1M': 2.15, '3M': 3.72, '6M': -12.29, '1Y': -1.75}
-- latest_volume: 34,915,900.0000
-- average_volume_30d: 36,588,010.0000
+- benchmark_returns: {'1M': 0.88, '3M': 3.24, '6M': 7.6, '1Y': 13.19}
+- excess_returns: {'1M': -3.03, '3M': -13.48, '6M': -15.62, '1Y': -6.84}
+- latest_volume: 85,234,400.0000
+- average_volume_30d: 38,414,530.0000
 
 ## News
 

@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Salesforce, Inc.
-- Total Score: 61 / 100
+- Total Score: 59 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 61 点を獲得し、シグナル充足率は 76.2% です。
+- データが確認できた 80 点満点のうち 59 点を獲得し、シグナル充足率は 73.8% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -91,14 +91,14 @@ Evidence
 
 ## Valuation
 
-16点
+14点
 
 理由
 
-- PER はセクター内 21.43 パーセンタイル / 母数 15 で、相対的に割安寄りです。
+- PER はセクター内 35.71 パーセンタイル / 母数 15 で、中位レンジです。
 - Forward PER はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。
 - PEG はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。
-- PBR はセクター内 6.67 パーセンタイル / 母数 16 で、相対的に割安寄りです。
+- PBR はセクター内 13.33 パーセンタイル / 母数 16 で、相対的に割安寄りです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -108,18 +108,18 @@ Evidence
 
 使用データ
 
-- trailing_pe: 21.1253
-- forward_pe: 14.4175
-- peg_ratio: 0.8600
-- price_to_book: 4.9515
+- trailing_pe: 20.9671
+- forward_pe: 14.3095
+- peg_ratio: 0.8200
+- price_to_book: 4.9144
 - sector_peer_count: 16
-- trailing_pe_percentile: 21.4300
+- trailing_pe_percentile: 35.7100
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 26.6700
 - forward_pe_peer_count: 16
 - peg_ratio_percentile: 46.6700
 - peg_ratio_peer_count: 16
-- price_to_book_percentile: 6.6700
+- price_to_book_percentile: 13.3300
 - price_to_book_peer_count: 16
 
 ## Momentum
@@ -128,11 +128,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは +6.40pt で、市場並み以上です。
-- 3M の対SPY超過リターンが +29.83pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +25.10pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -18.35pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.72 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -0.30pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンが +22.45pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +23.77pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -21.60pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.87 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: 7.4564
-- 3M: 34.2128
-- 6M: 34.1805
-- 1Y: -4.4257
+- 1M: 0.5793
+- 3M: 25.6962
+- 6M: 31.3676
+- 1Y: -8.4172
 - benchmark: SPY
-- benchmark_returns: {'1M': 1.06, '3M': 4.39, '6M': 9.08, '1Y': 13.92}
-- excess_returns: {'1M': 6.4, '3M': 29.83, '6M': 25.1, '1Y': -18.35}
-- latest_volume: 6,595,700.0000
-- average_volume_30d: 9,147,926.6667
+- benchmark_returns: {'1M': 0.88, '3M': 3.24, '6M': 7.6, '1Y': 13.19}
+- excess_returns: {'1M': -0.3, '3M': 22.45, '6M': 23.77, '1Y': -21.6}
+- latest_volume: 7,687,500.0000
+- average_volume_30d: 8,850,466.6667
 
 ## News
 

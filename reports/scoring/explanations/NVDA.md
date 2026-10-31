@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: NVIDIA Corporation
-- Total Score: 56 / 100
+- Total Score: 54 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 56 点を獲得し、シグナル充足率は 70.0% です。
+- データが確認できた 80 点満点のうち 54 点を獲得し、シグナル充足率は 67.5% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -113,10 +113,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 27.0114
-- forward_pe: 13.4254
+- trailing_pe: 25.8711
+- forward_pe: 12.8586
 - peg_ratio: 0.2600
-- price_to_book: 22.5308
+- price_to_book: 21.5797
 - sector_peer_count: 16
 - trailing_pe_percentile: 42.8600
 - trailing_pe_peer_count: 15
@@ -129,15 +129,15 @@ Evidence
 
 ## Momentum
 
-9点
+7点
 
 理由
 
-- 1M の対SPY超過リターンは -6.27pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは +6.17pt で、市場並み以上です。
-- 6M の対SPY超過リターンは -5.92pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンは -1.18pt と、市場を小幅に下回っています。
-- 直近出来高が30日平均の 0.89 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -7.33pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは +3.31pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -0.29pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは -6.65pt と、市場を小幅に下回っています。
+- 直近出来高が30日平均の 0.75 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -146,15 +146,15 @@ Evidence
 
 使用データ
 
-- 1M: -5.2066
-- 3M: 10.5522
-- 6M: 3.1648
-- 1Y: 12.7453
+- 1M: -6.4454
+- 3M: 6.5500
+- 6M: 7.3049
+- 1Y: 6.5373
 - benchmark: SPY
-- benchmark_returns: {'1M': 1.06, '3M': 4.39, '6M': 9.08, '1Y': 13.92}
-- excess_returns: {'1M': -6.27, '3M': 6.17, '6M': -5.92, '1Y': -1.18}
-- latest_volume: 93,030,200.0000
-- average_volume_30d: 104,058,320.0000
+- benchmark_returns: {'1M': 0.88, '3M': 3.24, '6M': 7.6, '1Y': 13.19}
+- excess_returns: {'1M': -7.33, '3M': 3.31, '6M': -0.29, '1Y': -6.65}
+- latest_volume: 77,568,100.0000
+- average_volume_30d: 103,504,213.3333
 
 ## News
 

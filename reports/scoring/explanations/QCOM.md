@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: QUALCOMM Incorporated
-- Total Score: 55 / 100
+- Total Score: 58 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 55 点を獲得し、シグナル充足率は 68.8% です。
+- データが確認できた 80 点満点のうち 58 点を獲得し、シグナル充足率は 72.5% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -91,14 +91,14 @@ Evidence
 
 ## Valuation
 
-12点
+16点
 
 理由
 
-- PER はセクター内 28.57 パーセンタイル / 母数 15 で、中位レンジです。
-- Forward PER はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。
-- PEG はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。
-- PBR はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。
+- PER はセクター内 21.43 パーセンタイル / 母数 15 で、相対的に割安寄りです。
+- Forward PER はセクター内 33.33 パーセンタイル / 母数 16 で、中位レンジです。
+- PEG はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。
+- PBR はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -108,31 +108,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 21.4595
-- forward_pe: 18.2018
-- peg_ratio: 0.8300
-- price_to_book: 7.0856
+- trailing_pe: 19.0729
+- forward_pe: 16.1775
+- peg_ratio: 0.8400
+- price_to_book: 6.2976
 - sector_peer_count: 16
-- trailing_pe_percentile: 28.5700
+- trailing_pe_percentile: 21.4300
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 46.6700
+- forward_pe_percentile: 33.3300
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 40.0000
+- peg_ratio_percentile: 53.3300
 - peg_ratio_peer_count: 16
-- price_to_book_percentile: 26.6700
+- price_to_book_percentile: 20.0000
 - price_to_book_peer_count: 16
 
 ## Momentum
 
-9点
+8点
 
 理由
 
-- 1M の対SPY超過リターンは -1.68pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンが +16.96pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンは +9.28pt で、市場並み以上です。
-- 1Y の対SPY超過リターンは -14.40pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.76 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -0.14pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンが +23.05pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンは -3.41pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは -8.63pt と、市場を小幅に下回っています。
+- 直近出来高が30日平均の 0.68 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: -0.6138
-- 3M: 21.3495
-- 6M: 18.3624
-- 1Y: -0.4794
+- 1M: 0.7444
+- 3M: 26.2917
+- 6M: 4.1918
+- 1Y: 4.5524
 - benchmark: SPY
-- benchmark_returns: {'1M': 1.06, '3M': 4.39, '6M': 9.08, '1Y': 13.92}
-- excess_returns: {'1M': -1.68, '3M': 16.96, '6M': 9.28, '1Y': -14.4}
-- latest_volume: 9,244,400.0000
-- average_volume_30d: 12,235,996.6667
+- benchmark_returns: {'1M': 0.88, '3M': 3.24, '6M': 7.6, '1Y': 13.19}
+- excess_returns: {'1M': -0.14, '3M': 23.05, '6M': -3.41, '1Y': -8.63}
+- latest_volume: 8,225,100.0000
+- average_volume_30d: 12,099,566.6667
 
 ## News
 

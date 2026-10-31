@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: T-Mobile US, Inc.
-- Total Score: 39 / 100
+- Total Score: 38 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 39 点を獲得し、シグナル充足率は 48.8% です。
+- データが確認できた 80 点満点のうち 38 点を獲得し、シグナル充足率は 47.5% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -99,7 +99,7 @@ Evidence
 
 理由
 
-- PER はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
+- PER はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
 - PEG はセクター内 0.00 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - PBR はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
@@ -112,12 +112,12 @@ Evidence
 
 使用データ
 
-- trailing_pe: 14.2035
-- forward_pe: 10.3144
+- trailing_pe: 15.0858
+- forward_pe: 10.9141
 - peg_ratio: 0.5300
-- price_to_book: 2.7539
+- price_to_book: 2.9529
 - sector_peer_count: 10
-- trailing_pe_percentile: 44.4400
+- trailing_pe_percentile: 55.5600
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 44.4400
 - forward_pe_peer_count: 10
@@ -128,15 +128,15 @@ Evidence
 
 ## Momentum
 
-4点
+3点
 
 理由
 
-- 1M の対SPY超過リターンは -10.20pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -18.47pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -33.52pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -45.40pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.29 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは -10.56pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -17.47pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -31.41pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -44.82pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.11 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -145,15 +145,15 @@ Evidence
 
 使用データ
 
-- 1M: -9.1422
-- 3M: -14.0795
-- 6M: -24.4372
-- 1Y: -31.4808
+- 1M: -9.6824
+- 3M: -14.2261
+- 6M: -23.8139
+- 1Y: -31.6326
 - benchmark: SPY
-- benchmark_returns: {'1M': 1.06, '3M': 4.39, '6M': 9.08, '1Y': 13.92}
-- excess_returns: {'1M': -10.2, '3M': -18.47, '6M': -33.52, '1Y': -45.4}
-- latest_volume: 8,377,600.0000
-- average_volume_30d: 6,518,193.3333
+- benchmark_returns: {'1M': 0.88, '3M': 3.24, '6M': 7.6, '1Y': 13.19}
+- excess_returns: {'1M': -10.56, '3M': -17.47, '6M': -31.41, '1Y': -44.82}
+- latest_volume: 7,229,200.0000
+- average_volume_30d: 6,530,903.3333
 
 ## News
 
