@@ -1,9 +1,9 @@
 # AI
 
 - Target companies: 17
-- Average Score: 55.54
-- Average Discovery: 61.25
-- Momentum: -3.45
+- Average Score: 53.62
+- Average Discovery: 65.50
+- Momentum: -2.03
 - Confidence: High
 
 ## Companies
@@ -28,9 +28,9 @@
 
 ## Market
 
-- Communication Services: score 45.67, momentum -2.47, trend {'momentum': 'Weak', 'news': 'Low', 'financial_health': 'Good'}
-- Consumer Cyclical: score 42.67, momentum 4.87, trend {'momentum': 'Positive', 'news': 'Low', 'financial_health': 'Neutral'}
-- Technology: score 56.33, momentum -3.25, trend {'momentum': 'Weak', 'news': 'Low', 'financial_health': 'Good'}
+- Communication Services: score 44.83, momentum -7.04, trend {'momentum': 'Weak', 'news': 'Low', 'financial_health': 'Good'}
+- Consumer Cyclical: score 41.17, momentum 10.05, trend {'momentum': 'Strong', 'news': 'Low', 'financial_health': 'Neutral'}
+- Technology: score 54.92, momentum -2.06, trend {'momentum': 'Weak', 'news': 'Low', 'financial_health': 'Good'}
 
 ## Major News
 
@@ -40,9 +40,9 @@ No theme news available yet.
 
 - Cloud: 1.0 (Shared companies: ACN, AMD, AMZN, AVGO, CRM; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
 - Cybersecurity: 1.0 (Shared companies: ACN, AVGO, CSCO, GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score)
-- Robotics: 0.999 (Shared companies: AVGO, CRM, NOW, NVDA, ORCL; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.99 (Shared companies: AMD, AVGO, INTC, MU, NVDA; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Energy: 0.989 (Shared companies: ACN, AVGO, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
+- Robotics: 1.0 (Shared companies: AVGO, CRM, NOW, NVDA, ORCL; Shared sectors: Technology; Similar short-term momentum)
+- Healthcare: 0.996 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar short-term momentum)
+- Energy: 0.994 (Shared companies: ACN, AVGO, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
 
 ## Review Note
 

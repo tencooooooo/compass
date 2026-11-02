@@ -1,9 +1,9 @@
 # Healthcare
 
 - Target companies: 2
-- Average Score: 56.50
-- Average Discovery: 60.00
-- Momentum: 5.35
+- Average Score: 53.50
+- Average Discovery: N/A
+- Momentum: N/A
 - Confidence: Medium
 
 ## Companies
@@ -13,7 +13,7 @@
 
 ## Market
 
-- Technology: score 56.33, momentum -3.25, trend {'momentum': 'Weak', 'news': 'Low', 'financial_health': 'Good'}
+- Technology: score 54.92, momentum -2.06, trend {'momentum': 'Weak', 'news': 'Low', 'financial_health': 'Good'}
 
 ## Major News
 
@@ -21,11 +21,11 @@ No theme news available yet.
 
 ## Similar Themes
 
-- Energy: 0.999 (Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Cybersecurity: 0.989 (Shared companies: NOW; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- AI: 0.985 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar average Discovery score)
-- Robotics: 0.984 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar average Discovery score)
-- Cloud: 0.981 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar average Discovery score)
+- Cybersecurity: 0.997 (Shared companies: NOW; Shared sectors: Technology; Similar short-term momentum)
+- AI: 0.996 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar short-term momentum)
+- Robotics: 0.996 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Cloud: 0.995 (Shared companies: CRM, NOW; Shared sectors: Technology; Similar short-term momentum)
+- Energy: 0.995 (Shared sectors: Technology)
 
 ## Review Note
 

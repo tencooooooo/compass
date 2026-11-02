@@ -1,9 +1,9 @@
 # Cybersecurity
 
 - Target companies: 8
-- Average Score: 53.20
-- Average Discovery: 60.00
-- Momentum: 4.09
+- Average Score: 52.60
+- Average Discovery: 62.00
+- Momentum: 3.36
 - Confidence: Medium
 
 ## Companies
@@ -19,8 +19,8 @@
 
 ## Market
 
-- Communication Services: score 45.67, momentum -2.47, trend {'momentum': 'Weak', 'news': 'Low', 'financial_health': 'Good'}
-- Technology: score 56.33, momentum -3.25, trend {'momentum': 'Weak', 'news': 'Low', 'financial_health': 'Good'}
+- Communication Services: score 44.83, momentum -7.04, trend {'momentum': 'Weak', 'news': 'Low', 'financial_health': 'Good'}
+- Technology: score 54.92, momentum -2.06, trend {'momentum': 'Weak', 'news': 'Low', 'financial_health': 'Good'}
 
 ## Major News
 
@@ -30,9 +30,9 @@ No theme news available yet.
 
 - AI: 1.0 (Shared companies: ACN, AVGO, CSCO, GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score)
 - Cloud: 0.999 (Shared companies: ACN, AVGO, CSCO, GOOGL, MSFT; Shared sectors: Communication Services, Technology; Similar average Discovery score)
-- Robotics: 0.999 (Shared companies: AVGO, NOW; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Energy: 0.992 (Shared companies: ACN, AVGO; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
-- Healthcare: 0.989 (Shared companies: NOW; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- Robotics: 0.999 (Shared companies: AVGO, NOW; Shared sectors: Technology; Similar short-term momentum)
+- Healthcare: 0.997 (Shared companies: NOW; Shared sectors: Technology; Similar short-term momentum)
+- Energy: 0.996 (Shared companies: ACN, AVGO; Shared sectors: Technology; Similar average Discovery score)
 
 ## Review Note
 

@@ -2,8 +2,8 @@
 
 Strategy Evaluation is a research simulation. It is not trading, portfolio management, or investment advice.
 
-- Evaluation date: 2026-10-26
-- Signal date: 2026-10-23
+- Evaluation date: 2026-11-02
+- Signal date: 2026-10-30
 - Initial capital: 100000 USD
 - Strategies: 9
 
@@ -36,7 +36,7 @@ Strategy Evaluation is a research simulation. It is not trading, portfolio manag
 
 ## Strong Signal Only
 
-- Selected positions: 5
+- Selected positions: 3
 - Total Return: 0.00%
 - CAGR: 0.00%
 - Win Rate: 0.00%
@@ -45,7 +45,7 @@ Strategy Evaluation is a research simulation. It is not trading, portfolio manag
 
 ## AI Theme
 
-- Selected positions: 4
+- Selected positions: 2
 - Total Return: 0.00%
 - CAGR: 0.00%
 - Win Rate: 0.00%
@@ -54,7 +54,7 @@ Strategy Evaluation is a research simulation. It is not trading, portfolio manag
 
 ## Semiconductor Theme
 
-- Selected positions: 3
+- Selected positions: 2
 - Total Return: 0.00%
 - CAGR: 0.00%
 - Win Rate: 0.00%

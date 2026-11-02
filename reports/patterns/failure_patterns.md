@@ -6,7 +6,7 @@ Pattern candidates require human review before Knowledge updates.
 
 - Confidence: Low
 - Evidence: Trailing PER above 80 suggests valuation sensitivity.
-- Companies: AMD, NOW, TSLA
+- Companies: AMD, TSLA
 - Knowledge update: candidate only
 
 ## Thin profit margin

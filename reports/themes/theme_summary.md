@@ -5,10 +5,10 @@ Theme Intelligence connects market, sector, company, Discovery, and Pattern cont
 ## AI
 
 - Target companies: 17
-- Average Score: 55.54
-- Average Discovery: 61.25
-- Market status: Communication Services Weak, Consumer Cyclical Positive, Technology Weak
-- Representative companies: AMD, NVDA, CRM
+- Average Score: 53.62
+- Average Discovery: 65.50
+- Market status: Communication Services Weak, Consumer Cyclical Strong, Technology Weak
+- Representative companies: AMD, MSFT, CRM
 - Confidence: High
 
 ## Biotechnology
@@ -23,36 +23,36 @@ Theme Intelligence connects market, sector, company, Discovery, and Pattern cont
 ## Cloud
 
 - Target companies: 15
-- Average Score: 55.36
-- Average Discovery: 61.25
-- Market status: Communication Services Weak, Consumer Cyclical Positive, Technology Weak
-- Representative companies: AMD, NVDA, CRM
+- Average Score: 54.00
+- Average Discovery: 65.50
+- Market status: Communication Services Weak, Consumer Cyclical Strong, Technology Weak
+- Representative companies: AMD, MSFT, CRM
 - Confidence: High
 
 ## Cybersecurity
 
 - Target companies: 8
-- Average Score: 53.20
-- Average Discovery: 60.00
+- Average Score: 52.60
+- Average Discovery: 62.00
 - Market status: Communication Services Weak, Technology Weak
-- Representative companies: MSFT, QCOM, NOW
+- Representative companies: MSFT, QCOM, GOOGL
 - Confidence: Medium
 
 ## EV
 
 - Target companies: 4
-- Average Score: 55.00
-- Average Discovery: 61.00
-- Market status: Consumer Cyclical Positive, Technology Weak
-- Representative companies: NVDA, TXN, TSLA
+- Average Score: 53.00
+- Average Discovery: 67.00
+- Market status: Consumer Cyclical Strong, Technology Weak
+- Representative companies: TXN, NVDA, TSLA
 - Confidence: Medium
 
 ## Energy
 
 - Target companies: 5
-- Average Score: 51.00
-- Average Discovery: 61.00
-- Market status: Consumer Cyclical Positive, Technology Weak
+- Average Score: 50.67
+- Average Discovery: 67.00
+- Market status: Consumer Cyclical Strong, Technology Weak
 - Representative companies: TXN, AVGO, TSLA
 - Confidence: Medium
 
@@ -68,8 +68,8 @@ Theme Intelligence connects market, sector, company, Discovery, and Pattern cont
 ## Healthcare
 
 - Target companies: 2
-- Average Score: 56.50
-- Average Discovery: 60.00
+- Average Score: 53.50
+- Average Discovery: N/A
 - Market status: Technology Weak
 - Representative companies: CRM, NOW
 - Confidence: Medium
@@ -86,25 +86,25 @@ Theme Intelligence connects market, sector, company, Discovery, and Pattern cont
 ## Robotics
 
 - Target companies: 6
-- Average Score: 56.33
-- Average Discovery: 60.50
+- Average Score: 53.33
+- Average Discovery: N/A
 - Market status: Technology Weak
-- Representative companies: NVDA, CRM, AMAT
+- Representative companies: CRM, AMAT, ORCL
 - Confidence: Medium
 
 ## Semiconductor
 
 - Target companies: 8
-- Average Score: 57.33
-- Average Discovery: 62.00
+- Average Score: 56.67
+- Average Discovery: 68.00
 - Market status: Technology Weak
-- Representative companies: AMD, NVDA, TXN
+- Representative companies: AMD, TXN, QCOM
 - Confidence: High
 
 ## Space
 
 - Target companies: 1
-- Average Score: 44.00
+- Average Score: 42.00
 - Average Discovery: N/A
 - Market status: Communication Services Weak
 - Representative companies: DIS
