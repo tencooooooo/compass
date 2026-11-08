@@ -21,10 +21,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Restore notification history
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: storage/notifications/
           key: compass-notifications-${{ github.run_id }}
@@ -32,7 +32,7 @@ jobs:
             compass-notifications-
 
       - name: Restore memory layer
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: memory/
           key: compass-memory-${{ github.run_id }}
@@ -43,7 +43,7 @@ jobs:
         run: bash scripts/restore_persistent_data.sh
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.11"
           cache: "pip"
@@ -138,7 +138,7 @@ jobs:
 
       - name: Upload generated outputs
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: compass-generated-outputs
           path: |
@@ -168,16 +168,16 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Download generated outputs
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: compass-generated-outputs
           path: .
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: "22"
           check-latest: true
@@ -197,15 +197,15 @@ jobs:
         run: npm run build
 
       - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
         with:
           enablement: true
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: workspace/frontend/dist
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
