@@ -188,7 +188,14 @@ class NewsCollector(BaseCollector):
             len(tickers),
         )
 
-        return 1 if failed_tickers else 0
+        # ニュースは補助データのため、一部銘柄の失敗では後続処理を止めません。
+        # 全銘柄失敗(取得元の障害や仕様変更の可能性が高い)のときだけ異常終了します。
+        if tickers and not successful_tickers:
+            self.logger.error("全銘柄のニュース取得に失敗しました。取得元の障害やyfinanceの互換性を確認してください。")
+            return 1
+        if failed_tickers:
+            self.logger.warning("一部銘柄のニュース取得に失敗しました(%s件)。", len(failed_tickers))
+        return 0
 
 
 def main() -> int:
