@@ -6,11 +6,11 @@
 
 - 銘柄数: 6
 - 銘柄: GOOGL, META, NFLX, DIS, CMCSA, TMUS
-- 平均スコア: 56.83
+- 平均スコア: 56.50
 - 平均PER: 16.90
 - 平均EPS: 11.72
 - 平均1Mモメンタム: -4.39%
-- ニュース件数: 60
+- ニュース件数: 59
 
 ### Trend
 
@@ -23,7 +23,7 @@
 | Ticker | 会社名 | Score | PER | EPS | 1M Momentum | News |
 | --- | --- | --- | --- | --- | --- | --- |
 | GOOGL | Alphabet Inc. | 60.00 | 14.87 | 19.15 | -18.23% | 10 |
-| META | Meta Platforms, Inc. | 60.00 | 20.82 | 29.31 | -15.36% | 10 |
+| META | Meta Platforms, Inc. | 58.00 | 20.82 | 29.31 | -15.36% | 9 |
 | NFLX | Netflix, Inc. | 52.00 | 18.33 | 3.46 | -11.40% | 10 |
 | DIS | The Walt Disney Company | 59.00 | 24.07 | 4.85 | 9.09% | 10 |
 | CMCSA | Comcast Corporation | 57.00 | 7.72 | 3.16 | 14.99% | 10 |
@@ -60,7 +60,7 @@
 
 - 銘柄数: 12
 - 銘柄: AAPL, MSFT, NVDA, AMD, AVGO, ORCL, CRM, ADBE, QCOM, TXN, NOW, AMAT
-- 平均スコア: 66.00
+- 平均スコア: 65.50
 - 平均PER: 35.42
 - 平均EPS: 9.76
 - 平均1Mモメンタム: -12.93%
@@ -78,7 +78,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | AAPL | Apple Inc. | 60.00 | 38.13 | 8.98 | 0.57% | 10 |
 | MSFT | Microsoft Corporation | 71.00 | 27.69 | 19.16 | 1.53% | 10 |
-| NVDA | NVIDIA Corporation | 69.00 | 23.60 | 7.91 | -19.02% | 10 |
+| NVDA | NVIDIA Corporation | 63.00 | 23.60 | 7.91 | -19.02% | 10 |
 | AMD | Advanced Micro Devices, Inc. | 73.00 | 95.95 | 4.68 | -27.65% | 10 |
 | AVGO | Broadcom Inc. | 62.00 | 37.51 | 7.83 | -18.45% | 10 |
 | ORCL | Oracle Corporation | 63.00 | 18.20 | 6.38 | -14.12% | 10 |

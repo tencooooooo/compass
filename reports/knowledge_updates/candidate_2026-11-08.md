@@ -6,12 +6,12 @@
 
 - 変更対象: Sector Accuracy
 - 変更理由: 完了済みValidationの失敗率が 50.9% です。
-- 関連Feedback: 2026-11-08T02:16:47.142073-05:00
+- 関連Feedback: 2026-11-08T03:23:50.105211-05:00
 - 関連Validation: Validation count: 3725, Completed Validation count: 1563, Pending Validation count: 2162
 
 ### 根拠
 
-- Feedback generated at: 2026-11-08T02:16:47.142073-05:00
+- Feedback generated at: 2026-11-08T03:23:50.105211-05:00
 - Validation count: 3725
 - Completed Validation count: 1563
 - Pending Validation count: 2162
@@ -24,12 +24,12 @@ Communication Services セクターのMomentum補正または評価条件を見�
 
 - 変更対象: Sector Accuracy
 - 変更理由: 完了済みValidationの失敗率が 63.3% です。
-- 関連Feedback: 2026-11-08T02:16:47.142073-05:00
+- 関連Feedback: 2026-11-08T03:23:50.105211-05:00
 - 関連Validation: Validation count: 3725, Completed Validation count: 1563, Pending Validation count: 2162
 
 ### 根拠
 
-- Feedback generated at: 2026-11-08T02:16:47.142073-05:00
+- Feedback generated at: 2026-11-08T03:23:50.105211-05:00
 - Validation count: 3725
 - Completed Validation count: 1563
 - Pending Validation count: 2162
@@ -42,12 +42,12 @@ Consumer Cyclical セクターのMomentum補正または評価条件を見直す
 
 - 変更対象: Momentum
 - 変更理由: 1Mモメンタムが 6.03% とプラス圏です。
-- 関連Feedback: 2026-11-08T02:16:47.142073-05:00
+- 関連Feedback: 2026-11-08T03:23:50.105211-05:00
 - 関連Validation: Validation count: 3725, Completed Validation count: 1563, Pending Validation count: 2162
 
 ### 根拠
 
-- Feedback generated at: 2026-11-08T02:16:47.142073-05:00
+- Feedback generated at: 2026-11-08T03:23:50.105211-05:00
 - Validation count: 3725
 - Completed Validation count: 1563
 - Pending Validation count: 2162
@@ -60,12 +60,12 @@ Momentum に関する失敗パターンをKnowledgeへ追加候補としてレ�
 
 - 変更対象: Growth
 - 変更理由: Scoring EngineのGrowthが 18/20 で、成長性の基礎条件が確認できます。
-- 関連Feedback: 2026-11-08T02:16:47.142073-05:00
+- 関連Feedback: 2026-11-08T03:23:50.105211-05:00
 - 関連Validation: Validation count: 3725, Completed Validation count: 1563, Pending Validation count: 2162
 
 ### 根拠
 
-- Feedback generated at: 2026-11-08T02:16:47.142073-05:00
+- Feedback generated at: 2026-11-08T03:23:50.105211-05:00
 - Validation count: 3725
 - Completed Validation count: 1563
 - Pending Validation count: 2162
@@ -78,12 +78,12 @@ Growth に関する失敗パターンをKnowledgeへ追加候補としてレビ�
 
 - 変更対象: Financial Health
 - 変更理由: Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。
-- 関連Feedback: 2026-11-08T02:16:47.142073-05:00
+- 関連Feedback: 2026-11-08T03:23:50.105211-05:00
 - 関連Validation: Validation count: 3725, Completed Validation count: 1563, Pending Validation count: 2162
 
 ### 根拠
 
-- Feedback generated at: 2026-11-08T02:16:47.142073-05:00
+- Feedback generated at: 2026-11-08T03:23:50.105211-05:00
 - Validation count: 3725
 - Completed Validation count: 1563
 - Pending Validation count: 2162

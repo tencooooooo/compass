@@ -6,24 +6,23 @@
 
 - 対象企業数: 24
 - セクター数: 3
-- 市場平均スコア: 61.0
+- 市場平均スコア: 60.666666666666664
 - 1M市場モメンタム平均: -5.00746441555838
-- ニュース件数: 239
-- Event数: 239
+- ニュース件数: 238
+- Event数: 238
 
 ## Candidate Summary
 
 | Ticker | Company | Sector | Discovery Score | Status | Confidence | Signal |
 | --- | --- | --- | --- | --- | --- | --- |
 | AMD | Advanced Micro Devices, Inc. | Technology | 75 | Primary Candidate | Medium | Strong |
-| MSFT | Microsoft Corporation | Technology | 73 | Watch Candidate | Medium | Strong |
+| MSFT | Microsoft Corporation | Technology | 74 | Watch Candidate | Medium | Strong |
 | TXN | Texas Instruments Incorporated | Technology | 73 | Watch Candidate | High | Strong |
 | AMAT | Applied Materials, Inc. | Technology | 73 | Watch Candidate | High | Strong |
 | CRM | Salesforce, Inc. | Technology | 72 | Watch Candidate | High | Strong |
 | AAPL | Apple Inc. | Technology | 67 | Watch Candidate | Medium | Strong |
 | QCOM | QUALCOMM Incorporated | Technology | 67 | Watch Candidate | High | Strong |
-| NVDA | NVIDIA Corporation | Technology | 65 | Watch Candidate | Medium | Strong |
-| META | Meta Platforms, Inc. | Communication Services | 64 | Watch Candidate | Medium | Strong |
+| META | Meta Platforms, Inc. | Communication Services | 62 | Watch Candidate | Medium | Strong |
 | AMZN | Amazon.com, Inc. | Consumer Cyclical | 62 | Watch Candidate | Medium | Strong |
 | DIS | The Walt Disney Company | Communication Services | 61 | Watch Candidate | Medium | Moderate |
 

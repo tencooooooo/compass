@@ -7,8 +7,8 @@
 - 取得対象企業数: 24
 - セクター数: 3
 - 市場全体の1Mモメンタム平均: -5.01%
-- ニュース件数: 239
-- Event数: 239
+- ニュース件数: 238
+- Event数: 238
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
 
 ### セクター構成
@@ -21,11 +21,11 @@
 
 ### 注目ニュース
 
+- 2026-11-08T07:46:39+00:00 / NVDA / Motley Fool: Why AT&T Stock Slumped in October
+- 2026-11-08T07:20:00+00:00 / NVDA / Motley Fool: If the Fed Raises Interest Rates in December, I'm Making This 1 Investing Move
+- 2026-11-08T07:14:12+00:00 / MSFT / MarketBeat: What Teradata (TDC) Said on Its Q3 Earnings Call
+- 2026-11-08T07:10:29+00:00 / NVDA / Simply Wall St.: NVIDIA And 2 More Grid Stocks To Watch
 - 2026-11-08T06:50:00+00:00 / META / The Telegraph: Banks ban AI from accounts over fears of rogue agents
-- 2026-11-08T06:45:13+00:00 / NVDA / Stocktwits: The AI Buildout Has A New Problem, And It’s Not Nvidia — JPMorgan Sounds Alarm
-- 2026-11-08T06:20:00+00:00 / NVDA / Motley Fool: Is Broadcom a 投資判断表現 After Falling 9% in One Day?
-- 2026-11-08T06:20:00+00:00 / AVGO / Motley Fool: Is Broadcom a 投資判断表現 After Falling 9% in One Day?
-- 2026-11-08T06:12:06+00:00 / ORCL / Simply Wall St.: 3 Founder Led Stocks To Own In November 2026
 
 ### 注目イベント
 
@@ -39,9 +39,9 @@
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 56.83 | 16.90 | 11.72 | -4.39% | 60 |
+| Communication Services | 6 | 56.50 | 16.90 | 11.72 | -4.39% | 59 |
 | Consumer Cyclical | 6 | 55.17 | 83.01 | 9.02 | 10.22% | 60 |
-| Technology | 12 | 66.00 | 35.42 | 9.76 | -12.93% | 119 |
+| Technology | 12 | 65.50 | 35.42 | 9.76 | -12.93% | 119 |
 
 ## 市場トレンド
 
@@ -53,7 +53,7 @@
 
 ## 市場心理
 
-市場はややリスクオフ寄りと考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 239 件で、ポジティブなモメンタムのセクターは 1/3 です。
+市場はややリスクオフ寄りと考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 238 件で、ポジティブなモメンタムのセクターは 1/3 です。
 
 参照Knowledge: market_psychology.md
 

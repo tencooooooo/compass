@@ -4,7 +4,7 @@
 
 ## Overview
 
-- 生成日時: 2026-11-08T02:16:47.142073-05:00
+- 生成日時: 2026-11-08T03:23:50.105211-05:00
 - Validation件数: 3725
 - 完了済みValidation: 1563
 - 未完了Validation: 2162
@@ -26,8 +26,8 @@
 | Score Bucket | Total | Completed | Result Counts |
 | --- | --- | --- | --- |
 | High Score (75+) | 0 | 0 | {'Excellent': 0, 'Good': 0, 'Neutral': 0, 'Poor': 0, 'Unknown': 0, 'Pending': 0} |
-| Mid Score (60-74) | 3515 | 1476 | {'Excellent': 541, 'Good': 158, 'Neutral': 201, 'Poor': 576, 'Unknown': 0, 'Pending': 2039} |
-| Low Score (<60) | 210 | 87 | {'Excellent': 10, 'Good': 3, 'Neutral': 6, 'Poor': 68, 'Unknown': 0, 'Pending': 123} |
+| Mid Score (60-74) | 3230 | 1342 | {'Excellent': 469, 'Good': 146, 'Neutral': 193, 'Poor': 534, 'Unknown': 0, 'Pending': 1888} |
+| Low Score (<60) | 495 | 221 | {'Excellent': 82, 'Good': 15, 'Neutral': 14, 'Poor': 110, 'Unknown': 0, 'Pending': 274} |
 | Unknown | 0 | 0 | {'Excellent': 0, 'Good': 0, 'Neutral': 0, 'Poor': 0, 'Unknown': 0, 'Pending': 0} |
 
 ## Confidence Accuracy

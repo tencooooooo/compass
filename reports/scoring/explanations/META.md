@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Meta Platforms, Inc.
-- Total Score: 60 / 100
+- Total Score: 58 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 60 点を獲得し、シグナル充足率は 60.0% です。
+- データが確認できた 100 点満点のうち 58 点を獲得し、シグナル充足率は 58.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -153,12 +153,12 @@ Evidence
 
 ## News
 
-9点
+7点
 
 理由
 
-- ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 2 件(純比率 +0.00)で、センチメントは 4.0 点です。
+- ニュース件数は 9 件で、情報量に応じて 2.7 点を加点しています。
+- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 2 件(純比率 -0.33)で、センチメントは 2.7 点です。
 - イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
 
 Evidence
@@ -169,11 +169,11 @@ Evidence
 
 使用データ
 
-- news_count: 10
-- positive_count: 2
+- news_count: 9
+- positive_count: 1
 - negative_count: 2
-- sentiment_net_ratio: 0.0000
-- event_count: 10
+- sentiment_net_ratio: -0.3300
+- event_count: 9
 - events_with_price_reaction: 0
 
 欠損・計算不可

@@ -82,4 +82,4 @@ Moderate(シグナル充足率: 62.78%)
 - watch_news: 0
 - event_count: 10
 - events_with_reaction: 10
-- sector_average_score: 56.833333333333336
+- sector_average_score: 56.5

@@ -2026,10 +2026,10 @@
     },
     {
       "date": "2026-11-08",
-      "timestamp": "2026-11-08T02:16:46.190574-05:00",
-      "score": 69,
-      "discovery_score": 65,
-      "discovery_status": "Watch Candidate",
+      "timestamp": "2026-11-08T03:23:49.074566-05:00",
+      "score": 63,
+      "discovery_score": 57,
+      "discovery_status": "Not Selected",
       "validation_results": {
         "Excellent": 71,
         "Good": 29,
@@ -2044,34 +2044,34 @@
         "discovery": "Medium"
       },
       "signal_strength": {
-        "scoring": "Strong",
-        "discovery": "Strong"
+        "scoring": "Moderate",
+        "discovery": "Moderate"
       }
     }
   ],
   "Scores": {
     "ticker": "NVDA",
     "company_name": "NVIDIA Corporation",
-    "total_score": 69,
+    "total_score": 63,
     "max_score": 100,
     "confidence": {
       "level": "Medium",
-      "completeness_score": 95.0,
+      "completeness_score": 90.0,
       "reasons": [
         "利用可能な主要データ領域は5領域中 5 領域です。",
-        "欠損または計算不可の項目数は 1 件です。",
+        "欠損または計算不可の項目数は 2 件です。",
         "主要データは一定程度ありますが、欠損や未取得項目が残っています。",
         "イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。",
         "Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。"
       ]
     },
     "signal_strength": {
-      "level": "Strong",
-      "signal_rate": 69.0,
+      "level": "Moderate",
+      "signal_rate": 63.0,
       "evaluated_max_score": 100,
       "reasons": [
-        "データが確認できた 100 点満点のうち 69 点を獲得し、シグナル充足率は 69.0% です。",
-        "シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。"
+        "データが確認できた 100 点満点のうち 63 点を獲得し、シグナル充足率は 63.0% です。",
+        "シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。"
       ]
     },
     "scores": {
@@ -2118,23 +2118,25 @@
         }
       },
       "Financial Health": {
-        "score": 20,
+        "score": 14,
         "max_score": 20,
         "reasons": [
           "現金 がプラスで確認できるため加点しています。",
           "自己資本がプラスで、財務基盤を確認できます。",
-          "総負債/自己資本が 0.31 倍で、負債負担は相対的に抑えられています。",
-          "長期債務が総負債に対して過度に大きくないため加点しています。",
+          "総負債が取得できないため、負債項目は加点していません。",
+          "長期債務が確認できるため、返済負担の継続確認が必要です。",
           "Current Ratio が 3.91 で、短期支払余力が確認できます。"
         ],
         "evidence": [
           "Financials",
           "Knowledge"
         ],
-        "missing_data": [],
+        "missing_data": [
+          "total_liabilities"
+        ],
         "metrics": {
           "cash": 10605000000.0,
-          "total_liabilities": 49510000000.0,
+          "total_liabilities": null,
           "shareholders_equity": 157293000000.0,
           "long_term_debt": 7469000000.0,
           "current_ratio": 3.905263812455306
@@ -2190,7 +2192,7 @@
           "1M": -19.021171967443053,
           "3M": -14.112229390592413,
           "6M": -13.073135849833248,
-          "1Y": -4.161077138427957,
+          "1Y": -4.161092157016533,
           "benchmark": "SPY",
           "benchmark_returns": {
             "1M": -4.99,
@@ -2213,7 +2215,7 @@
         "max_score": 20,
         "reasons": [
           "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-          "ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。",
+          "ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 1 件(純比率 +0.60)で、センチメントは 6.4 点です。",
           "イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。"
         ],
         "evidence": [
@@ -2226,9 +2228,9 @@
         ],
         "metrics": {
           "news_count": 10,
-          "positive_count": 3,
+          "positive_count": 4,
           "negative_count": 1,
-          "sentiment_net_ratio": 0.5,
+          "sentiment_net_ratio": 0.6,
           "event_count": 10,
           "events_with_price_reaction": 0
         }
@@ -2248,12 +2250,12 @@
     "company": "NVIDIA Corporation",
     "sector": "Technology",
     "industry": "Semiconductors",
-    "discovery_score": 65,
+    "discovery_score": 57,
     "max_score": 100,
-    "status": "Watch Candidate",
+    "status": "Not Selected",
     "discovery_reasons": [
       "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
-      "Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。",
+      "Financial Healthが 14/20 で、継続調査に必要な財務基盤を評価しています。",
       "Newsスコアが 11/20 で、材料の量と市場関心を候補評価に反映しています。",
       "売上が取得でき、事業規模の確認ができます。",
       "EPSがプラスで、利益を伴う成長候補として確認できます。",
@@ -2279,8 +2281,8 @@
       "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
     ],
     "confidence": "Medium",
-    "signal_strength": "Strong",
-    "signal_rate": 68.0,
+    "signal_strength": "Moderate",
+    "signal_rate": 59.63,
     "evidence": [
       "Company",
       "Events",
@@ -2295,20 +2297,20 @@
       "event_price_reaction"
     ],
     "metrics": {
-      "scoring_total": 69.0,
-      "signal_earned_points": 64.6,
+      "scoring_total": 63.0,
+      "signal_earned_points": 56.65,
       "signal_max_points": 95.0,
       "weak_signals": [],
-      "scoring_signal_strength": "Strong",
+      "scoring_signal_strength": "Moderate",
       "growth_score": 20.0,
-      "financial_health_score": 20.0,
+      "financial_health_score": 14.0,
       "valuation_score": 13.0,
       "news_score": 11.0,
       "momentum": {
         "1m": -19.021171967443053,
         "3m": -14.112229390592413,
         "6m": -13.073135849833248,
-        "1y": -4.161077138427957
+        "1y": -4.161092157016533
       },
       "benchmark": "SPY",
       "excess_momentum": {
@@ -2317,11 +2319,11 @@
         "6m": -13.26,
         "1y": -13.85
       },
-      "positive_news": 3,
+      "positive_news": 4,
       "watch_news": 1,
       "event_count": 10,
       "events_with_reaction": 0,
-      "sector_average_score": 66.0
+      "sector_average_score": 65.5
     }
   },
   "Validation": [
@@ -25020,6 +25022,42 @@
     "count": 10,
     "latest": [
       {
+        "event_id": "NVDA_cdbde8816fd2e2e7",
+        "ticker": "NVDA",
+        "published_at": "2026-11-08T07:46:39+00:00",
+        "title": "Why AT&T Stock Slumped in October",
+        "url": "https://www.fool.com/investing/2026/11/08/why-at-and-t-stock-slumped-in-october/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "NVDA_1ce179007c75c5a9",
+        "ticker": "NVDA",
+        "published_at": "2026-11-08T07:20:00+00:00",
+        "title": "If the Fed Raises Interest Rates in December, I'm Making This 1 Investing Move",
+        "url": "https://www.fool.com/investing/2026/11/08/if-the-fed-raises-interest-rates-in-december-im-ma/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "NVDA_1242746ae187fdee",
+        "ticker": "NVDA",
+        "published_at": "2026-11-08T07:10:29+00:00",
+        "title": "NVIDIA And 2 More Grid Stocks To Watch",
+        "url": "https://finance.yahoo.com/technology/articles/nvidia-2-more-grid-stocks-071029806.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
         "event_id": "NVDA_c1a551fa64850cd9",
         "ticker": "NVDA",
         "published_at": "2026-11-08T06:45:13+00:00",
@@ -25102,46 +25140,46 @@
         "previous_close": null,
         "price_change_percent": null,
         "volume": null
-      },
-      {
-        "event_id": "NVDA_0c509beffa263b89",
-        "ticker": "NVDA",
-        "published_at": "2026-11-08T02:20:00+00:00",
-        "title": "Trump's Recent Warning Is Sending Shockwaves Through Wall Street. Here's What It Could Mean for Your Retirement Savings.",
-        "url": "https://www.fool.com/investing/2026/11/07/trumps-recent-warning-is-sending-shockwaves-throug/",
-        "source": "STORY",
-        "close_price": null,
-        "previous_close": null,
-        "price_change_percent": null,
-        "volume": null
-      },
-      {
-        "event_id": "NVDA_bde37015e5512824",
-        "ticker": "NVDA",
-        "published_at": "2026-11-08T01:50:00+00:00",
-        "title": "The 1 Investing Habit That Separates Stock Market Millionaires From Everyone Else",
-        "url": "https://www.fool.com/investing/2026/11/07/the-1-investing-habit-that-separates-stock-market/",
-        "source": "STORY",
-        "close_price": null,
-        "previous_close": null,
-        "price_change_percent": null,
-        "volume": null
-      },
-      {
-        "event_id": "NVDA_4f377c4c4ef8d829",
-        "ticker": "NVDA",
-        "published_at": "2026-11-08T01:20:00+00:00",
-        "title": "Alphabet's $15 Billion Investment in Malaysia Data Centers Shows That Midterm Results Won't Stop the AI Boom",
-        "url": "https://www.fool.com/investing/2026/11/07/alphabets-15-billion-investment-in-malaysia-data-c/",
-        "source": "STORY",
-        "close_price": null,
-        "previous_close": null,
-        "price_change_percent": null,
-        "volume": null
       }
     ],
-    "history_count": 579,
+    "history_count": 582,
     "history": [
+      {
+        "event_id": "NVDA_cdbde8816fd2e2e7",
+        "ticker": "NVDA",
+        "published_at": "2026-11-08T07:46:39+00:00",
+        "title": "Why AT&T Stock Slumped in October",
+        "url": "https://www.fool.com/investing/2026/11/08/why-at-and-t-stock-slumped-in-october/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "NVDA_1ce179007c75c5a9",
+        "ticker": "NVDA",
+        "published_at": "2026-11-08T07:20:00+00:00",
+        "title": "If the Fed Raises Interest Rates in December, I'm Making This 1 Investing Move",
+        "url": "https://www.fool.com/investing/2026/11/08/if-the-fed-raises-interest-rates-in-december-im-ma/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "NVDA_1242746ae187fdee",
+        "ticker": "NVDA",
+        "published_at": "2026-11-08T07:10:29+00:00",
+        "title": "NVIDIA And 2 More Grid Stocks To Watch",
+        "url": "https://finance.yahoo.com/technology/articles/nvidia-2-more-grid-stocks-071029806.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
       {
         "event_id": "NVDA_c1a551fa64850cd9",
         "ticker": "NVDA",
@@ -32097,6 +32135,39 @@
     "latest": [
       {
         "ticker": "NVDA",
+        "title": "Why AT&T Stock Slumped in October",
+        "summary": "A large, well-known company continues to push into the consumer telecom space.",
+        "published_at": "2026-11-08T07:46:39+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/11/08/why-at-and-t-stock-slumped-in-october/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "NVDA",
+        "title": "If the Fed Raises Interest Rates in December, I'm Making This 1 Investing Move",
+        "summary": "The survey says a rate hike is likely next month.",
+        "published_at": "2026-11-08T07:20:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/11/08/if-the-fed-raises-interest-rates-in-december-im-ma/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "NVDA",
+        "title": "NVIDIA And 2 More Grid Stocks To Watch",
+        "summary": "AI data centers are starting to hit a wall on electricity, and some regions are even limiting new projects because grids cannot keep up. That supply squeeze shines a spotlight on the companies that upgrade wires, substations, and high voltage hardware so power can actually reach those server racks. This article breaks down three grid focused stocks from our screener that let you target the infrastructure behind the AI boom. The three stocks below are just a small sample, and the full screen...",
+        "published_at": "2026-11-08T07:10:29+00:00",
+        "publisher": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/technology/articles/nvidia-2-more-grid-stocks-071029806.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "NVDA",
         "title": "The AI Buildout Has A New Problem, And It’s Not Nvidia — JPMorgan Sounds Alarm",
         "summary": "JPMorgan Asset Management Global Market Strategist Stephanie Aliaga warned that mounting opposition could mean longer negotiations, higher costs and further delays.",
         "published_at": "2026-11-08T06:45:13+00:00",
@@ -32171,43 +32242,43 @@
         "language": null,
         "source": "STORY",
         "related_tickers": null
-      },
-      {
-        "ticker": "NVDA",
-        "title": "Trump's Recent Warning Is Sending Shockwaves Through Wall Street. Here's What It Could Mean for Your Retirement Savings.",
-        "summary": "The dollar continues to lose purchasing power.",
-        "published_at": "2026-11-08T02:20:00+00:00",
-        "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/11/07/trumps-recent-warning-is-sending-shockwaves-throug/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "NVDA",
-        "title": "The 1 Investing Habit That Separates Stock Market Millionaires From Everyone Else",
-        "summary": "Picking great investments is helpful, but it's not everything.",
-        "published_at": "2026-11-08T01:50:00+00:00",
-        "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/11/07/the-1-investing-habit-that-separates-stock-market/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "NVDA",
-        "title": "Alphabet's $15 Billion Investment in Malaysia Data Centers Shows That Midterm Results Won't Stop the AI Boom",
-        "summary": "Fears of midterms slowing down the AI build-out are overblown, much like all things with AI over the past month.",
-        "published_at": "2026-11-08T01:20:00+00:00",
-        "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/11/07/alphabets-15-billion-investment-in-malaysia-data-c/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
       }
     ],
-    "history_count": 577,
+    "history_count": 580,
     "history": [
+      {
+        "ticker": "NVDA",
+        "title": "Why AT&T Stock Slumped in October",
+        "summary": "A large, well-known company continues to push into the consumer telecom space.",
+        "published_at": "2026-11-08T07:46:39+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/11/08/why-at-and-t-stock-slumped-in-october/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "NVDA",
+        "title": "If the Fed Raises Interest Rates in December, I'm Making This 1 Investing Move",
+        "summary": "The survey says a rate hike is likely next month.",
+        "published_at": "2026-11-08T07:20:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/11/08/if-the-fed-raises-interest-rates-in-december-im-ma/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "NVDA",
+        "title": "NVIDIA And 2 More Grid Stocks To Watch",
+        "summary": "AI data centers are starting to hit a wall on electricity, and some regions are even limiting new projects because grids cannot keep up. That supply squeeze shines a spotlight on the companies that upgrade wires, substations, and high voltage hardware so power can actually reach those server racks. This article breaks down three grid focused stocks from our screener that let you target the infrastructure behind the AI boom. The three stocks below are just a small sample, and the full screen...",
+        "published_at": "2026-11-08T07:10:29+00:00",
+        "publisher": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/technology/articles/nvidia-2-more-grid-stocks-071029806.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
       {
         "ticker": "NVDA",
         "title": "The AI Buildout Has A New Problem, And It’s Not Nvidia — JPMorgan Sounds Alarm",
@@ -38562,8 +38633,8 @@
     "discovery": "Medium"
   },
   "SignalStrength": {
-    "scoring": "Strong",
-    "discovery": "Strong"
+    "scoring": "Moderate",
+    "discovery": "Moderate"
   },
-  "Timestamp": "2026-11-08T02:16:46.190574-05:00"
+  "Timestamp": "2026-11-08T03:23:49.074566-05:00"
 }

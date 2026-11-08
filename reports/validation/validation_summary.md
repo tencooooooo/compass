@@ -4,7 +4,7 @@
 
 ## Overview
 
-- 生成日時: 2026-11-08T02:16:12.151490-05:00
+- 生成日時: 2026-11-08T03:23:13.451825-05:00
 - 対象期間: 1w, 1m, 3m, 6m, 1y
 - 検証対象数: 3725
 - 期間完了済み: 1563
@@ -3727,16 +3727,16 @@
 | DIS | 1y | 61 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Moderate |
 | DIS | 3m | 61 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Moderate |
 | DIS | 6m | 61 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Moderate |
-| META | 1m | 64 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
-| META | 1w | 64 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
-| META | 1y | 64 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
-| META | 3m | 64 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
-| META | 6m | 64 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
-| MSFT | 1m | 73 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
-| MSFT | 1w | 73 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
-| MSFT | 1y | 73 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
-| MSFT | 3m | 73 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
-| MSFT | 6m | 73 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 1m | 62 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 1w | 62 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 1y | 62 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 3m | 62 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 6m | 62 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 1m | 74 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 1w | 74 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 1y | 74 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 3m | 74 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 6m | 74 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
 | NVDA | 1m | 65 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
 | NVDA | 1w | 65 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
 | NVDA | 1y | 65 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
