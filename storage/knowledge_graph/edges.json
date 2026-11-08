@@ -1,10 +1,31 @@
 [
   {
     "source": "AAPL",
+    "target": "AI",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: ai; Keyword: data center; Sector alignment: Technology"
+  },
+  {
+    "source": "AAPL",
     "target": "Cloud",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
-    "evidence": "Keyword: cloud; Sector alignment: Technology"
+    "evidence": "Keyword: cloud; Keyword: data center; Sector alignment: Technology"
+  },
+  {
+    "source": "AAPL",
+    "target": "Semiconductor",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: chip; Sector alignment: Technology"
+  },
+  {
+    "source": "AAPL",
+    "target": "Space",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: launch"
   },
   {
     "source": "AAPL",
@@ -64,6 +85,13 @@
   },
   {
     "source": "AAPL",
+    "target": "CMCSA",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "AAPL",
     "target": "CRM",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
@@ -78,10 +106,185 @@
   },
   {
     "source": "AAPL",
+    "target": "DIS",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "AAPL",
     "target": "GOOGL",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
+  },
+  {
+    "source": "AAPL",
+    "target": "MSFT",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "AAPL",
+    "target": "NVDA",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "AAPL",
+    "target": "QCOM",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "AAPL",
+    "target": "TMUS",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "AAPL",
+    "target": "event:AAPL:5-worst-dow-stocks-to-buy-according-to-analysts",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AAPL",
+    "target": "event:AAPL:alibaba-just-gained-12-in-a-week-as-the-nasdaq-fell-take-profits-or-buy-more",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AAPL",
+    "target": "event:AAPL:analysts-just-sounded-the-alarm-on-these-5-overhyped-stocks",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AAPL",
+    "target": "event:AAPL:apple-completes-the-set-every-magnificent-seven-stock-opts-out-of-okx-ice-venue",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AAPL",
+    "target": "event:AAPL:big-tech-s-1-trillion-rally-bets-regulation-won-t-touch-the-profits-of-the-tech-",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AAPL",
+    "target": "event:AAPL:booking-vs-doordash-does-going-out-or-staying-in-make-one-stock-a-better-buy-for",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AAPL",
+    "target": "event:AAPL:did-apple-just-get-a-boost-from-democrats-data-center-moratoriums-could-benefit-",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AAPL",
+    "target": "event:AAPL:dow-jones-futures-market-damaged-big-winners-broken-apple-amazon-microsoft-stron",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AAPL",
+    "target": "event:AAPL:eric-balchunas-calls-it-a-five-alarm-fire-sell-off-here-s-what-record-etf-tradin",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AAPL",
+    "target": "event:AAPL:republican-senator-who-won-reelection-is-selling-magnificent-seven-stocks-here-a",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AAPL",
+    "target": "news:AAPL:5-worst-dow-stocks-to-buy-according-to-analysts",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AAPL",
+    "target": "news:AAPL:alibaba-just-gained-12-in-a-week-as-the-nasdaq-fell-take-profits-or-buy-more",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AAPL",
+    "target": "news:AAPL:analysts-just-sounded-the-alarm-on-these-5-overhyped-stocks",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AAPL",
+    "target": "news:AAPL:apple-completes-the-set-every-magnificent-seven-stock-opts-out-of-okx-ice-venue",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AAPL",
+    "target": "news:AAPL:big-tech-s-1-trillion-rally-bets-regulation-won-t-touch-the-profits-of-the-tech-",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AAPL",
+    "target": "news:AAPL:booking-vs-doordash-does-going-out-or-staying-in-make-one-stock-a-better-buy-for",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AAPL",
+    "target": "news:AAPL:did-apple-just-get-a-boost-from-democrats-data-center-moratoriums-could-benefit-",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AAPL",
+    "target": "news:AAPL:dow-jones-futures-market-damaged-big-winners-broken-apple-amazon-microsoft-stron",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AAPL",
+    "target": "news:AAPL:eric-balchunas-calls-it-a-five-alarm-fire-sell-off-here-s-what-record-etf-tradin",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AAPL",
+    "target": "news:AAPL:republican-senator-who-won-reelection-is-selling-magnificent-seven-stocks-here-a",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
   },
   {
     "source": "AAPL",
@@ -197,6 +400,13 @@
   },
   {
     "source": "ACN",
+    "target": "CMCSA",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "ACN",
     "target": "CRM",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
@@ -218,6 +428,13 @@
   },
   {
     "source": "ACN",
+    "target": "MCD",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "ACN",
     "target": "MSFT",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
@@ -225,7 +442,7 @@
   },
   {
     "source": "ACN",
-    "target": "NOW",
+    "target": "NVDA",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
@@ -233,13 +450,6 @@
   {
     "source": "ACN",
     "target": "ORLY",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "ACN",
-    "target": "QCOM",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
@@ -254,13 +464,6 @@
   {
     "source": "ACN",
     "target": "TXN",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "ACN",
-    "target": "VZ",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
@@ -292,6 +495,13 @@
     "relationship": "BELONGS_TO",
     "weight": 1.0,
     "evidence": "Keyword: ai; Sector alignment: Technology"
+  },
+  {
+    "source": "ADBE",
+    "target": "Semiconductor",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: chip; Sector alignment: Technology"
   },
   {
     "source": "ADBE",
@@ -351,6 +561,13 @@
   },
   {
     "source": "ADBE",
+    "target": "CMCSA",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "ADBE",
     "target": "CRM",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
@@ -372,6 +589,146 @@
   },
   {
     "source": "ADBE",
+    "target": "event:ADBE:adobe-adbe-brings-cx-enterprise-coworker-to-major-ai-platforms",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "ADBE",
+    "target": "event:ADBE:adobe-downgraded-constellation-upgraded-wall-street-s-top-analyst-calls",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "ADBE",
+    "target": "event:ADBE:adobe-fell-25-this-year-citi-still-sees-a-hard-reset-what-does-its-p-e-assume",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "ADBE",
+    "target": "event:ADBE:adobe-is-down-29-this-year-time-to-sell-or-buy-more",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "ADBE",
+    "target": "event:ADBE:adobe-vs-okta-which-technology-stock-is-a-better-buy-for-2027",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "ADBE",
+    "target": "event:ADBE:analysts-just-sounded-the-alarm-on-these-5-overhyped-stocks",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "ADBE",
+    "target": "event:ADBE:another-downgrade-can-t-shake-adobe-stock-before-earnings",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "ADBE",
+    "target": "event:ADBE:citi-says-adobe-could-be-headed-for-a-hard-reset",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "ADBE",
+    "target": "event:ADBE:palantir-and-crowdstrike-stocks-tumble-as-wall-street-dumps-software-s-ai-winner",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "ADBE",
+    "target": "event:ADBE:stock-alert-citi-slaps-adobe-with-rare-sell-rating",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "ADBE",
+    "target": "news:ADBE:adobe-adbe-brings-cx-enterprise-coworker-to-major-ai-platforms",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "ADBE",
+    "target": "news:ADBE:adobe-downgraded-constellation-upgraded-wall-street-s-top-analyst-calls",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "ADBE",
+    "target": "news:ADBE:adobe-fell-25-this-year-citi-still-sees-a-hard-reset-what-does-its-p-e-assume",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "ADBE",
+    "target": "news:ADBE:adobe-is-down-29-this-year-time-to-sell-or-buy-more",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "ADBE",
+    "target": "news:ADBE:adobe-vs-okta-which-technology-stock-is-a-better-buy-for-2027",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "ADBE",
+    "target": "news:ADBE:analysts-just-sounded-the-alarm-on-these-5-overhyped-stocks",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "ADBE",
+    "target": "news:ADBE:another-downgrade-can-t-shake-adobe-stock-before-earnings",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "ADBE",
+    "target": "news:ADBE:citi-says-adobe-could-be-headed-for-a-hard-reset",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "ADBE",
+    "target": "news:ADBE:palantir-and-crowdstrike-stocks-tumble-as-wall-street-dumps-software-s-ai-winner",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "ADBE",
+    "target": "news:ADBE:stock-alert-citi-slaps-adobe-with-rare-sell-rating",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "ADBE",
     "target": "AI",
     "relationship": "USES",
     "weight": 1.0,
@@ -381,22 +738,36 @@
     "source": "AI",
     "target": "Cloud",
     "relationship": "RELATED_TO",
-    "weight": 0.778,
-    "evidence": "Shared company overlap 0.78"
+    "weight": 0.692,
+    "evidence": "Shared company overlap 0.69"
   },
   {
     "source": "AI",
     "target": "Cybersecurity",
     "relationship": "RELATED_TO",
-    "weight": 0.389,
-    "evidence": "Shared company overlap 0.39"
+    "weight": 0.333,
+    "evidence": "Shared company overlap 0.33"
+  },
+  {
+    "source": "AI",
+    "target": "Robotics",
+    "relationship": "RELATED_TO",
+    "weight": 0.308,
+    "evidence": "Shared company overlap 0.31"
   },
   {
     "source": "AI",
     "target": "Semiconductor",
     "relationship": "RELATED_TO",
-    "weight": 0.316,
-    "evidence": "Shared company overlap 0.32"
+    "weight": 0.731,
+    "evidence": "Shared company overlap 0.73"
+  },
+  {
+    "source": "AMAT",
+    "target": "AI",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: ai; Sector alignment: Technology"
   },
   {
     "source": "AMAT",
@@ -410,7 +781,7 @@
     "target": "Semiconductor",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
-    "evidence": "Keyword: semiconductor; Keyword: chips; Sector alignment: Technology"
+    "evidence": "Keyword: semiconductor; Keyword: chip; Keyword: chips; Keyword: memory; Sector alignment: Technology"
   },
   {
     "source": "AMAT",
@@ -456,10 +827,24 @@
   },
   {
     "source": "AMAT",
+    "target": "AMZN",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "AMAT",
     "target": "AVGO",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same sector"
+  },
+  {
+    "source": "AMAT",
+    "target": "CMCSA",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
   },
   {
     "source": "AMAT",
@@ -477,14 +862,7 @@
   },
   {
     "source": "AMAT",
-    "target": "INTC",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "AMAT",
-    "target": "MU",
+    "target": "GOOGL",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
@@ -519,10 +897,164 @@
   },
   {
     "source": "AMAT",
-    "target": "TXN",
+    "target": "TSLA",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
+  },
+  {
+    "source": "AMAT",
+    "target": "Investment Event",
+    "relationship": "INVESTS_IN",
+    "weight": 1.0,
+    "evidence": "Investment keyword in news"
+  },
+  {
+    "source": "AMAT",
+    "target": "event:AMAT:3-us-semiconductor-stocks-with-less-china-exposure-to-watch-now",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMAT",
+    "target": "event:AMAT:5-best-memory-stocks-to-buy-according-to-billionaires",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMAT",
+    "target": "event:AMAT:applied-materials-stocks-rise-4-7-as-chip-equipment-rallies-ahead-of-earnings",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMAT",
+    "target": "event:AMAT:investing-com-s-stocks-of-the-week",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMAT",
+    "target": "event:AMAT:q3-earnings-update-broad-based-growth-key-sector-outliers-and-what-s-ahead-for-q",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMAT",
+    "target": "event:AMAT:tesla-rebounds-5-as-musk-ends-cybertruck-to-make-room-for-increased-cybercab-pro",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMAT",
+    "target": "event:AMAT:what-changed-for-kla-stock-and-what-did-not",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMAT",
+    "target": "event:AMAT:what-is-driving-the-fall-in-amkor-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMAT",
+    "target": "event:AMAT:what-is-the-true-hidden-price-of-lam-research-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMAT",
+    "target": "event:AMAT:what-just-lifted-lam-research-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMAT",
+    "target": "news:AMAT:3-us-semiconductor-stocks-with-less-china-exposure-to-watch-now",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMAT",
+    "target": "news:AMAT:5-best-memory-stocks-to-buy-according-to-billionaires",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMAT",
+    "target": "news:AMAT:applied-materials-stocks-rise-4-7-as-chip-equipment-rallies-ahead-of-earnings",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMAT",
+    "target": "news:AMAT:investing-com-s-stocks-of-the-week",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMAT",
+    "target": "news:AMAT:q3-earnings-update-broad-based-growth-key-sector-outliers-and-what-s-ahead-for-q",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMAT",
+    "target": "news:AMAT:tesla-rebounds-5-as-musk-ends-cybertruck-to-make-room-for-increased-cybercab-pro",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMAT",
+    "target": "news:AMAT:what-changed-for-kla-stock-and-what-did-not",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMAT",
+    "target": "news:AMAT:what-is-driving-the-fall-in-amkor-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMAT",
+    "target": "news:AMAT:what-is-the-true-hidden-price-of-lam-research-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMAT",
+    "target": "news:AMAT:what-just-lifted-lam-research-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMAT",
+    "target": "Supply Chain Event",
+    "relationship": "SUPPLIES",
+    "weight": 1.0,
+    "evidence": "Supply keyword in news"
   },
   {
     "source": "AMAT",
@@ -530,6 +1062,20 @@
     "relationship": "USES",
     "weight": 1.0,
     "evidence": "Company profile or news keyword match"
+  },
+  {
+    "source": "AMAT",
+    "target": "Cloud",
+    "relationship": "USES",
+    "weight": 1.0,
+    "evidence": "Company profile or news keyword match"
+  },
+  {
+    "source": "AMAT",
+    "target": "Tesla EV",
+    "relationship": "USES",
+    "weight": 1.0,
+    "evidence": "Product keyword match"
   },
   {
     "source": "AMD",
@@ -610,6 +1156,13 @@
   },
   {
     "source": "AMD",
+    "target": "CMCSA",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "AMD",
     "target": "CRM",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
@@ -631,38 +1184,143 @@
   },
   {
     "source": "AMD",
-    "target": "INTC",
-    "relationship": "COMPETES_WITH",
+    "target": "event:AMD:ai-chip-stocks-bounce-after-global-rout-but-is-the-bubble-starting-to-burst",
+    "relationship": "RELATED_TO",
     "weight": 1.0,
-    "evidence": "Same theme"
+    "evidence": "Event database"
   },
   {
     "source": "AMD",
-    "target": "MU",
-    "relationship": "COMPETES_WITH",
+    "target": "event:AMD:amd-is-up-110-in-2026-but-down-sharply-from-its-high-time-to-sell-or-load-up",
+    "relationship": "RELATED_TO",
     "weight": 1.0,
-    "evidence": "Same theme"
+    "evidence": "Event database"
   },
   {
     "source": "AMD",
-    "target": "NVDA",
-    "relationship": "COMPETES_WITH",
+    "target": "event:AMD:amd-stock-just-fell-below-the-price-i-said-i-d-pay-for-it",
+    "relationship": "RELATED_TO",
     "weight": 1.0,
-    "evidence": "Same theme"
+    "evidence": "Event database"
   },
   {
     "source": "AMD",
-    "target": "QCOM",
-    "relationship": "COMPETES_WITH",
+    "target": "event:AMD:amd-stock-popped-after-earnings-then-gave-it-all-back-is-it-a-buy-now",
+    "relationship": "RELATED_TO",
     "weight": 1.0,
-    "evidence": "Same theme"
+    "evidence": "Event database"
   },
   {
     "source": "AMD",
-    "target": "TXN",
-    "relationship": "COMPETES_WITH",
+    "target": "event:AMD:bank-of-america-has-unexpected-advice-for-tech-stock-investors-after-midterms",
+    "relationship": "RELATED_TO",
     "weight": 1.0,
-    "evidence": "Same theme"
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMD",
+    "target": "event:AMD:core-scientific-is-quitting-bitcoin-mining-as-it-now-makes-about-92-of-its-reven",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMD",
+    "target": "event:AMD:jim-cramer-sends-a-strong-signal-to-nvidia-stock-investors",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMD",
+    "target": "event:AMD:nvidia-and-2-other-ai-stocks-to-watch",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMD",
+    "target": "event:AMD:nvidia-is-worth-1-3-trillion-less-after-its-5th-straight-losing-week",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMD",
+    "target": "event:AMD:the-artificial-intelligence-ai-boom-is-far-from-over-here-are-4-potential-long-t",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMD",
+    "target": "news:AMD:ai-chip-stocks-bounce-after-global-rout-but-is-the-bubble-starting-to-burst",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMD",
+    "target": "news:AMD:amd-is-up-110-in-2026-but-down-sharply-from-its-high-time-to-sell-or-load-up",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMD",
+    "target": "news:AMD:amd-stock-just-fell-below-the-price-i-said-i-d-pay-for-it",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMD",
+    "target": "news:AMD:amd-stock-popped-after-earnings-then-gave-it-all-back-is-it-a-buy-now",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMD",
+    "target": "news:AMD:bank-of-america-has-unexpected-advice-for-tech-stock-investors-after-midterms",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMD",
+    "target": "news:AMD:core-scientific-is-quitting-bitcoin-mining-as-it-now-makes-about-92-of-its-reven",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMD",
+    "target": "news:AMD:jim-cramer-sends-a-strong-signal-to-nvidia-stock-investors",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMD",
+    "target": "news:AMD:nvidia-and-2-other-ai-stocks-to-watch",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMD",
+    "target": "news:AMD:nvidia-is-worth-1-3-trillion-less-after-its-5th-straight-losing-week",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMD",
+    "target": "news:AMD:the-artificial-intelligence-ai-boom-is-far-from-over-here-are-4-potential-long-t",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
   },
   {
     "source": "AMD",
@@ -690,14 +1348,14 @@
     "target": "AI",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
-    "evidence": "Keyword: artificial intelligence; Keyword: machine learning"
+    "evidence": "Keyword: ai; Keyword: artificial intelligence; Keyword: machine learning"
   },
   {
     "source": "AMZN",
     "target": "Cloud",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
-    "evidence": "Keyword: aws"
+    "evidence": "Keyword: cloud; Keyword: aws; Keyword: infrastructure"
   },
   {
     "source": "AMZN",
@@ -705,6 +1363,20 @@
     "relationship": "BELONGS_TO",
     "weight": 1.0,
     "evidence": "Company profile sector"
+  },
+  {
+    "source": "AMZN",
+    "target": "Cybersecurity",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: security"
+  },
+  {
+    "source": "AMZN",
+    "target": "Semiconductor",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: semiconductor"
   },
   {
     "source": "AMZN",
@@ -736,6 +1408,13 @@
   },
   {
     "source": "AMZN",
+    "target": "AMAT",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "AMZN",
     "target": "AMD",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
@@ -754,6 +1433,13 @@
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same sector"
+  },
+  {
+    "source": "AMZN",
+    "target": "CMCSA",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
   },
   {
     "source": "AMZN",
@@ -799,6 +1485,13 @@
   },
   {
     "source": "AMZN",
+    "target": "MSFT",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "AMZN",
     "target": "NKE",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
@@ -820,6 +1513,160 @@
   },
   {
     "source": "AMZN",
+    "target": "Investment Event",
+    "relationship": "INVESTS_IN",
+    "weight": 1.0,
+    "evidence": "Investment keyword in news"
+  },
+  {
+    "source": "AMZN",
+    "target": "Partnership Event",
+    "relationship": "PARTNERS_WITH",
+    "weight": 1.0,
+    "evidence": "Partnership keyword in news"
+  },
+  {
+    "source": "AMZN",
+    "target": "event:AMZN:ai-stocks-diverge-as-democratic-election-victory-sparks-rotation-into-cloud-gian",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMZN",
+    "target": "event:AMZN:amazon-prime-members-new-uber-eats-perk-comes-with-a-25-minimum",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMZN",
+    "target": "event:AMZN:america-just-matched-a-57-year-employment-record-why-are-workers-still-worried",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMZN",
+    "target": "event:AMZN:anthropic-s-ipo-could-come-within-weeks-amazon-already-owns-a-piece-of-it",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMZN",
+    "target": "event:AMZN:apple-completes-the-set-every-magnificent-seven-stock-opts-out-of-okx-ice-venue",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMZN",
+    "target": "event:AMZN:dow-jones-futures-market-damaged-big-winners-broken-apple-amazon-microsoft-stron",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMZN",
+    "target": "event:AMZN:he-loses-his-job-at-62-as-amazon-cuts-95-more-positions-he-claims-social-securit",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMZN",
+    "target": "event:AMZN:how-to-invest-in-ai-amid-ai-spending-worries",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMZN",
+    "target": "event:AMZN:is-doordash-dash-undervalued-following-its-new-lyft-partnership",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMZN",
+    "target": "event:AMZN:walton-family-gets-100-billion-richer-as-walmart-surges",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AMZN",
+    "target": "news:AMZN:ai-stocks-diverge-as-democratic-election-victory-sparks-rotation-into-cloud-gian",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMZN",
+    "target": "news:AMZN:amazon-prime-members-new-uber-eats-perk-comes-with-a-25-minimum",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMZN",
+    "target": "news:AMZN:america-just-matched-a-57-year-employment-record-why-are-workers-still-worried",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMZN",
+    "target": "news:AMZN:anthropic-s-ipo-could-come-within-weeks-amazon-already-owns-a-piece-of-it",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMZN",
+    "target": "news:AMZN:apple-completes-the-set-every-magnificent-seven-stock-opts-out-of-okx-ice-venue",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMZN",
+    "target": "news:AMZN:dow-jones-futures-market-damaged-big-winners-broken-apple-amazon-microsoft-stron",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMZN",
+    "target": "news:AMZN:he-loses-his-job-at-62-as-amazon-cuts-95-more-positions-he-claims-social-securit",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMZN",
+    "target": "news:AMZN:how-to-invest-in-ai-amid-ai-spending-worries",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMZN",
+    "target": "news:AMZN:is-doordash-dash-undervalued-following-its-new-lyft-partnership",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMZN",
+    "target": "news:AMZN:walton-family-gets-100-billion-richer-as-walmart-surges",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AMZN",
     "target": "AI",
     "relationship": "USES",
     "weight": 1.0,
@@ -833,11 +1680,32 @@
     "evidence": "Product keyword match"
   },
   {
+    "source": "AMZN",
+    "target": "Cloud",
+    "relationship": "USES",
+    "weight": 1.0,
+    "evidence": "Company profile or news keyword match"
+  },
+  {
+    "source": "AMZN",
+    "target": "Cybersecurity",
+    "relationship": "USES",
+    "weight": 1.0,
+    "evidence": "Company profile or news keyword match"
+  },
+  {
     "source": "AVGO",
     "target": "AI",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
     "evidence": "Keyword: ai; Keyword: artificial intelligence; Keyword: data center; Sector alignment: Technology"
+  },
+  {
+    "source": "AVGO",
+    "target": "Biotechnology",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: biotechnology; Keyword: biotech"
   },
   {
     "source": "AVGO",
@@ -872,7 +1740,14 @@
     "target": "Semiconductor",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
-    "evidence": "Keyword: semiconductor; Keyword: semiconductors; Sector alignment: Technology"
+    "evidence": "Keyword: semiconductor; Keyword: semiconductors; Keyword: chip; Keyword: memory; Sector alignment: Technology"
+  },
+  {
+    "source": "AVGO",
+    "target": "Space",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: space"
   },
   {
     "source": "AVGO",
@@ -932,6 +1807,13 @@
   },
   {
     "source": "AVGO",
+    "target": "CMCSA",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "AVGO",
     "target": "CRM",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
@@ -946,6 +1828,13 @@
   },
   {
     "source": "AVGO",
+    "target": "DIS",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "AVGO",
     "target": "GOOGL",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
@@ -953,7 +1842,7 @@
   },
   {
     "source": "AVGO",
-    "target": "INTC",
+    "target": "MCD",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
@@ -961,13 +1850,6 @@
   {
     "source": "AVGO",
     "target": "MSFT",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "AVGO",
-    "target": "MU",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
@@ -1009,6 +1891,13 @@
   },
   {
     "source": "AVGO",
+    "target": "TMUS",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "AVGO",
     "target": "TSLA",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
@@ -1023,10 +1912,143 @@
   },
   {
     "source": "AVGO",
-    "target": "VZ",
-    "relationship": "COMPETES_WITH",
+    "target": "event:AVGO:cathie-wood-led-ark-loads-up-on-goog-amd-nvda-and-biotech-stocks-but-sells-crwv-",
+    "relationship": "RELATED_TO",
     "weight": 1.0,
-    "evidence": "Same theme"
+    "evidence": "Event database"
+  },
+  {
+    "source": "AVGO",
+    "target": "event:AVGO:credo-technology-is-down-26-in-a-year-is-it-time-to-sell-or-load-up",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AVGO",
+    "target": "event:AVGO:investors-pulled-7-billion-from-three-cash-funds-in-a-month-where-did-it-go",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AVGO",
+    "target": "event:AVGO:is-broadcom-a-buy-after-falling-9-in-one-day",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AVGO",
+    "target": "event:AVGO:jim-cramer-sends-a-strong-signal-to-nvidia-stock-investors",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AVGO",
+    "target": "event:AVGO:nvidia-or-micron-where-each-leads-in-the-ai-buildout",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AVGO",
+    "target": "event:AVGO:nvidia-stock-other-ai-names-rebound-after-sell-off",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AVGO",
+    "target": "event:AVGO:the-artificial-intelligence-ai-boom-is-far-from-over-here-are-4-potential-long-t",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AVGO",
+    "target": "event:AVGO:wall-street-may-have-lost-2-5-trillion-but-this-30-warning-could-be-an-even-bigg",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AVGO",
+    "target": "event:AVGO:what-is-behind-the-rebound-in-qualcomm-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "AVGO",
+    "target": "news:AVGO:cathie-wood-led-ark-loads-up-on-goog-amd-nvda-and-biotech-stocks-but-sells-crwv-",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AVGO",
+    "target": "news:AVGO:credo-technology-is-down-26-in-a-year-is-it-time-to-sell-or-load-up",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AVGO",
+    "target": "news:AVGO:investors-pulled-7-billion-from-three-cash-funds-in-a-month-where-did-it-go",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AVGO",
+    "target": "news:AVGO:is-broadcom-a-buy-after-falling-9-in-one-day",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AVGO",
+    "target": "news:AVGO:jim-cramer-sends-a-strong-signal-to-nvidia-stock-investors",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AVGO",
+    "target": "news:AVGO:nvidia-or-micron-where-each-leads-in-the-ai-buildout",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AVGO",
+    "target": "news:AVGO:nvidia-stock-other-ai-names-rebound-after-sell-off",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AVGO",
+    "target": "news:AVGO:the-artificial-intelligence-ai-boom-is-far-from-over-here-are-4-potential-long-t",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AVGO",
+    "target": "news:AVGO:wall-street-may-have-lost-2-5-trillion-but-this-30-warning-could-be-an-even-bigg",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "AVGO",
+    "target": "news:AVGO:what-is-behind-the-rebound-in-qualcomm-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
   },
   {
     "source": "AVGO",
@@ -1184,10 +2206,24 @@
   },
   {
     "source": "CMCSA",
+    "target": "AI",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: ai; Sector alignment: Communication Services"
+  },
+  {
+    "source": "CMCSA",
     "target": "Communication Services",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
     "evidence": "Company profile sector"
+  },
+  {
+    "source": "CMCSA",
+    "target": "Cybersecurity",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: security"
   },
   {
     "source": "CMCSA",
@@ -1198,10 +2234,66 @@
   },
   {
     "source": "CMCSA",
+    "target": "AAPL",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "CMCSA",
+    "target": "ACN",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "CMCSA",
+    "target": "ADBE",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "CMCSA",
+    "target": "AMAT",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "CMCSA",
+    "target": "AMD",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "CMCSA",
+    "target": "AMZN",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "CMCSA",
+    "target": "AVGO",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "CMCSA",
     "target": "CHTR",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same sector"
+  },
+  {
+    "source": "CMCSA",
+    "target": "CSCO",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
   },
   {
     "source": "CMCSA",
@@ -1226,10 +2318,24 @@
   },
   {
     "source": "CMCSA",
+    "target": "MCD",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "CMCSA",
     "target": "META",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same sector"
+  },
+  {
+    "source": "CMCSA",
+    "target": "MSFT",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
   },
   {
     "source": "CMCSA",
@@ -1247,10 +2353,178 @@
   },
   {
     "source": "CMCSA",
+    "target": "Investment Event",
+    "relationship": "INVESTS_IN",
+    "weight": 1.0,
+    "evidence": "Investment keyword in news"
+  },
+  {
+    "source": "CMCSA",
+    "target": "Partnership Event",
+    "relationship": "PARTNERS_WITH",
+    "weight": 1.0,
+    "evidence": "Partnership keyword in news"
+  },
+  {
+    "source": "CMCSA",
+    "target": "event:CMCSA:arlo-technologies-inc-arlo-q3-2026-earnings-call-highlights-subscriptions-surge-",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "CMCSA",
+    "target": "event:CMCSA:arlo-technologies-q3-earnings-call-highlights",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "CMCSA",
+    "target": "event:CMCSA:did-broad-layoffs-just-shift-comcast-s-cmcsa-investment-narrative",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "CMCSA",
+    "target": "event:CMCSA:earnings-beat-might-change-the-case-for-investing-in-fastly-fsly",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "CMCSA",
+    "target": "event:CMCSA:fastly-just-dropped-41-in-a-month-is-fsly-stock-dead-money-or-due-for-a-bounce",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "CMCSA",
+    "target": "event:CMCSA:investors-heavily-search-comcast-corporation-cmcsa-here-is-what-you-need-to-know",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "CMCSA",
+    "target": "event:CMCSA:what-is-behind-the-move-in-echostar-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "CMCSA",
+    "target": "event:CMCSA:what-just-happened-to-liberty-media-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "CMCSA",
+    "target": "event:CMCSA:what-state-street-comm-services-spdr-xlc-bought-meta-leads-on-wednesday",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "CMCSA",
+    "target": "event:CMCSA:why-is-echostar-stock-falling",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "CMCSA",
+    "target": "news:CMCSA:arlo-technologies-inc-arlo-q3-2026-earnings-call-highlights-subscriptions-surge-",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "CMCSA",
+    "target": "news:CMCSA:arlo-technologies-q3-earnings-call-highlights",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "CMCSA",
+    "target": "news:CMCSA:did-broad-layoffs-just-shift-comcast-s-cmcsa-investment-narrative",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "CMCSA",
+    "target": "news:CMCSA:earnings-beat-might-change-the-case-for-investing-in-fastly-fsly",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "CMCSA",
+    "target": "news:CMCSA:fastly-just-dropped-41-in-a-month-is-fsly-stock-dead-money-or-due-for-a-bounce",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "CMCSA",
+    "target": "news:CMCSA:investors-heavily-search-comcast-corporation-cmcsa-here-is-what-you-need-to-know",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "CMCSA",
+    "target": "news:CMCSA:what-is-behind-the-move-in-echostar-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "CMCSA",
+    "target": "news:CMCSA:what-just-happened-to-liberty-media-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "CMCSA",
+    "target": "news:CMCSA:what-state-street-comm-services-spdr-xlc-bought-meta-leads-on-wednesday",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "CMCSA",
+    "target": "news:CMCSA:why-is-echostar-stock-falling",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "CMCSA",
     "target": "AI",
     "relationship": "USES",
     "weight": 1.0,
     "evidence": "Company profile or news keyword match"
+  },
+  {
+    "source": "CMCSA",
+    "target": "Cybersecurity",
+    "relationship": "USES",
+    "weight": 1.0,
+    "evidence": "Company profile or news keyword match"
+  },
+  {
+    "source": "CRM",
+    "target": "Acquisition Event",
+    "relationship": "ACQUIRES",
+    "weight": 1.0,
+    "evidence": "Acquisition keyword in news"
   },
   {
     "source": "CRM",
@@ -1279,6 +2553,13 @@
     "relationship": "BELONGS_TO",
     "weight": 1.0,
     "evidence": "Keyword: autonomous; Sector alignment: Technology"
+  },
+  {
+    "source": "CRM",
+    "target": "Semiconductor",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: chip; Keyword: memory; Sector alignment: Technology"
   },
   {
     "source": "CRM",
@@ -1377,6 +2658,160 @@
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
+  },
+  {
+    "source": "CRM",
+    "target": "QCOM",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "CRM",
+    "target": "TSLA",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "CRM",
+    "target": "event:CRM:5-best-dow-stocks-to-buy-for-2027",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "CRM",
+    "target": "event:CRM:atlassian-sinks-12-as-slower-growth-outlook-overshadows-beat-enterprise-ai-has-h",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "CRM",
+    "target": "event:CRM:braze-brze-stock-may-be-17-undervalued-following-its-cash-takeover-offer",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "CRM",
+    "target": "event:CRM:braze-brze-what-is-behind-the-attention-now",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "CRM",
+    "target": "event:CRM:crm-or-adsk-which-is-the-better-value-stock-right-now",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "CRM",
+    "target": "event:CRM:docebo-inc-q3-2026-earnings-call-summary",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "CRM",
+    "target": "event:CRM:docusign-vs-monday-com-absolute-scale-vs-faster-growth-in-tech-revenues",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "CRM",
+    "target": "event:CRM:market-week-ahead-can-the-stock-market-fly-with-a-lame-duck-congress",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "CRM",
+    "target": "event:CRM:what-are-microsoft-investors-betting-on",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "CRM",
+    "target": "event:CRM:what-is-behind-the-move-in-atlassian-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "CRM",
+    "target": "news:CRM:5-best-dow-stocks-to-buy-for-2027",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "CRM",
+    "target": "news:CRM:atlassian-sinks-12-as-slower-growth-outlook-overshadows-beat-enterprise-ai-has-h",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "CRM",
+    "target": "news:CRM:braze-brze-stock-may-be-17-undervalued-following-its-cash-takeover-offer",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "CRM",
+    "target": "news:CRM:braze-brze-what-is-behind-the-attention-now",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "CRM",
+    "target": "news:CRM:crm-or-adsk-which-is-the-better-value-stock-right-now",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "CRM",
+    "target": "news:CRM:docebo-inc-q3-2026-earnings-call-summary",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "CRM",
+    "target": "news:CRM:docusign-vs-monday-com-absolute-scale-vs-faster-growth-in-tech-revenues",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "CRM",
+    "target": "news:CRM:market-week-ahead-can-the-stock-market-fly-with-a-lame-duck-congress",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "CRM",
+    "target": "news:CRM:what-are-microsoft-investors-betting-on",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "CRM",
+    "target": "news:CRM:what-is-behind-the-move-in-atlassian-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
   },
   {
     "source": "CRM",
@@ -1485,6 +2920,13 @@
   },
   {
     "source": "CSCO",
+    "target": "CMCSA",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "CSCO",
     "target": "CRM",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
@@ -1499,28 +2941,14 @@
   },
   {
     "source": "CSCO",
+    "target": "MCD",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "CSCO",
     "target": "MSFT",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "CSCO",
-    "target": "NOW",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "CSCO",
-    "target": "QCOM",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "CSCO",
-    "target": "VZ",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
@@ -1543,21 +2971,28 @@
     "source": "Cloud",
     "target": "Cybersecurity",
     "relationship": "RELATED_TO",
-    "weight": 0.438,
-    "evidence": "Shared company overlap 0.44"
+    "weight": 0.333,
+    "evidence": "Shared company overlap 0.33"
   },
   {
     "source": "Cloud",
     "target": "Robotics",
     "relationship": "RELATED_TO",
-    "weight": 0.312,
-    "evidence": "Shared company overlap 0.31"
+    "weight": 0.3,
+    "evidence": "Shared company overlap 0.30"
   },
   {
     "source": "Cloud",
     "target": "Semiconductor",
     "relationship": "RELATED_TO",
-    "weight": 0.353,
+    "weight": 0.609,
+    "evidence": "Shared company overlap 0.61"
+  },
+  {
+    "source": "Cloud",
+    "target": "Space",
+    "relationship": "RELATED_TO",
+    "weight": 0.35,
     "evidence": "Shared company overlap 0.35"
   },
   {
@@ -1580,6 +3015,20 @@
     "relationship": "BELONGS_TO",
     "weight": 1.0,
     "evidence": "Company profile country"
+  },
+  {
+    "source": "DIS",
+    "target": "AAPL",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "DIS",
+    "target": "AVGO",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
   },
   {
     "source": "DIS",
@@ -1618,6 +3067,13 @@
   },
   {
     "source": "DIS",
+    "target": "MSFT",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "DIS",
     "target": "NFLX",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
@@ -1625,10 +3081,178 @@
   },
   {
     "source": "DIS",
+    "target": "NVDA",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "DIS",
+    "target": "QCOM",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "DIS",
     "target": "T",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same sector"
+  },
+  {
+    "source": "DIS",
+    "target": "TMUS",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "DIS",
+    "target": "Investment Event",
+    "relationship": "INVESTS_IN",
+    "weight": 1.0,
+    "evidence": "Investment keyword in news"
+  },
+  {
+    "source": "DIS",
+    "target": "event:DIS:disney-dis-stock-looks-fairly-valued-as-cash-flow-holds-up",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "DIS",
+    "target": "event:DIS:disney-struggles-as-netflix-pulls-away-time-to-buy-the-dip",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "DIS",
+    "target": "event:DIS:etfs-are-buying-disney-dis-on-nov-3",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "DIS",
+    "target": "event:DIS:how-to-play-dis-stock-as-disney-eyes-20-cost-cuts-and-thousands-of-layoffs",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "DIS",
+    "target": "event:DIS:i-ve-been-writing-about-disney-stock-for-30-years-here-s-why-my-conviction-has-n",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "DIS",
+    "target": "event:DIS:playtika-holding-corp-pltk-q3-2026-earnings-call-highlights-record-adjusted-ebit",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "DIS",
+    "target": "event:DIS:playtika-holding-corp-q3-2026-earnings-call-summary",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "DIS",
+    "target": "event:DIS:previewing-the-jobs-report-the-labor-market-is-mixed-at-best",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "DIS",
+    "target": "event:DIS:this-opportunist-eyes-bargains-in-shares-of-uber-markel-atlanta-braves",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "DIS",
+    "target": "event:DIS:what-just-happened-to-liberty-media-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "DIS",
+    "target": "news:DIS:disney-dis-stock-looks-fairly-valued-as-cash-flow-holds-up",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "DIS",
+    "target": "news:DIS:disney-struggles-as-netflix-pulls-away-time-to-buy-the-dip",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "DIS",
+    "target": "news:DIS:etfs-are-buying-disney-dis-on-nov-3",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "DIS",
+    "target": "news:DIS:how-to-play-dis-stock-as-disney-eyes-20-cost-cuts-and-thousands-of-layoffs",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "DIS",
+    "target": "news:DIS:i-ve-been-writing-about-disney-stock-for-30-years-here-s-why-my-conviction-has-n",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "DIS",
+    "target": "news:DIS:playtika-holding-corp-pltk-q3-2026-earnings-call-highlights-record-adjusted-ebit",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "DIS",
+    "target": "news:DIS:playtika-holding-corp-q3-2026-earnings-call-summary",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "DIS",
+    "target": "news:DIS:previewing-the-jobs-report-the-labor-market-is-mixed-at-best",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "DIS",
+    "target": "news:DIS:this-opportunist-eyes-bargains-in-shares-of-uber-markel-atlanta-braves",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "DIS",
+    "target": "news:DIS:what-just-happened-to-liberty-media-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
   },
   {
     "source": "DIS",
@@ -1711,15 +3335,22 @@
     "source": "EV",
     "target": "Energy",
     "relationship": "RELATED_TO",
-    "weight": 0.5,
-    "evidence": "Shared company overlap 0.50"
+    "weight": 0.571,
+    "evidence": "Shared company overlap 0.57"
+  },
+  {
+    "source": "Energy",
+    "target": "Space",
+    "relationship": "RELATED_TO",
+    "weight": 0.333,
+    "evidence": "Shared company overlap 0.33"
   },
   {
     "source": "GOOGL",
     "target": "AI",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
-    "evidence": "Keyword: ai; Sector alignment: Communication Services"
+    "evidence": "Keyword: ai; Keyword: gpu; Sector alignment: Communication Services"
   },
   {
     "source": "GOOGL",
@@ -1741,6 +3372,27 @@
     "relationship": "BELONGS_TO",
     "weight": 1.0,
     "evidence": "Keyword: cybersecurity"
+  },
+  {
+    "source": "GOOGL",
+    "target": "Energy",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: energy"
+  },
+  {
+    "source": "GOOGL",
+    "target": "Semiconductor",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: chip; Keyword: gpu; Keyword: memory"
+  },
+  {
+    "source": "GOOGL",
+    "target": "Space",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: rocket; Keyword: spacex; Sector alignment: Communication Services"
   },
   {
     "source": "GOOGL",
@@ -1766,6 +3418,13 @@
   {
     "source": "GOOGL",
     "target": "ADBE",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "GOOGL",
+    "target": "AMAT",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
@@ -1835,6 +3494,13 @@
   },
   {
     "source": "GOOGL",
+    "target": "MCD",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "GOOGL",
     "target": "META",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
@@ -1856,7 +3522,14 @@
   },
   {
     "source": "GOOGL",
-    "target": "NOW",
+    "target": "NVDA",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "GOOGL",
+    "target": "ORLY",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
@@ -1877,10 +3550,171 @@
   },
   {
     "source": "GOOGL",
-    "target": "VZ",
+    "target": "TMUS",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
+  },
+  {
+    "source": "GOOGL",
+    "target": "TSLA",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "GOOGL",
+    "target": "TXN",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "GOOGL",
+    "target": "Investment Event",
+    "relationship": "INVESTS_IN",
+    "weight": 1.0,
+    "evidence": "Investment keyword in news"
+  },
+  {
+    "source": "GOOGL",
+    "target": "event:GOOGL:5-best-dow-stocks-to-buy-for-2027",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "GOOGL",
+    "target": "event:GOOGL:alphabet-googl-expands-spacex-stake-to-69-billion-and-deepens-ai-ties",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "GOOGL",
+    "target": "event:GOOGL:alphabet-s-15-billion-investment-in-malaysia-data-centers-shows-that-midterm-res",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "GOOGL",
+    "target": "event:GOOGL:apple-completes-the-set-every-magnificent-seven-stock-opts-out-of-okx-ice-venue",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "GOOGL",
+    "target": "event:GOOGL:ast-spacemobile-is-building-its-own-reusable-rocket-to-rely-less-on-spacex",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "GOOGL",
+    "target": "event:GOOGL:berkshire-surprised-with-record-buybacks-but-pace-slowed-as-the-stock-rose",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "GOOGL",
+    "target": "event:GOOGL:constellation-energy-just-dropped-17-in-a-month-is-it-time-to-sell-or-load-up",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "GOOGL",
+    "target": "event:GOOGL:micron-and-sandisk-lead-the-memory-market-1-stock-has-far-greater-upside",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "GOOGL",
+    "target": "event:GOOGL:these-ai-stocks-to-improve-your-portfolio-in-november-2026",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "GOOGL",
+    "target": "event:GOOGL:why-billionaire-armitage-trims-but-still-keeps-alphabet-googl-as-a-core-hypersca",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "GOOGL",
+    "target": "news:GOOGL:5-best-dow-stocks-to-buy-for-2027",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "GOOGL",
+    "target": "news:GOOGL:alphabet-googl-expands-spacex-stake-to-69-billion-and-deepens-ai-ties",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "GOOGL",
+    "target": "news:GOOGL:alphabet-s-15-billion-investment-in-malaysia-data-centers-shows-that-midterm-res",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "GOOGL",
+    "target": "news:GOOGL:apple-completes-the-set-every-magnificent-seven-stock-opts-out-of-okx-ice-venue",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "GOOGL",
+    "target": "news:GOOGL:ast-spacemobile-is-building-its-own-reusable-rocket-to-rely-less-on-spacex",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "GOOGL",
+    "target": "news:GOOGL:berkshire-surprised-with-record-buybacks-but-pace-slowed-as-the-stock-rose",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "GOOGL",
+    "target": "news:GOOGL:constellation-energy-just-dropped-17-in-a-month-is-it-time-to-sell-or-load-up",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "GOOGL",
+    "target": "news:GOOGL:micron-and-sandisk-lead-the-memory-market-1-stock-has-far-greater-upside",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "GOOGL",
+    "target": "news:GOOGL:these-ai-stocks-to-improve-your-portfolio-in-november-2026",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "GOOGL",
+    "target": "news:GOOGL:why-billionaire-armitage-trims-but-still-keeps-alphabet-googl-as-a-core-hypersca",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
   },
   {
     "source": "GOOGL",
@@ -1905,7 +3739,21 @@
   },
   {
     "source": "GOOGL",
+    "target": "GPU",
+    "relationship": "USES",
+    "weight": 1.0,
+    "evidence": "Company profile or news keyword match"
+  },
+  {
+    "source": "GOOGL",
     "target": "Google Cloud",
+    "relationship": "USES",
+    "weight": 1.0,
+    "evidence": "Product keyword match"
+  },
+  {
+    "source": "GOOGL",
+    "target": "NVIDIA GPU",
     "relationship": "USES",
     "weight": 1.0,
     "evidence": "Product keyword match"
@@ -1975,17 +3823,157 @@
   },
   {
     "source": "HD",
+    "target": "event:HD:3-dividend-stocks-i-d-buy-with-5-000-before-the-end-of-november",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "HD",
+    "target": "event:HD:apple-completes-the-set-every-magnificent-seven-stock-opts-out-of-okx-ice-venue",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "HD",
+    "target": "event:HD:are-dividends-the-new-bonds",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "HD",
+    "target": "event:HD:bj-s-restaurants-bjri-q3-earnings-and-revenues-top-estimates",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "HD",
+    "target": "event:HD:carysil-ltd-bom-524091-q2-2027-earnings-call-highlights-record-q2-revenue-of-rs-",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "HD",
+    "target": "event:HD:etfs-are-buying-home-depot-hd-on-wednesday",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "HD",
+    "target": "event:HD:ishares-u-s-consumer-discretionary-iyc-adds-amazon-and-tesla-on-nov-4",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "HD",
+    "target": "event:HD:market-week-ahead-can-the-stock-market-fly-with-a-lame-duck-congress",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "HD",
+    "target": "event:HD:state-street-consumer-discretionary-xly-adds-amazon-and-tesla-on-nov-4",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "HD",
+    "target": "event:HD:where-could-home-depot-s-next-growth-come-from",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "HD",
+    "target": "news:HD:3-dividend-stocks-i-d-buy-with-5-000-before-the-end-of-november",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "HD",
+    "target": "news:HD:apple-completes-the-set-every-magnificent-seven-stock-opts-out-of-okx-ice-venue",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "HD",
+    "target": "news:HD:are-dividends-the-new-bonds",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "HD",
+    "target": "news:HD:bj-s-restaurants-bjri-q3-earnings-and-revenues-top-estimates",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "HD",
+    "target": "news:HD:carysil-ltd-bom-524091-q2-2027-earnings-call-highlights-record-q2-revenue-of-rs-",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "HD",
+    "target": "news:HD:etfs-are-buying-home-depot-hd-on-wednesday",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "HD",
+    "target": "news:HD:ishares-u-s-consumer-discretionary-iyc-adds-amazon-and-tesla-on-nov-4",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "HD",
+    "target": "news:HD:market-week-ahead-can-the-stock-market-fly-with-a-lame-duck-congress",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "HD",
+    "target": "news:HD:state-street-consumer-discretionary-xly-adds-amazon-and-tesla-on-nov-4",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "HD",
+    "target": "news:HD:where-could-home-depot-s-next-growth-come-from",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "HD",
     "target": "AI",
     "relationship": "USES",
     "weight": 1.0,
     "evidence": "Company profile or news keyword match"
   },
   {
-    "source": "Healthcare",
-    "target": "Robotics",
-    "relationship": "RELATED_TO",
-    "weight": 0.333,
-    "evidence": "Shared company overlap 0.33"
+    "source": "HD",
+    "target": "Tesla EV",
+    "relationship": "USES",
+    "weight": 1.0,
+    "evidence": "Product keyword match"
   },
   {
     "source": "INTC",
@@ -2024,55 +4012,6 @@
   },
   {
     "source": "INTC",
-    "target": "AMAT",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "INTC",
-    "target": "AMD",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "INTC",
-    "target": "AVGO",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "INTC",
-    "target": "MU",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "INTC",
-    "target": "NVDA",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "INTC",
-    "target": "QCOM",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "INTC",
-    "target": "TXN",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "INTC",
     "target": "AI",
     "relationship": "USES",
     "weight": 1.0,
@@ -2094,10 +4033,24 @@
   },
   {
     "source": "LOW",
+    "target": "AI",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: ai"
+  },
+  {
+    "source": "LOW",
     "target": "Consumer Cyclical",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
     "evidence": "Company profile sector"
+  },
+  {
+    "source": "LOW",
+    "target": "Semiconductor",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: chip"
   },
   {
     "source": "LOW",
@@ -2157,10 +4110,157 @@
   },
   {
     "source": "LOW",
+    "target": "event:LOW:guidance-cut-could-be-a-big-test-for-lowe-s-stock-low",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "LOW",
+    "target": "event:LOW:here-s-what-democrats-taking-back-the-house-and-senate-could-mean-for-housing-st",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "LOW",
+    "target": "event:LOW:is-lowe-s-stock-a-real-bargain-after-its-recent-rally",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "LOW",
+    "target": "event:LOW:lowe-s-just-paid-another-dividend-its-64-year-streak-is-the-real-story",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "LOW",
+    "target": "event:LOW:stocks-outside-the-ai-trade-are-rallying-and-washington-just-added-fuel",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "LOW",
+    "target": "event:LOW:this-dividend-king-yielding-2x-the-s-p-500-looks-like-a-buy-in-november",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "LOW",
+    "target": "event:LOW:traeger-inc-cook-q3-2026-earnings-call-highlights-navigating-a-trough-year-with-",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "LOW",
+    "target": "event:LOW:traeger-q3-earnings-call-highlights",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "LOW",
+    "target": "event:LOW:where-could-home-depot-s-next-growth-come-from",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "LOW",
+    "target": "event:LOW:why-lowe-s-companies-low-moved-and-what-investors-are-weighing-now",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "LOW",
+    "target": "news:LOW:guidance-cut-could-be-a-big-test-for-lowe-s-stock-low",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "LOW",
+    "target": "news:LOW:here-s-what-democrats-taking-back-the-house-and-senate-could-mean-for-housing-st",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "LOW",
+    "target": "news:LOW:is-lowe-s-stock-a-real-bargain-after-its-recent-rally",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "LOW",
+    "target": "news:LOW:lowe-s-just-paid-another-dividend-its-64-year-streak-is-the-real-story",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "LOW",
+    "target": "news:LOW:stocks-outside-the-ai-trade-are-rallying-and-washington-just-added-fuel",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "LOW",
+    "target": "news:LOW:this-dividend-king-yielding-2x-the-s-p-500-looks-like-a-buy-in-november",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "LOW",
+    "target": "news:LOW:traeger-inc-cook-q3-2026-earnings-call-highlights-navigating-a-trough-year-with-",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "LOW",
+    "target": "news:LOW:traeger-q3-earnings-call-highlights",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "LOW",
+    "target": "news:LOW:where-could-home-depot-s-next-growth-come-from",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "LOW",
+    "target": "news:LOW:why-lowe-s-companies-low-moved-and-what-investors-are-weighing-now",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "LOW",
     "target": "AI",
     "relationship": "USES",
     "weight": 1.0,
     "evidence": "Company profile or news keyword match"
+  },
+  {
+    "source": "MCD",
+    "target": "AI",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: ai"
   },
   {
     "source": "MCD",
@@ -2171,10 +4271,24 @@
   },
   {
     "source": "MCD",
+    "target": "Cybersecurity",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: threat"
+  },
+  {
+    "source": "MCD",
     "target": "United States",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
     "evidence": "Company profile country"
+  },
+  {
+    "source": "MCD",
+    "target": "ACN",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
   },
   {
     "source": "MCD",
@@ -2185,10 +4299,38 @@
   },
   {
     "source": "MCD",
+    "target": "AVGO",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "MCD",
     "target": "BKNG",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same sector"
+  },
+  {
+    "source": "MCD",
+    "target": "CMCSA",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "MCD",
+    "target": "CSCO",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "MCD",
+    "target": "GOOGL",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
   },
   {
     "source": "MCD",
@@ -2203,6 +4345,13 @@
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same sector"
+  },
+  {
+    "source": "MCD",
+    "target": "MSFT",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
   },
   {
     "source": "MCD",
@@ -2226,11 +4375,165 @@
     "evidence": "Same sector"
   },
   {
+    "source": "MCD",
+    "target": "event:MCD:better-dividend-stock-mcdonald-s-vs-darden",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "MCD",
+    "target": "event:MCD:earnings-live-updates-moderna-s-covid-vaccine-sales-drive-revenue-growth-raised-",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "MCD",
+    "target": "event:MCD:glp-1-drugs-are-mcdonald-s-most-powerful-threat-in-decades-investor-warns",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "MCD",
+    "target": "event:MCD:mcdonald-s-q3-earnings-call-highlights",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "MCD",
+    "target": "event:MCD:mcdonald-s-testing-new-budget-friendly-value-meals-as-sales-fall-in-third-quarte",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "MCD",
+    "target": "event:MCD:mcdonalds-stock-and-2-more-dividend-stocks",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "MCD",
+    "target": "event:MCD:schd-just-hit-a-record-high-following-midterm-election-results-i-d-still-rather-",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "MCD",
+    "target": "event:MCD:socal-s-el-pollo-loco-says-it-s-found-a-sweet-spot-for-concerned-consumers",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "MCD",
+    "target": "event:MCD:starbucks-u-s-comps-jump-7-7-can-traffic-momentum-last",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "MCD",
+    "target": "event:MCD:which-fast-food-burger-chain-has-the-best-value-meal-deal",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "MCD",
+    "target": "news:MCD:better-dividend-stock-mcdonald-s-vs-darden",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "MCD",
+    "target": "news:MCD:earnings-live-updates-moderna-s-covid-vaccine-sales-drive-revenue-growth-raised-",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "MCD",
+    "target": "news:MCD:glp-1-drugs-are-mcdonald-s-most-powerful-threat-in-decades-investor-warns",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "MCD",
+    "target": "news:MCD:mcdonald-s-q3-earnings-call-highlights",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "MCD",
+    "target": "news:MCD:mcdonald-s-testing-new-budget-friendly-value-meals-as-sales-fall-in-third-quarte",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "MCD",
+    "target": "news:MCD:mcdonalds-stock-and-2-more-dividend-stocks",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "MCD",
+    "target": "news:MCD:schd-just-hit-a-record-high-following-midterm-election-results-i-d-still-rather-",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "MCD",
+    "target": "news:MCD:socal-s-el-pollo-loco-says-it-s-found-a-sweet-spot-for-concerned-consumers",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "MCD",
+    "target": "news:MCD:starbucks-u-s-comps-jump-7-7-can-traffic-momentum-last",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "MCD",
+    "target": "news:MCD:which-fast-food-burger-chain-has-the-best-value-meal-deal",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "MCD",
+    "target": "AI",
+    "relationship": "USES",
+    "weight": 1.0,
+    "evidence": "Company profile or news keyword match"
+  },
+  {
     "source": "META",
     "target": "AI",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
-    "evidence": "Keyword: ai; Sector alignment: Communication Services"
+    "evidence": "Keyword: ai; Keyword: artificial intelligence; Sector alignment: Communication Services"
+  },
+  {
+    "source": "META",
+    "target": "Cloud",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: cloud; Keyword: infrastructure; Sector alignment: Communication Services"
   },
   {
     "source": "META",
@@ -2238,6 +4541,13 @@
     "relationship": "BELONGS_TO",
     "weight": 1.0,
     "evidence": "Company profile sector"
+  },
+  {
+    "source": "META",
+    "target": "Semiconductor",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: semiconductor; Keyword: chips"
   },
   {
     "source": "META",
@@ -2297,7 +4607,140 @@
   },
   {
     "source": "META",
+    "target": "event:META:ai-stocks-diverge-as-democratic-election-victory-sparks-rotation-into-cloud-gian",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "META",
+    "target": "event:META:apple-completes-the-set-every-magnificent-seven-stock-opts-out-of-okx-ice-venue",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "META",
+    "target": "event:META:banks-ban-ai-from-accounts-over-fears-of-rogue-agents",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "META",
+    "target": "event:META:meta-s-bond-sale-shows-new-reality-for-tech-debt",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "META",
+    "target": "event:META:nvidia-and-2-other-ai-stocks-to-watch",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "META",
+    "target": "event:META:oklo-q3-earnings-call-highlights",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "META",
+    "target": "event:META:republican-senator-who-won-reelection-is-selling-magnificent-seven-stocks-here-a",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "META",
+    "target": "event:META:snap-will-stop-reporting-daily-users-in-2027-its-92-million-north-americans-expl",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "META",
+    "target": "event:META:tsmc-stock-and-2-ai-infrastructure-shares-riding-the-agi-spending-wave",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "META",
+    "target": "news:META:ai-stocks-diverge-as-democratic-election-victory-sparks-rotation-into-cloud-gian",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "META",
+    "target": "news:META:apple-completes-the-set-every-magnificent-seven-stock-opts-out-of-okx-ice-venue",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "META",
+    "target": "news:META:banks-ban-ai-from-accounts-over-fears-of-rogue-agents",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "META",
+    "target": "news:META:meta-s-bond-sale-shows-new-reality-for-tech-debt",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "META",
+    "target": "news:META:nvidia-and-2-other-ai-stocks-to-watch",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "META",
+    "target": "news:META:oklo-q3-earnings-call-highlights",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "META",
+    "target": "news:META:republican-senator-who-won-reelection-is-selling-magnificent-seven-stocks-here-a",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "META",
+    "target": "news:META:snap-will-stop-reporting-daily-users-in-2027-its-92-million-north-americans-expl",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "META",
+    "target": "news:META:tsmc-stock-and-2-ai-infrastructure-shares-riding-the-agi-spending-wave",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "META",
     "target": "AI",
+    "relationship": "USES",
+    "weight": 1.0,
+    "evidence": "Company profile or news keyword match"
+  },
+  {
+    "source": "META",
+    "target": "Cloud",
     "relationship": "USES",
     "weight": 1.0,
     "evidence": "Company profile or news keyword match"
@@ -2307,7 +4750,7 @@
     "target": "AI",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
-    "evidence": "Keyword: ai; Sector alignment: Technology"
+    "evidence": "Keyword: ai; Keyword: artificial intelligence; Sector alignment: Technology"
   },
   {
     "source": "MSFT",
@@ -2325,6 +4768,20 @@
   },
   {
     "source": "MSFT",
+    "target": "Semiconductor",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: chips; Sector alignment: Technology"
+  },
+  {
+    "source": "MSFT",
+    "target": "Space",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: launch"
+  },
+  {
+    "source": "MSFT",
     "target": "Technology",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
@@ -2339,7 +4796,21 @@
   },
   {
     "source": "MSFT",
+    "target": "AAPL",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "MSFT",
     "target": "ACN",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "MSFT",
+    "target": "AMZN",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
@@ -2353,7 +4824,21 @@
   },
   {
     "source": "MSFT",
+    "target": "CMCSA",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "MSFT",
     "target": "CSCO",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "MSFT",
+    "target": "DIS",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
@@ -2367,7 +4852,14 @@
   },
   {
     "source": "MSFT",
-    "target": "NOW",
+    "target": "MCD",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "MSFT",
+    "target": "NVDA",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
@@ -2381,10 +4873,157 @@
   },
   {
     "source": "MSFT",
-    "target": "VZ",
+    "target": "TMUS",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
+  },
+  {
+    "source": "MSFT",
+    "target": "Investment Event",
+    "relationship": "INVESTS_IN",
+    "weight": 1.0,
+    "evidence": "Investment keyword in news"
+  },
+  {
+    "source": "MSFT",
+    "target": "event:MSFT:apple-completes-the-set-every-magnificent-seven-stock-opts-out-of-okx-ice-venue",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "MSFT",
+    "target": "event:MSFT:dow-jones-futures-market-damaged-big-winners-broken-apple-amazon-microsoft-stron",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "MSFT",
+    "target": "event:MSFT:gta-6-preorder-sales-hit-751-million-2-weeks-ahead-of-release-are-investors-igno",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "MSFT",
+    "target": "event:MSFT:how-to-invest-in-ai-amid-ai-spending-worries",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "MSFT",
+    "target": "event:MSFT:older-nvidia-chips-just-cost-oracle-its-microsoft-ai-deal",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "MSFT",
+    "target": "event:MSFT:republican-senator-who-won-reelection-is-selling-magnificent-seven-stocks-here-a",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "MSFT",
+    "target": "event:MSFT:the-artificial-intelligence-ai-boom-is-far-from-over-here-are-4-potential-long-t",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "MSFT",
+    "target": "event:MSFT:what-are-the-ai-lab-compute-commitments",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "MSFT",
+    "target": "event:MSFT:what-concentrix-cnxc-s-ai-migration-tool-launch-means-for-shareholders",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "MSFT",
+    "target": "event:MSFT:what-teradata-tdc-said-on-its-q3-earnings-call",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "MSFT",
+    "target": "news:MSFT:apple-completes-the-set-every-magnificent-seven-stock-opts-out-of-okx-ice-venue",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "MSFT",
+    "target": "news:MSFT:dow-jones-futures-market-damaged-big-winners-broken-apple-amazon-microsoft-stron",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "MSFT",
+    "target": "news:MSFT:gta-6-preorder-sales-hit-751-million-2-weeks-ahead-of-release-are-investors-igno",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "MSFT",
+    "target": "news:MSFT:how-to-invest-in-ai-amid-ai-spending-worries",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "MSFT",
+    "target": "news:MSFT:older-nvidia-chips-just-cost-oracle-its-microsoft-ai-deal",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "MSFT",
+    "target": "news:MSFT:republican-senator-who-won-reelection-is-selling-magnificent-seven-stocks-here-a",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "MSFT",
+    "target": "news:MSFT:the-artificial-intelligence-ai-boom-is-far-from-over-here-are-4-potential-long-t",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "MSFT",
+    "target": "news:MSFT:what-are-the-ai-lab-compute-commitments",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "MSFT",
+    "target": "news:MSFT:what-concentrix-cnxc-s-ai-migration-tool-launch-means-for-shareholders",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "MSFT",
+    "target": "news:MSFT:what-teradata-tdc-said-on-its-q3-earnings-call",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
   },
   {
     "source": "MSFT",
@@ -2403,6 +5042,13 @@
   {
     "source": "MSFT",
     "target": "Cybersecurity",
+    "relationship": "USES",
+    "weight": 1.0,
+    "evidence": "Company profile or news keyword match"
+  },
+  {
+    "source": "MSFT",
+    "target": "GPU",
     "relationship": "USES",
     "weight": 1.0,
     "evidence": "Company profile or news keyword match"
@@ -2444,55 +5090,6 @@
   },
   {
     "source": "MU",
-    "target": "AMAT",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "MU",
-    "target": "AMD",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "MU",
-    "target": "AVGO",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "MU",
-    "target": "INTC",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "MU",
-    "target": "NVDA",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "MU",
-    "target": "QCOM",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "MU",
-    "target": "TXN",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "MU",
     "target": "AI",
     "relationship": "USES",
     "weight": 1.0,
@@ -2504,6 +5101,13 @@
     "relationship": "USES",
     "weight": 1.0,
     "evidence": "Company profile or news keyword match"
+  },
+  {
+    "source": "NFLX",
+    "target": "AI",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: ai; Sector alignment: Communication Services"
   },
   {
     "source": "NFLX",
@@ -2570,6 +5174,153 @@
   },
   {
     "source": "NFLX",
+    "target": "Investment Event",
+    "relationship": "INVESTS_IN",
+    "weight": 1.0,
+    "evidence": "Investment keyword in news"
+  },
+  {
+    "source": "NFLX",
+    "target": "event:NFLX:3-internet-giants-to-hold-for-the-next-10-years",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NFLX",
+    "target": "event:NFLX:amc-posts-its-highest-revenue-quarter-ever-ceo-aron-says-critics-were-wrong",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NFLX",
+    "target": "event:NFLX:bill-ackman-says-long-term-investors-can-benefit-from-a-broken-market-here-s-the",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NFLX",
+    "target": "event:NFLX:disney-struggles-as-netflix-pulls-away-time-to-buy-the-dip",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NFLX",
+    "target": "event:NFLX:imax-imax-ceo-defends-offering-premium-screens-to-a-high-profile-streaming-relea",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NFLX",
+    "target": "event:NFLX:investors-heavily-search-netflix-inc-nflx-here-is-what-you-need-to-know",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NFLX",
+    "target": "event:NFLX:lionsgate-studios-corp-q2-2027-earnings-call-summary",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NFLX",
+    "target": "event:NFLX:lionsgate-studios-q2-earnings-call-highlights",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NFLX",
+    "target": "event:NFLX:netflix-nflx-stock-looks-cheap-with-23-upside-to-fair-value",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NFLX",
+    "target": "event:NFLX:victor-coleman-s-hudson-pacific-properties-posts-218m-loss",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NFLX",
+    "target": "news:NFLX:3-internet-giants-to-hold-for-the-next-10-years",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NFLX",
+    "target": "news:NFLX:amc-posts-its-highest-revenue-quarter-ever-ceo-aron-says-critics-were-wrong",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NFLX",
+    "target": "news:NFLX:bill-ackman-says-long-term-investors-can-benefit-from-a-broken-market-here-s-the",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NFLX",
+    "target": "news:NFLX:disney-struggles-as-netflix-pulls-away-time-to-buy-the-dip",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NFLX",
+    "target": "news:NFLX:imax-imax-ceo-defends-offering-premium-screens-to-a-high-profile-streaming-relea",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NFLX",
+    "target": "news:NFLX:investors-heavily-search-netflix-inc-nflx-here-is-what-you-need-to-know",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NFLX",
+    "target": "news:NFLX:lionsgate-studios-corp-q2-2027-earnings-call-summary",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NFLX",
+    "target": "news:NFLX:lionsgate-studios-q2-earnings-call-highlights",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NFLX",
+    "target": "news:NFLX:netflix-nflx-stock-looks-cheap-with-23-upside-to-fair-value",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NFLX",
+    "target": "news:NFLX:victor-coleman-s-hudson-pacific-properties-posts-218m-loss",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NFLX",
     "target": "AI",
     "relationship": "USES",
     "weight": 1.0,
@@ -2577,10 +5328,24 @@
   },
   {
     "source": "NKE",
+    "target": "AI",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: ai"
+  },
+  {
+    "source": "NKE",
     "target": "Consumer Cyclical",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
     "evidence": "Company profile sector"
+  },
+  {
+    "source": "NKE",
+    "target": "Semiconductor",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: chip"
   },
   {
     "source": "NKE",
@@ -2637,6 +5402,146 @@
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same sector"
+  },
+  {
+    "source": "NKE",
+    "target": "event:NKE:5-worst-dow-stocks-to-buy-according-to-analysts",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NKE",
+    "target": "event:NKE:analysts-just-sounded-the-alarm-on-these-5-overhyped-stocks",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NKE",
+    "target": "event:NKE:does-lululemon-stock-s-run-make-any-sense-now",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NKE",
+    "target": "event:NKE:gta-6-sneakers-will-reportedly-cost-more-than-the-game",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NKE",
+    "target": "event:NKE:is-nike-stock-worth-buying-as-valuation-stays-high-amid-weak-growth",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NKE",
+    "target": "event:NKE:lululemon-ceo-heidi-o-neill-fills-key-brand-and-strategy-positions-for-reset",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NKE",
+    "target": "event:NKE:nike-nke-could-be-6-undervalued-on-analyst-downgrades-and-reset-risks",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NKE",
+    "target": "event:NKE:nike-s-fiscal-2027-outlook-puts-pace-savings-against-revenue-risk",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NKE",
+    "target": "event:NKE:nike-s-five-year-financial-targets-expected-to-fall-within-consensus-rbc-says",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NKE",
+    "target": "event:NKE:under-armour-issues-stark-warning-on-2027-profit-margins",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NKE",
+    "target": "news:NKE:5-worst-dow-stocks-to-buy-according-to-analysts",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NKE",
+    "target": "news:NKE:analysts-just-sounded-the-alarm-on-these-5-overhyped-stocks",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NKE",
+    "target": "news:NKE:does-lululemon-stock-s-run-make-any-sense-now",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NKE",
+    "target": "news:NKE:gta-6-sneakers-will-reportedly-cost-more-than-the-game",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NKE",
+    "target": "news:NKE:is-nike-stock-worth-buying-as-valuation-stays-high-amid-weak-growth",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NKE",
+    "target": "news:NKE:lululemon-ceo-heidi-o-neill-fills-key-brand-and-strategy-positions-for-reset",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NKE",
+    "target": "news:NKE:nike-nke-could-be-6-undervalued-on-analyst-downgrades-and-reset-risks",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NKE",
+    "target": "news:NKE:nike-s-fiscal-2027-outlook-puts-pace-savings-against-revenue-risk",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NKE",
+    "target": "news:NKE:nike-s-five-year-financial-targets-expected-to-fall-within-consensus-rbc-says",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NKE",
+    "target": "news:NKE:under-armour-issues-stark-warning-on-2027-profit-margins",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
   },
   {
     "source": "NKE",
@@ -2696,13 +5601,6 @@
   },
   {
     "source": "NOW",
-    "target": "ACN",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "NOW",
     "target": "AMAT",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
@@ -2718,27 +5616,6 @@
   {
     "source": "NOW",
     "target": "CRM",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "NOW",
-    "target": "CSCO",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "NOW",
-    "target": "GOOGL",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "NOW",
-    "target": "MSFT",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
@@ -2766,10 +5643,157 @@
   },
   {
     "source": "NOW",
-    "target": "VZ",
+    "target": "TSLA",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
+  },
+  {
+    "source": "NOW",
+    "target": "Partnership Event",
+    "relationship": "PARTNERS_WITH",
+    "weight": 1.0,
+    "evidence": "Partnership keyword in news"
+  },
+  {
+    "source": "NOW",
+    "target": "event:NOW:3-trillion-wipe-out-ceos-on-the-volatility-of-politics-and-the-status-of-the-ai-",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NOW",
+    "target": "event:NOW:apple-completes-the-set-every-magnificent-seven-stock-opts-out-of-okx-ice-venue",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NOW",
+    "target": "event:NOW:datadog-just-dropped-34-in-a-week-is-it-time-to-sell-or-load-up",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NOW",
+    "target": "event:NOW:docusign-vs-monday-com-which-technology-stock-is-a-better-buy-for-2027",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NOW",
+    "target": "event:NOW:etfs-are-net-sellers-of-servicenow-now-on-wednesday",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NOW",
+    "target": "event:NOW:servicenow-cfo-calls-ai-disruption-fears-false-the-stock-is-down-32-since-its-re",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NOW",
+    "target": "event:NOW:servicenow-now-expands-partnerships-for-enterprise-ai-workflows",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NOW",
+    "target": "event:NOW:servicenow-stocks-move-lower-as-new-layoff-round-follows-35-slide",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NOW",
+    "target": "event:NOW:what-is-behind-the-move-in-atlassian-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NOW",
+    "target": "event:NOW:zscaler-just-dropped-14-in-a-week-is-it-time-to-sell-or-load-up",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NOW",
+    "target": "news:NOW:3-trillion-wipe-out-ceos-on-the-volatility-of-politics-and-the-status-of-the-ai-",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NOW",
+    "target": "news:NOW:apple-completes-the-set-every-magnificent-seven-stock-opts-out-of-okx-ice-venue",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NOW",
+    "target": "news:NOW:datadog-just-dropped-34-in-a-week-is-it-time-to-sell-or-load-up",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NOW",
+    "target": "news:NOW:docusign-vs-monday-com-which-technology-stock-is-a-better-buy-for-2027",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NOW",
+    "target": "news:NOW:etfs-are-net-sellers-of-servicenow-now-on-wednesday",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NOW",
+    "target": "news:NOW:servicenow-cfo-calls-ai-disruption-fears-false-the-stock-is-down-32-since-its-re",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NOW",
+    "target": "news:NOW:servicenow-now-expands-partnerships-for-enterprise-ai-workflows",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NOW",
+    "target": "news:NOW:servicenow-stocks-move-lower-as-new-layoff-round-follows-35-slide",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NOW",
+    "target": "news:NOW:what-is-behind-the-move-in-atlassian-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NOW",
+    "target": "news:NOW:zscaler-just-dropped-14-in-a-week-is-it-time-to-sell-or-load-up",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
   },
   {
     "source": "NOW",
@@ -2822,6 +5846,13 @@
   },
   {
     "source": "NVDA",
+    "target": "Energy",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: energy; Keyword: grid; Keyword: oil"
+  },
+  {
+    "source": "NVDA",
     "target": "Robotics",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
@@ -2833,6 +5864,13 @@
     "relationship": "BELONGS_TO",
     "weight": 1.0,
     "evidence": "Keyword: semiconductors; Keyword: chip; Sector alignment: Technology"
+  },
+  {
+    "source": "NVDA",
+    "target": "Space",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: space"
   },
   {
     "source": "NVDA",
@@ -2850,14 +5888,21 @@
   },
   {
     "source": "NVDA",
-    "target": "AMAT",
+    "target": "AAPL",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
   },
   {
     "source": "NVDA",
-    "target": "AMD",
+    "target": "ACN",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "NVDA",
+    "target": "AMAT",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
@@ -2878,14 +5923,21 @@
   },
   {
     "source": "NVDA",
-    "target": "INTC",
+    "target": "DIS",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
   },
   {
     "source": "NVDA",
-    "target": "MU",
+    "target": "GOOGL",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "NVDA",
+    "target": "MSFT",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
@@ -2920,6 +5972,13 @@
   },
   {
     "source": "NVDA",
+    "target": "TMUS",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "NVDA",
     "target": "TSLA",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
@@ -2931,6 +5990,160 @@
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
+  },
+  {
+    "source": "NVDA",
+    "target": "Investment Event",
+    "relationship": "INVESTS_IN",
+    "weight": 1.0,
+    "evidence": "Investment keyword in news"
+  },
+  {
+    "source": "NVDA",
+    "target": "event:NVDA:anduril-keeps-winning-billion-dollar-contracts-and-you-can-t-buy-it-here-are-3-p",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NVDA",
+    "target": "event:NVDA:bank-of-america-has-unexpected-advice-for-tech-stock-investors-after-midterms",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NVDA",
+    "target": "event:NVDA:dow-jones-futures-market-damaged-big-winners-broken-apple-amazon-microsoft-stron",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NVDA",
+    "target": "event:NVDA:history-says-energy-led-all-sectors-in-the-last-bear-market-here-s-what-s-differ",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NVDA",
+    "target": "event:NVDA:if-the-fed-raises-interest-rates-in-december-i-m-making-this-1-investing-move",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NVDA",
+    "target": "event:NVDA:is-broadcom-a-buy-after-falling-9-in-one-day",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NVDA",
+    "target": "event:NVDA:nvidia-and-2-more-grid-stocks-to-watch",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NVDA",
+    "target": "event:NVDA:the-ai-buildout-has-a-new-problem-and-it-s-not-nvidia-jpmorgan-sounds-alarm",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NVDA",
+    "target": "event:NVDA:these-ai-stocks-to-improve-your-portfolio-in-november-2026",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NVDA",
+    "target": "event:NVDA:why-at-t-stock-slumped-in-october",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "NVDA",
+    "target": "news:NVDA:anduril-keeps-winning-billion-dollar-contracts-and-you-can-t-buy-it-here-are-3-p",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NVDA",
+    "target": "news:NVDA:bank-of-america-has-unexpected-advice-for-tech-stock-investors-after-midterms",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NVDA",
+    "target": "news:NVDA:dow-jones-futures-market-damaged-big-winners-broken-apple-amazon-microsoft-stron",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NVDA",
+    "target": "news:NVDA:history-says-energy-led-all-sectors-in-the-last-bear-market-here-s-what-s-differ",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NVDA",
+    "target": "news:NVDA:if-the-fed-raises-interest-rates-in-december-i-m-making-this-1-investing-move",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NVDA",
+    "target": "news:NVDA:is-broadcom-a-buy-after-falling-9-in-one-day",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NVDA",
+    "target": "news:NVDA:nvidia-and-2-more-grid-stocks-to-watch",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NVDA",
+    "target": "news:NVDA:the-ai-buildout-has-a-new-problem-and-it-s-not-nvidia-jpmorgan-sounds-alarm",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NVDA",
+    "target": "news:NVDA:these-ai-stocks-to-improve-your-portfolio-in-november-2026",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NVDA",
+    "target": "news:NVDA:why-at-t-stock-slumped-in-october",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "NVDA",
+    "target": "Supply Chain Event",
+    "relationship": "SUPPLIES",
+    "weight": 1.0,
+    "evidence": "Supply keyword in news"
   },
   {
     "source": "NVDA",
@@ -2986,7 +6199,7 @@
     "target": "AI",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
-    "evidence": "Keyword: ai; Keyword: machine learning; Sector alignment: Technology"
+    "evidence": "Keyword: ai; Keyword: artificial intelligence; Keyword: machine learning; Sector alignment: Technology"
   },
   {
     "source": "ORCL",
@@ -3001,6 +6214,13 @@
     "relationship": "BELONGS_TO",
     "weight": 1.0,
     "evidence": "Keyword: autonomous; Sector alignment: Technology"
+  },
+  {
+    "source": "ORCL",
+    "target": "Semiconductor",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: chips; Sector alignment: Technology"
   },
   {
     "source": "ORCL",
@@ -3053,6 +6273,167 @@
   },
   {
     "source": "ORCL",
+    "target": "QCOM",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "ORCL",
+    "target": "TSLA",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "ORCL",
+    "target": "Investment Event",
+    "relationship": "INVESTS_IN",
+    "weight": 1.0,
+    "evidence": "Investment keyword in news"
+  },
+  {
+    "source": "ORCL",
+    "target": "event:ORCL:3-cash-flow-stocks-trading-up-to-47-below-fair-value",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "ORCL",
+    "target": "event:ORCL:3-founder-led-stocks-to-own-in-november-2026",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "ORCL",
+    "target": "event:ORCL:3-growth-stocks-with-earnings-growth-up-to-58",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "ORCL",
+    "target": "event:ORCL:ai-stocks-are-falling-bitcoin-is-holding-ground-here-s-what-could-come-next",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "ORCL",
+    "target": "event:ORCL:coreweave-s-bonds-now-yield-more-than-16-days-before-earnings",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "ORCL",
+    "target": "event:ORCL:credo-just-dropped-32-in-a-week-is-it-time-to-sell-or-load-up",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "ORCL",
+    "target": "event:ORCL:older-nvidia-chips-just-cost-oracle-its-microsoft-ai-deal",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "ORCL",
+    "target": "event:ORCL:these-ai-stocks-to-improve-your-portfolio-in-november-2026",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "ORCL",
+    "target": "event:ORCL:walton-family-gets-100-billion-richer-as-walmart-surges",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "ORCL",
+    "target": "event:ORCL:what-are-the-ai-lab-compute-commitments",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "ORCL",
+    "target": "news:ORCL:3-cash-flow-stocks-trading-up-to-47-below-fair-value",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "ORCL",
+    "target": "news:ORCL:3-founder-led-stocks-to-own-in-november-2026",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "ORCL",
+    "target": "news:ORCL:3-growth-stocks-with-earnings-growth-up-to-58",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "ORCL",
+    "target": "news:ORCL:ai-stocks-are-falling-bitcoin-is-holding-ground-here-s-what-could-come-next",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "ORCL",
+    "target": "news:ORCL:coreweave-s-bonds-now-yield-more-than-16-days-before-earnings",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "ORCL",
+    "target": "news:ORCL:credo-just-dropped-32-in-a-week-is-it-time-to-sell-or-load-up",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "ORCL",
+    "target": "news:ORCL:older-nvidia-chips-just-cost-oracle-its-microsoft-ai-deal",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "ORCL",
+    "target": "news:ORCL:these-ai-stocks-to-improve-your-portfolio-in-november-2026",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "ORCL",
+    "target": "news:ORCL:walton-family-gets-100-billion-richer-as-walmart-surges",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "ORCL",
+    "target": "news:ORCL:what-are-the-ai-lab-compute-commitments",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "ORCL",
     "target": "AI",
     "relationship": "USES",
     "weight": 1.0,
@@ -3060,7 +6441,21 @@
   },
   {
     "source": "ORCL",
+    "target": "AWS",
+    "relationship": "USES",
+    "weight": 1.0,
+    "evidence": "Product keyword match"
+  },
+  {
+    "source": "ORCL",
     "target": "Cloud",
+    "relationship": "USES",
+    "weight": 1.0,
+    "evidence": "Company profile or news keyword match"
+  },
+  {
+    "source": "ORCL",
+    "target": "GPU",
     "relationship": "USES",
     "weight": 1.0,
     "evidence": "Company profile or news keyword match"
@@ -3130,6 +6525,13 @@
   },
   {
     "source": "ORLY",
+    "target": "GOOGL",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "ORLY",
     "target": "HD",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
@@ -3203,28 +6605,35 @@
     "target": "AI",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
-    "evidence": "Keyword: ai; Keyword: artificial intelligence; Keyword: data center; Sector alignment: Technology"
+    "evidence": "Keyword: ai; Keyword: data center; Sector alignment: Technology"
   },
   {
     "source": "QCOM",
     "target": "Cloud",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
-    "evidence": "Keyword: cloud; Keyword: data center; Sector alignment: Technology"
+    "evidence": "Keyword: cloud; Keyword: data center; Keyword: infrastructure; Sector alignment: Technology"
   },
   {
     "source": "QCOM",
-    "target": "Cybersecurity",
+    "target": "Robotics",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
-    "evidence": "Keyword: security; Sector alignment: Technology"
+    "evidence": "Keyword: robotics; Sector alignment: Technology"
   },
   {
     "source": "QCOM",
     "target": "Semiconductor",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
-    "evidence": "Keyword: semiconductors; Sector alignment: Technology"
+    "evidence": "Keyword: semiconductors; Keyword: chip; Keyword: chips; Keyword: memory; Sector alignment: Technology"
+  },
+  {
+    "source": "QCOM",
+    "target": "Space",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: satellite; Keyword: spacex"
   },
   {
     "source": "QCOM",
@@ -3242,7 +6651,7 @@
   },
   {
     "source": "QCOM",
-    "target": "ACN",
+    "target": "AAPL",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
@@ -3256,13 +6665,6 @@
   },
   {
     "source": "QCOM",
-    "target": "AMD",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "QCOM",
     "target": "AVGO",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
@@ -3270,7 +6672,14 @@
   },
   {
     "source": "QCOM",
-    "target": "CSCO",
+    "target": "CRM",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "QCOM",
+    "target": "DIS",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
@@ -3284,21 +6693,7 @@
   },
   {
     "source": "QCOM",
-    "target": "INTC",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "QCOM",
     "target": "MSFT",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "QCOM",
-    "target": "MU",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
@@ -3319,17 +6714,164 @@
   },
   {
     "source": "QCOM",
-    "target": "TXN",
+    "target": "ORCL",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
   },
   {
     "source": "QCOM",
-    "target": "VZ",
+    "target": "TMUS",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
+  },
+  {
+    "source": "QCOM",
+    "target": "TSLA",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "QCOM",
+    "target": "Partnership Event",
+    "relationship": "PARTNERS_WITH",
+    "weight": 1.0,
+    "evidence": "Partnership keyword in news"
+  },
+  {
+    "source": "QCOM",
+    "target": "event:QCOM:ai-is-taking-on-more-how-will-it-be-powered",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "QCOM",
+    "target": "event:QCOM:ai-wants-every-scrap-of-ram-qualcomm-and-arm-just-showed-who-pays-the-bill",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "QCOM",
+    "target": "event:QCOM:nvidia-amd-and-micron-stocks-lead-chip-sector-higher-following-worst-sell-off-si",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "QCOM",
+    "target": "event:QCOM:qualcomm-ceo-its-data-center-ramp-is-all-supply-bound-not-demand-bound",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "QCOM",
+    "target": "event:QCOM:qualcomm-faces-worst-day-since-2020-as-chips-crater",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "QCOM",
+    "target": "event:QCOM:qualcomm-rises-5-on-alphabet-s-548-million-stake-as-ceo-sees-a-disconnect-on-ai",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "QCOM",
+    "target": "event:QCOM:these-4-stocks-are-tied-to-the-smartphone-in-your-pocket",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "QCOM",
+    "target": "event:QCOM:what-does-qualcomm-qcom-winning-a-nationwide-5g-buildout-mean-for-investors",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "QCOM",
+    "target": "event:QCOM:what-is-behind-the-rebound-in-qualcomm-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "QCOM",
+    "target": "news:QCOM:ai-is-taking-on-more-how-will-it-be-powered",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "QCOM",
+    "target": "news:QCOM:ai-wants-every-scrap-of-ram-qualcomm-and-arm-just-showed-who-pays-the-bill",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "QCOM",
+    "target": "news:QCOM:nvidia-amd-and-micron-stocks-lead-chip-sector-higher-following-worst-sell-off-si",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "QCOM",
+    "target": "news:QCOM:qualcomm-ceo-its-data-center-ramp-is-all-supply-bound-not-demand-bound",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "QCOM",
+    "target": "news:QCOM:qualcomm-faces-worst-day-since-2020-as-chips-crater",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "QCOM",
+    "target": "news:QCOM:qualcomm-rises-5-on-alphabet-s-548-million-stake-as-ceo-sees-a-disconnect-on-ai",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "QCOM",
+    "target": "news:QCOM:these-4-stocks-are-tied-to-the-smartphone-in-your-pocket",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "QCOM",
+    "target": "news:QCOM:what-does-qualcomm-qcom-winning-a-nationwide-5g-buildout-mean-for-investors",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "QCOM",
+    "target": "news:QCOM:what-is-behind-the-rebound-in-qualcomm-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "QCOM",
+    "target": "Supply Chain Event",
+    "relationship": "SUPPLIES",
+    "weight": 1.0,
+    "evidence": "Supply keyword in news"
   },
   {
     "source": "QCOM",
@@ -3347,10 +6889,24 @@
   },
   {
     "source": "QCOM",
-    "target": "Cybersecurity",
+    "target": "Robotics",
     "relationship": "USES",
     "weight": 1.0,
     "evidence": "Company profile or news keyword match"
+  },
+  {
+    "source": "Robotics",
+    "target": "Semiconductor",
+    "relationship": "RELATED_TO",
+    "weight": 0.35,
+    "evidence": "Shared company overlap 0.35"
+  },
+  {
+    "source": "Robotics",
+    "target": "Space",
+    "relationship": "RELATED_TO",
+    "weight": 0.308,
+    "evidence": "Shared company overlap 0.31"
   },
   {
     "source": "SBUX",
@@ -3421,6 +6977,13 @@
     "relationship": "USES",
     "weight": 1.0,
     "evidence": "Company profile or news keyword match"
+  },
+  {
+    "source": "Semiconductor",
+    "target": "Space",
+    "relationship": "RELATED_TO",
+    "weight": 0.333,
+    "evidence": "Shared company overlap 0.33"
   },
   {
     "source": "T",
@@ -3515,6 +7078,20 @@
   },
   {
     "source": "TMUS",
+    "target": "AI",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: ai; Sector alignment: Communication Services"
+  },
+  {
+    "source": "TMUS",
+    "target": "Cloud",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: infrastructure; Sector alignment: Communication Services"
+  },
+  {
+    "source": "TMUS",
     "target": "Communication Services",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
@@ -3522,10 +7099,206 @@
   },
   {
     "source": "TMUS",
+    "target": "Space",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: spacex; Sector alignment: Communication Services"
+  },
+  {
+    "source": "TMUS",
     "target": "United States",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
     "evidence": "Company profile country"
+  },
+  {
+    "source": "TMUS",
+    "target": "AAPL",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "TMUS",
+    "target": "AVGO",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "TMUS",
+    "target": "DIS",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "TMUS",
+    "target": "GOOGL",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "TMUS",
+    "target": "MSFT",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "TMUS",
+    "target": "NVDA",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "TMUS",
+    "target": "QCOM",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "TMUS",
+    "target": "event:TMUS:amphenol-and-lindsay-have-been-highlighted-as-zacks-bull-and-bear-of-the-day",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TMUS",
+    "target": "event:TMUS:array-digital-infrastructure-inc-ad-q3-2026-earnings-call-highlights-20-cash-sit",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TMUS",
+    "target": "event:TMUS:charter-is-cutting-2-billion-in-costs-after-losing-another-233-000-internet-cust",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TMUS",
+    "target": "event:TMUS:crown-castle-soars-31-in-a-month-on-spacex-s-tower-push-we-re-talking-to-all-par",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TMUS",
+    "target": "event:TMUS:musk-says-spacex-could-buy-a-legacy-telco-and-use-its-spectrum-10-times-better",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TMUS",
+    "target": "event:TMUS:t-mobile-launches-new-internet-plan-after-customer-losses",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TMUS",
+    "target": "event:TMUS:telephone-and-data-systems-inc-q3-2026-earnings-call-summary",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TMUS",
+    "target": "event:TMUS:what-array-digital-infrastructure-ad-said-on-its-q3-earnings-call",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TMUS",
+    "target": "event:TMUS:what-is-behind-the-move-in-echostar-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TMUS",
+    "target": "event:TMUS:why-is-echostar-stock-falling",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TMUS",
+    "target": "news:TMUS:amphenol-and-lindsay-have-been-highlighted-as-zacks-bull-and-bear-of-the-day",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TMUS",
+    "target": "news:TMUS:array-digital-infrastructure-inc-ad-q3-2026-earnings-call-highlights-20-cash-sit",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TMUS",
+    "target": "news:TMUS:charter-is-cutting-2-billion-in-costs-after-losing-another-233-000-internet-cust",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TMUS",
+    "target": "news:TMUS:crown-castle-soars-31-in-a-month-on-spacex-s-tower-push-we-re-talking-to-all-par",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TMUS",
+    "target": "news:TMUS:musk-says-spacex-could-buy-a-legacy-telco-and-use-its-spectrum-10-times-better",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TMUS",
+    "target": "news:TMUS:t-mobile-launches-new-internet-plan-after-customer-losses",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TMUS",
+    "target": "news:TMUS:telephone-and-data-systems-inc-q3-2026-earnings-call-summary",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TMUS",
+    "target": "news:TMUS:what-array-digital-infrastructure-ad-said-on-its-q3-earnings-call",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TMUS",
+    "target": "news:TMUS:what-is-behind-the-move-in-echostar-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TMUS",
+    "target": "news:TMUS:why-is-echostar-stock-falling",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
   },
   {
     "source": "TMUS",
@@ -3539,7 +7312,7 @@
     "target": "AI",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
-    "evidence": "Keyword: artificial intelligence"
+    "evidence": "Keyword: ai; Keyword: artificial intelligence"
   },
   {
     "source": "TSLA",
@@ -3564,6 +7337,27 @@
   },
   {
     "source": "TSLA",
+    "target": "Robotics",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: robot; Sector alignment: Consumer Cyclical"
+  },
+  {
+    "source": "TSLA",
+    "target": "Semiconductor",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: semiconductor; Keyword: chip"
+  },
+  {
+    "source": "TSLA",
+    "target": "Space",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: space; Keyword: spacex"
+  },
+  {
+    "source": "TSLA",
     "target": "United States",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
@@ -3578,7 +7372,35 @@
   },
   {
     "source": "TSLA",
+    "target": "AMAT",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "TSLA",
     "target": "AVGO",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "TSLA",
+    "target": "CRM",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "TSLA",
+    "target": "GOOGL",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "TSLA",
+    "target": "NOW",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
@@ -3592,7 +7414,21 @@
   },
   {
     "source": "TSLA",
+    "target": "ORCL",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "TSLA",
     "target": "ORLY",
+    "relationship": "COMPETES_WITH",
+    "weight": 1.0,
+    "evidence": "Same theme"
+  },
+  {
+    "source": "TSLA",
+    "target": "QCOM",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
@@ -3606,7 +7442,168 @@
   },
   {
     "source": "TSLA",
+    "target": "Investment Event",
+    "relationship": "INVESTS_IN",
+    "weight": 1.0,
+    "evidence": "Investment keyword in news"
+  },
+  {
+    "source": "TSLA",
+    "target": "event:TSLA:3-artificial-intelligence-ai-stocks-i-d-buy-without-hesitation-in-a-market-crash",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TSLA",
+    "target": "event:TSLA:apple-completes-the-set-every-magnificent-seven-stock-opts-out-of-okx-ice-venue",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TSLA",
+    "target": "event:TSLA:elon-musk-is-winding-down-cybertruck-production-to-build-cybercabs-the-model-s-a",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TSLA",
+    "target": "event:TSLA:elon-musk-reacts-to-democrat-call-for-ai-pause-while-2t-vanishes-from-tech-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TSLA",
+    "target": "event:TSLA:every-humanoid-robot-needs-rare-earth-magnets-here-s-the-american-stock-position",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TSLA",
+    "target": "event:TSLA:musk-just-lost-113-billion-in-two-days-here-s-the-lesson-for-one-stock-retirees",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TSLA",
+    "target": "event:TSLA:musk-says-his-terafab-chip-plant-could-cost-1-trillion",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TSLA",
+    "target": "event:TSLA:on-semiconductor-on-is-jeff-brown-s-chip-play-on-tesla-s-optimus-robot",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TSLA",
+    "target": "event:TSLA:prediction-here-s-what-a-1-000-investment-in-rivian-will-be-worth-by-2030-if-the",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TSLA",
+    "target": "event:TSLA:some-experts-think-transmedics-group-tmdx-has-a-near-monopoly-on-keeping-donor-o",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TSLA",
+    "target": "news:TSLA:3-artificial-intelligence-ai-stocks-i-d-buy-without-hesitation-in-a-market-crash",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TSLA",
+    "target": "news:TSLA:apple-completes-the-set-every-magnificent-seven-stock-opts-out-of-okx-ice-venue",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TSLA",
+    "target": "news:TSLA:elon-musk-is-winding-down-cybertruck-production-to-build-cybercabs-the-model-s-a",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TSLA",
+    "target": "news:TSLA:elon-musk-reacts-to-democrat-call-for-ai-pause-while-2t-vanishes-from-tech-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TSLA",
+    "target": "news:TSLA:every-humanoid-robot-needs-rare-earth-magnets-here-s-the-american-stock-position",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TSLA",
+    "target": "news:TSLA:musk-just-lost-113-billion-in-two-days-here-s-the-lesson-for-one-stock-retirees",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TSLA",
+    "target": "news:TSLA:musk-says-his-terafab-chip-plant-could-cost-1-trillion",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TSLA",
+    "target": "news:TSLA:on-semiconductor-on-is-jeff-brown-s-chip-play-on-tesla-s-optimus-robot",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TSLA",
+    "target": "news:TSLA:prediction-here-s-what-a-1-000-investment-in-rivian-will-be-worth-by-2030-if-the",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TSLA",
+    "target": "news:TSLA:some-experts-think-transmedics-group-tmdx-has-a-near-monopoly-on-keeping-donor-o",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TSLA",
+    "target": "Supply Chain Event",
+    "relationship": "SUPPLIES",
+    "weight": 1.0,
+    "evidence": "Supply keyword in news"
+  },
+  {
+    "source": "TSLA",
     "target": "AI",
+    "relationship": "USES",
+    "weight": 1.0,
+    "evidence": "Company profile or news keyword match"
+  },
+  {
+    "source": "TSLA",
+    "target": "Cloud",
     "relationship": "USES",
     "weight": 1.0,
     "evidence": "Company profile or news keyword match"
@@ -3627,6 +7624,20 @@
   },
   {
     "source": "TXN",
+    "target": "AI",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: ai; Keyword: data center; Sector alignment: Technology"
+  },
+  {
+    "source": "TXN",
+    "target": "Cloud",
+    "relationship": "BELONGS_TO",
+    "weight": 1.0,
+    "evidence": "Keyword: data center; Sector alignment: Technology"
+  },
+  {
+    "source": "TXN",
     "target": "EV",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
@@ -3644,7 +7655,7 @@
     "target": "Semiconductor",
     "relationship": "BELONGS_TO",
     "weight": 1.0,
-    "evidence": "Keyword: semiconductor; Keyword: semiconductors; Sector alignment: Technology"
+    "evidence": "Keyword: semiconductor; Keyword: semiconductors; Keyword: chip; Sector alignment: Technology"
   },
   {
     "source": "TXN",
@@ -3669,20 +7680,6 @@
   },
   {
     "source": "TXN",
-    "target": "AMAT",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "TXN",
-    "target": "AMD",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "TXN",
     "target": "AVGO",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
@@ -3690,14 +7687,7 @@
   },
   {
     "source": "TXN",
-    "target": "INTC",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "TXN",
-    "target": "MU",
+    "target": "GOOGL",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
     "evidence": "Same theme"
@@ -3718,13 +7708,6 @@
   },
   {
     "source": "TXN",
-    "target": "QCOM",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "TXN",
     "target": "TSLA",
     "relationship": "COMPETES_WITH",
     "weight": 1.0,
@@ -3732,7 +7715,161 @@
   },
   {
     "source": "TXN",
+    "target": "Investment Event",
+    "relationship": "INVESTS_IN",
+    "weight": 1.0,
+    "evidence": "Investment keyword in news"
+  },
+  {
+    "source": "TXN",
+    "target": "event:TXN:3-dividend-etfs-offer-different-ways-to-navigate-the-post-election-sell-off",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TXN",
+    "target": "event:TXN:as-ai-chip-stocks-stumble-why-is-this-analog-maker-still-up-76-in-a-year",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TXN",
+    "target": "event:TXN:better-dividend-stock-texas-instruments-vs-cisco",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TXN",
+    "target": "event:TXN:can-monolithic-power-systems-stock-rally-50-after-this-dip",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TXN",
+    "target": "event:TXN:is-wall-street-bullish-or-bearish-on-texas-instruments-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TXN",
+    "target": "event:TXN:mcdonalds-stock-and-2-more-dividend-stocks",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TXN",
+    "target": "event:TXN:microchip-sinks-10-on-soft-december-guidance-as-ceo-says-data-center-is-in-the-b",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TXN",
+    "target": "event:TXN:should-you-buy-qualcomm-stock-now-or-wait",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TXN",
+    "target": "event:TXN:what-is-behind-the-rebound-in-qualcomm-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TXN",
+    "target": "event:TXN:why-did-applied-materials-stock-fall",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "Event database"
+  },
+  {
+    "source": "TXN",
+    "target": "news:TXN:3-dividend-etfs-offer-different-ways-to-navigate-the-post-election-sell-off",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TXN",
+    "target": "news:TXN:as-ai-chip-stocks-stumble-why-is-this-analog-maker-still-up-76-in-a-year",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TXN",
+    "target": "news:TXN:better-dividend-stock-texas-instruments-vs-cisco",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TXN",
+    "target": "news:TXN:can-monolithic-power-systems-stock-rally-50-after-this-dip",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TXN",
+    "target": "news:TXN:is-wall-street-bullish-or-bearish-on-texas-instruments-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TXN",
+    "target": "news:TXN:mcdonalds-stock-and-2-more-dividend-stocks",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TXN",
+    "target": "news:TXN:microchip-sinks-10-on-soft-december-guidance-as-ceo-says-data-center-is-in-the-b",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TXN",
+    "target": "news:TXN:should-you-buy-qualcomm-stock-now-or-wait",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TXN",
+    "target": "news:TXN:what-is-behind-the-rebound-in-qualcomm-stock",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TXN",
+    "target": "news:TXN:why-did-applied-materials-stock-fall",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "News item"
+  },
+  {
+    "source": "TXN",
     "target": "AI",
+    "relationship": "USES",
+    "weight": 1.0,
+    "evidence": "Company profile or news keyword match"
+  },
+  {
+    "source": "TXN",
+    "target": "Cloud",
     "relationship": "USES",
     "weight": 1.0,
     "evidence": "Company profile or news keyword match"
@@ -3767,55 +7904,6 @@
   },
   {
     "source": "VZ",
-    "target": "ACN",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "VZ",
-    "target": "AVGO",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "VZ",
-    "target": "CSCO",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "VZ",
-    "target": "GOOGL",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "VZ",
-    "target": "MSFT",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "VZ",
-    "target": "NOW",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "VZ",
-    "target": "QCOM",
-    "relationship": "COMPETES_WITH",
-    "weight": 1.0,
-    "evidence": "Same theme"
-  },
-  {
-    "source": "VZ",
     "target": "AI",
     "relationship": "USES",
     "weight": 1.0,
@@ -3827,5 +7915,96 @@
     "relationship": "USES",
     "weight": 1.0,
     "evidence": "Company profile or news keyword match"
+  },
+  {
+    "source": "news:AAPL:eric-balchunas-calls-it-a-five-alarm-fire-sell-off-here-s-what-record-etf-tradin",
+    "target": "ETF",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "ETF keyword"
+  },
+  {
+    "source": "news:AVGO:cathie-wood-led-ark-loads-up-on-goog-amd-nvda-and-biotech-stocks-but-sells-crwv-",
+    "target": "ETF",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "ETF keyword"
+  },
+  {
+    "source": "news:DIS:disney-struggles-as-netflix-pulls-away-time-to-buy-the-dip",
+    "target": "ETF",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "ETF keyword"
+  },
+  {
+    "source": "news:DIS:etfs-are-buying-disney-dis-on-nov-3",
+    "target": "ETF",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "ETF keyword"
+  },
+  {
+    "source": "news:HD:etfs-are-buying-home-depot-hd-on-wednesday",
+    "target": "ETF",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "ETF keyword"
+  },
+  {
+    "source": "news:MCD:schd-just-hit-a-record-high-following-midterm-election-results-i-d-still-rather-",
+    "target": "ETF",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "ETF keyword"
+  },
+  {
+    "source": "news:NFLX:bill-ackman-says-long-term-investors-can-benefit-from-a-broken-market-here-s-the",
+    "target": "ETF",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "ETF keyword"
+  },
+  {
+    "source": "news:NFLX:disney-struggles-as-netflix-pulls-away-time-to-buy-the-dip",
+    "target": "ETF",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "ETF keyword"
+  },
+  {
+    "source": "news:NFLX:imax-imax-ceo-defends-offering-premium-screens-to-a-high-profile-streaming-relea",
+    "target": "ETF",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "ETF keyword"
+  },
+  {
+    "source": "news:NFLX:investors-heavily-search-netflix-inc-nflx-here-is-what-you-need-to-know",
+    "target": "ETF",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "ETF keyword"
+  },
+  {
+    "source": "news:NFLX:netflix-nflx-stock-looks-cheap-with-23-upside-to-fair-value",
+    "target": "ETF",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "ETF keyword"
+  },
+  {
+    "source": "news:NOW:etfs-are-net-sellers-of-servicenow-now-on-wednesday",
+    "target": "ETF",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "ETF keyword"
+  },
+  {
+    "source": "news:TXN:3-dividend-etfs-offer-different-ways-to-navigate-the-post-election-sell-off",
+    "target": "ETF",
+    "relationship": "RELATED_TO",
+    "weight": 1.0,
+    "evidence": "ETF keyword"
   }
 ]
