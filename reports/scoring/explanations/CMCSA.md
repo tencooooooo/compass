@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Comcast Corporation
-- Total Score: 46 / 100
+- Total Score: 57 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -16,9 +16,8 @@ Medium
 
 理由
 
-- 利用可能な主要データ領域は5領域中 4 領域です。
-- 欠損または計算不可の項目数は 3 件です。
-- データが不足している領域: News。
+- 利用可能な主要データ領域は5領域中 5 領域です。
+- 欠損または計算不可の項目数は 1 件です。
 - 主要データは一定程度ありますが、欠損や未取得項目が残っています。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
@@ -28,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 46 点を獲得し、シグナル充足率は 57.5% です。
+- データが確認できた 100 点満点のうち 57 点を獲得し、シグナル充足率は 57.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -95,14 +94,14 @@ Evidence
 
 ## Valuation
 
-18点
+15点
 
 理由
 
-- PER はセクター内 11.11 パーセンタイル / 母数 10 で、相対的に割安寄りです。
+- PER はセクター内 0.00 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - Forward PER はセクター内 11.11 パーセンタイル / 母数 10 で、相対的に割安寄りです。
-- PEG はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
-- PBR はセクター内 11.11 パーセンタイル / 母数 10 で、相対的に割安寄りです。
+- PEG はセクター内 88.89 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
+- PBR はセクター内 0.00 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -112,31 +111,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 7.3481
-- forward_pe: 6.5931
-- peg_ratio: 1.1800
-- price_to_book: 0.8906
+- trailing_pe: 7.7184
+- forward_pe: 6.9253
+- peg_ratio: 1.3200
+- price_to_book: 0.9355
 - sector_peer_count: 10
-- trailing_pe_percentile: 11.1100
+- trailing_pe_percentile: 0
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 11.1100
 - forward_pe_peer_count: 10
-- peg_ratio_percentile: 66.6700
+- peg_ratio_percentile: 88.8900
 - peg_ratio_peer_count: 10
-- price_to_book_percentile: 11.1100
+- price_to_book_percentile: 0
 - price_to_book_peer_count: 10
 
 ## Momentum
 
-7点
+11点
 
 理由
 
-- 1M の対SPY超過リターンは +3.05pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -8.85pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -22.82pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -27.69pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.87 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンが +19.99pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンは +2.94pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -1.34pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは -11.56pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.83 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -145,24 +144,25 @@ Evidence
 
 使用データ
 
-- 1M: 3.9346
-- 3M: -5.6086
-- 6M: -15.2207
-- 1Y: -14.4988
+- 1M: 14.9929
+- 3M: -1.7099
+- 6M: -1.1551
+- 1Y: -1.8685
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.88, '3M': 3.24, '6M': 7.6, '1Y': 13.19}
-- excess_returns: {'1M': 3.05, '3M': -8.85, '6M': -22.82, '1Y': -27.69}
-- latest_volume: 28,873,100.0000
-- average_volume_30d: 33,116,973.3333
+- benchmark_returns: {'1M': -4.99, '3M': -4.65, '6M': 0.19, '1Y': 9.69}
+- excess_returns: {'1M': 19.99, '3M': 2.94, '6M': -1.34, '1Y': -11.56}
+- latest_volume: 26,421,800.0000
+- average_volume_30d: 31,751,196.6667
 
 ## News
 
-0点
+10点
 
 理由
 
-- ニュースが取得できないため、News項目は評価を控えています。
-- イベントDBが取得できないため、イベント項目は加点していません。
+- ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
+- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 1 件(純比率 +0.60)で、センチメントは 6.4 点です。
+- イベント後の平均株価反応が -1.58% と弱く、注意が必要です。
 
 Evidence
 
@@ -172,17 +172,12 @@ Evidence
 
 使用データ
 
-- news_count: 0
-- positive_count: 0
-- negative_count: 0
-- sentiment_net_ratio: N/A
-- event_count: 0
-- events_with_price_reaction: 0
-
-欠損・計算不可
-
-- news
-- events
+- news_count: 10
+- positive_count: 4
+- negative_count: 1
+- sentiment_net_ratio: 0.6000
+- event_count: 10
+- events_with_price_reaction: 8
 
 ## Note
 

@@ -5,9 +5,9 @@
 ## Summary
 
 - Company: McDonald's Corporation
-- Total Score: 31 / 100
+- Total Score: 50 / 100
 - Confidence: Medium
-- Signal Strength: Weak
+- Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
@@ -16,20 +16,19 @@ Medium
 
 理由
 
-- 利用可能な主要データ領域は5領域中 4 領域です。
-- 欠損または計算不可の項目数は 3 件です。
-- データが不足している領域: News。
+- 利用可能な主要データ領域は5領域中 5 領域です。
+- 欠損または計算不可の項目数は 1 件です。
 - 主要データは一定程度ありますが、欠損や未取得項目が残っています。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
 
-Weak
+Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 31 点を獲得し、シグナル充足率は 38.8% です。
-- シグナル強度は Weak(Strong: 65%以上 / Moderate: 40%以上)です。
+- データが確認できた 100 点満点のうち 50 点を獲得し、シグナル充足率は 50.0% です。
+- シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
@@ -37,9 +36,8 @@ Weak
 
 理由
 
-- revenue_growth(直近4四半期平均) は 5.40% で、プラス成長を維持しています。
-- eps_growth(直近4四半期平均) は 6.60% で、プラス成長を維持しています。
-- revenue_growth は直近四半期が前四半期より -5.68pt 低く、成長の減速に注意が必要です。
+- revenue_growth(直近4四半期平均) は 4.32% で、プラス成長を維持しています。
+- eps_growth(直近4四半期平均) は 6.16% で、プラス成長を維持しています。
 - 純利益 がプラスで確認できるため加点しています。
 - 営業利益 がプラスで確認できるため加点しています。
 - 研究開発費が取得できないため、R&D項目は加点していません。
@@ -57,12 +55,12 @@ Evidence
 - net_income: 8,563,000,000.0000
 - operating_income: 12,394,000,000.0000
 - research_and_development: N/A
-- revenue_yoy_growth: 3.7400
-- eps_yoy_growth: 5.7300
-- revenue_yoy_growth_avg: 5.4000
-- eps_yoy_growth_avg: 6.6000
-- revenue_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
-- eps_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
+- revenue_yoy_growth: 1.1200
+- eps_yoy_growth: 10.3800
+- revenue_yoy_growth_avg: 4.3200
+- eps_yoy_growth_avg: 6.1600
+- revenue_growth_quarters: ['2026-Q3', '2026-Q2', '2026-Q1', '2025-Q3']
+- eps_growth_quarters: ['2026-Q3', '2026-Q2', '2026-Q1', '2025-Q3']
 
 欠損・計算不可
 
@@ -102,7 +100,7 @@ Evidence
 - PER はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 22.22 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - PEG はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
-- PBR は -178.51 で、指標がマイナスのため加点対象外です。
+- PBR は -191.23 で、指標がマイナスのため加点対象外です。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -112,10 +110,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 20.9683
-- forward_pe: 18.7844
-- peg_ratio: 2.7200
-- price_to_book: -178.5062
+- trailing_pe: 21.8766
+- forward_pe: 20.1766
+- peg_ratio: 2.9400
+- price_to_book: -191.2310
 - sector_peer_count: 10
 - trailing_pe_percentile: 44.4400
 - trailing_pe_peer_count: 10
@@ -128,15 +126,15 @@ Evidence
 
 ## Momentum
 
-6点
+12点
 
 理由
 
-- 1M の対SPY超過リターンが +10.57pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンは -7.47pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -18.71pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -27.02pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.75 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンが +21.72pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンは +6.39pt で、市場並み以上です。
+- 6M の対SPY超過リターンは +1.49pt で、市場並み以上です。
+- 1Y の対SPY超過リターンは -16.90pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.08 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -145,24 +143,25 @@ Evidence
 
 使用データ
 
-- 1M: 11.4489
-- 3M: -4.2235
-- 6M: -11.1116
-- 1Y: -13.8381
+- 1M: 16.7244
+- 3M: 1.7410
+- 6M: 1.6770
+- 1Y: -7.2096
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.88, '3M': 3.24, '6M': 7.6, '1Y': 13.19}
-- excess_returns: {'1M': 10.57, '3M': -7.47, '6M': -18.71, '1Y': -27.02}
-- latest_volume: 4,554,200.0000
-- average_volume_30d: 6,080,973.3333
+- benchmark_returns: {'1M': -4.99, '3M': -4.65, '6M': 0.19, '1Y': 9.69}
+- excess_returns: {'1M': 21.72, '3M': 6.39, '6M': 1.49, '1Y': -16.9}
+- latest_volume: 6,332,100.0000
+- average_volume_30d: 5,842,366.6667
 
 ## News
 
-0点
+13点
 
 理由
 
-- ニュースが取得できないため、News項目は評価を控えています。
-- イベントDBが取得できないため、イベント項目は加点していません。
+- ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
+- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 1 件(純比率 +0.60)で、センチメントは 6.4 点です。
+- イベント後の平均株価反応が -0.69% と中立圏です。
 
 Evidence
 
@@ -172,17 +171,12 @@ Evidence
 
 使用データ
 
-- news_count: 0
-- positive_count: 0
-- negative_count: 0
-- sentiment_net_ratio: N/A
-- event_count: 0
-- events_with_price_reaction: 0
-
-欠損・計算不可
-
-- news
-- events
+- news_count: 10
+- positive_count: 4
+- negative_count: 1
+- sentiment_net_ratio: 0.6000
+- event_count: 10
+- events_with_price_reaction: 3
 
 ## Note
 

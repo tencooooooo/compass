@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Apple Inc.
-- Total Score: 45 / 100
+- Total Score: 60 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -16,10 +16,10 @@ Medium
 
 理由
 
-- 利用可能な主要データ領域は5領域中 4 領域です。
-- 欠損または計算不可の項目数は 2 件です。
-- データが不足している領域: News。
+- 利用可能な主要データ領域は5領域中 5 領域です。
+- 欠損または計算不可の項目数は 1 件です。
 - 主要データは一定程度ありますが、欠損や未取得項目が残っています。
+- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
@@ -28,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 45 点を獲得し、シグナル充足率は 56.2% です。
+- データが確認できた 100 点満点のうち 60 点を獲得し、シグナル充足率は 60.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -52,11 +52,11 @@ Evidence
 
 使用データ
 
-- total_revenue: 416,161,000,000.0000
-- eps: 7.4900
-- net_income: 112,010,000,000.0000
-- operating_income: 133,050,000,000.0000
-- research_and_development: 34,550,000,000.0000
+- total_revenue: 478,834,000,000.0000
+- eps: 9.0100
+- net_income: 132,175,000,000.0000
+- operating_income: 158,063,000,000.0000
+- research_and_development: 45,765,000,000.0000
 - revenue_yoy_growth: 16.3600
 - eps_yoy_growth: 28.6600
 - revenue_yoy_growth_avg: 14.5600
@@ -66,15 +66,15 @@ Evidence
 
 ## Financial Health
 
-12点
+14点
 
 理由
 
 - 現金 がプラスで確認できるため加点しています。
 - 自己資本がプラスで、財務基盤を確認できます。
-- 総負債/自己資本が 3.87 倍で、負債負担の確認が必要です。
+- 総負債/自己資本が 2.61 倍で、負債負担の確認が必要です。
 - 長期債務が総負債に対して過度に大きくないため加点しています。
-- Current Ratio が 0.89 で、短期支払余力は追加確認が必要です。
+- Current Ratio が 1.02 で、最低限の短期支払余力があります。
 
 Evidence
 
@@ -83,11 +83,11 @@ Evidence
 
 使用データ
 
-- cash: 35,934,000,000.0000
-- total_liabilities: 285,508,000,000.0000
-- shareholders_equity: 73,733,000,000.0000
-- long_term_debt: 78,328,000,000.0000
-- current_ratio: 0.8933
+- cash: 36,305,000,000.0000
+- total_liabilities: 292,455,000,000.0000
+- shareholders_equity: 112,093,000,000.0000
+- long_term_debt: 68,208,000,000.0000
+- current_ratio: 1.0232
 
 ## Valuation
 
@@ -95,7 +95,7 @@ Evidence
 
 理由
 
-- PER はセクター内 78.57 パーセンタイル / 母数 15 で、相対的な加点は抑えています。
+- PER はセクター内 85.71 パーセンタイル / 母数 15 で、相対的な加点は抑えています。
 - Forward PER はセクター内 100.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - PEG はセクター内 100.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - PBR はセクター内 100.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
@@ -108,12 +108,12 @@ Evidence
 
 使用データ
 
-- trailing_pe: 39.5218
-- forward_pe: 36.0687
-- peg_ratio: 2.8000
-- price_to_book: 46.8247
+- trailing_pe: 38.1258
+- forward_pe: 32.4127
+- peg_ratio: 2.7600
+- price_to_book: 44.3887
 - sector_peer_count: 16
-- trailing_pe_percentile: 78.5700
+- trailing_pe_percentile: 85.7100
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 100
 - forward_pe_peer_count: 16
@@ -124,15 +124,15 @@ Evidence
 
 ## Momentum
 
-16点
+18点
 
 理由
 
-- 1M の対SPY超過リターンは +3.89pt で、市場並み以上です。
-- 3M の対SPY超過リターンは +9.80pt で、市場並み以上です。
-- 6M の対SPY超過リターンが +21.22pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンが +17.00pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 1.08 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +5.57pt で、市場並み以上です。
+- 3M の対SPY超過リターンが +15.71pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +16.74pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンが +17.52pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 1.00 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,24 +141,25 @@ Evidence
 
 使用データ
 
-- 1M: 4.7715
-- 3M: 13.0462
-- 6M: 28.8125
-- 1Y: 30.1855
+- 1M: 0.5728
+- 3M: 11.0653
+- 6M: 16.9306
+- 1Y: 27.2061
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.88, '3M': 3.24, '6M': 7.6, '1Y': 13.19}
-- excess_returns: {'1M': 3.89, '3M': 9.8, '6M': 21.22, '1Y': 17.0}
-- latest_volume: 42,582,100.0000
-- average_volume_30d: 39,331,273.3333
+- benchmark_returns: {'1M': -4.99, '3M': -4.65, '6M': 0.19, '1Y': 9.69}
+- excess_returns: {'1M': 5.57, '3M': 15.71, '6M': 16.74, '1Y': 17.52}
+- latest_volume: 44,676,300.0000
+- average_volume_30d: 44,566,560.0000
 
 ## News
 
-0点
+11点
 
 理由
 
-- ニュースが取得できないため、News項目は評価を控えています。
-- イベントDBが取得できないため、イベント項目は加点していません。
+- ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
+- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。
+- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
 
 Evidence
 
@@ -168,17 +169,16 @@ Evidence
 
 使用データ
 
-- news_count: 0
-- positive_count: 0
-- negative_count: 0
-- sentiment_net_ratio: N/A
-- event_count: 0
+- news_count: 10
+- positive_count: 3
+- negative_count: 1
+- sentiment_net_ratio: 0.5000
+- event_count: 10
 - events_with_price_reaction: 0
 
 欠損・計算不可
 
-- news
-- events
+- event_price_reaction
 
 ## Note
 

@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Advanced Micro Devices, Inc.
-- Total Score: 64 / 100
+- Total Score: 73 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -16,10 +16,10 @@ Medium
 
 理由
 
-- 利用可能な主要データ領域は5領域中 4 領域です。
-- 欠損または計算不可の項目数は 2 件です。
-- データが不足している領域: News。
+- 利用可能な主要データ領域は5領域中 5 領域です。
+- 欠損または計算不可の項目数は 1 件です。
 - 主要データは一定程度ありますが、欠損や未取得項目が残っています。
+- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 64 点を獲得し、シグナル充足率は 80.0% です。
+- データが確認できた 100 点満点のうち 73 点を獲得し、シグナル充足率は 73.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -37,10 +37,10 @@ Strong
 
 理由
 
-- revenue_growth(直近4四半期平均) は 38.82% で、+30%以上の高成長です。
-- eps_growth(直近4四半期平均) は 135.88% で、+30%以上の高成長です。
-- revenue_growth は直近四半期が前四半期より +12.26pt 高く、成長の加速がみられます。
-- eps_growth は直近四半期が前四半期より +64.65pt 高く、成長の加速がみられます。
+- revenue_growth(直近4四半期平均) は 42.06% で、+30%以上の高成長です。
+- eps_growth(直近4四半期平均) は 100.18% で、+30%以上の高成長です。
+- revenue_growth は直近四半期が前四半期より -5.43pt 低く、成長の減速に注意が必要です。
+- eps_growth は直近四半期が前四半期より -60.89pt 低く、成長の減速に注意が必要です。
 - 純利益 がプラスで確認できるため加点しています。
 - 営業利益 がプラスで確認できるため加点しています。
 - 研究開発費が確認でき、将来成長への投資が続いています。
@@ -58,12 +58,12 @@ Evidence
 - net_income: 4,335,000,000.0000
 - operating_income: 3,694,000,000.0000
 - research_and_development: 8,091,000,000.0000
-- revenue_yoy_growth: 50.1100
-- eps_yoy_growth: 155.5600
-- revenue_yoy_growth_avg: 38.8200
-- eps_yoy_growth_avg: 135.8800
-- revenue_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
-- eps_growth_quarters: ['2026-Q2', '2026-Q1', '2025-Q3', '2025-Q2']
+- revenue_yoy_growth: 44.6800
+- eps_yoy_growth: 94.6700
+- revenue_yoy_growth_avg: 42.0600
+- eps_yoy_growth_avg: 100.1800
+- revenue_growth_quarters: ['2026-Q3', '2026-Q2', '2026-Q1', '2025-Q3']
+- eps_growth_quarters: ['2026-Q3', '2026-Q2', '2026-Q1', '2025-Q3']
 
 ## Financial Health
 
@@ -97,7 +97,7 @@ Evidence
 理由
 
 - PER はセクター内 100.00 パーセンタイル / 母数 15 で、相対的な加点は抑えています。
-- Forward PER はセクター内 93.33 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
+- Forward PER はセクター内 86.67 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - PEG はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。
 - PBR はセクター内 73.33 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
@@ -109,14 +109,14 @@ Evidence
 
 使用データ
 
-- trailing_pe: 128.7755
-- forward_pe: 31.7366
-- peg_ratio: 0.5600
-- price_to_book: 12.2551
+- trailing_pe: 95.9487
+- forward_pe: 25.4530
+- peg_ratio: 0.4000
+- price_to_book: 10.7681
 - sector_peer_count: 16
 - trailing_pe_percentile: 100
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 93.3300
+- forward_pe_percentile: 86.6700
 - forward_pe_peer_count: 16
 - peg_ratio_percentile: 20.0000
 - peg_ratio_peer_count: 16
@@ -125,15 +125,15 @@ Evidence
 
 ## Momentum
 
-16点
+12点
 
 理由
 
-- 1M の対SPY超過リターンは -8.29pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンが +15.71pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +52.19pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンが +106.35pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.81 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -22.66pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは +0.28pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -1.54pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンが +65.49pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 1.86 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -142,24 +142,25 @@ Evidence
 
 使用データ
 
-- 1M: -7.4114
-- 3M: 18.9583
-- 6M: 59.7845
-- 1Y: 119.5341
+- 1M: -27.6535
+- 3M: -4.3700
+- 6M: -1.3511
+- 1Y: 75.1804
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.88, '3M': 3.24, '6M': 7.6, '1Y': 13.19}
-- excess_returns: {'1M': -8.29, '3M': 15.71, '6M': 52.19, '1Y': 106.35}
-- latest_volume: 16,873,300.0000
-- average_volume_30d: 20,893,263.3333
+- benchmark_returns: {'1M': -4.99, '3M': -4.65, '6M': 0.19, '1Y': 9.69}
+- excess_returns: {'1M': -22.66, '3M': 0.28, '6M': -1.54, '1Y': 65.49}
+- latest_volume: 45,682,000.0000
+- average_volume_30d: 24,595,403.3333
 
 ## News
 
-0点
+13点
 
 理由
 
-- ニュースが取得できないため、News項目は評価を控えています。
-- イベントDBが取得できないため、イベント項目は加点していません。
+- ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
+- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
 
 Evidence
 
@@ -169,17 +170,16 @@ Evidence
 
 使用データ
 
-- news_count: 0
-- positive_count: 0
+- news_count: 10
+- positive_count: 3
 - negative_count: 0
-- sentiment_net_ratio: N/A
-- event_count: 0
+- sentiment_net_ratio: 1.0000
+- event_count: 10
 - events_with_price_reaction: 0
 
 欠損・計算不可
 
-- news
-- events
+- event_price_reaction
 
 ## Note
 

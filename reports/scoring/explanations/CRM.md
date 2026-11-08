@@ -5,21 +5,20 @@
 ## Summary
 
 - Company: Salesforce, Inc.
-- Total Score: 59 / 100
-- Confidence: Medium
+- Total Score: 71 / 100
+- Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
 
-Medium
+High
 
 理由
 
-- 利用可能な主要データ領域は5領域中 4 領域です。
-- 欠損または計算不可の項目数は 2 件です。
-- データが不足している領域: News。
-- 主要データは一定程度ありますが、欠損や未取得項目が残っています。
+- 利用可能な主要データ領域は5領域中 5 領域です。
+- 欠損または計算不可の項目数は 0 件です。
+- 主要データが比較的そろっており、説明可能性は高めです。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
@@ -28,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 80 点満点のうち 59 点を獲得し、シグナル充足率は 73.8% です。
+- データが確認できた 100 点満点のうち 71 点を獲得し、シグナル充足率は 71.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -97,8 +96,8 @@ Evidence
 
 - PER はセクター内 35.71 パーセンタイル / 母数 15 で、中位レンジです。
 - Forward PER はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。
-- PEG はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。
-- PBR はセクター内 13.33 パーセンタイル / 母数 16 で、相対的に割安寄りです。
+- PEG はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。
+- PBR はセクター内 6.67 パーセンタイル / 母数 16 で、相対的に割安寄りです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -108,18 +107,18 @@ Evidence
 
 使用データ
 
-- trailing_pe: 20.9671
-- forward_pe: 14.3095
-- peg_ratio: 0.8200
-- price_to_book: 4.9144
+- trailing_pe: 19.5471
+- forward_pe: 13.3404
+- peg_ratio: 0.7600
+- price_to_book: 4.5816
 - sector_peer_count: 16
 - trailing_pe_percentile: 35.7100
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 26.6700
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 46.6700
+- peg_ratio_percentile: 53.3300
 - peg_ratio_peer_count: 16
-- price_to_book_percentile: 13.3300
+- price_to_book_percentile: 6.6700
 - price_to_book_peer_count: 16
 
 ## Momentum
@@ -128,11 +127,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -0.30pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンが +22.45pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +23.77pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -21.60pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.87 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -1.22pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンが +13.01pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +17.83pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -24.42pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.88 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,24 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: 0.5793
-- 3M: 25.6962
-- 6M: 31.3676
-- 1Y: -8.4172
+- 1M: -6.2116
+- 3M: 8.3620
+- 6M: 18.0169
+- 1Y: -14.7292
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.88, '3M': 3.24, '6M': 7.6, '1Y': 13.19}
-- excess_returns: {'1M': -0.3, '3M': 22.45, '6M': 23.77, '1Y': -21.6}
-- latest_volume: 7,687,500.0000
-- average_volume_30d: 8,850,466.6667
+- benchmark_returns: {'1M': -4.99, '3M': -4.65, '6M': 0.19, '1Y': 9.69}
+- excess_returns: {'1M': -1.22, '3M': 13.01, '6M': 17.83, '1Y': -24.42}
+- latest_volume: 6,710,100.0000
+- average_volume_30d: 7,659,393.3333
 
 ## News
 
-0点
+12点
 
 理由
 
-- ニュースが取得できないため、News項目は評価を控えています。
-- イベントDBが取得できないため、イベント項目は加点していません。
+- ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
+- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が -3.94% と弱く、注意が必要です。
 
 Evidence
 
@@ -168,17 +168,12 @@ Evidence
 
 使用データ
 
-- news_count: 0
-- positive_count: 0
+- news_count: 10
+- positive_count: 3
 - negative_count: 0
-- sentiment_net_ratio: N/A
-- event_count: 0
-- events_with_price_reaction: 0
-
-欠損・計算不可
-
-- news
-- events
+- sentiment_net_ratio: 1.0000
+- event_count: 10
+- events_with_price_reaction: 3
 
 ## Note
 

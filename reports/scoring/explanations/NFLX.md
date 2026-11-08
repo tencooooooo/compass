@@ -5,21 +5,20 @@
 ## Summary
 
 - Company: Netflix, Inc.
-- Total Score: 42 / 100
-- Confidence: Medium
+- Total Score: 52 / 100
+- Confidence: High
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
 
-Medium
+High
 
 理由
 
-- 利用可能な主要データ領域は5領域中 4 領域です。
-- 欠損または計算不可の項目数は 2 件です。
-- データが不足している領域: News。
-- 主要データは一定程度ありますが、欠損や未取得項目が残っています。
+- 利用可能な主要データ領域は5領域中 5 領域です。
+- 欠損または計算不可の項目数は 0 件です。
+- 主要データが比較的そろっており、説明可能性は高めです。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
@@ -28,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 80 点満点のうち 42 点を獲得し、シグナル充足率は 52.5% です。
+- データが確認できた 100 点満点のうち 52 点を獲得し、シグナル充足率は 52.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -97,7 +96,7 @@ Evidence
 
 - PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
-- PEG はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
+- PEG はセクター内 50.00 パーセンタイル / 母数 10 で、中位レンジです。
 - PBR はセクター内 100.00 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -108,31 +107,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 17.9422
-- forward_pe: 16.4610
-- peg_ratio: 0.9800
-- price_to_book: 8.7044
+- trailing_pe: 18.3266
+- forward_pe: 16.8137
+- peg_ratio: 1.0100
+- price_to_book: 8.8909
 - sector_peer_count: 10
 - trailing_pe_percentile: 66.6700
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 66.6700
 - forward_pe_peer_count: 10
-- peg_ratio_percentile: 44.4400
+- peg_ratio_percentile: 50.0000
 - peg_ratio_peer_count: 10
 - price_to_book_percentile: 100
 - price_to_book_peer_count: 10
 
 ## Momentum
 
-3点
+4点
 
 理由
 
-- 1M の対SPY超過リターンは -11.70pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -16.72pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -41.31pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -56.91pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.04 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -6.41pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -12.24pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -27.71pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -51.96pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.82 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,24 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: -10.8221
-- 3M: -13.4709
-- 6M: -33.7143
-- 1Y: -43.7188
+- 1M: -11.4014
+- 3M: -16.8829
+- 6M: -27.5231
+- 1Y: -42.2737
 - benchmark: SPY
-- benchmark_returns: {'1M': 0.88, '3M': 3.24, '6M': 7.6, '1Y': 13.19}
-- excess_returns: {'1M': -11.7, '3M': -16.72, '6M': -41.31, '1Y': -56.91}
-- latest_volume: 45,298,300.0000
-- average_volume_30d: 43,602,753.3333
+- benchmark_returns: {'1M': -4.99, '3M': -4.65, '6M': 0.19, '1Y': 9.69}
+- excess_returns: {'1M': -6.41, '3M': -12.24, '6M': -27.71, '1Y': -51.96}
+- latest_volume: 35,472,200.0000
+- average_volume_30d: 43,444,693.3333
 
 ## News
 
-0点
+9点
 
 理由
 
-- ニュースが取得できないため、News項目は評価を控えています。
-- イベントDBが取得できないため、イベント項目は加点していません。
+- ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
+- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 1 件(純比率 +0.33)で、センチメントは 5.3 点です。
+- イベント後の平均株価反応が -2.77% と弱く、注意が必要です。
 
 Evidence
 
@@ -168,17 +168,12 @@ Evidence
 
 使用データ
 
-- news_count: 0
-- positive_count: 0
-- negative_count: 0
-- sentiment_net_ratio: N/A
-- event_count: 0
-- events_with_price_reaction: 0
-
-欠損・計算不可
-
-- news
-- events
+- news_count: 10
+- positive_count: 2
+- negative_count: 1
+- sentiment_net_ratio: 0.3300
+- event_count: 10
+- events_with_price_reaction: 8
 
 ## Note
 
