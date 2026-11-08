@@ -73,6 +73,9 @@ jobs:
         run: python -m collectors.financials.fetch_sec_financials
 
       - name: Fetch news
+        # ニュース取得の失敗(外部APIの障害など)でレポート生成・通知まで止めないようにします。
+        # 失敗時は前回保存分のニュースで後続処理を続行します。
+        continue-on-error: true
         run: python -m collectors.news.fetch_news
 
       - name: Build event database
