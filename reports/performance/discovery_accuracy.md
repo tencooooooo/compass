@@ -6,62 +6,62 @@
 
 ## 7
 
-- Evaluated: 733
-- Completed: 708
-- Pending: 25
-- Success Rate: 50.28%
-- Average Return: 0.56%
-- Win Rate: 50.28%
-- Alpha vs Benchmark: 0.36%
-- Unique Tickers: 18 (completed: 18)
-- Equal-Weight Alpha: -0.43%
+- Evaluated: 743
+- Completed: 733
+- Pending: 10
+- Success Rate: 49.52%
+- Average Return: 0.37%
+- Win Rate: 49.52%
+- Alpha vs Benchmark: 0.23%
+- Unique Tickers: 19 (completed: 18)
+- Equal-Weight Alpha: -0.54%
 
 ## 30
 
-- Evaluated: 733
-- Completed: 608
-- Pending: 125
-- Success Rate: 56.09%
-- Average Return: 1.86%
-- Win Rate: 56.09%
-- Alpha vs Benchmark: 1.03%
-- Unique Tickers: 18 (completed: 18)
-- Equal-Weight Alpha: -2.41%
+- Evaluated: 743
+- Completed: 655
+- Pending: 88
+- Success Rate: 53.89%
+- Average Return: 0.81%
+- Win Rate: 53.89%
+- Alpha vs Benchmark: 0.20%
+- Unique Tickers: 19 (completed: 18)
+- Equal-Weight Alpha: -3.07%
 
 ## 90
 
-- Evaluated: 733
-- Completed: 140
-- Pending: 593
-- Success Rate: 78.57%
-- Average Return: 9.99%
-- Win Rate: 78.57%
-- Alpha vs Benchmark: 6.52%
-- Unique Tickers: 18 (completed: 8)
-- Equal-Weight Alpha: 4.96%
+- Evaluated: 743
+- Completed: 175
+- Pending: 568
+- Success Rate: 72.57%
+- Average Return: 7.39%
+- Win Rate: 72.57%
+- Alpha vs Benchmark: 4.97%
+- Unique Tickers: 19 (completed: 8)
+- Equal-Weight Alpha: 3.27%
 
 ## 180
 
-- Evaluated: 733
+- Evaluated: 743
 - Completed: 0
-- Pending: 733
+- Pending: 743
 - Success Rate: N/A
 - Average Return: N/A
 - Win Rate: N/A
 - Alpha vs Benchmark: N/A
-- Unique Tickers: 18 (completed: 0)
+- Unique Tickers: 19 (completed: 0)
 - Equal-Weight Alpha: N/A
 
 ## 365
 
-- Evaluated: 733
+- Evaluated: 743
 - Completed: 0
-- Pending: 733
+- Pending: 743
 - Success Rate: N/A
 - Average Return: N/A
 - Win Rate: N/A
 - Alpha vs Benchmark: N/A
-- Unique Tickers: 18 (completed: 0)
+- Unique Tickers: 19 (completed: 0)
 - Equal-Weight Alpha: N/A
 
 
@@ -71,39 +71,39 @@
 
 ## 60-69
 
-- Evaluated: 1930
-- Completed: 724
-- Pending: 1206
-- Success Rate: 57.32%
-- Average Return: 2.62%
-- Win Rate: 57.32%
-- Alpha vs Benchmark: 1.75%
-- Unique Tickers: 18 (completed: 18)
-- Equal-Weight Alpha: -0.89%
+- Evaluated: 1955
+- Completed: 793
+- Pending: 1162
+- Success Rate: 55.74%
+- Average Return: 1.85%
+- Win Rate: 55.74%
+- Alpha vs Benchmark: 1.24%
+- Unique Tickers: 19 (completed: 18)
+- Equal-Weight Alpha: -1.97%
 
 ## 70-79
 
-- Evaluated: 1295
-- Completed: 549
-- Pending: 746
-- Success Rate: 53.73%
-- Average Return: 1.43%
-- Win Rate: 53.73%
-- Alpha vs Benchmark: 0.71%
+- Evaluated: 1320
+- Completed: 577
+- Pending: 743
+- Success Rate: 52.17%
+- Average Return: 0.80%
+- Win Rate: 52.17%
+- Alpha vs Benchmark: 0.21%
 - Unique Tickers: 15 (completed: 15)
-- Equal-Weight Alpha: -0.65%
+- Equal-Weight Alpha: -0.92%
 
 ## 80+
 
 - Evaluated: 440
-- Completed: 183
-- Pending: 257
-- Success Rate: 53.01%
-- Average Return: 1.37%
-- Win Rate: 53.01%
-- Alpha vs Benchmark: 0.76%
+- Completed: 193
+- Pending: 247
+- Success Rate: 51.81%
+- Average Return: 0.86%
+- Win Rate: 51.81%
+- Alpha vs Benchmark: 0.35%
 - Unique Tickers: 9 (completed: 9)
-- Equal-Weight Alpha: -0.61%
+- Equal-Weight Alpha: -1.23%
 
 
 ## Confidence (Data Sufficiency) Accuracy
@@ -114,27 +114,27 @@ Note: Confidence measures data sufficiency only — how complete the input data 
 
 ## High
 
-- Evaluated: 2035
-- Completed: 901
-- Pending: 1134
-- Success Rate: 59.71%
-- Average Return: 2.98%
-- Win Rate: 59.71%
-- Alpha vs Benchmark: 2.10%
+- Evaluated: 2055
+- Completed: 929
+- Pending: 1126
+- Success Rate: 59.96%
+- Average Return: 2.89%
+- Win Rate: 59.96%
+- Alpha vs Benchmark: 2.09%
 - Unique Tickers: 16 (completed: 16)
-- Equal-Weight Alpha: -0.29%
+- Equal-Weight Alpha: -0.37%
 
 ## Medium
 
-- Evaluated: 1630
-- Completed: 555
-- Pending: 1075
-- Success Rate: 48.47%
-- Average Return: 0.44%
-- Win Rate: 48.47%
-- Alpha vs Benchmark: -0.18%
-- Unique Tickers: 15 (completed: 15)
-- Equal-Weight Alpha: -1.02%
+- Evaluated: 1660
+- Completed: 634
+- Pending: 1026
+- Success Rate: 45.11%
+- Average Return: -0.94%
+- Win Rate: 45.11%
+- Alpha vs Benchmark: -1.21%
+- Unique Tickers: 16 (completed: 15)
+- Equal-Weight Alpha: -2.34%
 
 
 ## Confidence Validation Result Distribution
@@ -143,25 +143,25 @@ Note: Confidence measures data sufficiency only — how complete the input data 
 
 ## High
 
-- Evaluated: 2035
-- Completed: 901
-- Hit Rate: 51.72%
-- Excellent: 377
-- Good: 89
-- Neutral: 102
-- Poor: 333
-- Pending: 1134
+- Evaluated: 2055
+- Completed: 929
+- Hit Rate: 52.10%
+- Excellent: 390
+- Good: 94
+- Neutral: 105
+- Poor: 340
+- Pending: 1126
 
 ## Medium
 
-- Evaluated: 1630
-- Completed: 555
-- Hit Rate: 37.84%
-- Excellent: 140
-- Good: 70
-- Neutral: 97
-- Poor: 248
-- Pending: 1075
+- Evaluated: 1660
+- Completed: 634
+- Hit Rate: 35.96%
+- Excellent: 153
+- Good: 75
+- Neutral: 101
+- Poor: 305
+- Pending: 1026
 
 
 ## Signal Strength Accuracy
@@ -170,27 +170,27 @@ Note: Confidence measures data sufficiency only — how complete the input data 
 
 ## Moderate
 
-- Evaluated: 475
-- Completed: 192
-- Pending: 283
-- Success Rate: 54.69%
-- Average Return: 0.73%
-- Win Rate: 54.69%
-- Alpha vs Benchmark: 0.32%
-- Unique Tickers: 15 (completed: 15)
-- Equal-Weight Alpha: 1.21%
+- Evaluated: 480
+- Completed: 204
+- Pending: 276
+- Success Rate: 56.37%
+- Average Return: 0.89%
+- Win Rate: 56.37%
+- Alpha vs Benchmark: 0.59%
+- Unique Tickers: 16 (completed: 15)
+- Equal-Weight Alpha: 1.25%
 
 ## Strong
 
-- Evaluated: 2730
-- Completed: 988
-- Pending: 1742
-- Success Rate: 54.76%
-- Average Return: 1.71%
-- Win Rate: 54.76%
-- Alpha vs Benchmark: 1.17%
+- Evaluated: 2775
+- Completed: 1083
+- Pending: 1692
+- Success Rate: 52.35%
+- Average Return: 0.75%
+- Win Rate: 52.35%
+- Alpha vs Benchmark: 0.44%
 - Unique Tickers: 15 (completed: 15)
-- Equal-Weight Alpha: -0.12%
+- Equal-Weight Alpha: -0.67%
 
 ## Unknown
 
@@ -211,25 +211,25 @@ Note: Confidence measures data sufficiency only — how complete the input data 
 
 ## Moderate
 
-- Evaluated: 475
-- Completed: 192
-- Hit Rate: 46.35%
-- Excellent: 67
-- Good: 22
+- Evaluated: 480
+- Completed: 204
+- Hit Rate: 48.53%
+- Excellent: 74
+- Good: 25
 - Neutral: 24
-- Poor: 79
-- Pending: 283
+- Poor: 81
+- Pending: 276
 
 ## Strong
 
-- Evaluated: 2730
-- Completed: 988
-- Hit Rate: 45.14%
-- Excellent: 346
-- Good: 100
-- Neutral: 148
-- Poor: 394
-- Pending: 1742
+- Evaluated: 2775
+- Completed: 1083
+- Hit Rate: 43.58%
+- Excellent: 365
+- Good: 107
+- Neutral: 155
+- Poor: 456
+- Pending: 1692
 
 ## Unknown
 
@@ -249,27 +249,27 @@ Note: Confidence measures data sufficiency only — how complete the input data 
 
 ## failure patterns
 
-- Evaluated: 585
-- Completed: 233
-- Pending: 352
-- Success Rate: 53.65%
-- Average Return: 2.91%
-- Win Rate: 53.65%
-- Alpha vs Benchmark: 1.99%
-- Unique Tickers: 3 (completed: 3)
-- Equal-Weight Alpha: -2.06%
+- Evaluated: 475
+- Completed: 205
+- Pending: 270
+- Success Rate: 48.29%
+- Average Return: 1.39%
+- Win Rate: 48.29%
+- Alpha vs Benchmark: 0.58%
+- Unique Tickers: 2 (completed: 2)
+- Equal-Weight Alpha: -5.25%
 
 ## success patterns
 
-- Evaluated: 3665
-- Completed: 1456
-- Pending: 2209
-- Success Rate: 55.43%
-- Average Return: 2.01%
-- Win Rate: 55.43%
-- Alpha vs Benchmark: 1.23%
-- Unique Tickers: 18 (completed: 18)
-- Equal-Weight Alpha: -1.21%
+- Evaluated: 3715
+- Completed: 1563
+- Pending: 2152
+- Success Rate: 53.93%
+- Average Return: 1.34%
+- Win Rate: 53.93%
+- Alpha vs Benchmark: 0.75%
+- Unique Tickers: 19 (completed: 18)
+- Equal-Weight Alpha: -1.60%
 
 
 ## Market Intelligence Accuracy
@@ -279,14 +279,26 @@ Note: Confidence measures data sufficiency only — how complete the input data 
 ## Neutral
 
 - Evaluated: 2820
-- Completed: 1041
-- Pending: 1779
-- Success Rate: 54.08%
-- Average Return: 1.36%
-- Win Rate: 54.08%
-- Alpha vs Benchmark: 0.73%
+- Completed: 1148
+- Pending: 1672
+- Success Rate: 52.18%
+- Average Return: 0.50%
+- Win Rate: 52.18%
+- Alpha vs Benchmark: 0.12%
 - Unique Tickers: 18 (completed: 18)
-- Equal-Weight Alpha: -1.61%
+- Equal-Weight Alpha: -2.06%
+
+## Risk-Off
+
+- Evaluated: 50
+- Completed: 0
+- Pending: 50
+- Success Rate: N/A
+- Average Return: N/A
+- Win Rate: N/A
+- Alpha vs Benchmark: N/A
+- Unique Tickers: 10 (completed: 0)
+- Equal-Weight Alpha: N/A
 
 ## Risk-On
 
