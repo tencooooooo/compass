@@ -2,7 +2,7 @@
 
 Performance Evaluation is Compass's scorecard. It measures outcomes without changing Feedback, Learning, Knowledge, or Scoring.
 
-- Evaluation date: 2026-11-08
+- Evaluation date: 2026-11-09
 - Signals: 743
 - Evaluation rows: 3715
 - Completed rows: 1563
