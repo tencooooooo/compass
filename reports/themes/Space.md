@@ -1,30 +1,44 @@
 # Space
 
-- Target companies: 1
-- Average Score: 42.00
-- Average Discovery: N/A
-- Momentum: N/A
+- Target companies: 9
+- Average Score: 61.11
+- Average Discovery: 67.25
+- Momentum: 1.29
 - Confidence: Medium
 
 ## Companies
 
+- AAPL - Apple Inc. (Low): Keyword: launch
+- AVGO - Broadcom Inc. (Low): Keyword: space
 - DIS - The Walt Disney Company (Medium): Keyword: satellite; Sector alignment: Communication Services
+- GOOGL - Alphabet Inc. (Medium): Keyword: rocket; Keyword: spacex; Sector alignment: Communication Services
+- MSFT - Microsoft Corporation (Low): Keyword: launch
+- NVDA - NVIDIA Corporation (Low): Keyword: space
+- QCOM - QUALCOMM Incorporated (Medium): Keyword: satellite; Keyword: spacex
+- TMUS - T-Mobile US, Inc. (Medium): Keyword: spacex; Sector alignment: Communication Services
+- TSLA - Tesla, Inc. (Medium): Keyword: space; Keyword: spacex
 
 ## Market
 
-- Communication Services: score 44.83, momentum -7.04, trend {'momentum': 'Weak', 'news': 'Low', 'financial_health': 'Good'}
+- Communication Services: score 56.50, momentum -4.39, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 55.17, momentum 10.22, trend {'momentum': 'Strong', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 65.50, momentum -12.93, trend {'momentum': 'Risk-Off', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-No theme news available yet.
+- NVDA: Why AT&T Stock Slumped in October
+- NVDA: If the Fed Raises Interest Rates in December, I'm Making This 1 Investing Move
+- MSFT: What Teradata (TDC) Said on Its Q3 Earnings Call
+- NVDA: NVIDIA And 2 More Grid Stocks To Watch
+- AVGO: Is Broadcom a Buy After Falling 9% in One Day?
 
 ## Similar Themes
 
-- Fintech: 0.232 (Similar average Discovery score; Similar short-term momentum)
-- Healthcare: 0.083 (Similar average Discovery score; Similar short-term momentum)
-- Energy: 0.077 (Theme metric similarity)
-- EV: 0.036 (Theme metric similarity)
-- Robotics: 0.027 (Similar average Discovery score; Similar short-term momentum)
+- Cloud: 1.0 (Shared companies: AAPL, AVGO, GOOGL, MSFT, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
+- Semiconductor: 0.998 (Shared companies: AAPL, AVGO, GOOGL, MSFT, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
+- AI: 0.997 (Shared companies: AAPL, AVGO, GOOGL, MSFT, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
+- Robotics: 0.992 (Shared companies: AVGO, NVDA, QCOM, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
+- Energy: 0.99 (Shared companies: AVGO, GOOGL, NVDA, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
 
 ## Review Note
 
