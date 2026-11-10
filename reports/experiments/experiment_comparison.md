@@ -13,33 +13,33 @@
 
 ## EXP-MOM-TAPER-001
 
-- discovery_success_rate: Candidate (baseline=54.94, candidate=56.3) - Candidate metric is higher.
-- average_return: Baseline (baseline=1.42, candidate=1.27) - Baseline metric is higher.
-- alpha: Candidate (baseline=0.71, candidate=0.84) - Candidate metric is higher.
-- win_rate: Candidate (baseline=54.94, candidate=56.3) - Candidate metric is higher.
+- discovery_success_rate: Candidate (baseline=55.0, candidate=56.43) - Candidate metric is higher.
+- average_return: Baseline (baseline=1.43, candidate=1.28) - Baseline metric is higher.
+- alpha: Candidate (baseline=0.77, candidate=0.91) - Candidate metric is higher.
+- win_rate: Candidate (baseline=55.0, candidate=56.43) - Candidate metric is higher.
 - max_drawdown: Inconclusive (baseline=N/A, candidate=N/A) - Metric is not available for both versions.
 - sharpe_ratio: Inconclusive (baseline=N/A, candidate=N/A) - Metric is not available for both versions.
 - strategy_ranking: Inconclusive (baseline=N/A, candidate=N/A) - Metric is not available for both versions.
-- performance_score: Candidate (baseline=19.02, candidate=19.47) - Candidate metric is higher.
+- performance_score: Candidate (baseline=19.07, candidate=19.54) - Candidate metric is higher.
 
 ## EXP-NEWS-CAP-001
 
-- discovery_success_rate: Baseline (baseline=54.94, candidate=54.72) - Baseline metric is higher.
-- average_return: Baseline (baseline=1.42, candidate=1.4) - Baseline metric is higher.
-- alpha: Baseline (baseline=0.71, candidate=0.69) - Baseline metric is higher.
-- win_rate: Baseline (baseline=54.94, candidate=54.72) - Baseline metric is higher.
+- discovery_success_rate: Baseline (baseline=55.0, candidate=54.78) - Baseline metric is higher.
+- average_return: Baseline (baseline=1.43, candidate=1.4) - Baseline metric is higher.
+- alpha: Baseline (baseline=0.77, candidate=0.74) - Baseline metric is higher.
+- win_rate: Baseline (baseline=55.0, candidate=54.78) - Baseline metric is higher.
 - max_drawdown: Inconclusive (baseline=N/A, candidate=N/A) - Metric is not available for both versions.
 - sharpe_ratio: Inconclusive (baseline=N/A, candidate=N/A) - Metric is not available for both versions.
 - strategy_ranking: Inconclusive (baseline=N/A, candidate=N/A) - Metric is not available for both versions.
-- performance_score: Baseline (baseline=19.02, candidate=18.94) - Baseline metric is higher.
+- performance_score: Baseline (baseline=19.07, candidate=18.97) - Baseline metric is higher.
 
 ## EXP-OVEREXT-001
 
-- discovery_success_rate: Candidate (baseline=54.94, candidate=56.47) - Candidate metric is higher.
-- average_return: Baseline (baseline=1.42, candidate=1.26) - Baseline metric is higher.
-- alpha: Candidate (baseline=0.71, candidate=0.82) - Candidate metric is higher.
-- win_rate: Candidate (baseline=54.94, candidate=56.47) - Candidate metric is higher.
+- discovery_success_rate: Candidate (baseline=55.0, candidate=56.6) - Candidate metric is higher.
+- average_return: Baseline (baseline=1.43, candidate=1.28) - Baseline metric is higher.
+- alpha: Candidate (baseline=0.77, candidate=0.88) - Candidate metric is higher.
+- win_rate: Candidate (baseline=55.0, candidate=56.6) - Candidate metric is higher.
 - max_drawdown: Inconclusive (baseline=N/A, candidate=N/A) - Metric is not available for both versions.
 - sharpe_ratio: Inconclusive (baseline=N/A, candidate=N/A) - Metric is not available for both versions.
 - strategy_ranking: Inconclusive (baseline=N/A, candidate=N/A) - Metric is not available for both versions.
-- performance_score: Candidate (baseline=19.02, candidate=19.52) - Candidate metric is higher.
+- performance_score: Candidate (baseline=19.07, candidate=19.59) - Candidate metric is higher.
