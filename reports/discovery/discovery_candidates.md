@@ -6,41 +6,43 @@
 
 - 対象企業数: 24
 - セクター数: 3
-- 市場平均スコア: 60.666666666666664
-- 1M市場モメンタム平均: -5.00746441555838
-- ニュース件数: 238
-- Event数: 238
+- 市場平均スコア: 63.333333333333336
+- 1M市場モメンタム平均: -1.3459553657747059
+- ニュース件数: 240
+- Event数: 240
 
 ## Candidate Summary
 
 | Ticker | Company | Sector | Discovery Score | Status | Confidence | Signal |
 | --- | --- | --- | --- | --- | --- | --- |
-| AMD | Advanced Micro Devices, Inc. | Technology | 75 | Primary Candidate | Medium | Strong |
-| MSFT | Microsoft Corporation | Technology | 74 | Watch Candidate | Medium | Strong |
-| TXN | Texas Instruments Incorporated | Technology | 73 | Watch Candidate | High | Strong |
-| AMAT | Applied Materials, Inc. | Technology | 73 | Watch Candidate | High | Strong |
-| CRM | Salesforce, Inc. | Technology | 72 | Watch Candidate | High | Strong |
-| AAPL | Apple Inc. | Technology | 67 | Watch Candidate | Medium | Strong |
-| QCOM | QUALCOMM Incorporated | Technology | 67 | Watch Candidate | High | Strong |
-| META | Meta Platforms, Inc. | Communication Services | 62 | Watch Candidate | Medium | Strong |
-| AMZN | Amazon.com, Inc. | Consumer Cyclical | 62 | Watch Candidate | Medium | Strong |
-| DIS | The Walt Disney Company | Communication Services | 61 | Watch Candidate | Medium | Moderate |
+| MSFT | Microsoft Corporation | Technology | 84 | Primary Candidate | High | Strong |
+| AMD | Advanced Micro Devices, Inc. | Technology | 81 | Primary Candidate | High | Strong |
+| TXN | Texas Instruments Incorporated | Technology | 79 | Primary Candidate | High | Strong |
+| AMAT | Applied Materials, Inc. | Technology | 75 | Primary Candidate | High | Strong |
+| CRM | Salesforce, Inc. | Technology | 74 | Watch Candidate | High | Strong |
+| QCOM | QUALCOMM Incorporated | Technology | 73 | Watch Candidate | High | Strong |
+| AMZN | Amazon.com, Inc. | Consumer Cyclical | 72 | Watch Candidate | Medium | Strong |
+| AAPL | Apple Inc. | Technology | 71 | Watch Candidate | High | Strong |
+| META | Meta Platforms, Inc. | Communication Services | 70 | Watch Candidate | High | Strong |
+| DIS | The Walt Disney Company | Communication Services | 66 | Watch Candidate | Medium | Strong |
+| AVGO | Broadcom Inc. | Technology | 60 | Watch Candidate | High | Moderate |
+| HD | The Home Depot, Inc. | Consumer Cyclical | 60 | Watch Candidate | Medium | Moderate |
 
 ## Top Candidate
 
-AMD
+MSFT
 
 理由
 
 - Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。
-- Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。
+- Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。
+- Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 
 Confidence
 
-Medium
+High
 
 Signal Strength
 

@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-73 / 100
+75 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで -29.71pt と弱く、候補評価では注意点です。
-- 3Mモメンタムは対SPYで -31.56pt と弱く、候補評価では注意点です。
-- 6Mモメンタムは対SPYで -23.60pt と弱く、候補評価では注意点です。
+- 1Mモメンタムは対SPYで -23.59pt と弱く、候補評価では注意点です。
+- 3Mモメンタムは対SPYで -27.35pt と弱く、候補評価では注意点です。
+- 6Mモメンタムは対SPYで -18.60pt と弱く、候補評価では注意点です。
 
 ## Strengths
 
@@ -33,8 +33,7 @@
 
 ## Watch Points
 
-- 注意材料になり得るニュース表現が 2 件あります。
-- TechnologyのセクターモメンタムはRisk-Offで、短期環境は慎重に見る必要があります。
+- TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Technology セクター全体の需要変化と競争環境を確認する必要があります。
@@ -47,7 +46,7 @@ High
 
 ## Signal Strength
 
-Strong(シグナル充足率: 73.3%)
+Strong(シグナル充足率: 74.9%)
 
 ## Evidence
 
@@ -66,20 +65,20 @@ Strong(シグナル充足率: 73.3%)
 
 ## Metrics
 
-- scoring_total: 70.0
-- signal_earned_points: 73.3
+- scoring_total: 74.0
+- signal_earned_points: 74.9
 - signal_max_points: 100.0
 - weak_signals: []
 - scoring_signal_strength: Strong
 - growth_score: 17.0
 - financial_health_score: 20.0
 - valuation_score: 12.0
-- news_score: 13.0
-- momentum: {'1m': -34.70573298302331, '3m': -36.20704000666567, '6m': -23.413135837297585, '1y': 38.88508814163249}
+- news_score: 17.0
+- momentum: {'1m': -26.91754162769685, '3m': -29.42557276200406, '6m': -16.278037421680754, '1y': 59.551029973712346}
 - benchmark: SPY
-- excess_momentum: {'1m': -29.71, '3m': -31.56, '6m': -23.6, '1y': 29.2}
+- excess_momentum: {'1m': -23.59, '3m': -27.35, '6m': -18.6, '1y': 46.05}
 - positive_news: 2
-- watch_news: 2
+- watch_news: 0
 - event_count: 10
-- events_with_reaction: 4
-- sector_average_score: 65.5
+- events_with_reaction: 7
+- sector_average_score: 67.75

@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: T-Mobile US, Inc.
-- Total Score: 53 / 100
+- Total Score: 60 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 53 点を獲得し、シグナル充足率は 53.0% です。
+- データが確認できた 100 点満点のうち 60 点を獲得し、シグナル充足率は 60.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -111,10 +111,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 15.6230
-- forward_pe: 11.3646
+- trailing_pe: 15.6213
+- forward_pe: 11.8346
 - peg_ratio: 0.4800
-- price_to_book: 3.0581
+- price_to_book: 3.1845
 - sector_peer_count: 10
 - trailing_pe_percentile: 55.5600
 - trailing_pe_peer_count: 10
@@ -127,15 +127,15 @@ Evidence
 
 ## Momentum
 
-5点
+8点
 
 理由
 
-- 1M の対SPY超過リターンは -0.44pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -3.91pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -15.58pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -28.89pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.86 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンが +16.87pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンは -2.91pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -12.94pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -27.80pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.10 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -144,25 +144,25 @@ Evidence
 
 使用データ
 
-- 1M: -5.4288
-- 3M: -8.5606
-- 6M: -15.3906
-- 1Y: -19.1988
+- 1M: 13.5483
+- 3M: -4.9817
+- 6M: -10.6081
+- 1Y: -14.2958
 - benchmark: SPY
-- benchmark_returns: {'1M': -4.99, '3M': -4.65, '6M': 0.19, '1Y': 9.69}
-- excess_returns: {'1M': -0.44, '3M': -3.91, '6M': -15.58, '1Y': -28.89}
-- latest_volume: 5,615,300.0000
-- average_volume_30d: 6,512,523.3333
+- benchmark_returns: {'1M': -3.32, '3M': -2.08, '6M': 2.33, '1Y': 13.5}
+- excess_returns: {'1M': 16.87, '3M': -2.91, '6M': -12.94, '1Y': -27.8}
+- latest_volume: 7,257,600.0000
+- average_volume_30d: 6,594,700.0000
 
 ## News
 
-13点
+17点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。
-- イベント後の平均株価反応が 0.88% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が 4.14% とプラスです。
 
 Evidence
 
@@ -174,10 +174,10 @@ Evidence
 
 - news_count: 10
 - positive_count: 3
-- negative_count: 1
-- sentiment_net_ratio: 0.5000
+- negative_count: 0
+- sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 3
+- events_with_price_reaction: 7
 
 ## Note
 

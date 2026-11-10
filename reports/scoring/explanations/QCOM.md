@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: QUALCOMM Incorporated
-- Total Score: 68 / 100
+- Total Score: 75 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 68 点を獲得し、シグナル充足率は 68.0% です。
+- データが確認できた 100 点満点のうち 75 点を獲得し、シグナル充足率は 75.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -107,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 13.0244
-- forward_pe: 13.5047
+- trailing_pe: 13.0197
+- forward_pe: 14.0430
 - peg_ratio: 0.7500
-- price_to_book: 5.8327
+- price_to_book: 6.0464
 - sector_peer_count: 16
 - trailing_pe_percentile: 7.1400
 - trailing_pe_peer_count: 15
@@ -123,15 +123,15 @@ Evidence
 
 ## Momentum
 
-8点
+9点
 
 理由
 
-- 1M の対SPY超過リターンは -1.03pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは +7.20pt で、市場並み以上です。
-- 6M の対SPY超過リターンは -24.00pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -15.73pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.59 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは +1.03pt で、市場並み以上です。
+- 3M の対SPY超過リターンは +8.05pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -29.48pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -12.44pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.34 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -140,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: -6.0224
-- 3M: 2.5530
-- 6M: -23.8101
-- 1Y: -6.0457
+- 1M: -2.2963
+- 3M: 5.9769
+- 6M: -27.1503
+- 1Y: 1.0628
 - benchmark: SPY
-- benchmark_returns: {'1M': -4.99, '3M': -4.65, '6M': 0.19, '1Y': 9.69}
-- excess_returns: {'1M': -1.03, '3M': 7.2, '6M': -24.0, '1Y': -15.73}
-- latest_volume: 19,680,100.0000
-- average_volume_30d: 12,354,026.6667
+- benchmark_returns: {'1M': -3.32, '3M': -2.08, '6M': 2.33, '1Y': 13.5}
+- excess_returns: {'1M': 1.03, '3M': 8.05, '6M': -29.48, '1Y': -12.44}
+- latest_volume: 16,485,600.0000
+- average_volume_30d: 12,347,543.3333
 
 ## News
 
-11点
+17点
 
 理由
 
-- ニュース件数は 9 件で、情報量に応じて 2.7 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 2 件(純比率 -0.33)で、センチメントは 2.7 点です。
-- イベント後の平均株価反応が 5.52% とプラスです。
+- ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
+- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が 3.66% とプラスです。
 
 Evidence
 
@@ -168,12 +168,12 @@ Evidence
 
 使用データ
 
-- news_count: 9
+- news_count: 10
 - positive_count: 1
-- negative_count: 2
-- sentiment_net_ratio: -0.3300
-- event_count: 9
-- events_with_price_reaction: 6
+- negative_count: 0
+- sentiment_net_ratio: 1.0000
+- event_count: 10
+- events_with_price_reaction: 9
 
 ## Note
 

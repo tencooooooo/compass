@@ -6,9 +6,9 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: -5.01%
-- ニュース件数: 238
-- Event数: 238
+- 市場全体の1Mモメンタム平均: -1.35%
+- ニュース件数: 240
+- Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
 
 ### セクター構成
@@ -21,39 +21,39 @@
 
 ### 注目ニュース
 
-- 2026-11-08T07:46:39+00:00 / NVDA / Motley Fool: Why AT&T Stock Slumped in October
-- 2026-11-08T07:20:00+00:00 / NVDA / Motley Fool: If the Fed Raises Interest Rates in December, I'm Making This 1 Investing Move
-- 2026-11-08T07:14:12+00:00 / MSFT / MarketBeat: What Teradata (TDC) Said on Its Q3 Earnings Call
-- 2026-11-08T07:10:29+00:00 / NVDA / Simply Wall St.: NVIDIA And 2 More Grid Stocks To Watch
-- 2026-11-08T06:50:00+00:00 / META / The Telegraph: Banks ban AI from accounts over fears of rogue agents
+- 2026-11-10T03:50:47+00:00 / NVDA / Investing.com: Trump says FBI investigating Nvidia CEO Huang over Chinese scandal
+- 2026-11-10T03:45:56+00:00 / AMAT / Motley Fool: Applied Materials vs. Dell Technologies: Comparing Stable vs. Accelerating Revenue Between These Artificial Intelligence Companies
+- 2026-11-10T03:34:28+00:00 / GOOGL / Insider Monkey: Warby Parker’s (WRBY) Prospects Are Looking Brighter — Here’s Why
+- 2026-11-10T03:33:00+00:00 / TSLA / TheStreet: Elon Musk sends strong signal to Tesla stock investors
+- 2026-11-10T03:14:00+00:00 / GOOGL / Motley Fool: Anthropic's S-1 Says It Will Expand Its Data Center Footprint. Here's Who Could Pour the Concrete, Wire the Power, and Cool the Chips.
 
 ### 注目イベント
 
-- 2026-11-06T19:25:20+00:00 / QCOM: Qualcomm CEO: Its Data Center Ramp Is “All Supply Bound,” Not Demand Bound (株価反応: 5.52%, 出来高: 19.68M)
-- 2026-11-06T18:20:50+00:00 / QCOM: Qualcomm Rises 5% on Alphabet’s $548 Million Stake as CEO Sees a “Disconnect” on AI (株価反応: 5.52%, 出来高: 19.68M)
-- 2026-11-06T18:16:32+00:00 / QCOM: Qualcomm Faces Worst Day Since 2020 as Chips Crater (株価反応: 5.52%, 出来高: 19.68M)
-- 2026-11-06T18:14:22+00:00 / QCOM: What Does QUALCOMM (QCOM) Winning A Nationwide 5G Buildout Mean For Investors? (株価反応: 5.52%, 出来高: 19.68M)
-- 2026-11-06T17:33:19+00:00 / QCOM: AI is taking on more. How will it be powered? (株価反応: 5.52%, 出来高: 19.68M)
+- 2026-11-09T17:00:00+00:00 / AMD: Nvidia vs. AMD: Why Lisa Su's company is a great alternative for investors (株価反応: 13.26%, 出来高: 50.99M)
+- 2026-11-09T15:22:08+00:00 / AMD: Tech stocks rally as Nvidia stock and oil prices fall: AlphaCheck (株価反応: 13.26%, 出来高: 50.99M)
+- 2026-11-09T20:27:42+00:00 / AMAT: 4 Overlooked Tech Stocks That Pay Dividends and Have Room to Grow (株価反応: 11.37%, 出来高: 10.99M)
+- 2026-11-09T19:35:54+00:00 / AMAT: Micron Soars 5% as TSMC Sticks to the “Global Logic IC” Industry, Not Memory (株価反応: 11.37%, 出来高: 10.99M)
+- 2026-11-09T14:28:18+00:00 / AMAT: Stock Market Today: Nvidia Pressures Indexes to Maintain Rebound (株価反応: 11.37%, 出来高: 10.99M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 56.50 | 16.90 | 11.72 | -4.39% | 59 |
-| Consumer Cyclical | 6 | 55.17 | 83.01 | 9.02 | 10.22% | 60 |
-| Technology | 12 | 65.50 | 35.42 | 9.76 | -12.93% | 119 |
+| Communication Services | 6 | 58.33 | 16.90 | 12.10 | 0.76% | 60 |
+| Consumer Cyclical | 6 | 59.50 | 83.26 | 9.19 | 13.70% | 60 |
+| Technology | 12 | 67.75 | 35.82 | 10.00 | -9.92% | 120 |
 
 ## 市場トレンド
 
 | セクター | Momentum | News | Financial Health |
 | --- | --- | --- | --- |
-| Communication Services | Weak | High | Good |
+| Communication Services | Positive | High | Good |
 | Consumer Cyclical | Strong | High | Neutral |
-| Technology | Risk-Off | High | Good |
+| Technology | Weak | High | Good |
 
 ## 市場心理
 
-市場はややリスクオフ寄りと考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 238 件で、ポジティブなモメンタムのセクターは 1/3 です。
+市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 240 件で、ポジティブなモメンタムのセクターは 2/3 です。
 
 参照Knowledge: market_psychology.md
 
