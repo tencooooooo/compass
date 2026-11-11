@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: -1.35%
+- 市場全体の1Mモメンタム平均: -1.32%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-11-10T03:50:47+00:00 / NVDA / Investing.com: Trump says FBI investigating Nvidia CEO Huang over Chinese scandal
-- 2026-11-10T03:45:56+00:00 / AMAT / Motley Fool: Applied Materials vs. Dell Technologies: Comparing Stable vs. Accelerating Revenue Between These Artificial Intelligence Companies
-- 2026-11-10T03:34:28+00:00 / GOOGL / Insider Monkey: Warby Parker’s (WRBY) Prospects Are Looking Brighter — Here’s Why
-- 2026-11-10T03:33:00+00:00 / TSLA / TheStreet: Elon Musk sends strong signal to Tesla stock investors
-- 2026-11-10T03:14:00+00:00 / GOOGL / Motley Fool: Anthropic's S-1 Says It Will Expand Its Data Center Footprint. Here's Who Could Pour the Concrete, Wire the Power, and Cool the Chips.
+- 2026-11-11T01:25:50+00:00 / MSFT / Investor's Business Daily: Dow Jones Futures Rise, CoreWave Jumps After Stocks Fall On Nvidia, Surging Treasury Yields
+- 2026-11-11T01:25:50+00:00 / NVDA / Investor's Business Daily: Dow Jones Futures Rise, CoreWave Jumps After Stocks Fall On Nvidia, Surging Treasury Yields
+- 2026-11-11T01:25:00+00:00 / NVDA / Motley Fool: Meet the 1 Stock I'd 投資判断表現 With $500, Even If the Market Fell 5% Tomorrow
+- 2026-11-11T01:12:41+00:00 / NVDA / Investing.com: U.S. stock futures tick higher after Wall St slips on hot CPI, Nvidia losses
+- 2026-11-11T01:11:02+00:00 / NVDA / Motley Fool: Anthropic Is Reserving Up to 20% of Its IPO for Retail Investors, Far Above the Typical 5% to 10%
 
 ### 注目イベント
 
-- 2026-11-09T17:00:00+00:00 / AMD: Nvidia vs. AMD: Why Lisa Su's company is a great alternative for investors (株価反応: 13.26%, 出来高: 50.99M)
-- 2026-11-09T15:22:08+00:00 / AMD: Tech stocks rally as Nvidia stock and oil prices fall: AlphaCheck (株価反応: 13.26%, 出来高: 50.99M)
-- 2026-11-09T20:27:42+00:00 / AMAT: 4 Overlooked Tech Stocks That Pay Dividends and Have Room to Grow (株価反応: 11.37%, 出来高: 10.99M)
-- 2026-11-09T19:35:54+00:00 / AMAT: Micron Soars 5% as TSMC Sticks to the “Global Logic IC” Industry, Not Memory (株価反応: 11.37%, 出来高: 10.99M)
-- 2026-11-09T14:28:18+00:00 / AMAT: Stock Market Today: Nvidia Pressures Indexes to Maintain Rebound (株価反応: 11.37%, 出来高: 10.99M)
+- 2026-11-10T19:15:32+00:00 / NVDA: Chip stocks' slide nears $5 trillion as Nvidia hits most extreme 投資判断表現 level since 2019 (株価反応: -5.47%, 出来高: 426.60M)
+- 2026-11-10T18:46:26+00:00 / NVDA: Nvidia in the hot seat, Anthropic to test the IPO market, hotter-than-expected US inflation (株価反応: -5.47%, 出来高: 426.60M)
+- 2026-11-10T18:21:50+00:00 / NVDA: Alleged plot to spy on Jensen Huang: Why it's bullish for AI. (株価反応: -5.47%, 出来高: 426.60M)
+- 2026-11-10T18:17:05+00:00 / NVDA: Top strategist: Nvidia CEO Jensen Huang's affair highlights key risk for tech companies (株価反応: -5.47%, 出来高: 426.60M)
+- 2026-11-10T16:53:14+00:00 / NVDA: Goldman Sachs calls chip stocks 'oversold.' Here are the names it says to 投資判断表現. (株価反応: -5.47%, 出来高: 426.60M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 58.33 | 16.90 | 12.10 | 0.76% | 60 |
-| Consumer Cyclical | 6 | 59.50 | 83.26 | 9.19 | 13.70% | 60 |
-| Technology | 12 | 67.75 | 35.82 | 10.00 | -9.92% | 120 |
+| Communication Services | 6 | 58.50 | 17.31 | 11.72 | 0.20% | 60 |
+| Consumer Cyclical | 6 | 55.67 | 87.39 | 9.02 | 13.41% | 60 |
+| Technology | 12 | 66.08 | 37.35 | 9.76 | -9.44% | 120 |
 
 ## 市場トレンド
 

@@ -96,7 +96,7 @@ Evidence
 理由
 
 - PER はセクター内 42.86 パーセンタイル / 母数 15 で、中位レンジです。
-- Forward PER はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。
+- Forward PER はセクター内 13.33 パーセンタイル / 母数 16 で、相対的に割安寄りです。
 - PEG はセクター内 6.67 パーセンタイル / 母数 16 で、相対的に割安寄りです。
 - PBR はセクター内 93.33 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
@@ -108,14 +108,14 @@ Evidence
 
 使用データ
 
-- trailing_pe: 23.6024
-- forward_pe: 11.2173
-- peg_ratio: 0.2300
-- price_to_book: 18.8411
+- trailing_pe: 21.3515
+- forward_pe: 10.6033
+- peg_ratio: 0.2200
+- price_to_book: 17.8098
 - sector_peer_count: 16
 - trailing_pe_percentile: 42.8600
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 20.0000
+- forward_pe_percentile: 13.3300
 - forward_pe_peer_count: 16
 - peg_ratio_percentile: 6.6700
 - peg_ratio_peer_count: 16
@@ -128,11 +128,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -18.75pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -15.68pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -20.72pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -18.28pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 3.64 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは -21.75pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -21.87pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -25.43pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -22.99pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 3.11 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: -22.0734
-- 3M: -17.7610
-- 6M: -18.3930
-- 1Y: -4.7756
+- 1M: -25.3756
+- 3M: -24.5486
+- 6M: -23.3282
+- 1Y: -10.0214
 - benchmark: SPY
-- benchmark_returns: {'1M': -3.32, '3M': -2.08, '6M': 2.33, '1Y': 13.5}
-- excess_returns: {'1M': -18.75, '3M': -15.68, '6M': -20.72, '1Y': -18.28}
-- latest_volume: 459,116,500.0000
-- average_volume_30d: 126,135,630.0000
+- benchmark_returns: {'1M': -3.62, '3M': -2.68, '6M': 2.11, '1Y': 12.97}
+- excess_returns: {'1M': -21.75, '3M': -21.87, '6M': -25.43, '1Y': -22.99}
+- latest_volume: 426,599,700.0000
+- average_volume_30d: 137,092,550.0000
 
 ## News
 
@@ -158,8 +158,8 @@ Evidence
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 0 件、悪材料 4 件(純比率 -1.00)で、センチメントは 0.0 点です。
-- イベント後の平均株価反応が -4.27% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 0 件、悪材料 3 件(純比率 -1.00)で、センチメントは 0.0 点です。
+- イベント後の平均株価反応が -5.47% と弱く、注意が必要です。
 
 Evidence
 
@@ -171,10 +171,10 @@ Evidence
 
 - news_count: 10
 - positive_count: 0
-- negative_count: 4
+- negative_count: 3
 - sentiment_net_ratio: -1.0000
 - event_count: 10
-- events_with_price_reaction: 3
+- events_with_price_reaction: 5
 
 ## Note
 
