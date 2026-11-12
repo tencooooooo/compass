@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-61 / 100
+60 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 19/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 13/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
-- 1Mモメンタムは対SPYで +6.09pt と、市場並み以上です。
-- 3Mモメンタムは対SPYで -20.85pt と弱く、候補評価では注意点です。
-- 6Mモメンタムは対SPYで -16.73pt と弱く、候補評価では注意点です。
-- 1Yモメンタムは対SPYで -67.16pt と弱く、候補評価では注意点です。
+- 1Mモメンタムは対SPYで -8.01pt と、市場を小幅に下回っています。
+- 3Mモメンタムは対SPYで -15.44pt と弱く、候補評価では注意点です。
+- 6Mモメンタムは対SPYで -34.74pt と弱く、候補評価では注意点です。
+- 1Yモメンタムは対SPYで -58.68pt と弱く、候補評価では注意点です。
 
 ## Strengths
 
@@ -33,7 +33,7 @@
 
 ## Watch Points
 
-- 注意材料になり得るニュース表現が 1 件あります。
+- TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Technology セクター全体の需要変化と競争環境を確認する必要があります。
@@ -47,7 +47,7 @@ High
 
 ## Signal Strength
 
-Moderate(シグナル充足率: 61.15%)
+Moderate(シグナル充足率: 60.35%)
 
 ## Evidence
 
@@ -67,19 +67,19 @@ Moderate(シグナル充足率: 61.15%)
 ## Metrics
 
 - scoring_total: 67.0
-- signal_earned_points: 61.15
+- signal_earned_points: 60.35
 - signal_max_points: 100.0
 - weak_signals: ['free_cash_flow']
 - scoring_signal_strength: Strong
 - growth_score: 19.0
 - financial_health_score: 13.0
 - valuation_score: 14.0
-- news_score: 15.0
-- momentum: {'1m': 5.462569800761604, '3m': -17.662566953467774, '6m': -0.8229659071050338, '1y': -50.3321818233609}
+- news_score: 17.0
+- momentum: {'1m': -10.34915669082464, '3m': -17.51707889604902, '6m': -31.8596596883423, '1y': -45.97944737120898}
 - benchmark: SPY
-- excess_momentum: {'1m': 6.09, '3m': -20.85, '6m': -16.73, '1y': -67.16}
+- excess_momentum: {'1m': -8.01, '3m': -15.44, '6m': -34.74, '1y': -58.68}
 - positive_news: 3
-- watch_news: 1
+- watch_news: 0
 - event_count: 10
-- events_with_reaction: 8
-- sector_average_score: 68.5
+- events_with_reaction: 5
+- sector_average_score: 68.41666666666667

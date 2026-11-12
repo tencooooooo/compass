@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Netflix, Inc.
-- Total Score: 52 / 100
+- Total Score: 58 / 100
 - Confidence: High
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 52 点を獲得し、シグナル充足率は 52.0% です。
+- データが確認できた 100 点満点のうち 58 点を獲得し、シグナル充足率は 58.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -96,7 +96,7 @@ Evidence
 
 - PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
-- PEG はセクター内 50.00 パーセンタイル / 母数 10 で、中位レンジです。
+- PEG はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
 - PBR はセクター内 100.00 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -107,16 +107,16 @@ Evidence
 
 使用データ
 
-- trailing_pe: 18.2832
-- forward_pe: 16.7739
+- trailing_pe: 18.6532
+- forward_pe: 17.1133
 - peg_ratio: 1.0100
-- price_to_book: 8.8699
+- price_to_book: 9.0494
 - sector_peer_count: 10
 - trailing_pe_percentile: 66.6700
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 66.6700
 - forward_pe_peer_count: 10
-- peg_ratio_percentile: 50.0000
+- peg_ratio_percentile: 44.4400
 - peg_ratio_peer_count: 10
 - price_to_book_percentile: 100
 - price_to_book_peer_count: 10
@@ -127,11 +127,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -6.79pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -12.07pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -29.94pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -55.65pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.63 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -6.06pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -15.43pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -29.17pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -55.08pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.69 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -140,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: -10.4093
-- 3M: -14.7554
-- 6M: -27.8348
-- 1Y: -42.6816
+- 1M: -8.4019
+- 3M: -17.5102
+- 6M: -26.2905
+- 1Y: -42.3786
 - benchmark: SPY
-- benchmark_returns: {'1M': -3.62, '3M': -2.68, '6M': 2.11, '1Y': 12.97}
-- excess_returns: {'1M': -6.79, '3M': -12.07, '6M': -29.94, '1Y': -55.65}
-- latest_volume: 27,242,800.0000
-- average_volume_30d: 42,945,653.3333
+- benchmark_returns: {'1M': -2.34, '3M': -2.08, '6M': 2.88, '1Y': 12.7}
+- excess_returns: {'1M': -6.06, '3M': -15.43, '6M': -29.17, '1Y': -55.08}
+- latest_volume: 29,441,400.0000
+- average_volume_30d: 42,714,906.6667
 
 ## News
 
-11点
+17点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 1 件(純比率 +0.67)で、センチメントは 6.7 点です。
-- イベント後の平均株価反応が -1.08% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が 2.02% とプラスです。
 
 Evidence
 
@@ -169,9 +169,9 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 5
-- negative_count: 1
-- sentiment_net_ratio: 0.6700
+- positive_count: 2
+- negative_count: 0
+- sentiment_net_ratio: 1.0000
 - event_count: 10
 - events_with_price_reaction: 9
 
