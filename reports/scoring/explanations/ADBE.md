@@ -5,20 +5,21 @@
 ## Summary
 
 - Company: Adobe Inc.
-- Total Score: 63 / 100
-- Confidence: High
+- Total Score: 62 / 100
+- Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
 
-High
+Medium
 
 理由
 
 - 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 0 件です。
-- 主要データが比較的そろっており、説明可能性は高めです。
+- 欠損または計算不可の項目数は 1 件です。
+- 主要データは一定程度ありますが、欠損や未取得項目が残っています。
+- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
@@ -27,7 +28,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 63 点を獲得し、シグナル充足率は 63.0% です。
+- データが確認できた 100 点満点のうち 62 点を獲得し、シグナル充足率は 62.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -106,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 13.2663
-- forward_pe: 8.6693
+- trailing_pe: 13.3188
+- forward_pe: 8.7036
 - peg_ratio: 0.5700
-- price_to_book: 7.8971
+- price_to_book: 7.9283
 - sector_peer_count: 16
 - trailing_pe_percentile: 7.1400
 - trailing_pe_peer_count: 15
@@ -151,13 +152,13 @@ Evidence
 
 ## News
 
-12点
+11点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 1 件(純比率 +0.33)で、センチメントは 5.3 点です。
-- イベント後の平均株価反応が 0.38% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 1 件(純比率 +0.60)で、センチメントは 6.4 点です。
+- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
 
 Evidence
 
@@ -168,11 +169,15 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 2
+- positive_count: 4
 - negative_count: 1
-- sentiment_net_ratio: 0.3300
+- sentiment_net_ratio: 0.6000
 - event_count: 10
-- events_with_price_reaction: 8
+- events_with_price_reaction: 0
+
+欠損・計算不可
+
+- event_price_reaction
 
 ## Note
 

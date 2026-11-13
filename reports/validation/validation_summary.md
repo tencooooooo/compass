@@ -4,11 +4,11 @@
 
 ## Overview
 
-- 生成日時: 2026-11-11T21:37:37.391602-05:00
+- 生成日時: 2026-11-12T21:18:48.079167-05:00
 - 対象期間: 1w, 1m, 3m, 6m, 1y
-- 検証対象数: 3930
+- 検証対象数: 3990
 - 期間完了済み: 1606
-- 期間未完了: 2324
+- 期間未完了: 2384
 - ベンチマーク: SPY
 - 平均騰落率(期間完了分): 1.18%
 - ユニーク銘柄数(期間完了分): 18
@@ -21,7 +21,7 @@
 - Good: 162
 - Neutral: 210
 - Poor: 665
-- Pending(期間未完了): 2324
+- Pending(期間未完了): 2384
 
 ## Validation Table
 
@@ -3957,6 +3957,66 @@
 | TXN | 1y | 82 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
 | TXN | 3m | 82 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
 | TXN | 6m | 82 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| AAPL | 1m | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AAPL | 1w | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AAPL | 1y | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AAPL | 3m | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AAPL | 6m | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMAT | 1m | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMAT | 1w | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMAT | 1y | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMAT | 3m | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMAT | 6m | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMD | 1m | 78 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMD | 1w | 78 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMD | 1y | 78 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMD | 3m | 78 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMD | 6m | 78 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMZN | 1m | 65 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMZN | 1w | 65 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 65 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 65 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 65 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| CMCSA | 1m | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Moderate |
+| CMCSA | 1w | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Moderate |
+| CMCSA | 1y | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Moderate |
+| CMCSA | 3m | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Moderate |
+| CMCSA | 6m | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Moderate |
+| CRM | 1m | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| CRM | 1w | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| CRM | 1y | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| CRM | 3m | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| CRM | 6m | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| DIS | 1m | 67 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| DIS | 1w | 67 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| DIS | 1y | 67 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| DIS | 3m | 67 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| DIS | 6m | 67 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 1m | 62 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 1w | 62 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 1y | 62 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 3m | 62 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 6m | 62 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 1m | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 1w | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 1y | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 3m | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 6m | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| NOW | 1m | 63 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Moderate |
+| NOW | 1w | 63 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Moderate |
+| NOW | 1y | 63 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Moderate |
+| NOW | 3m | 63 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Moderate |
+| NOW | 6m | 63 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Moderate |
+| QCOM | 1m | 66 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| QCOM | 1w | 66 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| QCOM | 1y | 66 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| QCOM | 3m | 66 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| QCOM | 6m | 66 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| TXN | 1m | 74 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| TXN | 1w | 74 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| TXN | 1y | 74 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| TXN | 3m | 74 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| TXN | 6m | 74 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
 
 ## 良かった特徴
 

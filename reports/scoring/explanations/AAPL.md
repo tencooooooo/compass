@@ -5,30 +5,31 @@
 ## Summary
 
 - Company: Apple Inc.
-- Total Score: 65 / 100
-- Confidence: High
-- Signal Strength: Strong
+- Total Score: 63 / 100
+- Confidence: Medium
+- Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
 
-High
+Medium
 
 理由
 
 - 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 0 件です。
-- 主要データが比較的そろっており、説明可能性は高めです。
+- 欠損または計算不可の項目数は 1 件です。
+- 主要データは一定程度ありますが、欠損や未取得項目が残っています。
+- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
 
-Strong
+Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 65 点を獲得し、シグナル充足率は 65.0% です。
-- シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
+- データが確認できた 100 点満点のうち 63 点を獲得し、シグナル充足率は 63.0% です。
+- シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
@@ -107,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 39.6024
-- forward_pe: 33.7235
-- peg_ratio: 2.8100
-- price_to_book: 46.1079
+- trailing_pe: 39.5189
+- forward_pe: 33.6524
+- peg_ratio: 2.8700
+- price_to_book: 46.0106
 - sector_peer_count: 16
 - trailing_pe_percentile: 71.4300
 - trailing_pe_peer_count: 15
@@ -131,7 +132,7 @@ Evidence
 - 3M の対SPY超過リターンが +18.58pt と、市場を大きく上回っています。
 - 6M の対SPY超過リターンが +16.22pt と、市場を大きく上回っています。
 - 1Y の対SPY超過リターンが +19.65pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.77 倍で、市場関心はやや弱めです。
+- 直近出来高が30日平均の 0.78 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -147,18 +148,18 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': -2.34, '3M': -2.08, '6M': 2.88, '1Y': 12.7}
 - excess_returns: {'1M': 6.55, '3M': 18.58, '6M': 16.22, '1Y': 19.65}
-- latest_volume: 34,284,700.0000
-- average_volume_30d: 44,284,360.0000
+- latest_volume: 34,453,500.0000
+- average_volume_30d: 44,289,986.6667
 
 ## News
 
-15点
+13点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。
-- イベント後の平均株価反応が 2.04% とプラスです。
+- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
 
 Evidence
 
@@ -170,10 +171,14 @@ Evidence
 
 - news_count: 10
 - positive_count: 3
-- negative_count: 1
-- sentiment_net_ratio: 0.5000
+- negative_count: 0
+- sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 7
+- events_with_price_reaction: 0
+
+欠損・計算不可
+
+- event_price_reaction
 
 ## Note
 

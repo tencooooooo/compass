@@ -111,10 +111,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 7.9177
-- forward_pe: 7.1042
-- peg_ratio: 1.3400
-- price_to_book: 0.9597
+- trailing_pe: 7.8481
+- forward_pe: 7.0417
+- peg_ratio: 1.3500
+- price_to_book: 0.9512
 - sector_peer_count: 10
 - trailing_pe_percentile: 0
 - trailing_pe_peer_count: 10
@@ -162,7 +162,7 @@ Evidence
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
 - ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 1 件(純比率 +0.33)で、センチメントは 5.3 点です。
-- イベント後の平均株価反応が 1.07% とプラスです。
+- イベント後の平均株価反応が 1.09% とプラスです。
 
 Evidence
 
@@ -177,7 +177,7 @@ Evidence
 - negative_count: 1
 - sentiment_net_ratio: 0.3300
 - event_count: 10
-- events_with_price_reaction: 7
+- events_with_price_reaction: 1
 
 ## Note
 

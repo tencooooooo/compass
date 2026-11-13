@@ -7,20 +7,20 @@
     "country": "United States",
     "currency": "USD",
     "exchange": "NYQ",
-    "market_cap": 350498324480,
-    "enterprise_value": 411601338368,
+    "market_cap": 347455389696,
+    "enterprise_value": 408558403584,
     "shares_outstanding": 997689626,
     "beta": 0.947,
-    "trailing_pe": 24.584324,
-    "forward_pe": 22.027956,
+    "trailing_pe": 24.37089,
+    "forward_pe": 21.89728,
     "peg_ratio": 1.85,
-    "price_to_book": 21.0997,
+    "price_to_book": 20.916517,
     "eps": 14.29,
-    "forward_eps": 15.94837,
-    "dividend_yield": 2.66,
+    "forward_eps": 15.90426,
+    "dividend_yield": 2.65,
     "52_week_high": 397.63,
     "52_week_low": 277.15,
-    "average_volume": 4692321,
+    "average_volume": 4680698,
     "employees": 470000,
     "website": "https://www.homedepot.com",
     "business_summary": "The Home Depot, Inc. operates as a home improvement retailer in the United States and internationally. It sells various building materials, home improvement products, lawn and garden products, and décor products, as well as facilities maintenance, repair, and operations products. The company also offers installation services for flooring, water heaters, baths, garage doors, cabinets, cabinet makeovers, countertops, sheds, furnaces and central air systems, windows, and window coverings. In addition, it provides tool and equipment rental services. The company serves consumers, such as do-it-yourself homeowners and do-it-for-me customers; and professional renovators/remodelers, general contractors, homebuilders, maintenance professionals, handymen, property managers, building service contractors and specialty tradespeople, such as electricians, landscapers, insulation installers, plumbers, painters, pool contractors, roofers, and wallboard and ceiling installers. It sells its products through websites and its mobile applications, including homedepot.com; homedepot.ca and homedepot.com.mx; blinds.com, justblinds.com, and americanblinds.com for custom window coverings; constructionresourcesusa.com or design-oriented surfaces, appliances, and architectural specialty products; thecompanystore.com, an online site for textiles and décor products; hdsupply.com for maintenance, repair, and operations products and related services; and srsdistribution.com, heritagelandscapesupplygroup.com, heritagepoolsupplygroup.com, and gms.com for roofing and building materials, landscape, and pool products; and The Home Depot stores. The Home Depot, Inc. was incorporated in 1978 and is headquartered in Atlanta, Georgia."
@@ -1873,6 +1873,30 @@
         "scoring": "Moderate",
         "discovery": "Moderate"
       }
+    },
+    {
+      "date": "2026-11-12",
+      "timestamp": "2026-11-12T21:19:41.214905-05:00",
+      "score": 57,
+      "discovery_score": 54,
+      "discovery_status": "Not Selected",
+      "validation_results": {
+        "Excellent": 0,
+        "Good": 0,
+        "Neutral": 0,
+        "Poor": 0,
+        "Pending": 10
+      },
+      "event_count": 10,
+      "news_count": 10,
+      "confidence": {
+        "scoring": "Medium",
+        "discovery": "Medium"
+      },
+      "signal_strength": {
+        "scoring": "Moderate",
+        "discovery": "Moderate"
+      }
     }
   ],
   "Scores": {
@@ -1882,11 +1906,12 @@
     "max_score": 100,
     "confidence": {
       "level": "Medium",
-      "completeness_score": 95.0,
+      "completeness_score": 90.0,
       "reasons": [
         "利用可能な主要データ領域は5領域中 5 領域です。",
-        "欠損または計算不可の項目数は 1 件です。",
+        "欠損または計算不可の項目数は 2 件です。",
         "主要データは一定程度ありますが、欠損や未取得項目が残っています。",
+        "イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。",
         "Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。"
       ]
     },
@@ -1982,10 +2007,10 @@
         ],
         "missing_data": [],
         "metrics": {
-          "trailing_pe": 24.584324,
-          "forward_pe": 22.027956,
+          "trailing_pe": 24.37089,
+          "forward_pe": 21.89728,
           "peg_ratio": 1.85,
-          "price_to_book": 21.0997,
+          "price_to_book": 20.916517,
           "sector_peer_count": 10,
           "trailing_pe_percentile": 55.56,
           "trailing_pe_peer_count": 10,
@@ -2039,22 +2064,24 @@
         "max_score": 20,
         "reasons": [
           "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-          "ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 1 件(純比率 +0.60)で、センチメントは 6.4 点です。",
-          "イベント後の平均株価反応が 0.00% と中立圏です。"
+          "ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
+          "イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。"
         ],
         "evidence": [
           "News",
           "Events",
           "Knowledge"
         ],
-        "missing_data": [],
+        "missing_data": [
+          "event_price_reaction"
+        ],
         "metrics": {
           "news_count": 10,
-          "positive_count": 4,
-          "negative_count": 1,
-          "sentiment_net_ratio": 0.6,
+          "positive_count": 2,
+          "negative_count": 0,
+          "sentiment_net_ratio": 1.0,
           "event_count": 10,
-          "events_with_price_reaction": 9
+          "events_with_price_reaction": 0
         }
       }
     },
@@ -2072,9 +2099,9 @@
     "company": "The Home Depot, Inc.",
     "sector": "Consumer Cyclical",
     "industry": "Home Improvement Retail",
-    "discovery_score": 60,
+    "discovery_score": 54,
     "max_score": 100,
-    "status": "Watch Candidate",
+    "status": "Not Selected",
     "discovery_reasons": [
       "Scoring EngineのGrowthが 10/20 で、成長性の基礎条件が確認できます。",
       "Financial Healthが 13/20 で、継続調査に必要な財務基盤を評価しています。",
@@ -2092,7 +2119,7 @@
       "フリーキャッシュフローがプラスで、現金創出力があります。"
     ],
     "watch_points": [
-      "注意材料になり得るニュース表現が 1 件あります。",
+      "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
       "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
       "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
       "Consumer Cyclical セクター全体の需要変化と競争環境を確認する必要があります。",
@@ -2101,7 +2128,7 @@
     ],
     "confidence": "Medium",
     "signal_strength": "Moderate",
-    "signal_rate": 62.01,
+    "signal_rate": 58.32,
     "evidence": [
       "Company",
       "Events",
@@ -2113,12 +2140,13 @@
       "Scoring"
     ],
     "missing_data": [
-      "research_and_development"
+      "research_and_development",
+      "event_price_reaction"
     ],
     "metrics": {
       "scoring_total": 57.0,
-      "signal_earned_points": 60.15,
-      "signal_max_points": 97.0,
+      "signal_earned_points": 53.65,
+      "signal_max_points": 92.0,
       "weak_signals": [],
       "scoring_signal_strength": "Moderate",
       "growth_score": 10.0,
@@ -2138,17 +2166,17 @@
         "6m": 14.97,
         "1y": -15.18
       },
-      "positive_news": 4,
-      "watch_news": 1,
+      "positive_news": 2,
+      "watch_news": 0,
       "event_count": 10,
-      "events_with_reaction": 9,
-      "sector_average_score": 55.833333333333336
+      "events_with_reaction": 0,
+      "sector_average_score": 55.0
     }
   },
   "Validation": [
     {
       "discovery_date": "2026-11-09",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "HD",
       "company": "The Home Depot, Inc.",
@@ -2206,7 +2234,7 @@
     },
     {
       "discovery_date": "2026-11-09",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "HD",
       "company": "The Home Depot, Inc.",
@@ -2264,7 +2292,7 @@
     },
     {
       "discovery_date": "2026-11-09",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "HD",
       "company": "The Home Depot, Inc.",
@@ -2322,7 +2350,7 @@
     },
     {
       "discovery_date": "2026-11-09",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "HD",
       "company": "The Home Depot, Inc.",
@@ -2380,7 +2408,7 @@
     },
     {
       "discovery_date": "2026-11-09",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "HD",
       "company": "The Home Depot, Inc.",
@@ -2438,7 +2466,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "HD",
       "company": "The Home Depot, Inc.",
@@ -2497,7 +2525,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "HD",
       "company": "The Home Depot, Inc.",
@@ -2556,7 +2584,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "HD",
       "company": "The Home Depot, Inc.",
@@ -2615,7 +2643,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "HD",
       "company": "The Home Depot, Inc.",
@@ -2674,7 +2702,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "HD",
       "company": "The Home Depot, Inc.",
@@ -2736,6 +2764,114 @@
     "count": 10,
     "latest": [
       {
+        "event_id": "HD_a637f44240c5faad",
+        "ticker": "HD",
+        "published_at": "2026-11-12T20:07:00+00:00",
+        "title": "Top Research Reports for Home Depot, Gilead & TotalEnergies",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/top-research-reports-home-depot-200700776.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "HD_c4f1d2044a7c80c0",
+        "ticker": "HD",
+        "published_at": "2026-11-12T17:35:02+00:00",
+        "title": "3 Unstoppable Dow Stocks to Buy in November and Hold for the Next Decade",
+        "url": "https://www.fool.com/investing/2026/11/12/3-unstoppable-dow-stocks-to-buy-in-november-and-hold-for-the-next-decade/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "HD_85ba30ca35448511",
+        "ticker": "HD",
+        "published_at": "2026-11-12T16:31:01+00:00",
+        "title": "TD Cowen Names Top Hardlines Specialty Retail Stocks Amid Inflation",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/td-cowen-names-top-hardlines-163101436.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "HD_e8baa2f81151c818",
+        "ticker": "HD",
+        "published_at": "2026-11-12T15:45:57+00:00",
+        "title": "What Will Decide Home Depot Stock Over The Next Six Months?",
+        "url": "https://www.trefis.com/stock/hd/articles/624753/what-will-decide-home-depot-stock-over-the-next-six-months/2026-11-12",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "HD_b898e34c9f415c58",
+        "ticker": "HD",
+        "published_at": "2026-11-12T15:40:00+00:00",
+        "title": "Home Depot Stock Rallies 20% in a Month: Is It Still a Buy?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-stock-rallies-20-154000818.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "HD_ed83edaecd87d8a9",
+        "ticker": "HD",
+        "published_at": "2026-11-12T13:15:02+00:00",
+        "title": "What Analyst Projections for Key Metrics Reveal About Home Depot (HD) Q3 Earnings",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-projections-key-metrics-reveal-131502863.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "HD_9d7f45d8740f233a",
+        "ticker": "HD",
+        "published_at": "2026-11-12T13:09:31+00:00",
+        "title": "Does The Rise In Target Stock Change Anything?",
+        "url": "https://www.trefis.com/stock/tgt/articles/624558/does-the-rise-in-target-stock-change-anything/2026-11-12",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "HD_9320fc0d23937cc0",
+        "ticker": "HD",
+        "published_at": "2026-11-12T12:43:14+00:00",
+        "title": "Home Depot or Lowe’s: Only One Gets My Dividend Dollars for the Next 20 Years",
+        "url": "https://www.tikr.com/blog/home-depot-or-lowes-only-one-gets-my-dividend-dollars-for-the-next-20-years?ref=yahoofinancedividend&tlnk=yf-261112-7vvh56f8",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "HD_225932fe0f603568",
+        "ticker": "HD",
+        "published_at": "2026-11-12T11:27:00+00:00",
+        "title": "Walmart & 3 Retail Stocks With High Probability of an Earnings Beat",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-3-retail-stocks-high-112700312.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
         "event_id": "HD_15e98189a05bed3b",
         "ticker": "HD",
         "published_at": "2026-11-12T01:09:06+00:00",
@@ -2746,118 +2882,118 @@
         "previous_close": null,
         "price_change_percent": null,
         "volume": null
-      },
-      {
-        "event_id": "HD_6b6943f402436198",
-        "ticker": "HD",
-        "published_at": "2026-11-11T20:35:05+00:00",
-        "title": "Can Lowe's Stock Keep Surging From Here?",
-        "url": "https://www.trefis.com/stock/low/articles/624282/can-lowes-stock-keep-surging-from-here/2026-11-11",
-        "source": "STORY",
-        "close_price": 351.3099975585937,
-        "previous_close": 351.0,
-        "price_change_percent": 0.08831839276173593,
-        "volume": 3221900.0
-      },
-      {
-        "event_id": "HD_c73d1bfb61af9257",
-        "ticker": "HD",
-        "published_at": "2026-11-11T20:09:01+00:00",
-        "title": "Williams-Sonoma (WSM) Earnings Expected to Grow: Should You Buy?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/williams-sonoma-wsm-earnings-expected-200901354.html",
-        "source": "STORY",
-        "close_price": 351.3099975585937,
-        "previous_close": 351.0,
-        "price_change_percent": 0.08831839276173593,
-        "volume": 3221900.0
-      },
-      {
-        "event_id": "HD_dbb4d765adbe0150",
-        "ticker": "HD",
-        "published_at": "2026-11-11T19:55:41+00:00",
-        "title": "McDonald’s or Home Depot: I Can Only Pick One Dividend Stock for the Next 20 Years. Here’s Mine",
-        "url": "https://www.tikr.com/blog/mcdonalds-or-home-depot-i-can-only-pick-one-dividend-stock-for-the-next-20-years-heres-mine?ref=yahoofinancedividend&tlnk=yf-261111-x4v987x6",
-        "source": "STORY",
-        "close_price": 351.3099975585937,
-        "previous_close": 351.0,
-        "price_change_percent": 0.08831839276173593,
-        "volume": 3221900.0
-      },
-      {
-        "event_id": "HD_49d5b8f5a71be233",
-        "ticker": "HD",
-        "published_at": "2026-11-11T19:51:03+00:00",
-        "title": "What Are Costco Stock Bulls Not Worried About?",
-        "url": "https://www.trefis.com/stock/cost/articles/624310/what-are-costco-stock-bulls-not-worried-about/2026-11-11",
-        "source": "STORY",
-        "close_price": 351.3099975585937,
-        "previous_close": 351.0,
-        "price_change_percent": 0.08831839276173593,
-        "volume": 3221900.0
-      },
-      {
-        "event_id": "HD_63e97dfb094705d6",
-        "ticker": "HD",
-        "published_at": "2026-11-11T17:09:00+00:00",
-        "title": "What's Lowe's Probability of an Earnings Beat This Season?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/whats-lowes-probability-earnings-beat-170900893.html",
-        "source": "STORY",
-        "close_price": 351.3099975585937,
-        "previous_close": 351.0,
-        "price_change_percent": 0.08831839276173593,
-        "volume": 3221900.0
-      },
-      {
-        "event_id": "HD_3ff75d88505aea58",
-        "ticker": "HD",
-        "published_at": "2026-11-11T17:06:10+00:00",
-        "title": "Jim Cramer’s Top 5 Dividend Stocks for Safe, Consistent Returns",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-top-5-dividend-170610506.html",
-        "source": "STORY",
-        "close_price": 351.3099975585937,
-        "previous_close": 351.0,
-        "price_change_percent": 0.08831839276173593,
-        "volume": 3221900.0
-      },
-      {
-        "event_id": "HD_6deda6f6f9021062",
-        "ticker": "HD",
-        "published_at": "2026-11-11T13:11:38+00:00",
-        "title": "4 Dividend Stocks That Can Thrive Under a Democratic Congress",
-        "url": "https://247wallst.com/investing/2026/11/11/4-dividend-stocks-that-can-thrive-under-a-democratic-congress/",
-        "source": "STORY",
-        "close_price": 351.3099975585937,
-        "previous_close": 351.0,
-        "price_change_percent": 0.08831839276173593,
-        "volume": 3221900.0
-      },
-      {
-        "event_id": "HD_0ca5469e9a06f8ad",
-        "ticker": "HD",
-        "published_at": "2026-11-11T10:20:02+00:00",
-        "title": "Home Depot vs. Uber: One Stock Is Betting on a Housing Recovery, the Other on the Future of Transportation. Which Is the Better Buy for 2027?",
-        "url": "https://www.fool.com/coverage/better-buy/2026/11/11/home-depot-vs-uber-one-stock-is-betting-on-a-housing-recovery-the-other-on-the-future-of-transportation-which-is-the-better-buy-for-2027/",
-        "source": "STORY",
-        "close_price": 351.3099975585937,
-        "previous_close": 351.0,
-        "price_change_percent": 0.08831839276173593,
-        "volume": 3221900.0
-      },
-      {
-        "event_id": "HD_e1a16fdbaa85ba88",
-        "ticker": "HD",
-        "published_at": "2026-11-10T18:57:00+00:00",
-        "title": "Can Home Depot Sustain Comparable Sales Growth Amid Uneven Demand?",
-        "url": "https://finance.yahoo.com/real-estate/articles/home-depot-sustain-comparable-sales-185700670.html",
-        "source": "STORY",
-        "close_price": 351.0,
-        "previous_close": 353.4200134277344,
-        "price_change_percent": -0.6847414792001324,
-        "volume": 3743400.0
       }
     ],
-    "history_count": 211,
+    "history_count": 220,
     "history": [
+      {
+        "event_id": "HD_a637f44240c5faad",
+        "ticker": "HD",
+        "published_at": "2026-11-12T20:07:00+00:00",
+        "title": "Top Research Reports for Home Depot, Gilead & TotalEnergies",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/top-research-reports-home-depot-200700776.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "HD_c4f1d2044a7c80c0",
+        "ticker": "HD",
+        "published_at": "2026-11-12T17:35:02+00:00",
+        "title": "3 Unstoppable Dow Stocks to Buy in November and Hold for the Next Decade",
+        "url": "https://www.fool.com/investing/2026/11/12/3-unstoppable-dow-stocks-to-buy-in-november-and-hold-for-the-next-decade/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "HD_85ba30ca35448511",
+        "ticker": "HD",
+        "published_at": "2026-11-12T16:31:01+00:00",
+        "title": "TD Cowen Names Top Hardlines Specialty Retail Stocks Amid Inflation",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/td-cowen-names-top-hardlines-163101436.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "HD_e8baa2f81151c818",
+        "ticker": "HD",
+        "published_at": "2026-11-12T15:45:57+00:00",
+        "title": "What Will Decide Home Depot Stock Over The Next Six Months?",
+        "url": "https://www.trefis.com/stock/hd/articles/624753/what-will-decide-home-depot-stock-over-the-next-six-months/2026-11-12",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "HD_b898e34c9f415c58",
+        "ticker": "HD",
+        "published_at": "2026-11-12T15:40:00+00:00",
+        "title": "Home Depot Stock Rallies 20% in a Month: Is It Still a Buy?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-stock-rallies-20-154000818.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "HD_ed83edaecd87d8a9",
+        "ticker": "HD",
+        "published_at": "2026-11-12T13:15:02+00:00",
+        "title": "What Analyst Projections for Key Metrics Reveal About Home Depot (HD) Q3 Earnings",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-projections-key-metrics-reveal-131502863.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "HD_9d7f45d8740f233a",
+        "ticker": "HD",
+        "published_at": "2026-11-12T13:09:31+00:00",
+        "title": "Does The Rise In Target Stock Change Anything?",
+        "url": "https://www.trefis.com/stock/tgt/articles/624558/does-the-rise-in-target-stock-change-anything/2026-11-12",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "HD_9320fc0d23937cc0",
+        "ticker": "HD",
+        "published_at": "2026-11-12T12:43:14+00:00",
+        "title": "Home Depot or Lowe’s: Only One Gets My Dividend Dollars for the Next 20 Years",
+        "url": "https://www.tikr.com/blog/home-depot-or-lowes-only-one-gets-my-dividend-dollars-for-the-next-20-years?ref=yahoofinancedividend&tlnk=yf-261112-7vvh56f8",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "HD_225932fe0f603568",
+        "ticker": "HD",
+        "published_at": "2026-11-12T11:27:00+00:00",
+        "title": "Walmart & 3 Retail Stocks With High Probability of an Earnings Beat",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-3-retail-stocks-high-112700312.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
       {
         "event_id": "HD_15e98189a05bed3b",
         "ticker": "HD",
@@ -5397,6 +5533,105 @@
     "latest": [
       {
         "ticker": "HD",
+        "title": "Top Research Reports for Home Depot, Gilead & TotalEnergies",
+        "summary": "Today's Research Daily features new research reports on 16 major stocks, including The Home Depot, Inc. (HD), Gilead Sciences, Inc. (GILD), TotalEnergies SE (TTE) as well as two micro-cap stocks, Key Tronic Corporation (KTCC) and iPower Inc. (IPW).",
+        "published_at": "2026-11-12T20:07:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/top-research-reports-home-depot-200700776.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "HD",
+        "title": "3 Unstoppable Dow Stocks to Buy in November and Hold for the Next Decade",
+        "summary": "Three Dow giants pair market dominance with the financial strength to keep growing for the next decade.",
+        "published_at": "2026-11-12T17:35:02+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/11/12/3-unstoppable-dow-stocks-to-buy-in-november-and-hold-for-the-next-decade/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "HD",
+        "title": "TD Cowen Names Top Hardlines Specialty Retail Stocks Amid Inflation",
+        "summary": "Investing.com -- TD Cowen has identified its top picks in the hardlines specialty retail sector as October Consumer Price Index data shows renewed inflation pressures across multiple categories. The firm maintains buy ratings on three retailers positioned to navigate the current pricing environment in auto aftermarket, home improvement, and furniture segments.",
+        "published_at": "2026-11-12T16:31:01+00:00",
+        "publisher": "Investing.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/td-cowen-names-top-hardlines-163101436.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "HD",
+        "title": "What Will Decide Home Depot Stock Over The Next Six Months?",
+        "summary": "For questions about this article or underlying research, email help@trefis.com.",
+        "published_at": "2026-11-12T15:45:57+00:00",
+        "publisher": "Trefis",
+        "url": "https://www.trefis.com/stock/hd/articles/624753/what-will-decide-home-depot-stock-over-the-next-six-months/2026-11-12",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "HD",
+        "title": "Home Depot Stock Rallies 20% in a Month: Is It Still a Buy?",
+        "summary": "HD's expanding Pro business, digital sales growth and investments support growth, while housing challenges and rising costs remain key concerns.",
+        "published_at": "2026-11-12T15:40:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-stock-rallies-20-154000818.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "HD",
+        "title": "What Analyst Projections for Key Metrics Reveal About Home Depot (HD) Q3 Earnings",
+        "summary": "Besides Wall Street's top-and-bottom-line estimates for Home Depot (HD), review projections for some of its key metrics to gain a deeper understanding of how the company might have fared during the quarter ended October 2026.",
+        "published_at": "2026-11-12T13:15:02+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-projections-key-metrics-reveal-131502863.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "HD",
+        "title": "Does The Rise In Target Stock Change Anything?",
+        "summary": "For questions about this article or underlying research, email help@trefis.com.",
+        "published_at": "2026-11-12T13:09:31+00:00",
+        "publisher": "Trefis",
+        "url": "https://www.trefis.com/stock/tgt/articles/624558/does-the-rise-in-target-stock-change-anything/2026-11-12",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "HD",
+        "title": "Home Depot or Lowe’s: Only One Gets My Dividend Dollars for the Next 20 Years",
+        "summary": "Key TakeawaysHome Depot and Lowe’s both kept paying through a rough 2026, and today Home Depot yields 2. 8% and Lowe’s 2.",
+        "published_at": "2026-11-12T12:43:14+00:00",
+        "publisher": "TIKR",
+        "url": "https://www.tikr.com/blog/home-depot-or-lowes-only-one-gets-my-dividend-dollars-for-the-next-20-years?ref=yahoofinancedividend&tlnk=yf-261112-7vvh56f8",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "HD",
+        "title": "Walmart & 3 Retail Stocks With High Probability of an Earnings Beat",
+        "summary": "Walmart, Dollar General, Costco and Home Depot show strong earnings beat potential as value pricing, digital expansion and resilient demand fuel optimism.",
+        "published_at": "2026-11-12T11:27:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-3-retail-stocks-high-112700312.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "HD",
         "title": "Home Depot (HD) Stock Looks Overvalued On Its 23% Run",
         "summary": "Home Depot has packed a lot of movement into the past few years, and the share price now asks a simple question of investors. Do the cash flows from this retailer support where the stock currently trades, or has sentiment run ahead of what the business is likely to generate? Over the past 3 years the stock has returned 23.1%, which makes the link between Home Depot's cash generation and today’s valuation especially important for anyone buying in now. Recent political momentum around housing...",
         "published_at": "2026-11-12T01:09:06+00:00",
@@ -5405,109 +5640,109 @@
         "language": null,
         "source": "STORY",
         "related_tickers": null
-      },
-      {
-        "ticker": "HD",
-        "title": "Can Lowe's Stock Keep Surging From Here?",
-        "summary": "For questions about this article or underlying research, email help@trefis.com.",
-        "published_at": "2026-11-11T20:35:05+00:00",
-        "publisher": "Trefis",
-        "url": "https://www.trefis.com/stock/low/articles/624282/can-lowes-stock-keep-surging-from-here/2026-11-11",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "HD",
-        "title": "Williams-Sonoma (WSM) Earnings Expected to Grow: Should You Buy?",
-        "summary": "Williams-Sonoma (WSM) possesses the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.",
-        "published_at": "2026-11-11T20:09:01+00:00",
-        "publisher": "Zacks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/williams-sonoma-wsm-earnings-expected-200901354.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "HD",
-        "title": "McDonald’s or Home Depot: I Can Only Pick One Dividend Stock for the Next 20 Years. Here’s Mine",
-        "summary": "Key TakeawaysMcDonald’s and Home Depot both yield 2. 8%, so $10,000 in either pays $280 a year today.",
-        "published_at": "2026-11-11T19:55:41+00:00",
-        "publisher": "TIKR",
-        "url": "https://www.tikr.com/blog/mcdonalds-or-home-depot-i-can-only-pick-one-dividend-stock-for-the-next-20-years-heres-mine?ref=yahoofinancedividend&tlnk=yf-261111-x4v987x6",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "HD",
-        "title": "What Are Costco Stock Bulls Not Worried About?",
-        "summary": "For questions about this article or underlying research, email help@trefis.com.",
-        "published_at": "2026-11-11T19:51:03+00:00",
-        "publisher": "Trefis",
-        "url": "https://www.trefis.com/stock/cost/articles/624310/what-are-costco-stock-bulls-not-worried-about/2026-11-11",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "HD",
-        "title": "What's Lowe's Probability of an Earnings Beat This Season?",
-        "summary": "Lowe's heads into Q3 earnings with an Earnings ESP of +0.59%, fueled by Pro demand and digital growth, but housing weakness and cost pressures pose risks.",
-        "published_at": "2026-11-11T17:09:00+00:00",
-        "publisher": "Zacks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/whats-lowes-probability-earnings-beat-170900893.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "HD",
-        "title": "Jim Cramer’s Top 5 Dividend Stocks for Safe, Consistent Returns",
-        "summary": "From 2000 through 2009, dividends earned S&P 500 investors an annualized 1.8%, according to Hartford Funds. Even with those payments, the index posted a negative total return for the decade. Over the longer stretch from 1940 through 2025, Hartford found that dividend income accounted for an average of 33% of the index’s total return. For […]",
-        "published_at": "2026-11-11T17:06:10+00:00",
-        "publisher": "Insider Monkey",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-top-5-dividend-170610506.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "HD",
-        "title": "4 Dividend Stocks That Can Thrive Under a Democratic Congress",
-        "summary": "Washington is split, gridlock looms, and income investors need payouts that survive without help from Congress. One chipmaker, one chemicals company that already cut its dividend, and two household names make the case, but each carries a risk worth knowing.",
-        "published_at": "2026-11-11T13:11:38+00:00",
-        "publisher": "24/7 Wall St.",
-        "url": "https://247wallst.com/investing/2026/11/11/4-dividend-stocks-that-can-thrive-under-a-democratic-congress/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "HD",
-        "title": "Home Depot vs. Uber: One Stock Is Betting on a Housing Recovery, the Other on the Future of Transportation. Which Is the Better Buy for 2027?",
-        "summary": "Strong earnings growth, attractive valuations, and an uncertain economic outlook are creating two very different opportunities for investors heading into 2027.",
-        "published_at": "2026-11-11T10:20:02+00:00",
-        "publisher": "Motley Fool",
-        "url": "https://www.fool.com/coverage/better-buy/2026/11/11/home-depot-vs-uber-one-stock-is-betting-on-a-housing-recovery-the-other-on-the-future-of-transportation-which-is-the-better-buy-for-2027/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "HD",
-        "title": "Can Home Depot Sustain Comparable Sales Growth Amid Uneven Demand?",
-        "summary": "HD's 1.7% comps growth, robust Pro demand and digital gains signal resilience, but housing market pressures and weak transactions cloud its outlook.",
-        "published_at": "2026-11-10T18:57:00+00:00",
-        "publisher": "Zacks",
-        "url": "https://finance.yahoo.com/real-estate/articles/home-depot-sustain-comparable-sales-185700670.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
       }
     ],
-    "history_count": 211,
+    "history_count": 220,
     "history": [
+      {
+        "ticker": "HD",
+        "title": "Top Research Reports for Home Depot, Gilead & TotalEnergies",
+        "summary": "Today's Research Daily features new research reports on 16 major stocks, including The Home Depot, Inc. (HD), Gilead Sciences, Inc. (GILD), TotalEnergies SE (TTE) as well as two micro-cap stocks, Key Tronic Corporation (KTCC) and iPower Inc. (IPW).",
+        "published_at": "2026-11-12T20:07:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/top-research-reports-home-depot-200700776.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "HD",
+        "title": "3 Unstoppable Dow Stocks to Buy in November and Hold for the Next Decade",
+        "summary": "Three Dow giants pair market dominance with the financial strength to keep growing for the next decade.",
+        "published_at": "2026-11-12T17:35:02+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/11/12/3-unstoppable-dow-stocks-to-buy-in-november-and-hold-for-the-next-decade/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "HD",
+        "title": "TD Cowen Names Top Hardlines Specialty Retail Stocks Amid Inflation",
+        "summary": "Investing.com -- TD Cowen has identified its top picks in the hardlines specialty retail sector as October Consumer Price Index data shows renewed inflation pressures across multiple categories. The firm maintains buy ratings on three retailers positioned to navigate the current pricing environment in auto aftermarket, home improvement, and furniture segments.",
+        "published_at": "2026-11-12T16:31:01+00:00",
+        "publisher": "Investing.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/td-cowen-names-top-hardlines-163101436.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "HD",
+        "title": "What Will Decide Home Depot Stock Over The Next Six Months?",
+        "summary": "For questions about this article or underlying research, email help@trefis.com.",
+        "published_at": "2026-11-12T15:45:57+00:00",
+        "publisher": "Trefis",
+        "url": "https://www.trefis.com/stock/hd/articles/624753/what-will-decide-home-depot-stock-over-the-next-six-months/2026-11-12",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "HD",
+        "title": "Home Depot Stock Rallies 20% in a Month: Is It Still a Buy?",
+        "summary": "HD's expanding Pro business, digital sales growth and investments support growth, while housing challenges and rising costs remain key concerns.",
+        "published_at": "2026-11-12T15:40:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-stock-rallies-20-154000818.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "HD",
+        "title": "What Analyst Projections for Key Metrics Reveal About Home Depot (HD) Q3 Earnings",
+        "summary": "Besides Wall Street's top-and-bottom-line estimates for Home Depot (HD), review projections for some of its key metrics to gain a deeper understanding of how the company might have fared during the quarter ended October 2026.",
+        "published_at": "2026-11-12T13:15:02+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-projections-key-metrics-reveal-131502863.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "HD",
+        "title": "Does The Rise In Target Stock Change Anything?",
+        "summary": "For questions about this article or underlying research, email help@trefis.com.",
+        "published_at": "2026-11-12T13:09:31+00:00",
+        "publisher": "Trefis",
+        "url": "https://www.trefis.com/stock/tgt/articles/624558/does-the-rise-in-target-stock-change-anything/2026-11-12",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "HD",
+        "title": "Home Depot or Lowe’s: Only One Gets My Dividend Dollars for the Next 20 Years",
+        "summary": "Key TakeawaysHome Depot and Lowe’s both kept paying through a rough 2026, and today Home Depot yields 2. 8% and Lowe’s 2.",
+        "published_at": "2026-11-12T12:43:14+00:00",
+        "publisher": "TIKR",
+        "url": "https://www.tikr.com/blog/home-depot-or-lowes-only-one-gets-my-dividend-dollars-for-the-next-20-years?ref=yahoofinancedividend&tlnk=yf-261112-7vvh56f8",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "HD",
+        "title": "Walmart & 3 Retail Stocks With High Probability of an Earnings Beat",
+        "summary": "Walmart, Dollar General, Costco and Home Depot show strong earnings beat potential as value pricing, digital expansion and resilient demand fuel optimism.",
+        "published_at": "2026-11-12T11:27:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-3-retail-stocks-high-112700312.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
       {
         "ticker": "HD",
         "title": "Home Depot (HD) Stock Looks Overvalued On Its 23% Run",
@@ -7839,5 +8074,5 @@
     "scoring": "Moderate",
     "discovery": "Moderate"
   },
-  "Timestamp": "2026-11-11T21:38:24.836211-05:00"
+  "Timestamp": "2026-11-12T21:19:41.214905-05:00"
 }

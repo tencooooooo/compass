@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-11-12T02:31:16+00:00 / NVDA / Investor's Business Daily: Dow Jones Futures Rise, Techs Fall As Nvidia May Oust CEO Huang After CoreWave Leads Rally
-- 2026-11-12T02:31:16+00:00 / AMD / Investor's Business Daily: Dow Jones Futures Rise, Techs Fall As Nvidia May Oust CEO Huang After CoreWave Leads Rally
-- 2026-11-12T02:26:06+00:00 / NVDA / 24/7 Wall St.: Warren Buffett’s 1991 Playbook Points The Path Forward As Nvidia Reportedly Prepares To Oust Jensen Huang. Buffett Said He Could Forgive Losses, But There Was One Thing He Would Be Ruthless About
-- 2026-11-12T02:26:06+00:00 / MCD / 24/7 Wall St.: Warren Buffett’s 1991 Playbook Points The Path Forward As Nvidia Reportedly Prepares To Oust Jensen Huang. Buffett Said He Could Forgive Losses, But There Was One Thing He Would Be Ruthless About
-- 2026-11-12T02:21:13+00:00 / NVDA / Reuters: Nvidia board meets to decide CEO Huang's future as leadership crisis deepens
+- 2026-11-13T02:04:02+00:00 / NVDA / Motley Fool: Should You 投資判断表現 Alphabet Stock Now That Google Will Let Customers Run Its AI Chips in Their Own Data Centers?
+- 2026-11-13T02:04:02+00:00 / GOOGL / Motley Fool: Should You 投資判断表現 Alphabet Stock Now That Google Will Let Customers Run Its AI Chips in Their Own Data Centers?
+- 2026-11-13T01:58:58+00:00 / NVDA / Reuters: Stocks recover from Nvidia whiplash, dollar climbs with US yields
+- 2026-11-13T01:55:24+00:00 / NVDA / Investor's Business Daily: Dow Jones Futures Rise After Market Weathers Nvidia CEO Huang's Exit, Surging Yields; SpaceX-Tesla Merger Deal Close
+- 2026-11-13T01:55:24+00:00 / AMD / Investor's Business Daily: Dow Jones Futures Rise After Market Weathers Nvidia CEO Huang's Exit, Surging Yields; SpaceX-Tesla Merger Deal Close
 
 ### 注目イベント
 
-- 2026-11-11T20:19:47+00:00 / ORCL: Oracle Stock Just Scored a New $325 Price Target (株価反応: 8.82%, 出来高: 38.49M)
-- 2026-11-11T19:45:01+00:00 / ORCL: Why Oracle Stock Is Up Today (株価反応: 8.82%, 出来高: 38.49M)
-- 2026-11-11T19:24:09+00:00 / ORCL: 3 Possible Paths Forward for AI Stocks (Bull Case, Bear Case, Base Case) -- and How to Invest for Each (株価反応: 8.82%, 出来高: 38.49M)
-- 2026-11-11T19:02:30+00:00 / ORCL: Billionaire venture capitalist Vinod Khosla says judge AI by usage, not stock prices (株価反応: 8.82%, 出来高: 38.49M)
-- 2026-11-11T18:40:03+00:00 / ORCL: Are AI Bulls Back? Looks Like It Thanks To Anthropic, CoreWeave, Nvidia (株価反応: 8.82%, 出来高: 38.49M)
+- 2026-11-11T20:50:02+00:00 / NOW: Docusign vs. ServiceNow: Which Technology Stock Is a Better 投資判断表現 for 2027? (株価反応: 3.16%, 出来高: 14.60M)
+- 2026-11-11T17:20:00+00:00 / NOW: ServiceNow Drops 29% in a Month: Should You 投資判断表現 or Fold the Stock? (株価反応: 3.16%, 出来高: 14.60M)
+- 2026-11-11T15:12:46+00:00 / NOW: 3 US AI Software Stocks Worth Watching As Enterprise Spending Shifts (株価反応: 3.16%, 出来高: 14.60M)
+- 2026-11-11T19:55:41+00:00 / MCD: McDonald’s or Home Depot: I Can Only Pick One Dividend Stock for the Next 20 Years. Here’s Mine (株価反応: -2.61%, 出来高: 6.86M)
+- 2026-11-11T18:59:58+00:00 / NFLX: Clarion Partners’ loan on Netflix-occupied Hollywood campus hits market (株価反応: 2.02%, 出来高: 29.56M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 58.50 | 17.44 | 11.72 | -0.16% | 60 |
-| Consumer Cyclical | 6 | 55.83 | 89.22 | 9.02 | 12.52% | 60 |
-| Technology | 12 | 68.42 | 38.87 | 9.76 | -7.24% | 120 |
+| Communication Services | 6 | 58.00 | 17.29 | 11.72 | -0.16% | 60 |
+| Consumer Cyclical | 6 | 55.00 | 90.30 | 9.02 | 12.52% | 60 |
+| Technology | 12 | 65.83 | 39.36 | 9.76 | -7.24% | 120 |
 
 ## 市場トレンド
 

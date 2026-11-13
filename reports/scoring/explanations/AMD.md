@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Advanced Micro Devices, Inc.
-- Total Score: 76 / 100
+- Total Score: 74 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -28,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 76 点を獲得し、シグナル充足率は 76.0% です。
+- データが確認できた 100 点満点のうち 74 点を獲得し、シグナル充足率は 74.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -109,10 +109,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 118.1410
-- forward_pe: 31.2559
-- peg_ratio: 0.4600
-- price_to_book: 13.2587
+- trailing_pe: 125.0641
+- forward_pe: 33.0852
+- peg_ratio: 0.5000
+- price_to_book: 14.0356
 - sector_peer_count: 16
 - trailing_pe_percentile: 100
 - trailing_pe_peer_count: 15
@@ -133,7 +133,7 @@ Evidence
 - 3M の対SPY超過リターンが +16.55pt と、市場を大きく上回っています。
 - 6M の対SPY超過リターンが +21.23pt と、市場を大きく上回っています。
 - 1Y の対SPY超過リターンが +113.91pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 1.62 倍で、市場関心の高まりが確認できます。
+- 直近出来高が30日平均の 1.66 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -149,17 +149,17 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': -2.34, '3M': -2.08, '6M': 2.88, '1Y': 12.7}
 - excess_returns: {'1M': -6.35, '3M': 16.55, '6M': 21.23, '1Y': 113.91}
-- latest_volume: 44,707,100.0000
-- average_volume_30d: 27,522,666.6667
+- latest_volume: 45,872,800.0000
+- average_volume_30d: 27,561,523.3333
 
 ## News
 
-11点
+9点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。
+- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 1 件(純比率 +0.00)で、センチメントは 4.0 点です。
 - イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
 
 Evidence
@@ -171,9 +171,9 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 3
+- positive_count: 1
 - negative_count: 1
-- sentiment_net_ratio: 0.5000
+- sentiment_net_ratio: 0.0000
 - event_count: 10
 - events_with_price_reaction: 0
 

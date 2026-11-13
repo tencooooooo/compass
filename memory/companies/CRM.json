@@ -7,20 +7,20 @@
     "country": "United States",
     "currency": "USD",
     "exchange": "NYQ",
-    "market_cap": 179422232576,
-    "enterprise_value": 210395234304,
+    "market_cap": 179060113408,
+    "enterprise_value": 209810898944,
     "shares_outstanding": 823000000,
     "beta": 1.233,
-    "trailing_pe": 19.946018,
-    "forward_pe": 13.612667,
-    "peg_ratio": 0.76,
-    "price_to_book": 4.6751156,
+    "trailing_pe": 19.905764,
+    "forward_pe": 13.585194,
+    "peg_ratio": 0.78,
+    "price_to_book": 4.6656804,
     "eps": 10.93,
     "forward_eps": 16.01523,
-    "dividend_yield": 0.82,
+    "dividend_yield": 0.81,
     "52_week_high": 269.11,
     "52_week_low": 146.32,
-    "average_volume": 11417810,
+    "average_volume": 11315000,
     "employees": 83334,
     "website": "https://www.salesforce.com",
     "business_summary": "Salesforce, Inc. provides customer relationship management technology services that connect companies and customers together in the United States, Europe, and the Asia Pacific. The company offers Agentforce, which enables customers to build, deploy, and manage enterprise-grade, autonomous AI agents at scale, enabling humans and agents to work together; Agentforce Sales, an integrated platform that brings together the power of humans with AI agents to help sales teams for selling, managing, and automating entire sales processes; Agentforce Service, which enables companies in every industry to bring all of their customer, employee, IT, and field service needs onto one integrated AI-powered platform; Data 360, a data engine that gives AI agents their context and serves as the foundation for how customers unify service offerings, making their data actionable for both humans and agents; Informatica, an AI-powered data management platform that enables customers to discover, integrate, govern, and deliver trusted data at scale across hybrid and multi-cloud environments; and Slack, a conversational interface for the agentic enterprise where people and agents work together, connecting knowledge, actions, and data in real time. It also provides marketing platforms; commerce services, which empower shopping experiences across various customer touchpoints; integration and analytics solutions; Salesforce Starter, a suite for small and medium-sized businesses that brings sales, service, marketing, and commerce together; and a field service solution that enables companies to connect service agents, dispatchers, and mobile employees through one centralized platform to schedule and dispatch work, as well as track and manage jobs. It serves financial services, healthcare and life sciences, manufacturing, automotive, and government sectors. Salesforce, Inc. was incorporated in 1999 and is headquartered in San Francisco, California."
@@ -1873,29 +1873,54 @@
         "scoring": "Strong",
         "discovery": "Strong"
       }
+    },
+    {
+      "date": "2026-11-12",
+      "timestamp": "2026-11-12T21:19:41.214905-05:00",
+      "score": 72,
+      "discovery_score": 71,
+      "discovery_status": "Watch Candidate",
+      "validation_results": {
+        "Excellent": 22,
+        "Good": 3,
+        "Neutral": 10,
+        "Poor": 35,
+        "Pending": 150
+      },
+      "event_count": 10,
+      "news_count": 10,
+      "confidence": {
+        "scoring": "Medium",
+        "discovery": "Medium"
+      },
+      "signal_strength": {
+        "scoring": "Strong",
+        "discovery": "Strong"
+      }
     }
   ],
   "Scores": {
     "ticker": "CRM",
     "company_name": "Salesforce, Inc.",
-    "total_score": 73,
+    "total_score": 72,
     "max_score": 100,
     "confidence": {
-      "level": "High",
-      "completeness_score": 100,
+      "level": "Medium",
+      "completeness_score": 95.0,
       "reasons": [
         "利用可能な主要データ領域は5領域中 5 領域です。",
-        "欠損または計算不可の項目数は 0 件です。",
-        "主要データが比較的そろっており、説明可能性は高めです。",
+        "欠損または計算不可の項目数は 1 件です。",
+        "主要データは一定程度ありますが、欠損や未取得項目が残っています。",
+        "イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。",
         "Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。"
       ]
     },
     "signal_strength": {
       "level": "Strong",
-      "signal_rate": 73.0,
+      "signal_rate": 72.0,
       "evaluated_max_score": 100,
       "reasons": [
-        "データが確認できた 100 点満点のうち 73 点を獲得し、シグナル充足率は 73.0% です。",
+        "データが確認できた 100 点満点のうち 72 点を獲得し、シグナル充足率は 72.0% です。",
         "シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。"
       ]
     },
@@ -1980,10 +2005,10 @@
         ],
         "missing_data": [],
         "metrics": {
-          "trailing_pe": 19.946018,
-          "forward_pe": 13.612667,
-          "peg_ratio": 0.76,
-          "price_to_book": 4.6751156,
+          "trailing_pe": 19.905764,
+          "forward_pe": 13.585194,
+          "peg_ratio": 0.78,
+          "price_to_book": 4.6656804,
           "sector_peer_count": 16,
           "trailing_pe_percentile": 28.57,
           "trailing_pe_peer_count": 15,
@@ -2014,7 +2039,7 @@
           "1M": -8.403008470900819,
           "3M": 8.453857836701445,
           "6M": 32.0291886326381,
-          "1Y": -9.040120890189987,
+          "1Y": -9.04012668105428,
           "benchmark": "SPY",
           "benchmark_returns": {
             "1M": -2.34,
@@ -2033,26 +2058,28 @@
         }
       },
       "News": {
-        "score": 14,
+        "score": 13,
         "max_score": 20,
         "reasons": [
           "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-          "ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 2 件(純比率 +0.20)で、センチメントは 4.8 点です。",
-          "イベント後の平均株価反応が 1.77% とプラスです。"
+          "ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
+          "イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。"
         ],
         "evidence": [
           "News",
           "Events",
           "Knowledge"
         ],
-        "missing_data": [],
+        "missing_data": [
+          "event_price_reaction"
+        ],
         "metrics": {
           "news_count": 10,
-          "positive_count": 3,
-          "negative_count": 2,
-          "sentiment_net_ratio": 0.2,
+          "positive_count": 4,
+          "negative_count": 0,
+          "sentiment_net_ratio": 1.0,
           "event_count": 10,
-          "events_with_price_reaction": 8
+          "events_with_price_reaction": 0
         }
       }
     },
@@ -2070,13 +2097,13 @@
     "company": "Salesforce, Inc.",
     "sector": "Technology",
     "industry": "Software - Application",
-    "discovery_score": 75,
+    "discovery_score": 71,
     "max_score": 100,
-    "status": "Primary Candidate",
+    "status": "Watch Candidate",
     "discovery_reasons": [
       "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
       "Financial Healthが 16/20 で、継続調査に必要な財務基盤を評価しています。",
-      "Newsスコアが 14/20 で、材料の量と市場関心を候補評価に反映しています。",
+      "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
       "売上が取得でき、事業規模の確認ができます。",
       "EPSがプラスで、利益を伴う成長候補として確認できます。",
       "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -2091,7 +2118,7 @@
       "純利益率が高く、売上から利益を残す力があります。"
     ],
     "watch_points": [
-      "注意材料になり得るニュース表現が 2 件あります。",
+      "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
       "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
       "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
       "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -2099,9 +2126,9 @@
       "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
       "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
     ],
-    "confidence": "High",
+    "confidence": "Medium",
     "signal_strength": "Strong",
-    "signal_rate": 75.45,
+    "signal_rate": 74.53,
     "evidence": [
       "Company",
       "Events",
@@ -2112,22 +2139,24 @@
       "Prices",
       "Scoring"
     ],
-    "missing_data": [],
+    "missing_data": [
+      "event_price_reaction"
+    ],
     "metrics": {
-      "scoring_total": 73.0,
-      "signal_earned_points": 75.45,
-      "signal_max_points": 100.0,
+      "scoring_total": 72.0,
+      "signal_earned_points": 70.8,
+      "signal_max_points": 95.0,
       "weak_signals": [],
       "scoring_signal_strength": "Strong",
       "growth_score": 17.0,
       "financial_health_score": 16.0,
       "valuation_score": 14.0,
-      "news_score": 14.0,
+      "news_score": 13.0,
       "momentum": {
         "1m": -8.403008470900819,
         "3m": 8.453857836701445,
         "6m": 32.0291886326381,
-        "1y": -9.040120890189987
+        "1y": -9.04012668105428
       },
       "benchmark": "SPY",
       "excess_momentum": {
@@ -2136,17 +2165,17 @@
         "6m": 29.15,
         "1y": -21.74
       },
-      "positive_news": 3,
-      "watch_news": 2,
+      "positive_news": 4,
+      "watch_news": 0,
       "event_count": 10,
-      "events_with_reaction": 8,
-      "sector_average_score": 68.41666666666667
+      "events_with_reaction": 0,
+      "sector_average_score": 65.83333333333333
     }
   },
   "Validation": [
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -2206,7 +2235,7 @@
     },
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -2266,7 +2295,7 @@
     },
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -2326,7 +2355,7 @@
     },
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -2386,7 +2415,7 @@
     },
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -2446,7 +2475,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -2505,7 +2534,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -2564,7 +2593,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -2623,7 +2652,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -2682,7 +2711,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -2741,7 +2770,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "CRM",
@@ -2800,7 +2829,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "CRM",
@@ -2859,7 +2888,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "CRM",
@@ -2918,7 +2947,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "CRM",
@@ -2977,7 +3006,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "CRM",
@@ -3036,7 +3065,7 @@
     },
     {
       "discovery_date": "2026-08-20",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "CRM",
@@ -3095,7 +3124,7 @@
     },
     {
       "discovery_date": "2026-08-20",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "CRM",
@@ -3154,7 +3183,7 @@
     },
     {
       "discovery_date": "2026-08-20",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "CRM",
@@ -3213,7 +3242,7 @@
     },
     {
       "discovery_date": "2026-08-20",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "CRM",
@@ -3272,7 +3301,7 @@
     },
     {
       "discovery_date": "2026-08-20",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "CRM",
@@ -3331,7 +3360,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "CRM",
@@ -3390,7 +3419,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "CRM",
@@ -3449,7 +3478,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "CRM",
@@ -3508,7 +3537,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "CRM",
@@ -3567,7 +3596,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "CRM",
@@ -3626,7 +3655,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -3686,7 +3715,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -3746,7 +3775,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -3806,7 +3835,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -3866,7 +3895,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -3926,7 +3955,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -3985,7 +4014,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -4044,7 +4073,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -4103,7 +4132,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -4162,7 +4191,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -4221,7 +4250,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -4280,7 +4309,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -4339,7 +4368,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -4398,7 +4427,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -4457,7 +4486,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -4516,7 +4545,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -4575,7 +4604,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -4634,7 +4663,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -4693,7 +4722,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -4752,7 +4781,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -4811,7 +4840,7 @@
     },
     {
       "discovery_date": "2026-08-31",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -4870,7 +4899,7 @@
     },
     {
       "discovery_date": "2026-08-31",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -4929,7 +4958,7 @@
     },
     {
       "discovery_date": "2026-08-31",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -4988,7 +5017,7 @@
     },
     {
       "discovery_date": "2026-08-31",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -5047,7 +5076,7 @@
     },
     {
       "discovery_date": "2026-08-31",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -5106,7 +5135,7 @@
     },
     {
       "discovery_date": "2026-09-01",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -5164,7 +5193,7 @@
     },
     {
       "discovery_date": "2026-09-01",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -5222,7 +5251,7 @@
     },
     {
       "discovery_date": "2026-09-01",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -5280,7 +5309,7 @@
     },
     {
       "discovery_date": "2026-09-01",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -5338,7 +5367,7 @@
     },
     {
       "discovery_date": "2026-09-01",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -5396,7 +5425,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -5456,7 +5485,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -5516,7 +5545,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -5576,7 +5605,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -5636,7 +5665,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -5696,7 +5725,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -5755,7 +5784,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -5814,7 +5843,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -5873,7 +5902,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -5932,7 +5961,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -5991,7 +6020,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -6051,7 +6080,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -6111,7 +6140,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -6171,7 +6200,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -6231,7 +6260,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -6291,7 +6320,7 @@
     },
     {
       "discovery_date": "2026-09-07",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -6351,7 +6380,7 @@
     },
     {
       "discovery_date": "2026-09-07",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -6411,7 +6440,7 @@
     },
     {
       "discovery_date": "2026-09-07",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -6471,7 +6500,7 @@
     },
     {
       "discovery_date": "2026-09-07",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -6531,7 +6560,7 @@
     },
     {
       "discovery_date": "2026-09-07",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -6591,7 +6620,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -6651,7 +6680,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -6711,7 +6740,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -6771,7 +6800,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -6831,7 +6860,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -6891,7 +6920,7 @@
     },
     {
       "discovery_date": "2026-09-09",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -6951,7 +6980,7 @@
     },
     {
       "discovery_date": "2026-09-09",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -7011,7 +7040,7 @@
     },
     {
       "discovery_date": "2026-09-09",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -7071,7 +7100,7 @@
     },
     {
       "discovery_date": "2026-09-09",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -7131,7 +7160,7 @@
     },
     {
       "discovery_date": "2026-09-09",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -7191,7 +7220,7 @@
     },
     {
       "discovery_date": "2026-09-10",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -7251,7 +7280,7 @@
     },
     {
       "discovery_date": "2026-09-10",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -7311,7 +7340,7 @@
     },
     {
       "discovery_date": "2026-09-10",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -7371,7 +7400,7 @@
     },
     {
       "discovery_date": "2026-09-10",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -7431,7 +7460,7 @@
     },
     {
       "discovery_date": "2026-09-10",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -7491,7 +7520,7 @@
     },
     {
       "discovery_date": "2026-09-11",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -7550,7 +7579,7 @@
     },
     {
       "discovery_date": "2026-09-11",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -7609,7 +7638,7 @@
     },
     {
       "discovery_date": "2026-09-11",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -7668,7 +7697,7 @@
     },
     {
       "discovery_date": "2026-09-11",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -7727,7 +7756,7 @@
     },
     {
       "discovery_date": "2026-09-11",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -7786,7 +7815,7 @@
     },
     {
       "discovery_date": "2026-09-14",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -7846,7 +7875,7 @@
     },
     {
       "discovery_date": "2026-09-14",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -7906,7 +7935,7 @@
     },
     {
       "discovery_date": "2026-09-14",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -7966,7 +7995,7 @@
     },
     {
       "discovery_date": "2026-09-14",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -8026,7 +8055,7 @@
     },
     {
       "discovery_date": "2026-09-14",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -8086,7 +8115,7 @@
     },
     {
       "discovery_date": "2026-09-15",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -8145,7 +8174,7 @@
     },
     {
       "discovery_date": "2026-09-15",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -8204,7 +8233,7 @@
     },
     {
       "discovery_date": "2026-09-15",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -8263,7 +8292,7 @@
     },
     {
       "discovery_date": "2026-09-15",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -8322,7 +8351,7 @@
     },
     {
       "discovery_date": "2026-09-15",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -8381,7 +8410,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -8441,7 +8470,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -8501,7 +8530,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -8561,7 +8590,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -8621,7 +8650,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -8681,7 +8710,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -8741,7 +8770,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -8801,7 +8830,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -8861,7 +8890,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -8921,7 +8950,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -8981,7 +9010,7 @@
     },
     {
       "discovery_date": "2026-09-18",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -9041,7 +9070,7 @@
     },
     {
       "discovery_date": "2026-09-18",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -9101,7 +9130,7 @@
     },
     {
       "discovery_date": "2026-09-18",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -9161,7 +9190,7 @@
     },
     {
       "discovery_date": "2026-09-18",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -9221,7 +9250,7 @@
     },
     {
       "discovery_date": "2026-09-18",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -9281,7 +9310,7 @@
     },
     {
       "discovery_date": "2026-09-21",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -9341,7 +9370,7 @@
     },
     {
       "discovery_date": "2026-09-21",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -9401,7 +9430,7 @@
     },
     {
       "discovery_date": "2026-09-21",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -9461,7 +9490,7 @@
     },
     {
       "discovery_date": "2026-09-21",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -9521,7 +9550,7 @@
     },
     {
       "discovery_date": "2026-09-21",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -9581,7 +9610,7 @@
     },
     {
       "discovery_date": "2026-09-22",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -9640,7 +9669,7 @@
     },
     {
       "discovery_date": "2026-09-22",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -9699,7 +9728,7 @@
     },
     {
       "discovery_date": "2026-09-22",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -9758,7 +9787,7 @@
     },
     {
       "discovery_date": "2026-09-22",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -9817,7 +9846,7 @@
     },
     {
       "discovery_date": "2026-09-22",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -9876,7 +9905,7 @@
     },
     {
       "discovery_date": "2026-09-23",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -9936,7 +9965,7 @@
     },
     {
       "discovery_date": "2026-09-23",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -9996,7 +10025,7 @@
     },
     {
       "discovery_date": "2026-09-23",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -10056,7 +10085,7 @@
     },
     {
       "discovery_date": "2026-09-23",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -10116,7 +10145,7 @@
     },
     {
       "discovery_date": "2026-09-23",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -10176,7 +10205,7 @@
     },
     {
       "discovery_date": "2026-09-24",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -10234,7 +10263,7 @@
     },
     {
       "discovery_date": "2026-09-24",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -10292,7 +10321,7 @@
     },
     {
       "discovery_date": "2026-09-24",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -10350,7 +10379,7 @@
     },
     {
       "discovery_date": "2026-09-24",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -10408,7 +10437,7 @@
     },
     {
       "discovery_date": "2026-09-24",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -10466,7 +10495,7 @@
     },
     {
       "discovery_date": "2026-09-25",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -10525,7 +10554,7 @@
     },
     {
       "discovery_date": "2026-09-25",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -10584,7 +10613,7 @@
     },
     {
       "discovery_date": "2026-09-25",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -10643,7 +10672,7 @@
     },
     {
       "discovery_date": "2026-09-25",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -10702,7 +10731,7 @@
     },
     {
       "discovery_date": "2026-09-25",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -10761,7 +10790,7 @@
     },
     {
       "discovery_date": "2026-09-28",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -10821,7 +10850,7 @@
     },
     {
       "discovery_date": "2026-09-28",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -10881,7 +10910,7 @@
     },
     {
       "discovery_date": "2026-09-28",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -10941,7 +10970,7 @@
     },
     {
       "discovery_date": "2026-09-28",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -11001,7 +11030,7 @@
     },
     {
       "discovery_date": "2026-09-28",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -11061,7 +11090,7 @@
     },
     {
       "discovery_date": "2026-09-30",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -11121,7 +11150,7 @@
     },
     {
       "discovery_date": "2026-09-30",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -11181,7 +11210,7 @@
     },
     {
       "discovery_date": "2026-09-30",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -11241,7 +11270,7 @@
     },
     {
       "discovery_date": "2026-09-30",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -11301,7 +11330,7 @@
     },
     {
       "discovery_date": "2026-09-30",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -11361,7 +11390,7 @@
     },
     {
       "discovery_date": "2026-10-20",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -11420,7 +11449,7 @@
     },
     {
       "discovery_date": "2026-10-20",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -11479,7 +11508,7 @@
     },
     {
       "discovery_date": "2026-10-20",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -11538,7 +11567,7 @@
     },
     {
       "discovery_date": "2026-10-20",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -11597,7 +11626,7 @@
     },
     {
       "discovery_date": "2026-10-20",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -11656,7 +11685,7 @@
     },
     {
       "discovery_date": "2026-10-21",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -11715,7 +11744,7 @@
     },
     {
       "discovery_date": "2026-10-21",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -11774,7 +11803,7 @@
     },
     {
       "discovery_date": "2026-10-21",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -11833,7 +11862,7 @@
     },
     {
       "discovery_date": "2026-10-21",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -11892,7 +11921,7 @@
     },
     {
       "discovery_date": "2026-10-21",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -11951,7 +11980,7 @@
     },
     {
       "discovery_date": "2026-10-22",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -12010,7 +12039,7 @@
     },
     {
       "discovery_date": "2026-10-22",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -12069,7 +12098,7 @@
     },
     {
       "discovery_date": "2026-10-22",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -12128,7 +12157,7 @@
     },
     {
       "discovery_date": "2026-10-22",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -12187,7 +12216,7 @@
     },
     {
       "discovery_date": "2026-10-22",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -12246,7 +12275,7 @@
     },
     {
       "discovery_date": "2026-10-23",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -12305,7 +12334,7 @@
     },
     {
       "discovery_date": "2026-10-23",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -12364,7 +12393,7 @@
     },
     {
       "discovery_date": "2026-10-23",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -12423,7 +12452,7 @@
     },
     {
       "discovery_date": "2026-10-23",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -12482,7 +12511,7 @@
     },
     {
       "discovery_date": "2026-10-23",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -12541,7 +12570,7 @@
     },
     {
       "discovery_date": "2026-10-26",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -12600,7 +12629,7 @@
     },
     {
       "discovery_date": "2026-10-26",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -12659,7 +12688,7 @@
     },
     {
       "discovery_date": "2026-10-26",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -12718,7 +12747,7 @@
     },
     {
       "discovery_date": "2026-10-26",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -12777,7 +12806,7 @@
     },
     {
       "discovery_date": "2026-10-26",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -12836,7 +12865,7 @@
     },
     {
       "discovery_date": "2026-10-27",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -12895,7 +12924,7 @@
     },
     {
       "discovery_date": "2026-10-27",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -12954,7 +12983,7 @@
     },
     {
       "discovery_date": "2026-10-27",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -13013,7 +13042,7 @@
     },
     {
       "discovery_date": "2026-10-27",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -13072,7 +13101,7 @@
     },
     {
       "discovery_date": "2026-10-27",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -13131,7 +13160,7 @@
     },
     {
       "discovery_date": "2026-10-28",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -13189,7 +13218,7 @@
     },
     {
       "discovery_date": "2026-10-28",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -13247,7 +13276,7 @@
     },
     {
       "discovery_date": "2026-10-28",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -13305,7 +13334,7 @@
     },
     {
       "discovery_date": "2026-10-28",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -13363,7 +13392,7 @@
     },
     {
       "discovery_date": "2026-10-28",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -13421,7 +13450,7 @@
     },
     {
       "discovery_date": "2026-10-29",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -13479,7 +13508,7 @@
     },
     {
       "discovery_date": "2026-10-29",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -13537,7 +13566,7 @@
     },
     {
       "discovery_date": "2026-10-29",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -13595,7 +13624,7 @@
     },
     {
       "discovery_date": "2026-10-29",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -13653,7 +13682,7 @@
     },
     {
       "discovery_date": "2026-10-29",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -13711,7 +13740,7 @@
     },
     {
       "discovery_date": "2026-11-08",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -13771,7 +13800,7 @@
     },
     {
       "discovery_date": "2026-11-08",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -13831,7 +13860,7 @@
     },
     {
       "discovery_date": "2026-11-08",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -13891,7 +13920,7 @@
     },
     {
       "discovery_date": "2026-11-08",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -13951,7 +13980,7 @@
     },
     {
       "discovery_date": "2026-11-08",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -14011,7 +14040,7 @@
     },
     {
       "discovery_date": "2026-11-09",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -14071,7 +14100,7 @@
     },
     {
       "discovery_date": "2026-11-09",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -14131,7 +14160,7 @@
     },
     {
       "discovery_date": "2026-11-09",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -14191,7 +14220,7 @@
     },
     {
       "discovery_date": "2026-11-09",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -14251,7 +14280,7 @@
     },
     {
       "discovery_date": "2026-11-09",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -14311,7 +14340,7 @@
     },
     {
       "discovery_date": "2026-11-10",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -14372,7 +14401,7 @@
     },
     {
       "discovery_date": "2026-11-10",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -14433,7 +14462,7 @@
     },
     {
       "discovery_date": "2026-11-10",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -14494,7 +14523,7 @@
     },
     {
       "discovery_date": "2026-11-10",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -14555,7 +14584,7 @@
     },
     {
       "discovery_date": "2026-11-10",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -14616,7 +14645,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -14676,7 +14705,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -14736,7 +14765,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -14796,7 +14825,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -14856,7 +14885,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "CRM",
       "company": "Salesforce, Inc.",
@@ -14892,6 +14921,306 @@
       "signal_strength": "Strong",
       "watch_points": [
         "注意材料になり得るニュース表現が 2 件あります。",
+        "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "evidence": [
+        "Company",
+        "Discovery",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "thresholds": "Validation thresholds 6m: Excellent >= 13.0% or benchmark diff >= 9.0%; Good >= 7.0% or benchmark diff >= 4.0%; Poor <= -7.0% or benchmark diff <= -4.0%.",
+      "event_count": 10,
+      "period_complete": false
+    },
+    {
+      "discovery_date": "2026-11-12",
+      "validation_date": "2026-11-12",
+      "period": "1m",
+      "ticker": "CRM",
+      "company": "Salesforce, Inc.",
+      "sector": "Technology",
+      "discovery_score": 71,
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 16/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで -6.06pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +10.53pt と、市場を大きく上回っています。",
+        "6Mモメンタムは対SPYで +29.15pt と、市場を大きく上回っています。"
+      ],
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "start_price": 218.00999450683597,
+      "end_price": 218.00999450683597,
+      "return_percent": 0.0,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
+      "sector_average_return_percent": 0.0,
+      "sector_diff_percent": 0.0,
+      "sector_benchmark": "XLK",
+      "sector_benchmark_return_percent": 0.0,
+      "sector_benchmark_diff_percent": 0.0,
+      "validation_result": "Neutral",
+      "confidence": "Medium",
+      "signal_strength": "Strong",
+      "watch_points": [
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
+        "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "evidence": [
+        "Company",
+        "Discovery",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "thresholds": "Validation thresholds 1m: Excellent >= 6.0% or benchmark diff >= 4.0%; Good >= 3.0% or benchmark diff >= 2.0%; Poor <= -3.0% or benchmark diff <= -2.0%.",
+      "event_count": 10,
+      "period_complete": false
+    },
+    {
+      "discovery_date": "2026-11-12",
+      "validation_date": "2026-11-12",
+      "period": "1w",
+      "ticker": "CRM",
+      "company": "Salesforce, Inc.",
+      "sector": "Technology",
+      "discovery_score": 71,
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 16/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで -6.06pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +10.53pt と、市場を大きく上回っています。",
+        "6Mモメンタムは対SPYで +29.15pt と、市場を大きく上回っています。"
+      ],
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "start_price": 218.00999450683597,
+      "end_price": 218.00999450683597,
+      "return_percent": 0.0,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
+      "sector_average_return_percent": 0.0,
+      "sector_diff_percent": 0.0,
+      "sector_benchmark": "XLK",
+      "sector_benchmark_return_percent": 0.0,
+      "sector_benchmark_diff_percent": 0.0,
+      "validation_result": "Neutral",
+      "confidence": "Medium",
+      "signal_strength": "Strong",
+      "watch_points": [
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
+        "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "evidence": [
+        "Company",
+        "Discovery",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "thresholds": "Validation thresholds 1w: Excellent >= 3.0% or benchmark diff >= 2.0%; Good >= 1.5% or benchmark diff >= 1.0%; Poor <= -1.5% or benchmark diff <= -1.0%.",
+      "event_count": 10,
+      "period_complete": false
+    },
+    {
+      "discovery_date": "2026-11-12",
+      "validation_date": "2026-11-12",
+      "period": "1y",
+      "ticker": "CRM",
+      "company": "Salesforce, Inc.",
+      "sector": "Technology",
+      "discovery_score": 71,
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 16/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで -6.06pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +10.53pt と、市場を大きく上回っています。",
+        "6Mモメンタムは対SPYで +29.15pt と、市場を大きく上回っています。"
+      ],
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "start_price": 218.00999450683597,
+      "end_price": 218.00999450683597,
+      "return_percent": 0.0,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
+      "sector_average_return_percent": 0.0,
+      "sector_diff_percent": 0.0,
+      "sector_benchmark": "XLK",
+      "sector_benchmark_return_percent": 0.0,
+      "sector_benchmark_diff_percent": 0.0,
+      "validation_result": "Neutral",
+      "confidence": "Medium",
+      "signal_strength": "Strong",
+      "watch_points": [
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
+        "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "evidence": [
+        "Company",
+        "Discovery",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "thresholds": "Validation thresholds 1y: Excellent >= 15.0% or benchmark diff >= 10.0%; Good >= 8.0% or benchmark diff >= 5.0%; Poor <= -8.0% or benchmark diff <= -5.0%.",
+      "event_count": 10,
+      "period_complete": false
+    },
+    {
+      "discovery_date": "2026-11-12",
+      "validation_date": "2026-11-12",
+      "period": "3m",
+      "ticker": "CRM",
+      "company": "Salesforce, Inc.",
+      "sector": "Technology",
+      "discovery_score": 71,
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 16/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで -6.06pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +10.53pt と、市場を大きく上回っています。",
+        "6Mモメンタムは対SPYで +29.15pt と、市場を大きく上回っています。"
+      ],
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "start_price": 218.00999450683597,
+      "end_price": 218.00999450683597,
+      "return_percent": 0.0,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
+      "sector_average_return_percent": 0.0,
+      "sector_diff_percent": 0.0,
+      "sector_benchmark": "XLK",
+      "sector_benchmark_return_percent": 0.0,
+      "sector_benchmark_diff_percent": 0.0,
+      "validation_result": "Neutral",
+      "confidence": "Medium",
+      "signal_strength": "Strong",
+      "watch_points": [
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
+        "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
+        "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
+        "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
+        "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
+        "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
+        "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
+      ],
+      "evidence": [
+        "Company",
+        "Discovery",
+        "Events",
+        "Financials",
+        "Knowledge",
+        "Market Intelligence",
+        "News",
+        "Prices",
+        "Scoring"
+      ],
+      "thresholds": "Validation thresholds 3m: Excellent >= 10.0% or benchmark diff >= 7.0%; Good >= 5.0% or benchmark diff >= 3.0%; Poor <= -5.0% or benchmark diff <= -3.0%.",
+      "event_count": 10,
+      "period_complete": false
+    },
+    {
+      "discovery_date": "2026-11-12",
+      "validation_date": "2026-11-12",
+      "period": "6m",
+      "ticker": "CRM",
+      "company": "Salesforce, Inc.",
+      "sector": "Technology",
+      "discovery_score": 71,
+      "discovery_reasons": [
+        "Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。",
+        "Financial Healthが 16/20 で、継続調査に必要な財務基盤を評価しています。",
+        "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
+        "売上が取得でき、事業規模の確認ができます。",
+        "EPSがプラスで、利益を伴う成長候補として確認できます。",
+        "研究開発費が確認でき、将来成長への投資シグナルがあります。",
+        "FCFがプラスで、成長投資を支える現金創出力があります。",
+        "1Mモメンタムは対SPYで -6.06pt と、市場を小幅に下回っています。",
+        "3Mモメンタムは対SPYで +10.53pt と、市場を大きく上回っています。",
+        "6Mモメンタムは対SPYで +29.15pt と、市場を大きく上回っています。"
+      ],
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "start_price": 218.00999450683597,
+      "end_price": 218.00999450683597,
+      "return_percent": 0.0,
+      "benchmark": "SPY",
+      "benchmark_return_percent": 0.0,
+      "benchmark_diff_percent": 0.0,
+      "sector_average_return_percent": 0.0,
+      "sector_diff_percent": 0.0,
+      "sector_benchmark": "XLK",
+      "sector_benchmark_return_percent": 0.0,
+      "sector_benchmark_diff_percent": 0.0,
+      "validation_result": "Neutral",
+      "confidence": "Medium",
+      "signal_strength": "Strong",
+      "watch_points": [
+        "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
         "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
         "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
         "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -14919,128 +15248,248 @@
     "count": 10,
     "latest": [
       {
-        "event_id": "CRM_91bce7d58a4dafbd",
+        "event_id": "CRM_e6702e41f1f39ce2",
         "ticker": "CRM",
-        "published_at": "2026-11-11T21:45:03+00:00",
-        "title": "Is the AI boom hiding a jobs crisis for graduates?",
-        "url": "https://finance.yahoo.com/video/is-the-ai-boom-hiding-a-jobs-crisis-for-graduates-214503208.html",
+        "published_at": "2026-11-12T20:27:17+00:00",
+        "title": "Should You Buy HubSpot Stock For Its Cash?",
+        "url": "https://www.trefis.com/stock/hubs/articles/624562/should-you-buy-hubspot-stock-for-its-cash/2026-11-12",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "CRM_2d95539eed17bc25",
+        "ticker": "CRM",
+        "published_at": "2026-11-12T18:58:00+00:00",
+        "title": "3 Top-Ranked AI Stocks Delivering Robust Results",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-top-ranked-ai-stocks-185800388.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "CRM_486552b2a197d9f6",
+        "ticker": "CRM",
+        "published_at": "2026-11-12T17:29:25+00:00",
+        "title": "Top Cybersecurity Stocks to Watch, According to Mizuho",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/top-cybersecurity-stocks-watch-according-172925761.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "CRM_bb94b932582e04cb",
+        "ticker": "CRM",
+        "published_at": "2026-11-12T14:45:46+00:00",
+        "title": "Jim Cramer Is Bullish on These 5 Stocks Amid Nvidia Controversy",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-bullish-5-stocks-144546369.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "CRM_865d009de64fc303",
+        "ticker": "CRM",
+        "published_at": "2026-11-12T14:36:00+00:00",
+        "title": "Is ZETA a Buy as Growth Surges While Its Valuation Stays Expensive?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/zeta-buy-growth-surges-while-143600621.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "CRM_8668f9f19c991a05",
+        "ticker": "CRM",
+        "published_at": "2026-11-12T14:33:00+00:00",
+        "title": "ZETA Gains 17% in the Past Month as AI Growth & Margins Accelerate",
+        "url": "https://finance.yahoo.com/technology/ai/articles/zeta-gains-17-past-month-143300606.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "CRM_e33419f801ff9c15",
+        "ticker": "CRM",
+        "published_at": "2026-11-12T13:34:14+00:00",
+        "title": "What Explains The Move In Zoom Stock?",
+        "url": "https://www.trefis.com/stock/zm/articles/624713/what-explains-the-move-in-zoom-stock/2026-11-12",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "CRM_96d29f5e87af7831",
+        "ticker": "CRM",
+        "published_at": "2026-11-12T13:18:00+00:00",
+        "title": "Strategy Expands Cloud Subscriptions: Can Software Revenues Recover?",
+        "url": "https://finance.yahoo.com/technology/articles/strategy-expands-cloud-subscriptions-software-131800494.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "CRM_e7123b3991b05cfc",
+        "ticker": "CRM",
+        "published_at": "2026-11-12T12:02:21+00:00",
+        "title": "Is The Anthropic IPO Bad News For Salesforce And ServiceNow Stock?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ipo-bad-news-salesforce-120221895.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "CRM_7b2c0d1a36077ee5",
+        "ticker": "CRM",
+        "published_at": "2026-11-12T11:00:00+00:00",
+        "title": "Tony Robbins: 4 rules the world's greatest investors follow",
+        "url": "https://finance.yahoo.com/video/tony-robbins-4-rules-the-worlds-greatest-investors-follow-155143166.html",
+        "source": "VIDEO",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      }
+    ],
+    "history_count": 345,
+    "history": [
+      {
+        "event_id": "CRM_e6702e41f1f39ce2",
+        "ticker": "CRM",
+        "published_at": "2026-11-12T20:27:17+00:00",
+        "title": "Should You Buy HubSpot Stock For Its Cash?",
+        "url": "https://www.trefis.com/stock/hubs/articles/624562/should-you-buy-hubspot-stock-for-its-cash/2026-11-12",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "CRM_2d95539eed17bc25",
+        "ticker": "CRM",
+        "published_at": "2026-11-12T18:58:00+00:00",
+        "title": "3 Top-Ranked AI Stocks Delivering Robust Results",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-top-ranked-ai-stocks-185800388.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "CRM_486552b2a197d9f6",
+        "ticker": "CRM",
+        "published_at": "2026-11-12T17:29:25+00:00",
+        "title": "Top Cybersecurity Stocks to Watch, According to Mizuho",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/top-cybersecurity-stocks-watch-according-172925761.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "CRM_bb94b932582e04cb",
+        "ticker": "CRM",
+        "published_at": "2026-11-12T14:45:46+00:00",
+        "title": "Jim Cramer Is Bullish on These 5 Stocks Amid Nvidia Controversy",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-bullish-5-stocks-144546369.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "CRM_865d009de64fc303",
+        "ticker": "CRM",
+        "published_at": "2026-11-12T14:36:00+00:00",
+        "title": "Is ZETA a Buy as Growth Surges While Its Valuation Stays Expensive?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/zeta-buy-growth-surges-while-143600621.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "CRM_8668f9f19c991a05",
+        "ticker": "CRM",
+        "published_at": "2026-11-12T14:33:00+00:00",
+        "title": "ZETA Gains 17% in the Past Month as AI Growth & Margins Accelerate",
+        "url": "https://finance.yahoo.com/technology/ai/articles/zeta-gains-17-past-month-143300606.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "CRM_e33419f801ff9c15",
+        "ticker": "CRM",
+        "published_at": "2026-11-12T13:34:14+00:00",
+        "title": "What Explains The Move In Zoom Stock?",
+        "url": "https://www.trefis.com/stock/zm/articles/624713/what-explains-the-move-in-zoom-stock/2026-11-12",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "CRM_96d29f5e87af7831",
+        "ticker": "CRM",
+        "published_at": "2026-11-12T13:18:00+00:00",
+        "title": "Strategy Expands Cloud Subscriptions: Can Software Revenues Recover?",
+        "url": "https://finance.yahoo.com/technology/articles/strategy-expands-cloud-subscriptions-software-131800494.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "CRM_e7123b3991b05cfc",
+        "ticker": "CRM",
+        "published_at": "2026-11-12T12:02:21+00:00",
+        "title": "Is The Anthropic IPO Bad News For Salesforce And ServiceNow Stock?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ipo-bad-news-salesforce-120221895.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "CRM_7b2c0d1a36077ee5",
+        "ticker": "CRM",
+        "published_at": "2026-11-12T11:00:00+00:00",
+        "title": "Tony Robbins: 4 rules the world's greatest investors follow",
+        "url": "https://finance.yahoo.com/video/tony-robbins-4-rules-the-worlds-greatest-investors-follow-155143166.html",
         "source": "VIDEO",
         "close_price": null,
         "previous_close": null,
         "price_change_percent": null,
         "volume": null
       },
-      {
-        "event_id": "CRM_e8fd97e690218e31",
-        "ticker": "CRM",
-        "published_at": "2026-11-11T21:45:02+00:00",
-        "title": "Salesforce (CRM) Surpasses Market Returns: Some Facts Worth Knowing",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/salesforce-crm-surpasses-market-returns-214502634.html",
-        "source": "STORY",
-        "close_price": null,
-        "previous_close": null,
-        "price_change_percent": null,
-        "volume": null
-      },
-      {
-        "event_id": "CRM_73b72d3217bac459",
-        "ticker": "CRM",
-        "published_at": "2026-11-11T20:23:00+00:00",
-        "title": "Bosses Have a New Plan to Boost Morale at the Office: Desk Plants",
-        "url": "https://www.wsj.com/lifestyle/workplace/desk-plants-office-employee-morale-10a0868a?siteid=yhoof2&yptr=yahoo",
-        "source": "STORY",
-        "close_price": 218.00999450683597,
-        "previous_close": 213.47999572753903,
-        "price_change_percent": 2.1219781103417734,
-        "volume": 6208000.0
-      },
-      {
-        "event_id": "CRM_807d25d9a0e861f4",
-        "ticker": "CRM",
-        "published_at": "2026-11-11T17:20:00+00:00",
-        "title": "ServiceNow Drops 29% in a Month: Should You Hold or Fold the Stock?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/servicenow-drops-29-month-hold-172000560.html",
-        "source": "STORY",
-        "close_price": 218.00999450683597,
-        "previous_close": 213.47999572753903,
-        "price_change_percent": 2.1219781103417734,
-        "volume": 6208000.0
-      },
-      {
-        "event_id": "CRM_1657f0d41a4ed183",
-        "ticker": "CRM",
-        "published_at": "2026-11-11T16:03:00+00:00",
-        "title": "CRM's Cash Flow Strength: Can It Sustain Big Shareholder Returns?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/crms-cash-flow-strength-sustain-160300776.html",
-        "source": "STORY",
-        "close_price": 218.00999450683597,
-        "previous_close": 213.47999572753903,
-        "price_change_percent": 2.1219781103417734,
-        "volume": 6208000.0
-      },
-      {
-        "event_id": "CRM_aea2a728f42d3d8a",
-        "ticker": "CRM",
-        "published_at": "2026-11-11T15:33:06+00:00",
-        "title": "Prediction: Palantir Shares Could Deliver Outsized Returns Over the Next 5 Years",
-        "url": "https://247wallst.com/investing/2026/11/11/prediction-palantir-shares-could-deliver-outsized-returns-over-the-next-5-years/",
-        "source": "STORY",
-        "close_price": 218.00999450683597,
-        "previous_close": 213.47999572753903,
-        "price_change_percent": 2.1219781103417734,
-        "volume": 6208000.0
-      },
-      {
-        "event_id": "CRM_7b06cce11140407b",
-        "ticker": "CRM",
-        "published_at": "2026-11-11T12:00:00+00:00",
-        "title": "CX vendor consolidation: A wake-up call for CX leaders",
-        "url": "https://www.customerexperiencedive.com/news/cx-vendor-consolidation-wake-up-call-cx-leaders/874304/",
-        "source": "STORY",
-        "close_price": 218.00999450683597,
-        "previous_close": 213.47999572753903,
-        "price_change_percent": 2.1219781103417734,
-        "volume": 6208000.0
-      },
-      {
-        "event_id": "CRM_b0cf77c250615b46",
-        "ticker": "CRM",
-        "published_at": "2026-11-11T10:15:38+00:00",
-        "title": "Mercor raises $750m to expand AI evaluation tools for enterprises",
-        "url": "https://www.verdict.co.uk/mercor-raises-750m/",
-        "source": "STORY",
-        "close_price": 218.00999450683597,
-        "previous_close": 213.47999572753903,
-        "price_change_percent": 2.1219781103417734,
-        "volume": 6208000.0
-      },
-      {
-        "event_id": "CRM_f1f847c22ab9b5ff",
-        "ticker": "CRM",
-        "published_at": "2026-11-10T22:13:48+00:00",
-        "title": "What Are ServiceNow Stock Bears Missing?",
-        "url": "https://www.trefis.com/stock/now/articles/623995/what-are-servicenow-stock-bears-missing/2026-11-10",
-        "source": "STORY",
-        "close_price": 218.00999450683597,
-        "previous_close": 213.47999572753903,
-        "price_change_percent": 2.1219781103417734,
-        "volume": 6208000.0
-      },
-      {
-        "event_id": "CRM_ead48a7e4203eb5a",
-        "ticker": "CRM",
-        "published_at": "2026-11-10T20:10:26+00:00",
-        "title": "Salesforce And 2 Other AI Stocks To Watch",
-        "url": "https://finance.yahoo.com/technology/ai/articles/salesforce-2-other-ai-stocks-201026055.html",
-        "source": "STORY",
-        "close_price": 213.47999572753903,
-        "previous_close": 214.94000244140625,
-        "price_change_percent": -0.6792624440698148,
-        "volume": 7874400.0
-      }
-    ],
-    "history_count": 335,
-    "history": [
       {
         "event_id": "CRM_91bce7d58a4dafbd",
         "ticker": "CRM",
@@ -19068,117 +19517,227 @@
     "latest": [
       {
         "ticker": "CRM",
-        "title": "Is the AI boom hiding a jobs crisis for graduates?",
-        "summary": "Entrepreneur, bestselling author, and former presidential candidate Andrew Yang and former Salesforce AI CEO Clara Shih join Yahoo Finance's Deirdre Bosa to examine the challenging job market facing recent college graduates. They discuss whether the massive AI infrastructure boom is masking broader labor market weakness and what the rise of artificial intelligence could mean for the next generation of workers.",
-        "published_at": "2026-11-11T21:45:03+00:00",
+        "title": "Should You Buy HubSpot Stock For Its Cash?",
+        "summary": "For questions about this article or underlying research, email help@trefis.com.",
+        "published_at": "2026-11-12T20:27:17+00:00",
+        "publisher": "Trefis",
+        "url": "https://www.trefis.com/stock/hubs/articles/624562/should-you-buy-hubspot-stock-for-its-cash/2026-11-12",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "CRM",
+        "title": "3 Top-Ranked AI Stocks Delivering Robust Results",
+        "summary": "While the market's attitude has gone sour, the reality remains that the underlying growth outlook is highly favorable for many companies directly benefiting from the AI revolution, with recent results from several underpinning the favorable picture.",
+        "published_at": "2026-11-12T18:58:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-top-ranked-ai-stocks-185800388.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "CRM",
+        "title": "Top Cybersecurity Stocks to Watch, According to Mizuho",
+        "summary": "Investing.com -- Mizuho has released its latest rankings of top-performing cybersecurity stocks, with analysts highlighting strong momentum across multiple companies based on quarterly channel checks and partner feedback. The firm's analysis points to robust demand for data warehousing, zero trust solutions, and cyber-resiliency products.",
+        "published_at": "2026-11-12T17:29:25+00:00",
+        "publisher": "Investing.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/top-cybersecurity-stocks-watch-according-172925761.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "CRM",
+        "title": "Jim Cramer Is Bullish on These 5 Stocks Amid Nvidia Controversy",
+        "summary": "After years of unconditionally backing Jensen Huang and Nvidia (NASDAQ), Jim Cramer’s confidence in the chipmaker has been shaken by the controversy surrounding its chief executive. And the reasons are understandable. Cramer’s investment thesis on Nvidia has always been closely tied to Huang’s leadership. The CNBC host has repeatedly praised Huang as a visionary capable […]",
+        "published_at": "2026-11-12T14:45:46+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-bullish-5-stocks-144546369.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "CRM",
+        "title": "Is ZETA a Buy as Growth Surges While Its Valuation Stays Expensive?",
+        "summary": "Zeta Global's accelerating revenue growth, rising Athena AI adoption and strong cash flow bolster its growth case, but a premium valuation raises the stakes.",
+        "published_at": "2026-11-12T14:36:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/zeta-buy-growth-surges-while-143600621.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "CRM",
+        "title": "ZETA Gains 17% in the Past Month as AI Growth & Margins Accelerate",
+        "summary": "Zeta Global shares jumped 17% in four weeks as organic growth, Athena AI adoption and cash flow surged, but its premium valuation raises execution risks.",
+        "published_at": "2026-11-12T14:33:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/technology/ai/articles/zeta-gains-17-past-month-143300606.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "CRM",
+        "title": "What Explains The Move In Zoom Stock?",
+        "summary": "For questions about this article or underlying research, email help@trefis.com.",
+        "published_at": "2026-11-12T13:34:14+00:00",
+        "publisher": "Trefis",
+        "url": "https://www.trefis.com/stock/zm/articles/624713/what-explains-the-move-in-zoom-stock/2026-11-12",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "CRM",
+        "title": "Strategy Expands Cloud Subscriptions: Can Software Revenues Recover?",
+        "summary": "MSTR's cloud subscription business gains momentum, with Q3 2026 revenues soaring 49.2% and gross margins improving as cloud adoption accelerates.",
+        "published_at": "2026-11-12T13:18:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/technology/articles/strategy-expands-cloud-subscriptions-software-131800494.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "CRM",
+        "title": "Is The Anthropic IPO Bad News For Salesforce And ServiceNow Stock?",
+        "summary": "More on the Anthropic IPO: our Anthropic IPO storyline page collects our pieces on it.",
+        "published_at": "2026-11-12T12:02:21+00:00",
+        "publisher": "Trefis",
+        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ipo-bad-news-salesforce-120221895.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "CRM",
+        "title": "Tony Robbins: 4 rules the world's greatest investors follow",
+        "summary": "Author, entrepreneur, and philanthropist Tony Robbins sits down with Yahoo Finance Executive Editor Brian Sozzi to break down the four things every elite investor does in common, and why you should run your money like a side business.",
+        "published_at": "2026-11-12T11:00:00+00:00",
         "publisher": "Yahoo Finance Video",
-        "url": "https://finance.yahoo.com/video/is-the-ai-boom-hiding-a-jobs-crisis-for-graduates-214503208.html",
+        "url": "https://finance.yahoo.com/video/tony-robbins-4-rules-the-worlds-greatest-investors-follow-155143166.html",
+        "language": null,
+        "source": "VIDEO",
+        "related_tickers": null
+      }
+    ],
+    "history_count": 344,
+    "history": [
+      {
+        "ticker": "CRM",
+        "title": "Should You Buy HubSpot Stock For Its Cash?",
+        "summary": "For questions about this article or underlying research, email help@trefis.com.",
+        "published_at": "2026-11-12T20:27:17+00:00",
+        "publisher": "Trefis",
+        "url": "https://www.trefis.com/stock/hubs/articles/624562/should-you-buy-hubspot-stock-for-its-cash/2026-11-12",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "CRM",
+        "title": "3 Top-Ranked AI Stocks Delivering Robust Results",
+        "summary": "While the market's attitude has gone sour, the reality remains that the underlying growth outlook is highly favorable for many companies directly benefiting from the AI revolution, with recent results from several underpinning the favorable picture.",
+        "published_at": "2026-11-12T18:58:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-top-ranked-ai-stocks-185800388.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "CRM",
+        "title": "Top Cybersecurity Stocks to Watch, According to Mizuho",
+        "summary": "Investing.com -- Mizuho has released its latest rankings of top-performing cybersecurity stocks, with analysts highlighting strong momentum across multiple companies based on quarterly channel checks and partner feedback. The firm's analysis points to robust demand for data warehousing, zero trust solutions, and cyber-resiliency products.",
+        "published_at": "2026-11-12T17:29:25+00:00",
+        "publisher": "Investing.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/top-cybersecurity-stocks-watch-according-172925761.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "CRM",
+        "title": "Jim Cramer Is Bullish on These 5 Stocks Amid Nvidia Controversy",
+        "summary": "After years of unconditionally backing Jensen Huang and Nvidia (NASDAQ), Jim Cramer’s confidence in the chipmaker has been shaken by the controversy surrounding its chief executive. And the reasons are understandable. Cramer’s investment thesis on Nvidia has always been closely tied to Huang’s leadership. The CNBC host has repeatedly praised Huang as a visionary capable […]",
+        "published_at": "2026-11-12T14:45:46+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-bullish-5-stocks-144546369.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "CRM",
+        "title": "Is ZETA a Buy as Growth Surges While Its Valuation Stays Expensive?",
+        "summary": "Zeta Global's accelerating revenue growth, rising Athena AI adoption and strong cash flow bolster its growth case, but a premium valuation raises the stakes.",
+        "published_at": "2026-11-12T14:36:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/zeta-buy-growth-surges-while-143600621.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "CRM",
+        "title": "ZETA Gains 17% in the Past Month as AI Growth & Margins Accelerate",
+        "summary": "Zeta Global shares jumped 17% in four weeks as organic growth, Athena AI adoption and cash flow surged, but its premium valuation raises execution risks.",
+        "published_at": "2026-11-12T14:33:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/technology/ai/articles/zeta-gains-17-past-month-143300606.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "CRM",
+        "title": "What Explains The Move In Zoom Stock?",
+        "summary": "For questions about this article or underlying research, email help@trefis.com.",
+        "published_at": "2026-11-12T13:34:14+00:00",
+        "publisher": "Trefis",
+        "url": "https://www.trefis.com/stock/zm/articles/624713/what-explains-the-move-in-zoom-stock/2026-11-12",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "CRM",
+        "title": "Strategy Expands Cloud Subscriptions: Can Software Revenues Recover?",
+        "summary": "MSTR's cloud subscription business gains momentum, with Q3 2026 revenues soaring 49.2% and gross margins improving as cloud adoption accelerates.",
+        "published_at": "2026-11-12T13:18:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/technology/articles/strategy-expands-cloud-subscriptions-software-131800494.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "CRM",
+        "title": "Is The Anthropic IPO Bad News For Salesforce And ServiceNow Stock?",
+        "summary": "More on the Anthropic IPO: our Anthropic IPO storyline page collects our pieces on it.",
+        "published_at": "2026-11-12T12:02:21+00:00",
+        "publisher": "Trefis",
+        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ipo-bad-news-salesforce-120221895.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "CRM",
+        "title": "Tony Robbins: 4 rules the world's greatest investors follow",
+        "summary": "Author, entrepreneur, and philanthropist Tony Robbins sits down with Yahoo Finance Executive Editor Brian Sozzi to break down the four things every elite investor does in common, and why you should run your money like a side business.",
+        "published_at": "2026-11-12T11:00:00+00:00",
+        "publisher": "Yahoo Finance Video",
+        "url": "https://finance.yahoo.com/video/tony-robbins-4-rules-the-worlds-greatest-investors-follow-155143166.html",
         "language": null,
         "source": "VIDEO",
         "related_tickers": null
       },
-      {
-        "ticker": "CRM",
-        "title": "Salesforce (CRM) Surpasses Market Returns: Some Facts Worth Knowing",
-        "summary": "The latest trading day saw Salesforce (CRM) settling at $218.01, representing a +2.12% change from its previous close.",
-        "published_at": "2026-11-11T21:45:02+00:00",
-        "publisher": "Zacks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/salesforce-crm-surpasses-market-returns-214502634.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "CRM",
-        "title": "Bosses Have a New Plan to Boost Morale at the Office: Desk Plants",
-        "summary": "The perk is partly designed to replicate the access to nature many employees like about working from home.",
-        "published_at": "2026-11-11T20:23:00+00:00",
-        "publisher": "The Wall Street Journal",
-        "url": "https://www.wsj.com/lifestyle/workplace/desk-plants-office-employee-morale-10a0868a?siteid=yhoof2&yptr=yahoo",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "CRM",
-        "title": "ServiceNow Drops 29% in a Month: Should You Hold or Fold the Stock?",
-        "summary": "NOW shares plunge 29% in a month as slowing backlog growth, rising costs and debt cloud its AI-driven growth prospects. Is it time to hold or fold?",
-        "published_at": "2026-11-11T17:20:00+00:00",
-        "publisher": "Zacks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/servicenow-drops-29-month-hold-172000560.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "CRM",
-        "title": "CRM's Cash Flow Strength: Can It Sustain Big Shareholder Returns?",
-        "summary": "Salesforce's strong free cash flow fuels massive buybacks and dividends, but slower growth projections raise questions about sustaining shareholder returns.",
-        "published_at": "2026-11-11T16:03:00+00:00",
-        "publisher": "Zacks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/crms-cash-flow-strength-sustain-160300776.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "CRM",
-        "title": "Prediction: Palantir Shares Could Deliver Outsized Returns Over the Next 5 Years",
-        "summary": "Palantir just reported the best quarter in its history, and investors sold it off anyway. Behind the 11-quarter beat streak, a few quiet warning signs may explain why the market stopped cheering, and whether the dip is an opening or a trap.",
-        "published_at": "2026-11-11T15:33:06+00:00",
-        "publisher": "24/7 Wall St.",
-        "url": "https://247wallst.com/investing/2026/11/11/prediction-palantir-shares-could-deliver-outsized-returns-over-the-next-5-years/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "CRM",
-        "title": "CX vendor consolidation: A wake-up call for CX leaders",
-        "summary": "Salesforce, Dialpad and Five9 each bought an AI vendor last week. Whether or not they were directly impacted, CX leaders should reevaluate their supplier contracts.",
-        "published_at": "2026-11-11T12:00:00+00:00",
-        "publisher": "CX Dive",
-        "url": "https://www.customerexperiencedive.com/news/cx-vendor-consolidation-wake-up-call-cx-leaders/874304/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "CRM",
-        "title": "Mercor raises $750m to expand AI evaluation tools for enterprises",
-        "summary": "Mercor plans to use the funding to advance tools that help businesses assess and train AI for their specific needs.",
-        "published_at": "2026-11-11T10:15:38+00:00",
-        "publisher": "Verdict",
-        "url": "https://www.verdict.co.uk/mercor-raises-750m/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "CRM",
-        "title": "What Are ServiceNow Stock Bears Missing?",
-        "summary": "For questions about this article or underlying research, email help@trefis.com.",
-        "published_at": "2026-11-10T22:13:48+00:00",
-        "publisher": "Trefis",
-        "url": "https://www.trefis.com/stock/now/articles/623995/what-are-servicenow-stock-bears-missing/2026-11-10",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "CRM",
-        "title": "Salesforce And 2 Other AI Stocks To Watch",
-        "summary": "Anthropic is aiming for up to a US$1.4b valuation in its IPO, with major chip and cloud providers lining up to buy in. That kind of AI arms race can pull attention toward headline names and away from quieter businesses supplying the same boom at lower prices. This article looks at three stocks tied to the ChatGPT style build out that currently screen as undervalued. The three stocks featured below are just a small sample of the opportunities linked to the ChatGPT build out. A wider screen...",
-        "published_at": "2026-11-10T20:10:26+00:00",
-        "publisher": "Simply Wall St.",
-        "url": "https://finance.yahoo.com/technology/ai/articles/salesforce-2-other-ai-stocks-201026055.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      }
-    ],
-    "history_count": 334,
-    "history": [
       {
         "ticker": "CRM",
         "title": "Is the AI boom hiding a jobs crisis for graduates?",
@@ -22856,12 +23415,12 @@
     ]
   },
   "Confidence": {
-    "scoring": "High",
-    "discovery": "High"
+    "scoring": "Medium",
+    "discovery": "Medium"
   },
   "SignalStrength": {
     "scoring": "Strong",
     "discovery": "Strong"
   },
-  "Timestamp": "2026-11-11T21:38:24.836211-05:00"
+  "Timestamp": "2026-11-12T21:19:41.214905-05:00"
 }

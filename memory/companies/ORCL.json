@@ -7,20 +7,20 @@
     "country": "United States",
     "currency": "USD",
     "exchange": "NYQ",
-    "market_cap": 400251387904,
-    "enterprise_value": 525631225856,
+    "market_cap": 396291866624,
+    "enterprise_value": 521791078400,
     "shares_outstanding": 3117708046,
     "beta": 1.778,
-    "trailing_pe": 20.122257,
-    "forward_pe": 11.608844,
-    "peg_ratio": 0.64,
-    "price_to_book": 6.279593,
+    "trailing_pe": 19.923197,
+    "forward_pe": 11.494003,
+    "peg_ratio": 0.7,
+    "price_to_book": 6.217472,
     "eps": 6.38,
     "forward_eps": 11.05881,
-    "dividend_yield": 1.7,
+    "dividend_yield": 1.56,
     "52_week_high": 250.25,
     "52_week_low": 109.21,
-    "average_volume": 33512385,
+    "average_volume": 33437960,
     "employees": 141000,
     "website": "https://www.oracle.com",
     "business_summary": "Oracle Corporation offers products and services that build, run and support enterprise information technology frameworks worldwide. Its Oracle cloud software as a service offering includes various cloud software applications, including Oracle Fusion cloud enterprise resource planning ERP, Oracle Fusion cloud enterprise performance management EPM, Oracle Fusion cloud supply chain and manufacturing management SCM, Oracle Fusion cloud human capital management HCM, and NetSuite applications suite, Oracle Health applications, as well as Oracle Fusion Sales, Service, and Marketing. The company also offers cloud-based industry solutions for various industries; Oracle cloud license and on-premise license; and Oracle license support services. In addition, it provides cloud and license business' infrastructure technologies, such as the Oracle Database and MySQL Database; Java, a software development language; and middleware, including development tools and others. The company's cloud and license business' infrastructure technologies also comprise cloud-based compute, storage, and networking capabilities; and Oracle autonomous database, as well as AI, Internet-of-Things, machine learning, digital assistant, and blockchain. Further, it provides hardware products and other hardware-related software offerings, including Oracle engineered systems, enterprise servers, storage solutions, industry-specific hardware, virtualization software, operating systems, management software, and related hardware support services, and consulting and advanced customer services. It markets and sells its cloud, license, hardware, support, and services offerings directly to businesses in various industries, government agencies, and educational institutions, as well as through indirect channels. Oracle Corporation has a strategic alliance with Metron, Inc. The company was founded in 1977 and is headquartered in Austin, Texas."
@@ -1873,30 +1873,55 @@
         "scoring": "Strong",
         "discovery": "Moderate"
       }
+    },
+    {
+      "date": "2026-11-12",
+      "timestamp": "2026-11-12T21:19:41.214905-05:00",
+      "score": 62,
+      "discovery_score": 53,
+      "discovery_status": "Not Selected",
+      "validation_results": {
+        "Excellent": 2,
+        "Good": 1,
+        "Neutral": 1,
+        "Poor": 10,
+        "Pending": 31
+      },
+      "event_count": 10,
+      "news_count": 10,
+      "confidence": {
+        "scoring": "Medium",
+        "discovery": "Medium"
+      },
+      "signal_strength": {
+        "scoring": "Moderate",
+        "discovery": "Moderate"
+      }
     }
   ],
   "Scores": {
     "ticker": "ORCL",
     "company_name": "Oracle Corporation",
-    "total_score": 67,
+    "total_score": 62,
     "max_score": 100,
     "confidence": {
-      "level": "High",
-      "completeness_score": 100,
+      "level": "Medium",
+      "completeness_score": 95.0,
       "reasons": [
         "利用可能な主要データ領域は5領域中 5 領域です。",
-        "欠損または計算不可の項目数は 0 件です。",
-        "主要データが比較的そろっており、説明可能性は高めです。",
+        "欠損または計算不可の項目数は 1 件です。",
+        "主要データは一定程度ありますが、欠損や未取得項目が残っています。",
+        "イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。",
         "Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。"
       ]
     },
     "signal_strength": {
-      "level": "Strong",
-      "signal_rate": 67.0,
+      "level": "Moderate",
+      "signal_rate": 62.0,
       "evaluated_max_score": 100,
       "reasons": [
-        "データが確認できた 100 点満点のうち 67 点を獲得し、シグナル充足率は 67.0% です。",
-        "シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。"
+        "データが確認できた 100 点満点のうち 62 点を獲得し、シグナル充足率は 62.0% です。",
+        "シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。"
       ]
     },
     "scores": {
@@ -1966,13 +1991,13 @@
         }
       },
       "Valuation": {
-        "score": 14,
+        "score": 16,
         "max_score": 20,
         "reasons": [
           "PER はセクター内 35.71 パーセンタイル / 母数 15 で、中位レンジです。",
           "Forward PER はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。",
           "PEG はセクター内 33.33 パーセンタイル / 母数 16 で、中位レンジです。",
-          "PBR はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。",
+          "PBR はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。",
           "バリュエーションは割安判断ではなく、追加調査のための相対評価です。"
         ],
         "evidence": [
@@ -1981,10 +2006,10 @@
         ],
         "missing_data": [],
         "metrics": {
-          "trailing_pe": 20.122257,
-          "forward_pe": 11.608844,
-          "peg_ratio": 0.64,
-          "price_to_book": 6.279593,
+          "trailing_pe": 19.923197,
+          "forward_pe": 11.494003,
+          "peg_ratio": 0.7,
+          "price_to_book": 6.217472,
           "sector_peer_count": 16,
           "trailing_pe_percentile": 35.71,
           "trailing_pe_peer_count": 15,
@@ -1992,7 +2017,7 @@
           "forward_pe_peer_count": 16,
           "peg_ratio_percentile": 33.33,
           "peg_ratio_peer_count": 16,
-          "price_to_book_percentile": 26.67,
+          "price_to_book_percentile": 20.0,
           "price_to_book_peer_count": 16
         }
       },
@@ -2004,7 +2029,7 @@
           "3M の対SPY超過リターンは -15.44pt と、市場を大きく下回っています。",
           "6M の対SPY超過リターンは -34.74pt と、市場を大きく下回っています。",
           "1Y の対SPY超過リターンは -58.68pt と、市場を大きく下回っています。",
-          "直近出来高が30日平均の 1.01 倍で、通常水準の流動性があります。"
+          "直近出来高が30日平均の 1.02 倍で、通常水準の流動性があります。"
         ],
         "evidence": [
           "Prices",
@@ -2029,31 +2054,33 @@
             "6M": -34.74,
             "1Y": -58.68
           },
-          "latest_volume": 38489200.0,
-          "average_volume_30d": 38118260.0
+          "latest_volume": 38796200.0,
+          "average_volume_30d": 38128493.333333336
         }
       },
       "News": {
-        "score": 17,
+        "score": 10,
         "max_score": 20,
         "reasons": [
           "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-          "ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
-          "イベント後の平均株価反応が 8.82% とプラスです。"
+          "ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 2 件(純比率 +0.33)で、センチメントは 5.3 点です。",
+          "イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。"
         ],
         "evidence": [
           "News",
           "Events",
           "Knowledge"
         ],
-        "missing_data": [],
+        "missing_data": [
+          "event_price_reaction"
+        ],
         "metrics": {
           "news_count": 10,
-          "positive_count": 3,
-          "negative_count": 0,
-          "sentiment_net_ratio": 1.0,
+          "positive_count": 4,
+          "negative_count": 2,
+          "sentiment_net_ratio": 0.33,
           "event_count": 10,
-          "events_with_price_reaction": 5
+          "events_with_price_reaction": 0
         }
       }
     },
@@ -2071,13 +2098,13 @@
     "company": "Oracle Corporation",
     "sector": "Technology",
     "industry": "Software - Infrastructure",
-    "discovery_score": 60,
+    "discovery_score": 53,
     "max_score": 100,
-    "status": "Watch Candidate",
+    "status": "Not Selected",
     "discovery_reasons": [
       "Scoring EngineのGrowthが 19/20 で、成長性の基礎条件が確認できます。",
       "Financial Healthが 13/20 で、継続調査に必要な財務基盤を評価しています。",
-      "Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。",
+      "Newsスコアが 10/20 で、材料の量と市場関心を候補評価に反映しています。",
       "売上が取得でき、事業規模の確認ができます。",
       "EPSがプラスで、利益を伴う成長候補として確認できます。",
       "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -2092,17 +2119,18 @@
       "純利益率が高く、売上から利益を残す力があります。"
     ],
     "watch_points": [
+      "注意材料になり得るニュース表現が 2 件あります。",
+      "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
       "TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。",
       "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
       "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
       "Technology セクター全体の需要変化と競争環境を確認する必要があります。",
       "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
-      "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。",
-      "データは取得済みですがシグナルが弱い項目: free_cash_flow"
+      "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
     ],
-    "confidence": "High",
+    "confidence": "Medium",
     "signal_strength": "Moderate",
-    "signal_rate": 60.35,
+    "signal_rate": 55.37,
     "evidence": [
       "Company",
       "Events",
@@ -2113,19 +2141,21 @@
       "Prices",
       "Scoring"
     ],
-    "missing_data": [],
+    "missing_data": [
+      "event_price_reaction"
+    ],
     "metrics": {
-      "scoring_total": 67.0,
-      "signal_earned_points": 60.35,
-      "signal_max_points": 100.0,
+      "scoring_total": 62.0,
+      "signal_earned_points": 52.6,
+      "signal_max_points": 95.0,
       "weak_signals": [
         "free_cash_flow"
       ],
-      "scoring_signal_strength": "Strong",
+      "scoring_signal_strength": "Moderate",
       "growth_score": 19.0,
       "financial_health_score": 13.0,
-      "valuation_score": 14.0,
-      "news_score": 17.0,
+      "valuation_score": 16.0,
+      "news_score": 10.0,
       "momentum": {
         "1m": -10.34915669082464,
         "3m": -17.51707889604902,
@@ -2139,17 +2169,17 @@
         "6m": -34.74,
         "1y": -58.68
       },
-      "positive_news": 3,
-      "watch_news": 0,
+      "positive_news": 4,
+      "watch_news": 2,
       "event_count": 10,
-      "events_with_reaction": 5,
-      "sector_average_score": 68.41666666666667
+      "events_with_reaction": 0,
+      "sector_average_score": 65.83333333333333
     }
   },
   "Validation": [
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2208,7 +2238,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2267,7 +2297,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2326,7 +2356,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2385,7 +2415,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2444,7 +2474,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2504,7 +2534,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2564,7 +2594,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2624,7 +2654,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2684,7 +2714,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3039,7 +3069,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3099,7 +3129,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3159,7 +3189,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3219,7 +3249,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3279,7 +3309,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3339,7 +3369,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3399,7 +3429,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3459,7 +3489,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3519,7 +3549,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3579,7 +3609,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3639,7 +3669,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3699,7 +3729,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3759,7 +3789,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3819,7 +3849,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3879,7 +3909,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3939,7 +3969,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3999,7 +4029,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4059,7 +4089,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4119,7 +4149,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4179,7 +4209,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4239,7 +4269,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4299,7 +4329,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4359,7 +4389,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4419,7 +4449,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4479,7 +4509,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4539,7 +4569,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4599,7 +4629,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4659,7 +4689,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4719,7 +4749,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4779,7 +4809,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-11",
+      "validation_date": "2026-11-12",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4842,11 +4872,11 @@
     "count": 10,
     "latest": [
       {
-        "event_id": "ORCL_35830016140f2324",
+        "event_id": "ORCL_2adbb3984cfd4539",
         "ticker": "ORCL",
-        "published_at": "2026-11-11T22:45:02+00:00",
-        "title": "Stock Market Today, Nov. 11: Stock Market Today, Nov. 11: Nasdaq Surges as CoreWeave's 25% Rally Reignites the AI Trade",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/11/stock-market-today-nov-11-stock-market-today-nov-11-nasdaq-surges-as-coreweave-s-25-rally-reignites-the-ai-trade/",
+        "published_at": "2026-11-12T23:14:28+00:00",
+        "title": "5 Best AI Stocks to Buy After Wells Fargo’s Outlook Upgrade",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/5-best-ai-stocks-buy-231428418.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -4854,11 +4884,11 @@
         "volume": null
       },
       {
-        "event_id": "ORCL_767f0f7ec3d2a0cc",
+        "event_id": "ORCL_7958ab82e9045b3e",
         "ticker": "ORCL",
-        "published_at": "2026-11-11T22:36:03+00:00",
-        "title": "Nvidia-Backed CoreWeave Is Surging: Here’s What It Means for the AI Boom",
-        "url": "https://decrypt.co/383099/nvidia-backed-coreweave-surging-what-means-for-ai-boom",
+        "published_at": "2026-11-12T23:02:00+00:00",
+        "title": "Cerebras Adds Microsoft Partnership to Diversify Beyond OpenAI",
+        "url": "https://www.barrons.com/articles/cerebras-earnings-stock-price-3bad09cc?siteid=yhoof2&yptr=yahoo",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -4866,11 +4896,11 @@
         "volume": null
       },
       {
-        "event_id": "ORCL_c2639562be87e763",
+        "event_id": "ORCL_9a465220ccb83039",
         "ticker": "ORCL",
-        "published_at": "2026-11-11T22:18:42+00:00",
-        "title": "How Much Tax Does a 66-Year-Old Owe Selling $600,000 in Micron and Oracle Gains?",
-        "url": "https://247wallst.com/investing/2026/11/11/how-much-tax-does-a-66-year-old-owe-selling-600000-in-micron-and-oracle-gains/",
+        "published_at": "2026-11-12T22:14:19+00:00",
+        "title": "AI Chipmaker Cerebras Tops Q3 Views, Adds Big Customers",
+        "url": "https://www.investors.com/news/technology/cerebras-stock-cbrs-q3-2026-earnings/?src=A00220&yptr=yahoo",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -4878,11 +4908,11 @@
         "volume": null
       },
       {
-        "event_id": "ORCL_73a1143d8e754a3e",
+        "event_id": "ORCL_0be8a0effb8139fc",
         "ticker": "ORCL",
-        "published_at": "2026-11-11T22:11:42+00:00",
-        "title": "Oracle Stock Just Surged After CoreWeave Earnings. Here's Why One Analyst Says It's Built for the Data-Center Backlash",
-        "url": "https://www.fool.com/investing/2026/11/11/oracle-stock-just-surged-after-coreweave-earnings-here-s-why-one-analyst-says-it-s-built-for-the-data-center-backlash/",
+        "published_at": "2026-11-12T21:35:40+00:00",
+        "title": "AI Debt Binge Hits a Wall As Global Bond Markets Reach Saturation Point, Wells Fargo Warns",
+        "url": "https://stocktwits.com/news-articles/markets/equity/ai-debt-binge-hits-a-wall-as-global-bond-markets-reach-saturation-point-wells-fargo-warns/cNGC7rER9OP",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -4890,11 +4920,11 @@
         "volume": null
       },
       {
-        "event_id": "ORCL_65ba8ea38809cf53",
+        "event_id": "ORCL_6f8da9c338f7d6e5",
         "ticker": "ORCL",
-        "published_at": "2026-11-11T21:36:08+00:00",
-        "title": "Oracle Stock Gets A Boost. Here's What's Next For Tech Giant's AI Push.",
-        "url": "https://www.investors.com/news/technology/oracle-stock-cfo-hilary-maxson-ai-demand/?src=A00220&yptr=yahoo",
+        "published_at": "2026-11-12T21:28:07+00:00",
+        "title": "Nvidia’s Market Cap Continues to Slide",
+        "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-12-2026/card/nvidia-s-market-cap-continues-to-slide-NPJDTzE5NpYFxp2GPkaR?siteid=yhoof2&yptr=yahoo",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -4902,68 +4932,188 @@
         "volume": null
       },
       {
-        "event_id": "ORCL_a9251cc87dcd438e",
+        "event_id": "ORCL_86fcbcd0cb3ffdd8",
         "ticker": "ORCL",
-        "published_at": "2026-11-11T20:19:47+00:00",
-        "title": "Oracle Stock Just Scored a New $325 Price Target",
-        "url": "https://www.barchart.com/story/news/8787198/oracle-stock-just-scored-a-new-325-price-target",
+        "published_at": "2026-11-12T20:04:05+00:00",
+        "title": "Oracle Is Down 34% in 2026: Is ORCL Stock Dead Money or Due for a Bounce?",
+        "url": "https://247wallst.com/investing/2026/11/12/oracle-is-down-34-in-2026-is-orcl-stock-dead-money-or-due-for-a-bounce/",
         "source": "STORY",
-        "close_price": 128.3800048828125,
-        "previous_close": 117.9800033569336,
-        "price_change_percent": 8.815054441399713,
-        "volume": 38489200.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "ORCL_11489e5f1f3f8f81",
+        "event_id": "ORCL_f8c0f3882d5fc6be",
         "ticker": "ORCL",
-        "published_at": "2026-11-11T19:45:01+00:00",
-        "title": "Why Oracle Stock Is Up Today",
-        "url": "https://www.fool.com/investing/2026/11/11/why-oracle-stock-is-up-today/",
+        "published_at": "2026-11-12T19:50:00+00:00",
+        "title": "Pimco CEO Warns: AI Companies Risk Borrowing \"Too Much\" ($10 Trillion)",
+        "url": "https://www.fool.com/investing/2026/11/12/pimco-ceo-warns-ai-companies-risk-borrowing-too-mu/",
         "source": "STORY",
-        "close_price": 128.3800048828125,
-        "previous_close": 117.9800033569336,
-        "price_change_percent": 8.815054441399713,
-        "volume": 38489200.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "ORCL_30335678feaa06d3",
+        "event_id": "ORCL_da0a54051a60ddc2",
         "ticker": "ORCL",
-        "published_at": "2026-11-11T19:24:09+00:00",
-        "title": "3 Possible Paths Forward for AI Stocks (Bull Case, Bear Case, Base Case) -- and How to Invest for Each",
-        "url": "https://www.fool.com/investing/2026/11/11/3-possible-paths-forward-for-ai-stocks-bull-case-b/",
+        "published_at": "2026-11-12T19:44:42+00:00",
+        "title": "Oracle Stocks Fall 2.77% as NVIDIA Shake-Up Cools the AI Cloud Rebound",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-fall-2-77-194442864.html",
         "source": "STORY",
-        "close_price": 128.3800048828125,
-        "previous_close": 117.9800033569336,
-        "price_change_percent": 8.815054441399713,
-        "volume": 38489200.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "ORCL_885bb4d45b35c568",
+        "event_id": "ORCL_1763af920ab597b1",
         "ticker": "ORCL",
-        "published_at": "2026-11-11T19:02:30+00:00",
-        "title": "Billionaire venture capitalist Vinod Khosla says judge AI by usage, not stock prices",
-        "url": "https://finance.yahoo.com/markets/article/billionaire-venture-capitalist-vinod-khosla-says-judge-ai-by-usage-not-stock-prices-190230250.html",
+        "published_at": "2026-11-12T17:51:26+00:00",
+        "title": "DBS’s $290 Oracle Target Still Implies 126% Upside, Even After a Cut",
+        "url": "https://www.tikr.com/blog/dbss-290-oracle-target-still-implies-126-upside-even-after-a-cut?ref=yahoofinance&tlnk=yf-261112-cv8xpwhw",
         "source": "STORY",
-        "close_price": 128.3800048828125,
-        "previous_close": 117.9800033569336,
-        "price_change_percent": 8.815054441399713,
-        "volume": 38489200.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "ORCL_e37fe36f93e97128",
+        "event_id": "ORCL_d1cc5781909e93bf",
         "ticker": "ORCL",
-        "published_at": "2026-11-11T18:40:03+00:00",
-        "title": "Are AI Bulls Back? Looks Like It Thanks To Anthropic, CoreWeave, Nvidia",
-        "url": "https://www.investors.com/news/technology/ai-stocks-coreweave-anthropic-artificial-intelligence/?src=A00220&yptr=yahoo",
+        "published_at": "2026-11-12T17:45:28+00:00",
+        "title": "Is There Hope for Oracle After Plummeting 35% This Year? ‘Yes’ Says One Analyst Predicting 210% Gains From Here",
+        "url": "https://247wallst.com/investing/2026/11/12/is-there-hope-for-oracle-after-plummeting-35-this-year-yes-says-one-analyst-predicting-210-gains-from-here/",
         "source": "STORY",
-        "close_price": 128.3800048828125,
-        "previous_close": 117.9800033569336,
-        "price_change_percent": 8.815054441399713,
-        "volume": 38489200.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       }
     ],
-    "history_count": 361,
+    "history_count": 371,
     "history": [
+      {
+        "event_id": "ORCL_2adbb3984cfd4539",
+        "ticker": "ORCL",
+        "published_at": "2026-11-12T23:14:28+00:00",
+        "title": "5 Best AI Stocks to Buy After Wells Fargo’s Outlook Upgrade",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/5-best-ai-stocks-buy-231428418.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_7958ab82e9045b3e",
+        "ticker": "ORCL",
+        "published_at": "2026-11-12T23:02:00+00:00",
+        "title": "Cerebras Adds Microsoft Partnership to Diversify Beyond OpenAI",
+        "url": "https://www.barrons.com/articles/cerebras-earnings-stock-price-3bad09cc?siteid=yhoof2&yptr=yahoo",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_9a465220ccb83039",
+        "ticker": "ORCL",
+        "published_at": "2026-11-12T22:14:19+00:00",
+        "title": "AI Chipmaker Cerebras Tops Q3 Views, Adds Big Customers",
+        "url": "https://www.investors.com/news/technology/cerebras-stock-cbrs-q3-2026-earnings/?src=A00220&yptr=yahoo",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_0be8a0effb8139fc",
+        "ticker": "ORCL",
+        "published_at": "2026-11-12T21:35:40+00:00",
+        "title": "AI Debt Binge Hits a Wall As Global Bond Markets Reach Saturation Point, Wells Fargo Warns",
+        "url": "https://stocktwits.com/news-articles/markets/equity/ai-debt-binge-hits-a-wall-as-global-bond-markets-reach-saturation-point-wells-fargo-warns/cNGC7rER9OP",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_6f8da9c338f7d6e5",
+        "ticker": "ORCL",
+        "published_at": "2026-11-12T21:28:07+00:00",
+        "title": "Nvidia’s Market Cap Continues to Slide",
+        "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-12-2026/card/nvidia-s-market-cap-continues-to-slide-NPJDTzE5NpYFxp2GPkaR?siteid=yhoof2&yptr=yahoo",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_86fcbcd0cb3ffdd8",
+        "ticker": "ORCL",
+        "published_at": "2026-11-12T20:04:05+00:00",
+        "title": "Oracle Is Down 34% in 2026: Is ORCL Stock Dead Money or Due for a Bounce?",
+        "url": "https://247wallst.com/investing/2026/11/12/oracle-is-down-34-in-2026-is-orcl-stock-dead-money-or-due-for-a-bounce/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_f8c0f3882d5fc6be",
+        "ticker": "ORCL",
+        "published_at": "2026-11-12T19:50:00+00:00",
+        "title": "Pimco CEO Warns: AI Companies Risk Borrowing \"Too Much\" ($10 Trillion)",
+        "url": "https://www.fool.com/investing/2026/11/12/pimco-ceo-warns-ai-companies-risk-borrowing-too-mu/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_da0a54051a60ddc2",
+        "ticker": "ORCL",
+        "published_at": "2026-11-12T19:44:42+00:00",
+        "title": "Oracle Stocks Fall 2.77% as NVIDIA Shake-Up Cools the AI Cloud Rebound",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-fall-2-77-194442864.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_1763af920ab597b1",
+        "ticker": "ORCL",
+        "published_at": "2026-11-12T17:51:26+00:00",
+        "title": "DBS’s $290 Oracle Target Still Implies 126% Upside, Even After a Cut",
+        "url": "https://www.tikr.com/blog/dbss-290-oracle-target-still-implies-126-upside-even-after-a-cut?ref=yahoofinance&tlnk=yf-261112-cv8xpwhw",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_d1cc5781909e93bf",
+        "ticker": "ORCL",
+        "published_at": "2026-11-12T17:45:28+00:00",
+        "title": "Is There Hope for Oracle After Plummeting 35% This Year? ‘Yes’ Says One Analyst Predicting 210% Gains From Here",
+        "url": "https://247wallst.com/investing/2026/11/12/is-there-hope-for-oracle-after-plummeting-35-this-year-yes-says-one-analyst-predicting-210-gains-from-here/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
       {
         "event_id": "ORCL_35830016140f2324",
         "ticker": "ORCL",
@@ -9303,117 +9453,227 @@
     "latest": [
       {
         "ticker": "ORCL",
-        "title": "Stock Market Today, Nov. 11: Stock Market Today, Nov. 11: Nasdaq Surges as CoreWeave's 25% Rally Reignites the AI Trade",
-        "summary": "Wall Street staged a strong recovery Wednesday as enthusiasm for AI infrastructure returned, lifting semiconductor and technology stocks despite persistent concerns about inflation.",
-        "published_at": "2026-11-11T22:45:02+00:00",
-        "publisher": "Motley Fool",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/11/stock-market-today-nov-11-stock-market-today-nov-11-nasdaq-surges-as-coreweave-s-25-rally-reignites-the-ai-trade/",
+        "title": "5 Best AI Stocks to Buy After Wells Fargo’s Outlook Upgrade",
+        "summary": "Wells Fargo is no longer telling investors to stay away from the AI infrastructure trade. In a new note, analysts led by Ohsung Kwon raised the firm’s view on US AI infrastructure to neutral from negative. The change follows a deep selloff. Semiconductor shares trade about 38% below their June highs, and the multiples investors […]",
+        "published_at": "2026-11-12T23:14:28+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/5-best-ai-stocks-buy-231428418.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "ORCL",
-        "title": "Nvidia-Backed CoreWeave Is Surging: Here’s What It Means for the AI Boom",
-        "summary": "CoreWeave's 168% revenue jump sent its shares soaring and lifted Nvidia and other AI stocks. Strong demand is reassuring investors, but the cost of building it remains enormous.",
-        "published_at": "2026-11-11T22:36:03+00:00",
-        "publisher": "decrypt",
-        "url": "https://decrypt.co/383099/nvidia-backed-coreweave-surging-what-means-for-ai-boom",
+        "title": "Cerebras Adds Microsoft Partnership to Diversify Beyond OpenAI",
+        "summary": "The artificial-intelligence chip maker bested expectations and its share price climbed in after-hours trading.",
+        "published_at": "2026-11-12T23:02:00+00:00",
+        "publisher": "Barrons.com",
+        "url": "https://www.barrons.com/articles/cerebras-earnings-stock-price-3bad09cc?siteid=yhoof2&yptr=yahoo",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "ORCL",
-        "title": "How Much Tax Does a 66-Year-Old Owe Selling $600,000 in Micron and Oracle Gains?",
-        "summary": "A retired couple sitting on $600,000 of Micron and Oracle gains can take it all now or stretch it out. One path cuts the tax bill but triggers a surprise Medicare cost, and plunging share prices complicate the choice.",
-        "published_at": "2026-11-11T22:18:42+00:00",
+        "title": "AI Chipmaker Cerebras Tops Q3 Views, Adds Big Customers",
+        "summary": "AI chipmaker Cerebras beat expectations for the third quarter and with its Q4 outlook. Cerebras stock jumped.",
+        "published_at": "2026-11-12T22:14:19+00:00",
+        "publisher": "Investor's Business Daily",
+        "url": "https://www.investors.com/news/technology/cerebras-stock-cbrs-q3-2026-earnings/?src=A00220&yptr=yahoo",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "AI Debt Binge Hits a Wall As Global Bond Markets Reach Saturation Point, Wells Fargo Warns",
+        "summary": "Wells Fargo warns that massive corporate borrowing to fund AI infrastructure is straining the $15 trillion investment-grade bond market, and investors are pushing back.",
+        "published_at": "2026-11-12T21:35:40+00:00",
+        "publisher": "Stocktwits",
+        "url": "https://stocktwits.com/news-articles/markets/equity/ai-debt-binge-hits-a-wall-as-global-bond-markets-reach-saturation-point-wells-fargo-warns/cNGC7rER9OP",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Nvidia’s Market Cap Continues to Slide",
+        "summary": "After Nvidia’s 4.3% decline today, the AI chip giant’s market cap has now declined this much since its Oct. 6 peak.",
+        "published_at": "2026-11-12T21:28:07+00:00",
+        "publisher": "The Wall Street Journal",
+        "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-12-2026/card/nvidia-s-market-cap-continues-to-slide-NPJDTzE5NpYFxp2GPkaR?siteid=yhoof2&yptr=yahoo",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Oracle Is Down 34% in 2026: Is ORCL Stock Dead Money or Due for a Bounce?",
+        "summary": "Oracle's AI cloud backlog keeps growing, yet so does the bill for building it. With negative free cash flow, mounting debt, and a cheap valuation, the next earnings report may decide whether bulls or bears have been reading the story right.",
+        "published_at": "2026-11-12T20:04:05+00:00",
         "publisher": "24/7 Wall St.",
-        "url": "https://247wallst.com/investing/2026/11/11/how-much-tax-does-a-66-year-old-owe-selling-600000-in-micron-and-oracle-gains/",
+        "url": "https://247wallst.com/investing/2026/11/12/oracle-is-down-34-in-2026-is-orcl-stock-dead-money-or-due-for-a-bounce/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "ORCL",
-        "title": "Oracle Stock Just Surged After CoreWeave Earnings. Here's Why One Analyst Says It's Built for the Data-Center Backlash",
-        "summary": "Oracle shares rallied with other AI stocks on Wednesday. One analyst thinks Oracle is better positioned than rivals as political pushback against data centers grows.",
-        "published_at": "2026-11-11T22:11:42+00:00",
+        "title": "Pimco CEO Warns: AI Companies Risk Borrowing \"Too Much\" ($10 Trillion)",
+        "summary": "AI companies are on track to borrow so much money that it might nearly match the size of the overall $12 trillion U.S. corporate bond market.",
+        "published_at": "2026-11-12T19:50:00+00:00",
         "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/11/11/oracle-stock-just-surged-after-coreweave-earnings-here-s-why-one-analyst-says-it-s-built-for-the-data-center-backlash/",
+        "url": "https://www.fool.com/investing/2026/11/12/pimco-ceo-warns-ai-companies-risk-borrowing-too-mu/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "ORCL",
-        "title": "Oracle Stock Gets A Boost. Here's What's Next For Tech Giant's AI Push.",
-        "summary": "Oracle Chief Financial Officer Hilary Maxson said the company will add 7 gigawatts of data center capacity.",
-        "published_at": "2026-11-11T21:36:08+00:00",
-        "publisher": "Investor's Business Daily",
-        "url": "https://www.investors.com/news/technology/oracle-stock-cfo-hilary-maxson-ai-demand/?src=A00220&yptr=yahoo",
+        "title": "Oracle Stocks Fall 2.77% as NVIDIA Shake-Up Cools the AI Cloud Rebound",
+        "summary": "Oracle gives back part of Wednesday's 9% surge, which followed CoreWeave's plan to lean on prepayments over unsecured debt.",
+        "published_at": "2026-11-12T19:44:42+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-fall-2-77-194442864.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "ORCL",
-        "title": "Oracle Stock Just Scored a New $325 Price Target",
-        "summary": "Oracle stock receives a bullish research note from Bernstein. Here’s why analyst Mark Moerdler continues to favor owning ORCL shares.",
-        "published_at": "2026-11-11T20:19:47+00:00",
-        "publisher": "Barchart",
-        "url": "https://www.barchart.com/story/news/8787198/oracle-stock-just-scored-a-new-325-price-target",
+        "title": "DBS’s $290 Oracle Target Still Implies 126% Upside, Even After a Cut",
+        "summary": "Key TakeawaysBy Nov. 12, DBS had cut its Oracle price target to $290 from $310 and kept its Buy rating, which leaves 126% upside from the Nov.",
+        "published_at": "2026-11-12T17:51:26+00:00",
+        "publisher": "TIKR",
+        "url": "https://www.tikr.com/blog/dbss-290-oracle-target-still-implies-126-upside-even-after-a-cut?ref=yahoofinance&tlnk=yf-261112-cv8xpwhw",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "ORCL",
-        "title": "Why Oracle Stock Is Up Today",
-        "summary": "CoreWeave's strong quarter took some of the AI debt worry off the table and gave Oracle stock a lift.",
-        "published_at": "2026-11-11T19:45:01+00:00",
-        "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/11/11/why-oracle-stock-is-up-today/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "ORCL",
-        "title": "3 Possible Paths Forward for AI Stocks (Bull Case, Bear Case, Base Case) -- and How to Invest for Each",
-        "summary": "No matter how you feel about AI stocks, there is room for optimism about the future of the stock market.",
-        "published_at": "2026-11-11T19:24:09+00:00",
-        "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/11/11/3-possible-paths-forward-for-ai-stocks-bull-case-b/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "ORCL",
-        "title": "Billionaire venture capitalist Vinod Khosla says judge AI by usage, not stock prices",
-        "summary": "Vinod Khosla, the billionaire Sun Microsystems co-founder and early OpenAI backer, says usage is the number to watch, not the stock market's mood swings.",
-        "published_at": "2026-11-11T19:02:30+00:00",
-        "publisher": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/article/billionaire-venture-capitalist-vinod-khosla-says-judge-ai-by-usage-not-stock-prices-190230250.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "ORCL",
-        "title": "Are AI Bulls Back? Looks Like It Thanks To Anthropic, CoreWeave, Nvidia",
-        "summary": "AI Bulls are back. AI stocks jumped Wednesday, boosted by CoreWeave results and upbeat feedback from Anthropic’s IPO roadshow.",
-        "published_at": "2026-11-11T18:40:03+00:00",
-        "publisher": "Investor's Business Daily",
-        "url": "https://www.investors.com/news/technology/ai-stocks-coreweave-anthropic-artificial-intelligence/?src=A00220&yptr=yahoo",
+        "title": "Is There Hope for Oracle After Plummeting 35% This Year? ‘Yes’ Says One Analyst Predicting 210% Gains From Here",
+        "summary": "Oracle sits on a record contracted backlog while burning cash at a pace that has forced stock sales and new debt. Two numbers on its financial statements tell opposite stories, and only one can decide whether this slide is a bargain or a trap.",
+        "published_at": "2026-11-12T17:45:28+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/12/is-there-hope-for-oracle-after-plummeting-35-this-year-yes-says-one-analyst-predicting-210-gains-from-here/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       }
     ],
-    "history_count": 360,
+    "history_count": 370,
     "history": [
+      {
+        "ticker": "ORCL",
+        "title": "5 Best AI Stocks to Buy After Wells Fargo’s Outlook Upgrade",
+        "summary": "Wells Fargo is no longer telling investors to stay away from the AI infrastructure trade. In a new note, analysts led by Ohsung Kwon raised the firm’s view on US AI infrastructure to neutral from negative. The change follows a deep selloff. Semiconductor shares trade about 38% below their June highs, and the multiples investors […]",
+        "published_at": "2026-11-12T23:14:28+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/5-best-ai-stocks-buy-231428418.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Cerebras Adds Microsoft Partnership to Diversify Beyond OpenAI",
+        "summary": "The artificial-intelligence chip maker bested expectations and its share price climbed in after-hours trading.",
+        "published_at": "2026-11-12T23:02:00+00:00",
+        "publisher": "Barrons.com",
+        "url": "https://www.barrons.com/articles/cerebras-earnings-stock-price-3bad09cc?siteid=yhoof2&yptr=yahoo",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "AI Chipmaker Cerebras Tops Q3 Views, Adds Big Customers",
+        "summary": "AI chipmaker Cerebras beat expectations for the third quarter and with its Q4 outlook. Cerebras stock jumped.",
+        "published_at": "2026-11-12T22:14:19+00:00",
+        "publisher": "Investor's Business Daily",
+        "url": "https://www.investors.com/news/technology/cerebras-stock-cbrs-q3-2026-earnings/?src=A00220&yptr=yahoo",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "AI Debt Binge Hits a Wall As Global Bond Markets Reach Saturation Point, Wells Fargo Warns",
+        "summary": "Wells Fargo warns that massive corporate borrowing to fund AI infrastructure is straining the $15 trillion investment-grade bond market, and investors are pushing back.",
+        "published_at": "2026-11-12T21:35:40+00:00",
+        "publisher": "Stocktwits",
+        "url": "https://stocktwits.com/news-articles/markets/equity/ai-debt-binge-hits-a-wall-as-global-bond-markets-reach-saturation-point-wells-fargo-warns/cNGC7rER9OP",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Nvidia’s Market Cap Continues to Slide",
+        "summary": "After Nvidia’s 4.3% decline today, the AI chip giant’s market cap has now declined this much since its Oct. 6 peak.",
+        "published_at": "2026-11-12T21:28:07+00:00",
+        "publisher": "The Wall Street Journal",
+        "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-12-2026/card/nvidia-s-market-cap-continues-to-slide-NPJDTzE5NpYFxp2GPkaR?siteid=yhoof2&yptr=yahoo",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Oracle Is Down 34% in 2026: Is ORCL Stock Dead Money or Due for a Bounce?",
+        "summary": "Oracle's AI cloud backlog keeps growing, yet so does the bill for building it. With negative free cash flow, mounting debt, and a cheap valuation, the next earnings report may decide whether bulls or bears have been reading the story right.",
+        "published_at": "2026-11-12T20:04:05+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/12/oracle-is-down-34-in-2026-is-orcl-stock-dead-money-or-due-for-a-bounce/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Pimco CEO Warns: AI Companies Risk Borrowing \"Too Much\" ($10 Trillion)",
+        "summary": "AI companies are on track to borrow so much money that it might nearly match the size of the overall $12 trillion U.S. corporate bond market.",
+        "published_at": "2026-11-12T19:50:00+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/11/12/pimco-ceo-warns-ai-companies-risk-borrowing-too-mu/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Oracle Stocks Fall 2.77% as NVIDIA Shake-Up Cools the AI Cloud Rebound",
+        "summary": "Oracle gives back part of Wednesday's 9% surge, which followed CoreWeave's plan to lean on prepayments over unsecured debt.",
+        "published_at": "2026-11-12T19:44:42+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-fall-2-77-194442864.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "DBS’s $290 Oracle Target Still Implies 126% Upside, Even After a Cut",
+        "summary": "Key TakeawaysBy Nov. 12, DBS had cut its Oracle price target to $290 from $310 and kept its Buy rating, which leaves 126% upside from the Nov.",
+        "published_at": "2026-11-12T17:51:26+00:00",
+        "publisher": "TIKR",
+        "url": "https://www.tikr.com/blog/dbss-290-oracle-target-still-implies-126-upside-even-after-a-cut?ref=yahoofinance&tlnk=yf-261112-cv8xpwhw",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Is There Hope for Oracle After Plummeting 35% This Year? ‘Yes’ Says One Analyst Predicting 210% Gains From Here",
+        "summary": "Oracle sits on a record contracted backlog while burning cash at a pace that has forced stock sales and new debt. Two numbers on its financial statements tell opposite stories, and only one can decide whether this slide is a bargain or a trap.",
+        "published_at": "2026-11-12T17:45:28+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/12/is-there-hope-for-oracle-after-plummeting-35-this-year-yes-says-one-analyst-predicting-210-gains-from-here/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
       {
         "ticker": "ORCL",
         "title": "Stock Market Today, Nov. 11: Stock Market Today, Nov. 11: Nasdaq Surges as CoreWeave's 25% Rally Reignites the AI Trade",
@@ -13377,12 +13637,12 @@
     ]
   },
   "Confidence": {
-    "scoring": "High",
-    "discovery": "High"
+    "scoring": "Medium",
+    "discovery": "Medium"
   },
   "SignalStrength": {
-    "scoring": "Strong",
+    "scoring": "Moderate",
     "discovery": "Moderate"
   },
-  "Timestamp": "2026-11-11T21:38:24.836211-05:00"
+  "Timestamp": "2026-11-12T21:19:41.214905-05:00"
 }

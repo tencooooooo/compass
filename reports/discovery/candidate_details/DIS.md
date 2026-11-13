@@ -10,7 +10,7 @@
 
 ## Discovery Score
 
-68 / 100
+67 / 100
 
 ## Discovery Reasons
 
@@ -46,7 +46,7 @@ Medium
 
 ## Signal Strength
 
-Strong(シグナル充足率: 69.69%)
+Strong(シグナル充足率: 68.92%)
 
 ## Evidence
 
@@ -66,7 +66,7 @@ Strong(シグナル充足率: 69.69%)
 ## Metrics
 
 - scoring_total: 61.0
-- signal_earned_points: 67.6
+- signal_earned_points: 66.85
 - signal_max_points: 97.0
 - weak_signals: []
 - scoring_signal_strength: Moderate
@@ -77,8 +77,8 @@ Strong(シグナル充足率: 69.69%)
 - momentum: {'1m': 10.195247290609394, '3m': 14.169845459629526, '6m': 14.934994027072385, '1y': 8.145544030646134}
 - benchmark: SPY
 - excess_momentum: {'1m': 12.53, '3m': 16.25, '6m': 12.06, '1y': -4.56}
-- positive_news: 4
+- positive_news: 3
 - watch_news: 0
 - event_count: 10
-- events_with_reaction: 10
-- sector_average_score: 58.5
+- events_with_reaction: 3
+- sector_average_score: 58.0

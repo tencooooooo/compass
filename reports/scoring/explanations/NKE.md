@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: NIKE, Inc.
-- Total Score: 50 / 100
+- Total Score: 54 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 50 点を獲得し、シグナル充足率は 50.0% です。
+- データが確認できた 100 点満点のうち 54 点を獲得し、シグナル充足率は 54.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -94,12 +94,12 @@ Evidence
 
 ## Valuation
 
-10点
+13点
 
 理由
 
 - PER はセクター内 11.11 パーセンタイル / 母数 10 で、相対的に割安寄りです。
-- Forward PER はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
+- Forward PER はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
 - PEG はセクター内 88.89 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - PBR はセクター内 0.00 パーセンタイル / 母数 5 で、相対的に割安寄りです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
@@ -111,14 +111,14 @@ Evidence
 
 使用データ
 
-- trailing_pe: 18.4231
-- forward_pe: 24.7999
-- peg_ratio: 3.3500
-- price_to_book: 3.7338
+- trailing_pe: 18.1538
+- forward_pe: 24.4374
+- peg_ratio: 3.3200
+- price_to_book: 3.6792
 - sector_peer_count: 10
 - trailing_pe_percentile: 11.1100
 - trailing_pe_peer_count: 10
-- forward_pe_percentile: 77.7800
+- forward_pe_percentile: 55.5600
 - forward_pe_peer_count: 10
 - peg_ratio_percentile: 88.8900
 - peg_ratio_peer_count: 10
@@ -151,18 +151,18 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': -2.34, '3M': -2.08, '6M': 2.88, '1Y': 12.7}
 - excess_returns: {'1M': 10.8, '3M': -3.99, '6M': -10.59, '1Y': -47.6}
-- latest_volume: 19,062,000.0000
-- average_volume_30d: 34,467,040.0000
+- latest_volume: 19,099,700.0000
+- average_volume_30d: 34,468,296.6667
 
 ## News
 
-10点
+11点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。
-- イベント後の平均株価反応が -1.33% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 2 件(純比率 +0.00)で、センチメントは 4.0 点です。
+- イベント後の平均株価反応が -0.91% と中立圏です。
 
 Evidence
 
@@ -173,11 +173,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 3
-- negative_count: 1
-- sentiment_net_ratio: 0.5000
+- positive_count: 2
+- negative_count: 2
+- sentiment_net_ratio: 0.0000
 - event_count: 10
-- events_with_price_reaction: 10
+- events_with_price_reaction: 7
 
 ## Note
 
