@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: T-Mobile US, Inc.
-- Total Score: 54 / 100
+- Total Score: 57 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 54 点を獲得し、シグナル充足率は 54.0% です。
+- データが確認できた 100 点満点のうち 57 点を獲得し、シグナル充足率は 57.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -111,10 +111,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 16.4928
-- forward_pe: 11.9973
+- trailing_pe: 16.3886
+- forward_pe: 11.9216
 - peg_ratio: 0.5100
-- price_to_book: 3.2283
+- price_to_book: 3.2079
 - sector_peer_count: 10
 - trailing_pe_percentile: 55.5600
 - trailing_pe_peer_count: 10
@@ -127,15 +127,15 @@ Evidence
 
 ## Momentum
 
-6点
+7点
 
 理由
 
-- 1M の対SPY超過リターンが +14.33pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンは -3.50pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -11.38pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -27.31pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.79 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンが +10.48pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンは -2.98pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -9.79pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは -29.98pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.48 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -144,25 +144,25 @@ Evidence
 
 使用データ
 
-- 1M: 11.9886
-- 3M: -5.5766
-- 6M: -8.5069
-- 1Y: -14.6078
+- 1M: 8.2277
+- 3M: -5.1017
+- 6M: -7.2140
+- 1Y: -18.4031
 - benchmark: SPY
-- benchmark_returns: {'1M': -2.34, '3M': -2.08, '6M': 2.88, '1Y': 12.7}
-- excess_returns: {'1M': 14.33, '3M': -3.5, '6M': -11.38, '1Y': -27.31}
-- latest_volume: 5,264,200.0000
-- average_volume_30d: 6,624,770.0000
+- benchmark_returns: {'1M': -2.26, '3M': -2.13, '6M': 2.57, '1Y': 11.58}
+- excess_returns: {'1M': 10.48, '3M': -2.98, '6M': -9.79, '1Y': -29.98}
+- latest_volume: 3,169,000.0000
+- average_volume_30d: 6,623,670.0000
 
 ## News
 
-13点
+15点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- 見出し・要約から好悪材料を分類できなかったため、センチメントは中立の4.0点としています。
-- イベント後の平均株価反応が 1.82% とプラスです。
+- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が -0.64% と中立圏です。
 
 Evidence
 
@@ -173,11 +173,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 0
+- positive_count: 1
 - negative_count: 0
-- sentiment_net_ratio: N/A
+- sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 4
+- events_with_price_reaction: 10
 
 ## Note
 

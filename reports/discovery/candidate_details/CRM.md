@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-71 / 100
+75 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 16/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで -6.06pt と、市場を小幅に下回っています。
-- 3Mモメンタムは対SPYで +10.53pt と、市場を大きく上回っています。
-- 6Mモメンタムは対SPYで +29.15pt と、市場を大きく上回っています。
+- 1Mモメンタムは対SPYで -9.46pt と、市場を小幅に下回っています。
+- 3Mモメンタムは対SPYで +16.40pt と、市場を大きく上回っています。
+- 6Mモメンタムは対SPYで +23.52pt と、市場を大きく上回っています。
 
 ## Strengths
 
@@ -33,7 +33,7 @@
 
 ## Watch Points
 
-- Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。
+- 注意材料になり得るニュース表現が 2 件あります。
 - TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
@@ -43,11 +43,11 @@
 
 ## Confidence
 
-Medium
+High
 
 ## Signal Strength
 
-Strong(シグナル充足率: 74.53%)
+Strong(シグナル充足率: 75.4%)
 
 ## Evidence
 
@@ -62,24 +62,24 @@ Strong(シグナル充足率: 74.53%)
 
 ## Missing Data
 
-- event_price_reaction
+- N/A
 
 ## Metrics
 
-- scoring_total: 72.0
-- signal_earned_points: 70.8
-- signal_max_points: 95.0
+- scoring_total: 69.0
+- signal_earned_points: 75.4
+- signal_max_points: 100.0
 - weak_signals: []
 - scoring_signal_strength: Strong
 - growth_score: 17.0
 - financial_health_score: 16.0
 - valuation_score: 14.0
-- news_score: 13.0
-- momentum: {'1m': -8.403008470900819, '3m': 8.453857836701445, '6m': 32.0291886326381, '1y': -9.04012668105428}
+- news_score: 12.0
+- momentum: {'1m': -11.712737501772533, '3m': 14.270947668418724, '6m': 26.09445061583425, '1y': -10.703326079152891}
 - benchmark: SPY
-- excess_momentum: {'1m': -6.06, '3m': 10.53, '6m': 29.15, '1y': -21.74}
+- excess_momentum: {'1m': -9.46, '3m': 16.4, '6m': 23.52, '1y': -22.28}
 - positive_news: 4
-- watch_news: 0
+- watch_news: 2
 - event_count: 10
-- events_with_reaction: 0
-- sector_average_score: 65.83333333333333
+- events_with_reaction: 10
+- sector_average_score: 63.5

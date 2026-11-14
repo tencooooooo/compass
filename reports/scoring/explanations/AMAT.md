@@ -5,9 +5,9 @@
 ## Summary
 
 - Company: Applied Materials, Inc.
-- Total Score: 69 / 100
+- Total Score: 57 / 100
 - Confidence: Medium
-- Signal Strength: Strong
+- Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
@@ -17,23 +17,22 @@ Medium
 理由
 
 - 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 1 件です。
+- 欠損または計算不可の項目数は 4 件です。
 - 主要データは一定程度ありますが、欠損や未取得項目が残っています。
-- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
 
-Strong
+Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 69 点を獲得し、シグナル充足率は 69.0% です。
-- シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
+- データが確認できた 100 点満点のうち 57 点を獲得し、シグナル充足率は 57.0% です。
+- シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
-17点
+7点
 
 理由
 
@@ -41,10 +40,10 @@ Strong
 - eps_growth(直近4四半期平均) は 39.93% で、+30%以上の高成長です。
 - revenue_growth は直近四半期が前四半期より +13.42pt 高く、成長の加速がみられます。
 - eps_growth は直近四半期が前四半期より +9.33pt 高く、成長の加速がみられます。
-- 純利益 がプラスで確認できるため加点しています。
-- 営業利益 がプラスで確認できるため加点しています。
-- 研究開発費が確認でき、将来成長への投資が続いています。
-- 売上がプラスで確認できます。
+- 純利益 が取得できないため、この項目は加点していません。
+- 営業利益 が取得できないため、この項目は加点していません。
+- 研究開発費が取得できないため、R&D項目は加点していません。
+- 売上規模データが取得できないため、規模項目は加点していません。
 
 Evidence
 
@@ -53,17 +52,24 @@ Evidence
 
 使用データ
 
-- total_revenue: 28,368,000,000.0000
-- eps: 8.7100
-- net_income: 6,998,000,000.0000
-- operating_income: 8,470,000,000.0000
-- research_and_development: 3,570,000,000.0000
+- total_revenue: N/A
+- eps: 12.7100
+- net_income: N/A
+- operating_income: N/A
+- research_and_development: N/A
 - revenue_yoy_growth: 24.8300
 - eps_yoy_growth: 42.7900
 - revenue_yoy_growth_avg: 10.4500
 - eps_yoy_growth_avg: 39.9300
 - revenue_growth_quarters: ['2026-Q3', '2026-Q2', '2026-Q1', '2025-Q3']
 - eps_growth_quarters: ['2026-Q3', '2026-Q2', '2026-Q1', '2025-Q3']
+
+欠損・計算不可
+
+- 純利益
+- 営業利益
+- research_and_development
+- total_revenue
 
 ## Financial Health
 
@@ -97,7 +103,7 @@ Evidence
 理由
 
 - PER はセクター内 64.29 パーセンタイル / 母数 15 で、中位レンジです。
-- Forward PER はセクター内 46.67 パーセンタイル / 母数 16 で、中位レンジです。
+- Forward PER はセクター内 40.00 パーセンタイル / 母数 16 で、中位レンジです。
 - PEG はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。
 - PBR はセクター内 66.67 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
@@ -109,14 +115,14 @@ Evidence
 
 使用データ
 
-- trailing_pe: 32.8689
-- forward_pe: 15.8247
-- peg_ratio: 0.8400
-- price_to_book: 11.7974
+- trailing_pe: 29.3582
+- forward_pe: 15.0938
+- peg_ratio: 0.8100
+- price_to_book: 11.2542
 - sector_peer_count: 16
 - trailing_pe_percentile: 64.2900
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 46.6700
+- forward_pe_percentile: 40.0000
 - forward_pe_peer_count: 16
 - peg_ratio_percentile: 53.3300
 - peg_ratio_peer_count: 16
@@ -125,15 +131,15 @@ Evidence
 
 ## Momentum
 
-7点
+8点
 
 理由
 
-- 1M の対SPY超過リターンは -12.56pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -23.93pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -12.18pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンが +56.29pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 0.97 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -11.58pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -28.59pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -17.52pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンが +49.89pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 1.51 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -142,25 +148,25 @@ Evidence
 
 使用データ
 
-- 1M: -14.8975
-- 3M: -26.0107
-- 6M: -9.3025
-- 1Y: 68.9915
+- 1M: -13.8392
+- 3M: -30.7138
+- 6M: -14.9473
+- 1Y: 61.4655
 - benchmark: SPY
-- benchmark_returns: {'1M': -2.34, '3M': -2.08, '6M': 2.88, '1Y': 12.7}
-- excess_returns: {'1M': -12.56, '3M': -23.93, '6M': -12.18, '1Y': 56.29}
-- latest_volume: 7,400,700.0000
-- average_volume_30d: 7,629,530.0000
+- benchmark_returns: {'1M': -2.26, '3M': -2.13, '6M': 2.57, '1Y': 11.58}
+- excess_returns: {'1M': -11.58, '3M': -28.59, '6M': -17.52, '1Y': 49.89}
+- latest_volume: 11,937,400.0000
+- average_volume_30d: 7,928,906.6667
 
 ## News
 
-13点
+10点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 6 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
+- ニュース見出し・要約の簡易分類では、好材料 6 件、悪材料 2 件(純比率 +0.50)で、センチメントは 6.0 点です。
+- イベント後の平均株価反応が -2.74% と弱く、注意が必要です。
 
 Evidence
 
@@ -172,14 +178,10 @@ Evidence
 
 - news_count: 10
 - positive_count: 6
-- negative_count: 0
-- sentiment_net_ratio: 1.0000
+- negative_count: 2
+- sentiment_net_ratio: 0.5000
 - event_count: 10
-- events_with_price_reaction: 0
-
-欠損・計算不可
-
-- event_price_reaction
+- events_with_price_reaction: 7
 
 ## Note
 

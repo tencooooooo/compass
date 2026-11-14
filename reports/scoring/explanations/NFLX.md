@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Netflix, Inc.
-- Total Score: 58 / 100
+- Total Score: 57 / 100
 - Confidence: High
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 58 点を獲得し、シグナル充足率は 58.0% です。
+- データが確認できた 100 点満点のうち 57 点を獲得し、シグナル充足率は 57.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -107,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 18.1185
-- forward_pe: 16.6227
-- peg_ratio: 1.0300
-- price_to_book: 8.7900
+- trailing_pe: 17.9624
+- forward_pe: 16.4796
+- peg_ratio: 1.0000
+- price_to_book: 8.7142
 - sector_peer_count: 10
 - trailing_pe_percentile: 66.6700
 - trailing_pe_peer_count: 10
@@ -123,15 +123,15 @@ Evidence
 
 ## Momentum
 
-2点
+3点
 
 理由
 
-- 1M の対SPY超過リターンは -6.06pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -15.43pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -29.17pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -55.08pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.69 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -12.15pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -16.12pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -31.15pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -57.89pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.86 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -140,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: -8.4019
-- 3M: -17.5102
-- 6M: -26.2905
-- 1Y: -42.3786
+- 1M: -14.4057
+- 3M: -18.2452
+- 6M: -28.5796
+- 1Y: -46.3067
 - benchmark: SPY
-- benchmark_returns: {'1M': -2.34, '3M': -2.08, '6M': 2.88, '1Y': 12.7}
-- excess_returns: {'1M': -6.06, '3M': -15.43, '6M': -29.17, '1Y': -55.08}
-- latest_volume: 29,564,000.0000
-- average_volume_30d: 42,718,993.3333
+- benchmark_returns: {'1M': -2.26, '3M': -2.13, '6M': 2.57, '1Y': 11.58}
+- excess_returns: {'1M': -12.15, '3M': -16.12, '6M': -31.15, '1Y': -57.89}
+- latest_volume: 36,595,300.0000
+- average_volume_30d: 42,315,546.6667
 
 ## News
 
-17点
+15点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
 - ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が 2.02% とプラスです。
+- イベント後の平均株価反応が -0.86% と中立圏です。
 
 Evidence
 
@@ -173,7 +173,7 @@ Evidence
 - negative_count: 0
 - sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 1
+- events_with_price_reaction: 10
 
 ## Note
 

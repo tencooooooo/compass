@@ -5,21 +5,20 @@
 ## Summary
 
 - Company: Oracle Corporation
-- Total Score: 62 / 100
-- Confidence: Medium
+- Total Score: 60 / 100
+- Confidence: High
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
 
-Medium
+High
 
 理由
 
 - 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 1 件です。
-- 主要データは一定程度ありますが、欠損や未取得項目が残っています。
-- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
+- 欠損または計算不可の項目数は 0 件です。
+- 主要データが比較的そろっており、説明可能性は高めです。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
@@ -28,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 62 点を獲得し、シグナル充足率は 62.0% です。
+- データが確認できた 100 点満点のうち 60 点を獲得し、シグナル充足率は 60.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -92,14 +91,14 @@ Evidence
 
 ## Valuation
 
-16点
+14点
 
 理由
 
-- PER はセクター内 35.71 パーセンタイル / 母数 15 で、中位レンジです。
+- PER はセクター内 28.57 パーセンタイル / 母数 15 で、中位レンジです。
 - Forward PER はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。
 - PEG はセクター内 33.33 パーセンタイル / 母数 16 で、中位レンジです。
-- PBR はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。
+- PBR はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -109,31 +108,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 19.9232
-- forward_pe: 11.4940
-- peg_ratio: 0.7000
-- price_to_book: 6.2175
+- trailing_pe: 19.6473
+- forward_pe: 11.3349
+- peg_ratio: 0.6900
+- price_to_book: 6.1314
 - sector_peer_count: 16
-- trailing_pe_percentile: 35.7100
+- trailing_pe_percentile: 28.5700
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 20.0000
 - forward_pe_peer_count: 16
 - peg_ratio_percentile: 33.3300
 - peg_ratio_peer_count: 16
-- price_to_book_percentile: 20.0000
+- price_to_book_percentile: 26.6700
 - price_to_book_peer_count: 16
 
 ## Momentum
 
-4点
+2点
 
 理由
 
-- 1M の対SPY超過リターンは -8.01pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -15.44pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -34.74pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -58.68pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.02 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -4.53pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -12.08pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -37.14pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -55.62pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.60 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -142,25 +141,25 @@ Evidence
 
 使用データ
 
-- 1M: -10.3492
-- 3M: -17.5171
-- 6M: -31.8597
-- 1Y: -45.9794
+- 1M: -6.7822
+- 3M: -14.2082
+- 6M: -34.5679
+- 1Y: -44.0384
 - benchmark: SPY
-- benchmark_returns: {'1M': -2.34, '3M': -2.08, '6M': 2.88, '1Y': 12.7}
-- excess_returns: {'1M': -8.01, '3M': -15.44, '6M': -34.74, '1Y': -58.68}
-- latest_volume: 38,796,200.0000
-- average_volume_30d: 38,128,493.3333
+- benchmark_returns: {'1M': -2.26, '3M': -2.13, '6M': 2.57, '1Y': 11.58}
+- excess_returns: {'1M': -4.53, '3M': -12.08, '6M': -37.14, '1Y': -55.62}
+- latest_volume: 22,547,400.0000
+- average_volume_30d: 37,604,266.6667
 
 ## News
 
-10点
+12点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 2 件(純比率 +0.33)で、センチメントは 5.3 点です。
-- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
+- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が -1.38% と弱く、注意が必要です。
 
 Evidence
 
@@ -171,15 +170,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 4
-- negative_count: 2
-- sentiment_net_ratio: 0.3300
+- positive_count: 3
+- negative_count: 0
+- sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 0
-
-欠損・計算不可
-
-- event_price_reaction
+- events_with_price_reaction: 4
 
 ## Note
 
