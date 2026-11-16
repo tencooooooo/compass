@@ -6,7 +6,7 @@ Pattern candidates require human review before Knowledge updates.
 
 - Confidence: Medium
 - Evidence: Companies with R&D/revenue >= 8%.
-- Companies: AAPL, ADBE, AMAT, AMD, AVGO, CRM, GOOGL, META, MSFT, NOW, NVDA, ORCL, QCOM, TXN
+- Companies: AAPL, ADBE, AMD, AVGO, CRM, GOOGL, META, MSFT, NOW, NVDA, ORCL, QCOM, TXN
 - Knowledge update: candidate only
 
 ## Positive EPS and FCF

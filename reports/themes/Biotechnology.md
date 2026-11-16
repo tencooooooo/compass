@@ -1,32 +1,29 @@
 # Biotechnology
 
-- Target companies: 1
-- Average Score: 62.00
+- Target companies: 0
+- Average Score: N/A
 - Average Discovery: N/A
 - Momentum: N/A
-- Confidence: Medium
+- Confidence: Low
 
 ## Companies
 
-- AVGO - Broadcom Inc. (Medium): Keyword: biotechnology; Keyword: biotech
+No companies are classified into this theme yet.
 
 ## Market
 
-- Technology: score 65.50, momentum -12.93, trend {'momentum': 'Risk-Off', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- AVGO: Is Broadcom a Buy After Falling 9% in One Day?
-- AVGO: Jim Cramer sends a strong signal to Nvidia stock investors
-- AVGO: The Artificial Intelligence (AI) Boom Is Far From Over. Here Are 4 Potential Long-Term Winners
+No theme news available yet.
 
 ## Similar Themes
 
-- Cybersecurity: 0.884 (Shared companies: AVGO; Shared sectors: Technology; Similar short-term momentum)
-- Healthcare: 0.86 (Shared sectors: Technology)
-- Energy: 0.849 (Shared companies: AVGO; Shared sectors: Technology; Similar short-term momentum)
-- Robotics: 0.84 (Shared companies: AVGO; Shared sectors: Technology)
-- AI: 0.811 (Shared companies: AVGO; Shared sectors: Technology)
+- AI: 0.0 (Similar short-term momentum)
+- Cloud: 0.0 (Similar short-term momentum)
+- Cybersecurity: 0.0 (Similar short-term momentum)
+- EV: 0.0 (Theme metric similarity)
+- Energy: 0.0 (Theme metric similarity)
 
 ## Review Note
 

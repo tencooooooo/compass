@@ -1,61 +1,58 @@
 # AI
 
-- Target companies: 26
-- Average Score: 60.95
-- Average Discovery: 69.44
-- Momentum: -9.90
+- Target companies: 23
+- Average Score: 61.68
+- Average Discovery: 71.22
+- Momentum: -2.62
 - Confidence: High
 
 ## Companies
 
-- AAPL - Apple Inc. (Medium): Keyword: ai; Keyword: data center; Sector alignment: Technology
+- AAPL - Apple Inc. (Medium): Keyword: ai; Keyword: gpu; Sector alignment: Technology
 - ACN - Accenture plc (Medium): Keyword: ai; Keyword: artificial intelligence; Sector alignment: Technology
-- ADBE - Adobe Inc. (Medium): Keyword: ai; Sector alignment: Technology
+- ADBE - Adobe Inc. (Medium): Keyword: ai; Keyword: artificial intelligence; Sector alignment: Technology
 - AMAT - Applied Materials, Inc. (Medium): Keyword: ai; Sector alignment: Technology
-- AMD - Advanced Micro Devices, Inc. (High): Keyword: ai; Keyword: artificial intelligence; Keyword: data center; Sector alignment: Technology
-- AMZN - Amazon.com, Inc. (Medium): Keyword: ai; Keyword: artificial intelligence; Keyword: machine learning
-- AVGO - Broadcom Inc. (High): Keyword: ai; Keyword: artificial intelligence; Keyword: data center; Sector alignment: Technology
-- CMCSA - Comcast Corporation (Medium): Keyword: ai; Sector alignment: Communication Services
+- AMD - Advanced Micro Devices, Inc. (High): Keyword: ai; Keyword: artificial intelligence; Keyword: gpu; Keyword: data center; Sector alignment: Technology
+- AMZN - Amazon.com, Inc. (High): Keyword: ai; Keyword: artificial intelligence; Keyword: machine learning; Keyword: gpu
+- AVGO - Broadcom Inc. (High): Keyword: ai; Keyword: artificial intelligence; Keyword: gpu; Keyword: data center; Sector alignment: Technology
 - CRM - Salesforce, Inc. (Medium): Keyword: ai; Sector alignment: Technology
 - CSCO - Cisco Systems, Inc. (Medium): Keyword: data center; Sector alignment: Technology
-- GOOGL - Alphabet Inc. (Medium): Keyword: ai; Keyword: gpu; Sector alignment: Communication Services
+- GOOGL - Alphabet Inc. (High): Keyword: ai; Keyword: artificial intelligence; Keyword: accelerator; Keyword: gpu; Sector alignment: Communication Services
+- HD - The Home Depot, Inc. (Low): Keyword: ai
 - INTC - Intel Corporation (Medium): Keyword: ai; Keyword: data center; Sector alignment: Technology
-- LOW - Lowe's Companies, Inc. (Low): Keyword: ai
-- MCD - McDonald's Corporation (Low): Keyword: ai
-- META - Meta Platforms, Inc. (Medium): Keyword: ai; Keyword: artificial intelligence; Sector alignment: Communication Services
-- MSFT - Microsoft Corporation (Medium): Keyword: ai; Keyword: artificial intelligence; Sector alignment: Technology
+- MCD - McDonald's Corporation (Medium): Keyword: ai; Keyword: artificial intelligence
+- META - Meta Platforms, Inc. (Medium): Keyword: ai; Keyword: data center; Sector alignment: Communication Services
+- MSFT - Microsoft Corporation (Medium): Keyword: ai; Sector alignment: Technology
 - MU - Micron Technology, Inc. (Medium): Keyword: data center; Sector alignment: Technology
-- NFLX - Netflix, Inc. (Medium): Keyword: ai; Sector alignment: Communication Services
-- NKE - NIKE, Inc. (Low): Keyword: ai
-- NOW - ServiceNow, Inc. (Medium): Keyword: ai; Sector alignment: Technology
-- NVDA - NVIDIA Corporation (High): Keyword: ai; Keyword: artificial intelligence; Keyword: data center; Sector alignment: Technology
-- ORCL - Oracle Corporation (High): Keyword: ai; Keyword: artificial intelligence; Keyword: machine learning; Sector alignment: Technology
+- NOW - ServiceNow, Inc. (Medium): Keyword: ai; Keyword: artificial intelligence; Sector alignment: Technology
+- NVDA - NVIDIA Corporation (High): Keyword: ai; Keyword: artificial intelligence; Keyword: gpu; Keyword: data center; Sector alignment: Technology
+- ORCL - Oracle Corporation (High): Keyword: ai; Keyword: machine learning; Keyword: gpu; Keyword: data center; Sector alignment: Technology
 - QCOM - QUALCOMM Incorporated (Medium): Keyword: ai; Keyword: data center; Sector alignment: Technology
 - TMUS - T-Mobile US, Inc. (Medium): Keyword: ai; Sector alignment: Communication Services
-- TSLA - Tesla, Inc. (Medium): Keyword: ai; Keyword: artificial intelligence
+- TSLA - Tesla, Inc. (High): Keyword: ai; Keyword: artificial intelligence; Keyword: accelerator; Keyword: gpu
 - TXN - Texas Instruments Incorporated (Medium): Keyword: ai; Keyword: data center; Sector alignment: Technology
 
 ## Market
 
-- Communication Services: score 56.50, momentum -4.39, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Consumer Cyclical: score 55.17, momentum 10.22, trend {'momentum': 'Strong', 'news': 'High', 'financial_health': 'Neutral'}
-- Technology: score 65.50, momentum -12.93, trend {'momentum': 'Risk-Off', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 59.50, momentum -2.31, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 56.50, momentum 9.50, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 63.50, momentum -7.15, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- NVDA: Why AT&T Stock Slumped in October
-- NVDA: If the Fed Raises Interest Rates in December, I'm Making This 1 Investing Move
-- MSFT: What Teradata (TDC) Said on Its Q3 Earnings Call
-- NVDA: NVIDIA And 2 More Grid Stocks To Watch
-- META: Banks ban AI from accounts over fears of rogue agents
+- QCOM: Micron Technology vs. Qualcomm: Which Tech Stock Is the Better Buy for 2027?
+- MCD: 3 Dividend Stocks With Yield Over 2%
+- QCOM: Why Did Texas Instruments Stock Beat NXP Over Five Years?
+- TXN: Why Did Texas Instruments Stock Beat NXP Over Five Years?
+- AMZN: What It Takes to Get Your Wings Delivered During a Football Game—Fast and Hot
 
 ## Similar Themes
 
-- Semiconductor: 1.0 (Shared companies: AAPL, ADBE, AMAT, AMD, AMZN; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Robotics: 0.999 (Shared companies: AMAT, AVGO, CRM, NOW, NVDA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
-- Cloud: 0.998 (Shared companies: AAPL, ACN, AMD, AMZN, AVGO; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Energy: 0.997 (Shared companies: ACN, AVGO, GOOGL, NVDA, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
-- Space: 0.997 (Shared companies: AAPL, AVGO, GOOGL, MSFT, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
+- Cloud: 1.0 (Shared companies: AAPL, ACN, AMAT, AMD, AMZN; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Quantum Computing: 0.997 (Shared companies: AMD; Shared sectors: Technology; Similar short-term momentum)
+- Semiconductor: 0.997 (Shared companies: AAPL, AMAT, AMD, AMZN, AVGO; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
+- Cybersecurity: 0.992 (Shared companies: ACN, AVGO, CRM, CSCO, GOOGL; Shared sectors: Communication Services, Technology; Similar average Discovery score; Similar short-term momentum)
+- Healthcare: 0.99 (Shared companies: CRM, MCD, NOW; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
 
 ## Review Note
 

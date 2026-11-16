@@ -4,105 +4,18 @@ Theme Intelligence connects market, sector, company, Discovery, and Pattern cont
 
 ## AI
 
-- Target companies: 26
-- Average Score: 60.95
-- Average Discovery: 69.44
-- Market status: Communication Services Weak, Consumer Cyclical Strong, Technology Risk-Off
-- Representative companies: AMD, MSFT, AMAT
+- Target companies: 23
+- Average Score: 61.68
+- Average Discovery: 71.22
+- Market status: Communication Services Weak, Consumer Cyclical Positive, Technology Weak
+- Representative companies: AMD, TXN, MSFT
 - Confidence: High
 - Major news:
-  - NVDA: Why AT&T Stock Slumped in October
-  - NVDA: If the Fed Raises Interest Rates in December, I'm Making This 1 Investing Move
-  - MSFT: What Teradata (TDC) Said on Its Q3 Earnings Call
+  - QCOM: Micron Technology vs. Qualcomm: Which Tech Stock Is the Better Buy for 2027?
+  - MCD: 3 Dividend Stocks With Yield Over 2%
+  - QCOM: Why Did Texas Instruments Stock Beat NXP Over Five Years?
 
 ## Biotechnology
-
-- Target companies: 1
-- Average Score: 62.00
-- Average Discovery: N/A
-- Market status: Technology Risk-Off
-- Representative companies: AVGO
-- Confidence: Medium
-- Major news:
-  - AVGO: Is Broadcom a Buy After Falling 9% in One Day?
-  - AVGO: Jim Cramer sends a strong signal to Nvidia stock investors
-  - AVGO: The Artificial Intelligence (AI) Boom Is Far From Over. Here Are 4 Potential Long-Term Winners
-
-## Cloud
-
-- Target companies: 18
-- Average Score: 64.43
-- Average Discovery: 69.00
-- Market status: Communication Services Weak, Consumer Cyclical Strong, Technology Risk-Off
-- Representative companies: AMD, MSFT, TXN
-- Confidence: High
-- Major news:
-  - NVDA: Why AT&T Stock Slumped in October
-  - NVDA: If the Fed Raises Interest Rates in December, I'm Making This 1 Investing Move
-  - MSFT: What Teradata (TDC) Said on Its Q3 Earnings Call
-
-## Cybersecurity
-
-- Target companies: 10
-- Average Score: 61.86
-- Average Discovery: 68.00
-- Market status: Communication Services Weak, Consumer Cyclical Strong, Technology Risk-Off
-- Representative companies: MSFT, AMZN, AVGO
-- Confidence: Medium
-- Major news:
-  - MSFT: What Teradata (TDC) Said on Its Q3 Earnings Call
-  - AVGO: Is Broadcom a Buy After Falling 9% in One Day?
-  - GOOGL: These AI Stocks To Improve Your Portfolio In November 2026
-
-## EV
-
-- Target companies: 4
-- Average Score: 61.33
-- Average Discovery: 73.00
-- Market status: Consumer Cyclical Strong, Technology Risk-Off
-- Representative companies: TXN, NVDA, TSLA
-- Confidence: Medium
-- Major news:
-  - NVDA: Why AT&T Stock Slumped in October
-  - NVDA: If the Fed Raises Interest Rates in December, I'm Making This 1 Investing Move
-  - NVDA: NVIDIA And 2 More Grid Stocks To Watch
-
-## Energy
-
-- Target companies: 7
-- Average Score: 61.20
-- Average Discovery: 73.00
-- Market status: Communication Services Weak, Consumer Cyclical Strong, Technology Risk-Off
-- Representative companies: TXN, NVDA, AVGO
-- Confidence: Medium
-- Major news:
-  - NVDA: Why AT&T Stock Slumped in October
-  - NVDA: If the Fed Raises Interest Rates in December, I'm Making This 1 Investing Move
-  - NVDA: NVIDIA And 2 More Grid Stocks To Watch
-
-## Fintech
-
-- Target companies: 1
-- Average Score: N/A
-- Average Discovery: N/A
-- Market status: Technology Risk-Off
-- Representative companies: ACN
-- Confidence: Medium
-
-## Healthcare
-
-- Target companies: 2
-- Average Score: 66.00
-- Average Discovery: 72.00
-- Market status: Technology Risk-Off
-- Representative companies: CRM, NOW
-- Confidence: Medium
-- Major news:
-  - CRM: Braze (BRZE) Stock May Be 17% Undervalued Following Its Cash Takeover Offer
-  - CRM: 5 Best Dow Stocks to Buy for 2027
-  - CRM: Braze (BRZE), What Is Behind The Attention Now?
-
-## Quantum Computing
 
 - Target companies: 0
 - Average Score: N/A
@@ -111,41 +24,132 @@ Theme Intelligence connects market, sector, company, Discovery, and Pattern cont
 - Representative companies: None
 - Confidence: Low
 
-## Robotics
+## Cloud
 
-- Target companies: 8
-- Average Score: 64.00
+- Target companies: 19
+- Average Score: 63.13
+- Average Discovery: 72.00
+- Market status: Communication Services Weak, Consumer Cyclical Positive, Technology Weak
+- Representative companies: AMD, TXN, MSFT
+- Confidence: High
+- Major news:
+  - QCOM: Micron Technology vs. Qualcomm: Which Tech Stock Is the Better Buy for 2027?
+  - QCOM: Why Did Texas Instruments Stock Beat NXP Over Five Years?
+  - TXN: Why Did Texas Instruments Stock Beat NXP Over Five Years?
+
+## Cybersecurity
+
+- Target companies: 10
+- Average Score: 61.29
 - Average Discovery: 70.67
-- Market status: Consumer Cyclical Strong, Technology Risk-Off
-- Representative companies: AMAT, CRM, QCOM
+- Market status: Communication Services Weak, Technology Weak
+- Representative companies: MSFT, CRM, CMCSA
+- Confidence: High
+- Major news:
+  - AVGO: Can You Justify Buying Dynatrace Stock Today?
+  - NOW: Can You Justify Buying Dynatrace Stock Today?
+  - GOOGL: Booking Holdings vs. GameStop: Which Consumer Stock Is a Better Buy for 2027?
+
+## EV
+
+- Target companies: 4
+- Average Score: 62.00
+- Average Discovery: 78.00
+- Market status: Consumer Cyclical Positive, Technology Weak
+- Representative companies: TXN, NVDA, TSLA
 - Confidence: Medium
 - Major news:
-  - NVDA: Why AT&T Stock Slumped in October
-  - NVDA: If the Fed Raises Interest Rates in December, I'm Making This 1 Investing Move
-  - NVDA: NVIDIA And 2 More Grid Stocks To Watch
+  - TXN: Why Did Texas Instruments Stock Beat NXP Over Five Years?
+  - TSLA: Zero To Sixty: Tesla Winds Down Cybertruck, Pulls Model Y Variant While Rivian, Lucid Chase Volumes
+  - TSLA: Nvidia Suffers Biggest Weekly Market Cap  Decline on Record
+
+## Energy
+
+- Target companies: 9
+- Average Score: 61.86
+- Average Discovery: 72.00
+- Market status: Communication Services Weak, Consumer Cyclical Positive, Technology Weak
+- Representative companies: TXN, AMZN, ORCL
+- Confidence: Medium
+- Major news:
+  - TXN: Why Did Texas Instruments Stock Beat NXP Over Five Years?
+  - AMZN: What It Takes to Get Your Wings Delivered During a Football Game—Fast and Hot
+  - TSLA: Zero To Sixty: Tesla Winds Down Cybertruck, Pulls Model Y Variant While Rivian, Lucid Chase Volumes
+
+## Fintech
+
+- Target companies: 3
+- Average Score: 53.00
+- Average Discovery: N/A
+- Market status: Consumer Cyclical Positive, Technology Weak
+- Representative companies: NVDA, MCD, ACN
+- Confidence: Medium
+- Major news:
+  - MCD: 3 Dividend Stocks With Yield Over 2%
+  - NVDA: Nvidia's competitors pounce, and what GPU rental prices say about the AI race
+  - NVDA: How the Nvidia scandal impacts US–China relations: Department of Defense CTO
+
+## Healthcare
+
+- Target companies: 3
+- Average Score: 57.00
+- Average Discovery: 75.00
+- Market status: Consumer Cyclical Positive, Technology Weak
+- Representative companies: CRM, NOW, MCD
+- Confidence: Medium
+- Major news:
+  - MCD: 3 Dividend Stocks With Yield Over 2%
+  - NOW: Can You Justify Buying Dynatrace Stock Today?
+  - CRM: This Jim Cramer’s Trust Holding Saw AI Assistant Usage Jump 21-Fold
+
+## Quantum Computing
+
+- Target companies: 1
+- Average Score: 72.00
+- Average Discovery: 79.00
+- Market status: Technology Weak
+- Representative companies: AMD
+- Confidence: Medium
+- Major news:
+  - AMD: Wall Street stocks mostly lower as Nvidia extends slump
+  - AMD: Stocks to Watch Recap: Nvidia, AMD, Microsoft
+  - AMD: AMD CEO Lisa SU on being named Yahoo Finance CEO of the Year
+
+## Robotics
+
+- Target companies: 9
+- Average Score: 60.11
+- Average Discovery: 71.00
+- Market status: Communication Services Weak, Consumer Cyclical Positive, Technology Weak
+- Representative companies: CRM, QCOM, ORCL
+- Confidence: Medium
+- Major news:
+  - QCOM: Micron Technology vs. Qualcomm: Which Tech Stock Is the Better Buy for 2027?
+  - QCOM: Why Did Texas Instruments Stock Beat NXP Over Five Years?
+  - TSLA: Zero To Sixty: Tesla Winds Down Cybertruck, Pulls Model Y Variant While Rivian, Lucid Chase Volumes
 
 ## Semiconductor
 
-- Target companies: 19
-- Average Score: 62.82
-- Average Discovery: 69.44
-- Market status: Communication Services Weak, Consumer Cyclical Strong, Technology Risk-Off
-- Representative companies: AMD, MSFT, AMAT
+- Target companies: 14
+- Average Score: 62.17
+- Average Discovery: 72.20
+- Market status: Communication Services Weak, Consumer Cyclical Positive, Technology Weak
+- Representative companies: AMD, TXN, AAPL
 - Confidence: High
 - Major news:
-  - NVDA: Why AT&T Stock Slumped in October
-  - NVDA: If the Fed Raises Interest Rates in December, I'm Making This 1 Investing Move
-  - MSFT: What Teradata (TDC) Said on Its Q3 Earnings Call
+  - QCOM: Micron Technology vs. Qualcomm: Which Tech Stock Is the Better Buy for 2027?
+  - QCOM: Why Did Texas Instruments Stock Beat NXP Over Five Years?
+  - TXN: Why Did Texas Instruments Stock Beat NXP Over Five Years?
 
 ## Space
 
 - Target companies: 9
-- Average Score: 61.11
-- Average Discovery: 67.25
-- Market status: Communication Services Weak, Consumer Cyclical Strong, Technology Risk-Off
-- Representative companies: MSFT, QCOM, AAPL
+- Average Score: 58.33
+- Average Discovery: 64.00
+- Market status: Communication Services Weak, Consumer Cyclical Positive, Technology Weak
+- Representative companies: QCOM, DIS, CMCSA
 - Confidence: Medium
 - Major news:
-  - NVDA: Why AT&T Stock Slumped in October
-  - NVDA: If the Fed Raises Interest Rates in December, I'm Making This 1 Investing Move
-  - MSFT: What Teradata (TDC) Said on Its Q3 Earnings Call
+  - QCOM: Micron Technology vs. Qualcomm: Which Tech Stock Is the Better Buy for 2027?
+  - MCD: 3 Dividend Stocks With Yield Over 2%
+  - QCOM: Why Did Texas Instruments Stock Beat NXP Over Five Years?

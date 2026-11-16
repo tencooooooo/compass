@@ -1,44 +1,44 @@
 # Space
 
 - Target companies: 9
-- Average Score: 61.11
-- Average Discovery: 67.25
-- Momentum: 1.29
+- Average Score: 58.33
+- Average Discovery: 64.00
+- Momentum: 6.58
 - Confidence: Medium
 
 ## Companies
 
-- AAPL - Apple Inc. (Low): Keyword: launch
-- AVGO - Broadcom Inc. (Low): Keyword: space
-- DIS - The Walt Disney Company (Medium): Keyword: satellite; Sector alignment: Communication Services
-- GOOGL - Alphabet Inc. (Medium): Keyword: rocket; Keyword: spacex; Sector alignment: Communication Services
-- MSFT - Microsoft Corporation (Low): Keyword: launch
-- NVDA - NVIDIA Corporation (Low): Keyword: space
-- QCOM - QUALCOMM Incorporated (Medium): Keyword: satellite; Keyword: spacex
+- AMAT - Applied Materials, Inc. (Low): Keyword: rocket
+- CMCSA - Comcast Corporation (Medium): Keyword: launch; Sector alignment: Communication Services
+- DIS - The Walt Disney Company (Medium): Keyword: satellite; Keyword: launch; Sector alignment: Communication Services
+- GOOGL - Alphabet Inc. (Medium): Keyword: space; Sector alignment: Communication Services
+- MCD - McDonald's Corporation (Low): Keyword: launch
+- NFLX - Netflix, Inc. (Medium): Keyword: launch; Sector alignment: Communication Services
+- QCOM - QUALCOMM Incorporated (Medium): Keyword: space; Keyword: spacex
 - TMUS - T-Mobile US, Inc. (Medium): Keyword: spacex; Sector alignment: Communication Services
-- TSLA - Tesla, Inc. (Medium): Keyword: space; Keyword: spacex
+- TSLA - Tesla, Inc. (High): Keyword: space; Keyword: rocket; Keyword: spacex; Keyword: launch
 
 ## Market
 
-- Communication Services: score 56.50, momentum -4.39, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Consumer Cyclical: score 55.17, momentum 10.22, trend {'momentum': 'Strong', 'news': 'High', 'financial_health': 'Neutral'}
-- Technology: score 65.50, momentum -12.93, trend {'momentum': 'Risk-Off', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 59.50, momentum -2.31, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 56.50, momentum 9.50, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 63.50, momentum -7.15, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- NVDA: Why AT&T Stock Slumped in October
-- NVDA: If the Fed Raises Interest Rates in December, I'm Making This 1 Investing Move
-- MSFT: What Teradata (TDC) Said on Its Q3 Earnings Call
-- NVDA: NVIDIA And 2 More Grid Stocks To Watch
-- AVGO: Is Broadcom a Buy After Falling 9% in One Day?
+- QCOM: Micron Technology vs. Qualcomm: Which Tech Stock Is the Better Buy for 2027?
+- MCD: 3 Dividend Stocks With Yield Over 2%
+- QCOM: Why Did Texas Instruments Stock Beat NXP Over Five Years?
+- TSLA: Zero To Sixty: Tesla Winds Down Cybertruck, Pulls Model Y Variant While Rivian, Lucid Chase Volumes
+- GOOGL: Booking Holdings vs. GameStop: Which Consumer Stock Is a Better Buy for 2027?
 
 ## Similar Themes
 
-- Cloud: 1.0 (Shared companies: AAPL, AVGO, GOOGL, MSFT, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
-- Semiconductor: 0.998 (Shared companies: AAPL, AVGO, GOOGL, MSFT, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
-- AI: 0.997 (Shared companies: AAPL, AVGO, GOOGL, MSFT, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
-- Robotics: 0.992 (Shared companies: AVGO, NVDA, QCOM, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
-- Energy: 0.99 (Shared companies: AVGO, GOOGL, NVDA, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
+- Energy: 0.995 (Shared companies: AMAT, GOOGL, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
+- Robotics: 0.976 (Shared companies: AMAT, GOOGL, QCOM, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology)
+- Cybersecurity: 0.954 (Shared companies: CMCSA, GOOGL, TMUS; Shared sectors: Communication Services, Technology)
+- Semiconductor: 0.941 (Shared companies: AMAT, GOOGL, QCOM, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
+- Healthcare: 0.936 (Shared companies: MCD; Shared sectors: Consumer Cyclical, Technology)
 
 ## Review Note
 

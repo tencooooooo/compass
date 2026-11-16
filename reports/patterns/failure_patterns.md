@@ -6,7 +6,7 @@ Pattern candidates require human review before Knowledge updates.
 
 - Confidence: Low
 - Evidence: High news volume with negative 1M momentum may indicate temporary attention.
-- Companies: AMAT, AMD, AMZN, AVGO, CRM, GOOGL, NFLX, NOW, NVDA, ORCL, TMUS, TSLA, TXN
+- Companies: AMAT, AMD, CRM, GOOGL, META, MSFT, NFLX, NOW, NVDA, ORCL, QCOM
 - Knowledge update: candidate only
 
 ## Elevated valuation

@@ -1,9 +1,9 @@
 # EV
 
 - Target companies: 4
-- Average Score: 61.33
-- Average Discovery: 73.00
-- Momentum: -3.29
+- Average Score: 62.00
+- Average Discovery: 78.00
+- Momentum: 9.30
 - Confidence: Medium
 
 ## Companies
@@ -15,24 +15,24 @@
 
 ## Market
 
-- Consumer Cyclical: score 55.17, momentum 10.22, trend {'momentum': 'Strong', 'news': 'High', 'financial_health': 'Neutral'}
-- Technology: score 65.50, momentum -12.93, trend {'momentum': 'Risk-Off', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 56.50, momentum 9.50, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 63.50, momentum -7.15, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- NVDA: Why AT&T Stock Slumped in October
-- NVDA: If the Fed Raises Interest Rates in December, I'm Making This 1 Investing Move
-- NVDA: NVIDIA And 2 More Grid Stocks To Watch
-- TSLA: Elon Musk Is Winding Down Cybertruck Production to Build Cybercabs. The Model S and Model X Already Gave Up Their Factory Space to Robots.
-- TSLA: Every Humanoid Robot Needs Rare-Earth Magnets. Here's the American Stock Positioned to Sell Them -- and It's Down 62%.
+- TXN: Why Did Texas Instruments Stock Beat NXP Over Five Years?
+- TSLA: Zero To Sixty: Tesla Winds Down Cybertruck, Pulls Model Y Variant While Rivian, Lucid Chase Volumes
+- TSLA: Nvidia Suffers Biggest Weekly Market Cap  Decline on Record
+- NVDA: Nvidia's competitors pounce, and what GPU rental prices say about the AI race
+- NVDA: How the Nvidia scandal impacts US–China relations: Department of Defense CTO
 
 ## Similar Themes
 
-- Space: 0.984 (Shared companies: NVDA, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar short-term momentum)
-- Cloud: 0.983 (Shared companies: NVDA, TXN; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Semiconductor: 0.973 (Shared companies: NVDA, TSLA, TXN; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
-- AI: 0.969 (Shared companies: NVDA, TSLA, TXN; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
-- Robotics: 0.956 (Shared companies: NVDA, TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
+- Fintech: 0.999 (Shared companies: NVDA; Shared sectors: Consumer Cyclical, Technology)
+- Cloud: 0.984 (Shared companies: NVDA, TXN; Shared sectors: Consumer Cyclical, Technology)
+- AI: 0.98 (Shared companies: NVDA, TSLA, TXN; Shared sectors: Consumer Cyclical, Technology)
+- Quantum Computing: 0.972 (Shared sectors: Technology; Similar average Discovery score)
+- Semiconductor: 0.961 (Shared companies: NVDA, TSLA, TXN; Shared sectors: Consumer Cyclical, Technology)
 
 ## Review Note
 
