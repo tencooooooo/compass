@@ -5,9 +5,9 @@
 ## Summary
 
 - Company: QUALCOMM Incorporated
-- Total Score: 68 / 100
+- Total Score: 64 / 100
 - Confidence: High
-- Signal Strength: Strong
+- Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
@@ -23,12 +23,12 @@ High
 
 ## Signal Strength
 
-Strong
+Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 68 点を獲得し、シグナル充足率は 68.0% です。
-- シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
+- データが確認できた 100 点満点のうち 64 点を獲得し、シグナル充足率は 64.0% です。
+- シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
@@ -90,14 +90,14 @@ Evidence
 
 ## Valuation
 
-16点
+14点
 
 理由
 
 - PER はセクター内 14.29 パーセンタイル / 母数 15 で、相対的に割安寄りです。
 - Forward PER はセクター内 33.33 パーセンタイル / 母数 16 で、中位レンジです。
 - PEG はセクター内 73.33 パーセンタイル / 母数 16 で、中位レンジです。
-- PBR はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。
+- PBR はセクター内 33.33 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -107,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 13.5803
-- forward_pe: 14.1291
-- peg_ratio: 1.0500
-- price_to_book: 6.0817
+- trailing_pe: 13.5794
+- forward_pe: 13.8055
+- peg_ratio: 1.0200
+- price_to_book: 5.9424
 - sector_peer_count: 16
 - trailing_pe_percentile: 14.2900
 - trailing_pe_peer_count: 15
@@ -118,20 +118,20 @@ Evidence
 - forward_pe_peer_count: 16
 - peg_ratio_percentile: 73.3300
 - peg_ratio_peer_count: 16
-- price_to_book_percentile: 20.0000
+- price_to_book_percentile: 33.3300
 - price_to_book_peer_count: 16
 
 ## Momentum
 
-7点
+8点
 
 理由
 
-- 1M の対SPY超過リターンは -1.07pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは +9.05pt で、市場並み以上です。
-- 6M の対SPY超過リターンは -16.19pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -11.92pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.83 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +0.97pt で、市場並み以上です。
+- 3M の対SPY超過リターンは +9.12pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -17.17pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -12.71pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.95 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -140,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: -3.3240
-- 3M: 6.9236
-- 6M: -13.6190
-- 1Y: -0.3443
+- 1M: -2.0859
+- 3M: 5.7726
+- 6M: -16.4884
+- 1Y: -1.4158
 - benchmark: SPY
-- benchmark_returns: {'1M': -2.26, '3M': -2.13, '6M': 2.57, '1Y': 11.58}
-- excess_returns: {'1M': -1.07, '3M': 9.05, '6M': -16.19, '1Y': -11.92}
-- latest_volume: 10,420,900.0000
-- average_volume_30d: 12,512,780.0000
+- benchmark_returns: {'1M': -3.05, '3M': -3.34, '6M': 0.68, '1Y': 11.29}
+- excess_returns: {'1M': 0.97, '3M': 9.12, '6M': -17.17, '1Y': -12.71}
+- latest_volume: 11,831,200.0000
+- average_volume_30d: 12,497,060.0000
 
 ## News
 
-10点
+7点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 1 件(純比率 +0.60)で、センチメントは 6.4 点です。
-- イベント後の平均株価反応が -2.27% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 2 件(純比率 -0.33)で、センチメントは 2.7 点です。
+- イベント後の平均株価反応が -2.29% と弱く、注意が必要です。
 
 Evidence
 
@@ -169,11 +169,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 4
-- negative_count: 1
-- sentiment_net_ratio: 0.6000
+- positive_count: 1
+- negative_count: 2
+- sentiment_net_ratio: -0.3300
 - event_count: 10
-- events_with_price_reaction: 8
+- events_with_price_reaction: 6
 
 ## Note
 

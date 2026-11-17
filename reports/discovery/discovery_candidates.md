@@ -6,8 +6,8 @@
 
 - 対象企業数: 24
 - セクター数: 3
-- 市場平均スコア: 60.75
-- 1M市場モメンタム平均: -1.7764468889534422
+- 市場平均スコア: 59.875
+- 1M市場モメンタム平均: -1.8641288509697744
 - ニュース件数: 240
 - Event数: 240
 
@@ -15,17 +15,17 @@
 
 | Ticker | Company | Sector | Discovery Score | Status | Confidence | Signal |
 | --- | --- | --- | --- | --- | --- | --- |
-| AMD | Advanced Micro Devices, Inc. | Technology | 79 | Primary Candidate | High | Strong |
-| TXN | Texas Instruments Incorporated | Technology | 78 | Primary Candidate | High | Strong |
-| MSFT | Microsoft Corporation | Technology | 77 | Primary Candidate | High | Strong |
-| CRM | Salesforce, Inc. | Technology | 75 | Primary Candidate | High | Strong |
-| AAPL | Apple Inc. | Technology | 71 | Watch Candidate | High | Strong |
-| QCOM | QUALCOMM Incorporated | Technology | 67 | Watch Candidate | High | Strong |
-| AMZN | Amazon.com, Inc. | Consumer Cyclical | 66 | Watch Candidate | Medium | Strong |
-| ADBE | Adobe Inc. | Technology | 65 | Watch Candidate | High | Strong |
-| DIS | The Walt Disney Company | Communication Services | 65 | Watch Candidate | Medium | Strong |
-| META | Meta Platforms, Inc. | Communication Services | 63 | Watch Candidate | Medium | Strong |
-| CMCSA | Comcast Corporation | Communication Services | 60 | Watch Candidate | Medium | Moderate |
+| AMD | Advanced Micro Devices, Inc. | Technology | 77 | Primary Candidate | High | Strong |
+| TXN | Texas Instruments Incorporated | Technology | 77 | Primary Candidate | High | Strong |
+| MSFT | Microsoft Corporation | Technology | 73 | Watch Candidate | Medium | Strong |
+| AAPL | Apple Inc. | Technology | 69 | Watch Candidate | High | Strong |
+| META | Meta Platforms, Inc. | Communication Services | 68 | Watch Candidate | High | Strong |
+| CRM | Salesforce, Inc. | Technology | 67 | Watch Candidate | High | Strong |
+| ADBE | Adobe Inc. | Technology | 67 | Watch Candidate | High | Strong |
+| DIS | The Walt Disney Company | Communication Services | 67 | Watch Candidate | Medium | Strong |
+| CMCSA | Comcast Corporation | Communication Services | 65 | Watch Candidate | Medium | Strong |
+| QCOM | QUALCOMM Incorporated | Technology | 63 | Watch Candidate | High | Moderate |
+| AMZN | Amazon.com, Inc. | Consumer Cyclical | 63 | Watch Candidate | Medium | Strong |
 
 ## Top Candidate
 

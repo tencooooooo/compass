@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-67 / 100
+63 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 17/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 10/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 7/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで -1.07pt と、市場を小幅に下回っています。
-- 3Mモメンタムは対SPYで +9.05pt と、市場並み以上です。
-- 6Mモメンタムは対SPYで -16.19pt と弱く、候補評価では注意点です。
+- 1Mモメンタムは対SPYで +0.97pt と、市場並み以上です。
+- 3Mモメンタムは対SPYで +9.12pt と、市場並み以上です。
+- 6Mモメンタムは対SPYで -17.17pt と弱く、候補評価では注意点です。
 
 ## Strengths
 
@@ -33,7 +33,7 @@
 
 ## Watch Points
 
-- 注意材料になり得るニュース表現が 1 件あります。
+- 注意材料になり得るニュース表現が 2 件あります。
 - イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。
 - TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
@@ -48,7 +48,7 @@ High
 
 ## Signal Strength
 
-Strong(シグナル充足率: 67.05%)
+Moderate(シグナル充足率: 62.9%)
 
 ## Evidence
 
@@ -67,20 +67,20 @@ Strong(シグナル充足率: 67.05%)
 
 ## Metrics
 
-- scoring_total: 68.0
-- signal_earned_points: 67.05
+- scoring_total: 64.0
+- signal_earned_points: 62.9
 - signal_max_points: 100.0
 - weak_signals: []
-- scoring_signal_strength: Strong
+- scoring_signal_strength: Moderate
 - growth_score: 17.0
 - financial_health_score: 18.0
-- valuation_score: 16.0
-- news_score: 10.0
-- momentum: {'1m': -3.323987039608362, '3m': 6.923587386169549, '6m': -13.618963822887537, '1y': -0.34433813502304567}
+- valuation_score: 14.0
+- news_score: 7.0
+- momentum: {'1m': -2.085873177130594, '3m': 5.77262499179946, '6m': -16.48841766502214, '1y': -1.4158059245527164}
 - benchmark: SPY
-- excess_momentum: {'1m': -1.07, '3m': 9.05, '6m': -16.19, '1y': -11.92}
-- positive_news: 4
-- watch_news: 1
+- excess_momentum: {'1m': 0.97, '3m': 9.12, '6m': -17.17, '1y': -12.71}
+- positive_news: 1
+- watch_news: 2
 - event_count: 10
-- events_with_reaction: 8
-- sector_average_score: 63.5
+- events_with_reaction: 6
+- sector_average_score: 62.583333333333336

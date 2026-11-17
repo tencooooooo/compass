@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Broadcom Inc.
-- Total Score: 57 / 100
+- Total Score: 56 / 100
 - Confidence: High
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 57 点を獲得し、シグナル充足率は 57.0% です。
+- データが確認できた 100 点満点のうち 56 点を獲得し、シグナル充足率は 56.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -108,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 44.3180
-- forward_pe: 17.8742
-- peg_ratio: 0.3600
-- price_to_book: 16.6177
+- trailing_pe: 42.5798
+- forward_pe: 17.1731
+- peg_ratio: 0.3400
+- price_to_book: 15.9659
 - sector_peer_count: 16
 - trailing_pe_percentile: 85.7100
 - trailing_pe_peer_count: 15
@@ -124,15 +124,15 @@ Evidence
 
 ## Momentum
 
-8点
+7点
 
 理由
 
-- 1M の対SPY超過リターンは +3.04pt で、市場並み以上です。
-- 3M の対SPY超過リターンは -9.29pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -20.68pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -13.16pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.24 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは +4.47pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -8.76pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -21.17pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -12.50pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.01 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -141,15 +141,15 @@ Evidence
 
 使用データ
 
-- 1M: 0.7783
-- 3M: -11.4130
-- 6M: -18.1091
-- 1Y: -1.5849
+- 1M: 1.4144
+- 3M: -12.1034
+- 6M: -20.4831
+- 1Y: -1.2063
 - benchmark: SPY
-- benchmark_returns: {'1M': -2.26, '3M': -2.13, '6M': 2.57, '1Y': 11.58}
-- excess_returns: {'1M': 3.04, '3M': -9.29, '6M': -20.68, '1Y': -13.16}
-- latest_volume: 31,602,000.0000
-- average_volume_30d: 25,545,463.3333
+- benchmark_returns: {'1M': -3.05, '3M': -3.34, '6M': 0.68, '1Y': 11.29}
+- excess_returns: {'1M': 4.47, '3M': -8.76, '6M': -21.17, '1Y': -12.5}
+- latest_volume: 26,056,800.0000
+- average_volume_30d: 25,699,710.0000
 
 ## News
 
@@ -158,8 +158,8 @@ Evidence
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 0 件、悪材料 2 件(純比率 -1.00)で、センチメントは 0.0 点です。
-- イベント後の平均株価反応が -4.76% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 0 件、悪材料 1 件(純比率 -1.00)で、センチメントは 0.0 点です。
+- イベント後の平均株価反応が -3.92% と弱く、注意が必要です。
 
 Evidence
 
@@ -171,10 +171,10 @@ Evidence
 
 - news_count: 10
 - positive_count: 0
-- negative_count: 2
+- negative_count: 1
 - sentiment_net_ratio: -1.0000
 - event_count: 10
-- events_with_price_reaction: 1
+- events_with_price_reaction: 3
 
 ## Note
 
