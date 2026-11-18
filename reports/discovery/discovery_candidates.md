@@ -6,8 +6,8 @@
 
 - 対象企業数: 24
 - セクター数: 3
-- 市場平均スコア: 59.875
-- 1M市場モメンタム平均: -1.8641288509697744
+- 市場平均スコア: 59.083333333333336
+- 1M市場モメンタム平均: -4.170474441826075
 - ニュース件数: 240
 - Event数: 240
 
@@ -15,17 +15,17 @@
 
 | Ticker | Company | Sector | Discovery Score | Status | Confidence | Signal |
 | --- | --- | --- | --- | --- | --- | --- |
-| AMD | Advanced Micro Devices, Inc. | Technology | 77 | Primary Candidate | High | Strong |
+| AMD | Advanced Micro Devices, Inc. | Technology | 87 | Primary Candidate | High | Strong |
 | TXN | Texas Instruments Incorporated | Technology | 77 | Primary Candidate | High | Strong |
-| MSFT | Microsoft Corporation | Technology | 73 | Watch Candidate | Medium | Strong |
+| META | Meta Platforms, Inc. | Communication Services | 73 | Watch Candidate | High | Strong |
+| AMZN | Amazon.com, Inc. | Consumer Cyclical | 71 | Watch Candidate | Medium | Strong |
 | AAPL | Apple Inc. | Technology | 69 | Watch Candidate | High | Strong |
-| META | Meta Platforms, Inc. | Communication Services | 68 | Watch Candidate | High | Strong |
-| CRM | Salesforce, Inc. | Technology | 67 | Watch Candidate | High | Strong |
-| ADBE | Adobe Inc. | Technology | 67 | Watch Candidate | High | Strong |
+| AVGO | Broadcom Inc. | Technology | 68 | Watch Candidate | Medium | Strong |
 | DIS | The Walt Disney Company | Communication Services | 67 | Watch Candidate | Medium | Strong |
-| CMCSA | Comcast Corporation | Communication Services | 65 | Watch Candidate | Medium | Strong |
-| QCOM | QUALCOMM Incorporated | Technology | 63 | Watch Candidate | High | Moderate |
-| AMZN | Amazon.com, Inc. | Consumer Cyclical | 63 | Watch Candidate | Medium | Strong |
+| MSFT | Microsoft Corporation | Technology | 65 | Watch Candidate | High | Strong |
+| QCOM | QUALCOMM Incorporated | Technology | 62 | Watch Candidate | High | Moderate |
+| CRM | Salesforce, Inc. | Technology | 61 | Watch Candidate | High | Moderate |
+| TSLA | Tesla, Inc. | Consumer Cyclical | 61 | Watch Candidate | High | Moderate |
 
 ## Top Candidate
 
@@ -35,7 +35,7 @@ AMD
 
 - Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 8/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 

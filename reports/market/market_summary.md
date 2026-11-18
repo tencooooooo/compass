@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: -1.86%
+- 市場全体の1Mモメンタム平均: -4.17%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-11-17T04:01:48+00:00 / NVDA / Associated Press: Asian shares decline following stocks tumbled on Wall Street
-- 2026-11-17T03:45:50+00:00 / NVDA / Stocktwits: SPCX Stock Dethrones Intel As Nvidia’s Biggest 投資判断表現 — Druckenmiller Buys In And Tepper Ups His Stake Over 1,600%
-- 2026-11-17T03:44:01+00:00 / NVDA / Motley Fool: Nvidia's Biggest Jensen Huang Problem Was Hiding in Plain Sight
-- 2026-11-17T03:43:42+00:00 / NVDA / 24/7 Wall St.: Bessent Says Nvidia Needs A “Dramatic Shakeup,” As A Singapore Firm Reportedly Moved At Least $7.5 Billion Of Nvidia Chips To China.
-- 2026-11-17T03:27:02+00:00 / NVDA / Motley Fool: Rocket Lab Hit 100 Launches Faster Than Any Other Commercially Developed Rocket. I'd 投資判断表現 a Small Stake.
+- 2026-11-18T03:07:03+00:00 / AMD / Investor's Business Daily: Dow Jones Futures: Techs Rise After Nvidia Beats, Says This On Jensen Huang; Target, Anthropic IPO Ahead
+- 2026-11-18T03:07:03+00:00 / AVGO / Investor's Business Daily: Dow Jones Futures: Techs Rise After Nvidia Beats, Says This On Jensen Huang; Target, Anthropic IPO Ahead
+- 2026-11-18T03:07:03+00:00 / AMZN / Investor's Business Daily: Dow Jones Futures: Techs Rise After Nvidia Beats, Says This On Jensen Huang; Target, Anthropic IPO Ahead
+- 2026-11-18T03:04:29+00:00 / AAPL / 24/7 Wall St.: A Retiree With $400,000 in His 401(k) Tries to Move Money Before Stocks Fall Further. Apple’s Widespread Outage Raises the Stakes of a Missed Trade
+- 2026-11-18T03:00:13+00:00 / HD / MediaPost: Home Depot Names New CEO, Carves Out A Sales Gain
 
 ### 注目イベント
 
-- 2026-11-16T17:14:51+00:00 / AMD: AMD finalizes $8.2 billion World Labs acquisition, adds 'godmother of AI' as EVP and chief scientist (株価反応: -5.58%, 出来高: 35.89M)
-- 2026-11-16T14:24:53+00:00 / AMD: AMD, Broadcom stocks sink on tighter US chip rules, CoreWeave and Nebius shares drop (株価反応: -5.58%, 出来高: 35.89M)
-- 2026-11-16T17:45:27+00:00 / AMAT: ASML Plunged 17% Lower Over 3 Months: This Wall Street Desk Expects 88% Gains Over the Next 12 (株価反応: -5.47%, 出来高: 7.11M)
-- 2026-11-16T14:40:00+00:00 / AMAT: Can Applied Materials Capitalize on Rising HBM Demand in 2026? (株価反応: -5.47%, 出来高: 7.11M)
-- 2026-11-16T14:12:00+00:00 / AMAT: Is TSM Still a 投資判断表現 as AI Growth Faces Heavy Spending and Valuation? (株価反応: -5.47%, 出来高: 7.11M)
+- 2026-11-17T20:24:52+00:00 / CRM: It’s a Stock Market Bloodbath! Why the Dow Dropped 1,000 Points. (株価反応: -9.45%, 出来高: 13.36M)
+- 2026-11-17T20:00:00+00:00 / CRM: Hackers target 178 major websites with crypto-stealing code (株価反応: -9.45%, 出来高: 13.36M)
+- 2026-11-17T18:10:13+00:00 / NOW: Why ServiceNow Stock Is Moving On Software Outages And Cyber Risk (株価反応: -6.51%, 出来高: 23.90M)
+- 2026-11-17T17:35:00+00:00 / NOW: Salesforce leads Wall Street software 投資判断表現-off as investors brace for Anthropic IPO (株価反応: -6.51%, 出来高: 23.90M)
+- 2026-11-17T17:04:41+00:00 / NOW: Broad Selloff Leaves Few Places to Hide (株価反応: -6.51%, 出来高: 23.90M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 58.50 | 17.36 | 11.47 | -1.86% | 60 |
-| Consumer Cyclical | 6 | 55.83 | 88.60 | 8.95 | 8.86% | 60 |
-| Technology | 12 | 62.58 | 37.76 | 9.66 | -7.23% | 120 |
+| Communication Services | 6 | 56.17 | 16.95 | 11.70 | -2.60% | 60 |
+| Consumer Cyclical | 6 | 56.83 | 86.65 | 9.03 | 5.70% | 60 |
+| Technology | 12 | 61.67 | 36.00 | 9.83 | -9.89% | 120 |
 
 ## 市場トレンド
 
