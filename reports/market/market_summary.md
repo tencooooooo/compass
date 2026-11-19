@@ -6,9 +6,9 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: -4.17%
-- ニュース件数: 240
-- Event数: 240
+- 市場全体の1Mモメンタム平均: -4.62%
+- ニュース件数: 239
+- Event数: 239
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
 
 ### セクター構成
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-11-18T03:07:03+00:00 / AMD / Investor's Business Daily: Dow Jones Futures: Techs Rise After Nvidia Beats, Says This On Jensen Huang; Target, Anthropic IPO Ahead
-- 2026-11-18T03:07:03+00:00 / AVGO / Investor's Business Daily: Dow Jones Futures: Techs Rise After Nvidia Beats, Says This On Jensen Huang; Target, Anthropic IPO Ahead
-- 2026-11-18T03:07:03+00:00 / AMZN / Investor's Business Daily: Dow Jones Futures: Techs Rise After Nvidia Beats, Says This On Jensen Huang; Target, Anthropic IPO Ahead
-- 2026-11-18T03:04:29+00:00 / AAPL / 24/7 Wall St.: A Retiree With $400,000 in His 401(k) Tries to Move Money Before Stocks Fall Further. Apple’s Widespread Outage Raises the Stakes of a Missed Trade
-- 2026-11-18T03:00:13+00:00 / HD / MediaPost: Home Depot Names New CEO, Carves Out A Sales Gain
+- 2026-11-19T02:35:55+00:00 / NVDA / Investor's Business Daily: Dow Jones Futures Rise; Anthropic IPO Prices High, Palo Alto And Everpure Rally On Earnings
+- 2026-11-19T02:24:01+00:00 / AMZN / Motley Fool: e.l.f. Beauty vs. On: Which Stock Is the Better 投資判断表現 for 2027?
+- 2026-11-19T02:23:20+00:00 / NVDA / Investing.com: Japan’s Datasection slumps on big guidance cut amid U.S.-China chip access row
+- 2026-11-19T02:22:25+00:00 / GOOGL / Simply Wall St.: Smart Glasses Launch Could Change The Case For Warby Parker Stock
+- 2026-11-19T02:19:48+00:00 / MSFT / Simply Wall St.: What NICE (TASE:NICE)'s Microsoft AI Tie Up Means For Shareholders
 
 ### 注目イベント
 
-- 2026-11-17T20:24:52+00:00 / CRM: It’s a Stock Market Bloodbath! Why the Dow Dropped 1,000 Points. (株価反応: -9.45%, 出来高: 13.36M)
-- 2026-11-17T20:00:00+00:00 / CRM: Hackers target 178 major websites with crypto-stealing code (株価反応: -9.45%, 出来高: 13.36M)
-- 2026-11-17T18:10:13+00:00 / NOW: Why ServiceNow Stock Is Moving On Software Outages And Cyber Risk (株価反応: -6.51%, 出来高: 23.90M)
-- 2026-11-17T17:35:00+00:00 / NOW: Salesforce leads Wall Street software 投資判断表現-off as investors brace for Anthropic IPO (株価反応: -6.51%, 出来高: 23.90M)
-- 2026-11-17T17:04:41+00:00 / NOW: Broad Selloff Leaves Few Places to Hide (株価反応: -6.51%, 出来高: 23.90M)
+- 2026-11-17T22:01:59+00:00 / AMD: AMD, Broadcom, CoreWeave stocks mixed on Nvidia Q3 earnings beat (株価反応: 5.31%, 出来高: 33.66M)
+- 2026-11-18T19:50:00+00:00 / DIS: Disney earnings beat estimates as Bank of America raises price target to $135 (株価反応: 4.63%, 出来高: 17.59M)
+- 2026-11-18T19:20:02+00:00 / DIS: Disney’s Experiences Segment Hit Record Quarterly Revenue of $10.1 Billion as Cruise Days Surged. Can the Momentum Last? (株価反応: 4.63%, 出来高: 17.59M)
+- 2026-11-18T18:39:47+00:00 / DIS: Disney Stocks Fall 1.48% Despite 16% Revenue Jump and a 33% Dividend Hike (株価反応: 4.63%, 出来高: 17.59M)
+- 2026-11-18T18:06:59+00:00 / DIS: JPMorgan Raises Its Disney Target to $140. Is It Still Too Low? (株価反応: 4.63%, 出来高: 17.59M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 56.17 | 16.95 | 11.70 | -2.60% | 60 |
-| Consumer Cyclical | 6 | 56.83 | 86.65 | 9.03 | 5.70% | 60 |
-| Technology | 12 | 61.67 | 36.00 | 9.83 | -9.89% | 120 |
+| Communication Services | 6 | 59.83 | 16.43 | 11.85 | -2.45% | 59 |
+| Consumer Cyclical | 6 | 58.50 | 87.45 | 9.04 | 5.29% | 60 |
+| Technology | 12 | 63.00 | 36.24 | 9.85 | -10.66% | 120 |
 
 ## 市場トレンド
 
@@ -49,11 +49,11 @@
 | --- | --- | --- | --- |
 | Communication Services | Weak | High | Good |
 | Consumer Cyclical | Positive | High | Neutral |
-| Technology | Weak | High | Good |
+| Technology | Risk-Off | High | Good |
 
 ## 市場心理
 
-市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 240 件で、ポジティブなモメンタムのセクターは 1/3 です。
+市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 239 件で、ポジティブなモメンタムのセクターは 1/3 です。
 
 参照Knowledge: market_psychology.md
 

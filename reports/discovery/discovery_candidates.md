@@ -6,26 +6,26 @@
 
 - 対象企業数: 24
 - セクター数: 3
-- 市場平均スコア: 59.083333333333336
-- 1M市場モメンタム平均: -4.170474441826075
-- ニュース件数: 240
-- Event数: 240
+- 市場平均スコア: 61.083333333333336
+- 1M市場モメンタム平均: -4.623346019055679
+- ニュース件数: 239
+- Event数: 239
 
 ## Candidate Summary
 
 | Ticker | Company | Sector | Discovery Score | Status | Confidence | Signal |
 | --- | --- | --- | --- | --- | --- | --- |
-| AMD | Advanced Micro Devices, Inc. | Technology | 87 | Primary Candidate | High | Strong |
-| TXN | Texas Instruments Incorporated | Technology | 77 | Primary Candidate | High | Strong |
-| META | Meta Platforms, Inc. | Communication Services | 73 | Watch Candidate | High | Strong |
-| AMZN | Amazon.com, Inc. | Consumer Cyclical | 71 | Watch Candidate | Medium | Strong |
-| AAPL | Apple Inc. | Technology | 69 | Watch Candidate | High | Strong |
-| AVGO | Broadcom Inc. | Technology | 68 | Watch Candidate | Medium | Strong |
-| DIS | The Walt Disney Company | Communication Services | 67 | Watch Candidate | Medium | Strong |
-| MSFT | Microsoft Corporation | Technology | 65 | Watch Candidate | High | Strong |
-| QCOM | QUALCOMM Incorporated | Technology | 62 | Watch Candidate | High | Moderate |
-| CRM | Salesforce, Inc. | Technology | 61 | Watch Candidate | High | Moderate |
-| TSLA | Tesla, Inc. | Consumer Cyclical | 61 | Watch Candidate | High | Moderate |
+| AMD | Advanced Micro Devices, Inc. | Technology | 90 | Primary Candidate | High | Strong |
+| MSFT | Microsoft Corporation | Technology | 80 | Primary Candidate | High | Strong |
+| DIS | The Walt Disney Company | Communication Services | 76 | Primary Candidate | Medium | Strong |
+| TXN | Texas Instruments Incorporated | Technology | 75 | Primary Candidate | High | Strong |
+| AMZN | Amazon.com, Inc. | Consumer Cyclical | 75 | Primary Candidate | Medium | Strong |
+| AVGO | Broadcom Inc. | Technology | 74 | Watch Candidate | High | Strong |
+| META | Meta Platforms, Inc. | Communication Services | 74 | Watch Candidate | High | Strong |
+| AAPL | Apple Inc. | Technology | 71 | Watch Candidate | High | Strong |
+| CRM | Salesforce, Inc. | Technology | 65 | Watch Candidate | High | Strong |
+| TSLA | Tesla, Inc. | Consumer Cyclical | 63 | Watch Candidate | High | Moderate |
+| ORCL | Oracle Corporation | Technology | 60 | Watch Candidate | High | Moderate |
 
 ## Top Candidate
 
@@ -35,7 +35,7 @@ AMD
 
 - Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 15/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 14/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 

@@ -10,7 +10,7 @@
 
 ## Discovery Score
 
-69 / 100
+71 / 100
 
 ## Discovery Reasons
 
@@ -21,9 +21,9 @@
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで +7.13pt と、市場並み以上です。
-- 3Mモメンタムは対SPYで +15.68pt と、市場を大きく上回っています。
-- 6Mモメンタムは対SPYで +17.57pt と、市場を大きく上回っています。
+- 1Mモメンタムは対SPYで +8.94pt と、市場並み以上です。
+- 3Mモメンタムは対SPYで +17.32pt と、市場を大きく上回っています。
+- 6Mモメンタムは対SPYで +17.79pt と、市場を大きく上回っています。
 
 ## Strengths
 
@@ -34,13 +34,13 @@
 ## Watch Points
 
 - バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。
-- 注意材料になり得るニュース表現が 2 件あります。
-- イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。
-- TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。
+- 注意材料になり得るニュース表現が 1 件あります。
+- TechnologyのセクターモメンタムはRisk-Offで、短期環境は慎重に見る必要があります。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Technology セクター全体の需要変化と競争環境を確認する必要があります。
 - yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。
+- ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。
 
 ## Confidence
 
@@ -48,7 +48,7 @@ High
 
 ## Signal Strength
 
-Strong(シグナル充足率: 68.6%)
+Strong(シグナル充足率: 70.85%)
 
 ## Evidence
 
@@ -67,8 +67,8 @@ Strong(シグナル充足率: 68.6%)
 
 ## Metrics
 
-- scoring_total: 60.0
-- signal_earned_points: 68.6
+- scoring_total: 58.0
+- signal_earned_points: 70.85
 - signal_max_points: 100.0
 - weak_signals: []
 - scoring_signal_strength: Moderate
@@ -76,11 +76,11 @@ Strong(シグナル充足率: 68.6%)
 - financial_health_score: 14.0
 - valuation_score: 0.0
 - news_score: 11.0
-- momentum: {'1m': 2.693587970924396, '3m': 11.15658054079992, '6m': 17.898499863252145, '1y': 29.633992712140834}
+- momentum: {'1m': 3.8933133266584443, '3m': 13.304796568367516, '6m': 16.79801166677336, '1y': 32.235814778200584}
 - benchmark: SPY
-- excess_momentum: {'1m': 7.13, '3m': 15.68, '6m': 17.57, '1y': 19.45}
-- positive_news: 2
-- watch_news: 2
+- excess_momentum: {'1m': 8.94, '3m': 17.32, '6m': 17.79, '1y': 21.36}
+- positive_news: 1
+- watch_news: 1
 - event_count: 10
 - events_with_reaction: 1
-- sector_average_score: 61.666666666666664
+- sector_average_score: 63.0

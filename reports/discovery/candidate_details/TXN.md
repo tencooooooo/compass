@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-77 / 100
+75 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 19/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 17/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 10/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 8/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで +12.10pt と、市場を大きく上回っています。
-- 3Mモメンタムは対SPYで +15.69pt と、市場を大きく上回っています。
-- 6Mモメンタムは対SPYで -1.48pt と、市場を小幅に下回っています。
+- 1Mモメンタムは対SPYで +10.84pt と、市場を大きく上回っています。
+- 3Mモメンタムは対SPYで +14.65pt と、市場を大きく上回っています。
+- 6Mモメンタムは対SPYで -2.13pt と、市場を小幅に下回っています。
 
 ## Strengths
 
@@ -36,7 +36,7 @@
 - バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。
 - 注意材料になり得るニュース表現が 3 件あります。
 - イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。
-- TechnologyのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。
+- TechnologyのセクターモメンタムはRisk-Offで、短期環境は慎重に見る必要があります。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Technology セクター全体の需要変化と競争環境を確認する必要があります。
@@ -48,7 +48,7 @@ High
 
 ## Signal Strength
 
-Strong(シグナル充足率: 76.65%)
+Strong(シグナル充足率: 75.1%)
 
 ## Evidence
 
@@ -67,20 +67,20 @@ Strong(シグナル充足率: 76.65%)
 
 ## Metrics
 
-- scoring_total: 66.0
-- signal_earned_points: 76.65
+- scoring_total: 64.0
+- signal_earned_points: 75.1
 - signal_max_points: 100.0
 - weak_signals: []
-- scoring_signal_strength: Strong
+- scoring_signal_strength: Moderate
 - growth_score: 19.0
 - financial_health_score: 17.0
 - valuation_score: 6.0
-- news_score: 10.0
-- momentum: {'1m': 7.6603474252051456, '3m': 11.162467242311438, '6m': -1.15237298784371, '1y': 89.73516018911006}
+- news_score: 8.0
+- momentum: {'1m': 5.787791964370386, '3m': 10.639046160056196, '6m': -3.121925278582651, '1y': 92.78684936159016}
 - benchmark: SPY
-- excess_momentum: {'1m': 12.1, '3m': 15.69, '6m': -1.48, '1y': 79.55}
-- positive_news: 2
+- excess_momentum: {'1m': 10.84, '3m': 14.65, '6m': -2.13, '1y': 81.91}
+- positive_news: 3
 - watch_news: 3
 - event_count: 10
 - events_with_reaction: 9
-- sector_average_score: 61.666666666666664
+- sector_average_score: 63.0
