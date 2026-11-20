@@ -6,26 +6,25 @@
 
 - 対象企業数: 24
 - セクター数: 3
-- 市場平均スコア: 61.083333333333336
-- 1M市場モメンタム平均: -4.623346019055679
-- ニュース件数: 239
-- Event数: 239
+- 市場平均スコア: 59.0
+- 1M市場モメンタム平均: -6.7635367383732214
+- ニュース件数: 240
+- Event数: 240
 
 ## Candidate Summary
 
 | Ticker | Company | Sector | Discovery Score | Status | Confidence | Signal |
 | --- | --- | --- | --- | --- | --- | --- |
-| AMD | Advanced Micro Devices, Inc. | Technology | 90 | Primary Candidate | High | Strong |
-| MSFT | Microsoft Corporation | Technology | 80 | Primary Candidate | High | Strong |
-| DIS | The Walt Disney Company | Communication Services | 76 | Primary Candidate | Medium | Strong |
-| TXN | Texas Instruments Incorporated | Technology | 75 | Primary Candidate | High | Strong |
-| AMZN | Amazon.com, Inc. | Consumer Cyclical | 75 | Primary Candidate | Medium | Strong |
-| AVGO | Broadcom Inc. | Technology | 74 | Watch Candidate | High | Strong |
-| META | Meta Platforms, Inc. | Communication Services | 74 | Watch Candidate | High | Strong |
-| AAPL | Apple Inc. | Technology | 71 | Watch Candidate | High | Strong |
-| CRM | Salesforce, Inc. | Technology | 65 | Watch Candidate | High | Strong |
-| TSLA | Tesla, Inc. | Consumer Cyclical | 63 | Watch Candidate | High | Moderate |
-| ORCL | Oracle Corporation | Technology | 60 | Watch Candidate | High | Moderate |
+| AMD | Advanced Micro Devices, Inc. | Technology | 78 | Primary Candidate | High | Strong |
+| MSFT | Microsoft Corporation | Technology | 75 | Primary Candidate | High | Strong |
+| TXN | Texas Instruments Incorporated | Technology | 73 | Watch Candidate | High | Strong |
+| QCOM | QUALCOMM Incorporated | Technology | 70 | Watch Candidate | High | Strong |
+| DIS | The Walt Disney Company | Communication Services | 69 | Watch Candidate | Medium | Strong |
+| AMZN | Amazon.com, Inc. | Consumer Cyclical | 69 | Watch Candidate | Medium | Strong |
+| META | Meta Platforms, Inc. | Communication Services | 68 | Watch Candidate | Medium | Strong |
+| AAPL | Apple Inc. | Technology | 66 | Watch Candidate | Medium | Strong |
+| AVGO | Broadcom Inc. | Technology | 66 | Watch Candidate | High | Strong |
+| CRM | Salesforce, Inc. | Technology | 64 | Watch Candidate | High | Moderate |
 
 ## Top Candidate
 
@@ -35,7 +34,7 @@ AMD
 
 - Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 14/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 7/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 

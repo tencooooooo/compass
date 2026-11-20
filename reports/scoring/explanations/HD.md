@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: The Home Depot, Inc.
-- Total Score: 56 / 100
+- Total Score: 57 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 56 点を獲得し、シグナル充足率は 56.0% です。
+- データが確認できた 100 点満点のうち 57 点を獲得し、シグナル充足率は 57.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -111,10 +111,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 23.4472
-- forward_pe: 21.4314
-- peg_ratio: 1.7900
-- price_to_book: 18.5262
+- trailing_pe: 23.3806
+- forward_pe: 21.3819
+- peg_ratio: 1.7800
+- price_to_book: 18.4735
 - sector_peer_count: 10
 - trailing_pe_percentile: 55.5600
 - trailing_pe_peer_count: 10
@@ -127,15 +127,15 @@ Evidence
 
 ## Momentum
 
-14点
+15点
 
 理由
 
-- 1M の対SPY超過リターンが +12.20pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンは +5.70pt で、市場並み以上です。
-- 6M の対SPY超過リターンが +11.33pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -13.90pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.08 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンが +14.58pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンは +7.34pt で、市場並み以上です。
+- 6M の対SPY超過リターンが +12.03pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -6.73pt と、市場を小幅に下回っています。
+- 直近出来高が30日平均の 1.00 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -144,15 +144,15 @@ Evidence
 
 使用データ
 
-- 1M: 7.1499
-- 3M: 1.6856
-- 6M: 10.3353
-- 1Y: -3.0245
+- 1M: 7.1751
+- 3M: 1.0581
+- 6M: 8.8995
+- 1Y: 2.8930
 - benchmark: SPY
-- benchmark_returns: {'1M': -5.05, '3M': -4.01, '6M': -0.99, '1Y': 10.88}
-- excess_returns: {'1M': 12.2, '3M': 5.7, '6M': 11.33, '1Y': -13.9}
-- latest_volume: 5,341,100.0000
-- average_volume_30d: 4,958,033.3333
+- benchmark_returns: {'1M': -7.4, '3M': -6.28, '6M': -3.13, '1Y': 9.62}
+- excess_returns: {'1M': 14.58, '3M': 7.34, '6M': 12.03, '1Y': -6.73}
+- latest_volume: 4,803,800.0000
+- average_volume_30d: 4,821,223.3333
 
 ## News
 
@@ -162,7 +162,7 @@ Evidence
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
 - ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 2 件(純比率 -0.33)で、センチメントは 2.7 点です。
-- イベント後の平均株価反応が -0.40% と中立圏です。
+- イベント後の平均株価反応が -0.28% と中立圏です。
 
 Evidence
 

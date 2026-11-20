@@ -93,7 +93,7 @@ Evidence
 
 理由
 
-- PER はセクター内 14.29 パーセンタイル / 母数 15 で、相対的に割安寄りです。
+- PER はセクター内 7.14 パーセンタイル / 母数 15 で、相対的に割安寄りです。
 - Forward PER はセクター内 6.67 パーセンタイル / 母数 16 で、相対的に割安寄りです。
 - PEG はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。
 - PBR はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。
@@ -106,12 +106,12 @@ Evidence
 
 使用データ
 
-- trailing_pe: 12.6298
-- forward_pe: 8.2533
-- peg_ratio: 0.5700
-- price_to_book: 7.5182
+- trailing_pe: 12.3774
+- forward_pe: 8.0884
+- peg_ratio: 0.5400
+- price_to_book: 7.3680
 - sector_peer_count: 16
-- trailing_pe_percentile: 14.2900
+- trailing_pe_percentile: 7.1400
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 6.6700
 - forward_pe_peer_count: 16
@@ -126,11 +126,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -6.84pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -12.89pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -9.73pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンは -41.29pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.99 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -5.69pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -13.20pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -6.06pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは -41.30pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.89 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -139,15 +139,15 @@ Evidence
 
 使用データ
 
-- 1M: -11.8919
-- 3M: -16.9054
-- 6M: -10.7234
-- 1Y: -30.4150
+- 1M: -13.0871
+- 3M: -19.4769
+- 6M: -9.1848
+- 1Y: -31.6794
 - benchmark: SPY
-- benchmark_returns: {'1M': -5.05, '3M': -4.01, '6M': -0.99, '1Y': 10.88}
-- excess_returns: {'1M': -6.84, '3M': -12.89, '6M': -9.73, '1Y': -41.29}
-- latest_volume: 4,037,300.0000
-- average_volume_30d: 4,095,086.6667
+- benchmark_returns: {'1M': -7.4, '3M': -6.28, '6M': -3.13, '1Y': 9.62}
+- excess_returns: {'1M': -5.69, '3M': -13.2, '6M': -6.06, '1Y': -41.3}
+- latest_volume: 3,563,900.0000
+- average_volume_30d: 4,020,476.6667
 
 ## News
 
@@ -156,8 +156,8 @@ Evidence
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 1 件(純比率 +0.00)で、センチメントは 4.0 点です。
-- イベント後の平均株価反応が -3.97% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 2 件(純比率 +0.00)で、センチメントは 4.0 点です。
+- イベント後の平均株価反応が -2.98% と弱く、注意が必要です。
 
 Evidence
 
@@ -168,11 +168,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 1
-- negative_count: 1
+- positive_count: 2
+- negative_count: 2
 - sentiment_net_ratio: 0.0000
 - event_count: 10
-- events_with_price_reaction: 9
+- events_with_price_reaction: 8
 
 ## Note
 
