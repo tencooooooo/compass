@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-69 / 100
+70 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 16/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 18/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで +5.50pt と、市場並み以上です。
-- 3Mモメンタムは対SPYで +5.79pt と、市場並み以上です。
-- 6Mモメンタムは対SPYで -1.00pt と、市場を小幅に下回っています。
-- 1Yモメンタムは対SPYで +6.02pt と、市場並み以上です。
+- 1Mモメンタムは対SPYで +8.28pt と、市場並み以上です。
+- 3Mモメンタムは対SPYで +3.60pt と、市場並み以上です。
+- 6Mモメンタムは対SPYで -0.30pt と、市場を小幅に下回っています。
+- 1Yモメンタムは対SPYで +5.61pt と、市場並み以上です。
 
 ## Strengths
 
@@ -32,7 +32,8 @@
 
 ## Watch Points
 
-- イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。
+- Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。
+- Consumer CyclicalのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Consumer Cyclical セクター全体の需要変化と競争環境を確認する必要があります。
@@ -45,7 +46,7 @@ Medium
 
 ## Signal Strength
 
-Strong(シグナル充足率: 71.39%)
+Strong(シグナル充足率: 75.98%)
 
 ## Evidence
 
@@ -61,23 +62,24 @@ Strong(シグナル充足率: 71.39%)
 ## Missing Data
 
 - research_and_development
+- event_price_reaction
 
 ## Metrics
 
-- scoring_total: 74.0
-- signal_earned_points: 69.25
-- signal_max_points: 97.0
+- scoring_total: 76.0
+- signal_earned_points: 69.9
+- signal_max_points: 92.0
 - weak_signals: []
 - scoring_signal_strength: Strong
 - growth_score: 16.0
 - financial_health_score: 18.0
 - valuation_score: 16.0
-- news_score: 12.0
-- momentum: {'1m': -1.9057057182803052, '3m': -0.4871862281392762, '6m': -4.130967999284293, '1y': 15.645918484814267}
+- news_score: 13.0
+- momentum: {'1m': -1.4218378022078746, '3m': -5.819055814782166, '6m': -7.3220184228444545, '1y': 10.835692944572822}
 - benchmark: SPY
-- excess_momentum: {'1m': 5.5, '3m': 5.79, '6m': -1.0, '1y': 6.02}
-- positive_news: 3
+- excess_momentum: {'1m': 8.28, '3m': 3.6, '6m': -0.3, '1y': 5.61}
+- positive_news: 4
 - watch_news: 0
 - event_count: 10
-- events_with_reaction: 1
-- sector_average_score: 55.0
+- events_with_reaction: 0
+- sector_average_score: 59.166666666666664

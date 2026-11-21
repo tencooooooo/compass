@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: NVIDIA Corporation
-- Total Score: 62 / 100
+- Total Score: 57 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 62 点を獲得し、シグナル充足率は 62.0% です。
+- データが確認できた 100 点満点のうち 57 点を獲得し、シグナル充足率は 57.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -100,7 +100,7 @@ Evidence
 理由
 
 - PER はセクター内 21.43 パーセンタイル / 母数 15 で、相対的に割安寄りです。
-- Forward PER はセクター内 13.33 パーセンタイル / 母数 16 で、相対的に割安寄りです。
+- Forward PER はセクター内 6.67 パーセンタイル / 母数 16 で、相対的に割安寄りです。
 - PEG はセクター内 6.67 パーセンタイル / 母数 16 で、相対的に割安寄りです。
 - PBR はセクター内 80.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
@@ -112,14 +112,14 @@ Evidence
 
 使用データ
 
-- trailing_pe: 15.6799
-- forward_pe: 8.7912
+- trailing_pe: 13.4834
+- forward_pe: 7.5596
 - peg_ratio: 0.1800
-- price_to_book: 13.1965
+- price_to_book: 11.3479
 - sector_peer_count: 16
 - trailing_pe_percentile: 21.4300
 - trailing_pe_peer_count: 15
-- forward_pe_percentile: 13.3300
+- forward_pe_percentile: 6.6700
 - forward_pe_peer_count: 16
 - peg_ratio_percentile: 6.6700
 - peg_ratio_peer_count: 16
@@ -132,11 +132,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -26.83pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -25.66pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -30.22pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -28.94pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.55 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは -31.14pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -30.30pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -34.55pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -37.76pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 2.79 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -145,25 +145,25 @@ Evidence
 
 使用データ
 
-- 1M: -34.2344
-- 3M: -31.9377
-- 6M: -33.3453
-- 1Y: -19.3153
+- 1M: -40.8463
+- 3M: -39.7206
+- 6M: -41.5702
+- 1Y: -32.5377
 - benchmark: SPY
-- benchmark_returns: {'1M': -7.4, '3M': -6.28, '6M': -3.13, '1Y': 9.62}
-- excess_returns: {'1M': -26.83, '3M': -25.66, '6M': -30.22, '1Y': -28.94}
-- latest_volume: 320,588,100.0000
-- average_volume_30d: 206,484,036.6667
+- benchmark_returns: {'1M': -9.71, '3M': -9.42, '6M': -7.02, '1Y': 5.22}
+- excess_returns: {'1M': -31.14, '3M': -30.3, '6M': -34.55, '1Y': -37.76}
+- latest_volume: 626,373,200.0000
+- average_volume_30d: 224,620,023.3333
 
 ## News
 
-9点
+4点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 1 件(純比率 +0.33)で、センチメントは 5.3 点です。
-- イベント後の平均株価反応が -3.30% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 0 件、悪材料 3 件(純比率 -1.00)で、センチメントは 0.0 点です。
+- イベント後の平均株価反応が -14.01% と弱く、注意が必要です。
 
 Evidence
 
@@ -174,11 +174,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 2
-- negative_count: 1
-- sentiment_net_ratio: 0.3300
+- positive_count: 0
+- negative_count: 3
+- sentiment_net_ratio: -1.0000
 - event_count: 10
-- events_with_price_reaction: 3
+- events_with_price_reaction: 4
 
 ## Note
 

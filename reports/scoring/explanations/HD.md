@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: The Home Depot, Inc.
-- Total Score: 57 / 100
+- Total Score: 61 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,18 +27,17 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 57 点を獲得し、シグナル充足率は 57.0% です。
+- データが確認できた 100 点満点のうち 61 点を獲得し、シグナル充足率は 61.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
-10点
+12点
 
 理由
 
-- revenue_growth(直近4四半期平均) は 4.55% で、プラス成長を維持しています。
-- eps_growth(直近4四半期平均) は -0.39% で、前年同期比ではマイナスです。
-- eps_growth は直近四半期が前四半期より +8.94pt 高く、成長の加速がみられます。
+- revenue_growth(直近4四半期平均) は 4.57% で、プラス成長を維持しています。
+- eps_growth(直近4四半期平均) は 0.41% で、プラス成長を維持しています。
 - 純利益 がプラスで確認できるため加点しています。
 - 営業利益 がプラスで確認できるため加点しています。
 - 研究開発費が取得できないため、R&D項目は加点していません。
@@ -56,12 +55,12 @@ Evidence
 - net_income: 14,156,000,000.0000
 - operating_income: 20,890,000,000.0000
 - research_and_development: N/A
-- revenue_yoy_growth: 5.7100
-- eps_yoy_growth: 4.5900
-- revenue_yoy_growth_avg: 4.5500
-- eps_yoy_growth_avg: -0.3900
-- revenue_growth_quarters: ['2026-Q3', '2026-Q2', '2025-Q4', '2025-Q3']
-- eps_growth_quarters: ['2026-Q3', '2026-Q2', '2025-Q4', '2025-Q3']
+- revenue_yoy_growth: 4.9500
+- eps_yoy_growth: 2.7600
+- revenue_yoy_growth_avg: 4.5700
+- eps_yoy_growth_avg: 0.4100
+- revenue_growth_quarters: ['2026-Q4', '2026-Q3', '2026-Q2', '2025-Q4']
+- eps_growth_quarters: ['2026-Q4', '2026-Q3', '2026-Q2', '2025-Q4']
 
 欠損・計算不可
 
@@ -111,10 +110,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 23.3806
-- forward_pe: 21.3819
+- trailing_pe: 23.5444
+- forward_pe: 21.5317
 - peg_ratio: 1.7800
-- price_to_book: 18.4735
+- price_to_book: 18.6030
 - sector_peer_count: 10
 - trailing_pe_percentile: 55.5600
 - trailing_pe_peer_count: 10
@@ -127,15 +126,15 @@ Evidence
 
 ## Momentum
 
-15点
+17点
 
 理由
 
-- 1M の対SPY超過リターンが +14.58pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンは +7.34pt で、市場並み以上です。
-- 6M の対SPY超過リターンが +12.03pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -6.73pt と、市場を小幅に下回っています。
-- 直近出来高が30日平均の 1.00 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンが +13.16pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンが +10.64pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +16.93pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -1.00pt と、市場を小幅に下回っています。
+- 直近出来高が30日平均の 1.61 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -144,15 +143,15 @@ Evidence
 
 使用データ
 
-- 1M: 7.1751
-- 3M: 1.0581
-- 6M: 8.8995
-- 1Y: 2.8930
+- 1M: 3.4510
+- 3M: 1.2176
+- 6M: 9.9116
+- 1Y: 4.2276
 - benchmark: SPY
-- benchmark_returns: {'1M': -7.4, '3M': -6.28, '6M': -3.13, '1Y': 9.62}
-- excess_returns: {'1M': 14.58, '3M': 7.34, '6M': 12.03, '1Y': -6.73}
-- latest_volume: 4,803,800.0000
-- average_volume_30d: 4,821,223.3333
+- benchmark_returns: {'1M': -9.71, '3M': -9.42, '6M': -7.02, '1Y': 5.22}
+- excess_returns: {'1M': 13.16, '3M': 10.64, '6M': 16.93, '1Y': -1.0}
+- latest_volume: 7,894,000.0000
+- average_volume_30d: 4,907,946.6667
 
 ## News
 
@@ -162,7 +161,7 @@ Evidence
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
 - ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 2 件(純比率 -0.33)で、センチメントは 2.7 点です。
-- イベント後の平均株価反応が -0.28% と中立圏です。
+- イベント後の平均株価反応が 0.70% と中立圏です。
 
 Evidence
 
@@ -177,7 +176,7 @@ Evidence
 - negative_count: 2
 - sentiment_net_ratio: -0.3300
 - event_count: 10
-- events_with_price_reaction: 7
+- events_with_price_reaction: 9
 
 ## Note
 
