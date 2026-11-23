@@ -1,37 +1,39 @@
 # Fintech
 
-- Target companies: 3
-- Average Score: 53.00
-- Average Discovery: N/A
-- Momentum: N/A
+- Target companies: 4
+- Average Score: 57.00
+- Average Discovery: 62.00
+- Momentum: 3.45
 - Confidence: Medium
 
 ## Companies
 
 - ACN - Accenture plc (Medium): Keyword: banking; Sector alignment: Technology
-- MCD - McDonald's Corporation (Low): Keyword: banking
-- NVDA - NVIDIA Corporation (Medium): Keyword: banking; Sector alignment: Technology
+- HD - The Home Depot, Inc. (Low): Keyword: payments
+- NKE - NIKE, Inc. (Low): Keyword: payments
+- TMUS - T-Mobile US, Inc. (Low): Keyword: payments
 
 ## Market
 
-- Consumer Cyclical: score 56.50, momentum 9.50, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Neutral'}
-- Technology: score 63.50, momentum -7.15, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 60.67, momentum -4.92, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 59.17, momentum -0.59, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 61.25, momentum -18.35, trend {'momentum': 'Risk-Off', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- MCD: 3 Dividend Stocks With Yield Over 2%
-- NVDA: Nvidia's competitors pounce, and what GPU rental prices say about the AI race
-- NVDA: How the Nvidia scandal impacts US–China relations: Department of Defense CTO
-- NVDA: Cerebras stock surges on Microsoft deal: What it means for Nvidia
-- MCD: Should You Buy, Sell or Hold Starbucks Stock Post Q4 Earnings?
+- TMUS: Starlink Spectrum Approval Could Be A Game Changer For T Mobile Stock
+- HD: Shopping Till We Drop
+- HD: Peter Lynch Made Millions for Investors by Following One Simple Rule
+- TMUS: Can T Mobile US (TMUS) Turn AI Network Upgrades Into A Real Edge?
+- HD: Own Walmart? Its Cash Lags Its Price
 
 ## Similar Themes
 
-- EV: 0.999 (Shared companies: NVDA; Shared sectors: Consumer Cyclical, Technology)
-- Cloud: 0.988 (Shared companies: ACN, NVDA; Shared sectors: Consumer Cyclical, Technology; Similar short-term momentum)
-- AI: 0.985 (Shared companies: ACN, MCD, NVDA; Shared sectors: Consumer Cyclical, Technology; Similar short-term momentum)
-- Quantum Computing: 0.976 (Shared sectors: Technology)
-- Semiconductor: 0.968 (Shared companies: NVDA; Shared sectors: Consumer Cyclical, Technology; Similar short-term momentum)
+- Healthcare: 0.257 (Shared sectors: Technology; Similar average Discovery score)
+- Quantum Computing: 0.247 (Shared sectors: Communication Services, Consumer Cyclical; Similar short-term momentum)
+- Space: 0.221 (Shared companies: HD, TMUS; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
+- Energy: 0.22 (Shared companies: ACN, NKE; Shared sectors: Consumer Cyclical, Technology)
+- Robotics: 0.173 (Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
 
 ## Review Note
 

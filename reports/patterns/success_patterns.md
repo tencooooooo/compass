@@ -16,10 +16,3 @@ Pattern candidates require human review before Knowledge updates.
 - Companies: AAPL, ADBE, AMAT, AMD, AMZN, AVGO, CMCSA, CRM, DIS, GOOGL, HD, LOW, MCD, META, MSFT, NFLX, NKE, NOW, NVDA, QCOM, TMUS, TSLA, TXN
 - Knowledge update: candidate only
 
-## Sector tailwind
-
-- Confidence: Low
-- Evidence: Companies in sectors with positive average 1M momentum.
-- Companies: AMZN, BKNG, HD, LOW, MCD, NKE, ORLY, SBUX, TJX, TSLA
-- Knowledge update: candidate only
-

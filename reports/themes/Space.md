@@ -1,44 +1,44 @@
 # Space
 
 - Target companies: 9
-- Average Score: 58.33
-- Average Discovery: 64.00
-- Momentum: 6.58
+- Average Score: 59.11
+- Average Discovery: 66.67
+- Momentum: -1.94
 - Confidence: Medium
 
 ## Companies
 
-- AMAT - Applied Materials, Inc. (Low): Keyword: rocket
-- CMCSA - Comcast Corporation (Medium): Keyword: launch; Sector alignment: Communication Services
-- DIS - The Walt Disney Company (Medium): Keyword: satellite; Keyword: launch; Sector alignment: Communication Services
-- GOOGL - Alphabet Inc. (Medium): Keyword: space; Sector alignment: Communication Services
-- MCD - McDonald's Corporation (Low): Keyword: launch
+- ADBE - Adobe Inc. (Low): Keyword: launch
+- CMCSA - Comcast Corporation (Medium): Keyword: spacex; Sector alignment: Communication Services
+- DIS - The Walt Disney Company (Medium): Keyword: satellite; Sector alignment: Communication Services
+- HD - The Home Depot, Inc. (Low): Keyword: spacex
+- MCD - McDonald's Corporation (Low): Keyword: spacex
+- META - Meta Platforms, Inc. (Medium): Keyword: spacex; Sector alignment: Communication Services
 - NFLX - Netflix, Inc. (Medium): Keyword: launch; Sector alignment: Communication Services
-- QCOM - QUALCOMM Incorporated (Medium): Keyword: space; Keyword: spacex
-- TMUS - T-Mobile US, Inc. (Medium): Keyword: spacex; Sector alignment: Communication Services
-- TSLA - Tesla, Inc. (High): Keyword: space; Keyword: rocket; Keyword: spacex; Keyword: launch
+- TMUS - T-Mobile US, Inc. (Medium): Keyword: satellite; Keyword: spacex; Sector alignment: Communication Services
+- TSLA - Tesla, Inc. (Medium): Keyword: space; Keyword: spacex
 
 ## Market
 
-- Communication Services: score 59.50, momentum -2.31, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Consumer Cyclical: score 56.50, momentum 9.50, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Neutral'}
-- Technology: score 63.50, momentum -7.15, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 60.67, momentum -4.92, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 59.17, momentum -0.59, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 61.25, momentum -18.35, trend {'momentum': 'Risk-Off', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- QCOM: Micron Technology vs. Qualcomm: Which Tech Stock Is the Better Buy for 2027?
-- MCD: 3 Dividend Stocks With Yield Over 2%
-- QCOM: Why Did Texas Instruments Stock Beat NXP Over Five Years?
-- TSLA: Zero To Sixty: Tesla Winds Down Cybertruck, Pulls Model Y Variant While Rivian, Lucid Chase Volumes
-- GOOGL: Booking Holdings vs. GameStop: Which Consumer Stock Is a Better Buy for 2027?
+- TMUS: Starlink Spectrum Approval Could Be A Game Changer For T Mobile Stock
+- TSLA: In 2000, Elon Musk Crashed His Uninsured $1 Million McLaren Trying to Show Peter Thiel What It Could Do. In 2025, Thiel’s Fund Quietly Sold Every Tesla Share It Owned
+- META: Billionaire Bill Ackman’s Top 5 Stocks After Selling Stakes to Open a Brand-New Position
+- META: Bill Ackman’s Top 10 Stocks After Selling Stakes to Open a Brand-New Position
+- NFLX: Bill Ackman’s Top 10 Stocks After Selling Stakes to Open a Brand-New Position
 
 ## Similar Themes
 
-- Energy: 0.995 (Shared companies: AMAT, GOOGL, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
-- Robotics: 0.976 (Shared companies: AMAT, GOOGL, QCOM, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology)
-- Cybersecurity: 0.954 (Shared companies: CMCSA, GOOGL, TMUS; Shared sectors: Communication Services, Technology)
-- Semiconductor: 0.941 (Shared companies: AMAT, GOOGL, QCOM, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar short-term momentum)
-- Healthcare: 0.936 (Shared companies: MCD; Shared sectors: Consumer Cyclical, Technology)
+- Energy: 1.0 (Shared companies: TSLA; Shared sectors: Consumer Cyclical, Technology; Similar short-term momentum)
+- Robotics: 0.998 (Shared companies: TSLA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
+- Semiconductor: 0.998 (Shared companies: CMCSA, META, TMUS; Shared sectors: Communication Services, Technology; Similar average Discovery score)
+- AI: 0.996 (Shared companies: ADBE, DIS, META, NFLX, TMUS; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
+- Healthcare: 0.995 (Shared sectors: Technology; Similar average Discovery score)
 
 ## Review Note
 

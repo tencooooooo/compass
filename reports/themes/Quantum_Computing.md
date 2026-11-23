@@ -1,32 +1,36 @@
 # Quantum Computing
 
-- Target companies: 1
-- Average Score: 72.00
-- Average Discovery: 79.00
-- Momentum: -5.01
+- Target companies: 2
+- Average Score: 67.00
+- Average Discovery: 70.00
+- Momentum: -1.42
 - Confidence: Medium
 
 ## Companies
 
-- AMD - Advanced Micro Devices, Inc. (Medium): Keyword: quantum; Sector alignment: Technology
+- AMZN - Amazon.com, Inc. (Low): Keyword: quantum
+- GOOGL - Alphabet Inc. (Low): Keyword: quantum
 
 ## Market
 
-- Technology: score 63.50, momentum -7.15, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Communication Services: score 60.67, momentum -4.92, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 59.17, momentum -0.59, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
 
 ## Major News
 
-- AMD: Wall Street stocks mostly lower as Nvidia extends slump
-- AMD: Stocks to Watch Recap: Nvidia, AMD, Microsoft
-- AMD: AMD CEO Lisa SU on being named Yahoo Finance CEO of the Year
+- AMZN: Dow Jones Futures: Market Has Worst Week Since Covid Amid Nvidia, Anthropic. Does Fear Gauge Offer Hope?
+- AMZN: Amazon's re:Invent Conference Starts Nov. 30. Here's What the Stock Did in the Month After the Last 10.
+- AMZN: Billionaire Bill Ackman’s Top 5 Stocks After Selling Stakes to Open a Brand-New Position
+- GOOGL: Top 5 Stocks to Buy According to Billionaire George Soros
+- GOOGL: Morgan Stanley sends a strong signal to Google stock investors
 
 ## Similar Themes
 
-- Healthcare: 0.998 (Shared sectors: Technology; Similar average Discovery score)
-- AI: 0.997 (Shared companies: AMD; Shared sectors: Technology; Similar short-term momentum)
-- Semiconductor: 0.997 (Shared companies: AMD; Shared sectors: Technology)
-- Cloud: 0.995 (Shared companies: AMD; Shared sectors: Technology; Similar short-term momentum)
-- Cybersecurity: 0.995 (Shared sectors: Technology)
+- Healthcare: 0.947 (Theme metric similarity)
+- Energy: 0.923 (Shared companies: AMZN; Shared sectors: Consumer Cyclical; Similar average Discovery score; Similar short-term momentum)
+- Space: 0.921 (Shared sectors: Communication Services, Consumer Cyclical; Similar average Discovery score; Similar short-term momentum)
+- Semiconductor: 0.911 (Shared companies: GOOGL; Shared sectors: Communication Services; Similar average Discovery score)
+- Robotics: 0.906 (Shared sectors: Consumer Cyclical; Similar average Discovery score)
 
 ## Review Note
 

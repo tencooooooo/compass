@@ -1,44 +1,43 @@
 # Robotics
 
 - Target companies: 9
-- Average Score: 60.11
-- Average Discovery: 71.00
-- Momentum: -7.52
+- Average Score: 59.89
+- Average Discovery: 67.00
+- Momentum: -15.42
 - Confidence: Medium
 
 ## Companies
 
-- AMAT - Applied Materials, Inc. (Medium): Keyword: automation; Sector alignment: Technology
+- AMAT - Applied Materials, Inc. (High): Keyword: robot; Keyword: autonomous; Keyword: automation; Sector alignment: Technology
 - AVGO - Broadcom Inc. (Medium): Keyword: automation; Sector alignment: Technology
-- CRM - Salesforce, Inc. (Medium): Keyword: autonomous; Keyword: automation; Sector alignment: Technology
-- GOOGL - Alphabet Inc. (Low): Keyword: autonomous
+- CRM - Salesforce, Inc. (Medium): Keyword: autonomous; Sector alignment: Technology
 - NOW - ServiceNow, Inc. (Medium): Keyword: autonomous; Keyword: automation; Sector alignment: Technology
 - NVDA - NVIDIA Corporation (Medium): Keyword: autonomous; Sector alignment: Technology
 - ORCL - Oracle Corporation (Medium): Keyword: autonomous; Sector alignment: Technology
 - QCOM - QUALCOMM Incorporated (Medium): Keyword: robotics; Sector alignment: Technology
-- TSLA - Tesla, Inc. (Medium): Keyword: robotics; Keyword: autonomous; Sector alignment: Consumer Cyclical
+- TSLA - Tesla, Inc. (Medium): Keyword: autonomous; Sector alignment: Consumer Cyclical
+- TXN - Texas Instruments Incorporated (Medium): Keyword: automation; Sector alignment: Technology
 
 ## Market
 
-- Communication Services: score 59.50, momentum -2.31, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
-- Consumer Cyclical: score 56.50, momentum 9.50, trend {'momentum': 'Positive', 'news': 'High', 'financial_health': 'Neutral'}
-- Technology: score 63.50, momentum -7.15, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Good'}
+- Consumer Cyclical: score 59.17, momentum -0.59, trend {'momentum': 'Weak', 'news': 'High', 'financial_health': 'Neutral'}
+- Technology: score 61.25, momentum -18.35, trend {'momentum': 'Risk-Off', 'news': 'High', 'financial_health': 'Good'}
 
 ## Major News
 
-- QCOM: Micron Technology vs. Qualcomm: Which Tech Stock Is the Better Buy for 2027?
-- QCOM: Why Did Texas Instruments Stock Beat NXP Over Five Years?
-- TSLA: Zero To Sixty: Tesla Winds Down Cybertruck, Pulls Model Y Variant While Rivian, Lucid Chase Volumes
-- AVGO: Can You Justify Buying Dynatrace Stock Today?
-- NOW: Can You Justify Buying Dynatrace Stock Today?
+- TSLA: In 2000, Elon Musk Crashed His Uninsured $1 Million McLaren Trying to Show Peter Thiel What It Could Do. In 2025, Thiel’s Fund Quietly Sold Every Tesla Share It Owned
+- TSLA: Has AI's honeymoon ended on Wall Street?
+- TSLA: Zero To Sixty: Tesla Expands Cybercab To Dallas As Waymo Pauses Freeway Operations This Week
+- QCOM: George Soros and 20 Other Big Funds Bought Qualcomm Last Quarter. David Tepper and 14 Others Sold. Who’s Right?
+- AVGO: Data Center AI Chips Could Change the Winners: Broadcom and Marvell
 
 ## Similar Themes
 
-- Cybersecurity: 0.996 (Shared companies: AVGO, CRM, GOOGL, NOW; Shared sectors: Communication Services, Technology; Similar average Discovery score)
-- Energy: 0.993 (Shared companies: AMAT, AVGO, GOOGL, ORCL, TSLA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
-- Semiconductor: 0.992 (Shared companies: AMAT, AVGO, GOOGL, NOW, NVDA; Shared sectors: Communication Services, Consumer Cyclical, Technology; Similar average Discovery score)
-- Healthcare: 0.985 (Shared companies: CRM, NOW; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score; Similar short-term momentum)
-- Quantum Computing: 0.984 (Shared sectors: Technology; Similar short-term momentum)
+- Semiconductor: 1.0 (Shared companies: AMAT, AVGO, NOW, NVDA, QCOM; Shared sectors: Technology; Similar average Discovery score; Similar short-term momentum)
+- AI: 0.999 (Shared companies: AMAT, AVGO, CRM, NOW, NVDA; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
+- Cloud: 0.998 (Shared companies: AVGO, CRM, NOW, NVDA, ORCL; Shared sectors: Consumer Cyclical, Technology; Similar average Discovery score)
+- Cybersecurity: 0.998 (Shared companies: AVGO, NOW, NVDA; Shared sectors: Technology; Similar average Discovery score)
+- Energy: 0.998 (Shared companies: AVGO, TSLA, TXN; Shared sectors: Consumer Cyclical, Technology)
 
 ## Review Note
 

@@ -4,16 +4,16 @@ Theme Intelligence connects market, sector, company, Discovery, and Pattern cont
 
 ## AI
 
-- Target companies: 23
-- Average Score: 61.68
-- Average Discovery: 71.22
-- Market status: Communication Services Weak, Consumer Cyclical Positive, Technology Weak
-- Representative companies: AMD, TXN, MSFT
+- Target companies: 24
+- Average Score: 61.60
+- Average Discovery: 68.30
+- Market status: Communication Services Weak, Consumer Cyclical Weak, Technology Risk-Off
+- Representative companies: TXN, MSFT, AMD
 - Confidence: High
 - Major news:
-  - QCOM: Micron Technology vs. Qualcomm: Which Tech Stock Is the Better Buy for 2027?
-  - MCD: 3 Dividend Stocks With Yield Over 2%
-  - QCOM: Why Did Texas Instruments Stock Beat NXP Over Five Years?
+  - AAPL: Dow Jones Futures: Market Has Worst Week Since Covid Amid Nvidia, Anthropic. Does Fear Gauge Offer Hope?
+  - AMZN: Dow Jones Futures: Market Has Worst Week Since Covid Amid Nvidia, Anthropic. Does Fear Gauge Offer Hope?
+  - AMZN: Amazon's re:Invent Conference Starts Nov. 30. Here's What the Stock Did in the Month After the Last 10.
 
 ## Biotechnology
 
@@ -26,130 +26,130 @@ Theme Intelligence connects market, sector, company, Discovery, and Pattern cont
 
 ## Cloud
 
-- Target companies: 19
-- Average Score: 63.13
-- Average Discovery: 72.00
-- Market status: Communication Services Weak, Consumer Cyclical Positive, Technology Weak
-- Representative companies: AMD, TXN, MSFT
+- Target companies: 16
+- Average Score: 62.75
+- Average Discovery: 69.00
+- Market status: Communication Services Weak, Consumer Cyclical Weak, Technology Risk-Off
+- Representative companies: TXN, MSFT, AMD
 - Confidence: High
 - Major news:
-  - QCOM: Micron Technology vs. Qualcomm: Which Tech Stock Is the Better Buy for 2027?
-  - QCOM: Why Did Texas Instruments Stock Beat NXP Over Five Years?
-  - TXN: Why Did Texas Instruments Stock Beat NXP Over Five Years?
+  - AAPL: Dow Jones Futures: Market Has Worst Week Since Covid Amid Nvidia, Anthropic. Does Fear Gauge Offer Hope?
+  - AMZN: Dow Jones Futures: Market Has Worst Week Since Covid Amid Nvidia, Anthropic. Does Fear Gauge Offer Hope?
+  - AMZN: Amazon's re:Invent Conference Starts Nov. 30. Here's What the Stock Did in the Month After the Last 10.
 
 ## Cybersecurity
 
 - Target companies: 10
-- Average Score: 61.29
-- Average Discovery: 70.67
-- Market status: Communication Services Weak, Technology Weak
-- Representative companies: MSFT, CRM, CMCSA
-- Confidence: High
+- Average Score: 59.43
+- Average Discovery: 70.00
+- Market status: Communication Services Weak, Technology Risk-Off
+- Representative companies: MSFT, AAPL, AVGO
+- Confidence: Medium
 - Major news:
-  - AVGO: Can You Justify Buying Dynatrace Stock Today?
-  - NOW: Can You Justify Buying Dynatrace Stock Today?
-  - GOOGL: Booking Holdings vs. GameStop: Which Consumer Stock Is a Better Buy for 2027?
+  - AAPL: Dow Jones Futures: Market Has Worst Week Since Covid Amid Nvidia, Anthropic. Does Fear Gauge Offer Hope?
+  - GOOGL: Top 5 Stocks to Buy According to Billionaire George Soros
+  - GOOGL: Morgan Stanley sends a strong signal to Google stock investors
 
 ## EV
 
 - Target companies: 4
-- Average Score: 62.00
-- Average Discovery: 78.00
-- Market status: Consumer Cyclical Positive, Technology Weak
+- Average Score: 59.67
+- Average Discovery: 75.00
+- Market status: Consumer Cyclical Weak, Technology Risk-Off
 - Representative companies: TXN, NVDA, TSLA
 - Confidence: Medium
 - Major news:
-  - TXN: Why Did Texas Instruments Stock Beat NXP Over Five Years?
-  - TSLA: Zero To Sixty: Tesla Winds Down Cybertruck, Pulls Model Y Variant While Rivian, Lucid Chase Volumes
-  - TSLA: Nvidia Suffers Biggest Weekly Market Cap  Decline on Record
+  - TSLA: In 2000, Elon Musk Crashed His Uninsured $1 Million McLaren Trying to Show Peter Thiel What It Could Do. In 2025, Thiel’s Fund Quietly Sold Every Tesla Share It Owned
+  - TSLA: Has AI's honeymoon ended on Wall Street?
+  - TSLA: Zero To Sixty: Tesla Expands Cybercab To Dallas As Waymo Pauses Freeway Operations This Week
 
 ## Energy
 
-- Target companies: 9
-- Average Score: 61.86
-- Average Discovery: 72.00
-- Market status: Communication Services Weak, Consumer Cyclical Positive, Technology Weak
-- Representative companies: TXN, AMZN, ORCL
+- Target companies: 7
+- Average Score: 62.00
+- Average Discovery: 72.50
+- Market status: Consumer Cyclical Weak, Technology Risk-Off
+- Representative companies: TXN, AMZN, AVGO
 - Confidence: Medium
 - Major news:
-  - TXN: Why Did Texas Instruments Stock Beat NXP Over Five Years?
-  - AMZN: What It Takes to Get Your Wings Delivered During a Football Game—Fast and Hot
-  - TSLA: Zero To Sixty: Tesla Winds Down Cybertruck, Pulls Model Y Variant While Rivian, Lucid Chase Volumes
+  - AMZN: Dow Jones Futures: Market Has Worst Week Since Covid Amid Nvidia, Anthropic. Does Fear Gauge Offer Hope?
+  - AMZN: Amazon's re:Invent Conference Starts Nov. 30. Here's What the Stock Did in the Month After the Last 10.
+  - TSLA: In 2000, Elon Musk Crashed His Uninsured $1 Million McLaren Trying to Show Peter Thiel What It Could Do. In 2025, Thiel’s Fund Quietly Sold Every Tesla Share It Owned
 
 ## Fintech
 
-- Target companies: 3
-- Average Score: 53.00
-- Average Discovery: N/A
-- Market status: Consumer Cyclical Positive, Technology Weak
-- Representative companies: NVDA, MCD, ACN
+- Target companies: 4
+- Average Score: 57.00
+- Average Discovery: 62.00
+- Market status: Communication Services Weak, Consumer Cyclical Weak, Technology Risk-Off
+- Representative companies: HD, TMUS, NKE
 - Confidence: Medium
 - Major news:
-  - MCD: 3 Dividend Stocks With Yield Over 2%
-  - NVDA: Nvidia's competitors pounce, and what GPU rental prices say about the AI race
-  - NVDA: How the Nvidia scandal impacts US–China relations: Department of Defense CTO
+  - TMUS: Starlink Spectrum Approval Could Be A Game Changer For T Mobile Stock
+  - HD: Shopping Till We Drop
+  - HD: Peter Lynch Made Millions for Investors by Following One Simple Rule
 
 ## Healthcare
 
-- Target companies: 3
-- Average Score: 57.00
-- Average Discovery: 75.00
-- Market status: Consumer Cyclical Positive, Technology Weak
-- Representative companies: CRM, NOW, MCD
+- Target companies: 2
+- Average Score: 58.00
+- Average Discovery: 62.00
+- Market status: Technology Risk-Off
+- Representative companies: CRM, NOW
 - Confidence: Medium
 - Major news:
-  - MCD: 3 Dividend Stocks With Yield Over 2%
-  - NOW: Can You Justify Buying Dynatrace Stock Today?
-  - CRM: This Jim Cramer’s Trust Holding Saw AI Assistant Usage Jump 21-Fold
+  - CRM: Salesforce vs. ServiceNow: Which Technology Stock Is a Better Buy for 2027?
+  - NOW: Salesforce vs. ServiceNow: Which Technology Stock Is a Better Buy for 2027?
+  - CRM: Coatue Management Just Bought 8 Million Shares of Salesforce Stock. Why Investors Should Care.
 
 ## Quantum Computing
 
-- Target companies: 1
-- Average Score: 72.00
-- Average Discovery: 79.00
-- Market status: Technology Weak
-- Representative companies: AMD
+- Target companies: 2
+- Average Score: 67.00
+- Average Discovery: 70.00
+- Market status: Communication Services Weak, Consumer Cyclical Weak
+- Representative companies: AMZN, GOOGL
 - Confidence: Medium
 - Major news:
-  - AMD: Wall Street stocks mostly lower as Nvidia extends slump
-  - AMD: Stocks to Watch Recap: Nvidia, AMD, Microsoft
-  - AMD: AMD CEO Lisa SU on being named Yahoo Finance CEO of the Year
+  - AMZN: Dow Jones Futures: Market Has Worst Week Since Covid Amid Nvidia, Anthropic. Does Fear Gauge Offer Hope?
+  - AMZN: Amazon's re:Invent Conference Starts Nov. 30. Here's What the Stock Did in the Month After the Last 10.
+  - AMZN: Billionaire Bill Ackman’s Top 5 Stocks After Selling Stakes to Open a Brand-New Position
 
 ## Robotics
 
 - Target companies: 9
-- Average Score: 60.11
-- Average Discovery: 71.00
-- Market status: Communication Services Weak, Consumer Cyclical Positive, Technology Weak
-- Representative companies: CRM, QCOM, ORCL
+- Average Score: 59.89
+- Average Discovery: 67.00
+- Market status: Consumer Cyclical Weak, Technology Risk-Off
+- Representative companies: TXN, QCOM, CRM
 - Confidence: Medium
 - Major news:
-  - QCOM: Micron Technology vs. Qualcomm: Which Tech Stock Is the Better Buy for 2027?
-  - QCOM: Why Did Texas Instruments Stock Beat NXP Over Five Years?
-  - TSLA: Zero To Sixty: Tesla Winds Down Cybertruck, Pulls Model Y Variant While Rivian, Lucid Chase Volumes
+  - TSLA: In 2000, Elon Musk Crashed His Uninsured $1 Million McLaren Trying to Show Peter Thiel What It Could Do. In 2025, Thiel’s Fund Quietly Sold Every Tesla Share It Owned
+  - TSLA: Has AI's honeymoon ended on Wall Street?
+  - TSLA: Zero To Sixty: Tesla Expands Cybercab To Dallas As Waymo Pauses Freeway Operations This Week
 
 ## Semiconductor
 
-- Target companies: 14
-- Average Score: 62.17
-- Average Discovery: 72.20
-- Market status: Communication Services Weak, Consumer Cyclical Positive, Technology Weak
-- Representative companies: AMD, TXN, AAPL
+- Target companies: 13
+- Average Score: 60.73
+- Average Discovery: 70.00
+- Market status: Communication Services Weak, Technology Risk-Off
+- Representative companies: TXN, AMD, META
 - Confidence: High
 - Major news:
-  - QCOM: Micron Technology vs. Qualcomm: Which Tech Stock Is the Better Buy for 2027?
-  - QCOM: Why Did Texas Instruments Stock Beat NXP Over Five Years?
-  - TXN: Why Did Texas Instruments Stock Beat NXP Over Five Years?
+  - TMUS: Starlink Spectrum Approval Could Be A Game Changer For T Mobile Stock
+  - META: Billionaire Bill Ackman’s Top 5 Stocks After Selling Stakes to Open a Brand-New Position
+  - META: Bill Ackman’s Top 10 Stocks After Selling Stakes to Open a Brand-New Position
 
 ## Space
 
 - Target companies: 9
-- Average Score: 58.33
-- Average Discovery: 64.00
-- Market status: Communication Services Weak, Consumer Cyclical Positive, Technology Weak
-- Representative companies: QCOM, DIS, CMCSA
+- Average Score: 59.11
+- Average Discovery: 66.67
+- Market status: Communication Services Weak, Consumer Cyclical Weak, Technology Risk-Off
+- Representative companies: META, DIS, HD
 - Confidence: Medium
 - Major news:
-  - QCOM: Micron Technology vs. Qualcomm: Which Tech Stock Is the Better Buy for 2027?
-  - MCD: 3 Dividend Stocks With Yield Over 2%
-  - QCOM: Why Did Texas Instruments Stock Beat NXP Over Five Years?
+  - TMUS: Starlink Spectrum Approval Could Be A Game Changer For T Mobile Stock
+  - TSLA: In 2000, Elon Musk Crashed His Uninsured $1 Million McLaren Trying to Show Peter Thiel What It Could Do. In 2025, Thiel’s Fund Quietly Sold Every Tesla Share It Owned
+  - META: Billionaire Bill Ackman’s Top 5 Stocks After Selling Stakes to Open a Brand-New Position

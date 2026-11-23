@@ -1,12 +1,12 @@
 # Pattern Summary
 
 - Companies analyzed: 36
-- Success patterns: 3
+- Success patterns: 2
 - Failure patterns: 3
 - Sector patterns: 3
-- Market patterns: 1
+- Market patterns: 2
 - Event patterns: 1
-- Discovery history snapshots: 95
+- Discovery history snapshots: 100
 - Time Machine reports: 0
 - Learning history entries: 1
 
@@ -19,7 +19,6 @@ Validation history is still limited. Patterns are candidates for human review, n
 ### Success Patterns
 - High R&D intensity: Medium confidence
 - Positive EPS and FCF: Medium confidence
-- Sector tailwind: Low confidence
 
 ### Failure Patterns
 - News-heavy but weak momentum: Low confidence
@@ -32,6 +31,7 @@ Validation history is still limited. Patterns are candidates for human review, n
 - Technology cluster: Medium confidence
 
 ### Market Patterns
+- Risk-Off sector pressure: Medium confidence
 - Weak sector momentum: Medium confidence
 
 ### Event Patterns
