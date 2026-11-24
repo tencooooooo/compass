@@ -36,4 +36,4 @@ Experiment Engine compares baseline and candidate Compass versions using reprodu
 - Candidate: primary-selection-overextension-guard
 - Status: Completed
 - Winner: Candidate
-- Reason: Candidate wins 4.0 metrics vs baseline 1.0.
+- Reason: Candidate wins 5.0 metrics vs baseline 0.0.
