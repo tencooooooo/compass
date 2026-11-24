@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Netflix, Inc.
-- Total Score: 57 / 100
+- Total Score: 58 / 100
 - Confidence: High
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 57 点を獲得し、シグナル充足率は 57.0% です。
+- データが確認できた 100 点満点のうち 58 点を獲得し、シグナル充足率は 58.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -107,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 16.3960
-- forward_pe: 15.0424
-- peg_ratio: 0.9300
-- price_to_book: 7.9543
+- trailing_pe: 16.3662
+- forward_pe: 15.4134
+- peg_ratio: 0.9100
+- price_to_book: 8.1464
 - sector_peer_count: 10
 - trailing_pe_percentile: 66.6700
 - trailing_pe_peer_count: 10
@@ -123,15 +123,15 @@ Evidence
 
 ## Momentum
 
-5点
+4点
 
 理由
 
-- 1M の対SPY超過リターンは -5.69pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -19.67pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -28.95pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -53.65pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.57 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは -6.81pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは -23.88pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -30.45pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -56.90pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.15 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -140,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: -15.3915
-- 3M: -29.0964
-- 6M: -35.9707
-- 1Y: -48.4273
+- 1M: -11.7692
+- 3M: -29.3445
+- 6M: -33.7363
+- 1Y: -45.0175
 - benchmark: SPY
-- benchmark_returns: {'1M': -9.71, '3M': -9.42, '6M': -7.02, '1Y': 5.22}
-- excess_returns: {'1M': -5.69, '3M': -19.67, '6M': -28.95, '1Y': -53.65}
-- latest_volume: 67,968,000.0000
-- average_volume_30d: 43,203,680.0000
+- benchmark_returns: {'1M': -4.96, '3M': -5.46, '6M': -3.28, '1Y': 11.88}
+- excess_returns: {'1M': -6.81, '3M': -23.88, '6M': -30.45, '1Y': -56.9}
+- latest_volume: 50,671,000.0000
+- average_volume_30d: 44,115,243.3333
 
 ## News
 
-11点
+13点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 5 件、悪材料 1 件(純比率 +0.67)で、センチメントは 6.7 点です。
-- イベント後の平均株価反応が -2.73% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 2 件(純比率 +0.00)で、センチメントは 4.0 点です。
+- イベント後の平均株価反応が 2.41% とプラスです。
 
 Evidence
 
@@ -169,9 +169,9 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 5
-- negative_count: 1
-- sentiment_net_ratio: 0.6700
+- positive_count: 2
+- negative_count: 2
+- sentiment_net_ratio: 0.0000
 - event_count: 10
 - events_with_price_reaction: 6
 

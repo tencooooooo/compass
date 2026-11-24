@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: -10.55%
+- 市場全体の1Mモメンタム平均: -4.87%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,39 +21,39 @@
 
 ### 注目ニュース
 
-- 2026-11-21T02:48:25+00:00 / NVDA / Stocktwits: NVDA Stock Sees Biggest Fall In 22 Months, But Top Analyst Says Nvidia’s AI Boom Isn’t Over Yet — Here Are 5 Reasons Why
-- 2026-11-21T02:29:33+00:00 / NVDA / Motley Fool: Crowd Pleaser….Crowdstrike  Wants to 投資判断表現 Zscaler
-- 2026-11-21T02:19:27+00:00 / AAPL / Investor's Business Daily: Dow Jones Futures: Market Has Worst Week Since Covid Amid Nvidia, Anthropic. Does Fear Gauge Offer Hope?
-- 2026-11-21T02:19:27+00:00 / NVDA / Investor's Business Daily: Dow Jones Futures: Market Has Worst Week Since Covid Amid Nvidia, Anthropic. Does Fear Gauge Offer Hope?
-- 2026-11-21T02:19:27+00:00 / AMZN / Investor's Business Daily: Dow Jones Futures: Market Has Worst Week Since Covid Amid Nvidia, Anthropic. Does Fear Gauge Offer Hope?
+- 2026-11-24T05:26:13+00:00 / NVDA / Simply Wall St.: Luceco And 2 Other British Penny Stocks To Own
+- 2026-11-24T05:12:00+00:00 / NVDA / The Wall Street Journal: JGBs Rise Further Amid Uncertainty Over AI Infrastructure Investments
+- 2026-11-24T05:06:42+00:00 / AAPL / Trefis: The 10-Year Topped 5% For The First Time Since 2007. What Happened Next?
+- 2026-11-24T05:06:42+00:00 / AAPL / Trefis: 1966 Or 1995: Which Way Does America's $2.1 Trillion Deficit Go?
+- 2026-11-24T05:06:42+00:00 / MSFT / Trefis: The 10-Year Topped 5% For The First Time Since 2007. What Happened Next?
 
 ### 注目イベント
 
-- 2026-11-20T19:42:54+00:00 / NVDA: Nvidia stock extends $2.7 trillion rout as SEC probe reportedly investigates its accounting (株価反応: -14.01%, 出来高: 626.37M)
-- 2026-11-20T19:36:47+00:00 / NVDA: Trump on Jensen Huang: 'We're a country of second chances' (株価反応: -14.01%, 出来高: 626.37M)
-- 2026-11-20T18:54:43+00:00 / NVDA: Is today's market showing warning signs of a 2000 bubble? (株価反応: -14.01%, 出来高: 626.37M)
-- 2026-11-20T18:19:15+00:00 / NVDA: Sozzi: Anthropic’s IPO Surges; Is AMD’s Pullback a 投資判断表現? (株価反応: -14.01%, 出来高: 626.37M)
-- 2026-11-20T18:19:15+00:00 / AMD: Sozzi: Anthropic’s IPO Surges; Is AMD’s Pullback a 投資判断表現? (株価反応: -13.25%, 出来高: 69.99M)
+- 2026-11-23T18:30:28+00:00 / AMAT: Why KLA (KLAC) Stock Is Up Today: New Singapore Plant Meets $4.7 Billion Guide (株価反応: 14.62%, 出来高: 12.43M)
+- 2026-11-23T18:18:40+00:00 / AMAT: Billionaire Ray Dalio Is Going All-In on AI and Chip Stocks: Top 5 Holdings (株価反応: 14.62%, 出来高: 12.43M)
+- 2026-11-23T18:01:00+00:00 / AMAT: Why Kulicke & Soffa (KLIC) Stock Is Jumping Today: Chip Rally Follows Nvidia CEO News (株価反応: 14.62%, 出来高: 12.43M)
+- 2026-11-23T18:00:43+00:00 / AMAT: Why Is Lam Research (LRCX) Stock Up Today? Nvidia's CEO News Lifts Chip Stocks (株価反応: 14.62%, 出来高: 12.43M)
+- 2026-11-23T17:54:48+00:00 / AMAT: Applied Materials Stocks Jump 15.37% as Record Guidance Meets the Chip Rebound (株価反応: 14.62%, 出来高: 12.43M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 60.67 | 15.70 | 11.85 | -4.92% | 60 |
-| Consumer Cyclical | 6 | 59.17 | 79.92 | 9.05 | -0.59% | 60 |
-| Technology | 12 | 61.25 | 32.00 | 9.97 | -18.35% | 120 |
+| Communication Services | 6 | 60.17 | 16.05 | 11.88 | -0.22% | 60 |
+| Consumer Cyclical | 6 | 59.33 | 87.44 | 9.13 | 5.05% | 60 |
+| Technology | 12 | 64.75 | 32.94 | 10.66 | -12.15% | 120 |
 
 ## 市場トレンド
 
 | セクター | Momentum | News | Financial Health |
 | --- | --- | --- | --- |
 | Communication Services | Weak | High | Good |
-| Consumer Cyclical | Weak | High | Neutral |
+| Consumer Cyclical | Positive | High | Neutral |
 | Technology | Risk-Off | High | Good |
 
 ## 市場心理
 
-市場はややリスクオフ寄りと考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 240 件で、ポジティブなモメンタムのセクターは 0/3 です。
+市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 240 件で、ポジティブなモメンタムのセクターは 1/3 です。
 
 参照Knowledge: market_psychology.md
 
