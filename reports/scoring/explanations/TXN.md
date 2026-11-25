@@ -5,9 +5,9 @@
 ## Summary
 
 - Company: Texas Instruments Incorporated
-- Total Score: 70 / 100
+- Total Score: 55 / 100
 - Confidence: High
-- Signal Strength: Strong
+- Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
@@ -23,12 +23,12 @@ High
 
 ## Signal Strength
 
-Strong
+Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 70 点を獲得し、シグナル充足率は 70.0% です。
-- シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
+- データが確認できた 100 点満点のうち 55 点を獲得し、シグナル充足率は 55.0% です。
+- シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
 
@@ -90,13 +90,13 @@ Evidence
 
 ## Valuation
 
-6点
+3点
 
 理由
 
 - PER はセクター内 71.43 パーセンタイル / 母数 15 で、中位レンジです。
 - Forward PER はセクター内 80.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
-- PEG はセクター内 63.33 パーセンタイル / 母数 16 で、中位レンジです。
+- PEG はセクター内 100.00 パーセンタイル / 母数 15 で、相対的な加点は抑えています。
 - PBR はセクター内 80.00 パーセンタイル / 母数 16 で、相対的な加点は抑えています。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -107,31 +107,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 34.2174
-- forward_pe: 24.7591
-- peg_ratio: 0.8000
-- price_to_book: 13.8728
+- trailing_pe: 37.7836
+- forward_pe: 21.9745
+- peg_ratio: 45.9200
+- price_to_book: 12.3125
 - sector_peer_count: 16
 - trailing_pe_percentile: 71.4300
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 80.0000
 - forward_pe_peer_count: 16
-- peg_ratio_percentile: 63.3300
-- peg_ratio_peer_count: 16
+- peg_ratio_percentile: 100
+- peg_ratio_peer_count: 15
 - price_to_book_percentile: 80.0000
 - price_to_book_peer_count: 16
 
 ## Momentum
 
-16点
+12点
 
 理由
 
-- 1M の対SPY超過リターンは +7.74pt で、市場並み以上です。
-- 3M の対SPY超過リターンが +17.98pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンは -6.19pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンが +82.16pt と、市場を大きく上回っています。
-- 直近出来高が30日平均の 1.38 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは -6.80pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは +5.15pt で、市場並み以上です。
+- 6M の対SPY超過リターンは -14.04pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンが +55.42pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 1.49 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -140,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: 2.7824
-- 3M: 12.5212
-- 6M: -9.4741
-- 1Y: 94.0477
+- 1M: -12.8869
+- 3M: -0.7902
+- 6M: -17.7725
+- 1Y: 65.6650
 - benchmark: SPY
-- benchmark_returns: {'1M': -4.96, '3M': -5.46, '6M': -3.28, '1Y': 11.88}
-- excess_returns: {'1M': 7.74, '3M': 17.98, '6M': -6.19, '1Y': 82.16}
-- latest_volume: 12,312,900.0000
-- average_volume_30d: 8,909,203.3333
+- benchmark_returns: {'1M': -6.09, '3M': -5.94, '6M': -3.74, '1Y': 10.24}
+- excess_returns: {'1M': -6.8, '3M': 5.15, '6M': -14.04, '1Y': 55.42}
+- latest_volume: 13,679,200.0000
+- average_volume_30d: 9,177,560.0000
 
 ## News
 
-12点
+4点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 4 件(純比率 -0.33)で、センチメントは 2.7 点です。
-- イベント後の平均株価反応が 10.40% とプラスです。
+- ニュース見出し・要約の簡易分類では、好材料 0 件、悪材料 2 件(純比率 -1.00)で、センチメントは 0.0 点です。
+- イベント後の平均株価反応が -11.25% と弱く、注意が必要です。
 
 Evidence
 
@@ -169,11 +169,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 2
-- negative_count: 4
-- sentiment_net_ratio: -0.3300
+- positive_count: 0
+- negative_count: 2
+- sentiment_net_ratio: -1.0000
 - event_count: 10
-- events_with_price_reaction: 10
+- events_with_price_reaction: 8
 
 ## Note
 

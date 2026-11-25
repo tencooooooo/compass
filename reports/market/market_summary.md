@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: -4.87%
+- 市場全体の1Mモメンタム平均: -5.85%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,39 +21,39 @@
 
 ### 注目ニュース
 
-- 2026-11-24T05:26:13+00:00 / NVDA / Simply Wall St.: Luceco And 2 Other British Penny Stocks To Own
-- 2026-11-24T05:12:00+00:00 / NVDA / The Wall Street Journal: JGBs Rise Further Amid Uncertainty Over AI Infrastructure Investments
-- 2026-11-24T05:06:42+00:00 / AAPL / Trefis: The 10-Year Topped 5% For The First Time Since 2007. What Happened Next?
-- 2026-11-24T05:06:42+00:00 / AAPL / Trefis: 1966 Or 1995: Which Way Does America's $2.1 Trillion Deficit Go?
-- 2026-11-24T05:06:42+00:00 / MSFT / Trefis: The 10-Year Topped 5% For The First Time Since 2007. What Happened Next?
+- 2026-11-25T04:33:00+00:00 / NVDA / TheStreet: Jim Cramer resets Nvidia stock target as Jensen Huang returns as CEO
+- 2026-11-25T04:22:39+00:00 / NVDA / Investing.com: Le Monde details suspected Nvidia chip diversion network through Southeast Asia
+- 2026-11-25T04:05:26+00:00 / NVDA / Associated Press: Asian stocks mostly decline as AI shares fall following a retreat on Wall Street
+- 2026-11-25T04:05:25+00:00 / NVDA / Investing.com: Asian stocks slide as AI selloff deepens, U.S. tariff threats weigh on sentiment
+- 2026-11-25T04:04:33+00:00 / NVDA / Investor's Business Daily: Dow Jones Futures Fall; Trump Says 'Not Too Late' For U.S. To Take Nvidia Stake
 
 ### 注目イベント
 
-- 2026-11-23T18:30:28+00:00 / AMAT: Why KLA (KLAC) Stock Is Up Today: New Singapore Plant Meets $4.7 Billion Guide (株価反応: 14.62%, 出来高: 12.43M)
-- 2026-11-23T18:18:40+00:00 / AMAT: Billionaire Ray Dalio Is Going All-In on AI and Chip Stocks: Top 5 Holdings (株価反応: 14.62%, 出来高: 12.43M)
-- 2026-11-23T18:01:00+00:00 / AMAT: Why Kulicke & Soffa (KLIC) Stock Is Jumping Today: Chip Rally Follows Nvidia CEO News (株価反応: 14.62%, 出来高: 12.43M)
-- 2026-11-23T18:00:43+00:00 / AMAT: Why Is Lam Research (LRCX) Stock Up Today? Nvidia's CEO News Lifts Chip Stocks (株価反応: 14.62%, 出来高: 12.43M)
-- 2026-11-23T17:54:48+00:00 / AMAT: Applied Materials Stocks Jump 15.37% as Record Guidance Meets the Chip Rebound (株価反応: 14.62%, 出来高: 12.43M)
+- 2026-11-24T20:46:53+00:00 / TXN: Why Is CEVA (CEVA) Stock Down Today? AI Chip Selloff Drags Shares (株価反応: -11.25%, 出来高: 13.68M)
+- 2026-11-24T20:46:42+00:00 / TXN: Why SiTime (SITM) Stock Is Plunging Today: Chip Sector Selloff (株価反応: -11.25%, 出来高: 13.68M)
+- 2026-11-24T20:31:40+00:00 / TXN: Why Is Vishay (VSH) Stock Down Today? Chip Selloff Drags Semiconductors (株価反応: -11.25%, 出来高: 13.68M)
+- 2026-11-24T17:31:12+00:00 / TXN: Why Is AMD (AMD) Stock Down Today? Hunterbrook Short Report Hits Shares (株価反応: -11.25%, 出来高: 13.68M)
+- 2026-11-24T17:31:09+00:00 / TXN: Why Is Microchip Technology (MCHP) Stock Down Today? Chip Sector Selloff Hits Peers (株価反応: -11.25%, 出来高: 13.68M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 60.17 | 16.05 | 11.88 | -0.22% | 60 |
-| Consumer Cyclical | 6 | 59.33 | 87.44 | 9.13 | 5.05% | 60 |
-| Technology | 12 | 64.75 | 32.94 | 10.66 | -12.15% | 120 |
+| Communication Services | 6 | 59.50 | 16.20 | 11.87 | 2.28% | 60 |
+| Consumer Cyclical | 6 | 58.50 | 87.62 | 9.13 | 5.50% | 60 |
+| Technology | 12 | 61.25 | 33.46 | 9.82 | -15.60% | 120 |
 
 ## 市場トレンド
 
 | セクター | Momentum | News | Financial Health |
 | --- | --- | --- | --- |
-| Communication Services | Weak | High | Good |
+| Communication Services | Positive | High | Good |
 | Consumer Cyclical | Positive | High | Neutral |
 | Technology | Risk-Off | High | Good |
 
 ## 市場心理
 
-市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 240 件で、ポジティブなモメンタムのセクターは 1/3 です。
+市場はややリスクオフ寄りと考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 240 件で、ポジティブなモメンタムのセクターは 2/3 です。
 
 参照Knowledge: market_psychology.md
 

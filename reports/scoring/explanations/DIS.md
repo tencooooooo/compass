@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: The Walt Disney Company
-- Total Score: 65 / 100
+- Total Score: 71 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 65 点を獲得し、シグナル充足率は 65.0% です。
+- データが確認できた 100 点満点のうち 71 点を獲得し、シグナル充足率は 71.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -94,13 +94,13 @@ Evidence
 
 ## Valuation
 
-6点
+11点
 
 理由
 
 - PER はセクター内 88.89 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
 - Forward PER はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
-- PEG はセクター内 88.89 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
+- PEG はセクター内 22.22 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - PBR はセクター内 44.44 パーセンタイル / 母数 10 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -111,31 +111,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 20.9530
-- forward_pe: 14.0474
-- peg_ratio: 3.8000
-- price_to_book: 1.8698
+- trailing_pe: 21.7602
+- forward_pe: 14.3091
+- peg_ratio: 0.5500
+- price_to_book: 1.9046
 - sector_peer_count: 10
 - trailing_pe_percentile: 88.8900
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 55.5600
 - forward_pe_peer_count: 10
-- peg_ratio_percentile: 88.8900
+- peg_ratio_percentile: 22.2200
 - peg_ratio_peer_count: 10
 - price_to_book_percentile: 44.4400
 - price_to_book_peer_count: 10
 
 ## Momentum
 
-18点
+19点
 
 理由
 
-- 1M の対SPY超過リターンが +11.85pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンが +13.57pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +20.63pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは +6.92pt で、市場並み以上です。
-- 直近出来高が30日平均の 1.04 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンが +17.06pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンが +17.69pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +22.23pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは +8.94pt で、市場並み以上です。
+- 直近出来高が30日平均の 1.24 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -144,15 +144,15 @@ Evidence
 
 使用データ
 
-- 1M: 6.8877
-- 3M: 8.1079
-- 6M: 17.3427
-- 1Y: 18.8038
+- 1M: 10.9692
+- 3M: 11.7486
+- 6M: 18.4956
+- 1Y: 19.1829
 - benchmark: SPY
-- benchmark_returns: {'1M': -4.96, '3M': -5.46, '6M': -3.28, '1Y': 11.88}
-- excess_returns: {'1M': 11.85, '3M': 13.57, '6M': 20.63, '1Y': 6.92}
-- latest_volume: 9,698,900.0000
-- average_volume_30d: 9,331,180.0000
+- benchmark_returns: {'1M': -6.09, '3M': -5.94, '6M': -3.74, '1Y': 10.24}
+- excess_returns: {'1M': 17.06, '3M': 17.69, '6M': 22.23, '1Y': 8.94}
+- latest_volume: 11,582,900.0000
+- average_volume_30d: 9,365,006.6667
 
 ## News
 
@@ -161,8 +161,8 @@ Evidence
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 2 件(純比率 +0.00)で、センチメントは 4.0 点です。
-- イベント後の平均株価反応が 1.94% とプラスです。
+- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 1 件(純比率 +0.00)で、センチメントは 4.0 点です。
+- イベント後の平均株価反応が 1.89% とプラスです。
 
 Evidence
 
@@ -173,8 +173,8 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 2
-- negative_count: 2
+- positive_count: 1
+- negative_count: 1
 - sentiment_net_ratio: 0.0000
 - event_count: 10
 - events_with_price_reaction: 8

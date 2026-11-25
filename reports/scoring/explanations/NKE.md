@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: NIKE, Inc.
-- Total Score: 55 / 100
+- Total Score: 60 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 55 点を獲得し、シグナル充足率は 55.0% です。
+- データが確認できた 100 点満点のうち 60 点を獲得し、シグナル充足率は 60.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -94,13 +94,13 @@ Evidence
 
 ## Valuation
 
-13点
+16点
 
 理由
 
 - PER はセクター内 11.11 パーセンタイル / 母数 10 で、相対的に割安寄りです。
-- Forward PER はセクター内 55.56 パーセンタイル / 母数 10 で、中位レンジです。
-- PEG はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
+- Forward PER はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
+- PEG はセクター内 66.67 パーセンタイル / 母数 10 で、中位レンジです。
 - PBR はセクター内 0.00 パーセンタイル / 母数 5 で、相対的に割安寄りです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
@@ -111,31 +111,31 @@ Evidence
 
 使用データ
 
-- trailing_pe: 16.2308
-- forward_pe: 24.2895
-- peg_ratio: 2.8500
-- price_to_book: 3.2895
+- trailing_pe: 17.1875
+- forward_pe: 26.0195
+- peg_ratio: 5.4500
+- price_to_book: 3.4834
 - sector_peer_count: 10
 - trailing_pe_percentile: 11.1100
 - trailing_pe_peer_count: 10
-- forward_pe_percentile: 55.5600
+- forward_pe_percentile: 66.6700
 - forward_pe_peer_count: 10
-- peg_ratio_percentile: 77.7800
+- peg_ratio_percentile: 66.6700
 - peg_ratio_peer_count: 10
 - price_to_book_percentile: 0
 - price_to_book_peer_count: 5
 
 ## Momentum
 
-6点
+8点
 
 理由
 
-- 1M の対SPY超過リターンは -4.53pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは -8.12pt と、市場を小幅に下回っています。
-- 6M の対SPY超過リターンは -20.12pt と、市場を大きく下回っています。
-- 1Y の対SPY超過リターンは -55.12pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.23 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンは +0.39pt で、市場並み以上です。
+- 3M の対SPY超過リターンは -0.44pt と、市場を小幅に下回っています。
+- 6M の対SPY超過リターンは -16.98pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -51.44pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 1.21 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -144,15 +144,15 @@ Evidence
 
 使用データ
 
-- 1M: -9.4906
-- 3M: -13.5812
-- 6M: -23.4014
-- 1Y: -43.2311
+- 1M: -5.6977
+- 3M: -6.3767
+- 6M: -20.7209
+- 1Y: -41.1963
 - benchmark: SPY
-- benchmark_returns: {'1M': -4.96, '3M': -5.46, '6M': -3.28, '1Y': 11.88}
-- excess_returns: {'1M': -4.53, '3M': -8.12, '6M': -20.12, '1Y': -55.12}
-- latest_volume: 31,131,900.0000
-- average_volume_30d: 25,368,056.6667
+- benchmark_returns: {'1M': -6.09, '3M': -5.94, '6M': -3.74, '1Y': 10.24}
+- excess_returns: {'1M': 0.39, '3M': -0.44, '6M': -16.98, '1Y': -51.44}
+- latest_volume: 30,750,300.0000
+- average_volume_30d: 25,387,306.6667
 
 ## News
 
@@ -161,8 +161,8 @@ Evidence
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 3 件(純比率 -0.20)で、センチメントは 3.2 点です。
-- イベント後の平均株価反応が 2.55% とプラスです。
+- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 4 件(純比率 -0.14)で、センチメントは 3.4 点です。
+- イベント後の平均株価反応が 5.89% とプラスです。
 
 Evidence
 
@@ -173,11 +173,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 2
-- negative_count: 3
-- sentiment_net_ratio: -0.2000
+- positive_count: 3
+- negative_count: 4
+- sentiment_net_ratio: -0.1400
 - event_count: 10
-- events_with_price_reaction: 9
+- events_with_price_reaction: 7
 
 ## Note
 
