@@ -6,9 +6,9 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: -5.85%
-- ニュース件数: 240
-- Event数: 240
+- 市場全体の1Mモメンタム平均: -6.06%
+- ニュース件数: 239
+- Event数: 239
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
 
 ### セクター構成
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-11-25T04:33:00+00:00 / NVDA / TheStreet: Jim Cramer resets Nvidia stock target as Jensen Huang returns as CEO
-- 2026-11-25T04:22:39+00:00 / NVDA / Investing.com: Le Monde details suspected Nvidia chip diversion network through Southeast Asia
-- 2026-11-25T04:05:26+00:00 / NVDA / Associated Press: Asian stocks mostly decline as AI shares fall following a retreat on Wall Street
-- 2026-11-25T04:05:25+00:00 / NVDA / Investing.com: Asian stocks slide as AI selloff deepens, U.S. tariff threats weigh on sentiment
-- 2026-11-25T04:04:33+00:00 / NVDA / Investor's Business Daily: Dow Jones Futures Fall; Trump Says 'Not Too Late' For U.S. To Take Nvidia Stake
+- 2026-11-26T03:44:40+00:00 / AAPL / Stocktwits: Michael Burry Says He’s Shorting The Market’s ‘Generals’ As Apple Flashes A Warning Last Seen In 2002
+- 2026-11-26T03:44:40+00:00 / NVDA / Stocktwits: Michael Burry Says He’s Shorting The Market’s ‘Generals’ As Apple Flashes A Warning Last Seen In 2002
+- 2026-11-26T03:39:36+00:00 / AAPL / Investor's Business Daily: Dow Jones Futures Rise; Market Goes On Wild Ride As Nasdaq Slashes Losses
+- 2026-11-26T03:39:36+00:00 / NVDA / Investor's Business Daily: Dow Jones Futures Rise; Market Goes On Wild Ride As Nasdaq Slashes Losses
+- 2026-11-26T03:35:24+00:00 / DIS / Stocktwits: DIS Stock Breaks Above $125 For First Time Since 2022: Disney Retail Bulls Are Talking About A ‘Santa Claus Rally’
 
 ### 注目イベント
 
 - 2026-11-24T20:46:53+00:00 / TXN: Why Is CEVA (CEVA) Stock Down Today? AI Chip Selloff Drags Shares (株価反応: -11.25%, 出来高: 13.68M)
-- 2026-11-24T20:46:42+00:00 / TXN: Why SiTime (SITM) Stock Is Plunging Today: Chip Sector Selloff (株価反応: -11.25%, 出来高: 13.68M)
-- 2026-11-24T20:31:40+00:00 / TXN: Why Is Vishay (VSH) Stock Down Today? Chip Selloff Drags Semiconductors (株価反応: -11.25%, 出来高: 13.68M)
-- 2026-11-24T17:31:12+00:00 / TXN: Why Is AMD (AMD) Stock Down Today? Hunterbrook Short Report Hits Shares (株価反応: -11.25%, 出来高: 13.68M)
-- 2026-11-24T17:31:09+00:00 / TXN: Why Is Microchip Technology (MCHP) Stock Down Today? Chip Sector Selloff Hits Peers (株価反応: -11.25%, 出来高: 13.68M)
+- 2026-11-25T20:40:12+00:00 / ORCL: Why Oracle Stock Slumped Today (株価反応: -5.13%, 出来高: 38.32M)
+- 2026-11-25T19:15:01+00:00 / ORCL: Why Alphabet Stock Is Down Today (株価反応: -5.13%, 出来高: 38.32M)
+- 2026-11-25T19:05:02+00:00 / ORCL: Why SpaceX Stock Is Down Today (株価反応: -5.13%, 出来高: 38.32M)
+- 2026-11-25T18:53:02+00:00 / ORCL: Why Nvidia Stock Is Falling Again (株価反応: -5.13%, 出来高: 38.32M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 59.50 | 16.20 | 11.87 | 2.28% | 60 |
-| Consumer Cyclical | 6 | 58.50 | 87.62 | 9.13 | 5.50% | 60 |
-| Technology | 12 | 61.25 | 33.46 | 9.82 | -15.60% | 120 |
+| Communication Services | 6 | 62.00 | 16.41 | 11.86 | 4.06% | 59 |
+| Consumer Cyclical | 6 | 58.17 | 87.03 | 9.08 | 5.57% | 60 |
+| Technology | 12 | 62.17 | 32.68 | 9.97 | -16.94% | 120 |
 
 ## 市場トレンド
 
@@ -53,7 +53,7 @@
 
 ## 市場心理
 
-市場はややリスクオフ寄りと考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 240 件で、ポジティブなモメンタムのセクターは 2/3 です。
+市場はややリスクオフ寄りと考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 239 件で、ポジティブなモメンタムのセクターは 2/3 です。
 
 参照Knowledge: market_psychology.md
 

@@ -107,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 66.0000
-- forward_pe: 19.0919
-- peg_ratio: 1.4000
-- price_to_book: 7.2706
+- trailing_pe: 66.3022
+- forward_pe: 19.1908
+- peg_ratio: 1.4600
+- price_to_book: 7.3039
 - sector_peer_count: 16
 - trailing_pe_percentile: 92.8600
 - trailing_pe_peer_count: 15
@@ -123,15 +123,15 @@ Evidence
 
 ## Momentum
 
-2点
+3点
 
 理由
 
-- 1M の対SPY超過リターンは -35.92pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -21.13pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンは -6.43pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンは -53.85pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.67 倍で、市場関心はやや弱めです。
+- 1M の対SPY超過リターンは -33.58pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -26.60pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは -10.70pt と、市場を大きく下回っています。
+- 1Y の対SPY超過リターンは -51.85pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.81 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -140,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: -42.0028
-- 3M: -27.0747
-- 6M: -10.1645
-- 1Y: -43.6092
+- 1M: -40.4574
+- 3M: -33.4248
+- 6M: -15.2396
+- 1Y: -43.5183
 - benchmark: SPY
-- benchmark_returns: {'1M': -6.09, '3M': -5.94, '6M': -3.74, '1Y': 10.24}
-- excess_returns: {'1M': -35.92, '3M': -21.13, '6M': -6.43, '1Y': -53.85}
-- latest_volume: 12,682,700.0000
-- average_volume_30d: 18,942,910.0000
+- benchmark_returns: {'1M': -6.88, '3M': -6.82, '6M': -4.54, '1Y': 8.33}
+- excess_returns: {'1M': -33.58, '3M': -26.6, '6M': -10.7, '1Y': -51.85}
+- latest_volume: 15,479,100.0000
+- average_volume_30d: 19,013,556.6667
 
 ## News
 
-13点
+12点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 1 件(純比率 +0.60)で、センチメントは 6.4 点です。
-- イベント後の平均株価反応が 0.54% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 1 件(純比率 +0.33)で、センチメントは 5.3 点です。
+- イベント後の平均株価反応が 0.28% と中立圏です。
 
 Evidence
 
@@ -169,11 +169,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 4
+- positive_count: 2
 - negative_count: 1
-- sentiment_net_ratio: 0.6000
+- sentiment_net_ratio: 0.3300
 - event_count: 10
-- events_with_price_reaction: 9
+- events_with_price_reaction: 10
 
 ## Note
 

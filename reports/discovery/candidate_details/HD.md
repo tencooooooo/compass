@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-62 / 100
+69 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 12/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 13/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで +16.83pt と、市場を大きく上回っています。
-- 3Mモメンタムは対SPYで +12.35pt と、市場を大きく上回っています。
-- 6Mモメンタムは対SPYで +16.67pt と、市場を大きく上回っています。
-- 1Yモメンタムは対SPYで -4.31pt と、市場を小幅に下回っています。
+- 1Mモメンタムは対SPYで +20.31pt と、市場を大きく上回っています。
+- 3Mモメンタムは対SPYで +17.57pt と、市場を大きく上回っています。
+- 6Mモメンタムは対SPYで +18.69pt と、市場を大きく上回っています。
+- 1Yモメンタムは対SPYで +2.04pt と、市場並み以上です。
 
 ## Strengths
 
@@ -33,7 +33,6 @@
 ## Watch Points
 
 - バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。
-- 注意材料になり得るニュース表現が 2 件あります。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Consumer Cyclical セクター全体の需要変化と競争環境を確認する必要があります。
@@ -46,7 +45,7 @@ Medium
 
 ## Signal Strength
 
-Moderate(シグナル充足率: 63.76%)
+Strong(シグナル充足率: 71.44%)
 
 ## Evidence
 
@@ -65,20 +64,20 @@ Moderate(シグナル充足率: 63.76%)
 
 ## Metrics
 
-- scoring_total: 59.0
-- signal_earned_points: 61.85
+- scoring_total: 67.0
+- signal_earned_points: 69.3
 - signal_max_points: 97.0
 - weak_signals: []
-- scoring_signal_strength: Moderate
+- scoring_signal_strength: Strong
 - growth_score: 12.0
 - financial_health_score: 13.0
 - valuation_score: 6.0
-- news_score: 12.0
-- momentum: {'1m': 10.742688031200586, '3m': 6.404789967919863, '6m': 12.936575436867773, '1y': 5.937916472427126}
+- news_score: 17.0
+- momentum: {'1m': 13.425434777276296, '3m': 10.745944404596038, '6m': 14.147102995238955, '1y': 10.372114597925936}
 - benchmark: SPY
-- excess_momentum: {'1m': 16.83, '3m': 12.35, '6m': 16.67, '1y': -4.31}
-- positive_news: 1
-- watch_news: 2
+- excess_momentum: {'1m': 20.31, '3m': 17.57, '6m': 18.69, '1y': 2.04}
+- positive_news: 2
+- watch_news: 0
 - event_count: 10
-- events_with_reaction: 9
-- sector_average_score: 58.5
+- events_with_reaction: 10
+- sector_average_score: 58.166666666666664

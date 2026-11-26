@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Lowe's Companies, Inc.
-- Total Score: 58 / 100
+- Total Score: 55 / 100
 - Confidence: Medium
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 58 点を獲得し、シグナル充足率は 58.0% です。
+- データが確認できた 100 点満点のうち 55 点を獲得し、シグナル充足率は 55.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -36,8 +36,8 @@ Moderate
 
 理由
 
-- revenue_growth(直近4四半期平均) は 5.84% で、プラス成長を維持しています。
-- eps_growth(直近4四半期平均) は -0.49% で、前年同期比ではマイナスです。
+- revenue_growth(直近4四半期平均) は 7.78% で、プラス成長を維持しています。
+- eps_growth(直近4四半期平均) は -0.22% で、前年同期比ではマイナスです。
 - 純利益 がプラスで確認できるため加点しています。
 - 営業利益 がプラスで確認できるため加点しています。
 - 研究開発費が取得できないため、R&D項目は加点していません。
@@ -55,12 +55,12 @@ Evidence
 - net_income: 6,654,000,000.0000
 - operating_income: 10,153,000,000.0000
 - research_and_development: N/A
-- revenue_yoy_growth: 8.3400
-- eps_yoy_growth: 0.0000
-- revenue_yoy_growth_avg: 5.8400
-- eps_yoy_growth_avg: -0.4900
-- revenue_growth_quarters: ['2026-Q3', '2026-Q2', '2025-Q4', '2025-Q3']
-- eps_growth_quarters: ['2026-Q3', '2026-Q2', '2025-Q4', '2025-Q3']
+- revenue_yoy_growth: 9.3400
+- eps_yoy_growth: 3.4700
+- revenue_yoy_growth_avg: 7.7800
+- eps_yoy_growth_avg: -0.2200
+- revenue_growth_quarters: ['2026-Q4', '2026-Q3', '2026-Q2', '2025-Q4']
+- eps_growth_quarters: ['2026-Q4', '2026-Q3', '2026-Q2', '2025-Q4']
 
 欠損・計算不可
 
@@ -93,14 +93,14 @@ Evidence
 
 ## Valuation
 
-10点
+8点
 
 理由
 
-- PER はセクター内 22.22 パーセンタイル / 母数 10 で、相対的に割安寄りです。
+- PER はセクター内 33.33 パーセンタイル / 母数 10 で、中位レンジです。
 - Forward PER はセクター内 11.11 パーセンタイル / 母数 10 で、相対的に割安寄りです。
 - PEG はセクター内 77.78 パーセンタイル / 母数 10 で、相対的な加点は抑えています。
-- PBR は -20.23 で、指標がマイナスのため加点対象外です。
+- PBR は -20.63 で、指標がマイナスのため加点対象外です。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -110,12 +110,12 @@ Evidence
 
 使用データ
 
-- trailing_pe: 18.9688
-- forward_pe: 18.0956
-- peg_ratio: 29.2900
-- price_to_book: -20.2276
+- trailing_pe: 19.7693
+- forward_pe: 18.5068
+- peg_ratio: 29.9900
+- price_to_book: -20.6312
 - sector_peer_count: 10
-- trailing_pe_percentile: 22.2200
+- trailing_pe_percentile: 33.3300
 - trailing_pe_peer_count: 10
 - forward_pe_percentile: 11.1100
 - forward_pe_peer_count: 10
@@ -130,11 +130,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンが +22.64pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンが +16.47pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +11.62pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -9.46pt と、市場を小幅に下回っています。
-- 直近出来高が30日平均の 0.82 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンが +25.79pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンが +21.53pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +14.04pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -3.05pt と、市場を小幅に下回っています。
+- 直近出来高が30日平均の 0.87 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -143,25 +143,25 @@ Evidence
 
 使用データ
 
-- 1M: 16.5574
-- 3M: 10.5267
-- 6M: 7.8864
-- 1Y: 0.7809
+- 1M: 18.9071
+- 3M: 14.7060
+- 6M: 9.4937
+- 1Y: 5.2766
 - benchmark: SPY
-- benchmark_returns: {'1M': -6.09, '3M': -5.94, '6M': -3.74, '1Y': 10.24}
-- excess_returns: {'1M': 22.64, '3M': 16.47, '6M': 11.62, '1Y': -9.46}
-- latest_volume: 2,912,700.0000
-- average_volume_30d: 3,540,276.6667
+- benchmark_returns: {'1M': -6.88, '3M': -6.82, '6M': -4.54, '1Y': 8.33}
+- excess_returns: {'1M': 25.79, '3M': 21.53, '6M': 14.04, '1Y': -3.05}
+- latest_volume: 3,099,000.0000
+- average_volume_30d: 3,555,313.3333
 
 ## News
 
-15点
+14点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。
-- イベント後の平均株価反応が 2.35% とプラスです。
+- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 1 件(純比率 +0.33)で、センチメントは 5.3 点です。
+- イベント後の平均株価反応が 2.15% とプラスです。
 
 Evidence
 
@@ -172,11 +172,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 3
+- positive_count: 2
 - negative_count: 1
-- sentiment_net_ratio: 0.5000
+- sentiment_net_ratio: 0.3300
 - event_count: 10
-- events_with_price_reaction: 9
+- events_with_price_reaction: 10
 
 ## Note
 

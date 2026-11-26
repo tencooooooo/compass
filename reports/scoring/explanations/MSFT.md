@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Microsoft Corporation
-- Total Score: 75 / 100
+- Total Score: 69 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 75 点を獲得し、シグナル充足率は 75.0% です。
+- データが確認できた 100 点満点のうち 69 点を獲得し、シグナル充足率は 69.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -94,10 +94,10 @@ Evidence
 
 理由
 
-- PER はセクター内 57.14 パーセンタイル / 母数 15 で、中位レンジです。
+- PER はセクター内 64.29 パーセンタイル / 母数 15 で、中位レンジです。
 - Forward PER はセクター内 73.33 パーセンタイル / 母数 16 で、中位レンジです。
 - PEG はセクター内 50.00 パーセンタイル / 母数 15 で、中位レンジです。
-- PBR はセクター内 60.00 パーセンタイル / 母数 16 で、中位レンジです。
+- PBR はセクター内 53.33 パーセンタイル / 母数 16 で、中位レンジです。
 - バリュエーションは割安判断ではなく、追加調査のための相対評価です。
 
 Evidence
@@ -107,18 +107,18 @@ Evidence
 
 使用データ
 
-- trailing_pe: 25.8941
-- forward_pe: 20.4981
-- peg_ratio: 1.5400
-- price_to_book: 7.8314
+- trailing_pe: 25.5705
+- forward_pe: 20.2443
+- peg_ratio: 1.5600
+- price_to_book: 7.7336
 - sector_peer_count: 16
-- trailing_pe_percentile: 57.1400
+- trailing_pe_percentile: 64.2900
 - trailing_pe_peer_count: 15
 - forward_pe_percentile: 73.3300
 - forward_pe_peer_count: 16
 - peg_ratio_percentile: 50.0000
 - peg_ratio_peer_count: 15
-- price_to_book_percentile: 60.0000
+- price_to_book_percentile: 53.3300
 - price_to_book_peer_count: 16
 
 ## Momentum
@@ -127,11 +127,11 @@ Evidence
 
 理由
 
-- 1M の対SPY超過リターンは -0.58pt と、市場を小幅に下回っています。
-- 3M の対SPY超過リターンは +6.09pt で、市場並み以上です。
-- 6M の対SPY超過リターンが +24.42pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -4.29pt と、市場を小幅に下回っています。
-- 直近出来高が30日平均の 0.86 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -0.73pt と、市場を小幅に下回っています。
+- 3M の対SPY超過リターンは +4.02pt で、市場並み以上です。
+- 6M の対SPY超過リターンが +19.72pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンは -4.11pt と、市場を小幅に下回っています。
+- 直近出来高が30日平均の 0.99 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -140,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: -6.6676
-- 3M: 0.1447
-- 6M: 20.6834
-- 1Y: 5.9565
+- 1M: -7.6136
+- 3M: -2.8083
+- 6M: 15.1785
+- 1Y: 4.2174
 - benchmark: SPY
-- benchmark_returns: {'1M': -6.09, '3M': -5.94, '6M': -3.74, '1Y': 10.24}
-- excess_returns: {'1M': -0.58, '3M': 6.09, '6M': 24.42, '1Y': -4.29}
-- latest_volume: 23,086,900.0000
-- average_volume_30d: 26,880,676.6667
+- benchmark_returns: {'1M': -6.88, '3M': -6.82, '6M': -4.54, '1Y': 8.33}
+- excess_returns: {'1M': -0.73, '3M': 4.02, '6M': 19.72, '1Y': -4.11}
+- latest_volume: 26,733,600.0000
+- average_volume_30d: 27,028,240.0000
 
 ## News
 
-13点
+7点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。
-- イベント後の平均株価反応が 0.74% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 0 件、悪材料 3 件(純比率 -1.00)で、センチメントは 0.0 点です。
+- イベント後の平均株価反応が -0.85% と中立圏です。
 
 Evidence
 
@@ -169,11 +169,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 3
-- negative_count: 1
-- sentiment_net_ratio: 0.5000
+- positive_count: 0
+- negative_count: 3
+- sentiment_net_ratio: -1.0000
 - event_count: 10
-- events_with_price_reaction: 2
+- events_with_price_reaction: 5
 
 ## Note
 

@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: The Walt Disney Company
-- Total Score: 71 / 100
+- Total Score: 72 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 71 点を獲得し、シグナル充足率は 71.0% です。
+- データが確認できた 100 点満点のうち 72 点を獲得し、シグナル充足率は 72.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -111,10 +111,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 21.7602
-- forward_pe: 14.3091
+- trailing_pe: 22.3091
+- forward_pe: 14.6520
 - peg_ratio: 0.5500
-- price_to_book: 1.9046
+- price_to_book: 1.9526
 - sector_peer_count: 10
 - trailing_pe_percentile: 88.8900
 - trailing_pe_peer_count: 10
@@ -127,15 +127,15 @@ Evidence
 
 ## Momentum
 
-19点
+20点
 
 理由
 
-- 1M の対SPY超過リターンが +17.06pt と、市場を大きく上回っています。
-- 3M の対SPY超過リターンが +17.69pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンが +22.23pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは +8.94pt で、市場並み以上です。
-- 直近出来高が30日平均の 1.24 倍で、市場関心の高まりが確認できます。
+- 1M の対SPY超過リターンが +20.82pt と、市場を大きく上回っています。
+- 3M の対SPY超過リターンが +24.41pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンが +26.55pt と、市場を大きく上回っています。
+- 1Y の対SPY超過リターンが +16.66pt と、市場を大きく上回っています。
+- 直近出来高が30日平均の 1.70 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -144,15 +144,15 @@ Evidence
 
 使用データ
 
-- 1M: 10.9692
-- 3M: 11.7486
-- 6M: 18.4956
-- 1Y: 19.1829
+- 1M: 13.9436
+- 3M: 17.5810
+- 6M: 22.0114
+- 1Y: 24.9938
 - benchmark: SPY
-- benchmark_returns: {'1M': -6.09, '3M': -5.94, '6M': -3.74, '1Y': 10.24}
-- excess_returns: {'1M': 17.06, '3M': 17.69, '6M': 22.23, '1Y': 8.94}
-- latest_volume: 11,582,900.0000
-- average_volume_30d: 9,365,006.6667
+- benchmark_returns: {'1M': -6.88, '3M': -6.82, '6M': -4.54, '1Y': 8.33}
+- excess_returns: {'1M': 20.82, '3M': 24.41, '6M': 26.55, '1Y': 16.66}
+- latest_volume: 16,344,400.0000
+- average_volume_30d: 9,633,940.0000
 
 ## News
 
@@ -162,7 +162,7 @@ Evidence
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
 - ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 1 件(純比率 +0.00)で、センチメントは 4.0 点です。
-- イベント後の平均株価反応が 1.89% とプラスです。
+- イベント後の平均株価反応が 2.23% とプラスです。
 
 Evidence
 
@@ -177,7 +177,7 @@ Evidence
 - negative_count: 1
 - sentiment_net_ratio: 0.0000
 - event_count: 10
-- events_with_price_reaction: 8
+- events_with_price_reaction: 9
 
 ## Note
 

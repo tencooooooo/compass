@@ -10,20 +10,20 @@
 
 ## Discovery Score
 
-71 / 100
+76 / 100
 
 ## Discovery Reasons
 
 - Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 20/20 で、継続調査に必要な財務基盤を評価しています。
-- Newsスコアが 9/20 で、材料の量と市場関心を候補評価に反映しています。
+- Newsスコアが 11/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで -2.05pt と、市場を小幅に下回っています。
-- 3Mモメンタムは対SPYで +10.38pt と、市場を大きく上回っています。
-- 6Mモメンタムは対SPYで +1.04pt と、市場並み以上です。
+- 1Mモメンタムは対SPYで +5.22pt と、市場並み以上です。
+- 3Mモメンタムは対SPYで +13.70pt と、市場を大きく上回っています。
+- 6Mモメンタムは対SPYで +0.71pt と、市場並み以上です。
 
 ## Strengths
 
@@ -34,8 +34,7 @@
 ## Watch Points
 
 - バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。
-- 注意材料になり得るニュース表現が 4 件あります。
-- Communication ServicesのセクターモメンタムはWeakで、短期環境は慎重に見る必要があります。
+- 注意材料になり得るニュース表現が 3 件あります。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Communication Services セクター全体の需要変化と競争環境を確認する必要があります。
@@ -48,7 +47,7 @@ High
 
 ## Signal Strength
 
-Strong(シグナル充足率: 71.35%)
+Strong(シグナル充足率: 75.7%)
 
 ## Evidence
 
@@ -67,20 +66,20 @@ Strong(シグナル充足率: 71.35%)
 
 ## Metrics
 
-- scoring_total: 65.0
-- signal_earned_points: 71.35
+- scoring_total: 67.0
+- signal_earned_points: 75.7
 - signal_max_points: 100.0
 - weak_signals: []
 - scoring_signal_strength: Strong
 - growth_score: 20.0
 - financial_health_score: 20.0
-- valuation_score: 5.0
-- news_score: 9.0
-- momentum: {'1m': -7.005698526862707, '3m': 4.915640610376783, '6m': -2.2396243379560548, '1y': 1.7783364286202852}
+- valuation_score: 3.0
+- news_score: 11.0
+- momentum: {'1m': -1.66077939863951, '3m': 6.876447065802181, '6m': -3.833360296409702, '1y': -0.17799744581956745}
 - benchmark: SPY
-- excess_momentum: {'1m': -2.05, '3m': 10.38, '6m': 1.04, '1y': -10.11}
-- positive_news: 0
-- watch_news: 4
-- event_count: 10
-- events_with_reaction: 2
-- sector_average_score: 60.166666666666664
+- excess_momentum: {'1m': 5.22, '3m': 13.7, '6m': 0.71, '1y': -8.51}
+- positive_news: 1
+- watch_news: 3
+- event_count: 9
+- events_with_reaction: 6
+- sector_average_score: 62.0
