@@ -176,7 +176,7 @@ Evidence
 - negative_count: 0
 - sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 10
+- events_with_price_reaction: 7
 
 ## Note
 

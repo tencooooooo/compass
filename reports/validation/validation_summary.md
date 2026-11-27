@@ -4,11 +4,11 @@
 
 ## Overview
 
-- 生成日時: 2026-11-25T22:52:18.056709-05:00
+- 生成日時: 2026-11-26T22:53:34.500777-05:00
 - 対象期間: 1w, 1m, 3m, 6m, 1y
-- 検証対象数: 4440
+- 検証対象数: 4505
 - 期間完了済み: 1873
-- 期間未完了: 2567
+- 期間未完了: 2632
 - ベンチマーク: SPY
 - 平均騰落率(期間完了分): 0.06%
 - ユニーク銘柄数(期間完了分): 20
@@ -21,7 +21,7 @@
 - Good: 191
 - Neutral: 221
 - Poor: 816
-- Pending(期間未完了): 2567
+- Pending(期間未完了): 2632
 
 ## Validation Table
 
@@ -4467,6 +4467,71 @@
 | TXN | 1y | 76 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
 | TXN | 3m | 76 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
 | TXN | 6m | 76 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| AAPL | 1m | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AAPL | 1w | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AAPL | 1y | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AAPL | 3m | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AAPL | 6m | 68 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| ADBE | 1m | 67 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| ADBE | 1w | 67 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| ADBE | 1y | 67 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| ADBE | 3m | 67 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| ADBE | 6m | 67 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| AMD | 1m | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMD | 1w | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMD | 1y | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMD | 3m | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMD | 6m | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMZN | 1m | 64 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMZN | 1w | 64 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMZN | 1y | 64 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMZN | 3m | 64 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| AMZN | 6m | 64 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| CMCSA | 1m | 61 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Moderate |
+| CMCSA | 1w | 61 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Moderate |
+| CMCSA | 1y | 61 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Moderate |
+| CMCSA | 3m | 61 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Moderate |
+| CMCSA | 6m | 61 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Moderate |
+| CRM | 1m | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| CRM | 1w | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| CRM | 1y | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| CRM | 3m | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| CRM | 6m | 71 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| DIS | 1m | 82 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| DIS | 1w | 82 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| DIS | 1y | 82 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| DIS | 3m | 82 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| DIS | 6m | 82 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| HD | 1m | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| HD | 1w | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| HD | 1y | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| HD | 3m | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| HD | 6m | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 1m | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 1w | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 1y | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 3m | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| META | 6m | 69 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 1m | 73 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 1w | 73 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 1y | 73 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 3m | 73 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| MSFT | 6m | 73 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Strong |
+| NVDA | 1m | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Moderate |
+| NVDA | 1w | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Moderate |
+| NVDA | 1y | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Moderate |
+| NVDA | 3m | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Moderate |
+| NVDA | 6m | 60 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | Medium | Moderate |
+| QCOM | 1m | 73 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| QCOM | 1w | 73 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| QCOM | 1y | 73 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| QCOM | 3m | 73 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| QCOM | 6m | 73 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| TXN | 1m | 77 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| TXN | 1w | 77 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| TXN | 1y | 77 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| TXN | 3m | 77 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
+| TXN | 6m | 77 | 0.00% | 0.00% | 0.00% | 0.00% | Neutral | No | High | Strong |
 
 ## 良かった特徴
 

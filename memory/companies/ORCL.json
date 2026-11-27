@@ -13,14 +13,14 @@
     "beta": 1.778,
     "trailing_pe": 16.282131,
     "forward_pe": 9.393415,
-    "peg_ratio": 2.52,
+    "peg_ratio": 2.83,
     "price_to_book": 5.0811973,
     "eps": 6.38,
     "forward_eps": 11.05881,
-    "dividend_yield": 1.83,
+    "dividend_yield": 1.93,
     "52_week_high": 250.25,
     "52_week_low": 99.34,
-    "average_volume": 34492732,
+    "average_volume": 34806254,
     "employees": 141000,
     "website": "https://www.oracle.com",
     "business_summary": "Oracle Corporation offers products and services that build, run and support enterprise information technology frameworks worldwide. Its Oracle cloud software as a service offering includes various cloud software applications, including Oracle Fusion cloud enterprise resource planning ERP, Oracle Fusion cloud enterprise performance management EPM, Oracle Fusion cloud supply chain and manufacturing management SCM, Oracle Fusion cloud human capital management HCM, and NetSuite applications suite, Oracle Health applications, as well as Oracle Fusion Sales, Service, and Marketing. The company also offers cloud-based industry solutions for various industries; Oracle cloud license and on-premise license; and Oracle license support services. In addition, it provides cloud and license business' infrastructure technologies, such as the Oracle Database and MySQL Database; Java, a software development language; and middleware, including development tools and others. The company's cloud and license business' infrastructure technologies also comprise cloud-based compute, storage, and networking capabilities; and Oracle autonomous database, as well as AI, Internet-of-Things, machine learning, digital assistant, and blockchain. Further, it provides hardware products and other hardware-related software offerings, including Oracle engineered systems, enterprise servers, storage solutions, industry-specific hardware, virtualization software, operating systems, management software, and related hardware support services, and consulting and advanced customer services. It markets and sells its cloud, license, hardware, support, and services offerings directly to businesses in various industries, government agencies, and educational institutions, as well as through indirect channels. Oracle Corporation has a strategic alliance with Metron, Inc. The company was founded in 1977 and is headquartered in Austin, Texas."
@@ -2089,29 +2089,54 @@
         "scoring": "Moderate",
         "discovery": "Moderate"
       }
+    },
+    {
+      "date": "2026-11-26",
+      "timestamp": "2026-11-26T22:54:14.601877-05:00",
+      "score": 61,
+      "discovery_score": 53,
+      "discovery_status": "Not Selected",
+      "validation_results": {
+        "Excellent": 2,
+        "Good": 1,
+        "Neutral": 1,
+        "Poor": 14,
+        "Pending": 37
+      },
+      "event_count": 10,
+      "news_count": 10,
+      "confidence": {
+        "scoring": "Medium",
+        "discovery": "Medium"
+      },
+      "signal_strength": {
+        "scoring": "Moderate",
+        "discovery": "Moderate"
+      }
     }
   ],
   "Scores": {
     "ticker": "ORCL",
     "company_name": "Oracle Corporation",
-    "total_score": 59,
+    "total_score": 61,
     "max_score": 100,
     "confidence": {
-      "level": "High",
-      "completeness_score": 100,
+      "level": "Medium",
+      "completeness_score": 95.0,
       "reasons": [
         "利用可能な主要データ領域は5領域中 5 領域です。",
-        "欠損または計算不可の項目数は 0 件です。",
-        "主要データが比較的そろっており、説明可能性は高めです。",
+        "欠損または計算不可の項目数は 1 件です。",
+        "主要データは一定程度ありますが、欠損や未取得項目が残っています。",
+        "イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。",
         "Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。"
       ]
     },
     "signal_strength": {
       "level": "Moderate",
-      "signal_rate": 59.0,
+      "signal_rate": 61.0,
       "evaluated_max_score": 100,
       "reasons": [
-        "データが確認できた 100 点満点のうち 59 点を獲得し、シグナル充足率は 59.0% です。",
+        "データが確認できた 100 点満点のうち 61 点を獲得し、シグナル充足率は 61.0% です。",
         "シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。"
       ]
     },
@@ -2182,10 +2207,10 @@
         }
       },
       "Valuation": {
-        "score": 16,
+        "score": 14,
         "max_score": 20,
         "reasons": [
-          "PER はセクター内 21.43 パーセンタイル / 母数 15 で、相対的に割安寄りです。",
+          "PER はセクター内 28.57 パーセンタイル / 母数 15 で、中位レンジです。",
           "Forward PER はセクター内 20.00 パーセンタイル / 母数 16 で、相対的に割安寄りです。",
           "PEG はセクター内 71.43 パーセンタイル / 母数 15 で、中位レンジです。",
           "PBR はセクター内 26.67 パーセンタイル / 母数 16 で、中位レンジです。",
@@ -2199,10 +2224,10 @@
         "metrics": {
           "trailing_pe": 16.282131,
           "forward_pe": 9.393415,
-          "peg_ratio": 2.52,
+          "peg_ratio": 2.83,
           "price_to_book": 5.0811973,
           "sector_peer_count": 16,
-          "trailing_pe_percentile": 21.43,
+          "trailing_pe_percentile": 28.57,
           "trailing_pe_peer_count": 15,
           "forward_pe_percentile": 20.0,
           "forward_pe_peer_count": 16,
@@ -2245,31 +2270,33 @@
             "6M": -44.1,
             "1Y": -55.77
           },
-          "latest_volume": 38324600.0,
-          "average_volume_30d": 38099230.0
+          "latest_volume": 38491500.0,
+          "average_volume_30d": 38104793.333333336
         }
       },
       "News": {
-        "score": 8,
+        "score": 12,
         "max_score": 20,
         "reasons": [
           "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-          "ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 1 件(純比率 +0.00)で、センチメントは 4.0 点です。",
-          "イベント後の平均株価反応が -5.13% と弱く、注意が必要です。"
+          "ニュース見出し・要約の簡易分類では、好材料 7 件、悪材料 1 件(純比率 +0.75)で、センチメントは 7.0 点です。",
+          "イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。"
         ],
         "evidence": [
           "News",
           "Events",
           "Knowledge"
         ],
-        "missing_data": [],
+        "missing_data": [
+          "event_price_reaction"
+        ],
         "metrics": {
           "news_count": 10,
-          "positive_count": 1,
+          "positive_count": 7,
           "negative_count": 1,
-          "sentiment_net_ratio": 0.0,
+          "sentiment_net_ratio": 0.75,
           "event_count": 10,
-          "events_with_price_reaction": 5
+          "events_with_price_reaction": 0
         }
       }
     },
@@ -2287,13 +2314,13 @@
     "company": "Oracle Corporation",
     "sector": "Technology",
     "industry": "Software - Infrastructure",
-    "discovery_score": 51,
+    "discovery_score": 53,
     "max_score": 100,
     "status": "Not Selected",
     "discovery_reasons": [
       "Scoring EngineのGrowthが 19/20 で、成長性の基礎条件が確認できます。",
       "Financial Healthが 13/20 で、継続調査に必要な財務基盤を評価しています。",
-      "Newsスコアが 8/20 で、材料の量と市場関心を候補評価に反映しています。",
+      "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
       "売上が取得でき、事業規模の確認ができます。",
       "EPSがプラスで、利益を伴う成長候補として確認できます。",
       "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -2309,7 +2336,7 @@
     ],
     "watch_points": [
       "注意材料になり得るニュース表現が 1 件あります。",
-      "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+      "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
       "TechnologyのセクターモメンタムはRisk-Offで、短期環境は慎重に見る必要があります。",
       "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
       "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -2317,9 +2344,9 @@
       "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
       "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
     ],
-    "confidence": "High",
+    "confidence": "Medium",
     "signal_strength": "Moderate",
-    "signal_rate": 50.55,
+    "signal_rate": 55.37,
     "evidence": [
       "Company",
       "Events",
@@ -2330,19 +2357,21 @@
       "Prices",
       "Scoring"
     ],
-    "missing_data": [],
+    "missing_data": [
+      "event_price_reaction"
+    ],
     "metrics": {
-      "scoring_total": 59.0,
-      "signal_earned_points": 50.55,
-      "signal_max_points": 100.0,
+      "scoring_total": 61.0,
+      "signal_earned_points": 52.6,
+      "signal_max_points": 95.0,
       "weak_signals": [
         "free_cash_flow"
       ],
       "scoring_signal_strength": "Moderate",
       "growth_score": 19.0,
       "financial_health_score": 13.0,
-      "valuation_score": 16.0,
-      "news_score": 8.0,
+      "valuation_score": 14.0,
+      "news_score": 12.0,
       "momentum": {
         "1m": -20.41676379001532,
         "3m": -31.37804852972247,
@@ -2356,17 +2385,17 @@
         "6m": -44.1,
         "1y": -55.77
       },
-      "positive_news": 1,
+      "positive_news": 7,
       "watch_news": 1,
       "event_count": 10,
-      "events_with_reaction": 5,
-      "sector_average_score": 62.166666666666664
+      "events_with_reaction": 0,
+      "sector_average_score": 64.83333333333333
     }
   },
   "Validation": [
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2425,7 +2454,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2484,7 +2513,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2543,7 +2572,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2602,7 +2631,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2661,7 +2690,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2721,7 +2750,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2781,7 +2810,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2841,7 +2870,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -2901,7 +2930,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3256,7 +3285,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3316,7 +3345,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3376,7 +3405,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3436,7 +3465,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3496,7 +3525,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3556,7 +3585,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3616,7 +3645,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3676,7 +3705,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3736,7 +3765,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3796,7 +3825,7 @@
     },
     {
       "discovery_date": "2026-09-03",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3856,7 +3885,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3916,7 +3945,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -3976,7 +4005,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4036,7 +4065,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4096,7 +4125,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4156,7 +4185,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4216,7 +4245,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4276,7 +4305,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4336,7 +4365,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4396,7 +4425,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4456,7 +4485,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4516,7 +4545,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4576,7 +4605,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4636,7 +4665,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4696,7 +4725,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4756,7 +4785,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4816,7 +4845,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4876,7 +4905,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4936,7 +4965,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -4996,7 +5025,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -5056,7 +5085,7 @@
     },
     {
       "discovery_date": "2026-11-18",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -5117,7 +5146,7 @@
     },
     {
       "discovery_date": "2026-11-18",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -5178,7 +5207,7 @@
     },
     {
       "discovery_date": "2026-11-18",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -5239,7 +5268,7 @@
     },
     {
       "discovery_date": "2026-11-18",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -5300,7 +5329,7 @@
     },
     {
       "discovery_date": "2026-11-18",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "ORCL",
       "company": "Oracle Corporation",
@@ -5664,11 +5693,11 @@
     "count": 10,
     "latest": [
       {
-        "event_id": "ORCL_2cfa86efebebb15d",
+        "event_id": "ORCL_cd3a088e9d7efe9b",
         "ticker": "ORCL",
-        "published_at": "2026-11-26T02:15:00+00:00",
-        "title": "Is Oracle the First AI Casualty as It Sheds 70% of Its Value?",
-        "url": "https://beincrypto.com/oracle-stock-falls-70-ai-debt/",
+        "published_at": "2026-11-27T01:26:25+00:00",
+        "title": "Wondering Why Oracle Fell? Here's What The Bears Saw",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wondering-why-oracle-fell-heres-012625677.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -5676,11 +5705,11 @@
         "volume": null
       },
       {
-        "event_id": "ORCL_55d0a57b76e45bc4",
+        "event_id": "ORCL_b67f7f02b873358d",
         "ticker": "ORCL",
-        "published_at": "2026-11-26T01:19:53+00:00",
-        "title": "Tech Stocks Stall Into Thanksgiving: Will the AI Rebound Return?",
-        "url": "https://beincrypto.com/tech-stocks-stall-thanksgiving-nvidia-rebound/",
+        "published_at": "2026-11-26T21:52:43+00:00",
+        "title": "‘Room to Spare,’ Says Investor About Oracle Stock",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/room-spare-says-investor-oracle-215243159.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -5688,11 +5717,11 @@
         "volume": null
       },
       {
-        "event_id": "ORCL_c761c453b787e5d1",
+        "event_id": "ORCL_10763a0fb095597f",
         "ticker": "ORCL",
-        "published_at": "2026-11-25T21:48:00+00:00",
-        "title": "Wall Street Can’t Seem to Find Its Footing in the Chaos of the New AI Trade",
-        "url": "https://www.wsj.com/finance/stocks/wall-street-cant-seem-to-find-its-footing-in-the-chaos-of-the-new-ai-trade-b64564e0?siteid=yhoof2&yptr=yahoo",
+        "published_at": "2026-11-26T21:36:32+00:00",
+        "title": "Fleeing Stocks at 63, She Parks $700,000 of Her 401(k) in a Corporate Bond Fund for Safety. As Banks Dump Data Center Loans, a 5% Slide in Her “Safe” Fund Would Cost Her $35,000",
+        "url": "https://247wallst.com/personal-finance/2026/11/26/fleeing-stocks-at-63-she-parks-700000-of-her-401k-in-a-corporate-bond-fund-for-safety-as-banks-dump-data-center-loans-a-5-slide-in-her-safe-fund-would-cost-her-35000/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -5700,11 +5729,11 @@
         "volume": null
       },
       {
-        "event_id": "ORCL_9e02b61551cda292",
+        "event_id": "ORCL_67ba340db5e2d0c1",
         "ticker": "ORCL",
-        "published_at": "2026-11-25T21:47:17+00:00",
-        "title": "Stocks to Watch Recap: Nvidia, Anthropic, Dell",
-        "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-25-2026/card/stocks-to-watch-nvidia-anthropic-dell-wt2HkwvR171Ilamwyc6E?siteid=yhoof2&yptr=yahoo",
+        "published_at": "2026-11-26T18:26:01+00:00",
+        "title": "Alphabet Stocks Slip 2.13% as Credit Swaps Hit Record Amid $9.1 Billion Cash Burn",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-slip-2-13-182601811.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -5712,11 +5741,11 @@
         "volume": null
       },
       {
-        "event_id": "ORCL_8441beea5f41a108",
+        "event_id": "ORCL_8df66cc9d156dbd5",
         "ticker": "ORCL",
-        "published_at": "2026-11-25T21:46:00+00:00",
-        "title": "Oracle Bonds Yield a Towering 9% on Debt and Data-Center Concerns. Are They a Buy?",
-        "url": "https://www.barrons.com/articles/oracle-bonds-yield-stock-ai-data-center-496f7d6b?siteid=yhoof2&yptr=yahoo",
+        "published_at": "2026-11-26T17:18:42+00:00",
+        "title": "Oracle Stocks Sink 5.13% to 52-Week Low as Default Swaps Hit Record",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-sink-5-13-171842760.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -5724,68 +5753,188 @@
         "volume": null
       },
       {
-        "event_id": "ORCL_983fce508cfa3e3c",
+        "event_id": "ORCL_de5e652be8fbcfcc",
         "ticker": "ORCL",
-        "published_at": "2026-11-25T20:40:12+00:00",
-        "title": "Why Oracle Stock Slumped Today",
-        "url": "https://www.fool.com/investing/2026/11/25/why-oracle-stock-slumped-today/",
+        "published_at": "2026-11-26T16:27:22+00:00",
+        "title": "Oracle Stock Dipped Under $100 as Banks Try to Unload Its Data-Center Loans",
+        "url": "https://247wallst.com/investing/2026/11/26/oracle-stock-dipped-under-100-as-banks-try-to-unload-its-data-center-loans/",
         "source": "STORY",
-        "close_price": 103.87999725341795,
-        "previous_close": 109.5,
-        "price_change_percent": -5.132422599618306,
-        "volume": 38324600.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "ORCL_f8afcaa474585bdc",
+        "event_id": "ORCL_b7bc98f4a6d0f7d5",
         "ticker": "ORCL",
-        "published_at": "2026-11-25T19:15:01+00:00",
-        "title": "Why Alphabet Stock Is Down Today",
-        "url": "https://www.fool.com/investing/2026/11/25/why-alphabet-stock-is-down-today/",
+        "published_at": "2026-11-26T16:14:00+00:00",
+        "title": "Cerebras Expands AI Inference Reach: Can It Challenge NVDA & AMD?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/cerebras-expands-ai-inference-reach-161400247.html",
         "source": "STORY",
-        "close_price": 103.87999725341795,
-        "previous_close": 109.5,
-        "price_change_percent": -5.132422599618306,
-        "volume": 38324600.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "ORCL_074aa6f33486505c",
+        "event_id": "ORCL_911446b2633fc439",
         "ticker": "ORCL",
-        "published_at": "2026-11-25T19:05:02+00:00",
-        "title": "Why SpaceX Stock Is Down Today",
-        "url": "https://www.fool.com/investing/2026/11/25/why-spacex-stock-is-down-today/",
+        "published_at": "2026-11-26T13:53:39+00:00",
+        "title": "Jim Cramer Says Micron Stock Is “Comically Cheap” at About 3 Times Earnings",
+        "url": "https://247wallst.com/investing/2026/11/26/jim-cramer-says-micron-stock-is-comically-cheap-at-about-3-times-earnings/",
         "source": "STORY",
-        "close_price": 103.87999725341795,
-        "previous_close": 109.5,
-        "price_change_percent": -5.132422599618306,
-        "volume": 38324600.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "ORCL_a3ca926c7cde944c",
+        "event_id": "ORCL_847485fa16350dca",
         "ticker": "ORCL",
-        "published_at": "2026-11-25T18:53:02+00:00",
-        "title": "Why Nvidia Stock Is Falling Again",
-        "url": "https://www.fool.com/investing/2026/11/25/why-nvidia-stock-is-falling-again/",
+        "published_at": "2026-11-26T13:50:19+00:00",
+        "title": "Oracle Is Down 47% in 2026. Is There Really a “Reasonable Chance Oracle Goes Bankrupt”?",
+        "url": "https://www.tikr.com/blog/oracle-is-down-47-in-2026-is-there-really-a-reasonable-chance-oracle-goes-bankrupt?ref=yahoofinance&tlnk=yf-261126-97j6xfvm",
         "source": "STORY",
-        "close_price": 103.87999725341795,
-        "previous_close": 109.5,
-        "price_change_percent": -5.132422599618306,
-        "volume": 38324600.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "ORCL_3d7648e264928bda",
+        "event_id": "ORCL_46a494fea30d5664",
         "ticker": "ORCL",
-        "published_at": "2026-11-25T18:15:13+00:00",
-        "title": "Amdocs (DOX) Stock Is Up 4.6% Today Without Company News",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/amdocs-dox-stock-4-6-181513799.html",
+        "published_at": "2026-11-26T13:41:00+00:00",
+        "title": "How Will Oracle's Heavy AI Spending Shape the Stock's Cash Flow Trend?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracles-heavy-ai-spending-shape-134100910.html",
         "source": "STORY",
-        "close_price": 103.87999725341795,
-        "previous_close": 109.5,
-        "price_change_percent": -5.132422599618306,
-        "volume": 38324600.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       }
     ],
-    "history_count": 461,
+    "history_count": 471,
     "history": [
+      {
+        "event_id": "ORCL_cd3a088e9d7efe9b",
+        "ticker": "ORCL",
+        "published_at": "2026-11-27T01:26:25+00:00",
+        "title": "Wondering Why Oracle Fell? Here's What The Bears Saw",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wondering-why-oracle-fell-heres-012625677.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_b67f7f02b873358d",
+        "ticker": "ORCL",
+        "published_at": "2026-11-26T21:52:43+00:00",
+        "title": "‘Room to Spare,’ Says Investor About Oracle Stock",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/room-spare-says-investor-oracle-215243159.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_10763a0fb095597f",
+        "ticker": "ORCL",
+        "published_at": "2026-11-26T21:36:32+00:00",
+        "title": "Fleeing Stocks at 63, She Parks $700,000 of Her 401(k) in a Corporate Bond Fund for Safety. As Banks Dump Data Center Loans, a 5% Slide in Her “Safe” Fund Would Cost Her $35,000",
+        "url": "https://247wallst.com/personal-finance/2026/11/26/fleeing-stocks-at-63-she-parks-700000-of-her-401k-in-a-corporate-bond-fund-for-safety-as-banks-dump-data-center-loans-a-5-slide-in-her-safe-fund-would-cost-her-35000/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_67ba340db5e2d0c1",
+        "ticker": "ORCL",
+        "published_at": "2026-11-26T18:26:01+00:00",
+        "title": "Alphabet Stocks Slip 2.13% as Credit Swaps Hit Record Amid $9.1 Billion Cash Burn",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-slip-2-13-182601811.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_8df66cc9d156dbd5",
+        "ticker": "ORCL",
+        "published_at": "2026-11-26T17:18:42+00:00",
+        "title": "Oracle Stocks Sink 5.13% to 52-Week Low as Default Swaps Hit Record",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-sink-5-13-171842760.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_de5e652be8fbcfcc",
+        "ticker": "ORCL",
+        "published_at": "2026-11-26T16:27:22+00:00",
+        "title": "Oracle Stock Dipped Under $100 as Banks Try to Unload Its Data-Center Loans",
+        "url": "https://247wallst.com/investing/2026/11/26/oracle-stock-dipped-under-100-as-banks-try-to-unload-its-data-center-loans/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_b7bc98f4a6d0f7d5",
+        "ticker": "ORCL",
+        "published_at": "2026-11-26T16:14:00+00:00",
+        "title": "Cerebras Expands AI Inference Reach: Can It Challenge NVDA & AMD?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/cerebras-expands-ai-inference-reach-161400247.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_911446b2633fc439",
+        "ticker": "ORCL",
+        "published_at": "2026-11-26T13:53:39+00:00",
+        "title": "Jim Cramer Says Micron Stock Is “Comically Cheap” at About 3 Times Earnings",
+        "url": "https://247wallst.com/investing/2026/11/26/jim-cramer-says-micron-stock-is-comically-cheap-at-about-3-times-earnings/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_847485fa16350dca",
+        "ticker": "ORCL",
+        "published_at": "2026-11-26T13:50:19+00:00",
+        "title": "Oracle Is Down 47% in 2026. Is There Really a “Reasonable Chance Oracle Goes Bankrupt”?",
+        "url": "https://www.tikr.com/blog/oracle-is-down-47-in-2026-is-there-really-a-reasonable-chance-oracle-goes-bankrupt?ref=yahoofinance&tlnk=yf-261126-97j6xfvm",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "ORCL_46a494fea30d5664",
+        "ticker": "ORCL",
+        "published_at": "2026-11-26T13:41:00+00:00",
+        "title": "How Will Oracle's Heavy AI Spending Shape the Stock's Cash Flow Trend?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracles-heavy-ai-spending-shape-134100910.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
       {
         "event_id": "ORCL_2cfa86efebebb15d",
         "ticker": "ORCL",
@@ -11325,117 +11474,227 @@
     "latest": [
       {
         "ticker": "ORCL",
-        "title": "Is Oracle the First AI Casualty as It Sheds 70% of Its Value?",
-        "summary": "Oracle stock has fallen about 70% from its peak as AI debt mounts. See what the $664B backlog and credit signals show.",
-        "published_at": "2026-11-26T02:15:00+00:00",
-        "publisher": "BeInCrypto",
-        "url": "https://beincrypto.com/oracle-stock-falls-70-ai-debt/",
+        "title": "Wondering Why Oracle Fell? Here's What The Bears Saw",
+        "summary": "Oracle’s AI-fueled cloud story looked powerful on paper, with analysts arguing over whether the upside or the downside case was too conservative. Holding Oracle over the past year would have meant a 48.6% loss, including dividends. If you had chosen to buy on 25 November 2025, what clues were already in view about debt, capital needs, and customer concentration before that drop played out? A Narrative on Simply Wall St is one investor's written case for a company, with its growth, margin and...",
+        "published_at": "2026-11-27T01:26:25+00:00",
+        "publisher": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wondering-why-oracle-fell-heres-012625677.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "ORCL",
-        "title": "Tech Stocks Stall Into Thanksgiving: Will the AI Rebound Return?",
-        "summary": "Tech stocks stall into Thanksgiving as Nvidia slips 4% and inflation fears return, leaving AI-linked shares under pressure.",
-        "published_at": "2026-11-26T01:19:53+00:00",
-        "publisher": "BeInCrypto",
-        "url": "https://beincrypto.com/tech-stocks-stall-thanksgiving-nvidia-rebound/",
+        "title": "‘Room to Spare,’ Says Investor About Oracle Stock",
+        "summary": "For most of this year, the big question around Oracle (NYSE:ORCL) was whether it could pay for its data center ambitions. The company now says it can. In a Nov. 20 statement, it said all the funding for its OpenAI contract is in place. That message, along with Jensen Huang’s reinstatement at Nvidia, sent the stock sharply higher on Monday. The rally didn’t last. A broad AI selloff on Tuesday and Wednesday wiped out the gains, and Oracle goes into the Thanksgiving break close to the 52-week low i",
+        "published_at": "2026-11-26T21:52:43+00:00",
+        "publisher": "TipRanks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/room-spare-says-investor-oracle-215243159.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "ORCL",
-        "title": "Wall Street Can’t Seem to Find Its Footing in the Chaos of the New AI Trade",
-        "summary": "The Nasdaq composite plunged as much as 4.5% Wednesday before paring losses.",
-        "published_at": "2026-11-25T21:48:00+00:00",
-        "publisher": "The Wall Street Journal",
-        "url": "https://www.wsj.com/finance/stocks/wall-street-cant-seem-to-find-its-footing-in-the-chaos-of-the-new-ai-trade-b64564e0?siteid=yhoof2&yptr=yahoo",
+        "title": "Fleeing Stocks at 63, She Parks $700,000 of Her 401(k) in a Corporate Bond Fund for Safety. As Banks Dump Data Center Loans, a 5% Slide in Her “Safe” Fund Would Cost Her $35,000",
+        "summary": "She fled stocks for what looked like the safest corner of her 401(k), but the bonds inside that fund belong to the same companies bankrolling the AI boom. Lenders are already getting nervous, and her Medicare bill could pay the price.",
+        "published_at": "2026-11-26T21:36:32+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/personal-finance/2026/11/26/fleeing-stocks-at-63-she-parks-700000-of-her-401k-in-a-corporate-bond-fund-for-safety-as-banks-dump-data-center-loans-a-5-slide-in-her-safe-fund-would-cost-her-35000/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "ORCL",
-        "title": "Stocks to Watch Recap: Nvidia, Anthropic, Dell",
-        "summary": "↘️ Nvidia (NVDA): The glow of Jensen Huang’s surprise return continued to fade, as investors turned to gnawing concerns around the AI build-out.",
-        "published_at": "2026-11-25T21:47:17+00:00",
-        "publisher": "The Wall Street Journal",
-        "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-25-2026/card/stocks-to-watch-nvidia-anthropic-dell-wt2HkwvR171Ilamwyc6E?siteid=yhoof2&yptr=yahoo",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "ORCL",
-        "title": "Oracle Bonds Yield a Towering 9% on Debt and Data-Center Concerns. Are They a Buy?",
-        "summary": "The lofty yields could offer good value to fixed-income investors.",
-        "published_at": "2026-11-25T21:46:00+00:00",
-        "publisher": "Barrons.com",
-        "url": "https://www.barrons.com/articles/oracle-bonds-yield-stock-ai-data-center-496f7d6b?siteid=yhoof2&yptr=yahoo",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "ORCL",
-        "title": "Why Oracle Stock Slumped Today",
-        "summary": "There are growing doubts about the balance sheets of weaker players in the hyperscaler market.",
-        "published_at": "2026-11-25T20:40:12+00:00",
-        "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/11/25/why-oracle-stock-slumped-today/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "ORCL",
-        "title": "Why Alphabet Stock Is Down Today",
-        "summary": "It's never cost more to insure Alphabet's debt.",
-        "published_at": "2026-11-25T19:15:01+00:00",
-        "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/11/25/why-alphabet-stock-is-down-today/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "ORCL",
-        "title": "Why SpaceX Stock Is Down Today",
-        "summary": "SpaceX's debt is getting expensive to insure.",
-        "published_at": "2026-11-25T19:05:02+00:00",
-        "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/11/25/why-spacex-stock-is-down-today/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "ORCL",
-        "title": "Why Nvidia Stock Is Falling Again",
-        "summary": "The cost of insuring debt across the AI trade just hit record highs.",
-        "published_at": "2026-11-25T18:53:02+00:00",
-        "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/11/25/why-nvidia-stock-is-falling-again/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "ORCL",
-        "title": "Amdocs (DOX) Stock Is Up 4.6% Today Without Company News",
-        "summary": "Amdocs shares rose 4.6% on Wednesday, Nov. 25, without company-specific news, while the S&P 500 and software stocks fell.",
-        "published_at": "2026-11-25T18:15:13+00:00",
+        "title": "Alphabet Stocks Slip 2.13% as Credit Swaps Hit Record Amid $9.1 Billion Cash Burn",
+        "summary": "Five-year default swaps reached a record as third-quarter capex of $51.4 billion pushed free cash flow below zero.",
+        "published_at": "2026-11-26T18:26:01+00:00",
         "publisher": "GuruFocus.com",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/amdocs-dox-stock-4-6-181513799.html",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-slip-2-13-182601811.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Oracle Stocks Sink 5.13% to 52-Week Low as Default Swaps Hit Record",
+        "summary": "Five-year protection on Oracle debt reached 360 basis points as investors question how a $664 billion backlog gets funded.",
+        "published_at": "2026-11-26T17:18:42+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-sink-5-13-171842760.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Oracle Stock Dipped Under $100 as Banks Try to Unload Its Data-Center Loans",
+        "summary": "Oracle's backlog is huge and the demand is real, yet lenders are quietly accepting steep discounts on the debt behind its data centers. What does the bond market see that the analysts' bullish targets don't?",
+        "published_at": "2026-11-26T16:27:22+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/26/oracle-stock-dipped-under-100-as-banks-try-to-unload-its-data-center-loans/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Cerebras Expands AI Inference Reach: Can It Challenge NVDA & AMD?",
+        "summary": "CBRS is ramping up its AI inference capabilities with hyperscaler partnerships, wafer-scale innovations, and expanding capacity to challenge NVIDIA and Advanced Micro Devices.",
+        "published_at": "2026-11-26T16:14:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/technology/ai/articles/cerebras-expands-ai-inference-reach-161400247.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Jim Cramer Says Micron Stock Is “Comically Cheap” at About 3 Times Earnings",
+        "summary": "Micron just posted the most profitable year in its history, yet the stock has shed a third of its value in a month. Memory's long record of boom and bust may explain why investors refuse to pay up.",
+        "published_at": "2026-11-26T13:53:39+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/26/jim-cramer-says-micron-stock-is-comically-cheap-at-about-3-times-earnings/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Oracle Is Down 47% in 2026. Is There Really a “Reasonable Chance Oracle Goes Bankrupt”?",
+        "summary": "Key TakeawaysOracle stock is down 47% in 2026 and hit a fresh 52-week low as the cost of insuring its debt against default reached a record. The same AI credit fears have hit CoreWeave, whose debt insurance also hit a record, and Nvidia, which sells both companies their chips.",
+        "published_at": "2026-11-26T13:50:19+00:00",
+        "publisher": "TIKR",
+        "url": "https://www.tikr.com/blog/oracle-is-down-47-in-2026-is-there-really-a-reasonable-chance-oracle-goes-bankrupt?ref=yahoofinance&tlnk=yf-261126-97j6xfvm",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "How Will Oracle's Heavy AI Spending Shape the Stock's Cash Flow Trend?",
+        "summary": "ORCL's aggressive AI infrastructure spending is weighing on free cash flow, but rising cloud demand and easing capital expenditures could drive a turnaround.",
+        "published_at": "2026-11-26T13:41:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracles-heavy-ai-spending-shape-134100910.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       }
     ],
-    "history_count": 460,
+    "history_count": 470,
     "history": [
+      {
+        "ticker": "ORCL",
+        "title": "Wondering Why Oracle Fell? Here's What The Bears Saw",
+        "summary": "Oracle’s AI-fueled cloud story looked powerful on paper, with analysts arguing over whether the upside or the downside case was too conservative. Holding Oracle over the past year would have meant a 48.6% loss, including dividends. If you had chosen to buy on 25 November 2025, what clues were already in view about debt, capital needs, and customer concentration before that drop played out? A Narrative on Simply Wall St is one investor's written case for a company, with its growth, margin and...",
+        "published_at": "2026-11-27T01:26:25+00:00",
+        "publisher": "Simply Wall St.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wondering-why-oracle-fell-heres-012625677.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "‘Room to Spare,’ Says Investor About Oracle Stock",
+        "summary": "For most of this year, the big question around Oracle (NYSE:ORCL) was whether it could pay for its data center ambitions. The company now says it can. In a Nov. 20 statement, it said all the funding for its OpenAI contract is in place. That message, along with Jensen Huang’s reinstatement at Nvidia, sent the stock sharply higher on Monday. The rally didn’t last. A broad AI selloff on Tuesday and Wednesday wiped out the gains, and Oracle goes into the Thanksgiving break close to the 52-week low i",
+        "published_at": "2026-11-26T21:52:43+00:00",
+        "publisher": "TipRanks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/room-spare-says-investor-oracle-215243159.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Fleeing Stocks at 63, She Parks $700,000 of Her 401(k) in a Corporate Bond Fund for Safety. As Banks Dump Data Center Loans, a 5% Slide in Her “Safe” Fund Would Cost Her $35,000",
+        "summary": "She fled stocks for what looked like the safest corner of her 401(k), but the bonds inside that fund belong to the same companies bankrolling the AI boom. Lenders are already getting nervous, and her Medicare bill could pay the price.",
+        "published_at": "2026-11-26T21:36:32+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/personal-finance/2026/11/26/fleeing-stocks-at-63-she-parks-700000-of-her-401k-in-a-corporate-bond-fund-for-safety-as-banks-dump-data-center-loans-a-5-slide-in-her-safe-fund-would-cost-her-35000/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Alphabet Stocks Slip 2.13% as Credit Swaps Hit Record Amid $9.1 Billion Cash Burn",
+        "summary": "Five-year default swaps reached a record as third-quarter capex of $51.4 billion pushed free cash flow below zero.",
+        "published_at": "2026-11-26T18:26:01+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-slip-2-13-182601811.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Oracle Stocks Sink 5.13% to 52-Week Low as Default Swaps Hit Record",
+        "summary": "Five-year protection on Oracle debt reached 360 basis points as investors question how a $664 billion backlog gets funded.",
+        "published_at": "2026-11-26T17:18:42+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-sink-5-13-171842760.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Oracle Stock Dipped Under $100 as Banks Try to Unload Its Data-Center Loans",
+        "summary": "Oracle's backlog is huge and the demand is real, yet lenders are quietly accepting steep discounts on the debt behind its data centers. What does the bond market see that the analysts' bullish targets don't?",
+        "published_at": "2026-11-26T16:27:22+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/26/oracle-stock-dipped-under-100-as-banks-try-to-unload-its-data-center-loans/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Cerebras Expands AI Inference Reach: Can It Challenge NVDA & AMD?",
+        "summary": "CBRS is ramping up its AI inference capabilities with hyperscaler partnerships, wafer-scale innovations, and expanding capacity to challenge NVIDIA and Advanced Micro Devices.",
+        "published_at": "2026-11-26T16:14:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/technology/ai/articles/cerebras-expands-ai-inference-reach-161400247.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Jim Cramer Says Micron Stock Is “Comically Cheap” at About 3 Times Earnings",
+        "summary": "Micron just posted the most profitable year in its history, yet the stock has shed a third of its value in a month. Memory's long record of boom and bust may explain why investors refuse to pay up.",
+        "published_at": "2026-11-26T13:53:39+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/26/jim-cramer-says-micron-stock-is-comically-cheap-at-about-3-times-earnings/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "Oracle Is Down 47% in 2026. Is There Really a “Reasonable Chance Oracle Goes Bankrupt”?",
+        "summary": "Key TakeawaysOracle stock is down 47% in 2026 and hit a fresh 52-week low as the cost of insuring its debt against default reached a record. The same AI credit fears have hit CoreWeave, whose debt insurance also hit a record, and Nvidia, which sells both companies their chips.",
+        "published_at": "2026-11-26T13:50:19+00:00",
+        "publisher": "TIKR",
+        "url": "https://www.tikr.com/blog/oracle-is-down-47-in-2026-is-there-really-a-reasonable-chance-oracle-goes-bankrupt?ref=yahoofinance&tlnk=yf-261126-97j6xfvm",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "ORCL",
+        "title": "How Will Oracle's Heavy AI Spending Shape the Stock's Cash Flow Trend?",
+        "summary": "ORCL's aggressive AI infrastructure spending is weighing on free cash flow, but rising cloud demand and easing capital expenditures could drive a turnaround.",
+        "published_at": "2026-11-26T13:41:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracles-heavy-ai-spending-shape-134100910.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
       {
         "ticker": "ORCL",
         "title": "Is Oracle the First AI Casualty as It Sheds 70% of Its Value?",
@@ -16499,12 +16758,12 @@
     ]
   },
   "Confidence": {
-    "scoring": "High",
-    "discovery": "High"
+    "scoring": "Medium",
+    "discovery": "Medium"
   },
   "SignalStrength": {
     "scoring": "Moderate",
     "discovery": "Moderate"
   },
-  "Timestamp": "2026-11-25T22:53:09.538798-05:00"
+  "Timestamp": "2026-11-26T22:54:14.601877-05:00"
 }

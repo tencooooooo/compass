@@ -162,7 +162,7 @@ Evidence
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
 - ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が 0.36% と中立圏です。
+- イベント後の平均株価反応が 0.28% と中立圏です。
 
 Evidence
 
@@ -177,7 +177,7 @@ Evidence
 - negative_count: 0
 - sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 10
+- events_with_price_reaction: 7
 
 ## Note
 

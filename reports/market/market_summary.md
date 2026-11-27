@@ -7,8 +7,8 @@
 - 取得対象企業数: 24
 - セクター数: 3
 - 市場全体の1Mモメンタム平均: -6.06%
-- ニュース件数: 239
-- Event数: 239
+- ニュース件数: 240
+- Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
 
 ### セクター構成
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-11-26T03:44:40+00:00 / AAPL / Stocktwits: Michael Burry Says He’s Shorting The Market’s ‘Generals’ As Apple Flashes A Warning Last Seen In 2002
-- 2026-11-26T03:44:40+00:00 / NVDA / Stocktwits: Michael Burry Says He’s Shorting The Market’s ‘Generals’ As Apple Flashes A Warning Last Seen In 2002
-- 2026-11-26T03:39:36+00:00 / AAPL / Investor's Business Daily: Dow Jones Futures Rise; Market Goes On Wild Ride As Nasdaq Slashes Losses
-- 2026-11-26T03:39:36+00:00 / NVDA / Investor's Business Daily: Dow Jones Futures Rise; Market Goes On Wild Ride As Nasdaq Slashes Losses
-- 2026-11-26T03:35:24+00:00 / DIS / Stocktwits: DIS Stock Breaks Above $125 For First Time Since 2022: Disney Retail Bulls Are Talking About A ‘Santa Claus Rally’
+- 2026-11-27T03:21:49+00:00 / MSFT / Insider Monkey: 5 Best Quantum Computing Stocks To 投資判断表現 for 2027
+- 2026-11-27T03:21:49+00:00 / NVDA / Insider Monkey: 5 Best Quantum Computing Stocks To 投資判断表現 for 2027
+- 2026-11-27T03:21:49+00:00 / GOOGL / Insider Monkey: 5 Best Quantum Computing Stocks To 投資判断表現 for 2027
+- 2026-11-27T03:21:49+00:00 / AMZN / Insider Monkey: 5 Best Quantum Computing Stocks To 投資判断表現 for 2027
+- 2026-11-27T03:20:02+00:00 / NVDA / Motley Fool: Nvidia Is Down 35% From Its All-Time High, Tied for Its Biggest Drop Since the AI Boom Began. Is It a 投資判断表現?
 
 ### 注目イベント
 
-- 2026-11-24T20:46:53+00:00 / TXN: Why Is CEVA (CEVA) Stock Down Today? AI Chip Selloff Drags Shares (株価反応: -11.25%, 出来高: 13.68M)
-- 2026-11-25T20:40:12+00:00 / ORCL: Why Oracle Stock Slumped Today (株価反応: -5.13%, 出来高: 38.32M)
-- 2026-11-25T19:15:01+00:00 / ORCL: Why Alphabet Stock Is Down Today (株価反応: -5.13%, 出来高: 38.32M)
-- 2026-11-25T19:05:02+00:00 / ORCL: Why SpaceX Stock Is Down Today (株価反応: -5.13%, 出来高: 38.32M)
-- 2026-11-25T18:53:02+00:00 / ORCL: Why Nvidia Stock Is Falling Again (株価反応: -5.13%, 出来高: 38.32M)
+- 2026-11-25T20:23:30+00:00 / TXN: What Sent Qualcomm Stock Higher? (株価反応: 4.55%, 出来高: 10.47M)
+- 2026-11-25T18:47:51+00:00 / TXN: Analog Devices Just Plunged After Earnings. Is Its Dividend Now a Bargain? (株価反応: 4.55%, 出来高: 10.47M)
+- 2026-11-25T16:32:56+00:00 / TXN: Should You 投資判断表現 The Dip In Texas Instruments Stock? (株価反応: 4.55%, 出来高: 10.47M)
+- 2026-11-25T13:22:43+00:00 / TXN: Analog Devices Stock Just Had Its Worst Day Since 1998 (株価反応: 4.55%, 出来高: 10.47M)
+- 2026-11-25T13:00:02+00:00 / TXN: Texas Instruments Incorporated (TXN) is Attracting Investor Attention: Here is What You Should Know (株価反応: 4.55%, 出来高: 10.47M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 62.00 | 16.41 | 11.86 | 4.06% | 59 |
-| Consumer Cyclical | 6 | 58.17 | 87.03 | 9.08 | 5.57% | 60 |
-| Technology | 12 | 62.17 | 32.68 | 9.97 | -16.94% | 120 |
+| Communication Services | 6 | 63.83 | 16.34 | 12.01 | 4.06% | 60 |
+| Consumer Cyclical | 6 | 59.83 | 87.07 | 9.05 | 5.57% | 60 |
+| Technology | 12 | 64.83 | 32.75 | 9.97 | -16.94% | 120 |
 
 ## 市場トレンド
 
@@ -53,7 +53,7 @@
 
 ## 市場心理
 
-市場はややリスクオフ寄りと考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 239 件で、ポジティブなモメンタムのセクターは 2/3 です。
+市場はややリスクオフ寄りと考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 240 件で、ポジティブなモメンタムのセクターは 2/3 です。
 
 参照Knowledge: market_psychology.md
 

@@ -109,7 +109,7 @@ Evidence
 
 - trailing_pe: 13.2803
 - forward_pe: 13.8454
-- peg_ratio: 1.1800
+- peg_ratio: 1.3000
 - price_to_book: 5.9473
 - sector_peer_count: 16
 - trailing_pe_percentile: 14.2900
@@ -131,7 +131,7 @@ Evidence
 - 3M の対SPY超過リターンは +9.74pt で、市場並み以上です。
 - 6M の対SPY超過リターンは -25.50pt と、市場を大きく下回っています。
 - 1Y の対SPY超過リターンは -4.02pt と、市場を小幅に下回っています。
-- 直近出来高が30日平均の 1.01 倍で、通常水準の流動性があります。
+- 直近出来高が30日平均の 1.02 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -147,8 +147,8 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': -6.88, '3M': -6.82, '6M': -4.54, '1Y': 8.33}
 - excess_returns: {'1M': -1.54, '3M': 9.74, '6M': -25.5, '1Y': -4.02}
-- latest_volume: 14,029,400.0000
-- average_volume_30d: 13,835,143.3333
+- latest_volume: 14,054,400.0000
+- average_volume_30d: 13,835,976.6667
 
 ## News
 
@@ -157,7 +157,7 @@ Evidence
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
 - イベント後の平均株価反応が 2.24% とプラスです。
 
 Evidence
@@ -169,11 +169,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 4
+- positive_count: 3
 - negative_count: 0
 - sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 9
+- events_with_price_reaction: 8
 
 ## Note
 

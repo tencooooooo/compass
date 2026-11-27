@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Netflix, Inc.
-- Total Score: 57 / 100
+- Total Score: 60 / 100
 - Confidence: High
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 57 点を獲得し、シグナル充足率は 57.0% です。
+- データが確認できた 100 点満点のうち 60 点を獲得し、シグナル充足率は 60.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -107,7 +107,7 @@ Evidence
 
 使用データ
 
-- trailing_pe: 17.0229
+- trailing_pe: 17.1705
 - forward_pe: 15.7610
 - peg_ratio: 0.6600
 - price_to_book: 8.3301
@@ -131,7 +131,7 @@ Evidence
 - 3M の対SPY超過リターンは -18.76pt と、市場を大きく下回っています。
 - 6M の対SPY超過リターンは -26.67pt と、市場を大きく下回っています。
 - 1Y の対SPY超過リターンは -52.79pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 1.02 倍で、通常水準の流動性があります。
+- 直近出来高が30日平均の 1.03 倍で、通常水準の流動性があります。
 
 Evidence
 
@@ -147,18 +147,18 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': -6.88, '3M': -6.82, '6M': -4.54, '1Y': 8.33}
 - excess_returns: {'1M': 1.91, '3M': -18.76, '6M': -26.67, '1Y': -52.79}
-- latest_volume: 45,693,600.0000
-- average_volume_30d: 44,581,606.6667
+- latest_volume: 45,756,500.0000
+- average_volume_30d: 44,583,703.3333
 
 ## News
 
-12点
+15点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 2 件、悪材料 1 件(純比率 +0.33)で、センチメントは 5.3 点です。
-- イベント後の平均株価反応が 1.00% と中立圏です。
+- ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が 0.92% と中立圏です。
 
 Evidence
 
@@ -169,11 +169,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 2
-- negative_count: 1
-- sentiment_net_ratio: 0.3300
+- positive_count: 4
+- negative_count: 0
+- sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 10
+- events_with_price_reaction: 3
 
 ## Note
 

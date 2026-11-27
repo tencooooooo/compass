@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Amazon.com, Inc.
-- Total Score: 67 / 100
+- Total Score: 74 / 100
 - Confidence: Medium
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -17,8 +17,9 @@ Medium
 理由
 
 - 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 1 件です。
+- 欠損または計算不可の項目数は 2 件です。
 - 主要データは一定程度ありますが、欠損や未取得項目が残っています。
+- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
@@ -27,7 +28,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 67 点を獲得し、シグナル充足率は 67.0% です。
+- データが確認できた 100 点満点のうち 74 点を獲得し、シグナル充足率は 74.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -136,7 +137,7 @@ Evidence
 - 3M の対SPY超過リターンは +2.21pt で、市場並み以上です。
 - 6M の対SPY超過リターンは -6.25pt と、市場を小幅に下回っています。
 - 1Y の対SPY超過リターンは -0.31pt と、市場を小幅に下回っています。
-- 直近出来高が30日平均の 1.26 倍で、市場関心の高まりが確認できます。
+- 直近出来高が30日平均の 1.27 倍で、市場関心の高まりが確認できます。
 
 Evidence
 
@@ -152,18 +153,18 @@ Evidence
 - benchmark: SPY
 - benchmark_returns: {'1M': -6.88, '3M': -6.82, '6M': -4.54, '1Y': 8.33}
 - excess_returns: {'1M': 3.46, '3M': 2.21, '6M': -6.25, '1Y': -0.31}
-- latest_volume: 62,276,400.0000
-- average_volume_30d: 49,357,503.3333
+- latest_volume: 62,479,500.0000
+- average_volume_30d: 49,364,273.3333
 
 ## News
 
-4点
+11点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 0 件、悪材料 3 件(純比率 -1.00)で、センチメントは 0.0 点です。
-- イベント後の平均株価反応が -3.12% と弱く、注意が必要です。
+- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 1 件(純比率 +0.50)で、センチメントは 6.0 点です。
+- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
 
 Evidence
 
@@ -174,11 +175,15 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 0
-- negative_count: 3
-- sentiment_net_ratio: -1.0000
+- positive_count: 3
+- negative_count: 1
+- sentiment_net_ratio: 0.5000
 - event_count: 10
-- events_with_price_reaction: 4
+- events_with_price_reaction: 0
+
+欠損・計算不可
+
+- event_price_reaction
 
 ## Note
 

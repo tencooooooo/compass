@@ -108,7 +108,7 @@ Evidence
 使用データ
 
 - trailing_pe: 66.3022
-- forward_pe: 19.1908
+- forward_pe: 19.1793
 - peg_ratio: 1.4600
 - price_to_book: 7.3039
 - sector_peer_count: 16

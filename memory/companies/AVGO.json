@@ -20,7 +20,7 @@
     "dividend_yield": 0.86,
     "52_week_high": 495.0,
     "52_week_low": 278.0,
-    "average_volume": 26602153,
+    "average_volume": 26838921,
     "employees": 33000,
     "website": "https://www.broadcom.com",
     "business_summary": "Broadcom Inc. designs, develops, and supplies various semiconductor devices and infrastructure software solutions internationally. The company operates in two segments: Semiconductor Solutions and Infrastructure Software. The company offers networking connectivity, such as custom silicon solutions, ethernet switching & routing, ethernet NIC controllers, physical layer devices, and fiber optic components; wireless device connectivity, including RF semiconductor devices, connectivity solutions, custom touch controllers, and inductive charging ASICS; servers and storage system solutions, such as PCIE switches, SAS & raid products, fibre channel products, and HDD & SSD solutions; broadband solutions, includes set-top box, and broadband access; and industrial. The company also offers a private cloud software portfolio, including the VMware Cloud Foundation, Edge, vSphere foundation, telco cloud platform, private AI, live recovery, application networking and security, application development and data services; mainframe software, such as AIOPS & automation, database & data management, DEVX & DEVOPS, cybersecurity & compliance management, beyond code programs, foundational & open mainframe solutions; cybersecurity, such as endpoint, network, information, application security, and identity & access management; enterprise software; and fc san management. Its products are used in various applications in enterprise and data center networking, including artificial intelligence networking and connectivity, home connectivity, set-top boxes, broadband access, telecommunication equipment, wireless device and base stations, data center servers and storage systems, factory automation, power generation and alternative energy systems, and electronic displays. Broadcom Inc. was founded in 1961 and is headquartered in Palo Alto, California."
@@ -2089,29 +2089,54 @@
         "scoring": "Moderate",
         "discovery": "Moderate"
       }
+    },
+    {
+      "date": "2026-11-26",
+      "timestamp": "2026-11-26T22:54:14.601877-05:00",
+      "score": 62,
+      "discovery_score": 57,
+      "discovery_status": "Not Selected",
+      "validation_results": {
+        "Excellent": 8,
+        "Good": 1,
+        "Neutral": 9,
+        "Poor": 32,
+        "Pending": 80
+      },
+      "event_count": 10,
+      "news_count": 10,
+      "confidence": {
+        "scoring": "Medium",
+        "discovery": "Medium"
+      },
+      "signal_strength": {
+        "scoring": "Moderate",
+        "discovery": "Moderate"
+      }
     }
   ],
   "Scores": {
     "ticker": "AVGO",
     "company_name": "Broadcom Inc.",
-    "total_score": 61,
+    "total_score": 62,
     "max_score": 100,
     "confidence": {
-      "level": "High",
-      "completeness_score": 100,
+      "level": "Medium",
+      "completeness_score": 95.0,
       "reasons": [
         "利用可能な主要データ領域は5領域中 5 領域です。",
-        "欠損または計算不可の項目数は 0 件です。",
-        "主要データが比較的そろっており、説明可能性は高めです。",
+        "欠損または計算不可の項目数は 1 件です。",
+        "主要データは一定程度ありますが、欠損や未取得項目が残っています。",
+        "イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。",
         "Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。"
       ]
     },
     "signal_strength": {
       "level": "Moderate",
-      "signal_rate": 61.0,
+      "signal_rate": 62.0,
       "evaluated_max_score": 100,
       "reasons": [
-        "データが確認できた 100 点満点のうち 61 点を獲得し、シグナル充足率は 61.0% です。",
+        "データが確認できた 100 点満点のうち 62 点を獲得し、シグナル充足率は 62.0% です。",
         "シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。"
       ]
     },
@@ -2220,7 +2245,7 @@
           "3M の対SPY超過リターンは -12.05pt と、市場を大きく下回っています。",
           "6M の対SPY超過リターンは -24.69pt と、市場を大きく下回っています。",
           "1Y の対SPY超過リターンは -28.14pt と、市場を大きく下回っています。",
-          "直近出来高が30日平均の 1.18 倍で、通常水準の流動性があります。"
+          "直近出来高が30日平均の 1.19 倍で、通常水準の流動性があります。"
         ],
         "evidence": [
           "Prices",
@@ -2231,7 +2256,7 @@
           "1M": -12.114042838005615,
           "3M": -18.87607597255345,
           "6M": -29.231357637129683,
-          "1Y": -19.807131962380062,
+          "1Y": -19.807125439233122,
           "benchmark": "SPY",
           "benchmark_returns": {
             "1M": -6.88,
@@ -2245,31 +2270,33 @@
             "6M": -24.69,
             "1Y": -28.14
           },
-          "latest_volume": 34256900.0,
-          "average_volume_30d": 28915813.333333332
+          "latest_volume": 34349500.0,
+          "average_volume_30d": 28918900.0
         }
       },
       "News": {
-        "score": 12,
+        "score": 13,
         "max_score": 20,
         "reasons": [
           "ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。",
-          "ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 2 件(純比率 +0.33)で、センチメントは 5.3 点です。",
-          "イベント後の平均株価反応が -0.07% と中立圏です。"
+          "ニュース見出し・要約の簡易分類では、好材料 4 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。",
+          "イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。"
         ],
         "evidence": [
           "News",
           "Events",
           "Knowledge"
         ],
-        "missing_data": [],
+        "missing_data": [
+          "event_price_reaction"
+        ],
         "metrics": {
           "news_count": 10,
           "positive_count": 4,
-          "negative_count": 2,
-          "sentiment_net_ratio": 0.33,
+          "negative_count": 0,
+          "sentiment_net_ratio": 1.0,
           "event_count": 10,
-          "events_with_price_reaction": 2
+          "events_with_price_reaction": 0
         }
       }
     },
@@ -2287,13 +2314,13 @@
     "company": "Broadcom Inc.",
     "sector": "Technology",
     "industry": "Semiconductors",
-    "discovery_score": 59,
+    "discovery_score": 57,
     "max_score": 100,
     "status": "Not Selected",
     "discovery_reasons": [
       "Scoring EngineのGrowthが 20/20 で、成長性の基礎条件が確認できます。",
       "Financial Healthが 17/20 で、継続調査に必要な財務基盤を評価しています。",
-      "Newsスコアが 12/20 で、材料の量と市場関心を候補評価に反映しています。",
+      "Newsスコアが 13/20 で、材料の量と市場関心を候補評価に反映しています。",
       "売上が取得でき、事業規模の確認ができます。",
       "EPSがプラスで、利益を伴う成長候補として確認できます。",
       "研究開発費が確認でき、将来成長への投資シグナルがあります。",
@@ -2308,8 +2335,7 @@
       "純利益率が高く、売上から利益を残す力があります。"
     ],
     "watch_points": [
-      "注意材料になり得るニュース表現が 2 件あります。",
-      "イベント後の平均株価反応は強くなく、材料への市場反応は確認が必要です。",
+      "Event Databaseはありますが、株価反応が未取得のイベントが多い状態です。",
       "TechnologyのセクターモメンタムはRisk-Offで、短期環境は慎重に見る必要があります。",
       "売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。",
       "直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。",
@@ -2317,9 +2343,9 @@
       "yfinance由来データのため、項目欠損や仕様変更の影響を受ける可能性があります。",
       "ニュースの市場反応は短期的な需給やマクロ環境にも左右されると考えられます。"
     ],
-    "confidence": "High",
+    "confidence": "Medium",
     "signal_strength": "Moderate",
-    "signal_rate": 58.9,
+    "signal_rate": 60.32,
     "evidence": [
       "Company",
       "Events",
@@ -2330,22 +2356,24 @@
       "Prices",
       "Scoring"
     ],
-    "missing_data": [],
+    "missing_data": [
+      "event_price_reaction"
+    ],
     "metrics": {
-      "scoring_total": 61.0,
-      "signal_earned_points": 58.9,
-      "signal_max_points": 100.0,
+      "scoring_total": 62.0,
+      "signal_earned_points": 57.3,
+      "signal_max_points": 95.0,
       "weak_signals": [],
       "scoring_signal_strength": "Moderate",
       "growth_score": 20.0,
       "financial_health_score": 17.0,
       "valuation_score": 8.0,
-      "news_score": 12.0,
+      "news_score": 13.0,
       "momentum": {
         "1m": -12.114042838005615,
         "3m": -18.87607597255345,
         "6m": -29.231357637129683,
-        "1y": -19.807131962380062
+        "1y": -19.807125439233122
       },
       "benchmark": "SPY",
       "excess_momentum": {
@@ -2355,16 +2383,16 @@
         "1y": -28.14
       },
       "positive_news": 4,
-      "watch_news": 2,
+      "watch_news": 0,
       "event_count": 10,
-      "events_with_reaction": 2,
-      "sector_average_score": 62.166666666666664
+      "events_with_reaction": 0,
+      "sector_average_score": 64.83333333333333
     }
   },
   "Validation": [
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -2424,7 +2452,7 @@
     },
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -2484,7 +2512,7 @@
     },
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -2544,7 +2572,7 @@
     },
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -2604,7 +2632,7 @@
     },
     {
       "discovery_date": "2026-08-17",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -2664,7 +2692,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -2724,7 +2752,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -2784,7 +2812,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -2844,7 +2872,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -2904,7 +2932,7 @@
     },
     {
       "discovery_date": "2026-08-18",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -2964,7 +2992,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -2990,8 +3018,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": -0.7123679108401602,
       "benchmark_diff_percent": -0.6311536608666874,
-      "sector_average_return_percent": 4.660186165519417,
-      "sector_diff_percent": -6.003707737226264,
+      "sector_average_return_percent": 4.660186596261375,
+      "sector_diff_percent": -6.003708167968222,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": 3.2454779355766057,
       "sector_benchmark_diff_percent": -4.588999507283454,
@@ -3024,7 +3052,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -3050,8 +3078,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": -0.38748301683808356,
       "benchmark_diff_percent": -1.513310284194165,
-      "sector_average_return_percent": -0.31153655948739833,
-      "sector_diff_percent": -1.5892567415448502,
+      "sector_average_return_percent": -0.3115361264861033,
+      "sector_diff_percent": -1.5892571745461455,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": -0.4356375254211317,
       "sector_benchmark_diff_percent": -1.4651557756111169,
@@ -3084,7 +3112,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -3110,8 +3138,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": -6.5768923023482975,
       "benchmark_diff_percent": -10.271529466766562,
-      "sector_average_return_percent": -12.948879490001243,
-      "sector_diff_percent": -3.899542279113618,
+      "sector_average_return_percent": -12.94887906179218,
+      "sector_diff_percent": -3.8995427073226807,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": -15.066546443753486,
       "sector_benchmark_diff_percent": -1.7818753253613746,
@@ -3144,7 +3172,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -3170,8 +3198,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": -4.525156879186021,
       "benchmark_diff_percent": -1.063552107833801,
-      "sector_average_return_percent": -8.779783251734516,
-      "sector_diff_percent": 3.191074264714694,
+      "sector_average_return_percent": -8.779782810123256,
+      "sector_diff_percent": 3.1910738231034346,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": -10.994057650597043,
       "sector_benchmark_diff_percent": 5.405348663577221,
@@ -3204,7 +3232,7 @@
     },
     {
       "discovery_date": "2026-08-19",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -3230,8 +3258,8 @@
       "benchmark": "SPY",
       "benchmark_return_percent": -6.5768923023482975,
       "benchmark_diff_percent": -10.271529466766562,
-      "sector_average_return_percent": -12.948879490001243,
-      "sector_diff_percent": -3.899542279113618,
+      "sector_average_return_percent": -12.94887906179218,
+      "sector_diff_percent": -3.8995427073226807,
       "sector_benchmark": "XLK",
       "sector_benchmark_return_percent": -15.066546443753486,
       "sector_benchmark_diff_percent": -1.7818753253613746,
@@ -3264,7 +3292,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -3322,7 +3350,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -3380,7 +3408,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -3438,7 +3466,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -3496,7 +3524,7 @@
     },
     {
       "discovery_date": "2026-08-21",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -3554,7 +3582,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -3614,7 +3642,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -3674,7 +3702,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -3734,7 +3762,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -3794,7 +3822,7 @@
     },
     {
       "discovery_date": "2026-08-24",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -3854,7 +3882,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -3913,7 +3941,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -3972,7 +4000,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -4031,7 +4059,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -4090,7 +4118,7 @@
     },
     {
       "discovery_date": "2026-08-25",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -4149,7 +4177,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -4209,7 +4237,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -4269,7 +4297,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -4329,7 +4357,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -4389,7 +4417,7 @@
     },
     {
       "discovery_date": "2026-08-26",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -4449,7 +4477,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -4509,7 +4537,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -4569,7 +4597,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -4629,7 +4657,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -4689,7 +4717,7 @@
     },
     {
       "discovery_date": "2026-08-28",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -4749,7 +4777,7 @@
     },
     {
       "discovery_date": "2026-08-31",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -4808,7 +4836,7 @@
     },
     {
       "discovery_date": "2026-08-31",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -4867,7 +4895,7 @@
     },
     {
       "discovery_date": "2026-08-31",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -4926,7 +4954,7 @@
     },
     {
       "discovery_date": "2026-08-31",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -4985,7 +5013,7 @@
     },
     {
       "discovery_date": "2026-08-31",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -5044,7 +5072,7 @@
     },
     {
       "discovery_date": "2026-09-01",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -5103,7 +5131,7 @@
     },
     {
       "discovery_date": "2026-09-01",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -5162,7 +5190,7 @@
     },
     {
       "discovery_date": "2026-09-01",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -5221,7 +5249,7 @@
     },
     {
       "discovery_date": "2026-09-01",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -5280,7 +5308,7 @@
     },
     {
       "discovery_date": "2026-09-01",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -5339,7 +5367,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -5399,7 +5427,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -5459,7 +5487,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -5519,7 +5547,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -5579,7 +5607,7 @@
     },
     {
       "discovery_date": "2026-09-02",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -5639,7 +5667,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -5698,7 +5726,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -5757,7 +5785,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -5816,7 +5844,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -5875,7 +5903,7 @@
     },
     {
       "discovery_date": "2026-09-04",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -5934,7 +5962,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -5992,7 +6020,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -6050,7 +6078,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -6108,7 +6136,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -6166,7 +6194,7 @@
     },
     {
       "discovery_date": "2026-09-08",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -6224,7 +6252,7 @@
     },
     {
       "discovery_date": "2026-09-10",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -6283,7 +6311,7 @@
     },
     {
       "discovery_date": "2026-09-10",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -6342,7 +6370,7 @@
     },
     {
       "discovery_date": "2026-09-10",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -6401,7 +6429,7 @@
     },
     {
       "discovery_date": "2026-09-10",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -6460,7 +6488,7 @@
     },
     {
       "discovery_date": "2026-09-10",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -6519,7 +6547,7 @@
     },
     {
       "discovery_date": "2026-09-11",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -6578,7 +6606,7 @@
     },
     {
       "discovery_date": "2026-09-11",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -6637,7 +6665,7 @@
     },
     {
       "discovery_date": "2026-09-11",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -6696,7 +6724,7 @@
     },
     {
       "discovery_date": "2026-09-11",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -6755,7 +6783,7 @@
     },
     {
       "discovery_date": "2026-09-11",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -6814,7 +6842,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -6873,7 +6901,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -6932,7 +6960,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -6991,7 +7019,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -7050,7 +7078,7 @@
     },
     {
       "discovery_date": "2026-09-16",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -7109,7 +7137,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -7168,7 +7196,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -7227,7 +7255,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -7286,7 +7314,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -7345,7 +7373,7 @@
     },
     {
       "discovery_date": "2026-09-17",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -7404,7 +7432,7 @@
     },
     {
       "discovery_date": "2026-09-18",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -7462,7 +7490,7 @@
     },
     {
       "discovery_date": "2026-09-18",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -7520,7 +7548,7 @@
     },
     {
       "discovery_date": "2026-09-18",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -7578,7 +7606,7 @@
     },
     {
       "discovery_date": "2026-09-18",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -7636,7 +7664,7 @@
     },
     {
       "discovery_date": "2026-09-18",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -7694,7 +7722,7 @@
     },
     {
       "discovery_date": "2026-09-30",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -7754,7 +7782,7 @@
     },
     {
       "discovery_date": "2026-09-30",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -7814,7 +7842,7 @@
     },
     {
       "discovery_date": "2026-09-30",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -7874,7 +7902,7 @@
     },
     {
       "discovery_date": "2026-09-30",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -7934,7 +7962,7 @@
     },
     {
       "discovery_date": "2026-09-30",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -7994,7 +8022,7 @@
     },
     {
       "discovery_date": "2026-11-09",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -8054,7 +8082,7 @@
     },
     {
       "discovery_date": "2026-11-09",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -8114,7 +8142,7 @@
     },
     {
       "discovery_date": "2026-11-09",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -8174,7 +8202,7 @@
     },
     {
       "discovery_date": "2026-11-09",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -8234,7 +8262,7 @@
     },
     {
       "discovery_date": "2026-11-09",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -8294,7 +8322,7 @@
     },
     {
       "discovery_date": "2026-11-10",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -8354,7 +8382,7 @@
     },
     {
       "discovery_date": "2026-11-10",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -8414,7 +8442,7 @@
     },
     {
       "discovery_date": "2026-11-10",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -8474,7 +8502,7 @@
     },
     {
       "discovery_date": "2026-11-10",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -8534,7 +8562,7 @@
     },
     {
       "discovery_date": "2026-11-10",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -8594,7 +8622,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -8653,7 +8681,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -8712,7 +8740,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -8771,7 +8799,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -8830,7 +8858,7 @@
     },
     {
       "discovery_date": "2026-11-11",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -8889,7 +8917,7 @@
     },
     {
       "discovery_date": "2026-11-17",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -8949,7 +8977,7 @@
     },
     {
       "discovery_date": "2026-11-17",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -9009,7 +9037,7 @@
     },
     {
       "discovery_date": "2026-11-17",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -9069,7 +9097,7 @@
     },
     {
       "discovery_date": "2026-11-17",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -9129,7 +9157,7 @@
     },
     {
       "discovery_date": "2026-11-17",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -9189,7 +9217,7 @@
     },
     {
       "discovery_date": "2026-11-18",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -9249,7 +9277,7 @@
     },
     {
       "discovery_date": "2026-11-18",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -9309,7 +9337,7 @@
     },
     {
       "discovery_date": "2026-11-18",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -9369,7 +9397,7 @@
     },
     {
       "discovery_date": "2026-11-18",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -9429,7 +9457,7 @@
     },
     {
       "discovery_date": "2026-11-18",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -9489,7 +9517,7 @@
     },
     {
       "discovery_date": "2026-11-19",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -9550,7 +9578,7 @@
     },
     {
       "discovery_date": "2026-11-19",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1w",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -9611,7 +9639,7 @@
     },
     {
       "discovery_date": "2026-11-19",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "1y",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -9672,7 +9700,7 @@
     },
     {
       "discovery_date": "2026-11-19",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "3m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -9733,7 +9761,7 @@
     },
     {
       "discovery_date": "2026-11-19",
-      "validation_date": "2026-11-25",
+      "validation_date": "2026-11-26",
       "period": "6m",
       "ticker": "AVGO",
       "company": "Broadcom Inc.",
@@ -10097,11 +10125,11 @@
     "count": 10,
     "latest": [
       {
-        "event_id": "AVGO_287be4985a12e2f5",
+        "event_id": "AVGO_bc08b625982c531b",
         "ticker": "AVGO",
-        "published_at": "2026-11-26T02:12:15+00:00",
-        "title": "Why Retail Investors Are Watching AMD and AI Infrastructure Stocks After SpaceX Satellite News",
-        "url": "https://finance.yahoo.com/technology/ai/articles/why-retail-investors-watching-amd-021215050.html",
+        "published_at": "2026-11-27T03:15:33+00:00",
+        "title": "Broadcom (AVGO) Could Be the Biggest Winner From the Shift to Custom AI Chips",
+        "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-could-biggest-winner-031533044.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -10109,11 +10137,11 @@
         "volume": null
       },
       {
-        "event_id": "AVGO_9bd4691669ae54c7",
+        "event_id": "AVGO_16aeb4ed48c956b4",
         "ticker": "AVGO",
-        "published_at": "2026-11-26T01:03:02+00:00",
-        "title": "Broadcom Stock Hasn't Traded This Low Since July 2025. I Think It's a Buy.",
-        "url": "https://www.fool.com/investing/2026/11/25/broadcom-stock-hasn-t-traded-this-low-since-july-2025-i-think-it-s-a-buy/",
+        "published_at": "2026-11-27T00:20:02+00:00",
+        "title": "These 2 AI Chip Stocks Are Down 36% to 39% From Their Highs. Here’s What History Says Happens Next.",
+        "url": "https://www.fool.com/investing/2026/11/26/these-2-ai-chip-stocks-are-down-36-to-39-from-their-highs-here-s-what-history-says-happens-next/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -10121,11 +10149,11 @@
         "volume": null
       },
       {
-        "event_id": "AVGO_b5f20fb9bfa94e27",
+        "event_id": "AVGO_fd927e454416cfaf",
         "ticker": "AVGO",
-        "published_at": "2026-11-26T00:46:10+00:00",
-        "title": "5 Best Strong Buy Growth Stocks to Buy for 2027",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/5-best-strong-buy-growth-004610627.html",
+        "published_at": "2026-11-26T19:47:38+00:00",
+        "title": "5 Most Oversold Semiconductor Stocks to Buy for 2027",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/5-most-oversold-semiconductor-stocks-194738573.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -10133,11 +10161,11 @@
         "volume": null
       },
       {
-        "event_id": "AVGO_54f551d5d7442ab2",
+        "event_id": "AVGO_f987c8b6b1d17b25",
         "ticker": "AVGO",
-        "published_at": "2026-11-25T22:27:33+00:00",
-        "title": "AI stock rout deepens but damage is limited by afternoon bounce",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ai-stock-rout-deepens-damage-222733772.html",
+        "published_at": "2026-11-26T19:33:15+00:00",
+        "title": "Goldman Sachs resets Broadcom's 12-month price target before earnings",
+        "url": "https://www.thestreet.com/investing/stocks/avgo-broadcom-stock-goldman-sachs-resets-avgo-stock-12-month-price-target-before-earnings",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -10145,11 +10173,11 @@
         "volume": null
       },
       {
-        "event_id": "AVGO_c67f55e48b6aa11d",
+        "event_id": "AVGO_477e04cd4f685421",
         "ticker": "AVGO",
-        "published_at": "2026-11-25T22:24:47+00:00",
-        "title": "Analysts Expect More From Marvell Than Marvell Does",
-        "url": "https://www.trefis.com/stock/mrvl/articles/628747/analysts-expect-more-from-marvell-than-marvell-does/2026-11-25",
+        "published_at": "2026-11-26T18:30:41+00:00",
+        "title": "Broadcom Stocks Edge Lower After Rebounding From an Intraday Low of $278",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-edge-lower-rebounding-183041028.html",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -10157,11 +10185,11 @@
         "volume": null
       },
       {
-        "event_id": "AVGO_79b9be7a652149f3",
+        "event_id": "AVGO_04d7b249215e9d41",
         "ticker": "AVGO",
-        "published_at": "2026-11-25T22:06:45+00:00",
-        "title": "Stock Market Today, Nov. 25: Nvidia Slides 3.9% as the Market Considers Hot PCE Inflation Data and New Tariff Proposals",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-nvidia-slides-3-9-as-the-market-considers-hot-pce-inflation-data-and-new-tariff-proposals/",
+        "published_at": "2026-11-26T16:06:22+00:00",
+        "title": "NVIDIA Just Dropped 31% in a Month. Will NVDA Stock Hit $125 or $200 First?",
+        "url": "https://247wallst.com/investing/2026/11/26/nvidia-just-dropped-31-in-a-month-will-nvda-stock-hit-125-or-200-first/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -10169,11 +10197,11 @@
         "volume": null
       },
       {
-        "event_id": "AVGO_7ce0170d13c59351",
+        "event_id": "AVGO_0156c85389b53b24",
         "ticker": "AVGO",
-        "published_at": "2026-11-25T21:51:01+00:00",
-        "title": "Not Micron. Not Broadcom. This Is My Top Oversold Artificial Intelligence (AI) Stock to Buy in December",
-        "url": "https://www.fool.com/investing/2026/11/25/not-micron-not-broadcom-this-is-my-top-oversold-artificial-intelligence-ai-stock-to-buy-in-december/",
+        "published_at": "2026-11-26T15:45:38+00:00",
+        "title": "S&P’s NVIDIA Warning is Backward Looking Governance Theater That Gives Everyone an Opportunity to Buy at $150",
+        "url": "https://247wallst.com/investing/2026/11/26/sps-nvidia-warning-is-backward-looking-governance-theater-that-gives-everyone-an-opportunity-to-buy-at-150/",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -10181,11 +10209,11 @@
         "volume": null
       },
       {
-        "event_id": "AVGO_f0174b0fa30a70fc",
+        "event_id": "AVGO_eaf046830db33ab5",
         "ticker": "AVGO",
-        "published_at": "2026-11-25T21:13:32+00:00",
-        "title": "Why Is Credo Stock Going Up?",
-        "url": "https://www.trefis.com/stock/crdo/articles/628617/why-is-credo-stock-going-up/2026-11-25",
+        "published_at": "2026-11-26T15:15:26+00:00",
+        "title": "Marvell Reports Tuesday. How Often Has It Dropped 10%?",
+        "url": "https://www.trefis.com/stock/mrvl/articles/629177/marvell-reports-tuesday-how-often-has-it-dropped-10/2026-11-26",
         "source": "STORY",
         "close_price": null,
         "previous_close": null,
@@ -10193,32 +10221,152 @@
         "volume": null
       },
       {
-        "event_id": "AVGO_62023c9d495434cd",
+        "event_id": "AVGO_a7c28a1e05948c84",
         "ticker": "AVGO",
-        "published_at": "2026-11-25T14:53:06+00:00",
-        "title": "The $2 trillion chip rally is unraveling — here's what history says comes next",
-        "url": "https://finance.yahoo.com/markets/article/the-2-trillion-chip-rally-is-getting-wiped-out--heres-what-history-says-comes-next-145306996.html",
+        "published_at": "2026-11-26T15:15:26+00:00",
+        "title": "What's Happening To Marvell's Cash Gap With Broadcom",
+        "url": "https://www.trefis.com/stock/avgo/articles/629176/what-s-happening-to-marvell-s-cash-gap-with-broadcom/2026-11-26",
         "source": "STORY",
-        "close_price": 300.8599853515625,
-        "previous_close": 301.0799865722656,
-        "price_change_percent": -0.07307068902446626,
-        "volume": 34256900.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       },
       {
-        "event_id": "AVGO_5a9070de418748c8",
+        "event_id": "AVGO_67500acbcdc8b30c",
         "ticker": "AVGO",
-        "published_at": "2026-11-25T13:45:18+00:00",
-        "title": "Nvidia, AMD, and Micron stocks trim steep losses amid jittery AI trade",
-        "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-stocks-sink-as-investors-flee-ai-trade-134518921.html",
+        "published_at": "2026-11-26T14:30:00+00:00",
+        "title": "Credo Technology Ahead of Q2 Earnings: How to Approach the Stock Now?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-ahead-q2-earnings-143000855.html",
         "source": "STORY",
-        "close_price": 300.8599853515625,
-        "previous_close": 301.0799865722656,
-        "price_change_percent": -0.07307068902446626,
-        "volume": 34256900.0
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
       }
     ],
-    "history_count": 460,
+    "history_count": 470,
     "history": [
+      {
+        "event_id": "AVGO_bc08b625982c531b",
+        "ticker": "AVGO",
+        "published_at": "2026-11-27T03:15:33+00:00",
+        "title": "Broadcom (AVGO) Could Be the Biggest Winner From the Shift to Custom AI Chips",
+        "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-could-biggest-winner-031533044.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AVGO_16aeb4ed48c956b4",
+        "ticker": "AVGO",
+        "published_at": "2026-11-27T00:20:02+00:00",
+        "title": "These 2 AI Chip Stocks Are Down 36% to 39% From Their Highs. Here’s What History Says Happens Next.",
+        "url": "https://www.fool.com/investing/2026/11/26/these-2-ai-chip-stocks-are-down-36-to-39-from-their-highs-here-s-what-history-says-happens-next/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AVGO_fd927e454416cfaf",
+        "ticker": "AVGO",
+        "published_at": "2026-11-26T19:47:38+00:00",
+        "title": "5 Most Oversold Semiconductor Stocks to Buy for 2027",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/5-most-oversold-semiconductor-stocks-194738573.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AVGO_f987c8b6b1d17b25",
+        "ticker": "AVGO",
+        "published_at": "2026-11-26T19:33:15+00:00",
+        "title": "Goldman Sachs resets Broadcom's 12-month price target before earnings",
+        "url": "https://www.thestreet.com/investing/stocks/avgo-broadcom-stock-goldman-sachs-resets-avgo-stock-12-month-price-target-before-earnings",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AVGO_477e04cd4f685421",
+        "ticker": "AVGO",
+        "published_at": "2026-11-26T18:30:41+00:00",
+        "title": "Broadcom Stocks Edge Lower After Rebounding From an Intraday Low of $278",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-edge-lower-rebounding-183041028.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AVGO_04d7b249215e9d41",
+        "ticker": "AVGO",
+        "published_at": "2026-11-26T16:06:22+00:00",
+        "title": "NVIDIA Just Dropped 31% in a Month. Will NVDA Stock Hit $125 or $200 First?",
+        "url": "https://247wallst.com/investing/2026/11/26/nvidia-just-dropped-31-in-a-month-will-nvda-stock-hit-125-or-200-first/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AVGO_0156c85389b53b24",
+        "ticker": "AVGO",
+        "published_at": "2026-11-26T15:45:38+00:00",
+        "title": "S&P’s NVIDIA Warning is Backward Looking Governance Theater That Gives Everyone an Opportunity to Buy at $150",
+        "url": "https://247wallst.com/investing/2026/11/26/sps-nvidia-warning-is-backward-looking-governance-theater-that-gives-everyone-an-opportunity-to-buy-at-150/",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AVGO_eaf046830db33ab5",
+        "ticker": "AVGO",
+        "published_at": "2026-11-26T15:15:26+00:00",
+        "title": "Marvell Reports Tuesday. How Often Has It Dropped 10%?",
+        "url": "https://www.trefis.com/stock/mrvl/articles/629177/marvell-reports-tuesday-how-often-has-it-dropped-10/2026-11-26",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AVGO_a7c28a1e05948c84",
+        "ticker": "AVGO",
+        "published_at": "2026-11-26T15:15:26+00:00",
+        "title": "What's Happening To Marvell's Cash Gap With Broadcom",
+        "url": "https://www.trefis.com/stock/avgo/articles/629176/what-s-happening-to-marvell-s-cash-gap-with-broadcom/2026-11-26",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
+      {
+        "event_id": "AVGO_67500acbcdc8b30c",
+        "ticker": "AVGO",
+        "published_at": "2026-11-26T14:30:00+00:00",
+        "title": "Credo Technology Ahead of Q2 Earnings: How to Approach the Stock Now?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-ahead-q2-earnings-143000855.html",
+        "source": "STORY",
+        "close_price": null,
+        "previous_close": null,
+        "price_change_percent": null,
+        "volume": null
+      },
       {
         "event_id": "AVGO_287be4985a12e2f5",
         "ticker": "AVGO",
@@ -15746,117 +15894,227 @@
     "latest": [
       {
         "ticker": "AVGO",
-        "title": "Why Retail Investors Are Watching AMD and AI Infrastructure Stocks After SpaceX Satellite News",
-        "summary": "Space is no longer just about rockets. With the FCC greenlighting SpaceX’s vast Starmind satellite plan, the idea of orbital data centers suddenly feels less like science fiction and more like the early internet all over again. Investors watching AI infrastructure and high-performance computing now face a fresh frontier that could reroute where capital flows. This article unpacks 3 stocks exposed to this news and explains why their story might matter for your portfolio. The three stocks that...",
-        "published_at": "2026-11-26T02:12:15+00:00",
-        "publisher": "Simply Wall St.",
-        "url": "https://finance.yahoo.com/technology/ai/articles/why-retail-investors-watching-amd-021215050.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "AVGO",
-        "title": "Broadcom Stock Hasn't Traded This Low Since July 2025. I Think It's a Buy.",
-        "summary": "The AI chip designer's stock now prices in very little of next year's planned growth.",
-        "published_at": "2026-11-26T01:03:02+00:00",
-        "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/11/25/broadcom-stock-hasn-t-traded-this-low-since-july-2025-i-think-it-s-a-buy/",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "AVGO",
-        "title": "5 Best Strong Buy Growth Stocks to Buy for 2027",
-        "summary": "Markets have spent November punishing growth, but Wall Street analysts haven’t lost their nerve. That gap between falling prices and steady conviction is where next year’s leaders are often found. By November 19, the wider market had slipped about 8.5% from its 52-week high, and chip stocks took the hardest hit, with the semiconductor sector […]",
-        "published_at": "2026-11-26T00:46:10+00:00",
+        "title": "Broadcom (AVGO) Could Be the Biggest Winner From the Shift to Custom AI Chips",
+        "summary": "We just published the list of the 10 Best Tech Stocks to Buy for 2027 According to Hedge Funds, and Broadcom Inc. (NASDAQ:AVGO) ranked 9th on this list. Tech stocks aren’t lacking in growth stories for 2027. The problem is that smart money is increasingly selective about which companies it’s willing to pay a premium […]",
+        "published_at": "2026-11-27T03:15:33+00:00",
         "publisher": "Insider Monkey",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/5-best-strong-buy-growth-004610627.html",
+        "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-could-biggest-winner-031533044.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "AVGO",
-        "title": "AI stock rout deepens but damage is limited by afternoon bounce",
-        "summary": "By Shashwat Chauhan Nov 25 (Reuters) - AI-linked stocks plunged early on Wednesday but staged an afternoon comeback, the latest autumn clash pitting investor concern about rising costs and forbidding",
-        "published_at": "2026-11-25T22:27:33+00:00",
-        "publisher": "Reuters",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ai-stock-rout-deepens-damage-222733772.html",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "AVGO",
-        "title": "Analysts Expect More From Marvell Than Marvell Does",
-        "summary": "Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.",
-        "published_at": "2026-11-25T22:24:47+00:00",
-        "publisher": "Trefis",
-        "url": "https://www.trefis.com/stock/mrvl/articles/628747/analysts-expect-more-from-marvell-than-marvell-does/2026-11-25",
-        "language": null,
-        "source": "STORY",
-        "related_tickers": null
-      },
-      {
-        "ticker": "AVGO",
-        "title": "Stock Market Today, Nov. 25: Nvidia Slides 3.9% as the Market Considers Hot PCE Inflation Data and New Tariff Proposals",
-        "summary": "Trading ran well above normal as Nvidia fell on hot inflation data and tariff proposals, today, Nov. 25, 2026.",
-        "published_at": "2026-11-25T22:06:45+00:00",
+        "title": "These 2 AI Chip Stocks Are Down 36% to 39% From Their Highs. Here’s What History Says Happens Next.",
+        "summary": "Nvidia and Broadcom shares have pulled back sharply even as AI demand holds up. Past sell-offs offer clues for long-term investors.",
+        "published_at": "2026-11-27T00:20:02+00:00",
         "publisher": "Motley Fool",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-nvidia-slides-3-9-as-the-market-considers-hot-pce-inflation-data-and-new-tariff-proposals/",
+        "url": "https://www.fool.com/investing/2026/11/26/these-2-ai-chip-stocks-are-down-36-to-39-from-their-highs-here-s-what-history-says-happens-next/",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "AVGO",
-        "title": "Not Micron. Not Broadcom. This Is My Top Oversold Artificial Intelligence (AI) Stock to Buy in December",
-        "summary": "Marvell's earnings growth is poised to accelerate sharply, making the stock a no-brainer buy ahead of its quarterly report.",
-        "published_at": "2026-11-25T21:51:01+00:00",
-        "publisher": "Motley Fool",
-        "url": "https://www.fool.com/investing/2026/11/25/not-micron-not-broadcom-this-is-my-top-oversold-artificial-intelligence-ai-stock-to-buy-in-december/",
+        "title": "5 Most Oversold Semiconductor Stocks to Buy for 2027",
+        "summary": "The semiconductor sector has experienced heightened volatility in 2026, with several stocks retreating significantly from their 52-week highs. These deep pullbacks reflect heightened profit-taking and valuation concerns. They have also been exacerbated by shifting investor sentiment after the US midterm elections and uncertainty surrounding artificial intelligence (AI) spending. The Philadelphia Semiconductor Index (SOX), which tracks […]",
+        "published_at": "2026-11-26T19:47:38+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/5-most-oversold-semiconductor-stocks-194738573.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "AVGO",
-        "title": "Why Is Credo Stock Going Up?",
-        "summary": "Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back.",
-        "published_at": "2026-11-25T21:13:32+00:00",
+        "title": "Goldman Sachs resets Broadcom's 12-month price target before earnings",
+        "summary": "AVGO AI funding and 2028 data center concerns grow.",
+        "published_at": "2026-11-26T19:33:15+00:00",
+        "publisher": "TheStreet",
+        "url": "https://www.thestreet.com/investing/stocks/avgo-broadcom-stock-goldman-sachs-resets-avgo-stock-12-month-price-target-before-earnings",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AVGO",
+        "title": "Broadcom Stocks Edge Lower After Rebounding From an Intraday Low of $278",
+        "summary": "Shares erased a 7.7% intraday slide to their lowest level since July 2025 as Google and Anthropic exposure stays in focus.",
+        "published_at": "2026-11-26T18:30:41+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-edge-lower-rebounding-183041028.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AVGO",
+        "title": "NVIDIA Just Dropped 31% in a Month. Will NVDA Stock Hit $125 or $200 First?",
+        "summary": "A CEO resignation, a credit rating on watch, and export rules scrambling China-bound GPUs have rattled the AI trade's biggest name. Two very different futures now compete for NVIDIA shares, and the next catalysts could tip the balance.",
+        "published_at": "2026-11-26T16:06:22+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/26/nvidia-just-dropped-31-in-a-month-will-nvda-stock-hit-125-or-200-first/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AVGO",
+        "title": "S&P’s NVIDIA Warning is Backward Looking Governance Theater That Gives Everyone an Opportunity to Buy at $150",
+        "summary": "NVIDIA lost its CEO, drew a credit warning, and watched its stock slide nearly a third in a month. So why does one investor keep buying more every week, and which three numbers convinced him the real story lies elsewhere?",
+        "published_at": "2026-11-26T15:45:38+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/26/sps-nvidia-warning-is-backward-looking-governance-theater-that-gives-everyone-an-opportunity-to-buy-at-150/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AVGO",
+        "title": "Marvell Reports Tuesday. How Often Has It Dropped 10%?",
+        "summary": "Marvell Technology reports its quarterly results next Tuesday, Dec 1, after the market close. The first trading session after that report is Wednesday, Dec 2. In the 26 reports our earnings calendar lists since March 2020, Marvell fell 10% or more the next day 6 times. That is about 1 in 4 reports.",
+        "published_at": "2026-11-26T15:15:26+00:00",
         "publisher": "Trefis",
-        "url": "https://www.trefis.com/stock/crdo/articles/628617/why-is-credo-stock-going-up/2026-11-25",
+        "url": "https://www.trefis.com/stock/mrvl/articles/629177/marvell-reports-tuesday-how-often-has-it-dropped-10/2026-11-26",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "AVGO",
-        "title": "The $2 trillion chip rally is unraveling — here's what history says comes next",
-        "summary": "Two days after Nvidia's record rebound, chip stocks are back where they started.",
-        "published_at": "2026-11-25T14:53:06+00:00",
-        "publisher": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/article/the-2-trillion-chip-rally-is-getting-wiped-out--heres-what-history-says-comes-next-145306996.html",
+        "title": "What's Happening To Marvell's Cash Gap With Broadcom",
+        "summary": "Today's big story: Anthropic Broke Its $83 IPO Price. What Did Facebook Do Next.",
+        "published_at": "2026-11-26T15:15:26+00:00",
+        "publisher": "Trefis",
+        "url": "https://www.trefis.com/stock/avgo/articles/629176/what-s-happening-to-marvell-s-cash-gap-with-broadcom/2026-11-26",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       },
       {
         "ticker": "AVGO",
-        "title": "Nvidia, AMD, and Micron stocks trim steep losses amid jittery AI trade",
-        "summary": "Chip stocks led an AI trade sell-off on Wednesday.",
-        "published_at": "2026-11-25T13:45:18+00:00",
-        "publisher": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/article/nvidia-amd-micron-stocks-sink-as-investors-flee-ai-trade-134518921.html",
+        "title": "Credo Technology Ahead of Q2 Earnings: How to Approach the Stock Now?",
+        "summary": "CRDO heads into Q2 earnings with strong AEC demand and growing optical opportunities, but premium valuation and execution risks warrant caution.",
+        "published_at": "2026-11-26T14:30:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-ahead-q2-earnings-143000855.html",
         "language": null,
         "source": "STORY",
         "related_tickers": null
       }
     ],
-    "history_count": 459,
+    "history_count": 469,
     "history": [
+      {
+        "ticker": "AVGO",
+        "title": "Broadcom (AVGO) Could Be the Biggest Winner From the Shift to Custom AI Chips",
+        "summary": "We just published the list of the 10 Best Tech Stocks to Buy for 2027 According to Hedge Funds, and Broadcom Inc. (NASDAQ:AVGO) ranked 9th on this list. Tech stocks aren’t lacking in growth stories for 2027. The problem is that smart money is increasingly selective about which companies it’s willing to pay a premium […]",
+        "published_at": "2026-11-27T03:15:33+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-could-biggest-winner-031533044.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AVGO",
+        "title": "These 2 AI Chip Stocks Are Down 36% to 39% From Their Highs. Here’s What History Says Happens Next.",
+        "summary": "Nvidia and Broadcom shares have pulled back sharply even as AI demand holds up. Past sell-offs offer clues for long-term investors.",
+        "published_at": "2026-11-27T00:20:02+00:00",
+        "publisher": "Motley Fool",
+        "url": "https://www.fool.com/investing/2026/11/26/these-2-ai-chip-stocks-are-down-36-to-39-from-their-highs-here-s-what-history-says-happens-next/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AVGO",
+        "title": "5 Most Oversold Semiconductor Stocks to Buy for 2027",
+        "summary": "The semiconductor sector has experienced heightened volatility in 2026, with several stocks retreating significantly from their 52-week highs. These deep pullbacks reflect heightened profit-taking and valuation concerns. They have also been exacerbated by shifting investor sentiment after the US midterm elections and uncertainty surrounding artificial intelligence (AI) spending. The Philadelphia Semiconductor Index (SOX), which tracks […]",
+        "published_at": "2026-11-26T19:47:38+00:00",
+        "publisher": "Insider Monkey",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/5-most-oversold-semiconductor-stocks-194738573.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AVGO",
+        "title": "Goldman Sachs resets Broadcom's 12-month price target before earnings",
+        "summary": "AVGO AI funding and 2028 data center concerns grow.",
+        "published_at": "2026-11-26T19:33:15+00:00",
+        "publisher": "TheStreet",
+        "url": "https://www.thestreet.com/investing/stocks/avgo-broadcom-stock-goldman-sachs-resets-avgo-stock-12-month-price-target-before-earnings",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AVGO",
+        "title": "Broadcom Stocks Edge Lower After Rebounding From an Intraday Low of $278",
+        "summary": "Shares erased a 7.7% intraday slide to their lowest level since July 2025 as Google and Anthropic exposure stays in focus.",
+        "published_at": "2026-11-26T18:30:41+00:00",
+        "publisher": "GuruFocus.com",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-edge-lower-rebounding-183041028.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AVGO",
+        "title": "NVIDIA Just Dropped 31% in a Month. Will NVDA Stock Hit $125 or $200 First?",
+        "summary": "A CEO resignation, a credit rating on watch, and export rules scrambling China-bound GPUs have rattled the AI trade's biggest name. Two very different futures now compete for NVIDIA shares, and the next catalysts could tip the balance.",
+        "published_at": "2026-11-26T16:06:22+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/26/nvidia-just-dropped-31-in-a-month-will-nvda-stock-hit-125-or-200-first/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AVGO",
+        "title": "S&P’s NVIDIA Warning is Backward Looking Governance Theater That Gives Everyone an Opportunity to Buy at $150",
+        "summary": "NVIDIA lost its CEO, drew a credit warning, and watched its stock slide nearly a third in a month. So why does one investor keep buying more every week, and which three numbers convinced him the real story lies elsewhere?",
+        "published_at": "2026-11-26T15:45:38+00:00",
+        "publisher": "24/7 Wall St.",
+        "url": "https://247wallst.com/investing/2026/11/26/sps-nvidia-warning-is-backward-looking-governance-theater-that-gives-everyone-an-opportunity-to-buy-at-150/",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AVGO",
+        "title": "Marvell Reports Tuesday. How Often Has It Dropped 10%?",
+        "summary": "Marvell Technology reports its quarterly results next Tuesday, Dec 1, after the market close. The first trading session after that report is Wednesday, Dec 2. In the 26 reports our earnings calendar lists since March 2020, Marvell fell 10% or more the next day 6 times. That is about 1 in 4 reports.",
+        "published_at": "2026-11-26T15:15:26+00:00",
+        "publisher": "Trefis",
+        "url": "https://www.trefis.com/stock/mrvl/articles/629177/marvell-reports-tuesday-how-often-has-it-dropped-10/2026-11-26",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AVGO",
+        "title": "What's Happening To Marvell's Cash Gap With Broadcom",
+        "summary": "Today's big story: Anthropic Broke Its $83 IPO Price. What Did Facebook Do Next.",
+        "published_at": "2026-11-26T15:15:26+00:00",
+        "publisher": "Trefis",
+        "url": "https://www.trefis.com/stock/avgo/articles/629176/what-s-happening-to-marvell-s-cash-gap-with-broadcom/2026-11-26",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
+      {
+        "ticker": "AVGO",
+        "title": "Credo Technology Ahead of Q2 Earnings: How to Approach the Stock Now?",
+        "summary": "CRDO heads into Q2 earnings with strong AEC demand and growing optical opportunities, but premium valuation and execution risks warrant caution.",
+        "published_at": "2026-11-26T14:30:00+00:00",
+        "publisher": "Zacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-ahead-q2-earnings-143000855.html",
+        "language": null,
+        "source": "STORY",
+        "related_tickers": null
+      },
       {
         "ticker": "AVGO",
         "title": "Why Retail Investors Are Watching AMD and AI Infrastructure Stocks After SpaceX Satellite News",
@@ -20909,12 +21167,12 @@
     ]
   },
   "Confidence": {
-    "scoring": "High",
-    "discovery": "High"
+    "scoring": "Medium",
+    "discovery": "Medium"
   },
   "SignalStrength": {
     "scoring": "Moderate",
     "discovery": "Moderate"
   },
-  "Timestamp": "2026-11-25T22:53:09.538798-05:00"
+  "Timestamp": "2026-11-26T22:54:14.601877-05:00"
 }
