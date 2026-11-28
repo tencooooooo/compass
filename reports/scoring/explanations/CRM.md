@@ -5,7 +5,7 @@
 ## Summary
 
 - Company: Salesforce, Inc.
-- Total Score: 73 / 100
+- Total Score: 68 / 100
 - Confidence: High
 - Signal Strength: Strong
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
@@ -27,7 +27,7 @@ Strong
 
 理由
 
-- データが確認できた 100 点満点のうち 73 点を獲得し、シグナル充足率は 73.0% です。
+- データが確認できた 100 点満点のうち 68 点を獲得し、シグナル充足率は 68.0% です。
 - シグナル強度は Strong(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -107,10 +107,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 18.0430
-- forward_pe: 12.3006
+- trailing_pe: 18.1345
+- forward_pe: 12.3630
 - peg_ratio: 0.4900
-- price_to_book: 4.2291
+- price_to_book: 4.2505
 - sector_peer_count: 16
 - trailing_pe_percentile: 42.8600
 - trailing_pe_peer_count: 15
@@ -123,15 +123,15 @@ Evidence
 
 ## Momentum
 
-7点
+4点
 
 理由
 
-- 1M の対SPY超過リターンは -11.25pt と、市場を大きく下回っています。
-- 3M の対SPY超過リターンは -14.80pt と、市場を大きく下回っています。
-- 6M の対SPY超過リターンが +16.97pt と、市場を大きく上回っています。
-- 1Y の対SPY超過リターンは -20.65pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.92 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは -12.44pt と、市場を大きく下回っています。
+- 3M の対SPY超過リターンは -17.34pt と、市場を大きく下回っています。
+- 6M の対SPY超過リターンは +7.41pt で、市場並み以上です。
+- 1Y の対SPY超過リターンは -23.68pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.35 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -140,25 +140,25 @@ Evidence
 
 使用データ
 
-- 1M: -18.1328
-- 3M: -21.6199
-- 6M: 12.4294
-- 1Y: -12.3169
+- 1M: -18.1323
+- 3M: -22.4380
+- 6M: 4.1712
+- 1Y: -14.6202
 - benchmark: SPY
-- benchmark_returns: {'1M': -6.88, '3M': -6.82, '6M': -4.54, '1Y': 8.33}
-- excess_returns: {'1M': -11.25, '3M': -14.8, '6M': 16.97, '1Y': -20.65}
-- latest_volume: 6,734,500.0000
-- average_volume_30d: 7,340,146.6667
+- benchmark_returns: {'1M': -5.7, '3M': -5.1, '6M': -3.23, '1Y': 9.06}
+- excess_returns: {'1M': -12.44, '3M': -17.34, '6M': 7.41, '1Y': -23.68}
+- latest_volume: 2,515,300.0000
+- average_volume_30d: 7,132,950.0000
 
 ## News
 
-17点
+15点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
 - ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
-- イベント後の平均株価反応が 2.04% とプラスです。
+- イベント後の平均株価反応が 0.51% と中立圏です。
 
 Evidence
 
@@ -173,7 +173,7 @@ Evidence
 - negative_count: 0
 - sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 5
+- events_with_price_reaction: 10
 
 ## Note
 

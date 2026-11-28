@@ -14,16 +14,16 @@
 
 ## Discovery Reasons
 
-- Scoring EngineのGrowthが 16/20 で、成長性の基礎条件が確認できます。
+- Scoring EngineのGrowthが 14/20 で、成長性の基礎条件が確認できます。
 - Financial Healthが 16/20 で、継続調査に必要な財務基盤を評価しています。
 - Newsスコアが 17/20 で、材料の量と市場関心を候補評価に反映しています。
 - 売上が取得でき、事業規模の確認ができます。
 - EPSがプラスで、利益を伴う成長候補として確認できます。
 - 研究開発費が確認でき、将来成長への投資シグナルがあります。
 - FCFがプラスで、成長投資を支える現金創出力があります。
-- 1Mモメンタムは対SPYで +13.25pt と、市場を大きく上回っています。
-- 3Mモメンタムは対SPYで -0.22pt と、市場を小幅に下回っています。
-- 6Mモメンタムは対SPYで -28.42pt と弱く、候補評価では注意点です。
+- 1Mモメンタムは対SPYで +3.99pt と、市場並み以上です。
+- 3Mモメンタムは対SPYで -20.34pt と弱く、候補評価では注意点です。
+- 6Mモメンタムは対SPYで -25.93pt と弱く、候補評価では注意点です。
 
 ## Strengths
 
@@ -33,7 +33,6 @@
 
 ## Watch Points
 
-- バリュエーション面のスコアが低く、期待先行や割高さの確認が必要です。
 - 売上成長、営業利益率、FCFが同時に改善しているかを継続確認する必要があります。
 - 直近ニュース後の出来高と株価反応が継続的か、一時的かを確認する価値があります。
 - Communication Services セクター全体の需要変化と競争環境を確認する必要があります。
@@ -46,7 +45,7 @@ High
 
 ## Signal Strength
 
-Moderate(シグナル充足率: 61.1%)
+Moderate(シグナル充足率: 60.55%)
 
 ## Evidence
 
@@ -65,20 +64,20 @@ Moderate(シグナル充足率: 61.1%)
 
 ## Metrics
 
-- scoring_total: 58.0
-- signal_earned_points: 61.1
+- scoring_total: 60.0
+- signal_earned_points: 60.55
 - signal_max_points: 100.0
 - weak_signals: []
 - scoring_signal_strength: Moderate
-- growth_score: 16.0
+- growth_score: 14.0
 - financial_health_score: 16.0
-- valuation_score: 3.0
+- valuation_score: 9.0
 - news_score: 17.0
-- momentum: {'1m': 12.45073222795432, '3m': 1.4843066286731788, '6m': -16.146360950616646, '1y': -31.859550423056827}
+- momentum: {'1m': -1.7099553873043751, '3m': -25.44052937466227, '6m': -29.167632314611335, '1y': -41.63793159517118}
 - benchmark: SPY
-- excess_momentum: {'1m': 13.25, '3m': -0.22, '6m': -28.42, '1y': -52.69}
-- positive_news: 3
+- excess_momentum: {'1m': 3.99, '3m': -20.34, '6m': -25.93, '1y': -50.7}
+- positive_news: 5
 - watch_news: 0
 - event_count: 10
 - events_with_reaction: 9
-- sector_average_score: 60.333333333333336
+- sector_average_score: 64.83333333333333

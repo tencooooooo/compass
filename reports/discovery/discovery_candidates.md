@@ -6,8 +6,8 @@
 
 - 対象企業数: 24
 - セクター数: 3
-- 市場平均スコア: 63.333333333333336
-- 1M市場モメンタム平均: -6.0636008052355015
+- 市場平均スコア: 63.041666666666664
+- 1M市場モメンタム平均: -4.485549363336821
 - ニュース件数: 240
 - Event数: 240
 
@@ -15,19 +15,23 @@
 
 | Ticker | Company | Sector | Discovery Score | Status | Confidence | Signal |
 | --- | --- | --- | --- | --- | --- | --- |
-| DIS | The Walt Disney Company | Communication Services | 82 | Primary Candidate | Medium | Strong |
-| TXN | Texas Instruments Incorporated | Technology | 77 | Primary Candidate | High | Strong |
-| MSFT | Microsoft Corporation | Technology | 73 | Watch Candidate | Medium | Strong |
-| QCOM | QUALCOMM Incorporated | Technology | 73 | Watch Candidate | High | Strong |
-| AMD | Advanced Micro Devices, Inc. | Technology | 71 | Watch Candidate | Medium | Strong |
-| CRM | Salesforce, Inc. | Technology | 71 | Watch Candidate | High | Strong |
-| META | Meta Platforms, Inc. | Communication Services | 69 | Watch Candidate | Medium | Strong |
-| HD | The Home Depot, Inc. | Consumer Cyclical | 69 | Watch Candidate | Medium | Strong |
-| AAPL | Apple Inc. | Technology | 68 | Watch Candidate | Medium | Strong |
-| ADBE | Adobe Inc. | Technology | 67 | Watch Candidate | High | Strong |
-| AMZN | Amazon.com, Inc. | Consumer Cyclical | 64 | Watch Candidate | Medium | Strong |
-| CMCSA | Comcast Corporation | Communication Services | 61 | Watch Candidate | Medium | Moderate |
-| NVDA | NVIDIA Corporation | Technology | 60 | Watch Candidate | Medium | Moderate |
+| DIS | The Walt Disney Company | Communication Services | 81 | Primary Candidate | Medium | Strong |
+| TXN | Texas Instruments Incorporated | Technology | 80 | Primary Candidate | High | Strong |
+| META | Meta Platforms, Inc. | Communication Services | 80 | Primary Candidate | High | Strong |
+| MSFT | Microsoft Corporation | Technology | 79 | Primary Candidate | High | Strong |
+| AMZN | Amazon.com, Inc. | Consumer Cyclical | 76 | Primary Candidate | Medium | Strong |
+| QCOM | QUALCOMM Incorporated | Technology | 74 | Watch Candidate | High | Strong |
+| AAPL | Apple Inc. | Technology | 73 | Watch Candidate | High | Strong |
+| AMD | Advanced Micro Devices, Inc. | Technology | 70 | Watch Candidate | High | Strong |
+| CRM | Salesforce, Inc. | Technology | 69 | Watch Candidate | High | Strong |
+| CMCSA | Comcast Corporation | Communication Services | 69 | Watch Candidate | Medium | Strong |
+| NVDA | NVIDIA Corporation | Technology | 68 | Watch Candidate | High | Strong |
+| GOOGL | Alphabet Inc. | Communication Services | 63 | Watch Candidate | Medium | Moderate |
+| TSLA | Tesla, Inc. | Consumer Cyclical | 63 | Watch Candidate | High | Moderate |
+| AVGO | Broadcom Inc. | Technology | 61 | Watch Candidate | High | Moderate |
+| ADBE | Adobe Inc. | Technology | 61 | Watch Candidate | High | Moderate |
+| NFLX | Netflix, Inc. | Communication Services | 61 | Watch Candidate | High | Moderate |
+| HD | The Home Depot, Inc. | Consumer Cyclical | 60 | Watch Candidate | Medium | Moderate |
 
 ## Top Candidate
 

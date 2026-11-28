@@ -5,21 +5,20 @@
 ## Summary
 
 - Company: Tesla, Inc.
-- Total Score: 56 / 100
-- Confidence: Medium
+- Total Score: 61 / 100
+- Confidence: High
 - Signal Strength: Moderate
 - Evidence: Company, Events, Financials, Knowledge, News, Prices
 
 ## Confidence
 
-Medium
+High
 
 理由
 
 - 利用可能な主要データ領域は5領域中 5 領域です。
-- 欠損または計算不可の項目数は 1 件です。
-- 主要データは一定程度ありますが、欠損や未取得項目が残っています。
-- イベントDBの株価反応が不足しているため、ConfidenceをHighにはしていません。
+- 欠損または計算不可の項目数は 0 件です。
+- 主要データが比較的そろっており、説明可能性は高めです。
 - Confidenceはデータ充足度のみの評価で、シグナルの強弱はSignal Strengthに分離しています。
 
 ## Signal Strength
@@ -28,7 +27,7 @@ Moderate
 
 理由
 
-- データが確認できた 100 点満点のうち 56 点を獲得し、シグナル充足率は 56.0% です。
+- データが確認できた 100 点満点のうち 61 点を獲得し、シグナル充足率は 61.0% です。
 - シグナル強度は Moderate(Strong: 65%以上 / Moderate: 40%以上)です。
 
 ## Growth
@@ -109,10 +108,10 @@ Evidence
 
 使用データ
 
-- trailing_pe: 417.7363
-- forward_pe: 176.0543
+- trailing_pe: 439.5604
+- forward_pe: 184.8617
 - peg_ratio: 38.0000
-- price_to_book: 16.8293
+- price_to_book: 17.7085
 - sector_peer_count: 10
 - trailing_pe_percentile: 100
 - trailing_pe_peer_count: 10
@@ -125,15 +124,15 @@ Evidence
 
 ## Momentum
 
-11点
+9点
 
 理由
 
-- 1M の対SPY超過リターンは +0.18pt で、市場並み以上です。
-- 3M の対SPY超過リターンが +13.96pt と、市場を大きく上回っています。
-- 6M の対SPY超過リターンは -9.47pt と、市場を小幅に下回っています。
-- 1Y の対SPY超過リターンは -17.34pt と、市場を大きく下回っています。
-- 直近出来高が30日平均の 0.92 倍で、通常水準の流動性があります。
+- 1M の対SPY超過リターンは +4.65pt で、市場並み以上です。
+- 3M の対SPY超過リターンが +19.79pt と、市場を大きく上回っています。
+- 6M の対SPY超過リターンは -4.98pt と、市場を小幅に下回っています。
+- 1Y の対SPY超過リターンは -13.69pt と、市場を大きく下回っています。
+- 直近出来高が30日平均の 0.70 倍で、市場関心はやや弱めです。
 
 Evidence
 
@@ -142,25 +141,25 @@ Evidence
 
 使用データ
 
-- 1M: -6.7049
-- 3M: 7.1390
-- 6M: -14.0149
-- 1Y: -9.0095
+- 1M: -1.0440
+- 3M: 14.6953
+- 6M: -8.2127
+- 1Y: -4.6257
 - benchmark: SPY
-- benchmark_returns: {'1M': -6.88, '3M': -6.82, '6M': -4.54, '1Y': 8.33}
-- excess_returns: {'1M': 0.18, '3M': 13.96, '6M': -9.47, '1Y': -17.34}
-- latest_volume: 34,915,800.0000
-- average_volume_30d: 38,013,723.3333
+- benchmark_returns: {'1M': -5.7, '3M': -5.1, '6M': -3.23, '1Y': 9.06}
+- excess_returns: {'1M': 4.65, '3M': 19.79, '6M': -4.98, '1Y': -13.69}
+- latest_volume: 26,634,600.0000
+- average_volume_30d: 38,010,600.0000
 
 ## News
 
-10点
+17点
 
 理由
 
 - ニュース件数は 10 件で、情報量に応じて 3.0 点を加点しています。
-- ニュース見出し・要約の簡易分類では、好材料 3 件、悪材料 2 件(純比率 +0.20)で、センチメントは 4.8 点です。
-- イベントDBはありますが、株価反応が未取得のため、イベント評価は限定的です。
+- ニュース見出し・要約の簡易分類では、好材料 1 件、悪材料 0 件(純比率 +1.00)で、センチメントは 8.0 点です。
+- イベント後の平均株価反応が 5.22% とプラスです。
 
 Evidence
 
@@ -171,15 +170,11 @@ Evidence
 使用データ
 
 - news_count: 10
-- positive_count: 3
-- negative_count: 2
-- sentiment_net_ratio: 0.2000
+- positive_count: 1
+- negative_count: 0
+- sentiment_net_ratio: 1.0000
 - event_count: 10
-- events_with_price_reaction: 0
-
-欠損・計算不可
-
-- event_price_reaction
+- events_with_price_reaction: 7
 
 ## Note
 

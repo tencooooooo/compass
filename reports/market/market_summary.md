@@ -6,7 +6,7 @@
 
 - 取得対象企業数: 24
 - セクター数: 3
-- 市場全体の1Mモメンタム平均: -6.06%
+- 市場全体の1Mモメンタム平均: -4.49%
 - ニュース件数: 240
 - Event数: 240
 - 比較分析レポート: market_overview.md, mega_tech_comparison.md, sector_technology.md, semiconductor_comparison.md
@@ -21,27 +21,27 @@
 
 ### 注目ニュース
 
-- 2026-11-27T03:21:49+00:00 / MSFT / Insider Monkey: 5 Best Quantum Computing Stocks To 投資判断表現 for 2027
-- 2026-11-27T03:21:49+00:00 / NVDA / Insider Monkey: 5 Best Quantum Computing Stocks To 投資判断表現 for 2027
-- 2026-11-27T03:21:49+00:00 / GOOGL / Insider Monkey: 5 Best Quantum Computing Stocks To 投資判断表現 for 2027
-- 2026-11-27T03:21:49+00:00 / AMZN / Insider Monkey: 5 Best Quantum Computing Stocks To 投資判断表現 for 2027
-- 2026-11-27T03:20:02+00:00 / NVDA / Motley Fool: Nvidia Is Down 35% From Its All-Time High, Tied for Its Biggest Drop Since the AI Boom Began. Is It a 投資判断表現?
+- 2026-11-28T03:33:00+00:00 / AMAT / TheStreet: Jim Cramer's says another chip stock down 56% is "comically cheap"
+- 2026-11-28T03:03:00+00:00 / AMZN / TheStreet: Amazon takes its car store abroad for the first time in 2027
+- 2026-11-28T01:26:46+00:00 / ADBE / Investing.com: U.S. Black Friday online sales set to exceed $13 billion, Adobe predicts
+- 2026-11-28T01:26:46+00:00 / AMZN / Investing.com: U.S. Black Friday online sales set to exceed $13 billion, Adobe predicts
+- 2026-11-28T01:19:10+00:00 / AAPL / Motley Fool: Apple Is Beating the Rest of the "Magnificent Seven" in 2026. Can It Do It Again in 2027?
 
 ### 注目イベント
 
-- 2026-11-25T20:23:30+00:00 / TXN: What Sent Qualcomm Stock Higher? (株価反応: 4.55%, 出来高: 10.47M)
-- 2026-11-25T18:47:51+00:00 / TXN: Analog Devices Just Plunged After Earnings. Is Its Dividend Now a Bargain? (株価反応: 4.55%, 出来高: 10.47M)
-- 2026-11-25T16:32:56+00:00 / TXN: Should You 投資判断表現 The Dip In Texas Instruments Stock? (株価反応: 4.55%, 出来高: 10.47M)
-- 2026-11-25T13:22:43+00:00 / TXN: Analog Devices Stock Just Had Its Worst Day Since 1998 (株価反応: 4.55%, 出来高: 10.47M)
-- 2026-11-25T13:00:02+00:00 / TXN: Texas Instruments Incorporated (TXN) is Attracting Investor Attention: Here is What You Should Know (株価反応: 4.55%, 出来高: 10.47M)
+- 2026-11-27T18:19:11+00:00 / QCOM: Qualcomm Stocks Climb 4.18% After Tying CEO Award to $500 Share Price (株価反応: 6.29%, 出来高: 9.77M)
+- 2026-11-27T18:06:02+00:00 / QCOM: Qualcomm, Cava, and Dutch Bros Earnings and a Robotics IPO (株価反応: 6.29%, 出来高: 9.77M)
+- 2026-11-27T17:15:18+00:00 / QCOM: Qualcomm (QCOM) Stock Is Up 6.9% Today: Chip Stocks Rally With Market (株価反応: 6.29%, 出来高: 9.77M)
+- 2026-11-27T16:33:19+00:00 / QCOM: Qualcomm Is Betting Big on a $5 Billion Opportunity. Here’s What It Could Mean for the Stock (株価反応: 6.29%, 出来高: 9.77M)
+- 2026-11-27T13:40:36+00:00 / QCOM: Trump’s New Tariffs Hit Taiwan but Spare Its Chips. That’s Good News for TSMC and Apple (株価反応: 6.29%, 出来高: 9.77M)
 
 ## セクター分析
 
 | セクター | 銘柄数 | 平均スコア | 平均PER | 平均EPS | 平均1Mモメンタム | ニュース件数 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Communication Services | 6 | 63.83 | 16.34 | 12.01 | 4.06% | 60 |
-| Consumer Cyclical | 6 | 59.83 | 87.07 | 9.05 | 5.57% | 60 |
-| Technology | 12 | 64.83 | 32.75 | 9.97 | -16.94% | 120 |
+| Communication Services | 6 | 64.83 | 16.78 | 11.85 | 6.49% | 60 |
+| Consumer Cyclical | 6 | 60.17 | 90.90 | 9.05 | 7.55% | 60 |
+| Technology | 12 | 63.58 | 33.62 | 9.97 | -15.99% | 120 |
 
 ## 市場トレンド
 
@@ -53,7 +53,7 @@
 
 ## 市場心理
 
-市場はややリスクオフ寄りと考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 240 件で、ポジティブなモメンタムのセクターは 2/3 です。
+市場は中立から方向感を探る局面と考えられます。 ただし、これは対象銘柄群の価格・ニュース・イベントから見たルールベースの整理であり、市場全体を断定するものではありません。ニュース件数は 240 件で、ポジティブなモメンタムのセクターは 2/3 です。
 
 参照Knowledge: market_psychology.md
 
